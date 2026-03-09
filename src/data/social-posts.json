@@ -1,0 +1,484 @@
+[
+  {
+    "id": "social-001",
+    "platform": "twitter",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "BREAKING: Massive explosions across Tehran, Isfahan, Qom, Karaj. Anti-aircraft fire visible from multiple angles. This is the largest coordinated strike package ever launched against Iran.",
+    "timestamp": "2026-02-28T02:15:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by CENTCOM and multiple ground video sources",
+    "engagement": {
+      "likes": 285000,
+      "retweets": 142000,
+      "replies": 48000
+    }
+  },
+  {
+    "id": "social-002",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Iranian state media confirming death of Supreme Leader Khamenei. 40 days of mourning declared. IRGC vowing 'the heaviest response in the history of the Islamic Republic.'",
+    "timestamp": "2026-03-01T07:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Iranian state TV (IRIB) and multiple officials",
+    "engagement": {
+      "likes": 412000,
+      "retweets": 198000,
+      "replies": 67000
+    }
+  },
+  {
+    "id": "social-003",
+    "platform": "twitter",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "Missile impact confirmed in Beit Shemesh, Israel. Rescue teams on scene. Reports of 9 dead. Part of Iran's Operation True Promise IV retaliatory barrage.",
+    "timestamp": "2026-03-01T06:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by IDF, MDA, and ground footage",
+    "engagement": {
+      "likes": 178000,
+      "retweets": 89000,
+      "replies": 22000
+    }
+  },
+  {
+    "id": "social-004",
+    "platform": "twitter",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers",
+    "text": "Strait of Hormuz effectively shut. AIS shows 150+ vessels at anchor. No transits in 18 hours. War-risk insurance pulled. Blocking ~15M bbl/day - 20% of global oil supply.",
+    "timestamp": "2026-03-03T02:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Verified through AIS data and maritime insurance reports",
+    "engagement": {
+      "likes": 156000,
+      "retweets": 78000,
+      "replies": 18000
+    }
+  },
+  {
+    "id": "social-005",
+    "platform": "twitter",
+    "handle": "@WarMonitor3",
+    "displayName": "War Monitor",
+    "text": "US submarine torpedoed Iranian warship IRINS Dena off Sri Lanka. 101 of 180 crew missing. First warship sunk by submarine since the Falklands War.",
+    "timestamp": "2026-03-04T06:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by CENTCOM and Iranian Navy",
+    "engagement": {
+      "likes": 234000,
+      "retweets": 112000,
+      "replies": 34000
+    }
+  },
+  {
+    "id": "social-006",
+    "platform": "twitter",
+    "handle": "@MidEastWatch",
+    "displayName": "Middle East Watch",
+    "text": "UNVERIFIED: Reports of secondary explosions at Parchin military complex suggesting stored weapons hit. Satellite pass in 4 hours should confirm.",
+    "timestamp": "2026-03-05T04:00:00Z",
+    "verificationStatus": "rumored",
+    "verificationNote": "Multiple OSINT accounts reporting but awaiting satellite confirmation",
+    "engagement": {
+      "likes": 89000,
+      "retweets": 45000,
+      "replies": 12000
+    }
+  },
+  {
+    "id": "social-007",
+    "platform": "twitter",
+    "handle": "@IntelDoge",
+    "displayName": "Intel Doge",
+    "text": "Minab school strike death toll revised to ~180, mostly schoolgirls. Most controversial civilian casualty event of the conflict. International condemnation growing rapidly.",
+    "timestamp": "2026-03-03T12:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Initial toll confirmed; revised figure from Iranian medical sources, partially verified",
+    "engagement": {
+      "likes": 312000,
+      "retweets": 167000,
+      "replies": 89000
+    }
+  },
+  {
+    "id": "social-008",
+    "platform": "twitter",
+    "handle": "@CyberSecHub",
+    "displayName": "CyberSec Hub",
+    "text": "AWS data centers in Bahrain and UAE remain offline after drone strikes. Cascading failures across Middle East cloud infrastructure. Major services disrupted region-wide.",
+    "timestamp": "2026-03-03T10:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by AWS status page and enterprise reports",
+    "engagement": {
+      "likes": 67000,
+      "retweets": 34000,
+      "replies": 8900
+    }
+  },
+  {
+    "id": "social-lead-001",
+    "platform": "twitter",
+    "handle": "@ShaykhSulaiman",
+    "displayName": "Shaykh Sulaiman",
+    "text": "Reports from sources on the ground: heavy Iranian missile launches from underground facilities in Kerman province toward Israeli targets. Multiple waves detected. Damage reports incoming.",
+    "timestamp": "2026-03-05T15:30:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Monitored lead source - partially corroborated by satellite imagery",
+    "engagement": {
+      "likes": 45000,
+      "retweets": 18000,
+      "replies": 5600
+    },
+    "sourceCategory": "lead"
+  },
+  {
+    "id": "social-lead-002",
+    "platform": "twitter",
+    "handle": "@IranObserver0",
+    "displayName": "Iran Observer",
+    "text": "IRGC underground missile bases in western Iran reportedly surviving strikes and continuing to launch. Tunnel complexes far more extensive than US intelligence estimated. This war is far from over.",
+    "timestamp": "2026-03-05T18:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Monitored lead source - consistent with known IRGC underground facility networks",
+    "engagement": {
+      "likes": 67000,
+      "retweets": 29000,
+      "replies": 8200
+    },
+    "sourceCategory": "lead"
+  },
+  {
+    "id": "social-lead-003",
+    "platform": "twitter",
+    "handle": "@IRIran_Military",
+    "displayName": "IR Iran Military",
+    "text": "Iranian military claims successful strikes on Nevatim airbase in Israel causing significant damage to F-35 hangars. IDF has not confirmed or denied. Israeli censorship orders in effect for strike damage.",
+    "timestamp": "2026-03-05T20:00:00Z",
+    "verificationStatus": "rumored",
+    "verificationNote": "Monitored lead source - Iranian military claim, unverifiable due to Israeli censorship on strike damage reporting",
+    "engagement": {
+      "likes": 89000,
+      "retweets": 42000,
+      "replies": 15000
+    },
+    "sourceCategory": "lead"
+  },
+  {
+    "id": "social-lead-004",
+    "platform": "twitter",
+    "handle": "@officialrnintel",
+    "displayName": "RN Intel",
+    "text": "Multiple reports of a second wave of Iranian ballistic missiles heading toward Gulf shipping lanes. CENTCOM has not yet commented. Tanker crews reporting to shelters. This could mean total Hormuz closure.",
+    "timestamp": "2026-03-05T22:30:00Z",
+    "verificationStatus": "rumored",
+    "verificationNote": "Monitored lead source - under active verification. Maritime tracking data inconclusive so far.",
+    "engagement": {
+      "likes": 34000,
+      "retweets": 15000,
+      "replies": 4200
+    },
+    "sourceCategory": "lead"
+  },
+  {
+    "id": "social-009",
+    "platform": "twitter",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "BREAKING: Multiple B-2 Spirit stealth bombers confirmed striking Isfahan and Natanz nuclear facilities with GBU-57 bunker busters. Seismic stations across the region detecting underground detonations. This is the deepest penetration strike of the war so far.",
+    "timestamp": "2026-03-06T03:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by CENTCOM post-strike imagery and seismic monitoring data from CTBTO stations",
+    "engagement": {
+      "likes": 342000,
+      "retweets": 178000,
+      "replies": 56000
+    }
+  },
+  {
+    "id": "social-010",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Iran retaliates: Fateh-313 and Dezful missiles fired at US 5th Fleet HQ in Bahrain. Most intercepted by Patriot/THAAD but at least 2 impacts confirmed on base. Pentagon now confirming 12 US service members wounded, 3 critical. This is escalating rapidly.",
+    "timestamp": "2026-03-06T07:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CENTCOM confirms casualties; Bahraini civil defense corroborates missile alerts and interception sounds heard across Manama",
+    "engagement": {
+      "likes": 298000,
+      "retweets": 156000,
+      "replies": 47000
+    }
+  },
+  {
+    "id": "social-lead-005",
+    "platform": "twitter",
+    "handle": "@CyberSecHub",
+    "displayName": "CyberSec Hub",
+    "text": "Massive cyber attack has taken down Iran's entire SHETAB interbank network. ATMs offline nationwide. Electronic transactions frozen. Millions unable to access funds. Attribution pointing to Unit 8200. This is financial warfare at an unprecedented scale.",
+    "timestamp": "2026-03-06T09:30:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Banking outage confirmed by multiple Iranian sources and banking association; attribution to Unit 8200 based on technical signatures but not officially confirmed",
+    "engagement": {
+      "likes": 124000,
+      "retweets": 67000,
+      "replies": 19000
+    },
+    "sourceCategory": "lead"
+  },
+  {
+    "id": "social-lead-006",
+    "platform": "twitter",
+    "handle": "@MidEastWatch",
+    "displayName": "Middle East Watch",
+    "text": "UN Security Council emergency session just ended. Russia-China ceasefire resolution VETOED by US and UK. France abstained. Secretary-General visibly frustrated. Meanwhile massive anti-war protests forming across US cities. Tens of thousands in DC alone.",
+    "timestamp": "2026-03-06T17:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "UN voting record confirms veto; protest coverage from AP, CNN, and NPR with live footage from Washington, New York, and Los Angeles",
+    "engagement": {
+      "likes": 187000,
+      "retweets": 94000,
+      "replies": 31000
+    },
+    "sourceCategory": "lead"
+  },
+  {
+    "id": "social-lead-007",
+    "platform": "twitter",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "MASSIVE fires at Tehran oil storage facility. Israeli jets targeted energy infrastructure for the first time — marking a significant escalation. Fires visible from 30km away. This is NOT going to help oil prices.",
+    "timestamp": "2026-03-07T02:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by CBS News, AP satellite imagery, and Iranian state media IRNA",
+    "engagement": {
+      "likes": 315000,
+      "retweets": 162000,
+      "replies": 53000
+    }
+  },
+  {
+    "id": "social-lead-008",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Trump at Dover AFB for dignified transfer of fallen servicemembers. 6 US troops KIA so far. Meanwhile NBC reports he's privately pushing for ground invasion. This war is about to enter a new phase.",
+    "timestamp": "2026-03-07T13:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Bloomberg, NBC News, and White House pool reports",
+    "engagement": {
+      "likes": 248000,
+      "retweets": 131000,
+      "replies": 72000
+    }
+  },
+  {
+    "id": "social-lead-009",
+    "platform": "twitter",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers",
+    "text": "UPDATE: IRGC drones hit tankers Prima and Louise P in the Gulf. Tugboat assisting Safeen Prestige struck by 2 missiles — all 8 crew feared dead. 8+ vessels now damaged. Dry bulk transits through Hormuz down 91%. This is an active war zone for shipping.",
+    "timestamp": "2026-03-07T16:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Kpler maritime data, Lloyd's List, and multiple ship tracking services",
+    "engagement": {
+      "likes": 189000,
+      "retweets": 98000,
+      "replies": 31000
+    }
+  },
+  {
+    "id": "social-lead-010",
+    "platform": "twitter",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "Iranian missiles detected heading towards Tel Aviv. Series of explosions confirmed across the city. Iron Dome and Arrow systems engaging. Day 9 and Iran's missile inventory still holding — estimates suggest 2,500 long-range missiles pre-war.",
+    "timestamp": "2026-03-07T22:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by IDF spokesperson, Israeli Home Front Command, and multiple ground video sources",
+    "engagement": {
+      "likes": 276000,
+      "retweets": 143000,
+      "replies": 48000
+    }
+  },
+  {
+    "id": "social-lead-011",
+    "platform": "twitter",
+    "handle": "@MidEastWatch",
+    "displayName": "Middle East Watch",
+    "text": "Ali Larijani claims Iran captured US soldiers. Trump admin denies. Meanwhile CIA reportedly smuggling weapons to Kurdish forces in western Iran. Information war intensifying as both sides claim successes they can't independently verify.",
+    "timestamp": "2026-03-08T07:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Al Jazeera reports claims. US denial confirmed by State Dept. Kurdish arming reported by multiple outlets but unconfirmed officially.",
+    "engagement": {
+      "likes": 198000,
+      "retweets": 112000,
+      "replies": 67000
+    }
+  },
+  {
+    "id": "social-012",
+    "platform": "twitter",
+    "handle": "@RALee85",
+    "displayName": "Rob Lee",
+    "text": "Iran claims to have fired 500+ ballistic/naval missiles and 2,000 drones since Feb 28. Even if inflated, the scale of retaliation has exceeded all Western predictions. Defense stockpiles being tested.",
+    "timestamp": "2026-03-05T14:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Missile counts partially corroborated by CENTCOM intercept reports and satellite imagery of launch sites",
+    "engagement": {
+      "likes": 198000,
+      "retweets": 102000,
+      "replies": 34000
+    },
+    "keywords": [
+      "missiles",
+      "drones",
+      "iran-retaliation"
+    ]
+  },
+  {
+    "id": "social-013",
+    "platform": "twitter",
+    "handle": "@Liveuamap",
+    "displayName": "Liveuamap",
+    "text": "CONFIRMED: Hezbollah drone struck RAF Akrotiri in Cyprus. First attack on European NATO territory. This just became a global crisis, not a regional war.",
+    "timestamp": "2026-03-06T11:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by UK Ministry of Defence and NATO spokesperson",
+    "engagement": {
+      "likes": 356000,
+      "retweets": 189000,
+      "replies": 72000
+    },
+    "keywords": [
+      "cyprus",
+      "nato",
+      "hezbollah",
+      "escalation"
+    ]
+  },
+  {
+    "id": "social-014",
+    "platform": "twitter",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "Saudi Arabia reports first civilian deaths — 2 killed in Al-Kharj when Iranian projectile hit residential area near Riyadh. 12 more wounded. This war is spreading to every corner of the Gulf.",
+    "timestamp": "2026-03-07T09:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Saudi Press Agency and Al Arabiya with hospital footage",
+    "engagement": {
+      "likes": 267000,
+      "retweets": 138000,
+      "replies": 45000
+    },
+    "keywords": [
+      "saudi-arabia",
+      "civilian-casualties",
+      "escalation"
+    ]
+  },
+  {
+    "id": "social-015",
+    "platform": "twitter",
+    "handle": "@christoq7",
+    "displayName": "Christo Grozev",
+    "text": "US has now lost 8 service members killed in this war. Trump attended dignified transfer at Dover AFB for 6 of them. Political pressure building — 85% of Americans oppose this war per YouGov.",
+    "timestamp": "2026-03-07T16:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CENTCOM casualty figures confirmed. YouGov poll published March 6. Dover AFB ceremony covered by AP pool",
+    "engagement": {
+      "likes": 312000,
+      "retweets": 167000,
+      "replies": 89000
+    },
+    "keywords": [
+      "us-casualties",
+      "trump",
+      "polling"
+    ]
+  },
+  {
+    "id": "social-016",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "BREAKING: Assembly of Experts has elected Mojtaba Khamenei as new Supreme Leader. IRGC immediately pledged allegiance. This was expected but the speed is remarkable — succession completed in just 8 days.",
+    "timestamp": "2026-03-08T10:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Iranian state TV (IRIB), Assembly of Experts official announcement, and multiple diplomatic sources",
+    "engagement": {
+      "likes": 389000,
+      "retweets": 201000,
+      "replies": 78000
+    },
+    "keywords": [
+      "succession",
+      "supreme-leader",
+      "iran"
+    ]
+  },
+  {
+    "id": "social-017",
+    "platform": "twitter",
+    "handle": "@aurora_intel",
+    "displayName": "Aurora Intel",
+    "text": "Iran's FM Araghchi just rejected any ceasefire talks. 'We are not asking for a ceasefire.' Iran naming Mojtaba as new leader signals this will be a long war, not a quick collapse.",
+    "timestamp": "2026-03-08T15:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Araghchi statement broadcast on IRNA and confirmed by multiple diplomatic correspondents",
+    "engagement": {
+      "likes": 245000,
+      "retweets": 128000,
+      "replies": 56000
+    },
+    "keywords": [
+      "ceasefire",
+      "diplomacy",
+      "araghchi"
+    ]
+  },
+  {
+    "id": "social-018",
+    "platform": "twitter",
+    "handle": "@michaelh992",
+    "displayName": "Michael Horowitz",
+    "text": "Swiss government officially declares US-Israel strikes violate international law. First major Western ally to break ranks. The diplomatic isolation of the US is growing.",
+    "timestamp": "2026-03-08T18:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Swiss Federal Council statement published on admin.ch. Confirmed by Reuters and AFP",
+    "engagement": {
+      "likes": 278000,
+      "retweets": 145000,
+      "replies": 62000
+    },
+    "keywords": [
+      "international-law",
+      "switzerland",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "social-019",
+    "platform": "twitter",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "text": "Brent crude just hit $119.50/barrel intraday. The Strait of Hormuz is effectively closed. This is the largest oil supply disruption in modern history. No precedent for this.",
+    "timestamp": "2026-03-09T14:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "ICE Brent futures data confirmed. EIA and IEA both characterize Hormuz as effectively closed",
+    "engagement": {
+      "likes": 334000,
+      "retweets": 176000,
+      "replies": 58000
+    },
+    "keywords": [
+      "oil",
+      "hormuz",
+      "economic-impact"
+    ]
+  }
+]

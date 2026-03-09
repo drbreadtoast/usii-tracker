@@ -1,0 +1,325 @@
+{
+  "lastUpdated": "2026-03-09T12:00:00Z",
+  "conflicts": [
+    {
+      "name": "Twelve-Day War (June 2025)",
+      "period": "June 13-24, 2025",
+      "parties": [
+        {
+          "name": "Iran",
+          "flag": "\ud83c\uddee\ud83c\uddf7",
+          "confirmed": {
+            "military": 800,
+            "civilian": 135,
+            "total": 935,
+            "source": "Iranian Government official figures",
+            "sourceUrl": "https://reuters.com"
+          },
+          "estimated": {
+            "military": 900,
+            "civilian": 290,
+            "total": 1190,
+            "source": "HRANA (Human Rights Activists News Agency)",
+            "sourceUrl": "https://hrana.org",
+            "note": "Higher estimate includes unreported deaths in restricted areas"
+          },
+          "injured": 4746
+        },
+        {
+          "name": "Israel",
+          "flag": "\ud83c\uddee\ud83c\uddf1",
+          "confirmed": {
+            "military": 12,
+            "civilian": 16,
+            "total": 28,
+            "source": "IDF Official",
+            "sourceUrl": "https://idf.il"
+          },
+          "estimated": {
+            "military": 14,
+            "civilian": 16,
+            "total": 30,
+            "source": "Israeli media compilation",
+            "sourceUrl": "https://timesofisrael.com",
+            "note": "Slight variance due to delayed military casualty reports"
+          },
+          "injured": 3491
+        }
+      ]
+    },
+    {
+      "name": "Iranian Protests Crackdown (Dec 2025 - Jan 2026)",
+      "period": "February 28, 2026 - Ongoing (Day 9)",
+      "parties": [
+        {
+          "name": "Iranian Civilians",
+          "flag": "\ud83c\uddee\ud83c\uddf7",
+          "confirmed": {
+            "military": 0,
+            "civilian": 3117,
+            "total": 3117,
+            "source": "Iranian Government official figures",
+            "sourceUrl": "https://reuters.com"
+          },
+          "estimated": {
+            "military": 0,
+            "civilian": 36500,
+            "total": 36500,
+            "source": "Iran International / Time Magazine estimates",
+            "sourceUrl": "https://iranintl.com",
+            "note": "Wide range: HRANA says 7,015; Iranian doctors network says 16,500-18,000; Iran International estimates up to 36,500. Trump cited 32,000 in State of the Union."
+          },
+          "injured": null,
+          "arrested": 41800
+        },
+        {
+          "name": "Lebanon",
+          "flag": "\ud83c\uddf1\ud83c\udde7",
+          "confirmed": {
+            "military": 0,
+            "civilian": 217,
+            "total": 217,
+            "source": "Lebanese Ministry of Public Health",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/6/death-toll-in-israels-lebanon-attacks-over-120-as-beirut-south-east-hit"
+          },
+          "estimated": {
+            "military": 60,
+            "civilian": 230,
+            "total": 290,
+            "source": "ACLED / UN OCHA",
+            "sourceUrl": "https://acleddata.com/update/middle-east-special-issue-march-2026",
+            "note": "Includes Hezbollah fighters. 95,000-300,000 displaced."
+          },
+          "injured": 600
+        },
+        {
+          "name": "Gulf States",
+          "flag": "\ud83c\uddfa\ud83c\udde6",
+          "confirmed": {
+            "military": 0,
+            "civilian": 11,
+            "total": 11,
+            "source": "Regional government reports",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+          },
+          "estimated": {
+            "military": 0,
+            "civilian": 15,
+            "total": 15,
+            "source": "ACLED",
+            "sourceUrl": "https://acleddata.com/update/middle-east-special-issue-march-2026",
+            "note": "Includes UAE (3), Kuwait (4+), Bahrain, other GCC nations. 112+ wounded in UAE alone."
+          },
+          "injured": 130
+        }
+      ]
+    },
+    {
+      "name": "2026 Iran War (Feb 28 - Present)",
+      "period": "February 28, 2026 - Ongoing (Day 9)",
+      "parties": [
+        {
+          "name": "Iran",
+          "flag": "\ud83c\uddee\ud83c\uddf7",
+          "confirmed": {
+            "military": 500,
+            "civilian": 832,
+            "total": 1332,
+            "source": "Iranian Red Crescent / state media (as of March 9)",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
+          },
+          "estimated": {
+            "military": 2500,
+            "civilian": 800,
+            "total": 3300,
+            "source": "Hengaw Organization / OSINT estimates",
+            "sourceUrl": "https://hengaw.net",
+            "note": "Human rights organizations estimate 2,400+ killed. Includes 170+ children from Minab school strike and other civilian sites, 4 oil workers. True military toll likely much higher given 3,000+ targets struck. 101 sailors missing from IRINS Dena. Internet restrictions limit independent verification."
+          },
+          "rumored": {
+            "total": 8000,
+            "military": 5000,
+            "civilian": 3000,
+            "note": "Social media reports suggest far higher tolls, especially from strikes on military bases where access is restricted. Human rights orgs estimate 2,400+ total killed.",
+            "socialSources": [
+              {
+                "platform": "X",
+                "handle": "@IranFrontline",
+                "claim": "Eyewitness videos from Kerman show at least 12 buildings destroyed — local hospital overwhelmed with 400+ casualties in one night",
+                "url": "https://x.com/IranFrontline",
+                "date": "2026-03-06"
+              },
+              {
+                "platform": "X",
+                "handle": "@IntelCrab",
+                "claim": "Satellite imagery of Bandar Abbas naval base shows 8 destroyed structures — Iran only confirmed 15 KIA there. Real toll likely 200+",
+                "url": "https://x.com/IntelCrab",
+                "date": "2026-03-07"
+              },
+              {
+                "platform": "Telegram",
+                "handle": "@IranNewsFarsi",
+                "claim": "Leaked hospital records from Isfahan show 1,200 admitted in 48 hours — officials claim only 89 casualties in the city",
+                "url": "https://t.me/IranNewsFarsi",
+                "date": "2026-03-07"
+              },
+              {
+                "platform": "X",
+                "handle": "@sentdefender",
+                "claim": "IRINS Dena sinking alone could account for 100+ dead — only 79 of 180 crew recovered. Iran lists them as 'missing'",
+                "url": "https://x.com/sentdefender",
+                "date": "2026-03-05"
+              }
+            ]
+          },
+          "injured": 6000
+        },
+        {
+          "name": "Israel",
+          "flag": "\ud83c\uddee\ud83c\uddf1",
+          "confirmed": {
+            "military": 2,
+            "civilian": 11,
+            "total": 13,
+            "source": "IDF / Times of Israel",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+          },
+          "estimated": {
+            "military": 5,
+            "civilian": 12,
+            "total": 17,
+            "source": "Israeli media estimates",
+            "sourceUrl": "https://timesofisrael.com",
+            "note": "9 confirmed killed in Beit Shemesh missile strike. Additional casualties from ongoing attacks."
+          },
+          "rumored": {
+            "total": 45,
+            "military": 20,
+            "civilian": 25,
+            "note": "Iranian state media claims significantly higher Israeli casualties; some OSINT analysts report additional unreported incidents",
+            "socialSources": [
+              {
+                "platform": "X",
+                "handle": "@AuroraIntel",
+                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media — possible casualties suppressed by censorship",
+                "url": "https://x.com/AuroraIntel",
+                "date": "2026-03-08"
+              },
+              {
+                "platform": "Telegram",
+                "handle": "@IranPressTV",
+                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos — IDF only confirming 12",
+                "url": "https://t.me/IranPressTV",
+                "date": "2026-03-07"
+              }
+            ]
+          },
+          "injured": 1929
+        },
+        {
+          "name": "United States",
+          "flag": "\ud83c\uddfa\ud83c\uddf8",
+          "confirmed": {
+            "military": 8,
+            "civilian": 0,
+            "total": 8,
+            "source": "CENTCOM",
+            "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+          },
+          "estimated": {
+            "military": 8,
+            "civilian": 0,
+            "total": 8,
+            "source": "Unconfirmed reports of additional casualties at Gulf bases",
+            "sourceUrl": "",
+            "note": "6 confirmed KIA at Port Shuaiba, Kuwait. 18 wounded. Additional casualties reported but not confirmed."
+          },
+          "rumored": {
+            "total": 25,
+            "military": 25,
+            "civilian": 0,
+            "note": "Iran claims to have captured US soldiers; IRGC media reports higher US casualty figures than Pentagon confirms",
+            "socialSources": [
+              {
+                "platform": "X",
+                "handle": "@MiddleEastEye",
+                "claim": "Iran state TV broadcast what it says are captured US soldiers — Pentagon denies. Ali Larijani says US is 'concealing captures'",
+                "url": "https://x.com/MiddleEastEye",
+                "date": "2026-03-08"
+              },
+              {
+                "platform": "Telegram",
+                "handle": "@MilitaryWatchMag",
+                "claim": "Sources in Bahrain report 12+ additional US wounded at 5th Fleet HQ not in official Pentagon count",
+                "url": "https://t.me/MilitaryWatchMag",
+                "date": "2026-03-07"
+              }
+            ]
+          },
+          "injured": 30
+        },
+        {
+          "name": "Lebanon",
+          "flag": "\ud83c\uddf1\ud83c\udde7",
+          "confirmed": {
+            "military": 0,
+            "civilian": 217,
+            "total": 217,
+            "source": "Lebanese Health Ministry (preliminary)",
+            "sourceUrl": "https://aljazeera.com"
+          },
+          "estimated": {
+            "military": 50,
+            "civilian": 80,
+            "total": 130,
+            "source": "Lebanese media and Hezbollah casualty estimates",
+            "sourceUrl": "",
+            "note": "Hezbollah intel chief Hussein Makled confirmed killed. Full toll unknown. 85,000 displaced."
+          },
+          "injured": 600,
+          "displaced": 85000
+        },
+        {
+          "name": "Gulf States (UAE, Kuwait, etc.)",
+          "flag": "\ud83c\udf10",
+          "confirmed": {
+            "military": 0,
+            "civilian": 9,
+            "total": 9,
+            "source": "Gulf state media reports",
+            "sourceUrl": "https://reuters.com"
+          },
+          "estimated": {
+            "military": 0,
+            "civilian": 15,
+            "total": 15,
+            "source": "Estimated from missile impact reports across Gulf",
+            "sourceUrl": "",
+            "note": "3 confirmed in UAE, 6 in other Gulf states. Full toll from widespread Iranian missile attacks unclear."
+          },
+          "injured": null
+        },
+        {
+          "name": "Gulf States",
+          "flag": "\ud83c\uddfa\ud83c\udde6",
+          "confirmed": {
+            "military": 0,
+            "civilian": 11,
+            "total": 11,
+            "source": "Regional government reports",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+          },
+          "estimated": {
+            "military": 0,
+            "civilian": 15,
+            "total": 15,
+            "source": "ACLED",
+            "sourceUrl": "https://acleddata.com/update/middle-east-special-issue-march-2026",
+            "note": "Includes UAE (3), Kuwait (4+), Bahrain, other GCC nations. 112+ wounded in UAE alone."
+          },
+          "injured": 130
+        }
+      ]
+    }
+  ]
+}

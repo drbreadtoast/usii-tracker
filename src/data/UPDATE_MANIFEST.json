@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
+  "lastFullUpdate": "2026-03-09T18:00:00Z",
+  "totalFiles": 24,
+  "updateGroups": {
+    "CRITICAL": {
+      "description": "Must be updated on EVERY refresh. Most time-sensitive data.",
+      "files": [
+        {
+          "file": "events.json",
+          "structure": "top-level-array",
+          "lastId": "evt-new-015",
+          "totalEntries": 63,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "war-timeline.json",
+          "structure": "top-level-array",
+          "lastId": "tl-073",
+          "totalEntries": 73,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "breaking.json",
+          "structure": "top-level-array",
+          "lastId": "brk-018",
+          "totalEntries": 28,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "death-toll.json",
+          "structure": "object-with-conflicts",
+          "lastId": null,
+          "totalEntries": 3,
+          "lastUpdated": "2026-03-09T12:00:00Z"
+        }
+      ]
+    },
+    "HIGH": {
+      "description": "Should be updated on every refresh. Changes daily.",
+      "files": [
+        {
+          "file": "statements-timeline.json",
+          "structure": "object-with-speakers",
+          "lastId": null,
+          "totalEntries": 72,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "war-costs.json",
+          "structure": "object-with-metadata",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "oil-tracker.json",
+          "structure": "object-with-metadata",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "social-posts.json",
+          "structure": "top-level-array",
+          "lastId": "social-019",
+          "totalEntries": 29,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "government-statements.json",
+          "structure": "top-level-array",
+          "lastId": "gov-025",
+          "totalEntries": 25,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "escalations.json",
+          "structure": "top-level-array",
+          "lastId": "esc-019",
+          "totalEntries": 20,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "gas-prices.json",
+          "structure": "object-with-lastUpdated",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "media-perspectives.json",
+          "structure": "object-with-categories",
+          "lastId": null,
+          "totalEntries": 15,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "global-involvement.json",
+          "structure": "top-level-array",
+          "lastId": "gi-switzerland",
+          "totalEntries": 6,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "hormuz-shipping.json",
+          "structure": "object-with-timeline",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "food-prices.json",
+          "structure": "object-with-lastUpdated",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        }
+      ]
+    },
+    "MEDIUM": {
+      "description": "Update when there are new strikes, damage reports, or munitions changes.",
+      "files": [
+        {
+          "file": "munitions-data.json",
+          "structure": "complex-nested",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "damage-data.json",
+          "structure": "object-with-damageLocations",
+          "lastId": "dmg-051",
+          "totalEntries": 51,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "missile-strikes.json",
+          "structure": "top-level-array",
+          "lastId": "ms-051",
+          "totalEntries": 51,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        }
+      ]
+    },
+    "LOW": {
+      "description": "Update only when new countries affected, bases struck, or major deployments.",
+      "files": [
+        {
+          "file": "conflict-countries.json",
+          "structure": "geojson-featurecollection",
+          "lastId": null,
+          "totalEntries": 12,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "lobby-data.json",
+          "structure": "object-with-metadata",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-08T00:00:00Z"
+        },
+        {
+          "file": "bases.json",
+          "structure": "top-level-array",
+          "lastId": "base-013",
+          "totalEntries": 13,
+          "lastUpdated": "2026-03-06T00:00:00Z"
+        },
+        {
+          "file": "military-assets.json",
+          "structure": "top-level-array",
+          "lastId": "asset-isr-dolphin",
+          "totalEntries": 10,
+          "lastUpdated": "2026-03-07T00:00:00Z"
+        }
+      ]
+    },
+    "METADATA": {
+      "description": "Always update LAST. These reflect the state of all other files.",
+      "files": [
+        {
+          "file": "metadata.json",
+          "structure": "simple-object",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        },
+        {
+          "file": "site-metadata.json",
+          "structure": "simple-object",
+          "lastId": null,
+          "totalEntries": null,
+          "lastUpdated": "2026-03-09T18:00:00Z"
+        }
+      ]
+    }
+  }
+}

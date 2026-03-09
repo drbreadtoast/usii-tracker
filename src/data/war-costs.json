@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "title": "Iran-Israel Conflict Cost Tracker",
+    "description": "Comprehensive tracking of military expenditures, economic impacts, and financial costs associated with the Iran-Israel conflict escalation of 2026.",
+    "sources": [
+      {
+        "name": "Congressional Budget Office (CBO)",
+        "url": "https://www.cbo.gov/topics/defense-and-national-security",
+        "description": "Baseline defense spending projections and supplemental appropriations analysis"
+      },
+      {
+        "name": "U.S. Department of Defense (DoD)",
+        "url": "https://comptroller.defense.gov/Budget-Materials/",
+        "description": "Official military budget data, weapon system costs, and operational expenditure reports"
+      },
+      {
+        "name": "Congressional Research Service (CRS)",
+        "url": "https://crsreports.congress.gov/",
+        "description": "Non-partisan analysis of military operations costs, foreign aid, and defense procurement"
+      },
+      {
+        "name": "Stockholm International Peace Research Institute (SIPRI)",
+        "url": "https://www.sipri.org/databases/armstransfers",
+        "description": "International arms transfers, military expenditure databases, and conflict cost modeling"
+      },
+      {
+        "name": "Brown University Costs of War Project",
+        "url": "https://watson.brown.edu/costsofwar/",
+        "description": "Comprehensive accounting of post-9/11 war costs including long-term veteran care and interest on borrowing"
+      },
+      {
+        "name": "Center for Strategic and International Studies (CSIS)",
+        "url": "https://www.csis.org/programs/defense-and-security",
+        "description": "Defense program analysis and missile defense cost assessments"
+      }
+    ],
+    "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
+    "lastUpdated": "2026-03-09T18:00:00Z",
+    "conflictStartDate": "2026-02-28",
+    "daysOfConflict": 10,
+    "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
+  },
+  "countryCosts": {
+    "us": {
+      "name": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "directMilitaryCosts": {
+        "total": 20220000000,
+        "currency": "USD",
+        "breakdown": {
+          "munitionsExpended": {
+            "amount": 5330000000,
+            "description": "Tomahawk cruise missiles, JASSM-ER, GBU-57 MOPs, precision-guided munitions, and air-launched standoff weapons used in strikes against Iranian nuclear and military facilities",
+            "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
+            "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
+          },
+          "navalOperations": {
+            "amount": 6220000000,
+            "description": "Carrier strike group deployments, destroyer operations, submarine operations, naval aviation sorties, fuel, and at-sea replenishment across Persian Gulf, Gulf of Oman, and Eastern Mediterranean",
+            "source": "Navy Budget Office / USNI News Fleet Tracker",
+            "sourceUrl": "https://news.usni.org/category/fleet-tracker"
+          },
+          "airOperations": {
+            "amount": 4670000000,
+            "description": "B-2 Spirit stealth bomber sorties from Whiteman AFB and Diego Garcia, F-35A/F-22 operations from Al Udeid and Al Dhafra, KC-135/KC-46 tanker support, ISR platforms including RQ-4 Global Hawk and MQ-9 Reaper",
+            "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
+            "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
+          },
+          "personnelDeployment": {
+            "amount": 2000000000,
+            "description": "Surge deployment of approximately 45,000 additional personnel to CENTCOM AOR, including combat pay, hostile fire pay, family separation allowances, and deployment support",
+            "source": "DoD Personnel & Readiness",
+            "sourceUrl": "https://prhome.defense.gov/"
+          },
+          "logistics": {
+            "amount": 2000000000,
+            "description": "Strategic airlift via C-17 and C-5M, sealift operations, forward operating base establishment, fuel transport, ammunition resupply, and theater logistics network",
+            "source": "USTRANSCOM / Defense Logistics Agency",
+            "sourceUrl": "https://www.dla.mil/"
+          }
+        }
+      },
+      "indirectCosts": {
+        "total": 36110000000,
+        "currency": "USD",
+        "breakdown": {
+          "economicDisruption": {
+            "amount": 13330000000,
+            "description": "Stock market volatility, defense industry surge costs, supply chain disruptions, and increased homeland security posture including elevated FPCON levels at all DoD installations",
+            "source": "CBO Economic Impact Assessment",
+            "sourceUrl": "https://www.cbo.gov/topics/defense-and-national-security"
+          },
+          "oilPriceImpact": {
+            "amount": 15560000000,
+            "description": "Estimated cost to the US economy from oil price surge to $130+/bbl due to Strait of Hormuz disruption, including increased Strategic Petroleum Reserve drawdown costs and domestic fuel price increases",
+            "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
+            "sourceUrl": "https://www.eia.gov/outlooks/steo/"
+          },
+          "tradeDisruption": {
+            "amount": 5000000000,
+            "description": "Rerouting of commercial shipping away from Persian Gulf, increased maritime insurance premiums, delayed LNG shipments, and supply chain delays affecting US importers and exporters",
+            "source": "Bureau of Economic Analysis / International Trade Administration",
+            "sourceUrl": "https://www.bea.gov/"
+          },
+          "humanitarian": {
+            "amount": 2220000000,
+            "description": "USAID emergency humanitarian response, refugee assistance coordination, medical evacuation support for US nationals, and embassy emergency operations in the region",
+            "source": "USAID / State Department Bureau of Near Eastern Affairs",
+            "sourceUrl": "https://www.usaid.gov/humanitarian-assistance"
+          }
+        }
+      },
+      "dailyBurnRate": 2600000000,
+      "dailyBurnRateNote": "Estimated daily cost of sustained combat operations including all deployed forces, active sorties, naval patrols, and logistical support"
+    },
+    "israel": {
+      "name": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "directMilitaryCosts": {
+        "total": 6780000000,
+        "currency": "USD",
+        "breakdown": {
+          "munitionsExpended": {
+            "amount": 2000000000,
+            "description": "Arrow-3 and Arrow-2 interceptors, Iron Dome Tamir interceptors, David's Sling interceptors, LORA ballistic missiles, Delilah cruise missiles, and precision-guided munitions used in strikes and air defense",
+            "source": "Israeli Ministry of Defense / SIPRI Arms Transfers Database",
+            "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+          },
+          "navalOperations": {
+            "amount": 500000000,
+            "description": "Sa'ar 6 corvette operations, submarine deployments in Eastern Mediterranean, naval blockade support, and maritime patrol operations",
+            "source": "Israeli Navy / Jane's Defence",
+            "sourceUrl": "https://www.janes.com/"
+          },
+          "airOperations": {
+            "amount": 2440000000,
+            "description": "F-35I Adir stealth fighter sorties, F-15I Ra'am strike operations, aerial refueling, UAV operations including Hermes 900 and Heron TP, and combat search and rescue standby",
+            "source": "Israeli Air Force / CSIS Missile Defense Project",
+            "sourceUrl": "https://missilethreat.csis.org/"
+          },
+          "personnelDeployment": {
+            "amount": 1060000000,
+            "description": "Full IDF reserve mobilization of approximately 300,000 reservists, combat pay, civil defense activation, and Home Front Command operations across all districts",
+            "source": "Israeli Ministry of Finance / Bank of Israel",
+            "sourceUrl": "https://www.boi.org.il/en/"
+          },
+          "logistics": {
+            "amount": 780000000,
+            "description": "Emergency resupply from US stockpiles (WRSA-I), domestic ammunition production surge, civil defense shelter operations, and critical infrastructure hardening",
+            "source": "Israeli Ministry of Defense Procurement",
+            "sourceUrl": "https://www.mod.gov.il/English/"
+          }
+        }
+      },
+      "indirectCosts": {
+        "total": 20000000000,
+        "currency": "USD",
+        "breakdown": {
+          "economicDisruption": {
+            "amount": 9440000000,
+            "description": "GDP loss from reserve mobilization removing 300,000 workers from the economy, Ben Gurion Airport closure, tourism collapse, and Tel Aviv Stock Exchange losses",
+            "source": "Bank of Israel Economic Assessment",
+            "sourceUrl": "https://www.boi.org.il/en/"
+          },
+          "oilPriceImpact": {
+            "amount": 3560000000,
+            "description": "Israel's energy import cost surge from elevated global oil and natural gas prices, emergency fuel purchases, and Tamar/Leviathan gas platform security operations",
+            "source": "Israeli Ministry of Energy",
+            "sourceUrl": "https://www.gov.il/en/departments/ministry_of_energy"
+          },
+          "tradeDisruption": {
+            "amount": 4780000000,
+            "description": "Disruption to high-tech exports, closure of Haifa and Ashdod ports to commercial traffic during threat windows, canceled international business contracts, and foreign investment flight",
+            "source": "Israel Export Institute / Central Bureau of Statistics",
+            "sourceUrl": "https://www.cbs.gov.il/en/"
+          },
+          "humanitarian": {
+            "amount": 2220000000,
+            "description": "Civil defense operations, emergency medical services surge, psychological trauma support, damaged infrastructure repair, and civilian evacuation programs from northern and southern border communities",
+            "source": "Israeli National Emergency Management Authority",
+            "sourceUrl": "https://www.gov.il/en/departments/idf"
+          }
+        }
+      },
+      "dailyBurnRate": 970000000,
+      "dailyBurnRateNote": "Estimated daily cost including missile defense operations, IAF sorties, reserve mobilization, and civil defense"
+    },
+    "iran": {
+      "name": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "directMilitaryCosts": {
+        "total": 3560000000,
+        "currency": "USD",
+        "breakdown": {
+          "munitionsExpended": {
+            "amount": 940000000,
+            "description": "Ballistic missiles (Fateh-110, Emad, Sejjil), cruise missiles (Paveh, Hoveyzeh), Shahed-136 one-way attack drones, and air defense missiles including S-300PMU2 and Bavar-373 interceptors",
+            "source": "SIPRI / IISS Military Balance 2026",
+            "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+          },
+          "navalOperations": {
+            "amount": 310000000,
+            "description": "IRGC Navy fast attack craft operations, mine-laying operations in Strait of Hormuz approaches, Ghadir-class submarine patrols, and anti-ship missile battery activation along coastline",
+            "source": "ONI Iranian Naval Forces Report",
+            "sourceUrl": "https://www.oni.navy.mil/"
+          },
+          "airOperations": {
+            "amount": 470000000,
+            "description": "IRIAF defensive sorties (limited due to coalition air superiority), drone swarm operations, air defense network activation, and dispersal of remaining air assets",
+            "source": "IISS Military Balance / CSIS",
+            "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+          },
+          "personnelDeployment": {
+            "amount": 1060000000,
+            "description": "Full mobilization of IRGC ground forces, Basij militia activation of approximately 600,000 personnel, Artesh regular army deployment to border regions, and civil defense operations",
+            "source": "IISS / SIPRI Military Expenditure Database",
+            "sourceUrl": "https://www.sipri.org/databases/milex"
+          },
+          "logistics": {
+            "amount": 780000000,
+            "description": "Dispersal of military assets to hardened facilities, tunnel network operations, emergency fuel and ammunition distribution, field hospital establishment, and command-and-control reconstitution",
+            "source": "DIA Iran Military Power Report",
+            "sourceUrl": "https://www.dia.mil/Military-Power-Publications/"
+          }
+        }
+      },
+      "indirectCosts": {
+        "total": 50000000000,
+        "currency": "USD",
+        "breakdown": {
+          "economicDisruption": {
+            "amount": 20000000000,
+            "description": "Destruction of critical infrastructure including Bandar Abbas port facilities, Isfahan industrial complex damage, electrical grid degradation, and telecommunications network disruption",
+            "source": "World Bank Damage Assessment Methodology",
+            "sourceUrl": "https://www.worldbank.org/"
+          },
+          "oilPriceImpact": {
+            "amount": 16670000000,
+            "description": "Near-total loss of oil export revenue due to Kharg Island terminal damage, pipeline disruption, and international shipping refusal to load Iranian crude; loss of approximately 1.5 million barrels/day of export capacity",
+            "source": "EIA / OPEC Monthly Oil Market Report",
+            "sourceUrl": "https://www.eia.gov/international/analysis/country/IRN"
+          },
+          "tradeDisruption": {
+            "amount": 7780000000,
+            "description": "Collapse of non-oil trade through damaged ports, land border crossing disruptions, sanctions tightening cutting off remaining trade partners, and rial currency collapse",
+            "source": "IMF World Economic Outlook",
+            "sourceUrl": "https://www.imf.org/en/Publications/WEO"
+          },
+          "humanitarian": {
+            "amount": 5550000000,
+            "description": "Mass displacement of approximately 2.1 million civilians from strike zones, hospital system strain from casualties, food and medicine distribution disruption, and water treatment facility damage",
+            "source": "UNHCR / OCHA Situation Reports",
+            "sourceUrl": "https://www.unocha.org/"
+          }
+        }
+      },
+      "dailyBurnRate": 510000000,
+      "dailyBurnRateNote": "Estimated daily cost including military operations, infrastructure losses, and oil revenue foregone"
+    }
+  },
+  "weaponCosts": [
+    {
+      "weapon": "BGM-109 Tomahawk Block V",
+      "country": "us",
+      "unitCost": 2000000,
+      "quantityUsed": 400,
+      "totalCost": 800000000,
+      "description": "Land-attack cruise missile launched from Arleigh Burke-class destroyers and Virginia-class submarines against Iranian military and nuclear facilities",
+      "source": "CRS Report: Navy Tomahawk Cruise Missile Program",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32544"
+    },
+    {
+      "weapon": "GBU-57A/B Massive Ordnance Penetrator (MOP)",
+      "country": "us",
+      "unitCost": 3500000,
+      "quantityUsed": 50,
+      "totalCost": 175000000,
+      "description": "30,000-lb bunker-buster bomb delivered by B-2 Spirit stealth bombers against deeply buried Iranian nuclear enrichment facilities at Fordow and Natanz",
+      "source": "DoD Selected Acquisition Report / Air Force Magazine",
+      "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
+    },
+    {
+      "weapon": "AGM-158B JASSM-ER",
+      "country": "us",
+      "unitCost": 1400000,
+      "quantityUsed": 200,
+      "totalCost": 280000000,
+      "description": "Extended-range joint air-to-surface standoff missile launched from B-1B Lancers, F-15E Strike Eagles, and F-35A Lightning IIs against IRGC command centers and air defense sites",
+      "source": "CRS Report: Joint Air-to-Surface Standoff Missile",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/IN/IN11257"
+    },
+    {
+      "weapon": "RIM-161 SM-3 Block IIA",
+      "country": "us",
+      "unitCost": 12000000,
+      "quantityUsed": 35,
+      "totalCost": 420000000,
+      "description": "Aegis Ballistic Missile Defense interceptor launched from destroyers to intercept Iranian medium-range ballistic missiles targeting US bases and allied positions",
+      "source": "CRS Report: Navy Aegis BMD Program / MDA Budget",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33745"
+    },
+    {
+      "weapon": "RIM-174 SM-6 ERAM",
+      "country": "us",
+      "unitCost": 4500000,
+      "quantityUsed": 60,
+      "totalCost": 270000000,
+      "description": "Extended range active missile used for anti-air warfare and terminal ballistic missile defense against Iranian cruise missile and drone salvos",
+      "source": "CRS Report: Navy SM-6 Missile Program",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11891"
+    },
+    {
+      "weapon": "GBU-39 Small Diameter Bomb",
+      "country": "us",
+      "unitCost": 40000,
+      "quantityUsed": 1200,
+      "totalCost": 48000000,
+      "description": "Precision-guided 250-lb bombs delivered by F-35A and F-15E aircraft against dispersed IRGC ground targets, radar installations, and mobile missile launchers",
+      "source": "Air Force Procurement Budget Documents",
+      "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
+    },
+    {
+      "weapon": "Iron Dome Tamir Interceptor",
+      "country": "israel",
+      "unitCost": 50000,
+      "quantityUsed": 2000,
+      "totalCost": 100000000,
+      "description": "Short-range interceptor missiles used to defend Israeli population centers against Iranian rocket and drone attacks; high intercept rate against Shahed-136 drones and short-range rockets",
+      "source": "CSIS Missile Defense Project / Rafael Advanced Defense Systems",
+      "sourceUrl": "https://missilethreat.csis.org/system/iron-dome/"
+    },
+    {
+      "weapon": "Arrow-3 Interceptor",
+      "country": "israel",
+      "unitCost": 2500000,
+      "quantityUsed": 15,
+      "totalCost": 37500000,
+      "description": "Exo-atmospheric ballistic missile defense interceptor used against Iranian Emad and Sejjil medium-range ballistic missiles; intercepts targets in space before reentry",
+      "source": "CSIS Missile Defense Project / Israel Missile Defense Organization",
+      "sourceUrl": "https://missilethreat.csis.org/system/arrow-3/"
+    },
+    {
+      "weapon": "Arrow-2 Interceptor",
+      "country": "israel",
+      "unitCost": 3000000,
+      "quantityUsed": 20,
+      "totalCost": 60000000,
+      "description": "Endo-atmospheric ballistic missile defense interceptor providing lower-tier defense against Iranian ballistic missiles that penetrate Arrow-3 engagement envelope",
+      "source": "CSIS Missile Defense Project / IAI",
+      "sourceUrl": "https://missilethreat.csis.org/system/arrow-2/"
+    },
+    {
+      "weapon": "David's Sling Stunner Interceptor",
+      "country": "israel",
+      "unitCost": 1000000,
+      "quantityUsed": 45,
+      "totalCost": 45000000,
+      "description": "Medium-range interceptor bridging the gap between Iron Dome and Arrow systems; used against Iranian cruise missiles and large-caliber rockets",
+      "source": "CSIS Missile Defense Project / Rafael-Raytheon",
+      "sourceUrl": "https://missilethreat.csis.org/system/davids-sling/"
+    },
+    {
+      "weapon": "Shahed-136 (Geran-2) One-Way Attack UAV",
+      "country": "iran",
+      "unitCost": 20000,
+      "quantityUsed": 500,
+      "totalCost": 10000000,
+      "description": "Delta-wing loitering munition/kamikaze drone with ~2,500km range and 50kg warhead; launched in swarms to overwhelm Israeli air defenses and strike infrastructure",
+      "source": "RUSI / IISS Military Balance",
+      "sourceUrl": "https://rusi.org/"
+    },
+    {
+      "weapon": "Fateh-110 Short-Range Ballistic Missile",
+      "country": "iran",
+      "unitCost": 200000,
+      "quantityUsed": 150,
+      "totalCost": 30000000,
+      "description": "Solid-fueled tactical ballistic missile with ~300km range; launched from mobile TELs against US military positions in Iraq, Bahrain, and Qatar",
+      "source": "CSIS Missile Threat / NTI",
+      "sourceUrl": "https://missilethreat.csis.org/missile/fateh-110/"
+    },
+    {
+      "weapon": "Emad Medium-Range Ballistic Missile",
+      "country": "iran",
+      "unitCost": 800000,
+      "quantityUsed": 75,
+      "totalCost": 60000000,
+      "description": "Maneuverable reentry vehicle ballistic missile with ~1,700km range; primary weapon used in strikes against Israeli territory from western Iran launch sites",
+      "source": "CSIS Missile Threat / IISS",
+      "sourceUrl": "https://missilethreat.csis.org/missile/emad/"
+    },
+    {
+      "weapon": "Sejjil-2 Medium-Range Ballistic Missile",
+      "country": "iran",
+      "unitCost": 1200000,
+      "quantityUsed": 40,
+      "totalCost": 48000000,
+      "description": "Two-stage solid-fueled MRBM with ~2,000km range; Iran's most capable ballistic missile with reduced launch preparation time and higher speed at reentry",
+      "source": "CSIS Missile Threat / NTI",
+      "sourceUrl": "https://missilethreat.csis.org/missile/sejjil/"
+    },
+    {
+      "weapon": "Paveh Land-Attack Cruise Missile",
+      "country": "iran",
+      "unitCost": 500000,
+      "quantityUsed": 80,
+      "totalCost": 40000000,
+      "description": "Ground-launched cruise missile with ~1,650km range; used alongside ballistic missiles to create complex attack profiles against Israeli and US targets",
+      "source": "CSIS Missile Threat / IISS",
+      "sourceUrl": "https://missilethreat.csis.org/missile/hoveyzeh/"
+    },
+    {
+      "weapon": "C-802 / Noor Anti-Ship Cruise Missile",
+      "country": "iran",
+      "unitCost": 350000,
+      "quantityUsed": 30,
+      "totalCost": 10500000,
+      "description": "Chinese-derived anti-ship missile deployed by IRGC Navy coastal batteries and fast attack craft against coalition naval vessels in Strait of Hormuz approaches",
+      "source": "ONI / CSIS Missile Threat",
+      "sourceUrl": "https://missilethreat.csis.org/missile/c-802/"
+    }
+  ],
+  "navalDeployments": {
+    "description": "US Navy force posture deployed to CENTCOM AOR and Eastern Mediterranean in response to Iran-Israel conflict",
+    "carrierGroups": [
+      {
+        "name": "Carrier Strike Group 2 (CVN-69 Eisenhower)",
+        "location": "Persian Gulf",
+        "vessels": 9
+      },
+      {
+        "name": "Carrier Strike Group 12 (CVN-78 Ford)",
+        "location": "Eastern Mediterranean",
+        "vessels": 8
+      }
+    ],
+    "carrierGroupDailyCost": 7000000,
+    "carrierGroupDailyCostNote": "Estimated daily operating cost per carrier strike group including air wing operations, escort vessels, and logistics ships based on Navy Visibility and Management of Operating and Support Costs (VAMOSC)",
+    "destroyerDailyCost": 500000,
+    "destroyerDailyCostNote": "Estimated daily operating cost per Arleigh Burke-class guided-missile destroyer at wartime tempo",
+    "totalAssetsDeployed": 28,
+    "assetBreakdown": {
+      "aircraftCarriers": 2,
+      "guidedMissileDestroyers": 10,
+      "guidedMissileCruisers": 3,
+      "attackSubmarines": 4,
+      "guidedMissileSubmarines": 1,
+      "amphibiousAssaultShips": 2,
+      "logisticsAndSupportShips": 6
+    },
+    "estimatedDailyCost": 22000000,
+    "estimatedDailyCostNote": "Combined daily operating cost of all deployed naval assets at wartime operational tempo",
+    "daysDeployed": 10,
+    "totalNavalCost": 220000000,
+    "totalNavalCostNote": "Total naval deployment cost for the first 10 days of active conflict operations; does not include pre-conflict surge deployment costs",
+    "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
+    "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
+  },
+  "aidPackages": [
+    {
+      "id": "aid-fy2024-supplemental",
+      "name": "FY2024 National Security Supplemental - Israel Component",
+      "amount": 26400000000,
+      "currency": "USD",
+      "date": "2024-04-24",
+      "status": "enacted",
+      "description": "Part of the $95 billion national security supplemental package signed into law. Includes $4 billion for Iron Dome and David's Sling replenishment, $1.2 billion for Iron Beam development, $4.4 billion for current military operations, and $9.1 billion in humanitarian aid for Gaza. Also includes $3.5 billion for advanced weapons procurement and $4.2 billion for defense articles and services.",
+      "legislativeReference": "H.R. 815, 118th Congress",
+      "source": "CRS Report: FY2024 Security Supplemental",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/IN/IN12279"
+    },
+    {
+      "id": "aid-annual-mou",
+      "name": "US-Israel 10-Year MOU Annual Allocation (FY2026)",
+      "amount": 3800000000,
+      "currency": "USD",
+      "date": "2025-10-01",
+      "status": "enacted",
+      "description": "Annual military aid under the 2016 US-Israel Memorandum of Understanding signed by the Obama administration. Provides $3.3 billion in Foreign Military Financing (FMF) and $500 million in missile defense cooperation. MOU runs from FY2019 through FY2028 at $38 billion total over 10 years.",
+      "legislativeReference": "US-Israel MOU (September 2016)",
+      "source": "CRS Report: US Foreign Aid to Israel",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    },
+    {
+      "id": "aid-iron-dome-emergency",
+      "name": "Emergency Iron Dome Replenishment (FY2025)",
+      "amount": 1000000000,
+      "currency": "USD",
+      "date": "2025-08-15",
+      "status": "enacted",
+      "description": "Emergency appropriation for Iron Dome Tamir interceptor replenishment following the June 2025 Twelve-Day War. Funds accelerated production of approximately 20,000 additional Tamir interceptors and spare components for Iron Dome batteries.",
+      "legislativeReference": "H.R. 4102, 119th Congress",
+      "source": "House Appropriations Committee",
+      "sourceUrl": "https://appropriations.house.gov/"
+    },
+    {
+      "id": "aid-emergency-2026",
+      "name": "FY2026 Emergency Supplemental for Israel (Pending)",
+      "amount": null,
+      "estimatedRange": {
+        "low": 12000000000,
+        "high": 18000000000
+      },
+      "currency": "USD",
+      "date": "2026-03-04",
+      "status": "pending",
+      "description": "Emergency supplemental appropriations request submitted to Congress on March 4, 2026. Expected to include Iron Dome and Arrow interceptor replenishment, precision-guided munitions resupply from WRSA-I drawdown, F-35I replacement parts, and humanitarian assistance. CBO preliminary score pending. Estimates range from $12-18 billion based on historical precedent and current operational tempo.",
+      "legislativeReference": "Pending submission to 119th Congress",
+      "source": "White House OMB / Reuters",
+      "sourceUrl": "https://www.whitehouse.gov/omb/"
+    }
+  ],
+  "economicImpact": {
+    "globalGDPImpact": {
+      "percentage": -0.4,
+      "estimatedDollarAmount": -400000000000,
+      "description": "Estimated reduction in global GDP growth for 2026 due to oil price shock, trade disruption, and financial market volatility caused by the conflict and Strait of Hormuz blockage",
+      "source": "IMF World Economic Outlook methodology / historical oil shock modeling",
+      "sourceUrl": "https://www.imf.org/en/Publications/WEO"
+    },
+    "oilPriceShock": {
+      "preConflictPrice": 78.5,
+      "currentPrice": 103.47,
+      "peakPrice": 119.50,
+      "wtiPrice": 101.20,
+      "usGasPricePerGallon": 4.25,
+      "priceUnit": "USD per barrel (Brent Crude)",
+      "percentageIncrease": 31.8,
+      "estimatedGlobalCost": 850000000000,
+      "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
+      "hormuzFlowDisruption": {
+        "normalFlowMBD": 21.0,
+        "currentFlowMBD": 3.5,
+        "percentageReduction": 83.3,
+        "description": "Approximately 21 million barrels per day normally transit the Strait of Hormuz (~21% of global oil consumption). Iranian mine-laying and IRGC Navy operations have reduced flow to approximately 3.5 million barrels per day through limited convoy routes."
+      },
+      "source": "EIA / IEA Oil Market Report",
+      "sourceUrl": "https://www.eia.gov/petroleum/weekly/"
+    },
+    "tradeDisruption": {
+      "globalTradeImpact": -1.2,
+      "globalTradeImpactUnit": "percentage reduction in global trade volume",
+      "affectedTradeVolume": 180000000000,
+      "affectedTradeVolumeNote": "Annual value of trade normally transiting the Strait of Hormuz beyond oil (LNG, petrochemicals, containerized goods)",
+      "suezCanalDiversion": true,
+      "averageShippingDelayDays": 14,
+      "description": "Major disruption to global trade routes through Persian Gulf. LNG shipments from Qatar severely impacted. Container shipping rerouted around Cape of Good Hope. Middle East-Asia trade corridors experiencing 2-3 week delays.",
+      "source": "World Trade Organization / UNCTAD Review of Maritime Transport",
+      "sourceUrl": "https://www.wto.org/"
+    },
+    "shippingInsuranceSurge": {
+      "preConflictWarRiskPremium": 0.05,
+      "currentWarRiskPremium": 5.0,
+      "premiumUnit": "percentage of hull value",
+      "percentageIncrease": 9900,
+      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20\u00b0N)",
+      "estimatedAdditionalCostPerTransit": 2500000,
+      "description": "War risk insurance premiums for vessels transiting the Persian Gulf have surged from 0.05% to 5% of hull value. A typical VLCC (Very Large Crude Carrier) valued at $120 million now faces $6 million in war risk premiums per transit compared to $60,000 pre-conflict. Many underwriters have suspended coverage entirely.",
+      "source": "Lloyd's Market Association Joint War Committee",
+      "sourceUrl": "https://www.lmalloyds.com/"
+    },
+    "stockMarketImpact": {
+      "djiaChange": -8.2,
+      "sp500Change": -9.1,
+      "nasdaqChange": -7.4,
+      "telAvivSE": -22.5,
+      "tehranSE": -45.0,
+      "changeUnit": "percentage change since conflict start",
+      "description": "Global equity markets have experienced significant selloffs. Defensive sectors (energy, defense contractors) have rallied while technology and consumer discretionary have declined sharply.",
+      "source": "Bloomberg / Reuters Financial Data",
+      "sourceUrl": "https://www.reuters.com/markets/"
+    }
+  },
+  "keyFacts": [
+    {
+      "id": "fact-1",
+      "fact": "The US has expended approximately 400 Tomahawk cruise missiles in the first week of operations, representing roughly 25% of the Navy's estimated active inventory and requiring 2-3 years of production to replace at current manufacturing rates.",
+      "cost": 800000000,
+      "source": "CRS Report: Navy Tomahawk Cruise Missile Program",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32544"
+    },
+    {
+      "id": "fact-2",
+      "fact": "Israel's multi-layered missile defense system (Iron Dome, David's Sling, Arrow-2, Arrow-3) has intercepted over 85% of incoming threats, but at a combined cost exceeding $242 million in interceptor missiles alone during the first 7 days.",
+      "cost": 242500000,
+      "source": "CSIS Missile Defense Project",
+      "sourceUrl": "https://missilethreat.csis.org/"
+    },
+    {
+      "id": "fact-3",
+      "fact": "Each B-2 Spirit stealth bomber sortie from Whiteman AFB, Missouri to Iranian targets and back costs approximately $6.7 million in fuel, maintenance, and munitions, not including the GBU-57 MOPs which add $3.5 million each.",
+      "cost": 6700000,
+      "source": "Air Force Cost Per Flying Hour Reports / GAO",
+      "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
+    },
+    {
+      "id": "fact-4",
+      "fact": "The Strait of Hormuz blockage is costing the global economy an estimated $3.5 billion per day in disrupted oil flows, elevated energy prices, rerouted shipping, and cascading supply chain impacts across Asia and Europe.",
+      "cost": 3500000000,
+      "source": "EIA / IEA Oil Market Report",
+      "sourceUrl": "https://www.eia.gov/petroleum/weekly/"
+    },
+    {
+      "id": "fact-5",
+      "fact": "Iran's 500+ Shahed-136 drones cost approximately $10 million total to produce -- less than the cost of a single SM-3 interceptor ($12M) used to shoot down a ballistic missile, highlighting the asymmetric cost advantage of drone warfare.",
+      "cost": 10000000,
+      "source": "RUSI / IISS Military Balance",
+      "sourceUrl": "https://rusi.org/"
+    },
+    {
+      "id": "fact-6",
+      "fact": "The combined US military aid to Israel since FY2024, including the 10-year MOU, supplemental packages, and emergency appropriations, now exceeds $31 billion -- approaching the annual GDP of Jordan ($33B) and more than the entire GDP of Iceland ($28B).",
+      "cost": 31200000000,
+      "source": "CRS Report: US Foreign Aid to Israel",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    }
+  ],
+  "totals": {
+    "allCountriesDirectMilitary": 30560000000,
+    "allCountriesIndirectCosts": 106110000000,
+    "combinedTotalCosts": 136670000000,
+    "globalEconomicImpact": 850000000000,
+    "description": "Combined direct military costs for all three belligerents plus indirect economic costs. Global economic impact represents the annualized additional cost from oil price disruption.",
+    "lastCalculated": "2026-03-09T18:00:00Z"
+  }
+}

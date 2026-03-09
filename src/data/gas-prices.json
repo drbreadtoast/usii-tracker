@@ -1,0 +1,188 @@
+{
+  "lastUpdated": "2026-03-09T18:00:00Z",
+  "currentAverage": 4.25,
+  "preWarAverage": 3.18,
+  "changePercent": 33.6,
+  "unit": "$/gallon",
+  "priceHistory": [
+    {
+      "date": "2026-02-01",
+      "price": 3.12,
+      "label": "Normal market"
+    },
+    {
+      "date": "2026-02-08",
+      "price": 3.1,
+      "label": ""
+    },
+    {
+      "date": "2026-02-15",
+      "price": 3.15,
+      "label": "Nuclear talks"
+    },
+    {
+      "date": "2026-02-22",
+      "price": 3.16,
+      "label": ""
+    },
+    {
+      "date": "2026-02-27",
+      "price": 3.18,
+      "label": "Talks collapse"
+    },
+    {
+      "date": "2026-02-28",
+      "price": 3.68,
+      "label": "WAR BEGINS",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-01",
+      "price": 3.89,
+      "label": "Iran retaliates",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-02",
+      "price": 4.12,
+      "label": "Hezbollah enters",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-03",
+      "price": 4.35,
+      "label": "Hormuz blocked",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-04",
+      "price": 4.42,
+      "label": "Markets crash",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-05",
+      "price": 4.45,
+      "label": "Escalation"
+    },
+    {
+      "date": "2026-03-06",
+      "price": 4.49,
+      "label": "TODAY"
+    },
+    {
+      "date": "2026-03-07",
+      "price": 3.25,
+      "note": "Day 8 — oil infrastructure targeted"
+    },
+    {
+      "date": "2026-03-08",
+      "price": 3.32,
+      "note": "Day 9 — biggest weekly oil surge in history"
+    },
+    {
+      "date": "2026-03-09",
+      "price": 4.25,
+      "note": "Day 10 — Brent hits $119.50 intraday, Hormuz effectively closed",
+      "isEvent": true
+    }
+  ],
+  "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
+  "breakdown": {
+    "preWar": {
+      "label": "Before War (Feb 27)",
+      "crudePerBarrel": 68,
+      "components": [
+        {
+          "name": "Crude Oil Cost",
+          "formula": "$68 ÷ 42 gal",
+          "value": 1.62,
+          "percent": 51
+        },
+        {
+          "name": "Refining",
+          "formula": "Normal refining margins",
+          "value": 0.4,
+          "percent": 13
+        },
+        {
+          "name": "Distribution & Marketing",
+          "formula": "Standard logistics",
+          "value": 0.15,
+          "percent": 5
+        },
+        {
+          "name": "Federal Excise Tax",
+          "formula": "Fixed rate",
+          "value": 0.184,
+          "percent": 6
+        },
+        {
+          "name": "Average State Tax",
+          "formula": "50-state average",
+          "value": 0.35,
+          "percent": 11
+        },
+        {
+          "name": "Retail Margin",
+          "formula": "Station profit",
+          "value": 0.12,
+          "percent": 4
+        }
+      ],
+      "total": 2.824,
+      "note": "Actual retail average was $3.18 (includes regional variation)"
+    },
+    "current": {
+      "label": "Current (Mar 9)",
+      "crudePerBarrel": 103,
+      "components": [
+        {
+          "name": "Crude Oil Cost",
+          "formula": "$103 ÷ 42 gal",
+          "value": 2.45,
+          "percent": 50,
+          "change": "+$0.83"
+        },
+        {
+          "name": "Refining",
+          "formula": "+war-risk premium",
+          "value": 0.65,
+          "percent": 13,
+          "change": "+$0.25"
+        },
+        {
+          "name": "Distribution & Marketing",
+          "formula": "+supply chain disruption",
+          "value": 0.3,
+          "percent": 6,
+          "change": "+$0.15"
+        },
+        {
+          "name": "Federal Excise Tax",
+          "formula": "Fixed rate",
+          "value": 0.184,
+          "percent": 4,
+          "change": "$0.00"
+        },
+        {
+          "name": "Average State Tax",
+          "formula": "50-state average",
+          "value": 0.35,
+          "percent": 8,
+          "change": "$0.00"
+        },
+        {
+          "name": "Retail Margin",
+          "formula": "+panic buying premium",
+          "value": 0.18,
+          "percent": 4,
+          "change": "+$0.06"
+        }
+      ],
+      "total": 4.114,
+      "note": "Actual retail average is $4.25 (includes panic premium & regional spikes)"
+    }
+  },
+  "context": "Gas prices surging due to Strait of Hormuz effectively closed to tanker traffic (Day 8) and Middle East conflict escalation. Brent crude hit $119.50/barrel intraday on March 9 before settling at $103.47. National average up $1.07 from pre-war $3.18/gal. California highest at $5.89/gal. Diesel at $4.65/gal. Analysts warn prices could reach $5.50+ nationally if Hormuz remains closed through March."
+}

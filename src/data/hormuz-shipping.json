@@ -1,0 +1,108 @@
+{
+  "straitStatus": "effectively_closed",
+  "blockadeDay": 7,
+  "blockadeStartDate": "2026-03-03",
+  "lastUpdated": "2026-03-09T18:00:00Z",
+  "statistics": {
+    "normalDailyBarrels": 15000000,
+    "currentDailyBarrels": 0,
+    "globalOilSharePercent": 20,
+    "vesselsAnchored": 310,
+    "vesselsTransitLast24h": 0,
+    "vesselsDamaged": 8,
+    "vesselsSunk": 2,
+    "insuranceStatus": "withdrawn",
+    "naviesPresent": [
+      "US 5th Fleet",
+      "Royal Navy",
+      "IRGC Navy",
+      "French Navy"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2026-03-01",
+      "event": "Iran begins deploying naval mines in Strait of Hormuz",
+      "status": "partially_blocked",
+      "barrels": 8000000
+    },
+    {
+      "date": "2026-03-02",
+      "event": "IRGC deploys anti-ship missiles along Iranian coastline",
+      "status": "partially_blocked",
+      "barrels": 3000000
+    },
+    {
+      "date": "2026-03-03",
+      "event": "Full blockade declared. War-risk insurance pulled by Lloyd's of London.",
+      "status": "blocked",
+      "barrels": 500000
+    },
+    {
+      "date": "2026-03-04",
+      "event": "4 commercial vessels struck by mines/missiles. 150+ vessels at anchor.",
+      "status": "blocked",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-05",
+      "event": "1 oil tanker sunk. All major shipping companies halt Persian Gulf operations.",
+      "status": "blocked",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-06",
+      "event": "US Navy minesweeping operations begin. No commercial transit.",
+      "status": "blocked",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-07",
+      "event": "Only 9 vessels total crossed strait this week. Dry bulk transits down 91%. ~280 bulkers trapped. IRGC drones hit tankers Prima and Louise P.",
+      "status": "blocked",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-08",
+      "event": "Tehran oil depots bombed \u2014 fuel distribution halted. Brent crude +27% for the week. US Navy still not escorting. IRGC vows 6+ months capability.",
+      "status": "blocked",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-09",
+      "event": "Strait effectively closed \u2014 zero transits for 48+ hours. 310+ vessels at anchor. 8 commercial vessels damaged total, 2 sunk. Brent crude hits $119.50 intraday before settling at $103.47. US minesweeping makes minimal progress. IRGC deploys additional fast attack boats.",
+      "status": "effectively_closed",
+      "barrels": 0
+    }
+  ],
+  "impactedGoods": [
+    {
+      "commodity": "Crude Oil",
+      "normalFlow": "15M bbl/day",
+      "currentFlow": "0 bbl/day",
+      "priceImpact": "+37% (Brent $103.47, peak $119.50)",
+      "detail": "20% of global supply cut off. Brent crude hit $119.50 intraday on March 9 before settling at $103.47."
+    },
+    {
+      "commodity": "LNG",
+      "normalFlow": "~25% of global",
+      "currentFlow": "0 (Qatar shut down)",
+      "priceImpact": "+52%",
+      "detail": "Qatar's LNG export facilities damaged. 17 Iranian ballistic missiles intercepted over Doha on March 8. European gas prices at record levels."
+    },
+    {
+      "commodity": "Refined Products",
+      "normalFlow": "2M bbl/day",
+      "currentFlow": "0",
+      "priceImpact": "+43%",
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas prices hit $4.25/gal national average, up 33.6% from pre-war."
+    },
+    {
+      "commodity": "Petrochemicals",
+      "normalFlow": "Various",
+      "currentFlow": "Minimal",
+      "priceImpact": "+28%",
+      "detail": "Fertilizer and plastics supply chain severely disrupted. Food commodity prices surging 30-50% above pre-war levels."
+    }
+  ]
+}

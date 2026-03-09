@@ -1,0 +1,2303 @@
+[
+  {
+    "id": "tl-001",
+    "date": "2026-02-25",
+    "time": "09:00",
+    "day": -3,
+    "dayLabel": "PRE-WAR",
+    "title": "US Intelligence Reports Iran Accelerating Nuclear Program",
+    "description": "US intelligence agencies release a declassified assessment indicating Iran has dramatically accelerated its nuclear enrichment program, reaching 87% purity at the Fordow facility. The report warns that Iran could assemble a crude nuclear device within weeks if enrichment continues at the current pace.",
+    "actor": "us",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Based on declassified ODNI assessment corroborated by IAEA monitoring data and satellite imagery from commercial providers",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-israel-us-strikes"
+      },
+      {
+        "name": "IAEA",
+        "url": "https://www.ungeneva.org/en/news-media/news/2026/02/116323/attacks-iran-and-retaliatory-strikes-undermine-international-peace"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-002",
+    "date": "2026-02-26",
+    "time": "10:00",
+    "day": -2,
+    "dayLabel": "PRE-WAR",
+    "title": "Emergency UN Security Council Session on Iran",
+    "description": "The UN Security Council convenes an emergency session to discuss the Iranian nuclear crisis. The US pushes for authorization of military force, but faces opposition from Russia and China who call for continued diplomacy. The session ends without a resolution after a double veto.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "UN proceedings are publicly documented and broadcast; multiple news agencies present in chamber",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-003",
+    "date": "2026-02-27",
+    "time": "11:00",
+    "day": -1,
+    "dayLabel": "PRE-WAR",
+    "title": "Trump Authorizes Military Options Against Iran",
+    "description": "President Trump signs a classified executive order authorizing the use of military force against Iranian nuclear and military infrastructure. Senior administration officials brief congressional leaders in a closed-door session. The Pentagon begins final positioning of forces in the region.",
+    "actor": "us",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by White House press secretary and corroborated by multiple congressional sources who attended classified briefing",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/02/28/trump-iran-war-regime-change-freedom/"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/politics/us-winning-decisively-against-iran-achieve-complete-control-airspace-within-days-hegseth-says"
+      }
+    ],
+    "narratives": {
+      "us": "A necessary step to prevent a nuclear-armed Iran that threatens regional and global security",
+      "iran": "An illegal act of aggression planned without UN authorization, violating international law and Iranian sovereignty"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-004",
+    "date": "2026-02-27",
+    "time": "17:00",
+    "day": -1,
+    "dayLabel": "PRE-WAR",
+    "title": "Iran's Khamenei Warns of 'Devastating Response' to Any Attack",
+    "description": "Supreme Leader Ayatollah Ali Khamenei delivers a televised address warning that any military strike on Iran will be met with a 'devastating and unprecedented response.' He declares that Iran's military forces are fully prepared and that the Islamic Republic will defend its sovereignty at all costs.",
+    "actor": "iran",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Broadcast live on Iranian state television (IRIB) and translated by multiple international news agencies",
+    "sources": [
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "Press TV",
+        "url": "https://www.cnn.com/2026/03/02/middleeast/iran-war-retaliation-rattles-gulf-neighbors-intl"
+      },
+      {
+        "name": "BBC Persian",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "narratives": {
+      "us": "Threatening rhetoric from a regime that has destabilized the region for decades and is now on the verge of acquiring nuclear weapons",
+      "iran": "A sovereign nation exercising its right to self-defense in the face of openly declared military aggression by the United States and Israel"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-005",
+    "date": "2026-02-28",
+    "time": "02:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "US Launches Operation Epic Fury \u2014 Massive Aerial Campaign on Iran",
+    "description": "The United States initiates Operation Epic Fury with a coordinated wave of over 200 cruise missiles launched from warships in the Arabian Sea and B-2 stealth bombers flying from Diego Garcia. Targets include nuclear facilities, air defense networks, IRGC headquarters, and command-and-control nodes across Iran.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by Pentagon press briefing, satellite imagery from Planet Labs, and multiple independent journalists reporting from the region",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "narratives": {
+      "us": "A precise, targeted operation to eliminate Iran's nuclear weapons capability and protect American national security interests",
+      "iran": "An unprovoked act of war and naked aggression against a sovereign nation, constituting a grave violation of the UN Charter"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-006",
+    "date": "2026-02-28",
+    "time": "02:15",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Israeli F-35s Join Strikes on Iranian Nuclear Facilities",
+    "description": "The Israeli Air Force deploys F-35I Adir stealth fighters in a coordinated strike with US forces, targeting Iran's key nuclear facilities at Natanz, Fordow, and Isfahan. Israeli aircraft fly through Saudi airspace with tacit approval from Riyadh, marking an unprecedented level of regional cooperation against Iran.",
+    "actor": "israel",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by IDF spokesperson and corroborated by flight tracking data and Saudi silence on airspace violations",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/"
+      }
+    ],
+    "narratives": {
+      "us": "Israel exercising its right to self-defense by eliminating an existential nuclear threat on its doorstep",
+      "iran": "The Zionist regime is a co-conspirator in American aggression, and both will face the full wrath of the Islamic Republic"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-007",
+    "date": "2026-02-28",
+    "time": "02:30",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Natanz Nuclear Facility Struck by Bunker Busters",
+    "description": "Multiple GBU-57 Massive Ordnance Penetrators strike Iran's underground Natanz nuclear enrichment facility. The 30,000-pound bombs are designed to penetrate hardened underground structures. Satellite imagery later confirms significant damage to the facility's centrifuge halls located deep underground.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Satellite imagery from multiple commercial providers confirms structural damage; seismic activity consistent with large-scale detonations detected",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Planet Labs",
+        "url": "https://www.france24.com/en/live-news/20260228-burgers-then-war-trump-s-bluffs-before-iran-strikes"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-008",
+    "date": "2026-02-28",
+    "time": "03:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Isfahan Uranium Enrichment Site Hit",
+    "description": "Coalition strikes hit the Isfahan uranium conversion facility, one of Iran's largest nuclear processing centers. Secondary explosions are reported, suggesting stockpiled materials were struck. Iranian state media initially denies any damage to nuclear facilities before going silent.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by satellite imagery and geolocated social media videos from Isfahan residents showing large explosions",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/iran"
+      },
+      {
+        "name": "Open Source Intelligence analysts",
+        "url": "https://www.france24.com/en/live-news/20260228-burgers-then-war-trump-s-bluffs-before-iran-strikes"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-009",
+    "date": "2026-02-28",
+    "time": "03:45",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Iran's Air Defense Network Targeted \u2014 Multiple S-300 Sites Destroyed",
+    "description": "US Navy EA-18G Growler electronic warfare aircraft suppress Iranian air defenses while precision strikes destroy at least eight S-300 surface-to-air missile batteries. Iran's integrated air defense system is significantly degraded, allowing subsequent waves of strikes to proceed with reduced risk.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Pentagon released battle damage assessment imagery; independent defense analysts confirm destruction of known S-300 positions",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Jane's Defence",
+        "url": "https://www.aljazeera.com/news/2026/3/2/what-is-irans-military-strategy-how-it-has-changed-since-june-2025-war"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-010",
+    "date": "2026-02-28",
+    "time": "04:30",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Khamenei Reported Killed in Leadership Decapitation Strike",
+    "description": "Unconfirmed reports emerge that Supreme Leader Ayatollah Ali Khamenei was killed in a precision strike on a secure compound near Tehran. Iranian state media goes dark for several hours. US officials decline to confirm but note that 'senior leadership targets' were part of the operation.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Multiple US and Israeli intelligence sources indicate strike hit intended target; Iranian state media silence for 6+ hours is unusual but death not independently confirmed",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/world/middle-east/"
+      },
+      {
+        "name": "Channel 12 Israel",
+        "url": "https://www.timesofisrael.com/"
+      }
+    ],
+    "narratives": {
+      "us": "Decapitation of enemy leadership is a legitimate military objective that will hasten the end of hostilities and regime change",
+      "iran": "The assassination of a nation's spiritual leader is a war crime that will only strengthen the resolve of the Iranian people to resist"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-011",
+    "date": "2026-02-28",
+    "time": "06:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Trump Addresses Nation: 'Iran Will Never Possess Nuclear Weapons'",
+    "description": "President Trump delivers an address from the Oval Office announcing the commencement of military operations against Iran. He states the strikes are necessary to prevent Iran from acquiring nuclear weapons and frames the operation as defensive. He promises the campaign will be swift and decisive.",
+    "actor": "us",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Live broadcast carried by all major US networks and streamed globally; full transcript released by White House",
+    "sources": [
+      {
+        "name": "White House",
+        "url": "https://www.whitehouse.gov/articles/2026/03/peace-through-strength-president-trump-launches-operation-epic-fury-to-crush-iranian-regime-end-nuclear-threat/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/politics/us-winning-decisively-against-iran-achieve-complete-control-airspace-within-days-hegseth-says"
+      }
+    ],
+    "narratives": {
+      "us": "The President acted decisively to protect American security and prevent a nuclear-armed rogue state from threatening the world",
+      "iran": "The American president has launched an illegal war of aggression for political gain, repeating the lies used to justify the invasion of Iraq"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-012",
+    "date": "2026-02-28",
+    "time": "08:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "IRGC Scrambles Forces, Declares 'Massive Retaliation' Imminent",
+    "description": "The Islamic Revolutionary Guard Corps issues a statement through IRNA declaring that Iran will launch a 'massive and crushing retaliation' against American and Israeli targets across the region. IRGC missile units are observed preparing mobile launchers at multiple sites throughout western Iran.",
+    "actor": "iran",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IRGC statement broadcast on Iranian state media; satellite imagery from commercial providers confirms missile launcher mobilization",
+    "sources": [
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "Press TV",
+        "url": "https://www.cnn.com/2026/03/02/middleeast/iran-war-retaliation-rattles-gulf-neighbors-intl"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "narratives": {
+      "us": "The IRGC's threats confirm why military action was necessary \u2014 Iran has always intended to use its military capability aggressively",
+      "iran": "Iran is exercising its legitimate right to self-defense under Article 51 of the UN Charter after being subjected to an unprovoked attack"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-013",
+    "date": "2026-02-28",
+    "time": "10:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "UN Secretary General Calls for Immediate Ceasefire",
+    "description": "UN Secretary General Antonio Guterres issues an urgent appeal for an immediate ceasefire, warning that the conflict risks spiraling into a broader regional war. He calls on all parties to return to the negotiating table and urges Security Council members to find common ground.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official UN press statement and live press conference carried by international media",
+    "sources": [
+      {
+        "name": "United Nations",
+        "url": "https://press.un.org/en/2026/sgsm23033.doc.htm"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-014",
+    "date": "2026-02-28",
+    "time": "12:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Oil Prices Surge 18% on War Fears",
+    "description": "Brent crude surges 18% to $112 per barrel as markets react to the outbreak of war between the US and Iran. Fears of disruption to the Strait of Hormuz, through which 20% of the world's oil passes daily, drive panic buying. Energy traders warn prices could climb further if the strait is threatened.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Market data from Bloomberg, Reuters, and major commodity exchanges confirm price movements",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/iran-us-israel-war-2026"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-015",
+    "date": "2026-02-28",
+    "time": "14:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Iran Fires First Volley of Ballistic Missiles at Al Udeid Air Base, Qatar",
+    "description": "Iran launches approximately 30 Shahab-3 and Qiam-1 ballistic missiles at Al Udeid Air Base in Qatar, the largest US air base in the Middle East and the forward headquarters of CENTCOM. The attack represents Iran's first major retaliatory strike and marks the first direct ballistic missile attack on a US base in the region.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Launch detected by US early warning satellites; missile trajectories tracked by CENTCOM; impact confirmed by base personnel and satellite imagery",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "narratives": {
+      "us": "Iran's reckless attack on a military installation in a neutral country endangers the entire region and will be met with a forceful response",
+      "iran": "The strike on Al Udeid is a proportional response targeting the very base from which America launched its cowardly aggression against Iran"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-016",
+    "date": "2026-02-28",
+    "time": "16:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "US THAAD and Patriot Systems Intercept Majority of Incoming Missiles",
+    "description": "The US military's layered missile defense system, including THAAD and Patriot PAC-3 batteries, successfully intercepts the majority of Iranian missiles targeting Al Udeid. The Pentagon reports a 90% interception rate, though several missiles penetrate the defense shield and impact the base perimeter.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Pentagon provided interception data; independent defense analysts confirm based on debris patterns and satellite imagery analysis",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/world/middle-east/"
+      },
+      {
+        "name": "Jane's Defence",
+        "url": "https://www.aljazeera.com/news/2026/3/2/what-is-irans-military-strategy-how-it-has-changed-since-june-2025-war"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-017",
+    "date": "2026-02-28",
+    "time": "18:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Pentagon Confirms 'Minimal Damage' to Al Udeid",
+    "description": "Pentagon spokesperson confirms that Al Udeid Air Base sustained 'minimal damage' from the Iranian missile attack, with no US casualties reported. Several non-critical facilities were damaged and one runway temporarily disabled. Flight operations resume within hours.",
+    "actor": "us",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Pentagon assessment released; however, independent journalists have limited access to base and full damage extent cannot be independently confirmed",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/politics/us-winning-decisively-against-iran-achieve-complete-control-airspace-within-days-hegseth-says"
+      }
+    ],
+    "narratives": {
+      "us": "America's advanced missile defenses proved their worth, protecting our forces and demonstrating technological superiority",
+      "iran": "The Pentagon is concealing the true extent of damage; our missiles struck critical targets and caused far more destruction than the Americans admit"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-018",
+    "date": "2026-02-28",
+    "time": "22:00",
+    "day": 0,
+    "dayLabel": "DAY 0",
+    "title": "Iran Fires Fattah-2 Hypersonic Missiles Toward Israeli Targets",
+    "description": "Iran launches its advanced Fattah-2 hypersonic ballistic missiles toward targets in Israel for the first time in combat. The missiles, capable of speeds exceeding Mach 13, are designed to evade Israeli missile defense systems. Israel's Arrow-3 system is tested against a real hypersonic threat for the first time.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Launch confirmed by US satellite detection; Iranian state media claims Fattah-2 deployment but independent verification of missile type is ongoing",
+    "sources": [
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      }
+    ],
+    "narratives": {
+      "us": "Iran's use of advanced hypersonic weapons against civilian population centers is a dangerous escalation that must be met with overwhelming force",
+      "iran": "The Fattah-2 demonstrates that Iran possesses unstoppable weapons technology that no defense system can counter"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-019",
+    "date": "2026-03-01",
+    "time": "01:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "Iranian Missiles Strike Port Shuaiba, Kuwait \u2014 6 US Service Members KIA",
+    "description": "A salvo of Iranian ballistic missiles strikes the Port Shuaiba logistics facility in Kuwait, killing six US service members and wounding over a dozen. The attack hits a fuel storage area and a barracks. These are the first confirmed American combat fatalities of the conflict.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Pentagon confirms casualties by name after next-of-kin notification; Kuwaiti officials corroborate the strike and damage",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Kuwait Times",
+        "url": "https://www.foxnews.com/politics/us-winning-decisively-against-iran-achieve-complete-control-airspace-within-days-hegseth-says"
+      }
+    ],
+    "narratives": {
+      "us": "Iran has killed American service members in a neutral country \u2014 this demands the strongest possible military response",
+      "iran": "American soldiers stationed illegally across the region to wage war on Iran are legitimate military targets under international law"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-020",
+    "date": "2026-03-01",
+    "time": "04:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "Israeli Iron Dome Intercepts Most Missiles \u2014 Beit Shemesh Suburb Hit",
+    "description": "Israel's multi-layered air defense system intercepts the majority of incoming Iranian missiles, but at least two penetrate the shield and strike a residential area in Beit Shemesh, west of Jerusalem. Three Israeli civilians are killed and 14 wounded. Rescue operations begin immediately.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Israeli emergency services confirm casualties; geolocated video and photographs from impact site verified by multiple outlets",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      },
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "narratives": {
+      "us": "Iran deliberately targeted Israeli civilian areas \u2014 this is terrorism, not legitimate military action",
+      "iran": "The strike targeted military infrastructure near Beit Shemesh; any civilian casualties are the result of Israeli military installations being placed among population centers"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-021",
+    "date": "2026-03-01",
+    "time": "06:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "SecDef Pete Hegseth: 'We Will Not Be Deterred'",
+    "description": "Secretary of Defense Pete Hegseth delivers a Pentagon press briefing confirming six US service members were killed in the Kuwait strike. He pledges that the United States will intensify operations and that Iran will pay a 'severe price' for every American life lost. He outlines additional force deployments to the region.",
+    "actor": "us",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Live Pentagon press briefing carried by all major news networks; official DoD transcript released",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/politics/us-winning-decisively-against-iran-achieve-complete-control-airspace-within-days-hegseth-says"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-022",
+    "date": "2026-03-01",
+    "time": "09:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "Iran's Acting Supreme Leader Vows Continued Retaliation",
+    "description": "With Khamenei's fate still officially unconfirmed, IRGC Commander-in-Chief Hossein Salami appears on state television as acting head of state, vowing that Iran will continue to strike American and Israeli targets until the aggression ceases. He calls on all regional allies to join the fight.",
+    "actor": "iran",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Broadcast on IRIB state television; Salami's assumption of acting authority noted by multiple diplomatic sources",
+    "sources": [
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "BBC Persian",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-023",
+    "date": "2026-03-01",
+    "time": "12:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "Second Wave of US Strikes Hits IRGC Command Centers",
+    "description": "The US launches a second major wave of strikes targeting IRGC command-and-control facilities, communications nodes, and missile production sites. B-1B Lancers and carrier-based F/A-18 Super Hornets strike over 60 targets across western and central Iran. The Pentagon reports that Iran's ability to coordinate further missile attacks is significantly degraded.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM releases operational summary with target list; satellite imagery confirms strikes on known IRGC facilities",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/world/middle-east/"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-024",
+    "date": "2026-03-01",
+    "time": "15:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "China and Russia Call for Restraint, Block UN Resolution",
+    "description": "China and Russia issue a joint statement condemning the US military action as 'a reckless escalation' and veto a proposed UN Security Council resolution that would have authorized international intervention. Beijing offers to mediate but Washington dismisses the proposal.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "UN Security Council voting record is public; joint statement released through official Chinese and Russian diplomatic channels",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Xinhua",
+        "url": "https://www.aljazeera.com/news/2026/2/28/world-reacts-to-us-israel-attack-on-iran-tehran-retaliation"
+      },
+      {
+        "name": "TASS",
+        "url": "https://www.timesofisrael.com/liveblog_entry/putin-voices-support-for-ceasefire-in-call-with-irans-pezeshkian-kremlin/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-025",
+    "date": "2026-03-01",
+    "time": "18:00",
+    "day": 1,
+    "dayLabel": "DAY 1",
+    "title": "US Carrier Strike Group Repositions in Arabian Sea",
+    "description": "The USS Dwight D. Eisenhower carrier strike group repositions from the Gulf of Oman to the northern Arabian Sea to provide additional air support and missile defense coverage. A second carrier, USS Harry S. Truman, is ordered to accelerate its transit from the Mediterranean to reinforce operations.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "US Navy confirms repositioning; commercial ship tracking data and satellite imagery corroborate carrier movements",
+    "sources": [
+      {
+        "name": "USNI News",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-026",
+    "date": "2026-03-02",
+    "time": "02:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "Hezbollah Launches 150+ Rockets from Southern Lebanon into Israel",
+    "description": "Hezbollah opens a second front by launching over 150 rockets and guided missiles from southern Lebanon into northern Israel, striking Haifa, Tiberias, and military installations in the Galilee. Israel's Iron Dome and David's Sling systems are overwhelmed in some sectors, with several rockets striking urban areas.",
+    "actor": "hezbollah",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IDF confirms incoming rocket count; UNIFIL forces in southern Lebanon report launch activity; damage in Israeli cities documented by journalists",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "UNIFIL",
+        "url": "https://news.un.org/en/story/2026/02/1167062"
+      }
+    ],
+    "narratives": {
+      "us": "Hezbollah's attack proves it is an Iranian proxy doing Tehran's bidding, opening a terrorist front against Israeli civilians",
+      "iran": "The Lebanese resistance is standing in solidarity with Iran against the US-Israeli axis of aggression, as is their right"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-027",
+    "date": "2026-03-02",
+    "time": "05:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "Israel Retaliates with Airstrikes on Beirut Suburbs",
+    "description": "The Israeli Air Force launches heavy airstrikes on Hezbollah command centers and weapons depots in the Dahieh suburb of Beirut. Lebanese authorities report significant destruction in densely populated areas. At least 28 Lebanese civilians are reported killed, drawing international condemnation.",
+    "actor": "israel",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IDF confirms strikes and provides target justification; Lebanese Red Cross confirms civilian casualties; destruction documented by local and international media",
+    "sources": [
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "The Daily Star Lebanon",
+        "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-028",
+    "date": "2026-03-02",
+    "time": "08:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "Iran Begins Mining Strait of Hormuz with Naval Mines",
+    "description": "Iranian naval forces and IRGC Navy fast boats are observed deploying naval mines in shipping lanes near the Strait of Hormuz. The US Navy's 5th Fleet issues a navigational warning to all commercial vessels. The move threatens to choke off approximately 21 million barrels of oil per day that transit the narrow waterway.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "US Navy surveillance confirms mine-laying activity; however, full extent and type of mines deployed has not been independently verified",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "USNI News",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Lloyd's List",
+        "url": "https://breakingdefense.com/2026/03/trump-says-us-navy-vessels-could-accompany-tankers-in-strait-of-hormuz/"
+      }
+    ],
+    "narratives": {
+      "us": "Mining international shipping lanes is an act of economic terrorism that threatens the global economy and the energy security of every nation",
+      "iran": "Iran has the sovereign right to defend its territorial waters and deny the enemy use of strategic waterways during wartime"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-029",
+    "date": "2026-03-02",
+    "time": "10:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "IRINS Dena Frigate Sunk by US Navy in Gulf Engagement",
+    "description": "The Iranian frigate IRINS Dena is sunk in a naval engagement with the US destroyer USS Laboon in the Persian Gulf after the Iranian vessel allegedly targeted a US minesweeper with anti-ship missiles. The engagement lasts approximately 20 minutes, with the Dena taking multiple Harpoon missile hits before sinking. Iran reports 43 sailors missing.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "US Navy provides detailed engagement timeline; satellite imagery confirms wreckage location; Iranian naval sources acknowledge loss of vessel",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "USNI News",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "The USS Laboon acted in self-defense after the Iranian frigate fired on coalition minesweeping operations in international waters",
+      "iran": "The Americans destroyed a naval vessel conducting legitimate defense operations in Iranian territorial waters"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-030",
+    "date": "2026-03-02",
+    "time": "14:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "Oil Tanker MV Pacific Dawn Struck by Mine Near Hormuz",
+    "description": "The Liberian-flagged oil tanker MV Pacific Dawn strikes a naval mine approximately 15 nautical miles from the Strait of Hormuz, causing a massive hull breach and an oil spill in the Gulf of Oman. The crew of 24 is evacuated by nearby vessels. The incident causes Brent crude to spike to $128 per barrel.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Distress signal logged by maritime authorities; crew rescued and interviewed; ship tracking data confirms location; oil slick visible on satellite imagery",
+    "sources": [
+      {
+        "name": "Lloyd's List",
+        "url": "https://breakingdefense.com/2026/03/trump-says-us-navy-vessels-could-accompany-tankers-in-strait-of-hormuz/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-031",
+    "date": "2026-03-02",
+    "time": "16:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "EU Announces Emergency Energy Summit",
+    "description": "European Commission President calls an emergency EU energy summit as European gas and oil prices surge to record levels. EU members begin discussing activation of strategic petroleum reserves and accelerated negotiations with alternative suppliers in Africa and the Americas.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "EU press office confirms summit scheduling; official statements from multiple EU heads of state",
+    "sources": [
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/iran-us-israel-war-2026"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-032",
+    "date": "2026-03-02",
+    "time": "20:00",
+    "day": 2,
+    "dayLabel": "DAY 2",
+    "title": "Humanitarian Corridors Proposed for Civilian Evacuation",
+    "description": "The International Committee of the Red Cross proposes establishing humanitarian corridors to evacuate civilians from conflict zones in Iran, Lebanon, and Israel. The ICRC calls on all parties to respect international humanitarian law and allow safe passage for civilians and humanitarian workers.",
+    "actor": "multiple",
+    "type": "humanitarian",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official ICRC press release and statements from Geneva headquarters; proposal acknowledged by all parties",
+    "sources": [
+      {
+        "name": "ICRC",
+        "url": "https://www.ohchr.org/en/press-releases/2026/03/iran-un-experts-call-de-escalation-and-accountability"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-033",
+    "date": "2026-03-03",
+    "time": "00:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "Strait of Hormuz Declared Unsafe for Navigation",
+    "description": "The Combined Maritime Forces and the International Maritime Organization jointly declare the Strait of Hormuz unsafe for commercial navigation due to confirmed mine fields and ongoing military operations. Major shipping companies including Maersk, MSC, and CMA CGM suspend all transits through the strait indefinitely.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official IMO navigation warning issued; major shipping companies confirm suspension of transits through public statements",
+    "sources": [
+      {
+        "name": "Lloyd's List",
+        "url": "https://breakingdefense.com/2026/03/trump-says-us-navy-vessels-could-accompany-tankers-in-strait-of-hormuz/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/iran-us-israel-war-2026"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-034",
+    "date": "2026-03-03",
+    "time": "04:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "Qatar Halts LNG Exports Through Hormuz",
+    "description": "Qatar, the world's largest LNG exporter, announces a temporary halt to all liquefied natural gas shipments through the Strait of Hormuz. The decision sends European natural gas futures soaring by 32% as the continent faces the prospect of severe energy shortages heading into late winter.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "QatarEnergy issues official statement; European gas futures data confirmed by ICE exchange; vessel tracking shows LNG carriers diverting or anchoring",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/iran-us-israel-war-2026"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-035",
+    "date": "2026-03-03",
+    "time": "08:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "Global Stock Markets Crash \u2014 Dow Drops 1,200 Points at Open",
+    "description": "Global financial markets plunge as the economic consequences of the Iran conflict intensify. The Dow Jones Industrial Average drops 1,200 points in the first hour of trading, the S&P 500 falls 5.3%, and the NASDAQ drops 6.1%. Circuit breakers are triggered on multiple European exchanges.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Real-time market data from NYSE, NASDAQ, and European exchanges; trading volumes and price movements independently verifiable",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/iran-us-israel-war-2026"
+      },
+      {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/world/middle-east/"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-036",
+    "date": "2026-03-03",
+    "time": "10:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "Iraq-Based Militias Fire Rockets at US Forces at Al Asad Base",
+    "description": "Iran-backed Iraqi militias, including Kata'ib Hezbollah and Asa'ib Ahl al-Haq, launch a sustained rocket and drone barrage against Al Asad Air Base in western Iraq. The base sustains moderate damage and two US soldiers are wounded. Iraqi government condemns the attack but is unable to prevent it.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM confirms attack and casualties; Iraqi security forces corroborate; militia groups claim responsibility on Telegram channels",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "narratives": {
+      "us": "Iran's proxy network is attacking American forces across the region, confirming the need to dismantle the IRGC's entire terror infrastructure",
+      "iran": "The Iraqi resistance movements are acting independently in solidarity with the people of Iran against American occupation forces"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-037",
+    "date": "2026-03-03",
+    "time": "12:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "Trump Sanctions All Nations Trading with Iran",
+    "description": "President Trump signs an executive order imposing secondary sanctions on any nation or entity conducting trade with Iran, including oil purchases, financial transactions, and arms transfers. The move is aimed primarily at China and India, which are major Iranian oil importers. Beijing calls the sanctions 'economic bullying.'",
+    "actor": "us",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Executive order published in Federal Register; Treasury Department issues detailed guidance; affected nations acknowledge new sanctions",
+    "sources": [
+      {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/02/28/trump-iran-war-regime-change-freedom/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-038",
+    "date": "2026-03-03",
+    "time": "16:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "Reports of Iranian Civilian Casualties Mount \u2014 Hospitals Overwhelmed",
+    "description": "Iranian medical officials report that hospitals in Tehran, Isfahan, and Shiraz are overwhelmed with civilian casualties from the ongoing US and Israeli airstrikes. The Iranian Red Crescent reports over 400 civilian deaths and thousands wounded. Aid organizations struggle to reach affected areas due to destroyed infrastructure.",
+    "actor": "iran",
+    "type": "humanitarian",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Iranian Red Crescent figures cited but cannot be independently verified due to restricted media access; some hospital reports corroborated by WHO staff in Iran",
+    "sources": [
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "BBC Persian",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "WHO",
+        "url": "https://www.thenewhumanitarian.org/analysis/2026/03/05/escalating-humanitarian-impacts-us-israeli-war-iran"
+      }
+    ],
+    "narratives": {
+      "us": "The US military takes extraordinary measures to minimize civilian casualties; Iran bears responsibility for placing military assets in civilian areas",
+      "iran": "America's so-called 'precision strikes' have killed hundreds of innocent Iranian civilians, constituting war crimes that the world must condemn"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-039",
+    "date": "2026-03-03",
+    "time": "20:00",
+    "day": 3,
+    "dayLabel": "DAY 3",
+    "title": "UK Royal Navy Deploys Additional Minesweepers to Gulf",
+    "description": "The UK Ministry of Defence announces the deployment of two additional Hunt-class minesweepers and a support vessel to the Persian Gulf to assist with mine clearance operations near the Strait of Hormuz. France and Australia pledge naval assets to the multinational minesweeping effort.",
+    "actor": "multiple",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "UK MoD official press release; vessel movements confirmed by ship tracking data and allied navy communications",
+    "sources": [
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Jane's Defence",
+        "url": "https://www.aljazeera.com/news/2026/3/2/what-is-irans-military-strategy-how-it-has-changed-since-june-2025-war"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-040",
+    "date": "2026-03-04",
+    "time": "03:00",
+    "day": 4,
+    "dayLabel": "DAY 4",
+    "title": "Qatari F-15 Mistakenly Enters Combat Zone, Shot Down",
+    "description": "A Qatari Air Force F-15QA Eagle reportedly strays into an active combat zone over the Persian Gulf and is shot down under unclear circumstances. Qatar claims the aircraft was on a routine patrol and demands an investigation. The pilot ejects safely and is rescued by Qatari naval forces.",
+    "actor": "multiple",
+    "type": "military",
+    "verificationStatus": "unverified",
+    "factCheck": "unable_to_verify",
+    "factCheckNote": "Qatar confirms loss of aircraft but provides no details on circumstances; both US and Iran deny responsibility; investigation ongoing",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "narratives": {
+      "us": "The incident is under investigation; the fog of war creates tragic situations and we are working with Qatari allies to determine what happened",
+      "iran": "This incident proves that American recklessness is endangering even their own Gulf allies and destabilizing the entire region"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-041",
+    "date": "2026-03-04",
+    "time": "06:00",
+    "day": 4,
+    "dayLabel": "DAY 4",
+    "title": "Azerbaijan's Oil Infrastructure Struck by Iranian Missiles",
+    "description": "Iranian missiles strike oil infrastructure in southern Azerbaijan, hitting a pipeline terminal near Baku. Iran accuses Azerbaijan of allowing Israeli intelligence operations on its territory and warns of further strikes if Azerbaijan continues to cooperate with Israel. Azerbaijan recalls its ambassador from Tehran.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Azerbaijani government confirms damage to infrastructure; Iran has not claimed responsibility but launched threatening statements; missile trajectory analysis ongoing",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Trend News Agency",
+        "url": "https://www.aljazeera.com/news/2026/3/5/eu-leaders-express-solidarity-with-gulf-countries-amid-iranian-attacks"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-042",
+    "date": "2026-03-04",
+    "time": "10:00",
+    "day": 4,
+    "dayLabel": "DAY 4",
+    "title": "US Gas Prices Hit $4.20/Gallon, Up from $3.18 Pre-War",
+    "description": "The national average price of gasoline in the United States climbs to $4.20 per gallon, a 32% increase from the $3.18 average recorded before the conflict began. The spike is driven by the closure of the Strait of Hormuz and panic buying. States in the Northeast and West Coast report prices exceeding $5.00.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "AAA and GasBuddy data confirm national average; state-level data corroborated by EIA weekly petroleum status report",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "AAA",
+        "url": "https://www.cnbc.com/2026/03/03/us-iran-war-live-updates.html"
+      },
+      {
+        "name": "GasBuddy",
+        "url": "https://www.cnbc.com/2026/03/03/us-iran-war-live-updates.html"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-043",
+    "date": "2026-03-04",
+    "time": "14:00",
+    "day": 4,
+    "dayLabel": "DAY 4",
+    "title": "Iran Claims to Have Shot Down US MQ-9 Reaper Drone",
+    "description": "Iranian state media broadcasts footage purporting to show the wreckage of a US MQ-9 Reaper drone shot down over Khuzestan province by Iranian air defenses. The Pentagon states it is 'assessing reports' but does not confirm the loss. Independent analysts note the footage is inconclusive.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "unverified",
+    "factCheck": "unverified",
+    "factCheckNote": "Only source is Iranian state media (IRIB/Press TV); wreckage footage is low quality and cannot be conclusively identified as MQ-9; Pentagon has not confirmed",
+    "sources": [
+      {
+        "name": "Press TV",
+        "url": "https://www.cnn.com/2026/03/02/middleeast/iran-war-retaliation-rattles-gulf-neighbors-intl"
+      },
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-044",
+    "date": "2026-03-04",
+    "time": "18:00",
+    "day": 4,
+    "dayLabel": "DAY 4",
+    "title": "Pope Francis Makes Urgent Peace Appeal",
+    "description": "Pope Francis delivers an impassioned address from the Vatican calling on all parties to cease hostilities immediately and pursue peace through dialogue. He offers the Vatican as a neutral venue for peace negotiations and warns that the conflict threatens to plunge the world into a catastrophe of unprecedented scale.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Vatican press office releases full transcript; address broadcast live by Vatican Media and covered by all major international outlets",
+    "sources": [
+      {
+        "name": "Vatican News",
+        "url": "https://www.ohchr.org/en/press-releases/2026/03/iran-un-experts-call-de-escalation-and-accountability"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-045",
+    "date": "2026-03-05",
+    "time": "02:00",
+    "day": 5,
+    "dayLabel": "DAY 5",
+    "title": "Israel Launches New Wave of Strikes on Iranian Missile Sites",
+    "description": "The Israeli Air Force conducts a major overnight strike package targeting Iranian ballistic missile production facilities and mobile launcher staging areas in western Iran. Israel reports destroying at least 12 Shahab-3 transporter-erector-launchers and a major missile assembly plant near Kermanshah.",
+    "actor": "israel",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IDF releases satellite imagery of struck targets; independent OSINT analysts confirm damage at identified locations through commercial satellite comparison",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-046",
+    "date": "2026-03-05",
+    "time": "08:00",
+    "day": 5,
+    "dayLabel": "DAY 5",
+    "title": "Iran Declares 'Long War' Strategy, Mobilizes Reserves",
+    "description": "Iran's acting Supreme National Security Council announces a shift to a 'long war' strategy, calling up military reserves and ordering the mobilization of Basij paramilitary forces numbering in the hundreds of thousands. Iranian officials declare that the nation will fight an asymmetric war of attrition designed to exhaust the American-Israeli alliance.",
+    "actor": "iran",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official statement carried on IRIB state television and confirmed by IRGC-affiliated Tasnim News Agency; mobilization orders corroborated by social media posts from reservists",
+    "sources": [
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      },
+      {
+        "name": "Tasnim News",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-israel-warship-attack-middle-east-rcna261866"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "Iran's desperation is showing \u2014 shifting to a 'long war' strategy is an admission that their conventional military capability has been severely degraded",
+      "iran": "Iran is a nation of 88 million people with a 5,000-year history of resisting invaders \u2014 the Americans will learn that occupying Iran is impossible"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-047",
+    "date": "2026-03-05",
+    "time": "12:00",
+    "day": 5,
+    "dayLabel": "DAY 5",
+    "title": "Houthi Rebels Attack US Navy Destroyer in Red Sea",
+    "description": "Yemen's Houthi rebels launch a coordinated attack on the USS Gravely, an Arleigh Burke-class destroyer operating in the southern Red Sea, using a combination of anti-ship ballistic missiles and explosive-laden drones. The Gravely intercepts all incoming threats using its Aegis combat system but expends a significant portion of its missile inventory.",
+    "actor": "houthis",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM confirms the engagement; Houthi military spokesperson claims responsibility; commercial ships in the area report witnessing interceptions",
+    "sources": [
+      {
+        "name": "USNI News",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "Al Masirah",
+        "url": "https://www.aljazeera.com/news/2026/3/5/eu-leaders-express-solidarity-with-gulf-countries-amid-iranian-attacks"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-048",
+    "date": "2026-03-05",
+    "time": "16:00",
+    "day": 5,
+    "dayLabel": "DAY 5",
+    "title": "US Gas Prices Reach $4.35/Gallon",
+    "description": "US gas prices continue their rapid ascent, reaching a national average of $4.35 per gallon. The Department of Energy announces the release of 30 million barrels from the Strategic Petroleum Reserve in an attempt to stabilize prices. Analysts warn the SPR release will provide only temporary relief without Hormuz reopening.",
+    "actor": "us",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "AAA and EIA data confirm price; DOE press release confirms SPR release authorization",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "AAA",
+        "url": "https://www.cnbc.com/2026/03/03/us-iran-war-live-updates.html"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-049",
+    "date": "2026-03-05",
+    "time": "20:00",
+    "day": 5,
+    "dayLabel": "DAY 5",
+    "title": "Unconfirmed Reports of Iranian Special Forces in Iraq",
+    "description": "Multiple unverified reports emerge from Iraqi Kurdish sources claiming that Iranian Quds Force operatives have crossed into Iraq's Kurdistan region, potentially to establish forward staging areas for asymmetric operations against US forces. The Iraqi government denies any unauthorized Iranian military presence on its soil.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "unverified",
+    "factCheck": "unable_to_verify",
+    "factCheckNote": "Reports originate from Kurdish Peshmerga intelligence sources; unable to independently verify due to remote terrain and lack of journalist access to border areas",
+    "sources": [
+      {
+        "name": "Rudaw",
+        "url": "https://thehill.com/policy/defense/5762761-hegeseth-caine-iran-pentagon-briefing/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-050",
+    "date": "2026-03-06",
+    "time": "04:00",
+    "day": 6,
+    "dayLabel": "DAY 6",
+    "title": "Overnight US Strikes Target Iranian Naval Bases at Bandar Abbas",
+    "description": "US forces conduct a major overnight strike on Iran's primary naval base at Bandar Abbas, targeting IRGC Navy fast attack craft, midget submarines, and coastal missile batteries. The strikes aim to neutralize Iran's ability to continue mining operations and threaten shipping in the Strait of Hormuz.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM releases post-strike assessment with satellite imagery; multiple defense correspondents briefed by Pentagon officials confirm operational details",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "USNI News",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-051",
+    "date": "2026-03-06",
+    "time": "08:00",
+    "day": 6,
+    "dayLabel": "DAY 6",
+    "title": "Iran Fires Ballistic Missiles at US Base in Bahrain",
+    "description": "Iran launches a volley of medium-range ballistic missiles at Naval Support Activity Bahrain, the headquarters of the US 5th Fleet. Bahrain's Patriot batteries and US naval Aegis systems engage the incoming missiles. Early reports suggest most were intercepted, but at least one missile impacts near the base perimeter.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Bahraini civil defense confirms missile alerts and interceptions; US 5th Fleet acknowledges 'inbound threat engagement' but has not released detailed damage assessment",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Bahrain News Agency",
+        "url": "https://www.eunews.it/en/2026/03/02/eu-condemns-irans-inexcusable-attacks-in-the-region-as-the-us-and-israel-continue-their-strikes/"
+      }
+    ],
+    "narratives": {
+      "us": "Iran is spreading the war to Gulf states that have nothing to do with the conflict, endangering civilians throughout the region",
+      "iran": "Any nation that hosts American military forces used to attack Iran is a legitimate target and complicit in the aggression"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-052",
+    "date": "2026-03-06",
+    "time": "10:00",
+    "day": 6,
+    "dayLabel": "DAY 6",
+    "title": "US Gas Prices Hit $4.49/Gallon \u2014 Highest Since War Began",
+    "description": "The national average gasoline price reaches $4.49 per gallon, the highest level since the conflict began and approaching the all-time record. Long lines form at gas stations in major cities as consumers engage in panic buying. Several states implement emergency price gouging protections.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "AAA, GasBuddy, and EIA data all confirm national average; state-level price gouging orders are public record",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "AAA",
+        "url": "https://www.cnbc.com/2026/03/03/us-iran-war-live-updates.html"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/02/28/trump-iran-war-regime-change-freedom/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-053",
+    "date": "2026-03-06",
+    "time": "12:00",
+    "day": 6,
+    "dayLabel": "DAY 6",
+    "title": "CENTCOM: 'Operations Proceeding Ahead of Schedule'",
+    "description": "CENTCOM Commander General delivers a press briefing stating that Operation Epic Fury is 'proceeding ahead of schedule' with over 80% of identified nuclear targets destroyed. He reports that Iran's ballistic missile capability has been reduced by approximately 60% and its air defense network is effectively neutralized.",
+    "actor": "us",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official CENTCOM press briefing attended by credentialed journalists; operational claims consistent with available satellite imagery and independent damage assessments",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-054",
+    "date": "2026-03-06",
+    "time": "14:00",
+    "day": 6,
+    "dayLabel": "DAY 6",
+    "title": "Reports of Major Cyberattack on Iranian Power Grid",
+    "description": "Multiple regions across Iran experience widespread power outages as reports emerge of a sophisticated cyberattack targeting the country's electrical grid control systems. Iranian officials blame the US and Israel for the attack while attempting to restore power to major cities including Tehran, Mashhad, and Tabriz.",
+    "actor": "multiple",
+    "type": "military",
+    "verificationStatus": "unverified",
+    "factCheck": "unverified",
+    "factCheckNote": "Power outages confirmed by Iranian citizens on social media and satellite nightlight imagery; attribution to cyberattack is claimed by Iran but not independently confirmed \u2014 could also be result of kinetic strikes on infrastructure",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC Persian",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "IRNA",
+        "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-055",
+    "date": "2026-03-06",
+    "time": "02:30",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "B-2 Stealth Bombers Strike Iranian Underground Nuclear Facilities",
+    "description": "US B-2 Spirit stealth bombers deployed GBU-57 Massive Ordnance Penetrators against deeply buried nuclear enrichment facilities at Isfahan and Natanz. The strikes targeted reinforced underground chambers believed to house centrifuge cascades and enriched uranium stockpiles. CENTCOM reported secondary explosions at both sites, suggesting stored nuclear materials or equipment were hit.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM releases post-strike satellite imagery showing surface cratering consistent with deep-penetration munitions; seismic data from regional monitoring stations corroborates underground detonations",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "narratives": {
+      "us": "These strikes are specifically designed to eliminate Iran's ability to develop nuclear weapons \u2014 the primary objective of Operation Epic Fury",
+      "iran": "America has attacked civilian nuclear energy infrastructure in violation of international law, risking radiological contamination of populated areas"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-056",
+    "date": "2026-03-06",
+    "time": "04:15",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Israel Strikes Hezbollah Command Center in Beirut Suburb",
+    "description": "Israeli Air Force conducted a precision strike on a Hezbollah underground command-and-control center in the Dahieh suburb of Beirut. Lebanese health ministry reported 23 killed including civilians in surrounding buildings. Israel claimed multiple senior Hezbollah military planners were eliminated in the strike, which used penetration munitions to reach the hardened bunker beneath residential buildings.",
+    "actor": "israel",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "partially_verified",
+    "factCheckNote": "IDF confirms the strike and releases aerial footage; Lebanese health ministry casualty figures corroborated by hospital records; identity of killed Hezbollah commanders not independently verified",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "Israel is conducting legitimate self-defense operations against a designated terrorist organization that has been attacking Israeli territory",
+      "iran": "The Zionist regime is committing war crimes by bombing civilian neighborhoods in Lebanon, killing innocent women and children"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-057",
+    "date": "2026-03-06",
+    "time": "05:45",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Iran Launches Retaliatory Ballistic Missiles at US Base in Bahrain",
+    "description": "In retaliation for the B-2 strikes, Iran's IRGC fired a salvo of Fateh-313 and Dezful medium-range ballistic missiles at Naval Support Activity Bahrain, headquarters of the US 5th Fleet. Patriot and THAAD systems intercepted most incoming projectiles, but at least two missiles impacted within the base perimeter. Early reports indicated US casualties.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM confirms inbound missile engagement and casualties; Bahraini civil defense corroborates with siren activation and shelter-in-place orders; missile debris recovered and identified",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Bahrain News Agency",
+        "url": "https://www.eunews.it/en/2026/03/02/eu-condemns-irans-inexcusable-attacks-in-the-region-as-the-us-and-israel-continue-their-strikes/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "This unprovoked attack on a US military installation in a sovereign Gulf state is a dangerous escalation that endangers the entire region",
+      "iran": "Any base used by American forces to launch attacks against the Islamic Republic is a legitimate military target under international law"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-058",
+    "date": "2026-03-06",
+    "time": "08:00",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Massive Cyber Attack Cripples Iranian Banking System",
+    "description": "A sophisticated cyber operation disabled Iran's SHETAB interbank payment network, taking ATMs offline nationwide and freezing electronic financial transactions. Millions of Iranian citizens were left unable to access funds or purchase basic necessities. The attack was widely attributed to Israel's Unit 8200 cyber warfare division, though no official claim of responsibility was made.",
+    "actor": "israel",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Banking system outage confirmed by Iranian citizens on social media and Iranian banking association statement; attribution to Israel based on technical analysis by cybersecurity firms but not officially confirmed",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Iran International",
+        "url": "https://www.iranintl.com/en/202603054889"
+      },
+      {
+        "name": "BBC Persian",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-059",
+    "date": "2026-03-06",
+    "time": "10:00",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Red Cross Requests Humanitarian Corridor for Tehran Civilians",
+    "description": "The International Committee of the Red Cross formally requested all belligerents establish a humanitarian corridor to allow civilian evacuation from Tehran's heavily bombarded southern districts. ICRC reported hospitals overwhelmed with casualties, critical shortages of medical supplies and blood, and an estimated 500,000 internally displaced persons within the capital alone.",
+    "actor": "multiple",
+    "type": "humanitarian",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official ICRC press release issued from Geneva; WHO staff in Iran corroborate hospital conditions; displacement estimates consistent with satellite imagery of population movement",
+    "sources": [
+      {
+        "name": "ICRC",
+        "url": "https://www.ohchr.org/en/press-releases/2026/03/iran-un-experts-call-de-escalation-and-accountability"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "WHO",
+        "url": "https://www.thenewhumanitarian.org/analysis/2026/03/05/escalating-humanitarian-impacts-us-israeli-war-iran"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-060",
+    "date": "2026-03-06",
+    "time": "13:00",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Oil Prices Surge Past $90/Barrel as Escalation Deepens",
+    "description": "Brent crude surged past $90 per barrel for the first time since the conflict began, hitting $91.40 intraday as the B-2 bunker-buster campaign and Iranian retaliation against Bahrain signaled a deepening spiral of escalation. WTI crude reached $88.75. Goldman Sachs issued a warning that oil could reach $120/barrel if the Strait of Hormuz remains closed through April.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "ICE and NYMEX exchange data confirm price movements; Goldman Sachs research note publicly available; US gas prices confirmed by AAA",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/content/iran-us-israel-war-2026"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-061",
+    "date": "2026-03-06",
+    "time": "14:00",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "UN Security Council Emergency Session \u2014 US and UK Veto Ceasefire Resolution",
+    "description": "The UN Security Council convened an emergency session following the Bahrain strike and B-2 bombing campaign. Russia and China introduced a joint resolution demanding an immediate ceasefire from all parties. The United States and United Kingdom vetoed the resolution, arguing it failed to address Iran's nuclear weapons program. France abstained. The Secretary-General made a direct appeal for an immediate cessation of hostilities.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "UN proceedings are publicly documented; voting records published by the Security Council; transcripts of statements available from UN press office",
+    "sources": [
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/02/1167060"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "narratives": {
+      "us": "A ceasefire that leaves Iran's nuclear weapons infrastructure intact is unacceptable \u2014 the resolution was fundamentally flawed and one-sided",
+      "iran": "America and Britain have once again shown their contempt for international law by blocking a ceasefire while they bomb our nation"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-062",
+    "date": "2026-03-06",
+    "time": "17:00",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Anti-War Protests Erupt Across Major US Cities",
+    "description": "Large-scale anti-war protests erupted in Washington D.C., New York, Los Angeles, Chicago, and San Francisco, with tens of thousands marching to demand an end to military operations against Iran. In Washington, demonstrators attempted to reach the White House gates before being turned back by riot police. Several members of Congress joined the protests. Smaller solidarity demonstrations were held in London, Berlin, and Paris.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Multiple news organizations confirm protests with live coverage; police departments in respective cities confirm crowd estimates; arrest records publicly available",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran"
+      },
+      {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/02/28/trump-iran-war-regime-change-freedom/"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-063",
+    "date": "2026-03-06",
+    "time": "22:00",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Hezbollah Drone Strikes British RAF Base at Akrotiri, Cyprus",
+    "description": "A Hezbollah-launched drone struck the British Royal Air Force base at Akrotiri in Cyprus, damaging the runway. The attack represented a significant escalation, marking the first strike on European sovereign territory in the conflict. French President Macron declared that an 'attack on Cyprus is an attack on all Europe,' raising the specter of broader European involvement in the conflict.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "UK Ministry of Defence confirms damage to RAF Akrotiri; Macron statement issued by Elysee Palace and covered by all major European news outlets",
+    "sources": [
+      {
+        "name": "BBC",
+        "url": "https://www.bbc.com/news/world-middle-east"
+      },
+      {
+        "name": "France24",
+        "url": "https://www.france24.com/en/middle-east/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "Iran's proxies are now attacking NATO territory, demonstrating the global threat posed by the Iranian regime and its allies",
+      "iran": "Any military installation used to support aggression against the resistance axis is a legitimate target regardless of location"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-064",
+    "date": "2026-03-07",
+    "time": "06:00",
+    "day": 8,
+    "dayLabel": "DAY 8",
+    "title": "Israel Launches 'Wide-Scale' Strikes on Tehran Energy Infrastructure",
+    "description": "The IDF announced a new phase of operations targeting Iranian regime energy resources, launching wide-scale strikes on Tehran's energy infrastructure including refineries, fuel depots, and power generation facilities. The strikes aimed to cripple Iran's ability to sustain its war effort by degrading its energy supply chain.",
+    "actor": "israel",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IDF official statement confirmed strikes; satellite imagery from commercial providers shows fires at multiple energy facilities in Tehran; PBS and international media independently confirmed",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "PBS",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "Targeting energy infrastructure is a legitimate military objective to degrade Iran's ability to wage war and fund its proxy networks",
+      "iran": "The deliberate destruction of civilian energy infrastructure is a war crime that will plunge millions of Iranians into darkness and cold"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-065",
+    "date": "2026-03-07",
+    "time": "12:00",
+    "day": 8,
+    "dayLabel": "DAY 8",
+    "title": "Iranian Drone Damages Bahrain Desalination Plant — 1 Dead",
+    "description": "A hostile drone struck the Salman Industrial City in Bahrain, damaging a desalination plant and killing one person. This marked the first infrastructure attack on Bahrain in the conflict, escalating concerns about the vulnerability of Gulf state civilian infrastructure to Iranian drone warfare.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Bahrain Ministry of Interior confirmed the strike; damage to desalination facility corroborated by satellite imagery and local media",
+    "sources": [
+      {
+        "name": "Bahrain MoI",
+        "url": "https://www.eunews.it/en/2026/03/02/eu-condemns-irans-inexcusable-attacks-in-the-region-as-the-us-and-israel-continue-their-strikes/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-066",
+    "date": "2026-03-07",
+    "time": "15:00",
+    "day": 8,
+    "dayLabel": "DAY 8",
+    "title": "Saudi Arabia Reports First Civilian Deaths from Iranian Strikes",
+    "description": "A projectile struck a residential area in Al-Kharj, near Riyadh, killing 2 civilians and wounding 12 in what the Saudi Ministry of Defense described as the first civilian deaths on Saudi soil from Iranian strikes. The attack marked a dangerous new dimension in the conflict, directly threatening Gulf state populations.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Saudi Ministry of Defense statement confirmed casualties; hospital records corroborate wounded figures; debris analysis underway",
+    "sources": [
+      {
+        "name": "Saudi MoD",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "narratives": {
+      "us": "Iran's reckless attacks are now killing civilians in allied Gulf nations, proving the regime's complete disregard for innocent life",
+      "iran": "We have apologized to Gulf nations and indicated these attacks will end; our conflict is with the American and Zionist aggressors"
+    },
+    "significance": "high"
+  },
+  {
+    "id": "tl-067",
+    "date": "2026-03-07",
+    "time": "18:00",
+    "day": 8,
+    "dayLabel": "DAY 8",
+    "title": "8th US Service Member Killed in Iran War",
+    "description": "A US soldier died from injuries sustained during Iranian strikes on a base in Saudi Arabia, bringing the total US military deaths in the conflict to eight. President Trump attended the dignified transfer ceremony at Dover Air Force Base, the first time he has personally received remains since the war began.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Department of Defense confirmed the casualty; White House pool reporters documented Trump's presence at Dover AFB dignified transfer",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-068",
+    "date": "2026-03-07",
+    "time": "20:00",
+    "day": 8,
+    "dayLabel": "DAY 8",
+    "title": "Netanyahu Announces Wide-Scale Strikes on Iranian Regime Targets",
+    "description": "Israeli Prime Minister Benjamin Netanyahu announced that Israel would continue wide-scale strikes on Iranian regime targets until the threat is eliminated. He stated that the IDF is operating in Tehran and additional areas, signaling an expansion of Israel's target list beyond nuclear and military infrastructure to include government and energy assets.",
+    "actor": "israel",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official statement from Israeli PM's office; broadcast live on Israeli television and covered by all major international outlets",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "PBS",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-069",
+    "date": "2026-03-08",
+    "time": "07:00",
+    "day": 9,
+    "dayLabel": "DAY 9",
+    "title": "Mojtaba Khamenei Named Iran's New Supreme Leader",
+    "description": "Iran's Assembly of Experts elected Mojtaba Khamenei, son of the slain Ayatollah Ali Khamenei, as the new Supreme Leader of the Islamic Republic. The IRGC immediately pledged allegiance to the new leader, who vowed that Iran would not rest until every aggressor has been punished. The appointment signaled continuity in Iran's hardline stance and rejection of any negotiated settlement.",
+    "actor": "iran",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Assembly of Experts proceedings confirmed by Iranian state media; IRGC allegiance statement broadcast on IRIB; covered by CNN, Al Jazeera, and all major outlets",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "narratives": {
+      "us": "The appointment of Khamenei's son shows the regime is a hereditary dictatorship, not a republic, and will continue its dangerous nuclear ambitions",
+      "iran": "The selection of Mojtaba Khamenei ensures the continuation of the Supreme Leader's sacred mission to defend Islam and resist Western imperialism"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-070",
+    "date": "2026-03-08",
+    "time": "10:00",
+    "day": 9,
+    "dayLabel": "DAY 9",
+    "title": "Swiss Government Declares US-Israel Attacks Violate International Law",
+    "description": "Swiss Defense Minister Martin Pfister issued a formal statement declaring that Switzerland believes the attacks on Iran constitute a violation of international law. The statement asserted that all parties — the United States, Israel, and Iran — have broken international law's prohibition on the use of force. The declaration was notable as Switzerland is a traditionally neutral country and hosts the Geneva Conventions.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official statement issued by Swiss Federal Council; published on Swiss government website and covered by European media outlets",
+    "sources": [
+      {
+        "name": "Swiss Federal Council",
+        "url": "https://www.admin.ch/gov/en/start.html"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/world-middle-east"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-071",
+    "date": "2026-03-08",
+    "time": "12:00",
+    "day": 9,
+    "dayLabel": "DAY 9",
+    "title": "Trump Demands Iran's 'Unconditional Surrender' — Iran Rejects Ceasefire",
+    "description": "President Trump demanded Iran's unconditional surrender, stating that short-term oil price increases are a 'very small price to pay' for destroying Iran's nuclear threat. Iranian Foreign Minister Abbas Araghchi rejected any ceasefire overtures, denying the existence of behind-the-scenes contacts with the United States and vowing that Iran would respond proportionally to every aggression.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Trump statement confirmed by White House press pool; Araghchi statement broadcast on Iranian state television and reported by NPR, Al Jazeera",
+    "sources": [
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "narratives": {
+      "us": "Only unconditional surrender will guarantee that Iran never develops nuclear weapons — half-measures and diplomatic agreements have failed for decades",
+      "iran": "Iran will never surrender to American imperialism. We are a proud nation with 7,000 years of civilization that will not bow to threats"
+    },
+    "significance": "critical"
+  },
+  {
+    "id": "tl-072",
+    "date": "2026-03-09",
+    "time": "08:00",
+    "day": 10,
+    "dayLabel": "DAY 10",
+    "title": "Oil Smashes Through $100/Barrel — Strait of Hormuz Effectively Closed",
+    "description": "Brent crude shattered the $100/barrel barrier, hitting $119.50 intraday in the biggest weekly surge since 1983. The effective closure of the Strait of Hormuz threatened approximately 20% of the world's oil supply. Energy analysts warned of sustained triple-digit oil prices if the conflict continues, with cascading effects on global inflation, food prices, and economic growth.",
+    "actor": "multiple",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "ICE exchange data confirms Brent crude price movements; shipping industry tracking data confirms effective Hormuz closure; Bloomberg and CNBC independently reported",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      },
+      {
+        "name": "CNN Business",
+        "url": "https://www.cnn.com/business/"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-073",
+    "date": "2026-03-09",
+    "time": "10:00",
+    "day": 10,
+    "dayLabel": "DAY 10",
+    "title": "Iran's Death Toll Surpasses 1,332 — Over 6,000 Wounded",
+    "description": "Iran's death toll from the US-Israeli military campaign surpassed 1,332 with over 6,000 wounded, according to figures from the Iranian Red Crescent and international humanitarian organizations. At least 300 children were reported hospitalized. The Red Crescent reported an escalating humanitarian crisis with overwhelmed hospitals, critical shortages of medical supplies, and millions of internally displaced persons.",
+    "actor": "multiple",
+    "type": "humanitarian",
+    "verificationStatus": "confirmed",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Casualty figures reported by Iranian Red Crescent and cited by Al Jazeera; exact numbers difficult to independently verify due to limited journalist access; WHO corroborates hospital overload reports",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "ICRC",
+        "url": "https://www.ohchr.org/en/press-releases/2026/03/iran-un-experts-call-de-escalation-and-accountability"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "significance": "critical"
+  }
+]

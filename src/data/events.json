@@ -1,0 +1,1907 @@
+[
+  {
+    "id": "evt-001",
+    "title": "IAEA declares Iran non-compliant; secret enrichment site revealed",
+    "description": "IAEA declared Iran non-compliant with nuclear obligations for the first time since 2005. Iran found to have enough 60%-enriched uranium for nine nuclear weapons and had established a secret enrichment facility.",
+    "type": "diplomatic",
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "location": "IAEA HQ, Vienna, Austria",
+    "timestamp": "2025-06-12T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "IAEA Official Report",
+        "url": "https://www.ungeneva.org/en/news-media/news/2026/02/116323/attacks-iran-and-retaliatory-strikes-undermine-international-peace"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "iaea",
+      "nuclear",
+      "non-compliance",
+      "trigger-event"
+    ]
+  },
+  {
+    "id": "evt-002",
+    "title": "Israel launches Operation Rising Lion - 200 jets hit 100+ targets in Iran",
+    "description": "Israel launched a massive surprise air attack with 200 fighter jets striking over 100 targets across Iran. The operation assassinated IRGC head Hossein Salami, Armed Forces Chief Mohammed Bagheri, IRGC Air Force Commander Amir Ali Hajizadeh, and multiple nuclear scientists.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Multiple sites across Iran",
+    "timestamp": "2025-06-13T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "IDF Official",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Multiple senior IRGC commanders and nuclear scientists killed",
+    "tags": [
+      "operation-rising-lion",
+      "airstrike",
+      "twelve-day-war",
+      "irgc"
+    ]
+  },
+  {
+    "id": "evt-003",
+    "title": "Iran and Houthis launch coordinated ballistic missile strikes on Israel",
+    "description": "Iran and Houthi forces launched coordinated ballistic missile strikes on Israel, hitting Bat Yam, Rehovot, Kiryat Ekron, and Tel Aviv. 10 killed and approximately 200 injured in Israel.",
+    "type": "strike",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Tel Aviv and central Israel",
+    "timestamp": "2025-06-15T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "10 killed, ~200 injured in Israel",
+    "tags": [
+      "ballistic-missile",
+      "twelve-day-war",
+      "houthis",
+      "tel-aviv"
+    ]
+  },
+  {
+    "id": "evt-004",
+    "title": "US joins war - strikes Fordow, Natanz, Isfahan nuclear sites",
+    "description": "The United States joined the conflict with B-2 stealth bombers and cruise missiles striking three major Iranian nuclear facilities. Iran retaliated by firing missiles at a US base in Qatar.",
+    "type": "strike",
+    "lat": 33.56,
+    "lng": 51.99,
+    "location": "Fordow, Natanz, Isfahan, Iran",
+    "timestamp": "2025-06-21T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Multiple casualties reported",
+    "tags": [
+      "us-strike",
+      "nuclear-sites",
+      "twelve-day-war",
+      "b2-bomber"
+    ]
+  },
+  {
+    "id": "evt-005",
+    "title": "Ceasefire ends Twelve-Day War - Iran: ~1,000 killed; Israel: ~30 killed",
+    "description": "A US-brokered ceasefire ended the Twelve-Day War. 16 killed in Iran and 4 in Israel during ceasefire violations in the first hours. Final toll: Iran 935-1,190 killed. Israel 28-30 killed.",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington, D.C.",
+    "timestamp": "2025-06-24T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Iran: 935-1,190 killed; Israel: 28-30 killed",
+    "tags": [
+      "ceasefire",
+      "twelve-day-war",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "evt-006",
+    "title": "Israel eliminates Houthi leadership in Yemen",
+    "description": "Israeli forces conducted targeted strikes eliminating much of the Houthi leadership including their chief of staff. Houthis had been attacking Red Sea shipping and the Israeli port of Eilat.",
+    "type": "strike",
+    "lat": 15.3694,
+    "lng": 44.191,
+    "location": "Yemen",
+    "timestamp": "2025-08-15T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Multiple Houthi commanders killed",
+    "tags": [
+      "houthis",
+      "yemen",
+      "targeted-killing"
+    ]
+  },
+  {
+    "id": "evt-007",
+    "title": "E3 triggers snapback sanctions against Iran",
+    "description": "UK, Germany, and France triggered snapback sanctions against Iran at the UN Security Council, reimposing international sanctions on Iran's nuclear program.",
+    "type": "diplomatic",
+    "lat": 40.7489,
+    "lng": -73.968,
+    "location": "United Nations, New York",
+    "timestamp": "2025-10-10T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "uk",
+    "sources": [
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/02/1167060"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "sanctions",
+      "snapback",
+      "e3",
+      "nuclear"
+    ]
+  },
+  {
+    "id": "evt-008",
+    "title": "Massive Iranian protests erupt - largest since 1979 revolution",
+    "description": "Nationwide protests erupted across 100+ Iranian cities following a sharp currency collapse. These became the largest protests since the 1979 revolution with demonstrators calling for regime change.",
+    "type": "protest",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "100+ cities across Iran",
+    "timestamp": "2025-12-28T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran"
+      },
+      {
+        "name": "Iran International",
+        "url": "https://www.iranintl.com/en/202603054889"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Thousands killed in subsequent crackdown",
+    "tags": [
+      "protests",
+      "iran",
+      "regime-change",
+      "currency-collapse"
+    ]
+  },
+  {
+    "id": "evt-009",
+    "title": "Iran's deadliest crackdown on protesters - thousands killed",
+    "description": "Iranian security forces used live ammunition and DShK heavy machine guns against protesters. Thousands killed on Jan 8-9 alone. Internet shut down for two weeks. Gov says 3,117 killed; HRANA says 7,015; estimated up to 36,500.",
+    "type": "protest",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Multiple cities, Iran",
+    "timestamp": "2026-01-08T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Amnesty International",
+        "url": "https://www.ohchr.org/en/press-releases/2026/03/iran-un-experts-call-de-escalation-and-accountability"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Gov: 3,117 killed; HRANA: 7,015; estimated 16,500-36,500",
+    "tags": [
+      "crackdown",
+      "massacre",
+      "protests"
+    ]
+  },
+  {
+    "id": "evt-010",
+    "title": "US-Iran nuclear talks begin in Muscat, Oman",
+    "description": "First round of indirect US-Iran nuclear negotiations held in Muscat, mediated by Omani FM. Three rounds followed through February.",
+    "type": "diplomatic",
+    "lat": 23.588,
+    "lng": 58.3829,
+    "location": "Muscat, Oman",
+    "timestamp": "2026-02-06T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "diplomacy",
+      "nuclear-talks",
+      "oman"
+    ]
+  },
+  {
+    "id": "evt-011",
+    "title": "IAEA discovers Iran hid enriched uranium - talks collapse",
+    "description": "During Geneva talks, IAEA discovered Iran hid highly enriched uranium in an undisclosed underground facility. US envoys told Trump a deal was impossible. Presidential authorization for strikes given same day.",
+    "type": "diplomatic",
+    "lat": 46.2044,
+    "lng": 6.1432,
+    "location": "Geneva, Switzerland",
+    "timestamp": "2026-02-27T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "IAEA",
+        "url": "https://www.ungeneva.org/en/news-media/news/2026/02/116323/attacks-iran-and-retaliatory-strikes-undermine-international-peace"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "iaea",
+      "nuclear",
+      "hidden-facility",
+      "trigger-event"
+    ]
+  },
+  {
+    "id": "evt-012",
+    "title": "WAR BEGINS - US/Israel launch Operation Epic Fury / Roaring Lion",
+    "description": "US and Israel launched massive simultaneous strikes. 2,000+ targets across 20+ Iranian cities. Khamenei's compound destroyed, killing the Supreme Leader and 40+ senior officials. Iran retaliated within hours hitting Tel Aviv and all US bases in the Gulf.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran and 20+ cities across Iran",
+    "timestamp": "2026-02-28T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "socialRefs": [
+      {
+        "platform": "twitter",
+        "handle": "@ABORON1",
+        "text": "Massive explosions across Tehran, Isfahan, Qom. Anti-aircraft fire visible.",
+        "url": "https://x.com"
+      }
+    ],
+    "casualties": "Khamenei killed, 40+ officials, hundreds of casualties",
+    "tags": [
+      "operation-epic-fury",
+      "operation-roaring-lion",
+      "war-start",
+      "khamenei-killed"
+    ]
+  },
+  {
+    "id": "evt-013",
+    "title": "Iran confirms Khamenei dead - launches Operation True Promise IV",
+    "description": "Iranian state media confirmed Khamenei's death, declared 40 days of mourning. IRGC launched 'heaviest offensive in Islamic Republic history.' Missile hit Beit Shemesh killing 9. All US Gulf bases targeted.",
+    "type": "strike",
+    "lat": 31.7467,
+    "lng": 34.9882,
+    "location": "Beit Shemesh, Israel (impact)",
+    "timestamp": "2026-03-01T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israel-defend-strikes-on-iran-as-lawful-at-heated-un-security-council-meeting/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "9 killed in Beit Shemesh; 1 US KIA in Kuwait",
+    "tags": [
+      "true-promise-iv",
+      "khamenei-dead",
+      "retaliation"
+    ]
+  },
+  {
+    "id": "evt-014",
+    "title": "6 US service members killed at Port Shuaiba, Kuwait",
+    "description": "Iranian missile strikes on Port Shuaiba killed 6 US service members and wounded 18. Highest US military casualty event of the conflict.",
+    "type": "strike",
+    "lat": 29.04,
+    "lng": 48.16,
+    "location": "Port Shuaiba, Kuwait",
+    "timestamp": "2026-03-01T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "6 US KIA, 18 wounded",
+    "tags": [
+      "us-casualties",
+      "kuwait",
+      "missile-strike"
+    ]
+  },
+  {
+    "id": "evt-015",
+    "title": "Hezbollah enters war - Israel strikes Beirut, kills intel chief",
+    "description": "Hezbollah launched missiles and drones at Israel. Israel responded striking Beirut, killing Hezbollah intelligence chief Hussein Makled, destroying al-Manar TV. Ground incursion into southern Lebanon began with 91st Division.",
+    "type": "strike",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-02T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Hezbollah intel chief killed; dozens killed; 85,000 displaced",
+    "tags": [
+      "hezbollah",
+      "beirut",
+      "ground-incursion",
+      "lebanon"
+    ]
+  },
+  {
+    "id": "evt-016",
+    "title": "85-180 killed in Minab girls' school strike",
+    "description": "Airstrike hit a girls' school in Minab, Iran. Initially 85 killed, later revised to ~180, mostly schoolgirls. Became the most controversial civilian casualty event of the war.",
+    "type": "strike",
+    "lat": 27.1267,
+    "lng": 57.0839,
+    "location": "Minab, Iran",
+    "timestamp": "2026-03-02T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Iran International",
+        "url": "https://www.iranintl.com/en/202603054889"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "85-180 killed (mostly schoolgirls)",
+    "tags": [
+      "civilian-casualties",
+      "school",
+      "minab"
+    ]
+  },
+  {
+    "id": "evt-017",
+    "title": "Iran strikes UAE - Burj Al Arab, Jebel Ali, Abu Dhabi airports",
+    "description": "Iran launched 165 ballistic missiles, 2 cruise missiles, and 541 drones at UAE. Targets included Burj Al Arab, Jebel Ali Port, Abu Dhabi airports. Most intercepted but some impacts reported.",
+    "type": "strike",
+    "lat": 25.1972,
+    "lng": 55.2744,
+    "location": "Dubai and Abu Dhabi, UAE",
+    "timestamp": "2026-03-02T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "3 killed in UAE",
+    "tags": [
+      "uae",
+      "dubai",
+      "ballistic-missile"
+    ]
+  },
+  {
+    "id": "evt-018",
+    "title": "Israeli ground forces enter southern Lebanon",
+    "description": "Israel's 91st Division began ground incursion into southern Lebanon. Lebanese PM banned Hezbollah military activities but Hezbollah defied the order. 85,000 displaced.",
+    "type": "movement",
+    "lat": 33.15,
+    "lng": 35.3,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-03-02T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Dozens killed; 85,000 displaced",
+    "tags": [
+      "ground-incursion",
+      "lebanon",
+      "91st-division"
+    ]
+  },
+  {
+    "id": "evt-019",
+    "title": "Iraqi militias launch 28 operations against US bases",
+    "description": "Islamic Resistance in Iraq, Kataib Hezbollah, and allies claimed 28 operations with missiles and drones against US bases including Erbil and Camp Victoria. US/Israel struck back.",
+    "type": "strike",
+    "lat": 33.3152,
+    "lng": 44.3661,
+    "location": "Baghdad and Erbil, Iraq",
+    "timestamp": "2026-03-02T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Long War Journal",
+        "url": "https://www.aljazeera.com/news/2026/3/2/what-is-irans-military-strategy-how-it-has-changed-since-june-2025-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Multiple casualties both sides",
+    "tags": [
+      "iraqi-militias",
+      "kataib-hezbollah"
+    ]
+  },
+  {
+    "id": "evt-020",
+    "title": "Strait of Hormuz blocked - 150+ vessels, 15M barrels/day halted",
+    "description": "Strait of Hormuz effectively blocked. 150+ vessels anchored. 15 million barrels/day of oil blocked (20% of global supply). War-risk insurance canceled. Four vessels hit.",
+    "type": "naval",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-03-03T00:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "hormuz",
+      "shipping",
+      "oil",
+      "blockade"
+    ]
+  },
+  {
+    "id": "evt-021",
+    "title": "Qatar LNG production shut down after drone strikes",
+    "description": "Qatar shut down LNG production after Iranian drone strikes. Qatar provides ~20% of global LNG. European natural gas futures surged 38%.",
+    "type": "infrastructure",
+    "lat": 25.9006,
+    "lng": 51.5474,
+    "location": "Ras Laffan, Qatar",
+    "timestamp": "2026-03-03T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "lng",
+      "qatar",
+      "energy"
+    ]
+  },
+  {
+    "id": "evt-022",
+    "title": "Iranian drones hit AWS data centers in Bahrain/UAE",
+    "description": "Iranian drones struck Amazon Web Services data centers in Bahrain and UAE, taking them offline. US Embassy in Riyadh hit by drones. Washington warned all US citizens to evacuate the region.",
+    "type": "infrastructure",
+    "lat": 26.0667,
+    "lng": 50.5577,
+    "location": "Bahrain and UAE",
+    "timestamp": "2026-03-03T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Infrastructure damage",
+    "tags": [
+      "aws",
+      "infrastructure",
+      "drones"
+    ]
+  },
+  {
+    "id": "evt-023",
+    "title": "US submarine sinks Iranian warship IRINS Dena",
+    "description": "US submarine torpedoed and sank Iranian warship IRINS Dena off Sri Lanka. 101 of 180 sailors missing. US Senate defeated war powers resolution 47-53.",
+    "type": "naval",
+    "lat": 7.8731,
+    "lng": 80.7718,
+    "location": "Off Sri Lanka, Indian Ocean",
+    "timestamp": "2026-03-04T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "101 of 180 Iranian sailors missing",
+    "tags": [
+      "naval",
+      "submarine",
+      "warship-sunk"
+    ]
+  },
+  {
+    "id": "evt-024",
+    "title": "Qatari F-15s shoot down 2 Iranian jets attacking Al-Udeid",
+    "description": "Two Iranian Su-24 jets attempted to strike Al-Udeid Air Base. Qatari F-15s intercepted and shot down both before they reached the base.",
+    "type": "strike",
+    "lat": 25.1175,
+    "lng": 51.315,
+    "location": "Al-Udeid Air Base, Qatar",
+    "timestamp": "2026-03-04T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "2 Iranian pilots killed",
+    "tags": [
+      "qatar",
+      "air-combat",
+      "al-udeid"
+    ]
+  },
+  {
+    "id": "evt-025",
+    "title": "Hezbollah drone swarm attacks Ramat David airbase",
+    "description": "Hezbollah launched large-scale drone swarm against Ramat David airbase and Golan Heights targets. Israeli air defenses engaged.",
+    "type": "strike",
+    "lat": 32.6652,
+    "lng": 35.1796,
+    "location": "Ramat David Airbase, Israel",
+    "timestamp": "2026-03-04T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Damage reported; details pending",
+    "tags": [
+      "hezbollah",
+      "drone-swarm",
+      "ramat-david"
+    ]
+  },
+  {
+    "id": "evt-026",
+    "title": "Day 6: New Israeli strikes on Tehran; Iran fires 9 waves at Israel",
+    "description": "Israel launched new wave of strikes on Tehran military infrastructure. Iran responded with Khyber Shakan missiles at Tel Aviv and 9 waves targeting Jerusalem and southern Israel.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran / Tel Aviv, Israel",
+    "timestamp": "2026-03-05T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Ongoing",
+    "tags": [
+      "tehran-strikes",
+      "day-6",
+      "khyber-shakan"
+    ]
+  },
+  {
+    "id": "evt-027",
+    "title": "Iranian UAVs strike Azerbaijan (Nakhchivan) - new front",
+    "description": "Iranian UAVs struck Azerbaijani territory in Nakhchivan for the first time, opening a new theater. First attack on non-belligerent Azerbaijani territory.",
+    "type": "strike",
+    "lat": 39.209,
+    "lng": 45.4122,
+    "location": "Nakhchivan, Azerbaijan",
+    "timestamp": "2026-03-05T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Reports pending",
+    "tags": [
+      "azerbaijan",
+      "nakhchivan",
+      "new-theater"
+    ]
+  },
+  {
+    "id": "evt-028",
+    "title": "Iran declares readiness for 'long-term war'",
+    "description": "Tehran declared readiness for long-term war and possible invasion preparations. Hegseth: US 'just getting started.' Trump offered Iranian forces 'immunity or guaranteed death.'",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-05T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "long-term-war",
+      "escalation"
+    ]
+  },
+  {
+    "id": "evt-029",
+    "title": "Iran back-channel to CIA via third-party intelligence service",
+    "description": "Iran's intelligence ministry quietly reached out to CIA through another country's intelligence service to discuss terms. With Khamenei dead and fractured leadership, unclear who can commit Iran.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Via intermediary",
+    "timestamp": "2026-03-05T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-888815"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "back-channel",
+      "cia",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "evt-030",
+    "title": "Global markets lose $3.2 trillion in 96 hours",
+    "description": "$3.2T in global equity lost. KOSPI -12%, Pakistan KSE-100 -9.57% (largest-ever). Brent crude $82-84/bbl. European gas +38%. Gold touched $5,400. VLCC freight rates +94%.",
+    "type": "infrastructure",
+    "lat": 40.7061,
+    "lng": -74.0089,
+    "location": "Global financial markets",
+    "timestamp": "2026-03-04T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Goldman Sachs",
+        "url": "https://www.cnbc.com/2026/03/03/us-iran-war-live-updates.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "markets",
+      "stocks",
+      "oil-prices"
+    ]
+  },
+  {
+    "id": "evt-031",
+    "title": "B-2 stealth bombers strike Iranian underground facilities at Isfahan and Natanz",
+    "description": "US B-2 Spirit stealth bombers deployed GBU-57 Massive Ordnance Penetrators against deeply buried Iranian nuclear enrichment facilities at Isfahan and Natanz. Pentagon reports multiple bunker-busting rounds penetrated hardened underground chambers. Secondary explosions observed at both sites.",
+    "type": "strike",
+    "lat": 32.6546,
+    "lng": 51.668,
+    "location": "Isfahan and Natanz, Iran",
+    "timestamp": "2026-03-06T02:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Unknown; sites believed largely evacuated",
+    "tags": [
+      "b2-bomber",
+      "bunker-buster",
+      "nuclear-sites",
+      "isfahan",
+      "natanz",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-032",
+    "title": "Iran launches retaliatory ballistic missiles at US base in Bahrain",
+    "description": "Iran's IRGC fired a salvo of Fateh-313 and Dezful medium-range ballistic missiles at Naval Support Activity Bahrain, home of the US 5th Fleet. Patriot and THAAD systems intercepted most projectiles but at least two missiles impacted within the base perimeter, wounding 12 US service members.",
+    "type": "strike",
+    "lat": 26.2285,
+    "lng": 50.4883,
+    "location": "Naval Support Activity, Bahrain",
+    "timestamp": "2026-03-06T05:45:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "12 US service members wounded",
+    "tags": [
+      "bahrain",
+      "missile-strike",
+      "us-casualties",
+      "5th-fleet",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-033",
+    "title": "UN Security Council emergency session called over escalating conflict",
+    "description": "The UN Security Council convened an emergency session after the Bahrain strike and B-2 bombing campaign. Secretary-General demanded an immediate ceasefire. Russia and China introduced a joint resolution condemning all parties; the US and UK vetoed. France abstained.",
+    "type": "diplomatic",
+    "lat": 40.7489,
+    "lng": -73.968,
+    "location": "United Nations, New York",
+    "timestamp": "2026-03-06T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/02/1167060"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "un",
+      "security-council",
+      "ceasefire",
+      "veto",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-034",
+    "title": "Red Cross requests humanitarian corridor for Tehran civilians",
+    "description": "The International Committee of the Red Cross formally requested all belligerents establish a humanitarian corridor to allow civilian evacuation from Tehran's southern districts, which have suffered heavy bombardment. ICRC reports hospitals overwhelmed, medical supply shortages critical, and an estimated 500,000 internally displaced within the capital.",
+    "type": "humanitarian",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-06T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "ICRC",
+        "url": "https://www.ohchr.org/en/press-releases/2026/03/iran-un-experts-call-de-escalation-and-accountability"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "500,000+ internally displaced in Tehran",
+    "tags": [
+      "humanitarian",
+      "red-cross",
+      "tehran",
+      "civilians",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-035",
+    "title": "Massive cyber attack on Iranian banking system attributed to Israel",
+    "description": "A coordinated cyber attack crippled Iran's central banking infrastructure, taking down the SHETAB interbank network, disabling ATMs nationwide, and freezing electronic transactions. Israeli Unit 8200 suspected. Millions of Iranians unable to access funds, exacerbating humanitarian crisis.",
+    "type": "cyber",
+    "lat": 35.7219,
+    "lng": 51.3347,
+    "location": "Tehran, Iran (Central Bank)",
+    "timestamp": "2026-03-06T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "Iran International",
+        "url": "https://www.iranintl.com/en/202603054889"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "cyber",
+      "banking",
+      "unit-8200",
+      "financial-warfare",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-036",
+    "title": "Oil prices surge past $90/barrel amid escalation fears",
+    "description": "Brent crude surged past $90/barrel for the first time since the conflict began, hitting $91.40 intraday, as the B-2 strikes and Bahrain retaliation signaled deepening escalation. WTI crude reached $88.75. Goldman Sachs warned of $120 oil if Hormuz remains closed through April.",
+    "type": "infrastructure",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "location": "Global energy markets",
+    "timestamp": "2026-03-06T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/trump-iran-oil-surrender.html"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-surges-as-iran-conflict-threatens-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "oil-prices",
+      "brent-crude",
+      "energy",
+      "markets",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-037",
+    "title": "Iran announces capture of US drone over Persian Gulf",
+    "description": "Iran's IRGC Navy announced the capture of a US RQ-4 Global Hawk surveillance drone, claiming it was downed by an indigenous surface-to-air missile system over the northern Persian Gulf. Iran broadcast footage of a largely intact drone airframe. Pentagon said it was 'reviewing the claim.'",
+    "type": "naval",
+    "lat": 27.0,
+    "lng": 52.0,
+    "location": "Northern Persian Gulf",
+    "timestamp": "2026-03-06T11:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "rumored",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Press TV",
+        "url": "https://www.cnn.com/2026/03/02/middleeast/iran-war-retaliation-rattles-gulf-neighbors-intl"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "drone",
+      "rq-4",
+      "persian-gulf",
+      "iran-claim",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-038",
+    "title": "Israel strikes Hezbollah command center in Beirut suburb",
+    "description": "Israeli Air Force struck a Hezbollah underground command-and-control center in the Dahieh suburb of Beirut, using precision-guided munitions. Lebanese health ministry reported 23 killed including civilians in surrounding buildings. Israel claimed multiple senior Hezbollah military planners were eliminated.",
+    "type": "strike",
+    "lat": 33.8547,
+    "lng": 35.4975,
+    "location": "Dahieh, Beirut, Lebanon",
+    "timestamp": "2026-03-06T04:15:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "23 killed including civilians; senior Hezbollah commanders reported dead",
+    "tags": [
+      "hezbollah",
+      "beirut",
+      "dahieh",
+      "command-center",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-039",
+    "title": "Protests erupt in multiple US cities against war with Iran",
+    "description": "Large-scale anti-war protests erupted in Washington D.C., New York, Los Angeles, Chicago, and San Francisco. Tens of thousands marched demanding an end to military operations against Iran. Clashes between protesters and police reported near the White House. Several Congress members joined the protests.",
+    "type": "protest",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington D.C. and major US cities",
+    "timestamp": "2026-03-06T17:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Dozens arrested; minor injuries from clashes",
+    "tags": [
+      "protests",
+      "anti-war",
+      "us-domestic",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-040",
+    "title": "Pentagon confirms 12 US service members wounded in Bahrain missile attack",
+    "description": "The Pentagon confirmed that 12 US service members were wounded when Iranian ballistic missiles struck Naval Support Activity Bahrain. Three are in critical condition and were medically evacuated to Landstuhl Regional Medical Center in Germany. Defense Secretary called it 'an act of war against American forces that will not go unanswered.'",
+    "type": "strike",
+    "lat": 26.2285,
+    "lng": 50.4883,
+    "location": "Naval Support Activity, Bahrain",
+    "timestamp": "2026-03-06T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CENTCOM",
+        "url": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "12 US service members wounded, 3 critical",
+    "tags": [
+      "us-casualties",
+      "bahrain",
+      "pentagon",
+      "day-7"
+    ]
+  },
+  {
+    "id": "evt-041",
+    "title": "Israel strikes Tehran oil storage facility - massive fires near key refinery",
+    "description": "Israeli warplanes targeted oil infrastructure in Tehran, hitting a major oil storage depot near a key refinery. Massive plumes of fire lit up the night sky. This marks a shift to targeting energy resources.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-07T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/7/tehran-pounded-in-week-two-of-us-israel-war-iran-targets-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Unknown",
+    "tags": [
+      "oil-infrastructure",
+      "energy-targeting",
+      "tehran",
+      "escalation"
+    ]
+  },
+  {
+    "id": "evt-042",
+    "title": "Trump signals possible ground troops in Iran - 'very good reason' needed",
+    "description": "President Trump said US ground troops could 'possibly' be sent to Iran but there would have to be a 'very good reason.' NBC reports Trump has privately shown serious interest in ground deployment. Trump also demanded Iran's 'unconditional surrender.'",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Air Force One / Washington DC",
+    "timestamp": "2026-03-07T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-07/trump-says-good-reason-needed-to-deploy-ground-troops-to-iran"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/politics/white-house/trump-privately-shown-serious-interest-us-ground-troops-iran-rcna262176"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "ground-troops",
+      "escalation",
+      "trump",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "evt-043",
+    "title": "Iran fires new missile salvo at Tel Aviv - explosions reported across city",
+    "description": "The Israeli military detected another round of Iranian missile fire headed towards Israel. A series of explosions were heard in Tel Aviv and across southern Israel. Missiles were also detected heading towards other parts of the country.",
+    "type": "strike",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Tel Aviv, Israel",
+    "timestamp": "2026-03-07T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/7/iran-war-live-trump-says-no-deal-with-iran-until-unconditional-surrender"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/07/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Assessing",
+    "tags": [
+      "missile-attack",
+      "tel-aviv",
+      "retaliation",
+      "iran"
+    ]
+  },
+  {
+    "id": "evt-044",
+    "title": "IRGC claims hits on oil tankers Prima and Louise P in Persian Gulf",
+    "description": "The IRGC claimed it struck the oil tanker Prima with a drone in the Persian Gulf, and a US oil tanker Louise P with a drone in the Strait of Hormuz. At least 8 vessels have now been damaged since the blockade began.",
+    "type": "naval",
+    "lat": 26.5,
+    "lng": 56.5,
+    "location": "Strait of Hormuz / Persian Gulf",
+    "timestamp": "2026-03-07T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Wikipedia - Hormuz Crisis",
+        "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/7/iran-war-what-is-happening-on-day-eight-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Unknown",
+    "tags": [
+      "hormuz",
+      "tanker-attack",
+      "naval",
+      "blockade"
+    ]
+  },
+  {
+    "id": "evt-045",
+    "title": "Trump at Dover Air Force Base for dignified transfer of fallen US troops",
+    "description": "President Trump visited Dover Air Force Base for the dignified transfer of remains of US service members killed in the Iran conflict. Six US servicemembers have died since the conflict began on February 28.",
+    "type": "military",
+    "lat": 39.1296,
+    "lng": -75.4659,
+    "location": "Dover Air Force Base, Delaware",
+    "timestamp": "2026-03-07T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "6 US servicemembers KIA total",
+    "tags": [
+      "us-casualties",
+      "dover",
+      "trump",
+      "dignified-transfer"
+    ]
+  },
+  {
+    "id": "evt-046",
+    "title": "Israeli strike on Beirut hotel kills 4 - targeting IRGC commanders",
+    "description": "Israeli jets struck a hotel in central Beirut, killing at least four people. Israel said it had targeted commanders from Iran's Revolutionary Guards who were present at the location. Lebanon's health ministry reports 217 killed since attacks began.",
+    "type": "strike",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-08T01:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/07/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "4 killed",
+    "tags": [
+      "lebanon",
+      "beirut",
+      "irgc",
+      "targeted-killing"
+    ]
+  },
+  {
+    "id": "evt-047",
+    "title": "Iran claims capture of US soldiers - Trump administration denies",
+    "description": "Ali Larijani, head of Iran's National Security Council, claimed Iran has captured US soldiers since the outbreak of war, suggesting the US was concealing captures. The Trump administration denied the reports.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-08T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/7/trump-administration-denies-reports-that-iran-captured-us-soldiers"
+      },
+      {
+        "name": "MarketScreener",
+        "url": "https://www.marketscreener.com/news/trump-rejects-settling-war-with-iran-speaks-on-ground-troops-ce7e5fd9db81f722"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Disputed",
+    "tags": [
+      "pow",
+      "captured-soldiers",
+      "propaganda",
+      "information-war"
+    ]
+  },
+  {
+    "id": "evt-048",
+    "title": "US-Israel announce most intense bombing campaign yet entering week two",
+    "description": "The US warned of a forthcoming bombing campaign that officials said would be the most intense yet in the weeklong conflict. Israel announced new waves of attacks in Tehran and Isfahan as operations enter their second week.",
+    "type": "strike",
+    "lat": 32.0853,
+    "lng": 51.6772,
+    "location": "Multiple sites - Tehran and Isfahan, Iran",
+    "timestamp": "2026-03-08T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Ongoing assessment",
+    "tags": [
+      "intensification",
+      "week-two",
+      "bombing-campaign"
+    ]
+  },
+  {
+    "id": "evt-new-001",
+    "title": "Iran names Mojtaba Khamenei as new Supreme Leader",
+    "description": "Assembly of Experts elected Mojtaba Khamenei, son of slain Ayatollah Ali Khamenei, as new Supreme Leader of Iran. The IRGC and all top leaders pledged allegiance to the new Supreme Leader.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-08T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/08/middleeast/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/8/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "supreme-leader",
+      "succession",
+      "mojtaba-khamenei"
+    ]
+  },
+  {
+    "id": "evt-new-002",
+    "title": "Israel launches 'wide-scale' strikes on Tehran energy resources",
+    "description": "Israeli military announced wide-scale strikes targeting Tehran energy resources and regime targets, marking a significant escalation in the campaign against Iranian infrastructure.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-07T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "IDF",
+        "url": "https://www.idf.il/"
+      },
+      {
+        "name": "PBS News",
+        "url": "https://www.pbs.org/newshour/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Unknown",
+    "tags": [
+      "airstrike",
+      "energy",
+      "tehran"
+    ]
+  },
+  {
+    "id": "evt-new-003",
+    "title": "8th US service member killed in Iranian attack on Saudi Arabia base",
+    "description": "A US soldier died from injuries sustained during an Iranian missile attack on US troops stationed in Saudi Arabia on March 1, bringing the total US military deaths to eight since the conflict began.",
+    "type": "military",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "location": "Riyadh, Saudi Arabia",
+    "timestamp": "2026-03-07T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "1 US soldier killed",
+    "tags": [
+      "us-casualties",
+      "saudi-arabia"
+    ]
+  },
+  {
+    "id": "evt-new-004",
+    "title": "Iran fires 500+ ballistic missiles and 2,000 drones since war began",
+    "description": "Iranian military source confirmed Iran had launched over 500 ballistic and naval missiles and almost 2,000 drones since the beginning of the conflict. Approximately 40% were directed toward Israel and 60% toward US targets.",
+    "type": "military",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-05T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Fars News",
+        "url": "https://www.farsnews.ir/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "missiles",
+      "drones",
+      "retaliation"
+    ]
+  },
+  {
+    "id": "evt-new-005",
+    "title": "Iranian drone strikes British RAF base at Akrotiri, Cyprus",
+    "description": "A Hezbollah-launched drone (Iranian-made) damaged the runway at the British military base at Akrotiri in Cyprus. French President Macron stated that an attack on Cyprus is an attack on all of Europe.",
+    "type": "strike",
+    "lat": 34.5875,
+    "lng": 32.9885,
+    "location": "Akrotiri, Cyprus",
+    "timestamp": "2026-03-06T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "France24",
+        "url": "https://www.france24.com/"
+      },
+      {
+        "name": "BBC",
+        "url": "https://www.bbc.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Unknown",
+    "tags": [
+      "cyprus",
+      "nato",
+      "hezbollah",
+      "escalation"
+    ]
+  },
+  {
+    "id": "evt-new-006",
+    "title": "Qatar intercepted 17 Iranian ballistic missiles, 6 drones",
+    "description": "Qatar's Ministry of Defence announced the successful interception of 17 ballistic missiles and 6 drones launched from Iran. No casualties or damage were reported.",
+    "type": "military",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "location": "Doha, Qatar",
+    "timestamp": "2026-03-08T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Qatar MoD",
+        "url": "https://www.mod.gov.qa/"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "No casualties",
+    "tags": [
+      "qatar",
+      "interception",
+      "missiles"
+    ]
+  },
+  {
+    "id": "evt-new-007",
+    "title": "Iranian drone damages Bahrain desalination plant",
+    "description": "Bahrain Ministry of Interior confirmed a hostile Iranian drone struck the Salman Industrial City desalination plant. One person died from a fire caused by the strike.",
+    "type": "infrastructure",
+    "lat": 26.2285,
+    "lng": 50.586,
+    "location": "Manama, Bahrain",
+    "timestamp": "2026-03-07T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Bahrain MoI",
+        "url": "https://www.interior.gov.bh/"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "1 killed",
+    "tags": [
+      "bahrain",
+      "infrastructure",
+      "desalination"
+    ]
+  },
+  {
+    "id": "evt-new-008",
+    "title": "Saudi Arabia: 2 killed in Iranian projectile strike on Al-Kharj",
+    "description": "Two people were killed and 12 injured when a military projectile struck a residential facility in Al-Kharj near Riyadh. These are the first reported civilian deaths in Saudi Arabia since the conflict began.",
+    "type": "strike",
+    "lat": 24.1532,
+    "lng": 47.3047,
+    "location": "Al-Kharj, Saudi Arabia",
+    "timestamp": "2026-03-07T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Saudi MoD",
+        "url": "https://www.mod.gov.sa/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "2 killed, 12 injured",
+    "tags": [
+      "saudi-arabia",
+      "civilian-casualties"
+    ]
+  },
+  {
+    "id": "evt-new-009",
+    "title": "Oil surges past $100/barrel as Strait of Hormuz effectively closed",
+    "description": "Brent crude hit $119.50 intraday before settling around $103, marking the biggest weekly surge since 1983. The Strait of Hormuz is effectively closed to tanker traffic due to ongoing hostilities.",
+    "type": "economic",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-03-09T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN Business",
+        "url": "https://www.cnn.com/business/"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "oil",
+      "hormuz",
+      "economic-impact"
+    ]
+  },
+  {
+    "id": "evt-new-010",
+    "title": "Trump demands Iran's 'unconditional surrender'",
+    "description": "President Trump continued his demand for unconditional surrender from Iran, stating the war will continue 'a little while.' Iran's Foreign Minister Araghchi rejected any ceasefire or talks with the Trump administration.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-03-08T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "trump",
+      "diplomacy",
+      "unconditional-surrender"
+    ]
+  },
+  {
+    "id": "evt-new-011",
+    "title": "Dubai International Airport damaged by Iranian drone strikes",
+    "description": "Dubai International Airport, one of the world's busiest, was damaged by drone strikes, temporarily halting all flights.",
+    "type": "infrastructure",
+    "lat": 25.2532,
+    "lng": 55.3657,
+    "location": "Dubai, UAE",
+    "timestamp": "2026-03-02T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Unknown",
+    "tags": [
+      "dubai",
+      "airport",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "evt-new-012",
+    "title": "Swiss government declares US-Israel attacks violate international law",
+    "description": "Swiss Defense Minister Martin Pfister said attacks on Iran constitute a violation of international law. He stated that the US, Israel, and Iran have all broken the prohibition on the use of force.",
+    "type": "diplomatic",
+    "lat": 46.9481,
+    "lng": 7.4474,
+    "location": "Bern, Switzerland",
+    "timestamp": "2026-03-08T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "",
+    "sources": [
+      {
+        "name": "Swiss Federal Council",
+        "url": "https://www.admin.ch/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "international-law",
+      "switzerland",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "evt-new-013",
+    "title": "Iran's death toll surpasses 1,332 killed in 10 days",
+    "description": "At least 1,332 people have been killed in Iran since the conflict began. Over 300 children have been hospitalized and more than 6,000 people have been wounded.",
+    "type": "humanitarian",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-09T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/"
+      },
+      {
+        "name": "OCHA",
+        "url": "https://www.unocha.org/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "1,332 killed, 6,000+ wounded, 300+ children hospitalized",
+    "tags": [
+      "casualties",
+      "humanitarian",
+      "death-toll"
+    ]
+  },
+  {
+    "id": "evt-new-014",
+    "title": "Kuwait child killed and 4 security personnel dead in Iranian attacks",
+    "description": "Kuwait reported the death of one child in Iranian attacks. Four security personnel were also killed while on duty.",
+    "type": "strike",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "location": "Kuwait City, Kuwait",
+    "timestamp": "2026-03-06T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Kuwait MoD",
+        "url": "https://www.mod.gov.kw/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "1 child killed, 4 security personnel killed",
+    "tags": [
+      "kuwait",
+      "civilian-casualties"
+    ]
+  },
+  {
+    "id": "evt-new-015",
+    "title": "Pope Leo XIV calls for end to violence in Iran and Middle East",
+    "description": "Pope Leo XIV urged an end to violence in Iran and the broader Middle East, calling for renewed dialogue between all parties involved in the conflict.",
+    "type": "diplomatic",
+    "lat": 41.9029,
+    "lng": 12.4534,
+    "location": "Vatican City",
+    "timestamp": "2026-03-08T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "",
+    "sources": [
+      {
+        "name": "Vatican News",
+        "url": "https://www.vaticannews.va/"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "vatican",
+      "pope",
+      "peace-call"
+    ]
+  }
+]

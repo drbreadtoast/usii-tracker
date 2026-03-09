@@ -1,0 +1,76 @@
+{
+  "lastUpdated": "2026-03-09T18:00:00Z",
+  "commodities": [
+    {
+      "name": "Wheat",
+      "unit": "/bushel",
+      "preWar": "$5.62",
+      "current": "$8.52",
+      "change": "+51.6%",
+      "detail": "Black Sea and Persian Gulf shipping routes disrupted. Hormuz closure blocking fertilizer shipments at peak planting season."
+    },
+    {
+      "name": "Corn",
+      "unit": "/bushel",
+      "preWar": "$4.31",
+      "current": "$5.89",
+      "change": "+36.7%",
+      "detail": "Fertilizer supply chain from Middle East severely disrupted. Diesel costs for farming operations surging."
+    },
+    {
+      "name": "Soybeans",
+      "unit": "/bushel",
+      "preWar": "$10.12",
+      "current": "$14.02",
+      "change": "+38.5%",
+      "detail": "Shipping insurance costs quadrupled through Strait of Hormuz. Asian import routes rerouting via Cape of Good Hope."
+    },
+    {
+      "name": "Rice",
+      "unit": "/cwt",
+      "preWar": "$15.20",
+      "current": "$20.50",
+      "change": "+34.9%",
+      "detail": "Asian import routes through Persian Gulf completely disrupted. Export restrictions emerging in Southeast Asia."
+    },
+    {
+      "name": "Sugar",
+      "unit": "/lb",
+      "preWar": "$0.21",
+      "current": "$0.31",
+      "change": "+47.6%",
+      "detail": "Energy costs for refineries surging globally. Transport costs up 40% due to diesel price spikes."
+    },
+    {
+      "name": "Cooking Oil",
+      "unit": "/gallon",
+      "preWar": "$3.49",
+      "current": "$5.58",
+      "change": "+59.9%",
+      "detail": "Palm oil shipping through Strait of Hormuz blocked. Alternative routing adds 12+ days and $933,000 per voyage."
+    },
+    {
+      "name": "Coffee",
+      "unit": "/lb",
+      "preWar": "$1.82",
+      "current": "$2.62",
+      "change": "+44.0%",
+      "detail": "Global shipping costs and fuel surcharges rising sharply. Container rates up 85% on key routes."
+    },
+    {
+      "name": "Beef",
+      "unit": "/lb",
+      "preWar": "$5.89",
+      "current": "$7.72",
+      "change": "+31.1%",
+      "detail": "Feed costs up due to grain price spikes. Diesel-dependent supply chain passing costs to consumers."
+    }
+  ],
+  "groceryImpact": {
+    "averageWeeklyIncrease": "$52",
+    "preWarWeekly": "$168",
+    "currentWeekly": "$220",
+    "changePercent": "+31%"
+  },
+  "context": "Food prices accelerating as Strait of Hormuz remains effectively closed to tanker traffic (Day 8), disrupting 33% of globally traded fertilizer at start of Northern Hemisphere planting season. Shipping rerouted via Cape of Good Hope adds $933,000/voyage and doubles transit times. Diesel at $4.65/gal driving transport costs sharply higher. Grocery costs up ~10% week-over-week. USDA warns of potential supply shortages within 2-3 weeks if shipping disruption persists."
+}

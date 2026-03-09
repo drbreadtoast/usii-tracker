@@ -1,0 +1,804 @@
+{
+  "metadata": {
+    "lastUpdated": "2026-03-06",
+    "sources": [
+      "OpenSecrets.org (Center for Responsive Politics)",
+      "Federal Election Commission (fec.gov)",
+      "ProPublica Congress API",
+      "Congressional Research Service"
+    ],
+    "methodology": "All financial data from public FEC filings aggregated by OpenSecrets.org. Voting records from official Congressional roll calls. Figures reflect reported political contributions and independent expenditures through 2024 election cycle.",
+    "disclaimer": "Campaign contributions do not prove quid pro quo. Correlation between donations and votes does not establish causation. This data presents publicly available financial and voting records for informational purposes."
+  },
+  "organizations": [
+    {
+      "id": "aipac",
+      "name": "AIPAC",
+      "fullName": "American Israel Public Affairs Committee",
+      "type": "lobby",
+      "founded": 1963,
+      "totalSpending2024Cycle": 100000000,
+      "description": "The largest and most influential pro-Israel lobbying organization in the United States. AIPAC does not make direct campaign contributions but mobilizes donors and operates through affiliated entities. Its super PAC, United Democracy Project, was created in 2022 and became one of the highest-spending super PACs in the 2024 cycle.",
+      "notableActions": [
+        "United Democracy Project spent over $100 million in the 2024 election cycle",
+        "Targeted primary challenges against members of Congress critical of Israeli government policy",
+        "Spent $14.5 million to defeat Rep. Jamaal Bowman in NY-16 Democratic primary in June 2024",
+        "Spent $8.5 million to defeat Rep. Cori Bush in MO-01 Democratic primary in August 2024",
+        "Held annual policy conference attended by majority of Congress members"
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/political-action-committees-pacs/united-democracy-project/C00770941/summary/2024"
+    },
+    {
+      "id": "dmfi",
+      "name": "DMFI",
+      "fullName": "Democratic Majority for Israel",
+      "type": "superPAC",
+      "founded": 2019,
+      "totalSpending2024Cycle": 30000000,
+      "description": "A pro-Israel political organization that operates within the Democratic Party. Founded by political strategist Mark Mellman. Operates a super PAC that spends on Democratic primary and general elections to support pro-Israel Democratic candidates.",
+      "notableActions": [
+        "Spent heavily in Democratic primaries to support candidates aligned with pro-Israel positions",
+        "Ran advertising campaigns during the 2024 Democratic presidential primary",
+        "Engaged in multiple competitive House primaries in 2024 cycle",
+        "Endorsed and financially supported dozens of Democratic candidates"
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/political-action-committees-pacs/democratic-majority-for-israel/C00764126/summary/2024"
+    },
+    {
+      "id": "rjc",
+      "name": "RJC",
+      "fullName": "Republican Jewish Coalition",
+      "type": "pac",
+      "founded": 1985,
+      "totalSpending2024Cycle": 15000000,
+      "description": "A political organization promoting Jewish Republican involvement in the Republican Party. Operates a PAC and super PAC supporting Republican candidates who maintain strong pro-Israel positions.",
+      "notableActions": [
+        "Hosted Republican presidential candidates at annual leadership meetings",
+        "Supported Republican candidates in competitive Senate and House races",
+        "Advocated for the Abraham Accords normalization agreements",
+        "Lobbied against the Iran nuclear deal (JCPOA)"
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/political-action-committees-pacs/republican-jewish-coalition/C00368522/summary/2024"
+    },
+    {
+      "id": "cufi",
+      "name": "CUFI",
+      "fullName": "Christians United for Israel",
+      "type": "advocacy",
+      "founded": 2006,
+      "totalSpending2024Cycle": 5000000,
+      "description": "The largest pro-Israel organization in the United States by membership, claiming over 10 million members. Founded by Pastor John Hagee. Primarily engages in grassroots advocacy and lobbying rather than direct campaign contributions.",
+      "notableActions": [
+        "Mobilized grassroots campaigns supporting Israel aid legislation",
+        "Lobbied Congress on Iran sanctions and against the JCPOA",
+        "Organized annual Washington Summit with Congressional participation",
+        "Advocated for US recognition of Jerusalem as Israel's capital"
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/indus?ind=Q05"
+    },
+    {
+      "id": "pia",
+      "name": "Pro-Israel America",
+      "fullName": "Pro-Israel America",
+      "type": "pac",
+      "founded": 2019,
+      "totalSpending2024Cycle": 8000000,
+      "description": "A bipartisan political organization that bundles campaign contributions to pro-Israel candidates in both parties. Focuses on competitive races where pro-Israel support may be a differentiating factor.",
+      "notableActions": [
+        "Endorsed and fundraised for over 300 candidates in the 2024 cycle across both parties",
+        "Focused on competitive general election races",
+        "Organized donor bundling events connecting pro-Israel donors with candidates",
+        "Promoted bipartisan support for US-Israel relationship"
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/indus?ind=Q05"
+    }
+  ],
+  "topRecipients": [
+    {
+      "id": "recipient-1",
+      "name": "Sen. Ted Cruz",
+      "party": "R",
+      "state": "TX",
+      "chamber": "Senate",
+      "role": "Senate Foreign Relations Committee member",
+      "warRelevance": "Key voice on Iran sanctions and Middle East policy. Has pushed for maximum pressure on Iran and unconditional support for Israel.",
+      "totalProIsraelFunding": 2826945,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 532000, "cycle": "2024" },
+        { "organization": "Republican Jewish Coalition", "amount": 156000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 98000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "S. 1 - United States-Israel Strategic Partnership Act", "date": "2019-02-05", "vote": "Yea", "description": "Strengthened US-Israel strategic partnership and imposed sanctions on Syria" },
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/ted-cruz/industries/N00033085?cid=N00033085"
+    },
+    {
+      "id": "recipient-2",
+      "name": "Sen. Raphael Warnock",
+      "party": "D",
+      "state": "GA",
+      "chamber": "Senate",
+      "role": "Senate Banking Committee member",
+      "warRelevance": "Voted for Israel aid packages. Represents a key swing state; his positions on Israel influence broader Democratic Party stance.",
+      "totalProIsraelFunding": 2105000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC (United Democracy Project)", "amount": 420000, "cycle": "2022" },
+        { "organization": "Democratic Majority for Israel", "amount": 310000, "cycle": "2022" },
+        { "organization": "Pro-Israel America", "amount": 125000, "cycle": "2022" }
+      ],
+      "relevantVotes": [
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" },
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-23", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/raphael-warnock/industries/N00046677?cid=N00046677"
+    },
+    {
+      "id": "recipient-3",
+      "name": "Sen. Mitch McConnell",
+      "party": "R",
+      "state": "KY",
+      "chamber": "Senate",
+      "role": "Former Senate Majority Leader",
+      "warRelevance": "Most influential Republican in Senate. Has shaped defense spending and foreign policy for decades. Strong advocate for US-Israel military alliance.",
+      "totalProIsraelFunding": 1892000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 387000, "cycle": "2020" },
+        { "organization": "Republican Jewish Coalition", "amount": 210000, "cycle": "2020" },
+        { "organization": "Norpac", "amount": 145000, "cycle": "2020" }
+      ],
+      "relevantVotes": [
+        { "bill": "S. 1 - United States-Israel Strategic Partnership Act", "date": "2019-02-05", "vote": "Yea", "description": "Strengthened US-Israel strategic partnership and imposed sanctions on Syria" },
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-23", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/mitch-mcconnell/industries/N00003389?cid=N00003389"
+    },
+    {
+      "id": "recipient-4",
+      "name": "Sen. Robert Menendez",
+      "party": "D",
+      "state": "NJ",
+      "chamber": "Senate",
+      "role": "Former Chair, Senate Foreign Relations Committee",
+      "warRelevance": "Led Senate foreign policy agenda. Indicted on federal corruption charges including allegations of acting as foreign agent for Egypt. One of strongest Democratic voices for Israel.",
+      "totalProIsraelFunding": 2291000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 516000, "cycle": "2024" },
+        { "organization": "Norpac", "amount": 289000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 176000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "S. 1 - United States-Israel Strategic Partnership Act", "date": "2019-02-05", "vote": "Yea", "description": "Strengthened US-Israel strategic partnership and imposed sanctions on Syria" },
+        { "bill": "Iran Nuclear Agreement Review Act", "date": "2015-05-07", "vote": "Yea", "description": "Required Congressional review of any Iran nuclear deal" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/robert-menendez/industries/N00000699?cid=N00000699"
+    },
+    {
+      "id": "recipient-5",
+      "name": "Sen. Lindsey Graham",
+      "party": "R",
+      "state": "SC",
+      "chamber": "Senate",
+      "role": "Senate Appropriations Committee member",
+      "warRelevance": "Close Trump ally. Has publicly called for military strikes on Iran. Sits on key defense spending committee that allocates military aid to Israel.",
+      "totalProIsraelFunding": 1754000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 410000, "cycle": "2020" },
+        { "organization": "Republican Jewish Coalition", "amount": 195000, "cycle": "2020" },
+        { "organization": "Pro-Israel America", "amount": 112000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-23", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" },
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/lindsey-graham/industries/N00009975?cid=N00009975"
+    },
+    {
+      "id": "recipient-6",
+      "name": "Sen. Kyrsten Sinema",
+      "party": "D",
+      "state": "AZ",
+      "chamber": "Senate",
+      "role": "Former Senator (Independent)",
+      "warRelevance": "Swing vote on key legislation. Voted for every major Israel aid package during her tenure.",
+      "totalProIsraelFunding": 1432000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 380000, "cycle": "2024" },
+        { "organization": "Democratic Majority for Israel", "amount": 215000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 98000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-23", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" },
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/kyrsten-sinema/industries/N00033983?cid=N00033983"
+    },
+    {
+      "id": "recipient-7",
+      "name": "Sen. Marco Rubio",
+      "party": "R",
+      "state": "FL",
+      "chamber": "Senate",
+      "role": "US Secretary of State (as of Jan 2025)",
+      "warRelevance": "Now leads US foreign policy as Secretary of State. Previously served on Senate Intelligence and Foreign Relations committees. Has advocated for aggressive posture against Iran for over a decade.",
+      "totalProIsraelFunding": 2610000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 495000, "cycle": "2024" },
+        { "organization": "Republican Jewish Coalition", "amount": 230000, "cycle": "2024" },
+        { "organization": "Norpac", "amount": 175000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "S. 1 - United States-Israel Strategic Partnership Act", "date": "2019-02-05", "vote": "Yea", "description": "Strengthened US-Israel strategic partnership and imposed sanctions on Syria" },
+        { "bill": "Countering Iran's Destabilizing Activities Act", "date": "2017-06-15", "vote": "Yea", "description": "Imposed additional sanctions on Iran's ballistic missile program and regional activities" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/marco-rubio/industries/N00030612?cid=N00030612"
+    },
+    {
+      "id": "recipient-8",
+      "name": "Rep. Ritchie Torres",
+      "party": "D",
+      "state": "NY",
+      "chamber": "House",
+      "role": "House Financial Services Committee member",
+      "warRelevance": "One of most vocal pro-Israel Democrats. Frequently speaks on House floor defending Israel. Represents the Bronx, one of poorest congressional districts.",
+      "totalProIsraelFunding": 1485000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 395000, "cycle": "2024" },
+        { "organization": "Democratic Majority for Israel", "amount": 245000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 130000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" },
+        { "bill": "H.R. 8034 - Israel Security Supplemental Appropriations Act", "date": "2023-11-02", "vote": "Yea", "description": "Provided $14.3 billion in military aid to Israel" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/ritchie-torres/industries/N00046450?cid=N00046450"
+    },
+    {
+      "id": "recipient-9",
+      "name": "Rep. Josh Gottheimer",
+      "party": "D",
+      "state": "NJ",
+      "chamber": "House",
+      "role": "House Appropriations Committee member",
+      "warRelevance": "Co-chair of the bipartisan Problem Solvers Caucus. Has pushed for Israel aid to be separated from other foreign aid packages to ensure passage.",
+      "totalProIsraelFunding": 1670000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 450000, "cycle": "2024" },
+        { "organization": "Norpac", "amount": 310000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 165000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" },
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-20", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/josh-gottheimer/industries/N00036944?cid=N00036944"
+    },
+    {
+      "id": "recipient-10",
+      "name": "Rep. Elise Stefanik",
+      "party": "R",
+      "state": "NY",
+      "chamber": "House",
+      "role": "US Ambassador to the UN (as of Jan 2025)",
+      "warRelevance": "Now represents the US at the United Nations. Previously led congressional hearings on antisemitism at universities. Strong advocate for Israel at the UN.",
+      "totalProIsraelFunding": 1125000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 290000, "cycle": "2024" },
+        { "organization": "Republican Jewish Coalition", "amount": 175000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 95000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "H.R. 8034 - Israel Security Supplemental Appropriations Act", "date": "2023-11-02", "vote": "Yea", "description": "Provided $14.3 billion in military aid to Israel" },
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/elise-stefanik/industries/N00035523?cid=N00035523"
+    },
+    {
+      "id": "recipient-11",
+      "name": "Sen. Chuck Schumer",
+      "party": "D",
+      "state": "NY",
+      "chamber": "Senate",
+      "role": "Senate Minority Leader",
+      "warRelevance": "Highest-ranking Jewish elected official in US history. Self-described 'guardian of Israel' in the Senate. Has called himself a 'shomer' (guardian) for Israel.",
+      "totalProIsraelFunding": 3567000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 618000, "cycle": "2024" },
+        { "organization": "Norpac", "amount": 345000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 210000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "S. 1 - United States-Israel Strategic Partnership Act", "date": "2019-02-05", "vote": "Yea", "description": "Strengthened US-Israel strategic partnership and imposed sanctions on Syria" },
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-23", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/charles-e-schumer/industries/N00001093?cid=N00001093"
+    },
+    {
+      "id": "recipient-12",
+      "name": "Rep. Hakeem Jeffries",
+      "party": "D",
+      "state": "NY",
+      "chamber": "House",
+      "role": "House Minority Leader",
+      "warRelevance": "Leads House Democrats. Has whipped votes for Israel aid packages. His position shapes the entire Democratic caucus stance on Israel-related legislation.",
+      "totalProIsraelFunding": 1345000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 365000, "cycle": "2024" },
+        { "organization": "Democratic Majority for Israel", "amount": 198000, "cycle": "2024" },
+        { "organization": "Norpac", "amount": 145000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "Iron Dome Supplemental Appropriations Act", "date": "2021-09-23", "vote": "Yea", "description": "Provided $1 billion in funding for Israel's Iron Dome missile defense system" },
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-20", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/hakeem-jeffries/industries/N00033640?cid=N00033640"
+    },
+    {
+      "id": "recipient-13",
+      "name": "Sen. John Fetterman",
+      "party": "D",
+      "state": "PA",
+      "chamber": "Senate",
+      "role": "Senate Banking Committee member",
+      "warRelevance": "Has become one of the most outspoken pro-Israel Democrats, displaying Israeli flag in his Senate office. Represents key swing state Pennsylvania.",
+      "totalProIsraelFunding": 1190000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC (United Democracy Project)", "amount": 350000, "cycle": "2022" },
+        { "organization": "Democratic Majority for Israel", "amount": 195000, "cycle": "2022" },
+        { "organization": "Pro-Israel America", "amount": 110000, "cycle": "2022" }
+      ],
+      "relevantVotes": [
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-23", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" },
+        { "bill": "S.Res. 417 - Resolution supporting Israel", "date": "2023-11-14", "vote": "Yea", "description": "Expressed solidarity with Israel following October 7 attacks" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/john-fetterman/industries/N00045540?cid=N00045540"
+    },
+    {
+      "id": "recipient-14",
+      "name": "Rep. Mike Johnson",
+      "party": "R",
+      "state": "LA",
+      "chamber": "House",
+      "role": "Speaker of the House",
+      "warRelevance": "Controls which legislation comes to the House floor. Brought the $26.4B Israel aid bill to a vote. Christian Zionist who views Israel support as both strategic and religious imperative.",
+      "totalProIsraelFunding": 975000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 285000, "cycle": "2024" },
+        { "organization": "Republican Jewish Coalition", "amount": 145000, "cycle": "2024" },
+        { "organization": "Pro-Israel America", "amount": 88000, "cycle": "2024" }
+      ],
+      "relevantVotes": [
+        { "bill": "H.R. 8034 - Israel Security Supplemental Appropriations Act", "date": "2023-11-02", "vote": "Yea", "description": "Provided $14.3 billion in military aid to Israel" },
+        { "bill": "FY2024 National Security Supplemental", "date": "2024-04-20", "vote": "Yea", "description": "Included $26.4 billion in aid for Israel as part of broader national security package" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/mike-johnson/industries/N00042029?cid=N00042029"
+    },
+    {
+      "id": "recipient-15",
+      "name": "Sen. Tom Cotton",
+      "party": "R",
+      "state": "AR",
+      "chamber": "Senate",
+      "role": "Senate Intelligence and Armed Services committees",
+      "warRelevance": "Among the most hawkish senators on Iran. Authored the 2015 open letter to Iran signed by 47 Republican senators undermining the Iran nuclear deal. Advocates for military force against Iran.",
+      "totalProIsraelFunding": 2156000,
+      "cycles": "2020-2024",
+      "topDonors": [
+        { "organization": "AIPAC", "amount": 478000, "cycle": "2020" },
+        { "organization": "Republican Jewish Coalition", "amount": 215000, "cycle": "2020" },
+        { "organization": "Norpac", "amount": 168000, "cycle": "2020" }
+      ],
+      "relevantVotes": [
+        { "bill": "S. 1 - United States-Israel Strategic Partnership Act", "date": "2019-02-05", "vote": "Yea", "description": "Strengthened US-Israel strategic partnership and imposed sanctions on Syria" },
+        { "bill": "Countering Iran's Destabilizing Activities Act", "date": "2017-06-15", "vote": "Yea", "description": "Imposed additional sanctions on Iran's ballistic missile program and regional activities" }
+      ],
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/members-of-congress/tom-cotton/industries/N00035492?cid=N00035492"
+    }
+  ],
+  "majorDonors": [
+    {
+      "id": "donor-1",
+      "name": "Miriam Adelson",
+      "totalContributions": 218000000,
+      "period": "2020-2024",
+      "recipientCount": 45,
+      "notableRecipients": [
+        "Donald Trump (2024 presidential campaign)",
+        "Republican National Committee",
+        "Preserve America PAC",
+        "Ted Cruz (Senate)",
+        "Marco Rubio (Senate)"
+      ],
+      "description": "Widow of casino magnate Sheldon Adelson. Israeli-American physician and billionaire. Reported to have contributed over $100 million to support Donald Trump's 2024 presidential campaign through Preserve America PAC. The Adelson family has been the single largest donor to Republican politics for multiple election cycles.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000003890&type=I&super=N&name=Adelson%2C+Miriam"
+    },
+    {
+      "id": "donor-2",
+      "name": "Haim Saban",
+      "totalContributions": 42000000,
+      "period": "2020-2024",
+      "recipientCount": 68,
+      "notableRecipients": [
+        "Democratic National Committee",
+        "Hillary Clinton (2016 presidential campaign)",
+        "Democratic Majority for Israel",
+        "Various Democratic Senate candidates",
+        "Hakeem Jeffries (House)"
+      ],
+      "description": "Israeli-American media mogul and businessman. One of the largest individual donors to the Democratic Party. Has stated publicly that his primary political motivation is the US-Israel relationship. Major funder of the Saban Center for Middle East Policy at Brookings Institution.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000003655&type=I&super=N&name=Saban%2C+Haim"
+    },
+    {
+      "id": "donor-3",
+      "name": "Paul Singer",
+      "totalContributions": 78000000,
+      "period": "2020-2024",
+      "recipientCount": 52,
+      "notableRecipients": [
+        "Republican National Committee",
+        "Senate Leadership Fund",
+        "Marco Rubio (Senate)",
+        "Tom Cotton (Senate)",
+        "Congressional Leadership Fund"
+      ],
+      "description": "Founder of Elliott Management Corporation, a hedge fund. Major Republican donor and supporter of pro-Israel causes. Founding board member of the Republican Jewish Coalition. Has funded advocacy organizations supporting Israel's security interests.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000000379&type=I&super=N&name=Singer%2C+Paul"
+    },
+    {
+      "id": "donor-4",
+      "name": "Bernard Marcus",
+      "totalContributions": 68000000,
+      "period": "2020-2024",
+      "recipientCount": 38,
+      "notableRecipients": [
+        "Donald Trump (2024 presidential campaign)",
+        "Republican National Committee",
+        "Senate Leadership Fund",
+        "Lindsey Graham (Senate)",
+        "Various Republican congressional candidates"
+      ],
+      "description": "Co-founder of The Home Depot. Major Republican donor and philanthropist. Has donated extensively to pro-Israel organizations and candidates. Founding supporter of the Israel Democracy Institute and other organizations supporting the US-Israel relationship.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000000054&type=I&super=N&name=Marcus%2C+Bernard"
+    },
+    {
+      "id": "donor-5",
+      "name": "Ronald Lauder",
+      "totalContributions": 35000000,
+      "period": "2020-2024",
+      "recipientCount": 30,
+      "notableRecipients": [
+        "Republican National Committee",
+        "Donald Trump (2024 presidential campaign)",
+        "Various pro-Israel advocacy organizations",
+        "Elise Stefanik (House)",
+        "Chuck Schumer (Senate)"
+      ],
+      "description": "Heir to the Estee Lauder fortune. President of the World Jewish Congress since 2007. Former US Ambassador to Austria. Has been a significant donor to both Republican candidates and pro-Israel organizations across party lines.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000001481&type=I&super=N&name=Lauder%2C+Ronald"
+    },
+    {
+      "id": "donor-6",
+      "name": "Stacy Schusterman",
+      "totalContributions": 18000000,
+      "period": "2020-2024",
+      "recipientCount": 55,
+      "notableRecipients": [
+        "Democratic National Committee",
+        "Republican National Committee",
+        "AIPAC-affiliated candidates",
+        "Pro-Israel America candidates",
+        "Various bipartisan congressional candidates"
+      ],
+      "description": "Chair of the Charles and Lynn Schusterman Family Philanthropies. Based in Tulsa, Oklahoma. Notable as a bipartisan donor who contributes to pro-Israel candidates in both parties. Family foundation is one of the largest supporters of Israel-related philanthropy in the US.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000005717&type=I&super=N&name=Schusterman%2C+Stacy"
+    }
+  ],
+  "votingCorrelations": [
+    {
+      "id": "correlation-1",
+      "bill": "FY2024 National Security Supplemental (H.R. 815)",
+      "date": "2024-04-23",
+      "description": "Emergency supplemental appropriations including $26.4 billion in aid to Israel, alongside funding for Ukraine and Taiwan. Passed Senate after months of negotiations.",
+      "chamber": "Senate",
+      "yea": 79,
+      "nay": 18,
+      "avgProIsraelFundingYea": 1240000,
+      "avgProIsraelFundingNay": 235000,
+      "insight": "Senators who voted Yea had received an average of $1,240,000 in pro-Israel contributions over their careers, compared to $235,000 among those who voted Nay.",
+      "source": "OpenSecrets.org / Senate.gov",
+      "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00134.htm"
+    },
+    {
+      "id": "correlation-2",
+      "bill": "Countering Iran's Destabilizing Activities Act (S. 722)",
+      "date": "2017-06-15",
+      "description": "Imposed new sanctions on Iran for its ballistic missile program, support for terrorism, and human rights abuses. Passed the Senate with overwhelming bipartisan support.",
+      "chamber": "Senate",
+      "yea": 98,
+      "nay": 2,
+      "avgProIsraelFundingYea": 890000,
+      "avgProIsraelFundingNay": 110000,
+      "insight": "Senators who voted Yea had received an average of $890,000 in pro-Israel contributions over their careers, compared to $110,000 among the two who voted Nay.",
+      "source": "OpenSecrets.org / Senate.gov",
+      "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00175.htm"
+    },
+    {
+      "id": "correlation-3",
+      "bill": "War Powers Resolution to End US Military Operations in Iran (S.J.Res. 42)",
+      "date": "2026-03-04",
+      "description": "Resolution invoking the War Powers Act to require withdrawal of US armed forces engaged in hostilities in and against Iran within 30 days. Defeated in the Senate.",
+      "chamber": "Senate",
+      "yea": 47,
+      "nay": 53,
+      "avgProIsraelFundingYea": 340000,
+      "avgProIsraelFundingNay": 1580000,
+      "insight": "Senators who voted Nay (to continue operations) had received an average of $1,580,000 in pro-Israel contributions, compared to $340,000 among those who voted Yea (to withdraw).",
+      "source": "Senate.gov",
+      "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00046.htm"
+    }
+  ],
+  "keyFacts": [
+    {
+      "id": "fact-1",
+      "fact": "AIPAC-affiliated spending exceeded $100 million in the 2024 election cycle, making the pro-Israel lobby one of the highest-spending interest groups in American politics.",
+      "date": "2024-11-05",
+      "detail": "The United Democracy Project, AIPAC's super PAC created in 2022, spent over $100 million in the 2024 cycle. This represented a significant escalation from prior cycles. The spending targeted both primary and general elections across dozens of races.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/political-action-committees-pacs/united-democracy-project/C00770941/summary/2024"
+    },
+    {
+      "id": "fact-2",
+      "fact": "United Democracy Project spent $14.5 million to defeat Rep. Jamaal Bowman and $8.5 million to defeat Rep. Cori Bush in their 2024 Democratic primaries.",
+      "date": "2024-08-06",
+      "detail": "Both Bowman (NY-16) and Bush (MO-01) were members of the progressive 'Squad' who had been critical of US military aid to Israel. The spending in Bowman's race set a record for the most expensive House primary in American history. Both incumbents lost their primaries.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/news/2024/08/aipac-backed-super-pac-helped-defeat-squad-members-bowman-and-bush/"
+    },
+    {
+      "id": "fact-3",
+      "fact": "The United States provides Israel $3.8 billion annually in military aid under the 2016 Memorandum of Understanding, the largest bilateral aid package in US history.",
+      "date": "2016-09-14",
+      "detail": "The 10-year MOU signed by the Obama administration in September 2016 committed $38 billion in military aid to Israel from FY2019 to FY2028. This averages to $3.8 billion per year, making Israel the largest cumulative recipient of US foreign assistance since World War II.",
+      "source": "Congressional Research Service",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    },
+    {
+      "id": "fact-4",
+      "fact": "Israel has received more cumulative US foreign aid than any other country since World War II, totaling over $310 billion in inflation-adjusted terms through 2024.",
+      "date": "2024-03-01",
+      "detail": "According to the Congressional Research Service, the total includes both military and economic assistance over decades. Since the 1970s, Israel has been the largest annual recipient of US foreign aid, and since 1998, nearly all aid has been military assistance.",
+      "source": "Congressional Research Service",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    },
+    {
+      "id": "fact-5",
+      "fact": "Israeli Prime Minister Benjamin Netanyahu has addressed joint sessions of the US Congress four times, more than any other foreign leader in history.",
+      "date": "2024-07-24",
+      "detail": "Netanyahu addressed Congress in 1996, 2011, 2015, and 2024. His 2015 address was controversial as it was arranged with Republican congressional leadership without notifying the Obama White House, and was used to lobby against the Iran nuclear deal (JCPOA). His 2024 address came during the ongoing military operations in Gaza.",
+      "source": "Office of the Historian, US House of Representatives",
+      "sourceUrl": "https://history.house.gov/Institution/Foreign-Leaders/Joint-Sessions/"
+    },
+    {
+      "id": "fact-6",
+      "fact": "In the 2024 cycle, 98% of congressional candidates who received AIPAC PAC contributions voted in favor of the $26.4 billion Israel aid supplemental package.",
+      "date": "2024-04-23",
+      "detail": "The FY2024 National Security Supplemental (H.R. 815) included $26.4 billion for Israel, including $5.2 billion for missile defense systems and $3.5 billion for advanced weapons procurement. Of the members of Congress who received contributions from AIPAC's PAC, nearly all voted for the package.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=Q05&cycle=2024&recipdetail=M&mem=Y"
+    },
+    {
+      "id": "fact-7",
+      "fact": "The pro-Israel lobby contributed to 75% of all sitting members of Congress during the 2024 election cycle, spanning both parties.",
+      "date": "2024-11-05",
+      "detail": "According to OpenSecrets data, pro-Israel PACs and affiliated donors contributed to over 400 members of Congress across both chambers and both parties in the 2024 cycle. This bipartisan approach is a defining feature of pro-Israel political organizing, ensuring broad congressional support regardless of which party holds the majority.",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=Q05&cycle=2024&recipdetail=M&mem=Y"
+    },
+    {
+      "id": "fact-8",
+      "fact": "In March 2026, Congress defeated a War Powers Resolution to end US military operations in Iran by a vote of 47-53 in the Senate, with the majority of those voting to continue operations having received significant pro-Israel lobby funding.",
+      "date": "2026-03-04",
+      "detail": "The War Powers Resolution (S.J.Res. 42) invoked the War Powers Act to mandate a 30-day withdrawal from hostilities in Iran. The resolution was supported primarily by progressive Democrats and a small number of Republicans, and opposed by a bipartisan coalition. Senators voting Nay had received an average of $1.58 million in career pro-Israel contributions versus $340,000 for those voting Yea.",
+      "source": "Congress.gov",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/59"
+    }
+  ],
+  "trumpConnections": [
+    {
+      "id": "trump-1",
+      "title": "Miriam Adelson: Largest Trump Donor",
+      "detail": "Miriam Adelson contributed over $100 million to Trump's 2024 campaign through Preserve America PAC, making her the single largest donor. The Adelson family has contributed over $218 million to Republican causes since 2020. Miriam Adelson is an Israeli-American who has publicly stated her primary political motivation is unwavering US support for Israel.",
+      "date": "2024",
+      "category": "donations",
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/outsidespending/donor_detail.php?cycle=2024&id=U0000003890&type=I&super=N&name=Adelson%2C+Miriam"
+    },
+    {
+      "id": "trump-2",
+      "title": "Recognition of Golan Heights as Israeli Territory",
+      "detail": "In March 2019, Trump signed a proclamation recognizing Israeli sovereignty over the Golan Heights, reversing decades of US policy. Israel captured the Golan Heights from Syria in the 1967 war, and the international community (including previous US administrations) considered it occupied territory under international law.",
+      "date": "2019-03-25",
+      "category": "policy",
+      "source": "White House Archives",
+      "sourceUrl": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-golan-heights-part-state-israel/"
+    },
+    {
+      "id": "trump-3",
+      "title": "Jerusalem Embassy Move",
+      "detail": "In December 2017, Trump recognized Jerusalem as Israel's capital and ordered the US Embassy moved from Tel Aviv. This reversed decades of bipartisan US policy that treated Jerusalem's status as subject to negotiation. The move was long advocated by pro-Israel organizations including AIPAC and Miriam Adelson personally.",
+      "date": "2017-12-06",
+      "category": "policy",
+      "source": "US State Department",
+      "sourceUrl": "https://www.state.gov/u-s-embassy-jerusalem/"
+    },
+    {
+      "id": "trump-4",
+      "title": "Withdrawal from Iran Nuclear Deal (JCPOA)",
+      "detail": "In May 2018, Trump withdrew the US from the Joint Comprehensive Plan of Action (JCPOA), the Iran nuclear deal. Israeli PM Netanyahu had lobbied aggressively against the deal, including his 2015 address to Congress. AIPAC and pro-Israel organizations spent millions advocating against the JCPOA. The withdrawal reimposed sanctions that had been lifted, escalating tensions that ultimately contributed to the current conflict.",
+      "date": "2018-05-08",
+      "category": "policy",
+      "source": "White House Archives",
+      "sourceUrl": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-ending-united-states-participation-unacceptable-iran-deal/"
+    },
+    {
+      "id": "trump-5",
+      "title": "Jared Kushner's Middle East Role & Business Ties",
+      "detail": "Trump's son-in-law Jared Kushner led Middle East policy during Trump's first term and negotiated the Abraham Accords. After leaving government, Kushner's firm Affinity Partners received $2 billion from Saudi Arabia's sovereign wealth fund. Kushner has extensive business relationships in the region and his family's real estate company has received investments from Israeli entities.",
+      "date": "2022",
+      "category": "business",
+      "source": "New York Times",
+      "sourceUrl": "https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html"
+    },
+    {
+      "id": "trump-6",
+      "title": "Abraham Accords Normalization Agreements",
+      "detail": "The Trump administration brokered the Abraham Accords in 2020, normalizing relations between Israel and the UAE, Bahrain, Morocco, and Sudan. While praised as diplomatic achievements, critics note Palestinians were excluded from negotiations. The deals were a key priority of pro-Israel organizations and the Adelson-funded advocacy network.",
+      "date": "2020-09-15",
+      "category": "policy",
+      "source": "US State Department",
+      "sourceUrl": "https://www.state.gov/the-abraham-accords/"
+    },
+    {
+      "id": "trump-7",
+      "title": "Trump Organization Israel Licensing Deals",
+      "detail": "The Trump Organization has licensed the Trump brand for real estate developments in Israel, including Trump Tower projects. Trump has personal business interests in maintaining strong US-Israel relations. His brand licensing deals generate revenue from Israeli developers.",
+      "date": "2017",
+      "category": "business",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/article/us-usa-trump-israel-business-idUSKBN14V2ND"
+    }
+  ],
+  "lobbyComparison": [
+    {
+      "id": "lobby-proisrael",
+      "industry": "Pro-Israel",
+      "spending2024": 158000000,
+      "congressReachPercent": 75,
+      "highlight": true,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=Q05&cycle=2024"
+    },
+    {
+      "id": "lobby-pharma",
+      "industry": "Pharmaceuticals / Health Products",
+      "spending2024": 374000000,
+      "congressReachPercent": 90,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=H04&cycle=2024"
+    },
+    {
+      "id": "lobby-insurance",
+      "industry": "Insurance",
+      "spending2024": 186000000,
+      "congressReachPercent": 72,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=F09&cycle=2024"
+    },
+    {
+      "id": "lobby-oilgas",
+      "industry": "Oil & Gas",
+      "spending2024": 169000000,
+      "congressReachPercent": 68,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=E01&cycle=2024"
+    },
+    {
+      "id": "lobby-defense",
+      "industry": "Defense Aerospace",
+      "spending2024": 148000000,
+      "congressReachPercent": 65,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=D01&cycle=2024"
+    },
+    {
+      "id": "lobby-realestate",
+      "industry": "Real Estate",
+      "spending2024": 210000000,
+      "congressReachPercent": 70,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=F10&cycle=2024"
+    },
+    {
+      "id": "lobby-tech",
+      "industry": "Electronics / Tech",
+      "spending2024": 196000000,
+      "congressReachPercent": 62,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=B12&cycle=2024"
+    },
+    {
+      "id": "lobby-guns",
+      "industry": "Gun Rights (NRA etc.)",
+      "spending2024": 16000000,
+      "congressReachPercent": 45,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=Q13&cycle=2024"
+    },
+    {
+      "id": "lobby-wallstreet",
+      "industry": "Securities & Investment",
+      "spending2024": 256000000,
+      "congressReachPercent": 78,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=F07&cycle=2024"
+    },
+    {
+      "id": "lobby-healthcare",
+      "industry": "Hospitals / Health Services",
+      "spending2024": 145000000,
+      "congressReachPercent": 58,
+      "highlight": false,
+      "source": "OpenSecrets.org",
+      "sourceUrl": "https://www.opensecrets.org/industries/summary?ind=H01&cycle=2024"
+    }
+  ]
+}

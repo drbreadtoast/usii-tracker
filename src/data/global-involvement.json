@@ -1,0 +1,129 @@
+[
+  {
+    "id": "gi-russia",
+    "country": "Russia",
+    "key": "russia",
+    "flag": "🇷🇺",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "level": "military_support",
+    "summary": "Providing Iran with satellite intelligence and S-400 air defense components. Vetoed UN ceasefire resolution.",
+    "actions": [
+      { "date": "2026-02-28", "type": "diplomatic", "text": "Called emergency UN Security Council session, blamed US escalation" },
+      { "date": "2026-03-01", "type": "military", "text": "Delivered S-400 components to Iran via Caspian Sea route" },
+      { "date": "2026-03-03", "type": "diplomatic", "text": "Vetoed UN Security Council ceasefire resolution" },
+      { "date": "2026-03-04", "type": "economic", "text": "Increased oil exports to offset global supply disruption" },
+      { "date": "2026-03-05", "type": "military", "text": "Reportedly sharing satellite intelligence with Iranian forces" },
+      { "date": "2026-03-07", "type": "military", "text": "Reportedly supplying Iran with replacement air defense components via overland route through Turkmenistan" },
+      { "date": "2026-03-08", "type": "diplomatic", "text": "Putin calls Mojtaba Khamenei to congratulate new Supreme Leader; reaffirms support" }
+    ],
+    "statements": [
+      { "date": "2026-03-02", "speaker": "Foreign Minister Lavrov", "text": "Russia condemns the US military escalation and calls for immediate ceasefire." },
+      { "date": "2026-03-05", "speaker": "Kremlin Spokesperson", "text": "Any NATO involvement in the region will be met with appropriate response." }
+    ]
+  },
+  {
+    "id": "gi-china",
+    "country": "China",
+    "key": "china",
+    "flag": "🇨🇳",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "level": "diplomatic",
+    "summary": "Calling for ceasefire while maintaining energy imports from Iran. Chinese-made drone components found in Iranian weapons.",
+    "actions": [
+      { "date": "2026-02-28", "type": "diplomatic", "text": "Called for restraint from all parties at UN General Assembly" },
+      { "date": "2026-03-01", "type": "economic", "text": "Continued purchasing Iranian oil despite US sanctions" },
+      { "date": "2026-03-03", "type": "diplomatic", "text": "Proposed 4-point peace plan at UN Security Council" },
+      { "date": "2026-03-04", "type": "military", "text": "Chinese-made drone components identified in Iranian Shahed drones" },
+      { "date": "2026-03-06", "type": "economic", "text": "Began stockpiling strategic petroleum reserves amid price surge" },
+      { "date": "2026-03-07", "type": "economic", "text": "Chinese oil tankers spotted loading Iranian crude at Bandar Abbas despite Western sanctions" },
+      { "date": "2026-03-09", "type": "diplomatic", "text": "Chinese Foreign Minister warns US that ground invasion of Iran would be 'crossing a red line'" }
+    ],
+    "statements": [
+      { "date": "2026-03-01", "speaker": "Foreign Ministry", "text": "China calls on all parties to exercise maximum restraint and return to diplomacy." },
+      { "date": "2026-03-04", "speaker": "Ambassador to UN", "text": "The international community must prioritize civilian protection and humanitarian access." }
+    ]
+  },
+  {
+    "id": "gi-eu",
+    "country": "European Union",
+    "key": "eu",
+    "flag": "🇪🇺",
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "level": "diplomatic",
+    "summary": "Leading ceasefire mediation efforts. Imposed sanctions on both Iranian military and select arms flows. Providing humanitarian aid.",
+    "actions": [
+      { "date": "2026-02-28", "type": "diplomatic", "text": "Emergency EU foreign ministers meeting called within hours of first strikes" },
+      { "date": "2026-03-01", "type": "economic", "text": "Expanded sanctions on Iranian Revolutionary Guard leadership" },
+      { "date": "2026-03-02", "type": "diplomatic", "text": "EU High Representative began shuttle diplomacy between Tehran and Washington" },
+      { "date": "2026-03-04", "type": "humanitarian", "text": "Pledged €500M emergency humanitarian aid package for affected civilians" },
+      { "date": "2026-03-06", "type": "economic", "text": "Activated strategic oil reserves to stabilize European energy markets" },
+      { "date": "2026-03-07", "type": "diplomatic", "text": "EU Parliament passes non-binding resolution calling for immediate ceasefire by 482-67 vote" },
+      { "date": "2026-03-08", "type": "diplomatic", "text": "EU High Representative condemns Hezbollah attack on Cyprus as 'attack on Europe'" }
+    ],
+    "statements": [
+      { "date": "2026-03-01", "speaker": "EU High Representative", "text": "Europe stands ready to mediate. There is no military solution to this conflict." },
+      { "date": "2026-03-05", "speaker": "European Council President", "text": "We must prevent this conflict from spreading further across the region." }
+    ]
+  },
+  {
+    "id": "gi-france",
+    "country": "France",
+    "key": "france",
+    "flag": "🇫🇷",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "level": "observer",
+    "summary": "Deployed carrier group to Eastern Mediterranean for evacuation operations. Supporting diplomatic mediation efforts.",
+    "actions": [
+      { "date": "2026-03-01", "type": "military", "text": "Deployed Charles de Gaulle carrier group to Eastern Mediterranean" },
+      { "date": "2026-03-02", "type": "humanitarian", "text": "Began evacuating French nationals from Lebanon and Iraq" },
+      { "date": "2026-03-04", "type": "diplomatic", "text": "Hosted back-channel talks between Iranian and Israeli diplomats in Paris" },
+      { "date": "2026-03-05", "type": "economic", "text": "Suspended all arms exports to the region pending conflict resolution" },
+      { "date": "2026-03-07", "type": "military", "text": "Macron places French forces on heightened alert after Hezbollah drone hits Cyprus" },
+      { "date": "2026-03-08", "type": "diplomatic", "text": "Macron: 'An attack on Cyprus is an attack on all of Europe' — invokes EU mutual defense clause" }
+    ],
+    "statements": [
+      { "date": "2026-03-02", "speaker": "President", "text": "France will protect its citizens and work tirelessly for peace in the region." }
+    ]
+  },
+  {
+    "id": "gi-germany",
+    "country": "Germany",
+    "key": "germany",
+    "flag": "🇩🇪",
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "level": "observer",
+    "summary": "Suspended arms exports to the region. Providing humanitarian aid and supporting EU-led diplomatic efforts.",
+    "actions": [
+      { "date": "2026-03-01", "type": "economic", "text": "Immediately suspended all arms exports to Middle East conflict parties" },
+      { "date": "2026-03-02", "type": "humanitarian", "text": "Deployed Bundeswehr medical teams to Jordan for refugee assistance" },
+      { "date": "2026-03-04", "type": "diplomatic", "text": "Chancellor spoke with US President urging de-escalation" },
+      { "date": "2026-03-05", "type": "economic", "text": "Allocated €200M for energy market stabilization measures" },
+      { "date": "2026-03-08", "type": "diplomatic", "text": "Chancellor condemns 'spiral of violence' and Swiss declaration as 'brave and necessary'" },
+      { "date": "2026-03-09", "type": "economic", "text": "Germany announces emergency €1B energy stabilization fund as gas prices surge" }
+    ],
+    "statements": [
+      { "date": "2026-03-03", "speaker": "Chancellor", "text": "Germany stands firmly on the side of international law and civilian protection." }
+    ]
+  },
+  {
+    "id": "gi-switzerland",
+    "country": "Switzerland",
+    "key": "switzerland",
+    "flag": "\ud83c\udde8\ud83c\udded",
+    "lat": 46.9480,
+    "lng": 7.4474,
+    "level": "diplomatic",
+    "summary": "First traditionally neutral Western nation to formally condemn US-Israel strikes as violating international law.",
+    "actions": [
+      { "date": "2026-03-08", "type": "diplomatic", "text": "Defense Minister Pfister declares US-Israel attacks violate international law" }
+    ],
+    "statements": [
+      { "date": "2026-03-08", "speaker": "Defense Minister Pfister", "text": "These attacks constitute clear violations of international humanitarian law. Switzerland cannot remain silent." }
+    ]
+  }
+]

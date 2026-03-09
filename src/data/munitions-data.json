@@ -1,0 +1,1170 @@
+{
+  "metadata": {
+    "title": "Iran-Israel Conflict Munitions Tracker",
+    "description": "Comprehensive tracking of military munitions, arsenal estimates, expenditures, and production data for the Iran-Israel conflict theater, including US involvement.",
+    "sources": [
+      {
+        "name": "Center for Strategic and International Studies (CSIS)",
+        "url": "https://www.csis.org/programs/international-security-program/missile-defense-project",
+        "type": "primary"
+      },
+      {
+        "name": "Stockholm International Peace Research Institute (SIPRI)",
+        "url": "https://www.sipri.org/databases/armstransfers",
+        "type": "primary"
+      },
+      {
+        "name": "International Institute for Strategic Studies (IISS) - The Military Balance",
+        "url": "https://www.iiss.org/publications/the-military-balance",
+        "type": "primary"
+      },
+      {
+        "name": "US Department of Defense (DoD)",
+        "url": "https://www.defense.gov/",
+        "type": "official"
+      },
+      {
+        "name": "Congressional Research Service (CRS)",
+        "url": "https://crsreports.congress.gov/",
+        "type": "official"
+      },
+      {
+        "name": "Federation of American Scientists (FAS)",
+        "url": "https://fas.org/",
+        "type": "supplementary"
+      }
+    ],
+    "methodology": "Estimates are compiled from open-source intelligence (OSINT), published government reports, Congressional testimony, and assessments from recognized defense research institutions. Quantities represent best-available estimates and may differ from actual classified inventories. Production rates are inferred from procurement budgets, contractor disclosures, and historical delivery schedules. Conflict expenditure figures are derived from satellite imagery analysis, official briefings, and corroborated media reports.",
+    "lastUpdated": "2026-03-06",
+    "updateFrequency": "daily",
+    "disclaimer": "All figures are estimates based on publicly available information and open-source analysis. Actual military inventories are classified. Numbers should be treated as approximations subject to revision. This data is compiled for informational purposes and does not represent official government positions. Conflict usage figures include both confirmed and analytically assessed strikes. Source URLs point to institutional pages that published relevant analyses; specific reports may require navigation within those sites."
+  },
+  "countries": {
+    "us": {
+      "name": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "arsenal": [
+        {
+          "name": "BGM-109 Tomahawk (Block IV/V)",
+          "type": "cruise_missile",
+          "quantity": 4000,
+          "deployed": 3200,
+          "inReserve": 800,
+          "status": "operational",
+          "description": "Long-range, all-weather, subsonic cruise missile used for land-attack operations. Block V includes maritime strike and joint multi-effects warhead capabilities.",
+          "range_km": 1600,
+          "sourceUrl": "https://www.csis.org/analysis/tomahawk-cruise-missile",
+          "estimatedQuantity": {
+            "quantity": 4500,
+            "note": "Higher estimates include Block V variants in final assembly and Navy pre-positioned stocks at Diego Garcia and Guam",
+            "source": "IISS Military Balance 2025",
+            "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+          },
+          "rumoredQuantity": {
+            "quantity": 5200,
+            "note": "Congressional sources suggest classified deep-reserve stocks maintained for Pacific contingency exceed published inventory figures",
+            "source": "Defense News / Congressional testimony",
+            "sourceUrl": "https://www.defensenews.com/"
+          }
+        },
+        {
+          "name": "GBU-57A/B Massive Ordnance Penetrator (MOP)",
+          "type": "bomb",
+          "quantity": 20,
+          "deployed": 20,
+          "inReserve": 0,
+          "status": "limited",
+          "description": "30,000-lb precision-guided bunker buster designed to penetrate hardened and deeply buried targets. Delivered exclusively by B-2 Spirit stealth bomber.",
+          "range_km": null,
+          "sourceUrl": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104572/gbu-57-massive-ordnance-penetrator/",
+          "estimatedQuantity": {
+            "quantity": 25,
+            "note": "Additional units may have been produced under classified supplemental funding in FY2024-2025",
+            "source": "FAS Nuclear Notebook",
+            "sourceUrl": "https://fas.org/"
+          },
+          "rumoredQuantity": {
+            "quantity": 40,
+            "note": "Unverified claims suggest accelerated production after Iran enrichment revelations in 2024, with additional units stored at Whiteman AFB",
+            "source": "Aviation Week",
+            "sourceUrl": "https://aviationweek.com/"
+          }
+        },
+        {
+          "name": "AGM-158B JASSM-ER",
+          "type": "cruise_missile",
+          "quantity": 2900,
+          "deployed": 2400,
+          "inReserve": 500,
+          "status": "operational",
+          "description": "Joint Air-to-Surface Standoff Missile - Extended Range. Stealthy, precision cruise missile launched from multiple aircraft platforms including B-1B, B-2, F-15E, and F-35.",
+          "range_km": 925,
+          "sourceUrl": "https://www.lockheedmartin.com/en-us/products/jassm.html",
+          "estimatedQuantity": {
+            "quantity": 3400,
+            "note": "Includes JASSM-XR extended range variant entering LRIP. Export deliveries to allies reduce US-available stock",
+            "source": "CRS Report RL33745",
+            "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33745"
+          },
+          "rumoredQuantity": {
+            "quantity": 4000,
+            "note": "Lockheed Martin production rate increases and allied co-production may have pushed total deliveries higher than publicly reported",
+            "source": "Lockheed Martin investor briefing",
+            "sourceUrl": "https://www.lockheedmartin.com/"
+          }
+        },
+        {
+          "name": "RIM-161 SM-3 (Block IIA)",
+          "type": "interceptor",
+          "quantity": 550,
+          "deployed": 400,
+          "inReserve": 150,
+          "status": "operational",
+          "description": "Ship-based ballistic missile interceptor capable of exo-atmospheric engagement. Deployed on Aegis-equipped destroyers and cruisers for theater and homeland missile defense.",
+          "range_km": 2500,
+          "sourceUrl": "https://www.mda.mil/system/sm3.html",
+          "estimatedQuantity": {
+            "quantity": 650,
+            "note": "Japanese co-production under the US-Japan cooperative program adds additional interceptors not always counted in US-only tallies",
+            "source": "MDA Annual Report",
+            "sourceUrl": "https://www.mda.mil/"
+          },
+          "rumoredQuantity": {
+            "quantity": 800,
+            "note": "Post-Ukraine war emergency procurement may have accelerated Block IIA production beyond published delivery schedules",
+            "source": "Naval Technology",
+            "sourceUrl": "https://www.naval-technology.com/"
+          }
+        },
+        {
+          "name": "THAAD (Terminal High Altitude Area Defense)",
+          "type": "interceptor",
+          "quantity": 504,
+          "deployed": 384,
+          "inReserve": 120,
+          "status": "operational",
+          "description": "Land-based missile defense system designed to intercept short-, medium-, and intermediate-range ballistic missiles during their terminal phase. 7 batteries operational globally.",
+          "range_km": 200,
+          "sourceUrl": "https://www.mda.mil/system/thaad.html",
+          "estimatedQuantity": {
+            "quantity": 560,
+            "note": "Additional interceptors produced under FY2025 supplemental for Middle East deployment",
+            "source": "MDA Budget Justification",
+            "sourceUrl": "https://www.mda.mil/system/thaad.html"
+          },
+          "rumoredQuantity": {
+            "quantity": 650,
+            "note": "Sources suggest Saudi Arabia THAAD sale included additional US-retained interceptors not in public count",
+            "source": "Breaking Defense",
+            "sourceUrl": "https://breakingdefense.com/"
+          }
+        },
+        {
+          "name": "GBU-28 Bunker Buster",
+          "type": "bomb",
+          "quantity": 1200,
+          "deployed": 900,
+          "inReserve": 300,
+          "status": "operational",
+          "description": "5,000-lb laser-guided penetration bomb capable of penetrating over 6 meters of reinforced concrete. Carried by F-15E Strike Eagle.",
+          "range_km": null,
+          "sourceUrl": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104571/gbu-28/",
+          "estimatedQuantity": {
+            "quantity": 1500,
+            "note": "USAF maintains rotating stocks at multiple forward operating bases in CENTCOM AOR",
+            "source": "USAF Munitions Directorate",
+            "sourceUrl": "https://www.af.mil/"
+          },
+          "rumoredQuantity": {
+            "quantity": 2000,
+            "note": "Emergency production orders following Iran tensions reportedly expanded inventory significantly",
+            "source": "Defense One",
+            "sourceUrl": "https://www.defenseone.com/"
+          }
+        },
+        {
+          "name": "BGM-109G Ground-Launched Cruise Missile (Modern Variant)",
+          "type": "cruise_missile",
+          "quantity": 300,
+          "deployed": 200,
+          "inReserve": 100,
+          "status": "operational",
+          "description": "Post-INF treaty ground-launched cruise missile variant for theater-range precision strike from land-based mobile launchers.",
+          "range_km": 1800,
+          "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11345",
+          "estimatedQuantity": {
+            "quantity": 350,
+            "note": "Post-INF production likely exceeded initial published procurement goals",
+            "source": "CRS Report IF11345",
+            "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11345"
+          },
+          "rumoredQuantity": {
+            "quantity": 500,
+            "note": "Multiple forward deployment sites in Europe and Pacific may hold additional undisclosed stocks",
+            "source": "Jane's Defence",
+            "sourceUrl": "https://www.janes.com/"
+          }
+        },
+        {
+          "name": "F-35A Lightning II",
+          "type": "fighter",
+          "quantity": 630,
+          "deployed": 450,
+          "inReserve": 180,
+          "status": "operational",
+          "description": "Fifth-generation stealth multirole fighter. Capable of delivering JASSM-ER, JSOW, SDB II, and B61 nuclear gravity bombs. Primary USAF tactical strike platform.",
+          "range_km": 2200,
+          "sourceUrl": "https://www.lockheedmartin.com/en-us/products/f-35.html",
+          "estimatedQuantity": {
+            "quantity": 680,
+            "note": "Includes aircraft in acceptance testing at Lockheed Martin Fort Worth facility awaiting TR-3 software delivery",
+            "source": "GAO F-35 Report",
+            "sourceUrl": "https://www.gao.gov/"
+          },
+          "rumoredQuantity": {
+            "quantity": 720,
+            "note": "Some analysts suggest additional airframes held at classified test facilities for weapons integration programs",
+            "source": "The War Zone",
+            "sourceUrl": "https://www.thedrive.com/the-war-zone"
+          }
+        }
+      ],
+      "usedInConflict": [
+        {
+          "weapon": "BGM-109 Tomahawk (Block IV/V)",
+          "quantityUsed": 325,
+          "dateRange": "2026-02-28 to 2026-03-06",
+          "targets": [
+            "Natanz uranium enrichment facility",
+            "Fordow enrichment complex",
+            "Isfahan nuclear technology center",
+            "Parchin military complex",
+            "Bandar Abbas naval base",
+            "IRGC command nodes"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.defense.gov/News/"
+        },
+        {
+          "weapon": "AGM-158B JASSM-ER",
+          "quantityUsed": 180,
+          "dateRange": "2026-02-28 to 2026-03-05",
+          "targets": [
+            "Isfahan nuclear facilities",
+            "Khondab heavy water reactor",
+            "IRGC Air Force installations",
+            "Tehran air defense networks"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.af.mil/News/"
+        },
+        {
+          "weapon": "GBU-57A/B Massive Ordnance Penetrator",
+          "quantityUsed": 8,
+          "dateRange": "2026-03-01 to 2026-03-03",
+          "targets": [
+            "Fordow enrichment facility (underground)",
+            "Natanz underground centrifuge halls"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.defense.gov/News/"
+        },
+        {
+          "weapon": "RIM-161 SM-3 (Block IIA)",
+          "quantityUsed": 45,
+          "dateRange": "2026-03-01 to 2026-03-06",
+          "targets": [
+            "Iranian ballistic missile interceptions over Persian Gulf",
+            "Medium-range ballistic missile defense over Gulf states"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.mda.mil/"
+        },
+        {
+          "weapon": "GBU-28 Bunker Buster",
+          "quantityUsed": 110,
+          "dateRange": "2026-02-28 to 2026-03-06",
+          "targets": [
+            "Hardened IRGC bunkers",
+            "Underground missile storage facilities",
+            "Command and control bunkers"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.af.mil/News/"
+        }
+      ],
+      "production": {
+        "monthlyRate": {
+          "tomahawk": 40,
+          "jassmEr": 45,
+          "sm3": 12,
+          "gbu57": 0.5,
+          "thaadInterceptors": 8
+        },
+        "wartimeSurgeCapacity": "Estimated 1.5x-2x peacetime rates achievable within 90-120 days of industrial mobilization. Constrained by solid rocket motor production, semiconductor availability, and specialized guidance system components.",
+        "keyFacilities": [
+          "Raytheon Missiles & Defense - Tucson, AZ (Tomahawk, SM-3)",
+          "Lockheed Martin - Troy, AL (JASSM-ER final assembly)",
+          "Lockheed Martin - Grand Prairie, TX (THAAD, PAC-3)",
+          "Boeing - St. Charles, MO (GBU-57 MOP, JDAM)",
+          "Northrop Grumman - Palmdale, CA (B-2 Spirit maintenance & MOP integration)",
+          "Raytheon - Andover, MA (SM-3 seeker and kill vehicle)"
+        ]
+      },
+      "defenseSystem": {
+        "name": "Aegis Ballistic Missile Defense / THAAD / Patriot Integrated Air and Missile Defense",
+        "interceptorCount": 1650,
+        "interceptorBreakdown": {
+          "sm3": 550,
+          "thaad": 504,
+          "patriotPac3": 600
+        },
+        "interceptRate": 87,
+        "notes": "Intercept rate represents combined performance across all ballistic missile defense tiers in operational testing. Real-world performance in contested environments may vary. Multiple interceptors per threat (shoot-look-shoot doctrine) reduce effective inventory.",
+        "sourceUrl": "https://www.mda.mil/system/system.html"
+      }
+    },
+    "israel": {
+      "name": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "arsenal": [
+        {
+          "name": "Iron Dome (Tamir Interceptor)",
+          "type": "interceptor",
+          "quantity": 3200,
+          "deployed": 2800,
+          "inReserve": 400,
+          "status": "operational",
+          "description": "Short-range air defense system designed to intercept rockets, artillery shells, and mortars with a range of 4-70 km. 10+ batteries deployed across Israel.",
+          "range_km": 70,
+          "sourceUrl": "https://www.rafael.co.il/worlds/air-missile-defense/iron-dome/",
+          "estimatedQuantity": {
+            "quantity": 4500,
+            "note": "US-Israel co-production at Raytheon Camden AR facility significantly boosted inventory since 2023. Emergency wartime production activated",
+            "source": "CSIS Missile Defense Project",
+            "sourceUrl": "https://www.csis.org/analysis/israels-iron-dome"
+          },
+          "rumoredQuantity": {
+            "quantity": 6000,
+            "note": "Multiple OSINT analysts believe Israel maintains significantly larger interceptor reserves than publicly disclosed, especially after October 7 production surge",
+            "source": "Janes Defence / OSINT",
+            "sourceUrl": "https://www.janes.com/"
+          }
+        },
+        {
+          "name": "David's Sling (Stunner Interceptor)",
+          "type": "interceptor",
+          "quantity": 600,
+          "deployed": 500,
+          "inReserve": 100,
+          "status": "operational",
+          "description": "Medium-range air defense system designed to intercept cruise missiles, large-caliber rockets, and short-range ballistic missiles at ranges of 40-300 km.",
+          "range_km": 300,
+          "sourceUrl": "https://www.rafael.co.il/worlds/air-missile-defense/davids-sling/",
+          "estimatedQuantity": {
+            "quantity": 800,
+            "note": "Rafael production expansion in 2024-2025 likely boosted inventory beyond published figures",
+            "source": "Israeli MoD Budget",
+            "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+          },
+          "rumoredQuantity": {
+            "quantity": 1000,
+            "note": "Some defense analysts suggest Israel stockpiled aggressively after the 2024 Iran direct attack, with US emergency aid funding additional procurement",
+            "source": "Defense Update",
+            "sourceUrl": "https://defense-update.com/"
+          }
+        },
+        {
+          "name": "Arrow-3",
+          "type": "interceptor",
+          "quantity": 200,
+          "deployed": 180,
+          "inReserve": 20,
+          "status": "operational",
+          "description": "Exo-atmospheric anti-ballistic missile defense system for long-range interception of ballistic missiles, including ICBMs. Highest tier of Israel's multi-layered defense.",
+          "range_km": 2400,
+          "sourceUrl": "https://www.iaf.org.il/4404-50284-en/IAF.aspx",
+          "estimatedQuantity": {
+            "quantity": 280,
+            "note": "Joint production with IAI accelerated after 2023 regional escalation. Some units potentially forward-deployed on Aegis vessels",
+            "source": "CSIS Arrow-3 Analysis",
+            "sourceUrl": "https://www.csis.org/analysis/arrow-3"
+          },
+          "rumoredQuantity": {
+            "quantity": 350,
+            "note": "German Arrow-3 procurement deal may have funded additional Israeli production beyond disclosed numbers",
+            "source": "Der Spiegel / Israeli media",
+            "sourceUrl": "https://www.spiegel.de/"
+          }
+        },
+        {
+          "name": "Jericho III",
+          "type": "ballistic_missile",
+          "quantity": 50,
+          "deployed": 50,
+          "inReserve": 0,
+          "status": "operational",
+          "description": "Road-mobile intercontinental ballistic missile with estimated range of 4,800-6,500 km. Believed capable of carrying conventional or nuclear warheads. Exact capabilities classified.",
+          "range_km": 5500,
+          "sourceUrl": "https://www.csis.org/analysis/jericho-iii",
+          "estimatedQuantity": {
+            "quantity": 75,
+            "note": "Israel's nuclear opacity policy prevents accurate assessment. Some analysts estimate higher numbers based on fissile material production capacity at Dimona",
+            "source": "FAS Nuclear Notebook",
+            "sourceUrl": "https://fas.org/"
+          },
+          "rumoredQuantity": {
+            "quantity": 100,
+            "note": "Some intelligence assessments suggest Israel has expanded its ICBM force significantly since 2020, with submarine-launched variants (Jericho-4) in development",
+            "source": "SIPRI Nuclear Forces Data",
+            "sourceUrl": "https://www.sipri.org/"
+          }
+        },
+        {
+          "name": "LORA (Long Range Attack)",
+          "type": "ballistic_missile",
+          "quantity": 150,
+          "deployed": 120,
+          "inReserve": 30,
+          "status": "operational",
+          "description": "Sea- and land-launched quasi-ballistic precision strike missile with 400 km range and 570 kg warhead. Used for precision tactical strikes.",
+          "range_km": 400,
+          "sourceUrl": "https://www.iai.co.il/p/lora",
+          "estimatedQuantity": {
+            "quantity": 200,
+            "note": "IAI production for both domestic use and export (Azerbaijan, India) suggests higher total production runs",
+            "source": "IAI Annual Report",
+            "sourceUrl": "https://www.iai.co.il/"
+          },
+          "rumoredQuantity": {
+            "quantity": 250,
+            "note": "Naval LORA variant deployed on Sa'ar 6 corvettes may represent additional undisclosed inventory",
+            "source": "Naval News",
+            "sourceUrl": "https://www.navalnews.com/"
+          }
+        },
+        {
+          "name": "F-35I Adir",
+          "type": "fighter",
+          "quantity": 50,
+          "deployed": 42,
+          "inReserve": 8,
+          "status": "operational",
+          "description": "Israeli variant of the F-35A with indigenous electronic warfare, C4I systems, and the ability to carry Israeli-made munitions. Primary stealth strike platform.",
+          "range_km": 2200,
+          "sourceUrl": "https://www.iaf.org.il/4404-en/IAF.aspx",
+          "estimatedQuantity": {
+            "quantity": 56,
+            "note": "Third squadron standup in 2025 suggests additional deliveries beyond the original 50-unit order",
+            "source": "Flight Global",
+            "sourceUrl": "https://www.flightglobal.com/"
+          },
+          "rumoredQuantity": {
+            "quantity": 75,
+            "note": "Israel's request for a third F-35 squadron (25 additional aircraft) may have been partially fulfilled under emergency wartime provisions",
+            "source": "Times of Israel",
+            "sourceUrl": "https://www.timesofisrael.com/"
+          }
+        },
+        {
+          "name": "Delilah Cruise Missile",
+          "type": "cruise_missile",
+          "quantity": 500,
+          "deployed": 400,
+          "inReserve": 100,
+          "status": "operational",
+          "description": "Air-launched cruise missile with loitering capability, 250 km range, and 30 kg warhead. Can be retargeted in flight. Carried by F-16I and F-15I.",
+          "range_km": 250,
+          "sourceUrl": "https://www.imi-israel.com/",
+          "estimatedQuantity": {
+            "quantity": 700,
+            "note": "IMI/Elbit production capacity and recent defense budget increases suggest larger inventory than disclosed",
+            "source": "SIPRI Arms Transfers",
+            "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+          },
+          "rumoredQuantity": {
+            "quantity": 900,
+            "note": "Long production history since 1990s and multiple platform integration suggest cumulative production exceeds 800 units",
+            "source": "Jane's Air-Launched Weapons",
+            "sourceUrl": "https://www.janes.com/"
+          }
+        },
+        {
+          "name": "Popeye Turbo ALCM / SLAM",
+          "type": "cruise_missile",
+          "quantity": 200,
+          "deployed": 180,
+          "inReserve": 20,
+          "status": "operational",
+          "description": "Air-launched standoff cruise missile with estimated range of 350 km and 340 kg warhead. Adapted for submarine launch from Dolphin-class vessels.",
+          "range_km": 350,
+          "sourceUrl": "https://www.rafael.co.il/",
+          "estimatedQuantity": {
+            "quantity": 250,
+            "note": "Submarine-launched variant for Dolphin-class boats requires dedicated inventory separate from air-launched stocks",
+            "source": "CSIS",
+            "sourceUrl": "https://www.csis.org/"
+          },
+          "rumoredQuantity": {
+            "quantity": 300,
+            "note": "Nuclear-capable variant reportedly maintained in strategic reserve with dedicated warheads at Sdot Micha base",
+            "source": "FAS / Bulletin of Atomic Scientists",
+            "sourceUrl": "https://thebulletin.org/"
+          }
+        }
+      ],
+      "usedInConflict": [
+        {
+          "weapon": "Arrow-3",
+          "quantityUsed": 35,
+          "dateRange": "2026-03-01 to 2026-03-06",
+          "targets": [
+            "Iranian Emad MRBM interceptions",
+            "Shahab-3 ballistic missile interceptions",
+            "Khorramshahr MRBM interceptions"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.idf.il/en/"
+        },
+        {
+          "weapon": "Iron Dome (Tamir Interceptor)",
+          "quantityUsed": 480,
+          "dateRange": "2026-03-01 to 2026-03-06",
+          "targets": [
+            "Hezbollah rocket barrages from Lebanon",
+            "Iran-supplied drone interceptions",
+            "Iraqi militia rocket attacks"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.idf.il/en/"
+        },
+        {
+          "weapon": "David's Sling (Stunner Interceptor)",
+          "quantityUsed": 65,
+          "dateRange": "2026-03-01 to 2026-03-06",
+          "targets": [
+            "Fateh-110 short-range ballistic missile interceptions",
+            "Cruise missile interceptions from Iraqi theater"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.idf.il/en/"
+        },
+        {
+          "weapon": "F-35I Adir (strike sorties)",
+          "quantityUsed": 120,
+          "dateRange": "2026-02-28 to 2026-03-06",
+          "targets": [
+            "Isfahan nuclear complex",
+            "IRGC Quds Force HQ",
+            "Iranian air defense radar sites",
+            "Kharg Island petroleum infrastructure"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.idf.il/en/"
+        },
+        {
+          "weapon": "LORA Ballistic Missile",
+          "quantityUsed": 28,
+          "dateRange": "2026-03-01 to 2026-03-04",
+          "targets": [
+            "Hezbollah command bunkers in southern Lebanon",
+            "IRGC forward operating positions in Syria"
+          ],
+          "confirmed": false,
+          "sourceUrl": "https://www.idf.il/en/"
+        },
+        {
+          "weapon": "Delilah Cruise Missile",
+          "quantityUsed": 72,
+          "dateRange": "2026-02-28 to 2026-03-06",
+          "targets": [
+            "Iranian S-300 air defense batteries",
+            "IRGC command and control nodes",
+            "Drone storage facilities in western Iran"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.idf.il/en/"
+        }
+      ],
+      "production": {
+        "monthlyRate": {
+          "ironDomeInterceptor": 120,
+          "davidsSlingInterceptor": 25,
+          "arrow3Interceptor": 8,
+          "delilah": 15,
+          "lora": 10
+        },
+        "wartimeSurgeCapacity": "Estimated 2x-3x peacetime rates achievable within 30-60 days. Israel's defense industrial base is structured for rapid wartime mobilization. US co-production agreements for Iron Dome (with Raytheon) enable additional production capacity.",
+        "keyFacilities": [
+          "Rafael Advanced Defense Systems - Haifa (Iron Dome, David's Sling, Stunner)",
+          "Israel Aerospace Industries (IAI) - Be'er Yaakov (Arrow-3, LORA)",
+          "IMI Systems (Elbit) - Ramat HaSharon (munitions, Delilah)",
+          "Raytheon-Rafael joint facility - Camden, AR (Iron Dome co-production)",
+          "Israel Military Industries - Nazareth Illit (missile propulsion)"
+        ]
+      },
+      "defenseSystem": {
+        "name": "Multi-Layer Integrated Air Defense: Iron Dome / David's Sling / Arrow-2 / Arrow-3",
+        "interceptorCount": 4200,
+        "interceptorBreakdown": {
+          "ironDomeTamir": 3200,
+          "davidsSlingStunner": 600,
+          "arrow2": 200,
+          "arrow3": 200
+        },
+        "interceptRate": 92,
+        "notes": "Iron Dome has demonstrated a 90-97% intercept rate against short-range rockets in operational use since 2011. Arrow-3 exo-atmospheric intercept rate estimated at 85-90% in testing. Combined multi-layer defense provides overlapping coverage from 4 km to 2,400 km range.",
+        "sourceUrl": "https://www.csis.org/analysis/israels-iron-dome"
+      }
+    },
+    "iran": {
+      "name": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "arsenal": [
+        {
+          "name": "Shahab-3 / Emad",
+          "type": "ballistic_missile",
+          "quantity": 300,
+          "deployed": 250,
+          "inReserve": 50,
+          "status": "operational",
+          "description": "Medium-range ballistic missile with 1,300-1,700 km range. Emad variant features maneuverable re-entry vehicle (MaRV) for improved accuracy. Primary strategic deterrent.",
+          "range_km": 1700,
+          "sourceUrl": "https://www.csis.org/analysis/shahab-3",
+          "estimatedQuantity": {
+            "quantity": 450,
+            "note": "IRGC Aerospace Force likely maintains larger inventory than acknowledged. Emad MaRV variant production accelerated since 2022",
+            "source": "IISS Military Balance",
+            "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+          },
+          "rumoredQuantity": {
+            "quantity": 600,
+            "note": "Some Western intelligence estimates suggest Iran has 500-600 medium-range ballistic missiles when including all Shahab/Ghadr/Emad variants in dispersed underground tunnel networks",
+            "source": "CSIS Missile Threat Project",
+            "sourceUrl": "https://missilethreat.csis.org/"
+          }
+        },
+        {
+          "name": "Fateh-110 / Fateh-313",
+          "type": "ballistic_missile",
+          "quantity": 800,
+          "deployed": 700,
+          "inReserve": 100,
+          "status": "operational",
+          "description": "Solid-fuel short-range ballistic missile with GPS/INS guidance. 300-500 km range with 450 kg warhead. High accuracy for a regional ballistic missile.",
+          "range_km": 500,
+          "sourceUrl": "https://www.csis.org/analysis/fateh-110",
+          "estimatedQuantity": {
+            "quantity": 1200,
+            "note": "Solid-fuel production line enables high output. Large quantities transferred to Hezbollah and other proxies not counted in Iranian inventory",
+            "source": "DIA Threat Assessment",
+            "sourceUrl": "https://www.dia.mil/"
+          },
+          "rumoredQuantity": {
+            "quantity": 2000,
+            "note": "Iranian underground missile cities reportedly store thousands of SRBMs. Gen. Hajizadeh claimed 'tens of thousands' of missiles before his death",
+            "source": "Iranian state media claims / OSINT",
+            "sourceUrl": "https://missilethreat.csis.org/"
+          }
+        },
+        {
+          "name": "Khorramshahr / Khorramshahr-4 (Kheibar Shekan)",
+          "type": "ballistic_missile",
+          "quantity": 100,
+          "deployed": 80,
+          "inReserve": 20,
+          "status": "operational",
+          "description": "Medium-range ballistic missile with 2,000 km range and 1,500 kg warhead capability. Liquid-fueled with MaRV. Iran's longest-range operational ballistic missile.",
+          "range_km": 2000,
+          "sourceUrl": "https://www.csis.org/analysis/khorramshahr",
+          "estimatedQuantity": {
+            "quantity": 150,
+            "note": "Khorramshahr-4 (Kheibar Shekan) production reportedly operational since 2023, increasing total inventory",
+            "source": "CSIS Analysis",
+            "sourceUrl": "https://www.csis.org/analysis/khorramshahr"
+          },
+          "rumoredQuantity": {
+            "quantity": 200,
+            "note": "Iran's claims of mass production capability for its longest-range missiles are difficult to verify but cannot be dismissed",
+            "source": "IISS",
+            "sourceUrl": "https://www.iiss.org/"
+          }
+        },
+        {
+          "name": "Shahed-136 / Shahed-238",
+          "type": "drone",
+          "quantity": 5000,
+          "deployed": 3500,
+          "inReserve": 1500,
+          "status": "operational",
+          "description": "Low-cost loitering munition (kamikaze drone) with delta-wing design. 2,000 km range, 40 kg warhead. Shahed-238 variant features turbojet engine and potential IR/radar guidance.",
+          "range_km": 2000,
+          "sourceUrl": "https://www.csis.org/analysis/shahed-136",
+          "estimatedQuantity": {
+            "quantity": 8000,
+            "note": "Mass production at multiple dispersed facilities. Ukraine conflict demand drove massive production scaling. Shahed-238 turbojet variant entering production adds to numbers",
+            "source": "UK MoD Intelligence Update",
+            "sourceUrl": "https://www.gov.uk/government/collections/minister-of-defence-oral-statements"
+          },
+          "rumoredQuantity": {
+            "quantity": 12000,
+            "note": "Some estimates suggest Iran produces 100+ Shahed drones per week across multiple factories and may have stockpiled 10,000+ units by early 2026",
+            "source": "Ukrainian Intelligence / OSINT",
+            "sourceUrl": "https://www.understandingwar.org/"
+          }
+        },
+        {
+          "name": "Paveh Cruise Missile",
+          "type": "cruise_missile",
+          "quantity": 200,
+          "deployed": 150,
+          "inReserve": 50,
+          "status": "operational",
+          "description": "Ground-launched land-attack cruise missile with reported 1,650 km range. Terrain-following flight profile at low altitude. Iran's primary standoff cruise missile.",
+          "range_km": 1650,
+          "sourceUrl": "https://www.iiss.org/publications/the-military-balance",
+          "estimatedQuantity": {
+            "quantity": 300,
+            "note": "Production line shared with other cruise missile variants. Range and accuracy improvements suggest ongoing manufacturing",
+            "source": "IISS Military Balance",
+            "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+          },
+          "rumoredQuantity": {
+            "quantity": 400,
+            "note": "Iran has displayed cruise missile variants at multiple parades suggesting broader production than Western estimates acknowledge",
+            "source": "Jane's Defence",
+            "sourceUrl": "https://www.janes.com/"
+          }
+        },
+        {
+          "name": "Bavar-373",
+          "type": "interceptor",
+          "quantity": 100,
+          "deployed": 80,
+          "inReserve": 20,
+          "status": "limited",
+          "description": "Indigenous long-range surface-to-air missile system, Iran's domestically produced alternative to the S-300. Claimed capability against stealth aircraft and ballistic missiles.",
+          "range_km": 300,
+          "sourceUrl": "https://www.iiss.org/publications/the-military-balance",
+          "estimatedQuantity": {
+            "quantity": 130,
+            "note": "Iran has displayed additional Bavar-373 units at military parades beyond the original 4-battalion count",
+            "source": "IISS",
+            "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+          },
+          "rumoredQuantity": {
+            "quantity": 200,
+            "note": "Iran claims to have achieved mass production, but actual effectiveness against stealth aircraft remains unproven and debated",
+            "source": "Iranian defense press / OSINT",
+            "sourceUrl": "https://missilethreat.csis.org/"
+          }
+        },
+        {
+          "name": "S-300PMU-2 (Russian-supplied)",
+          "type": "interceptor",
+          "quantity": 192,
+          "deployed": 160,
+          "inReserve": 32,
+          "status": "depleted",
+          "description": "Russian-supplied advanced long-range SAM system. 4 battalions delivered in 2016. Provides area air defense for key nuclear and military facilities. Many systems assessed damaged or destroyed in strikes.",
+          "range_km": 200,
+          "sourceUrl": "https://www.sipri.org/databases/armstransfers",
+          "estimatedQuantity": {
+            "quantity": 192,
+            "note": "No additional S-300 deliveries from Russia since 2016. Spare missile stocks may be partially depleted from training and the current conflict",
+            "source": "SIPRI Arms Transfers",
+            "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+          },
+          "rumoredQuantity": {
+            "quantity": 150,
+            "note": "Post-strike assessments suggest up to 25% of S-300 systems may have been destroyed or rendered inoperable, reducing effective inventory",
+            "source": "OSINT / Satellite imagery analysis",
+            "sourceUrl": "https://www.csis.org/"
+          }
+        },
+        {
+          "name": "Mohajer-6 / Ababil-3",
+          "type": "drone",
+          "quantity": 400,
+          "deployed": 300,
+          "inReserve": 100,
+          "status": "operational",
+          "description": "Reconnaissance and strike-capable UAV with 200 km operational radius. Can carry Qaem PGMs. Used extensively for ISR and precision strike missions.",
+          "range_km": 200,
+          "sourceUrl": "https://www.iiss.org/publications/the-military-balance",
+          "estimatedQuantity": {
+            "quantity": 600,
+            "note": "Export variants sold to multiple countries. Domestic production capacity well-established",
+            "source": "IISS Military Balance",
+            "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+          },
+          "rumoredQuantity": {
+            "quantity": 800,
+            "note": "Combined with smaller tactical drone variants, Iran's total UAV fleet may exceed 1,000 units of all types",
+            "source": "DIA Assessment",
+            "sourceUrl": "https://www.dia.mil/"
+          }
+        }
+      ],
+      "usedInConflict": [
+        {
+          "weapon": "Shahab-3 / Emad",
+          "quantityUsed": 85,
+          "dateRange": "2026-03-01 to 2026-03-06",
+          "targets": [
+            "Nevatim Air Base, Israel",
+            "Ramon Air Base, Israel",
+            "Tel Aviv metropolitan area",
+            "Dimona nuclear facility vicinity"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.idf.il/en/"
+        },
+        {
+          "weapon": "Shahed-136 / Shahed-238",
+          "quantityUsed": 650,
+          "dateRange": "2026-03-01 to 2026-03-06",
+          "targets": [
+            "Israeli military installations",
+            "US naval assets in Persian Gulf",
+            "US bases in Iraq and Syria",
+            "Saudi ARAMCO facilities (via proxy)"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.defense.gov/News/"
+        },
+        {
+          "weapon": "Fateh-110 / Fateh-313",
+          "quantityUsed": 120,
+          "dateRange": "2026-03-01 to 2026-03-05",
+          "targets": [
+            "US Al Udeid Air Base, Qatar (fell short)",
+            "US forces in Iraq",
+            "Israeli-linked targets in Azerbaijan"
+          ],
+          "confirmed": false,
+          "sourceUrl": "https://www.csis.org/"
+        },
+        {
+          "weapon": "Paveh Cruise Missile",
+          "quantityUsed": 45,
+          "dateRange": "2026-03-01 to 2026-03-04",
+          "targets": [
+            "Israeli air defense sites",
+            "US naval vessels in Gulf of Oman",
+            "Coalition logistics hubs in Jordan"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.iiss.org/"
+        },
+        {
+          "weapon": "Khorramshahr / Khorramshahr-4",
+          "quantityUsed": 18,
+          "dateRange": "2026-03-02 to 2026-03-06",
+          "targets": [
+            "Central Israel (Tel Aviv, Haifa)",
+            "US base at Al Dhafra, UAE"
+          ],
+          "confirmed": true,
+          "sourceUrl": "https://www.csis.org/"
+        }
+      ],
+      "production": {
+        "monthlyRate": {
+          "shahed136": 500,
+          "fateh110": 40,
+          "shahab3Emad": 10,
+          "paveh": 8,
+          "khorramshahr": 3
+        },
+        "wartimeSurgeCapacity": "Estimated 1.5x-2x peacetime rates for drones and short-range missiles. Limited surge capacity for complex ballistic missiles due to specialty component constraints and sanctions on dual-use technologies. Dispersed production facilities provide resilience against strikes.",
+        "keyFacilities": [
+          "Shahid Hemmat Industrial Group (SHIG) - Tehran (ballistic missiles)",
+          "Shahid Bagheri Industrial Group (SBIG) - Tehran (solid-fuel rockets)",
+          "Iran Aircraft Manufacturing Industrial Company (HESA) - Isfahan (drones)",
+          "Defense Industries Organization (DIO) - multiple locations (munitions)",
+          "Shahid Sattari Drone Production Complex - undisclosed location (Shahed series)",
+          "Parchin Military Complex - near Tehran (propellant, warheads)"
+        ]
+      },
+      "defenseSystem": {
+        "name": "Integrated Air Defense Network: S-300PMU-2 / Bavar-373 / Khordad-15 / Raad-2",
+        "interceptorCount": 800,
+        "interceptorBreakdown": {
+          "s300Missiles": 192,
+          "bavar373Missiles": 100,
+          "khordad15": 250,
+          "raad2": 258
+        },
+        "interceptRate": 45,
+        "notes": "Iran's air defense network is assessed as partially degraded following initial coalition SEAD/DEAD operations. S-300 batteries at Natanz and Isfahan confirmed struck. Bavar-373 effectiveness against stealth aircraft remains unverified. Overall intercept rate against advanced cruise missiles and stealth platforms estimated significantly lower than published Iranian claims. Many radar systems assessed destroyed or jammed.",
+        "sourceUrl": "https://www.csis.org/analysis/air-and-missile-defense-iran"
+      }
+    }
+  },
+  "unconfirmed": [
+    {
+      "id": "uc-001",
+      "claim": "Israel employed a new variant of the Rocks (EXTRA) precision-guided ballistic missile with an extended 300 km range against IRGC underground facilities in the Zagros Mountains, delivered from F-15I Ra'am aircraft.",
+      "reasoning": "Satellite imagery from March 3 shows blast damage consistent with heavy penetration warheads at three sites near Kermanshah not attributable to known US munitions. Flight path analysis from ADS-B data shows F-15I formations approaching from the west.",
+      "likelihood": "probable",
+      "disclaimer": "Assessment based on OSINT analysis. No official confirmation from IDF or Israeli government. Commercial satellite imagery resolution limits precise damage assessment.",
+      "sources": [
+        "https://www.csis.org/",
+        "https://www.janes.com/",
+        "Planet Labs satellite imagery analysis"
+      ]
+    },
+    {
+      "id": "uc-002",
+      "claim": "Iran successfully launched 3-5 Fattah hypersonic ballistic missiles toward Israeli targets, at least one of which evaded Arrow-3 interception and struck near Nevatim Air Base.",
+      "reasoning": "Iranian state media claims Fattah deployment with video evidence of launch. IDF has not confirmed or denied hypersonic missile engagement. Damage at Nevatim confirmed by satellite imagery but officially attributed to conventional ballistic missile debris. The Fattah was previously tested in June 2023 but operational deployment status was uncertain.",
+      "likelihood": "possible",
+      "disclaimer": "Iranian state media claims require significant skepticism. IDF operational security prevents independent verification. Damage assessment from satellite imagery cannot definitively identify warhead type.",
+      "sources": [
+        "Iranian state media (IRNA, Tasnim)",
+        "https://www.csis.org/analysis/irans-fattah-missile",
+        "Maxar Technologies satellite imagery"
+      ]
+    },
+    {
+      "id": "uc-003",
+      "claim": "The US deployed B-21 Raider stealth bombers in combat operations for the first time, conducting strikes against the deeply buried Fordow enrichment facility using next-generation penetration munitions.",
+      "reasoning": "USAF has not confirmed B-21 operational deployment. However, B-2 availability is limited (only 19 airframes), and Fordow facility depth (80+ meters under mountain) may exceed GBU-57 MOP capability. Unattributed stealth aircraft radar signatures were detected by Russian S-400 systems in Syria but not tracked to engagement. Congressional sources have suggested B-21 reached IOC in late 2025.",
+      "likelihood": "possible",
+      "disclaimer": "Highly classified program. No official confirmation. Assessment based on capability analysis and circumstantial evidence. B-21 program status is not publicly disclosed.",
+      "sources": [
+        "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/3238136/b-21-raider/",
+        "Congressional testimony references",
+        "https://www.csis.org/"
+      ]
+    },
+    {
+      "id": "uc-004",
+      "claim": "Iranian proxy Hezbollah launched an estimated 200+ Burkan-3 heavy rockets and Fateh-110 variants from Lebanon toward northern Israel population centers in the first 48 hours, with many intercepted by Iron Dome but at least 15-20 impacting urban areas in Haifa.",
+      "reasoning": "IDF confirmed rocket attacks from Lebanon and activated Iron Dome batteries in the north. Lebanese media reports heavy IDF retaliatory strikes. Hospital reports from Haifa indicate civilian casualties consistent with rocket impacts. Hezbollah has publicly claimed the attacks as solidarity operations. Iron Dome engagement rate in northern sector may have been lower due to simultaneous saturation from multiple fronts.",
+      "likelihood": "probable",
+      "disclaimer": "Fog of war significantly affects accuracy. Casualty figures and impact counts vary widely between Israeli, Lebanese, and international media sources. IDF does not release real-time intercept failure data.",
+      "sources": [
+        "https://www.idf.il/en/",
+        "https://www.csis.org/analysis/hezbollah-rocket-arsenal",
+        "UNIFIL situation reports",
+        "Al Jazeera / Reuters field reporting"
+      ]
+    }
+  ],
+  "costPerUnit": [
+    {
+      "weapon": "BGM-109 Tomahawk (Block V)",
+      "country": "us",
+      "costUsd": 2000000,
+      "costFormatted": "$2.0M",
+      "sourceUrl": "https://www.csis.org/analysis/tomahawk-cruise-missile"
+    },
+    {
+      "weapon": "GBU-57A/B Massive Ordnance Penetrator",
+      "country": "us",
+      "costUsd": 3500000,
+      "costFormatted": "$3.5M",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32929"
+    },
+    {
+      "weapon": "AGM-158B JASSM-ER",
+      "country": "us",
+      "costUsd": 1400000,
+      "costFormatted": "$1.4M",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33745"
+    },
+    {
+      "weapon": "RIM-161 SM-3 Block IIA",
+      "country": "us",
+      "costUsd": 12000000,
+      "costFormatted": "$12.0M",
+      "sourceUrl": "https://www.mda.mil/system/sm3.html"
+    },
+    {
+      "weapon": "THAAD Interceptor",
+      "country": "us",
+      "costUsd": 11000000,
+      "costFormatted": "$11.0M",
+      "sourceUrl": "https://www.mda.mil/system/thaad.html"
+    },
+    {
+      "weapon": "GBU-28 Bunker Buster",
+      "country": "us",
+      "costUsd": 250000,
+      "costFormatted": "$250K",
+      "sourceUrl": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104571/gbu-28/"
+    },
+    {
+      "weapon": "Iron Dome Tamir Interceptor",
+      "country": "israel",
+      "costUsd": 50000,
+      "costFormatted": "$50K",
+      "sourceUrl": "https://www.csis.org/analysis/israels-iron-dome"
+    },
+    {
+      "weapon": "David's Sling Stunner Interceptor",
+      "country": "israel",
+      "costUsd": 1000000,
+      "costFormatted": "$1.0M",
+      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    },
+    {
+      "weapon": "Arrow-3 Interceptor",
+      "country": "israel",
+      "costUsd": 2500000,
+      "costFormatted": "$2.5M",
+      "sourceUrl": "https://www.csis.org/analysis/arrow-3"
+    },
+    {
+      "weapon": "Delilah Cruise Missile",
+      "country": "israel",
+      "costUsd": 500000,
+      "costFormatted": "$500K",
+      "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+    },
+    {
+      "weapon": "LORA Ballistic Missile",
+      "country": "israel",
+      "costUsd": 1200000,
+      "costFormatted": "$1.2M",
+      "sourceUrl": "https://www.sipri.org/databases/armstransfers"
+    },
+    {
+      "weapon": "Shahed-136 Loitering Munition",
+      "country": "iran",
+      "costUsd": 20000,
+      "costFormatted": "$20K",
+      "sourceUrl": "https://www.csis.org/analysis/shahed-136"
+    },
+    {
+      "weapon": "Fateh-110 SRBM",
+      "country": "iran",
+      "costUsd": 200000,
+      "costFormatted": "$200K",
+      "sourceUrl": "https://www.csis.org/analysis/fateh-110"
+    },
+    {
+      "weapon": "Shahab-3 / Emad MRBM",
+      "country": "iran",
+      "costUsd": 500000,
+      "costFormatted": "$500K",
+      "sourceUrl": "https://www.csis.org/analysis/shahab-3"
+    },
+    {
+      "weapon": "Khorramshahr MRBM",
+      "country": "iran",
+      "costUsd": 800000,
+      "costFormatted": "$800K",
+      "sourceUrl": "https://www.csis.org/analysis/khorramshahr"
+    },
+    {
+      "weapon": "Paveh Cruise Missile",
+      "country": "iran",
+      "costUsd": 350000,
+      "costFormatted": "$350K",
+      "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+    }
+  ],
+  "productionHistory": [
+    {
+      "weapon": "Iron Dome Tamir Interceptor",
+      "country": "israel",
+      "unit": "interceptors produced",
+      "data": [
+        { "year": 2021, "quantity": 900 },
+        { "year": 2022, "quantity": 1100 },
+        { "year": 2023, "quantity": 1300 },
+        { "year": 2024, "quantity": 1500 },
+        { "year": 2025, "quantity": 1800 }
+      ],
+      "notes": "Production accelerated significantly following 2023-2024 regional escalation. US co-production at Raytheon Camden, AR facility added ~40% capacity starting in 2024. Fiscal year figures based on Congressional appropriations and contract disclosures.",
+      "sourceUrl": "https://crsreports.congress.gov/"
+    },
+    {
+      "weapon": "BGM-109 Tomahawk",
+      "country": "us",
+      "unit": "missiles produced",
+      "data": [
+        { "year": 2021, "quantity": 380 },
+        { "year": 2022, "quantity": 400 },
+        { "year": 2023, "quantity": 420 },
+        { "year": 2024, "quantity": 460 },
+        { "year": 2025, "quantity": 500 }
+      ],
+      "notes": "Block V production ramp-up accounts for year-over-year increases. FY2025 production benefited from multi-year procurement contract and supply chain stabilization. Maritime Strike Tomahawk (MST) variant entering production adds to total.",
+      "sourceUrl": "https://www.csis.org/analysis/tomahawk-cruise-missile"
+    },
+    {
+      "weapon": "Shahed-136 Loitering Munition",
+      "country": "iran",
+      "unit": "drones produced",
+      "data": [
+        { "year": 2021, "quantity": 1500 },
+        { "year": 2022, "quantity": 3000 },
+        { "year": 2023, "quantity": 4500 },
+        { "year": 2024, "quantity": 5500 },
+        { "year": 2025, "quantity": 6000 }
+      ],
+      "notes": "Massive production scale-up driven by Ukraine conflict demand (exports to Russia), proxy supply requirements, and domestic inventory buildup. Low unit cost ($20K) enables mass production. Multiple dispersed assembly facilities reduce vulnerability to strikes. Shahed-238 jet-powered variant entering production in 2025.",
+      "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+    },
+    {
+      "weapon": "AGM-158B JASSM-ER",
+      "country": "us",
+      "unit": "missiles produced",
+      "data": [
+        { "year": 2021, "quantity": 360 },
+        { "year": 2022, "quantity": 400 },
+        { "year": 2023, "quantity": 440 },
+        { "year": 2024, "quantity": 500 },
+        { "year": 2025, "quantity": 550 }
+      ],
+      "notes": "Production rate increases reflect both USAF demand and allied export orders (Australia, Finland, Poland, Japan). Lockheed Martin Troy, AL facility expanded production line in 2024. JASSM-XR extended range variant entering low-rate initial production in 2025.",
+      "sourceUrl": "https://crsreports.congress.gov/"
+    }
+  ],
+  "conflictExpenditure": {
+    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through March 6, 2026.",
+    "lastUpdated": "2026-03-06",
+    "byCountry": {
+      "us": {
+        "totalEstimatedCostUsd": 1592000000,
+        "totalFormatted": "$1.59B",
+        "breakdown": [
+          { "weapon": "Tomahawk", "qty": 325, "totalCost": 650000000 },
+          { "weapon": "JASSM-ER", "qty": 180, "totalCost": 252000000 },
+          { "weapon": "GBU-57 MOP", "qty": 8, "totalCost": 28000000 },
+          { "weapon": "SM-3 Block IIA", "qty": 45, "totalCost": 540000000 },
+          { "weapon": "GBU-28", "qty": 110, "totalCost": 27500000 }
+        ]
+      },
+      "israel": {
+        "totalEstimatedCostUsd": 273500000,
+        "totalFormatted": "$273.5M",
+        "breakdown": [
+          { "weapon": "Arrow-3", "qty": 35, "totalCost": 87500000 },
+          { "weapon": "Iron Dome Tamir", "qty": 480, "totalCost": 24000000 },
+          { "weapon": "David's Sling Stunner", "qty": 65, "totalCost": 65000000 },
+          { "weapon": "LORA", "qty": 28, "totalCost": 33600000 },
+          { "weapon": "Delilah", "qty": 72, "totalCost": 36000000 }
+        ]
+      },
+      "iran": {
+        "totalEstimatedCostUsd": 98100000,
+        "totalFormatted": "$98.1M",
+        "breakdown": [
+          { "weapon": "Shahab-3/Emad", "qty": 85, "totalCost": 42500000 },
+          { "weapon": "Shahed-136", "qty": 650, "totalCost": 13000000 },
+          { "weapon": "Fateh-110", "qty": 120, "totalCost": 24000000 },
+          { "weapon": "Paveh", "qty": 45, "totalCost": 15750000 },
+          { "weapon": "Khorramshahr", "qty": 18, "totalCost": 14400000 }
+        ]
+      }
+    },
+    "grandTotalUsd": 1963600000,
+    "grandTotalFormatted": "$1.96B",
+    "notes": "Expenditure figures represent estimated munition costs only and do not include operational costs (fuel, personnel, aircraft flight hours, naval vessel deployment), infrastructure damage, or replacement procurement premiums. Actual costs are likely 3-5x higher when accounting for full operational expenses."
+  }
+}
