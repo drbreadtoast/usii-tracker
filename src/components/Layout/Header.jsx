@@ -35,10 +35,10 @@ export default function Header({ metadata, onRefresh }) {
         </div>
         <div className="h-6 w-px bg-gray-700" />
         <h1 className="text-lg font-bold tracking-tight">
-          <span className="text-white">LIVE</span>
-          <span className="text-red-500">FRONT</span>
+          <span className="text-white">USII</span>
+          <span className="text-red-500"> Tracker</span>
         </h1>
-        <span className="text-xs text-gray-500 hidden lg:block">Iran-Israel Conflict Tracker</span>
+        <span className="text-xs text-gray-500 hidden lg:block">United States · Israel · Iran</span>
       </div>
 
       {/* Page Navigation */}

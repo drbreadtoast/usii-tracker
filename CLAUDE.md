@@ -1,4 +1,4 @@
-# CLAUDE.md — Iran-Israel Conflict Tracker (LIVEFRONT)
+# CLAUDE.md — USII Tracker (United States · Israel · Iran Conflict Tracker)
 
 ## Project Overview
 Live conflict tracking website for the 2026 Iran-Israel War. Built with React 19 + Vite 7 + Tailwind CSS 4.
