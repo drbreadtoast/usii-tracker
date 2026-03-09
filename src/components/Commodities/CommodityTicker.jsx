@@ -81,7 +81,6 @@ const SYMBOL_GROUPS = {
     symbols: [
       { proName: 'TVC:USOIL', title: 'WTI Crude' },
       { proName: 'TVC:UKOIL', title: 'Brent Crude' },
-      { proName: 'TVC:NATGAS', title: 'Natural Gas' },
       { proName: 'TVC:GOLD', title: 'Gold' },
       { proName: 'TVC:SILVER', title: 'Silver' },
     ]
@@ -90,9 +89,6 @@ const SYMBOL_GROUPS = {
     label: 'Markets',
     symbols: [
       { proName: 'FOREXCOM:SPXUSD', title: 'S&P 500' },
-      { proName: 'TVC:DJI', title: 'Dow Jones' },
-      { proName: 'NASDAQ:NDX', title: 'NASDAQ' },
-      { proName: 'TVC:DXY', title: 'US Dollar' },
     ]
   },
   crypto: {

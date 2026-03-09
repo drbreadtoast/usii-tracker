@@ -106,6 +106,7 @@ export default function BreakingNewsPage() {
           <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
               <span className="font-bold text-gray-500">USII Tracker</span>
+              <span className="text-blue-400 font-mono text-[9px]">usiitracker.com</span>
               <span>Iran-Israel Conflict Tracker</span>
             </div>
             <div className="flex items-center gap-1">

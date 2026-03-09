@@ -3,7 +3,6 @@ import { Clock } from 'lucide-react'
 
 const TIMEZONES = [
   { label: 'San Francisco', abbr: 'PT', tz: 'America/Los_Angeles', flag: '🇺🇸' },
-  { label: 'Miami', abbr: 'ET', tz: 'America/New_York', flag: '🇺🇸' },
   { label: 'Washington', abbr: 'ET', tz: 'America/New_York', flag: '🇺🇸' },
   { label: 'Tehran', abbr: 'IRST', tz: 'Asia/Tehran', flag: '🇮🇷' },
   { label: 'Jerusalem', abbr: 'IST', tz: 'Asia/Jerusalem', flag: '🇮🇱' },

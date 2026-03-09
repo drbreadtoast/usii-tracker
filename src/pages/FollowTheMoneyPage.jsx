@@ -822,6 +822,7 @@ export default function FollowTheMoneyPage() {
           <div className="flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
               <span className="font-bold text-gray-500">USII Tracker</span>
+              <span className="text-blue-400 font-mono text-[9px]">usiitracker.com</span>
               <span>Follow the Money &mdash; US Political Lobby Ties to Israel</span>
             </div>
             <div className="flex items-center gap-1">

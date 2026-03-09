@@ -50,21 +50,28 @@ export default function UpdateBadge({ variant = 'full' }) {
   }
 
   return (
-    <div className="bg-gradient-to-r from-blue-900/20 via-gray-900/90 to-blue-900/20 border-t border-blue-800/30 px-4 py-2 flex items-center justify-center gap-4 shrink-0">
-      <div className="flex items-center gap-2 text-xs text-gray-400">
-        <div className="relative flex items-center">
-          <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-          <div className="w-2 h-2 bg-blue-500/40 rounded-full animate-ping absolute" />
+    <>
+      <div className="bg-gradient-to-r from-blue-900/20 via-gray-900/90 to-blue-900/20 border-t border-blue-800/30 px-4 py-2 flex items-center justify-center gap-4 shrink-0">
+        <div className="flex items-center gap-2 text-xs text-gray-400">
+          <div className="relative flex items-center">
+            <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
+            <div className="w-2 h-2 bg-blue-500/40 rounded-full animate-ping absolute" />
+          </div>
+          <RefreshCw size={12} className="text-blue-400/80" />
+          <span>Updated <span className="text-blue-300 font-semibold">{siteMetadata.updateFrequency}</span></span>
         </div>
-        <RefreshCw size={12} className="text-blue-400/80" />
-        <span>Updated <span className="text-blue-300 font-semibold">{siteMetadata.updateFrequency}</span></span>
+        <span className="text-gray-600">|</span>
+        <div className="flex items-center gap-2 text-xs text-gray-400">
+          <Clock size={12} className="text-gray-500" />
+          <span>Last updated: <span className="text-white font-medium" title={absolute}>{relativeTime}</span></span>
+          <span className="text-gray-500 hidden sm:inline">({absolute})</span>
+        </div>
       </div>
-      <span className="text-gray-600">|</span>
-      <div className="flex items-center gap-2 text-xs text-gray-400">
-        <Clock size={12} className="text-gray-500" />
-        <span>Last updated: <span className="text-white font-medium" title={absolute}>{relativeTime}</span></span>
-        <span className="text-gray-500 hidden sm:inline">({absolute})</span>
+      <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1.5 flex items-center justify-center shrink-0">
+        <p className="text-[10px] text-gray-600 text-center">
+          This is an ongoing project (v1.0). Improved daily. Powered by 1 person. You may experience bugs — thank you for your patience.
+        </p>
       </div>
-    </div>
+    </>
   )
 }
