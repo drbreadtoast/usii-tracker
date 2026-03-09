@@ -529,7 +529,7 @@ export default function FollowTheMoneyPage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Header */}
-      <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+      <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <h1 className="text-sm font-bold text-gray-300">Follow the Money</h1>
           <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -548,7 +548,7 @@ export default function FollowTheMoneyPage() {
       </header>
 
       {/* Intro Banner */}
-      <div className="max-w-5xl mx-auto px-6 pt-6 pb-2">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
         <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
           <div className="flex items-start gap-3">
             <DollarSign size={18} className="text-green-400 shrink-0 mt-0.5" />
@@ -580,7 +580,7 @@ export default function FollowTheMoneyPage() {
       </div>
 
       {/* Summary Stats Bar */}
-      <div className="max-w-5xl mx-auto px-6 py-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
             <div className="flex items-center gap-1.5 mb-1">
@@ -614,7 +614,7 @@ export default function FollowTheMoneyPage() {
       </div>
 
       {/* Organizations Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Building2}
           iconColor="text-green-400"
@@ -629,7 +629,7 @@ export default function FollowTheMoneyPage() {
       </div>
 
       {/* Top Recipients Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Users}
           iconColor="text-blue-400"
@@ -697,7 +697,7 @@ export default function FollowTheMoneyPage() {
       </div>
 
       {/* Major Donors Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={TrendingUp}
           iconColor="text-amber-400"
@@ -712,7 +712,7 @@ export default function FollowTheMoneyPage() {
       </div>
 
       {/* Voting Correlations Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Vote}
           iconColor="text-purple-400"
@@ -731,7 +731,7 @@ export default function FollowTheMoneyPage() {
       </div>
 
       {/* Key Facts Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={AlertTriangle}
           iconColor="text-amber-400"
@@ -747,7 +747,7 @@ export default function FollowTheMoneyPage() {
 
       {/* Trump & Israel Section */}
       {lobbyData.trumpConnections && lobbyData.trumpConnections.length > 0 && (
-        <div className="max-w-5xl mx-auto px-6 pb-4">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
           <SectionHeader
             icon={Crown}
             iconColor="text-amber-400"
@@ -768,7 +768,7 @@ export default function FollowTheMoneyPage() {
 
       {/* Lobby Comparison Section */}
       {lobbyData.lobbyComparison && lobbyData.lobbyComparison.length > 0 && (
-        <div className="max-w-5xl mx-auto px-6 pb-12">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-12">
           <SectionHeader
             icon={BarChart3}
             iconColor="text-cyan-400"
@@ -817,7 +817,7 @@ export default function FollowTheMoneyPage() {
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800">
         <UpdateBadge />
-        <div className="px-6 py-4">
+        <div className="px-4 sm:px-6 py-4">
         <div className="max-w-5xl mx-auto space-y-3">
           <div className="flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">

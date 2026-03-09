@@ -412,7 +412,7 @@ export default function FollowTheCostPage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Header */}
-      <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+      <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <h1 className="text-sm font-bold text-gray-300">Follow the Cost</h1>
           <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -431,7 +431,7 @@ export default function FollowTheCostPage() {
       </header>
 
       {/* Intro Banner */}
-      <div className="max-w-5xl mx-auto px-6 pt-6 pb-2">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
         <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
           <div className="flex items-start gap-3">
             <Receipt size={18} className="text-green-400 shrink-0 mt-0.5" />
@@ -459,7 +459,7 @@ export default function FollowTheCostPage() {
       </div>
 
       {/* Cost Overview Stats */}
-      <div className="max-w-5xl mx-auto px-6 py-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
         <SectionHeader icon={DollarSign} iconColor="text-green-400" title="Cost Overview" count={3} />
         <div className="space-y-2">
           <CountryCostCard countryKey="us" data={us} />
@@ -493,7 +493,7 @@ export default function FollowTheCostPage() {
       </div>
 
       {/* Weapon Cost Reference */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Shield} iconColor="text-orange-400" title="Weapon System Costs" count={costData.weaponCosts.length} />
         <p className="text-xs text-gray-500 mb-3 leading-relaxed">
           Unit costs, quantities expended, and total expenditure grouped by country. Sorted by total cost descending within each group.
@@ -502,7 +502,7 @@ export default function FollowTheCostPage() {
       </div>
 
       {/* Naval Deployment Costs */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Anchor} iconColor="text-blue-400" title="Naval Deployment Costs" />
         <div className="bg-gray-900/60 border border-gray-800 rounded-lg p-4 space-y-4">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -567,7 +567,7 @@ export default function FollowTheCostPage() {
       </div>
 
       {/* US Aid to Israel */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Package} iconColor="text-green-400" title="US Aid to Israel" count={costData.aidPackages.length} />
         <p className="text-xs text-gray-500 mb-3 leading-relaxed">
           Congressional appropriations, MOU allocations, and emergency supplemental packages.
@@ -581,7 +581,7 @@ export default function FollowTheCostPage() {
       </div>
 
       {/* Economic Ripple Effects */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={BarChart3} iconColor="text-red-400" title="Economic Ripple Effects" count={economicSections.length} />
         <p className="text-xs text-gray-500 mb-3 leading-relaxed">
           Beyond direct military costs, the conflict sends shockwaves through global energy markets, trade routes, and financial systems.
@@ -594,7 +594,7 @@ export default function FollowTheCostPage() {
       </div>
 
       {/* Key Facts */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={AlertTriangle} iconColor="text-amber-400" title="Key Cost Facts" count={costData.keyFacts.length} />
         <div className="space-y-2">
           {costData.keyFacts.map(fact => (
@@ -606,7 +606,7 @@ export default function FollowTheCostPage() {
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800">
         <UpdateBadge />
-        <div className="px-6 py-4">
+        <div className="px-4 sm:px-6 py-4">
         <div className="max-w-5xl mx-auto space-y-3">
           <div className="flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">

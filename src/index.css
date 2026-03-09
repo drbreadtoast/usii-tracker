@@ -3,6 +3,15 @@
 /* Leaflet CSS import */
 @import "leaflet/dist/leaflet.css";
 
+/* Hide scrollbar utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Custom scrollbar for dark theme */
 ::-webkit-scrollbar {
   width: 6px;
@@ -82,7 +91,7 @@
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 90s linear infinite;
 }
 
 .group:hover .animate-marquee {

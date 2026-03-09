@@ -29,7 +29,7 @@ export default function BreakingNewsPage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100 flex flex-col">
       {/* Header */}
-      <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+      <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <h1 className="text-sm font-bold text-gray-300">Breaking News</h1>
           <div className="flex items-center gap-2 text-xs text-gray-500">
@@ -40,7 +40,7 @@ export default function BreakingNewsPage() {
       </header>
 
       {/* Intro */}
-      <div className="bg-red-950/20 border-b border-red-900/30 px-6 py-4">
+      <div className="bg-red-950/20 border-b border-red-900/30 px-4 sm:px-6 py-4">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-start gap-3">
             <Zap size={18} className="text-red-400 shrink-0 mt-0.5" />
@@ -56,7 +56,7 @@ export default function BreakingNewsPage() {
       </div>
 
       {/* News items */}
-      <div className="flex-1 max-w-5xl mx-auto w-full px-6 py-6 space-y-4">
+      <div className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6 space-y-4">
         {items.length === 0 ? (
           <div className="text-center py-16 text-gray-600">
             <AlertTriangle size={32} className="mx-auto mb-3 opacity-50" />
@@ -81,6 +81,16 @@ export default function BreakingNewsPage() {
                       </span>
                     </div>
                     <p className="text-sm text-gray-200 leading-relaxed">{item.text}</p>
+                    {item.sources && item.sources.length > 0 && (
+                      <div className="flex items-center gap-2 mt-2 flex-wrap">
+                        <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Sources:</span>
+                        {item.sources.map((src, i) => (
+                          <span key={i} className="text-[10px] text-blue-400 bg-blue-950/30 px-1.5 py-0.5 rounded">
+                            {src}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -92,7 +102,7 @@ export default function BreakingNewsPage() {
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800 mt-auto">
         <UpdateBadge />
-        <div className="px-6 py-4">
+        <div className="px-4 sm:px-6 py-4">
           <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
               <span className="font-bold text-gray-500">USII Tracker</span>

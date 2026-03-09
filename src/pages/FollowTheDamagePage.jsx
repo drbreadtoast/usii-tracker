@@ -264,7 +264,7 @@ export default function FollowTheDamagePage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Header */}
-      <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+      <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Flame size={16} className="text-orange-400" />
@@ -320,7 +320,7 @@ export default function FollowTheDamagePage() {
       </div>
 
       {/* Filters */}
-      <div className="bg-gray-900/20 border-b border-gray-800 px-6 py-2">
+      <div className="bg-gray-900/20 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-7xl mx-auto flex items-center gap-4 flex-wrap">
           <div className="flex items-center gap-1.5">
             <Filter size={12} className="text-gray-500" />
@@ -391,7 +391,7 @@ export default function FollowTheDamagePage() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
         {/* View Toggle */}
         <div className="flex items-center gap-2 mb-4">
           <button
@@ -465,7 +465,7 @@ export default function FollowTheDamagePage() {
       </div>
 
       {/* Legend */}
-      <div className="max-w-7xl mx-auto px-6 pb-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-4">
         <div className="bg-gray-900/60 border border-gray-800 rounded-lg p-4">
           <h3 className="text-xs font-bold text-gray-300 mb-3">Map Legend</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -518,7 +518,7 @@ export default function FollowTheDamagePage() {
       </div>
 
       {/* Sources & Methodology */}
-      <div className="max-w-7xl mx-auto px-6 pb-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-4">
         <div className="bg-gray-900/40 border border-gray-800 rounded-lg p-4">
           <h3 className="text-xs font-bold text-gray-300 mb-2">Sources & Methodology</h3>
           <p className="text-[10px] text-gray-500 leading-relaxed mb-2">

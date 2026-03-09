@@ -154,7 +154,7 @@ export default function FollowTheOilPage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Header */}
-      <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+      <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <h1 className="text-sm font-bold text-gray-300">Follow the Oil</h1>
           <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -173,7 +173,7 @@ export default function FollowTheOilPage() {
       </header>
 
       {/* Intro Banner */}
-      <div className="max-w-5xl mx-auto px-6 pt-6 pb-2">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
         <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
           <div className="flex items-start gap-3">
             <Fuel size={18} className="text-amber-400 shrink-0 mt-0.5" />
@@ -211,7 +211,7 @@ export default function FollowTheOilPage() {
       </div>
 
       {/* Price Overview */}
-      <div className="max-w-5xl mx-auto px-6 py-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
         <SectionHeader
           icon={BarChart3}
           iconColor="text-amber-400"
@@ -282,7 +282,7 @@ export default function FollowTheOilPage() {
       </div>
 
       {/* Key Players Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Droplet}
           iconColor="text-amber-400"
@@ -297,7 +297,7 @@ export default function FollowTheOilPage() {
       </div>
 
       {/* Hormuz Impact Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={AlertTriangle}
           iconColor="text-red-400"
@@ -364,7 +364,7 @@ export default function FollowTheOilPage() {
       </div>
 
       {/* Consumer Impact Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Fuel}
           iconColor="text-orange-400"
@@ -432,7 +432,7 @@ export default function FollowTheOilPage() {
       </div>
 
       {/* Key Facts Section */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={AlertTriangle}
           iconColor="text-amber-400"
@@ -449,7 +449,7 @@ export default function FollowTheOilPage() {
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800">
         <UpdateBadge />
-        <div className="px-6 py-4">
+        <div className="px-4 sm:px-6 py-4">
         <div className="max-w-5xl mx-auto space-y-3">
           <div className="flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">

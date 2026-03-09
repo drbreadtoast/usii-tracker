@@ -22,10 +22,9 @@ export default function NavBar() {
   return (
     <nav className="bg-gray-900 border-b border-gray-800 px-4 py-1.5 flex items-center gap-1 overflow-x-auto scrollbar-hide shrink-0">
       <div className="flex items-center gap-2 mr-2 shrink-0">
-        <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
         <span className="text-xs font-bold">
-          <span className="text-white">LIVE</span>
-          <span className="text-red-500">FRONT</span>
+          <span className="text-white">USII</span>
+          <span className="text-red-500"> Tracker</span>
         </span>
       </div>
       <div className="h-4 w-px bg-gray-700 shrink-0" />

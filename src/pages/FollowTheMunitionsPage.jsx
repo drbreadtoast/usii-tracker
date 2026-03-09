@@ -441,7 +441,7 @@ export default function FollowTheMunitionsPage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Header */}
-      <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+      <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <h1 className="text-sm font-bold text-gray-300">Follow the Munitions</h1>
           <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -455,7 +455,7 @@ export default function FollowTheMunitionsPage() {
       </header>
 
       {/* Intro Banner */}
-      <div className="max-w-5xl mx-auto px-6 pt-6 pb-2">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
         <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
           <div className="flex items-start gap-3">
             <Target size={18} className="text-red-400 shrink-0 mt-0.5" />
@@ -491,7 +491,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Conflict Expenditure Overview */}
-      <div className="max-w-5xl mx-auto px-6 py-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
         <SectionHeader icon={BarChart3} iconColor="text-red-400" title="Conflict Expenditure Overview" count={null} />
         <div className="bg-red-950/20 border border-red-900/30 rounded-lg px-4 py-3 mb-4">
           <div className="flex items-center gap-2 mb-1">
@@ -531,7 +531,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Cost Asymmetry & Sustainability Analysis */}
-      <div className="max-w-5xl mx-auto px-6 py-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
         <SectionHeader icon={Scale} iconColor="text-amber-400" title="Cost-to-Defend Analysis" count={null} />
         <p className="text-xs text-gray-400 mb-4 leading-relaxed">
           Comparative cost data showing the relationship between offensive munition costs and the defensive interceptors required to neutralize them. All figures sourced from CSIS, CRS, and SIPRI.
@@ -717,7 +717,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Arsenal Comparison */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Crosshair} iconColor="text-red-400" title="Arsenal Comparison" count={null} />
         {countryKeys.map(key => {
           const c = countries[key]
@@ -742,7 +742,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Weapons Used in Conflict */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Bomb}
           iconColor="text-red-400"
@@ -770,7 +770,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Defense Systems */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Shield} iconColor="text-cyan-400" title="Defense Systems" count={3} />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {countryKeys.map(key => (
@@ -780,7 +780,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Cost Per Unit */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={BarChart3} iconColor="text-amber-400" title="Cost Per Unit Reference" count={costPerUnit.length} />
         <div className="flex items-center gap-2 mb-3">
           <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Sort:</span>
@@ -826,7 +826,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Production Capacity */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Factory} iconColor="text-emerald-400" title="Production Capacity" count={3} />
         <div className="space-y-2">
           {countryKeys.map(key => (
@@ -836,7 +836,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Production History */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={Rocket} iconColor="text-amber-400" title="Production History" count={productionHistory.length} />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {productionHistory.map((ph, idx) => {
@@ -881,7 +881,7 @@ export default function FollowTheMunitionsPage() {
       </div>
 
       {/* Unconfirmed Intel */}
-      <div className="max-w-5xl mx-auto px-6 pb-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader icon={AlertTriangle} iconColor="text-red-400" title="Unconfirmed Intelligence" count={unconfirmed.length} />
         <div className="bg-red-950/20 border border-red-900/30 rounded-lg px-3 py-2 mb-3">
           <p className="text-[10px] text-red-500/80 leading-relaxed">
@@ -899,7 +899,7 @@ export default function FollowTheMunitionsPage() {
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800">
         <UpdateBadge />
-        <div className="px-6 py-4">
+        <div className="px-4 sm:px-6 py-4">
         <div className="max-w-5xl mx-auto space-y-3">
           <div className="flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">

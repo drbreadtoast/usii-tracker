@@ -38,13 +38,16 @@ function StatementCard({ statement }) {
 
       <p className="text-sm text-gray-300 leading-relaxed">{statement.text}</p>
 
-      <div className="flex items-center justify-between pt-1">
-        <span
-          className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[10px] font-semibold"
-          style={{ backgroundColor: `${verInfo?.color}20`, color: verInfo?.color }}
-        >
-          {verInfo?.icon} Official Statement
-        </span>
+      <div className="flex items-center justify-between pt-1 flex-wrap gap-1">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span
+            className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[10px] font-semibold"
+            style={{ backgroundColor: `${verInfo?.color}20`, color: verInfo?.color }}
+          >
+            {verInfo?.icon} Official Statement
+          </span>
+          <span className="text-[10px] text-gray-600 capitalize">{statement.platform}</span>
+        </div>
 
         {statement.engagement && (
           <div className="flex items-center gap-3 text-[10px] text-gray-600">

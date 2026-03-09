@@ -112,7 +112,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
               click: () => onEventSelect && onEventSelect(event),
             }}
           >
-            <Popup maxWidth={320} minWidth={280}>
+            <Popup maxWidth={280} minWidth={220}>
               <div className="text-sm space-y-2 p-1">
                 {/* Title */}
                 <div className="flex items-start gap-2">
@@ -285,7 +285,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
             position={[inv.lat, inv.lng]}
             icon={createInvolvementIcon(inv.level, inv.flag)}
           >
-            <Popup maxWidth={320} minWidth={260}>
+            <Popup maxWidth={280} minWidth={220}>
               <div className="text-sm space-y-2 p-1">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">{inv.flag}</span>
@@ -332,7 +332,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
           position={[26.5667, 56.2500]}
           icon={createHormuzIcon()}
         >
-          <Popup maxWidth={360} minWidth={320}>
+          <Popup maxWidth={300} minWidth={250}>
             <div className="text-sm space-y-3 p-1">
               <div className="flex items-center gap-2">
                 <span className="text-lg">&#x26D4;</span>

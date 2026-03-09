@@ -80,7 +80,7 @@ export default function Dashboard() {
   return (
     <div className="h-screen w-screen flex flex-col bg-gray-950 text-gray-100 overflow-hidden">
       <BreakingBanner breakingNews={breakingNews} />
-      <Header metadata={metadata} onRefresh={refresh} />
+      <Header metadata={metadata} />
       <WorldClocks />
       <CensorshipNotice />
 
@@ -119,7 +119,7 @@ export default function Dashboard() {
 
         {/* Side Panel */}
         {isPanelOpen && !isMapFullscreen && (
-          <div className={`${panelExpanded ? 'w-[650px]' : 'w-[400px]'} transition-all duration-300 border-l border-gray-800 flex flex-col bg-gray-950 shrink-0`}>
+          <div className={`${panelExpanded ? 'w-full sm:w-[650px]' : 'w-full sm:w-[400px]'} absolute inset-0 z-50 sm:relative sm:inset-auto sm:z-auto transition-all duration-300 border-l border-gray-800 flex flex-col bg-gray-950 shrink-0`}>
             {/* Tab bar — compact pill-style tabs, all visible */}
             <div className="flex items-center border-b border-gray-800 bg-gray-900 shrink-0">
               {TABS.map(tab => {
@@ -184,7 +184,7 @@ export default function Dashboard() {
             {/* See More link for active tab */}
             <div className="flex items-center justify-end px-3 py-1 bg-gray-900/30 border-b border-gray-800 shrink-0">
               <Link
-                to={TABS.find(t => t.id === activePanel)?.route || '#'}
+                to={TABS.find(t => t.id === activePanel)?.route || '/'}
                 className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 transition-colors font-medium"
               >
                 <ExternalLink size={9} />
