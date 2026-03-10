@@ -22,8 +22,8 @@ import FollowTheDamagePage from './pages/FollowTheDamagePage'
 export default function App() {
   return (
     <>
-    <BreakingAlert />
     <BreakingBanner />
+    <BreakingAlert />
     <NavBar />
     <Routes>
       <Route path="/" element={<Dashboard />} />
