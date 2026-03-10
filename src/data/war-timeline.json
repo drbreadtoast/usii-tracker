@@ -2769,5 +2769,113 @@
       }
     ],
     "significance": "high"
+  },
+  {
+    "id": "tl-092",
+    "date": "2026-03-10",
+    "time": "14:00",
+    "day": 11,
+    "dayLabel": "DAY 11",
+    "title": "CENTCOM: 5,000+ Targets Struck — 90% Reduction in Iranian Missile Launches",
+    "description": "Joint Chiefs Chairman Dan Caine confirmed the US military has struck over 5,000 targets since February 28, achieving a 90% reduction in Iran's missile launches and 83% decrease in drone attacks. Defense Secretary Hegseth announced March 10 would be the 'most intense day of strikes inside Iran' yet. 16 Iranian naval minelayers destroyed near the Strait of Hormuz and a second IRGC warship destroyed at Bandar Abbas.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "CENTCOM and Pentagon press briefing figures confirmed by CBS News and NPR",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/pete-hegseth-dan-caine-news-briefing-pentagon-iran-war/"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/10/nx-s1-5742828/iran-war-us-trump"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-093",
+    "date": "2026-03-10",
+    "time": "15:00",
+    "day": 11,
+    "dayLabel": "DAY 11",
+    "title": "Iran Uses Cluster Munitions Against Israeli Civilians — 300 Missiles Fired",
+    "description": "IDF confirmed Iran has fired approximately 300 missiles at Israel since the war began, with about half carrying cluster bomb warheads banned under the 2008 Convention on Cluster Munitions. A cluster munition strike on central Israel killed 2 people and seriously wounded 1, hitting 6 sites. 186 total attack waves have been launched against Israel.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IDF assessment confirmed by Times of Israel; cluster munition impacts verified by OSINT imagery",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/iran-has-fired-some-300-missiles-at-israel-about-half-with-cluster-bomb-warheads-idf/"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-oil-prices-trump-hormuz-israel-rcna262670"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-094",
+    "date": "2026-03-10",
+    "time": "17:00",
+    "day": 11,
+    "dayLabel": "DAY 11",
+    "title": "Oil Prices CRASH 11-12% — Trump Says War Will End 'Very Soon'",
+    "description": "Brent crude crashed 11.28% to $87.80/barrel and WTI fell 11.94% to $83.45 after Trump told Republican lawmakers the war could end 'pretty quickly' and 'very soon.' This was the biggest single-day drop since the conflict began. Oil had peaked at $119.50 intraday earlier in the week. Netanyahu simultaneously vowed 'many surprises' for the next phase, revealing a widening gap between US and Israeli war objectives.",
+    "actor": "us",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Oil price movements confirmed by CNN Business, CNBC, and Bloomberg; Trump statements confirmed by NPR, Al Jazeera",
+    "sources": [
+      {
+        "name": "CNN Business",
+        "url": "https://www.cnn.com/2026/03/10/business/oil-prices-fall-iran-war-intl"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/09/nx-s1-5742591/trump-press-conference-as-u-s-israel-led-iran-war-enters-second-week"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-10/gap-widens-between-us-and-israeli-goals-in-iran-as-war-drags-on"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-095",
+    "date": "2026-03-10",
+    "time": "18:00",
+    "day": 11,
+    "dayLabel": "DAY 11",
+    "title": "China Bans Rare Earth Exports for Military Use — Global Involvement Deepens",
+    "description": "China barred export of rare earth elements for military use, a move that could impact US weapons replenishment during the conflict. Russia pledged 'unwavering support' to new Supreme Leader Mojtaba Khamenei and requested emergency UN Security Council session with China. UK allowed use of Diego Garcia and RAF Fairford for 'specific and limited defensive purpose.' Ukraine's Zelenskyy said a team was heading to the Gulf with drone defense expertise.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "China rare earth ban reported by CNN and TIME; UK involvement confirmed by BBC; Russia-China UNSC request confirmed by Al Jazeera",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/04/china/china-us-iran-war-response-analysis-intl-hnk"
+      },
+      {
+        "name": "TIME",
+        "url": "https://time.com/7381811/iran-war-world-leaders-reaction-russia-china-europe/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/4/russia-china-raise-diplomatic-voices-against-us-israeli-attacks-on-iran"
+      }
+    ],
+    "significance": "high"
   }
 ]

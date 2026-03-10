@@ -1,4 +1,4 @@
-import { Landmark } from 'lucide-react'
+import { Landmark, ExternalLink } from 'lucide-react'
 import govData from '../../data/government-statements.json'
 import { VERIFICATION_COLORS, COUNTRY_COLORS } from '../../utils/colors'
 import { formatFullTimestamp } from '../../utils/verification'
@@ -57,6 +57,12 @@ function StatementCard({ statement }) {
           </div>
         )}
       </div>
+
+      {statement.verificationNote && (
+        <p className="text-[9px] text-gray-600 leading-relaxed">
+          📋 {statement.verificationNote}
+        </p>
+      )}
     </div>
   )
 }

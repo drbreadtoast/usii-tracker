@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-10T18:53:00Z",
+    "lastUpdated": "2026-03-10T23:30:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -75,21 +75,22 @@
       "date": "2026-03-10",
       "label": "Active Conflict — Day 11",
       "wti": {
-        "price": 101.97,
+        "price": 83.45,
         "unit": "$/barrel",
-        "change": "+35.1%",
-        "changeDollars": "+$26.47",
-        "source": "NYMEX front-month settlement — biggest weekly gain in crude futures history",
+        "change": "+10.5%",
+        "changeDollars": "+$7.95",
+        "source": "NYMEX front-month settlement — fell 11.94% on March 10 after Trump said war would end 'very soon'",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm"
       },
       "brent": {
-        "price": 112.98,
+        "price": 87.80,
         "unit": "$/barrel",
-        "change": "+41.6%",
-        "changeDollars": "+$33.18",
-        "source": "ICE front-month settlement — sustained above $110 as Hormuz remains effectively closed",
+        "change": "+10.0%",
+        "changeDollars": "+$8.00",
+        "source": "ICE front-month settlement — fell 11.28% on March 10 after Trump signaled war could end 'pretty quickly'",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
-        "intradayHigh": 119.5
+        "intradayHigh": 119.5,
+        "sessionLow": 87.80
       }
     },
     "priceHistory": [
@@ -195,9 +196,9 @@
       },
       {
         "date": "2026-03-10",
-        "wti": 101.97,
-        "brent": 112.98,
-        "label": "Biggest weekly gain in crude futures history — Brent holds above $110",
+        "wti": 83.45,
+        "brent": 87.80,
+        "label": "Oil CRASHES 11-12% — Trump says war will end 'very soon'",
         "isEvent": true
       }
     ],
@@ -395,12 +396,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 3.54,
+          "price": 3.55,
           "date": "2026-03-10"
         },
-        "change": "+$0.36",
-        "changePercent": "+11.3%",
-        "detail": "AAA national average at $3.54/gal (up from pre-war $3.18). Pump prices lag crude oil by 1-2 weeks. California at $5.20/gal. Analysts project $4+/gal within days if Hormuz stays closed. Biggest weekly gain in crude futures history driving further increases.",
+        "change": "+$0.37",
+        "changePercent": "+11.6%",
+        "detail": "AAA national average at $3.55/gal. Oil crashed 11-12% late March 10 on Trump's 'war ending soon' comments — pump prices may ease but lag crude by 1-2 weeks. California at $5.20/gal, Washington $4.63/gal, Kansas lowest at $2.92/gal. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax through Oct 1.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -517,15 +518,15 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.54/gallon — up 11.3% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
-      "detail": "AAA national average at $3.54/gal as of March 10. Diesel at $4.66/gal. Pump prices lag crude oil movements by 1-2 weeks. Analysts project $4+/gal for gasoline within days as Brent crude holds above $110. California already at $5.20/gal.",
+      "fact": "US gasoline prices at $3.55/gallon — up 11.6% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
+      "detail": "AAA national average at $3.55/gal as of March 10. Diesel at $4.66/gal. Oil prices crashed 11-12% late March 10 on Trump's 'war ending soon' comments — pump prices may ease but lag crude by 1-2 weeks. California at $5.20/gal. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Biggest weekly gain in crude oil futures history — WTI up 35.1%, Brent up 41.6% from pre-war levels",
-      "detail": "The week ending March 10 saw the largest weekly gain in crude oil futures history. WTI rose from $75.50 to $101.97 (+35.1%) and Brent from $79.80 to $112.98 (+41.6%). VLCC charter rates surged from $50,000/day to $400,000/day as vessel supply collapsed.",
+      "fact": "Oil prices CRASH 11-12% on March 10 — Trump says war will end 'very soon'. Brent settles at $87.80, WTI at $83.45",
+      "detail": "Brent crude fell 11.28% and WTI fell 11.94% on March 10 after Trump told Republican lawmakers the war could end 'pretty quickly' and 'very soon.' Prices had peaked at $119.50 intraday earlier in the week. Despite the crash, both benchmarks remain ~10% above pre-war levels. 29% of Americans approve of the strikes (Reuters/Ipsos).",
       "source": "Reuters Commodities / Bloomberg Energy",
       "sourceUrl": "https://www.reuters.com/markets/commodities/"
     }

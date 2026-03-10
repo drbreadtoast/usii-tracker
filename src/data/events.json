@@ -2477,5 +2477,129 @@
       "civilian-casualties",
       "qlayaa"
     ]
+  },
+  {
+    "id": "evt-new-035",
+    "title": "Iran cluster munition strike kills 2 in central Israel — 300 missiles fired total",
+    "description": "IDF confirmed Iran has fired approximately 300 missiles at Israel since the war began, with about half carrying cluster bomb warheads banned under the 2008 Convention on Cluster Munitions. A cluster munition strike on central Israel killed 2 people and seriously wounded 1, hitting 6 sites across the region. 186 total attack waves have been launched against Israel.",
+    "type": "strike",
+    "lat": 31.9,
+    "lng": 34.8,
+    "location": "Central Israel",
+    "timestamp": "2026-03-10T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/iran-has-fired-some-300-missiles-at-israel-about-half-with-cluster-bomb-warheads-idf/"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-oil-prices-trump-hormuz-israel-rcna262670"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "2 killed, 1 seriously wounded",
+    "tags": [
+      "cluster-munitions",
+      "central-israel",
+      "civilian-casualties",
+      "war-crimes"
+    ]
+  },
+  {
+    "id": "evt-new-036",
+    "title": "US destroys 16 Iranian minelayers near Strait of Hormuz",
+    "description": "US Navy destroyed 16 Iranian naval minelayers operating near the Strait of Hormuz. A second IRGC 'Shahid Soleimani'-class warship was also destroyed at Bandar Abbas port. CENTCOM confirmed 5,000+ total targets struck since Feb 28.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.27,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-03-10T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Alma Research Center",
+        "url": "https://israel-alma.org/daily-report-the-second-iran-war-march-10-2026-1800/"
+      },
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/pete-hegseth-dan-caine-news-briefing-pentagon-iran-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "hormuz",
+      "naval",
+      "minelayers",
+      "warship"
+    ]
+  },
+  {
+    "id": "evt-new-037",
+    "title": "Oil prices crash 11-12% after Trump says war ending 'very soon'",
+    "description": "Brent crude crashed 11.28% to $87.80/barrel and WTI fell 11.94% to $83.45 after Trump told Republican lawmakers the war could end 'pretty quickly' and 'very soon.' Biggest single-day oil drop since conflict began. Prices had peaked at $119.50 intraday.",
+    "type": "infrastructure",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "location": "New York (NYMEX/ICE)",
+    "timestamp": "2026-03-10T21:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN Business",
+        "url": "https://www.cnn.com/2026/03/10/business/oil-prices-fall-iran-war-intl"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/06/iran-us-war-oil-prices-brent-wti-barrel-futures.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "oil-prices",
+      "economic",
+      "de-escalation",
+      "trump"
+    ]
+  },
+  {
+    "id": "evt-new-038",
+    "title": "China bans rare earth exports for military use amid Iran war",
+    "description": "China barred export of rare earth elements for military use, a move that could significantly impact US weapons replenishment during the conflict. Xi Jinping is prioritizing US relations over Iran, with a summit with Trump planned in Beijing.",
+    "type": "diplomatic",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "location": "Beijing, China",
+    "timestamp": "2026-03-10T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/04/china/china-us-iran-war-response-analysis-intl-hnk"
+      },
+      {
+        "name": "TIME",
+        "url": "https://time.com/7381811/iran-war-world-leaders-reaction-russia-china-europe/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "china",
+      "rare-earth",
+      "sanctions",
+      "weapons"
+    ]
   }
 ]

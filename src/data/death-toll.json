@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T14:00:00Z",
+  "lastUpdated": "2026-03-10T23:30:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -125,7 +125,7 @@
             "military": 535,
             "civilian": 845,
             "total": 1380,
-            "source": "Iranian deputy health minister Dr. Ali Jafarian (as of March 10 evening). 40+ killed in eastern Tehran residential buildings, 5 in Arak.",
+            "source": "Iranian deputy health minister (as of March 10). 40+ killed in eastern Tehran residential buildings, 5 in Arak. Minab school toll rose to 180.",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
           },
           "estimated": {
@@ -134,7 +134,7 @@
             "total": 3300,
             "source": "Hengaw Organization / OSINT estimates",
             "sourceUrl": "https://hengaw.net",
-            "note": "Human rights organizations estimate 2,400+ killed. Includes 175 schoolgirls/staff from Minab school strike (Day 1), 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. True military toll likely much higher given 3,000+ targets struck. 101 sailors missing from IRINS Dena. Internet at 4% capacity limits verification."
+            "note": "HRANA estimates 7,000+. Includes 180 killed at Minab girls' school (toll rose from 175), 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. True military toll likely much higher given 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% capacity limits verification. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
           },
           "rumored": {
             "total": 8000,
@@ -190,7 +190,7 @@
             "total": 17,
             "source": "Israeli media estimates",
             "sourceUrl": "https://www.timesofisrael.com/topic/iran-war/",
-            "note": "9 confirmed killed in Beit Shemesh missile strike. Additional casualties from ongoing attacks."
+            "note": "9 confirmed killed in Beit Shemesh missile strike. 2 killed by cluster munition strike in central Israel. Iran has fired ~300 missiles at Israel — about half with cluster bomb warheads (banned under 2008 Convention). 186 total attack waves against Israel since war began."
           },
           "rumored": {
             "total": 45,
@@ -214,7 +214,7 @@
               }
             ]
           },
-          "injured": 1929
+          "injured": 2142
         },
         {
           "name": "United States",
@@ -232,13 +232,13 @@
             "total": 8,
             "source": "Unconfirmed reports of additional casualties at Gulf bases",
             "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26",
-            "note": "6 confirmed KIA at Port Shuaiba, Kuwait (including Sgt. Pennington). 2 additional confirmed deaths at other bases. 18+ wounded. Additional casualties reported but not confirmed."
+            "note": "8 confirmed KIA including Sgt. Benjamin Pennington, 26, of Kentucky. ~140 wounded (108 returned to duty, 8 severely injured). Additional casualties reported but not confirmed."
           },
           "rumored": {
             "total": 25,
             "military": 25,
             "civilian": 0,
-            "note": "Iran claims to have captured US soldiers; IRGC media reports higher US casualty figures than Pentagon confirms",
+            "note": "Iran claims to have captured US soldiers; IRGC media reports higher US casualty figures than Pentagon confirms. Fox29 reports ~140 total wounded.",
             "socialSources": [
               {
                 "platform": "X",
@@ -256,7 +256,7 @@
               }
             ]
           },
-          "injured": 30
+          "injured": 140
         },
         {
           "name": "Lebanon",
@@ -276,7 +276,7 @@
             "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks",
             "note": "Hezbollah intel chief Hussein Makled confirmed killed. Toll rising sharply as Israeli strikes intensify. Nearly 700,000 displaced across Lebanon. Maronite priest killed by Israeli tank fire in Qlayaa."
           },
-          "injured": 950,
+          "injured": 1313,
           "displaced": 700000
         },
         {
@@ -284,20 +284,20 @@
           "flag": "\ud83c\udf10",
           "confirmed": {
             "military": 0,
-            "civilian": 12,
-            "total": 12,
-            "source": "Gulf state media reports",
-            "sourceUrl": "https://www.cnn.com/2026/03/02/middleeast/iran-war-retaliation-rattles-gulf-neighbors-intl"
+            "civilian": 23,
+            "total": 23,
+            "source": "Gulf state media reports / defense ministry statements",
+            "sourceUrl": "https://www.cnbc.com/2026/03/10/iran-strikes-gulf-neighbors-us-assets-oil-infrastructure.html"
           },
           "estimated": {
             "military": 0,
-            "civilian": 18,
-            "total": 18,
+            "civilian": 28,
+            "total": 28,
             "source": "Estimated from missile impact reports across Gulf",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/5/eu-leaders-express-solidarity-with-gulf-countries-amid-iranian-attacks",
-            "note": "3 confirmed in UAE, 6 in Kuwait, 1 in Bahrain (+ 32 wounded), 2 in Saudi Arabia. Full toll from widespread Iranian missile attacks unclear."
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks",
+            "note": "UAE: 6 killed, 122 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 11 killed. Bahrain: 1 killed (+ 32 wounded), 105 ballistic missiles and 176 drones intercepted since war began. Saudi Arabia: 2 killed. Oman: 3 killed."
           },
-          "injured": 162
+          "injured": 192
         }
       ]
     }

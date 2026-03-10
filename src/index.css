@@ -92,7 +92,7 @@
 
 .marquee-track {
   display: flex;
-  animation: marquee 60s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .group:hover .marquee-track {

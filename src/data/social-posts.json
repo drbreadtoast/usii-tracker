@@ -703,5 +703,93 @@
       "hormuz",
       "supply-chain"
     ]
+  },
+  {
+    "id": "social-031",
+    "platform": "twitter",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "BREAKING: Oil crashes 11-12% after Trump says war will end 'very soon.' Brent to $87.80, WTI to $83.45. Biggest single-day oil drop since conflict began. Markets pricing in de-escalation. But Hormuz is STILL closed and Netanyahu vows 'many surprises.' Watch the gap.",
+    "timestamp": "2026-03-10T22:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Oil price movements confirmed by CNN Business, CNBC, Bloomberg. Trump quotes confirmed by NPR and Al Jazeera",
+    "engagement": {
+      "likes": 534000,
+      "retweets": 312000,
+      "replies": 89000
+    },
+    "keywords": [
+      "oil-crash",
+      "de-escalation",
+      "trump",
+      "markets"
+    ]
+  },
+  {
+    "id": "social-032",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "CENTCOM confirms 5,000+ targets struck since Feb 28. 90% reduction in Iranian missile launches, 83% decrease in drone attacks. 16 minelayers destroyed near Hormuz. Second IRGC warship sunk at Bandar Abbas. Iran's military capability being systematically degraded.",
+    "timestamp": "2026-03-10T21:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CENTCOM/Pentagon press briefing figures confirmed by CBS News and Alma Research Center daily report",
+    "engagement": {
+      "likes": 478000,
+      "retweets": 267000,
+      "replies": 72000
+    },
+    "keywords": [
+      "centcom",
+      "targets-struck",
+      "military-assessment",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-033",
+    "platform": "twitter",
+    "handle": "@AFP",
+    "displayName": "AFP Fact Check",
+    "sourceCategory": "lead_source",
+    "text": "FACT CHECK: AI-generated satellite imagery proliferating in Iran war. Tehran Times posted manipulated 'before/after' image of US base in Qatar (was actually Bahrain, from prior year). AFP detected SynthID watermark from Google AI tools. Be extremely cautious with viral imagery.",
+    "timestamp": "2026-03-10T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "AFP and France24 independently verified the fake imagery. SynthID watermark detection confirmed by Google",
+    "engagement": {
+      "likes": 389000,
+      "retweets": 198000,
+      "replies": 45000
+    },
+    "keywords": [
+      "disinformation",
+      "ai-fake",
+      "fact-check",
+      "satellite-imagery"
+    ]
+  },
+  {
+    "id": "social-034",
+    "platform": "twitter",
+    "handle": "@christogrozev",
+    "displayName": "Christo Grozev",
+    "sourceCategory": "osint_analyst",
+    "text": "IDF confirms: ~300 Iranian missiles fired at Israel, roughly HALF carried cluster bomb warheads banned under 2008 Convention. 6 impact sites in central Israel from latest salvo. This is a major escalation in weaponry — cluster munitions are designed to maximize civilian casualties.",
+    "timestamp": "2026-03-10T21:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF cluster munition assessment confirmed by Times of Israel and NBC News",
+    "engagement": {
+      "likes": 567000,
+      "retweets": 345000,
+      "replies": 112000
+    },
+    "keywords": [
+      "cluster-munitions",
+      "war-crimes",
+      "iran-missiles",
+      "escalation"
+    ]
   }
 ]

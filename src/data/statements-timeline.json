@@ -17,7 +17,7 @@
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
     "lastUpdated": "2026-03-10",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 81,
+    "totalStatements": 85,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-03-10"
@@ -178,6 +178,16 @@
           "factCheckDetail": "Calling the war 'very complete' contradicts active military operations and Hegseth's announcement of escalated strikes. No ceasefire is in sight and Iran has rejected all mediation attempts.",
           "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/10/iran-war-live-trump-says-conflict-will-be-over-soon-40-killed-in-tehran",
           "sourceName": "Al Jazeera"
+        },
+        {
+          "id": "trump-015",
+          "date": "2026-03-10",
+          "text": "We've destroyed 80 percent of their missile launchers. The war will be over pretty quickly, very soon. But not this week. If they disrupt oil flow any further, we'll increase strikes twentyfold.",
+          "context": "Trump told Republican Congressional members the war could end 'very soon' while warning Iran against further oil disruption. Called the conflict a 'little excursion.' Oil prices crashed 11-12% on his remarks. Gap widening between US (wanting to wind down) and Israeli (wanting to continue) endgames.",
+          "factCheck": "misleading",
+          "factCheckDetail": "80% of missile launchers claim aligns with CENTCOM's 5,000+ targets struck. However, Iran continues firing projectiles and has rejected all ceasefire overtures. Netanyahu vows 'many surprises' suggesting Israel plans to continue.",
+          "sourceUrl": "https://www.npr.org/2026/03/09/nx-s1-5742591/trump-press-conference-as-u-s-israel-led-iran-war-enters-second-week",
+          "sourceName": "NPR"
         }
       ]
     },
@@ -491,6 +501,16 @@
           "context": "IDF briefing.",
           "factCheck": "true",
           "sourceUrl": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran",
+          "sourceName": "PBS NewsHour"
+        },
+        {
+          "id": "netanyahu-011",
+          "date": "2026-03-10",
+          "text": "We are breaking their bones. The moment of truth is close. We are trying to free Iran. There will be many surprises in the next phase.",
+          "context": "Netanyahu addressed the Iranian people directly, vowing 'many surprises.' Diverging from Trump's 'war ending soon' signals — Netanyahu wants to continue operations while Trump pushes de-escalation. Bloomberg reports widening gap between US and Israeli endgames.",
+          "factCheck": "misleading",
+          "factCheckDetail": "Netanyahu frames strikes as liberation of Iranians, but 1,380+ civilians killed undermines this framing. IDF has struck 170+ munitions in Tehran, Isfahan, Shiraz including IRGC Quds Force HQ.",
+          "sourceUrl": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war",
           "sourceName": "PBS NewsHour"
         }
       ]
@@ -949,6 +969,16 @@
           "factCheck": "true",
           "sourceUrl": "https://www.nbcnews.com/news/world/iran-war-araghchi-interview-ceasefire-rejection-rcna262200",
           "sourceName": "NBC News"
+        },
+        {
+          "id": "araghchi-004",
+          "date": "2026-03-10",
+          "text": "This is Operation Epic Mistake — a misadventure engineered by Israel and paid for by ordinary Americans. We have very bitter experience with US negotiations. Iran will fight as long as it takes.",
+          "context": "PBS NewsHour interview. Araghchi called the strikes a failure, ruled out negotiations with the US, and vowed continued missile strikes. Also stated: 'They failed at rapid regime change.'",
+          "factCheck": "misleading",
+          "factCheckDetail": "Calling it a 'failure' is contradicted by CENTCOM data showing 5,000+ targets struck and 90% reduction in Iranian missile launches. However, regime change has not occurred and Iran continues retaliating.",
+          "sourceUrl": "https://www.pbs.org/newshour/show/irans-araghchi-calls-u-s-strikes-a-failure-and-vows-to-fight-as-long-as-it-takes",
+          "sourceName": "PBS NewsHour"
         }
       ]
     },
@@ -973,10 +1003,19 @@
           "id": "pope_leo-002",
           "date": "2026-03-08",
           "text": "I call for the roar of bombs to cease. Humanity must choose dialogue over destruction.",
-          "context": "Vatican statement calling for immediate cessation of hostilities. Pope Leo XIV has become a leading voice for peace in the conflict, calling on all parties to pursue diplomatic solutions.",
+          "context": "Vatican Angelus address. Called for 'a space for dialogue to open.' Tone described as 'relatively restrained' compared to John Paul II on Iraq War.",
           "factCheck": "true",
-          "sourceUrl": "https://www.reuters.com/world/middle-east/",
-          "sourceName": "Reuters / Holy See Press Office"
+          "sourceUrl": "https://www.vaticannews.va/en/pope/news/2026-03/pope-leo-angelus-iran-lebanon-weapons-silent-peace.html",
+          "sourceName": "Vatican News"
+        },
+        {
+          "id": "pope_leo-003",
+          "date": "2026-03-10",
+          "text": "I express deep sorrow for all those killed and wounded. The tragedy unfolding must stop before it becomes an irreparable abyss.",
+          "context": "New Vatican appeal March 10. Cardinal McElroy (Washington) stated the war does not meet 'minimum criteria' for being morally just. Pope Leo XIV has become a leading voice calling for cessation of hostilities.",
+          "factCheck": "true",
+          "sourceUrl": "https://www.ncronline.org/pope-warns-tragedy-enormous-proportions-after-us-israeli-strikes-iran",
+          "sourceName": "National Catholic Reporter"
         }
       ]
     },
