@@ -16,7 +16,7 @@ export default function BreakingBanner({ breakingNews }) {
         {/* Fixed label — clickable link to Breaking News page */}
         <Link to="/breaking-news" className="bg-blue-700 px-3 py-1.5 flex items-center gap-1.5 shrink-0 z-10 hover:bg-blue-600 transition-colors cursor-pointer">
           <AlertTriangle size={12} className="text-white" />
-          <span className="text-xs font-bold text-white tracking-wider uppercase">Latest News</span>
+          <span className="text-xs font-bold text-white tracking-wider uppercase">24 Hour Report</span>
         </Link>
 
         {/* Scrolling text */}

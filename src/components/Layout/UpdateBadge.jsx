@@ -1,17 +1,34 @@
 import { Clock, RefreshCw } from 'lucide-react'
 import siteMetadata from '../../data/site-metadata.json'
 
+function formatAbsolute(date) {
+  return date.toLocaleString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'America/Los_Angeles',
+    hour12: true,
+  }) + ' PT'
+}
+
 function formatLastUpdated(isoString) {
   const date = new Date(isoString)
   const now = new Date()
   const diffMs = now - date
+
+  // Guard against future timestamps
+  if (diffMs < 0) {
+    return { relativeTime: 'moments ago', absolute: formatAbsolute(date) }
+  }
+
   const diffMins = Math.floor(diffMs / 60000)
   const diffHours = Math.floor(diffMs / 3600000)
 
-  // Show relative time if recent
   let relativeTime = ''
   if (diffMins < 1) {
-    relativeTime = 'just now'
+    relativeTime = 'moments ago'
   } else if (diffMins < 60) {
     relativeTime = `${diffMins}m ago`
   } else if (diffHours < 24) {
@@ -21,18 +38,7 @@ function formatLastUpdated(isoString) {
     relativeTime = `${days}d ago`
   }
 
-  // Absolute timestamp
-  const absolute = date.toLocaleString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-    timeZone: 'UTC',
-    hour12: true,
-  }) + ' UTC'
-
-  return { relativeTime, absolute }
+  return { relativeTime, absolute: formatAbsolute(date) }
 }
 
 export default function UpdateBadge({ variant = 'full' }) {
@@ -69,7 +75,7 @@ export default function UpdateBadge({ variant = 'full' }) {
       </div>
       <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center shrink-0">
         <p className="text-[9px] text-gray-600 text-center">
-          v1.2 — Improved daily by 1 person. Optimized for desktop; mobile improvements ongoing.
+          v1.4 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
         </p>
       </div>
     </>
