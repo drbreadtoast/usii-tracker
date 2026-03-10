@@ -1,10 +1,11 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet } from 'lucide-react'
+import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers } from 'lucide-react'
 import Header from '../components/Layout/Header'
 import BreakingBanner from '../components/Layout/BreakingBanner'
 import WorldClocks from '../components/Layout/WorldClocks'
 import CensorshipNotice from '../components/Layout/CensorshipNotice'
+import SourcesNotice from '../components/Layout/SourcesNotice'
 import FilterPanel from '../components/Layout/FilterPanel'
 import TimeFilter from '../components/Layout/TimeFilter'
 import DeathToll from '../components/Layout/DeathToll'
@@ -39,6 +40,7 @@ export default function Dashboard() {
   const [isMapFullscreen, setIsMapFullscreen] = useState(false)
   const [panelExpanded, setPanelExpanded] = useState(false)
   const [selectedEvent, setSelectedEvent] = useState(null)
+  const [mobileView, setMobileView] = useState('map') // 'map' or 'panel' — mobile toggle
 
   const filteredEvents = useMemo(() => {
     return filters.filterEvents(events)
@@ -83,10 +85,37 @@ export default function Dashboard() {
       <Header metadata={metadata} />
       <WorldClocks />
       <CensorshipNotice />
+      <SourcesNotice />
+
+      {/* Mobile toggle bar — visible only on small screens */}
+      <div className="flex sm:hidden items-center border-b border-gray-800 bg-gray-900 shrink-0">
+        <button
+          onClick={() => setMobileView('map')}
+          className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold transition-all ${
+            mobileView === 'map'
+              ? 'text-blue-400 bg-gray-800/60 border-b-2 border-blue-400'
+              : 'text-gray-500 hover:text-gray-300'
+          }`}
+        >
+          <MapPin size={14} />
+          Map
+        </button>
+        <button
+          onClick={() => setMobileView('panel')}
+          className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold transition-all ${
+            mobileView === 'panel'
+              ? 'text-amber-400 bg-gray-800/60 border-b-2 border-amber-400'
+              : 'text-gray-500 hover:text-gray-300'
+          }`}
+        >
+          <Layers size={14} />
+          Info Panels
+        </button>
+      </div>
 
       <div className="flex-1 flex overflow-hidden relative">
-        {/* Map Area */}
-        <div className={`flex-1 relative transition-all duration-300 ${isMapFullscreen ? 'w-full' : ''}`}>
+        {/* Map Area — hidden on mobile when panel view is active */}
+        <div className={`flex-1 relative transition-all duration-300 ${isMapFullscreen ? 'w-full' : ''} ${mobileView === 'panel' ? 'hidden sm:block' : ''}`}>
           <ConflictMap
             events={filteredEvents}
             onEventSelect={handleEventSelect}
@@ -117,9 +146,9 @@ export default function Dashboard() {
           )}
         </div>
 
-        {/* Side Panel */}
-        {isPanelOpen && !isMapFullscreen && (
-          <div className={`${panelExpanded ? 'w-full sm:w-[650px]' : 'w-full sm:w-[400px]'} absolute inset-0 z-50 sm:relative sm:inset-auto sm:z-auto transition-all duration-300 border-l border-gray-800 flex flex-col bg-gray-950 shrink-0`}>
+        {/* Side Panel — on mobile: shown when mobileView==='panel', on desktop: shown when isPanelOpen */}
+        {((mobileView === 'panel') || (isPanelOpen && !isMapFullscreen)) && (
+          <div className={`${panelExpanded ? 'w-full sm:w-[650px]' : 'w-full sm:w-[400px]'} ${mobileView === 'panel' ? 'flex' : 'hidden'} sm:flex relative sm:relative sm:inset-auto sm:z-auto transition-all duration-300 border-l border-gray-800 flex-col bg-gray-950 shrink-0`}>
             {/* Tab bar — compact pill-style tabs, all visible */}
             <div className="flex items-center border-b border-gray-800 bg-gray-900 shrink-0">
               {TABS.map(tab => {

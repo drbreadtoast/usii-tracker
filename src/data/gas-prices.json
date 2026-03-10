@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-09T18:00:00Z",
-  "currentAverage": 4.25,
+  "lastUpdated": "2026-03-09T23:00:00Z",
+  "currentAverage": 3.48,
   "preWarAverage": 3.18,
-  "changePercent": 33.6,
+  "changePercent": 9.4,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -32,58 +32,59 @@
     },
     {
       "date": "2026-02-28",
-      "price": 3.68,
+      "price": 3.19,
       "label": "WAR BEGINS",
       "isEvent": true
     },
     {
       "date": "2026-03-01",
-      "price": 3.89,
+      "price": 3.20,
       "label": "Iran retaliates",
       "isEvent": true
     },
     {
       "date": "2026-03-02",
-      "price": 4.12,
+      "price": 3.15,
       "label": "Hezbollah enters",
       "isEvent": true
     },
     {
       "date": "2026-03-03",
-      "price": 4.35,
+      "price": 3.10,
       "label": "Hormuz blocked",
       "isEvent": true
     },
     {
       "date": "2026-03-04",
-      "price": 4.42,
+      "price": 3.12,
       "label": "Markets crash",
       "isEvent": true
     },
     {
       "date": "2026-03-05",
-      "price": 4.45,
-      "label": "Escalation"
+      "price": 3.22,
+      "label": "Day 6"
     },
     {
       "date": "2026-03-06",
-      "price": 4.49,
-      "label": "TODAY"
+      "price": 3.28,
+      "label": "Day 7"
     },
     {
       "date": "2026-03-07",
-      "price": 3.25,
-      "note": "Day 8 — oil infrastructure targeted"
+      "price": 3.33,
+      "label": "Oil infra. hit",
+      "isEvent": true
     },
     {
       "date": "2026-03-08",
-      "price": 3.32,
-      "note": "Day 9 — biggest weekly oil surge in history"
+      "price": 3.41,
+      "label": "Day 9"
     },
     {
       "date": "2026-03-09",
-      "price": 4.25,
-      "note": "Day 10 — Brent hits $119.50 intraday, Hormuz effectively closed",
+      "price": 3.48,
+      "label": "TODAY",
       "isEvent": true
     }
   ],
@@ -174,15 +175,15 @@
         },
         {
           "name": "Retail Margin",
-          "formula": "+panic buying premium",
-          "value": 0.18,
+          "formula": "Station profit",
+          "value": 0.12,
           "percent": 4,
-          "change": "+$0.06"
+          "change": "$0.00"
         }
       ],
-      "total": 4.114,
-      "note": "Actual retail average is $4.25 (includes panic premium & regional spikes)"
+      "total": 4.054,
+      "note": "AAA national average is $3.48 — pump prices lag crude by 1-2 weeks. Analysts project $4+/gal if Hormuz stays closed. California already at $5.20/gal."
     }
   },
-  "context": "Gas prices surging due to Strait of Hormuz effectively closed to tanker traffic (Day 8) and Middle East conflict escalation. Brent crude hit $119.50/barrel intraday on March 9 before settling at $103.47. National average up $1.07 from pre-war $3.18/gal. California highest at $5.89/gal. Diesel at $4.65/gal. Analysts warn prices could reach $5.50+ nationally if Hormuz remains closed through March."
+  "context": "Gas prices climbing as Strait of Hormuz effectively closed to tanker traffic. Brent crude hit $119.50/barrel intraday on March 9 before settling around $103. AAA national average at $3.48/gal (up 30 cents from pre-war $3.18). Pump prices lag crude by 1-2 weeks — analysts project $4+/gal within days. California highest at $5.20/gal. Diesel at $4.66/gal. GasBuddy's Patrick De Haan expects $3.50-3.65 before stabilizing, while Eurasia Group's Ian Bremmer expects $4/gal next week."
 }

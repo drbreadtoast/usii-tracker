@@ -2299,5 +2299,113 @@
       }
     ],
     "significance": "critical"
+  },
+  {
+    "id": "tl-074",
+    "date": "2026-03-09",
+    "time": "13:00",
+    "day": 10,
+    "dayLabel": "DAY 10",
+    "title": "Senate War Powers Resolution Fails — Trump Authorized to Continue Strikes",
+    "description": "The US Senate voted down a war powers resolution that would have forced President Trump to withdraw from military operations against Iran. The resolution's failure gives the administration indefinite authorization to continue the campaign. Several Republican senators who had initially expressed reservations ultimately voted against the measure.",
+    "actor": "us",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Senate vote recorded and publicly available; covered by CNBC, AP, and all major outlets",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/04/us-iran-war-live-updates.html"
+      },
+      {
+        "name": "AP News",
+        "url": "https://apnews.com/hub/iran"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-075",
+    "date": "2026-03-09",
+    "time": "14:00",
+    "day": 10,
+    "dayLabel": "DAY 10",
+    "title": "IDF Chief Warns 'No Safe Place' for Iranian Regime — Lebanon Attacks Exceed Iran's",
+    "description": "The IDF Chief of Staff warned that there is 'no safe place' for the Iranian regime as the war entered its second week. Israeli military officials also revealed that Lebanon (Hezbollah) has conducted more attacks against Israel than Iran itself over the past week, highlighting how the conflict has expanded into a multi-front war.",
+    "actor": "israel",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "IDF official briefing confirmed by Israeli media; attack comparison statistics from IDF operational data",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-9-2026/"
+      },
+      {
+        "name": "IDF",
+        "url": "https://www.idf.il/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-076",
+    "date": "2026-03-09",
+    "time": "16:00",
+    "day": 10,
+    "dayLabel": "DAY 10",
+    "title": "Fake AI Satellite Imagery Fuels War Disinformation — Millions of Views",
+    "description": "AFP confirmed that an Iranian news outlet posted AI-generated fake satellite imagery purporting to show a devastated US base in Qatar. The fabricated image contained gibberish coordinates and was identified via Google's SynthID invisible watermark. The image garnered millions of views across Instagram, Threads, and X in multiple languages, illustrating the growing threat of AI-powered wartime disinformation.",
+    "actor": "multiple",
+    "type": "cyber",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "AFP detected SynthID watermark; analysis confirmed fabrication; covered by Arab News, Manila Times, and multiple fact-checking organizations",
+    "sources": [
+      {
+        "name": "AFP",
+        "url": "https://www.arabnews.pk/node/2635797/media"
+      },
+      {
+        "name": "Channels Television",
+        "url": "https://www.channelstv.com/2026/03/09/fake-ai-satellite-imagery-spurs-us-iran-war-disinformation/"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-077",
+    "date": "2026-03-09",
+    "time": "20:00",
+    "day": 10,
+    "dayLabel": "DAY 10",
+    "title": "Trump: 'We've Already Won in Many Ways' — Calls New Supreme Leader a 'Lightweight'",
+    "description": "President Trump told The Times of Israel that the US has 'already won in many ways, but we haven't won enough.' He called the new Supreme Leader Mojtaba Khamenei a 'lightweight' who 'would not last long without his approval,' and said he must have a role in choosing Iran's next leader. Trump characterized the war as a 'short-term excursion' and said ending it would be a 'mutual' decision with Netanyahu.",
+    "actor": "us",
+    "type": "statement",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Direct quotes from Trump's phone interview with Times of Israel; corroborated by CBS News, Washington Post",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-9-2026/"
+      },
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-spreads-azerbaijan-israel-strikes-tehran-lebanon/"
+      },
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/03/08/trump-netanyahu-israel-iran-war/"
+      }
+    ],
+    "narratives": {
+      "us": "Victory is within reach — the Iranian regime's nuclear threat has been effectively neutralized and a new democratic future for Iran is possible",
+      "iran": "Trump's arrogant statements about choosing Iran's leader prove this is a colonial war of regime change, not self-defense"
+    },
+    "significance": "critical"
   }
 ]

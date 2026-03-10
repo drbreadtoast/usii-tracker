@@ -480,5 +480,85 @@
       "hormuz",
       "economic-impact"
     ]
+  },
+  {
+    "id": "social-020",
+    "platform": "twitter",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "BREAKING: AFP confirms AI-generated fake satellite imagery showing 'destroyed US base in Qatar' was created with Google AI tools (SynthID watermark detected). Iranian outlet spread it. Got millions of views before debunked. AI disinformation in warfare is here.",
+    "timestamp": "2026-03-09T16:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "AFP fact-check confirmed. Google SynthID detected. Gibberish coordinates in image confirmed fabrication",
+    "engagement": {
+      "likes": 298000,
+      "retweets": 156000,
+      "replies": 45000
+    },
+    "keywords": [
+      "disinformation",
+      "ai-fake",
+      "osint"
+    ]
+  },
+  {
+    "id": "social-021",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "IDF says Lebanon (Hezbollah) has conducted MORE attacks against Israel than Iran itself over the past week. This is now a full multi-front war. Hezbollah missiles struck central Israel today. 70+ weapons depots hit by IDF in response.",
+    "timestamp": "2026-03-09T15:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF operational data confirms attack comparison. Multiple Israeli media outlets corroborate",
+    "engagement": {
+      "likes": 245000,
+      "retweets": 128000,
+      "replies": 39000
+    },
+    "keywords": [
+      "hezbollah",
+      "multi-front",
+      "lebanon"
+    ]
+  },
+  {
+    "id": "social-022",
+    "platform": "twitter",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "text": "Senate war powers vote just failed. Trump has unlimited authorization to continue Iran operations. Hegseth signaling a 4-8 week campaign. No Congressional check. This war has no defined end date.",
+    "timestamp": "2026-03-09T19:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Senate vote publicly recorded. Hegseth statements from Pentagon briefing confirmed by Washington Times",
+    "engagement": {
+      "likes": 312000,
+      "retweets": 168000,
+      "replies": 71000
+    },
+    "keywords": [
+      "war-powers",
+      "senate",
+      "authorization"
+    ]
+  },
+  {
+    "id": "social-023",
+    "platform": "twitter",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "NATO has now intercepted TWO Iranian ballistic missiles over Turkish airspace. Turkey deploying 6 F-16s and additional air defense to Northern Cyprus. If a third incident occurs, Article 5 discussions will be impossible to avoid.",
+    "timestamp": "2026-03-09T17:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NATO confirmed interception. Turkish military deployment reported by Anadolu Agency and Reuters",
+    "engagement": {
+      "likes": 267000,
+      "retweets": 142000,
+      "replies": 48000
+    },
+    "keywords": [
+      "nato",
+      "turkey",
+      "article-5"
+    ]
   }
 ]

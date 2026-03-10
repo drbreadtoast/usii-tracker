@@ -72,7 +72,7 @@ export default function Header({ metadata }) {
     <>
       <header className="bg-gray-900 border-b border-gray-800 px-4 py-2 flex items-center justify-between shrink-0 relative">
         {/* Logo / Title + URL */}
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-2 shrink-0">
           <Link to="/" className="flex items-center gap-2">
             <h1 className="text-lg font-bold tracking-tight">
               <span className="text-white">USII</span>
@@ -80,6 +80,7 @@ export default function Header({ metadata }) {
             </h1>
           </Link>
           <span className="text-[10px] text-blue-400 font-mono bg-blue-950/30 px-1.5 py-0.5 rounded border border-blue-900/50 hidden sm:inline">usiitracker.com</span>
+          <span className="text-[9px] text-gray-500 hidden md:inline">US · Israel · Iran War Tracker</span>
         </div>
 
         {/* Page Navigation */}

@@ -34,6 +34,7 @@ export default function NavBar() {
           <span className="text-red-500"> Tracker</span>
         </Link>
         <span className="text-[9px] text-blue-400 font-mono bg-blue-950/30 px-1 py-0.5 rounded border border-blue-900/50">usiitracker.com</span>
+        <span className="text-[9px] text-gray-500 hidden md:inline">US · Israel · Iran War Tracker</span>
       </div>
       <div className="h-4 w-px bg-gray-700 shrink-0" />
       {NAV_LINKS.map(({ to, label, icon: Icon, color }) => {

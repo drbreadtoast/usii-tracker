@@ -17,7 +17,7 @@
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
     "lastUpdated": "2026-03-09",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 72,
+    "totalStatements": 77,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-03-08"
@@ -148,6 +148,16 @@
           "factCheck": "true",
           "sourceUrl": "https://www.whitehouse.gov",
           "sourceName": "White House transcript"
+        },
+        {
+          "id": "trump-012",
+          "date": "2026-03-09",
+          "text": "We've already won in many ways, but we haven't won enough. The new so-called supreme leader is a lightweight. He's going to have to get approval from us — if he doesn't, he's not going to last long.",
+          "context": "Phone interview with Times of Israel. Called war a 'short-term excursion' and said ending it would be a 'mutual' decision with Netanyahu. Said he has someone in mind to lead Iran.",
+          "factCheck": "misleading",
+          "factCheckDetail": "The claim of having 'already won' is premature given Iran continues retaliatory strikes and Hormuz remains closed. The assertion of authority over Iran's leadership selection contradicts international norms of sovereignty.",
+          "sourceUrl": "https://www.timesofisrael.com/liveblog-march-9-2026/",
+          "sourceName": "Times of Israel"
         }
       ]
     },
@@ -333,6 +343,17 @@
           "factCheckDetail": "The troop figure, while not previously confirmed, was broadly consistent with independent estimates. The statement of prioritizing force protection is consistent with official DoD policy.",
           "sourceUrl": "https://www.foxnews.com/politics/us-winning-decisively-against-iran-achieve-complete-control-airspace-within-days-hegseth-says",
           "sourceName": "Fox News"
+        },
+        {
+          "id": "hegseth-008",
+          "date": "2026-03-09",
+          "text": "Operation Epic Fury is on track as we enter the second week. We have spared no expense or capability on air defense, but we can't stop everything.",
+          "context": "Pentagon briefing on Day 10. Signaled the conflict could last 4-8 weeks. Dismissed criticisms of the war effort while acknowledging limits of air defense systems.",
+          "venue": "Pentagon Press Briefing",
+          "factCheck": "true",
+          "factCheckDetail": "The acknowledgment of air defense limitations is consistent with reports of successful Iranian strikes on Gulf state infrastructure. The 4-8 week timeline represents first official duration estimate.",
+          "sourceUrl": "https://www.washingtontimes.com/news/2026/mar/9/pete-hegseth-pentagon-chief-dismisses-iran-war-criticisms-conflict/",
+          "sourceName": "Washington Times"
         }
       ]
     },
@@ -856,8 +877,19 @@
           "id": "mojtaba_khamenei-001",
           "date": "2026-03-08",
           "text": "The Islamic Republic will not rest until the aggressors are expelled from our region. My father's blood will not have been spilled in vain.",
-          "context": "First address as Supreme Leader.",
-          "factCheck": "true"
+          "context": "First address as Supreme Leader. 56-year-old mid-ranking religious scholar with close IRGC ties, seen as even more hardline than his father.",
+          "factCheck": "true",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-names-khameneis-son-as-new-supreme-leader-after-fathers-killing-2",
+          "sourceName": "Al Jazeera"
+        },
+        {
+          "id": "mojtaba_khamenei-002",
+          "date": "2026-03-09",
+          "text": "Iran is prepared for a long war. We will respond to every aggression tenfold. The era of American dominance in our region is over.",
+          "context": "Statement to CNN via Iranian officials. Putin pledged 'unwavering' support; China opposed targeting the new leader.",
+          "factCheck": "true",
+          "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-09-26",
+          "sourceName": "CNN"
         }
       ]
     },
@@ -875,6 +907,15 @@
           "text": "There will be no ceasefire. There are no contacts with the United States. Iran will defend itself by any means necessary.",
           "context": "Press conference in Tehran.",
           "factCheck": "true"
+        },
+        {
+          "id": "araghchi-002",
+          "date": "2026-03-09",
+          "text": "Iran has no interest in negotiations while under attack. Mediation requests from other countries have been rejected.",
+          "context": "Foreign Ministry spokesperson statement. Despite Oman pushing for mediation and President Pezeshkian acknowledging 'some countries have begun mediation efforts.'",
+          "factCheck": "true",
+          "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/9/iran-war-live-mojtaba-khamenei-named-supreme-leader-israel-bombs-tehran",
+          "sourceName": "Al Jazeera"
         }
       ]
     },
