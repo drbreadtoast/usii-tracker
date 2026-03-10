@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T23:00:00Z",
+  "lastUpdated": "2026-03-10T14:00:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Iranian Protests Crackdown (Dec 2025 - Jan 2026)",
-      "period": "February 28, 2026 - Ongoing (Day 9)",
+      "period": "December 2025 - January 2026",
       "parties": [
         {
           "name": "Iranian Civilians",
@@ -116,16 +116,16 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 10)",
+      "period": "February 28, 2026 - Ongoing (Day 11)",
       "parties": [
         {
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
-            "military": 500,
-            "civilian": 755,
-            "total": 1255,
-            "source": "Iranian deputy health minister (as of March 9)",
+            "military": 520,
+            "civilian": 812,
+            "total": 1332,
+            "source": "Iranian deputy health minister (as of March 10)",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
           },
           "estimated": {
@@ -232,7 +232,7 @@
             "total": 8,
             "source": "Unconfirmed reports of additional casualties at Gulf bases",
             "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26",
-            "note": "6 confirmed KIA at Port Shuaiba, Kuwait. 18 wounded. Additional casualties reported but not confirmed."
+            "note": "6 confirmed KIA at Port Shuaiba, Kuwait (including Sgt. Pennington). 2 additional confirmed deaths at other bases. 18+ wounded. Additional casualties reported but not confirmed."
           },
           "rumored": {
             "total": 25,
@@ -262,62 +262,42 @@
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 0,
-            "civilian": 217,
-            "total": 217,
-            "source": "Lebanese Health Ministry (preliminary)",
+            "military": 86,
+            "civilian": 400,
+            "total": 486,
+            "source": "Lebanese Health Ministry (as of March 10)",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/6/death-toll-in-israels-lebanon-attacks-over-120-as-beirut-south-east-hit"
           },
           "estimated": {
-            "military": 50,
-            "civilian": 80,
-            "total": 130,
+            "military": 120,
+            "civilian": 450,
+            "total": 570,
             "source": "Lebanese media and Hezbollah casualty estimates",
             "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks",
-            "note": "Hezbollah intel chief Hussein Makled confirmed killed. Full toll unknown. 85,000 displaced."
+            "note": "Hezbollah intel chief Hussein Makled confirmed killed. Toll rising sharply as Israeli strikes intensify. 95,000+ displaced."
           },
-          "injured": 600,
-          "displaced": 85000
+          "injured": 850,
+          "displaced": 95000
         },
         {
-          "name": "Gulf States (UAE, Kuwait, etc.)",
+          "name": "Gulf States (UAE, Kuwait, Bahrain, etc.)",
           "flag": "\ud83c\udf10",
           "confirmed": {
             "military": 0,
-            "civilian": 9,
-            "total": 9,
+            "civilian": 12,
+            "total": 12,
             "source": "Gulf state media reports",
             "sourceUrl": "https://www.cnn.com/2026/03/02/middleeast/iran-war-retaliation-rattles-gulf-neighbors-intl"
           },
           "estimated": {
             "military": 0,
-            "civilian": 15,
-            "total": 15,
+            "civilian": 18,
+            "total": 18,
             "source": "Estimated from missile impact reports across Gulf",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/5/eu-leaders-express-solidarity-with-gulf-countries-amid-iranian-attacks",
-            "note": "3 confirmed in UAE, 6 in other Gulf states. Full toll from widespread Iranian missile attacks unclear."
+            "note": "3 confirmed in UAE, 6 in Kuwait, 1 in Bahrain (+ 32 wounded), 2 in Saudi Arabia. Full toll from widespread Iranian missile attacks unclear."
           },
-          "injured": null
-        },
-        {
-          "name": "Gulf States",
-          "flag": "\ud83c\uddfa\ud83c\udde6",
-          "confirmed": {
-            "military": 0,
-            "civilian": 11,
-            "total": 11,
-            "source": "Regional government reports",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
-          },
-          "estimated": {
-            "military": 0,
-            "civilian": 15,
-            "total": 15,
-            "source": "ACLED",
-            "sourceUrl": "https://acleddata.com/update/middle-east-special-issue-march-2026",
-            "note": "Includes UAE (3), Kuwait (4+), Bahrain, other GCC nations. 112+ wounded in UAE alone."
-          },
-          "injured": 130
+          "injured": 162
         }
       ]
     }

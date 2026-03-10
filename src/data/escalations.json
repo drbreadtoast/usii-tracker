@@ -419,7 +419,7 @@
   },
   {
     "id": "esc-022",
-    "title": "AI-Generated Fake Satellite Imagery Goes Viral — Information War Escalates",
+    "title": "AI-Generated Fake Satellite Imagery Goes Viral \u2014 Information War Escalates",
     "description": "AFP confirmed AI-generated fake satellite imagery showing a destroyed US base in Qatar was spread by an Iranian news outlet. The fabricated image was detected via Google's SynthID watermark but garnered millions of views in multiple languages before being debunked.",
     "category": "diplomatic",
     "severity": "high",
@@ -433,6 +433,44 @@
       {
         "name": "Channels Television",
         "url": "https://www.channelstv.com/2026/03/09/fake-ai-satellite-imagery-spurs-us-iran-war-disinformation/"
+      }
+    ]
+  },
+  {
+    "id": "esc-023",
+    "title": "Turkey: NATO Air Defenses Shoot Down Iranian Missile Over Turkish Airspace",
+    "description": "NATO Patriot batteries deployed in southeastern Turkey shot down an Iranian ballistic missile over Turkish airspace near Gaziantep, marking the first time NATO air defenses have engaged a live Iranian threat. Turkey deployed six F-16s and additional air defense systems to Northern Cyprus. The intercept raises the stakes for potential NATO Article 5 invocation.",
+    "category": "military",
+    "severity": "critical",
+    "timestamp": "2026-03-09T08:00:00Z",
+    "impact": "First NATO combat engagement against Iranian missiles. Article 5 discussions accelerating. Turkey deploying additional military assets. Risk of direct NATO-Iran confrontation at highest level since conflict began.",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/9/iran-war-live-mojtaba-khamenei-named-supreme-leader-israel-bombs-tehran"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ]
+  },
+  {
+    "id": "esc-024",
+    "title": "Trump Calls War 'Little Excursion' — Signals Rapid Conclusion",
+    "description": "President Trump described the Iran war as 'a little excursion' that would be 'finished pretty quickly' during a press conference on March 9. Meanwhile, Defense Secretary Hegseth declared the Iranian Navy is 'largely no more' and signaled a 4-8 week campaign. The contradictory messaging between quick resolution and extended campaign creates uncertainty about US strategy.",
+    "category": "diplomatic",
+    "severity": "high",
+    "timestamp": "2026-03-09T20:00:00Z",
+    "impact": "Mixed signals on war duration create strategic ambiguity. Markets uncertain about conflict timeline. Iran's Araghchi rejects ceasefire on NBC, saying 'We need to continue fighting for the sake of our people.'",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/politics/white-house/trump-privately-shown-serious-interest-us-ground-troops-iran-rcna262176"
       }
     ]
   }

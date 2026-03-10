@@ -232,8 +232,8 @@
       "usedInConflict": [
         {
           "weapon": "BGM-109 Tomahawk (Block IV/V)",
-          "quantityUsed": 325,
-          "dateRange": "2026-02-28 to 2026-03-06",
+          "quantityUsed": 500,
+          "dateRange": "2026-02-28 to 2026-03-10",
           "targets": [
             "Natanz uranium enrichment facility",
             "Fordow enrichment complex",
@@ -247,8 +247,8 @@
         },
         {
           "weapon": "AGM-158B JASSM-ER",
-          "quantityUsed": 180,
-          "dateRange": "2026-02-28 to 2026-03-05",
+          "quantityUsed": 350,
+          "dateRange": "2026-02-28 to 2026-03-10",
           "targets": [
             "Isfahan nuclear facilities",
             "Khondab heavy water reactor",
@@ -260,8 +260,8 @@
         },
         {
           "weapon": "GBU-57A/B Massive Ordnance Penetrator",
-          "quantityUsed": 8,
-          "dateRange": "2026-03-01 to 2026-03-03",
+          "quantityUsed": 12,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Fordow enrichment facility (underground)",
             "Natanz underground centrifuge halls"
@@ -271,8 +271,8 @@
         },
         {
           "weapon": "RIM-161 SM-3 (Block IIA)",
-          "quantityUsed": 45,
-          "dateRange": "2026-03-01 to 2026-03-06",
+          "quantityUsed": 85,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Iranian ballistic missile interceptions over Persian Gulf",
             "Medium-range ballistic missile defense over Gulf states"
@@ -282,8 +282,8 @@
         },
         {
           "weapon": "GBU-28 Bunker Buster",
-          "quantityUsed": 110,
-          "dateRange": "2026-02-28 to 2026-03-06",
+          "quantityUsed": 200,
+          "dateRange": "2026-02-28 to 2026-03-10",
           "targets": [
             "Hardened IRGC bunkers",
             "Underground missile storage facilities",
@@ -516,8 +516,8 @@
       "usedInConflict": [
         {
           "weapon": "Arrow-3",
-          "quantityUsed": 35,
-          "dateRange": "2026-03-01 to 2026-03-06",
+          "quantityUsed": 55,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Iranian Emad MRBM interceptions",
             "Shahab-3 ballistic missile interceptions",
@@ -528,8 +528,8 @@
         },
         {
           "weapon": "Iron Dome (Tamir Interceptor)",
-          "quantityUsed": 480,
-          "dateRange": "2026-03-01 to 2026-03-06",
+          "quantityUsed": 750,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Hezbollah rocket barrages from Lebanon",
             "Iran-supplied drone interceptions",
@@ -540,8 +540,8 @@
         },
         {
           "weapon": "David's Sling (Stunner Interceptor)",
-          "quantityUsed": 65,
-          "dateRange": "2026-03-01 to 2026-03-06",
+          "quantityUsed": 95,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Fateh-110 short-range ballistic missile interceptions",
             "Cruise missile interceptions from Iraqi theater"
@@ -551,8 +551,8 @@
         },
         {
           "weapon": "F-35I Adir (strike sorties)",
-          "quantityUsed": 120,
-          "dateRange": "2026-02-28 to 2026-03-06",
+          "quantityUsed": 185,
+          "dateRange": "2026-02-28 to 2026-03-10",
           "targets": [
             "Isfahan nuclear complex",
             "IRGC Quds Force HQ",
@@ -564,8 +564,8 @@
         },
         {
           "weapon": "LORA Ballistic Missile",
-          "quantityUsed": 28,
-          "dateRange": "2026-03-01 to 2026-03-04",
+          "quantityUsed": 40,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Hezbollah command bunkers in southern Lebanon",
             "IRGC forward operating positions in Syria"
@@ -575,8 +575,8 @@
         },
         {
           "weapon": "Delilah Cruise Missile",
-          "quantityUsed": 72,
-          "dateRange": "2026-02-28 to 2026-03-06",
+          "quantityUsed": 95,
+          "dateRange": "2026-02-28 to 2026-03-10",
           "targets": [
             "Iranian S-300 air defense batteries",
             "IRGC command and control nodes",
@@ -809,21 +809,23 @@
       "usedInConflict": [
         {
           "weapon": "Shahab-3 / Emad",
-          "quantityUsed": 85,
-          "dateRange": "2026-03-01 to 2026-03-06",
+          "quantityUsed": 220,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Nevatim Air Base, Israel",
             "Ramon Air Base, Israel",
             "Tel Aviv metropolitan area",
-            "Dimona nuclear facility vicinity"
+            "Dimona nuclear facility vicinity",
+            "Bahrain civilian areas",
+            "Turkish airspace (intercepted by NATO)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.idf.il/en/"
         },
         {
           "weapon": "Shahed-136 / Shahed-238",
-          "quantityUsed": 650,
-          "dateRange": "2026-03-01 to 2026-03-06",
+          "quantityUsed": 2000,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Israeli military installations",
             "US naval assets in Persian Gulf",
@@ -835,20 +837,21 @@
         },
         {
           "weapon": "Fateh-110 / Fateh-313",
-          "quantityUsed": 120,
-          "dateRange": "2026-03-01 to 2026-03-05",
+          "quantityUsed": 200,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
-            "US Al Udeid Air Base, Qatar (fell short)",
+            "US Al Udeid Air Base, Qatar",
             "US forces in Iraq",
-            "Israeli-linked targets in Azerbaijan"
+            "Israeli-linked targets in Azerbaijan",
+            "Gulf state military and civilian infrastructure"
           ],
           "confirmed": false,
           "sourceUrl": "https://www.csis.org/"
         },
         {
           "weapon": "Paveh Cruise Missile",
-          "quantityUsed": 45,
-          "dateRange": "2026-03-01 to 2026-03-04",
+          "quantityUsed": 75,
+          "dateRange": "2026-03-01 to 2026-03-10",
           "targets": [
             "Israeli air defense sites",
             "US naval vessels in Gulf of Oman",
@@ -859,8 +862,8 @@
         },
         {
           "weapon": "Khorramshahr / Khorramshahr-4",
-          "quantityUsed": 18,
-          "dateRange": "2026-03-02 to 2026-03-06",
+          "quantityUsed": 45,
+          "dateRange": "2026-03-02 to 2026-03-10",
           "targets": [
             "Central Israel (Tel Aviv, Haifa)",
             "US base at Al Dhafra, UAE"
@@ -897,7 +900,7 @@
           "raad2": 258
         },
         "interceptRate": 45,
-        "notes": "Iran's air defense network is assessed as partially degraded following initial coalition SEAD/DEAD operations. S-300 batteries at Natanz and Isfahan confirmed struck. Bavar-373 effectiveness against stealth aircraft remains unverified. Overall intercept rate against advanced cruise missiles and stealth platforms estimated significantly lower than published Iranian claims. Many radar systems assessed destroyed or jammed.",
+        "notes": "Iran's air defense network is assessed as severely degraded following sustained coalition SEAD/DEAD operations over 11 days. S-300 batteries at Natanz and Isfahan confirmed destroyed. Bavar-373 effectiveness against stealth aircraft remains unverified. 43 Iranian warships destroyed by US/coalition naval and air strikes, effectively eliminating Iran's conventional naval capability. Overall intercept rate against advanced cruise missiles and stealth platforms estimated significantly lower than published Iranian claims. Many radar systems assessed destroyed or jammed.",
         "sourceUrl": "https://www.csis.org/analysis/air-and-missile-defense-iran"
       }
     }
@@ -1126,45 +1129,45 @@
     }
   ],
   "conflictExpenditure": {
-    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through March 6, 2026.",
-    "lastUpdated": "2026-03-06",
+    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through March 10, 2026. Iran has fired 500+ ballistic missiles and 2,000+ drones. US has struck 3,000+ targets. 43 Iranian warships destroyed.",
+    "lastUpdated": "2026-03-10",
     "byCountry": {
       "us": {
-        "totalEstimatedCostUsd": 1592000000,
-        "totalFormatted": "$1.59B",
+        "totalEstimatedCostUsd": 2602000000,
+        "totalFormatted": "$2.60B",
         "breakdown": [
-          { "weapon": "Tomahawk", "qty": 325, "totalCost": 650000000 },
-          { "weapon": "JASSM-ER", "qty": 180, "totalCost": 252000000 },
-          { "weapon": "GBU-57 MOP", "qty": 8, "totalCost": 28000000 },
-          { "weapon": "SM-3 Block IIA", "qty": 45, "totalCost": 540000000 },
-          { "weapon": "GBU-28", "qty": 110, "totalCost": 27500000 }
+          { "weapon": "Tomahawk", "qty": 500, "totalCost": 1000000000 },
+          { "weapon": "JASSM-ER", "qty": 350, "totalCost": 490000000 },
+          { "weapon": "GBU-57 MOP", "qty": 12, "totalCost": 42000000 },
+          { "weapon": "SM-3 Block IIA", "qty": 85, "totalCost": 1020000000 },
+          { "weapon": "GBU-28", "qty": 200, "totalCost": 50000000 }
         ]
       },
       "israel": {
-        "totalEstimatedCostUsd": 273500000,
-        "totalFormatted": "$273.5M",
+        "totalEstimatedCostUsd": 365500000,
+        "totalFormatted": "$365.5M",
         "breakdown": [
-          { "weapon": "Arrow-3", "qty": 35, "totalCost": 87500000 },
-          { "weapon": "Iron Dome Tamir", "qty": 480, "totalCost": 24000000 },
-          { "weapon": "David's Sling Stunner", "qty": 65, "totalCost": 65000000 },
-          { "weapon": "LORA", "qty": 28, "totalCost": 33600000 },
-          { "weapon": "Delilah", "qty": 72, "totalCost": 36000000 }
+          { "weapon": "Arrow-3", "qty": 55, "totalCost": 137500000 },
+          { "weapon": "Iron Dome Tamir", "qty": 750, "totalCost": 37500000 },
+          { "weapon": "David's Sling Stunner", "qty": 95, "totalCost": 95000000 },
+          { "weapon": "LORA", "qty": 40, "totalCost": 48000000 },
+          { "weapon": "Delilah", "qty": 95, "totalCost": 47500000 }
         ]
       },
       "iran": {
-        "totalEstimatedCostUsd": 98100000,
-        "totalFormatted": "$98.1M",
+        "totalEstimatedCostUsd": 252250000,
+        "totalFormatted": "$252.3M",
         "breakdown": [
-          { "weapon": "Shahab-3/Emad", "qty": 85, "totalCost": 42500000 },
-          { "weapon": "Shahed-136", "qty": 650, "totalCost": 13000000 },
-          { "weapon": "Fateh-110", "qty": 120, "totalCost": 24000000 },
-          { "weapon": "Paveh", "qty": 45, "totalCost": 15750000 },
-          { "weapon": "Khorramshahr", "qty": 18, "totalCost": 14400000 }
+          { "weapon": "Shahab-3/Emad", "qty": 220, "totalCost": 110000000 },
+          { "weapon": "Shahed-136", "qty": 2000, "totalCost": 40000000 },
+          { "weapon": "Fateh-110", "qty": 200, "totalCost": 40000000 },
+          { "weapon": "Paveh", "qty": 75, "totalCost": 26250000 },
+          { "weapon": "Khorramshahr", "qty": 45, "totalCost": 36000000 }
         ]
       }
     },
-    "grandTotalUsd": 1963600000,
-    "grandTotalFormatted": "$1.96B",
+    "grandTotalUsd": 3219750000,
+    "grandTotalFormatted": "$3.22B",
     "notes": "Expenditure figures represent estimated munition costs only and do not include operational costs (fuel, personnel, aircraft flight hours, naval vessel deployment), infrastructure damage, or replacement procurement premiums. Actual costs are likely 3-5x higher when accounting for full operational expenses."
   }
 }

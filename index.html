@@ -29,7 +29,7 @@
       // Auto-refresh: checks for new version every 5 minutes
       // If a new deploy is detected, reloads the page so users get updated code
       (function(){
-        var currentVersion = '1.1';
+        var currentVersion = '1.1.1';
         setInterval(function(){
           fetch('/version.json?_=' + Date.now())
             .then(function(r){ return r.json(); })

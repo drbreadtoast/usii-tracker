@@ -35,9 +35,9 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-09T18:00:00Z",
+    "lastUpdated": "2026-03-10T14:00:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 10,
+    "daysOfConflict": 11,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -111,7 +111,7 @@
         }
       },
       "dailyBurnRate": 2600000000,
-      "dailyBurnRateNote": "Estimated daily cost of sustained combat operations including all deployed forces, active sorties, naval patrols, and logistical support"
+      "dailyBurnRateNote": "Estimated daily cost of sustained combat operations including all deployed forces, active sorties, naval patrols, and logistical support. Center for American Progress estimated $5 billion through March 2 alone. CNN reports $890M/day in direct military costs."
     },
     "israel": {
       "name": "Israel",
@@ -450,9 +450,9 @@
     },
     "estimatedDailyCost": 22000000,
     "estimatedDailyCostNote": "Combined daily operating cost of all deployed naval assets at wartime operational tempo",
-    "daysDeployed": 10,
-    "totalNavalCost": 220000000,
-    "totalNavalCostNote": "Total naval deployment cost for the first 10 days of active conflict operations; does not include pre-conflict surge deployment costs",
+    "daysDeployed": 11,
+    "totalNavalCost": 242000000,
+    "totalNavalCostNote": "Total naval deployment cost for the first 11 days of active conflict operations; does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -520,12 +520,12 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 103.47,
+      "currentPrice": 112.98,
       "peakPrice": 119.50,
-      "wtiPrice": 101.20,
-      "usGasPricePerGallon": 4.25,
+      "wtiPrice": 101.97,
+      "usGasPricePerGallon": 3.54,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 31.8,
+      "percentageIncrease": 43.9,
       "estimatedGlobalCost": 850000000000,
       "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
       "hormuzFlowDisruption": {
@@ -613,6 +613,20 @@
       "cost": 31200000000,
       "source": "CRS Report: US Foreign Aid to Israel",
       "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    },
+    {
+      "id": "fact-7",
+      "fact": "Biggest weekly gain in crude oil futures history -- WTI up 35.1% and Brent up 41.6% from pre-war levels, surpassing the 1990 Gulf War spike and 2022 Russia-Ukraine oil shock.",
+      "cost": null,
+      "source": "Reuters Commodities / Bloomberg Energy",
+      "sourceUrl": "https://www.reuters.com/markets/commodities/"
+    },
+    {
+      "id": "fact-8",
+      "fact": "VLCC (Very Large Crude Carrier) charter rates surged from $50,000/day to $400,000/day -- an 8x increase -- as vessel supply collapsed due to the Hormuz blockade and insurance withdrawal.",
+      "cost": null,
+      "source": "Lloyd's List Intelligence / Clarksons Research",
+      "sourceUrl": "https://www.lloydslistintelligence.com/"
     }
   ],
   "totals": {
@@ -621,6 +635,6 @@
     "combinedTotalCosts": 136670000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military costs for all three belligerents plus indirect economic costs. Global economic impact represents the annualized additional cost from oil price disruption.",
-    "lastCalculated": "2026-03-09T18:00:00Z"
+    "lastCalculated": "2026-03-10T14:00:00Z"
   }
 }

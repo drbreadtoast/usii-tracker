@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-09T23:00:00Z",
-  "currentAverage": 3.48,
+  "lastUpdated": "2026-03-10T14:00:00Z",
+  "currentAverage": 3.54,
   "preWarAverage": 3.18,
-  "changePercent": 9.4,
+  "changePercent": 11.3,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -84,7 +84,12 @@
     {
       "date": "2026-03-09",
       "price": 3.48,
-      "label": "TODAY",
+      "label": "Day 10"
+    },
+    {
+      "date": "2026-03-10",
+      "price": 3.54,
+      "label": "Day 11 — Diesel $4.66",
       "isEvent": true
     }
   ],
@@ -135,15 +140,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Mar 9)",
-      "crudePerBarrel": 103,
+      "label": "Current (Mar 10)",
+      "crudePerBarrel": 102,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$103 ÷ 42 gal",
-          "value": 2.45,
-          "percent": 50,
-          "change": "+$0.83"
+          "formula": "$102 ÷ 42 gal",
+          "value": 2.43,
+          "percent": 49,
+          "change": "+$0.81"
         },
         {
           "name": "Refining",
@@ -182,8 +187,8 @@
         }
       ],
       "total": 4.054,
-      "note": "AAA national average is $3.48 — pump prices lag crude by 1-2 weeks. Analysts project $4+/gal if Hormuz stays closed. California already at $5.20/gal."
+      "note": "AAA national average is $3.54 — pump prices lag crude by 1-2 weeks. Analysts project $4+/gal if Hormuz stays closed. California already at $5.20/gal. Diesel at $4.66/gal."
     }
   },
-  "context": "Gas prices climbing as Strait of Hormuz effectively closed to tanker traffic. Brent crude hit $119.50/barrel intraday on March 9 before settling around $103. AAA national average at $3.48/gal (up 30 cents from pre-war $3.18). Pump prices lag crude by 1-2 weeks — analysts project $4+/gal within days. California highest at $5.20/gal. Diesel at $4.66/gal. GasBuddy's Patrick De Haan expects $3.50-3.65 before stabilizing, while Eurasia Group's Ian Bremmer expects $4/gal next week."
+  "context": "Gas prices climbing as Strait of Hormuz effectively closed to tanker traffic (Day 11). AAA national average at $3.54/gal (up 36 cents from pre-war $3.18). Brent crude at $112.98/barrel, WTI at $101.97. Pump prices lag crude by 1-2 weeks — analysts project $4+/gal within days. California highest at $5.20/gal. Diesel at $4.66/gal. Biggest weekly gain in crude futures history. GasBuddy's Patrick De Haan expects prices to continue climbing, while Eurasia Group's Ian Bremmer expects $4/gal next week."
 }

@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import BreakingAlert from './components/Layout/BreakingAlert'
 import BreakingBanner from './components/Layout/BreakingBanner'
 import NavBar from './components/Layout/NavBar'
 import Dashboard from './pages/Dashboard'
@@ -21,6 +22,7 @@ import FollowTheDamagePage from './pages/FollowTheDamagePage'
 export default function App() {
   return (
     <>
+    <BreakingAlert />
     <BreakingBanner />
     <NavBar />
     <Routes>

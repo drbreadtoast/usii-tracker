@@ -11,17 +11,17 @@ export default function BreakingBanner({ breakingNews }) {
   const text = sorted.map(item => item.text).join('  ///  ')
 
   return (
-    <div className="bg-red-950/60 border-b border-red-900/50 overflow-hidden shrink-0">
+    <div className="bg-blue-950/60 border-b border-blue-900/50 overflow-hidden shrink-0">
       <div className="flex items-center">
         {/* Fixed label — clickable link to Breaking News page */}
-        <Link to="/breaking-news" className="bg-red-600 px-3 py-1.5 flex items-center gap-1.5 shrink-0 z-10 hover:bg-red-500 transition-colors cursor-pointer">
+        <Link to="/breaking-news" className="bg-blue-700 px-3 py-1.5 flex items-center gap-1.5 shrink-0 z-10 hover:bg-blue-600 transition-colors cursor-pointer">
           <AlertTriangle size={12} className="text-white" />
-          <span className="text-xs font-bold text-white tracking-wider uppercase">Breaking</span>
+          <span className="text-xs font-bold text-white tracking-wider uppercase">Latest News</span>
         </Link>
 
         {/* Scrolling text */}
         <div className="overflow-hidden flex-1 py-1.5 group">
-          <div className="animate-marquee whitespace-nowrap text-sm text-red-200">
+          <div className="animate-marquee whitespace-nowrap text-sm text-blue-200">
             {text}  ///  {text}
           </div>
         </div>

@@ -1,14 +1,17 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 9,
+  "blockadeDay": 11,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-09T23:00:00Z",
+  "lastUpdated": "2026-03-10T14:00:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
-    "vesselsAnchored": 310,
-    "vesselsTransitLast24h": 0,
+    "vesselsAnchored": 320,
+    "vesselsTransitLast24h": 2,
+    "containershipsTrapped": 170,
+    "tankersAtAnchor": 150,
+    "vlccDailyRate": 400000,
     "vesselsDamaged": 8,
     "vesselsSunk": 2,
     "insuranceStatus": "withdrawn",
@@ -73,6 +76,12 @@
       "event": "Strait effectively closed \u2014 zero transits for 48+ hours. 310+ vessels at anchor. 8 commercial vessels damaged total, 2 sunk. Brent crude hits $119.50 intraday before settling at $103.47. US minesweeping makes minimal progress. IRGC deploys additional fast attack boats.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-03-10",
+      "event": "Day 11 — Only 13 vessels/day average; March 8 saw only 2 outbound transits. 170+ containerships trapped, 150+ tankers at anchor. Insurance withdrawn by all major providers. VLCC charter rates surge from $50K to $400K/day. Brent crude holds above $110.",
+      "status": "effectively_closed",
+      "barrels": 900000
     }
   ],
   "impactedGoods": [
@@ -80,8 +89,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "0 bbl/day",
-      "priceImpact": "+37% (Brent $103.47, peak $119.50)",
-      "detail": "20% of global supply cut off. Brent crude hit $119.50 intraday on March 9 before settling at $103.47."
+      "priceImpact": "+42% (Brent $112.98, peak $119.50)",
+      "detail": "20% of global supply cut off. Brent crude at $112.98 as of March 10. Biggest weekly gain in crude futures history — 35.63%."
     },
     {
       "commodity": "LNG",
@@ -95,7 +104,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+43%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas prices at $3.48/gal national average (AAA), up 9.4% from pre-war $3.18. Analysts project $4+/gal if Hormuz stays closed."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas prices at $3.54/gal national average (AAA), up 11.3% from pre-war $3.18. Diesel at $4.66/gal. Analysts project $4+/gal for gasoline if Hormuz stays closed."
     },
     {
       "commodity": "Petrochemicals",
