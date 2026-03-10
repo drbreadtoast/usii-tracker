@@ -212,6 +212,16 @@ function TimelineEntry({ loc }) {
         {loc.casualties && (
           <p className="text-[10px] text-red-400 font-medium mt-1">{loc.casualties}</p>
         )}
+        {loc.sourceUrl && (
+          <a
+            href={loc.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-[9px] text-blue-400 hover:text-blue-300 mt-1 transition-colors"
+          >
+            {loc.source || 'Source'} <ExternalLink size={8} />
+          </a>
+        )}
       </div>
     </div>
   )

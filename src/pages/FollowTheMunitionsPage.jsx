@@ -813,7 +813,7 @@ export default function FollowTheMunitionsPage() {
               >
                 <div className="flex items-center gap-2 min-w-0">
                   <span className="text-xs text-gray-200 truncate">{item.weapon}</span>
-                  <SourceLink url={item.sourceUrl} label="" />
+                  <SourceLink url={item.sourceUrl} label={item.source || "View Source"} />
                 </div>
                 <span className="text-base">{countries[item.country]?.flag}</span>
                 <span className={`text-xs font-bold text-right ${accent.color}`}>

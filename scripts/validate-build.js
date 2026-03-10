@@ -317,6 +317,95 @@ if (parsedFiles['events.json']) {
 }
 
 // ─────────────────────────────────────────────────
+// 8. SOURCE URL VALIDATION
+// ─────────────────────────────────────────────────
+console.log(`\n${BOLD}8. SOURCE URLS${RESET}`)
+
+// Check that key files have sources on all entries
+const sourceChecks = [
+  {
+    file: 'breaking.json',
+    getEntries: (d) => (Array.isArray(d) ? d : []),
+    check: (entry) => {
+      if (!entry.sources || entry.sources.length === 0) return 'missing sources'
+      for (const src of entry.sources) {
+        if (typeof src === 'string') return 'string-only source (no URL)'
+        if (!src.url) return 'source missing url'
+        if (!src.name) return 'source missing name'
+      }
+      return null
+    }
+  },
+  {
+    file: 'escalations.json',
+    getEntries: (d) => (Array.isArray(d) ? d : []),
+    check: (entry) => {
+      if (!entry.sources || entry.sources.length === 0) return 'missing sources'
+      for (const src of entry.sources) {
+        if (!src.url) return 'source missing url'
+        if (!src.name) return 'source missing name'
+      }
+      return null
+    }
+  },
+  {
+    file: 'media-perspectives.json',
+    getEntries: (d) => (d.categories || []).flatMap(c => (c.outlets || []).map(o => ({ ...o, _cat: c.id }))),
+    check: (entry) => {
+      if (!entry.url) return 'missing url'
+      // Check for bare domain URLs (no path)
+      try {
+        const u = new URL(entry.url)
+        if (u.pathname === '/' && !u.search && !u.hash) return `bare domain URL: ${entry.url}`
+      } catch { return `invalid URL: ${entry.url}` }
+      return null
+    }
+  },
+]
+
+for (const { file, getEntries, check } of sourceChecks) {
+  const data = parsedFiles[file]
+  if (!data) continue
+  const entries = getEntries(data)
+  let issues = 0
+  for (const entry of entries) {
+    const problem = check(entry)
+    if (problem) {
+      issues++
+      warn(`${file}: ${entry.id || entry.name || 'entry'}: ${problem}`)
+    }
+  }
+  if (issues === 0) {
+    ok(`${file}: All ${entries.length} entries have valid sources`)
+  }
+}
+
+// Check for bare domain URLs across all source arrays
+const bareDomainCheck = [
+  { file: 'events.json', getUrls: (d) => (Array.isArray(d) ? d : []).flatMap(e => (e.sources || []).map(s => s.url).filter(Boolean)) },
+  { file: 'war-timeline.json', getUrls: (d) => (Array.isArray(d) ? d : []).flatMap(e => (e.sources || []).map(s => s.url).filter(Boolean)) },
+  { file: 'missile-strikes.json', getUrls: (d) => (Array.isArray(d) ? d : []).map(e => e.sourceUrl).filter(Boolean) },
+]
+
+for (const { file, getUrls } of bareDomainCheck) {
+  const data = parsedFiles[file]
+  if (!data) continue
+  const urls = getUrls(data)
+  let bareCount = 0
+  for (const url of urls) {
+    try {
+      const u = new URL(url)
+      if (u.pathname === '/' && !u.search) bareCount++
+    } catch { /* invalid URL already caught elsewhere */ }
+  }
+  if (bareCount > 0) {
+    warn(`${file}: ${bareCount} bare domain URLs found (should link to specific articles)`)
+  } else if (urls.length > 0) {
+    ok(`${file}: ${urls.length} source URLs have article paths`)
+  }
+}
+
+// ─────────────────────────────────────────────────
 // SUMMARY
 // ─────────────────────────────────────────────────
 console.log(`\n${BOLD}═══════════════════════════════════════════════════${RESET}`)

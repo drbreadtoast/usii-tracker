@@ -1,4 +1,4 @@
-import { Fuel, TrendingUp, ArrowRight, Info, Calculator } from 'lucide-react'
+import { Fuel, TrendingUp, ArrowRight, Info, Calculator, ExternalLink } from 'lucide-react'
 import data from '../../data/gas-prices.json'
 
 function PriceComparison() {
@@ -288,8 +288,13 @@ export default function GasPriceTracker() {
       <PriceChart />
       <BreakdownTable />
       <ContextNote />
-      <div className="text-[8px] text-gray-700 text-right px-1">
-        Updated: {new Date(data.lastUpdated).toLocaleString()}
+      <div className="flex items-center justify-between text-[8px] text-gray-700 px-1">
+        <div className="flex items-center gap-2">
+          <span className="text-gray-600">Data:</span>
+          <a href="https://gasprices.aaa.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">AAA Gas Prices <ExternalLink size={7} /></a>
+          <a href="https://www.eia.gov/petroleum/gasdiesel/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">EIA <ExternalLink size={7} /></a>
+        </div>
+        <span>Updated: {new Date(data.lastUpdated).toLocaleString()}</span>
       </div>
     </div>
   )

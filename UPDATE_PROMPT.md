@@ -242,6 +242,24 @@ Replace `X` with the current conflict day number and include a brief summary of 
 9. **Update ALL `lastUpdated` timestamps** in every file you touch
 10. **Pre-war baseline prices NEVER change** — only update `current` values
 
+## SOURCE URL QUALITY RULES (CRITICAL)
+
+These rules ensure every source on the site is accurate and clickable:
+
+1. **NEVER use bare domain URLs** — `https://reuters.com` is NOT acceptable. Use the specific article URL like `https://www.reuters.com/world/middle-east/iran-war-day-11-2026-03-10/`
+2. **NEVER use section-level URLs** — `https://reuters.com/world/middle-east/` is NOT a valid source for a specific event. Find the actual article.
+3. **ALL `sources[]` entries MUST be objects** — Format: `{"name": "Reuters", "url": "https://..."}`
+4. **NEVER use plain string arrays for sources** — `["Reuters", "CNN"]` is NOT valid. Use `[{"name": "Reuters", "url": "..."}, {"name": "CNN", "url": "..."}]`
+5. **For media-perspectives.json** — every outlet MUST link to a specific article, NOT the outlet's homepage
+6. **Source validation is part of `npm run deploy:check`** — the build will warn about bare domain URLs and missing sources
+7. **breaking.json source format** — ALL entries use `sources: [{name, url}]` format. No exceptions.
+
+## TIMESTAMP RULES
+
+1. **NEVER manually guess UTC timestamps** — Use the actual current time
+2. **To get current UTC time:** Check the output of `stamp-version.js` during build, or calculate from current Pacific time (PDT = UTC-7, PST = UTC-8)
+3. **`lastUpdated` must reflect the actual time of the update**, not a round number
+
 ---
 
 ## QUALITY CHECKLIST

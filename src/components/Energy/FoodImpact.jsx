@@ -1,4 +1,4 @@
-import { Wheat, ArrowRight, Info } from 'lucide-react'
+import { Wheat, ArrowRight, Info, ExternalLink } from 'lucide-react'
 import data from '../../data/food-prices.json'
 
 function GrocerySummary() {
@@ -94,8 +94,16 @@ export default function FoodImpact() {
       <GrocerySummary />
       <CommodityTable />
       <ContextNote />
-      <div className="text-[8px] text-gray-700 text-right px-1">
-        Updated: {new Date(data.lastUpdated).toLocaleString()}
+      <div className="flex items-center justify-between text-[8px] text-gray-700 px-1">
+        <div className="flex items-center gap-2">
+          <span className="text-gray-600">Data:</span>
+          <a href="https://www.usda.gov/topics/farming/crop-production" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">USDA <ExternalLink size={7} /></a>
+          <a href="https://www.cmegroup.com/markets/agriculture.html" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">CME Group <ExternalLink size={7} /></a>
+          {data.fertilizer?.sourceUrl && (
+            <a href={data.fertilizer.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">{data.fertilizer.source || 'Bloomberg'} <ExternalLink size={7} /></a>
+          )}
+        </div>
+        <span>Updated: {new Date(data.lastUpdated).toLocaleString()}</span>
       </div>
     </div>
   )

@@ -52,7 +52,11 @@ function PartyRow({ party, isExpanded, onToggle }) {
             </div>
             {party.confirmed.source && (
               <p className="text-[9px] text-gray-600 mt-1">
-                Source: {party.confirmed.source}
+                Source: {party.confirmed.sourceUrl ? (
+                  <a href={party.confirmed.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    {party.confirmed.source} <ExternalLink size={8} className="inline" />
+                  </a>
+                ) : party.confirmed.source}
               </p>
             )}
           </div>
@@ -86,7 +90,11 @@ function PartyRow({ party, isExpanded, onToggle }) {
                 )}
                 {party.estimated.source && (
                   <p className="text-[9px] text-gray-600 mt-0.5">
-                    Source: {party.estimated.source}
+                    Source: {party.estimated.sourceUrl ? (
+                      <a href={party.estimated.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        {party.estimated.source} <ExternalLink size={8} className="inline" />
+                      </a>
+                    ) : party.estimated.source}
                   </p>
                 )}
               </div>

@@ -1,4 +1,4 @@
-import { Anchor, Ship, AlertTriangle, Clock, ShieldAlert, Waves, Skull, Ban } from 'lucide-react'
+import { Anchor, Ship, AlertTriangle, Clock, ShieldAlert, Waves, Skull, Ban, ExternalLink } from 'lucide-react'
 import data from '../../data/hormuz-shipping.json'
 
 const statusColors = {
@@ -178,9 +178,17 @@ export default function HormuzStatus() {
       <Timeline />
       <ImpactTable />
       <NaviesPresent />
-      <div className="flex items-center justify-between text-[8px] text-gray-700 px-1">
-        <span>Insurance: {data.statistics.insuranceStatus.toUpperCase()}</span>
-        <span>Updated: {new Date(data.lastUpdated).toLocaleString()}</span>
+      <div className="space-y-1 px-1">
+        <div className="flex items-center gap-2 text-[8px] text-gray-700">
+          <span className="text-gray-600">Data:</span>
+          <a href="https://www.lloydslist.com/LL1149520/Shipping-disruption-tracker" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">Lloyd's List <ExternalLink size={7} /></a>
+          <a href="https://www.marinetraffic.com/en/ais/home" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">MarineTraffic <ExternalLink size={7} /></a>
+          <a href="https://www.reuters.com/business/energy/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">Reuters Energy <ExternalLink size={7} /></a>
+        </div>
+        <div className="flex items-center justify-between text-[8px] text-gray-700">
+          <span>Insurance: {data.statistics.insuranceStatus.toUpperCase()}</span>
+          <span>Updated: {new Date(data.lastUpdated).toLocaleString()}</span>
+        </div>
       </div>
     </div>
   )
