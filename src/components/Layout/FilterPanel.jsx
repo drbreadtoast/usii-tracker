@@ -10,8 +10,9 @@ export default function FilterPanel({
   toggleAllTypes, toggleAllStatuses, toggleAllCountries,
   setShowOnlyMajor, setSearchQuery,
   setShowBases, setShowMissileStrikes,
+  initialExpanded = false,
 }) {
-  const [isExpanded, setIsExpanded] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(initialExpanded)
 
   return (
     <div className="bg-gray-900 border-b border-gray-800">

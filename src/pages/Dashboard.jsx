@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers } from 'lucide-react'
+import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
 import Header from '../components/Layout/Header'
 import BreakingBanner from '../components/Layout/BreakingBanner'
 import WorldClocks from '../components/Layout/WorldClocks'
@@ -41,6 +41,7 @@ export default function Dashboard() {
   const [panelExpanded, setPanelExpanded] = useState(false)
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [mobileView, setMobileView] = useState('map') // 'map' or 'panel' — mobile toggle
+  const [isFilterOpen, setIsFilterOpen] = useState(false)
 
   const filteredEvents = useMemo(() => {
     return filters.filterEvents(events)
@@ -124,25 +125,62 @@ export default function Dashboard() {
             selectedEvent={selectedEvent}
           />
 
-          <button
-            onClick={() => {
-              setIsMapFullscreen(!isMapFullscreen)
-              if (!isMapFullscreen) setIsPanelOpen(false)
-              else setIsPanelOpen(true)
-            }}
-            className="absolute top-3 right-3 z-[1000] bg-gray-900/90 border border-gray-700 rounded-md p-2 text-gray-400 hover:text-white hover:bg-gray-800 transition-colors"
-            title={isMapFullscreen ? 'Exit fullscreen' : 'Fullscreen map'}
-          >
-            {isMapFullscreen ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
-          </button>
-
-          {!isPanelOpen && !isMapFullscreen && (
+          {/* Map control buttons */}
+          <div className="absolute top-3 right-3 z-[1000] flex gap-1.5">
             <button
-              onClick={() => setIsPanelOpen(true)}
-              className="absolute top-3 right-12 z-[1000] bg-gray-900/90 border border-gray-700 rounded-md p-2 text-gray-400 hover:text-white hover:bg-gray-800 transition-colors"
+              onClick={() => setIsFilterOpen(!isFilterOpen)}
+              className={`bg-gray-900/90 border rounded-md p-2 hover:text-white hover:bg-gray-800 transition-colors ${
+                isFilterOpen ? 'border-blue-500 text-blue-400' : 'border-gray-700 text-gray-400'
+              }`}
+              title="Map filters"
             >
-              <ChevronLeft size={16} />
+              <Filter size={16} />
             </button>
+            {!isPanelOpen && !isMapFullscreen && (
+              <button
+                onClick={() => setIsPanelOpen(true)}
+                className="bg-gray-900/90 border border-gray-700 rounded-md p-2 text-gray-400 hover:text-white hover:bg-gray-800 transition-colors"
+              >
+                <ChevronLeft size={16} />
+              </button>
+            )}
+            <button
+              onClick={() => {
+                setIsMapFullscreen(!isMapFullscreen)
+                if (!isMapFullscreen) setIsPanelOpen(false)
+                else setIsPanelOpen(true)
+              }}
+              className="bg-gray-900/90 border border-gray-700 rounded-md p-2 text-gray-400 hover:text-white hover:bg-gray-800 transition-colors"
+              title={isMapFullscreen ? 'Exit fullscreen' : 'Fullscreen map'}
+            >
+              {isMapFullscreen ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
+            </button>
+          </div>
+
+          {/* Filter panel overlay on map */}
+          {isFilterOpen && (
+            <div className="absolute top-14 right-3 z-[1000] w-[300px] bg-gray-900/95 backdrop-blur-sm border border-gray-700 rounded-lg shadow-xl max-h-[70vh] overflow-y-auto">
+              <FilterPanel
+                initialExpanded={true}
+                activeTypes={filters.activeTypes}
+                activeStatuses={filters.activeStatuses}
+                activeCountries={filters.activeCountries}
+                showOnlyMajor={filters.showOnlyMajor}
+                searchQuery={filters.searchQuery}
+                showBases={filters.showBases}
+                showMissileStrikes={filters.showMissileStrikes}
+                toggleType={filters.toggleType}
+                toggleStatus={filters.toggleStatus}
+                toggleCountry={filters.toggleCountry}
+                toggleAllTypes={filters.toggleAllTypes}
+                toggleAllStatuses={filters.toggleAllStatuses}
+                toggleAllCountries={filters.toggleAllCountries}
+                setShowOnlyMajor={filters.setShowOnlyMajor}
+                setSearchQuery={filters.setSearchQuery}
+                setShowBases={filters.setShowBases}
+                setShowMissileStrikes={filters.setShowMissileStrikes}
+              />
+            </div>
           )}
         </div>
 
@@ -224,29 +262,6 @@ export default function Dashboard() {
             {/* Time filter (for events tab) */}
             {activePanel === 'timeline' && (
               <TimeFilter timeFilter={filters.timeFilter} setTimeFilter={filters.setTimeFilter} />
-            )}
-
-            {/* Filters (for events tab) */}
-            {activePanel === 'timeline' && (
-              <FilterPanel
-                activeTypes={filters.activeTypes}
-                activeStatuses={filters.activeStatuses}
-                activeCountries={filters.activeCountries}
-                showOnlyMajor={filters.showOnlyMajor}
-                searchQuery={filters.searchQuery}
-                showBases={filters.showBases}
-                showMissileStrikes={filters.showMissileStrikes}
-                toggleType={filters.toggleType}
-                toggleStatus={filters.toggleStatus}
-                toggleCountry={filters.toggleCountry}
-                toggleAllTypes={filters.toggleAllTypes}
-                toggleAllStatuses={filters.toggleAllStatuses}
-                toggleAllCountries={filters.toggleAllCountries}
-                setShowOnlyMajor={filters.setShowOnlyMajor}
-                setSearchQuery={filters.setSearchQuery}
-                setShowBases={filters.setShowBases}
-                setShowMissileStrikes={filters.setShowMissileStrikes}
-              />
             )}
 
             {/* Panel content */}

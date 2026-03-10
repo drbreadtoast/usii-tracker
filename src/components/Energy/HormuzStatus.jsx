@@ -92,7 +92,7 @@ function Timeline() {
               <div className="flex-1 min-w-0 pb-1">
                 <div className="flex items-center gap-2">
                   <span className="text-[9px] text-gray-600 font-mono shrink-0">
-                    {new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                    {new Date(entry.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                   </span>
                   <span className={`text-[8px] px-1 py-0.5 rounded font-medium ${
                     isBlocked ? 'bg-red-900/50 text-red-400' : 'bg-amber-900/50 text-amber-400'

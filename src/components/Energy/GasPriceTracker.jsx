@@ -150,7 +150,7 @@ function PriceChart() {
                   fill="#4b5563" fontSize="5.5"
                   transform={`rotate(-30, ${cx}, ${padT + plotH + 12})`}
                 >
-                  {new Date(d.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                  {new Date(d.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                 </text>
               )}
             </g>
