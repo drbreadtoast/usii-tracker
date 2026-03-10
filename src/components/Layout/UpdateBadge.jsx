@@ -67,9 +67,9 @@ export default function UpdateBadge({ variant = 'full' }) {
           <span className="text-gray-500 hidden sm:inline">({absolute})</span>
         </div>
       </div>
-      <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1.5 flex items-center justify-center shrink-0">
-        <p className="text-[10px] text-gray-600 text-center">
-          This is an ongoing project (v1.0). Improved daily. Powered by 1 person. You may experience bugs — thank you for your patience.
+      <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center shrink-0">
+        <p className="text-[9px] text-gray-600 text-center">
+          v1.0 — Improved daily by 1 person. Optimized for desktop; mobile improvements ongoing.
         </p>
       </div>
     </>

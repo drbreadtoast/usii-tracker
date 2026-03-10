@@ -1302,8 +1302,8 @@
     "time": "10:00",
     "day": 4,
     "dayLabel": "DAY 4",
-    "title": "US Gas Prices Hit $4.20/Gallon, Up from $3.18 Pre-War",
-    "description": "The national average price of gasoline in the United States climbs to $4.20 per gallon, a 32% increase from the $3.18 average recorded before the conflict began. The spike is driven by the closure of the Strait of Hormuz and panic buying. States in the Northeast and West Coast report prices exceeding $5.00.",
+    "title": "Oil Markets Crash — Brent Crude Surges Past $85/Barrel, Gas Prices Beginning to Rise",
+    "description": "Crude oil prices surge past $85/barrel as the Hormuz blockade takes hold. US national average gas prices remain near $3.12/gallon (AAA) as pump prices lag crude by 1-2 weeks, but analysts project sharp increases ahead. Wholesale gasoline futures spike, signaling imminent price increases. States prepare emergency price gouging protections.",
     "actor": "multiple",
     "type": "economic",
     "verificationStatus": "confirmed",
@@ -1488,8 +1488,8 @@
     "time": "16:00",
     "day": 5,
     "dayLabel": "DAY 5",
-    "title": "US Gas Prices Reach $4.35/Gallon",
-    "description": "US gas prices continue their rapid ascent, reaching a national average of $4.35 per gallon. The Department of Energy announces the release of 30 million barrels from the Strategic Petroleum Reserve in an attempt to stabilize prices. Analysts warn the SPR release will provide only temporary relief without Hormuz reopening.",
+    "title": "DOE Releases 30M Barrels from Strategic Petroleum Reserve as Crude Hits $95",
+    "description": "With Brent crude reaching $95/barrel, the Department of Energy announces the release of 30 million barrels from the Strategic Petroleum Reserve. US national average gas at $3.22/gallon (AAA) — pump prices lag crude by 1-2 weeks but projected to reach $4+/gal. Analysts warn SPR release provides only temporary relief without Hormuz reopening.",
     "actor": "us",
     "type": "economic",
     "verificationStatus": "confirmed",
@@ -1616,8 +1616,8 @@
     "time": "10:00",
     "day": 6,
     "dayLabel": "DAY 6",
-    "title": "US Gas Prices Hit $4.49/Gallon \u2014 Highest Since War Began",
-    "description": "The national average gasoline price reaches $4.49 per gallon, the highest level since the conflict began and approaching the all-time record. Long lines form at gas stations in major cities as consumers engage in panic buying. Several states implement emergency price gouging protections.",
+    "title": "Brent Crude Tops $100/Barrel — Pump Prices Climbing, Analysts Warn of $4+/Gallon",
+    "description": "Brent crude breaks through $100/barrel for the first time since the Hormuz blockade began. US national average gas at $3.28/gallon (AAA) and rising. Pump prices lag crude oil by 1-2 weeks. GasBuddy's Patrick De Haan projects $3.50-3.65 before stabilizing; Eurasia Group's Ian Bremmer warns of $4/gal next week. Long lines at gas stations in major cities as consumers engage in panic buying.",
     "actor": "multiple",
     "type": "economic",
     "verificationStatus": "confirmed",
@@ -2407,5 +2407,55 @@
       "iran": "Trump's arrogant statements about choosing Iran's leader prove this is a colonial war of regime change, not self-defense"
     },
     "significance": "critical"
+  },
+  {
+    "id": "tl-078",
+    "date": "2026-03-06",
+    "time": "11:30",
+    "day": 7,
+    "dayLabel": "DAY 7",
+    "title": "Iran Claims Capture of US RQ-4 Global Hawk Drone Over Persian Gulf",
+    "description": "Iran's IRGC Navy announced it had intercepted and captured a US RQ-4 Global Hawk surveillance drone operating over the northern Persian Gulf. CENTCOM has not confirmed the claim. If verified, this would be the second time Iran has downed a US Global Hawk, after the June 2019 incident that nearly triggered US strikes.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "likely",
+    "factCheck": "partially_verified",
+    "factCheckNote": "IRGC released footage of drone wreckage; CENTCOM neither confirmed nor denied the loss",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/"
+      },
+      {
+        "name": "IRNA",
+        "url": "https://www.irna.ir/news/85856789/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-079",
+    "date": "2026-03-07",
+    "time": "15:00",
+    "day": 8,
+    "dayLabel": "DAY 8",
+    "title": "IRGC Drone Strikes Hit Oil Tankers Prima and Louise P in Persian Gulf",
+    "description": "IRGC naval forces claimed strikes on the oil tanker MV Prima in the central Persian Gulf and the US-flagged oil tanker Louise P near the Strait of Hormuz using armed drones. Both vessels reported damage but remained afloat. The attacks brought the total of commercial vessels damaged in the Hormuz blockade to 8.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Maritime tracking data confirmed both vessels took evasive action; satellite imagery showed damage consistent with drone strikes",
+    "sources": [
+      {
+        "name": "Lloyd's List",
+        "url": "https://www.lloydslist.com/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/"
+      }
+    ],
+    "significance": "high"
   }
 ]

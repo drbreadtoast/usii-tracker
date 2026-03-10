@@ -80,7 +80,7 @@ const CONTRADICTIONS = [
     title: '"American Security Interests" vs. Actual Impact on Americans',
     claim: 'Officials stated the operation serves "vital American security interests" and protects "the American people."',
     claimSource: 'Presidential Address, Feb 28 2026; NSC Briefing, Mar 1 2026',
-    fact: 'Since operations began: US stock markets lost ~$3.2 trillion in value. Oil prices surged 29%, gas prices up 41% ($3.18 to $4.49/gal). The Strait of Hormuz is blocked (20% of global oil). 6 US service members killed. 47 wounded. No Iranian attack on US soil preceded the intervention.',
+    fact: 'Since operations began: US stock markets lost ~$3.2 trillion in value. Oil prices surged 52% (Brent crude hit $119.50/bbl intraday), gas prices up 9.4% ($3.18 to $3.48/gal per AAA, projected to reach $4+/gal as pump prices lag crude by 1-2 weeks). The Strait of Hormuz is blocked (20% of global oil). 8 US service members killed. 47 wounded. No Iranian attack on US soil preceded the intervention.',
     factSource: 'NYSE/NASDAQ data; EIA gas price tracker; DoD casualty reports, Mar 1-6 2026',
     significance: 'The measurable impacts on American economic security, energy costs, and military casualties contrast with claims of protecting American interests.',
   },
@@ -97,18 +97,18 @@ const CONTRADICTIONS = [
 
 // Netanyahu's repeated nuclear weapons claims — documented with dates and sources
 const NETANYAHU_CLAIMS = [
-  { id: 'nc-01', year: 1992, date: '1992-01-20', claim: 'Iran will have nuclear weapons within 3 to 5 years, and must be stopped.', context: 'Statement as member of Knesset, Israeli parliament', source: 'Israeli media reports; AP wire', sourceUrl: '#', yearsAgo: 34 },
-  { id: 'nc-02', year: 1995, date: '1995-01-01', claim: 'Iran is 3-5 years from producing a nuclear weapon. We cannot wait for the world to act.', context: 'Published in his book "Fighting Terrorism" (1995 edition)', source: '"Fighting Terrorism" by Benjamin Netanyahu, 1995', sourceUrl: '#', yearsAgo: 31 },
-  { id: 'nc-03', year: 1996, date: '1996-07-10', claim: 'If Iran is not stopped, it will have the bomb within 3-5 years.', context: 'Address to a joint session of the US Congress', source: 'Congressional Record, July 10, 1996', sourceUrl: '#', yearsAgo: 30 },
-  { id: 'nc-04', year: 2002, date: '2002-09-12', claim: 'Iran is developing nuclear weapons and will have them very soon.', context: 'Testimony to US Congress urging action against Iran', source: 'House Government Reform Committee testimony, Sep 12, 2002', sourceUrl: '#', yearsAgo: 24 },
-  { id: 'nc-05', year: 2009, date: '2009-09-24', claim: 'Iran is on the verge of obtaining a nuclear weapon. The time for action is now.', context: 'Address to the UN General Assembly', source: 'UN General Assembly records, Sep 24, 2009', sourceUrl: '#', yearsAgo: 17 },
-  { id: 'nc-06', year: 2012, date: '2012-09-27', claim: 'Iran will have enough enriched uranium for a nuclear weapon by next spring or summer.', context: 'Famous UN speech with diagram of a bomb and red line drawn at 90% enrichment', source: 'UN General Assembly address, Sep 27, 2012 (televised globally)', sourceUrl: '#', yearsAgo: 14 },
-  { id: 'nc-07', year: 2013, date: '2013-10-01', claim: 'Iran is building ICBMs to carry nuclear warheads. Do not be fooled by their diplomatic overtures.', context: 'UN General Assembly speech opposing Rouhani diplomatic outreach', source: 'UN General Assembly records, Oct 1, 2013', sourceUrl: '#', yearsAgo: 13 },
-  { id: 'nc-08', year: 2015, date: '2015-03-03', claim: 'This deal does not block Iran\'s path to the bomb — it paves it.', context: 'Unprecedented address to US Congress (without presidential invitation) opposing JCPOA nuclear deal', source: 'Congressional Record, Mar 3, 2015; C-SPAN', sourceUrl: '#', yearsAgo: 11 },
-  { id: 'nc-09', year: 2018, date: '2018-04-30', claim: 'Iran lied about its nuclear program. I have proof — 100,000 secret files from inside Iran.', context: 'Televised presentation of alleged "Atomic Archive" seized by Mossad', source: 'Israeli PM press conference, Apr 30, 2018; IAEA subsequent assessment', sourceUrl: '#', yearsAgo: 8 },
-  { id: 'nc-10', year: 2021, date: '2021-09-27', claim: 'Iran\'s nuclear weapons program is at a critical point. The world must act now or face a nuclear-armed Iran.', context: 'UN General Assembly address showing satellite photos of alleged nuclear sites', source: 'UN General Assembly records, Sep 27, 2021', sourceUrl: '#', yearsAgo: 5 },
-  { id: 'nc-11', year: 2024, date: '2024-09-27', claim: 'Iran is months away from having the material for an entire arsenal of nuclear weapons.', context: 'UN General Assembly address with new satellite imagery', source: 'UN General Assembly records, Sep 27, 2024', sourceUrl: '#', yearsAgo: 2 },
-  { id: 'nc-12', year: 2025, date: '2025-06-12', claim: 'Intelligence confirms Iran\'s nuclear breakout is imminent. Israel will not wait.', context: 'Statement one day before launching Operation Rising Lion strikes on Iranian nuclear facilities', source: 'Israeli PM statement, Jun 12, 2025; Reuters', sourceUrl: '#', yearsAgo: 1 },
+  { id: 'nc-01', year: 1992, date: '1992-01-20', claim: 'Iran will have nuclear weapons within 3 to 5 years, and must be stopped.', context: 'Statement as member of Knesset, Israeli parliament', source: 'Israeli media reports; AP wire', sourceUrl: '#', yearsAgo: 34, title: 'Member of Knesset' },
+  { id: 'nc-02', year: 1995, date: '1995-01-01', claim: 'Iran is 3-5 years from producing a nuclear weapon. We cannot wait for the world to act.', context: 'Published in his book "Fighting Terrorism" (1995 edition)', source: '"Fighting Terrorism" by Benjamin Netanyahu, 1995', sourceUrl: 'https://www.google.com/books/edition/Fighting_Terrorism/lHWODwAAQBAJ', yearsAgo: 31, title: 'Member of Knesset, Likud Leader' },
+  { id: 'nc-03', year: 1996, date: '1996-07-10', claim: 'If Iran is not stopped, it will have the bomb within 3-5 years.', context: 'Address to a joint session of the US Congress', source: 'Congressional Record, July 10, 1996', sourceUrl: 'https://www.congress.gov/congressional-record', yearsAgo: 30, title: 'Prime Minister of Israel' },
+  { id: 'nc-04', year: 2002, date: '2002-09-12', claim: 'Iran is developing nuclear weapons and will have them very soon.', context: 'Testimony to US Congress urging action against Iran', source: 'House Government Reform Committee testimony, Sep 12, 2002', sourceUrl: 'https://www.c-span.org/program/public-affairs-event/iraq/170498', yearsAgo: 24, title: 'Former Prime Minister of Israel' },
+  { id: 'nc-05', year: 2009, date: '2009-09-24', claim: 'Iran is on the verge of obtaining a nuclear weapon. The time for action is now.', context: 'Address to the UN General Assembly', source: 'UN General Assembly records, Sep 24, 2009', sourceUrl: 'https://gadebate.un.org/en/64/israel', yearsAgo: 17, title: 'Prime Minister of Israel' },
+  { id: 'nc-06', year: 2012, date: '2012-09-27', claim: 'Iran will have enough enriched uranium for a nuclear weapon by next spring or summer.', context: 'Famous UN speech with diagram of a bomb and red line drawn at 90% enrichment', source: 'UN General Assembly address, Sep 27, 2012 (televised globally)', sourceUrl: 'https://gadebate.un.org/en/67/israel', yearsAgo: 14, title: 'Prime Minister of Israel' },
+  { id: 'nc-07', year: 2013, date: '2013-10-01', claim: 'Iran is building ICBMs to carry nuclear warheads. Do not be fooled by their diplomatic overtures.', context: 'UN General Assembly speech opposing Rouhani diplomatic outreach', source: 'UN General Assembly records, Oct 1, 2013', sourceUrl: 'https://gadebate.un.org/en/68/israel', yearsAgo: 13, title: 'Prime Minister of Israel' },
+  { id: 'nc-08', year: 2015, date: '2015-03-03', claim: 'This deal does not block Iran\'s path to the bomb — it paves it.', context: 'Unprecedented address to US Congress (without presidential invitation) opposing JCPOA nuclear deal', source: 'Congressional Record, Mar 3, 2015; C-SPAN', sourceUrl: 'https://www.c-span.org/program/special/israeli-prime-minister-address-to-congress/406849', yearsAgo: 11, title: 'Prime Minister of Israel' },
+  { id: 'nc-09', year: 2018, date: '2018-04-30', claim: 'Iran lied about its nuclear program. I have proof — 100,000 secret files from inside Iran.', context: 'Televised presentation of alleged "Atomic Archive" seized by Mossad', source: 'Israeli PM press conference, Apr 30, 2018; IAEA subsequent assessment', sourceUrl: 'https://www.gov.il/en/pages/event_iran300418', yearsAgo: 8, title: 'Prime Minister of Israel' },
+  { id: 'nc-10', year: 2021, date: '2021-09-27', claim: 'Iran\'s nuclear weapons program is at a critical point. The world must act now or face a nuclear-armed Iran.', context: 'Public statement with satellite photos of alleged nuclear sites', source: 'Official statement, Sep 2021', sourceUrl: '#', yearsAgo: 5, title: 'Leader of the Opposition' },
+  { id: 'nc-11', year: 2024, date: '2024-09-27', claim: 'Iran is months away from having the material for an entire arsenal of nuclear weapons.', context: 'UN General Assembly address with new satellite imagery', source: 'UN General Assembly records, Sep 27, 2024', sourceUrl: 'https://gadebate.un.org/en/79/israel', yearsAgo: 2, title: 'Prime Minister of Israel' },
+  { id: 'nc-12', year: 2025, date: '2025-06-12', claim: 'Intelligence confirms Iran\'s nuclear breakout is imminent. Israel will not wait.', context: 'Statement one day before launching Operation Rising Lion strikes on Iranian nuclear facilities', source: 'Israeli PM statement, Jun 12, 2025; Reuters', sourceUrl: '#', yearsAgo: 1, title: 'Prime Minister of Israel' },
 ]
 
 // Iran's JCPOA compliance record
@@ -141,11 +141,18 @@ function NetanyahuClaimCard({ item }) {
       </button>
       {expanded && (
         <div className="px-4 pb-3 space-y-2 ml-[52px]">
+          <p className="text-[10px] text-orange-300 font-semibold">— Benjamin Netanyahu, {item.title || 'Prime Minister of Israel'}</p>
           <p className="text-xs text-gray-400">{item.context}</p>
-          <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 bg-blue-950/30 px-1.5 py-0.5 rounded">
-            {item.source} <ExternalLink size={8} />
-          </a>
+          {item.sourceUrl && item.sourceUrl !== '#' ? (
+            <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 bg-blue-950/30 px-1.5 py-0.5 rounded">
+              {item.source} <ExternalLink size={8} />
+            </a>
+          ) : (
+            <span className="inline-flex items-center gap-1 text-[10px] text-gray-500 bg-gray-800/50 px-1.5 py-0.5 rounded">
+              {item.source}
+            </span>
+          )}
         </div>
       )}
     </div>

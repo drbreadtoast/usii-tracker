@@ -1,5 +1,7 @@
 import { useEffect, useRef, useCallback } from 'react'
+import L from 'leaflet'
 import { MapContainer, TileLayer, Marker, Popup, Tooltip, ZoomControl, GeoJSON, useMap } from 'react-leaflet'
+import MarkerClusterGroup from 'react-leaflet-cluster'
 import { createEventIcon, createBaseIcon, createHormuzIcon, createStrikeIcon, createInvolvementIcon, createAssetIcon } from '../../utils/markers'
 import { EVENT_COLORS, VERIFICATION_COLORS, COUNTRY_COLORS, INVOLVEMENT_LEVELS } from '../../utils/colors'
 import { formatTimestamp, formatFullTimestamp, getVerificationDescription } from '../../utils/verification'
@@ -100,6 +102,37 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
           onEachFeature={onEachCountry}
         />
 
+        <MarkerClusterGroup
+          chunkedLoading
+          maxClusterRadius={35}
+          spiderfyOnMaxZoom={true}
+          showCoverageOnHover={false}
+          zoomToBoundsOnClick={true}
+          disableClusteringAtZoom={10}
+          iconCreateFunction={(cluster) => {
+            const count = cluster.getChildCount()
+            const size = count < 10 ? 'small' : count < 30 ? 'medium' : 'large'
+            const sizeMap = { small: 30, medium: 40, large: 50 }
+            return L.divIcon({
+              html: `<div style="
+                background: rgba(239, 68, 68, 0.85);
+                border: 2px solid rgba(239, 68, 68, 0.5);
+                border-radius: 50%;
+                width: ${sizeMap[size]}px;
+                height: ${sizeMap[size]}px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-weight: bold;
+                font-size: ${size === 'large' ? 14 : 12}px;
+                box-shadow: 0 0 12px rgba(239, 68, 68, 0.4);
+              ">${count}</div>`,
+              className: 'custom-cluster-icon',
+              iconSize: L.point(sizeMap[size], sizeMap[size]),
+            })
+          }}
+        >
         {events.map((event) => {
           const isRecent = (NOW - new Date(event.timestamp).getTime()) < DAY_MS
           return (
@@ -186,6 +219,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
           </Marker>
           )
         })}
+        </MarkerClusterGroup>
 
         {/* US Military Bases with hover tooltips */}
         {showBases && basesData.map((base) => (
@@ -224,6 +258,36 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
           </Marker>
         ))}
         {/* Missile Strike Markers */}
+        <MarkerClusterGroup
+          chunkedLoading
+          maxClusterRadius={30}
+          spiderfyOnMaxZoom={true}
+          showCoverageOnHover={false}
+          zoomToBoundsOnClick={true}
+          disableClusteringAtZoom={10}
+          iconCreateFunction={(cluster) => {
+            const count = cluster.getChildCount()
+            const size = count < 10 ? 30 : count < 30 ? 40 : 50
+            return L.divIcon({
+              html: `<div style="
+                background: rgba(249, 115, 22, 0.85);
+                border: 2px solid rgba(249, 115, 22, 0.5);
+                border-radius: 50%;
+                width: ${size}px;
+                height: ${size}px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-weight: bold;
+                font-size: 12px;
+                box-shadow: 0 0 12px rgba(249, 115, 22, 0.4);
+              ">${count}</div>`,
+              className: 'custom-cluster-icon',
+              iconSize: L.point(size, size),
+            })
+          }}
+        >
         {showMissileStrikes && missileStrikesData.map((strike) => {
           const attacker = COUNTRY_COLORS[strike.attributedTo]
           return (
@@ -277,6 +341,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
             </Marker>
           )
         })}
+        </MarkerClusterGroup>
 
         {/* Global Involvement Markers (Russia, China, EU, France, Germany) */}
         {globalInvolvementData.map((inv) => (

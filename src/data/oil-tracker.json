@@ -384,16 +384,16 @@
         "type": "Regular Gasoline",
         "icon": "⛽",
         "preWar": {
-          "price": 2.98,
+          "price": 3.18,
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.25,
+          "price": 3.48,
           "date": "2026-03-09"
         },
-        "change": "+$1.27",
-        "changePercent": "+42.6%",
-        "detail": "National average surged to $4.25/gal from pre-war $2.98/gal per AAA. California at $5.89/gal, Oklahoma at $3.45/gal. Biggest sustained price increase since 2008 commodities superspike.",
+        "change": "+$0.30",
+        "changePercent": "+9.4%",
+        "detail": "AAA national average at $3.48/gal (up from pre-war $3.18). Pump prices lag crude oil by 1-2 weeks. California at $5.20/gal. Analysts project $4+/gal within days if Hormuz stays closed. GasBuddy's De Haan forecasts $3.50-3.65 before stabilizing.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -510,8 +510,8 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices surged to $4.25/gallon — up $1.27 from pre-war $2.98/gal, a 42.6% increase in 10 days",
-      "detail": "The national average gasoline price surged from ~$2.98 to $4.25 per gallon as of March 9, per AAA. California at $5.89/gal. Wholesale gasoline futures indicate further increases as Hormuz closure persists. Brent crude hit $119.50 intraday on March 9 before settling at $103.47.",
+      "fact": "US gasoline prices at $3.48/gallon — up 9.4% from pre-war $3.18/gal, with pump prices lagging crude by 1-2 weeks",
+      "detail": "AAA national average at $3.48/gal as of March 9. Pump prices lag crude oil movements by 1-2 weeks. Analysts project $4+/gal within days as the Brent crude surge ($119.50 intraday, settling at $103.47) works through the supply chain. California already at $5.20/gal.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     }

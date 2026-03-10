@@ -35,7 +35,7 @@ export default function Dashboard() {
   const { events, socialPosts, breakingNews, deathToll, stats, metadata, refresh } = useEvents()
   const filters = useFilters()
 
-  const [activePanel, setActivePanel] = useState('timeline')
+  const [activePanel, setActivePanel] = useState('escalations')
   const [isPanelOpen, setIsPanelOpen] = useState(true)
   const [isMapFullscreen, setIsMapFullscreen] = useState(false)
   const [panelExpanded, setPanelExpanded] = useState(false)
@@ -70,8 +70,8 @@ export default function Dashboard() {
   }
 
   const TABS = [
-    { id: 'timeline', label: 'Events', icon: List, color: 'red', route: '/events' },
     { id: 'escalations', label: 'Escal.', icon: AlertOctagon, color: 'orange', route: '/escalations' },
+    { id: 'timeline', label: 'Events', icon: List, color: 'red', route: '/events' },
     { id: 'social', label: 'Social', icon: MessageCircle, color: 'blue', route: '/social' },
     { id: 'media', label: 'Media', icon: Newspaper, color: 'purple', route: '/media' },
     { id: 'government', label: 'Gov.', icon: Landmark, color: 'cyan', route: '/government' },
