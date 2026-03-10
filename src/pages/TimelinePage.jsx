@@ -1,10 +1,15 @@
 import { useState, useMemo, useEffect } from 'react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import EventTimeline from '../components/Timeline/EventTimeline'
+import FilterPanel from '../components/Layout/FilterPanel'
+import TimeFilter from '../components/Layout/TimeFilter'
+import { useEvents } from '../hooks/useEvents'
+import { useFilters } from '../hooks/useFilters'
 import {
   Clock, Shield, AlertTriangle, HelpCircle, ChevronDown, ChevronUp,
   ExternalLink, Swords, Handshake, Megaphone, DollarSign, Heart,
   CheckCircle2, AlertCircle, XCircle, MinusCircle, Filter, Radio, Scale,
-  ZoomIn, ZoomOut, Minus, ArrowUpDown
+  ZoomIn, ZoomOut, Minus, ArrowUpDown, List, Database
 } from 'lucide-react'
 import timelineData from '../data/war-timeline.json'
 
@@ -540,6 +545,7 @@ function DayHeader({ dayLabel, date, count }) {
 }
 
 export default function TimelinePage() {
+  const [viewTab, setViewTab] = useState('timeline') // 'timeline' | 'events'
   const [activeTypes, setActiveTypes] = useState(new Set(Object.keys(TYPE_INFO)))
   const [activeActors, setActiveActors] = useState(new Set(Object.keys(ACTOR_COLORS)))
   const [showFilters, setShowFilters] = useState(false)
@@ -547,6 +553,13 @@ export default function TimelinePage() {
   const [zoomLevel, setZoomLevel] = useState('detailed') // 'detailed' | 'summary' | 'overview'
   const [sortOrder, setSortOrder] = useState('newest') // 'newest' | 'oldest'
   const [expandedDays, setExpandedDays] = useState(new Set())
+
+  // Events tab data (from useEvents + useFilters hooks)
+  const { events: eventsData } = useEvents()
+  const filters = useFilters()
+  const filteredEvents = useMemo(() => {
+    return filters.filterEvents(eventsData)
+  }, [eventsData, filters.filterEvents])
 
   // Group events by day
   const grouped = useMemo(() => {
@@ -601,6 +614,108 @@ export default function TimelinePage() {
 
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
+      {/* View Tab Bar */}
+      <div className="bg-gray-900 border-b border-gray-800 shrink-0">
+        <div className="max-w-5xl mx-auto flex items-center">
+          <button
+            onClick={() => setViewTab('timeline')}
+            className={`flex items-center gap-1.5 px-4 py-2.5 text-xs font-semibold transition-all ${
+              viewTab === 'timeline'
+                ? 'text-blue-400 border-b-2 border-blue-400 bg-gray-800/40'
+                : 'text-gray-500 hover:text-gray-300 hover:bg-gray-800/20'
+            }`}
+          >
+            <Radio size={13} />
+            War Timeline
+            <span className="text-[9px] text-gray-600 bg-gray-800 px-1.5 py-0.5 rounded-full ml-1">
+              {timelineData.length}
+            </span>
+          </button>
+          <button
+            onClick={() => setViewTab('events')}
+            className={`flex items-center gap-1.5 px-4 py-2.5 text-xs font-semibold transition-all ${
+              viewTab === 'events'
+                ? 'text-red-400 border-b-2 border-red-400 bg-gray-800/40'
+                : 'text-gray-500 hover:text-gray-300 hover:bg-gray-800/20'
+            }`}
+          >
+            <Database size={13} />
+            Events Database
+            <span className="text-[9px] text-gray-600 bg-gray-800 px-1.5 py-0.5 rounded-full ml-1">
+              {eventsData.length}
+            </span>
+          </button>
+        </div>
+      </div>
+
+      {/* === EVENTS DATABASE TAB === */}
+      {viewTab === 'events' && (
+        <div className="max-w-5xl mx-auto">
+          <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
+            <div className="flex items-center justify-between">
+              <h1 className="text-sm font-bold text-gray-300">Events Database</h1>
+              <span className="text-xs text-gray-500">{filteredEvents.length} of {eventsData.length} events</span>
+            </div>
+          </header>
+          <div className="px-6 pt-4 pb-2">
+            <div className="bg-gray-900 border border-gray-800 rounded-lg p-4 mb-4">
+              <div className="flex items-start gap-3">
+                <Database size={18} className="text-red-400 shrink-0 mt-0.5" />
+                <div>
+                  <h2 className="text-sm font-bold text-gray-200">All Tracked Conflict Events</h2>
+                  <p className="text-xs text-gray-400 mt-1 leading-relaxed">
+                    Filter and browse all verified events in the Iran-Israel conflict.
+                    Use the filters below to narrow by type, country, verification status, and time range.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="px-6">
+            <TimeFilter timeFilter={filters.timeFilter} setTimeFilter={filters.setTimeFilter} />
+            <FilterPanel
+              activeTypes={filters.activeTypes}
+              activeStatuses={filters.activeStatuses}
+              activeCountries={filters.activeCountries}
+              showOnlyMajor={filters.showOnlyMajor}
+              searchQuery={filters.searchQuery}
+              showBases={filters.showBases}
+              showMissileStrikes={filters.showMissileStrikes}
+              toggleType={filters.toggleType}
+              toggleStatus={filters.toggleStatus}
+              toggleCountry={filters.toggleCountry}
+              toggleAllTypes={filters.toggleAllTypes}
+              toggleAllStatuses={filters.toggleAllStatuses}
+              toggleAllCountries={filters.toggleAllCountries}
+              setShowOnlyMajor={filters.setShowOnlyMajor}
+              setSearchQuery={filters.setSearchQuery}
+              setShowBases={filters.setShowBases}
+              setShowMissileStrikes={filters.setShowMissileStrikes}
+            />
+          </div>
+          <div className="px-6 pb-12" style={{ minHeight: '60vh' }}>
+            <EventTimeline events={filteredEvents} onEventSelect={() => {}} />
+          </div>
+          <footer className="bg-gray-900 border-t border-gray-800">
+            <UpdateBadge />
+            <div className="px-6 py-4">
+              <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
+                <div className="flex items-center gap-2">
+                  <span className="font-bold text-gray-500">USII Tracker</span>
+                  <span>Iran-Israel Conflict Tracker</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <Shield size={10} />
+                  <span>Events verified where possible. Unverified events clearly marked.</span>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      )}
+
+      {/* === WAR TIMELINE TAB === */}
+      {viewTab === 'timeline' && (<>
       {/* Header */}
       <header className="bg-gray-900/50 border-b border-gray-800 px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
@@ -915,6 +1030,7 @@ export default function TimelinePage() {
           </div>
         </div>
       </footer>
+      </>)}
     </div>
   )
 }

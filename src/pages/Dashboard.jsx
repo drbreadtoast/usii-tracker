@@ -71,11 +71,11 @@ export default function Dashboard() {
 
   const TABS = [
     { id: 'escalations', label: 'Escal.', icon: AlertOctagon, color: 'orange', route: '/escalations' },
-    { id: 'timeline', label: 'Events', icon: List, color: 'red', route: '/events' },
+    { id: 'timeline', label: 'Events', icon: List, color: 'red', route: '/timeline' },
     { id: 'social', label: 'Social', icon: MessageCircle, color: 'blue', route: '/social' },
     { id: 'media', label: 'Media', icon: Newspaper, color: 'purple', route: '/media' },
     { id: 'government', label: 'Gov.', icon: Landmark, color: 'cyan', route: '/government' },
-    { id: 'energy', label: 'Energy', icon: Fuel, color: 'amber', route: '/energy' },
+    { id: 'energy', label: 'Energy', icon: Fuel, color: 'amber', route: '/follow-the-oil' },
     { id: 'deaths', label: 'Deaths', icon: Skull, color: 'red', route: '/deaths' },
   ]
 
@@ -233,7 +233,7 @@ export default function Dashboard() {
                 <DollarSign size={9} />Money
               </Link>
               <Link to="/follow-the-oil" className="flex items-center gap-1 text-[9px] text-amber-400 hover:text-amber-300 transition-colors font-medium">
-                <Droplet size={9} />Oil & Gas
+                <Droplet size={9} />Oil, Gas & Energy
               </Link>
               <Link to="/follow-the-munitions" className="flex items-center gap-1 text-[9px] text-orange-400 hover:text-orange-300 transition-colors font-medium">
                 <Target size={9} />Munitions

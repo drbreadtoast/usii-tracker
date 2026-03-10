@@ -75,7 +75,7 @@ export default function UpdateBadge({ variant = 'full' }) {
       </div>
       <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center shrink-0">
         <p className="text-[9px] text-gray-600 text-center">
-          v1.5 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
+          v1.7 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
         </p>
       </div>
     </>

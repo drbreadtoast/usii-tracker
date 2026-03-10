@@ -1,44 +1,40 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, List, AlertOctagon, MessageCircle, Landmark, Fuel, Skull, ChevronLeft, ChevronRight, LayoutGrid, X } from 'lucide-react'
+import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X } from 'lucide-react'
 
 const NAV_LINKS = [
-  { to: '/', label: 'Dashboard', icon: Map, color: 'text-gray-300 hover:text-white' },
-  { to: '/timeline', label: 'Timeline', icon: Clock, color: 'text-blue-400 hover:text-blue-300' },
+  { to: '/', label: 'Home', icon: Map, color: 'text-gray-300 hover:text-white' },
+  { to: '/follow-the-oil', label: 'Oil, Gas & Energy', icon: Droplet, color: 'text-amber-400 hover:text-amber-300' },
   { to: '/breaking-news', label: '24hr Report', icon: Newspaper, color: 'text-red-400 hover:text-red-300' },
-  { to: '/events', label: 'Events', icon: List, color: 'text-red-400 hover:text-red-300' },
-  { to: '/escalations', label: 'Escalations', icon: AlertOctagon, color: 'text-orange-400 hover:text-orange-300' },
+  { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, color: 'text-cyan-400 hover:text-cyan-300' },
+  { to: '/deaths', label: 'Deaths', icon: Skull, color: 'text-red-400 hover:text-red-300' },
+  { to: '/follow-the-damage', label: 'Damage', icon: Flame, color: 'text-orange-400 hover:text-orange-300' },
+  { to: '/follow-the-cost', label: 'Cost', icon: Receipt, color: 'text-purple-400 hover:text-purple-300' },
+  { to: '/follow-the-munitions', label: 'Munitions', icon: Target, color: 'text-orange-400 hover:text-orange-300' },
   { to: '/social', label: 'Social', icon: MessageCircle, color: 'text-blue-400 hover:text-blue-300' },
   { to: '/media', label: 'Media', icon: Newspaper, color: 'text-purple-400 hover:text-purple-300' },
   { to: '/government', label: 'Gov', icon: Landmark, color: 'text-cyan-400 hover:text-cyan-300' },
-  { to: '/energy', label: 'Energy', icon: Fuel, color: 'text-amber-400 hover:text-amber-300' },
-  { to: '/deaths', label: 'Deaths', icon: Skull, color: 'text-red-400 hover:text-red-300' },
+  { to: '/timeline', label: 'Timeline & Events', icon: Clock, color: 'text-blue-400 hover:text-blue-300' },
+  { to: '/escalations', label: 'Escalations', icon: AlertOctagon, color: 'text-orange-400 hover:text-orange-300' },
   { to: '/follow-the-money', label: 'Money', icon: DollarSign, color: 'text-green-400 hover:text-green-300' },
-  { to: '/follow-the-oil', label: 'Oil & Gas', icon: Droplet, color: 'text-amber-400 hover:text-amber-300' },
-  { to: '/follow-the-munitions', label: 'Munitions', icon: Target, color: 'text-orange-400 hover:text-orange-300' },
-  { to: '/follow-the-cost', label: 'Cost', icon: Receipt, color: 'text-purple-400 hover:text-purple-300' },
-  { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, color: 'text-cyan-400 hover:text-cyan-300' },
-  { to: '/follow-the-damage', label: 'Damage', icon: Flame, color: 'text-orange-400 hover:text-orange-300' },
 ]
 
 const EXPLORE_SECTIONS = [
   { title: 'Core Pages', items: [
-    { to: '/', label: 'Map Dashboard', icon: Map, desc: 'Interactive conflict map with live markers' },
+    { to: '/', label: 'Home', icon: Map, desc: 'Interactive conflict map with live markers' },
     { to: '/breaking-news', label: '24hr Report', icon: Newspaper, desc: 'Last 24 hours of verified developments' },
-    { to: '/timeline', label: 'Timeline', icon: Clock, desc: 'Day-by-day war record with fact-checks' },
-    { to: '/events', label: 'Events', icon: List, desc: 'All verified conflict events' },
+    { to: '/timeline', label: 'Timeline & Events', icon: Clock, desc: 'Day-by-day record + event database with fact-checks' },
     { to: '/escalations', label: 'Escalations', icon: AlertOctagon, desc: 'Major turning points in the conflict' },
   ]},
   { title: 'Intelligence', items: [
     { to: '/social', label: 'Social / OSINT', icon: MessageCircle, desc: 'Social media intel & analyst posts' },
     { to: '/media', label: 'Media', icon: Newspaper, desc: 'Coverage comparison across outlets' },
     { to: '/government', label: 'Government', icon: Landmark, desc: 'Official statements from all sides' },
-    { to: '/energy', label: 'Energy', icon: Fuel, desc: 'Gas prices, oil, food & commodity impact' },
     { to: '/deaths', label: 'Deaths', icon: Skull, desc: 'Casualty tracking with sources' },
   ]},
   { title: 'Follow The...', items: [
     { to: '/follow-the-money', label: 'Money', icon: DollarSign, desc: 'Lobbying, funding & financial flows' },
-    { to: '/follow-the-oil', label: 'Oil & Gas', icon: Droplet, desc: 'Oil & gas prices, markets & Hormuz impact' },
+    { to: '/follow-the-oil', label: 'Oil, Gas & Energy', icon: Droplet, desc: 'Oil, gas, food prices, shipping & energy impact' },
     { to: '/follow-the-munitions', label: 'Munitions', icon: Target, desc: 'Weapons used, inventory & expenditure' },
     { to: '/follow-the-cost', label: 'Cost', icon: Receipt, desc: 'Financial cost of the war by country' },
     { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, desc: 'Political statements timeline' },
@@ -166,7 +162,7 @@ export default function NavBar() {
               <div className="flex items-center gap-2">
                 <LayoutGrid size={16} className="text-blue-400" />
                 <span className="text-sm font-bold text-gray-200">Explore USII Tracker</span>
-                <span className="text-[10px] text-gray-600">16 pages</span>
+                <span className="text-[10px] text-gray-600">14 pages</span>
               </div>
               <button onClick={() => setExploreOpen(false)} className="text-gray-500 hover:text-white">
                 <X size={16} />

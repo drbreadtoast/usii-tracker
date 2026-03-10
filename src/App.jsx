@@ -1,18 +1,17 @@
 import { useEffect, useRef } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import BreakingAlert from './components/Layout/BreakingAlert'
 import BreakingBanner from './components/Layout/BreakingBanner'
 import NavBar from './components/Layout/NavBar'
+import UpdateNotification from './components/Layout/UpdateNotification'
 import Dashboard from './pages/Dashboard'
 import TimelinePage from './pages/TimelinePage'
 import FollowTheMoneyPage from './pages/FollowTheMoneyPage'
 import BreakingNewsPage from './pages/BreakingNewsPage'
-import EventsPage from './pages/EventsPage'
 import EscalationsPage from './pages/EscalationsPage'
 import SocialPage from './pages/SocialPage'
 import MediaPage from './pages/MediaPage'
 import GovernmentPage from './pages/GovernmentPage'
-import EnergyPage from './pages/EnergyPage'
 import DeathsPage from './pages/DeathsPage'
 import FollowTheOilPage from './pages/FollowTheOilPage'
 import FollowTheMunitionsPage from './pages/FollowTheMunitionsPage'
@@ -41,12 +40,12 @@ export default function App() {
           <Route path="/timeline" element={<TimelinePage />} />
           <Route path="/follow-the-money" element={<FollowTheMoneyPage />} />
           <Route path="/breaking-news" element={<BreakingNewsPage />} />
-          <Route path="/events" element={<EventsPage />} />
+          <Route path="/events" element={<Navigate to="/timeline" replace />} />
           <Route path="/escalations" element={<EscalationsPage />} />
           <Route path="/social" element={<SocialPage />} />
           <Route path="/media" element={<MediaPage />} />
           <Route path="/government" element={<GovernmentPage />} />
-          <Route path="/energy" element={<EnergyPage />} />
+          <Route path="/energy" element={<Navigate to="/follow-the-oil" replace />} />
           <Route path="/deaths" element={<DeathsPage />} />
           <Route path="/follow-the-oil" element={<FollowTheOilPage />} />
           <Route path="/follow-the-munitions" element={<FollowTheMunitionsPage />} />
@@ -55,6 +54,7 @@ export default function App() {
           <Route path="/follow-the-damage" element={<FollowTheDamagePage />} />
         </Routes>
       </div>
+      <UpdateNotification />
     </div>
   )
 }

@@ -1,8 +1,12 @@
 import { useState, useEffect, useRef } from 'react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import GasPriceTracker from '../components/Energy/GasPriceTracker'
+import HormuzStatus from '../components/Energy/HormuzStatus'
+import FoodImpact from '../components/Energy/FoodImpact'
 import {
   Fuel, Droplet, ChevronDown, ChevronUp, Clock,
-  ExternalLink, Shield, TrendingUp, BarChart3, AlertTriangle
+  ExternalLink, Shield, TrendingUp, BarChart3, AlertTriangle,
+  Zap, ShoppingCart, Anchor
 } from 'lucide-react'
 import oilData from '../data/oil-tracker.json'
 import gasPriceData from '../data/gas-prices.json'
@@ -58,51 +62,56 @@ function SectionHeader({ icon: Icon, iconColor, title, count, timestamp }) {
   )
 }
 
-// --- Live TradingView Ticker ---
+// --- Live TradingView Price Widgets (WTI + Brent side-by-side) ---
 
-function OilGasTicker() {
+function LivePriceWidget({ symbol, title }) {
   const containerRef = useRef(null)
 
   useEffect(() => {
     if (!containerRef.current) return
     containerRef.current.innerHTML = ''
 
+    const widgetContainer = document.createElement('div')
+    widgetContainer.className = 'tradingview-widget-container__widget'
+
     const script = document.createElement('script')
-    script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'
+    script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'
     script.async = true
     script.innerHTML = JSON.stringify({
-      symbols: [
-        { proName: 'TVC:USOIL', title: 'WTI Crude' },
-        { proName: 'TVC:UKOIL', title: 'Brent Crude' },
-        { proName: 'NYMEX:NG1!', title: 'Natural Gas' },
-        { proName: 'NYMEX:RB1!', title: 'Gasoline RBOB' },
-        { proName: 'NYMEX:HO1!', title: 'Heating Oil' },
-      ],
-      showSymbolLogo: true,
+      symbol,
+      width: '100%',
       isTransparent: true,
-      displayMode: 'adaptive',
       colorTheme: 'dark',
       locale: 'en',
     })
 
-    const widgetContainer = document.createElement('div')
-    widgetContainer.className = 'tradingview-widget-container__widget'
     containerRef.current.appendChild(widgetContainer)
     containerRef.current.appendChild(script)
 
     return () => {
       if (containerRef.current) containerRef.current.innerHTML = ''
     }
-  }, [])
+  }, [symbol])
 
+  return (
+    <div className="flex-1 min-w-0">
+      <div ref={containerRef} className="tradingview-widget-container" />
+    </div>
+  )
+}
+
+function OilPriceBanner() {
   return (
     <div className="bg-gray-900 border-b border-gray-800">
       <div className="flex items-center">
-        <div className="bg-amber-950/60 px-3 py-2 flex items-center gap-1.5 shrink-0 border-r border-gray-700">
+        <div className="bg-amber-950/60 px-3 py-2.5 flex items-center gap-1.5 shrink-0 border-r border-gray-700">
           <TrendingUp size={12} className="text-amber-400" />
           <span className="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Live Prices</span>
         </div>
-        <div ref={containerRef} className="tradingview-widget-container flex-1 overflow-hidden" />
+        <div className="flex items-center flex-1 divide-x divide-gray-800">
+          <LivePriceWidget symbol="TVC:USOIL" title="WTI Crude" />
+          <LivePriceWidget symbol="TVC:UKOIL" title="Brent Crude" />
+        </div>
       </div>
     </div>
   )
@@ -217,7 +226,7 @@ export default function FollowTheOilPage() {
       {/* Header */}
       <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <h1 className="text-sm font-bold text-gray-300">Follow the Oil & Gas</h1>
+          <h1 className="text-sm font-bold text-gray-300">Follow the Oil, Gas & Energy</h1>
           <div className="flex items-center gap-4 text-xs text-gray-500">
             <TimestampBadge isoString={metadata.lastUpdated} label="Data" />
             <div className="hidden sm:flex items-center gap-1.5">
@@ -234,8 +243,8 @@ export default function FollowTheOilPage() {
         </div>
       </header>
 
-      {/* Live TradingView Price Ticker */}
-      <OilGasTicker />
+      {/* Live Oil Price Banner */}
+      <OilPriceBanner />
 
       {/* Intro Banner */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
@@ -275,8 +284,179 @@ export default function FollowTheOilPage() {
         </div>
       </div>
 
-      {/* Price Overview */}
+      {/* ═══ GAS & FUEL SECTION ═══ */}
+
+      {/* US Gas Price Tracker — Full Chart & Breakdown */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
+        <SectionHeader
+          icon={Zap}
+          iconColor="text-orange-400"
+          title="US Gas Price Tracker"
+          timestamp={gasPriceData.lastUpdated}
+        />
+        <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden">
+          <GasPriceTracker />
+        </div>
+      </div>
+
+      {/* Consumer Fuel Prices + Household Impact */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
+        <SectionHeader
+          icon={Fuel}
+          iconColor="text-orange-400"
+          title="Consumer Fuel Prices (US Average)"
+          count={consumerImpact.fuels.length}
+          timestamp={metadata.lastUpdated}
+        />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+          {consumerImpact.fuels.map((fuel, i) => (
+            <div key={i} className="bg-gray-900/60 border border-gray-800 rounded-lg p-4">
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-base">{fuel.icon}</span>
+                  <span className="text-xs font-bold text-gray-300 uppercase tracking-wider">{fuel.type}</span>
+                </div>
+                <span className="text-[9px] text-gray-500 bg-gray-800 px-1.5 py-0.5 rounded">as of {oilPrices.current.date}</span>
+              </div>
+              <div className="grid grid-cols-3 gap-3">
+                <div>
+                  <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Pre-War</span>
+                  <span className="text-base font-bold text-gray-400">${fuel.preWar.price.toFixed(2)}</span>
+                </div>
+                <div>
+                  <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Current</span>
+                  <span className="text-base font-bold text-orange-400">${fuel.current.price.toFixed(2)}</span>
+                </div>
+                <div>
+                  <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Change</span>
+                  <span className="text-base font-bold text-red-400">{fuel.changePercent}</span>
+                  <span className="text-[10px] text-red-400/70 block">{fuel.change}</span>
+                </div>
+              </div>
+              <p className="text-[10px] text-gray-500 mt-2 leading-relaxed">{fuel.detail}</p>
+              <div className="flex items-center justify-end mt-2">
+                <SourceLink url={fuel.sourceUrl} label="EIA" />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Household Impact */}
+        {consumerImpact.householdImpact && (
+          <div className="bg-red-950/20 border border-red-900/30 rounded-lg px-4 py-3">
+            <div className="flex items-center gap-2 mb-2">
+              <AlertTriangle size={14} className="text-red-400" />
+              <span className="text-xs font-bold text-red-300">Average US Household Impact</span>
+            </div>
+            <div className="flex items-center gap-6 flex-wrap mb-2">
+              <div>
+                <span className="text-lg font-bold text-red-400">+${consumerImpact.householdImpact.averageMonthlyIncrease}</span>
+                <span className="text-[10px] text-gray-500 block">per month</span>
+              </div>
+              <div>
+                <span className="text-lg font-bold text-red-400">${consumerImpact.householdImpact.annualizedCost.toLocaleString()}</span>
+                <span className="text-[10px] text-gray-500 block">annualized</span>
+              </div>
+            </div>
+            <div className="space-y-1 mt-2">
+              {consumerImpact.householdImpact.breakdown.map((item, i) => (
+                <div key={i} className="flex items-center justify-between bg-gray-900/40 rounded px-3 py-1.5">
+                  <span className="text-xs text-gray-400">{item.category}</span>
+                  <span className="text-xs font-bold text-red-400">+${item.monthlyIncrease}/mo</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-[10px] text-gray-500 mt-2 leading-relaxed">{consumerImpact.householdImpact.detail}</p>
+          </div>
+        )}
+      </div>
+
+      {/* ═══ STRAIT OF HORMUZ SECTION ═══ */}
+
+      {/* Hormuz Impact — Oil Data */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
+        <SectionHeader
+          icon={AlertTriangle}
+          iconColor="text-red-400"
+          title="Strait of Hormuz Blockade"
+          count={null}
+          timestamp={metadata.lastUpdated}
+        />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
+            <div className="flex items-center gap-1.5 mb-1">
+              <Droplet size={12} className="text-red-400" />
+              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Barrels Blocked</span>
+            </div>
+            <span className="text-lg font-bold text-red-400">{(hormuzImpact.barrelsBlockedDaily / 1_000_000).toFixed(0)}M</span>
+            <span className="text-[10px] text-gray-600 block">bpd</span>
+          </div>
+          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
+            <div className="flex items-center gap-1.5 mb-1">
+              <BarChart3 size={12} className="text-amber-400" />
+              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Global Supply</span>
+            </div>
+            <span className="text-lg font-bold text-amber-400">{hormuzImpact.percentGlobalOilSupply}%</span>
+            <span className="text-[10px] text-gray-600 block">of world oil blocked</span>
+          </div>
+          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
+            <div className="flex items-center gap-1.5 mb-1">
+              <TrendingUp size={12} className="text-red-400" />
+              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Insurance Spike</span>
+            </div>
+            <span className="text-lg font-bold text-red-400">{hormuzImpact.insuranceCostSpike}</span>
+            <span className="text-[10px] text-gray-600 block">war-risk premium</span>
+          </div>
+          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
+            <div className="flex items-center gap-1.5 mb-1">
+              <Fuel size={12} className="text-orange-400" />
+              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Rerouting</span>
+            </div>
+            <span className="text-lg font-bold text-orange-400">+{hormuzImpact.tankerReroutingDays}</span>
+            <span className="text-[10px] text-gray-600 block">days added per voyage</span>
+          </div>
+        </div>
+
+        {/* Affected countries breakdown */}
+        <div className="bg-gray-900/60 border border-gray-800 rounded-lg p-4">
+          <span className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">Affected Countries</span>
+          <div className="mt-2 space-y-2">
+            {hormuzImpact.affectedCountries.map((entry, i) => (
+              <div key={i} className="flex items-center justify-between bg-gray-800/40 rounded px-3 py-2">
+                <span className="text-xs font-medium text-gray-300">{entry.country}</span>
+                <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-1">
+                    <span className="text-xs font-bold text-red-400">{entry.blockedExportsMbpd}</span>
+                    <span className="text-[10px] text-gray-600">Mbpd blocked</span>
+                  </div>
+                  <span className="text-[10px] text-gray-500 max-w-[200px] text-right hidden sm:inline">{entry.alternativeRoutes}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="flex items-center gap-1.5 flex-wrap mt-3">
+            <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Source:</span>
+            <SourceLink url={hormuzImpact.sourceUrl} label="EIA — World Oil Transit Chokepoints" />
+          </div>
+        </div>
+      </div>
+
+      {/* Hormuz Strait — Detailed Shipping & Blockade Status */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
+        <SectionHeader
+          icon={Anchor}
+          iconColor="text-cyan-400"
+          title="Hormuz Strait — Shipping & Blockade Detail"
+        />
+        <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden">
+          <HormuzStatus />
+        </div>
+      </div>
+
+      {/* ═══ OIL SECTION ═══ */}
+
+      {/* Oil Price Overview */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={BarChart3}
           iconColor="text-amber-400"
@@ -351,43 +531,9 @@ export default function FollowTheOilPage() {
             </div>
           </div>
         </div>
-
-        {/* US Gas Price Card */}
-        <div className="mt-3 bg-gray-900/60 border border-gray-800 rounded-lg p-4">
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-2">
-              <span className="text-base">⛽</span>
-              <span className="text-xs font-bold text-gray-300 uppercase tracking-wider">US Average Gas Price</span>
-            </div>
-            <TimestampBadge isoString={gasPriceData.lastUpdated} label="Price date" />
-          </div>
-          <div className="grid grid-cols-3 gap-3">
-            <div>
-              <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Pre-War</span>
-              <span className="text-lg font-bold text-gray-400">${gasPriceData.preWarAverage.toFixed(2)}</span>
-              <span className="text-[10px] text-gray-600 block mt-0.5">per gallon</span>
-            </div>
-            <div>
-              <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Current</span>
-              <span className="text-lg font-bold text-orange-400">${gasPriceData.currentAverage.toFixed(2)}</span>
-              <span className="text-[10px] text-gray-600 block mt-0.5">per gallon</span>
-            </div>
-            <div>
-              <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Change</span>
-              <span className="text-lg font-bold text-red-400">+{gasPriceData.changePercent}%</span>
-              <span className="text-[10px] text-red-400/70 block mt-0.5">+${(gasPriceData.currentAverage - gasPriceData.preWarAverage).toFixed(2)}/gal</span>
-            </div>
-          </div>
-          <p className="text-[10px] text-gray-500 mt-2 leading-relaxed">{gasPriceData.context}</p>
-          <div className="flex items-center gap-1.5 flex-wrap mt-2">
-            <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Source:</span>
-            <SourceLink url="https://gasprices.aaa.com/" label="AAA Gas Prices" />
-            <SourceLink url="https://www.eia.gov/petroleum/gasdiesel/" label="EIA Weekly Retail" />
-          </div>
-        </div>
       </div>
 
-      {/* Key Players Section */}
+      {/* Key Oil Producers */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
           icon={Droplet}
@@ -403,144 +549,18 @@ export default function FollowTheOilPage() {
         </div>
       </div>
 
-      {/* Hormuz Impact Section */}
+      {/* ═══ ADDITIONAL IMPACT ═══ */}
+
+      {/* Food & Commodity Impact */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
         <SectionHeader
-          icon={AlertTriangle}
-          iconColor="text-red-400"
-          title="Strait of Hormuz Blockade"
-          count={null}
-          timestamp={metadata.lastUpdated}
+          icon={ShoppingCart}
+          iconColor="text-green-400"
+          title="Food & Commodity Impact"
         />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
-          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
-            <div className="flex items-center gap-1.5 mb-1">
-              <Droplet size={12} className="text-red-400" />
-              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Barrels Blocked</span>
-            </div>
-            <span className="text-lg font-bold text-red-400">{(hormuzImpact.barrelsBlockedDaily / 1_000_000).toFixed(0)}M</span>
-            <span className="text-[10px] text-gray-600 block">bpd</span>
-          </div>
-          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
-            <div className="flex items-center gap-1.5 mb-1">
-              <BarChart3 size={12} className="text-amber-400" />
-              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Global Supply</span>
-            </div>
-            <span className="text-lg font-bold text-amber-400">{hormuzImpact.percentGlobalOilSupply}%</span>
-            <span className="text-[10px] text-gray-600 block">of world oil blocked</span>
-          </div>
-          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
-            <div className="flex items-center gap-1.5 mb-1">
-              <TrendingUp size={12} className="text-red-400" />
-              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Insurance Spike</span>
-            </div>
-            <span className="text-lg font-bold text-red-400">{hormuzImpact.insuranceCostSpike}</span>
-            <span className="text-[10px] text-gray-600 block">war-risk premium</span>
-          </div>
-          <div className="bg-gray-900/60 border border-gray-800 rounded-lg px-4 py-3">
-            <div className="flex items-center gap-1.5 mb-1">
-              <Fuel size={12} className="text-orange-400" />
-              <span className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Rerouting</span>
-            </div>
-            <span className="text-lg font-bold text-orange-400">+{hormuzImpact.tankerReroutingDays}</span>
-            <span className="text-[10px] text-gray-600 block">days added per voyage</span>
-          </div>
+        <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden">
+          <FoodImpact />
         </div>
-
-        {/* Affected countries breakdown */}
-        <div className="bg-gray-900/60 border border-gray-800 rounded-lg p-4">
-          <span className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">Affected Countries</span>
-          <div className="mt-2 space-y-2">
-            {hormuzImpact.affectedCountries.map((entry, i) => (
-              <div key={i} className="flex items-center justify-between bg-gray-800/40 rounded px-3 py-2">
-                <span className="text-xs font-medium text-gray-300">{entry.country}</span>
-                <div className="flex items-center gap-4">
-                  <div className="flex items-center gap-1">
-                    <span className="text-xs font-bold text-red-400">{entry.blockedExportsMbpd}</span>
-                    <span className="text-[10px] text-gray-600">Mbpd blocked</span>
-                  </div>
-                  <span className="text-[10px] text-gray-500 max-w-[200px] text-right hidden sm:inline">{entry.alternativeRoutes}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="flex items-center gap-1.5 flex-wrap mt-3">
-            <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Source:</span>
-            <SourceLink url={hormuzImpact.sourceUrl} label="EIA — World Oil Transit Chokepoints" />
-          </div>
-        </div>
-      </div>
-
-      {/* Consumer Impact Section */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-4">
-        <SectionHeader
-          icon={Fuel}
-          iconColor="text-orange-400"
-          title="Consumer Fuel Prices (US Average)"
-          count={consumerImpact.fuels.length}
-          timestamp={metadata.lastUpdated}
-        />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
-          {consumerImpact.fuels.map((fuel, i) => (
-            <div key={i} className="bg-gray-900/60 border border-gray-800 rounded-lg p-4">
-              <div className="flex items-center justify-between mb-2">
-                <div className="flex items-center gap-2">
-                  <span className="text-base">{fuel.icon}</span>
-                  <span className="text-xs font-bold text-gray-300 uppercase tracking-wider">{fuel.type}</span>
-                </div>
-                <span className="text-[9px] text-gray-500 bg-gray-800 px-1.5 py-0.5 rounded">as of {oilPrices.current.date}</span>
-              </div>
-              <div className="grid grid-cols-3 gap-3">
-                <div>
-                  <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Pre-War</span>
-                  <span className="text-base font-bold text-gray-400">${fuel.preWar.price.toFixed(2)}</span>
-                </div>
-                <div>
-                  <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Current</span>
-                  <span className="text-base font-bold text-orange-400">${fuel.current.price.toFixed(2)}</span>
-                </div>
-                <div>
-                  <span className="text-[10px] text-gray-600 uppercase tracking-wider block mb-1">Change</span>
-                  <span className="text-base font-bold text-red-400">{fuel.changePercent}</span>
-                  <span className="text-[10px] text-red-400/70 block">{fuel.change}</span>
-                </div>
-              </div>
-              <p className="text-[10px] text-gray-500 mt-2 leading-relaxed">{fuel.detail}</p>
-              <div className="flex items-center justify-end mt-2">
-                <SourceLink url={fuel.sourceUrl} label="EIA" />
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Household Impact */}
-        {consumerImpact.householdImpact && (
-          <div className="bg-red-950/20 border border-red-900/30 rounded-lg px-4 py-3">
-            <div className="flex items-center gap-2 mb-2">
-              <AlertTriangle size={14} className="text-red-400" />
-              <span className="text-xs font-bold text-red-300">Average US Household Impact</span>
-            </div>
-            <div className="flex items-center gap-6 flex-wrap mb-2">
-              <div>
-                <span className="text-lg font-bold text-red-400">+${consumerImpact.householdImpact.averageMonthlyIncrease}</span>
-                <span className="text-[10px] text-gray-500 block">per month</span>
-              </div>
-              <div>
-                <span className="text-lg font-bold text-red-400">${consumerImpact.householdImpact.annualizedCost.toLocaleString()}</span>
-                <span className="text-[10px] text-gray-500 block">annualized</span>
-              </div>
-            </div>
-            <div className="space-y-1 mt-2">
-              {consumerImpact.householdImpact.breakdown.map((item, i) => (
-                <div key={i} className="flex items-center justify-between bg-gray-900/40 rounded px-3 py-1.5">
-                  <span className="text-xs text-gray-400">{item.category}</span>
-                  <span className="text-xs font-bold text-red-400">+${item.monthlyIncrease}/mo</span>
-                </div>
-              ))}
-            </div>
-            <p className="text-[10px] text-gray-500 mt-2 leading-relaxed">{consumerImpact.householdImpact.detail}</p>
-          </div>
-        )}
       </div>
 
       {/* Key Facts Section */}
@@ -567,7 +587,7 @@ export default function FollowTheOilPage() {
             <div className="flex items-center gap-2">
               <span className="font-bold text-gray-500">USII Tracker</span>
               <span className="text-blue-400 font-mono text-[9px]">usiitracker.com</span>
-              <span>Follow the Oil & Gas &mdash; Global Oil & Gas Market Tracker</span>
+              <span>Follow the Oil, Gas & Energy &mdash; Markets, Shipping & Consumer Impact</span>
             </div>
             <div className="flex items-center gap-1">
               <Shield size={10} />
