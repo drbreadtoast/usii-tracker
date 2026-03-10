@@ -18,6 +18,7 @@ import FollowTheMunitionsPage from './pages/FollowTheMunitionsPage'
 import FollowTheCostPage from './pages/FollowTheCostPage'
 import FollowTheStatementsPage from './pages/FollowTheStatementsPage'
 import FollowTheDamagePage from './pages/FollowTheDamagePage'
+import PatchNotesPage from './pages/PatchNotesPage'
 
 export default function App() {
   const location = useLocation()
@@ -52,6 +53,7 @@ export default function App() {
           <Route path="/follow-the-cost" element={<FollowTheCostPage />} />
           <Route path="/follow-the-statements" element={<FollowTheStatementsPage />} />
           <Route path="/follow-the-damage" element={<FollowTheDamagePage />} />
+          <Route path="/patch-notes" element={<PatchNotesPage />} />
         </Routes>
       </div>
       <UpdateNotification />

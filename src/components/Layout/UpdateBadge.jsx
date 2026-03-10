@@ -1,4 +1,5 @@
-import { Clock, RefreshCw } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Clock, RefreshCw, FileText } from 'lucide-react'
 import siteMetadata from '../../data/site-metadata.json'
 
 function formatAbsolute(date) {
@@ -73,10 +74,17 @@ export default function UpdateBadge({ variant = 'full' }) {
           <span className="text-gray-500 hidden sm:inline">({absolute})</span>
         </div>
       </div>
-      <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center shrink-0">
+      <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center gap-2 shrink-0">
         <p className="text-[9px] text-gray-600 text-center">
           v1.7 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
         </p>
+        <Link
+          to="/patch-notes"
+          className="inline-flex items-center gap-1 text-[9px] font-semibold text-blue-400 hover:text-blue-300 bg-blue-950/40 hover:bg-blue-950/60 border border-blue-900/40 px-2 py-0.5 rounded transition-colors shrink-0"
+        >
+          <FileText size={9} />
+          Patch Notes
+        </Link>
       </div>
     </>
   )
