@@ -42,7 +42,7 @@ export default function CensorshipNotice() {
               </p>
               <div className="flex items-center gap-3 mt-1.5">
                 <a
-                  href="https://cpj.org"
+                  href="https://cpj.org/2025/12/under-the-radar-israel-steps-up-censorship-and-suppression-of-independent-reporting/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-0.5 text-[9px] text-amber-500 hover:text-amber-300 transition-colors"
@@ -50,7 +50,7 @@ export default function CensorshipNotice() {
                   Source: Committee to Protect Journalists <ExternalLink size={8} />
                 </a>
                 <a
-                  href="https://rsf.org"
+                  href="https://rsf.org/en/country/israel"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-0.5 text-[9px] text-amber-500 hover:text-amber-300 transition-colors"

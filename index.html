@@ -25,5 +25,22 @@
   <body class="bg-gray-950 text-gray-100">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Auto-refresh: checks for new version every 5 minutes
+      // If a new deploy is detected, reloads the page so users get updated code
+      (function(){
+        var currentVersion = '1.1';
+        setInterval(function(){
+          fetch('/version.json?_=' + Date.now())
+            .then(function(r){ return r.json(); })
+            .then(function(data){
+              if(data.v && data.v !== currentVersion){
+                window.location.reload();
+              }
+            })
+            .catch(function(){});
+        }, 300000); // 5 minutes
+      })();
+    </script>
   </body>
 </html>
