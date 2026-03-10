@@ -82,7 +82,6 @@ export default function Dashboard() {
 
   return (
     <div className="h-screen w-screen flex flex-col bg-gray-950 text-gray-100 overflow-hidden">
-      <BreakingBanner breakingNews={breakingNews} />
       <Header metadata={metadata} />
       <WorldClocks />
       <CensorshipNotice />

@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import BreakingBanner from './components/Layout/BreakingBanner'
 import NavBar from './components/Layout/NavBar'
 import Dashboard from './pages/Dashboard'
 import TimelinePage from './pages/TimelinePage'
@@ -20,6 +21,7 @@ import FollowTheDamagePage from './pages/FollowTheDamagePage'
 export default function App() {
   return (
     <>
+    <BreakingBanner />
     <NavBar />
     <Routes>
       <Route path="/" element={<Dashboard />} />

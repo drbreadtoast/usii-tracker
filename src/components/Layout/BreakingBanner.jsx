@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
 import { AlertTriangle } from 'lucide-react'
+import breakingData from '../../data/breaking.json'
 
 export default function BreakingBanner({ breakingNews }) {
-  if (!breakingNews || breakingNews.length === 0) return null
+  const data = breakingNews || breakingData
+  if (!data || data.length === 0) return null
 
   // Sort by timestamp descending, take latest items
-  const sorted = [...breakingNews].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+  const sorted = [...data].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
   const text = sorted.map(item => item.text).join('  ///  ')
 
   return (
