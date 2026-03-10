@@ -8,7 +8,8 @@ export default function BreakingBanner({ breakingNews }) {
 
   // Sort by timestamp descending, take latest items
   const sorted = [...data].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
-  const text = sorted.map(item => item.text).join('  ///  ')
+  const text = sorted.map(item => item.text).join('   ///   ')
+  const separator = '   ///   '
 
   return (
     <div className="bg-blue-950/60 border-b border-blue-900/50 overflow-hidden shrink-0">
@@ -19,10 +20,11 @@ export default function BreakingBanner({ breakingNews }) {
           <span className="text-xs font-bold text-white tracking-wider uppercase">24 Hour Report</span>
         </Link>
 
-        {/* Scrolling text */}
+        {/* Seamless scrolling text — two identical copies for infinite loop */}
         <div className="overflow-hidden flex-1 py-1.5 group">
-          <div className="animate-marquee whitespace-nowrap text-sm text-blue-200">
-            {text}  ///  {text}
+          <div className="marquee-track whitespace-nowrap text-sm text-blue-200">
+            <span className="inline-block">{text}{separator}</span>
+            <span className="inline-block">{text}{separator}</span>
           </div>
         </div>
       </div>

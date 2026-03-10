@@ -17,7 +17,7 @@ const NAV_LINKS = [
   { to: '/energy', label: 'Energy', icon: Fuel, color: 'text-amber-400 hover:text-amber-300' },
   { to: '/deaths', label: 'Deaths', icon: Skull, color: 'text-red-400 hover:text-red-300' },
   { to: '/follow-the-money', label: 'Money', icon: DollarSign, color: 'text-green-400 hover:text-green-300' },
-  { to: '/follow-the-oil', label: 'Oil', icon: Droplet, color: 'text-amber-400 hover:text-amber-300' },
+  { to: '/follow-the-oil', label: 'Oil & Gas', icon: Droplet, color: 'text-amber-400 hover:text-amber-300' },
   { to: '/follow-the-munitions', label: 'Munitions', icon: Target, color: 'text-orange-400 hover:text-orange-300' },
   { to: '/follow-the-cost', label: 'Cost', icon: Receipt, color: 'text-purple-400 hover:text-purple-300' },
   { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, color: 'text-cyan-400 hover:text-cyan-300' },
@@ -48,7 +48,7 @@ const EXPLORE_SECTIONS = [
   ]},
   { title: 'Follow The...', items: [
     { to: '/follow-the-money', label: 'Money', icon: DollarSign, desc: 'Lobbying, funding & financial flows' },
-    { to: '/follow-the-oil', label: 'Oil', icon: Droplet, desc: 'Oil markets & Hormuz Strait impact' },
+    { to: '/follow-the-oil', label: 'Oil & Gas', icon: Droplet, desc: 'Oil & gas prices, markets & Hormuz impact' },
     { to: '/follow-the-munitions', label: 'Munitions', icon: Target, desc: 'Weapons used, inventory & expenditure' },
     { to: '/follow-the-cost', label: 'Cost', icon: Receipt, desc: 'Financial cost of the war by country' },
     { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, desc: 'Political statements timeline' },
@@ -199,7 +199,7 @@ export default function Header({ metadata }) {
 
       {/* Search Overlay */}
       {searchOpen && (
-        <div className="absolute inset-x-0 top-0 z-[2000] bg-black/70" onClick={() => setSearchOpen(false)}>
+        <div className="fixed inset-0 z-[2000] bg-black/70" onClick={() => setSearchOpen(false)}>
           <div className="max-w-2xl mx-auto mt-16 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden" onClick={e => e.stopPropagation()}>
             <div className="flex items-center gap-3 px-4 py-3 border-b border-gray-800">
               <Search size={16} className="text-gray-500" />
@@ -251,7 +251,7 @@ export default function Header({ metadata }) {
       )}
       {/* Explore Overlay */}
       {exploreOpen && (
-        <div className="absolute inset-x-0 top-0 z-[2000] bg-black/70" onClick={() => setExploreOpen(false)}>
+        <div className="fixed inset-0 z-[2000] bg-black/70" onClick={() => setExploreOpen(false)}>
           <div className="max-w-3xl mx-auto mt-16 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between px-4 py-3 border-b border-gray-800">
               <div className="flex items-center gap-2">

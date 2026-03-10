@@ -2,7 +2,6 @@ import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
 import Header from '../components/Layout/Header'
-import BreakingBanner from '../components/Layout/BreakingBanner'
 import WorldClocks from '../components/Layout/WorldClocks'
 import CensorshipNotice from '../components/Layout/CensorshipNotice'
 import SourcesNotice from '../components/Layout/SourcesNotice'
@@ -81,7 +80,7 @@ export default function Dashboard() {
   ]
 
   return (
-    <div className="h-screen w-screen flex flex-col bg-gray-950 text-gray-100 overflow-hidden">
+    <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-hidden">
       <Header metadata={metadata} />
       <WorldClocks />
       <CensorshipNotice />
@@ -234,7 +233,7 @@ export default function Dashboard() {
                 <DollarSign size={9} />Money
               </Link>
               <Link to="/follow-the-oil" className="flex items-center gap-1 text-[9px] text-amber-400 hover:text-amber-300 transition-colors font-medium">
-                <Droplet size={9} />Oil
+                <Droplet size={9} />Oil & Gas
               </Link>
               <Link to="/follow-the-munitions" className="flex items-center gap-1 text-[9px] text-orange-400 hover:text-orange-300 transition-colors font-medium">
                 <Target size={9} />Munitions
