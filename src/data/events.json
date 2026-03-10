@@ -2203,5 +2203,279 @@
       "house",
       "authorization"
     ]
+  },
+  {
+    "id": "evt-new-026",
+    "title": "US-Israeli airstrike kills 40+ in Tehran residential buildings",
+    "description": "An attack on residential buildings in eastern Tehran killed at least 40 people. Earlier attacks on oil facilities blanketed the capital in toxic smoke. Iran's deputy health minister confirmed over 1,255 killed and 12,000 wounded in 11 days of war.",
+    "type": "strike",
+    "lat": 35.7219,
+    "lng": 51.4465,
+    "location": "Eastern Tehran, Iran",
+    "timestamp": "2026-03-10T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/10/iran-war-live-trump-says-conflict-will-be-over-soon-40-killed-in-tehran"
+      },
+      {
+        "name": "PBS",
+        "url": "https://www.pbs.org/newshour/world/iranian-barrages-target-israel-and-gulf-countries-as-hegseth-warns-iran-of-most-intense-day-of-strikes"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "40+ killed",
+    "tags": [
+      "tehran",
+      "residential",
+      "civilian-casualties"
+    ]
+  },
+  {
+    "id": "evt-new-027",
+    "title": "US-Israeli airstrike hits residential building in Arak — 5 killed",
+    "description": "Five people were killed and several injured in a US-Israeli air strike that hit a residential building in the city of Arak in western Iran, according to Iranian state news agency ISNA.",
+    "type": "strike",
+    "lat": 34.0917,
+    "lng": 49.6892,
+    "location": "Arak, Iran",
+    "timestamp": "2026-03-10T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "ISNA / Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/09/nx-s1-5742327/us-israel-iran-war-new-supreme-leader"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "5 killed, several injured",
+    "tags": [
+      "arak",
+      "residential",
+      "civilian-casualties"
+    ]
+  },
+  {
+    "id": "evt-new-028",
+    "title": "Isfahan historical sites damaged — Naqsh-e Jahan Square, Shah Mosque hit",
+    "description": "Strikes on Isfahan on March 9-10 damaged multiple UNESCO World Heritage sites including Naqsh-e Jahan Square, Chehel Sotoun palace, Ali Qapu, Shah Mosque, and Teymouri Hall. International cultural organizations condemned the destruction of irreplaceable heritage.",
+    "type": "infrastructure",
+    "lat": 32.6546,
+    "lng": 51.6779,
+    "location": "Isfahan, Iran",
+    "timestamp": "2026-03-10T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+      },
+      {
+        "name": "Britannica",
+        "url": "https://www.britannica.com/event/2026-Iran-Conflict"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Under investigation",
+    "tags": [
+      "isfahan",
+      "cultural-heritage",
+      "unesco"
+    ]
+  },
+  {
+    "id": "evt-new-029",
+    "title": "Hegseth warns Day 12 will be 'most intense day of strikes' against Iran",
+    "description": "US Defense Secretary Pete Hegseth warned that Tuesday (Day 12) will see the most intense day of strikes against Iran since the start of the war, signaling a major escalation of the aerial campaign.",
+    "type": "diplomatic",
+    "lat": 38.8719,
+    "lng": -77.0563,
+    "location": "Pentagon, Arlington, VA",
+    "timestamp": "2026-03-10T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS",
+        "url": "https://www.pbs.org/newshour/world/iranian-barrages-target-israel-and-gulf-countries-as-hegseth-warns-iran-of-most-intense-day-of-strikes"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/10/iran-war-live-trump-says-conflict-will-be-over-soon-40-killed-in-tehran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "hegseth",
+      "escalation",
+      "pentagon"
+    ]
+  },
+  {
+    "id": "evt-new-030",
+    "title": "Iran threatens 'eye for an eye' retaliation if US-Israel hits infrastructure",
+    "description": "Iran vowed an 'eye for an eye' response if the US and Israel continue to strike Iranian oil and energy infrastructure. A senior Iranian official warned that Israel's attacks on oil and fuel depots have pushed the war into a 'new phase' and threatened retaliatory strikes on energy infrastructure.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-10T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/10/iran-war-live-trump-says-conflict-will-be-over-soon-40-killed-in-tehran"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/08/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "iran",
+      "retaliation",
+      "infrastructure",
+      "escalation"
+    ]
+  },
+  {
+    "id": "evt-new-031",
+    "title": "China, Russia, France contact Iran regarding ceasefire",
+    "description": "Deputy Foreign Minister Kazem Gharibabadi confirmed that several countries including China, Russia, and France have contacted Iran regarding a possible ceasefire. However, Iran's Foreign Ministry stated it has no interest in negotiations while under attack.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-10T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "ceasefire",
+      "diplomacy",
+      "china",
+      "russia",
+      "france"
+    ]
+  },
+  {
+    "id": "evt-new-032",
+    "title": "Saudi Arabia intercepts Iranian drone east of al-Kharj",
+    "description": "Saudi Arabia's Defense Ministry confirmed its military intercepted and destroyed an Iranian drone east of al-Kharj governorate, south of the capital Riyadh. Saudi Arabia has been a repeated target of Iranian retaliatory strikes due to hosting US military bases.",
+    "type": "movement",
+    "lat": 24.1529,
+    "lng": 47.3247,
+    "location": "Al-Kharj, Saudi Arabia",
+    "timestamp": "2026-03-10T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+      },
+      {
+        "name": "Saudi Press Agency",
+        "url": "https://www.spa.gov.sa/en"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": [
+      "saudi-arabia",
+      "drone-intercept",
+      "air-defense"
+    ]
+  },
+  {
+    "id": "evt-new-033",
+    "title": "Iranian drone attack targets Haifa oil refinery in Israel",
+    "description": "Iran's army issued a statement saying it launched a drone attack targeting an Israeli oil and gas refinery and fuel tanks in Haifa. Israeli air defenses engaged multiple incoming drones. Damage assessment ongoing.",
+    "type": "strike",
+    "lat": 32.7940,
+    "lng": 34.9896,
+    "location": "Haifa, Israel",
+    "timestamp": "2026-03-10T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/topic/iran-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "Under assessment",
+    "tags": [
+      "haifa",
+      "oil-refinery",
+      "drone-attack",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "evt-new-034",
+    "title": "Lebanese priest killed by Israeli tank fire in Qlayaa",
+    "description": "A Lebanese Maronite Catholic priest was killed by Israeli tank fire in the Christian village of Qlayaa in southern Lebanon. Reports indicate he had refused an Israeli order for forced evacuation of the town. The incident drew widespread international condemnation.",
+    "type": "strike",
+    "lat": 33.1731,
+    "lng": 35.4267,
+    "location": "Qlayaa, southern Lebanon",
+    "timestamp": "2026-03-10T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "1 killed (priest)",
+    "tags": [
+      "lebanon",
+      "civilian-casualties",
+      "qlayaa"
+    ]
   }
 ]
