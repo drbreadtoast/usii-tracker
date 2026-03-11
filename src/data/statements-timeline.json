@@ -15,12 +15,12 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-10",
+    "lastUpdated": "2026-03-11",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 85,
+    "totalStatements": 91,
     "dateRange": {
       "earliest": "2023-01-15",
-      "latest": "2026-03-10"
+      "latest": "2026-03-11"
     }
   },
   "speakers": [
@@ -188,6 +188,16 @@
           "factCheckDetail": "80% of missile launchers claim aligns with CENTCOM's 5,000+ targets struck. However, Iran continues firing projectiles and has rejected all ceasefire overtures. Netanyahu vows 'many surprises' suggesting Israel plans to continue.",
           "sourceUrl": "https://www.npr.org/2026/03/09/nx-s1-5742591/trump-press-conference-as-u-s-israel-led-iran-war-enters-second-week",
           "sourceName": "NPR"
+        },
+        {
+          "id": "trump-016",
+          "date": "2026-03-11",
+          "text": "There's essentially nothing left to target. We've hit 90 percent of their capability. Iran has been set back 50 years.",
+          "context": "Day 12 comments to reporters. Trump signaled satisfaction with the campaign while Iran deployed Khoramshahr super-heavy missiles — its most powerful conventional weapon — for the first time. 3 more ships attacked at Hormuz. IEA approved record 400M barrel reserve release.",
+          "factCheck": "misleading",
+          "factCheckDetail": "While 90% missile reduction aligns with CENTCOM data, Iran demonstrated continued capability by deploying Khoramshahr missiles and attacking 3 more ships. The claim of 'nothing left to target' contradicts ongoing Iranian retaliatory attacks.",
+          "sourceUrl": "https://www.reuters.com/world/middle-east/iran-war-day-12-trump-nothing-left-target-2026-03-11/",
+          "sourceName": "Reuters"
         }
       ]
     },
@@ -979,6 +989,15 @@
           "factCheckDetail": "Calling it a 'failure' is contradicted by CENTCOM data showing 5,000+ targets struck and 90% reduction in Iranian missile launches. However, regime change has not occurred and Iran continues retaliating.",
           "sourceUrl": "https://www.pbs.org/newshour/show/irans-araghchi-calls-u-s-strikes-a-failure-and-vows-to-fight-as-long-as-it-takes",
           "sourceName": "PBS NewsHour"
+        },
+        {
+          "id": "araghchi-005",
+          "date": "2026-03-11",
+          "text": "Iran has now deployed its most powerful weapons including the Khoramshahr super-heavy missile. The enemy should understand this is only the beginning of our response capabilities.",
+          "context": "Day 12 statement following Iran's 37th wave of attacks using Khoramshahr super-heavy ballistic missiles, Iran's most powerful conventional weapon.",
+          "factCheck": "true",
+          "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/11/iran-war-live-iea-reserves-khoramshahr-missiles-hormuz-day-12",
+          "sourceName": "Al Jazeera"
         }
       ]
     },

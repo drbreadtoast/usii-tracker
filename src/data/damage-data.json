@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-10T23:30:00Z",
+    "lastUpdated": "2026-03-11T16:00:00Z",
     "sources": [
       { "name": "CENTCOM", "url": "https://www.defense.gov/News/" },
       { "name": "IDF Spokesperson", "url": "https://www.idf.il/en/" },
@@ -12,8 +12,8 @@
     ]
   },
   "summary": {
-    "totalSites": 57,
-    "confirmed": 41,
+    "totalSites": 59,
+    "confirmed": 43,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 12,
@@ -1107,6 +1107,44 @@
       "casualties": "Under assessment",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-058",
+      "name": "Commercial Vessels — Strait of Hormuz (Day 12)",
+      "city": "Strait of Hormuz",
+      "country": "International Waters",
+      "lat": 26.5667,
+      "lng": 56.25,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-03-11",
+      "attributedTo": "iran",
+      "damageLevel": "severe",
+      "description": "3 more commercial ships attacked by IRGC Navy on Day 12, bringing total to 14 vessels damaged or sunk since war began. 330+ vessels at anchor. Shipping traffic down 95%. Insurance withdrawn by all major providers.",
+      "weaponUsed": "Anti-ship missiles / mines",
+      "casualties": "Crews evacuated, injuries reported",
+      "source": "Lloyd's List / Reuters",
+      "sourceUrl": "https://www.reuters.com/business/energy/hormuz-shipping-day-12-three-more-ships-attacked-2026-03-11/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-059",
+      "name": "Khoramshahr Missile Impact Zone",
+      "city": "Central Israel",
+      "country": "Israel",
+      "lat": 32.0853,
+      "lng": 34.7818,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-11",
+      "attributedTo": "iran",
+      "damageLevel": "moderate",
+      "description": "Iran deployed Khoramshahr super-heavy ballistic missiles for the first time (37th wave). Iran's most powerful conventional missile with 1,800km range and 1,800kg warhead. Multiple intercepted by Arrow-3 system; damage assessment ongoing for those that penetrated defenses.",
+      "weaponUsed": "Khoramshahr super-heavy ballistic missile",
+      "casualties": "Under assessment",
+      "source": "Times of Israel / IDF",
+      "sourceUrl": "https://www.timesofisrael.com/iran-has-fired-some-300-missiles-at-israel-about-half-with-cluster-bomb-warheads-idf/",
       "satelliteImagery": false
     }
   ]

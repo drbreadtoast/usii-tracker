@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-10T23:30:00Z",
-  "currentAverage": 3.55,
+  "lastUpdated": "2026-03-11T16:00:00Z",
+  "currentAverage": 3.578,
   "preWarAverage": 3.18,
-  "changePercent": 11.6,
+  "changePercent": 12.5,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -91,6 +91,12 @@
       "price": 3.55,
       "label": "Day 11 — Oil crashes 11% on Trump 'war ending soon'",
       "isEvent": true
+    },
+    {
+      "date": "2026-03-11",
+      "price": 3.578,
+      "label": "Day 12 — IEA 400M barrel release; oil rebounds 3%",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -140,8 +146,8 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Mar 10)",
-      "crudePerBarrel": 102,
+      "label": "Current (Mar 11)",
+      "crudePerBarrel": 90,
       "components": [
         {
           "name": "Crude Oil Cost",
@@ -187,8 +193,8 @@
         }
       ],
       "total": 4.054,
-      "note": "AAA national average is $3.54 — pump prices lag crude by 1-2 weeks. Analysts project $4+/gal if Hormuz stays closed. California already at $5.20/gal. Diesel at $4.66/gal."
+      "note": "AAA national average is $3.578 — pump prices lag crude by 1-2 weeks. IEA 400M barrel reserve release and oil crash of March 10 may ease prices. Energy Sec Wright falsely claimed gas prices dropped. California at $5.20/gal. Diesel at $4.66/gal."
     }
   },
-  "context": "Gas prices at $3.55/gal (AAA) as crude oil CRASHED 11-12% on March 10 after Trump told Republicans war could end 'very soon.' Brent settled at $87.80/barrel (down from $112.98), WTI at $83.45 (down from $101.97). Pump prices lag crude by 1-2 weeks — relief may come soon. California highest at $5.20/gal, Washington $4.63/gal, Kansas lowest at $2.92/gal. Diesel at $4.66/gal. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. Only 29% of Americans approve of strikes (Reuters/Ipsos poll)."
+  "context": "Gas prices at $3.578/gal (AAA, March 11). Oil rebounded +3% on Day 12 (Brent $90.77, WTI $86.01) after Monday's 11% crash. IEA approved record 400M barrel emergency reserve release — largest ever. Energy Secretary Chris Wright falsely claimed gas prices dropped; AAA data shows UP from $3.18 pre-war. Pump prices lag crude by 1-2 weeks — some relief possible from March 10 crash. California highest at $5.20/gal. Diesel at $4.66/gal. Gas Prices Relief Act of 2026 introduced. CPI at 2.4% (pre-war data). Goldman warns inflation could hit 3%+ if war continues."
 }

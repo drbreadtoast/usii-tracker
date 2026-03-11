@@ -791,5 +791,93 @@
       "iran-missiles",
       "escalation"
     ]
+  },
+  {
+    "id": "social-035",
+    "platform": "twitter",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "BREAKING: IEA approves record 400M barrel oil reserve release — largest coordinated drawdown EVER. But let's put it in context: max release rate is ~6 Mbpd. Hormuz blockade has removed ~15 Mbpd. The math doesn't add up. This buys time, not a solution.",
+    "timestamp": "2026-03-11T14:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IEA official announcement confirmed by Reuters and Bloomberg; release rate calculations consistent with IEA data",
+    "engagement": {
+      "likes": 612000,
+      "retweets": 378000,
+      "replies": 94000
+    },
+    "keywords": [
+      "iea",
+      "oil-reserves",
+      "strategic-release",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-036",
+    "platform": "twitter",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Iran deploys Khoramshahr super-heavy missiles for first time in conflict. These are Iran's biggest — 2,000+ km range, 1,800 kg warhead. If Iran is going to its heaviest conventional weapons, they're either desperate or escalating. Either way, the '37th wave' is no joke.",
+    "timestamp": "2026-03-11T07:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Khoramshahr missile specs consistent with missile databases; launch confirmed by IDF and Al Jazeera",
+    "engagement": {
+      "likes": 489000,
+      "retweets": 267000,
+      "replies": 78000
+    },
+    "keywords": [
+      "khoramshahr",
+      "missile",
+      "iran-escalation",
+      "37th-wave"
+    ]
+  },
+  {
+    "id": "social-037",
+    "platform": "twitter",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers",
+    "sourceCategory": "osint_analyst",
+    "text": "3 more ships attacked near Hormuz today. That's 14 total since the war started. Shipping traffic down 95%. This is the worst disruption to global shipping since WWII. Even the Suez Crisis and Tanker War didn't halt traffic this completely. 320+ vessels just sitting at anchor.",
+    "timestamp": "2026-03-11T10:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Lloyd's List and maritime AIS data confirm 14 total ships damaged/sunk; 95% traffic reduction corroborated by MarineTraffic",
+    "engagement": {
+      "likes": 534000,
+      "retweets": 312000,
+      "replies": 87000
+    },
+    "keywords": [
+      "hormuz",
+      "shipping-crisis",
+      "vessels-attacked",
+      "blockade"
+    ]
+  },
+  {
+    "id": "social-038",
+    "platform": "twitter",
+    "handle": "@christogrozev",
+    "displayName": "Christo Grozev",
+    "sourceCategory": "osint_analyst",
+    "text": "Hengaw reports 4,300+ killed in Iran — triple the govt's 1,380 figure. With internet at 4% of normal, independent verification is nearly impossible. This mirrors every past conflict where Iranian govt severely undercounts casualties. The true toll may be far higher.",
+    "timestamp": "2026-03-11T11:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Hengaw has a track record of reliable casualty reporting on Iran; BBC Persian reported the discrepancy; internet data from Cloudflare Radar",
+    "engagement": {
+      "likes": 678000,
+      "retweets": 423000,
+      "replies": 134000
+    },
+    "keywords": [
+      "death-toll",
+      "hengaw",
+      "iran-casualties",
+      "internet-blackout"
+    ]
   }
 ]

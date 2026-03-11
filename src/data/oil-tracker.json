@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-10T23:30:00Z",
+    "lastUpdated": "2026-03-11T16:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,22 +72,22 @@
       }
     },
     "current": {
-      "date": "2026-03-10",
-      "label": "Active Conflict — Day 11",
+      "date": "2026-03-11",
+      "label": "Active Conflict — Day 12",
       "wti": {
-        "price": 83.45,
+        "price": 86.01,
         "unit": "$/barrel",
-        "change": "+10.5%",
-        "changeDollars": "+$7.95",
-        "source": "NYMEX front-month settlement — fell 11.94% on March 10 after Trump said war would end 'very soon'",
+        "change": "+13.9%",
+        "changeDollars": "+$10.51",
+        "source": "NYMEX front-month settlement — rebounded 2.8% on March 11 after Monday's 12% crash. IEA announced record 400M barrel reserve release.",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm"
       },
       "brent": {
-        "price": 87.80,
+        "price": 90.77,
         "unit": "$/barrel",
-        "change": "+10.0%",
-        "changeDollars": "+$8.00",
-        "source": "ICE front-month settlement — fell 11.28% on March 10 after Trump signaled war could end 'pretty quickly'",
+        "change": "+13.7%",
+        "changeDollars": "+$10.97",
+        "source": "ICE front-month settlement — rebounded 3.4% on March 11. IEA members approved historic 400M barrel emergency release, largest ever.",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
         "intradayHigh": 119.5,
         "sessionLow": 87.80
@@ -199,6 +199,13 @@
         "wti": 83.45,
         "brent": 87.80,
         "label": "Oil CRASHES 11-12% — Trump says war will end 'very soon'",
+        "isEvent": true
+      },
+      {
+        "date": "2026-03-11",
+        "wti": 86.01,
+        "brent": 90.77,
+        "label": "Oil rebounds +3% — IEA record 400M barrel reserve release",
         "isEvent": true
       }
     ],
@@ -332,7 +339,7 @@
   ],
   "hormuzImpact": {
     "status": "effectively_closed",
-    "blockadeDayCount": 9,
+    "blockadeDayCount": 10,
     "blockadeStartDate": "2026-03-02",
     "barrelsBlockedDaily": 20000000,
     "breakdownBlocked": {
@@ -379,13 +386,13 @@
       }
     ],
     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932",
-    "vesselsDamaged": 8,
-    "description": "Strait of Hormuz effectively closed to tanker traffic (Day 11). Only 13 vessels/day average — March 8 saw only 2 outbound transits. 170+ containerships trapped, 150+ tankers at anchor. Insurance withdrawn by major providers. VLCC charter rates surge from $50K to $400K/day."
+    "vesselsDamaged": 14,
+    "description": "Strait of Hormuz effectively closed to tanker traffic (Day 12). 3 more ships attacked on March 11 (total 14 damaged/sunk). Traffic down 95% from pre-war levels. 320+ vessels at anchor. IEA approves record 400M barrel emergency reserve release to stabilize markets. VLCC charter rates at $400K/day."
   },
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-10",
+    "lastUpdated": "2026-03-11",
     "note": "National weighted averages. Regional prices vary significantly — California, Hawaii, and Northeast typically 15-30% above national average.",
     "fuels": [
       {
@@ -396,12 +403,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 3.55,
-          "date": "2026-03-10"
+          "price": 3.578,
+          "date": "2026-03-11"
         },
-        "change": "+$0.37",
-        "changePercent": "+11.6%",
-        "detail": "AAA national average at $3.55/gal. Oil crashed 11-12% late March 10 on Trump's 'war ending soon' comments — pump prices may ease but lag crude by 1-2 weeks. California at $5.20/gal, Washington $4.63/gal, Kansas lowest at $2.92/gal. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax through Oct 1.",
+        "change": "+$0.40",
+        "changePercent": "+12.5%",
+        "detail": "AAA national average at $3.578/gal (March 11). Energy Secretary Chris Wright falsely claimed gas prices dropped — AAA data shows UP from $3.18 pre-war. Oil crash of 11% on March 10 may ease pump prices in 1-2 weeks. IEA record 400M barrel reserve release could further stabilize. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -490,8 +497,8 @@
     },
     {
       "id": 2,
-      "fact": "The US Strategic Petroleum Reserve holds 415 million barrels — 58% of its 714M barrel capacity",
-      "detail": "The US SPR was at 415.4 million barrels as of February 13, 2026, up from a low of ~347M after the 2022 Biden drawdown of 180M barrels. The average cost of oil in the SPR is $29.70/barrel. At current disruption rates, combined IEA member SPR drawdowns could provide limited relief — but maximum release rate across all members is only ~6 Mbpd.",
+      "fact": "IEA approves record 400 million barrel emergency oil release — largest coordinated drawdown in history",
+      "detail": "On March 11, IEA member nations agreed to release 400 million barrels from strategic reserves over 60 days — the largest coordinated release in IEA history, surpassing the 2022 release of 182M barrels during the Russia-Ukraine crisis. The US SPR was at 415.4 million barrels before the release. Maximum combined release rate across all IEA members is ~6 Mbpd, far less than the ~15 Mbpd blocked by Hormuz.",
       "source": "IEA Emergency Response — Oil Stock Levels",
       "sourceUrl": "https://www.iea.org/areas-of-work/ensuring-energy-security/oil-security"
     },
@@ -518,15 +525,15 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.55/gallon — up 11.6% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
-      "detail": "AAA national average at $3.55/gal as of March 10. Diesel at $4.66/gal. Oil prices crashed 11-12% late March 10 on Trump's 'war ending soon' comments — pump prices may ease but lag crude by 1-2 weeks. California at $5.20/gal. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
+      "fact": "US gasoline prices at $3.578/gallon — up 12.5% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
+      "detail": "AAA national average at $3.578/gal as of March 11. Diesel at $4.66/gal. Energy Secretary Chris Wright falsely claimed gas prices dropped — AAA data contradicts this. Oil crash of 11% on March 10 and IEA 400M barrel reserve release may ease pump prices in 1-2 weeks. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Oil prices CRASH 11-12% on March 10 — Trump says war will end 'very soon'. Brent settles at $87.80, WTI at $83.45",
-      "detail": "Brent crude fell 11.28% and WTI fell 11.94% on March 10 after Trump told Republican lawmakers the war could end 'pretty quickly' and 'very soon.' Prices had peaked at $119.50 intraday earlier in the week. Despite the crash, both benchmarks remain ~10% above pre-war levels. 29% of Americans approve of the strikes (Reuters/Ipsos).",
+      "fact": "Oil rebounds +3% on March 11 after Monday's crash. Brent at $90.77, WTI at $86.01. IEA 400M barrel release cushions impact.",
+      "detail": "Brent crude rebounded 3.4% to $90.77 and WTI rose 2.8% to $86.01 on March 11 after the prior day's 11-12% crash. IEA's record 400M barrel reserve release partially stabilized markets. However, Iran's 37th wave with super-heavy Khoramshahr missiles and 3 more ship attacks near Hormuz pushed prices back up. Both benchmarks remain ~14% above pre-war levels. CPI at 2.4% y/y (pre-war data). Dow -0.89%, S&P -0.33%.",
       "source": "Reuters Commodities / Bloomberg Energy",
       "sourceUrl": "https://www.reuters.com/markets/commodities/"
     }

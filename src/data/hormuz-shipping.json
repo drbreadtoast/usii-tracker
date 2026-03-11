@@ -1,18 +1,18 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 11,
+  "blockadeDay": 12,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-10T23:30:00Z",
+  "lastUpdated": "2026-03-11T16:00:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
-    "vesselsAnchored": 320,
-    "vesselsTransitLast24h": 2,
-    "containershipsTrapped": 170,
-    "tankersAtAnchor": 150,
+    "vesselsAnchored": 330,
+    "vesselsTransitLast24h": 1,
+    "containershipsTrapped": 175,
+    "tankersAtAnchor": 155,
     "vlccDailyRate": 400000,
-    "vesselsDamaged": 8,
+    "vesselsDamaged": 12,
     "vesselsSunk": 2,
     "insuranceStatus": "withdrawn",
     "naviesPresent": [
@@ -82,6 +82,12 @@
       "event": "Day 11 — Only 13 vessels/day average; March 8 saw only 2 outbound transits. 170+ containerships trapped, 150+ tankers at anchor. Insurance withdrawn by all major providers. VLCC charter rates surge from $50K to $400K/day. Brent crude holds above $110.",
       "status": "effectively_closed",
       "barrels": 900000
+    },
+    {
+      "date": "2026-03-11",
+      "event": "Day 12 — 3 more ships attacked (total 14 damaged/sunk since war began). Shipping traffic down 95% from pre-war. 330+ vessels at anchor. IEA approves record 400M barrel emergency reserve release. Brent rebounds +3.4% to $90.77. Iran deploys Khoramshahr super-heavy missiles.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -89,8 +95,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "0 bbl/day",
-      "priceImpact": "+10% (Brent $87.80, crashed from $119.50 peak)",
-      "detail": "20% of global supply cut off. Brent crude crashed 11.28% to $87.80 on March 10 after Trump said war would end 'very soon.' Had peaked at $119.50. Still up 10% from pre-war levels despite crash. 16 Iranian minelayers destroyed by US Navy."
+      "priceImpact": "+14% (Brent $90.77, rebounded from $87.80 crash)",
+      "detail": "20% of global supply cut off. Oil rebounded 3.4% on March 11 to Brent $90.77 after Monday's 11% crash. IEA approved record 400M barrel emergency release. 14 ships now damaged/sunk (3 more attacked on Day 12). Traffic down 95%. Still up 14% from pre-war levels."
     },
     {
       "commodity": "LNG",

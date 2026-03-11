@@ -35,9 +35,9 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-10T23:30:00Z",
+    "lastUpdated": "2026-03-11T16:00:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 11,
+    "daysOfConflict": 12,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -450,9 +450,9 @@
     },
     "estimatedDailyCost": 22000000,
     "estimatedDailyCostNote": "Combined daily operating cost of all deployed naval assets at wartime operational tempo",
-    "daysDeployed": 11,
-    "totalNavalCost": 242000000,
-    "totalNavalCostNote": "Total naval deployment cost for the first 11 days of active conflict operations; does not include pre-conflict surge deployment costs",
+    "daysDeployed": 12,
+    "totalNavalCost": 264000000,
+    "totalNavalCostNote": "Total naval deployment cost for the first 12 days of active conflict operations; does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -520,10 +520,10 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 112.98,
+      "currentPrice": 90.77,
       "peakPrice": 119.50,
-      "wtiPrice": 101.97,
-      "usGasPricePerGallon": 3.54,
+      "wtiPrice": 86.01,
+      "usGasPricePerGallon": 3.578,
       "priceUnit": "USD per barrel (Brent Crude)",
       "percentageIncrease": 43.9,
       "estimatedGlobalCost": 850000000000,
@@ -635,6 +635,6 @@
     "combinedTotalCosts": 136670000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military costs for all three belligerents plus indirect economic costs. Global economic impact represents the annualized additional cost from oil price disruption.",
-    "lastCalculated": "2026-03-10T14:00:00Z"
+    "lastCalculated": "2026-03-11T16:00:00Z"
   }
 }
