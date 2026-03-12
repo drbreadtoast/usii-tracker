@@ -1,6 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X } from 'lucide-react'
+import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X, Search } from 'lucide-react'
+import WorldClocks from './WorldClocks'
+import eventsData from '../../data/events.json'
+import breakingData from '../../data/breaking.json'
+import timelineData from '../../data/war-timeline.json'
 
 const NAV_LINKS = [
   { to: '/', label: 'Home', icon: Map, color: 'text-gray-300 hover:text-white' },
@@ -42,15 +46,29 @@ const EXPLORE_SECTIONS = [
   ]},
 ]
 
+// Build search index from static data
+const SEARCH_INDEX = [
+  ...eventsData.map(e => ({ type: 'event', id: e.id, text: `${e.title} ${e.description} ${e.location || ''}`, title: e.title, route: '/timeline' })),
+  ...breakingData.map(b => ({ type: 'breaking', id: b.id, text: b.text, title: b.text.slice(0, 80), route: '/breaking-news' })),
+  ...timelineData.map(t => ({ type: 'timeline', id: t.id, text: `${t.title} ${t.description}`, title: t.title, route: '/timeline' })),
+]
+
+const TYPE_LABELS = {
+  event: { label: 'Event', cls: 'text-red-400 bg-red-950/40' },
+  breaking: { label: '24hr', cls: 'text-orange-400 bg-orange-950/40' },
+  timeline: { label: 'Timeline', cls: 'text-blue-400 bg-blue-950/40' },
+}
+
 export default function NavBar() {
   const location = useLocation()
   const navigate = useNavigate()
   const navRef = useRef(null)
+  const searchInputRef = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(false)
   const [exploreOpen, setExploreOpen] = useState(false)
-
-  const isDashboard = location.pathname === '/'
+  const [searchOpen, setSearchOpen] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
 
   const checkScroll = () => {
     const el = navRef.current
@@ -60,7 +78,6 @@ export default function NavBar() {
   }
 
   useEffect(() => {
-    if (isDashboard) return
     checkScroll()
     const el = navRef.current
     if (el) {
@@ -71,20 +88,32 @@ export default function NavBar() {
         window.removeEventListener('resize', checkScroll)
       }
     }
-  }, [isDashboard])
+  }, [])
 
-  // Close explore on route change
+  // Close overlays on route change
   useEffect(() => {
     setExploreOpen(false)
+    setSearchOpen(false)
+    setSearchQuery('')
   }, [location.pathname])
+
+  // Focus search input when opened
+  useEffect(() => {
+    if (searchOpen && searchInputRef.current) {
+      searchInputRef.current.focus()
+    }
+  }, [searchOpen])
 
   const scrollNav = (dir) => {
     const el = navRef.current
     if (el) el.scrollBy({ left: dir * 200, behavior: 'smooth' })
   }
 
-  // Don't render on the dashboard — it has its own nav in the Header
-  if (isDashboard) return null
+  const searchResults = searchQuery.trim().length >= 2
+    ? SEARCH_INDEX.filter(item =>
+        item.text.toLowerCase().includes(searchQuery.toLowerCase())
+      ).slice(0, 12)
+    : []
 
   return (
     <>
@@ -141,18 +170,82 @@ export default function NavBar() {
           )}
         </div>
 
-        {/* Explore button */}
-        <div className="flex items-center ml-1.5 shrink-0">
+        {/* Right: Explore + Search */}
+        <div className="flex items-center gap-1.5 ml-1.5 shrink-0">
           <button
-            onClick={() => setExploreOpen(!exploreOpen)}
-            className="flex items-center gap-1 px-2 py-1 rounded text-[10px] font-medium bg-blue-950/40 hover:bg-blue-900/50 border border-blue-800/30 text-blue-400 hover:text-blue-300 transition-colors"
+            onClick={() => { setExploreOpen(!exploreOpen); setSearchOpen(false) }}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-[11px] font-bold bg-blue-600 hover:bg-blue-500 text-white transition-colors ring-1 ring-blue-400/30 shadow-lg shadow-blue-900/20"
             title="Explore all pages"
           >
-            <LayoutGrid size={10} className="animate-[pulse_3s_ease-in-out_infinite]" />
-            <span className="hidden sm:inline">Explore</span>
+            <LayoutGrid size={12} />
+            Explore
+          </button>
+          <button
+            onClick={() => { setSearchOpen(!searchOpen); setExploreOpen(false) }}
+            className="flex items-center gap-1 px-2 py-1 rounded text-[10px] font-medium bg-gray-800/50 hover:bg-gray-700 border border-gray-700/50 text-gray-400 hover:text-white transition-colors"
+            title="Search"
+          >
+            <Search size={10} />
+            <span className="hidden sm:inline">Search</span>
           </button>
         </div>
       </div>
+
+      {/* World Clocks — always visible below nav */}
+      <WorldClocks />
+
+      {/* Search Overlay */}
+      {searchOpen && (
+        <div className="fixed inset-0 z-[2000] bg-black/70" onClick={() => setSearchOpen(false)}>
+          <div className="max-w-2xl mx-auto mt-16 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl overflow-hidden" onClick={e => e.stopPropagation()}>
+            <div className="flex items-center gap-3 px-4 py-3 border-b border-gray-800">
+              <Search size={16} className="text-gray-500" />
+              <input
+                ref={searchInputRef}
+                type="text"
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+                placeholder="Search events, news, timeline..."
+                className="flex-1 bg-transparent text-sm text-gray-200 placeholder-gray-600 outline-none"
+              />
+              <button onClick={() => setSearchOpen(false)} className="text-gray-500 hover:text-white">
+                <X size={16} />
+              </button>
+            </div>
+            <div className="max-h-[50vh] overflow-y-auto">
+              {searchQuery.trim().length < 2 ? (
+                <div className="px-4 py-6 text-center text-gray-600 text-sm">
+                  Type at least 2 characters to search...
+                </div>
+              ) : searchResults.length === 0 ? (
+                <div className="px-4 py-6 text-center text-gray-600 text-sm">
+                  No results found for "{searchQuery}"
+                </div>
+              ) : (
+                searchResults.map(result => {
+                  const typeInfo = TYPE_LABELS[result.type]
+                  return (
+                    <button
+                      key={`${result.type}-${result.id}`}
+                      onClick={() => {
+                        navigate(result.route)
+                        setSearchOpen(false)
+                        setSearchQuery('')
+                      }}
+                      className="w-full text-left px-4 py-3 hover:bg-gray-800/50 transition-colors border-b border-gray-800/50 flex items-start gap-3"
+                    >
+                      <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded shrink-0 mt-0.5 ${typeInfo.cls}`}>
+                        {typeInfo.label}
+                      </span>
+                      <span className="text-sm text-gray-300 line-clamp-2">{result.title}</span>
+                    </button>
+                  )
+                })
+              )}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Explore Overlay */}
       {exploreOpen && (

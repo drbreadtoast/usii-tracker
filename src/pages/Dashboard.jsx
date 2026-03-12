@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, ChevronDown, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
-import Header from '../components/Layout/Header'
-import WorldClocks from '../components/Layout/WorldClocks'
+// Header and WorldClocks now rendered globally via NavBar in App.jsx
 import FilterPanel from '../components/Layout/FilterPanel'
 import TimeFilter from '../components/Layout/TimeFilter'
 import DeathToll from '../components/Layout/DeathToll'
@@ -81,9 +80,6 @@ export default function Dashboard() {
 
   return (
     <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-y-auto">
-      <Header metadata={metadata} />
-      <WorldClocks />
-
       {/* Quick Brief — first thing visitors see (includes notices) */}
       <HomepageSummary />
 
