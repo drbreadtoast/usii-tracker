@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FileText, ArrowLeft, Sparkles, Wrench, Layout, Zap, Globe, BarChart3, MessageCircle } from 'lucide-react'
-import UpdateBadge from '../components/Layout/UpdateBadge'
+// UpdateBadge now rendered globally in App.jsx
 
 const PATCH_NOTES = [
   {
@@ -232,10 +232,8 @@ export default function PatchNotesPage() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 border-t border-gray-800 mt-8">
-        <UpdateBadge />
-      </footer>
+      {/* Spacer for fixed bottom bars */}
+      <div className="h-8" />
     </div>
   )
 }

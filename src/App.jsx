@@ -4,6 +4,7 @@ import BreakingAlert from './components/Layout/BreakingAlert'
 import BreakingBanner from './components/Layout/BreakingBanner'
 import NavBar from './components/Layout/NavBar'
 import CommodityTicker from './components/Commodities/CommodityTicker'
+import UpdateBadge from './components/Layout/UpdateBadge'
 import UpdateNotification from './components/Layout/UpdateNotification'
 import Dashboard from './pages/Dashboard'
 import TimelinePage from './pages/TimelinePage'
@@ -35,7 +36,6 @@ export default function App() {
     <div className="h-screen w-screen flex flex-col overflow-hidden bg-gray-950 text-gray-100">
       <BreakingBanner />
       <BreakingAlert />
-      <CommodityTicker />
       <NavBar />
       <div ref={mainRef} className="flex-1 min-h-0 overflow-auto flex flex-col">
         <Routes>
@@ -57,6 +57,11 @@ export default function App() {
           <Route path="/follow-the-damage" element={<FollowTheDamagePage />} />
           <Route path="/patch-notes" element={<PatchNotesPage />} />
         </Routes>
+      </div>
+      {/* Fixed bottom bars — always visible on all pages */}
+      <div className="shrink-0">
+        <CommodityTicker />
+        <UpdateBadge />
       </div>
       <UpdateNotification />
     </div>

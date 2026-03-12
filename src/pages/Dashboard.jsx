@@ -16,7 +16,6 @@ import MediaPerspectives from '../components/Media/MediaPerspectives'
 import GovernmentStatements from '../components/Media/GovernmentStatements'
 import EnergyPanel from '../components/Energy/EnergyPanel'
 // CommodityTicker moved to App.jsx for global visibility
-import UpdateBadge from '../components/Layout/UpdateBadge'
 import VideoSection from '../components/Media/VideoSection'
 import HomepageSummary from '../components/Layout/HomepageSummary'
 import { useEvents } from '../hooks/useEvents'
@@ -86,13 +85,13 @@ export default function Dashboard() {
     <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-y-auto">
       <Header metadata={metadata} />
       <WorldClocks />
-      <CensorshipNotice />
-      <SourcesNotice />
 
       {/* Quick Brief — first thing visitors see */}
       <HomepageSummary />
 
-      <UpdateBadge />
+      {/* Reporting notices — under Quick Brief */}
+      <CensorshipNotice />
+      <SourcesNotice />
 
       {/* Scroll hint — tells users there's a live map below */}
       <div className="bg-gradient-to-b from-gray-950 to-gray-900 border-t border-gray-800 py-3 flex flex-col items-center gap-1 shrink-0 cursor-pointer hover:bg-gray-900/80 transition-colors"
