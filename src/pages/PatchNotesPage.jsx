@@ -10,11 +10,13 @@ const PATCH_NOTES = [
     icon: Zap,
     iconColor: 'text-red-400',
     highlights: [
-      'Added live video popup with Al Jazeera and i24NEWS streams — watch both sides of the conflict directly on the dashboard',
-      'Video popup floats over the map so you can monitor news while browsing other panels, with minimize and close controls',
-      'Mobile-optimized video popup scales to fit smaller screens',
-      'Changed "Last updated" to "Last news refresh" so it\'s clear the timestamp refers to data freshness, not code changes',
-      'Updated breaking news banner to show actively developing stories instead of old resolved items',
+      'Added live video popup with Al Jazeera English stream — auto-plays on load with a 5-second dismiss option so you can close it quickly if you want quiet',
+      'Added i24NEWS (Israeli perspective) tab with fallback links to Fox News and Newsmax when the embed is unavailable — see both sides of the conflict',
+      'Video popup is draggable and resizable on desktop — move it anywhere on screen and resize to your preference',
+      'Minimize the video to a compact pill that keeps audio playing in the background while you explore the map and data',
+      'Mobile-optimized: video popup floats above the footer and ticker bars with full minimize/close controls',
+      'Changed "Last updated" to "Last news refresh" for clarity',
+      'Updated breaking news banner to show actively developing stories',
     ],
   },
   {
