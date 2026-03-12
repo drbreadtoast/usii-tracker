@@ -4,30 +4,28 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-002',
+    id: 'ba-003',
     headline: 'THREAT: Iran Publishes Target List of US Tech Giant Offices — Amazon, Google, Microsoft, Nvidia, Palantir, IBM, Oracle Facilities in Israel & Gulf States Threatened',
     status: 'developing',
     lastUpdated: '2026-03-12T07:35:00Z',
-    summary: 'Six commercial vessels attacked in the Persian Gulf and Strait of Hormuz on Day 13 — the largest single-day attack on shipping since the war began. Iranian explosive-laden boats set two fuel tankers ablaze in Iraqi waters (1 killed, 25 evacuated). Iraq shut down oil port operations. Separately, Iran published a target list of US tech giant offices (Amazon, Google, Microsoft, Nvidia) and pro-Iran hackers launched the first cyberattack on a US company.',
+    summary: 'Iran\'s Tasnim news agency, closely linked to the IRGC, has published detailed target lists of US technology company offices located in Israel and Gulf states. Companies named include Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle. The IRGC declared US-Israeli "economic centres and banks" as legitimate military targets. Separately, a pro-Iran hacking group carried out the first significant cyberattack on a US company since the war began — targeting Stryker, a medical technology firm. International bank employees have begun evacuating families from Dubai.',
     officialStatus: {
       label: 'Confirmed — Multiple Sources',
-      detail: 'Al Jazeera, AP, and Gulf News all confirm six vessels attacked. Iraqi officials confirmed port shutdown and called it a "flagrant violation of sovereignty." Thai-flagged Mayuree Naree struck by two projectiles (3 crew missing). Japan-flagged ONE Majesty sustained minor damage near UAE. Total ships struck since war began: at least 16. US Navy refused merchant escort requests through Hormuz.',
+      detail: 'Iran\'s Tasnim news agency published the target lists, naming Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle offices across Israel and Gulf states. The IRGC formally declared US-Israeli economic infrastructure as legitimate targets. This marks a major escalation from military-to-military operations to economic and infrastructure warfare. International companies have begun reviewing security protocols for regional offices.',
       sources: [
-        { name: 'Al Jazeera — Six vessels attacked', url: 'https://www.aljazeera.com/news/2026/3/12/five-vessels-attacked-amid-reports-of-iranian-drone-boats-sea-mines' },
-        { name: 'AP / Kathmandu Post — Ships on front lines', url: 'https://kathmandupost.com/world/2026/03/12/six-vessels-attacked-in-gulf-strait-of-hormuz-as-war-puts-merchant-ships-on-front-lines' },
+        { name: 'Times of Israel — Iran threatens tech giants', url: 'https://www.timesofisrael.com/liveblog_entry/iran-threatens-israel-and-gulf-offices-of-us-tech-giants-amazon-google-microsoft-and-nvidia/' },
+        { name: 'The Register — Infrastructure warfare', url: 'https://www.theregister.com/2026/03/11/iran_threatens_us_tech_companies/' },
         { name: 'Al Jazeera Liveblog — Day 13', url: 'https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace' },
       ]
     },
-    socialMediaClaims: {
-      detail: 'Iran\'s Tasnim news agency published detailed target lists of US tech company offices in Israel and Gulf states, including Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle. IRGC declared US-Israeli "economic centres and banks" as legitimate targets. A pro-Iran hacking group claimed a cyberattack on US medical tech company Stryker — the first significant Iran cyber attack on a US company since the war began.',
+    cyberAttack: {
+      detail: 'A pro-Iran hacking group claimed responsibility for a cyberattack on US medical technology company Stryker — the first significant cyber operation against an American company since the war began. The attack is seen as a signal that Iran is willing to extend the conflict into cyberspace targeting US corporate infrastructure, not just military systems.',
       sources: [
-        { name: 'Times of Israel — Iran threatens tech giants', url: 'https://www.timesofisrael.com/liveblog_entry/iran-threatens-israel-and-gulf-offices-of-us-tech-giants-amazon-google-microsoft-and-nvidia/' },
         { name: 'NBC News — Iran cyberattack on Stryker', url: 'https://www.nbcnews.com/world/iran/iran-appears-conducted-significant-cyberattack-us-company-first-war-st-rcna263084' },
-        { name: 'The Register — Infrastructure warfare', url: 'https://www.theregister.com/2026/03/11/iran_threatens_us_tech_companies/' },
         { name: 'ABC News — Stryker hack confirmed', url: 'https://abcnews.com/International/pro-iran-hacking-group-claims-responsibility-cyberattack-stryker/story?id=130979414' },
       ]
     },
-    context: 'Day 13 marks a significant escalation in Iran\'s strategy — expanding the war from military targets to economic infrastructure, technology companies, and cyber operations against US companies. Oil prices surged to Brent $94.77 and WTI $93.24. The IRGC has warned that any ship passing through the Strait of Hormuz will be targeted. Iran has deployed approximately 12 mines in the strait. International bank employees have begun leaving Dubai with families.'
+    context: 'Day 13 marks a significant escalation in Iran\'s strategy — expanding the war from military targets to economic infrastructure, technology companies, and cyber operations against US companies. The IRGC\'s declaration makes this the first time a state actor has formally designated US tech company offices as military targets during an active conflict. Oil prices surged to Brent $94.77 and WTI $93.24. International bank employees have begun leaving Dubai with families.'
   }
 ]
 
@@ -79,11 +77,15 @@ function AlertCard({ alert }) {
     <div className="border-b border-red-900/30 last:border-b-0">
       <button
         onClick={() => setExpanded(!expanded)}
-        className="w-full flex items-center justify-between px-3 py-2 hover:bg-red-950/40 transition-colors"
+        className="w-full flex items-center gap-2 px-3 py-2 hover:bg-red-950/40 transition-colors"
       >
-        <div className="flex items-center gap-2 flex-1 min-w-0">
-          <StatusBadge status={alert.status} />
-          <span className="text-xs text-red-100 font-medium truncate">{alert.headline}</span>
+        <StatusBadge status={alert.status} />
+        {/* Scrolling headline */}
+        <div className="flex-1 min-w-0 overflow-hidden group">
+          <div className="marquee-track whitespace-nowrap text-xs text-red-100 font-medium">
+            <span className="inline-block">{alert.headline}&nbsp;&nbsp;&nbsp;</span>
+            <span className="inline-block">{alert.headline}&nbsp;&nbsp;&nbsp;</span>
+          </div>
         </div>
         <div className="flex items-center gap-2 shrink-0 ml-2">
           <span className="text-[9px] text-gray-500 hidden sm:inline">Updated: {timeStr}</span>
@@ -102,9 +104,9 @@ function AlertCard({ alert }) {
             <span>Research last updated: {timeStr}</span>
           </div>
 
-          {/* Official Status */}
+          {/* Official Status — Tech Threat */}
           <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg p-2.5">
-            <p className="text-[10px] text-green-400 font-bold uppercase tracking-wider mb-1">Official Status & Fact-Checks</p>
+            <p className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-1">Confirmed Threat — Tech Company Target List</p>
             <p className="text-[10px] text-gray-400 leading-relaxed mb-2">{alert.officialStatus.detail}</p>
             <div className="flex flex-wrap gap-x-3 gap-y-1">
               {alert.officialStatus.sources.map((s, i) => (
@@ -113,16 +115,18 @@ function AlertCard({ alert }) {
             </div>
           </div>
 
-          {/* Social Media Claims */}
-          <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg p-2.5">
-            <p className="text-[10px] text-amber-400 font-bold uppercase tracking-wider mb-1">Social Media & Iranian State Media Claims</p>
-            <p className="text-[10px] text-gray-400 leading-relaxed mb-2">{alert.socialMediaClaims.detail}</p>
-            <div className="flex flex-wrap gap-x-3 gap-y-1">
-              {alert.socialMediaClaims.sources.map((s, i) => (
-                <SourceLink key={i} name={s.name} url={s.url} />
-              ))}
+          {/* Cyber Attack */}
+          {alert.cyberAttack && (
+            <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg p-2.5">
+              <p className="text-[10px] text-amber-400 font-bold uppercase tracking-wider mb-1">First Cyber Attack on US Company</p>
+              <p className="text-[10px] text-gray-400 leading-relaxed mb-2">{alert.cyberAttack.detail}</p>
+              <div className="flex flex-wrap gap-x-3 gap-y-1">
+                {alert.cyberAttack.sources.map((s, i) => (
+                  <SourceLink key={i} name={s.name} url={s.url} />
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Context */}
           {alert.context && (
