@@ -89,8 +89,24 @@ export default function Dashboard() {
       <CensorshipNotice />
       <SourcesNotice />
 
+      {/* Quick Brief — first thing visitors see */}
+      <HomepageSummary />
+
+      <UpdateBadge />
+
+      {/* Scroll hint — tells users there's a live map below */}
+      <div className="bg-gradient-to-b from-gray-950 to-gray-900 border-t border-gray-800 py-3 flex flex-col items-center gap-1 shrink-0 cursor-pointer hover:bg-gray-900/80 transition-colors"
+        onClick={() => {
+          const el = document.getElementById('live-map')
+          if (el) el.scrollIntoView({ behavior: 'smooth' })
+        }}
+      >
+        <span className="text-[10px] text-gray-500 uppercase tracking-widest font-semibold">Scroll for Live Map & Data Panels</span>
+        <ChevronDown size={16} className="text-gray-600 animate-bounce" />
+      </div>
+
       {/* Mobile toggle bar — visible only on small screens */}
-      <div className="flex sm:hidden items-center border-b border-gray-800 bg-gray-900 shrink-0">
+      <div id="live-map" className="flex sm:hidden items-center border-b border-gray-800 bg-gray-900 shrink-0">
         <button
           onClick={() => setMobileView('map')}
           className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold transition-all ${
@@ -292,22 +308,6 @@ export default function Dashboard() {
           </div>
         )}
       </div>
-
-      {/* Scroll hint — tells users there's more below */}
-      <div className="bg-gradient-to-b from-gray-950 to-gray-900 border-t border-gray-800 py-3 flex flex-col items-center gap-1 shrink-0 cursor-pointer hover:bg-gray-900/80 transition-colors"
-        onClick={() => {
-          const el = document.getElementById('quick-brief')
-          if (el) el.scrollIntoView({ behavior: 'smooth' })
-        }}
-      >
-        <span className="text-[10px] text-gray-500 uppercase tracking-widest font-semibold">Scroll for Quick Brief</span>
-        <ChevronDown size={16} className="text-gray-600 animate-bounce" />
-      </div>
-
-      <UpdateBadge />
-
-      {/* Scrollable summary sections — highlights from every page */}
-      <HomepageSummary />
 
       {/* Floating video popup — sits above everything */}
       {showVideo && <VideoSection onClose={() => setShowVideo(false)} />}
