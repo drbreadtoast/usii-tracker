@@ -10,7 +10,13 @@ const PRIORITY_STYLES = {
   medium: { bg: 'bg-yellow-950/30', border: 'border-yellow-800', badge: 'bg-yellow-600 text-white', label: 'MEDIUM' },
 }
 
+// Check if a timestamp is date-only (midnight UTC = no specific time known)
+function isDateOnly(timestamp) {
+  return timestamp.endsWith('T00:00:00Z') || timestamp.endsWith('T00:00:00.000Z')
+}
+
 function formatTimeAgo(timestamp) {
+  if (isDateOnly(timestamp)) return null // No "ago" for date-only entries
   const now = new Date()
   const t = new Date(timestamp)
   const diffMs = now - t
@@ -19,6 +25,22 @@ function formatTimeAgo(timestamp) {
   if (diffMin < 60) return `${diffMin}m ago`
   if (diffHr < 24) return `${diffHr}h ago`
   return `${Math.floor(diffHr / 24)}d ago`
+}
+
+function formatEntryTime(timestamp) {
+  if (isDateOnly(timestamp)) {
+    // Show just the date, no time
+    return new Date(timestamp).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric',
+      timeZone: 'UTC',
+    })
+  }
+  // Show full date + time in PT
+  return new Date(timestamp).toLocaleString('en-US', {
+    month: 'short', day: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: true,
+    timeZone: 'America/Los_Angeles',
+  }) + ' PT'
 }
 
 function SourceBadge({ source }) {
@@ -73,7 +95,7 @@ export default function BreakingNewsPage() {
           </div>
           <div className="flex items-center gap-2 text-xs text-gray-500">
             <Clock size={12} className="text-gray-500" />
-            <span>Last updated: {lastUpdatedPT}</span>
+            <span>Last News Refresh: {lastUpdatedPT}</span>
           </div>
         </div>
       </header>
@@ -117,15 +139,13 @@ export default function BreakingNewsPage() {
                       <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${style.badge}`}>{style.label}</span>
                       <span className="text-[10px] text-gray-500 flex items-center gap-1">
                         <Clock size={10} />
-                        {new Date(item.timestamp).toLocaleString('en-US', {
-                          month: 'short', day: 'numeric',
-                          hour: '2-digit', minute: '2-digit', hour12: true,
-                          timeZone: 'America/Los_Angeles',
-                        })} PT
+                        {formatEntryTime(item.timestamp)}
                       </span>
-                      <span className="text-[10px] text-gray-600">
-                        {formatTimeAgo(item.timestamp)}
-                      </span>
+                      {formatTimeAgo(item.timestamp) && (
+                        <span className="text-[10px] text-gray-600">
+                          {formatTimeAgo(item.timestamp)}
+                        </span>
+                      )}
                     </div>
                     <p className="text-sm text-gray-200 leading-relaxed">{item.text}</p>
                     {item.sources && item.sources.length > 0 && (
@@ -165,15 +185,13 @@ export default function BreakingNewsPage() {
                         <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${style.badge} opacity-60`}>{style.label}</span>
                         <span className="text-[10px] text-gray-600 flex items-center gap-1">
                           <Clock size={10} />
-                          {new Date(item.timestamp).toLocaleString('en-US', {
-                            month: 'short', day: 'numeric',
-                            hour: '2-digit', minute: '2-digit', hour12: true,
-                            timeZone: 'America/Los_Angeles',
-                          })} PT
+                          {formatEntryTime(item.timestamp)}
                         </span>
-                        <span className="text-[10px] text-gray-700">
-                          {formatTimeAgo(item.timestamp)}
-                        </span>
+                        {formatTimeAgo(item.timestamp) && (
+                          <span className="text-[10px] text-gray-700">
+                            {formatTimeAgo(item.timestamp)}
+                          </span>
+                        )}
                       </div>
                       <p className="text-sm text-gray-400 leading-relaxed">{item.text}</p>
                       {item.sources && item.sources.length > 0 && (

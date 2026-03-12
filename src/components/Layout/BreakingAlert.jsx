@@ -7,7 +7,7 @@ const BREAKING_ALERTS = [
     id: 'ba-003',
     headline: 'THREAT: Iran Publishes Target List of US Tech Giant Offices — Amazon, Google, Microsoft, Nvidia, Palantir, IBM, Oracle Facilities in Israel & Gulf States Threatened',
     status: 'developing',
-    lastUpdated: '2026-03-12T07:35:00Z',
+    lastUpdated: '2026-03-12T13:25:00Z',
     summary: 'Iran\'s Tasnim news agency, closely linked to the IRGC, has published detailed target lists of US technology company offices located in Israel and Gulf states. Companies named include Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle. The IRGC declared US-Israeli "economic centres and banks" as legitimate military targets. Separately, a pro-Iran hacking group carried out the first significant cyberattack on a US company since the war began — targeting Stryker, a medical technology firm. International bank employees have begun evacuating families from Dubai.',
     officialStatus: {
       label: 'Confirmed — Multiple Sources',
