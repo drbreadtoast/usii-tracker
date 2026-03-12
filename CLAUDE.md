@@ -228,6 +228,25 @@ src/
 - verificationStatus: confirmed | likely | rumored
 - All timestamps: ISO 8601 format "2026-03-09T18:00:00Z"
 
+### Source URL Rules — MANDATORY
+- **NEVER fabricate or construct URLs.** Do not build URLs by guessing an outlet's URL pattern.
+- **URLs are INPUTS, not outputs.** Always search for and verify real article URLs FIRST using web search, THEN write data entries using those verified URLs.
+- **Every source URL must be a real, verified link** that was found via web search or confirmed to return a 200 status.
+- **Workflow: Search → Collect URLs → Write entries.** Never write entries first and add URLs after.
+- **If a real URL cannot be found** for a specific claim, use the outlet's homepage or topic page (e.g., `https://reuters.com/world/middle-east/`) and note it as a general reference — never invent a specific article slug.
+- **Run `npm run check-links`** before committing to catch any broken URLs automatically.
+- This rule exists because fabricated URLs (built by pattern-matching outlet URL structures) caused 404 errors on the live site. See `.claude/internal-reports/broken-links-report-2026-03-11.md` for the full incident report.
+
+### Source Relevance Rules — MANDATORY
+- **Every source must directly support its specific claim.** If an entry says "IEA releases 400M barrels of oil," the source link must go to an article specifically about that event — not a general Middle East news page or outlet homepage.
+- **The source is where the information came from.** When researching via web search, the article URL that contained the information IS the source. Save it and attach it to the entry.
+- **No information without a source.** Every event, statement, statistic, casualty figure, and claim entered into any data file MUST have at least one source link that a user can click to read the original reporting.
+- **If no specific article can be found to back a claim, do not add the claim.** Mark it for later research or set verificationStatus to "rumored" with a note explaining the sourcing gap.
+- **One claim = one relevant source minimum.** Major claims (death tolls, strikes, political statements) should have 2+ independent sources where possible.
+- **Test the relevance, not just the link.** When verifying a URL, confirm the article actually covers the topic described in the entry — a working URL to an unrelated article is just as bad as a 404.
+- **Liveblog URLs are acceptable** when they are the primary source (e.g., Al Jazeera or Times of Israel liveblogs covering a day's events). Note the outlet name clearly.
+- **Never use a homepage or section page as a primary source.** These are only acceptable as fallback references when clearly labeled (e.g., `{name: "Reuters Middle East (general)", url: "https://reuters.com/world/middle-east/"}`).
+
 ---
 
 ## Growth Management

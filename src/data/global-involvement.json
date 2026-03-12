@@ -178,5 +178,39 @@
     "statements": [
       { "date": "2026-03-11", "speaker": "Lebanese Cabinet", "text": "All non-state military activities within Lebanese territory are hereby declared unlawful. The state alone holds the monopoly on legitimate force." }
     ]
+  },
+  {
+    "id": "gi-spain",
+    "country": "Spain",
+    "key": "ES",
+    "flag": "\ud83c\uddea\ud83c\uddf8",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "level": "diplomatic",
+    "summary": "Spain permanently withdrew its ambassador to Israel and denied US access to jointly operated military bases in southern Spain for Iran operations. PM Sanchez condemned the war as 'unjustifiable.' Trump threatened trade cuts.",
+    "actions": [
+      { "date": "2026-03-10", "type": "diplomatic", "text": "Council of Ministers approved decree terminating Ambassador Ana María Sálomon Pérez's appointment to Israel" },
+      { "date": "2026-03-11", "type": "diplomatic", "text": "Denied US access to jointly operated military bases in southern Spain for Iran-related operations" }
+    ],
+    "statements": [
+      { "date": "2026-03-11", "speaker": "PM Pedro Sanchez", "text": "Our position is clear: no to the war. The US-Israel attack on Iran is unjustifiable." },
+      { "date": "2026-03-11", "speaker": "FM José Manuel Albares", "text": "Our embassy in Israel will remain open to assist with all evacuation operations of citizens by all possible means." }
+    ]
+  },
+  {
+    "id": "gi-greece",
+    "country": "Greece",
+    "key": "GR",
+    "flag": "\ud83c\uddec\ud83c\uddf7",
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "level": "economic",
+    "summary": "Greece imposed 3-month profit margin caps on fuel and food prices to prevent war-driven price gouging. Gas stations limited to 12-cent/liter markup. PM Mitsotakis warned retailers against profiteering.",
+    "actions": [
+      { "date": "2026-03-11", "type": "economic", "text": "Imposed 3-month profit margin caps on fuel (max 12¢/liter retail markup) and food prices, effective through June 30, 2026" }
+    ],
+    "statements": [
+      { "date": "2026-03-11", "speaker": "PM Kyriakos Mitsotakis", "text": "The government is vigilant for further effects of the conflict. We warn retailers against profiteering." }
+    ]
   }
 ]

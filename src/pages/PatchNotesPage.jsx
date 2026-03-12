@@ -4,6 +4,19 @@ import UpdateBadge from '../components/Layout/UpdateBadge'
 
 const PATCH_NOTES = [
   {
+    version: '1.8',
+    date: 'March 11, 2026',
+    title: 'Source Link Integrity & Data Refresh',
+    icon: Wrench,
+    iconColor: 'text-green-400',
+    highlights: [
+      'Fixed 46 broken source URLs across all data files — every link now points to a verified, real article',
+      'Added mandatory source relevance rules to ensure every link matches the claim it supports',
+      'Full Day 12 evening data refresh across all 24 data files',
+      'Improved URL validation workflow to prevent broken links in future updates',
+    ],
+  },
+  {
     version: '1.7',
     date: 'March 10, 2026',
     title: 'Page Consolidation & Quality of Life',
