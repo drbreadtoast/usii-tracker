@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock } from 'lucide-react'
+import CensorshipNotice from './CensorshipNotice'
+import SourcesNotice from './SourcesNotice'
 import siteMetadata from '../../data/site-metadata.json'
 
 // Data imports — each section is self-contained
@@ -360,6 +362,12 @@ export default function HomepageSummary() {
           </span>
           <span className="text-[10px] text-gray-600">· Day {siteMetadata.conflictDay}</span>
         </div>
+      </div>
+
+      {/* Reporting notices — under timestamp, above cards */}
+      <div className="max-w-[1400px] mx-auto px-4 mb-4">
+        <CensorshipNotice />
+        <SourcesNotice />
       </div>
 
       {/* Grid of summary cards */}

@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, ChevronDown, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
 import Header from '../components/Layout/Header'
 import WorldClocks from '../components/Layout/WorldClocks'
-import CensorshipNotice from '../components/Layout/CensorshipNotice'
-import SourcesNotice from '../components/Layout/SourcesNotice'
 import FilterPanel from '../components/Layout/FilterPanel'
 import TimeFilter from '../components/Layout/TimeFilter'
 import DeathToll from '../components/Layout/DeathToll'
@@ -86,12 +84,8 @@ export default function Dashboard() {
       <Header metadata={metadata} />
       <WorldClocks />
 
-      {/* Quick Brief — first thing visitors see */}
+      {/* Quick Brief — first thing visitors see (includes notices) */}
       <HomepageSummary />
-
-      {/* Reporting notices — under Quick Brief */}
-      <CensorshipNotice />
-      <SourcesNotice />
 
       {/* Scroll hint — tells users there's a live map below */}
       <div className="bg-gradient-to-b from-gray-950 to-gray-900 border-t border-gray-800 py-3 flex flex-col items-center gap-1 shrink-0 cursor-pointer hover:bg-gray-900/80 transition-colors"
