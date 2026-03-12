@@ -154,18 +154,41 @@ function PartyRow({ party, isExpanded, onToggle }) {
             </div>
           )}
 
-          {/* Additional stats */}
-          <div className="flex gap-3 text-[10px]">
-            {party.injured && (
-              <span className="text-orange-400">Injured: <NumberDisplay value={party.injured} className="text-orange-300 text-[10px]" /></span>
-            )}
-            {party.displaced && (
-              <span className="text-purple-400">Displaced: <NumberDisplay value={party.displaced} className="text-purple-300 text-[10px]" /></span>
-            )}
-            {party.arrested && (
-              <span className="text-red-400">Arrested: <NumberDisplay value={party.arrested} className="text-red-300 text-[10px]" /></span>
-            )}
-          </div>
+          {/* Additional stats — injured, displaced, missing, arrested */}
+          {(party.injured || party.displaced || party.arrested || party.missing) && (
+            <div>
+              <div className="flex items-center gap-1.5 mb-1.5">
+                <AlertTriangle size={11} className="text-orange-400" />
+                <span className="text-[10px] font-bold text-orange-400 uppercase tracking-wider">Impact & Casualties</span>
+              </div>
+              <div className="grid grid-cols-2 gap-1.5">
+                {party.injured != null && party.injured > 0 && (
+                  <div className="bg-orange-950/20 border border-orange-900/30 rounded p-2 text-center">
+                    <p className="text-[9px] text-orange-400/70 uppercase font-semibold">Injured</p>
+                    <NumberDisplay value={party.injured} className="text-orange-300 text-sm" />
+                  </div>
+                )}
+                {party.displaced != null && party.displaced > 0 && (
+                  <div className="bg-purple-950/20 border border-purple-900/30 rounded p-2 text-center">
+                    <p className="text-[9px] text-purple-400/70 uppercase font-semibold">Displaced</p>
+                    <NumberDisplay value={party.displaced} className="text-purple-300 text-sm" />
+                  </div>
+                )}
+                {party.missing != null && party.missing > 0 && (
+                  <div className="bg-blue-950/20 border border-blue-900/30 rounded p-2 text-center">
+                    <p className="text-[9px] text-blue-400/70 uppercase font-semibold">Missing</p>
+                    <NumberDisplay value={party.missing} className="text-blue-300 text-sm" />
+                  </div>
+                )}
+                {party.arrested != null && party.arrested > 0 && (
+                  <div className="bg-red-950/20 border border-red-900/30 rounded p-2 text-center">
+                    <p className="text-[9px] text-red-400/70 uppercase font-semibold">Arrested</p>
+                    <NumberDisplay value={party.arrested} className="text-red-300 text-sm" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>

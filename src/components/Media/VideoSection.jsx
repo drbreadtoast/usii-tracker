@@ -24,7 +24,6 @@ const STREAMS = [
     fallbackLinks: [
       { name: 'i24NEWS', flag: '\u{1F1EE}\u{1F1F1}', url: 'https://www.i24news.tv/en', desc: 'Israeli 24/7 English news' },
       { name: 'Fox News', flag: '\u{1F1FA}\u{1F1F8}', url: 'https://www.foxnews.com/video', desc: 'US conservative news' },
-      { name: 'Newsmax', flag: '\u{1F1FA}\u{1F1F8}', url: 'https://www.newsmaxtv.com/', desc: 'US pro-Trump news' },
     ],
   },
 ]

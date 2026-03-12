@@ -18,7 +18,6 @@ import EnergyPanel from '../components/Energy/EnergyPanel'
 import CommodityTicker from '../components/Commodities/CommodityTicker'
 import UpdateBadge from '../components/Layout/UpdateBadge'
 import VideoSection from '../components/Media/VideoSection'
-import HomepageSummary from '../components/Layout/HomepageSummary'
 import { useEvents } from '../hooks/useEvents'
 import { useFilters } from '../hooks/useFilters'
 
@@ -83,7 +82,7 @@ export default function Dashboard() {
   ]
 
   return (
-    <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-y-auto">
+    <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-hidden">
       <Header metadata={metadata} />
       <WorldClocks />
       <CensorshipNotice />
@@ -115,7 +114,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      <div className="flex shrink-0 overflow-hidden relative" style={{ height: 'calc(100vh - 220px)', minHeight: '400px' }}>
+      <div className="flex-1 flex overflow-hidden relative">
         {/* Map Area — hidden on mobile when panel view is active */}
         <div className={`flex-1 relative transition-all duration-300 ${isMapFullscreen ? 'w-full' : ''} ${mobileView === 'panel' ? 'hidden sm:block' : ''}`}>
           <ConflictMap
@@ -295,9 +294,6 @@ export default function Dashboard() {
 
       <UpdateBadge />
       <CommodityTicker />
-
-      {/* Scrollable summary sections — highlights from every page */}
-      <HomepageSummary />
 
       {/* Floating video popup — sits above everything */}
       {showVideo && <VideoSection onClose={() => setShowVideo(false)} />}
