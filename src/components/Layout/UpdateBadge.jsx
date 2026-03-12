@@ -76,7 +76,7 @@ export default function UpdateBadge({ variant = 'full' }) {
       </div>
       <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center gap-2 shrink-0">
         <p className="text-[9px] text-gray-600 text-center">
-          v1.9 — Semi-automated via AI agents (manually triggered). Working toward full autonomy for frequent live updates. High-frequency updates are possible but costly — if this site gains traction, donations may help fund truly live data and new features.
+          v1.9 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
         </p>
         <Link
           to="/patch-notes"

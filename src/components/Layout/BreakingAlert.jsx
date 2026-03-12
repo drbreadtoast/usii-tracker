@@ -4,31 +4,30 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-001',
-    headline: 'Reports Claim Netanyahu\'s Brother Iddo Killed by Iranian Missile — DEBUNKED',
-    status: 'debunked',
-    lastUpdated: '2026-03-10T14:00:00Z',
-    summary: 'Viral social media claims that Iddo Netanyahu (Benjamin Netanyahu\'s younger brother) was killed by an Iranian missile strike on the Netanyahu family residence have been debunked by multiple fact-checking organizations. The viral video used as "evidence" has been traced to an unrelated house fire in Galloway, New Jersey on February 9, 2026 — weeks before the conflict began. No credible news organization has confirmed the claim. Netanyahu\'s office has dismissed it as "deliberate disinformation."',
+    id: 'ba-002',
+    headline: 'Six Vessels Attacked in Gulf & Strait of Hormuz — Iraq Shuts Oil Ports, Iran Threatens Tech Giants',
+    status: 'developing',
+    lastUpdated: '2026-03-12T07:35:00Z',
+    summary: 'Six commercial vessels attacked in the Persian Gulf and Strait of Hormuz on Day 13 — the largest single-day attack on shipping since the war began. Iranian explosive-laden boats set two fuel tankers ablaze in Iraqi waters (1 killed, 25 evacuated). Iraq shut down oil port operations. Separately, Iran published a target list of US tech giant offices (Amazon, Google, Microsoft, Nvidia) and pro-Iran hackers launched the first cyberattack on a US company.',
     officialStatus: {
-      label: 'Debunked — False',
-      detail: 'Netanyahu\'s office called reports "deliberate disinformation." No credible news outlet has confirmed any harm to Iddo Netanyahu. Multiple fact-checkers traced viral video to a New Jersey house fire from February 9, 2026.',
+      label: 'Confirmed — Multiple Sources',
+      detail: 'Al Jazeera, AP, and Gulf News all confirm six vessels attacked. Iraqi officials confirmed port shutdown and called it a "flagrant violation of sovereignty." Thai-flagged Mayuree Naree struck by two projectiles (3 crew missing). Japan-flagged ONE Majesty sustained minor damage near UAE. Total ships struck since war began: at least 16. US Navy refused merchant escort requests through Hormuz.',
       sources: [
-        { name: 'Lead Stories Fact Check', url: 'https://leadstories.com/hoax-alert/2026/03/fact-check-video-of-house-fire-predates-2026-war-between-us-israel-and-iran.html' },
-        { name: 'Yahoo News Fact Check', url: 'https://www.yahoo.com/news/articles/fact-check-video-purporting-show-013744721.html' },
-        { name: 'Jerusalem Post — Iranian disinfo campaign', url: 'https://www.jpost.com/middle-east/iran-news/article-889415' },
-        { name: 'Deccan Chronicle Fact Check', url: 'https://www.deccanchronicle.com/world/fact-check-social-media-rumours-about-iddo-netanyahus-death-ben-gvir-injury-unverified-1942759' },
+        { name: 'Al Jazeera — Six vessels attacked', url: 'https://www.aljazeera.com/news/2026/3/12/five-vessels-attacked-amid-reports-of-iranian-drone-boats-sea-mines' },
+        { name: 'AP / Kathmandu Post — Ships on front lines', url: 'https://kathmandupost.com/world/2026/03/12/six-vessels-attacked-in-gulf-strait-of-hormuz-as-war-puts-merchant-ships-on-front-lines' },
+        { name: 'Al Jazeera Liveblog — Day 13', url: 'https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace' },
       ]
     },
     socialMediaClaims: {
-      detail: 'The claim originated from Scott Ritter (former UN weapons inspector) on an RT-affiliated program, then spread virally on X/Twitter. A video purporting to show the Netanyahu house on fire was identified as footage from an unrelated house fire in New Jersey. Iran\'s IRGC-affiliated Tasnim News Agency amplified the claims but even they acknowledged it was unconfirmed.',
+      detail: 'Iran\'s Tasnim news agency published detailed target lists of US tech company offices in Israel and Gulf states, including Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle. IRGC declared US-Israeli "economic centres and banks" as legitimate targets. A pro-Iran hacking group claimed a cyberattack on US medical tech company Stryker — the first significant Iran cyber attack on a US company since the war began.',
       sources: [
-        { name: 'Egypt Independent — Netanyahu office debunks rumors', url: 'https://www.egyptindependent.com/netanyahus-office-releases-meeting-footage-debunking-assassination-rumors/' },
-        { name: 'NewsX — Truth behind viral claims', url: 'https://www.newsx.com/world/israel-iran-us-conflict-war-live-benjamin-netanyahu-killed-in-iran-strike-israeli-pm-ben-gvir-netanyahu-brother-iddo-netanyahu-injured-killed-180178/' },
-        { name: 'Defence Security Asia — Viral missile claims', url: 'https://defencesecurityasia.com/en/iran-missile-strike-netanyahu-home-claims-israel-leadership-iran-israel-conflict/' },
-        { name: 'The Week — Iran state media speculates', url: 'https://www.theweek.in/news/middle-east/2026/03/10/netanyahu-wounded-irans-state-media-speculates-about-israeli-pms-health.html' },
+        { name: 'Times of Israel — Iran threatens tech giants', url: 'https://www.timesofisrael.com/liveblog_entry/iran-threatens-israel-and-gulf-offices-of-us-tech-giants-amazon-google-microsoft-and-nvidia/' },
+        { name: 'NBC News — Iran cyberattack on Stryker', url: 'https://www.nbcnews.com/world/iran/iran-appears-conducted-significant-cyberattack-us-company-first-war-st-rcna263084' },
+        { name: 'The Register — Infrastructure warfare', url: 'https://www.theregister.com/2026/03/11/iran_threatens_us_tech_companies/' },
+        { name: 'ABC News — Stryker hack confirmed', url: 'https://abcnews.com/International/pro-iran-hacking-group-claims-responsibility-cyberattack-stryker/story?id=130979414' },
       ]
     },
-    context: 'Iddo Netanyahu (born 1952) is Benjamin Netanyahu\'s younger brother — a physician and playwright living in Jerusalem. Their eldest brother Yonatan ("Yoni") Netanyahu was killed leading the 1976 Entebbe rescue operation. This false claim is part of a documented pattern of Iranian information warfare during the conflict, which has also included false claims about Netanyahu being assassinated, fleeing the country, and other senior officials being targeted.'
+    context: 'Day 13 marks a significant escalation in Iran\'s strategy — expanding the war from military targets to economic infrastructure, technology companies, and cyber operations against US companies. Oil prices surged to Brent $94.77 and WTI $93.24. The IRGC has warned that any ship passing through the Strait of Hormuz will be targeted. Iran has deployed approximately 12 mines in the strait. International bank employees have begun leaving Dubai with families.'
   }
 ]
 
