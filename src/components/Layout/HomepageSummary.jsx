@@ -60,13 +60,18 @@ function EscalationsSummary() {
 
 // ----- 2. Casualties -----
 function CasualtySummary() {
-  const currentWar = deathTollData.conflicts.find(c => c.name.includes('2026'))
+  const currentWar = deathTollData.conflicts.find(c => c.name.includes('2026 Iran War'))
   if (!currentWar) return null
+
+  // Show US, Iran, Israel first, then others
+  const priorityNames = ['United States', 'Iran', 'Israel']
+  const priority = priorityNames.map(name => currentWar.parties.find(p => p.name.includes(name))).filter(Boolean)
+  const others = currentWar.parties.filter(p => !priorityNames.some(n => p.name.includes(n)))
 
   return (
     <SectionCard icon={Skull} title="Casualty Summary — 2026 War" color="text-red-400" route="/deaths">
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-        {currentWar.parties.map(p => (
+      <div className="grid grid-cols-3 gap-2 mb-2">
+        {priority.map(p => (
           <div key={p.name} className="bg-gray-800/50 rounded-lg p-2.5 text-center">
             <span className="text-lg">{p.flag}</span>
             <p className="text-[10px] text-gray-400 mt-1 truncate">{p.name}</p>
@@ -77,9 +82,30 @@ function CasualtySummary() {
             {p.injured > 0 && (
               <p className="text-[9px] text-orange-400 mt-0.5">{p.injured.toLocaleString()} injured</p>
             )}
+            {p.displaced > 0 && (
+              <p className="text-[9px] text-purple-400 mt-0.5">{p.displaced.toLocaleString()} displaced</p>
+            )}
           </div>
         ))}
       </div>
+      {others.length > 0 && (
+        <div className="grid grid-cols-2 gap-2">
+          {others.map(p => (
+            <div key={p.name} className="bg-gray-800/50 rounded-lg p-2 text-center">
+              <span className="text-base">{p.flag}</span>
+              <p className="text-[9px] text-gray-400 mt-0.5 truncate">{p.name}</p>
+              <p className="text-xs font-bold text-green-400 mt-0.5">{p.confirmed.total.toLocaleString()}</p>
+              <p className="text-[8px] text-gray-600">confirmed killed</p>
+              {p.injured > 0 && (
+                <p className="text-[8px] text-orange-400 mt-0.5">{p.injured.toLocaleString()} injured</p>
+              )}
+              {p.displaced > 0 && (
+                <p className="text-[8px] text-purple-400 mt-0.5">{p.displaced.toLocaleString()} displaced</p>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </SectionCard>
   )
 }
@@ -326,7 +352,7 @@ export default function HomepageSummary() {
       {/* Section header */}
       <div className="text-center py-6 px-4">
         <p className="text-sm font-bold text-gray-300 uppercase tracking-widest">Quick Brief</p>
-        <p className="text-[11px] text-gray-600 mt-1">Highlights from every section — click any card to explore the full page</p>
+        <p className="text-[11px] text-gray-600 mt-1">Highlights from every section — click "See all" on any card for full details and sources</p>
         <div className="flex items-center justify-center gap-2 mt-2">
           <Clock size={12} className="text-blue-400" />
           <span className="text-[11px] text-blue-400 font-semibold">
@@ -340,12 +366,12 @@ export default function HomepageSummary() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-8 max-w-[1400px] mx-auto">
         <EscalationsSummary />
         <CasualtySummary />
+        <DamageSummary />
+        <StrikesSummary />
         <EnergySummary />
         <CostSummary />
-        <StrikesSummary />
         <MediaSummary />
         <StatementsSummary />
-        <DamageSummary />
         <SocialSummary />
         <MoneySummary />
       </div>
