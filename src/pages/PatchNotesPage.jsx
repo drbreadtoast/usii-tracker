@@ -10,7 +10,9 @@ const PATCH_NOTES = [
     icon: Zap,
     iconColor: 'text-red-400',
     highlights: [
-      'Added live video section to the home page — watch Al Jazeera\'s 24/7 live broadcast directly on the dashboard',
+      'Added live video popup with Al Jazeera and i24NEWS streams — watch both sides of the conflict directly on the dashboard',
+      'Video popup floats over the map so you can monitor news while browsing other panels, with minimize and close controls',
+      'Mobile-optimized video popup scales to fit smaller screens',
       'Changed "Last updated" to "Last news refresh" so it\'s clear the timestamp refers to data freshness, not code changes',
       'Updated breaking news banner to show actively developing stories instead of old resolved items',
     ],

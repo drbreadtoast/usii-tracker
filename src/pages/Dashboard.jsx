@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter, Video } from 'lucide-react'
+import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
 import Header from '../components/Layout/Header'
 import WorldClocks from '../components/Layout/WorldClocks'
 import CensorshipNotice from '../components/Layout/CensorshipNotice'
@@ -42,6 +42,7 @@ export default function Dashboard() {
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [mobileView, setMobileView] = useState('map') // 'map' or 'panel' — mobile toggle
   const [isFilterOpen, setIsFilterOpen] = useState(false)
+  const [showVideo, setShowVideo] = useState(true)
 
   const filteredEvents = useMemo(() => {
     return filters.filterEvents(events)
@@ -76,7 +77,6 @@ export default function Dashboard() {
     { id: 'social', label: 'Social', icon: MessageCircle, color: 'blue', route: '/social' },
     { id: 'media', label: 'Media', icon: Newspaper, color: 'purple', route: '/media' },
     { id: 'government', label: 'Gov.', icon: Landmark, color: 'cyan', route: '/government' },
-    { id: 'video', label: 'Video', icon: Video, color: 'red', route: '/' },
     { id: 'energy', label: 'Energy', icon: Fuel, color: 'amber', route: '/follow-the-oil' },
     { id: 'deaths', label: 'Deaths', icon: Skull, color: 'red', route: '/deaths' },
   ]
@@ -248,18 +248,16 @@ export default function Dashboard() {
               </Link>
             </div>
 
-            {/* See More link for active tab (hidden for video since it has no dedicated page) */}
-            {activePanel !== 'video' && (
-              <div className="flex items-center justify-end px-3 py-1 bg-gray-900/30 border-b border-gray-800 shrink-0">
-                <Link
-                  to={TABS.find(t => t.id === activePanel)?.route || '/'}
-                  className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 transition-colors font-medium"
-                >
-                  <ExternalLink size={9} />
-                  See Full {TABS.find(t => t.id === activePanel)?.label} Page →
-                </Link>
-              </div>
-            )}
+            {/* See More link for active tab */}
+            <div className="flex items-center justify-end px-3 py-1 bg-gray-900/30 border-b border-gray-800 shrink-0">
+              <Link
+                to={TABS.find(t => t.id === activePanel)?.route || '/'}
+                className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 transition-colors font-medium"
+              >
+                <ExternalLink size={9} />
+                See Full {TABS.find(t => t.id === activePanel)?.label} Page →
+              </Link>
+            </div>
 
             {/* Time filter (for events tab) */}
             {activePanel === 'timeline' && (
@@ -283,11 +281,6 @@ export default function Dashboard() {
               {activePanel === 'government' && (
                 <GovernmentStatements />
               )}
-              {activePanel === 'video' && (
-                <div className="p-3 overflow-y-auto h-full">
-                  <VideoSection />
-                </div>
-              )}
               {activePanel === 'energy' && (
                 <EnergyPanel />
               )}
@@ -301,6 +294,9 @@ export default function Dashboard() {
 
       <UpdateBadge />
       <CommodityTicker />
+
+      {/* Floating video popup — sits above everything */}
+      {showVideo && <VideoSection onClose={() => setShowVideo(false)} />}
     </div>
   )
 }
