@@ -6,28 +6,24 @@ const PATCH_NOTES = [
   {
     version: '1.9',
     date: 'March 12, 2026',
-    title: 'Live Video, AI Automation & Day 13 Refresh',
+    title: 'Live Video & Interface Improvements',
     icon: Zap,
     iconColor: 'text-red-400',
     highlights: [
-      'Added live video section to the home page — watch Al Jazeera\'s live stream and curated conflict clips directly on the dashboard',
-      'Website is now semi-automated via AI agents (manually triggered) — working toward full autonomy for frequent live updates',
-      'Full Day 13 data refresh with latest developments: Iraq oil tanker attacks, Iran\'s 3 ceasefire conditions, and more',
+      'Added live video section to the home page — watch Al Jazeera\'s 24/7 live broadcast directly on the dashboard',
       'Changed "Last updated" to "Last news refresh" so it\'s clear the timestamp refers to data freshness, not code changes',
-      'Note from developer: High-frequency live updates are technically possible but costly. If the site gains traction, donations could help fund truly live data and many new features',
+      'Updated breaking news banner to show actively developing stories instead of old resolved items',
     ],
   },
   {
     version: '1.8',
     date: 'March 11, 2026',
-    title: 'Source Link Integrity & Data Refresh',
+    title: 'Source Link Integrity',
     icon: Wrench,
     iconColor: 'text-green-400',
     highlights: [
-      'Fixed 46 broken source URLs across all data files — every link now points to a verified, real article',
-      'Added mandatory source relevance rules to ensure every link matches the claim it supports',
-      'Full Day 12 evening data refresh across all 24 data files',
-      'Improved URL validation workflow to prevent broken links in future updates',
+      'Improved source link accuracy across all data files — links now point to verified, relevant articles',
+      'Improved URL validation workflow to catch issues before publishing',
     ],
   },
   {
@@ -167,12 +163,19 @@ export default function PatchNotesPage() {
                 <span className="text-xs font-bold text-blue-300">A note from the developer</span>
                 <span className="text-[9px] text-gray-600 bg-gray-800 px-1.5 py-0.5 rounded">March 2026</span>
               </div>
-              <p className="text-xs text-gray-300 leading-relaxed">
-                This site is an evolving project, and I appreciate your patience as it grows.
-                I'm a solo developer using AI-assisted tools to make this tracker possible — every page,
-                every data point, and every update is reviewed and published by one person. The site will
-                continue to improve over time with better data, more features, and a smoother experience.
-                Thank you for being here.
+              <p className="text-xs text-gray-300 leading-relaxed mb-2">
+                This site is currently semi-automated. The AI agents that help build and update this tracker
+                are manually triggered, but I'm working toward making it fully autonomous so it can update
+                frequently without manual intervention.
+              </p>
+              <p className="text-xs text-gray-300 leading-relaxed mb-2">
+                I can technically have it truly live and updating super frequently, but that would increase
+                maintenance costs significantly. If this website gains traction, I may do this. I may also
+                add a donation option to help support this website — if that is successful, I can significantly
+                improve the site, make it truly live with real-time updates, and implement a ton of new features.
+              </p>
+              <p className="text-xs text-gray-400 leading-relaxed">
+                Thank you for being here. — Solo developer
               </p>
             </div>
           </div>

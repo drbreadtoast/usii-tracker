@@ -248,16 +248,18 @@ export default function Dashboard() {
               </Link>
             </div>
 
-            {/* See More link for active tab */}
-            <div className="flex items-center justify-end px-3 py-1 bg-gray-900/30 border-b border-gray-800 shrink-0">
-              <Link
-                to={TABS.find(t => t.id === activePanel)?.route || '/'}
-                className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 transition-colors font-medium"
-              >
-                <ExternalLink size={9} />
-                See Full {TABS.find(t => t.id === activePanel)?.label} Page →
-              </Link>
-            </div>
+            {/* See More link for active tab (hidden for video since it has no dedicated page) */}
+            {activePanel !== 'video' && (
+              <div className="flex items-center justify-end px-3 py-1 bg-gray-900/30 border-b border-gray-800 shrink-0">
+                <Link
+                  to={TABS.find(t => t.id === activePanel)?.route || '/'}
+                  className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 transition-colors font-medium"
+                >
+                  <ExternalLink size={9} />
+                  See Full {TABS.find(t => t.id === activePanel)?.label} Page →
+                </Link>
+              </div>
+            )}
 
             {/* Time filter (for events tab) */}
             {activePanel === 'timeline' && (
