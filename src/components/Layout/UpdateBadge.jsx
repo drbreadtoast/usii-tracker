@@ -70,13 +70,13 @@ export default function UpdateBadge({ variant = 'full' }) {
         <span className="text-gray-600">|</span>
         <div className="flex items-center gap-2 text-xs text-gray-400">
           <Clock size={12} className="text-gray-500" />
-          <span>Last updated: <span className="text-white font-medium" title={absolute}>{relativeTime}</span></span>
+          <span>Last news refresh: <span className="text-white font-medium" title={absolute}>{relativeTime}</span></span>
           <span className="text-gray-500 hidden sm:inline">({absolute})</span>
         </div>
       </div>
       <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center gap-2 shrink-0">
         <p className="text-[9px] text-gray-600 text-center">
-          v1.8 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
+          v1.9 — Semi-automated via AI agents (manually triggered). Working toward full autonomy for frequent live updates. High-frequency updates are possible but costly — if this site gains traction, donations may help fund truly live data and new features.
         </p>
         <Link
           to="/patch-notes"

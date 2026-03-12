@@ -4,6 +4,20 @@ import UpdateBadge from '../components/Layout/UpdateBadge'
 
 const PATCH_NOTES = [
   {
+    version: '1.9',
+    date: 'March 12, 2026',
+    title: 'Live Video, AI Automation & Day 13 Refresh',
+    icon: Zap,
+    iconColor: 'text-red-400',
+    highlights: [
+      'Added live video section to the home page — watch Al Jazeera\'s live stream and curated conflict clips directly on the dashboard',
+      'Website is now semi-automated via AI agents (manually triggered) — working toward full autonomy for frequent live updates',
+      'Full Day 13 data refresh with latest developments: Iraq oil tanker attacks, Iran\'s 3 ceasefire conditions, and more',
+      'Changed "Last updated" to "Last news refresh" so it\'s clear the timestamp refers to data freshness, not code changes',
+      'Note from developer: High-frequency live updates are technically possible but costly. If the site gains traction, donations could help fund truly live data and many new features',
+    ],
+  },
+  {
     version: '1.8',
     date: 'March 11, 2026',
     title: 'Source Link Integrity & Data Refresh',

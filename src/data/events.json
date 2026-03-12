@@ -2849,5 +2849,131 @@
       "diplomacy",
       "demands"
     ]
+  },
+  {
+    "id": "evt-new-047",
+    "title": "Six vessels attacked in Gulf and Strait of Hormuz",
+    "description": "Six commercial vessels attacked in the Persian Gulf and Strait of Hormuz. Thai-flagged Mayuree Naree hit by two projectiles, engine room fire, 3 crew missing. Japan-flagged ONE Majesty sustained minor damage 25nm NW of Ras Al Khaimah. Iranian explosive boats attacked two fuel tankers (Safesea Vishnu, Zefyros) in Iraqi waters, killing 1 crew member. Total ships struck since war began: at least 16.",
+    "type": "naval",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "location": "Strait of Hormuz / Persian Gulf",
+    "timestamp": "2026-03-12T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/12/five-vessels-attacked-amid-reports-of-iranian-drone-boats-sea-mines"
+      },
+      {
+        "name": "Kathmandu Post / AP",
+        "url": "https://kathmandupost.com/world/2026/03/12/six-vessels-attacked-in-gulf-strait-of-hormuz-as-war-puts-merchant-ships-on-front-lines"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "1 killed, 3 missing, multiple injuries",
+    "tags": ["naval", "hormuz", "tanker-attack", "day-13"]
+  },
+  {
+    "id": "evt-new-048",
+    "title": "Iran threatens US tech giant offices across Middle East",
+    "description": "Iran's Tasnim news agency published a target list of US tech company offices in Israel and Gulf states, including Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle. IRGC described them as 'enemy technology infrastructure' and warned of expanding 'infrastructure warfare' in retaliation for strikes on Iranian banks.",
+    "type": "cyber",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-12T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-threatens-israel-and-gulf-offices-of-us-tech-giants-amazon-google-microsoft-and-nvidia/"
+      },
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2026/03/11/iran_threatens_us_tech_companies/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": ["cyber", "tech", "infrastructure-warfare", "day-13"]
+  },
+  {
+    "id": "evt-new-049",
+    "title": "Iran-linked hackers attack US medical tech company Stryker",
+    "description": "A pro-Iran hacking group claimed responsibility for a cyberattack on Stryker, a US medical technology company. This is the first significant instance of Iran hacking an American company since the war began. The group said it was 'in retaliation for the brutal attack on the Minab school.'",
+    "type": "cyber",
+    "lat": 42.2917,
+    "lng": -85.5872,
+    "location": "Kalamazoo, Michigan, USA",
+    "timestamp": "2026-03-12T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/iran-appears-conducted-significant-cyberattack-us-company-first-war-st-rcna263084"
+      },
+      {
+        "name": "ABC News",
+        "url": "https://abcnews.com/International/pro-iran-hacking-group-claims-responsibility-cyberattack-stryker/story?id=130979414"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "N/A",
+    "tags": ["cyber", "stryker", "hacking", "day-13"]
+  },
+  {
+    "id": "evt-new-050",
+    "title": "Israel strikes apartment building in central Beirut",
+    "description": "Israeli airstrike hit an apartment in the Aisha Bakkar area of central Beirut, a densely populated neighborhood near one of the city's biggest shopping malls. AFPTV captured a fireball erupting on the 7th-8th floors. Separately, a strike on Beirut's seafront at Ramlet al-Baida killed at least 7 people. Lebanon death toll: 634 killed, 1,586 injured, 816K displaced.",
+    "type": "strike",
+    "lat": 33.8869,
+    "lng": 35.4982,
+    "location": "Aisha Bakkar, Beirut, Lebanon",
+    "timestamp": "2026-03-12T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/11/israel-continues-to-pound-lebanon-hits-dense-area-of-central-beirut"
+      },
+      {
+        "name": "Cyprus Mail",
+        "url": "https://cyprus-mail.com/2026/03/11/israel-strikes-apartment-building-in-central-beirut-lebanese-state-media-say"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "7+ killed (seafront strike), building damaged",
+    "tags": ["beirut", "strike", "lebanon", "day-13"]
+  },
+  {
+    "id": "evt-new-051",
+    "title": "Hezbollah rocket strikes Moshav Haniel in central Israel",
+    "description": "A Hezbollah rocket struck Moshav Haniel in central Israel, causing massive damage to a home and creating a crater. The blast virtually destroyed the building except for the reinforced safe room. A woman and her carer reached the safe room during the 90-second siren warning.",
+    "type": "strike",
+    "lat": 32.2833,
+    "lng": 34.9167,
+    "location": "Moshav Haniel, Central Israel",
+    "timestamp": "2026-03-12T07:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-12-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": "No fatalities (safe room saved residents)",
+    "tags": ["hezbollah", "rocket", "central-israel", "day-13"]
   }
 ]

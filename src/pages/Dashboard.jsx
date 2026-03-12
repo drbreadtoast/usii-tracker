@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
+import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter, Video } from 'lucide-react'
 import Header from '../components/Layout/Header'
 import WorldClocks from '../components/Layout/WorldClocks'
 import CensorshipNotice from '../components/Layout/CensorshipNotice'
@@ -17,6 +17,7 @@ import GovernmentStatements from '../components/Media/GovernmentStatements'
 import EnergyPanel from '../components/Energy/EnergyPanel'
 import CommodityTicker from '../components/Commodities/CommodityTicker'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import VideoSection from '../components/Media/VideoSection'
 import { useEvents } from '../hooks/useEvents'
 import { useFilters } from '../hooks/useFilters'
 
@@ -75,6 +76,7 @@ export default function Dashboard() {
     { id: 'social', label: 'Social', icon: MessageCircle, color: 'blue', route: '/social' },
     { id: 'media', label: 'Media', icon: Newspaper, color: 'purple', route: '/media' },
     { id: 'government', label: 'Gov.', icon: Landmark, color: 'cyan', route: '/government' },
+    { id: 'video', label: 'Video', icon: Video, color: 'red', route: '/' },
     { id: 'energy', label: 'Energy', icon: Fuel, color: 'amber', route: '/follow-the-oil' },
     { id: 'deaths', label: 'Deaths', icon: Skull, color: 'red', route: '/deaths' },
   ]
@@ -278,6 +280,11 @@ export default function Dashboard() {
               )}
               {activePanel === 'government' && (
                 <GovernmentStatements />
+              )}
+              {activePanel === 'video' && (
+                <div className="p-3 overflow-y-auto h-full">
+                  <VideoSection />
+                </div>
               )}
               {activePanel === 'energy' && (
                 <EnergyPanel />
