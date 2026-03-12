@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T23:00:00Z",
+  "lastUpdated": "2026-03-12T18:00:00Z",
   "currentAverage": 3.578,
   "preWarAverage": 3.18,
   "changePercent": 12.5,
@@ -38,7 +38,7 @@
     },
     {
       "date": "2026-03-01",
-      "price": 3.20,
+      "price": 3.2,
       "label": "Iran retaliates",
       "isEvent": true
     },
@@ -50,7 +50,7 @@
     },
     {
       "date": "2026-03-03",
-      "price": 3.10,
+      "price": 3.1,
       "label": "Hormuz blocked",
       "isEvent": true
     },
@@ -89,17 +89,17 @@
     {
       "date": "2026-03-10",
       "price": 3.55,
-      "label": "Day 11 — Oil crashes 11% on Trump 'war ending soon'",
+      "label": "Day 11 \u2014 Oil crashes 11% on Trump 'war ending soon'",
       "isEvent": true
     },
     {
       "date": "2026-03-11",
       "price": 3.578,
-      "label": "Day 12 — IEA 400M barrel release; oil rebounds 3%",
+      "label": "Day 12 \u2014 IEA 400M barrel release; oil rebounds 3%",
       "isEvent": true
     }
   ],
-  "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
+  "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
   "breakdown": {
     "preWar": {
       "label": "Before War (Feb 27)",
@@ -107,7 +107,7 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$68 ÷ 42 gal",
+          "formula": "$68 \u00f7 42 gal",
           "value": 1.62,
           "percent": 51
         },
@@ -151,7 +151,7 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$102 ÷ 42 gal",
+          "formula": "$102 \u00f7 42 gal",
           "value": 2.43,
           "percent": 49,
           "change": "+$0.81"
@@ -193,8 +193,8 @@
         }
       ],
       "total": 4.054,
-      "note": "AAA national average is $3.578 — pump prices lag crude by 1-2 weeks. IEA 400M barrel reserve release and oil crash of March 10 may ease prices. Energy Sec Wright falsely claimed gas prices dropped. California at $5.20/gal. Diesel at $4.66/gal."
+      "note": "AAA national average is $3.578 \u2014 pump prices lag crude by 1-2 weeks. IEA 400M barrel reserve release and oil crash of March 10 may ease prices. Energy Sec Wright falsely claimed gas prices dropped. California at $5.20/gal. Diesel at $4.66/gal."
     }
   },
-  "context": "Gas prices at $3.578/gal (AAA, March 11). Oil rebounded +3% on Day 12 (Brent $90.77, WTI $86.01) after Monday's 11% crash. IEA approved record 400M barrel emergency reserve release — largest ever. Energy Secretary Chris Wright falsely claimed gas prices dropped; AAA data shows UP from $3.18 pre-war. Pump prices lag crude by 1-2 weeks — some relief possible from March 10 crash. California highest at $5.20/gal. Diesel at $4.66/gal. Gas Prices Relief Act of 2026 introduced. CPI at 2.4% (pre-war data). Goldman warns inflation could hit 3%+ if war continues."
+  "context": "Gas prices at $3.578/gal (AAA, March 11). Oil rebounded +3% on Day 12 (Brent $90.77, WTI $86.01) after Monday's 11% crash. IEA approved record 400M barrel emergency reserve release \u2014 largest ever. Energy Secretary Chris Wright falsely claimed gas prices dropped; AAA data shows UP from $3.18 pre-war. Pump prices lag crude by 1-2 weeks \u2014 some relief possible from March 10 crash. California highest at $5.20/gal. Diesel at $4.66/gal. Gas Prices Relief Act of 2026 introduced. CPI at 2.4% (pre-war data). Goldman warns inflation could hit 3%+ if war continues."
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-11T23:00:00Z",
+    "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
+    "lastUpdated": "2026-03-12T18:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,25 +73,26 @@
     },
     "current": {
       "date": "2026-03-12",
-      "label": "Active Conflict — Day 13",
+      "label": "Active Conflict \u2014 Day 13",
       "wti": {
-        "price": 93.24,
+        "price": 94.73,
         "unit": "$/barrel",
         "change": "+23.5%",
         "changeDollars": "+$17.74",
-        "source": "NYMEX front-month — surged after 6 vessels attacked in Gulf/Hormuz, Iraq shut oil port operations. Biggest weekly gain in futures history (+35.6%). EIA projects elevated prices for 2 months.",
+        "source": "NYMEX front-month \u2014 surged after 6 vessels attacked in Gulf/Hormuz, Iraq shut oil port operations. Biggest weekly gain in futures history (+35.6%). EIA projects elevated prices for 2 months.",
         "sourceUrl": "https://www.cnbc.com/2026/03/11/oil-price-today-crude-wti-us-iran-war-strait-hormuz-iea.html"
       },
       "brent": {
-        "price": 94.77,
+        "price": 95.79,
         "unit": "$/barrel",
         "change": "+18.8%",
         "changeDollars": "+$14.97",
-        "source": "ICE front-month — 6 vessels attacked on Day 13, Iraq oil ports closed, Iran threatens tech giant offices. EIA forecasts Brent remains above $95/b for next 2 months before declining to ~$70/b by year-end.",
+        "source": "ICE front-month \u2014 6 vessels attacked on Day 13, Iraq oil ports closed, Iran threatens tech giant offices. EIA forecasts Brent remains above $95/b for next 2 months before declining to ~$70/b by year-end.",
         "sourceUrl": "https://www.cnbc.com/2026/03/11/oil-price-today-crude-wti-us-iran-war-strait-hormuz-iea.html",
         "intradayHigh": 119.5,
-        "sessionLow": 87.80
-      }
+        "sessionLow": 87.8
+      },
+      "changePercent": "+19.8%"
     },
     "priceHistory": [
       {
@@ -116,33 +117,33 @@
         "date": "2026-02-22",
         "wti": 74.9,
         "brent": 79.1,
-        "label": "Negotiations stall — tensions rise"
+        "label": "Negotiations stall \u2014 tensions rise"
       },
       {
         "date": "2026-02-27",
         "wti": 75.5,
         "brent": 79.8,
-        "label": "Pre-strike baseline — buildup visible"
+        "label": "Pre-strike baseline \u2014 buildup visible"
       },
       {
         "date": "2026-02-28",
         "wti": 82.76,
         "brent": 85.3,
-        "label": "US/Israel launch strikes on Iran — Khamenei killed",
+        "label": "US/Israel launch strikes on Iran \u2014 Khamenei killed",
         "isEvent": true
       },
       {
         "date": "2026-03-01",
         "wti": 85.2,
         "brent": 88.5,
-        "label": "Iran retaliates — missiles hit Tel Aviv and US bases",
+        "label": "Iran retaliates \u2014 missiles hit Tel Aviv and US bases",
         "isEvent": true
       },
       {
         "date": "2026-03-02",
         "wti": 87.4,
         "brent": 90.1,
-        "label": "Hezbollah strikes Israel — IRGC closes Hormuz",
+        "label": "Hezbollah strikes Israel \u2014 IRGC closes Hormuz",
         "isEvent": true
       },
       {
@@ -191,21 +192,21 @@
         "date": "2026-03-09",
         "wti": 101.2,
         "brent": 103.47,
-        "label": "Brent surges to $119.50 intraday — Hormuz effectively closed",
+        "label": "Brent surges to $119.50 intraday \u2014 Hormuz effectively closed",
         "isEvent": true
       },
       {
         "date": "2026-03-10",
         "wti": 83.45,
-        "brent": 87.80,
-        "label": "Oil CRASHES 11-12% — Trump says war will end 'very soon'",
+        "brent": 87.8,
+        "label": "Oil CRASHES 11-12% \u2014 Trump says war will end 'very soon'",
         "isEvent": true
       },
       {
         "date": "2026-03-11",
         "wti": 86.01,
         "brent": 90.77,
-        "label": "Oil rebounds +3% — IEA record 400M barrel reserve release",
+        "label": "Oil rebounds +3% \u2014 IEA record 400M barrel reserve release",
         "isEvent": true
       }
     ],
@@ -250,7 +251,7 @@
   "keyPlayers": [
     {
       "country": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "dailyProductionMbpd": 13.5,
       "globalSharePercent": 13.7,
       "provenReservesBillionBarrels": 44.4,
@@ -261,7 +262,7 @@
     },
     {
       "country": "Saudi Arabia",
-      "flag": "🇸🇦",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
       "dailyProductionMbpd": 9.47,
       "globalSharePercent": 9.6,
       "provenReservesBillionBarrels": 258.6,
@@ -272,7 +273,7 @@
     },
     {
       "country": "Russia",
-      "flag": "🇷🇺",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
       "dailyProductionMbpd": 9.13,
       "globalSharePercent": 9.3,
       "provenReservesBillionBarrels": 80.0,
@@ -283,7 +284,7 @@
     },
     {
       "country": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "dailyProductionMbpd": 3.1,
       "globalSharePercent": 3.1,
       "provenReservesBillionBarrels": 208.6,
@@ -294,7 +295,7 @@
     },
     {
       "country": "Iraq",
-      "flag": "🇮🇶",
+      "flag": "\ud83c\uddee\ud83c\uddf6",
       "dailyProductionMbpd": 4.01,
       "globalSharePercent": 4.1,
       "provenReservesBillionBarrels": 145.0,
@@ -305,7 +306,7 @@
     },
     {
       "country": "United Arab Emirates",
-      "flag": "🇦🇪",
+      "flag": "\ud83c\udde6\ud83c\uddea",
       "dailyProductionMbpd": 3.3,
       "globalSharePercent": 3.4,
       "provenReservesBillionBarrels": 97.8,
@@ -316,7 +317,7 @@
     },
     {
       "country": "Kuwait",
-      "flag": "🇰🇼",
+      "flag": "\ud83c\uddf0\ud83c\uddfc",
       "dailyProductionMbpd": 2.5,
       "globalSharePercent": 2.5,
       "provenReservesBillionBarrels": 101.5,
@@ -327,7 +328,7 @@
     },
     {
       "country": "Venezuela",
-      "flag": "🇻🇪",
+      "flag": "\ud83c\uddfb\ud83c\uddea",
       "dailyProductionMbpd": 0.9,
       "globalSharePercent": 0.9,
       "provenReservesBillionBarrels": 303.8,
@@ -357,32 +358,32 @@
       {
         "country": "Saudi Arabia",
         "blockedExportsMbpd": 5.5,
-        "alternativeRoutes": "East-West Pipeline to Yanbu (Red Sea) — limited to 5 Mbpd"
+        "alternativeRoutes": "East-West Pipeline to Yanbu (Red Sea) \u2014 limited to 5 Mbpd"
       },
       {
         "country": "Iraq",
         "blockedExportsMbpd": 3.3,
-        "alternativeRoutes": "Kirkuk-Ceyhan pipeline (Turkey) — 0.45 Mbpd operational"
+        "alternativeRoutes": "Kirkuk-Ceyhan pipeline (Turkey) \u2014 0.45 Mbpd operational"
       },
       {
         "country": "UAE",
         "blockedExportsMbpd": 2.5,
-        "alternativeRoutes": "Habshan-Fujairah pipeline — 1.5 Mbpd, under Houthi threat"
+        "alternativeRoutes": "Habshan-Fujairah pipeline \u2014 1.5 Mbpd, under Houthi threat"
       },
       {
         "country": "Kuwait",
         "blockedExportsMbpd": 2.5,
-        "alternativeRoutes": "None — fully landlocked from export routes"
+        "alternativeRoutes": "None \u2014 fully landlocked from export routes"
       },
       {
         "country": "Qatar",
         "blockedExportsMbpd": 1.8,
-        "alternativeRoutes": "None — LNG terminals face same blockade"
+        "alternativeRoutes": "None \u2014 LNG terminals face same blockade"
       },
       {
         "country": "Iran",
         "blockedExportsMbpd": 0.4,
-        "alternativeRoutes": "Jask terminal (Gulf of Oman) — damaged in strikes"
+        "alternativeRoutes": "Jask terminal (Gulf of Oman) \u2014 damaged in strikes"
       }
     ],
     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932",
@@ -393,11 +394,11 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-03-11",
-    "note": "National weighted averages. Regional prices vary significantly — California, Hawaii, and Northeast typically 15-30% above national average.",
+    "note": "National weighted averages. Regional prices vary significantly \u2014 California, Hawaii, and Northeast typically 15-30% above national average.",
     "fuels": [
       {
         "type": "Regular Gasoline",
-        "icon": "⛽",
+        "icon": "\u26fd",
         "preWar": {
           "price": 3.18,
           "date": "2026-02-27"
@@ -408,12 +409,12 @@
         },
         "change": "+$0.40",
         "changePercent": "+12.5%",
-        "detail": "AAA national average at $3.578/gal (March 11). Energy Secretary Chris Wright falsely claimed gas prices dropped — AAA data shows UP from $3.18 pre-war. Oil crash of 11% on March 10 may ease pump prices in 1-2 weeks. IEA record 400M barrel reserve release could further stabilize. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
+        "detail": "AAA national average at $3.578/gal (March 11). Energy Secretary Chris Wright falsely claimed gas prices dropped \u2014 AAA data shows UP from $3.18 pre-war. Oil crash of 11% on March 10 may ease pump prices in 1-2 weeks. IEA record 400M barrel reserve release could further stabilize. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
         "type": "Diesel",
-        "icon": "🛢️",
+        "icon": "\ud83d\udee2\ufe0f",
         "preWar": {
           "price": 3.8,
           "date": "2026-02-27"
@@ -424,12 +425,12 @@
         },
         "change": "+$0.86",
         "changePercent": "+22.6%",
-        "detail": "National average at $4.66/gal — up sharply from pre-war levels. Critical for trucking and freight — fuel surcharges being implemented across major carriers. Hawaii highest at $5.23/gal.",
+        "detail": "National average at $4.66/gal \u2014 up sharply from pre-war levels. Critical for trucking and freight \u2014 fuel surcharges being implemented across major carriers. Hawaii highest at $5.23/gal.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
         "type": "Jet Fuel (Kerosene)",
-        "icon": "✈️",
+        "icon": "\u2708\ufe0f",
         "preWar": {
           "price": 2.45,
           "date": "2026-02-27"
@@ -446,7 +447,7 @@
       },
       {
         "type": "Heating Oil",
-        "icon": "🏠",
+        "icon": "\ud83c\udfe0",
         "preWar": {
           "price": 3.2,
           "date": "2026-02-27"
@@ -492,21 +493,21 @@
       "id": 1,
       "fact": "21 million barrels per day of oil transit is blocked through the Strait of Hormuz",
       "detail": "The Strait of Hormuz is the world's most critical oil chokepoint. At its narrowest, shipping lanes are only 3 km wide in each direction. Iran has deployed naval mines, fast-attack boats, and shore-based anti-ship missiles along the strait. The 21 Mbpd figure includes crude oil, refined products, and LNG equivalent volumes.",
-      "source": "EIA — World Oil Transit Chokepoints",
+      "source": "EIA \u2014 World Oil Transit Chokepoints",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932"
     },
     {
       "id": 2,
-      "fact": "IEA approves record 400 million barrel emergency oil release — largest coordinated drawdown in history",
-      "detail": "On March 11, IEA member nations agreed to release 400 million barrels from strategic reserves over 60 days — the largest coordinated release in IEA history, surpassing the 2022 release of 182M barrels during the Russia-Ukraine crisis. The US SPR was at 415.4 million barrels before the release. Maximum combined release rate across all IEA members is ~6 Mbpd, far less than the ~15 Mbpd blocked by Hormuz.",
-      "source": "IEA Emergency Response — Oil Stock Levels",
+      "fact": "IEA approves record 400 million barrel emergency oil release \u2014 largest coordinated drawdown in history",
+      "detail": "On March 11, IEA member nations agreed to release 400 million barrels from strategic reserves over 60 days \u2014 the largest coordinated release in IEA history, surpassing the 2022 release of 182M barrels during the Russia-Ukraine crisis. The US SPR was at 415.4 million barrels before the release. Maximum combined release rate across all IEA members is ~6 Mbpd, far less than the ~15 Mbpd blocked by Hormuz.",
+      "source": "IEA Emergency Response \u2014 Oil Stock Levels",
       "sourceUrl": "https://www.iea.org/areas-of-work/ensuring-energy-security/oil-security"
     },
     {
       "id": 3,
       "fact": "The last comparable supply disruption was the 1973 Arab Oil Embargo, which removed only 4.3 Mbpd from global supply",
-      "detail": "The current Hormuz blockade has removed approximately 15 Mbpd of net supply (accounting for pipeline alternatives) — more than triple the 1973 embargo. The 1973 event caused a 267% price increase and triggered a global recession. The 1979 Iranian Revolution removed ~5.6 Mbpd. No disruption in history approaches the current scale.",
-      "source": "EIA — Historical Oil Disruptions",
+      "detail": "The current Hormuz blockade has removed approximately 15 Mbpd of net supply (accounting for pipeline alternatives) \u2014 more than triple the 1973 embargo. The 1973 event caused a 267% price increase and triggered a global recession. The 1979 Iranian Revolution removed ~5.6 Mbpd. No disruption in history approaches the current scale.",
+      "source": "EIA \u2014 Historical Oil Disruptions",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39811"
     },
     {
@@ -520,13 +521,13 @@
       "id": 5,
       "fact": "War-risk insurance for Persian Gulf tankers has increased by 340%, effectively halting commercial shipping",
       "detail": "Lloyd's of London and the International Group of P&I Clubs have either suspended coverage or raised war-risk premiums from 0.03% to 1.5% of hull value. For a typical VLCC (Very Large Crude Carrier) valued at $120 million, this means premiums of $1.8 million per transit versus the previous ~$36,000. Most ship operators have deemed the risk uninsurable and withdrawn all vessels from the Persian Gulf.",
-      "source": "Lloyd's List Intelligence — War Risk Assessment",
+      "source": "Lloyd's List Intelligence \u2014 War Risk Assessment",
       "sourceUrl": "https://www.lloydslistintelligence.com/"
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.578/gallon — up 12.5% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
-      "detail": "AAA national average at $3.578/gal as of March 11. Diesel at $4.66/gal. Energy Secretary Chris Wright falsely claimed gas prices dropped — AAA data contradicts this. Oil crash of 11% on March 10 and IEA 400M barrel reserve release may ease pump prices in 1-2 weeks. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
+      "fact": "US gasoline prices at $3.578/gallon \u2014 up 12.5% from pre-war $3.18/gal. Diesel at $4.66/gal \u2014 up 22.6%",
+      "detail": "AAA national average at $3.578/gal as of March 11. Diesel at $4.66/gal. Energy Secretary Chris Wright falsely claimed gas prices dropped \u2014 AAA data contradicts this. Oil crash of 11% on March 10 and IEA 400M barrel reserve release may ease pump prices in 1-2 weeks. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },

@@ -15,7 +15,7 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-11",
+    "lastUpdated": "2026-03-12T18:00:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
     "totalStatements": 92,
     "dateRange": {
@@ -152,7 +152,7 @@
         {
           "id": "trump-012",
           "date": "2026-03-09",
-          "text": "We've already won in many ways, but we haven't won enough. The new so-called supreme leader is a lightweight. He's going to have to get approval from us — if he doesn't, he's not going to last long.",
+          "text": "We've already won in many ways, but we haven't won enough. The new so-called supreme leader is a lightweight. He's going to have to get approval from us \u2014 if he doesn't, he's not going to last long.",
           "context": "Phone interview with Times of Israel. Called war a 'short-term excursion' and said ending it would be a 'mutual' decision with Netanyahu. Said he has someone in mind to lead Iran.",
           "factCheck": "misleading",
           "factCheckDetail": "The claim of having 'already won' is premature given Iran continues retaliatory strikes and Hormuz remains closed. The assertion of authority over Iran's leadership selection contradicts international norms of sovereignty.",
@@ -193,7 +193,7 @@
           "id": "trump-016",
           "date": "2026-03-11",
           "text": "There's essentially nothing left to target. We've hit 90 percent of their capability. Iran has been set back 50 years.",
-          "context": "Day 12 comments to reporters. Trump signaled satisfaction with the campaign while Iran deployed Khoramshahr super-heavy missiles — its most powerful conventional weapon — for the first time. 3 more ships attacked at Hormuz. IEA approved record 400M barrel reserve release.",
+          "context": "Day 12 comments to reporters. Trump signaled satisfaction with the campaign while Iran deployed Khoramshahr super-heavy missiles \u2014 its most powerful conventional weapon \u2014 for the first time. 3 more ships attacked at Hormuz. IEA approved record 400M barrel reserve release.",
           "factCheck": "misleading",
           "factCheckDetail": "While 90% missile reduction aligns with CENTCOM data, Iran demonstrated continued capability by deploying Khoramshahr missiles and attacking 3 more ships. The claim of 'nothing left to target' contradicts ongoing Iranian retaliatory attacks.",
           "sourceUrl": "https://www.axios.com/2026/03/11/trump-iran-war-end-withdrawal",
@@ -517,11 +517,20 @@
           "id": "netanyahu-011",
           "date": "2026-03-10",
           "text": "We are breaking their bones. The moment of truth is close. We are trying to free Iran. There will be many surprises in the next phase.",
-          "context": "Netanyahu addressed the Iranian people directly, vowing 'many surprises.' Diverging from Trump's 'war ending soon' signals — Netanyahu wants to continue operations while Trump pushes de-escalation. Bloomberg reports widening gap between US and Israeli endgames.",
+          "context": "Netanyahu addressed the Iranian people directly, vowing 'many surprises.' Diverging from Trump's 'war ending soon' signals \u2014 Netanyahu wants to continue operations while Trump pushes de-escalation. Bloomberg reports widening gap between US and Israeli endgames.",
           "factCheck": "misleading",
           "factCheckDetail": "Netanyahu frames strikes as liberation of Iranians, but 1,380+ civilians killed undermines this framing. IDF has struck 170+ munitions in Tehran, Isfahan, Shiraz including IRGC Quds Force HQ.",
           "sourceUrl": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war",
           "sourceName": "PBS NewsHour"
+        },
+        {
+          "id": "netanyahu-007",
+          "date": "2026-03-12",
+          "text": "If Lebanon does not rein in Hezbollah, we will strike national infrastructure. We have the capability and the will to take territory.",
+          "context": "Threat conveyed through US and Western channels to Lebanon's government. Defense Minister Katz made similar statements. Follows largest Hezbollah barrage of the war.",
+          "factCheck": "true",
+          "sourceUrl": "https://www.timesofisrael.com/liveblog-march-12-2026/",
+          "sourceName": "Times of Israel"
         }
       ]
     },
@@ -728,6 +737,15 @@
           "factCheckDetail": "Pezeshkian's conditions confirmed by Bloomberg via officials familiar with the matter; Deputy FM Gharibabadi's statements reported by multiple outlets independently",
           "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-11/iran-says-truce-depends-on-us-israel-pledging-no-future-strikes",
           "sourceName": "Bloomberg"
+        },
+        {
+          "id": "pezeshkian-005",
+          "date": "2026-03-12",
+          "text": "Iran demands three conditions for peace: recognition of our sovereign rights, reparations for the destruction caused by US-Israeli aggression, and binding guarantees against future attacks.",
+          "context": "First formal articulation of Iran's demands for ending hostilities. Signals Iran open to talks but with high price. Comes as Iran launches largest coordinated attack with Hezbollah.",
+          "factCheck": "true",
+          "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace",
+          "sourceName": "Al Jazeera"
         }
       ]
     },
@@ -952,6 +970,15 @@
           "factCheck": "true",
           "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-09-26",
           "sourceName": "CNN"
+        },
+        {
+          "id": "mojtaba_khamenei-002",
+          "date": "2026-03-12",
+          "text": "The Islamic Republic will not rest until every aggressor is punished. Today's integrated operation shows our resolve and capability.",
+          "context": "Statement attributed to new Supreme Leader via IRGC channels, referencing the joint Iran-Hezbollah barrage. Mojtaba Khamenei reportedly suffered a fractured foot in the initial US-Israeli strikes according to CNN.",
+          "factCheck": "partially_verified",
+          "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace",
+          "sourceName": "Al Jazeera"
         }
       ]
     },
@@ -993,7 +1020,7 @@
         {
           "id": "araghchi-004",
           "date": "2026-03-10",
-          "text": "This is Operation Epic Mistake — a misadventure engineered by Israel and paid for by ordinary Americans. We have very bitter experience with US negotiations. Iran will fight as long as it takes.",
+          "text": "This is Operation Epic Mistake \u2014 a misadventure engineered by Israel and paid for by ordinary Americans. We have very bitter experience with US negotiations. Iran will fight as long as it takes.",
           "context": "PBS NewsHour interview. Araghchi called the strikes a failure, ruled out negotiations with the US, and vowed continued missile strikes. Also stated: 'They failed at rapid regime change.'",
           "factCheck": "misleading",
           "factCheckDetail": "Calling it a 'failure' is contradicted by CENTCOM data showing 5,000+ targets struck and 90% reduction in Iranian missile launches. However, regime change has not occurred and Iran continues retaliating.",
