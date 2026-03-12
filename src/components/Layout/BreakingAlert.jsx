@@ -5,7 +5,7 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 const BREAKING_ALERTS = [
   {
     id: 'ba-002',
-    headline: 'Six Vessels Attacked in Gulf & Strait of Hormuz — Iraq Shuts Oil Ports, Iran Threatens Tech Giants',
+    headline: 'THREAT: Iran Publishes Target List of US Tech Giant Offices — Amazon, Google, Microsoft, Nvidia, Palantir, IBM, Oracle Facilities in Israel & Gulf States Threatened',
     status: 'developing',
     lastUpdated: '2026-03-12T07:35:00Z',
     summary: 'Six commercial vessels attacked in the Persian Gulf and Strait of Hormuz on Day 13 — the largest single-day attack on shipping since the war began. Iranian explosive-laden boats set two fuel tankers ablaze in Iraqi waters (1 killed, 25 evacuated). Iraq shut down oil port operations. Separately, Iran published a target list of US tech giant offices (Amazon, Google, Microsoft, Nvidia) and pro-Iran hackers launched the first cyberattack on a US company.',
