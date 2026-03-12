@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
+import { List, MessageCircle, Skull, ChevronLeft, ChevronRight, ChevronDown, Maximize2, Minimize2, AlertOctagon, Newspaper, Landmark, Fuel, Clock, PanelRightOpen, PanelRightClose, DollarSign, AlertTriangle, ExternalLink, Target, Receipt, MessageSquareQuote, Droplet, MapPin, Layers, Filter } from 'lucide-react'
 import Header from '../components/Layout/Header'
 import WorldClocks from '../components/Layout/WorldClocks'
 import CensorshipNotice from '../components/Layout/CensorshipNotice'
@@ -15,7 +15,7 @@ import SocialFeed from '../components/Social/SocialFeed'
 import MediaPerspectives from '../components/Media/MediaPerspectives'
 import GovernmentStatements from '../components/Media/GovernmentStatements'
 import EnergyPanel from '../components/Energy/EnergyPanel'
-import CommodityTicker from '../components/Commodities/CommodityTicker'
+// CommodityTicker moved to App.jsx for global visibility
 import UpdateBadge from '../components/Layout/UpdateBadge'
 import VideoSection from '../components/Media/VideoSection'
 import HomepageSummary from '../components/Layout/HomepageSummary'
@@ -293,8 +293,18 @@ export default function Dashboard() {
         )}
       </div>
 
+      {/* Scroll hint — tells users there's more below */}
+      <div className="bg-gradient-to-b from-gray-950 to-gray-900 border-t border-gray-800 py-3 flex flex-col items-center gap-1 shrink-0 cursor-pointer hover:bg-gray-900/80 transition-colors"
+        onClick={() => {
+          const el = document.getElementById('quick-brief')
+          if (el) el.scrollIntoView({ behavior: 'smooth' })
+        }}
+      >
+        <span className="text-[10px] text-gray-500 uppercase tracking-widest font-semibold">Scroll for Quick Brief</span>
+        <ChevronDown size={16} className="text-gray-600 animate-bounce" />
+      </div>
+
       <UpdateBadge />
-      <CommodityTicker />
 
       {/* Scrollable summary sections — highlights from every page */}
       <HomepageSummary />

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet } from 'lucide-react'
+import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock } from 'lucide-react'
+import siteMetadata from '../../data/site-metadata.json'
 
 // Data imports — each section is self-contained
 import escalationsData from '../../data/escalations.json'
@@ -321,11 +322,18 @@ function MoneySummary() {
 // ----- Main Export -----
 export default function HomepageSummary() {
   return (
-    <div className="bg-gray-950 border-t border-gray-800">
+    <div id="quick-brief" className="bg-gray-950 border-t border-gray-800">
       {/* Section header */}
       <div className="text-center py-6 px-4">
         <p className="text-sm font-bold text-gray-300 uppercase tracking-widest">Quick Brief</p>
         <p className="text-[11px] text-gray-600 mt-1">Highlights from every section — click any card to explore the full page</p>
+        <div className="flex items-center justify-center gap-2 mt-2">
+          <Clock size={12} className="text-blue-400" />
+          <span className="text-[11px] text-blue-400 font-semibold">
+            Last updated: {new Date(siteMetadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
+          </span>
+          <span className="text-[10px] text-gray-600">· Day {siteMetadata.conflictDay}</span>
+        </div>
       </div>
 
       {/* Grid of summary cards */}
