@@ -990,5 +990,73 @@
       "fake-imagery",
       "osint"
     ]
+  },
+  {
+    "id": "social-044",
+    "platform": "x",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "KC-135 crash confirmed \u2014 4th US aircraft lost since Day 1. Combined with the French soldier KIA in Iraq, Day 13 marks the first time a non-coalition NATO member has suffered a fatality. This war is expanding whether leaders acknowledge it or not.",
+    "timestamp": "2026-03-12T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "KC-135 crash confirmed by CENTCOM. French soldier death confirmed by French Ministry of Armed Forces.",
+    "engagement": {
+      "likes": 290000,
+      "retweets": 185000,
+      "replies": 52000
+    },
+    "keywords": [
+      "kc-135",
+      "aircraft-loss",
+      "france",
+      "nato",
+      "escalation"
+    ]
+  },
+  {
+    "id": "social-045",
+    "platform": "x",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "Day 13 shipping update: Two more tankers hit in Iraqi waters. 280+ bulk carriers now stranded. Dry bulk trade through Hormuz down 91%. IEA's 400M barrel release is a band-aid on a severed artery \u2014 the math simply doesn't work when 21M bpd is blocked.",
+    "timestamp": "2026-03-12T22:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Tanker attacks confirmed by maritime tracking sources. Shipping data corroborated by MarineTraffic AIS data.",
+    "engagement": {
+      "likes": 340000,
+      "retweets": 220000,
+      "replies": 61000
+    },
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "tanker",
+      "iea",
+      "oil"
+    ]
+  },
+  {
+    "id": "social-046",
+    "platform": "x",
+    "handle": "@Liveuamap",
+    "displayName": "Liveuamap",
+    "sourceCategory": "osint_analyst",
+    "text": "Black rain reported in multiple provinces of western Iran and parts of Iraq/Kuwait. Oil-contaminated rainfall from burning refineries. Environmental disaster unfolding alongside the military one. 1991 Gulf War parallels becoming unavoidable.",
+    "timestamp": "2026-03-12T19:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Black rain reports from multiple local sources and journalists. Environmental impact assessment pending.",
+    "engagement": {
+      "likes": 410000,
+      "retweets": 275000,
+      "replies": 73000
+    },
+    "keywords": [
+      "black-rain",
+      "environment",
+      "oil-fires",
+      "humanitarian"
+    ]
   }
 ]

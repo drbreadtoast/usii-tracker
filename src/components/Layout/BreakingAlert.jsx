@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XCircle, HelpCircle, Clock } from 'lucide-react'
 
 // Breaking alerts — only for major, verified-or-actively-developing stories
@@ -150,10 +151,10 @@ export default function BreakingAlert() {
     <div className="bg-red-950/70 border-b border-red-800/60 shrink-0">
       <div className="flex items-center justify-between px-3 py-1">
         <div className="flex items-center gap-2">
-          <div className="flex items-center gap-1.5 bg-red-600 px-2 py-0.5 rounded">
+          <Link to="/breaking-news" className="flex items-center gap-1.5 bg-red-600 px-2 py-0.5 rounded hover:bg-red-500 transition-colors">
             <AlertTriangle size={10} className="text-white animate-pulse" />
             <span className="text-[10px] font-black text-white tracking-widest uppercase">Breaking News</span>
-          </div>
+          </Link>
           <span className="text-[10px] text-red-300/70">Click to expand for full research & sources</span>
         </div>
         <button

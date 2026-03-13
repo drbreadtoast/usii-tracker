@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-12T23:49:00Z",
+    "lastUpdated": "2026-03-13T04:33:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,16 +27,16 @@
     ]
   },
   "summary": {
-    "totalSites": 68,
-    "confirmed": 52,
+    "totalSites": 71,
+    "confirmed": 55,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 13,
     "categories": {
-      "military": 22,
+      "military": 24,
       "nuclear": 6,
       "civilian": 12,
-      "infrastructure": 8,
+      "infrastructure": 9,
       "energy": 5
     }
   },
@@ -1226,6 +1226,45 @@
       "description": "New wave of Israeli strikes across Tehran. Part of 6,000+ total CENTCOM targets struck since Feb 28. Multiple explosions heard across the city.",
       "source": "PBS",
       "sourceUrl": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
+    },
+    {
+      "id": "dmg-065",
+      "name": "KC-135 Crash Site near Turaibil",
+      "country": "Iraq",
+      "lat": 32.8,
+      "lng": 38.9,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-12",
+      "description": "US KC-135 Stratotanker aerial refueling aircraft crashed near Turaibil, western Iraq. Circumstances under investigation.",
+      "source": "Washington Post",
+      "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/12/kc-135-crash-iraq-iran/"
+    },
+    {
+      "id": "dmg-066",
+      "name": "Makhmour Coalition Base",
+      "country": "Iraq",
+      "lat": 35.76,
+      "lng": 43.87,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-12",
+      "description": "Coalition base near Makhmour hit by drone strike attributed to Iran-backed Iraqi militias. One French soldier killed, several others wounded. France's first combat fatality in the conflict.",
+      "source": "BNO News",
+      "sourceUrl": "https://bnonews.com/index.php/2026/03/french-soldier-killed-in-attack-in-iraq-several-others-wounded/"
+    },
+    {
+      "id": "dmg-067",
+      "name": "Oil Tankers in Iraqi Waters (Basra)",
+      "country": "Iraq",
+      "lat": 29.8,
+      "lng": 48.8,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-03-12",
+      "description": "Multiple oil tankers struck in Iraqi waters near Basra by Iranian anti-ship missiles, part of expanding campaign against energy infrastructure in the Gulf.",
+      "source": "CBS News",
+      "sourceUrl": "https://www.cbsnews.com/live-updates/iran-war-us-israel-gulf-allies-strait-of-hormuz-attacks-oil-prices-stocks/"
     }
   ]
 }

@@ -2,13 +2,13 @@ import { useState, useEffect } from 'react'
 import { Clock } from 'lucide-react'
 
 const TIMEZONES = [
-  { label: 'San Francisco', abbr: 'PT', tz: 'America/Los_Angeles', flag: '🇺🇸' },
-  { label: 'Washington', abbr: 'ET', tz: 'America/New_York', flag: '🇺🇸' },
-  { label: 'Tehran', abbr: 'IRST', tz: 'Asia/Tehran', flag: '🇮🇷' },
   { label: 'Jerusalem', abbr: 'IST', tz: 'Asia/Jerusalem', flag: '🇮🇱' },
+  { label: 'Tehran', abbr: 'IRST', tz: 'Asia/Tehran', flag: '🇮🇷' },
+  { label: 'Washington', abbr: 'ET', tz: 'America/New_York', flag: '🇺🇸' },
   { label: 'Beirut', abbr: 'EET', tz: 'Asia/Beirut', flag: '🇱🇧' },
   { label: 'Moscow', abbr: 'MSK', tz: 'Europe/Moscow', flag: '🇷🇺' },
   { label: 'Beijing', abbr: 'CST', tz: 'Asia/Shanghai', flag: '🇨🇳' },
+  { label: 'San Francisco', abbr: 'PT', tz: 'America/Los_Angeles', flag: '🇺🇸' },
 ]
 
 export default function WorldClocks() {

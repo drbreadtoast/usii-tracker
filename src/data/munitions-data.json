@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Estimates are compiled from open-source intelligence (OSINT), published government reports, Congressional testimony, and assessments from recognized defense research institutions. Quantities represent best-available estimates and may differ from actual classified inventories. Production rates are inferred from procurement budgets, contractor disclosures, and historical delivery schedules. Conflict expenditure figures are derived from satellite imagery analysis, official briefings, and corroborated media reports.",
-    "lastUpdated": "2026-03-11",
+    "lastUpdated": "2026-03-12",
     "updateFrequency": "daily",
     "disclaimer": "All figures are estimates based on publicly available information and open-source analysis. Actual military inventories are classified. Numbers should be treated as approximations subject to revision. This data is compiled for informational purposes and does not represent official government positions. Conflict usage figures include both confirmed and analytically assessed strikes. Source URLs point to institutional pages that published relevant analyses; specific reports may require navigation within those sites."
   },
@@ -691,6 +691,29 @@
           }
         },
         {
+          "name": "Fattah Hypersonic Missile",
+          "type": "ballistic_missile",
+          "quantity": 20,
+          "deployed": 15,
+          "inReserve": 5,
+          "status": "limited",
+          "description": "Iran's claimed hypersonic ballistic missile with maneuverable re-entry vehicle (MaRV) capable of Mach 13-15 speeds. First tested June 2023. Designed to evade missile defense systems including Arrow-3 and THAAD. Operational deployment status was uncertain until March 2026 conflict use.",
+          "range_km": 1400,
+          "sourceUrl": "https://missilethreat.csis.org/",
+          "estimatedQuantity": {
+            "quantity": 30,
+            "note": "Limited production run likely given complexity. Iran claimed mass production capability but Western analysts assess small inventory",
+            "source": "CSIS Missile Threat Project",
+            "sourceUrl": "https://missilethreat.csis.org/"
+          },
+          "rumoredQuantity": {
+            "quantity": 50,
+            "note": "Iranian state media has claimed larger quantities but hypersonic missile production requires advanced materials and manufacturing capabilities that constrain output",
+            "source": "Iranian state media / OSINT",
+            "sourceUrl": "https://missilethreat.csis.org/"
+          }
+        },
+        {
           "name": "Shahed-136 / Shahed-238",
           "type": "drone",
           "quantity": 5000,
@@ -808,16 +831,18 @@
       ],
       "usedInConflict": [
         {
-          "weapon": "Shahab-3 / Emad",
-          "quantityUsed": 220,
-          "dateRange": "2026-03-01 to 2026-03-10",
+          "weapon": "Shahab-3 / Ghadr / Emad",
+          "quantityUsed": 250,
+          "dateRange": "2026-03-01 to 2026-03-12",
           "targets": [
             "Nevatim Air Base, Israel",
             "Ramon Air Base, Israel",
             "Tel Aviv metropolitan area",
             "Dimona nuclear facility vicinity",
             "Bahrain civilian areas",
-            "Turkish airspace (intercepted by NATO)"
+            "Turkish airspace (intercepted by NATO)",
+            "Haifa, Israel (Day 13 barrage — intercepted)",
+            "US bases in Kuwait and Bahrain (Day 13)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.idf.il/en/"
@@ -861,15 +886,26 @@
           "sourceUrl": "https://www.iiss.org/"
         },
         {
-          "weapon": "Khorramshahr / Khorramshahr-4",
-          "quantityUsed": 45,
-          "dateRange": "2026-03-02 to 2026-03-10",
+          "weapon": "Khorramshahr / Khorramshahr-4 (Kheybar Shekan)",
+          "quantityUsed": 55,
+          "dateRange": "2026-03-02 to 2026-03-12",
           "targets": [
             "Central Israel (Tel Aviv, Haifa)",
-            "US base at Al Dhafra, UAE"
+            "US base at Al Dhafra, UAE",
+            "Tel Aviv / Haifa (Day 13 barrage — intercepted)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.csis.org/"
+        },
+        {
+          "weapon": "Fattah Hypersonic",
+          "quantityUsed": 5,
+          "dateRange": "2026-03-12",
+          "targets": [
+            "Tel Aviv / Haifa (Day 13 barrage — all intercepted by Israeli defenses)"
+          ],
+          "confirmed": false,
+          "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
         }
       ],
       "production": {
@@ -1068,6 +1104,13 @@
       "costUsd": 350000,
       "costFormatted": "$350K",
       "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+    },
+    {
+      "weapon": "Fattah Hypersonic Missile",
+      "country": "iran",
+      "costUsd": 500000,
+      "costFormatted": "$500K",
+      "sourceUrl": "https://missilethreat.csis.org/"
     }
   ],
   "productionHistory": [
@@ -1129,8 +1172,8 @@
     }
   ],
   "conflictExpenditure": {
-    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through March 10, 2026. Iran has fired 500+ ballistic missiles and 2,000+ drones. US has struck 3,000+ targets. 43 Iranian warships destroyed.",
-    "lastUpdated": "2026-03-10",
+    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through March 12, 2026. Iran has fired 550+ ballistic missiles and 2,000+ drones including Fattah hypersonic missiles. US has struck 6,000+ targets. 43 Iranian warships destroyed.",
+    "lastUpdated": "2026-03-12",
     "byCountry": {
       "us": {
         "totalEstimatedCostUsd": 2602000000,
@@ -1155,19 +1198,20 @@
         ]
       },
       "iran": {
-        "totalEstimatedCostUsd": 252250000,
-        "totalFormatted": "$252.3M",
+        "totalEstimatedCostUsd": 277750000,
+        "totalFormatted": "$277.8M",
         "breakdown": [
-          { "weapon": "Shahab-3/Emad", "qty": 220, "totalCost": 110000000 },
+          { "weapon": "Shahab-3/Ghadr/Emad", "qty": 250, "totalCost": 125000000 },
           { "weapon": "Shahed-136", "qty": 2000, "totalCost": 40000000 },
           { "weapon": "Fateh-110", "qty": 200, "totalCost": 40000000 },
           { "weapon": "Paveh", "qty": 75, "totalCost": 26250000 },
-          { "weapon": "Khorramshahr", "qty": 45, "totalCost": 36000000 }
+          { "weapon": "Khorramshahr/Kheybar Shekan", "qty": 55, "totalCost": 44000000 },
+          { "weapon": "Fattah Hypersonic", "qty": 5, "totalCost": 2500000 }
         ]
       }
     },
-    "grandTotalUsd": 3219750000,
-    "grandTotalFormatted": "$3.22B",
+    "grandTotalUsd": 3245250000,
+    "grandTotalFormatted": "$3.25B",
     "notes": "Expenditure figures represent estimated munition costs only and do not include operational costs (fuel, personnel, aircraft flight hours, naval vessel deployment), infrastructure damage, or replacement procurement premiums. Actual costs are likely 3-5x higher when accounting for full operational expenses."
   }
 }

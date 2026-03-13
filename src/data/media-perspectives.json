@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-03-12T23:49:00Z",
+  "lastUpdated": "2026-03-13T04:33:00Z",
   "categories": [
     {
       "id": "us-left",
       "label": "US Left-Leaning Media",
       "color": "#3B82F6",
-      "icon": "\ud83d\udcfa",
+      "icon": "📺",
       "outlets": [
         {
           "name": "NPR",
-          "headline": "Iran's New Supreme Leader Vows Hormuz Stays Closed \u2014 3.2M Displaced, 200+ Children Among Dead",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "KC-135 Crash Marks 4th US Aircraft Lost — Black Rain Falls Across Iran and Iraq",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.npr.org/2026/03/12/nx-s1-5745689/iran-war-israel-us",
-          "summary": "Frames Day 13 around humanitarian toll \u2014 UNHCR reports 3.2 million displaced, 200+ children among 1,348 killed. Covers Mojtaba Khamenei's first statement vowing Hormuz stays closed. Balanced coverage of casualties on all sides."
+          "summary": "Leads with KC-135 tanker crash — 4th US aircraft lost in the conflict. Reports on 'black rain' environmental crisis from burning oil infrastructure. Frames Day 13 around mounting US military losses and humanitarian toll."
         },
         {
           "name": "PBS",
-          "headline": "New Wave of Strikes Hit Tehran as Netanyahu Vows 'Many Surprises' for Next Phase of Iran War",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "France Mourns First Soldier Killed in Iraq as Iran Launches Most Intense Missile Operation",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war",
-          "summary": "Leads with military escalation and Netanyahu's rhetoric from first wartime press conference. Also covers damage to Iranian cultural heritage sites including Golestan Palace and Chehel Sotoun."
+          "summary": "Covers French soldier death in Iraq as first non-US NATO casualty. Reports Iran's most intense missile operation of the war. Analysis examines whether NATO could be drawn further into the conflict."
         },
         {
           "name": "NBC News",
-          "headline": "Iran's New Supreme Leader Vows to Keep Blocking Strait of Hormuz as Oil Prices Spike Past $100",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "Brent Crude Holds Above $100 as IEA's Record 400M Barrel Release Fails to Contain Oil Surge",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-oil-ship-attacks-hormuz-trump-israel-lebanon-rcna263101",
-          "summary": "Live blog covering Mojtaba Khamenei's statement, oil crossing $100, and IEA's 400M barrel emergency release failing to calm markets. Analysis argues Iran retains economic leverage through Hormuz despite military losses."
+          "summary": "Markets and energy focus — Brent above $100 despite IEA's largest-ever 400M barrel release across 32 countries. US contributing 172M from SPR. Two more tankers hit in Iraqi waters. 280+ bulk carriers stranded."
         }
       ]
     },
@@ -34,28 +34,28 @@
       "id": "us-right",
       "label": "US Right-Leaning Media",
       "color": "#EF4444",
-      "icon": "\ud83d\udcfb",
+      "icon": "📻",
       "outlets": [
         {
           "name": "Fox News",
-          "headline": "Iran Attacks Spread Across Middle East \u2014 IDF Kills Iranian Commander, Netanyahu Vows 'Crushing' Victory",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "Trump: War Will End 'Soon,' Oil Disruption Would Trigger 'Harsher Strikes' Against Iran",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.foxnews.com/live-news/us-iran-israel-war-latest-march-12-live-updates",
-          "summary": "Frames conflict through security lens \u2014 leads with Iran's regional attacks, IDF killing of Iranian commander, and Netanyahu's confident press conference. Includes Rep. Mace's evacuation mission from the region."
-        },
-        {
-          "name": "Washington Post",
-          "headline": "War Against Iran Expands Into Lebanon as Israel Battles Hezbollah Past Litani River",
-          "timestamp": "2026-03-12T00:00:00Z",
-          "url": "https://www.washingtonpost.com/world/2026/03/12/israel-hezbollah-lebanon-war/",
-          "summary": "Leads with Lebanon expansion \u2014 Israel pushing past Litani to Zahrani River. Frames the war as widening beyond Iran into multi-front regional conflict. Covers strikes on Beirut's Corniche evacuation zone."
+          "summary": "Leads with Trump's confidence the war is ending soon. Frames oil disruption warning as show of strength. Covers KC-135 crash but emphasizes continued US military dominance."
         },
         {
           "name": "Daily Wire",
-          "headline": "The Iranian Regime Is Dead, But What Comes Next Is Full Of Risk \u2014 Trump: 'I Couldn't Care Less'",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "Trump Says 'Practically Nothing Left to Target' — Iran's Peace Conditions DOA",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.dailywire.com/news/the-iranian-regime-is-dead-but-what-comes-next-is-full-of-risk",
-          "summary": "Examines the power vacuum in Iran after Khamenei's death. Strongly pro-operation, framing US strikes as justified. Focuses on regime change prospects while noting Mojtaba Khamenei's weakness."
+          "summary": "Pro-operation framing — Trump's 'nothing left to target' claim. Dismisses Pezeshkian's 3 peace conditions as non-starters. Covers oil at $100 but argues military victory will restore markets."
+        },
+        {
+          "name": "Washington Post",
+          "headline": "Black Rain, Burning Refineries, and a $100 Barrel: Day 13 of the Iran War",
+          "timestamp": "2026-03-12T20:00:00Z",
+          "url": "https://www.washingtonpost.com/world/2026/03/12/israel-hezbollah-lebanon-war/",
+          "summary": "Environmental and economic focus — black rain from burning petroleum infrastructure across Iran, Iraq, and Kuwait. Brent past $100. IEA 400M barrel release struggles to offset Hormuz blockade."
         }
       ]
     },
@@ -63,28 +63,28 @@
       "id": "international",
       "label": "International Media",
       "color": "#22C55E",
-      "icon": "\ud83c\udf0d",
+      "icon": "🌍",
       "outlets": [
         {
           "name": "Al Jazeera",
-          "headline": "Iran War Day 13: Mojtaba Khamenei's First Statement, Netanyahu Press Conference, Oil Crosses $100",
-          "timestamp": "2026-03-12T00:00:00Z",
-          "url": "https://www.aljazeera.com/news/2026/3/12/iran-war-what-is-happening-on-day-13-of-us-israel-attacks",
-          "summary": "Day-by-day explainer framing conflict as 'US-Israel attacks.' Centers civilian casualties, 3.2M displaced, Pezeshkian's peace terms vs. Mojtaba's hardline stance. Comprehensive coverage of Iran leadership rift."
-        },
-        {
-          "name": "CNBC",
-          "headline": "Markets Hit 2026 Lows \u2014 Dow Falls 739 Points as Oil Crosses $100, Iran's New Leader Vows Hormuz Stays Shut",
-          "timestamp": "2026-03-12T00:00:00Z",
-          "url": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
-          "summary": "Markets-first framing \u2014 Dow below 47,000, all three indexes at 2026 lows, Brent past $100. IEA 400M barrel release fails to calm markets. Mojtaba Khamenei's Hormuz vow deepens energy crisis."
+          "headline": "Iran's President Sets Terms to End the War — Is an Off-Ramp in Sight?",
+          "timestamp": "2026-03-12T20:00:00Z",
+          "url": "https://www.aljazeera.com/news/2026/3/12/irans-president-sets-terms-to-end-the-war-is-an-off-ramp-in-sight",
+          "summary": "Covers Pezeshkian's 3 peace conditions: recognition, guarantees, reparations. Frames as first concrete off-ramp but notes Araghchi's rejection of ceasefire contradicts the proposal. French soldier death and NATO expansion fears."
         },
         {
           "name": "France 24",
-          "headline": "Six French Soldiers Wounded in Iraq Drone Attack \u2014 Netanyahu Threatens 'Many Surprises' as War Widens",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "French Soldier Killed in Iraq Drone Attack — Macron Calls Death 'Unacceptable'",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf",
-          "summary": "Leads with French angle \u2014 six soldiers wounded in Iraq. Also covers Netanyahu's press conference, KC-135 crash, and growing concerns about munitions depletion across all combatants."
+          "summary": "Leads with French angle — soldier killed in Iraqi militia drone attack on counterterrorism base. Macron demands accountability. Also covers KC-135 crash, Pezeshkian's peace conditions, and Iran's most intense missile operation."
+        },
+        {
+          "name": "CNBC",
+          "headline": "Oil Prices Jump as IEA Record Reserve Release Fails to Calm Markets Amid Hormuz Blockade",
+          "timestamp": "2026-03-12T20:00:00Z",
+          "url": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html",
+          "summary": "Markets focus — Brent at $100.46, WTI at $95.73. IEA's 400M barrel release across 32 countries deemed insufficient. US contributing 172M from SPR. Two more tankers hit in Iraqi waters. Analysts doubt reserves can offset Hormuz closure."
         }
       ]
     },
@@ -92,28 +92,28 @@
       "id": "israeli",
       "label": "Israeli Media",
       "color": "#60A5FA",
-      "icon": "\ud83c\uddee\ud83c\uddf1",
+      "icon": "🇮🇱",
       "outlets": [
         {
           "name": "Times of Israel",
-          "headline": "Netanyahu Threatens Mojtaba Khamenei in First Wartime Press Conference \u2014 Sirens Sound Across Israel",
-          "timestamp": "2026-03-12T00:00:00Z",
-          "url": "https://www.timesofisrael.com/liveblog-march-12-2026/",
-          "summary": "Liveblog leads with Netanyahu's press conference calling Mojtaba an 'IRGC puppet.' Covers MDA casualty reports from joint Iran-Hezbollah attacks and IDF retaliatory operations in Lebanon and Iran."
+          "headline": "Trump: Iran War Could Be Over Soon, But Oil Disruption Would Trigger Harsher US Strikes",
+          "timestamp": "2026-03-12T20:00:00Z",
+          "url": "https://www.timesofisrael.com/trump-iran-war-could-be-over-soon-but-oil-disruption-would-trigger-harsher-us-strikes/",
+          "summary": "Covers Trump's claim war ending soon contrasted with Israeli Defence Minister Katz's 'no time limit.' Reports on multi-layered missile defense intercepting Iran's most intense operation. France's first casualty raises NATO expansion concerns."
         },
         {
           "name": "Jerusalem Post",
-          "headline": "Sirens Sound Across Israel as Hezbollah-Iran Launch Joint Attack \u2014 IDF Strikes Nuclear-Linked Site",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "IDF Intercepts Iran's Most Intense Missile Barrage — Arrow and David's Sling Systems Tested",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.jpost.com/israel-news/defense-news/article-889639",
-          "summary": "Leads with joint Iran-Hezbollah attack (200 rockets from Hezbollah). Reports IDF strikes on Parchin-Taleghan 2 nuclear facility. Profiles Mojtaba Khamenei as potentially more dangerous than his father."
+          "summary": "Defense focus — reports on IDF intercepting Iran's most intense missile operation to date. Analysis of Arrow-3 and David's Sling performance. Covers Pezeshkian's peace terms but Israeli officials dismiss them as non-credible."
         },
         {
           "name": "Ynet News",
-          "headline": "Lebanon Rockets Wound One in Central Israel \u2014 Finance Ministry Lowers Growth Forecast, War 'Only a Few Weeks'",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "Home Front Update: Sirens Continue as Iran Tests Limits of Israel's Air Defense",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.ynetnews.com/article/bywj4bhfwg",
-          "summary": "Home-front perspective \u2014 reports debris and casualties from joint attack. Finance Ministry lowers growth forecast. Reports on Israeli hopes for Iranian revolution as Tehran warns 'protesters treated as enemies.'"
+          "summary": "Home-front focus — siren frequency and interceptor success rates. Reports on public shelter fatigue entering Day 13. Finance Ministry warns of economic impact as Brent crosses $100."
         }
       ]
     },
@@ -121,28 +121,28 @@
       "id": "iranian",
       "label": "Iranian Media",
       "color": "#F97316",
-      "icon": "\ud83c\uddee\ud83c\uddf7",
+      "icon": "🇮🇷",
       "outlets": [
         {
           "name": "Press TV",
-          "headline": "Ex-IRGC Chief: No Truce Until Iran Gets 'Definite Outcome' \u2014 Resistance Continues Despite Aggression",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "Iran Launches Most Intense Missile Operation — Resistance Forces Strike Across Region",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.presstv.ir/Detail/2026/03/12/765292/Ex-IRGC-chief-No-truce-in-US-Israeli-war-not-until-Iran-gets-definite-outcome",
-          "summary": "Frames conflict as 'US-Israeli aggression.' Former IRGC chief Rezaei vows no truce until victory. Emphasizes Iran's continued military capability and Mojtaba Khamenei's defiant first statement."
+          "summary": "Frames Iran's most intense missile operation as proof of unbroken military capability. Claims widespread damage to Israeli and US targets. Emphasizes Pezeshkian's peace conditions as 'reasonable' while Western media ignores them."
         },
         {
           "name": "Tehran Times",
-          "headline": "Why Iran Is Fighting Like Never Before \u2014 Islamic Revolution Will Continue Despite Loss of Leader",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "President Pezeshkian Offers Peace — US-Israel Regime Responds With More Bombs",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://www.tehrantimes.com/news/524422/Why-Iran-is-fighting-like-never-before",
-          "summary": "Frames Iran's response as unprecedented self-defense. Khamenei's assassination used as justification for all-out retaliation. Regime continuity messaging \u2014 officials say revolution will thrive despite loss of Supreme Leader."
+          "summary": "Frames Pezeshkian's 3 peace conditions as magnanimous offer rejected by aggressors. Highlights KC-135 crash as evidence of US military weakness. Claims black rain is result of US-Israeli targeting of civilian oil infrastructure."
         },
         {
           "name": "IRNA",
-          "headline": "Iran's Military Demonstrates Unbroken Capability \u2014 Resistance Axis Strikes Continue Across Region",
-          "timestamp": "2026-03-12T00:00:00Z",
+          "headline": "Islamic Republic Demonstrates Full Military Capability on Day 13 of Aggression",
+          "timestamp": "2026-03-12T20:00:00Z",
           "url": "https://en.irna.ir/news/85865849/Iran-sends-a-message-to-the-U-S-with-an-advanced-maneuverable",
-          "summary": "State news agency frames Iran's military response as proof of unbroken capability. Highlights Khoramshahr deployment and IRGC navy operations in Hormuz. Emphasizes civilian bombing toll to condemn US-Israel."
+          "summary": "State agency frames Iran's missile operation as demonstrating unbroken capability despite 13 days of strikes. Emphasizes the French soldier death as proof the war is expanding beyond US-Israel. Covers oil at $100 as economic pressure on aggressors."
         }
       ]
     }

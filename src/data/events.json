@@ -3449,5 +3449,198 @@
       "war-duration",
       "us-israel"
     ]
+  },
+  {
+    "id": "evt-new-067",
+    "title": "US KC-135 Stratotanker crashes in western Iraq near Turaibil",
+    "description": "A US Boeing KC-135 Stratotanker aerial refueling tanker crashed in western Iraq near the Turaibil border crossing with Jordan. CENTCOM confirmed 5 crew aboard and stated the crash was NOT due to hostile fire. This is the 4th manned US aircraft lost this month during the Iran campaign.",
+    "type": "movement",
+    "lat": 32.8,
+    "lng": 38.9,
+    "location": "Turaibil, western Iraq (near Jordanian border)",
+    "timestamp": "2026-03-12T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/03/12/kc-135-crash-iraq-iran/"
+      },
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/u-s-military-plane-crashes-in-iraq-as-status-of-crew-is-unknown-officials-said/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0,
+      "note": "5 crew aboard, fate unknown"
+    },
+    "tags": [
+      "kc-135",
+      "crash",
+      "iraq",
+      "centcom",
+      "aircraft-loss"
+    ]
+  },
+  {
+    "id": "evt-new-068",
+    "title": "French soldier killed in drone strike near Makhmour, Iraq — first non-US NATO casualty",
+    "description": "French Warrant Officer Arnaud Frion of the 7th Alpine Chasseurs Battalion was killed in a drone strike at a Peshmerga/coalition base near Makhmour in Iraq's Erbil region. Five other French soldiers were wounded. This marks the first NATO casualty outside the US in the Iran war. President Macron called it 'unacceptable.'",
+    "type": "strike",
+    "lat": 35.76,
+    "lng": 43.87,
+    "location": "Makhmour, Erbil region, Iraq",
+    "timestamp": "2026-03-12T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "BNO News",
+        "url": "https://bnonews.com/index.php/2026/03/french-soldier-killed-in-attack-in-iraq-several-others-wounded/"
+      },
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 5,
+      "note": "WO Arnaud Frion killed, 5 French soldiers wounded"
+    },
+    "tags": [
+      "france",
+      "nato",
+      "drone-strike",
+      "makhmour",
+      "coalition",
+      "macron"
+    ]
+  },
+  {
+    "id": "evt-new-069",
+    "title": "Iran launches 'most intense operation' — Ghadr, Emad, Fattah missiles at Israel and Gulf bases",
+    "description": "Iran fired Ghadr, Emad, Kheybar Shekan, and Fattah missiles at Tel Aviv, Haifa, Israeli military intelligence HQ, Haifa naval base, radar systems, and US bases in Kuwait and Bahrain. Iran described it as their 'most intense operation' of the war. Israeli media reported all missiles intercepted.",
+    "type": "strike",
+    "lat": 32.08,
+    "lng": 34.78,
+    "location": "Tel Aviv area, Israel (primary target)",
+    "timestamp": "2026-03-12T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera Live",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "missiles",
+      "fattah",
+      "ghadr",
+      "tel-aviv",
+      "haifa",
+      "interception"
+    ]
+  },
+  {
+    "id": "evt-new-070",
+    "title": "Two oil tankers hit in Iraqi territorial waters near Basra",
+    "description": "Two oil tankers were struck in Iraqi territorial waters near Basra, marking the first oil-related strike inside Iraqi waters during the conflict. The attack threatens to further disrupt oil exports from Iraq's southern terminals.",
+    "type": "naval",
+    "lat": 29.8,
+    "lng": 48.8,
+    "location": "Iraqi territorial waters, near Basra",
+    "timestamp": "2026-03-12T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "CBS News Live Updates",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-gulf-allies-strait-of-hormuz-attacks-oil-prices-stocks/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "oil-tankers",
+      "basra",
+      "iraq",
+      "energy",
+      "shipping"
+    ]
+  },
+  {
+    "id": "evt-new-071",
+    "title": "Iran's President Pezeshkian sets 3 conditions for peace",
+    "description": "Iranian President Masoud Pezeshkian outlined three conditions to end the war: (1) recognition of Iran's legitimate rights, (2) guarantees against future attacks on Iran, and (3) compensation and reparations for war damages. The conditions represent the first formal Iranian peace framework since the war began.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-12T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/12/irans-president-sets-terms-to-end-the-war-is-an-off-ramp-in-sight"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "pezeshkian",
+      "peace",
+      "diplomacy",
+      "conditions",
+      "iran"
+    ]
+  },
+  {
+    "id": "evt-new-072",
+    "title": "WHO warns of toxic 'black rain' over Tehran from oil depot strikes",
+    "description": "The WHO warned that Israeli/US strikes on Iranian oil depots are causing toxic 'black rain' containing benzene and toluene — known carcinogens — to fall over Tehran and surrounding areas. The environmental crisis adds a humanitarian dimension to the ongoing air campaign against Iranian energy infrastructure.",
+    "type": "humanitarian",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-12T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CBC News",
+        "url": "https://www.cbc.ca/news/world/black-rain-oil-depot-strikes-9.7123197"
+      },
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/03/1167106"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "black-rain",
+      "who",
+      "environment",
+      "oil-depot",
+      "tehran",
+      "benzene",
+      "humanitarian"
+    ]
   }
 ]
