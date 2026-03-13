@@ -1,8 +1,9 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { ShieldCheck, ShieldX, ShieldAlert, ShieldQuestion, HelpCircle, ExternalLink, Clock, Filter, ChevronDown, ChevronUp, AlertTriangle, Search, TrendingUp, ArrowLeft, Shield } from 'lucide-react'
+import { ShieldCheck, ShieldX, ShieldAlert, ShieldQuestion, HelpCircle, ExternalLink, Clock, Filter, ChevronDown, ChevronUp, AlertTriangle, Search, TrendingUp, ArrowLeft, Shield, Newspaper } from 'lucide-react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
 import factCheckData from '../data/fact-check.json'
+import siteMetadata from '../data/site-metadata.json'
 
 const VERDICT_CONFIG = {
   confirmed: {
@@ -175,24 +176,37 @@ export default function FactCheckPage() {
   const [activeFilter, setActiveFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredClaims = useMemo(() => {
-    let claims = [...factCheckData.claims]
+  const { recentClaims, olderClaims } = useMemo(() => {
+    const lastUpdate = new Date(siteMetadata.lastUpdated)
+    const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
 
+    const sorted = [...factCheckData.claims].sort((a, b) =>
+      new Date(b.lastChecked) - new Date(a.lastChecked)
+    )
+
+    const recent = sorted.filter(c => new Date(c.lastChecked) >= cutoff)
+    const older = sorted.filter(c => new Date(c.lastChecked) < cutoff)
+    return { recentClaims: recent, olderClaims: older }
+  }, [])
+
+  const filterClaims = (claims) => {
+    let filtered = [...claims]
     if (activeFilter !== 'all') {
-      claims = claims.filter(c => c.verdict === activeFilter)
+      filtered = filtered.filter(c => c.verdict === activeFilter)
     }
-
     if (searchQuery.trim().length >= 2) {
       const q = searchQuery.toLowerCase()
-      claims = claims.filter(c =>
+      filtered = filtered.filter(c =>
         c.claim.toLowerCase().includes(q) ||
         c.summary.toLowerCase().includes(q) ||
         c.category.toLowerCase().includes(q)
       )
     }
+    return filtered
+  }
 
-    return claims
-  }, [activeFilter, searchQuery])
+  const filteredRecent = useMemo(() => filterClaims(recentClaims), [activeFilter, searchQuery, recentClaims])
+  const filteredOlder = useMemo(() => filterClaims(olderClaims), [activeFilter, searchQuery, olderClaims])
 
   const counts = useMemo(() => {
     const c = { all: factCheckData.claims.length }
@@ -202,11 +216,20 @@ export default function FactCheckPage() {
     return c
   }, [])
 
-  const lastUpdatedPT = new Date(factCheckData.metadata.lastUpdated).toLocaleString('en-US', {
+  const lastUpdateDate = new Date(siteMetadata.lastUpdated)
+  const lastUpdatedPT = lastUpdateDate.toLocaleString('en-US', {
     month: 'short', day: 'numeric', year: 'numeric',
     hour: '2-digit', minute: '2-digit', hour12: true,
     timeZone: 'America/Los_Angeles',
   }) + ' PT'
+  const refreshAgo = (() => {
+    const diffMs = Date.now() - lastUpdateDate.getTime()
+    const diffMin = Math.floor(diffMs / 60000)
+    const diffHr = Math.floor(diffMin / 60)
+    if (diffMin < 60) return `${diffMin}m ago`
+    if (diffHr < 24) return `${diffHr}h ago`
+    return `${Math.floor(diffHr / 24)}d ago`
+  })()
 
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100 flex flex-col">
@@ -217,9 +240,12 @@ export default function FactCheckPage() {
             <ShieldCheck size={14} className="text-blue-400" />
             <h1 className="text-sm font-bold text-gray-300">Rumor Tracker & Fact Check</h1>
           </div>
-          <div className="flex items-center gap-1.5 bg-blue-950/40 border border-blue-800/50 rounded-lg px-3 py-1.5">
-            <Clock size={12} className="text-blue-400" />
-            <span className="text-xs font-semibold text-blue-300">Last Checked: {lastUpdatedPT}</span>
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 bg-blue-950/40 border border-blue-800/50 rounded-lg px-3 py-1.5">
+              <Clock size={12} className="text-blue-400" />
+              <span className="text-xs font-semibold text-blue-300">Last Checked: {lastUpdatedPT}</span>
+              <span className="text-[10px] text-blue-400/70 bg-blue-900/40 px-1.5 py-0.5 rounded font-mono">{refreshAgo}</span>
+            </div>
           </div>
         </div>
       </header>
@@ -234,6 +260,9 @@ export default function FactCheckPage() {
               <p className="text-xs text-gray-500 mt-1">
                 With misinformation spreading rapidly during the Iran-Israel conflict, we independently research trending claims
                 and verify them against multiple credible sources. Every verdict includes clickable source links so you can verify for yourself.
+              </p>
+              <p className="text-[10px] text-gray-600 mt-1">
+                Showing {recentClaims.length} claims checked in the last 24 hours{olderClaims.length > 0 ? `, plus ${olderClaims.length} older checks` : ''}.
               </p>
               <div className="bg-amber-950/20 border border-amber-900/30 rounded-lg px-3 py-2 mt-2">
                 <p className="text-[10px] text-amber-500/80 leading-relaxed">
@@ -288,15 +317,44 @@ export default function FactCheckPage() {
 
       {/* Claims list */}
       <div className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-4 space-y-3">
-        {filteredClaims.length === 0 ? (
+        {filteredRecent.length === 0 && filteredOlder.length === 0 ? (
           <div className="text-center py-16 text-gray-600">
             <ShieldQuestion size={32} className="mx-auto mb-3 opacity-50" />
             <p className="text-sm">No claims match your filters.</p>
           </div>
         ) : (
-          filteredClaims.map(claim => (
-            <ClaimCard key={claim.id} claim={claim} />
-          ))
+          <>
+            {/* Recent 24hr claims */}
+            {filteredRecent.length === 0 ? (
+              <div className="text-center py-8 text-gray-600">
+                <ShieldQuestion size={24} className="mx-auto mb-2 opacity-50" />
+                <p className="text-xs">No new claims checked in the past 24 hours.</p>
+              </div>
+            ) : (
+              filteredRecent.map(claim => (
+                <ClaimCard key={claim.id} claim={claim} />
+              ))
+            )}
+
+            {/* Older claims */}
+            {filteredOlder.length > 0 && (
+              <>
+                <div className="flex items-center gap-3 pt-6 pb-2">
+                  <div className="flex-1 h-px bg-gray-800" />
+                  <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Older Fact Checks</span>
+                  <div className="flex-1 h-px bg-gray-800" />
+                </div>
+                <p className="text-[10px] text-gray-600 text-center -mt-2 mb-4">
+                  Previously checked claims beyond the 24-hour window.
+                </p>
+                {filteredOlder.map(claim => (
+                  <div key={claim.id} className="opacity-60">
+                    <ClaimCard claim={claim} />
+                  </div>
+                ))}
+              </>
+            )}
+          </>
         )}
       </div>
 

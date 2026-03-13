@@ -34,138 +34,81 @@ function PriceChart() {
   const prices = history.map((d) => d.price)
   const minPrice = Math.floor(Math.min(...prices) * 10) / 10 - 0.1
   const maxPrice = Math.ceil(Math.max(...prices) * 10) / 10 + 0.1
-
-  const chartW = 500
-  const chartH = 160
-  const padL = 40
-  const padR = 10
-  const padT = 15
-  const padB = 40
-  const plotW = chartW - padL - padR
-  const plotH = chartH - padT - padB
-
-  const xScale = (i) => padL + (i / (history.length - 1)) * plotW
-  const yScale = (p) => padT + plotH - ((p - minPrice) / (maxPrice - minPrice)) * plotH
-
-  const points = history.map((d, i) => `${xScale(i)},${yScale(d.price)}`)
-  const polyline = points.join(' ')
-
-  // Area fill path
-  const areaPath = `M ${xScale(0)},${yScale(history[0].price)} ` +
-    history.map((d, i) => `L ${xScale(i)},${yScale(d.price)}`).join(' ') +
-    ` L ${xScale(history.length - 1)},${padT + plotH} L ${xScale(0)},${padT + plotH} Z`
-
-  // Y-axis ticks
-  const yTicks = []
-  for (let p = Math.ceil(minPrice * 5) / 5; p <= maxPrice; p += 0.2) {
-    yTicks.push(Math.round(p * 100) / 100)
-  }
-
-  // War start index
   const warIdx = history.findIndex((d) => d.isEvent)
 
+  // Truncate labels for chart display
+  const shortLabel = (d) => {
+    if (!d.label) return ''
+    // Strip "Day N — " prefix for chart, keep only the key event
+    const stripped = d.label.replace(/^Day \d+\s*—?\s*/, '')
+    if (stripped.length > 20) return stripped.slice(0, 18) + '…'
+    return stripped
+  }
+
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-lg p-2">
-      <div className="flex items-center gap-1.5 mb-1">
+    <div className="bg-gray-900 border border-gray-800 rounded-lg p-3">
+      <div className="flex items-center gap-1.5 mb-2">
         <TrendingUp size={12} className="text-green-400" />
-        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Price History</span>
+        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Price History — US Gas Average ($/gal)</span>
       </div>
-      <svg viewBox={`0 0 ${chartW} ${chartH}`} className="w-full h-auto" preserveAspectRatio="xMidYMid meet">
-        {/* Grid lines */}
-        {yTicks.map((tick) => (
-          <g key={tick}>
-            <line
-              x1={padL} y1={yScale(tick)} x2={chartW - padR} y2={yScale(tick)}
-              stroke="#1f2937" strokeWidth="0.5"
-            />
-            <text x={padL - 4} y={yScale(tick) + 3} textAnchor="end" fill="#6b7280" fontSize="7">
-              ${tick.toFixed(2)}
-            </text>
-          </g>
-        ))}
 
-        {/* War zone background */}
-        {warIdx >= 0 && (
-          <rect
-            x={xScale(warIdx)} y={padT}
-            width={xScale(history.length - 1) - xScale(warIdx)} height={plotH}
-            fill="#7f1d1d" opacity="0.15"
-          />
-        )}
-
-        {/* Area fill */}
-        <defs>
-          <linearGradient id="priceGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#f59e0b" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="#f59e0b" stopOpacity="0.02" />
-          </linearGradient>
-        </defs>
-        <path d={areaPath} fill="url(#priceGradient)" />
-
-        {/* Line */}
-        <polyline
-          points={polyline}
-          fill="none"
-          stroke="#f59e0b"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-
-        {/* Data points and labels */}
+      {/* Table-style chart — cleaner than SVG */}
+      <div className="space-y-0">
         {history.map((d, i) => {
-          const cx = xScale(i)
-          const cy = yScale(d.price)
+          const pct = ((d.price - minPrice) / (maxPrice - minPrice)) * 100
           const isEvent = d.isEvent
-          const isToday = d.label === 'TODAY'
+          const dateStr = new Date(d.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+          const isWarStart = i === warIdx
+
           return (
-            <g key={d.date}>
-              {/* Dot */}
-              <circle
-                cx={cx} cy={cy} r={isEvent || isToday ? 3 : 1.5}
-                fill={isEvent ? '#ef4444' : isToday ? '#f59e0b' : '#9ca3af'}
-                stroke={isEvent ? '#991b1b' : 'none'}
-                strokeWidth="1"
-              />
-
-              {/* Event label */}
-              {(isEvent || isToday || d.label === 'Normal market' || d.label === 'Talks collapse') && d.label && (
-                <text
-                  x={cx}
-                  y={cy - 6}
-                  textAnchor="middle"
-                  fill={isEvent ? '#fca5a5' : isToday ? '#fbbf24' : '#9ca3af'}
-                  fontSize="5.5"
-                  fontWeight={isEvent || isToday ? 'bold' : 'normal'}
-                >
+            <div
+              key={d.date}
+              className={`flex items-center gap-2 py-1 px-1 rounded ${
+                isWarStart ? 'bg-red-950/30 border-l-2 border-red-600' :
+                i >= warIdx && warIdx >= 0 ? 'bg-red-950/10' : ''
+              }`}
+            >
+              <span className="text-[9px] text-gray-500 w-[52px] shrink-0 text-right font-mono">{dateStr}</span>
+              <div className="flex-1 h-3 bg-gray-800/60 rounded-full overflow-hidden relative">
+                <div
+                  className={`h-full rounded-full ${isEvent ? 'bg-gradient-to-r from-amber-600 to-red-500' : 'bg-amber-600/70'}`}
+                  style={{ width: `${pct}%` }}
+                />
+              </div>
+              <span className={`text-[10px] font-bold w-[42px] shrink-0 text-right ${isEvent ? 'text-red-400' : 'text-amber-400'}`}>
+                ${d.price.toFixed(2)}
+              </span>
+              {isEvent && d.label && (
+                <span className="text-[8px] text-red-400/80 w-[120px] shrink-0 truncate hidden sm:inline" title={d.label}>
+                  {shortLabel(d)}
+                </span>
+              )}
+              {!isEvent && d.label && (d.label === 'Normal market' || d.label === 'Nuclear talks' || d.label === 'Talks collapse') && (
+                <span className="text-[8px] text-gray-500 w-[120px] shrink-0 truncate hidden sm:inline">
                   {d.label}
-                </text>
+                </span>
               )}
-
-              {/* X-axis date labels - show every other or events */}
-              {(i % 2 === 0 || isEvent || isToday) && (
-                <text
-                  x={cx} y={padT + plotH + 12}
-                  textAnchor="middle"
-                  fill="#4b5563" fontSize="5.5"
-                  transform={`rotate(-30, ${cx}, ${padT + plotH + 12})`}
-                >
-                  {new Date(d.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                </text>
-              )}
-            </g>
+              {!d.label && !isEvent && <span className="w-[120px] shrink-0 hidden sm:inline" />}
+            </div>
           )
         })}
+      </div>
 
-        {/* War start line */}
-        {warIdx >= 0 && (
-          <line
-            x1={xScale(warIdx)} y1={padT}
-            x2={xScale(warIdx)} y2={padT + plotH}
-            stroke="#ef4444" strokeWidth="1" strokeDasharray="3,2"
-          />
-        )}
-      </svg>
+      {/* Legend */}
+      <div className="flex items-center gap-4 mt-2 pt-2 border-t border-gray-800">
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-amber-600/70" />
+          <span className="text-[8px] text-gray-500">Pre-war</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-gradient-to-r from-amber-600 to-red-500" />
+          <span className="text-[8px] text-gray-500">War event</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-3 h-2 bg-red-950/30 border-l-2 border-red-600 rounded-sm" />
+          <span className="text-[8px] text-gray-500">War begins (Feb 28)</span>
+        </div>
+      </div>
     </div>
   )
 }

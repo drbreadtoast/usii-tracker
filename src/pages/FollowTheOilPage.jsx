@@ -232,7 +232,7 @@ function OilIntroBanner({ metadata }) {
             <Fuel size={18} className="text-amber-400 shrink-0" />
             <div className="text-left">
               <h2 className="text-sm font-bold text-gray-200">{metadata.title}</h2>
-              <p className="text-[10px] text-gray-500 mt-0.5">Sources, methodology & disclaimer</p>
+              <p className="text-[10px] text-blue-400 mt-0.5">Click here to learn more about our sources, methodology & disclaimer ▸</p>
             </div>
           </div>
           <div className="flex items-center gap-2 shrink-0">
