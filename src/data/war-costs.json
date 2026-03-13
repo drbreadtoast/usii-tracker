@@ -37,7 +37,7 @@
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
     "lastUpdated": "2026-03-13T04:16:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 13,
+    "daysOfConflict": 14,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -450,9 +450,9 @@
     },
     "estimatedDailyCost": 22000000,
     "estimatedDailyCostNote": "Combined daily operating cost of all deployed naval assets at wartime operational tempo",
-    "daysDeployed": 13,
-    "totalNavalCost": 286000000,
-    "totalNavalCostNote": "Total naval deployment cost for the first 13 days of active conflict operations; does not include pre-conflict surge deployment costs",
+    "daysDeployed": 14,
+    "totalNavalCost": 308000000,
+    "totalNavalCostNote": "Total naval deployment cost for the first 14 days of active conflict operations; does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -560,8 +560,8 @@
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "US markets at 2026 closing lows. Dow below 47,000, S&P 500 and Nasdaq at 2026 lows. IEA 400M barrel release fails to calm markets. Brent past $100 deepens economic pressure.",
-    "oilPriceImpact": "Brent $100.46/barrel (+24.6% from pre-war). WTI $95.73 (+24.8%). IEA record 400M barrel emergency release across 32 countries, US contributing 172M from SPR. Rystad warns $135 if conflict persists 4 months.",
-    "gasPrice": "$3.58/gallon national average (+12.6% since pre-war $3.18). California above $5.00. Pump prices lag crude by 1-2 weeks."
+    "oilPriceImpact": "Brent ~$100/barrel (+25% from pre-war). WTI ~$95-96 (+27%). Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Rystad warns $135 if conflict persists 4 months.",
+    "gasPrice": "$3.60/gallon national average (~13.2% since pre-war $3.18). California above $5.00. Pump prices lag crude by 1-2 weeks."
   },
   "keyFacts": [
     {
@@ -627,8 +627,8 @@
     "combinedTotalCosts": 136670000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military costs for all three belligerents plus indirect economic costs. Global economic impact represents the annualized additional cost from oil price disruption.",
-    "lastCalculated": "2026-03-13T04:16:00Z"
+    "lastCalculated": "2026-03-14T05:00:00Z"
   },
-  "daysOfConflict": 13,
-  "lastUpdated": "2026-03-13T04:16:00Z"
+  "daysOfConflict": 14,
+  "lastUpdated": "2026-03-14T05:00:00Z"
 }

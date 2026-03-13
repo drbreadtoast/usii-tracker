@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-13T04:33:00Z",
+    "lastUpdated": "2026-03-13T21:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,15 +27,15 @@
     ]
   },
   "summary": {
-    "totalSites": 71,
-    "confirmed": 55,
+    "totalSites": 74,
+    "confirmed": 58,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 13,
     "categories": {
       "military": 24,
       "nuclear": 6,
-      "civilian": 12,
+      "civilian": 15,
       "infrastructure": 9,
       "energy": 5
     }
@@ -1265,6 +1265,45 @@
       "description": "Multiple oil tankers struck in Iraqi waters near Basra by Iranian anti-ship missiles, part of expanding campaign against energy infrastructure in the Gulf.",
       "source": "CBS News",
       "sourceUrl": "https://www.cbsnews.com/live-updates/iran-war-us-israel-gulf-allies-strait-of-hormuz-attacks-oil-prices-stocks/"
+    },
+    {
+      "id": "dmg-068",
+      "name": "Zarzir, Northern Israel",
+      "country": "Israel",
+      "lat": 32.73,
+      "lng": 35.28,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-13",
+      "description": "Iranian ballistic missile impact in the northern town of Zarzir. Woman moderately wounded by shrapnel, 50+ injured by broken glass and debris.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-march-13-2026/"
+    },
+    {
+      "id": "dmg-069",
+      "name": "Central Israel — Cluster Missile Impact Zone",
+      "country": "Israel",
+      "lat": 32.07,
+      "lng": 34.77,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-13",
+      "description": "11 Iranian cluster missiles penetrated Israeli air defenses. One dropped approximately 70 submunitions over central Israel. 2 killed, multiple wounded.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/security-aviation/2026-03-12/ty-article-magazine/.premium/11-iranian-cluster-missiles-penetrated-one-dropped-70-bombs-over-central-israel/0000019c-e1d3-dffd-a3fc-e1df09ed0000"
+    },
+    {
+      "id": "dmg-070",
+      "name": "Al-Quds Day Rally Site, Tehran",
+      "country": "Iran",
+      "lat": 35.69,
+      "lng": 51.39,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-13",
+      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation — rally was held in solidarity with Palestinians amid ongoing conflict.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians"
     }
   ]
 }

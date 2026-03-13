@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-13T04:29:00Z",
+    "lastUpdated": "2026-03-14T05:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,27 +72,27 @@
       }
     },
     "current": {
-      "date": "2026-03-12",
-      "label": "Active Conflict — Day 13",
+      "date": "2026-03-13",
+      "label": "Active Conflict — Day 14",
       "wti": {
         "price": 95.73,
         "unit": "$/barrel",
-        "change": "+24.8%",
-        "changeDollars": "+$19.01",
-        "source": "NYMEX front-month — WTI at $95.73. IEA record 400M barrel emergency release (32 countries, US contributing 172M from SPR) tempers earlier surge. Oil markets volatile as Hormuz blockade persists.",
-        "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
+        "change": "+26.8%",
+        "changeDollars": "+$20.23",
+        "source": "NYMEX front-month — WTI holding ~$95-96. Treasury waived Russia oil sanctions for 1 month to ease supply pressure. Hormuz blockade persists. IEA 400M barrel reserve release ongoing.",
+        "sourceUrl": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
       },
       "brent": {
         "price": 100.46,
         "unit": "$/barrel",
-        "change": "+24.6%",
-        "changeDollars": "+$19.64",
-        "source": "ICE front-month — Brent holds above $100 for first time since 2022. IEA releasing record 400M barrels from emergency reserves across 32 nations. US contributing 172M from SPR. Rystad warns $135 if conflict persists 4 months.",
-        "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html",
+        "change": "+25.9%",
+        "changeDollars": "+$20.66",
+        "source": "ICE front-month — Brent holding ~$100/barrel. Treasury Russia sanctions waiver adds marginal supply. IEA 400M barrel reserve release ongoing across 32 nations. Rystad warns $135 if conflict persists 4 months.",
+        "sourceUrl": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html",
         "intradayHigh": 119.5,
         "sessionLow": 87.8
       },
-      "changePercent": "+24.7%"
+      "changePercent": "+26.4%"
     },
     "priceHistory": [
       {
@@ -544,6 +544,13 @@
       "detail": "Brent crude rebounded 3.4% to $90.77 and WTI rose 2.8% to $86.01 on March 11 after the prior day's 11-12% crash. IEA's record 400M barrel reserve release partially stabilized markets. However, Iran's 37th wave with super-heavy Khoramshahr missiles and 3 more ship attacks near Hormuz pushed prices back up. Both benchmarks remain ~14% above pre-war levels. CPI at 2.4% y/y (pre-war data). Dow -0.89%, S&P -0.33%.",
       "source": "CNBC / IEA",
       "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
+    },
+    {
+      "id": 8,
+      "fact": "US Treasury waives Russia oil sanctions for 1 month to ease global supply crunch amid Hormuz blockade.",
+      "detail": "On Day 14, the US Treasury Department temporarily waived sanctions on Russian oil exports for 30 days in an effort to increase global oil supply while the Strait of Hormuz remains effectively closed. The waiver acknowledges the severity of the supply disruption and the limits of the IEA reserve release. Gas prices at $3.60/gal nationally (AAA).",
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
     }
   ]
 }

@@ -3642,5 +3642,277 @@
       "benzene",
       "humanitarian"
     ]
+  },
+  {
+    "id": "evt-new-073",
+    "title": "KC-135 crew deaths confirmed — all 6 killed in Iraq crash",
+    "description": "CENTCOM confirmed all 6 crew members of the KC-135 Stratotanker that crashed near Turaibil, Iraq on March 12 were killed. Reports indicate a possible mid-air collision with another KC-135, which landed safely at Ben Gurion Airport with tail fin damage. Total US military deaths since Feb 28 now stands at 13 service members.",
+    "type": "movement",
+    "lat": 32.45,
+    "lng": 38.97,
+    "location": "Turaibil, Iraq-Jordan border",
+    "timestamp": "2026-03-13T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
+      },
+      {
+        "name": "NBC News Live Updates",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 6,
+      "injured": 0,
+      "note": "All 6 crew members confirmed dead. Total US military deaths at 13."
+    },
+    "tags": [
+      "kc-135",
+      "crash",
+      "iraq",
+      "us-military",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-074",
+    "title": "NATO intercepts 3rd Iranian missile over Turkey near Adana",
+    "description": "NATO air defenses intercepted a third Iranian ballistic missile over Turkish airspace near Adana, home to Incirlik Air Base. Residents were woken by sirens at 3:25 AM local time. Turkey confirmed the interception and condemned the violation of its airspace.",
+    "type": "strike",
+    "lat": 37.0,
+    "lng": 35.32,
+    "location": "Adana, Turkey (near Incirlik Air Base)",
+    "timestamp": "2026-03-13T00:25:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/13/turkiye-says-nato-defences-intercepted-third-missile-from-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "nato",
+      "turkey",
+      "adana",
+      "incirlik",
+      "missile-intercept",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-075",
+    "title": "Iranian missile strikes Zarzir in northern Israel — 50+ wounded",
+    "description": "An Iranian missile struck the town of Zarzir in northern Israel, moderately wounding a woman and injuring over 50 people from shrapnel and flying glass. A teen girl was also killed running to a shelter during the attack. The strike was part of continued Iranian missile salvos targeting northern Israel.",
+    "type": "strike",
+    "lat": 32.73,
+    "lng": 35.28,
+    "location": "Zarzir, Northern Israel",
+    "timestamp": "2026-03-13T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel Liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-13-2026/"
+      },
+      {
+        "name": "CNN Day 14",
+        "url": "https://www.cnn.com/2026/03/13/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 50,
+      "note": "1 woman moderately wounded, teen girl killed running to shelter, 50+ injured by glass/shrapnel"
+    },
+    "tags": [
+      "iran",
+      "missile",
+      "zarzir",
+      "northern-israel",
+      "casualties",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-076",
+    "title": "Explosion at Al-Quds Day rally in Tehran — 1 killed",
+    "description": "An explosion rocked an Al-Quds Day solidarity march in Tehran, killing at least 1 person as thousands participated in the annual rally. The cause of the explosion remains unclear. Al-Quds Day rallies are held annually in support of Palestinians.",
+    "type": "infrastructure",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-13T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians"
+      },
+      {
+        "name": "Al Jazeera Day 14",
+        "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": null,
+      "note": "At least 1 killed at rally, cause under investigation"
+    },
+    "tags": [
+      "tehran",
+      "al-quds-day",
+      "explosion",
+      "rally",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-077",
+    "title": "Michigan synagogue attack — vehicle rams Temple Israel near Detroit",
+    "description": "Ayman Mohamad Ghazali rammed a vehicle into Temple Israel synagogue near Detroit, Michigan. The suspect's relatives were reportedly killed in an Israeli strike. The attack represents a domestic spillover of the Iran-Israel conflict onto US soil.",
+    "type": "protest",
+    "lat": 42.52,
+    "lng": -83.31,
+    "location": "West Bloomfield, Michigan, USA",
+    "timestamp": "2026-03-13T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Times of Israel Liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-13-2026/"
+      },
+      {
+        "name": "CNN Day 14",
+        "url": "https://www.cnn.com/2026/03/13/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "michigan",
+      "synagogue",
+      "domestic-attack",
+      "hate-crime",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-078",
+    "title": "Netanyahu first press conference since war — says Israel is 'crushing' Iran",
+    "description": "In his first press conference since the war began, Netanyahu declared Israel is 'crushing' Iran and mocked new Supreme Leader Mojtaba Khamenei for not showing his face publicly. He addressed the Iranian people directly, saying the 'coming days will bring opportunity to free yourselves.'",
+    "type": "diplomatic",
+    "lat": 31.77,
+    "lng": 35.22,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-03-13T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel Liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-13-2026/"
+      },
+      {
+        "name": "Al Jazeera Day 14",
+        "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "netanyahu",
+      "press-conference",
+      "diplomacy",
+      "israel",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-079",
+    "title": "Treasury waives Russia oil sanctions for one month to ease supply crunch",
+    "description": "The US Treasury Department waived sanctions on Russian oil exports for one month to free stranded tankers and ease the global supply crunch caused by the Strait of Hormuz blockade. The move signals the severity of the energy crisis as oil prices remain above $100/barrel.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-03-13T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Time",
+        "url": "https://time.com/article/2026/03/13/war-iran-us-israel-cost-hormuz-gas-oil-electricity/"
+      },
+      {
+        "name": "NBC News Live Updates",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "treasury",
+      "russia",
+      "sanctions",
+      "oil",
+      "energy-crisis",
+      "day-14"
+    ]
+  },
+  {
+    "id": "evt-new-080",
+    "title": "11 Iranian cluster missiles penetrate Israeli air defense — 2 killed",
+    "description": "Eleven Iranian cluster missiles penetrated Israeli air defenses, with one dropping approximately 70 cluster bombs over central Israel. Two Israelis were killed in the attack. The use of cluster munitions — banned under the 2008 Convention on Cluster Munitions — marks a significant escalation in Iran's targeting of Israeli population centers.",
+    "type": "strike",
+    "lat": 32.07,
+    "lng": 34.77,
+    "location": "Central Israel",
+    "timestamp": "2026-03-13T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/security-aviation/2026-03-12/ty-article-magazine/.premium/11-iranian-cluster-missiles-penetrated-one-dropped-70-bombs-over-central-israel/0000019c-e1d3-dffd-a3fc-e1df09ed0000"
+      },
+      {
+        "name": "CNN Day 14",
+        "url": "https://www.cnn.com/2026/03/13/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2,
+      "injured": null,
+      "note": "2 Israelis killed by cluster munitions in central Israel"
+    },
+    "tags": [
+      "iran",
+      "cluster-missiles",
+      "air-defense",
+      "central-israel",
+      "casualties",
+      "day-14"
+    ]
   }
 ]

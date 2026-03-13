@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-13T04:29:00Z",
-  "currentAverage": 3.58,
+  "lastUpdated": "2026-03-14T05:00:00Z",
+  "currentAverage": 3.60,
   "preWarAverage": 3.18,
-  "changePercent": 12.6,
+  "changePercent": 13.2,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -103,6 +103,12 @@
       "price": 3.58,
       "label": "Day 13 \u2014 AAA avg $3.58, CA above $5.00. Oil at $100+",
       "isEvent": true
+    },
+    {
+      "date": "2026-03-13",
+      "price": 3.60,
+      "label": "Day 14 \u2014 AAA avg $3.60. Treasury waives Russia oil sanctions 1 month",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -152,7 +158,7 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Mar 11)",
+      "label": "Current (Mar 13)",
       "crudePerBarrel": 90,
       "components": [
         {
@@ -199,8 +205,8 @@
         }
       ],
       "total": 4.054,
-      "note": "AAA national average at $3.58/gal (March 12). Pump prices lag crude by 1-2 weeks. IEA 400M barrel reserve release across 32 countries may ease prices. California above $5.00/gal. Diesel at $4.83/gal."
+      "note": "AAA national average at $3.60/gal (March 13). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California above $5.00/gal."
     }
   },
-  "context": "AAA national average at $3.58/gallon (+12.6% from pre-war $3.18). California above $5.00/gallon. Brent crude past $100/barrel. IEA releasing record 400M barrels from reserves across 32 countries (US contributing 172M from SPR). Pump prices lag crude by 1-2 weeks — further increases likely."
+  "context": "AAA national average at $3.60/gallon (+13.2% from pre-war $3.18). California above $5.00/gallon. Brent crude ~$100/barrel. Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Pump prices lag crude by 1-2 weeks."
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T04:33:00Z",
+  "lastUpdated": "2026-03-13T20:00:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -116,7 +116,7 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 12)",
+      "period": "February 28, 2026 - Ongoing (Day 14)",
       "parties": [
         {
           "name": "Iran",
@@ -172,7 +172,7 @@
               }
             ]
           },
-          "injured": 17000,
+          "injured": 18551,
           "missing": 101,
           "displaced": 3200000
         },
@@ -181,18 +181,18 @@
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
             "military": 4,
-            "civilian": 11,
-            "total": 15,
-            "source": "IDF / Israeli media",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+            "civilian": 14,
+            "total": 18,
+            "source": "IDF / Israeli media (as of March 13)",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-march-13-2026/"
           },
           "estimated": {
             "military": 5,
-            "civilian": 12,
-            "total": 17,
+            "civilian": 15,
+            "total": 20,
             "source": "Israeli media estimates",
             "sourceUrl": "https://www.timesofisrael.com/topic/iran-war/",
-            "note": "9 confirmed killed in Beit Shemesh missile strike. 2 killed by cluster munition strike in central Israel. Iran has fired ~300 missiles at Israel \u2014 about half with cluster bomb warheads (banned under 2008 Convention). 186 total attack waves against Israel since war began."
+            "note": "9 confirmed killed in Beit Shemesh missile strike. 2 killed by cluster munition strike in central Israel (Day 14). 1 teen girl killed running to shelter during Zarzir missile attack (Day 14). 50+ wounded in Zarzir strike. 11 Iranian cluster missiles penetrated air defenses — one dropped 70 bombs over central Israel. Iran has fired ~300 missiles at Israel — about half with cluster bomb warheads (banned under 2008 Convention)."
           },
           "rumored": {
             "total": 45,
@@ -216,25 +216,25 @@
               }
             ]
           },
-          "injured": 2000
+          "injured": 2050
         },
         {
           "name": "United States",
           "flag": "\ud83c\uddfa\ud83c\uddf8",
           "confirmed": {
-            "military": 7,
+            "military": 13,
             "civilian": 0,
-            "total": 8,
-            "source": "CENTCOM",
-            "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26"
+            "total": 13,
+            "source": "CENTCOM (as of March 13)",
+            "sourceUrl": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
           },
           "estimated": {
-            "military": 8,
+            "military": 13,
             "civilian": 0,
-            "total": 8,
-            "source": "Unconfirmed reports of additional casualties at Gulf bases",
-            "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-07-26",
-            "note": "8 confirmed KIA including Sgt. Benjamin Pennington, 26, of Kentucky. ~140 wounded (108 returned to duty, 8 severely injured). KC-135 Stratotanker crashed near Turaibil, Iraq (Mar 12) — 5 crew fate unknown, CENTCOM says not hostile fire. 4th manned US aircraft lost this month. Additional casualties reported but not confirmed."
+            "total": 13,
+            "source": "CENTCOM confirmed all KC-135 crew dead",
+            "sourceUrl": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302",
+            "note": "13 confirmed KIA including Sgt. Benjamin Pennington, 26, of Kentucky and all 6 KC-135 crew killed in crash near Turaibil, Iraq (Mar 12-13). Possible mid-air collision with second KC-135 which landed at Ben Gurion with tail fin damage. ~140 wounded (108 returned to duty, 8 severely injured). 4th manned US aircraft lost this month."
           },
           "rumored": {
             "total": 25,
@@ -264,21 +264,21 @@
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 98,
-            "civilian": 589,
-            "total": 687,
-            "source": "Lebanese Health Ministry (as of March 12). Includes 91 children, 15 healthcare workers. Aisha Bakkar apartment strike + Ramlet al-Baida seafront strike (7 killed).",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/11/un-warns-of-widening-crisis-as-israeli-attacks-displace-750000-in-lebanon"
+            "military": 100,
+            "civilian": 600,
+            "total": 700,
+            "source": "Lebanese Health Ministry (as of March 13). Includes 91+ children, 15+ healthcare workers. Israel defense chief says will hold more Lebanese land until Hezbollah disarms.",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
           },
           "estimated": {
-            "military": 150,
-            "civilian": 550,
-            "total": 700,
+            "military": 160,
+            "civilian": 570,
+            "total": 730,
             "source": "Lebanese media and Hezbollah casualty estimates",
             "sourceUrl": "https://www.middleeastmonitor.com/20260311-death-toll-from-israeli-bombardment-of-lebanon-rises-to-570/",
-            "note": "Hezbollah intel chief Hussein Makled confirmed killed. 816,000+ registered displaced across Lebanon (126K in collective shelters). IDF conducting ground operations in border areas. 15 healthcare workers killed. Israel struck central Beirut apartment (Aisha Bakkar) and seafront (Ramlet al-Baida). IDF preparing ground invasion into Lebanon."
+            "note": "Hezbollah intel chief Hussein Makled confirmed killed. 816,000+ registered displaced across Lebanon (126K in collective shelters). IDF conducting ground operations in border areas. 15+ healthcare workers killed. Israel defense chief states will hold more Lebanese land until Hezbollah disarms."
           },
-          "injured": 2100,
+          "injured": 2200,
           "displaced": 800000
         },
         {
