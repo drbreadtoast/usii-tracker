@@ -27,23 +27,13 @@ function formatTimeAgo(timestamp) {
   return `${Math.floor(diffHr / 24)}d ago`
 }
 
-function formatEntryTime(timestamp) {
-  if (isDateOnly(timestamp)) {
-    // Show just the date, no time
-    // Parse date-only without timezone shift
-    const [datePart] = timestamp.split('T')
-    const [year, month, day] = datePart.split('-').map(Number)
-    const localDate = new Date(year, month - 1, day)
-    return localDate.toLocaleDateString('en-US', {
-      month: 'short', day: 'numeric',
-    })
-  }
-  // Show full date + time in PT
-  return new Date(timestamp).toLocaleString('en-US', {
-    month: 'short', day: 'numeric',
-    hour: '2-digit', minute: '2-digit', hour12: true,
-    timeZone: 'America/Los_Angeles',
-  }) + ' PT'
+function formatEntryDate(timestamp) {
+  const [datePart] = timestamp.split('T')
+  const [year, month, day] = datePart.split('-').map(Number)
+  const localDate = new Date(year, month - 1, day)
+  return localDate.toLocaleDateString('en-US', {
+    month: 'short', day: 'numeric', year: 'numeric',
+  })
 }
 
 function SourceBadge({ source }) {
@@ -81,11 +71,13 @@ export default function BreakingNewsPage() {
     return { recentItems: recent, olderItems: older, cutoffTime: cutoff }
   }, [])
 
-  const lastUpdatedPT = new Date(siteMetadata.lastUpdated).toLocaleString('en-US', {
-    month: 'short', day: 'numeric', year: 'numeric',
-    hour: '2-digit', minute: '2-digit', hour12: true,
-    timeZone: 'America/Los_Angeles',
-  }) + ' PT'
+  const lastUpdatedPT = (() => {
+    const [datePart] = siteMetadata.lastUpdated.split('T')
+    const [year, month, day] = datePart.split('-').map(Number)
+    return new Date(year, month - 1, day).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric',
+    })
+  })()
 
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100 flex flex-col">
@@ -142,7 +134,7 @@ export default function BreakingNewsPage() {
                       <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${style.badge}`}>{style.label}</span>
                       <span className="text-[10px] text-gray-500 flex items-center gap-1">
                         <Clock size={10} />
-                        {formatEntryTime(item.timestamp)}
+                        {formatEntryDate(item.timestamp)}
                       </span>
                       {formatTimeAgo(item.timestamp) && (
                         <span className="text-[10px] text-gray-600">
@@ -188,7 +180,7 @@ export default function BreakingNewsPage() {
                         <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${style.badge} opacity-60`}>{style.label}</span>
                         <span className="text-[10px] text-gray-600 flex items-center gap-1">
                           <Clock size={10} />
-                          {formatEntryTime(item.timestamp)}
+                          {formatEntryDate(item.timestamp)}
                         </span>
                         {formatTimeAgo(item.timestamp) && (
                           <span className="text-[10px] text-gray-700">

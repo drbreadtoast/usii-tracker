@@ -5,28 +5,22 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-003',
-    headline: 'THREAT: Iran Publishes Target List of US Tech Giant Offices — Amazon, Google, Microsoft, Nvidia, Palantir, IBM, Oracle Facilities in Israel & Gulf States Threatened',
-    status: 'developing',
-    lastUpdated: '2026-03-12T13:25:00Z',
-    summary: 'Iran\'s Tasnim news agency, closely linked to the IRGC, has published detailed target lists of US technology company offices located in Israel and Gulf states. Companies named include Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle. The IRGC declared US-Israeli "economic centres and banks" as legitimate military targets. Separately, a pro-Iran hacking group carried out the first significant cyberattack on a US company since the war began — targeting Stryker, a medical technology firm. International bank employees have begun evacuating families from Dubai.',
+    id: 'ba-004',
+    headline: 'US KC-135 Stratotanker Crashes in Western Iraq — All 6 Crew Members Confirmed Dead. Total US Military Deaths Now 13 in Operation Epic Fury.',
+    status: 'confirmed',
+    lastUpdated: '2026-03-13T16:00:00Z',
+    summary: 'A US Air Force KC-135 Stratotanker refueling aircraft crashed in western Iraq near the Jordanian border on March 12. CENTCOM confirmed all six crew members were killed. A second KC-135 involved in the same mission landed safely in Israel with nearly half its vertical stabilizer missing, suggesting a possible mid-air collision. This brings total US military deaths in Operation Epic Fury to 13. The Islamic Resistance in Iraq claimed responsibility but provided no evidence. CENTCOM stated the crash was "not due to hostile fire or friendly fire."',
     officialStatus: {
-      label: 'Confirmed — Multiple Sources',
-      detail: 'Iran\'s Tasnim news agency published the target lists, naming Amazon, Google, Microsoft, Nvidia, Palantir, IBM, and Oracle offices across Israel and Gulf states. The IRGC formally declared US-Israeli economic infrastructure as legitimate targets. This marks a major escalation from military-to-military operations to economic and infrastructure warfare. International companies have begun reviewing security protocols for regional offices.',
+      label: 'Confirmed — CENTCOM & Multiple Sources',
+      detail: 'CENTCOM confirmed the loss of the KC-135 Stratotanker and all six crew members. The aircraft crashed in western Iraq near Turaibil (Iraqi-Jordanian border) at approximately 2 PM ET on March 12. A second KC-135 from the same mission landed at Ben Gurion Airport in Israel with significant damage to its vertical stabilizer. The damaged aircraft has been identified as serial 63-8017, a KC-135R from the 314th Air Refueling Squadron, 940th Air Refueling Wing, Beale Air Force Base, California. An investigation is underway.',
       sources: [
-        { name: 'Times of Israel — Iran threatens tech giants', url: 'https://www.timesofisrael.com/liveblog_entry/iran-threatens-israel-and-gulf-offices-of-us-tech-giants-amazon-google-microsoft-and-nvidia/' },
-        { name: 'The Register — Infrastructure warfare', url: 'https://www.theregister.com/2026/03/11/iran_threatens_us_tech_companies/' },
-        { name: 'Al Jazeera Liveblog — Day 13', url: 'https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace' },
+        { name: 'CNN — US Air Force KC-135 lost over Iraq', url: 'https://www.cnn.com/2026/03/12/middleeast/us-air-force-refueling-aircraft-kc135-lost-intl-hnk-ml' },
+        { name: 'Al Jazeera — 6 US service members killed in jet crash', url: 'https://www.aljazeera.com/news/2026/3/12/us-military-announces-loss-of-refueling-aircraft-over-western-iraq' },
+        { name: 'CNBC — KC-135 crash details', url: 'https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html' },
       ]
     },
-    cyberAttack: {
-      detail: 'A pro-Iran hacking group claimed responsibility for a cyberattack on US medical technology company Stryker — the first significant cyber operation against an American company since the war began. The attack is seen as a signal that Iran is willing to extend the conflict into cyberspace targeting US corporate infrastructure, not just military systems.',
-      sources: [
-        { name: 'NBC News — Iran cyberattack on Stryker', url: 'https://www.nbcnews.com/world/iran/iran-appears-conducted-significant-cyberattack-us-company-first-war-st-rcna263084' },
-        { name: 'ABC News — Stryker hack confirmed', url: 'https://abcnews.com/International/pro-iran-hacking-group-claims-responsibility-cyberattack-stryker/story?id=130979414' },
-      ]
-    },
-    context: 'Day 13 marks a significant escalation in Iran\'s strategy — expanding the war from military targets to economic infrastructure, technology companies, and cyber operations against US companies. The IRGC\'s declaration makes this the first time a state actor has formally designated US tech company offices as military targets during an active conflict. Oil prices surged to Brent $94.77 and WTI $93.24. International bank employees have begun leaving Dubai with families.'
+    cyberAttack: null,
+    context: 'This is the fourth US aircraft loss since Operation Epic Fury began on February 28. Three F-15 fighters were previously shot down by friendly fire from Kuwait\'s air defenses. Total US casualties now stand at 13 killed and approximately 140 wounded. Defense Secretary Hegseth stated Iran\'s missile launch capability has been reduced by 90% and drone capability by 95%, with over 15,000 targets struck.'
   }
 ]
 
