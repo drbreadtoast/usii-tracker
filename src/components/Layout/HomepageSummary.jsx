@@ -193,7 +193,7 @@ function StrikesSummary() {
           <p className="text-[9px] text-gray-500">tracked strikes</p>
         </div>
         <div className="flex-1 text-[10px] text-gray-500">
-          Across {[...new Set(missileStrikes.map(s => s.country))].length} countries. Includes ballistic missiles, cruise missiles, drone strikes, and naval attacks.
+          Across {[...new Set(missileStrikes.map(s => s.country).filter(c => c !== 'International Waters'))].length} countries. Includes ballistic missiles, cruise missiles, drone strikes, and naval attacks.
         </div>
       </div>
       <div className="space-y-1.5">
