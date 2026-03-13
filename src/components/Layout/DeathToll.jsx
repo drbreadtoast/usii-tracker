@@ -163,30 +163,74 @@ function PartyRow({ party, isExpanded, onToggle }) {
               </div>
               <div className="grid grid-cols-2 gap-1.5">
                 {party.injured != null && party.injured > 0 && (
-                  <div className="bg-orange-950/20 border border-orange-900/30 rounded p-2 text-center">
-                    <p className="text-[9px] text-orange-400/70 uppercase font-semibold">Injured</p>
-                    <NumberDisplay value={party.injured} className="text-orange-300 text-sm" />
+                  <div className="bg-orange-950/20 border border-orange-900/30 rounded p-2">
+                    <p className="text-[9px] text-orange-400/70 uppercase font-semibold text-center">Injured</p>
+                    <p className="text-center"><NumberDisplay value={party.injured} className="text-orange-300 text-sm" /></p>
+                    {party.injuredNote && (
+                      <p className="text-[8px] text-orange-700 mt-1 leading-relaxed">{party.injuredNote}</p>
+                    )}
+                    {party.estimated?.note && !party.injuredNote && (
+                      <p className="text-[8px] text-orange-700 mt-1 leading-relaxed italic line-clamp-2">From estimated data</p>
+                    )}
+                    {party.estimated?.sourceUrl && (
+                      <a href={party.estimated.sourceUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 text-[8px] text-blue-400 hover:text-blue-300 mt-1 transition-colors justify-center">
+                        {party.estimated.source || 'Source'} <ExternalLink size={7} />
+                      </a>
+                    )}
                   </div>
                 )}
                 {party.displaced != null && party.displaced > 0 && (
-                  <div className="bg-purple-950/20 border border-purple-900/30 rounded p-2 text-center">
-                    <p className="text-[9px] text-purple-400/70 uppercase font-semibold">Displaced</p>
-                    <NumberDisplay value={party.displaced} className="text-purple-300 text-sm" />
+                  <div className="bg-purple-950/20 border border-purple-900/30 rounded p-2">
+                    <p className="text-[9px] text-purple-400/70 uppercase font-semibold text-center">Displaced</p>
+                    <p className="text-center"><NumberDisplay value={party.displaced} className="text-purple-300 text-sm" /></p>
+                    {party.displacedNote && (
+                      <p className="text-[8px] text-purple-700 mt-1 leading-relaxed">{party.displacedNote}</p>
+                    )}
+                    {party.estimated?.sourceUrl && (
+                      <a href={party.estimated.sourceUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 text-[8px] text-blue-400 hover:text-blue-300 mt-1 transition-colors justify-center">
+                        {party.estimated.source || 'Source'} <ExternalLink size={7} />
+                      </a>
+                    )}
                   </div>
                 )}
                 {party.missing != null && party.missing > 0 && (
-                  <div className="bg-blue-950/20 border border-blue-900/30 rounded p-2 text-center">
-                    <p className="text-[9px] text-blue-400/70 uppercase font-semibold">Missing</p>
-                    <NumberDisplay value={party.missing} className="text-blue-300 text-sm" />
+                  <div className="bg-blue-950/20 border border-blue-900/30 rounded p-2">
+                    <p className="text-[9px] text-blue-400/70 uppercase font-semibold text-center">Missing</p>
+                    <p className="text-center"><NumberDisplay value={party.missing} className="text-blue-300 text-sm" /></p>
+                    {party.missingNote && (
+                      <p className="text-[8px] text-blue-700 mt-1 leading-relaxed">{party.missingNote}</p>
+                    )}
+                    {party.estimated?.sourceUrl && (
+                      <a href={party.estimated.sourceUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 text-[8px] text-blue-400 hover:text-blue-300 mt-1 transition-colors justify-center">
+                        {party.estimated.source || 'Source'} <ExternalLink size={7} />
+                      </a>
+                    )}
                   </div>
                 )}
                 {party.arrested != null && party.arrested > 0 && (
-                  <div className="bg-red-950/20 border border-red-900/30 rounded p-2 text-center">
-                    <p className="text-[9px] text-red-400/70 uppercase font-semibold">Arrested</p>
-                    <NumberDisplay value={party.arrested} className="text-red-300 text-sm" />
+                  <div className="bg-red-950/20 border border-red-900/30 rounded p-2">
+                    <p className="text-[9px] text-red-400/70 uppercase font-semibold text-center">Arrested</p>
+                    <p className="text-center"><NumberDisplay value={party.arrested} className="text-red-300 text-sm" /></p>
+                    {party.arrestedNote && (
+                      <p className="text-[8px] text-red-700 mt-1 leading-relaxed">{party.arrestedNote}</p>
+                    )}
+                    {party.estimated?.sourceUrl && (
+                      <a href={party.estimated.sourceUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 text-[8px] text-blue-400 hover:text-blue-300 mt-1 transition-colors justify-center">
+                        {party.estimated.source || 'Source'} <ExternalLink size={7} />
+                      </a>
+                    )}
                   </div>
                 )}
               </div>
+              {/* Context note for all impact figures */}
+              {party.estimated?.note && (
+                <div className="mt-2 bg-gray-800/30 border border-gray-700/30 rounded p-2">
+                  <p className="text-[8px] text-gray-500 leading-relaxed">
+                    <AlertTriangle size={8} className="inline mr-0.5 -mt-0.5 text-amber-500" />
+                    <strong className="text-gray-400">Context:</strong> {party.estimated.note}
+                  </p>
+                </div>
+              )}
             </div>
           )}
         </div>

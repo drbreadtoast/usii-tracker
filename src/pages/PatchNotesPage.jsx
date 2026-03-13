@@ -1,8 +1,26 @@
 import { Link } from 'react-router-dom'
-import { FileText, ArrowLeft, Sparkles, Wrench, Layout, Zap, Globe, BarChart3, MessageCircle } from 'lucide-react'
+import { FileText, ArrowLeft, Sparkles, Wrench, Layout, Zap, Globe, BarChart3, MessageCircle, ShieldCheck } from 'lucide-react'
 // UpdateBadge now rendered globally in App.jsx
 
 const PATCH_NOTES = [
+  {
+    version: '2.2',
+    date: 'March 13, 2026',
+    title: 'Fact Check Page, Death Toll Context, UI Improvements',
+    icon: ShieldCheck,
+    iconColor: 'text-green-400',
+    highlights: [
+      'New "Rumor Tracker & Fact Check" page — debunking misinformation and verifying trending claims about the conflict with clickable sources for independent verification',
+      'Homepage: Split the "Latest Escalations" card into two sections — Escalations + 24hr Report — to fill empty space and surface breaking developments',
+      'Death Toll page: Added context notes and source links to Impact & Casualties numbers (injured, displaced, missing, arrested) — numbers now explain WHY with linked evidence',
+      'Follow the Oil page: Collapsed the methodology/sources/disclaimer intro box into a dropdown to save space on this high-traffic page',
+      'Live video player no longer autoplays — popup appears with "Watch Live" and "Close" buttons so visitors control playback',
+      'Renamed "Explore" button to "Menu" in the navigation bar',
+      '24hr Report: Individual items now show dates only (no times) to prevent inaccurate timestamps; page-level "Last Refresh" shows date, time, and how long ago',
+      'Timeline & Events pages: Removed all time displays and morning/afternoon/evening labels — dates only for accuracy',
+      'Breaking News alert updated to KC-135 crash with 3 clickable, verified source links',
+    ],
+  },
   {
     version: '2.1',
     date: 'March 12, 2026',

@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
-import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock } from 'lucide-react'
+import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap } from 'lucide-react'
 import CensorshipNotice from './CensorshipNotice'
 import SourcesNotice from './SourcesNotice'
 import siteMetadata from '../../data/site-metadata.json'
 
 // Data imports — each section is self-contained
 import escalationsData from '../../data/escalations.json'
+import breakingData from '../../data/breaking.json'
 import deathTollData from '../../data/death-toll.json'
 import oilData from '../../data/oil-tracker.json'
 import gasData from '../../data/gas-prices.json'
@@ -36,27 +37,77 @@ function SectionCard({ icon: Icon, title, color, route, children }) {
   )
 }
 
-// ----- 1. Escalations -----
-function EscalationsSummary() {
-  const sorted = [...escalationsData].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
-  const top = sorted.filter(e => e.severity === 'critical' || e.severity === 'high').slice(0, 3)
+// ----- 1. Escalations + 24hr Report (split card) -----
+function EscalationsAnd24hrSummary() {
+  const sortedEsc = [...escalationsData].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+  const topEsc = sortedEsc.filter(e => e.severity === 'critical' || e.severity === 'high').slice(0, 3)
+
+  const sortedBreaking = [...breakingData].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+  const lastUpdate = new Date(siteMetadata.lastUpdated)
+  const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
+  const recent24hr = sortedBreaking.filter(item => new Date(item.timestamp) >= cutoff).slice(0, 3)
 
   return (
-    <SectionCard icon={AlertOctagon} title="Latest Escalations" color="text-orange-400" route="/escalations">
-      <div className="space-y-2">
-        {top.map(e => (
-          <div key={e.id} className="flex items-start gap-2">
-            <span className={`shrink-0 mt-0.5 text-[9px] font-bold px-1.5 py-0.5 rounded ${
-              e.severity === 'critical' ? 'bg-red-900/60 text-red-300' : 'bg-orange-900/60 text-orange-300'
-            }`}>{e.severity.toUpperCase()}</span>
-            <div className="min-w-0">
-              <p className="text-xs text-gray-200 font-medium leading-snug line-clamp-2">{e.title}</p>
-              <p className="text-[9px] text-gray-600 mt-0.5">{e.category} · {new Date(e.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</p>
-            </div>
+    <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-700 transition-colors">
+      {/* Escalations half */}
+      <div className="border-b border-gray-800">
+        <div className="flex items-center justify-between px-4 py-2.5 border-b border-gray-800">
+          <div className="flex items-center gap-2">
+            <AlertOctagon size={14} className="text-orange-400" />
+            <span className="text-sm font-semibold text-gray-200">Latest Escalations</span>
           </div>
-        ))}
+          <Link to="/escalations" className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
+            See all <ChevronRight size={10} />
+          </Link>
+        </div>
+        <div className="p-4 space-y-2">
+          {topEsc.map(e => (
+            <div key={e.id} className="flex items-start gap-2">
+              <span className={`shrink-0 mt-0.5 text-[9px] font-bold px-1.5 py-0.5 rounded ${
+                e.severity === 'critical' ? 'bg-red-900/60 text-red-300' : 'bg-orange-900/60 text-orange-300'
+              }`}>{e.severity.toUpperCase()}</span>
+              <div className="min-w-0">
+                <p className="text-xs text-gray-200 font-medium leading-snug line-clamp-2">{e.title}</p>
+                <p className="text-[9px] text-gray-600 mt-0.5">{e.category} · {new Date(e.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </SectionCard>
+
+      {/* 24hr Report half */}
+      <div>
+        <div className="flex items-center justify-between px-4 py-2.5 border-b border-gray-800 bg-gray-900/30">
+          <div className="flex items-center gap-2">
+            <Newspaper size={14} className="text-red-400" />
+            <span className="text-sm font-semibold text-gray-200">24hr Report</span>
+          </div>
+          <Link to="/breaking-news" className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
+            See all <ChevronRight size={10} />
+          </Link>
+        </div>
+        <div className="p-4 space-y-2">
+          {recent24hr.length === 0 ? (
+            <p className="text-[10px] text-gray-600 text-center py-2">No developments in the past 24 hours.</p>
+          ) : (
+            recent24hr.map(item => (
+              <div key={item.id} className="flex items-start gap-2">
+                <Zap size={10} className={`shrink-0 mt-0.5 ${item.priority === 'critical' ? 'text-red-400' : item.priority === 'high' ? 'text-orange-400' : 'text-yellow-400'}`} />
+                <div className="min-w-0">
+                  <p className="text-xs text-gray-200 font-medium leading-snug line-clamp-2">{item.text}</p>
+                  <p className="text-[9px] text-gray-600 mt-0.5">
+                    {new Date(item.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                    {item.sources && item.sources.length > 0 && (
+                      <> · {item.sources.length} source{item.sources.length > 1 ? 's' : ''}</>
+                    )}
+                  </p>
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </div>
+    </div>
   )
 }
 
@@ -373,7 +424,7 @@ export default function HomepageSummary() {
 
       {/* Grid of summary cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-8 max-w-[1400px] mx-auto">
-        <EscalationsSummary />
+        <EscalationsAnd24hrSummary />
         <CasualtySummary />
         <DamageSummary />
         <StrikesSummary />

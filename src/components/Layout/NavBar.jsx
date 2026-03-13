@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X, Search } from 'lucide-react'
+import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X, Search, ShieldCheck } from 'lucide-react'
 import WorldClocks from './WorldClocks'
 import eventsData from '../../data/events.json'
 import breakingData from '../../data/breaking.json'
@@ -9,6 +9,7 @@ import timelineData from '../../data/war-timeline.json'
 const NAV_LINKS = [
   { to: '/', label: 'Home', icon: Map, color: 'text-gray-300 hover:text-white' },
   { to: '/follow-the-oil', label: 'Oil, Gas & Energy', icon: Droplet, color: 'text-amber-400 hover:text-amber-300' },
+  { to: '/fact-check', label: 'Fact Check', icon: ShieldCheck, color: 'text-green-400 hover:text-green-300' },
   { to: '/breaking-news', label: '24hr Report', icon: Newspaper, color: 'text-red-400 hover:text-red-300' },
   { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, color: 'text-cyan-400 hover:text-cyan-300' },
   { to: '/deaths', label: 'Deaths', icon: Skull, color: 'text-red-400 hover:text-red-300' },
@@ -29,6 +30,7 @@ const EXPLORE_SECTIONS = [
     { to: '/breaking-news', label: '24hr Report', icon: Newspaper, desc: 'Last 24 hours of verified developments' },
     { to: '/timeline', label: 'Timeline & Events', icon: Clock, desc: 'Day-by-day record + event database with fact-checks' },
     { to: '/escalations', label: 'Escalations', icon: AlertOctagon, desc: 'Major turning points in the conflict' },
+    { to: '/fact-check', label: 'Fact Check', icon: ShieldCheck, desc: 'Debunking rumors & verifying trending claims' },
   ]},
   { title: 'Intelligence', items: [
     { to: '/social', label: 'Social / OSINT', icon: MessageCircle, desc: 'Social media intel & analyst posts' },
@@ -176,10 +178,10 @@ export default function NavBar() {
           <button
             onClick={() => { setExploreOpen(!exploreOpen); setSearchOpen(false) }}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-[11px] font-bold bg-blue-600 hover:bg-blue-500 text-white transition-colors ring-1 ring-blue-400/30 shadow-lg shadow-blue-900/20"
-            title="Explore all pages"
+            title="Menu — all pages"
           >
             <LayoutGrid size={12} />
-            Explore
+            Menu
           </button>
           <button
             onClick={() => { setSearchOpen(!searchOpen); setExploreOpen(false) }}
@@ -256,7 +258,7 @@ export default function NavBar() {
               <div className="flex items-center gap-2">
                 <LayoutGrid size={16} className="text-blue-400" />
                 <span className="text-sm font-bold text-gray-200">Explore The OSS Report</span>
-                <span className="text-[10px] text-gray-600">14 pages</span>
+                <span className="text-[10px] text-gray-600">15 pages</span>
               </div>
               <button onClick={() => setExploreOpen(false)} className="text-gray-500 hover:text-white">
                 <X size={16} />

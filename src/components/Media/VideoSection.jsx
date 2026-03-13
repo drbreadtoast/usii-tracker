@@ -55,11 +55,7 @@ export default function VideoSection({ onClose }) {
   const resizeStart = useRef({ x: 0, width: 0 })
   const i24CheckTimer = useRef(null)
 
-  // Auto-hide overlay after 5 seconds
-  useEffect(() => {
-    const timer = setTimeout(() => setShowOverlay(false), 5000)
-    return () => clearTimeout(timer)
-  }, [])
+  // Overlay stays until user clicks "Watch Live" or "Close"
 
   // Check if i24NEWS embed loads — if it shows "unavailable" after 8s, show fallback
   useEffect(() => {
@@ -153,7 +149,7 @@ export default function VideoSection({ onClose }) {
       }
 
   const getEmbedUrl = (stream) => {
-    if (firstLoad && stream.id === 'aljazeera') return stream.autoplayUrl
+    // Never autoplay — visitors click play themselves
     return stream.embedUrl
   }
 
@@ -300,21 +296,24 @@ export default function VideoSection({ onClose }) {
             </div>
           )}
 
-          {/* Auto-play dismiss overlay — fades out after 5s */}
-          {showOverlay && activeStream.id === 'aljazeera' && (
-            <div className="absolute inset-0 z-10 flex items-end justify-center pb-4 pointer-events-none animate-fade-in">
-              <div className="flex items-center gap-2 pointer-events-auto">
+          {/* Initial overlay — click play or close */}
+          {showOverlay && (
+            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/60 backdrop-blur-sm">
+              <Video size={32} className="text-red-400 mb-2" />
+              <p className="text-xs font-semibold text-gray-200 mb-1">Live News Stream</p>
+              <p className="text-[10px] text-gray-400 mb-3">Click play on the video or close this panel</p>
+              <div className="flex items-center gap-2">
                 <button
                   onClick={handleContinue}
-                  className="px-3 py-1.5 bg-red-600/90 hover:bg-red-500 text-white text-[11px] font-semibold rounded-full shadow-lg backdrop-blur-sm transition-colors"
+                  className="px-3 py-1.5 bg-red-600/90 hover:bg-red-500 text-white text-[11px] font-semibold rounded-full shadow-lg transition-colors"
                 >
-                  Continue Watching
+                  ▶ Watch Live
                 </button>
                 <button
                   onClick={handleCloseStream}
-                  className="px-3 py-1.5 bg-gray-800/90 hover:bg-gray-700 text-gray-300 text-[11px] font-semibold rounded-full shadow-lg backdrop-blur-sm transition-colors"
+                  className="px-3 py-1.5 bg-gray-800/90 hover:bg-gray-700 text-gray-300 text-[11px] font-semibold rounded-full shadow-lg transition-colors"
                 >
-                  Close Stream
+                  ✕ Close
                 </button>
               </div>
             </div>

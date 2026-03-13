@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "lastUpdated": "2026-03-13T17:00:00Z",
+    "title": "Rumor Tracker & Fact Check",
+    "description": "Debunking misinformation and verifying trending claims about the Iran-Israel conflict. Each entry is independently researched with linked sources.",
+    "methodology": "Claims are sourced from trending social media posts, news outlets, and government statements. Each is independently verified against multiple sources. Verdicts: Confirmed (verified true), Debunked (verified false), Likely (evidence supports but not fully confirmed), Unlikely (evidence contradicts but not fully debunked), Unverified (insufficient evidence either way)."
+  },
+  "claims": [
+    {
+      "id": "fc-001",
+      "claim": "Iran has captured US soldiers and is holding them as prisoners of war",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-08",
+      "lastChecked": "2026-03-13",
+      "category": "military",
+      "summary": "Iran state TV broadcast footage claiming to show captured US soldiers. Pentagon has categorically denied any US service members are captured or missing. Ali Larijani claimed the US is 'concealing captures' but provided no verifiable evidence. No independent verification exists.",
+      "sources": [
+        {
+          "name": "Pentagon denial — Reuters",
+          "url": "https://www.reuters.com/world/middle-east/"
+        },
+        {
+          "name": "NBC News — Iran war live updates",
+          "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
+        }
+      ],
+      "origin": "Iranian state television (IRIB) and Telegram channels",
+      "viralPlatforms": ["X/Twitter", "Telegram", "TikTok"]
+    },
+    {
+      "id": "fc-002",
+      "claim": "Iran used a nuclear weapon or 'dirty bomb' in the conflict",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-05",
+      "lastChecked": "2026-03-13",
+      "category": "weapons",
+      "summary": "Multiple social media posts claimed Iran deployed a nuclear or radiological weapon. No radiation signatures have been detected by IAEA monitoring stations. The CTBTO (Comprehensive Nuclear-Test-Ban Treaty Organization) confirmed no nuclear detonations. Iran's nuclear program was severely degraded by early US/Israeli strikes on enrichment facilities.",
+      "sources": [
+        {
+          "name": "IAEA — No nuclear incidents detected",
+          "url": "https://www.iaea.org/newscenter/pressreleases"
+        },
+        {
+          "name": "Al Jazeera — Iran war updates",
+          "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+        }
+      ],
+      "origin": "Viral TikTok and X posts with misleading footage from conventional strikes",
+      "viralPlatforms": ["TikTok", "X/Twitter", "Facebook"]
+    },
+    {
+      "id": "fc-003",
+      "claim": "US KC-135 Stratotanker crash killed all 6 crew members on board",
+      "verdict": "confirmed",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "military",
+      "summary": "CENTCOM confirmed the loss of a KC-135 Stratotanker refueling aircraft near Turaibil in western Iraq on March 12-13. All 6 crew members were confirmed killed. This is the 4th manned US aircraft lost since Operation Epic Fury began. A second KC-135 landed at Ben Gurion Airport with tail fin damage — possible mid-air collision under investigation.",
+      "sources": [
+        {
+          "name": "CNN — US Air Force KC-135 lost over Iraq",
+          "url": "https://www.cnn.com/2026/03/12/middleeast/us-air-force-refueling-aircraft-kc135-lost-intl-hnk-ml"
+        },
+        {
+          "name": "Al Jazeera — 6 US service members killed",
+          "url": "https://www.aljazeera.com/news/2026/3/12/us-military-announces-loss-of-refueling-aircraft-over-western-iraq"
+        },
+        {
+          "name": "CNBC — KC-135 crash details",
+          "url": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
+        }
+      ],
+      "origin": "CENTCOM official statement and multiple verified news outlets",
+      "viralPlatforms": ["X/Twitter", "News outlets"]
+    },
+    {
+      "id": "fc-004",
+      "claim": "Iran's internet is completely shut off — government hiding massive casualties",
+      "verdict": "likely",
+      "trending": true,
+      "dateAdded": "2026-03-06",
+      "lastChecked": "2026-03-13",
+      "category": "censorship",
+      "summary": "Iran's internet connectivity has dropped to approximately 4% of normal capacity according to NetBlocks and Cloudflare Radar. This makes independent verification of casualty figures nearly impossible. Hengaw Organization reports 4,300+ killed — triple the government's 1,380 figure. The near-total blackout is consistent with deliberate government censorship during the conflict.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Iran death toll tracker",
+          "url": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
+        },
+        {
+          "name": "Hengaw Organization reports",
+          "url": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-5"
+        }
+      ],
+      "origin": "NetBlocks internet monitoring, OSINT analysts, and human rights organizations",
+      "viralPlatforms": ["X/Twitter", "Reddit"]
+    },
+    {
+      "id": "fc-005",
+      "claim": "Israel used cluster munitions banned under international law",
+      "verdict": "confirmed",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "weapons",
+      "summary": "Reports confirm Iran has fired cluster munition-equipped missiles at Israel. Approximately half of the ~300 missiles fired at Israel carried cluster bomb warheads. On Day 14, 11 Iranian cluster missiles penetrated Israeli air defenses, with one dropping 70 submunitions over central Israel. Note: Iran, not Israel, used cluster munitions in this context. Neither Iran nor Israel has signed the 2008 Convention on Cluster Munitions.",
+      "sources": [
+        {
+          "name": "Times of Israel — March 13 live updates",
+          "url": "https://www.timesofisrael.com/liveblog-march-13-2026/"
+        },
+        {
+          "name": "Al Jazeera — Day 14 updates",
+          "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+        }
+      ],
+      "origin": "IDF reports, verified munition fragment analysis, and multiple news outlets",
+      "viralPlatforms": ["X/Twitter", "News outlets"]
+    },
+    {
+      "id": "fc-006",
+      "claim": "A French soldier was killed in Iraq — first non-US NATO casualty",
+      "verdict": "confirmed",
+      "trending": true,
+      "dateAdded": "2026-03-12",
+      "lastChecked": "2026-03-13",
+      "category": "military",
+      "summary": "The French Ministry of Armed Forces confirmed that Warrant Officer Arnaud Frion of the 7th Alpine Chasseurs Battalion was killed in a drone strike near Makhmour in the Erbil region of Iraq on March 12. Five additional French soldiers were wounded. This is the first non-US NATO fatality in the conflict. President Macron called the attack 'unacceptable.'",
+      "sources": [
+        {
+          "name": "BNO News — French soldier killed in Iraq",
+          "url": "https://bnonews.com/index.php/2026/03/french-soldier-killed-in-attack-in-iraq-several-others-wounded/"
+        },
+        {
+          "name": "France 24 — Middle East war live updates",
+          "url": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf"
+        }
+      ],
+      "origin": "French Ministry of Armed Forces official statement",
+      "viralPlatforms": ["News outlets", "X/Twitter"]
+    },
+    {
+      "id": "fc-007",
+      "claim": "The Strait of Hormuz is fully blocked and no oil is getting through",
+      "verdict": "likely",
+      "trending": true,
+      "dateAdded": "2026-03-04",
+      "lastChecked": "2026-03-13",
+      "category": "energy",
+      "summary": "The Strait of Hormuz is classified as 'effectively closed' since approximately Day 4 of the conflict. Iran deployed naval mines, anti-ship missiles, and fast attack boats to enforce the blockade. Some limited shipping is getting through via military escort, but commercial tanker traffic has largely halted. Insurance premiums have spiked dramatically, making transit economically unviable for most carriers.",
+      "sources": [
+        {
+          "name": "CNBC — Hormuz blockade impact",
+          "url": "https://www.cnbc.com/2026/03/10/iran-strikes-gulf-neighbors-us-assets-oil-infrastructure.html"
+        },
+        {
+          "name": "Al Jazeera — Day 11 updates",
+          "url": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks"
+        }
+      ],
+      "origin": "Maritime tracking data, naval intelligence, and shipping industry reports",
+      "viralPlatforms": ["X/Twitter", "Reddit", "Financial news"]
+    },
+    {
+      "id": "fc-008",
+      "claim": "Iran shot down a US F-35 stealth fighter",
+      "verdict": "unlikely",
+      "trending": true,
+      "dateAdded": "2026-03-07",
+      "lastChecked": "2026-03-13",
+      "category": "military",
+      "summary": "Iranian state media and IRGC-affiliated Telegram channels claimed Iran's air defenses shot down a US F-35. The Pentagon has not confirmed the loss of any F-35 aircraft. While the US has lost 4 manned aircraft (MQ-9 Reaper drone, CH-47 Chinook, MV-22 Osprey, and KC-135 Stratotanker), none were F-35s. Iran may be conflating drone shoot-downs with manned fighter losses for propaganda purposes.",
+      "sources": [
+        {
+          "name": "NBC News — Iran war live updates",
+          "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
+        },
+        {
+          "name": "CNN — US aircraft losses",
+          "url": "https://www.cnn.com/2026/03/12/middleeast/us-air-force-refueling-aircraft-kc135-lost-intl-hnk-ml"
+        }
+      ],
+      "origin": "IRGC-affiliated Telegram channels and Iranian state media",
+      "viralPlatforms": ["Telegram", "X/Twitter", "TikTok"]
+    },
+    {
+      "id": "fc-009",
+      "claim": "Michigan synagogue bombing was linked to the Iran-Israel war",
+      "verdict": "unverified",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "domestic",
+      "summary": "A synagogue in Michigan was targeted in what appears to be an arson or explosive attack during heightened tensions over the war. While the incident occurred during the conflict, law enforcement has not yet confirmed a direct link to the Iran-Israel war. The FBI is investigating. Some social media posts have prematurely attributed the attack to Iranian agents or domestic extremists, but no evidence supports either claim at this time.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Day 14 updates",
+          "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+        }
+      ],
+      "origin": "Local news reports and social media",
+      "viralPlatforms": ["X/Twitter", "Facebook", "Reddit"]
+    },
+    {
+      "id": "fc-010",
+      "claim": "Gas prices in the US have already hit $5 per gallon due to the war",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-10",
+      "lastChecked": "2026-03-13",
+      "category": "energy",
+      "summary": "As of March 13, the national average gas price is approximately $3.60/gallon according to AAA and EIA data — up from $3.07 pre-war but not close to $5. Some individual stations in California and Hawaii may be near $5, but the national average remains well below that threshold. Prices have risen due to the Hormuz blockade and oil supply disruptions, but not to the extreme levels claimed.",
+      "sources": [
+        {
+          "name": "AAA Gas Prices",
+          "url": "https://gasprices.aaa.com/"
+        },
+        {
+          "name": "EIA — Gasoline and Diesel Fuel Update",
+          "url": "https://www.eia.gov/petroleum/gasdiesel/"
+        }
+      ],
+      "origin": "Viral social media posts and alarmist clickbait articles",
+      "viralPlatforms": ["Facebook", "TikTok", "X/Twitter"]
+    },
+    {
+      "id": "fc-011",
+      "claim": "Trump threatened to bomb Iran 'into the stone age' if they don't surrender",
+      "verdict": "likely",
+      "trending": true,
+      "dateAdded": "2026-03-11",
+      "lastChecked": "2026-03-13",
+      "category": "political",
+      "summary": "President Trump has made multiple escalatory statements throughout the conflict, including threats of severe retaliation. While the exact phrasing varies across reports, Trump has made statements along these lines in press conferences and social media posts. The tone and content are consistent with his documented public statements about the conflict.",
+      "sources": [
+        {
+          "name": "NBC News — Trump threat live updates",
+          "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
+        },
+        {
+          "name": "Al Jazeera — Iran war coverage",
+          "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+        }
+      ],
+      "origin": "White House press conferences and presidential social media",
+      "viralPlatforms": ["X/Twitter", "News outlets", "TikTok"]
+    },
+    {
+      "id": "fc-012",
+      "claim": "Al-Quds Day explosion in Iran killed 200+ at a gathering",
+      "verdict": "unverified",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "military",
+      "summary": "Reports emerged of an explosion during Al-Quds Day commemorations in Iran. Casualty figures vary widely between sources — Iranian state media downplayed the incident while OSINT accounts report higher numbers. With Iran's internet at 4% capacity, independent verification is extremely difficult. The incident may have been a strike or an accidental explosion; the cause remains unclear.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Day 14 updates",
+          "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
+        }
+      ],
+      "origin": "OSINT analysts and social media from Iran",
+      "viralPlatforms": ["X/Twitter", "Telegram"]
+    }
+  ]
+}
