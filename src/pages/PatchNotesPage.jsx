@@ -127,7 +127,7 @@ const PATCH_NOTES = [
     icon: MessageCircle,
     iconColor: 'text-gray-400',
     highlights: [
-      'Launched USII Tracker with interactive conflict map, timeline, and event database',
+      'Launched The OSS Report with interactive conflict map, timeline, and event database',
       'Built core infrastructure: 24 static JSON data files updated multiple times daily',
       'Added the Escalations page tracking major turning points in the conflict',
       'Added Follow the Money page with lobbying and funding data',

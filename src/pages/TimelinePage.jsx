@@ -361,7 +361,7 @@ function ContradictionsSection() {
           <div className="bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-2.5 mt-3">
             <p className="text-[10px] text-gray-500 italic">
               <Shield size={10} className="inline mr-1 -mt-0.5" />
-              All items above are based on publicly available statements and reporting. USII Tracker presents documented facts alongside official claims
+              All items above are based on publicly available statements and reporting. The OSS Report presents documented facts alongside official claims
               so readers can draw their own conclusions. Source links are provided for independent verification.
             </p>
           </div>
@@ -701,7 +701,7 @@ export default function TimelinePage() {
             <div className="px-6 py-4">
               <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-gray-500">USII Tracker</span>
+                  <span className="font-bold text-gray-500">The OSS Report</span>
                   <span>Iran-Israel Conflict Tracker</span>
                 </div>
                 <div className="flex items-center gap-1">
@@ -1020,7 +1020,7 @@ export default function TimelinePage() {
         <div className="px-6 py-4">
           <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
-              <span className="font-bold text-gray-500">USII Tracker</span>
+              <span className="font-bold text-gray-500">The OSS Report</span>
               <span>Iran-Israel Conflict Tracker</span>
             </div>
             <div className="flex items-center gap-1">

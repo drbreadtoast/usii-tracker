@@ -38,7 +38,7 @@ export default function TabPageLayout({
         <div className="px-4 sm:px-6 py-3 border-t border-gray-800/50">
           <div className="max-w-6xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
-              <span className="font-bold text-gray-500">USII Tracker</span>
+              <span className="font-bold text-gray-500">The OSS Report</span>
               <span className="text-blue-400 font-mono">usiitracker.com</span>
             </div>
             <div className="flex items-center gap-1">

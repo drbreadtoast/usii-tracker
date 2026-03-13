@@ -475,7 +475,7 @@ export default function FollowTheStatementsPage() {
         <div className="max-w-5xl mx-auto space-y-3">
           <div className="flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
-              <span className="font-bold text-gray-500">USII Tracker</span>
+              <span className="font-bold text-gray-500">The OSS Report</span>
               <span className="text-blue-400 font-mono text-[9px]">usiitracker.com</span>
               <span>Follow the Statements &mdash; Rhetoric &amp; Fact-Check Tracker</span>
             </div>

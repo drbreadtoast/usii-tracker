@@ -120,8 +120,9 @@ export default function Header({ metadata }) {
         <div className="flex items-center gap-2 shrink-0">
           <Link to="/" className="flex items-center gap-2">
             <h1 className="text-lg font-bold tracking-tight">
-              <span className="text-white">USII</span>
-              <span className="text-red-500"> Tracker</span>
+              <span className="text-white">The </span>
+              <span className="text-red-500">OSS</span>
+              <span className="text-white"> Report</span>
             </h1>
           </Link>
           <span className="text-[10px] text-blue-400 font-mono bg-blue-950/30 px-1.5 py-0.5 rounded border border-blue-900/50 hidden sm:inline">usiitracker.com</span>
@@ -252,7 +253,7 @@ export default function Header({ metadata }) {
             <div className="flex items-center justify-between px-4 py-3 border-b border-gray-800">
               <div className="flex items-center gap-2">
                 <LayoutGrid size={16} className="text-blue-400" />
-                <span className="text-sm font-bold text-gray-200">Explore USII Tracker</span>
+                <span className="text-sm font-bold text-gray-200">Explore The OSS Report</span>
                 <span className="text-[10px] text-gray-600">14 pages</span>
               </div>
               <button onClick={() => setExploreOpen(false)} className="text-gray-500 hover:text-white">
