@@ -21,7 +21,29 @@ export function getVerificationDescription(status) {
   }
 }
 
+// Check if a timestamp is date-only (no specific time known)
+function isDateOnly(timestamp) {
+  return timestamp && timestamp.endsWith('T00:00:00Z')
+}
+
+// Parse a date-only timestamp without timezone conversion
+function parseDateOnly(timestamp) {
+  const [datePart] = timestamp.split('T')
+  const [year, month, day] = datePart.split('-').map(Number)
+  return new Date(year, month - 1, day)
+}
+
 export function formatTimestamp(timestamp) {
+  // Date-only entries: show just the date, no relative time
+  if (isDateOnly(timestamp)) {
+    const date = parseDateOnly(timestamp)
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    })
+  }
+
   const date = new Date(timestamp)
   const now = new Date()
   const diff = now - date
@@ -42,6 +64,16 @@ export function formatTimestamp(timestamp) {
 }
 
 export function formatFullTimestamp(timestamp) {
+  // Date-only entries: show just the date, no time
+  if (isDateOnly(timestamp)) {
+    const date = parseDateOnly(timestamp)
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    })
+  }
+
   const date = new Date(timestamp)
   return date.toLocaleString('en-US', {
     month: 'short',
