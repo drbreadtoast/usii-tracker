@@ -71,8 +71,8 @@ function AlertCard({ alert }) {
   const updatedDate = new Date(alert.lastUpdated)
   const timeStr = updatedDate.toLocaleString('en-US', {
     month: 'short', day: 'numeric', year: 'numeric',
-    hour: '2-digit', minute: '2-digit', timeZone: 'UTC', hour12: true
-  }) + ' UTC'
+    hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true
+  }) + ' PT'
 
   return (
     <div className="border-b border-red-900/30 last:border-b-0">

@@ -4,6 +4,22 @@ import { FileText, ArrowLeft, Sparkles, Wrench, Layout, Zap, Globe, BarChart3, M
 
 const PATCH_NOTES = [
   {
+    version: '2.1',
+    date: 'March 12, 2026',
+    title: 'Timezone Fix, Clickable Breaking News & Time Bar Reorder',
+    icon: Wrench,
+    iconColor: 'text-green-400',
+    highlights: [
+      'All timestamps across the site now display in Pacific Time (PT) — eliminated UTC references that caused confusing date/time displays',
+      'The red "Breaking News" banner is now clickable and links directly to the 24 Hour Report page',
+      'Reordered the world clock bar to prioritize conflict zones: Jerusalem, Tehran, Washington, Beirut, Moscow, Beijing, San Francisco',
+      'Full Day 13 evening data refresh — KC-135 crash in Iraq, French soldier killed (first non-US NATO casualty), Iran\'s most intense missile barrage, Pezeshkian\'s 3 peace conditions, black rain crisis, Brent crude above $100',
+      'Added France to death toll tracker and global involvement (upgraded from observer to military_support)',
+      'Added Macron as new speaker in statements timeline',
+      'Rebranded from "USII Tracker" to "The OSS Report" across the entire site',
+    ],
+  },
+  {
     version: '2.0',
     date: 'March 12, 2026',
     title: 'Major Redesign — Quick Brief, Live Video & Global Markets',

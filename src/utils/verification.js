@@ -81,6 +81,7 @@ export function formatFullTimestamp(timestamp) {
     year: 'numeric',
     hour: '2-digit',
     minute: '2-digit',
-    timeZoneName: 'short',
-  })
+    timeZone: 'America/Los_Angeles',
+    hour12: true,
+  }) + ' PT'
 }

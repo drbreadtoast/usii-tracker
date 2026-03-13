@@ -10,7 +10,7 @@ const PRIORITY_STYLES = {
   medium: { bg: 'bg-yellow-950/30', border: 'border-yellow-800', badge: 'bg-yellow-600 text-white', label: 'MEDIUM' },
 }
 
-// Check if a timestamp is date-only (midnight UTC = no specific time known)
+// Check if a timestamp is date-only (midnight UTC = no specific time known, display in local time)
 function isDateOnly(timestamp) {
   return timestamp.endsWith('T00:00:00Z') || timestamp.endsWith('T00:00:00.000Z')
 }
@@ -30,9 +30,12 @@ function formatTimeAgo(timestamp) {
 function formatEntryTime(timestamp) {
   if (isDateOnly(timestamp)) {
     // Show just the date, no time
-    return new Date(timestamp).toLocaleDateString('en-US', {
+    // Parse date-only without timezone shift
+    const [datePart] = timestamp.split('T')
+    const [year, month, day] = datePart.split('-').map(Number)
+    const localDate = new Date(year, month - 1, day)
+    return localDate.toLocaleDateString('en-US', {
       month: 'short', day: 'numeric',
-      timeZone: 'UTC',
     })
   }
   // Show full date + time in PT
