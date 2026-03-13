@@ -10,23 +10,6 @@ const PRIORITY_STYLES = {
   medium: { bg: 'bg-yellow-950/30', border: 'border-yellow-800', badge: 'bg-yellow-600 text-white', label: 'MEDIUM' },
 }
 
-// Check if a timestamp is date-only (midnight UTC = no specific time known, display in local time)
-function isDateOnly(timestamp) {
-  return timestamp.endsWith('T00:00:00Z') || timestamp.endsWith('T00:00:00.000Z')
-}
-
-function formatTimeAgo(timestamp) {
-  if (isDateOnly(timestamp)) return null // No "ago" for date-only entries
-  const now = new Date()
-  const t = new Date(timestamp)
-  const diffMs = now - t
-  const diffMin = Math.floor(diffMs / 60000)
-  const diffHr = Math.floor(diffMin / 60)
-  if (diffMin < 60) return `${diffMin}m ago`
-  if (diffHr < 24) return `${diffHr}h ago`
-  return `${Math.floor(diffHr / 24)}d ago`
-}
-
 function formatEntryDate(timestamp) {
   const [datePart] = timestamp.split('T')
   const [year, month, day] = datePart.split('-').map(Number)
@@ -71,12 +54,19 @@ export default function BreakingNewsPage() {
     return { recentItems: recent, olderItems: older, cutoffTime: cutoff }
   }, [])
 
-  const lastUpdatedPT = (() => {
-    const [datePart] = siteMetadata.lastUpdated.split('T')
-    const [year, month, day] = datePart.split('-').map(Number)
-    return new Date(year, month - 1, day).toLocaleDateString('en-US', {
-      month: 'short', day: 'numeric', year: 'numeric',
-    })
+  const lastUpdateDate = new Date(siteMetadata.lastUpdated)
+  const lastUpdatedPT = lastUpdateDate.toLocaleString('en-US', {
+    month: 'short', day: 'numeric', year: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: true,
+    timeZone: 'America/Los_Angeles',
+  }) + ' PT'
+  const refreshAgo = (() => {
+    const diffMs = Date.now() - lastUpdateDate.getTime()
+    const diffMin = Math.floor(diffMs / 60000)
+    const diffHr = Math.floor(diffMin / 60)
+    if (diffMin < 60) return `${diffMin}m ago`
+    if (diffHr < 24) return `${diffHr}h ago`
+    return `${Math.floor(diffHr / 24)}d ago`
   })()
 
   return (
@@ -88,9 +78,12 @@ export default function BreakingNewsPage() {
             <Newspaper size={14} className="text-blue-400" />
             <h1 className="text-sm font-bold text-gray-300">24 Hour Report</h1>
           </div>
-          <div className="flex items-center gap-2 text-xs text-gray-500">
-            <Clock size={12} className="text-gray-500" />
-            <span>Last News Refresh: {lastUpdatedPT}</span>
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 bg-blue-950/40 border border-blue-800/50 rounded-lg px-3 py-1.5">
+              <Clock size={12} className="text-blue-400" />
+              <span className="text-xs font-semibold text-blue-300">Last Refresh: {lastUpdatedPT}</span>
+              <span className="text-[10px] text-blue-400/70 bg-blue-900/40 px-1.5 py-0.5 rounded font-mono">{refreshAgo}</span>
+            </div>
           </div>
         </div>
       </header>
@@ -136,11 +129,6 @@ export default function BreakingNewsPage() {
                         <Clock size={10} />
                         {formatEntryDate(item.timestamp)}
                       </span>
-                      {formatTimeAgo(item.timestamp) && (
-                        <span className="text-[10px] text-gray-600">
-                          {formatTimeAgo(item.timestamp)}
-                        </span>
-                      )}
                     </div>
                     <p className="text-sm text-gray-200 leading-relaxed">{item.text}</p>
                     {item.sources && item.sources.length > 0 && (
@@ -182,11 +170,6 @@ export default function BreakingNewsPage() {
                           <Clock size={10} />
                           {formatEntryDate(item.timestamp)}
                         </span>
-                        {formatTimeAgo(item.timestamp) && (
-                          <span className="text-[10px] text-gray-700">
-                            {formatTimeAgo(item.timestamp)}
-                          </span>
-                        )}
                       </div>
                       <p className="text-sm text-gray-400 leading-relaxed">{item.text}</p>
                       {item.sources && item.sources.length > 0 && (
