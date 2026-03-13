@@ -294,7 +294,7 @@ export default function GasPriceTracker() {
           <a href="https://gasprices.aaa.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">AAA Gas Prices <ExternalLink size={7} /></a>
           <a href="https://www.eia.gov/petroleum/gasdiesel/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">EIA <ExternalLink size={7} /></a>
         </div>
-        <span>Updated: {new Date(data.lastUpdated).toLocaleString()}</span>
+        <span>Updated: {new Date(data.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT</span>
       </div>
     </div>
   )

@@ -103,7 +103,7 @@ export default function FoodImpact() {
             <a href={data.fertilizer.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors inline-flex items-center gap-0.5">{data.fertilizer.source || 'Bloomberg'} <ExternalLink size={7} /></a>
           )}
         </div>
-        <span>Updated: {new Date(data.lastUpdated).toLocaleString()}</span>
+        <span>Updated: {new Date(data.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT</span>
       </div>
     </div>
   )
