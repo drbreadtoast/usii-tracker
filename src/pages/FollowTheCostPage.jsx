@@ -451,7 +451,7 @@ export default function FollowTheCostPage() {
                 </p>
               </div>
               <div className="text-[10px] text-gray-600 mt-2">
-                Last updated: {costData.metadata.lastUpdated} &middot; Day {costData.metadata.daysOfConflict} of conflict
+                Last updated: {new Date(costData.metadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT &middot; Day {costData.metadata.daysOfConflict} of conflict
               </div>
             </div>
           </div>
