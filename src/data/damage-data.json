@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-11T16:00:00Z",
+    "lastUpdated": "2026-03-12T23:49:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 65,
-    "confirmed": 49,
+    "totalSites": 68,
+    "confirmed": 52,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 12,
@@ -1187,6 +1187,45 @@
       "description": "Two foreign oil tankers attacked in Iraqi territorial waters, causing Iraq to shut down all oil port operations.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
+    },
+    {
+      "id": "dmg-062",
+      "name": "Beirut Corniche Seafront",
+      "country": "Lebanon",
+      "lat": 33.897,
+      "lng": 35.478,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-12",
+      "description": "Israeli overnight strikes hit Beirut's Corniche \u2014 a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
+      "source": "ABC News",
+      "sourceUrl": "https://abcnews.com/International/strikes-israel-hezbollah-ramp-evacuation-notice-issued-beirut/story?id=130981948"
+    },
+    {
+      "id": "dmg-063",
+      "name": "Al-Nabi Shayth, Beqaa Valley",
+      "country": "Lebanon",
+      "lat": 33.85,
+      "lng": 36.08,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-12",
+      "description": "Israeli airstrike on Hezbollah positions in Beqaa Valley. 2 Hezbollah members killed, 6 injured.",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/03/11/nx-s1-5745006/another-front-in-the-war-with-iran-the-israel-lebanon-border"
+    },
+    {
+      "id": "dmg-064",
+      "name": "Tehran (wide-scale wave)",
+      "country": "Iran",
+      "lat": 35.6892,
+      "lng": 51.389,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-12",
+      "description": "New wave of Israeli strikes across Tehran. Part of 6,000+ total CENTCOM targets struck since Feb 28. Multiple explosions heard across the city.",
+      "source": "PBS",
+      "sourceUrl": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T13:25:00Z",
+  "lastUpdated": "2026-03-12T23:49:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -122,67 +122,68 @@
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
-            "military": 535,
-            "civilian": 845,
-            "total": 1380,
-            "source": "Iranian deputy health minister (as of March 11). Toll includes 40+ killed in eastern Tehran residential buildings, 5 in Arak. Minab school toll 180. Iran's 37th wave launched with super-heavy Khoramshahr missiles.",
+            "military": 800,
+            "civilian": 1348,
+            "total": 2148,
+            "source": "Iranian Health Ministry / Hengaw Organization",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
           },
           "estimated": {
-            "military": 2800,
-            "civilian": 1500,
+            "military": 3910,
+            "civilian": 390,
             "total": 4300,
-            "source": "Hengaw Organization (Kurdish human rights group)",
-            "sourceUrl": "https://hengaw.net",
-            "note": "Hengaw reports 4,300+ killed as of March 11 — triple the government's 1,380 figure. HRANA estimates 7,000+. Includes 180 at Minab girls' school, 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% — independent verification nearly impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
+            "source": "Hengaw Organization for Human Rights",
+            "sourceUrl": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-5",
+            "note": "Hengaw reports 4,300+ killed as of March 11 \u2014 triple the government's 1,380 figure. HRANA estimates 7,000+. Includes 180 at Minab girls' school, 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% \u2014 independent verification nearly impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
           },
           "rumored": {
-            "total": 8000,
+            "total": 5000,
             "military": 5000,
             "civilian": 3000,
-            "note": "Social media reports suggest far higher tolls, especially from strikes on military bases where access is restricted. Human rights orgs estimate 2,400+ total killed.",
+            "note": "200+ children among dead per WHO. Independent estimates suggest higher toll. ~20,000 civilian buildings, 77 healthcare facilities, 65 schools damaged.",
             "socialSources": [
               {
                 "platform": "X",
                 "handle": "@IranFrontline",
-                "claim": "Eyewitness videos from Kerman show at least 12 buildings destroyed — local hospital overwhelmed with 400+ casualties in one night",
+                "claim": "Eyewitness videos from Kerman show at least 12 buildings destroyed \u2014 local hospital overwhelmed with 400+ casualties in one night",
                 "url": "https://x.com/IranFrontline",
                 "date": "2026-03-06"
               },
               {
                 "platform": "X",
                 "handle": "@IntelCrab",
-                "claim": "Satellite imagery of Bandar Abbas naval base shows 8 destroyed structures — Iran only confirmed 15 KIA there. Real toll likely 200+",
+                "claim": "Satellite imagery of Bandar Abbas naval base shows 8 destroyed structures \u2014 Iran only confirmed 15 KIA there. Real toll likely 200+",
                 "url": "https://x.com/IntelCrab",
                 "date": "2026-03-07"
               },
               {
                 "platform": "Telegram",
                 "handle": "@IranNewsFarsi",
-                "claim": "Leaked hospital records from Isfahan show 1,200 admitted in 48 hours — officials claim only 89 casualties in the city",
+                "claim": "Leaked hospital records from Isfahan show 1,200 admitted in 48 hours \u2014 officials claim only 89 casualties in the city",
                 "url": "https://t.me/IranNewsFarsi",
                 "date": "2026-03-07"
               },
               {
                 "platform": "X",
                 "handle": "@sentdefender",
-                "claim": "IRINS Dena sinking alone could account for 100+ dead — only 79 of 180 crew recovered. Iran lists them as 'missing'",
+                "claim": "IRINS Dena sinking alone could account for 100+ dead \u2014 only 79 of 180 crew recovered. Iran lists them as 'missing'",
                 "url": "https://x.com/sentdefender",
                 "date": "2026-03-05"
               }
             ]
           },
-          "injured": 12000,
-          "missing": 101
+          "injured": 17000,
+          "missing": 101,
+          "displaced": 3200000
         },
         {
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
-            "military": 2,
+            "military": 4,
             "civilian": 11,
-            "total": 13,
-            "source": "IDF / Times of Israel",
+            "total": 15,
+            "source": "IDF / Israeli media",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
           },
           "estimated": {
@@ -191,7 +192,7 @@
             "total": 17,
             "source": "Israeli media estimates",
             "sourceUrl": "https://www.timesofisrael.com/topic/iran-war/",
-            "note": "9 confirmed killed in Beit Shemesh missile strike. 2 killed by cluster munition strike in central Israel. Iran has fired ~300 missiles at Israel — about half with cluster bomb warheads (banned under 2008 Convention). 186 total attack waves against Israel since war began."
+            "note": "9 confirmed killed in Beit Shemesh missile strike. 2 killed by cluster munition strike in central Israel. Iran has fired ~300 missiles at Israel \u2014 about half with cluster bomb warheads (banned under 2008 Convention). 186 total attack waves against Israel since war began."
           },
           "rumored": {
             "total": 45,
@@ -202,26 +203,26 @@
               {
                 "platform": "X",
                 "handle": "@AuroraIntel",
-                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media — possible casualties suppressed by censorship",
+                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media \u2014 possible casualties suppressed by censorship",
                 "url": "https://x.com/AuroraIntel",
                 "date": "2026-03-08"
               },
               {
                 "platform": "Telegram",
                 "handle": "@IranPressTV",
-                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos — IDF only confirming 12",
+                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos \u2014 IDF only confirming 12",
                 "url": "https://t.me/IranPressTV",
                 "date": "2026-03-07"
               }
             ]
           },
-          "injured": 2142
+          "injured": 2000
         },
         {
           "name": "United States",
           "flag": "\ud83c\uddfa\ud83c\uddf8",
           "confirmed": {
-            "military": 8,
+            "military": 7,
             "civilian": 0,
             "total": 8,
             "source": "CENTCOM",
@@ -244,7 +245,7 @@
               {
                 "platform": "X",
                 "handle": "@MiddleEastEye",
-                "claim": "Iran state TV broadcast what it says are captured US soldiers — Pentagon denies. Ali Larijani says US is 'concealing captures'",
+                "claim": "Iran state TV broadcast what it says are captured US soldiers \u2014 Pentagon denies. Ali Larijani says US is 'concealing captures'",
                 "url": "https://x.com/MiddleEastEye",
                 "date": "2026-03-08"
               },
@@ -263,9 +264,9 @@
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 91,
-            "civilian": 543,
-            "total": 634,
+            "military": 98,
+            "civilian": 589,
+            "total": 687,
             "source": "Lebanese Health Ministry (as of March 12). Includes 91 children, 15 healthcare workers. Aisha Bakkar apartment strike + Ramlet al-Baida seafront strike (7 killed).",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/11/un-warns-of-widening-crisis-as-israeli-attacks-displace-750000-in-lebanon"
           },
@@ -277,8 +278,8 @@
             "sourceUrl": "https://www.middleeastmonitor.com/20260311-death-toll-from-israeli-bombardment-of-lebanon-rises-to-570/",
             "note": "Hezbollah intel chief Hussein Makled confirmed killed. 816,000+ registered displaced across Lebanon (126K in collective shelters). IDF conducting ground operations in border areas. 15 healthcare workers killed. Israel struck central Beirut apartment (Aisha Bakkar) and seafront (Ramlet al-Baida). IDF preparing ground invasion into Lebanon."
           },
-          "injured": 1586,
-          "displaced": 816000
+          "injured": 2100,
+          "displaced": 800000
         },
         {
           "name": "Gulf States (UAE, Kuwait, Bahrain, etc.)",
