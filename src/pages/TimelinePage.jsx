@@ -394,11 +394,6 @@ function TimelineEntry({ entry, defaultExpanded = false }) {
         onClick={() => setExpanded(!expanded)}
         className="w-full text-left px-4 py-3 flex items-start gap-3"
       >
-        {/* Time */}
-        <div className="shrink-0 text-right w-12 pt-0.5">
-          <span className="text-xs font-mono text-gray-500">{entry.time}</span>
-        </div>
-
         {/* Actor badge */}
         <span
           className="shrink-0 inline-flex items-center justify-center px-1.5 py-0.5 rounded text-[10px] font-bold mt-0.5"
@@ -934,9 +929,9 @@ export default function TimelinePage() {
                         key={entry.id}
                         className="text-[9px] px-1.5 py-0.5 rounded cursor-default"
                         style={{ backgroundColor: `${actor.color}15`, color: actor.color, border: `1px solid ${actor.color}25` }}
-                        title={`${entry.time} — ${entry.title}`}
+                        title={entry.title}
                       >
-                        {entry.time} {actor.short}
+                        {actor.short}
                       </span>
                     )
                   })}
@@ -963,7 +958,6 @@ export default function TimelinePage() {
                       return (
                         <div key={entry.id} className="bg-gray-900/50 border border-gray-800 rounded p-2">
                           <div className="flex items-center gap-2 mb-1">
-                            <span className="text-[9px] font-mono text-gray-500">{entry.time}</span>
                             <span
                               className="text-[9px] px-1.5 py-0.5 rounded-full font-semibold"
                               style={{ backgroundColor: `${actor.color}20`, color: actor.color }}

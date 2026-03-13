@@ -1,7 +1,7 @@
 import { MapPin, Clock, ExternalLink, Star, ChevronDown, ChevronUp } from 'lucide-react'
 import { useState } from 'react'
 import { EVENT_COLORS, VERIFICATION_COLORS, COUNTRY_COLORS } from '../../utils/colors'
-import { formatFullTimestamp, getVerificationDescription } from '../../utils/verification'
+import { formatDateOnly, getVerificationDescription } from '../../utils/verification'
 
 export default function EventCard({ event, onLocate }) {
   const [isExpanded, setIsExpanded] = useState(false)
@@ -67,7 +67,7 @@ export default function EventCard({ event, onLocate }) {
               {/* Time */}
               <span className="text-[10px] text-gray-500 flex items-center gap-0.5 ml-auto">
                 <Clock size={10} />
-                {formatFullTimestamp(event.timestamp)}
+                {formatDateOnly(event.timestamp)}
               </span>
             </div>
           </div>

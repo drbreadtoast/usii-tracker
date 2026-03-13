@@ -63,6 +63,18 @@ export function formatTimestamp(timestamp) {
   })
 }
 
+export function formatDateOnly(timestamp) {
+  if (!timestamp) return ''
+  const [datePart] = timestamp.split('T')
+  const [year, month, day] = datePart.split('-').map(Number)
+  const date = new Date(year, month - 1, day)
+  return date.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  })
+}
+
 export function formatFullTimestamp(timestamp) {
   // Date-only entries: show just the date, no time
   if (isDateOnly(timestamp)) {
