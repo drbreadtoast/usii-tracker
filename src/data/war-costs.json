@@ -43,7 +43,7 @@
   "countryCosts": {
     "us": {
       "name": "United States",
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "🇺🇸",
       "directMilitaryCosts": {
         "total": 20220000000,
         "currency": "USD",
@@ -110,12 +110,14 @@
           }
         }
       },
-      "dailyBurnRate": 2600000000,
-      "dailyBurnRateNote": "Estimated daily cost of sustained combat operations including all deployed forces, active sorties, naval patrols, and logistical support. Center for American Progress estimated $5 billion through March 2 alone. CNN reports $890M/day in direct military costs."
+      "dailyBurnRate": "$1.3-1.6 billion/day",
+      "dailyBurnRateNote": "Estimated daily cost of sustained combat operations including all deployed forces, active sorties, naval patrols, and logistical support. Center for American Progress estimated $5 billion through March 2 alone. CNN reports $890M/day in direct military costs.",
+      "totalEstimate": "$18-22 billion",
+      "details": "Pentagon told Senate first 6 days cost $11.3B. Does not include munitions replacement or pre-war buildup. 2,200 Marines deploying adds significant logistics cost. Russia sanctions waiver signals economic desperation."
     },
     "israel": {
       "name": "Israel",
-      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "flag": "🇮🇱",
       "directMilitaryCosts": {
         "total": 6780000000,
         "currency": "USD",
@@ -187,7 +189,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "flag": "🇮🇷",
       "directMilitaryCosts": {
         "total": 3560000000,
         "currency": "USD",
@@ -553,7 +555,7 @@
       "currentWarRiskPremium": 5.0,
       "premiumUnit": "percentage of hull value",
       "percentageIncrease": 9900,
-      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20\u00b0N)",
+      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20°N)",
       "estimatedAdditionalCostPerTransit": 2500000,
       "description": "War risk insurance premiums for vessels transiting the Persian Gulf have surged from 0.05% to 5% of hull value. A typical VLCC (Very Large Crude Carrier) valued at $120 million now faces $6 million in war risk premiums per transit compared to $60,000 pre-conflict. Many underwriters have suspended coverage entirely.",
       "source": "Lloyd's Market Association Joint War Committee",
@@ -630,5 +632,5 @@
     "lastCalculated": "2026-03-13T17:00:00Z"
   },
   "daysOfConflict": 14,
-  "lastUpdated": "2026-03-13T17:00:00Z"
+  "lastUpdated": "2026-03-14T00:45:00Z"
 }

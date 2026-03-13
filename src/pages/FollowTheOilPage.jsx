@@ -109,8 +109,14 @@ function OilPriceBanner() {
           <span className="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Live Prices</span>
         </div>
         <div className="flex items-center flex-1 divide-x divide-gray-800">
-          <LivePriceWidget symbol="TVC:USOIL" title="WTI Crude" />
-          <LivePriceWidget symbol="TVC:UKOIL" title="Brent Crude" />
+          <div className="flex items-center flex-1 min-w-0">
+            <span className="text-[9px] font-bold text-amber-400 bg-amber-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">WTI</span>
+            <LivePriceWidget symbol="TVC:USOIL" title="WTI Crude" />
+          </div>
+          <div className="flex items-center flex-1 min-w-0">
+            <span className="text-[9px] font-bold text-orange-400 bg-orange-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">Brent</span>
+            <LivePriceWidget symbol="TVC:UKOIL" title="Brent Crude" />
+          </div>
         </div>
       </div>
     </div>
@@ -236,7 +242,6 @@ function OilIntroBanner({ metadata }) {
             </div>
           </div>
           <div className="flex items-center gap-2 shrink-0">
-            <TimestampBadge isoString={metadata.lastUpdated} label="Updated" />
             {isOpen ? <ChevronUp size={16} className="text-gray-500" /> : <ChevronDown size={16} className="text-gray-500" />}
           </div>
         </button>

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-13T17:00:00Z",
+    "lastUpdated": "2026-03-14T00:45:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -75,24 +75,24 @@
       "date": "2026-03-13",
       "label": "Active Conflict — Day 14",
       "wti": {
-        "price": 95.73,
+        "price": 98.71,
         "unit": "$/barrel",
-        "change": "+26.8%",
-        "changeDollars": "+$20.23",
-        "source": "NYMEX front-month — WTI holding ~$95-96. Treasury waived Russia oil sanctions for 1 month to ease supply pressure. Hormuz blockade persists. IEA 400M barrel reserve release ongoing.",
-        "sourceUrl": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
+        "change": "+30.7%",
+        "changeDollars": "+$23.21",
+        "source": "NYMEX front-month — WTI closes at $98.71, up 3.11% on day. 2,200 Marines deployed. Russia sanctions waived 30 days. IEA 400M barrel release failing to contain surge.",
+        "sourceUrl": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html"
       },
       "brent": {
-        "price": 100.46,
+        "price": 103.14,
         "unit": "$/barrel",
-        "change": "+25.9%",
-        "changeDollars": "+$20.66",
-        "source": "ICE front-month — Brent holding ~$100/barrel. Treasury Russia sanctions waiver adds marginal supply. IEA 400M barrel reserve release ongoing across 32 nations. Rystad warns $135 if conflict persists 4 months.",
-        "sourceUrl": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html",
+        "change": "+29.2%",
+        "changeDollars": "+$23.34",
+        "source": "ICE front-month — Brent closes at $103.14, second consecutive close above $100. Up ~10% for the week. IEA 400M barrel release and Russia sanctions waiver failing to contain surge.",
+        "sourceUrl": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
         "intradayHigh": 119.5,
         "sessionLow": 87.8
       },
-      "changePercent": "+26.4%"
+      "changePercent": "+30.0%"
     },
     "priceHistory": [
       {
@@ -214,6 +214,13 @@
         "wti": 95.73,
         "brent": 100.46,
         "label": "Brent past $100 — IEA 400M barrel release (32 countries) fails to contain surge",
+        "isEvent": true
+      },
+      {
+        "date": "2026-03-13",
+        "wti": 98.71,
+        "brent": 103.14,
+        "label": "Brent $103 — Marines deployed, Russia sanctions waived, highest volume strikes",
         "isEvent": true
       }
     ],

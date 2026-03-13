@@ -63,9 +63,10 @@ const CATEGORY_LABELS = {
 }
 
 function formatDate(dateStr) {
-  const [year, month, day] = dateStr.split('-').map(Number)
-  return new Date(year, month - 1, day).toLocaleDateString('en-US', {
+  const d = new Date(dateStr)
+  return d.toLocaleDateString('en-US', {
     month: 'short', day: 'numeric', year: 'numeric',
+    timeZone: 'America/Los_Angeles',
   })
 }
 
@@ -232,6 +233,7 @@ export default function FactCheckPage() {
           <div className="flex items-center gap-2">
             <ShieldCheck size={14} className="text-blue-400" />
             <h1 className="text-sm font-bold text-gray-300">Rumor Tracker & Fact Check</h1>
+            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-purple-600 text-white uppercase tracking-wider">Beta</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-1.5 bg-blue-950/40 border border-blue-800/50 rounded-lg px-3 py-1.5">

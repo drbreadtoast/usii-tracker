@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T17:00:00Z",
+  "lastUpdated": "2026-03-14T00:45:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -7,7 +7,7 @@
       "parties": [
         {
           "name": "Iran",
-          "flag": "\ud83c\uddee\ud83c\uddf7",
+          "flag": "🇮🇷",
           "confirmed": {
             "military": 800,
             "civilian": 135,
@@ -27,7 +27,7 @@
         },
         {
           "name": "Israel",
-          "flag": "\ud83c\uddee\ud83c\uddf1",
+          "flag": "🇮🇱",
           "confirmed": {
             "military": 12,
             "civilian": 16,
@@ -53,7 +53,7 @@
       "parties": [
         {
           "name": "Iranian Civilians",
-          "flag": "\ud83c\uddee\ud83c\uddf7",
+          "flag": "🇮🇷",
           "confirmed": {
             "military": 0,
             "civilian": 3117,
@@ -75,7 +75,7 @@
         },
         {
           "name": "Lebanon",
-          "flag": "\ud83c\uddf1\ud83c\udde7",
+          "flag": "🇱🇧",
           "confirmed": {
             "military": 0,
             "civilian": 217,
@@ -95,7 +95,7 @@
         },
         {
           "name": "Gulf States",
-          "flag": "\ud83c\uddfa\ud83c\udde6",
+          "flag": "🇺🇦",
           "confirmed": {
             "military": 0,
             "civilian": 11,
@@ -121,12 +121,12 @@
       "parties": [
         {
           "name": "Iran",
-          "flag": "\ud83c\uddee\ud83c\uddf7",
+          "flag": "🇮🇷",
           "confirmed": {
             "military": 800,
             "civilian": 1348,
             "total": 2148,
-            "source": "Iranian Health Ministry / Hengaw Organization",
+            "source": "Iranian Health Ministry (as of March 13 — 1,444 confirmed + additional reported)",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
           },
           "estimated": {
@@ -135,7 +135,7 @@
             "total": 4300,
             "source": "Hengaw Organization for Human Rights",
             "sourceUrl": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-5",
-            "note": "Hengaw reports 4,300+ killed as of March 11 \u2014 triple the government's 1,380 figure. HRANA estimates 7,000+. Includes 180 at Minab girls' school, 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% \u2014 independent verification nearly impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
+            "note": "Hengaw reports 4,300+ killed as of March 11 — triple the government's 1,380 figure. HRANA estimates 7,000+. Includes 180 at Minab girls' school, 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% — independent verification nearly impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
           },
           "rumored": {
             "total": 5000,
@@ -146,28 +146,28 @@
               {
                 "platform": "X",
                 "handle": "@IranFrontline",
-                "claim": "Eyewitness videos from Kerman show at least 12 buildings destroyed \u2014 local hospital overwhelmed with 400+ casualties in one night",
+                "claim": "Eyewitness videos from Kerman show at least 12 buildings destroyed — local hospital overwhelmed with 400+ casualties in one night",
                 "url": "https://x.com/IranFrontline",
                 "date": "2026-03-06"
               },
               {
                 "platform": "X",
                 "handle": "@IntelCrab",
-                "claim": "Satellite imagery of Bandar Abbas naval base shows 8 destroyed structures \u2014 Iran only confirmed 15 KIA there. Real toll likely 200+",
+                "claim": "Satellite imagery of Bandar Abbas naval base shows 8 destroyed structures — Iran only confirmed 15 KIA there. Real toll likely 200+",
                 "url": "https://x.com/IntelCrab",
                 "date": "2026-03-07"
               },
               {
                 "platform": "Telegram",
                 "handle": "@IranNewsFarsi",
-                "claim": "Leaked hospital records from Isfahan show 1,200 admitted in 48 hours \u2014 officials claim only 89 casualties in the city",
+                "claim": "Leaked hospital records from Isfahan show 1,200 admitted in 48 hours — officials claim only 89 casualties in the city",
                 "url": "https://t.me/IranNewsFarsi",
                 "date": "2026-03-07"
               },
               {
                 "platform": "X",
                 "handle": "@sentdefender",
-                "claim": "IRINS Dena sinking alone could account for 100+ dead \u2014 only 79 of 180 crew recovered. Iran lists them as 'missing'",
+                "claim": "IRINS Dena sinking alone could account for 100+ dead — only 79 of 180 crew recovered. Iran lists them as 'missing'",
                 "url": "https://x.com/sentdefender",
                 "date": "2026-03-05"
               }
@@ -182,12 +182,12 @@
         },
         {
           "name": "Israel",
-          "flag": "\ud83c\uddee\ud83c\uddf1",
+          "flag": "🇮🇱",
           "confirmed": {
             "military": 4,
-            "civilian": 14,
-            "total": 18,
-            "source": "IDF / Israeli media (as of March 13)",
+            "civilian": 15,
+            "total": 19,
+            "source": "IDF / Israeli media (as of March 13). Includes 2 killed by cluster munitions central Israel Day 14.",
             "sourceUrl": "https://www.timesofisrael.com/liveblog-march-13-2026/"
           },
           "estimated": {
@@ -196,7 +196,7 @@
             "total": 20,
             "source": "Israeli media estimates",
             "sourceUrl": "https://www.timesofisrael.com/topic/iran-war/",
-            "note": "9 confirmed killed in Beit Shemesh missile strike. 2 killed by cluster munition strike in central Israel (Day 14). 1 teen girl killed running to shelter during Zarzir missile attack (Day 14). 50+ wounded in Zarzir strike. 11 Iranian cluster missiles penetrated air defenses — one dropped 70 bombs over central Israel. Iran has fired ~300 missiles at Israel — about half with cluster bomb warheads (banned under 2008 Convention)."
+            "note": "15 civilians killed total (Alma Center). 2 killed by cluster munition strike in central Israel (Day 14). 9 killed in Beit Shemesh (Day 2). ~2,975 injured. 213 evacuated to hospitals in past 24 hours. 11 Iranian cluster missiles penetrated air defenses."
           },
           "rumored": {
             "total": 45,
@@ -207,30 +207,30 @@
               {
                 "platform": "X",
                 "handle": "@AuroraIntel",
-                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media \u2014 possible casualties suppressed by censorship",
+                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media — possible casualties suppressed by censorship",
                 "url": "https://x.com/AuroraIntel",
                 "date": "2026-03-08"
               },
               {
                 "platform": "Telegram",
                 "handle": "@IranPressTV",
-                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos \u2014 IDF only confirming 12",
+                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos — IDF only confirming 12",
                 "url": "https://t.me/IranPressTV",
                 "date": "2026-03-07"
               }
             ]
           },
-          "injured": 2050,
+          "injured": 2975,
           "injuredNote": "Includes 50+ wounded in Zarzir missile strike. 11 Iranian cluster missiles penetrated air defenses."
         },
         {
           "name": "United States",
-          "flag": "\ud83c\uddfa\ud83c\uddf8",
+          "flag": "🇺🇸",
           "confirmed": {
             "military": 13,
             "civilian": 0,
             "total": 13,
-            "source": "CENTCOM (as of March 13)",
+            "source": "CENTCOM (as of March 13 — includes all 6 KC-135 crew)",
             "sourceUrl": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
           },
           "estimated": {
@@ -239,7 +239,7 @@
             "total": 13,
             "source": "CENTCOM confirmed all KC-135 crew dead",
             "sourceUrl": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302",
-            "note": "13 confirmed KIA including Sgt. Benjamin Pennington, 26, of Kentucky and all 6 KC-135 crew killed in crash near Turaibil, Iraq (Mar 12-13). Possible mid-air collision with second KC-135 which landed at Ben Gurion with tail fin damage. ~140 wounded (108 returned to duty, 8 severely injured). 4th manned US aircraft lost this month."
+            "note": "13 confirmed KIA. Includes Sgt. Benjamin Pennington and all 6 KC-135 crew killed in crash near Turaibil, Iraq (Mar 12-13). ~140 wounded. 4th manned US aircraft lost."
           },
           "rumored": {
             "total": 25,
@@ -250,7 +250,7 @@
               {
                 "platform": "X",
                 "handle": "@MiddleEastEye",
-                "claim": "Iran state TV broadcast what it says are captured US soldiers \u2014 Pentagon denies. Ali Larijani says US is 'concealing captures'",
+                "claim": "Iran state TV broadcast what it says are captured US soldiers — Pentagon denies. Ali Larijani says US is 'concealing captures'",
                 "url": "https://x.com/MiddleEastEye",
                 "date": "2026-03-08"
               },
@@ -268,30 +268,30 @@
         },
         {
           "name": "Lebanon",
-          "flag": "\ud83c\uddf1\ud83c\udde7",
+          "flag": "🇱🇧",
           "confirmed": {
             "military": 100,
-            "civilian": 600,
-            "total": 700,
-            "source": "Lebanese Health Ministry (as of March 13). Includes 91+ children, 15+ healthcare workers. Israel defense chief says will hold more Lebanese land until Hezbollah disarms.",
+            "civilian": 773,
+            "total": 773,
+            "source": "Lebanese Health Ministry (as of March 13)",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks"
           },
           "estimated": {
             "military": 160,
-            "civilian": 570,
-            "total": 730,
+            "civilian": 790,
+            "total": 850,
             "source": "Lebanese media and Hezbollah casualty estimates",
             "sourceUrl": "https://www.middleeastmonitor.com/20260311-death-toll-from-israeli-bombardment-of-lebanon-rises-to-570/",
-            "note": "Hezbollah intel chief Hussein Makled confirmed killed. 816,000+ registered displaced across Lebanon (126K in collective shelters). IDF conducting ground operations in border areas. 15+ healthcare workers killed. Israel defense chief states will hold more Lebanese land until Hezbollah disarms."
+            "note": "Includes Hezbollah fighters. 800,000+ displaced. Israel destroyed Zrarieh Bridge, first acknowledged civilian infrastructure strike."
           },
-          "injured": 2200,
+          "injured": 1933,
           "injuredNote": "15+ healthcare workers killed. IDF ground operations in border areas ongoing.",
           "displaced": 800000,
-          "displacedNote": "816,000+ registered displaced. 126K in collective shelters. Israel defense chief says will hold more Lebanese land until Hezbollah disarms."
+          "displacedNote": "800,000+ displaced across Lebanon. Israel dropped leaflets warning of Gaza-scale devastation."
         },
         {
           "name": "Gulf States (UAE, Kuwait, Bahrain, etc.)",
-          "flag": "\ud83c\udf10",
+          "flag": "🌐",
           "confirmed": {
             "military": 0,
             "civilian": 23,
@@ -312,7 +312,7 @@
         },
         {
           "name": "France",
-          "flag": "\ud83c\uddeb\ud83c\uddf7",
+          "flag": "🇫🇷",
           "confirmed": {
             "military": 1,
             "civilian": 0,
@@ -326,9 +326,9 @@
             "total": 1,
             "source": "French government confirmed single fatality",
             "sourceUrl": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf",
-            "note": "WO Arnaud Frion killed at Peshmerga/coalition base near Makhmour in Erbil region. 5 additional French soldiers wounded. Macron called attack 'unacceptable.' First NATO casualty outside the US."
+            "note": "WO Arnaud Frion killed at French base near Makhmour, Iraq. 6 French soldiers total wounded. Macron condemned attack."
           },
-          "injured": 5
+          "injured": 6
         }
       ]
     }
