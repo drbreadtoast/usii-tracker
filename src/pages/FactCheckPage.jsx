@@ -176,21 +176,17 @@ export default function FactCheckPage() {
   const [activeFilter, setActiveFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
 
-  const { recentClaims, olderClaims } = useMemo(() => {
+  const recentClaims = useMemo(() => {
     const lastUpdate = new Date(siteMetadata.lastUpdated)
     const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
 
-    const sorted = [...factCheckData.claims].sort((a, b) =>
-      new Date(b.lastChecked) - new Date(a.lastChecked)
-    )
-
-    const recent = sorted.filter(c => new Date(c.lastChecked) >= cutoff)
-    const older = sorted.filter(c => new Date(c.lastChecked) < cutoff)
-    return { recentClaims: recent, olderClaims: older }
+    return [...factCheckData.claims]
+      .filter(c => new Date(c.lastChecked) >= cutoff)
+      .sort((a, b) => new Date(b.lastChecked) - new Date(a.lastChecked))
   }, [])
 
-  const filterClaims = (claims) => {
-    let filtered = [...claims]
+  const filteredClaims = useMemo(() => {
+    let filtered = [...recentClaims]
     if (activeFilter !== 'all') {
       filtered = filtered.filter(c => c.verdict === activeFilter)
     }
@@ -203,18 +199,15 @@ export default function FactCheckPage() {
       )
     }
     return filtered
-  }
-
-  const filteredRecent = useMemo(() => filterClaims(recentClaims), [activeFilter, searchQuery, recentClaims])
-  const filteredOlder = useMemo(() => filterClaims(olderClaims), [activeFilter, searchQuery, olderClaims])
+  }, [activeFilter, searchQuery, recentClaims])
 
   const counts = useMemo(() => {
-    const c = { all: factCheckData.claims.length }
+    const c = { all: recentClaims.length }
     Object.keys(VERDICT_CONFIG).forEach(v => {
-      c[v] = factCheckData.claims.filter(cl => cl.verdict === v).length
+      c[v] = recentClaims.filter(cl => cl.verdict === v).length
     })
     return c
-  }, [])
+  }, [recentClaims])
 
   const lastUpdateDate = new Date(siteMetadata.lastUpdated)
   const lastUpdatedPT = lastUpdateDate.toLocaleString('en-US', {
@@ -262,7 +255,7 @@ export default function FactCheckPage() {
                 and verify them against multiple credible sources. Every verdict includes clickable source links so you can verify for yourself.
               </p>
               <p className="text-[10px] text-gray-600 mt-1">
-                Showing {recentClaims.length} claims checked in the last 24 hours{olderClaims.length > 0 ? `, plus ${olderClaims.length} older checks` : ''}.
+                Showing {recentClaims.length} claims checked in the last 24 hours.
               </p>
               <div className="bg-amber-950/20 border border-amber-900/30 rounded-lg px-3 py-2 mt-2">
                 <p className="text-[10px] text-amber-500/80 leading-relaxed">
@@ -315,46 +308,20 @@ export default function FactCheckPage() {
         </div>
       </div>
 
-      {/* Claims list */}
+      {/* Claims list — only last 24 hours */}
       <div className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-4 space-y-3">
-        {filteredRecent.length === 0 && filteredOlder.length === 0 ? (
+        {filteredClaims.length === 0 ? (
           <div className="text-center py-16 text-gray-600">
             <ShieldQuestion size={32} className="mx-auto mb-3 opacity-50" />
-            <p className="text-sm">No claims match your filters.</p>
+            <p className="text-sm">{recentClaims.length === 0 ? 'No claims checked in the past 24 hours.' : 'No claims match your filters.'}</p>
+            {recentClaims.length === 0 && (
+              <p className="text-xs mt-2">Check back after the next data update.</p>
+            )}
           </div>
         ) : (
-          <>
-            {/* Recent 24hr claims */}
-            {filteredRecent.length === 0 ? (
-              <div className="text-center py-8 text-gray-600">
-                <ShieldQuestion size={24} className="mx-auto mb-2 opacity-50" />
-                <p className="text-xs">No new claims checked in the past 24 hours.</p>
-              </div>
-            ) : (
-              filteredRecent.map(claim => (
-                <ClaimCard key={claim.id} claim={claim} />
-              ))
-            )}
-
-            {/* Older claims */}
-            {filteredOlder.length > 0 && (
-              <>
-                <div className="flex items-center gap-3 pt-6 pb-2">
-                  <div className="flex-1 h-px bg-gray-800" />
-                  <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Older Fact Checks</span>
-                  <div className="flex-1 h-px bg-gray-800" />
-                </div>
-                <p className="text-[10px] text-gray-600 text-center -mt-2 mb-4">
-                  Previously checked claims beyond the 24-hour window.
-                </p>
-                {filteredOlder.map(claim => (
-                  <div key={claim.id} className="opacity-60">
-                    <ClaimCard claim={claim} />
-                  </div>
-                ))}
-              </>
-            )}
-          </>
+          filteredClaims.map(claim => (
+            <ClaimCard key={claim.id} claim={claim} />
+          ))
         )}
       </div>
 

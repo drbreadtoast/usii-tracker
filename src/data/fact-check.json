@@ -369,6 +369,142 @@
       ],
       "origin": "Trump press conference and social media statements",
       "viralPlatforms": ["News outlets", "X/Twitter", "TikTok"]
+    },
+    {
+      "id": "fc-017",
+      "claim": "UN Security Council labeled Trump a 'war criminal' after Iran strikes",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "political",
+      "summary": "Viral posts claimed the UN Security Council declared Trump an 'international war criminal' after the Feb. 28 strikes. Snopes rated this FALSE. While the Security Council held an emergency meeting, it issued no resolutions or statements labeling Trump a war criminal. The US is a permanent member with veto power, making such a declaration procedurally impossible. Only Iran's ambassador used the term 'war crime' in reference to the attacks.",
+      "sources": [
+        {
+          "name": "Snopes — Did UN label Trump a 'war criminal'?",
+          "url": "https://www.snopes.com/fact-check/un-trump-war-criminal-iran/"
+        },
+        {
+          "name": "Yahoo News — Fact Check on UN war criminal claim",
+          "url": "https://www.yahoo.com/news/articles/fact-check-posts-falsely-claim-233800800.html"
+        }
+      ],
+      "origin": "Viral Facebook, X/Twitter, and Instagram posts",
+      "viralPlatforms": ["Facebook", "X/Twitter", "Instagram"]
+    },
+    {
+      "id": "fc-018",
+      "claim": "Trump claimed Iran has Tomahawk missiles to deflect blame for a girls' school strike",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "weapons",
+      "summary": "When asked about a Feb. 28 strike on an Iranian girls' school that killed 175 people (many children), Trump suggested Iran could have fired the Tomahawk cruise missile that hit it. PolitiFact and weapons experts confirmed Iran has no Tomahawks — only the US, UK, Japan, Australia, and Netherlands operate them. CSIS analyst Mark Cancian and Middlebury Institute's Jeffrey Lewis both confirmed Iranian cruise missiles are visually distinct from Tomahawks.",
+      "sources": [
+        {
+          "name": "PolitiFact — Trump blamed Iran for a strike on a girls' school",
+          "url": "https://www.politifact.com/article/2026/mar/11/trump-iran-school-strike/"
+        },
+        {
+          "name": "PBS — Fact-checking Trump's Tomahawk claim",
+          "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-claim-that-iran-has-tomahawk-missiles"
+        }
+      ],
+      "origin": "Trump press conference on Day 10 of the war",
+      "viralPlatforms": ["News outlets", "X/Twitter", "TikTok"]
+    },
+    {
+      "id": "fc-019",
+      "claim": "Energy Secretary Chris Wright's deleted post about Hormuz tanker escort caused oil to crash 15%",
+      "verdict": "confirmed",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "political",
+      "summary": "Energy Secretary Chris Wright posted on X that the US Navy had 'successfully escorted an oil tanker through the Strait of Hormuz.' The post was deleted within 30 minutes, but not before WTI crude crashed from ~$120 to $77/barrel — a 15% drop. The White House confirmed the claim was false. Reuters reported the Navy had actually refused escort requests since the war began. Wright took 'full ownership' calling it a 'miscommunication.' Multiple analysts and Sen. Chris Murphy accused the administration of market manipulation.",
+      "sources": [
+        {
+          "name": "Al Jazeera — White House denies Hormuz tanker escort",
+          "url": "https://www.aljazeera.com/news/2026/3/10/energy-secretary-deletes-claim-us-military-escorted-tanker-through-hormuz"
+        },
+        {
+          "name": "Common Dreams — Trump energy chief accused of oil market manipulation",
+          "url": "https://www.commondreams.org/news/chris-wright-market-manipulation"
+        },
+        {
+          "name": "Bloomberg — Wright takes responsibility for erroneous post",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-12/wright-says-he-takes-full-ownership-for-erroneous-tanker-post"
+        }
+      ],
+      "origin": "Chris Wright's deleted X post on March 10, 2026",
+      "viralPlatforms": ["X/Twitter", "News outlets", "Financial media"]
+    },
+    {
+      "id": "fc-020",
+      "claim": "War Thunder video game footage shared as real Iran war combat — Texas Governor shared it",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "military",
+      "summary": "A War Thunder video game clip showing a WWII-era USS Tennessee shooting down a Messerschmitt jet was shared on X as footage of the Iran war, reaching 7.3 million views. Texas Governor Greg Abbott shared it captioned 'Bye bye' before deleting. AFP and Gaijin Entertainment (War Thunder's developer) confirmed it was game footage. The White House X account also posted Call of Duty clips mixed with real strike footage. Arma 3 gameplay was separately circulated as Iranian missile attacks.",
+      "sources": [
+        {
+          "name": "PC Gamer — War Thunder clip shared as Iran war footage, 7M views",
+          "url": "https://www.pcgamer.com/games/sim/a-war-thunder-clip-shared-on-social-media-as-footage-of-the-war-in-iran-racked-up-over-7-million-views-and-was-even-shared-by-the-governor-of-texas/"
+        },
+        {
+          "name": "Euronews — Fake videos about the Iran war",
+          "url": "https://www.euronews.com/my-europe/2026/03/06/did-you-spot-these-fake-videos-about-the-iran-war"
+        }
+      ],
+      "origin": "Video game clips posted on X/Twitter as real combat footage",
+      "viralPlatforms": ["X/Twitter", "Facebook", "TikTok"]
+    },
+    {
+      "id": "fc-021",
+      "claim": "Polymarket insider trading — new accounts made $1.2M betting on Iran strike timing",
+      "verdict": "likely",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "political",
+      "summary": "Six new Polymarket accounts made well-timed bets that the Iran strike would happen on Feb. 28, winning $1.2M total. Most wallets were funded within 24 hours of the attack. One account ('Magamyman') made $553K. Snopes confirmed the suspicious trading patterns but could not verify insider knowledge. Trump Jr. is a Polymarket adviser and his firm invested millions in the platform. The Trump administration dropped two federal investigations into Polymarket. $529M was traded on Iran-related contracts total.",
+      "sources": [
+        {
+          "name": "Snopes — Polymarket bets on Iran strikes and insider knowledge",
+          "url": "https://www.snopes.com/news/2026/03/03/polymarket-bets-iran-strikes/"
+        },
+        {
+          "name": "NPR — 'Magamyman' made $553K on death of Iran's supreme leader",
+          "url": "https://www.npr.org/2026/03/01/nx-s1-5731568/polymarket-trade-iran-supreme-leader-killing"
+        },
+        {
+          "name": "CNN — Iran prediction market bets scrutinized",
+          "url": "https://www.cnn.com/2026/03/07/politics/iran-war-prediction-markets-polymarket-kalshi"
+        }
+      ],
+      "origin": "Polymarket blockchain transaction analysis, Snopes investigation",
+      "viralPlatforms": ["X/Twitter", "Reddit", "News outlets"]
+    },
+    {
+      "id": "fc-022",
+      "claim": "White House press secretary did not rule out a military draft when asked directly",
+      "verdict": "confirmed",
+      "trending": true,
+      "dateAdded": "2026-03-13",
+      "lastChecked": "2026-03-13",
+      "category": "political",
+      "summary": "Fox Business host Maria Bartiromo asked White House press secretary Karoline Leavitt whether the US would institute a military draft. Leavitt did not rule it out, instead saying 'the president is going to do what's necessary to protect the homeland.' Snopes confirmed she did not explicitly endorse a draft but notably declined to deny one. Former Rep. Marjorie Taylor Greene criticized the non-answer. A draft would require Congress to amend the Military Selective Service Act.",
+      "sources": [
+        {
+          "name": "Snopes — Did White House refuse to rule out a military draft?",
+          "url": "https://www.snopes.com/fact-check/white-house-military-draft-iran/"
+        }
+      ],
+      "origin": "Fox Business interview with Karoline Leavitt, March 12, 2026",
+      "viralPlatforms": ["X/Twitter", "TikTok", "News outlets"]
     }
   ]
 }

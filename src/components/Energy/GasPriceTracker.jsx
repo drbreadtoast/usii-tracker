@@ -1,4 +1,5 @@
-import { Fuel, TrendingUp, ArrowRight, Info, Calculator, ExternalLink } from 'lucide-react'
+import { useState } from 'react'
+import { Fuel, TrendingUp, ArrowRight, Info, Calculator, ExternalLink, ChevronDown, ChevronUp } from 'lucide-react'
 import data from '../../data/gas-prices.json'
 
 function PriceComparison() {
@@ -29,7 +30,7 @@ function PriceComparison() {
   )
 }
 
-function PriceChart() {
+function PriceChartContent() {
   const history = data.priceHistory
   const prices = history.map((d) => d.price)
   const minPrice = Math.floor(Math.min(...prices) * 10) / 10 - 0.1
@@ -39,20 +40,13 @@ function PriceChart() {
   // Truncate labels for chart display
   const shortLabel = (d) => {
     if (!d.label) return ''
-    // Strip "Day N — " prefix for chart, keep only the key event
     const stripped = d.label.replace(/^Day \d+\s*—?\s*/, '')
     if (stripped.length > 20) return stripped.slice(0, 18) + '…'
     return stripped
   }
 
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-lg p-3">
-      <div className="flex items-center gap-1.5 mb-2">
-        <TrendingUp size={12} className="text-green-400" />
-        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Price History — US Gas Average ($/gal)</span>
-      </div>
-
-      {/* Table-style chart — cleaner than SVG */}
+    <div>
       <div className="space-y-0">
         {history.map((d, i) => {
           const pct = ((d.price - minPrice) / (maxPrice - minPrice)) * 100
@@ -113,16 +107,11 @@ function PriceChart() {
   )
 }
 
-function BreakdownTable() {
+function BreakdownContent() {
   const { preWar, current } = data.breakdown
 
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-lg p-2">
-      <div className="flex items-center gap-1.5 mb-2">
-        <Calculator size={12} className="text-purple-400" />
-        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Price Breakdown</span>
-      </div>
-
+    <div>
       {/* Formula */}
       <div className="bg-gray-950 border border-gray-800 rounded px-2 py-1.5 mb-2">
         <div className="text-[9px] text-gray-500 mb-0.5">Formula:</div>
@@ -224,12 +213,56 @@ function ContextNote() {
   )
 }
 
+function CollapsibleSection({ title, icon: Icon, iconColor, hint, children }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex items-center justify-between px-3 py-2.5 hover:bg-gray-800/50 transition-colors"
+      >
+        <div className="flex items-center gap-2">
+          <Icon size={12} className={iconColor} />
+          <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">{title}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-[9px] text-blue-400">{hint}</span>
+          {isOpen ? <ChevronUp size={14} className="text-gray-500" /> : <ChevronDown size={14} className="text-gray-500" />}
+        </div>
+      </button>
+      {isOpen && (
+        <div className="border-t border-gray-800 p-2">
+          {children}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function GasPriceTracker() {
   return (
     <div className="space-y-2">
       <PriceComparison />
-      <PriceChart />
-      <BreakdownTable />
+
+      <CollapsibleSection
+        title="Price History — US Gas Average ($/gal)"
+        icon={TrendingUp}
+        iconColor="text-green-400"
+        hint="Click to view price history ▸"
+      >
+        <PriceChartContent />
+      </CollapsibleSection>
+
+      <CollapsibleSection
+        title="Price Breakdown"
+        icon={Calculator}
+        iconColor="text-purple-400"
+        hint="Click to see what makes up the price ▸"
+      >
+        <BreakdownContent />
+      </CollapsibleSection>
+
       <ContextNote />
       <div className="flex items-center justify-between text-[8px] text-gray-700 px-1">
         <div className="flex items-center gap-2">
