@@ -194,6 +194,7 @@ function StrikesSummary() {
         </div>
         <div className="flex-1 text-[10px] text-gray-500">
           Across {[...new Set(missileStrikes.map(s => s.country).filter(c => c !== 'International Waters'))].length} countries. Includes ballistic missiles, cruise missiles, drone strikes, and naval attacks.
+          <span className="block text-[9px] text-gray-600 mt-1 italic">Note: Includes Turkey (missile intercepted in airspace, no ground impact) — 1 more country than Damage Assessment.</span>
         </div>
       </div>
       <div className="space-y-1.5">
