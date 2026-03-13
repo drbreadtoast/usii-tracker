@@ -231,12 +231,12 @@ export default function FollowTheOilPage() {
             <TimestampBadge isoString={metadata.lastUpdated} label="Data" />
             <div className="hidden sm:flex items-center gap-1.5">
               <Fuel size={12} className="text-amber-400" />
-              <span className="text-amber-400 font-bold">${oilPrices.current.wti.price}</span>
-              <span>WTI</span>
+              <span className="text-amber-400 font-bold">${oilPrices.current.brent.price}</span>
+              <span>Brent</span>
             </div>
             <div className="hidden sm:flex items-center gap-1.5">
               <TrendingUp size={12} className="text-red-400" />
-              <span className="text-red-400 font-bold">{oilPrices.current.wti.change}</span>
+              <span className="text-red-400 font-bold">{oilPrices.current.brent.change}</span>
               <span>since pre-war</span>
             </div>
           </div>
