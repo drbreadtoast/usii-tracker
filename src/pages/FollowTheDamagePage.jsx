@@ -552,7 +552,7 @@ export default function FollowTheDamagePage() {
             ))}
           </div>
           <div className="text-[10px] text-gray-600 mt-2">
-            Last updated: {new Date(metadata.lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+            Last updated: {new Date(metadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
           </div>
         </div>
       </div>
