@@ -28,24 +28,6 @@ const BREAKING_ALERTS = [
     },
     cyberAttack: null,
     context: 'These rumors have emerged during an unprecedented information war surrounding the 2026 Iran-Israel conflict. Iran\'s intelligence apparatus has been running active disinformation campaigns since the war began on February 28. The death of former Supreme Leader Ayatollah Khamenei in the initial strikes created a motive for retaliatory propaganda. Tasnim News Agency is widely described as IRGC-affiliated and has been sanctioned by the US Treasury. AI-generated images of Netanyahu "injured" and fake audio of him speaking Farsi have also been identified. Meanwhile, legitimate questions about his reduced public appearances remain unanswered — his last confirmed live, time-stamped appearance was the March 12 press conference.'
-  },
-  {
-    id: 'ba-004',
-    headline: 'US KC-135 Stratotanker Crashes in Western Iraq — All 6 Crew Members Confirmed Dead. Total US Military Deaths Now 13 in Operation Epic Fury.',
-    status: 'confirmed',
-    lastUpdated: '2026-03-13T16:00:00Z',
-    summary: 'A US Air Force KC-135 Stratotanker refueling aircraft crashed in western Iraq near the Jordanian border on March 12. CENTCOM confirmed all six crew members were killed. A second KC-135 involved in the same mission landed safely in Israel with nearly half its vertical stabilizer missing, suggesting a possible mid-air collision. This brings total US military deaths in Operation Epic Fury to 13. The Islamic Resistance in Iraq claimed responsibility but provided no evidence. CENTCOM stated the crash was "not due to hostile fire or friendly fire."',
-    officialStatus: {
-      label: 'Confirmed — CENTCOM & Multiple Sources',
-      detail: 'CENTCOM confirmed the loss of the KC-135 Stratotanker and all six crew members. The aircraft crashed in western Iraq near Turaibil (Iraqi-Jordanian border) at approximately 2 PM ET on March 12. A second KC-135 from the same mission landed at Ben Gurion Airport in Israel with significant damage to its vertical stabilizer. The damaged aircraft has been identified as serial 63-8017, a KC-135R from the 314th Air Refueling Squadron, 940th Air Refueling Wing, Beale Air Force Base, California. An investigation is underway.',
-      sources: [
-        { name: 'CNN — US Air Force KC-135 lost over Iraq', url: 'https://www.cnn.com/2026/03/12/middleeast/us-air-force-refueling-aircraft-kc135-lost-intl-hnk-ml' },
-        { name: 'Al Jazeera — 6 US service members killed in jet crash', url: 'https://www.aljazeera.com/news/2026/3/12/us-military-announces-loss-of-refueling-aircraft-over-western-iraq' },
-        { name: 'CNBC — KC-135 crash details', url: 'https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html' },
-      ]
-    },
-    cyberAttack: null,
-    context: 'This is the fourth US aircraft loss since Operation Epic Fury began on February 28. Three F-15 fighters were previously shot down by friendly fire from Kuwait\'s air defenses. Total US casualties now stand at 13 killed and approximately 140 wounded. Defense Secretary Hegseth stated Iran\'s missile launch capability has been reduced by 90% and drone capability by 95%, with over 15,000 targets struck.'
   }
 ]
 
