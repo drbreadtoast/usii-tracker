@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Clock, RefreshCw, FileText } from 'lucide-react'
+import { Clock, RefreshCw, FileText, Heart } from 'lucide-react'
 import siteMetadata from '../../data/site-metadata.json'
 
 function formatAbsolute(date) {
@@ -76,7 +76,7 @@ export default function UpdateBadge({ variant = 'full' }) {
       </div>
       <div className="bg-gray-900/80 border-t border-gray-800/50 px-4 py-1 flex items-center justify-center gap-2 shrink-0">
         <p className="text-[9px] text-gray-600 text-center">
-          v2.2 — Improved daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
+          v2.2 — Built & updated daily by 1 person. Optimized for desktop, may notice bugs on mobile version. Improvements are ongoing.
         </p>
         <Link
           to="/patch-notes"
@@ -85,6 +85,15 @@ export default function UpdateBadge({ variant = 'full' }) {
           <FileText size={9} />
           Patch Notes
         </Link>
+        <a
+          href={siteMetadata.donationUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-[9px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0"
+        >
+          <Heart size={9} />
+          Support
+        </a>
       </div>
     </>
   )

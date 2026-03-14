@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { FileText, ArrowLeft, Sparkles, Wrench, Layout, Zap, Globe, BarChart3, MessageCircle, ShieldCheck } from 'lucide-react'
+import { FileText, ArrowLeft, Sparkles, Wrench, Layout, Zap, Globe, BarChart3, MessageCircle, ShieldCheck, Heart, ExternalLink } from 'lucide-react'
+import siteMetadata from '../data/site-metadata.json'
 // UpdateBadge now rendered globally in App.jsx
 
 const PATCH_NOTES = [
@@ -210,12 +211,45 @@ export default function PatchNotesPage() {
                 frequently without manual intervention.
               </p>
               <p className="text-xs text-gray-300 leading-relaxed mb-2">
-                I can technically have it truly live and updating super frequently, but that would increase
-                maintenance costs significantly. If this website gains traction, I may do this. I may also
-                add a donation option to help support this website — if that is successful, I can significantly
-                improve the site, make it truly live with real-time updates, and implement a ton of new features.
+                This project costs money to host and takes significant time to maintain. Every data update,
+                new feature, and bug fix is done by one person. If you find this tracker useful, consider
+                supporting the project — it directly funds faster updates, better infrastructure, and new features.
               </p>
-              <p className="text-xs text-gray-400 leading-relaxed">
+              <p className="text-[11px] font-semibold text-gray-400 mb-1.5">What your support enables:</p>
+              <ul className="space-y-1 mb-3">
+                <li className="flex items-start gap-2">
+                  <div className="w-1 h-1 rounded-full bg-amber-500/60 shrink-0 mt-1.5" />
+                  <span className="text-xs text-gray-400">Real-time automated updates (currently manual 3x/day)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="w-1 h-1 rounded-full bg-amber-500/60 shrink-0 mt-1.5" />
+                  <span className="text-xs text-gray-400">Push notifications for breaking escalations</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="w-1 h-1 rounded-full bg-amber-500/60 shrink-0 mt-1.5" />
+                  <span className="text-xs text-gray-400">Better maps with satellite imagery of strike locations</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="w-1 h-1 rounded-full bg-amber-500/60 shrink-0 mt-1.5" />
+                  <span className="text-xs text-gray-400">Mobile app with offline support</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="w-1 h-1 rounded-full bg-amber-500/60 shrink-0 mt-1.5" />
+                  <span className="text-xs text-gray-400">Historical archive with full-text search across all events</span>
+                </li>
+              </ul>
+              <a
+                href={siteMetadata.donationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 w-full text-sm font-semibold text-amber-200 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/30 hover:border-amber-500/50 px-4 py-2.5 rounded-lg transition-colors"
+              >
+                <Heart size={16} />
+                Support This Project
+                <ExternalLink size={12} className="ml-1 opacity-60" />
+              </a>
+              <p className="text-[10px] text-gray-600 text-center mt-1.5">Opens Buy Me A Coffee in a new tab</p>
+              <p className="text-xs text-gray-400 leading-relaxed mt-3">
                 Thank you for being here. — Solo developer
               </p>
             </div>
