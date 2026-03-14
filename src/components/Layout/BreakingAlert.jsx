@@ -5,6 +5,31 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
+    id: 'ba-005',
+    headline: 'Is Netanyahu Dead or Alive? Death Rumors Flood Social Media — "Six Fingers" AI Video, Fake Screenshots, Son Yair Missing From Public. Multiple Fact-Checkers Say: ALIVE. Last Confirmed Appearance: March 12 Press Conference.',
+    status: 'developing',
+    lastUpdated: '2026-03-14T22:30:00Z',
+    summary: 'Viral claims that Israeli PM Benjamin Netanyahu was killed in an Iranian missile strike have flooded social media since March 12. The rumors are fueled by a video showing what users claimed were "six fingers" (suggesting AI deepfake), his son Yair\'s absence from social media since March 9, and a fake screenshot of the Israeli PM account announcing his death. Multiple fact-checkers — Snopes, PolitiFact, Lead Stories — have rated the death claims FALSE. Netanyahu\'s last confirmed live appearance was a press conference on March 12, two days ago. No live, time-stamped video has emerged since. Iranian state media (Tasnim News Agency) has actively amplified the rumors.',
+    officialStatus: {
+      label: 'Research Findings — Multiple Sources Analyzed',
+      detail: 'EVIDENCE HE IS ALIVE: (1) Netanyahu held a live press conference on March 12 broadcast by the Israeli Government Press Office. He stated Israel is "becoming stronger than ever" and claimed Israeli strikes killed Iranian nuclear scientists. (2) Netanyahu\'s office dismissed Iranian claims about his fate as "fake news." (3) Official photos released showing security meetings with Defense Minister, IDF Chief of Staff, and Mossad Director. (4) Snopes, PolitiFact, and Lead Stories all rate death claims as FALSE. (5) AI detection tools found only 0.1% likelihood the March 12 video was AI-generated.\n\nSUSPICIOUS ELEMENTS FUELING RUMORS: (1) No live, time-stamped video since March 12 — two days with no visual confirmation. (2) Son Yair Netanyahu has not posted on X/Twitter since March 9 — unusual given his typically active presence. (3) Iran\'s Tasnim News Agency (IRGC-linked) published a detailed report claiming Netanyahu disappeared from public view for "nearly four days." (4) George Galloway publicly questioned why Israel released a video in which Netanyahu "literally sported six fingers." (5) Postponement of visits by Jared Kushner and Steve Witkoff cited as circumstantial evidence.\n\nSIX FINGERS CLAIM DEBUNKED: The viral "six fingers" screenshot was caused by Netanyahu\'s hypothenar eminence (palm muscle) creating a shadow that resembled a sixth finger. Full video analysis shows ordinary motion blur. PolitiFact rated the claim "Pants on Fire."\n\nFAKE DEATH SCREENSHOT: A fabricated screenshot purporting to show the Israeli PM\'s official X account announcing his death was confirmed fake by Snopes — no such post was ever published.\n\nOUR ASSESSMENT: Death rumors appear to be part of Iranian psychological warfare amplified by IRGC-linked media. However, the two-day gap since his last live appearance and his son\'s social media silence are notable. We will continue monitoring for a new live, verifiable appearance.',
+      sources: [
+        { name: 'Snopes — Was Netanyahu killed in Iranian missile attack?', url: 'https://www.snopes.com/news/2026/03/12/benjamin-netanyahu-dead-rumor/' },
+        { name: 'PolitiFact — Netanyahu didn\'t have six fingers, video is real', url: 'https://www.politifact.com/factchecks/2026/mar/13/social-media/netanyahu-dead-video-artificial-intelligence/' },
+        { name: 'Lead Stories — Video does NOT show six fingers', url: 'https://leadstories.com/hoax-alert/2026/03/fact-check-video-does-not-show-netanyahu-with-six-fingers-on-his-right-hand.html' },
+        { name: 'Snopes — Netanyahu six fingers AI claim debunked', url: 'https://www.snopes.com/fact-check/netanyahu-6-fingers-ai/' },
+        { name: 'Al Jazeera — Netanyahu says Israel "stronger than ever"', url: 'https://www.aljazeera.com/news/2026/3/12/netanyahu-says-israel-stronger-than-ever-in-first-speech-since-iran-war' },
+        { name: 'Times of Israel — Netanyahu press conference (live)', url: 'https://www.timesofisrael.com/liveblog_entry/watch-netanyahu-holding-his-first-press-conference-of-current-iran-war/' },
+        { name: 'Jerusalem Post — Iran publishes false conspiracy theory', url: 'https://www.jpost.com/middle-east/iran-news/article-889415' },
+        { name: 'The Week — Israeli media responds to PM\'s situation', url: 'https://www.theweek.in/news/middle-east/2026/03/14/is-benjamin-netanyahu-dead-israeli-media-finally-has-a-response-to-the-prime-ministers-situation.html' },
+        { name: 'Sunday Guardian — Yair Netanyahu missing from public', url: 'https://sundayguardianlive.com/fact-check-where-is-yair-netanyahu-benjamin-netanyahus-son-missing-from-public-appearances-for-days-as-viral-posts-claim-israeli-pm-is-dead-176325/' },
+        { name: 'Iran\'s Tasnim News — Speculation about Netanyahu', url: 'https://www.tasnimnews.ir/en/news/2026/03/14/3540117/mystery-of-netanyahu-s-ai-speech-disappearance-unraveled' },
+      ]
+    },
+    cyberAttack: null,
+    context: 'These rumors have emerged during an unprecedented information war surrounding the 2026 Iran-Israel conflict. Iran\'s intelligence apparatus has been running active disinformation campaigns since the war began on February 28. The death of former Supreme Leader Ayatollah Khamenei in the initial strikes created a motive for retaliatory propaganda. Tasnim News Agency is widely described as IRGC-affiliated and has been sanctioned by the US Treasury. AI-generated images of Netanyahu "injured" and fake audio of him speaking Farsi have also been identified. Meanwhile, legitimate questions about his reduced public appearances remain unanswered — his last confirmed live, time-stamped appearance was the March 12 press conference.'
+  },
+  {
     id: 'ba-004',
     headline: 'US KC-135 Stratotanker Crashes in Western Iraq — All 6 Crew Members Confirmed Dead. Total US Military Deaths Now 13 in Operation Epic Fury.',
     status: 'confirmed',
@@ -101,8 +126,8 @@ function AlertCard({ alert }) {
 
           {/* Official Status — Tech Threat */}
           <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg p-2.5">
-            <p className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-1">Confirmed Threat — Tech Company Target List</p>
-            <p className="text-[10px] text-gray-400 leading-relaxed mb-2">{alert.officialStatus.detail}</p>
+            <p className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-1">{alert.officialStatus.label}</p>
+            <p className="text-[10px] text-gray-400 leading-relaxed mb-2 whitespace-pre-line">{alert.officialStatus.detail}</p>
             <div className="flex flex-wrap gap-x-3 gap-y-1">
               {alert.officialStatus.sources.map((s, i) => (
                 <SourceLink key={i} name={s.name} url={s.url} />

@@ -4,9 +4,65 @@
     "title": "Rumor Tracker & Fact Check",
     "description": "Debunking misinformation and verifying trending claims about the Iran-Israel conflict. Each entry is independently researched with linked sources.",
     "methodology": "Claims are sourced from trending social media posts, news outlets, and government statements. Each is independently verified against multiple sources. Verdicts: Confirmed (verified true), Debunked (verified false), Likely (evidence supports but not fully confirmed), Unlikely (evidence contradicts but not fully debunked), Unverified (insufficient evidence either way).",
-    "totalClaims": 27
+    "totalClaims": 28
   },
   "claims": [
+    {
+      "id": "fc-043",
+      "claim": "Benjamin Netanyahu has been killed in an Iranian missile strike",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-14T22:30:00Z",
+      "lastChecked": "2026-03-14T22:30:00Z",
+      "category": "political",
+      "summary": "Viral claims that Israeli PM Benjamin Netanyahu was killed in an Iranian strike have flooded social media since March 12. The rumors are fueled by three things: (1) a video where users claimed Netanyahu had 'six fingers' — suggesting AI deepfake, (2) a fabricated screenshot of the Israeli PM's X account announcing his death, and (3) his son Yair's absence from social media since March 9. Multiple independent fact-checkers have rated the death claims FALSE. Snopes confirmed the death screenshot was fabricated. PolitiFact rated the 'six fingers' claim 'Pants on Fire' — the apparent sixth finger was a shadow from his palm muscle (hypothenar eminence). AI detection tools found only 0.1% likelihood the video was AI-generated. The video was published directly by the Israeli Government Press Office. Netanyahu's last confirmed live appearance was a press conference on March 12 where he stated Israel is 'becoming stronger than ever.' His office dismissed Iranian claims as 'fake news.' Iran's Tasnim News Agency (IRGC-linked, US Treasury-sanctioned) has been the primary amplifier of these rumors. However, no live, time-stamped video of Netanyahu has emerged since March 12 — a two-day gap that continues to fuel speculation.",
+      "origin": "Iranian state media (Tasnim News Agency), viral X/Twitter posts, AI-generated fake images. George Galloway amplified the six-fingers claim. Original six-finger screenshot posted by @gigabasedd on X (March 12).",
+      "viralPlatforms": [
+        "X/Twitter",
+        "Telegram",
+        "TikTok",
+        "Facebook",
+        "Instagram"
+      ],
+      "sources": [
+        {
+          "name": "Snopes — Was Netanyahu killed in Iranian missile attack?",
+          "url": "https://www.snopes.com/news/2026/03/12/benjamin-netanyahu-dead-rumor/"
+        },
+        {
+          "name": "PolitiFact — Netanyahu didn't have six fingers",
+          "url": "https://www.politifact.com/factchecks/2026/mar/13/social-media/netanyahu-dead-video-artificial-intelligence/"
+        },
+        {
+          "name": "Lead Stories — Video does NOT show six fingers",
+          "url": "https://leadstories.com/hoax-alert/2026/03/fact-check-video-does-not-show-netanyahu-with-six-fingers-on-his-right-hand.html"
+        },
+        {
+          "name": "Snopes — Six fingers AI claim debunked",
+          "url": "https://www.snopes.com/fact-check/netanyahu-6-fingers-ai/"
+        },
+        {
+          "name": "Al Jazeera — Netanyahu says Israel 'stronger than ever'",
+          "url": "https://www.aljazeera.com/news/2026/3/12/netanyahu-says-israel-stronger-than-ever-in-first-speech-since-iran-war"
+        },
+        {
+          "name": "Times of Israel — Netanyahu press conference",
+          "url": "https://www.timesofisrael.com/liveblog_entry/watch-netanyahu-holding-his-first-press-conference-of-current-iran-war/"
+        },
+        {
+          "name": "Jerusalem Post — Iran publishes false conspiracy",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-889415"
+        },
+        {
+          "name": "The Week — Israeli media responds",
+          "url": "https://www.theweek.in/news/middle-east/2026/03/14/is-benjamin-netanyahu-dead-israeli-media-finally-has-a-response-to-the-prime-ministers-situation.html"
+        },
+        {
+          "name": "Sunday Guardian — Yair Netanyahu missing from public",
+          "url": "https://sundayguardianlive.com/fact-check-where-is-yair-netanyahu-benjamin-netanyahus-son-missing-from-public-appearances-for-days-as-viral-posts-claim-israeli-pm-is-dead-176325/"
+        }
+      ]
+    },
     {
       "id": "fc-039",
       "claim": "Trump claims Iran is 'about to surrender'",
