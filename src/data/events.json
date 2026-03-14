@@ -4250,5 +4250,119 @@
       "deployment",
       "day-14"
     ]
+  },
+  {
+    "id": "evt-new-091",
+    "title": "IRGC Threatens UAE Cities \u2014 Warns US Positions Are Targets",
+    "description": "IRGC warns UAE residents to evacuate areas near ports and docks hosting US forces. Calls US positions 'legitimate targets.' First direct threat to Gulf ally civilian population since war began.",
+    "type": "diplomatic",
+    "lat": 25.2,
+    "lng": 55.27,
+    "location": "United Arab Emirates",
+    "timestamp": "2026-03-14T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/international/5784080-iran-threatens-uae-cities/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "uae",
+      "threat",
+      "escalation",
+      "day-15"
+    ]
+  },
+  {
+    "id": "evt-new-092",
+    "title": "Fujairah Port Oil Operations Suspended After Drone Attack",
+    "description": "Drone attack and fire at Fujairah port forces suspension of oil loading. Key alternative to blocked Hormuz now disrupted. UAE absorbed 1,668 total strikes since war began.",
+    "type": "infrastructure",
+    "lat": 25.12,
+    "lng": 56.35,
+    "location": "Fujairah, UAE",
+    "timestamp": "2026-03-14T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "uae",
+      "fujairah",
+      "oil",
+      "port",
+      "day-15"
+    ]
+  },
+  {
+    "id": "evt-new-093",
+    "title": "Iran Fires 3 Ballistic Missiles at Central Israel",
+    "description": "At least 3 ballistic missiles launched at central Israel. No casualties. Sirens across central Israel. Iran's missile capability down 90%+ but continuing diminished attacks.",
+    "type": "strike",
+    "lat": 32.06,
+    "lng": 34.78,
+    "location": "Central Israel",
+    "timestamp": "2026-03-14T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "israel",
+      "missile",
+      "strike",
+      "day-15"
+    ]
+  },
+  {
+    "id": "evt-new-094",
+    "title": "IDF Destroys Iran's Space Research Center in Tehran",
+    "description": "Israeli strikes destroy Iran's primary space research center and air defense factories in Tehran. Total Israeli strikes: 7,600+ in Iran, 1,100+ in Lebanon since Feb 28.",
+    "type": "strike",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-14T09:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "israel",
+      "iran",
+      "tehran",
+      "space",
+      "air-defense",
+      "day-15"
+    ]
   }
 ]

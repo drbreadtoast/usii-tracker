@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-14T06:10:00Z",
+    "lastUpdated": "2026-03-14T13:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,7 +27,7 @@
     ]
   },
   "summary": {
-    "totalSites": 75,
+    "totalSites": 77,
     "confirmed": 64,
     "reported": 9,
     "rumored": 3,
@@ -1373,6 +1373,34 @@
       "description": "Missile strikes helipad, drone damages radar system at US Embassy compound in Baghdad. Smoke seen rising from compound. Embassy structure intact.",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/middle-east/article-889880",
+      "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-080",
+      "name": "Iran Space Research Center, Tehran",
+      "country": "Iran",
+      "lat": 35.69,
+      "lng": 51.39,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-14",
+      "description": "IDF destroys Iran's primary space research center and air defense factories in Tehran.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-081",
+      "name": "Fujairah Port Oil Loading Facilities",
+      "country": "UAE",
+      "lat": 25.12,
+      "lng": 56.35,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-03-14",
+      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port \u2014 key Hormuz alternative.",
+      "source": "Gulf News",
+      "sourceUrl": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056",
       "attributedTo": "iran"
     }
   ]

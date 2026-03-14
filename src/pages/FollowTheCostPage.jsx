@@ -384,6 +384,54 @@ function KeyFactCard({ fact }) {
   )
 }
 
+// --- Collapsible Intro Banner ---
+
+function CostIntroBanner({ metadata }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
+      <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gray-800/40 transition-colors"
+        >
+          <Receipt size={18} className="text-green-400 shrink-0" />
+          <div className="flex-1 min-w-0">
+            <h2 className="text-sm font-bold text-gray-200">{metadata.title}</h2>
+            <p className="text-[10px] text-gray-500 mt-0.5">
+              Click here to learn more about our sources, methodology, and disclaimer ▾
+            </p>
+          </div>
+          <div className="shrink-0 text-gray-600">
+            {isOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+          </div>
+        </button>
+        {isOpen && (
+          <div className="px-4 pb-4 border-t border-gray-800/50 space-y-2 pt-3">
+            <p className="text-xs text-gray-400 leading-relaxed">{metadata.methodology}</p>
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Sources:</span>
+              {metadata.sources.map((src, i) => (
+                <SourceLink key={i} url={src.url} label={src.name} />
+              ))}
+            </div>
+            <div className="bg-amber-950/20 border border-amber-900/30 rounded-lg px-3 py-2">
+              <p className="text-[10px] text-amber-500/80 leading-relaxed">
+                <AlertTriangle size={10} className="inline mr-1 -mt-0.5" />
+                <strong>Important:</strong> {metadata.disclaimer}
+              </p>
+            </div>
+            <div className="text-[10px] text-gray-600">
+              Last updated: {new Date(metadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT &middot; Day {metadata.daysOfConflict} of conflict
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
 // --- Main Page ---
 
 export default function FollowTheCostPage() {
@@ -430,33 +478,8 @@ export default function FollowTheCostPage() {
         </div>
       </header>
 
-      {/* Intro Banner */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
-          <div className="flex items-start gap-3">
-            <Receipt size={18} className="text-green-400 shrink-0 mt-0.5" />
-            <div>
-              <h2 className="text-sm font-bold text-gray-200">{costData.metadata.title}</h2>
-              <p className="text-xs text-gray-400 mt-1 leading-relaxed">{costData.metadata.methodology}</p>
-              <div className="flex items-center gap-2 flex-wrap mt-2">
-                <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Sources:</span>
-                {costData.metadata.sources.map((src, i) => (
-                  <SourceLink key={i} url={src.url} label={src.name} />
-                ))}
-              </div>
-              <div className="bg-amber-950/20 border border-amber-900/30 rounded-lg px-3 py-2 mt-2">
-                <p className="text-[10px] text-amber-500/80 leading-relaxed">
-                  <AlertTriangle size={10} className="inline mr-1 -mt-0.5" />
-                  <strong>Important:</strong> {costData.metadata.disclaimer}
-                </p>
-              </div>
-              <div className="text-[10px] text-gray-600 mt-2">
-                Last updated: {new Date(costData.metadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT &middot; Day {costData.metadata.daysOfConflict} of conflict
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* Intro Banner — Collapsible */}
+      <CostIntroBanner metadata={costData.metadata} />
 
       {/* Cost Overview Stats */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">

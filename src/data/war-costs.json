@@ -35,9 +35,9 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-13T04:16:00Z",
+    "lastUpdated": "2026-03-14T13:00:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 14,
+    "daysOfConflict": 15,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -45,30 +45,30 @@
       "name": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
-        "total": 20220000000,
+        "total": 22000000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 5330000000,
-            "description": "Tomahawk cruise missiles, JASSM-ER, GBU-57 MOPs, precision-guided munitions, and air-launched standoff weapons used in strikes against Iranian nuclear and military facilities",
+            "amount": 5800000000,
+            "description": "Tomahawk cruise missiles (400+ used), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $50B supplemental requested for replenishment.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
-            "amount": 6220000000,
-            "description": "Carrier strike group deployments, destroyer operations, submarine operations, naval aviation sorties, fuel, and at-sea replenishment across Persian Gulf, Gulf of Oman, and Eastern Mediterranean",
+            "amount": 6800000000,
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deploying, destroyer/submarine operations, naval aviation sorties. 3 CSGs at $7M/day each = $21M/day combined. France also deployed Charles de Gaulle + 10 warships.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
           "airOperations": {
-            "amount": 4670000000,
-            "description": "B-2 Spirit stealth bomber sorties from Whiteman AFB and Diego Garcia, F-35A/F-22 operations from Al Udeid and Al Dhafra, KC-135/KC-46 tanker support, ISR platforms including RQ-4 Global Hawk and MQ-9 Reaper",
+            "amount": 5200000000,
+            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15.",
             "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
           "personnelDeployment": {
-            "amount": 2000000000,
-            "description": "Surge deployment of approximately 45,000 additional personnel to CENTCOM AOR, including combat pay, hostile fire pay, family separation allowances, and deployment support",
+            "amount": 2200000000,
+            "description": "~50,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA (7 enemy fire, 6 KC-135 crash).",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
           },
@@ -81,7 +81,7 @@
         }
       },
       "indirectCosts": {
-        "total": 36110000000,
+        "total": 38000000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
@@ -91,8 +91,8 @@
             "sourceUrl": "https://www.cbo.gov/topics/defense-and-national-security"
           },
           "oilPriceImpact": {
-            "amount": 15560000000,
-            "description": "Estimated cost to the US economy from oil price surge to $130+/bbl due to Strait of Hormuz disruption, including increased Strategic Petroleum Reserve drawdown costs and domestic fuel price increases",
+            "amount": 16500000000,
+            "description": "Cost to US economy from Brent at $103.14/bbl (+41.5% from pre-war $72.9). Gas at $3.63/gal national avg (+$0.70 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 2026 lows, down 3.1% YTD.",
             "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
             "sourceUrl": "https://www.eia.gov/outlooks/steo/"
           },
@@ -110,16 +110,16 @@
           }
         }
       },
-      "dailyBurnRate": "$1.3-1.6 billion/day",
-      "dailyBurnRateNote": "Estimated daily cost of sustained combat operations including all deployed forces, active sorties, naval patrols, and logistical support. Center for American Progress estimated $5 billion through March 2 alone. CNN reports $890M/day in direct military costs.",
-      "totalEstimate": "$18-22 billion",
-      "details": "Pentagon told Senate first 6 days cost $11.3B. Does not include munitions replacement or pre-war buildup. 2,200 Marines deploying adds significant logistics cost. Russia sanctions waiver signals economic desperation."
+      "dailyBurnRate": "$891M-1.4B/day",
+      "dailyBurnRateNote": "CSIS estimates $891M-$1.43B/day. Pentagon told Senate first 6 days cost $11.3B ($1.88B/day). CSIS update: $16.5B through Day 12. Fortune reports ~$1B/day ongoing. European Business Magazine projects $259B over 6 months.",
+      "totalEstimate": "$19-22 billion",
+      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Penn Wharton projects $40B-$95B direct costs, up to $210B total economic impact. Pentagon requesting $50B supplemental. Brown University: $31.35B-$33.77B total US spending connected to broader conflict since Oct 7 2023."
     },
     "israel": {
       "name": "Israel",
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "directMilitaryCosts": {
-        "total": 6780000000,
+        "total": 7500000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
@@ -135,8 +135,8 @@
             "sourceUrl": "https://www.janes.com/"
           },
           "airOperations": {
-            "amount": 2440000000,
-            "description": "F-35I Adir stealth fighter sorties, F-15I Ra'am strike operations, aerial refueling, UAV operations including Hermes 900 and Heron TP, and combat search and rescue standby",
+            "amount": 2800000000,
+            "description": "F-35I Adir stealth fighter sorties, F-15I Ra'am strikes in Tehran (IDF destroyed space research center and air defense factories). ~7,600 strikes in Iran and ~1,100 in Lebanon since Feb 28.",
             "source": "Israeli Air Force / CSIS Missile Defense Project",
             "sourceUrl": "https://missilethreat.csis.org/"
           },
@@ -155,12 +155,12 @@
         }
       },
       "indirectCosts": {
-        "total": 20000000000,
+        "total": 22000000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
-            "amount": 9440000000,
-            "description": "GDP loss from reserve mobilization removing 300,000 workers from the economy, Ben Gurion Airport closure, tourism collapse, and Tel Aviv Stock Exchange losses",
+            "amount": 10000000000,
+            "description": "GDP loss from 300,000 reserve mobilization, Ben Gurion Airport closure, tourism collapse. Bloomberg: $13B defense supplement approved, $2.9B emergency supplement. Total 2026 defense budget $34.63B (112B shekels).",
             "source": "Bank of Israel Economic Assessment",
             "sourceUrl": "https://www.boi.org.il/en/"
           },
@@ -202,7 +202,7 @@
           },
           "navalOperations": {
             "amount": 310000000,
-            "description": "IRGC Navy fast attack craft operations, mine-laying operations in Strait of Hormuz approaches, Ghadir-class submarine patrols, and anti-ship missile battery activation along coastline",
+            "description": "IRGC Navy fast attack craft, mine-laying in Hormuz approaches. 50+ naval vessels sunk/damaged, 90+ total. Navy effectively destroyed per Hegseth.",
             "source": "ONI Iranian Naval Forces Report",
             "sourceUrl": "https://www.oni.navy.mil/"
           },
@@ -227,7 +227,7 @@
         }
       },
       "indirectCosts": {
-        "total": 50000000000,
+        "total": 53000000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
@@ -237,8 +237,8 @@
             "sourceUrl": "https://www.worldbank.org/"
           },
           "oilPriceImpact": {
-            "amount": 16670000000,
-            "description": "Near-total loss of oil export revenue due to Kharg Island terminal damage, pipeline disruption, and international shipping refusal to load Iranian crude; loss of approximately 1.5 million barrels/day of export capacity",
+            "amount": 18000000000,
+            "description": "Near-total loss of oil export revenue. Kharg Island military targets destroyed (oil infrastructure spared but threatened). Chatham House projects >10% GDP decline. Iran internet at ~4% of normal for 15 days.",
             "source": "EIA / OPEC Monthly Oil Market Report",
             "sourceUrl": "https://www.eia.gov/international/analysis/country/IRN"
           },
@@ -426,7 +426,7 @@
     "description": "US Navy force posture deployed to CENTCOM AOR and Eastern Mediterranean in response to Iran-Israel conflict",
     "carrierGroups": [
       {
-        "name": "Carrier Strike Group 2 (CVN-69 Eisenhower)",
+        "name": "Carrier Strike Group 9 (CVN-72 Lincoln)",
         "location": "Persian Gulf",
         "vessels": 9
       },
@@ -434,26 +434,31 @@
         "name": "Carrier Strike Group 12 (CVN-78 Ford)",
         "location": "Eastern Mediterranean",
         "vessels": 8
+      },
+      {
+        "name": "Carrier Strike Group 2 (CVN-77 Bush)",
+        "location": "Gulf of Oman",
+        "vessels": 7
       }
     ],
     "carrierGroupDailyCost": 7000000,
     "carrierGroupDailyCostNote": "Estimated daily operating cost per carrier strike group including air wing operations, escort vessels, and logistics ships based on Navy Visibility and Management of Operating and Support Costs (VAMOSC)",
     "destroyerDailyCost": 500000,
     "destroyerDailyCostNote": "Estimated daily operating cost per Arleigh Burke-class guided-missile destroyer at wartime tempo",
-    "totalAssetsDeployed": 28,
+    "totalAssetsDeployed": 35,
     "assetBreakdown": {
-      "aircraftCarriers": 2,
-      "guidedMissileDestroyers": 10,
+      "aircraftCarriers": 3,
+      "guidedMissileDestroyers": 12,
       "guidedMissileCruisers": 3,
       "attackSubmarines": 4,
       "guidedMissileSubmarines": 1,
-      "amphibiousAssaultShips": 2,
+      "amphibiousAssaultShips": 3,
       "logisticsAndSupportShips": 6
     },
-    "estimatedDailyCost": 22000000,
-    "estimatedDailyCostNote": "Combined daily operating cost of all deployed naval assets at wartime operational tempo",
-    "daysDeployed": 14,
-    "totalNavalCost": 308000000,
+    "estimatedDailyCost": 25000000,
+    "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
+    "daysDeployed": 15,
+    "totalNavalCost": 330000000,
     "totalNavalCostNote": "Total naval deployment cost for the first 14 days of active conflict operations; does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
@@ -522,12 +527,12 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 100.46,
+      "currentPrice": 103.14,
       "peakPrice": 119.5,
-      "wtiPrice": 95.73,
-      "usGasPricePerGallon": 3.58,
+      "wtiPrice": 98.71,
+      "usGasPricePerGallon": 3.63,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 43.9,
+      "percentageIncrease": 41.5,
       "estimatedGlobalCost": 850000000000,
       "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
       "hormuzFlowDisruption": {
@@ -561,9 +566,9 @@
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
-    "stockMarketImpact": "US markets at 2026 closing lows. Dow below 47,000, S&P 500 and Nasdaq at 2026 lows. IEA 400M barrel release fails to calm markets. Brent past $100 deepens economic pressure.",
-    "oilPriceImpact": "Brent ~$100/barrel (+25% from pre-war). WTI ~$95-96 (+27%). Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Rystad warns $135 if conflict persists 4 months.",
-    "gasPrice": "$3.60/gallon national average (~13.2% since pre-war $3.18). California above $5.00. Pump prices lag crude by 1-2 weeks."
+    "stockMarketImpact": "S&P 500 at 6,632 \u2014 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
+    "oilPriceImpact": "Brent $103.14/bbl (+41.5% from pre-war). WTI $98.71 (+47%). Fourth consecutive weekly gain. IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $100 for two consecutive sessions. Rystad warns $135 if conflict persists 4 months.",
+    "gasPrice": "$3.63/gallon national average (22-month high, up 70\u00a2 since war began from $2.93). California $5.37/gal. Up 35\u00a2 in one week alone. Polymarket: 64% odds of $4.50 by end of March."
   },
   "keyFacts": [
     {
@@ -621,16 +626,30 @@
       "cost": null,
       "source": "Lloyd's List Intelligence / Clarksons Research",
       "sourceUrl": "https://www.lloydslistintelligence.com/"
+    },
+    {
+      "id": "fact-9",
+      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 \u2014 an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
+      "cost": 16500000000,
+      "source": "CSIS / NBC News",
+      "sourceUrl": "https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12"
+    },
+    {
+      "id": "fact-10",
+      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days \u2014 each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
+      "cost": 150000000,
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-13/us-sends-intercept-drones-used-in-ukraine-to-blunt-iran-strikes"
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 30560000000,
-    "allCountriesIndirectCosts": 106110000000,
-    "combinedTotalCosts": 136670000000,
+    "allCountriesDirectMilitary": 33060000000,
+    "allCountriesIndirectCosts": 113000000000,
+    "combinedTotalCosts": 146060000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military costs for all three belligerents plus indirect economic costs. Global economic impact represents the annualized additional cost from oil price disruption.",
-    "lastCalculated": "2026-03-13T17:00:00Z"
+    "description": "Combined direct military (33.1B) + indirect economic costs (113.0B) for all three belligerents through Day 15. CSIS benchmark: $16.5B US costs through Day 12.",
+    "lastCalculated": "2026-03-14T13:00:00Z"
   },
-  "daysOfConflict": 14,
-  "lastUpdated": "2026-03-14T06:10:00Z"
+  "daysOfConflict": 15,
+  "lastUpdated": "2026-03-14T13:00:00Z"
 }
