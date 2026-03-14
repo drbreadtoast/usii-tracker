@@ -407,12 +407,21 @@ export default function HomepageSummary() {
       <div className="text-center py-6 px-4">
         <p className="text-sm font-bold text-gray-300 uppercase tracking-widest">Quick Brief</p>
         <p className="text-[11px] text-gray-600 mt-1">Highlights from every section — click "See all" on any card for full details and sources</p>
-        <div className="flex items-center justify-center gap-2 mt-2">
+        <div className="flex items-center justify-center gap-2 mt-2 flex-wrap">
           <Clock size={12} className="text-blue-400" />
           <span className="text-[11px] text-blue-400 font-semibold">
             Last updated: {new Date(siteMetadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
           </span>
           <span className="text-[10px] text-gray-600">· Day {siteMetadata.conflictDay}</span>
+          <span className="text-gray-700 hidden sm:inline">|</span>
+          <a
+            href={siteMetadata.donationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-[10px] text-amber-400/80 hover:text-amber-300 transition-colors"
+          >
+            <span className="text-amber-500">♥</span> Built by 1 person — support this project
+          </a>
         </div>
       </div>
 

@@ -10,6 +10,7 @@ import {
 } from 'lucide-react'
 import oilData from '../data/oil-tracker.json'
 import gasPriceData from '../data/gas-prices.json'
+import siteMetadata from '../data/site-metadata.json'
 
 // --- Helpers ---
 
@@ -307,6 +308,20 @@ export default function FollowTheOilPage() {
 
       {/* Live Oil Price Banner */}
       <OilPriceBanner />
+
+      {/* Support bar */}
+      <div className="bg-amber-950/20 border-b border-amber-900/20 px-4 py-1.5 flex items-center justify-center">
+        <a
+          href={siteMetadata.donationUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 text-[10px] text-amber-400/80 hover:text-amber-300 transition-colors"
+        >
+          <span className="text-amber-500">♥</span>
+          <span>This tracker is built and updated daily by 1 person.</span>
+          <span className="font-semibold text-amber-400 hover:text-amber-300 underline underline-offset-2">Support this project</span>
+        </a>
+      </div>
 
       {/* Intro Banner — Collapsible */}
       <OilIntroBanner metadata={metadata} />
