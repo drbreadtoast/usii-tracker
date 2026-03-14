@@ -72,10 +72,24 @@
       }
     },
     "current": {
-      "date": "2026-03-13",
-      "label": "Active Conflict — Day 14",
-      "wti": 98.71,
-      "brent": 103.14,
+      "date": "2026-03-14",
+      "label": "Active Conflict — Day 15",
+      "wti": {
+        "price": 98.71,
+        "unit": "$/barrel",
+        "change": "+30.7%",
+        "changeDollars": "+$23.21",
+        "source": "NYMEX front-month settlement",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_fut_s1_d.htm"
+      },
+      "brent": {
+        "price": 103.14,
+        "unit": "$/barrel",
+        "change": "+29.2%",
+        "changeDollars": "+$23.34",
+        "source": "ICE front-month settlement",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm"
+      },
       "changePercent": 48
     },
     "priceHistory": [
