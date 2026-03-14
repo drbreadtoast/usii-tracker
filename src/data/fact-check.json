@@ -4,253 +4,119 @@
     "title": "Rumor Tracker & Fact Check",
     "description": "Debunking misinformation and verifying trending claims about the Iran-Israel conflict. Each entry is independently researched with linked sources.",
     "methodology": "Claims are sourced from trending social media posts, news outlets, and government statements. Each is independently verified against multiple sources. Verdicts: Confirmed (verified true), Debunked (verified false), Likely (evidence supports but not fully confirmed), Unlikely (evidence contradicts but not fully debunked), Unverified (insufficient evidence either way).",
-    "totalClaims": 38
+    "totalClaims": 27
   },
   "claims": [
     {
-      "id": "fc-001",
-      "claim": "Iran has surrendered to Israel and the US",
+      "id": "fc-039",
+      "claim": "Trump claims Iran is 'about to surrender'",
+      "verdict": "unverified",
+      "explanation": "No evidence of Iranian surrender. Iran's intelligence ministry is secretly contacting CIA through backchannel, but this indicates willingness to negotiate, not surrender. Iran continues offensive operations and Hormuz blockade.",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/03/13/trump-iran-surrender-hormuz-oil",
+      "timestamp": "2026-03-14T18:00:00Z",
+      "tags": [
+        "trump",
+        "diplomacy",
+        "ceasefire"
+      ],
+      "dateAdded": "2026-03-14T13:00:00Z",
+      "lastChecked": "2026-03-14T13:00:00Z"
+    },
+    {
+      "id": "fc-040",
+      "claim": "KC-135 crash in Iraq was caused by Iranian attack",
       "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-04",
+      "explanation": "CENTCOM explicitly stated the KC-135 crash was not due to hostile or friendly fire. An Iranian proxy group claimed responsibility, but the claim is unsubstantiated. Investigation ongoing.",
+      "source": "NBC News / CENTCOM",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/us-refueling-plane-crashes-iraq-iran-war-crew-members-killed-rcna263315",
+      "timestamp": "2026-03-14T16:00:00Z",
+      "tags": [
+        "us-military",
+        "iraq",
+        "crash"
+      ],
+      "dateAdded": "2026-03-14T13:00:00Z",
+      "lastChecked": "2026-03-14T13:00:00Z"
+    },
+    {
+      "id": "fc-041",
+      "claim": "Iran claims to have hit Netanyahu's office with Khaibar missiles",
+      "verdict": "debunked",
+      "explanation": "Israel dismissed this claim as 'fake news.' No evidence of damage to the Prime Minister's office. Israel's multi-layered air defense intercepted the majority of incoming missiles.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks",
+      "timestamp": "2026-03-14T14:00:00Z",
+      "tags": [
+        "iran",
+        "israel",
+        "missiles",
+        "misinformation"
+      ],
+      "dateAdded": "2026-03-14T13:00:00Z",
+      "lastChecked": "2026-03-14T13:00:00Z"
+    },
+    {
+      "id": "fc-042",
+      "claim": "IEA 400M barrel reserve release will crash oil prices below $80",
+      "verdict": "unlikely",
+      "explanation": "Despite the largest-ever coordinated reserve release of 400M barrels, Brent crude remains above $100/barrel at $103.14. The Hormuz blockade removes ~17M barrels/day from the market, dwarfing the reserve release.",
+      "source": "IEA / CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/03/11/iea-oil-reserves-crude-prices-iran-g7-energy.html",
+      "timestamp": "2026-03-14T20:00:00Z",
+      "tags": [
+        "oil",
+        "iea",
+        "economy"
+      ],
+      "dateAdded": "2026-03-14T13:00:00Z",
+      "lastChecked": "2026-03-14T13:00:00Z"
+    },
+    {
+      "id": "fc-037",
+      "claim": "5 US refueling aircraft destroyed at a Saudi airbase",
+      "verdict": "likely",
+      "summary": "WSJ reported 5 US Air Force refueling aircraft were 'damaged' (not destroyed) at a Saudi airbase. The Pentagon has not officially confirmed the specific incident but acknowledged aircraft losses in the theater. The claim exaggerates 'damaged' to 'destroyed.'",
+      "origin": "Social media amplified a WSJ report, changing 'damaged' to 'destroyed.'",
+      "category": "military",
+      "dateAdded": "2026-03-14T06:00:00Z",
       "lastChecked": "2026-03-14T13:00:00Z",
+      "trending": true,
+      "viralPlatforms": [
+        "X/Twitter",
+        "Telegram"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera Day 15",
+          "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+        }
+      ]
+    },
+    {
+      "id": "fc-038",
+      "claim": "White House posted Call of Duty video game footage as real war footage",
+      "verdict": "confirmed",
+      "summary": "The White House did post a video on X that merged real footage with clips from the Call of Duty video game franchise. This was widely criticized and verified by multiple fact-checking organizations. The post has since been deleted but archives exist.",
+      "origin": "Initially spotted by gaming communities who recognized the footage.",
       "category": "political",
-      "summary": "Viral Facebook and TikTok posts on March 4 claimed Iran surrendered after Tehran was bombarded. In reality, Iranian President Pezeshkian said those dreaming of unconditional surrender 'will take that dream to their graves.' Iran did apologize to neighboring countries for collateral strikes but explicitly rejected any notion of surrender.",
-      "sources": [
-        {
-          "name": "Tempo Fact Check — Claim Iran surrendered is false",
-          "url": "https://en.tempo.co/read/2092292/fact-check-claim-that-iran-has-surrendered-to-israel-and-us-is-false"
-        },
-        {
-          "name": "Iran International — Iran will never surrender unconditionally",
-          "url": "https://www.iranintl.com/en/202603075570"
-        },
-        {
-          "name": "PBS — Iran shows no signs of surrender",
-          "url": "https://www.pbs.org/newshour/show/as-iran-shows-no-signs-of-surrender-u-s-launches-most-intense-day-of-strikes"
-        }
-      ],
-      "origin": "Viral Facebook and TikTok posts",
-      "viralPlatforms": [
-        "Facebook",
-        "TikTok",
-        "X/Twitter"
-      ]
-    },
-    {
-      "id": "fc-002",
-      "claim": "Iran sank the USS Abraham Lincoln aircraft carrier",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-06",
+      "dateAdded": "2026-03-14T06:00:00Z",
       "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "Posts went viral (one by Kenyan MP Peter Salasya reached 6M+ views) claiming Iran sank the carrier. PolitiFact found no credible reports supporting the claim, and the vessel markings in the circulated video did not match real photos of the Lincoln. CENTCOM confirmed the ship was not hit.",
-      "sources": [
-        {
-          "name": "PolitiFact — Social media awash with Iran war misinformation",
-          "url": "https://www.politifact.com/article/2026/mar/12/identifying-fake-war-imagery-us-israel-iran/"
-        },
-        {
-          "name": "Poynter — Old and AI-generated videos fueling misinformation",
-          "url": "https://www.poynter.org/fact-checking/2026/fake-videos-strikes-iran/"
-        }
-      ],
-      "origin": "Viral X/Twitter post by Kenyan MP Peter Salasya (6M+ views)",
+      "trending": true,
       "viralPlatforms": [
         "X/Twitter",
-        "TikTok",
-        "Facebook"
-      ]
-    },
-    {
-      "id": "fc-003",
-      "claim": "Iran captured 173 US Delta Force soldiers — images show them in custody",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-07",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "Ali Larijani (Iran's National Security Council head) claimed on X that Iran captured US soldiers. A separate viral post claimed 173 Delta Force soldiers were captured, using AI-generated images — one bearing a visible Google Gemini AI watermark. CENTCOM called the claims 'lies and deceptions.'",
-      "sources": [
-        {
-          "name": "Al Jazeera — Trump admin denies Iran captured US soldiers",
-          "url": "https://www.aljazeera.com/news/2026/3/7/trump-administration-denies-reports-that-iran-captured-us-soldiers"
-        },
-        {
-          "name": "Yahoo News / Lead Stories — 173 Delta Force NOT captured, photos are AI",
-          "url": "https://www.yahoo.com/news/articles/fact-check-173-american-delta-072127359.html"
-        },
-        {
-          "name": "Jerusalem Post — CENTCOM denies Iran captured US soldiers",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-889174"
-        }
+        "Reddit",
+        "YouTube"
       ],
-      "origin": "Ali Larijani on X, IRGC-affiliated Telegram channels, AI-generated images with Google Gemini watermark",
-      "viralPlatforms": [
-        "X/Twitter",
-        "Telegram",
-        "TikTok"
-      ]
-    },
-    {
-      "id": "fc-004",
-      "claim": "Israel bombed North Korea's embassy in Tehran; Kim Jong Un called it a 'big mistake'",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-05",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "political",
-      "summary": "A viral claim circulated that Israel deliberately struck the North Korean embassy and that Kim Jong Un issued a threatening statement. Snopes found no evidence the embassy was targeted, and the alleged Kim Jong Un quote was fabricated. A strike map showed a hit near (but not at) the embassy.",
       "sources": [
         {
-          "name": "Snopes — Did Israel bomb North Korea's embassy in Iran?",
-          "url": "https://www.snopes.com/fact-check/israel-north-korea-embassy-iran-claim/"
+          "name": "Rolling Stone",
+          "url": "https://www.rollingstone.com/culture/culture-features/ai-misinformation-propaganda-iran-war-1235526150/"
         },
         {
-          "name": "Yahoo News — Fact Check on North Korea embassy claim",
-          "url": "https://www.yahoo.com/news/articles/fact-check-posts-falsely-claim-233900511.html"
-        }
-      ],
-      "origin": "Viral social media posts across X/Twitter and Facebook",
-      "viralPlatforms": [
-        "X/Twitter",
-        "Facebook",
-        "Reddit"
-      ]
-    },
-    {
-      "id": "fc-005",
-      "claim": "Iran was days/weeks away from a nuclear weapon — justifying the strikes",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-02",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "weapons",
-      "summary": "Trump and others claimed Iran was on the brink of having a nuclear weapon. IAEA Director General Grossi said on March 2: 'We don't see a structured program to manufacture nuclear weapons.' Arms control experts confirmed there was no evidence of imminent weaponization, though Iran's enriched uranium stockpile had shortened potential timelines.",
-      "sources": [
-        {
-          "name": "FactCheck.org — Assessing Trump's claims on Iran's nuclear capabilities",
-          "url": "https://www.factcheck.org/2026/03/assessing-trumps-claims-on-irans-nuclear-and-missile-capabilities/"
-        },
-        {
-          "name": "Scientific American — Iran was nowhere close to a nuclear bomb",
-          "url": "https://www.scientificamerican.com/article/iran-was-nowhere-close-to-a-nuclear-bomb-experts-say/"
-        },
-        {
-          "name": "Arms Control Association — Did Iran pose an imminent threat? No.",
-          "url": "https://www.armscontrol.org/issue-briefs/2026-03/did-irans-nuclear-and-missile-programs-pose-imminent-threat-no"
-        }
-      ],
-      "origin": "Trump administration statements, US government officials",
-      "viralPlatforms": [
-        "News outlets",
-        "X/Twitter",
-        "Facebook"
-      ]
-    },
-    {
-      "id": "fc-006",
-      "claim": "Iran hit 4 ballistic missiles on USS Abraham Lincoln",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-05",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "The semi-official Iranian outlet Mehr reported that four Iranian ballistic missiles hit the USS Abraham Lincoln. CENTCOM clarified the Lincoln was not hit and the missiles did not even come close. NewsGuard flagged this as one of 18 false war-related claims by Iran.",
-      "sources": [
-        {
-          "name": "CNN — Fake, AI-generated images and videos of the Iran war",
-          "url": "https://www.cnn.com/2026/03/11/politics/fake-ai-images-videos-iran-war"
-        },
-        {
-          "name": "Euronews — Iran's state media ramps up disinformation",
-          "url": "https://www.euronews.com/next/2026/03/06/irans-state-media-ramps-up-disinformation-campaign-as-the-us-iran-conflict-wages"
-        }
-      ],
-      "origin": "Iran's Mehr News Agency (semi-official)",
-      "viralPlatforms": [
-        "Iranian state media",
-        "Telegram",
-        "X/Twitter"
-      ]
-    },
-    {
-      "id": "fc-007",
-      "claim": "650 US troops killed or wounded in first two days of the war",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-03",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "An IRGC spokesperson claimed 650 US troops were killed or wounded, published by military-aligned Tasnim. CENTCOM rebutted this, stating six US service members had been killed at that point. As of March 13, the confirmed US death toll is 13 (including 6 from the KC-135 crash), with ~140 wounded.",
-      "sources": [
-        {
-          "name": "Time — What we know about US service members killed",
-          "url": "https://time.com/article/2026/03/10/us-service-members-killed-iran-war-casualties/"
-        },
-        {
-          "name": "Erkan's Field Diary — Disinformation in the Iran-Israel-US war",
-          "url": "https://erkansaka.net/2026/03/06/iran-war-disinformation-ai-2026-6-march/"
-        }
-      ],
-      "origin": "IRGC spokesperson via Tasnim News Agency",
-      "viralPlatforms": [
-        "Telegram",
-        "X/Twitter",
-        "Iranian state media"
-      ]
-    },
-    {
-      "id": "fc-008",
-      "claim": "AI-generated images show Khamenei's body found under rubble",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-01",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "political",
-      "summary": "After the February 28 strikes killed Supreme Leader Khamenei, images purporting to show his body being recovered from rubble went viral. These were confirmed to be AI-generated fabrications by multiple fact-checking organizations.",
-      "sources": [
-        {
-          "name": "Poynter — AI-generated videos fueling misinformation",
-          "url": "https://www.poynter.org/fact-checking/2026/fake-videos-strikes-iran/"
-        },
-        {
-          "name": "CNN — Fake, AI-generated images and videos of the Iran war",
+          "name": "CNN",
           "url": "https://www.cnn.com/2026/03/11/politics/fake-ai-images-videos-iran-war"
         }
-      ],
-      "origin": "AI-generated content shared on X/Twitter and Telegram",
-      "viralPlatforms": [
-        "X/Twitter",
-        "Telegram",
-        "TikTok"
-      ]
-    },
-    {
-      "id": "fc-009",
-      "claim": "Video shows Iranian missiles hitting Tel Aviv — massive explosion",
-      "verdict": "debunked",
-      "trending": true,
-      "dateAdded": "2026-03-04",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "A video posted on X captioned 'THIS IS TEL AVIV. THANK YOU IRAN!' actually showed the 2015 Tianjin, China chemical warehouse explosion. Separate fake videos showing 'missile barrages hitting Tel Aviv' were traced to Algeria and to the video game Arma 3.",
-      "sources": [
-        {
-          "name": "Euronews — Did you spot these fake videos about the Iran war?",
-          "url": "https://www.euronews.com/my-europe/2026/03/06/did-you-spot-these-fake-videos-about-the-iran-war"
-        },
-        {
-          "name": "Poynter — Old and AI-generated videos fueling misinformation",
-          "url": "https://www.poynter.org/fact-checking/2026/fake-videos-strikes-iran/"
-        }
-      ],
-      "origin": "Recycled 2015 Tianjin explosion footage and Arma 3 video game clips",
-      "viralPlatforms": [
-        "X/Twitter",
-        "TikTok",
-        "Facebook"
       ]
     },
     {
@@ -280,155 +146,6 @@
       "viralPlatforms": [
         "News outlets",
         "X/Twitter"
-      ]
-    },
-    {
-      "id": "fc-011",
-      "claim": "Coordinated IRGC-linked fake account networks are spreading propaganda on social media",
-      "verdict": "confirmed",
-      "trending": true,
-      "dateAdded": "2026-03-10",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "censorship",
-      "summary": "A Clemson University report identified at least 62 accounts across X, Bluesky, and Instagram linked to Iran's IRGC, posing as users from the Americas, UK, Scotland, and Ireland. X identified a single person in Pakistan managing 31 hacked accounts renamed to 'Iran War Monitor' variants. The account 'Daily Iran Military' surged from 700K to 1.4M followers in under a week.",
-      "sources": [
-        {
-          "name": "Times of Israel — X cracks down on AI-generated war footage",
-          "url": "https://www.timesofisrael.com/x-cracks-down-on-ai-generated-war-footage-as-iran-misinformation-runs-rampant/"
-        },
-        {
-          "name": "Fox News — Iranian regime spreading propaganda across dozens of accounts",
-          "url": "https://www.foxnews.com/media/iranian-regime-spreading-anti-israel-propaganda-across-dozens-social-media-accounts-report"
-        }
-      ],
-      "origin": "Clemson University research, X platform investigations",
-      "viralPlatforms": [
-        "X/Twitter",
-        "Bluesky",
-        "Instagram"
-      ]
-    },
-    {
-      "id": "fc-012",
-      "claim": "Iran's internet is at 4% capacity — government hiding massive casualties",
-      "verdict": "likely",
-      "trending": true,
-      "dateAdded": "2026-03-06",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "censorship",
-      "summary": "Iran's internet connectivity has dropped to approximately 4% of normal capacity according to NetBlocks and Cloudflare Radar. This makes independent verification of casualty figures nearly impossible. Hengaw Organization reports 4,300+ killed — triple the government's official figure. The near-total blackout is consistent with deliberate government censorship during the conflict.",
-      "sources": [
-        {
-          "name": "Al Jazeera — Iran death toll tracker",
-          "url": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
-        },
-        {
-          "name": "Hengaw Organization — At least 4,300 killed in first 10 days",
-          "url": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-5"
-        }
-      ],
-      "origin": "NetBlocks internet monitoring, Cloudflare Radar, human rights organizations",
-      "viralPlatforms": [
-        "X/Twitter",
-        "Reddit"
-      ]
-    },
-    {
-      "id": "fc-013",
-      "claim": "Iran's official death toll (~1,444) vastly undercounts actual casualties",
-      "verdict": "likely",
-      "trending": true,
-      "dateAdded": "2026-03-09",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "Iran's Health Ministry reports ~1,444 killed. However, the Hengaw Organization estimates 4,300+ killed in the first 10 days alone (including 3,910 military). The gap exists because Iran's official figures appear to exclude most military casualties. Neither figure can be independently verified due to Iran's internet blackout (4% capacity).",
-      "sources": [
-        {
-          "name": "Al Jazeera — Iran says 1,255 killed, mostly civilians",
-          "url": "https://www.aljazeera.com/news/2026/3/9/iran-says-1255-killed-in-us-israeli-attacks-mostly-civilians"
-        },
-        {
-          "name": "Hengaw — At least 4,300 killed including 390 civilians",
-          "url": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-5"
-        },
-        {
-          "name": "Modern Diplomacy — Counting the casualties",
-          "url": "https://moderndiplomacy.eu/2026/03/10/facts-counting-the-casualties-in-the-us-israel-war-on-iran/"
-        }
-      ],
-      "origin": "Discrepancy between Iranian Health Ministry and independent human rights organizations",
-      "viralPlatforms": [
-        "X/Twitter",
-        "News outlets",
-        "Reddit"
-      ]
-    },
-    {
-      "id": "fc-014",
-      "claim": "Iran's strikes have had 'no impact' on its military capabilities",
-      "verdict": "unlikely",
-      "trending": true,
-      "dateAdded": "2026-03-08",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "Iranian officials claimed US-Israeli strikes caused no meaningful damage to military capabilities. Euronews investigated and found satellite imagery and independent analysis contradicting this, showing substantial damage to nuclear sites (Natanz, Fordow), military facilities, and air defense systems. CENTCOM confirmed 5,000+ targets struck.",
-      "sources": [
-        {
-          "name": "Euronews — Are Iran's claims that strikes had 'no impact' true?",
-          "url": "https://www.euronews.com/my-europe/2026/03/12/are-irans-claims-that-us-israeli-strikes-have-had-no-impact-on-its-military-capabilities-t"
-        }
-      ],
-      "origin": "Iranian government official statements",
-      "viralPlatforms": [
-        "Iranian state media",
-        "Telegram"
-      ]
-    },
-    {
-      "id": "fc-015",
-      "claim": "A French soldier was killed in Iraq — first non-US NATO casualty",
-      "verdict": "confirmed",
-      "trending": true,
-      "dateAdded": "2026-03-12",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "military",
-      "summary": "The French Ministry of Armed Forces confirmed that Warrant Officer Arnaud Frion of the 7th Alpine Chasseurs Battalion was killed in a drone strike near Makhmour in the Erbil region of Iraq on March 12. Five additional French soldiers were wounded. This is the first non-US NATO fatality in the conflict. President Macron called the attack 'unacceptable.'",
-      "sources": [
-        {
-          "name": "BNO News — French soldier killed in Iraq",
-          "url": "https://bnonews.com/index.php/2026/03/french-soldier-killed-in-attack-in-iraq-several-others-wounded/"
-        },
-        {
-          "name": "France 24 — Middle East war live updates",
-          "url": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf"
-        }
-      ],
-      "origin": "French Ministry of Armed Forces official statement",
-      "viralPlatforms": [
-        "News outlets",
-        "X/Twitter"
-      ]
-    },
-    {
-      "id": "fc-016",
-      "claim": "Trump's claim that there's 'practically nothing left to target' in Iran",
-      "verdict": "unlikely",
-      "trending": true,
-      "dateAdded": "2026-03-10",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "category": "political",
-      "summary": "CNN compiled Trump's false and contradictory statements about the war, including the claim that there was 'practically nothing left to target.' Strikes continued to intensify after this statement, and CENTCOM continued identifying new targets. The claim contradicts the ongoing operational tempo.",
-      "sources": [
-        {
-          "name": "CNN — Fact check: Trump's latest false claims about the Iran war",
-          "url": "https://edition.cnn.com/2026/03/10/politics/fact-check-trump-iran-war-tomahawks"
-        }
-      ],
-      "origin": "Trump press conference and social media statements",
-      "viralPlatforms": [
-        "News outlets",
-        "X/Twitter",
-        "TikTok"
       ]
     },
     {
@@ -925,110 +642,6 @@
           "name": "CNN",
           "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26"
         }
-      ]
-    },
-    {
-      "id": "fc-037",
-      "claim": "5 US refueling aircraft destroyed at a Saudi airbase",
-      "verdict": "likely",
-      "summary": "WSJ reported 5 US Air Force refueling aircraft were 'damaged' (not destroyed) at a Saudi airbase. The Pentagon has not officially confirmed the specific incident but acknowledged aircraft losses in the theater. The claim exaggerates 'damaged' to 'destroyed.'",
-      "origin": "Social media amplified a WSJ report, changing 'damaged' to 'destroyed.'",
-      "category": "military",
-      "dateAdded": "2026-03-14T06:00:00Z",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "trending": true,
-      "viralPlatforms": [
-        "X/Twitter",
-        "Telegram"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera Day 15",
-          "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
-        }
-      ]
-    },
-    {
-      "id": "fc-038",
-      "claim": "White House posted Call of Duty video game footage as real war footage",
-      "verdict": "confirmed",
-      "summary": "The White House did post a video on X that merged real footage with clips from the Call of Duty video game franchise. This was widely criticized and verified by multiple fact-checking organizations. The post has since been deleted but archives exist.",
-      "origin": "Initially spotted by gaming communities who recognized the footage.",
-      "category": "political",
-      "dateAdded": "2026-03-14T06:00:00Z",
-      "lastChecked": "2026-03-14T13:00:00Z",
-      "trending": true,
-      "viralPlatforms": [
-        "X/Twitter",
-        "Reddit",
-        "YouTube"
-      ],
-      "sources": [
-        {
-          "name": "Rolling Stone",
-          "url": "https://www.rollingstone.com/culture/culture-features/ai-misinformation-propaganda-iran-war-1235526150/"
-        },
-        {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/03/11/politics/fake-ai-images-videos-iran-war"
-        }
-      ]
-    },
-    {
-      "id": "fc-039",
-      "claim": "Trump claims Iran is 'about to surrender'",
-      "verdict": "unverified",
-      "explanation": "No evidence of Iranian surrender. Iran's intelligence ministry is secretly contacting CIA through backchannel, but this indicates willingness to negotiate, not surrender. Iran continues offensive operations and Hormuz blockade.",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/03/13/trump-iran-surrender-hormuz-oil",
-      "timestamp": "2026-03-14T18:00:00Z",
-      "tags": [
-        "trump",
-        "diplomacy",
-        "ceasefire"
-      ]
-    },
-    {
-      "id": "fc-040",
-      "claim": "KC-135 crash in Iraq was caused by Iranian attack",
-      "verdict": "debunked",
-      "explanation": "CENTCOM explicitly stated the KC-135 crash was not due to hostile or friendly fire. An Iranian proxy group claimed responsibility, but the claim is unsubstantiated. Investigation ongoing.",
-      "source": "NBC News / CENTCOM",
-      "sourceUrl": "https://www.nbcnews.com/news/us-news/us-refueling-plane-crashes-iraq-iran-war-crew-members-killed-rcna263315",
-      "timestamp": "2026-03-14T16:00:00Z",
-      "tags": [
-        "us-military",
-        "iraq",
-        "crash"
-      ]
-    },
-    {
-      "id": "fc-041",
-      "claim": "Iran claims to have hit Netanyahu's office with Khaibar missiles",
-      "verdict": "debunked",
-      "explanation": "Israel dismissed this claim as 'fake news.' No evidence of damage to the Prime Minister's office. Israel's multi-layered air defense intercepted the majority of incoming missiles.",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks",
-      "timestamp": "2026-03-14T14:00:00Z",
-      "tags": [
-        "iran",
-        "israel",
-        "missiles",
-        "misinformation"
-      ]
-    },
-    {
-      "id": "fc-042",
-      "claim": "IEA 400M barrel reserve release will crash oil prices below $80",
-      "verdict": "unlikely",
-      "explanation": "Despite the largest-ever coordinated reserve release of 400M barrels, Brent crude remains above $100/barrel at $103.14. The Hormuz blockade removes ~17M barrels/day from the market, dwarfing the reserve release.",
-      "source": "IEA / CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/03/11/iea-oil-reserves-crude-prices-iran-g7-energy.html",
-      "timestamp": "2026-03-14T20:00:00Z",
-      "tags": [
-        "oil",
-        "iea",
-        "economy"
       ]
     }
   ],

@@ -178,12 +178,8 @@ export default function FactCheckPage() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const recentClaims = useMemo(() => {
-    const lastUpdate = new Date(siteMetadata.lastUpdated)
-    const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
-
     return [...factCheckData.claims]
-      .filter(c => new Date(c.lastChecked) >= cutoff)
-      .sort((a, b) => new Date(b.lastChecked) - new Date(a.lastChecked))
+      .sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded))
   }, [])
 
   const filteredClaims = useMemo(() => {
