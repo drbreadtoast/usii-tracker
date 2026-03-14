@@ -406,6 +406,177 @@ for (const { file, getUrls } of bareDomainCheck) {
 }
 
 // ─────────────────────────────────────────────────
+// 9. CROSS-FILE CONSISTENCY
+// ─────────────────────────────────────────────────
+console.log(`\n${BOLD}9. CROSS-FILE CONSISTENCY${RESET}`)
+
+// Gas price consistency: gas-prices.json vs oil-tracker.json consumer fuel
+if (parsedFiles['gas-prices.json'] && parsedFiles['oil-tracker.json']) {
+  const gas = parsedFiles['gas-prices.json']
+  const oil = parsedFiles['oil-tracker.json']
+  const oilGas = oil.consumerImpact?.fuels?.find(f => f.type === 'Regular Gasoline')
+
+  if (oilGas) {
+    // Price match
+    if (gas.currentAverage === oilGas.current.price) {
+      ok(`Gas price matches: gas-prices ($${gas.currentAverage}) = oil-tracker ($${oilGas.current.price})`)
+    } else {
+      error(`Gas price MISMATCH: gas-prices.json ($${gas.currentAverage}) ≠ oil-tracker.json ($${oilGas.current.price})`)
+    }
+
+    // Pre-war match
+    if (gas.preWarAverage === oilGas.preWar.price) {
+      ok(`Pre-war gas matches: gas-prices ($${gas.preWarAverage}) = oil-tracker ($${oilGas.preWar.price})`)
+    } else {
+      error(`Pre-war gas MISMATCH: gas-prices.json ($${gas.preWarAverage}) ≠ oil-tracker.json ($${oilGas.preWar.price})`)
+    }
+  }
+
+  // Gas changePercent math check
+  const gasPctCalc = parseFloat(((gas.currentAverage - gas.preWarAverage) / gas.preWarAverage * 100).toFixed(1))
+  if (Math.abs(gas.changePercent - gasPctCalc) < 0.2) {
+    ok(`Gas changePercent math: ${gas.changePercent}% ≈ calc ${gasPctCalc}%`)
+  } else {
+    error(`Gas changePercent WRONG: stored ${gas.changePercent}% ≠ calc ${gasPctCalc}%`)
+  }
+
+  // Oil price structure check (must be nested objects, not flat numbers)
+  const cur = oil.oilPrices?.current
+  if (cur) {
+    if (typeof cur.brent === 'object' && cur.brent.price != null) {
+      ok(`Oil current.brent is nested object (price: $${cur.brent.price})`)
+    } else {
+      error(`Oil current.brent is NOT a nested object — will crash site! Got: ${typeof cur.brent}`)
+    }
+    if (typeof cur.wti === 'object' && cur.wti.price != null) {
+      ok(`Oil current.wti is nested object (price: $${cur.wti.price})`)
+    } else {
+      error(`Oil current.wti is NOT a nested object — will crash site! Got: ${typeof cur.wti}`)
+    }
+
+    // Oil % math check
+    if (cur.brent?.price && oil.oilPrices.preWar?.brent?.price) {
+      const bPre = oil.oilPrices.preWar.brent.price
+      const bNow = cur.brent.price
+      const bCalc = `+${((bNow - bPre) / bPre * 100).toFixed(1)}%`
+      if (cur.brent.change === bCalc) {
+        ok(`Brent change math: ${cur.brent.change} = calc ${bCalc}`)
+      } else {
+        error(`Brent change WRONG: stored ${cur.brent.change} ≠ calc ${bCalc}`)
+      }
+    }
+    if (cur.wti?.price && oil.oilPrices.preWar?.wti?.price) {
+      const wPre = oil.oilPrices.preWar.wti.price
+      const wNow = cur.wti.price
+      const wCalc = `+${((wNow - wPre) / wPre * 100).toFixed(1)}%`
+      if (cur.wti.change === wCalc) {
+        ok(`WTI change math: ${cur.wti.change} = calc ${wCalc}`)
+      } else {
+        error(`WTI change WRONG: stored ${cur.wti.change} ≠ calc ${wCalc}`)
+      }
+    }
+  }
+
+  // Consumer fuel math check (all fuels)
+  if (oil.consumerImpact?.fuels) {
+    for (const fuel of oil.consumerImpact.fuels) {
+      const pre = fuel.preWar.price
+      const cur = fuel.current.price
+      const calcPct = `+${((cur - pre) / pre * 100).toFixed(1)}%`
+      const calcDol = `+$${(cur - pre).toFixed(2)}`
+      if (fuel.changePercent !== calcPct) {
+        error(`${fuel.type} changePercent WRONG: ${fuel.changePercent} ≠ calc ${calcPct}`)
+      }
+      if (fuel.change !== calcDol) {
+        error(`${fuel.type} change WRONG: ${fuel.change} ≠ calc ${calcDol}`)
+      }
+    }
+    ok(`Consumer fuel price math verified for ${oil.consumerImpact.fuels.length} fuel types`)
+  }
+
+  // Household impact sum check
+  if (oil.consumerImpact?.householdImpact) {
+    const hh = oil.consumerImpact.householdImpact
+    const hhSum = hh.breakdown.reduce((s, b) => s + b.monthlyIncrease, 0)
+    if (hhSum === hh.averageMonthlyIncrease) {
+      ok(`Household breakdown sum $${hhSum} = stored $${hh.averageMonthlyIncrease}`)
+    } else {
+      error(`Household breakdown MISMATCH: sum $${hhSum} ≠ stored $${hh.averageMonthlyIncrease}`)
+    }
+    if (hh.annualizedCost === hh.averageMonthlyIncrease * 12) {
+      ok(`Household annualized $${hh.annualizedCost} = $${hh.averageMonthlyIncrease} × 12`)
+    } else {
+      error(`Household annualized WRONG: $${hh.annualizedCost} ≠ $${hh.averageMonthlyIncrease} × 12`)
+    }
+  }
+
+  // Hormuz barrel breakdown sum
+  if (oil.hormuzImpact?.breakdownBlocked) {
+    const hz = oil.hormuzImpact
+    const hzSum = hz.breakdownBlocked.crudeOil + hz.breakdownBlocked.refinedProducts + hz.breakdownBlocked.lngEquivalent
+    if (hz.barrelsBlockedDaily === hzSum) {
+      ok(`Hormuz blocked total ${hz.barrelsBlockedDaily / 1e6}M = breakdown sum ${hzSum / 1e6}M`)
+    } else {
+      error(`Hormuz blocked MISMATCH: total ${hz.barrelsBlockedDaily / 1e6}M ≠ breakdown ${hzSum / 1e6}M`)
+    }
+  }
+}
+
+// War costs math check
+if (parsedFiles['war-costs.json']) {
+  const wc = parsedFiles['war-costs.json']
+  const { us, israel, iran } = wc.countryCosts || {}
+  if (us && israel && iran) {
+    const totalDirect = (us.directMilitaryCosts?.total || 0) + (israel.directMilitaryCosts?.total || 0) + (iran.directMilitaryCosts?.total || 0)
+    const totalIndirect = (us.indirectCosts?.total || 0) + (israel.indirectCosts?.total || 0) + (iran.indirectCosts?.total || 0)
+    const combined = totalDirect + totalIndirect
+
+    if (wc.totals?.allCountriesDirectMilitary === totalDirect) {
+      ok(`War costs direct total $${(totalDirect / 1e9).toFixed(1)}B matches`)
+    } else {
+      error(`War costs direct MISMATCH: stored $${(wc.totals?.allCountriesDirectMilitary / 1e9).toFixed(1)}B ≠ calc $${(totalDirect / 1e9).toFixed(1)}B`)
+    }
+    if (wc.totals?.allCountriesIndirectCosts === totalIndirect) {
+      ok(`War costs indirect total $${(totalIndirect / 1e9).toFixed(1)}B matches`)
+    } else {
+      error(`War costs indirect MISMATCH: stored $${(wc.totals?.allCountriesIndirectCosts / 1e9).toFixed(1)}B ≠ calc $${(totalIndirect / 1e9).toFixed(1)}B`)
+    }
+    if (wc.totals?.combinedTotalCosts === combined) {
+      ok(`War costs combined $${(combined / 1e9).toFixed(1)}B matches`)
+    } else {
+      error(`War costs combined MISMATCH: stored $${(wc.totals?.combinedTotalCosts / 1e9).toFixed(1)}B ≠ calc $${(combined / 1e9).toFixed(1)}B`)
+    }
+
+    // Check each country's breakdown sums
+    for (const [name, data] of [['US', us], ['Israel', israel], ['Iran', iran]]) {
+      if (data.directMilitaryCosts?.breakdown) {
+        const sum = Object.values(data.directMilitaryCosts.breakdown).reduce((s, v) => s + (v.amount || 0), 0)
+        if (sum === data.directMilitaryCosts.total) {
+          ok(`${name} direct breakdown sum matches total`)
+        } else {
+          error(`${name} direct breakdown MISMATCH: sum $${(sum/1e9).toFixed(2)}B ≠ total $${(data.directMilitaryCosts.total/1e9).toFixed(2)}B`)
+        }
+      }
+      if (data.indirectCosts?.breakdown) {
+        const sum = Object.values(data.indirectCosts.breakdown).reduce((s, v) => s + (v.amount || 0), 0)
+        if (sum === data.indirectCosts.total) {
+          ok(`${name} indirect breakdown sum matches total`)
+        } else {
+          error(`${name} indirect breakdown MISMATCH: sum $${(sum/1e9).toFixed(2)}B ≠ total $${(data.indirectCosts.total/1e9).toFixed(2)}B`)
+        }
+      }
+    }
+
+    // dailyBurnRate must be a number, not a string
+    if (typeof us.dailyBurnRate === 'number') {
+      ok(`US dailyBurnRate is number ($${(us.dailyBurnRate / 1e9).toFixed(1)}B/day)`)
+    } else {
+      error(`US dailyBurnRate is ${typeof us.dailyBurnRate} — must be number! Will crash cost page.`)
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────
 // SUMMARY
 // ─────────────────────────────────────────────────
 console.log(`\n${BOLD}═══════════════════════════════════════════════════${RESET}`)
