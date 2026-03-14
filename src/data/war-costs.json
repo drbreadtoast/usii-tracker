@@ -81,7 +81,7 @@
         }
       },
       "indirectCosts": {
-        "total": 38000000000,
+        "total": 37050000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
@@ -110,8 +110,8 @@
           }
         }
       },
-      "dailyBurnRate": "$891M-1.4B/day",
-      "dailyBurnRateNote": "CSIS estimates $891M-$1.43B/day. Pentagon told Senate first 6 days cost $11.3B ($1.88B/day). CSIS update: $16.5B through Day 12. Fortune reports ~$1B/day ongoing. European Business Magazine projects $259B over 6 months.",
+      "dailyBurnRate": 1100000000,
+      "dailyBurnRateNote": "CSIS estimates $891M-$1.43B/day (shown as ~$1.1B midpoint). Pentagon told Senate first 6 days cost $11.3B ($1.88B/day). CSIS update: $16.5B through Day 12. Fortune reports ~$1B/day ongoing. European Business Magazine projects $259B over 6 months.",
       "totalEstimate": "$19-22 billion",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Penn Wharton projects $40B-$95B direct costs, up to $210B total economic impact. Pentagon requesting $50B supplemental. Brown University: $31.35B-$33.77B total US spending connected to broader conflict since Oct 7 2023."
     },
@@ -119,7 +119,7 @@
       "name": "Israel",
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "directMilitaryCosts": {
-        "total": 7500000000,
+        "total": 7140000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
@@ -155,7 +155,7 @@
         }
       },
       "indirectCosts": {
-        "total": 22000000000,
+        "total": 20560000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
@@ -227,7 +227,7 @@
         }
       },
       "indirectCosts": {
-        "total": 53000000000,
+        "total": 51330000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
@@ -458,8 +458,8 @@
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
     "daysDeployed": 15,
-    "totalNavalCost": 330000000,
-    "totalNavalCostNote": "Total naval deployment cost for the first 14 days of active conflict operations; does not include pre-conflict surge deployment costs",
+    "totalNavalCost": 375000000,
+    "totalNavalCostNote": "Total naval deployment cost for 15 days of active conflict operations ($25M/day × 15 days); does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -643,11 +643,11 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 33060000000,
-    "allCountriesIndirectCosts": 113000000000,
-    "combinedTotalCosts": 146060000000,
+    "allCountriesDirectMilitary": 32700000000,
+    "allCountriesIndirectCosts": 108940000000,
+    "combinedTotalCosts": 141640000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military (33.1B) + indirect economic costs (113.0B) for all three belligerents through Day 15. CSIS benchmark: $16.5B US costs through Day 12.",
+    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 15. CSIS benchmark: $16.5B US costs through Day 12.",
     "lastCalculated": "2026-03-14T13:00:00Z"
   },
   "daysOfConflict": 15,
