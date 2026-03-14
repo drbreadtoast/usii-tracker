@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Estimates are compiled from open-source intelligence (OSINT), published government reports, Congressional testimony, and assessments from recognized defense research institutions. Quantities represent best-available estimates and may differ from actual classified inventories. Production rates are inferred from procurement budgets, contractor disclosures, and historical delivery schedules. Conflict expenditure figures are derived from satellite imagery analysis, official briefings, and corroborated media reports.",
-    "lastUpdated": "2026-03-13",
+    "lastUpdated": "2026-03-14T06:10:00Z",
     "updateFrequency": "daily",
     "disclaimer": "All figures are estimates based on publicly available information and open-source analysis. Actual military inventories are classified. Numbers should be treated as approximations subject to revision. This data is compiled for informational purposes and does not represent official government positions. Conflict usage figures include both confirmed and analytically assessed strikes. Source URLs point to institutional pages that published relevant analyses; specific reports may require navigation within those sites."
   },
@@ -841,7 +841,7 @@
             "Dimona nuclear facility vicinity",
             "Bahrain civilian areas",
             "Turkish airspace (intercepted by NATO)",
-            "Haifa, Israel (Day 13 barrage — intercepted)",
+            "Haifa, Israel (Day 13 barrage \u2014 intercepted)",
             "US bases in Kuwait and Bahrain (Day 13)"
           ],
           "confirmed": true,
@@ -892,7 +892,7 @@
           "targets": [
             "Central Israel (Tel Aviv, Haifa)",
             "US base at Al Dhafra, UAE",
-            "Tel Aviv / Haifa (Day 13 barrage — intercepted)"
+            "Tel Aviv / Haifa (Day 13 barrage \u2014 intercepted)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.csis.org/"
@@ -902,7 +902,7 @@
           "quantityUsed": 5,
           "dateRange": "2026-03-12",
           "targets": [
-            "Tel Aviv / Haifa (Day 13 barrage — all intercepted by Israeli defenses)"
+            "Tel Aviv / Haifa (Day 13 barrage \u2014 all intercepted by Israeli defenses)"
           ],
           "confirmed": false,
           "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
@@ -1119,11 +1119,26 @@
       "country": "israel",
       "unit": "interceptors produced",
       "data": [
-        { "year": 2021, "quantity": 900 },
-        { "year": 2022, "quantity": 1100 },
-        { "year": 2023, "quantity": 1300 },
-        { "year": 2024, "quantity": 1500 },
-        { "year": 2025, "quantity": 1800 }
+        {
+          "year": 2021,
+          "quantity": 900
+        },
+        {
+          "year": 2022,
+          "quantity": 1100
+        },
+        {
+          "year": 2023,
+          "quantity": 1300
+        },
+        {
+          "year": 2024,
+          "quantity": 1500
+        },
+        {
+          "year": 2025,
+          "quantity": 1800
+        }
       ],
       "notes": "Production accelerated significantly following 2023-2024 regional escalation. US co-production at Raytheon Camden, AR facility added ~40% capacity starting in 2024. Fiscal year figures based on Congressional appropriations and contract disclosures.",
       "sourceUrl": "https://crsreports.congress.gov/"
@@ -1133,11 +1148,26 @@
       "country": "us",
       "unit": "missiles produced",
       "data": [
-        { "year": 2021, "quantity": 380 },
-        { "year": 2022, "quantity": 400 },
-        { "year": 2023, "quantity": 420 },
-        { "year": 2024, "quantity": 460 },
-        { "year": 2025, "quantity": 500 }
+        {
+          "year": 2021,
+          "quantity": 380
+        },
+        {
+          "year": 2022,
+          "quantity": 400
+        },
+        {
+          "year": 2023,
+          "quantity": 420
+        },
+        {
+          "year": 2024,
+          "quantity": 460
+        },
+        {
+          "year": 2025,
+          "quantity": 500
+        }
       ],
       "notes": "Block V production ramp-up accounts for year-over-year increases. FY2025 production benefited from multi-year procurement contract and supply chain stabilization. Maritime Strike Tomahawk (MST) variant entering production adds to total.",
       "sourceUrl": "https://www.csis.org/analysis/tomahawk-cruise-missile"
@@ -1147,11 +1177,26 @@
       "country": "iran",
       "unit": "drones produced",
       "data": [
-        { "year": 2021, "quantity": 1500 },
-        { "year": 2022, "quantity": 3000 },
-        { "year": 2023, "quantity": 4500 },
-        { "year": 2024, "quantity": 5500 },
-        { "year": 2025, "quantity": 6000 }
+        {
+          "year": 2021,
+          "quantity": 1500
+        },
+        {
+          "year": 2022,
+          "quantity": 3000
+        },
+        {
+          "year": 2023,
+          "quantity": 4500
+        },
+        {
+          "year": 2024,
+          "quantity": 5500
+        },
+        {
+          "year": 2025,
+          "quantity": 6000
+        }
       ],
       "notes": "Massive production scale-up driven by Ukraine conflict demand (exports to Russia), proxy supply requirements, and domestic inventory buildup. Low unit cost ($20K) enables mass production. Multiple dispersed assembly facilities reduce vulnerability to strikes. Shahed-238 jet-powered variant entering production in 2025.",
       "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
@@ -1161,11 +1206,26 @@
       "country": "us",
       "unit": "missiles produced",
       "data": [
-        { "year": 2021, "quantity": 360 },
-        { "year": 2022, "quantity": 400 },
-        { "year": 2023, "quantity": 440 },
-        { "year": 2024, "quantity": 500 },
-        { "year": 2025, "quantity": 550 }
+        {
+          "year": 2021,
+          "quantity": 360
+        },
+        {
+          "year": 2022,
+          "quantity": 400
+        },
+        {
+          "year": 2023,
+          "quantity": 440
+        },
+        {
+          "year": 2024,
+          "quantity": 500
+        },
+        {
+          "year": 2025,
+          "quantity": 550
+        }
       ],
       "notes": "Production rate increases reflect both USAF demand and allied export orders (Australia, Finland, Poland, Japan). Lockheed Martin Troy, AL facility expanded production line in 2024. JASSM-XR extended range variant entering low-rate initial production in 2025.",
       "sourceUrl": "https://crsreports.congress.gov/"
@@ -1179,35 +1239,103 @@
         "totalEstimatedCostUsd": 2602000000,
         "totalFormatted": "$2.60B",
         "breakdown": [
-          { "weapon": "Tomahawk", "qty": 500, "totalCost": 1000000000 },
-          { "weapon": "JASSM-ER", "qty": 350, "totalCost": 490000000 },
-          { "weapon": "GBU-57 MOP", "qty": 12, "totalCost": 42000000 },
-          { "weapon": "SM-3 Block IIA", "qty": 85, "totalCost": 1020000000 },
-          { "weapon": "GBU-28", "qty": 200, "totalCost": 50000000 }
+          {
+            "weapon": "Tomahawk",
+            "qty": 500,
+            "totalCost": 1000000000
+          },
+          {
+            "weapon": "JASSM-ER",
+            "qty": 350,
+            "totalCost": 490000000
+          },
+          {
+            "weapon": "GBU-57 MOP",
+            "qty": 12,
+            "totalCost": 42000000
+          },
+          {
+            "weapon": "SM-3 Block IIA",
+            "qty": 85,
+            "totalCost": 1020000000
+          },
+          {
+            "weapon": "GBU-28",
+            "qty": 200,
+            "totalCost": 50000000
+          }
         ]
       },
       "israel": {
         "totalEstimatedCostUsd": 365500000,
         "totalFormatted": "$365.5M",
         "breakdown": [
-          { "weapon": "Arrow-3", "qty": 55, "totalCost": 137500000 },
-          { "weapon": "Iron Dome Tamir", "qty": 750, "totalCost": 37500000 },
-          { "weapon": "David's Sling Stunner", "qty": 95, "totalCost": 95000000 },
-          { "weapon": "LORA", "qty": 40, "totalCost": 48000000 },
-          { "weapon": "Delilah", "qty": 95, "totalCost": 47500000 }
+          {
+            "weapon": "Arrow-3",
+            "qty": 55,
+            "totalCost": 137500000
+          },
+          {
+            "weapon": "Iron Dome Tamir",
+            "qty": 750,
+            "totalCost": 37500000
+          },
+          {
+            "weapon": "David's Sling Stunner",
+            "qty": 95,
+            "totalCost": 95000000
+          },
+          {
+            "weapon": "LORA",
+            "qty": 40,
+            "totalCost": 48000000
+          },
+          {
+            "weapon": "Delilah",
+            "qty": 95,
+            "totalCost": 47500000
+          }
         ]
       },
       "iran": {
         "totalEstimatedCostUsd": 285750000,
         "totalFormatted": "$285.8M",
         "breakdown": [
-          { "weapon": "Shahab-3/Ghadr/Emad", "qty": 255, "totalCost": 127500000 },
-          { "weapon": "Shahed-136", "qty": 2000, "totalCost": 40000000 },
-          { "weapon": "Fateh-110", "qty": 200, "totalCost": 40000000 },
-          { "weapon": "Paveh", "qty": 75, "totalCost": 26250000 },
-          { "weapon": "Khorramshahr/Kheybar Shekan", "qty": 55, "totalCost": 44000000 },
-          { "weapon": "Fattah Hypersonic", "qty": 5, "totalCost": 2500000 },
-          { "weapon": "Cluster munitions (ballistic)", "qty": 11, "totalCost": 5500000 }
+          {
+            "weapon": "Shahab-3/Ghadr/Emad",
+            "qty": 255,
+            "totalCost": 127500000
+          },
+          {
+            "weapon": "Shahed-136",
+            "qty": 2000,
+            "totalCost": 40000000
+          },
+          {
+            "weapon": "Fateh-110",
+            "qty": 200,
+            "totalCost": 40000000
+          },
+          {
+            "weapon": "Paveh",
+            "qty": 75,
+            "totalCost": 26250000
+          },
+          {
+            "weapon": "Khorramshahr/Kheybar Shekan",
+            "qty": 55,
+            "totalCost": 44000000
+          },
+          {
+            "weapon": "Fattah Hypersonic",
+            "qty": 5,
+            "totalCost": 2500000
+          },
+          {
+            "weapon": "Cluster munitions (ballistic)",
+            "qty": 11,
+            "totalCost": 5500000
+          }
         ]
       }
     },

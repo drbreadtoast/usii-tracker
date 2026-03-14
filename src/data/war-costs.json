@@ -43,7 +43,7 @@
   "countryCosts": {
     "us": {
       "name": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
         "total": 20220000000,
         "currency": "USD",
@@ -117,7 +117,7 @@
     },
     "israel": {
       "name": "Israel",
-      "flag": "🇮🇱",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
       "directMilitaryCosts": {
         "total": 6780000000,
         "currency": "USD",
@@ -189,7 +189,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "directMilitaryCosts": {
         "total": 3560000000,
         "currency": "USD",
@@ -555,7 +555,7 @@
       "currentWarRiskPremium": 5.0,
       "premiumUnit": "percentage of hull value",
       "percentageIncrease": 9900,
-      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20°N)",
+      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20\u00b0N)",
       "estimatedAdditionalCostPerTransit": 2500000,
       "description": "War risk insurance premiums for vessels transiting the Persian Gulf have surged from 0.05% to 5% of hull value. A typical VLCC (Very Large Crude Carrier) valued at $120 million now faces $6 million in war risk premiums per transit compared to $60,000 pre-conflict. Many underwriters have suspended coverage entirely.",
       "source": "Lloyd's Market Association Joint War Committee",
@@ -632,5 +632,5 @@
     "lastCalculated": "2026-03-13T17:00:00Z"
   },
   "daysOfConflict": 14,
-  "lastUpdated": "2026-03-13T23:45:00Z"
+  "lastUpdated": "2026-03-14T06:10:00Z"
 }
