@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-14T13:00:00Z",
-  "currentAverage": 3.63,
+  "lastUpdated": "2026-03-14T21:44:00Z",
+  "currentAverage": 3.68,
   "preWarAverage": 3.18,
-  "changePercent": "+14.2%",
+  "changePercent": 23.5,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -89,29 +89,35 @@
     {
       "date": "2026-03-10",
       "price": 3.55,
-      "label": "Day 11 \u2014 Oil crashes 11% on Trump 'war ending soon'",
+      "label": "Day 11 — Oil crashes 11% on Trump 'war ending soon'",
       "isEvent": true
     },
     {
       "date": "2026-03-11",
       "price": 3.578,
-      "label": "Day 12 \u2014 IEA 400M barrel release; oil rebounds 3%",
+      "label": "Day 12 — IEA 400M barrel release; oil rebounds 3%",
       "isEvent": true
     },
     {
       "date": "2026-03-12",
       "price": 3.58,
-      "label": "Day 13 \u2014 AAA avg $3.58, CA above $5.00. Oil at $100+",
+      "label": "Day 13 — AAA avg $3.58, CA above $5.00. Oil at $100+",
       "isEvent": true
     },
     {
       "date": "2026-03-13",
       "price": 3.63,
-      "label": "$3.63 \u2014 up 35\u00a2 in one week. California above $5/gal. Analysts predict $4/gal nationally next week.",
+      "label": "$3.63 — up 35¢ in one week. California above $5/gal. Analysts predict $4/gal nationally next week.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-14",
+      "price": 3.68,
+      "label": "Day 15 — IEA 400M barrel release fails to stem prices",
       "isEvent": true
     }
   ],
-  "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
+  "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
   "breakdown": {
     "preWar": {
       "label": "Before War (Feb 27)",
@@ -119,7 +125,7 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$68 \u00f7 42 gal",
+          "formula": "$68 ÷ 42 gal",
           "value": 1.62,
           "percent": 51
         },
@@ -163,7 +169,7 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$102 \u00f7 42 gal",
+          "formula": "$102 ÷ 42 gal",
           "value": 2.43,
           "percent": 49,
           "change": "+$0.81"
@@ -205,7 +211,11 @@
         }
       ],
       "total": 4.054,
-      "note": "AAA national average at $3.60/gal (March 13). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California above $5.00/gal."
+      "note": "AAA national average at $3.60/gal (March 13). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California above $5.00/gal.",
+      "crude": 2.28,
+      "taxes": 0.52,
+      "refining": 0.44,
+      "distribution": 0.44
     }
   },
   "context": "AAA national average at $3.60/gallon (+13.2% from pre-war $3.18). California above $5.00/gallon. Brent crude ~$100/barrel. Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Pump prices lag crude by 1-2 weeks."

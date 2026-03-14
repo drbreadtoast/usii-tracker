@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-14T13:00:00Z",
+    "lastUpdated": "2026-03-14T21:44:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,9 +27,9 @@
     ]
   },
   "summary": {
-    "totalSites": 77,
-    "confirmed": 64,
-    "reported": 9,
+    "totalSites": 78,
+    "confirmed": 69,
+    "reported": 6,
     "rumored": 3,
     "countriesAffected": 13,
     "categories": {
@@ -319,7 +319,7 @@
       "date": "2026-03-03",
       "attributedTo": "us",
       "damageLevel": "destroyed",
-      "description": "US JASSM-ER struck building identified as suspected IRGC warehouse \u2014 actually a girls' school in session. Deadliest single incident of the war.",
+      "description": "US JASSM-ER struck building identified as suspected IRGC warehouse — actually a girls' school in session. Deadliest single incident of the war.",
       "weaponUsed": "JASSM-ER",
       "casualties": "85-180 schoolgirls killed (ages 12-17), 200+ wounded",
       "source": "Iranian Red Crescent / Al Jazeera",
@@ -480,7 +480,7 @@
     },
     {
       "id": "dmg-024",
-      "name": "Jerusalem \u2014 Multiple Impact Sites",
+      "name": "Jerusalem — Multiple Impact Sites",
       "city": "Jerusalem",
       "country": "Israel",
       "lat": 31.7683,
@@ -594,7 +594,7 @@
     },
     {
       "id": "dmg-030",
-      "name": "Kiryat Shmona \u2014 City-wide Damage",
+      "name": "Kiryat Shmona — City-wide Damage",
       "city": "Kiryat Shmona",
       "country": "Israel",
       "lat": 33.2075,
@@ -1003,7 +1003,7 @@
       "date": "2026-03-08",
       "attributedTo": "iran",
       "damageLevel": "minor",
-      "description": "17 ballistic missiles and 6 drones launched at Qatar \u2014 all intercepted by Qatari and allied air defense systems.",
+      "description": "17 ballistic missiles and 6 drones launched at Qatar — all intercepted by Qatari and allied air defense systems.",
       "weaponUsed": "Shahab-3 / Shahed-136",
       "casualties": "No casualties",
       "source": "Al Jazeera",
@@ -1126,7 +1126,7 @@
     },
     {
       "id": "dmg-058",
-      "name": "Commercial Vessels \u2014 Strait of Hormuz (Day 12)",
+      "name": "Commercial Vessels — Strait of Hormuz (Day 12)",
       "city": "Strait of Hormuz",
       "country": "International Waters",
       "lat": 26.5667,
@@ -1179,7 +1179,7 @@
       "id": "dmg-061",
       "name": "Iraqi Oil Port Tanker Damage",
       "country": "Iraq",
-      "lat": 30.0,
+      "lat": 30,
       "lng": 47.95,
       "category": "infrastructure",
       "status": "confirmed",
@@ -1197,7 +1197,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-12",
-      "description": "Israeli overnight strikes hit Beirut's Corniche \u2014 a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
+      "description": "Israeli overnight strikes hit Beirut's Corniche — a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
       "source": "ABC News",
       "sourceUrl": "https://abcnews.com/International/strikes-israel-hezbollah-ramp-evacuation-notice-issued-beirut/story?id=130981948"
     },
@@ -1281,7 +1281,7 @@
     },
     {
       "id": "dmg-069",
-      "name": "Central Israel \u2014 Cluster Missile Impact Zone",
+      "name": "Central Israel — Cluster Missile Impact Zone",
       "country": "Israel",
       "lat": 32.07,
       "lng": 34.77,
@@ -1301,7 +1301,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation \u2014 rally was held in solidarity with Palestinians amid ongoing conflict.",
+      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation — rally was held in solidarity with Palestinians amid ongoing conflict.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians"
     },
@@ -1314,7 +1314,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Israel destroyed the Zrarieh Bridge over the Litani River \u2014 first acknowledged strike on civilian infrastructure in Lebanon.",
+      "description": "Israel destroyed the Zrarieh Bridge over the Litani River — first acknowledged strike on civilian infrastructure in Lebanon.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/israel-destroys-bridge-in-lebanon-and-threatens-gaza-scale-devastation",
       "attributedTo": "israel"
@@ -1328,7 +1328,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Explosion near Al-Quds Day rally in Tehran. 1 woman killed. Part of highest volume strikes day \u2014 15,000+ total targets hit.",
+      "description": "Explosion near Al-Quds Day rally in Tehran. 1 woman killed. Part of highest volume strikes day — 15,000+ total targets hit.",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/world/explosion-rocks-state-organized-rally-in-tehran-after-israeli-warning",
       "attributedTo": "us"
@@ -1398,10 +1398,23 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-14",
-      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port \u2014 key Hormuz alternative.",
+      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port — key Hormuz alternative.",
       "source": "Gulf News",
       "sourceUrl": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056",
       "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-078",
+      "name": "KC-135 Crash Site, Western Iraq",
+      "country": "Iraq",
+      "lat": 33.3,
+      "lng": 43.8,
+      "category": "military",
+      "status": "confirmed",
+      "description": "KC-135 Stratotanker crash site. All 6 crew killed. CENTCOM says not hostile fire.",
+      "date": "2026-03-14",
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/us-refueling-plane-crashes-iraq-iran-war-crew-members-killed-rcna263315"
     }
   ]
 }

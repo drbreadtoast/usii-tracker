@@ -1,12 +1,19 @@
 {
-  "lastUpdated": "2026-03-14T13:00:00Z",
+  "lastUpdated": "2026-03-14T21:44:00Z",
   "categories": [
     {
       "id": "us-left",
       "label": "US Left-Leaning Media",
       "color": "#3B82F6",
-      "icon": "\ud83d\udcfa",
+      "icon": "📺",
       "outlets": [
+        {
+          "name": "NPR",
+          "headline": "NPR/PBS Poll: 56% of Americans Oppose Iran War as Costs Mount to $16.5B",
+          "timestamp": "2026-03-14T20:00:00Z",
+          "url": "https://www.npr.org/2026/03/14/nx-s1-5746623/iran-war-cost-deaths",
+          "summary": "Majority of Americans now oppose the conflict. Market stress nearing Liberation Day tariff shock levels. Goldman Sachs delays rate cut forecast."
+        },
         {
           "name": "NPR",
           "headline": "These are the casualties and cost of the war in Iran 2 weeks into the conflict",
@@ -16,14 +23,14 @@
         },
         {
           "name": "Washington Post",
-          "headline": "Kharg Island raid spares oil but not questions \u2014 Trump's escalation gamble deepens",
+          "headline": "Kharg Island raid spares oil but not questions — Trump's escalation gamble deepens",
           "timestamp": "2026-03-14T04:00:00Z",
           "url": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/",
-          "summary": "Analysis of Trump's Kharg Island strike \u2014 military targets destroyed but oil infrastructure spared as bargaining chip. 120 House Democrats demand answers on school strike."
+          "summary": "Analysis of Trump's Kharg Island strike — military targets destroyed but oil infrastructure spared as bargaining chip. 120 House Democrats demand answers on school strike."
         },
         {
           "name": "CNN",
-          "headline": "Pentagon admits Iran wasn't planning preemptive strike \u2014 but 15,000 targets hit anyway",
+          "headline": "Pentagon admits Iran wasn't planning preemptive strike — but 15,000 targets hit anyway",
           "timestamp": "2026-03-13T22:00:00Z",
           "url": "https://www.cnn.com/2026/03/13/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk",
           "summary": "Investigative reporting questions war rationale. Pentagon underestimated Iran's willingness to close Hormuz. White House blasted CNN for coverage. Covers Marines deployment and ground operations possibility."
@@ -33,14 +40,7 @@
           "headline": "US lifts Russian oil sanctions as Iran war pushes energy crisis to breaking point",
           "timestamp": "2026-03-13T21:00:00Z",
           "url": "https://www.washingtonpost.com/business/2026/03/12/russian-oil-sanctions-lifted-iran/",
-          "summary": "Frames Russia sanctions waiver as geopolitical failure \u2014 war forcing US to facilitate Russian oil trade. Covers Lebanon bridge destruction and mounting civilian toll across region."
-        },
-        {
-          "name": "NPR",
-          "headline": "All 6 KC-135 crew dead, 2,200 Marines heading to Middle East as war enters third week",
-          "timestamp": "2026-03-13T20:00:00Z",
-          "url": "https://www.npr.org/2026/03/13/g-s1-113563/us-iran-war",
-          "summary": "Focus on human cost \u2014 13 US service members dead, 140+ wounded. Ground operations not ruled out. War costs already at $11.3B in first 6 days alone."
+          "summary": "Frames Russia sanctions waiver as geopolitical failure — war forcing US to facilitate Russian oil trade. Covers Lebanon bridge destruction and mounting civilian toll across region."
         }
       ]
     },
@@ -48,18 +48,25 @@
       "id": "us-right",
       "label": "US Right-Leaning Media",
       "color": "#EF4444",
-      "icon": "\ud83d\udcfb",
+      "icon": "📻",
       "outlets": [
         {
           "name": "Fox News",
-          "headline": "Hegseth says US 'decimating' Iranian military \u2014 Mojtaba Khamenei 'wounded and likely disfigured'",
+          "headline": "Trump Claims Iran 'About to Surrender' — Calls for International Naval Coalition to Reopen Hormuz",
+          "timestamp": "2026-03-14T19:00:00Z",
+          "url": "https://www.axios.com/2026/03/13/trump-iran-surrender-hormuz-oil",
+          "summary": "President says US is 'way ahead of schedule.' Iran's selective Hormuz reopening seen as sign of weakening resolve."
+        },
+        {
+          "name": "Fox News",
+          "headline": "Hegseth says US 'decimating' Iranian military — Mojtaba Khamenei 'wounded and likely disfigured'",
           "timestamp": "2026-03-14T10:00:00Z",
           "url": "https://time.com/article/2026/03/13/hegseth-iran-military-destroyed-strait-of-hormuz-oil-attacks/",
           "summary": "Focus on US military dominance, Iran's ballistic missile production eliminated, Khamenei injured. Hegseth ridiculed Iran's leadership as 'rats.'"
         },
         {
           "name": "The Hill",
-          "headline": "Trump announces devastating Kharg Island bombing raid \u2014 calls it 'most powerful in Middle East history'",
+          "headline": "Trump announces devastating Kharg Island bombing raid — calls it 'most powerful in Middle East history'",
           "timestamp": "2026-03-14T04:00:00Z",
           "url": "https://thehill.com/homenews/administration/5783850-trump-bombs-iran-kharg-island/",
           "summary": "Trump claims Kharg Island military targets obliterated. Hegseth declares Iran's military destroyed and combat ineffective. Oil infrastructure deliberately spared."
@@ -69,11 +76,11 @@
           "headline": "Trump says Khamenei 'damaged but alive,' urges Iranians to 'rise up' against regime",
           "timestamp": "2026-03-13T22:00:00Z",
           "url": "https://www.timesofisrael.com/liveblog-march-13-2026/",
-          "summary": "Platform for Trump and Netanyahu interviews. Emphasis on military success \u2014 15,000+ targets hit, Iran capabilities degraded 90-95%. Netanyahu vows 'many surprises' for next phase."
+          "summary": "Platform for Trump and Netanyahu interviews. Emphasis on military success — 15,000+ targets hit, Iran capabilities degraded 90-95%. Netanyahu vows 'many surprises' for next phase."
         },
         {
           "name": "Daily Wire",
-          "headline": "Hegseth: Iran's missile and drone capacity nearly eliminated \u2014 'core mission' is nuclear program",
+          "headline": "Hegseth: Iran's missile and drone capacity nearly eliminated — 'core mission' is nuclear program",
           "timestamp": "2026-03-13T21:00:00Z",
           "url": "https://www.cbsnews.com/news/iran-war-hegseth-caine-update-pentagon/",
           "summary": "Supportive framing of Pentagon briefing. Marines deployment as show of strength. Focus on nuclear program as justification."
@@ -84,8 +91,15 @@
       "id": "international",
       "label": "International Media",
       "color": "#22C55E",
-      "icon": "\ud83c\udf0d",
+      "icon": "🌍",
       "outlets": [
+        {
+          "name": "Al Jazeera",
+          "headline": "Day 15: KC-135 Crash Kills 6 US Crew; F-15E Friendly Fire; Iran Opens Hormuz Selectively",
+          "timestamp": "2026-03-14T21:00:00Z",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran",
+          "summary": "US military losses mount with KC-135 crash and friendly fire incident. Iran's selective Hormuz strategy divides Western alliance from neutral states."
+        },
         {
           "name": "France 24",
           "headline": "Iran threatens retaliation as Trump says US 'obliterated' targets on Kharg Island",
@@ -95,7 +109,7 @@
         },
         {
           "name": "Al Jazeera",
-          "headline": "US bombs Kharg Island as Baghdad embassy struck \u2014 Day 14 escalation spirals",
+          "headline": "US bombs Kharg Island as Baghdad embassy struck — Day 14 escalation spirals",
           "timestamp": "2026-03-14T05:30:00Z",
           "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks",
           "summary": "Double escalation: US hits Iran's oil hub military targets while IRGC missile strikes US Embassy Baghdad. NATO intercepts 3rd missile over Turkey. Guterres arrives in Beirut."
@@ -105,21 +119,14 @@
           "headline": "Israel destroys bridge in Lebanon, threatens 'Gaza-scale devastation' as death toll mounts",
           "timestamp": "2026-03-13T22:00:00Z",
           "url": "https://www.aljazeera.com/news/2026/3/13/israel-destroys-bridge-in-lebanon-and-threatens-gaza-scale-devastation",
-          "summary": "Extensive coverage of Lebanon civilian toll \u2014 773 killed, 800K+ displaced. First civilian infrastructure strike. Day 14 liveblog covers Gulf attacks, Tehran explosion, Marines deployment."
+          "summary": "Extensive coverage of Lebanon civilian toll — 773 killed, 800K+ displaced. First civilian infrastructure strike. Day 14 liveblog covers Gulf attacks, Tehran explosion, Marines deployment."
         },
         {
           "name": "BBC",
           "headline": "Iran war Day 14: Marines deployed as oil surges past $103 and Russia sanctions waived",
           "timestamp": "2026-03-13T21:00:00Z",
           "url": "https://www.bbc.com/news/world",
-          "summary": "Comprehensive Day 14 coverage. Focus on economic fallout \u2014 Brent above $103, gas prices surging. US forced to waive Russia sanctions. 46,000+ flights cancelled since war began."
-        },
-        {
-          "name": "Euronews",
-          "headline": "Saudi Arabia intercepts dozens of Iranian drones as war nears third week",
-          "timestamp": "2026-03-13T20:00:00Z",
-          "url": "https://www.euronews.com/2026/03/13/saudi-arabia-intercept-over-two-dozen-drones-fired-from-tehran-as-war-in-iran-nears-third-",
-          "summary": "Gulf state perspective \u2014 Saudi intercepted ~50 drones, UAE 278 ballistic missiles total. French soldier killed. EU condemns Russia sanctions waiver."
+          "summary": "Comprehensive Day 14 coverage. Focus on economic fallout — Brent above $103, gas prices surging. US forced to waive Russia sanctions. 46,000+ flights cancelled since war began."
         }
       ]
     },
@@ -127,8 +134,15 @@
       "id": "israeli",
       "label": "Israeli Media",
       "color": "#60A5FA",
-      "icon": "\ud83c\uddee\ud83c\uddf1",
+      "icon": "🇮🇱",
       "outlets": [
+        {
+          "name": "Jerusalem Post",
+          "headline": "Iran Intelligence Ministry Secretly Contacts CIA Through Third Country Backchannel",
+          "timestamp": "2026-03-14T18:00:00Z",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-888816",
+          "summary": "Iran reaching out to CIA through intermediary intelligence service. Larijani and Araghchi using Oman as diplomatic conduit."
+        },
         {
           "name": "Times of Israel",
           "headline": "Day 15: IDF destroys Iran space center, Amsterdam Jewish school bombed, 3 missiles hit Israel",
@@ -138,7 +152,7 @@
         },
         {
           "name": "Israel Hayom",
-          "headline": "State Dept puts $10M bounty on Mojtaba Khamenei \u2014 US targets Iran's leadership directly",
+          "headline": "State Dept puts $10M bounty on Mojtaba Khamenei — US targets Iran's leadership directly",
           "timestamp": "2026-03-14T03:00:00Z",
           "url": "https://www.israelhayom.com/2026/03/13/us-puts-10m-bounty-on-irans-supreme-leader-mojtaba-khamenei/",
           "summary": "$10M reward for information on Iran's Supreme Leader and 7 IRGC commanders. Netanyahu claims Israeli strikes killed nuclear scientists."
@@ -152,7 +166,7 @@
         },
         {
           "name": "Haaretz",
-          "headline": "11 cluster missiles penetrated \u2014 Iran's new weapon challenges Israeli air defenses",
+          "headline": "11 cluster missiles penetrated — Iran's new weapon challenges Israeli air defenses",
           "timestamp": "2026-03-13T20:00:00Z",
           "url": "https://www.haaretz.com/israel-news/security-aviation/2026-03-12/ty-article-magazine/.premium/11-iranian-cluster-missiles-penetrated-one-dropped-70-bombs-over-central-israel/0000019c-e1d3-dffd-a3fc-e1df09ed0000",
           "summary": "Investigative piece on cluster munition penetration. 2 killed, 50+ wounded in single strike. Iran using banned cluster warheads on ~half of missiles. IDF admits new challenge."
@@ -163,8 +177,15 @@
       "id": "iranian",
       "label": "Iranian Media",
       "color": "#F97316",
-      "icon": "\ud83c\uddee\ud83c\uddf7",
+      "icon": "🇮🇷",
       "outlets": [
+        {
+          "name": "Tehran Times",
+          "headline": "Araghchi Mocks Trump's 'Begging' for Naval Coalition — 'American Power Has Failed'",
+          "timestamp": "2026-03-14T17:00:00Z",
+          "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks",
+          "summary": "FM Araghchi says Trump begging for warships shows US failure. IRGC maintains selective Hormuz blockade as leverage."
+        },
         {
           "name": "Iran International",
           "headline": "IRGC threatens UAE cities, FM Araghchi mocks US for lifting Russia oil sanctions",
@@ -174,24 +195,24 @@
         },
         {
           "name": "Iran International",
-          "headline": "Iran threatens oil company strikes after Kharg Island raid \u2014 warns US allies are targets",
+          "headline": "Iran threatens oil company strikes after Kharg Island raid — warns US allies are targets",
           "timestamp": "2026-03-14T05:00:00Z",
           "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26",
           "summary": "Tehran warns it will strike oil companies with US connections if Kharg oil infrastructure is targeted. IRGC claims 48th phase of retaliation after embassy strike."
         },
         {
           "name": "Press TV",
-          "headline": "15,000+ targets hit by US \u2014 Iran vows to expand war to new fronts",
+          "headline": "15,000+ targets hit by US — Iran vows to expand war to new fronts",
           "timestamp": "2026-03-13T22:00:00Z",
           "url": "https://www.presstv.ir/Detail/2026/03/12/765292/Ex-IRGC-chief-No-truce-in-US-Israeli-war-not-until-Iran-gets-definite-outcome",
           "summary": "Frames war as Western aggression. Covers Mojtaba Khamenei's vow to keep Hormuz closed and demand US base closures. Larijani: war won't end until enemies are 'sorry.' Reports on yuan-denominated oil trade proposal."
         },
         {
           "name": "IRNA",
-          "headline": "Al-Quds Day rally explosion \u2014 Iranian people defiant despite US-Israeli bombing",
+          "headline": "Al-Quds Day rally explosion — Iranian people defiant despite US-Israeli bombing",
           "timestamp": "2026-03-13T20:00:00Z",
           "url": "https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks",
-          "summary": "State agency reports Al-Quds Day rally explosion as evidence of enemy sabotage. Internet at 4% \u2014 state controls nearly all information flow. Reports on 2,200 Marines as escalation."
+          "summary": "State agency reports Al-Quds Day rally explosion as evidence of enemy sabotage. Internet at 4% — state controls nearly all information flow. Reports on 2,200 Marines as escalation."
         }
       ]
     }
