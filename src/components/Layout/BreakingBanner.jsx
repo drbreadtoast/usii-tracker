@@ -12,13 +12,13 @@ export default function BreakingBanner({ breakingNews }) {
   const separator = '   ///   '
 
   return (
-    <div className="bg-blue-950/60 border-b border-blue-900/50 overflow-hidden shrink-0">
+    <Link to="/breaking-news" className="block bg-blue-950/60 border-b border-blue-900/50 overflow-hidden shrink-0 hover:bg-blue-950/80 transition-colors cursor-pointer">
       <div className="flex items-center">
-        {/* Fixed label — clickable link to Breaking News page */}
-        <Link to="/breaking-news" className="bg-blue-700 px-3 py-1.5 flex items-center gap-1.5 shrink-0 z-10 hover:bg-blue-600 transition-colors cursor-pointer">
+        {/* Fixed label */}
+        <div className="bg-blue-700 px-3 py-1.5 flex items-center gap-1.5 shrink-0 z-10">
           <AlertTriangle size={12} className="text-white" />
           <span className="text-xs font-bold text-white tracking-wider uppercase">24 Hour Report</span>
-        </Link>
+        </div>
 
         {/* Seamless scrolling text — two identical copies for infinite loop */}
         <div className="overflow-hidden flex-1 py-1.5 group">
@@ -28,6 +28,6 @@ export default function BreakingBanner({ breakingNews }) {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
