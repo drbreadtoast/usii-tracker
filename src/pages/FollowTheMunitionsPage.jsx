@@ -432,6 +432,7 @@ export default function FollowTheMunitionsPage() {
   const countryKeys = ['us', 'israel', 'iran']
 
   const [costSort, setCostSort] = useState('cost-desc')
+  const [showIntro, setShowIntro] = useState(false)
   const sortedCosts = [...costPerUnit].sort((a, b) => {
     if (costSort === 'cost-desc') return b.costUsd - a.costUsd
     if (costSort === 'cost-asc') return a.costUsd - b.costUsd
@@ -454,14 +455,23 @@ export default function FollowTheMunitionsPage() {
         </div>
       </header>
 
-      {/* Intro Banner */}
+      {/* Intro Banner — Collapsible */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
-          <div className="flex items-start gap-3">
-            <Target size={18} className="text-red-400 shrink-0 mt-0.5" />
-            <div>
+        <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+          <button
+            onClick={() => setShowIntro(!showIntro)}
+            className="w-full flex items-center gap-3 p-4 hover:bg-gray-800/50 transition-colors"
+          >
+            <Target size={18} className="text-red-400 shrink-0" />
+            <div className="flex-1 text-left">
               <h2 className="text-sm font-bold text-gray-200">{metadata.title}</h2>
-              <p className="text-xs text-gray-400 mt-1 leading-relaxed">{metadata.methodology}</p>
+              <p className="text-[10px] text-gray-500 mt-0.5">Tap to see methodology, sources & disclaimer</p>
+            </div>
+            {showIntro ? <ChevronUp size={16} className="text-gray-500 shrink-0" /> : <ChevronDown size={16} className="text-gray-500 shrink-0" />}
+          </button>
+          {showIntro && (
+            <div className="px-4 pb-4 ml-[30px] border-t border-gray-800/50 pt-3">
+              <p className="text-xs text-gray-400 leading-relaxed">{metadata.methodology}</p>
               <div className="flex items-center gap-2 flex-wrap mt-2">
                 <span className="text-[10px] text-gray-600 font-semibold uppercase tracking-wider">Sources:</span>
                 {metadata.sources.map((src, i) => (
@@ -486,7 +496,7 @@ export default function FollowTheMunitionsPage() {
                 Last updated: {metadata.lastUpdated}
               </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
 

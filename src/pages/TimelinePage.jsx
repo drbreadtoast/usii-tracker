@@ -547,6 +547,7 @@ export default function TimelinePage() {
   const [expandAll, setExpandAll] = useState(false)
   const [zoomLevel, setZoomLevel] = useState('detailed') // 'detailed' | 'summary' | 'overview'
   const [sortOrder, setSortOrder] = useState('newest') // 'newest' | 'oldest'
+  const [showIntro, setShowIntro] = useState(false)
   const [expandedDays, setExpandedDays] = useState(new Set())
 
   // Events tab data (from useEvents + useFilters hooks)
@@ -853,14 +854,23 @@ export default function TimelinePage() {
         </div>
       )}
 
-      {/* Intro banner */}
+      {/* Intro banner — Collapsible */}
       <div className="max-w-5xl mx-auto px-6 pt-6 pb-2">
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
-          <div className="flex items-start gap-3">
-            <Radio size={18} className="text-red-500 shrink-0 mt-0.5" />
-            <div>
+        <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+          <button
+            onClick={() => setShowIntro(!showIntro)}
+            className="w-full flex items-center gap-3 p-4 hover:bg-gray-800/50 transition-colors"
+          >
+            <Radio size={18} className="text-red-500 shrink-0" />
+            <div className="flex-1 text-left">
               <h2 className="text-sm font-bold text-gray-200">Complete War Timeline — Iran-Israel Conflict 2026</h2>
-              <p className="text-xs text-gray-400 mt-1 leading-relaxed">
+              <p className="text-[10px] text-gray-500 mt-0.5">Tap to see methodology, verification legend & disclaimer</p>
+            </div>
+            {showIntro ? <ChevronUp size={16} className="text-gray-500 shrink-0" /> : <ChevronDown size={16} className="text-gray-500 shrink-0" />}
+          </button>
+          {showIntro && (
+            <div className="px-4 pb-4 ml-[30px] border-t border-gray-800/50 pt-3">
+              <p className="text-xs text-gray-400 leading-relaxed">
                 This timeline presents a chronological record of events from the pre-war period through the current day.
                 Each entry is fact-checked where possible and includes source citations. Competing narratives from the
                 US, Iran, and Israel are shown side-by-side so readers can evaluate claims independently.
@@ -894,7 +904,7 @@ export default function TimelinePage() {
                 </div>
               </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
 

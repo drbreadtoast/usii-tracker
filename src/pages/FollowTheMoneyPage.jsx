@@ -489,6 +489,7 @@ function SectionHeader({ icon: Icon, iconColor, title, count }) {
 export default function FollowTheMoneyPage() {
   const [filterParty, setFilterParty] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
+  const [showIntro, setShowIntro] = useState(false)
 
   // Calculated totals
   const totalOrgSpending = useMemo(() => {
@@ -547,14 +548,23 @@ export default function FollowTheMoneyPage() {
         </div>
       </header>
 
-      {/* Intro Banner */}
+      {/* Intro Banner — Collapsible */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-2">
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
-          <div className="flex items-start gap-3">
-            <DollarSign size={18} className="text-green-400 shrink-0 mt-0.5" />
-            <div>
+        <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+          <button
+            onClick={() => setShowIntro(!showIntro)}
+            className="w-full flex items-center gap-3 p-4 hover:bg-gray-800/50 transition-colors"
+          >
+            <DollarSign size={18} className="text-green-400 shrink-0" />
+            <div className="flex-1 text-left">
               <h2 className="text-sm font-bold text-gray-200">US Political Lobby Money Ties to Israel</h2>
-              <p className="text-xs text-gray-400 mt-1 leading-relaxed">
+              <p className="text-[10px] text-gray-500 mt-0.5">Tap to see methodology, sources & disclaimer</p>
+            </div>
+            {showIntro ? <ChevronUp size={16} className="text-gray-500 shrink-0" /> : <ChevronDown size={16} className="text-gray-500 shrink-0" />}
+          </button>
+          {showIntro && (
+            <div className="px-4 pb-4 ml-[30px] border-t border-gray-800/50 pt-3">
+              <p className="text-xs text-gray-400 leading-relaxed">
                 {lobbyData.metadata.methodology}
               </p>
               <div className="flex items-center gap-2 flex-wrap mt-2">
@@ -575,7 +585,7 @@ export default function FollowTheMoneyPage() {
                 Last updated: {lobbyData.metadata.lastUpdated}
               </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
 
