@@ -90,7 +90,7 @@
         "source": "ICE front-month settlement",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm"
       },
-      "changePercent": 48
+      "changePercent": 30
     },
     "priceHistory": [
       {
@@ -354,7 +354,7 @@
     "status": "effectively_closed",
     "blockadeDayCount": 10,
     "blockadeStartDate": "2026-03-02",
-    "barrelsBlockedDaily": 20000000,
+    "barrelsBlockedDaily": 21000000,
     "breakdownBlocked": {
       "crudeOil": 17000000,
       "refinedProducts": 2000000,
@@ -538,22 +538,22 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.578/gallon — up 12.5% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
-      "detail": "AAA national average at $3.578/gal as of March 11. Diesel at $4.66/gal. Energy Secretary Chris Wright falsely claimed gas prices dropped — AAA data contradicts this. Oil crash of 11% on March 10 and IEA 400M barrel reserve release may ease pump prices in 1-2 weeks. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
+      "fact": "US gasoline prices at $3.68/gallon — up 15.7% from pre-war $3.18/gal. Diesel at $4.66/gal — up 22.6%",
+      "detail": "AAA national average at $3.68/gal as of March 14. Diesel at $4.66/gal. IEA 400M barrel reserve release has not stemmed price increases. Brent above $100 keeps upward pressure on pump prices. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.37/gal.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Brent crude past $100/barrel (+24.6% from pre-war) and WTI at $95.73 (+24.8%). IEA approved largest-ever coordinated release of 400M barrels across 32 countries, with US contributing 172M barrels from SPR.",
-      "detail": "Brent crude rebounded 3.4% to $90.77 and WTI rose 2.8% to $86.01 on March 11 after the prior day's 11-12% crash. IEA's record 400M barrel reserve release partially stabilized markets. However, Iran's 37th wave with super-heavy Khoramshahr missiles and 3 more ship attacks near Hormuz pushed prices back up. Both benchmarks remain ~14% above pre-war levels. CPI at 2.4% y/y (pre-war data). Dow -0.89%, S&P -0.33%.",
+      "fact": "Brent crude at $103.14/barrel (+29.2% from pre-war) and WTI at $98.71 (+30.7%). IEA approved largest-ever coordinated release of 400M barrels across 32 countries, with US contributing 172M barrels from SPR.",
+      "detail": "Brent crude surged past $100 on March 12 and remains elevated at $103.14. WTI at $98.71. IEA's record 400M barrel reserve release has failed to bring prices below $100. Iran's selective Hormuz reopening for non-Western ships adds to market uncertainty. Both benchmarks remain ~30% above pre-war levels.",
       "source": "CNBC / IEA",
       "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
     },
     {
       "id": 8,
       "fact": "US Treasury waives Russia oil sanctions for 1 month to ease global supply crunch amid Hormuz blockade.",
-      "detail": "On Day 14, the US Treasury Department temporarily waived sanctions on Russian oil exports for 30 days in an effort to increase global oil supply while the Strait of Hormuz remains effectively closed. The waiver acknowledges the severity of the supply disruption and the limits of the IEA reserve release. Gas prices at $3.60/gal nationally (AAA).",
+      "detail": "On Day 14, the US Treasury Department temporarily waived sanctions on Russian oil exports for 30 days in an effort to increase global oil supply while the Strait of Hormuz remains effectively closed. The waiver acknowledges the severity of the supply disruption and the limits of the IEA reserve release. Gas prices at $3.68/gal nationally (AAA).",
       "source": "NBC News",
       "sourceUrl": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302"
     },

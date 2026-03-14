@@ -164,59 +164,59 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Mar 13)",
-      "crudePerBarrel": 90,
+      "label": "Current (Mar 14)",
+      "crudePerBarrel": 101,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$102 ÷ 42 gal",
-          "value": 2.43,
-          "percent": 49,
-          "change": "+$0.81"
+          "formula": "$101 ÷ 42 gal",
+          "value": 2.4,
+          "percent": 60,
+          "change": "+$0.78"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
           "value": 0.65,
-          "percent": 13,
+          "percent": 16,
           "change": "+$0.25"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
           "value": 0.3,
-          "percent": 6,
+          "percent": 7,
           "change": "+$0.15"
         },
         {
           "name": "Federal Excise Tax",
           "formula": "Fixed rate",
           "value": 0.184,
-          "percent": 4,
+          "percent": 5,
           "change": "$0.00"
         },
         {
           "name": "Average State Tax",
           "formula": "50-state average",
           "value": 0.35,
-          "percent": 8,
+          "percent": 9,
           "change": "$0.00"
         },
         {
           "name": "Retail Margin",
           "formula": "Station profit",
           "value": 0.12,
-          "percent": 4,
+          "percent": 3,
           "change": "$0.00"
         }
       ],
-      "total": 4.054,
-      "note": "AAA national average at $3.60/gal (March 13). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California above $5.00/gal.",
+      "total": 4.004,
+      "note": "AAA national average at $3.68/gal (March 14). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California above $5.37/gal.",
       "crude": 2.28,
       "taxes": 0.52,
       "refining": 0.44,
       "distribution": 0.44
     }
   },
-  "context": "AAA national average at $3.60/gallon (+13.2% from pre-war $3.18). California above $5.00/gallon. Brent crude ~$100/barrel. Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Pump prices lag crude by 1-2 weeks."
+  "context": "AAA national average at $3.68/gallon (+15.7% from pre-war $3.18). California above $5.37/gallon. Brent crude at $103/barrel. Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Pump prices lag crude by 1-2 weeks."
 }
