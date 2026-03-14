@@ -5,6 +5,21 @@ import siteMetadata from '../data/site-metadata.json'
 
 const PATCH_NOTES = [
   {
+    version: '2.3',
+    date: 'March 14, 2026',
+    title: 'Data Integrity, Cost Page & Oil Page Improvements',
+    icon: Wrench,
+    iconColor: 'text-green-400',
+    highlights: [
+      'Added automated cross-file data validation — 21 new integrity checks run before every deployment to catch inconsistencies',
+      'Improved accuracy and consistency of oil and gas price displays across all pages',
+      'Follow the Cost page: Added collapsible intro section to save space and prioritize data',
+      'Follow the Oil page: Comprehensive audit and accuracy improvements across all sections',
+      'Enhanced deployment pipeline with stricter pre-publish checks',
+      'Added donation support integration across the site',
+    ],
+  },
+  {
     version: '2.2',
     date: 'March 13, 2026',
     title: 'Fact Check Page, Death Toll Context, UI Improvements',
