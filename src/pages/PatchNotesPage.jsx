@@ -18,7 +18,6 @@ const PATCH_NOTES = [
       'Renamed "Explore" button to "Menu" in the navigation bar',
       '24hr Report: Individual items now show dates only (no times) to prevent inaccurate timestamps; page-level "Last Refresh" shows date, time, and how long ago',
       'Timeline & Events pages: Removed all time displays and morning/afternoon/evening labels — dates only for accuracy',
-      'Breaking News alert updated to KC-135 crash with 3 clickable, verified source links',
     ],
   },
   {

@@ -110,12 +110,12 @@ function OilPriceBanner() {
         </div>
         <div className="flex items-center flex-1 divide-x divide-gray-800">
           <div className="flex items-center flex-1 min-w-0">
-            <span className="text-[9px] font-bold text-amber-400 bg-amber-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">WTI</span>
-            <LivePriceWidget symbol="TVC:USOIL" title="WTI Crude" />
-          </div>
-          <div className="flex items-center flex-1 min-w-0">
             <span className="text-[9px] font-bold text-orange-400 bg-orange-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">Brent</span>
             <LivePriceWidget symbol="TVC:UKOIL" title="Brent Crude" />
+          </div>
+          <div className="flex items-center flex-1 min-w-0">
+            <span className="text-[9px] font-bold text-amber-400 bg-amber-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">WTI</span>
+            <LivePriceWidget symbol="TVC:USOIL" title="WTI Crude" />
           </div>
         </div>
       </div>
