@@ -107,6 +107,20 @@ export default function BreakingNewsPage() {
         </div>
       </div>
 
+      {/* Support bar */}
+      <div className="bg-amber-950/20 border-b border-amber-900/20 px-4 py-1.5 flex items-center justify-center">
+        <a
+          href={siteMetadata.donationUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 text-[10px] text-amber-400/80 hover:text-amber-300 transition-colors"
+        >
+          <span className="text-amber-500">♥</span>
+          <span>This tracker is built and updated daily by 1 person.</span>
+          <span className="font-semibold text-amber-400 hover:text-amber-300 underline underline-offset-2">Support this project</span>
+        </a>
+      </div>
+
       {/* 24-hour news items */}
       <div className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6 space-y-4">
         {recentItems.length === 0 ? (
