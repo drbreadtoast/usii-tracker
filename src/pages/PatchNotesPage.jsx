@@ -46,7 +46,7 @@ const PATCH_NOTES = [
       'All timestamps across the site now display in Pacific Time (PT) — eliminated UTC references that caused confusing date/time displays',
       'The red "Breaking News" banner is now clickable and links directly to the 24 Hour Report page',
       'Reordered the world clock bar to prioritize conflict zones: Jerusalem, Tehran, Washington, Beirut, Moscow, Beijing, San Francisco',
-      'Rebranded from "USII Tracker" to "The OSS Report" across the entire site',
+      'Rebranded from "USII Tracker" to "TheOSSreport.com" across the entire site',
     ],
   },
   {
@@ -173,7 +173,7 @@ const PATCH_NOTES = [
     icon: MessageCircle,
     iconColor: 'text-gray-400',
     highlights: [
-      'Launched The OSS Report with interactive conflict map, timeline, and event database',
+      'Launched TheOSSreport.com with interactive conflict map, timeline, and event database',
       'Built core infrastructure: 24 static JSON data files updated multiple times daily',
       'Added the Escalations page tracking major turning points in the conflict',
       'Added Follow the Money page with lobbying and funding data',
@@ -202,9 +202,7 @@ export default function PatchNotesPage() {
               <h1 className="text-sm font-bold text-gray-200">Patch Notes</h1>
             </div>
           </div>
-          <span className="text-[10px] text-blue-400 font-mono bg-blue-950/30 px-1.5 py-0.5 rounded border border-blue-900/50">
-            usiitracker.com
-          </span>
+          <span className="text-[10px] text-yellow-400 font-bold">TheOSSreport.com</span>
         </div>
       </header>
 

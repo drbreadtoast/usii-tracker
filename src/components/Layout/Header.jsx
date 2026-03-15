@@ -118,14 +118,13 @@ export default function Header({ metadata }) {
       <header className="bg-gray-900 border-b border-gray-800 px-4 py-2 flex items-center justify-between shrink-0 relative">
         {/* Logo / Title + URL */}
         <div className="flex items-center gap-2 shrink-0">
-          <Link to="/" className="flex items-center gap-2">
-            <h1 className="text-lg font-bold tracking-tight">
-              <span className="text-white">The </span>
-              <span className="text-red-500">OSS</span>
-              <span className="text-white"> Report</span>
+          <Link to="/" className="flex items-center gap-1.5">
+            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight">
+              <span className="text-yellow-400">TheOSS</span>
+              <span className="text-white">report</span>
+              <span className="text-yellow-400">.com</span>
             </h1>
           </Link>
-          <span className="text-[10px] text-blue-400 font-mono bg-blue-950/30 px-1.5 py-0.5 rounded border border-blue-900/50 hidden sm:inline">usiitracker.com</span>
           <span className="text-[9px] text-gray-500 hidden md:inline">US · Israel · Iran War Tracker</span>
         </div>
 
@@ -253,7 +252,7 @@ export default function Header({ metadata }) {
             <div className="flex items-center justify-between px-4 py-3 border-b border-gray-800">
               <div className="flex items-center gap-2">
                 <LayoutGrid size={16} className="text-blue-400" />
-                <span className="text-sm font-bold text-gray-200">Explore The OSS Report</span>
+                <span className="text-sm font-bold text-gray-200">Explore TheOSSreport.com</span>
                 <span className="text-[10px] text-gray-600">14 pages</span>
               </div>
               <button onClick={() => setExploreOpen(false)} className="text-gray-500 hover:text-white">
