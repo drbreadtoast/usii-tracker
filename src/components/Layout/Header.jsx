@@ -120,9 +120,10 @@ export default function Header({ metadata }) {
         <div className="flex items-center gap-2 shrink-0">
           <Link to="/" className="flex items-center gap-1.5">
             <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight">
-              <span className="text-yellow-400">TheOSS</span>
+              <span className="text-white">The</span>
+              <span className="text-red-500">OSS</span>
               <span className="text-white">report</span>
-              <span className="text-yellow-400">.com</span>
+              <span className="text-red-500">.com</span>
             </h1>
           </Link>
           <span className="text-[9px] text-gray-500 hidden md:inline">US · Israel · Iran War Tracker</span>

@@ -202,7 +202,7 @@ export default function PatchNotesPage() {
               <h1 className="text-sm font-bold text-gray-200">Patch Notes</h1>
             </div>
           </div>
-          <span className="text-[10px] text-yellow-400 font-bold">TheOSSreport.com</span>
+          <span className="text-[10px] text-red-400 font-bold">TheOSSreport.com</span>
         </div>
       </header>
 

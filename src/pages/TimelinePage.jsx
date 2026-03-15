@@ -697,7 +697,7 @@ export default function TimelinePage() {
             <div className="px-6 py-4">
               <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-yellow-400/80">TheOSSreport.com</span>
+                  <span className="font-bold text-red-400">TheOSSreport.com</span>
                   <span>Iran-Israel Conflict Tracker</span>
                 </div>
                 <div className="flex items-center gap-1">
@@ -1024,7 +1024,7 @@ export default function TimelinePage() {
         <div className="px-6 py-4">
           <div className="max-w-5xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
             <div className="flex items-center gap-2">
-              <span className="font-bold text-yellow-400/80">TheOSSreport.com</span>
+              <span className="font-bold text-red-400">TheOSSreport.com</span>
               <span>Iran-Israel Conflict Tracker</span>
             </div>
             <div className="flex items-center gap-1">

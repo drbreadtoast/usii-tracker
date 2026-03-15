@@ -123,9 +123,10 @@ export default function NavBar() {
         <div className="flex items-center gap-2 mr-2 shrink-0">
           <Link to="/" className="flex items-center">
             <h1 className="text-base sm:text-lg font-extrabold tracking-tight">
-              <span className="text-yellow-400">TheOSS</span>
+              <span className="text-white">The</span>
+              <span className="text-red-500">OSS</span>
               <span className="text-white">report</span>
-              <span className="text-yellow-400">.com</span>
+              <span className="text-red-500">.com</span>
             </h1>
           </Link>
           <span className="text-[9px] text-gray-500 hidden md:inline">US · Israel · Iran War Tracker</span>
