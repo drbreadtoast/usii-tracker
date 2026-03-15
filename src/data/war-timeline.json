@@ -4483,5 +4483,130 @@
       }
     ],
     "significance": "medium"
+  },
+  {
+    "id": "tl-162",
+    "date": "2026-03-14",
+    "time": "18:00",
+    "day": 15,
+    "dayLabel": "DAY 15",
+    "title": "US Strikes 90 Military Targets on Kharg Island — Oil Spared",
+    "description": "CENTCOM strikes 90 military targets on Kharg Island — Iran's critical oil export hub handling 90% of crude exports. Targets include naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Trump deliberately spares oil infrastructure but warns of 'immediate reconsideration' if Iran blocks Hormuz.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by Washington Post, Al Jazeera, NPR, Time",
+    "sources": [
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-163",
+    "date": "2026-03-14",
+    "time": "20:00",
+    "day": 15,
+    "dayLabel": "DAY 15",
+    "title": "Iran Retaliates — Missiles Hit Israel, Eilat, Gulf States",
+    "description": "Iran launches retaliatory missiles targeting central Israel, Eilat (child moderately injured, 2 lightly hurt), and Jerusalem. Iran claims Khaibar missiles struck Netanyahu's office — no impact confirmed in Jerusalem. Qatar intercepts 4 ballistic missiles. Kuwait's Ahmad Al-Jaber Air Base hit by drones. Fujairah (UAE) fire after drone debris.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "partially_verified",
+    "factCheckNote": "Missile launches and Eilat casualties confirmed. Iran's claim of hitting Netanyahu's office unconfirmed.",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-14-26"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-164",
+    "date": "2026-03-14",
+    "time": "16:00",
+    "day": 15,
+    "dayLabel": "DAY 15",
+    "title": "Iran-Linked Hackers Hit Stryker — 60+ Hacktivist Groups Active",
+    "description": "Iran-linked hacking group 'Handala' launches major cyberattack on medical devices company Stryker. Employee phones wiped worldwide, computer access blocked. CISA investigation launched. Pro-Russian group NoName057(16) teams with Iranian hacktivists to target Elbit Systems. Poland reports possible Iranian hack on nuclear research center. ~60 hacktivist groups active.",
+    "actor": "iran",
+    "type": "cyber",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by Axios, Al Jazeera, Palo Alto Unit 42, PBS",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/11/iran-linked-hackers-hit-medical-giant-stryker-in-retaliatory-cyberattack"
+      },
+      {
+        "name": "PBS",
+        "url": "https://www.pbs.org/newshour/world/iran-linked-hackers-take-aim-at-u-s-and-other-targets-raising-risk-of-cyberattacks-during-war"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-165",
+    "date": "2026-03-14",
+    "time": "13:00",
+    "day": 15,
+    "dayLabel": "DAY 15",
+    "title": "Hegseth: Iran Military 'Destroyed' — $10M Reward for Khamenei Info",
+    "description": "Defense Secretary Hegseth claims Iran's military is 'destroyed.' Missile capability reduced 90%, drone capability down 95%. Claims new supreme leader Mojtaba Khamenei is 'wounded and likely disfigured.' State Dept offers $10M reward for Khamenei's location. US-Israeli strikes have hit 15,000+ targets across 200+ cities.",
+    "actor": "us",
+    "type": "diplomatic",
+    "verificationStatus": "partially_verified",
+    "factCheck": "partially_verified",
+    "factCheckNote": "$10M reward confirmed by State Dept. Capability reduction figures not independently verified. Khamenei condition unconfirmed.",
+    "sources": [
+      {
+        "name": "Time",
+        "url": "https://time.com/article/2026/03/13/hegseth-iran-military-destroyed-strait-of-hormuz-oil-attacks/"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/03/13/hegseth-iran-war-supreme-leader-wounded-disfigured"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-166",
+    "date": "2026-03-14",
+    "time": "12:00",
+    "day": 15,
+    "dayLabel": "DAY 15",
+    "title": "UNHCR: 3.2M Iranians Displaced — Humanitarian Crisis Deepens",
+    "description": "UNHCR reports 3.2 million Iranians internally displaced. 100,000 fled Tehran in first 72 hours. 56 cultural sites suffered serious structural damage. 29 clinical facilities damaged, 10 forced to close. 2.5M Afghan refugees in Iran also at risk. UNESCO urges protection of heritage sites. Lebanon: 830,000 displaced, 826 killed (Health Ministry).",
+    "actor": "multiple",
+    "type": "humanitarian",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "UNHCR displacement figures confirmed. Lebanon Health Ministry figures verified.",
+    "sources": [
+      {
+        "name": "UNHCR",
+        "url": "https://www.unhcr.org/news/press-releases/unhcr-3-2-million-iranians-temporarily-displaced-iran-conflict-intensifies"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/12/nx-s1-5745939/assessing-the-humanitarian-impact-of-war-in-iran-so-far"
+      }
+    ],
+    "significance": "high"
   }
 ]

@@ -1401,5 +1401,54 @@
       "injured": 0,
       "note": "All 6 crew ejected and recovered"
     }
+  },
+  {
+    "id": "ms-094",
+    "city": "Kharg Island",
+    "country": "Iran",
+    "lat": 29.2333,
+    "lng": 50.3167,
+    "strikeType": "air_strike",
+    "attributedTo": "us",
+    "date": "2026-03-14",
+    "description": "CENTCOM strikes 90 military targets on Kharg Island — naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Oil infrastructure deliberately spared.",
+    "source": "Washington Post",
+    "sourceUrl": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/",
+    "weaponType": "Precision-guided munitions / cruise missiles",
+    "casualties": "Unknown"
+  },
+  {
+    "id": "ms-095",
+    "city": "Eilat",
+    "country": "Israel",
+    "lat": 29.5577,
+    "lng": 34.9519,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-14",
+    "description": "Iranian retaliatory missile strike on Eilat — child moderately injured, 2 lightly hurt. Part of broader retaliatory salvo targeting central Israel, Jerusalem, and Gulf states.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks",
+    "weaponType": "Ballistic missile",
+    "casualties": {
+      "killed": 0,
+      "injured": 3,
+      "note": "1 child moderately injured, 2 lightly hurt"
+    }
+  },
+  {
+    "id": "ms-096",
+    "city": "Ahmad Al-Jaber Air Base",
+    "country": "Kuwait",
+    "lat": 28.9375,
+    "lng": 47.7917,
+    "strikeType": "drone_strike",
+    "attributedTo": "iran",
+    "date": "2026-03-14",
+    "description": "Iranian drones hit Kuwait's Ahmad Al-Jaber Air Base as part of retaliatory strikes against Gulf state hosts of US forces.",
+    "source": "CNN",
+    "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-14-26",
+    "weaponType": "Attack drone",
+    "casualties": "Unknown"
   }
 ]

@@ -27,13 +27,13 @@
     ]
   },
   "summary": {
-    "totalSites": 78,
-    "confirmed": 69,
+    "totalSites": 84,
+    "confirmed": 75,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 13,
     "categories": {
-      "military": 24,
+      "military": 28,
       "nuclear": 6,
       "civilian": 15,
       "infrastructure": 9,
@@ -1415,6 +1415,34 @@
       "date": "2026-03-14",
       "source": "NBC News",
       "sourceUrl": "https://www.nbcnews.com/news/us-news/us-refueling-plane-crashes-iraq-iran-war-crew-members-killed-rcna263315"
+    },
+    {
+      "id": "dmg-083",
+      "name": "Kharg Island Military Facilities (90 targets)",
+      "country": "Iran",
+      "lat": 29.2333,
+      "lng": 50.3167,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-14",
+      "description": "CENTCOM struck 90 military targets — naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Oil infrastructure deliberately spared.",
+      "source": "Washington Post",
+      "sourceUrl": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/",
+      "attributedTo": "us"
+    },
+    {
+      "id": "dmg-084",
+      "name": "Ahmad Al-Jaber Air Base",
+      "country": "Kuwait",
+      "lat": 28.9375,
+      "lng": 47.7917,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-14",
+      "description": "Iranian drones hit Kuwait's Ahmad Al-Jaber Air Base as part of retaliatory strikes on Gulf state hosts of US forces.",
+      "source": "CNN",
+      "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-14-26",
+      "attributedTo": "iran"
     }
   ]
 }

@@ -4511,5 +4511,144 @@
       "litani",
       "day-15"
     ]
+  },
+  {
+    "id": "evt-new-100",
+    "title": "US Strikes 90 Military Targets on Iran's Kharg Island",
+    "description": "CENTCOM strikes 90 military targets on Kharg Island — Iran's critical oil export hub handling 90% of crude exports. Targets include naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Trump deliberately spares oil infrastructure but warns of 'immediate reconsideration' if Iran blocks Hormuz shipping.",
+    "type": "strike",
+    "lat": 29.2333,
+    "lng": 50.3167,
+    "location": "Kharg Island, Iran",
+    "timestamp": "2026-03-14T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/14/nx-s1-5747838/trump-kharg-island-iran-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "us",
+      "iran",
+      "kharg-island",
+      "oil",
+      "strike",
+      "day-15"
+    ]
+  },
+  {
+    "id": "evt-new-101",
+    "title": "Iran Retaliates — Missiles Target Israel, Eilat, Gulf States",
+    "description": "Iran launches retaliatory missiles targeting central Israel, Eilat (child moderately injured, 2 lightly hurt), and Jerusalem. Iran claims Khaibar missiles struck Netanyahu's office — no impact confirmed. Qatar intercepts 4 ballistic missiles. Kuwait's Ahmad Al-Jaber Air Base hit by drones. Fujairah (UAE) fire after drone debris.",
+    "type": "strike",
+    "lat": 29.5577,
+    "lng": 34.9519,
+    "location": "Eilat, Israel / Multiple Gulf targets",
+    "timestamp": "2026-03-14T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-14-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "reported": "1 child moderately injured, 2 lightly hurt in Eilat"
+    },
+    "tags": [
+      "iran",
+      "israel",
+      "retaliation",
+      "missiles",
+      "eilat",
+      "gulf-states",
+      "day-15"
+    ]
+  },
+  {
+    "id": "evt-new-102",
+    "title": "Iran-Linked Hackers Hit Medical Giant Stryker in Major Cyberattack",
+    "description": "Iran-linked hacking group 'Handala' launches major cyberattack on medical devices company Stryker. Employee phones wiped worldwide, computer access blocked. CISA investigation launched. 60+ hacktivist groups now active. Poland reports possible Iranian hack attempt on National Centre for Nuclear Research.",
+    "type": "cyber",
+    "lat": 42.2917,
+    "lng": -85.5872,
+    "location": "Kalamazoo, Michigan (Stryker HQ)",
+    "timestamp": "2026-03-14T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/11/iran-linked-hackers-hit-medical-giant-stryker-in-retaliatory-cyberattack"
+      },
+      {
+        "name": "PBS",
+        "url": "https://www.pbs.org/newshour/world/iran-linked-hackers-take-aim-at-u-s-and-other-targets-raising-risk-of-cyberattacks-during-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "cyber",
+      "stryker",
+      "handala",
+      "cisa",
+      "day-15"
+    ]
+  },
+  {
+    "id": "evt-new-103",
+    "title": "UNHCR: 3.2 Million Iranians Displaced as Humanitarian Crisis Deepens",
+    "description": "UNHCR reports 3.2 million Iranians displaced internally, mostly fleeing Tehran and urban areas. 100,000 fled Tehran in first 72 hours. 2.5M Afghan refugees in Iran also at risk. 56 cultural sites suffered serious structural damage. 29 clinical facilities damaged, 10 forced to close. UNESCO urges protection of Iran's heritage sites.",
+    "type": "humanitarian",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran / Multiple provinces",
+    "timestamp": "2026-03-14T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "UNHCR",
+        "url": "https://www.unhcr.org/news/press-releases/unhcr-3-2-million-iranians-temporarily-displaced-iran-conflict-intensifies"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/12/nx-s1-5745939/assessing-the-humanitarian-impact-of-war-in-iran-so-far"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "humanitarian",
+      "displacement",
+      "unhcr",
+      "cultural-sites",
+      "day-15"
+    ]
   }
 ]
