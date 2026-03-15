@@ -35,9 +35,9 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-15T04:37:00Z",
+    "lastUpdated": "2026-03-15T14:20:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 15,
+    "daysOfConflict": 16,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -457,9 +457,9 @@
     },
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
-    "daysDeployed": 15,
-    "totalNavalCost": 375000000,
-    "totalNavalCostNote": "Total naval deployment cost for 15 days of active conflict operations ($25M/day × 15 days); does not include pre-conflict surge deployment costs",
+    "daysDeployed": 16,
+    "totalNavalCost": 400000000,
+    "totalNavalCostNote": "Total naval deployment cost for 16 days of active conflict operations ($25M/day × 16 days); does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -647,9 +647,9 @@
     "allCountriesIndirectCosts": 108940000000,
     "combinedTotalCosts": 141640000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 15. CSIS benchmark: $16.5B US costs through Day 12.",
-    "lastCalculated": "2026-03-14T13:00:00Z"
+    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 16. CSIS benchmark: $16.5B US costs through Day 12.",
+    "lastCalculated": "2026-03-15T14:20:00Z"
   },
-  "daysOfConflict": 15,
-  "lastUpdated": "2026-03-15T04:37:00Z"
+  "daysOfConflict": 16,
+  "lastUpdated": "2026-03-15T14:20:00Z"
 }

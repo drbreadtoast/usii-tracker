@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-14T21:44:00Z",
+    "lastUpdated": "2026-03-15T12:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,15 +27,15 @@
     ]
   },
   "summary": {
-    "totalSites": 84,
-    "confirmed": 75,
+    "totalSites": 87,
+    "confirmed": 78,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 13,
     "categories": {
-      "military": 28,
+      "military": 30,
       "nuclear": 6,
-      "civilian": 15,
+      "civilian": 16,
       "infrastructure": 9,
       "energy": 5
     }
@@ -1443,6 +1443,51 @@
       "source": "CNN",
       "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-14-26",
       "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-085",
+      "name": "Shiraz Military Installations",
+      "country": "Iran",
+      "city": "Shiraz",
+      "lat": 29.5918,
+      "lng": 52.5836,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-15",
+      "description": "Multiple military installations near Shiraz struck — 20 explosions reported overnight",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+      "attributedTo": "us"
+    },
+    {
+      "id": "dmg-086",
+      "name": "Dezful Air Base",
+      "country": "Iran",
+      "city": "Dezful",
+      "lat": 32.3811,
+      "lng": 48.4036,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-15",
+      "description": "Dezful Air Base damaged in overnight US-Israeli strikes",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+      "attributedTo": "us"
+    },
+    {
+      "id": "dmg-087",
+      "name": "Residential Building, Northern Sidon",
+      "country": "Lebanon",
+      "city": "Sidon",
+      "lat": 33.56,
+      "lng": 35.38,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-15",
+      "description": "Residential building in northern Sidon struck by Israeli airstrike, killing 1 civilian and causing fire",
+      "source": "Euronews",
+      "sourceUrl": "https://www.euronews.com/2026/03/15/overnight-israeli-strikes-kill-at-least-four-in-lebanon-as-un-chief-urges-diplomatic-solut",
+      "attributedTo": "israel"
     }
   ]
 }

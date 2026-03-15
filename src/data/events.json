@@ -4650,5 +4650,190 @@
       "cultural-sites",
       "day-15"
     ]
+  },
+  {
+    "id": "evt-new-104",
+    "title": "Heavy Overnight Strikes on Isfahan, Shiraz, Tehran, Dezful",
+    "description": "US-Israeli forces conduct major overnight bombing across Iran. 20 explosions near Shiraz, heavy strikes on Isfahan, southern Tehran, Dezful Air Base, Khomein, and Hamedan.",
+    "type": "strike",
+    "lat": 32.6546,
+    "lng": 51.668,
+    "location": "Isfahan, Iran",
+    "timestamp": "2026-03-15T05:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "airstrike",
+      "isfahan",
+      "shiraz",
+      "tehran"
+    ]
+  },
+  {
+    "id": "evt-new-105",
+    "title": "IRGC Launches 10 Missiles at Al Dhafra Air Base, UAE",
+    "description": "Iran's IRGC launches 10 hypersonic missiles and drones targeting US forces at Al Dhafra Air Base in UAE.",
+    "type": "strike",
+    "lat": 24.25,
+    "lng": 54.55,
+    "location": "Al Dhafra Air Base, UAE",
+    "timestamp": "2026-03-15T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/15/iran-war.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "missile",
+      "uae",
+      "irgc"
+    ]
+  },
+  {
+    "id": "evt-new-106",
+    "title": "Iran Claims Drone Strikes on Gilat Satellite Center, Israel",
+    "description": "Iran's army claims drone attacks hit special police unit HQ and Gilat defence satellite communications centre in Israel.",
+    "type": "strike",
+    "lat": 31.3333,
+    "lng": 34.65,
+    "location": "Gilat, Israel",
+    "timestamp": "2026-03-15T06:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "drone",
+      "satellite",
+      "israel"
+    ]
+  },
+  {
+    "id": "evt-new-107",
+    "title": "Hezbollah Intel Chief Hussein Makled Killed in Beirut Strike",
+    "description": "IDF announces head of Hezbollah's intelligence headquarters killed in overnight strikes in Beirut.",
+    "type": "strike",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-15T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/15/overnight-israeli-strikes-kill-at-least-four-in-lebanon-as-un-chief-urges-diplomatic-solut"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "hezbollah",
+      "beirut",
+      "targeted-killing"
+    ]
+  },
+  {
+    "id": "evt-new-108",
+    "title": "Lebanon Overnight Strikes Kill 4 in Sidon and Al-Qatrani",
+    "description": "Israeli strikes hit apartment in Sidon killing 1, plus 3 killed in Al-Qatrani village overnight.",
+    "type": "strike",
+    "lat": 33.56,
+    "lng": 35.38,
+    "location": "Sidon, Lebanon",
+    "timestamp": "2026-03-15T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/15/overnight-israeli-strikes-kill-at-least-four-in-lebanon-as-un-chief-urges-diplomatic-solut"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 4
+    },
+    "tags": [
+      "lebanon",
+      "airstrike",
+      "civilian"
+    ]
+  },
+  {
+    "id": "evt-new-109",
+    "title": "Trump Calls on Allies to Send Warships to Hormuz",
+    "description": "Trump says allies relying on Gulf oil must help keep Hormuz open. Claims China, France, Japan, South Korea, UK will send warships. China and UK have not confirmed.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington, DC",
+    "timestamp": "2026-03-15T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "diplomacy",
+      "hormuz",
+      "trump"
+    ]
+  },
+  {
+    "id": "evt-new-110",
+    "title": "Iran FM Sets Conditions: Guarantees + Compensation for Peace",
+    "description": "FM Araghchi says war's end depends on guarantees attacks won't be repeated and compensation for damage caused.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-15T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "diplomacy",
+      "ceasefire",
+      "araghchi"
+    ]
   }
 ]
