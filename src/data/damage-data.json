@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-15T12:00:00Z",
+    "lastUpdated": "2026-03-15T20:30:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,15 +27,15 @@
     ]
   },
   "summary": {
-    "totalSites": 87,
-    "confirmed": 78,
+    "totalSites": 89,
+    "confirmed": 80,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 13,
     "categories": {
-      "military": 30,
+      "military": 31,
       "nuclear": 6,
-      "civilian": 16,
+      "civilian": 17,
       "infrastructure": 9,
       "energy": 5
     }
@@ -1488,6 +1488,36 @@
       "source": "Euronews",
       "sourceUrl": "https://www.euronews.com/2026/03/15/overnight-israeli-strikes-kill-at-least-four-in-lebanon-as-un-chief-urges-diplomatic-solut",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-088",
+      "name": "Jask Port Facilities",
+      "country": "Iran",
+      "city": "Jask",
+      "lat": 25.6375,
+      "lng": 57.7768,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-15",
+      "description": "Jask port naval facilities damaged by US cruise missile strike targeting Iranian naval infrastructure",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+      "attributedTo": "us"
+    },
+    {
+      "id": "dmg-089",
+      "name": "Residential Area, Holon",
+      "country": "Israel",
+      "city": "Holon",
+      "lat": 32.0117,
+      "lng": 34.7748,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-15",
+      "description": "Iranian ballistic missile strikes residential area in Holon, Tel Aviv District. 2 killed, 12 injured. Multiple buildings damaged.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+      "attributedTo": "iran"
     }
   ]
 }

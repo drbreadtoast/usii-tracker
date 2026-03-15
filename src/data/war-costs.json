@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-15T14:20:00Z",
+    "lastUpdated": "2026-03-15T20:30:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 16,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
@@ -92,7 +92,7 @@
           },
           "oilPriceImpact": {
             "amount": 16500000000,
-            "description": "Cost to US economy from Brent at $103.14/bbl (+41.5% from pre-war $72.9). Gas at $3.63/gal national avg (+$0.70 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 2026 lows, down 3.1% YTD.",
+            "description": "Cost to US economy from Brent at $103.82/bbl (+30.1% from pre-war $79.8). Gas at $3.70/gal national avg (+$0.52 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 2026 lows, down 3.1% YTD.",
             "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
             "sourceUrl": "https://www.eia.gov/outlooks/steo/"
           },
@@ -527,10 +527,10 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 103.14,
+      "currentPrice": 103.82,
       "peakPrice": 119.5,
-      "wtiPrice": 98.71,
-      "usGasPricePerGallon": 3.63,
+      "wtiPrice": 99.30,
+      "usGasPricePerGallon": 3.70,
       "priceUnit": "USD per barrel (Brent Crude)",
       "percentageIncrease": 41.5,
       "estimatedGlobalCost": 850000000000,
@@ -567,8 +567,8 @@
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "S&P 500 at 6,632 \u2014 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
-    "oilPriceImpact": "Brent $103.14/bbl (+41.5% from pre-war). WTI $98.71 (+47%). Fourth consecutive weekly gain. IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $100 for two consecutive sessions. Rystad warns $135 if conflict persists 4 months.",
-    "gasPrice": "$3.63/gallon national average (22-month high, up 70\u00a2 since war began from $2.93). California $5.37/gal. Up 35\u00a2 in one week alone. Polymarket: 64% odds of $4.50 by end of March."
+    "oilPriceImpact": "Brent $103.82/bbl (+30.1% from pre-war). WTI $99.30 (+31.5%). Fourth consecutive weekly gain. IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $100 for four consecutive sessions. Rystad warns $135 if conflict persists 4 months.",
+    "gasPrice": "$3.70/gallon national average (+16.4% from pre-war $3.18). California $5.37/gal. Polymarket: 64% odds of $4.50 by end of March."
   },
   "keyFacts": [
     {
@@ -640,6 +640,20 @@
       "cost": 150000000,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-13/us-sends-intercept-drones-used-in-ukraine-to-blunt-iran-strikes"
+    },
+    {
+      "id": "fact-11",
+      "fact": "Penn Wharton estimates $40B-$95B in direct costs, with up to $210B in broader economic impact from the Iran-Israel conflict.",
+      "cost": null,
+      "source": "Penn Wharton Budget Model",
+      "sourceUrl": "https://budgetmodel.wharton.upenn.edu/"
+    },
+    {
+      "id": "fact-12",
+      "fact": "A 60-day war would increase the US deficit by $66.4 billion according to Fortune analysis, factoring in military spending, economic disruption, and reduced tax revenue.",
+      "cost": 66400000000,
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/"
     }
   ],
   "totals": {
@@ -648,8 +662,8 @@
     "combinedTotalCosts": 141640000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 16. CSIS benchmark: $16.5B US costs through Day 12.",
-    "lastCalculated": "2026-03-15T14:20:00Z"
+    "lastCalculated": "2026-03-15T20:30:00Z"
   },
   "daysOfConflict": 16,
-  "lastUpdated": "2026-03-15T14:20:00Z"
+  "lastUpdated": "2026-03-15T20:30:00Z"
 }

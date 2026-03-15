@@ -1557,5 +1557,55 @@
     "sourceUrl": "https://www.euronews.com/2026/03/15/overnight-israeli-strikes-kill-at-least-four-in-lebanon-as-un-chief-urges-diplomatic-solut",
     "weaponType": "precision strike",
     "casualties": "Unknown"
+  },
+  {
+    "id": "ms-104",
+    "city": "Holon",
+    "country": "Israel",
+    "lat": 32.0117,
+    "lng": 34.7748,
+    "strikeType": "ballistic missile",
+    "attributedTo": "iran",
+    "date": "2026-03-15",
+    "description": "Iranian rocket strikes residential area in Holon, Tel Aviv District. Casualties reported.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+    "weaponType": "ballistic missile",
+    "casualties": {
+      "killed": 2,
+      "injured": 12
+    }
+  },
+  {
+    "id": "ms-105",
+    "city": "Isfahan",
+    "country": "Iran",
+    "lat": 32.6546,
+    "lng": 51.6680,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-03-15",
+    "description": "US-Israeli strike on Isfahan industrial factory complex, killing at least 15 workers",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+    "weaponType": "precision-guided munition",
+    "casualties": {
+      "killed": 15
+    }
+  },
+  {
+    "id": "ms-106",
+    "city": "Jask",
+    "country": "Iran",
+    "lat": 25.6375,
+    "lng": 57.7768,
+    "strikeType": "cruise missile",
+    "attributedTo": "us",
+    "date": "2026-03-15",
+    "description": "US cruise missile strike damages Jask port facilities, targeting Iranian naval infrastructure",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
+    "weaponType": "Tomahawk cruise missile",
+    "casualties": "Unknown"
   }
 ]

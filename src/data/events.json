@@ -4835,5 +4835,132 @@
       "ceasefire",
       "araghchi"
     ]
+  },
+  {
+    "id": "evt-new-111",
+    "title": "F-35I Shot Down Over Tehran — First Stealth Air Combat Engagement",
+    "description": "IRGC claims an IDF F-35I was shot down over Tehran. IDF confirms the engagement as the first stealth-vs-manned air combat in history. The pilot was recovered by a CSAR team. Iran displayed wreckage on state television.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-15T13:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "Pilot recovered; no ground casualties reported"
+    },
+    "tags": [
+      "f-35",
+      "air-combat",
+      "tehran",
+      "irgc",
+      "idf"
+    ]
+  },
+  {
+    "id": "evt-new-112",
+    "title": "US Submarine Sinks Iranian Warship IRIS Dena — 87 Killed",
+    "description": "A US submarine sinks the Iranian warship IRIS Dena off the coast of Sri Lanka in the Indian Ocean, killing 87 Iranian naval crewmen. CENTCOM confirms the engagement. Iran condemns the attack as targeting personnel outside the theater of operations.",
+    "type": "naval",
+    "lat": 7.8731,
+    "lng": 80.7718,
+    "location": "Indian Ocean, off Sri Lanka",
+    "timestamp": "2026-03-15T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 87,
+      "civilian": 0,
+      "note": "87 Iranian naval crewmen killed"
+    },
+    "tags": [
+      "naval",
+      "submarine",
+      "iris-dena",
+      "indian-ocean",
+      "centcom"
+    ]
+  },
+  {
+    "id": "evt-new-113",
+    "title": "Hezbollah Engages IDF Merkava Tank in Southern Lebanon",
+    "description": "Hezbollah fighters engage an IDF Merkava tank near Al-Tyeba in southern Lebanon. Hezbollah releases video of the engagement. The IDF confirms the incident but does not disclose casualties.",
+    "type": "strike",
+    "lat": 33.1,
+    "lng": 35.4,
+    "location": "Al-Tyeba, Southern Lebanon",
+    "timestamp": "2026-03-15T15:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Al Jazeera liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": null,
+      "civilian": 0,
+      "note": "IDF did not disclose casualties"
+    },
+    "tags": [
+      "hezbollah",
+      "merkava",
+      "lebanon",
+      "ground-combat"
+    ]
+  },
+  {
+    "id": "evt-new-114",
+    "title": "Saudi Arabia Intercepts 10 Drones Targeting Riyadh",
+    "description": "Saudi air defenses intercept 10 drones targeting Riyadh. The drones are believed to have been launched by Iran-aligned forces. Saudi Arabia condemns the attack and warns of escalatory consequences. No casualties reported.",
+    "type": "strike",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "location": "Riyadh, Saudi Arabia",
+    "timestamp": "2026-03-15T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "All drones intercepted, no casualties"
+    },
+    "tags": [
+      "saudi-arabia",
+      "drone",
+      "air-defense",
+      "riyadh",
+      "iran"
+    ]
   }
 ]
