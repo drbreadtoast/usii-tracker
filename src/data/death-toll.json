@@ -138,17 +138,17 @@
             "note": "Hengaw reports 4,300+ killed as of March 11 — triple the government's 1,380 figure. HRANA estimates 7,000+. Includes 180 at Minab girls' school, 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% — independent verification nearly impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
           },
           "rumored": {
-            "total": 5000,
+            "total": 8000,
             "military": 5000,
             "civilian": 3000,
-            "note": "200+ children among dead per WHO. Independent estimates suggest higher toll. ~20,000 civilian buildings, 77 healthcare facilities, 65 schools damaged.",
+            "note": "HRANA documented 1,097 civilian deaths by Day 4 alone — extrapolation through Day 15 implies far higher toll. 200+ children among dead per WHO. HRANA precedent from 2025 Twelve-Day War: official figure was 610, HRANA later confirmed 1,190 (nearly double). Internet at 4% makes independent verification near-impossible. ~20,000 civilian buildings, 77 healthcare facilities, 65 schools damaged.",
             "socialSources": [
               {
-                "platform": "X",
-                "handle": "@IranFrontline",
-                "claim": "Eyewitness videos from Kerman show at least 12 buildings destroyed — local hospital overwhelmed with 400+ casualties in one night",
-                "url": "https://x.com/IranFrontline",
-                "date": "2026-03-06"
+                "platform": "HRANA",
+                "handle": "en-hrana.org",
+                "claim": "By Day 4 alone: 1,097 civilians killed (including 181 children), 5,402 injured. This was already 3x the government's claimed toll at that point",
+                "url": "https://www.en-hrana.org/the-fourth-day-of-the-u-s-israel-war-on-iran-strikes-continue-in-western-regions-of-the-country/",
+                "date": "2026-03-03"
               },
               {
                 "platform": "X",
@@ -170,6 +170,13 @@
                 "claim": "IRINS Dena sinking alone could account for 100+ dead — only 79 of 180 crew recovered. Iran lists them as 'missing'",
                 "url": "https://x.com/sentdefender",
                 "date": "2026-03-05"
+              },
+              {
+                "platform": "NPR",
+                "handle": "npr.org",
+                "claim": "Experts say actual death toll 'could be far greater as more details are released' — Iran's internet blackout prevents verification",
+                "url": "https://www.npr.org/2026/03/14/nx-s1-5746623/iran-war-cost-deaths",
+                "date": "2026-03-14"
               }
             ]
           },
@@ -242,17 +249,31 @@
             "note": "13 confirmed KIA. Includes Sgt. Benjamin Pennington and all 6 KC-135 crew killed in crash near Turaibil, Iraq (Mar 12-13). ~140 wounded. 4th manned US aircraft lost."
           },
           "rumored": {
-            "total": 25,
-            "military": 25,
+            "total": 40,
+            "military": 40,
             "civilian": 0,
-            "note": "Iran claims to have captured US soldiers; IRGC media reports higher US casualty figures than Pentagon confirms. Fox29 reports ~140 total wounded.",
+            "note": "IRGC claims 650+ US killed/wounded in first 2 days (largely debunked by Jerusalem Post). Ali Larijani claims US soldiers were captured — Pentagon explicitly denied. Iran state TV broadcast alleged captured US troops. Multiple IRGC claims later deleted after being disproven.",
             "socialSources": [
               {
-                "platform": "X",
-                "handle": "@MiddleEastEye",
-                "claim": "Iran state TV broadcast what it says are captured US soldiers — Pentagon denies. Ali Larijani says US is 'concealing captures'",
-                "url": "https://x.com/MiddleEastEye",
-                "date": "2026-03-08"
+                "platform": "IRGC/Tasnim",
+                "handle": "Tasnim News Agency",
+                "claim": "IRGC spokesperson Ali Mohammad Naini claimed 650 US troops killed or wounded in first 2 days, including 160 at US military HQ in Bahrain. Claims largely disproven by Jerusalem Post investigation.",
+                "url": "https://www.jpost.com/middle-east/iran-news/article-888652",
+                "date": "2026-03-02"
+              },
+              {
+                "platform": "Press TV",
+                "handle": "IRGC Operation True Promise 4",
+                "claim": "Claims missile strikes on 3 US/British oil tankers, shutdown of US naval facilities in Kuwait, 'hundreds of American military casualties.' Multiple claims later deleted.",
+                "url": "https://www.presstv.ir/Detail/2026/03/01/764872/Iran-IRGC-strikes-United-States-Israel-tankers-bases-Kuwait-Bahrain",
+                "date": "2026-03-01"
+              },
+              {
+                "platform": "Al Jazeera",
+                "handle": "Ali Larijani (Iran NSC)",
+                "claim": "Claims Iran captured US soldiers. 'Americans claim they have been killed in action to cover up captures.' Trump administration explicitly denied any captures.",
+                "url": "https://www.aljazeera.com/news/2026/3/7/trump-administration-denies-reports-that-iran-captured-us-soldiers",
+                "date": "2026-03-07"
               },
               {
                 "platform": "Telegram",
@@ -284,6 +305,28 @@
             "sourceUrl": "https://www.middleeastmonitor.com/20260311-death-toll-from-israeli-bombardment-of-lebanon-rises-to-570/",
             "note": "Includes Hezbollah fighters. 800,000+ displaced. 12 medics killed in Burj Qalaouiyah health center strike (March 14). Israel destroyed Zrarieh Bridge, first acknowledged civilian infrastructure strike."
           },
+          "rumored": {
+            "total": 950,
+            "military": 200,
+            "civilian": 750,
+            "note": "Hezbollah fighter casualties are not separately broken out in Lebanese Health Ministry figures. IDF ground operations in southern border areas make casualty verification difficult. Rescue teams unable to access some strike sites.",
+            "socialSources": [
+              {
+                "platform": "Al Jazeera",
+                "handle": "Al Jazeera Live Tracker",
+                "claim": "12 medics killed in single Israeli strike on Burj Qalaouiyah health center — rescue teams unable to reach multiple other sites in southern Lebanon",
+                "url": "https://www.aljazeera.com/news/2026/3/14/israel-kills-12-medics-in-attack-in-southern-lebanon-as-war-drags-on",
+                "date": "2026-03-14"
+              },
+              {
+                "platform": "Democracy Now",
+                "handle": "democracynow.org",
+                "claim": "Israel bombs central Beirut and targets civilian infrastructure — death toll rising as hospitals overwhelmed in southern Lebanon",
+                "url": "https://www.democracynow.org/2026/3/13/headlines/lebanon_death_toll_rises_as_israel_bombs_central_beirut_and_targets_civilian_infrastructure",
+                "date": "2026-03-13"
+              }
+            ]
+          },
           "injured": 1933,
           "injuredNote": "15+ healthcare workers killed. IDF ground operations in border areas ongoing.",
           "displaced": 800000,
@@ -306,6 +349,28 @@
             "source": "Estimated from missile impact reports across Gulf",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks",
             "note": "UAE: 6 killed, 122 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 11 killed. Bahrain: 1 killed (+ 32 wounded), 105 ballistic missiles and 176 drones intercepted since war began. Saudi Arabia: 2 killed. Oman: 3 killed."
+          },
+          "rumored": {
+            "total": 35,
+            "military": 0,
+            "civilian": 35,
+            "note": "Potential unreported migrant worker deaths in UAE, Bahrain, and Oman not included in official counts. Several confirmed dead were foreign nationals. Air defense interception rates (92-95%) suggest toll could have been far higher if systems failed.",
+            "socialSources": [
+              {
+                "platform": "Al Jazeera",
+                "handle": "Al Jazeera",
+                "claim": "Woman killed in Bahrain as other Gulf states intercept Iranian missiles — multiple foreign nationals among casualties across Gulf",
+                "url": "https://www.aljazeera.com/news/2026/3/10/woman-killed-in-bahrain-as-other-gulf-states-intercept-iranian-missiles",
+                "date": "2026-03-10"
+              },
+              {
+                "platform": "CNBC",
+                "handle": "CNBC",
+                "claim": "Iranian projectiles continue to strike Gulf countries' infrastructure — full casualty picture unclear as some nations restrict reporting",
+                "url": "https://www.cnbc.com/2026/03/08/iranian-projectiles-continue-to-strike-gulf-countries-infrastructure.html",
+                "date": "2026-03-08"
+              }
+            ]
           },
           "injured": 192,
           "injuredNote": "UAE: 122 injured. Bahrain: 32 wounded. 262 missiles detected over UAE (241 destroyed), ~1,400 drones intercepted."

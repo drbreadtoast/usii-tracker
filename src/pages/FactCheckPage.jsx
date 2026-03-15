@@ -176,6 +176,7 @@ function ClaimCard({ claim }) {
 export default function FactCheckPage() {
   const [activeFilter, setActiveFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
+  const [showIntro, setShowIntro] = useState(false)
 
   const recentClaims = useMemo(() => {
     return [...factCheckData.claims]
@@ -241,33 +242,42 @@ export default function FactCheckPage() {
         </div>
       </header>
 
-      {/* Intro */}
-      <div className="bg-blue-950/20 border-b border-blue-900/30 px-4 sm:px-6 py-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="flex items-start gap-3">
-            <ShieldAlert size={18} className="text-blue-400 shrink-0 mt-0.5" />
-            <div>
+      {/* Intro — Collapsible + Beta notice always visible */}
+      <div className="bg-blue-950/20 border-b border-blue-900/30 px-4 sm:px-6 py-3">
+        <div className="max-w-5xl mx-auto space-y-2">
+          <button
+            onClick={() => setShowIntro(!showIntro)}
+            className="w-full flex items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <ShieldAlert size={18} className="text-blue-400 shrink-0" />
+            <div className="flex-1 text-left">
               <h2 className="text-sm font-bold text-blue-400">Debunking Misinformation in Real-Time</h2>
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-[10px] text-gray-500 mt-0.5">Tap to see methodology, verdict definitions & disclaimer</p>
+            </div>
+            {showIntro ? <ChevronUp size={16} className="text-gray-500 shrink-0" /> : <ChevronDown size={16} className="text-gray-500 shrink-0" />}
+          </button>
+          {showIntro && (
+            <div className="ml-[30px] border-t border-blue-900/30 pt-2 space-y-2">
+              <p className="text-xs text-gray-500">
                 With misinformation spreading rapidly during the Iran-Israel conflict, we independently research trending claims
                 and verify them against multiple credible sources. Every verdict includes clickable source links so you can verify for yourself.
               </p>
-              <p className="text-[10px] text-gray-600 mt-1">
+              <p className="text-[10px] text-gray-600">
                 Showing {recentClaims.length} claims checked in the last 24 hours.
               </p>
-              <div className="bg-amber-950/20 border border-amber-900/30 rounded-lg px-3 py-2 mt-2">
+              <div className="bg-amber-950/20 border border-amber-900/30 rounded-lg px-3 py-2">
                 <p className="text-[10px] text-amber-500/80 leading-relaxed">
                   <AlertTriangle size={10} className="inline mr-1 -mt-0.5" />
                   <strong>Important:</strong> {factCheckData.metadata.methodology}
                 </p>
               </div>
-              <div className="bg-purple-950/20 border border-purple-900/30 rounded-lg px-3 py-2 mt-2">
-                <p className="text-[10px] text-purple-400/80 leading-relaxed">
-                  <AlertTriangle size={10} className="inline mr-1 -mt-0.5 text-purple-400" />
-                  <strong>Beta Notice:</strong> This fact-check system is currently in beta. We are actively optimizing our verification code, ranking algorithm, and AI-assisted claim detection. Verdicts may be updated as new evidence emerges. Always click the source links to verify independently.
-                </p>
-              </div>
             </div>
+          )}
+          <div className="bg-purple-950/20 border border-purple-900/30 rounded-lg px-3 py-2">
+            <p className="text-[10px] text-purple-400/80 leading-relaxed">
+              <AlertTriangle size={10} className="inline mr-1 -mt-0.5 text-purple-400" />
+              <strong>Beta Notice:</strong> This fact-check system is currently in beta. We are actively optimizing our verification code, ranking algorithm, and AI-assisted claim detection. Verdicts may be updated as new evidence emerges. Always click the source links to verify independently.
+            </p>
           </div>
         </div>
       </div>
