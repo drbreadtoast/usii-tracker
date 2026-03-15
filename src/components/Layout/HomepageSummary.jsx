@@ -132,11 +132,17 @@ function CasualtySummary() {
               <p className="text-sm font-bold text-green-400">{p.confirmed.total.toLocaleString()}</p>
               <p className="text-[8px] text-gray-600">confirmed killed</p>
             </div>
+            {p.rumored?.total > 0 && (
+              <div className="mt-0.5 flex items-center justify-center gap-0.5">
+                <MessageCircle size={7} className="text-purple-400" />
+                <p className="text-[9px] text-purple-400">{p.rumored.total.toLocaleString()} rumored</p>
+              </div>
+            )}
             {p.injured > 0 && (
               <p className="text-[9px] text-orange-400 mt-0.5">{p.injured.toLocaleString()} injured</p>
             )}
             {p.displaced > 0 && (
-              <p className="text-[9px] text-purple-400 mt-0.5">{p.displaced.toLocaleString()} displaced</p>
+              <p className="text-[9px] text-purple-400/70 mt-0.5">{p.displaced.toLocaleString()} displaced</p>
             )}
           </div>
         ))}
@@ -149,11 +155,17 @@ function CasualtySummary() {
               <p className="text-[9px] text-gray-400 mt-0.5 truncate">{p.name}</p>
               <p className="text-xs font-bold text-green-400 mt-0.5">{p.confirmed.total.toLocaleString()}</p>
               <p className="text-[8px] text-gray-600">confirmed killed</p>
+              {p.rumored?.total > 0 && (
+                <div className="mt-0.5 flex items-center justify-center gap-0.5">
+                  <MessageCircle size={6} className="text-purple-400" />
+                  <p className="text-[8px] text-purple-400">{p.rumored.total.toLocaleString()} rumored</p>
+                </div>
+              )}
               {p.injured > 0 && (
                 <p className="text-[8px] text-orange-400 mt-0.5">{p.injured.toLocaleString()} injured</p>
               )}
               {p.displaced > 0 && (
-                <p className="text-[8px] text-purple-400 mt-0.5">{p.displaced.toLocaleString()} displaced</p>
+                <p className="text-[8px] text-purple-400/70 mt-0.5">{p.displaced.toLocaleString()} displaced</p>
               )}
             </div>
           ))}
