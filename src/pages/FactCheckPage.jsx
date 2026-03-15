@@ -261,6 +261,12 @@ export default function FactCheckPage() {
                   <strong>Important:</strong> {factCheckData.metadata.methodology}
                 </p>
               </div>
+              <div className="bg-purple-950/20 border border-purple-900/30 rounded-lg px-3 py-2 mt-2">
+                <p className="text-[10px] text-purple-400/80 leading-relaxed">
+                  <AlertTriangle size={10} className="inline mr-1 -mt-0.5 text-purple-400" />
+                  <strong>Beta Notice:</strong> This fact-check system is currently in beta. We are actively optimizing our verification code, ranking algorithm, and AI-assisted claim detection. Verdicts may be updated as new evidence emerges. Always click the source links to verify independently.
+                </p>
+              </div>
             </div>
           </div>
         </div>

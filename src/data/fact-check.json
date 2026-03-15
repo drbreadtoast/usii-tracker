@@ -67,66 +67,93 @@
       "id": "fc-039",
       "claim": "Trump claims Iran is 'about to surrender'",
       "verdict": "unverified",
-      "explanation": "No evidence of Iranian surrender. Iran's intelligence ministry is secretly contacting CIA through backchannel, but this indicates willingness to negotiate, not surrender. Iran continues offensive operations and Hormuz blockade.",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/03/13/trump-iran-surrender-hormuz-oil",
-      "timestamp": "2026-03-14T18:00:00Z",
-      "tags": [
-        "trump",
-        "diplomacy",
-        "ceasefire"
-      ],
+      "trending": false,
       "dateAdded": "2026-03-14T13:00:00Z",
-      "lastChecked": "2026-03-14T13:00:00Z"
+      "lastChecked": "2026-03-14T22:00:00Z",
+      "category": "political",
+      "summary": "No evidence of Iranian surrender. Iran's intelligence ministry is secretly contacting CIA through backchannel, but this indicates willingness to negotiate, not surrender. Iran continues offensive operations and Hormuz blockade. Trump made the claim during G7 call remarks on March 14.",
+      "origin": "Trump's remarks during G7 call and subsequent press availability",
+      "viralPlatforms": ["X/Twitter", "News outlets"],
+      "sources": [
+        {
+          "name": "Axios — Trump claims Iran is about to surrender",
+          "url": "https://www.axios.com/2026/03/13/trump-iran-surrender-hormuz-oil"
+        },
+        {
+          "name": "Al Jazeera — Day 15 live updates",
+          "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+        }
+      ]
     },
     {
       "id": "fc-040",
       "claim": "KC-135 crash in Iraq was caused by Iranian attack",
       "verdict": "debunked",
-      "explanation": "CENTCOM explicitly stated the KC-135 crash was not due to hostile or friendly fire. An Iranian proxy group claimed responsibility, but the claim is unsubstantiated. Investigation ongoing.",
-      "source": "NBC News / CENTCOM",
-      "sourceUrl": "https://www.nbcnews.com/news/us-news/us-refueling-plane-crashes-iraq-iran-war-crew-members-killed-rcna263315",
-      "timestamp": "2026-03-14T16:00:00Z",
-      "tags": [
-        "us-military",
-        "iraq",
-        "crash"
-      ],
+      "trending": false,
       "dateAdded": "2026-03-14T13:00:00Z",
-      "lastChecked": "2026-03-14T13:00:00Z"
+      "lastChecked": "2026-03-14T22:00:00Z",
+      "category": "military",
+      "summary": "CENTCOM explicitly stated the KC-135 crash was not due to hostile or friendly fire. An Iranian proxy group (Kata'ib Hezbollah) claimed responsibility, but the claim is unsubstantiated. The aircraft crashed near Turaibil in western Iraq. Investigation ongoing — possible mid-air collision with a second KC-135 that landed at Ben Gurion with tail fin damage.",
+      "origin": "Iranian proxy group Kata'ib Hezbollah claimed responsibility on Telegram. Social media amplified the claim.",
+      "viralPlatforms": ["Telegram", "X/Twitter"],
+      "sources": [
+        {
+          "name": "NBC News — KC-135 crash details",
+          "url": "https://www.nbcnews.com/news/us-news/us-refueling-plane-crashes-iraq-iran-war-crew-members-killed-rcna263315"
+        },
+        {
+          "name": "CNBC — KC-135 crash Iraq",
+          "url": "https://www.cnbc.com/2026/03/13/us-kc135-crash-iraq-iran-threats-shipping-attacks.html"
+        },
+        {
+          "name": "CNN — US Air Force KC-135 lost over Iraq",
+          "url": "https://www.cnn.com/2026/03/12/middleeast/us-air-force-refueling-aircraft-kc135-lost-intl-hnk-ml"
+        }
+      ]
     },
     {
       "id": "fc-041",
       "claim": "Iran claims to have hit Netanyahu's office with Khaibar missiles",
       "verdict": "debunked",
-      "explanation": "Israel dismissed this claim as 'fake news.' No evidence of damage to the Prime Minister's office. Israel's multi-layered air defense intercepted the majority of incoming missiles.",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks",
-      "timestamp": "2026-03-14T14:00:00Z",
-      "tags": [
-        "iran",
-        "israel",
-        "missiles",
-        "misinformation"
-      ],
+      "trending": false,
       "dateAdded": "2026-03-14T13:00:00Z",
-      "lastChecked": "2026-03-14T13:00:00Z"
+      "lastChecked": "2026-03-14T22:00:00Z",
+      "category": "military",
+      "summary": "Israel dismissed this claim as 'fake news.' No evidence of damage to the Prime Minister's office. Israel's multi-layered air defense (Iron Dome, David's Sling, Arrow) intercepted the majority of incoming missiles. IRGC-linked media amplified the claim as a propaganda victory.",
+      "origin": "IRGC-linked media and Iranian state television broadcast",
+      "viralPlatforms": ["Telegram", "X/Twitter", "Iranian state TV"],
+      "sources": [
+        {
+          "name": "Al Jazeera — Day 15 updates",
+          "url": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks"
+        },
+        {
+          "name": "Jerusalem Post — Iran false conspiracy theories",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-889415"
+        }
+      ]
     },
     {
       "id": "fc-042",
       "claim": "IEA 400M barrel reserve release will crash oil prices below $80",
       "verdict": "unlikely",
-      "explanation": "Despite the largest-ever coordinated reserve release of 400M barrels, Brent crude remains above $100/barrel at $103.14. The Hormuz blockade removes ~17M barrels/day from the market, dwarfing the reserve release.",
-      "source": "IEA / CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/03/11/iea-oil-reserves-crude-prices-iran-g7-energy.html",
-      "timestamp": "2026-03-14T20:00:00Z",
-      "tags": [
-        "oil",
-        "iea",
-        "economy"
-      ],
+      "trending": true,
       "dateAdded": "2026-03-14T13:00:00Z",
-      "lastChecked": "2026-03-14T13:00:00Z"
+      "lastChecked": "2026-03-14T22:00:00Z",
+      "category": "energy",
+      "summary": "Despite the largest-ever coordinated reserve release of 400M barrels (US contributing 172M from SPR), Brent crude remains above $100/barrel at $103.14. The Hormuz blockade removes ~17M barrels/day from the market, dwarfing the reserve release. Analysts say the release provides weeks of relief, not months.",
+      "origin": "Social media speculation after IEA announcement. Financial media amplified the expectation of a price crash.",
+      "viralPlatforms": ["X/Twitter", "Financial media", "Reddit"],
+      "sources": [
+        {
+          "name": "CNBC — IEA oil reserves, crude prices",
+          "url": "https://www.cnbc.com/2026/03/11/iea-oil-reserves-crude-prices-iran-g7-energy.html"
+        },
+        {
+          "name": "Axios — Oil prices if Hormuz stays closed",
+          "url": "https://www.axios.com/2026/03/12/oil-prices-iran-strait-of-hormuz"
+        }
+      ]
     },
     {
       "id": "fc-037",

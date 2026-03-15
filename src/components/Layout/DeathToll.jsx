@@ -17,13 +17,23 @@ function PartyRow({ party, isExpanded, onToggle }) {
           <span className="text-lg">{party.flag}</span>
           <span className="text-sm font-semibold text-gray-200">{party.name}</span>
         </div>
-        <div className="flex items-center gap-3">
-          <div className="text-right">
-            <div className="flex items-center gap-1.5">
-              <Shield size={10} className="text-green-400" />
-              <NumberDisplay value={party.confirmed.total} className="text-green-400 text-sm" />
-            </div>
+        <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5" title="Confirmed">
+            <Shield size={9} className="text-green-400" />
+            <NumberDisplay value={party.confirmed.total} className="text-green-400 text-xs" />
           </div>
+          {party.estimated && (
+            <div className="flex items-center gap-1" title="Estimated">
+              <AlertTriangle size={9} className="text-amber-400" />
+              <NumberDisplay value={party.estimated.total} className="text-amber-400 text-xs" />
+            </div>
+          )}
+          {party.rumored && (
+            <div className="flex items-center gap-1" title="Rumored">
+              <MessageCircle size={9} className="text-purple-400" />
+              <NumberDisplay value={party.rumored.total} className="text-purple-400 text-xs" />
+            </div>
+          )}
           {isExpanded ? <ChevronUp size={12} className="text-gray-500" /> : <ChevronDown size={12} className="text-gray-500" />}
         </div>
       </button>
