@@ -16,13 +16,13 @@ const VERDICT_CONFIG = {
     description: 'Verified true by multiple independent sources',
   },
   debunked: {
-    label: 'DEBUNKED',
+    label: 'NOT LIKELY',
     icon: ShieldX,
     color: 'text-red-400',
     bg: 'bg-red-950/30',
     border: 'border-red-800/50',
     badge: 'bg-red-600 text-white',
-    description: 'Verified false — no credible evidence supports this claim',
+    description: 'Available evidence contradicts this claim',
   },
   likely: {
     label: 'LIKELY TRUE',
@@ -40,7 +40,7 @@ const VERDICT_CONFIG = {
     bg: 'bg-orange-950/20',
     border: 'border-orange-800/50',
     badge: 'bg-orange-600 text-white',
-    description: 'Evidence contradicts this claim but not fully debunked',
+    description: 'Evidence contradicts this claim but remains inconclusive',
   },
   unverified: {
     label: 'UNVERIFIED',
@@ -251,7 +251,7 @@ export default function FactCheckPage() {
           >
             <ShieldAlert size={18} className="text-blue-400 shrink-0" />
             <div className="flex-1 text-left">
-              <h2 className="text-sm font-bold text-blue-400">Debunking Misinformation in Real-Time</h2>
+              <h2 className="text-sm font-bold text-blue-400">Analyzing Recent Rumors & Claims</h2>
               <p className="text-[10px] text-gray-500 mt-0.5">Tap to see methodology, verdict definitions & disclaimer</p>
             </div>
             {showIntro ? <ChevronUp size={16} className="text-gray-500 shrink-0" /> : <ChevronDown size={16} className="text-gray-500 shrink-0" />}
