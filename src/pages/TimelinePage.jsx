@@ -42,8 +42,11 @@ const FACT_CHECK_INFO = {
 const VERIFICATION_INFO = {
   confirmed: { color: '#22C55E', label: 'Confirmed', icon: '✓' },
   likely: { color: '#F59E0B', label: 'Likely', icon: '~' },
+  partially_verified: { color: '#F59E0B', label: 'Partially Verified', icon: '~' },
   unverified: { color: '#EF4444', label: 'Unverified', icon: '?' },
 }
+
+const DEFAULT_VERIFICATION = { color: '#6B7280', label: 'Unknown', icon: '?' }
 
 const SIGNIFICANCE_STYLES = {
   critical: 'border-l-4',
@@ -380,7 +383,7 @@ function TimelineEntry({ entry, defaultExpanded = false }) {
   const actor = ACTOR_COLORS[entry.actor] || ACTOR_COLORS.multiple
   const type = TYPE_INFO[entry.type] || TYPE_INFO.military
   const factCheck = FACT_CHECK_INFO[entry.factCheck]
-  const verification = VERIFICATION_INFO[entry.verificationStatus]
+  const verification = VERIFICATION_INFO[entry.verificationStatus] || DEFAULT_VERIFICATION
   const TypeIcon = type.icon
   const FactIcon = factCheck?.icon
 
@@ -920,8 +923,8 @@ export default function TimelinePage() {
 
       {/* Timeline entries */}
       <div className="max-w-5xl mx-auto px-6 pb-12">
-        {grouped.map((group) => (
-          <div key={group.dayLabel + group.date} className={zoomLevel === 'overview' ? 'mb-3' : 'mb-6'}>
+        {grouped.map((group, idx) => (
+          <div key={group.dayLabel + group.date + '-' + idx} className={zoomLevel === 'overview' ? 'mb-3' : 'mb-6'}>
             <DayHeader
               dayLabel={group.dayLabel}
               date={group.date}
