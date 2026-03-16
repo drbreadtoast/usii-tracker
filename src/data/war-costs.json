@@ -35,9 +35,9 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-16T00:35:00Z",
+    "lastUpdated": "2026-03-16T22:40:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 16,
+    "daysOfConflict": 17,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -111,7 +111,7 @@
         }
       },
       "dailyBurnRate": 1100000000,
-      "dailyBurnRateNote": "CSIS estimates $891M-$1.43B/day (shown as ~$1.1B midpoint). Pentagon told Senate first 6 days cost $11.3B ($1.88B/day). CSIS update: $16.5B through Day 12. Fortune reports ~$1B/day ongoing. European Business Magazine projects $259B over 6 months.",
+      "dailyBurnRateNote": "Trump adviser confirmed $12B direct US cost so far. CSIS estimates $891M-$1.43B/day (shown as ~$1.1B midpoint). Pentagon told Senate first 6 days cost $11.3B ($1.88B/day) + $1B/day ongoing. CSIS update: $16.5B through Day 12. European Business Magazine projects $259B over 6 months.",
       "totalEstimate": "$19-22 billion",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Penn Wharton projects $40B-$95B direct costs, up to $210B total economic impact. Pentagon requesting $50B supplemental. Brown University: $31.35B-$33.77B total US spending connected to broader conflict since Oct 7 2023."
     },
@@ -457,9 +457,9 @@
     },
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
-    "daysDeployed": 16,
-    "totalNavalCost": 400000000,
-    "totalNavalCostNote": "Total naval deployment cost for 16 days of active conflict operations ($25M/day × 16 days); does not include pre-conflict surge deployment costs",
+    "daysDeployed": 17,
+    "totalNavalCost": 425000000,
+    "totalNavalCostNote": "Total naval deployment cost for 17 days of active conflict operations ($25M/day × 17 days); does not include pre-conflict surge deployment costs",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -527,9 +527,9 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 105.66,
+      "currentPrice": 104.73,
       "peakPrice": 119.5,
-      "wtiPrice": 101.32,
+      "wtiPrice": 99.68,
       "usGasPricePerGallon": 3.70,
       "priceUnit": "USD per barrel (Brent Crude)",
       "percentageIncrease": 41.5,
@@ -567,8 +567,8 @@
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "S&P 500 at 6,632 \u2014 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
-    "oilPriceImpact": "Brent $105.66/bbl (+32.4% from pre-war). WTI $101.32 (+34.2%). Fourth consecutive weekly gain. IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $105. Rystad warns $135 if conflict persists 4 months. Gold above $5,000/oz.",
-    "gasPrice": "$3.70/gallon national average (+16.4% from pre-war $3.18). California $5.34/gal. Polymarket: 64% odds of $4.50 by end of March."
+    "oilPriceImpact": "Brent $104.73/bbl (+31.2% from pre-war). WTI $99.68 (+32.0%). IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $104. Rystad warns $135 if conflict persists 4 months. Gold above $5,000/oz. S&P 500 futures up 0.51% Monday premarket at 5,709.",
+    "gasPrice": "$3.70/gallon national average (+26% from pre-war $2.94). California $5.36/gal, Hawaii $4.76. Fed meeting March 17-18 — 99% probability holds rates at 3.50-3.75%."
   },
   "keyFacts": [
     {
@@ -682,6 +682,34 @@
       "cost": null,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/markets/commodities/"
+    },
+    {
+      "id": "fact-17",
+      "fact": "Trump adviser: US direct war cost $12B so far; Pentagon briefed $11.3B first 6 days + $1B/day ongoing",
+      "cost": 12000000000,
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/world/iran/"
+    },
+    {
+      "id": "fact-18",
+      "fact": "Israel approved NIS 2.6B ($826M) emergency defense procurement",
+      "cost": 826000000,
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/"
+    },
+    {
+      "id": "fact-19",
+      "fact": "Dubai airport drone strike — 7+ hours flight suspension, estimated tens of millions in losses",
+      "cost": null,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/middle-east/"
+    },
+    {
+      "id": "fact-20",
+      "fact": "Fujairah oil hub struck 2nd consecutive day — port operations repeatedly disrupted",
+      "cost": null,
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/energy"
     }
   ],
   "totals": {
@@ -689,9 +717,9 @@
     "allCountriesIndirectCosts": 108940000000,
     "combinedTotalCosts": 141640000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 16. CSIS benchmark: $16.5B US costs through Day 12.",
-    "lastCalculated": "2026-03-16T00:35:00Z"
+    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 17. Trump adviser confirmed $12B direct US cost. CSIS benchmark: $16.5B US costs through Day 12.",
+    "lastCalculated": "2026-03-16T22:40:00Z"
   },
-  "daysOfConflict": 16,
-  "lastUpdated": "2026-03-16T00:35:00Z"
+  "daysOfConflict": 17,
+  "lastUpdated": "2026-03-16T22:40:00Z"
 }

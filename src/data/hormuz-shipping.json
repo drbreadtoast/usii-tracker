@@ -1,8 +1,8 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 13,
+  "blockadeDay": 14,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-16T00:35:00Z",
+  "lastUpdated": "2026-03-16T22:40:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -144,6 +144,16 @@
       "date": "2026-03-15",
       "event": "Trump urges China and allies to send warships; coalition expected to be announced 'this week' (WSJ). No countries publicly commit yet",
       "status": "effectively_closed"
+    },
+    {
+      "date": "2026-03-16",
+      "event": "Dubai airport fuel tank struck by Iranian drone — flights suspended 7+ hours. Fujairah oil hub struck again, oil loading suspended. 300+ ships stranded in Gulf",
+      "status": "effectively_closed"
+    },
+    {
+      "date": "2026-03-16",
+      "event": "EU's Kallas proposes Black Sea grain deal-style Hormuz arrangement via UN. Japan PM rules out sending warships. WSJ: coalition announcement imminent",
+      "status": "effectively_closed"
     }
   ],
   "impactedGoods": [
@@ -151,8 +161,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "0 bbl/day",
-      "priceImpact": "+32.4% (Brent $105.66, WTI $101.32)",
-      "detail": "20% of global supply cut off. Brent past $105/barrel. IEA record 400M barrel release across 32 countries (US contributing 172M from SPR) fails to contain surge. 18 ships damaged, 3 sunk. 280+ bulk carriers stranded, dry bulk trade down 91%. Traffic down 95%+. VLCC charter rates at $800K/day."
+      "priceImpact": "+31.2% (Brent $104.73, WTI $99.68)",
+      "detail": "20% of global supply cut off. Brent at $104.73/barrel. IEA record 400M barrel release across 32 countries (US contributing 172M from SPR) fails to contain surge. 18 ships damaged, 3 sunk. 300+ ships stranded in Gulf, dry bulk trade down 91%. Traffic down 95%+. VLCC charter rates at $800K/day."
     },
     {
       "commodity": "LNG",

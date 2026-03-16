@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16T00:35:00Z",
+  "lastUpdated": "2026-03-16T22:40:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -117,7 +117,7 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 16)",
+      "period": "February 28, 2026 - Ongoing (Day 17)",
       "parties": [
         {
           "name": "Iran",
@@ -344,24 +344,24 @@
           "flag": "🌐",
           "confirmed": {
             "military": 0,
-            "civilian": 28,
-            "total": 28,
+            "civilian": 31,
+            "total": 31,
             "source": "Gulf state media reports / defense ministry statements",
-            "sourceUrl": "https://www.cnbc.com/2026/03/10/iran-strikes-gulf-neighbors-us-assets-oil-infrastructure.html"
+            "sourceUrl": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html"
           },
           "estimated": {
             "military": 0,
-            "civilian": 33,
-            "total": 33,
+            "civilian": 36,
+            "total": 36,
             "source": "Estimated from missile impact reports across Gulf and Iraq",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks",
-            "note": "Iraq: 20 killed (Baghdad airport rockets wounded 5 more, Mar 15). UAE: 6 killed, 142 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 1 killed. Bahrain: 27 killed (+ 32 wounded), 125 ballistic missiles and 211 drones intercepted since war began. Saudi Arabia: 2 killed. Oman: 3 killed."
+            "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/16/iran-war-live-tehran-rejects-trump-claim-on-talks-gulf-attacks-continue",
+            "note": "Iraq: 20 killed (Baghdad airport rockets wounded 5 more, Mar 15). UAE: 7 killed (Abu Dhabi missile killed Palestinian civilian, Mar 16), 142 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 1 killed. Bahrain: 27 killed (+ 32 wounded), 125 ballistic missiles and 211 drones intercepted since war began. Saudi Arabia: 4 killed (2 at al-Kharj compound, Mar 16), 12 injured. Oman: 3 killed."
           },
           "rumored": {
-            "total": 35,
+            "total": 40,
             "military": 0,
-            "civilian": 35,
-            "note": "Potential unreported migrant worker deaths in UAE, Bahrain, and Oman not included in official counts. Several confirmed dead were foreign nationals. Air defense interception rates (92-95%) suggest toll could have been far higher if systems failed.",
+            "civilian": 40,
+            "note": "Potential unreported migrant worker deaths in UAE, Bahrain, and Oman not included in official counts. Several confirmed dead were foreign nationals. Air defense interception rates (92-95%) suggest toll could have been far higher if systems failed. Fujairah oil hub struck 2 consecutive days (Mar 15-16).",
             "socialSources": [
               {
                 "platform": "Al Jazeera",
@@ -376,11 +376,18 @@
                 "claim": "Iranian projectiles continue to strike Gulf countries' infrastructure — full casualty picture unclear as some nations restrict reporting",
                 "url": "https://www.cnbc.com/2026/03/08/iranian-projectiles-continue-to-strike-gulf-countries-infrastructure.html",
                 "date": "2026-03-08"
+              },
+              {
+                "platform": "CNBC",
+                "handle": "CNBC",
+                "claim": "Fujairah oil hub struck again for 2nd consecutive day — Saudi Arabia's al-Kharj compound also hit with casualties",
+                "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html",
+                "date": "2026-03-16"
               }
             ]
           },
-          "injured": 193,
-          "injuredNote": "UAE: 142 injured. Bahrain: 32 wounded. Iraq: 5+ wounded (Baghdad airport rockets, Mar 15). 262 missiles detected over UAE (241 destroyed), ~1,400 drones intercepted."
+          "injured": 205,
+          "injuredNote": "UAE: 142 injured. Bahrain: 32 wounded. Iraq: 5+ wounded (Baghdad airport rockets, Mar 15). Saudi Arabia: 12 injured (al-Kharj compound, Mar 16). 262 missiles detected over UAE (241 destroyed), ~1,400 drones intercepted."
         },
         {
           "name": "France",

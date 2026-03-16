@@ -1694,5 +1694,102 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-112",
+    "city": "Khiam",
+    "country": "Lebanon",
+    "lat": 33.3567,
+    "lng": 35.6167,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-16",
+    "description": "IDF launches ground operation in southern Lebanon with supporting airstrikes on Khiam. Hezbollah positions and infrastructure targeted as troops advance into the town.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+    "weaponType": "precision-guided munitions / artillery",
+    "casualties": "Assessment ongoing"
+  },
+  {
+    "id": "ms-113",
+    "city": "Dubai",
+    "country": "UAE",
+    "lat": 25.2532,
+    "lng": 55.3657,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Iranian drone strikes fuel storage tank near Dubai International Airport, causing massive fire. All flights suspended for 7+ hours. One of the world's busiest airports shut down.",
+    "source": "Dubai Media Office",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+    "weaponType": "attack drone",
+    "casualties": "No casualties reported"
+  },
+  {
+    "id": "ms-114",
+    "city": "Tehran (Mehrabad Airport)",
+    "country": "Iran",
+    "lat": 35.6892,
+    "lng": 51.3134,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-16",
+    "description": "IDF destroys Khamenei's personal aircraft at Mehrabad Airport military section. Satellite imagery shows destroyed hangars. Symbolic strike eliminating Supreme Leader's escape route.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-890088",
+    "weaponType": "precision-guided munitions",
+    "casualties": "Unknown"
+  },
+  {
+    "id": "ms-115",
+    "city": "Fujairah",
+    "country": "UAE",
+    "lat": 25.1222,
+    "lng": 56.336,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Iranian drone/missile attack on Fujairah oil hub causes fire at petroleum storage facility. Continued targeting of UAE energy infrastructure.",
+    "source": "Gulf News",
+    "sourceUrl": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056",
+    "weaponType": "attack drone",
+    "casualties": "Unknown"
+  },
+  {
+    "id": "ms-116",
+    "city": "Abu Dhabi (Al Bahia)",
+    "country": "UAE",
+    "lat": 24.527,
+    "lng": 54.5643,
+    "strikeType": "ballistic missile",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Iranian ballistic missile strikes residential area in Al Bahia, Abu Dhabi. One civilian killed. First confirmed civilian fatality from Iranian strikes on UAE soil.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+    "weaponType": "ballistic missile",
+    "casualties": {
+      "killed": 1,
+      "injured": 0,
+      "note": "1 civilian killed"
+    }
+  },
+  {
+    "id": "ms-117",
+    "city": "Al-Kharj",
+    "country": "Saudi Arabia",
+    "lat": 24.1584,
+    "lng": 47.3133,
+    "strikeType": "ballistic missile",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "6 Iranian ballistic missiles strike military compound near Al-Kharj, south of Riyadh. 2 killed, 12 injured. Part of overnight barrage that included 60+ drones intercepted by Saudi air defenses.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+    "weaponType": "ballistic missile",
+    "casualties": {
+      "killed": 2,
+      "injured": 12
+    }
   }
 ]

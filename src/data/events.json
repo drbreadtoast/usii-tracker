@@ -5160,5 +5160,238 @@
       "air-defense",
       "gulf"
     ]
+  },
+  {
+    "id": "evt-new-121",
+    "title": "IDF Ground Operation in Khiam, Southern Lebanon",
+    "description": "Israeli military launches largest ground incursion into Lebanon since 2006, entering the town of Khiam with multiple armored columns in a significant escalation on the northern front.",
+    "type": "movement",
+    "lat": 33.3567,
+    "lng": 35.6167,
+    "location": "Khiam, Lebanon",
+    "timestamp": "2026-03-16T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "Casualties not yet confirmed"
+    },
+    "tags": [
+      "israel",
+      "lebanon",
+      "ground-operation",
+      "khiam",
+      "escalation"
+    ]
+  },
+  {
+    "id": "evt-new-122",
+    "title": "Iranian Drone Strikes Dubai Airport Fuel Tank",
+    "description": "Iranian drone hits fuel storage tank at Dubai International Airport, causing massive fire and forcing flight suspensions for over 7 hours at the world's busiest international hub.",
+    "type": "strike",
+    "lat": 25.2532,
+    "lng": 55.3657,
+    "location": "Dubai International Airport, UAE",
+    "timestamp": "2026-03-16T15:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/03/16/dubai-airport-drone-strike-iran/"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/16/dubai-airport-suspends-flights-drone-attack.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No casualties reported; infrastructure damage to fuel storage"
+    },
+    "tags": [
+      "iran",
+      "uae",
+      "dubai",
+      "airport",
+      "drone",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "evt-new-123",
+    "title": "IDF Destroys Khamenei's Aircraft at Mehrabad Airport",
+    "description": "Israel confirms destruction of late Supreme Leader Khamenei's personal aircraft at Tehran's Mehrabad Airport in a precision airstrike, a symbolic blow to the Iranian regime.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.3134,
+    "location": "Mehrabad Airport, Tehran, Iran",
+    "timestamp": "2026-03-16T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "US News & World Report",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-16/israel-says-it-destroyed-plane-used-by-irans-late-supreme-leader-khamenei"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No casualties reported; aircraft destroyed on ground"
+    },
+    "tags": [
+      "israel",
+      "iran",
+      "tehran",
+      "mehrabad",
+      "khamenei",
+      "precision-strike"
+    ]
+  },
+  {
+    "id": "evt-new-124",
+    "title": "Fujairah Oil Hub Struck by Drones — 2nd Day in a Row",
+    "description": "UAE's Fujairah oil hub hit by Iranian drones for the second consecutive day, forcing suspension of oil loading operations at one of the Gulf's key bunkering ports.",
+    "type": "strike",
+    "lat": 25.1222,
+    "lng": 56.3360,
+    "location": "Fujairah Oil Hub, UAE",
+    "timestamp": "2026-03-16T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No casualties reported; oil loading suspended"
+    },
+    "tags": [
+      "iran",
+      "uae",
+      "fujairah",
+      "oil",
+      "drone",
+      "energy-infrastructure"
+    ]
+  },
+  {
+    "id": "evt-new-125",
+    "title": "Abu Dhabi Missile Strike Kills Civilian in Al Bahia",
+    "description": "Missile strike in Abu Dhabi's Al Bahia district kills a Palestinian civilian, bringing the total UAE death toll to 7 since the conflict began.",
+    "type": "strike",
+    "lat": 24.5270,
+    "lng": 54.5643,
+    "location": "Al Bahia, Abu Dhabi, UAE",
+    "timestamp": "2026-03-16T17:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel (Liveblog)",
+        "url": "https://www.timesofisrael.com/liveblog-march-16-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 1,
+      "note": "Palestinian civilian killed; UAE total deaths now 7"
+    },
+    "tags": [
+      "iran",
+      "uae",
+      "abu-dhabi",
+      "civilian-casualty",
+      "missile"
+    ]
+  },
+  {
+    "id": "evt-new-126",
+    "title": "Saudi Arabia Intercepts 60+ Drones and 6 Ballistic Missiles at Al-Kharj",
+    "description": "Saudi air defenses intercept over 60 Iranian drones and 6 ballistic missiles targeting al-Kharj air base using Patriot and THAAD systems in the largest defensive engagement over Saudi territory during the conflict.",
+    "type": "strike",
+    "lat": 24.1584,
+    "lng": 47.3133,
+    "location": "Al-Kharj, Saudi Arabia",
+    "timestamp": "2026-03-16T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel (Liveblog)",
+        "url": "https://www.timesofisrael.com/liveblog-march-16-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "All projectiles intercepted; no casualties reported"
+    },
+    "tags": [
+      "iran",
+      "saudi-arabia",
+      "air-defense",
+      "patriot",
+      "thaad",
+      "ballistic-missile"
+    ]
+  },
+  {
+    "id": "evt-new-127",
+    "title": "Iran Fires 3 Missile Salvos at Central Israel with Cluster Munitions",
+    "description": "Iran fires 3 more missile salvos at central Israel using cluster munitions again. IDF confirms multiple intercepts but some impacts in populated areas of the Tel Aviv metropolitan region.",
+    "type": "strike",
+    "lat": 32.0837,
+    "lng": 34.8350,
+    "location": "Central Israel (Tel Aviv area)",
+    "timestamp": "2026-03-16T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel (Liveblog)",
+        "url": "https://www.timesofisrael.com/liveblog-march-16-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "Casualties not yet confirmed; some impacts in populated areas"
+    },
+    "tags": [
+      "iran",
+      "israel",
+      "tel-aviv",
+      "missile",
+      "cluster-munitions",
+      "escalation"
+    ]
   }
 ]

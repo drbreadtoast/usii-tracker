@@ -15,12 +15,12 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-16T00:35:00Z",
+    "lastUpdated": "2026-03-16T22:40:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 102,
+    "totalStatements": 127,
     "dateRange": {
       "earliest": "2023-01-15",
-      "latest": "2026-03-15"
+      "latest": "2026-03-16"
     }
   },
   "speakers": [
@@ -275,6 +275,17 @@
           "factCheckNote": "Direct quotes confirmed by Bloomberg. Call for international naval coalition is a significant escalation in diplomatic pressure.",
           "source": "Bloomberg",
           "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-15/trump-rejects-deal-with-iran-on-current-terms-as-war-rages-on"
+        },
+        {
+          "id": "trump-023",
+          "date": "2026-03-16",
+          "text": "NATO is useless on Hormuz. If they won't help, we'll do it ourselves. Kharg Island seizure is on the table as an economic knockout.",
+          "context": "FT interview on Day 17. Trump threatened NATO allies over their perceived non-response to Strait of Hormuz disruptions and publicly weighed seizing Iran's Kharg Island, which handles ~90% of Iran's oil exports.",
+          "venue": "Financial Times interview",
+          "factCheck": "verified",
+          "factCheckNote": "Direct quotes confirmed by NPR and FT reporting. Kharg Island seizure would require major amphibious military operation — unclear if Pentagon has presented such plans.",
+          "source": "NPR",
+          "sourceUrl": "https://www.npr.org/2026/03/16/nx-s1-5749109/trump-threatens-nato-strait-hormuz-iran-war"
         }
       ]
     },
@@ -1151,6 +1162,17 @@
           "factCheckDetail": "EU-UN coordination on a peace initiative was confirmed by both organizations. The existence of a diplomatic framework document was verified, though its prospects for acceptance by the warring parties remained uncertain.",
           "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/01/statement-by-the-high-representative-on-behalf-of-the-european-union-on-developments-in-the-middle-east/",
           "sourceName": "EU Council Press Release"
+        },
+        {
+          "id": "kallas-009",
+          "date": "2026-03-16",
+          "text": "We propose a Black Sea grain deal-style arrangement for the Strait of Hormuz through the UN. Without action, we face food deprivation next year.",
+          "context": "Kallas proposed a UN-brokered Hormuz shipping arrangement modeled on the 2022 Black Sea Grain Initiative, warning of catastrophic food security consequences if Hormuz remains disrupted.",
+          "venue": "EU Foreign Affairs Council / Al Jazeera interview",
+          "factCheck": "verified",
+          "factCheckNote": "Kallas's proposal confirmed by Al Jazeera liveblog. The Black Sea grain deal comparison reflects a concrete diplomatic model. Food security warnings align with UN FAO assessments.",
+          "source": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/16/iran-war-live-tehran-rejects-trump-claim-on-talks-gulf-attacks-continue"
         }
       ]
     },
@@ -1343,6 +1365,17 @@
           "factCheckNote": "Direct quote confirmed by Time Magazine interview.",
           "source": "Time Magazine",
           "sourceUrl": "https://time.com/article/2026/03/15/iran-Abbas-Araghchi-ceasefire-trump/"
+        },
+        {
+          "id": "araghchi-011",
+          "date": "2026-03-15",
+          "text": "We don't see any reason why we should talk with Americans. We never asked for a ceasefire.",
+          "context": "CBS Face the Nation interview. Araghchi reiterated Iran's refusal to negotiate with the US and explicitly stated Iran never requested a ceasefire, contradicting Trump administration claims of Iranian overtures.",
+          "venue": "CBS Face the Nation",
+          "factCheck": "verified",
+          "factCheckNote": "Direct quote confirmed by CBS News transcript. Contradicts Trump's claim that Iran was 'begging' for talks.",
+          "source": "CBS News",
+          "sourceUrl": "https://www.cbsnews.com/news/iranian-foreign-minister-abbas-araghchi-face-the-nation-transcript-03-15-2026/"
         }
       ]
     },
@@ -1389,6 +1422,17 @@
           "factCheck": "true",
           "sourceUrl": "https://www.washingtontimes.com/news/2026/mar/15/leo-escalates-call-ceasefire-iran-addressing-responsible-war/",
           "sourceName": "Washington Times"
+        },
+        {
+          "id": "pope_leo-005",
+          "date": "2026-03-16",
+          "text": "In the name of God, I ask: stop the bombing. Stop killing children. The school strike that took 165 young lives cries out to heaven.",
+          "context": "Sunday noon blessing from Vatican. Pope Leo XIV delivered his strongest ceasefire appeal yet, directly referencing the school strike that killed 165+ children. Called on all parties to begin dialogue immediately.",
+          "venue": "Sunday Noon Blessing, St. Peter's Square, Vatican",
+          "factCheck": "verified",
+          "factCheckNote": "Statement confirmed by Vatican News. The school strike reference aligns with confirmed reporting on the Minab girls' school attack.",
+          "source": "Vatican News",
+          "sourceUrl": "https://www.vaticannews.va/en/pope/news/2026-03/pope-leo-appeal-ceasefire-dialogue-middle-east-iran-us-israel.html"
         }
       ]
     },
@@ -1471,6 +1515,27 @@
           "factCheckNote": "Strike numbers plausible given CENTCOM data. IRGC casualty claim of 6,000+ cannot be independently verified due to Iran's internet blackout. Iran's Health Ministry reports 1,444 total killed.",
           "source": "Jerusalem Post",
           "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-890010"
+        }
+      ]
+    },
+    {
+      "id": "takaichi",
+      "name": "Sanae Takaichi",
+      "title": "Prime Minister of Japan",
+      "country": "Japan",
+      "color": "#BC002D",
+      "shortName": "Takaichi",
+      "statements": [
+        {
+          "id": "takaichi-001",
+          "date": "2026-03-16",
+          "text": "We have not yet made any decisions regarding the dispatch of naval vessels.",
+          "context": "Responding to Trump's call for allied nations to send warships to the Strait of Hormuz. Japan, which imports ~90% of its oil through the strait, faces immense pressure but Takaichi signaled caution amid domestic opposition to military involvement.",
+          "venue": "Press conference, Tokyo",
+          "factCheck": "verified",
+          "factCheckNote": "Statement confirmed by Times of Israel liveblog and Japanese media. Japan's constitutional constraints on military deployment make this a sensitive domestic issue.",
+          "source": "Times of Israel",
+          "sourceUrl": "https://www.timesofisrael.com/liveblog-march-16-2026/"
         }
       ]
     }

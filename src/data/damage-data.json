@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-16T00:35:00Z",
+    "lastUpdated": "2026-03-16T22:40:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,11 +27,11 @@
     ]
   },
   "summary": {
-    "totalSites": 89,
-    "confirmed": 80,
-    "reported": 6,
-    "rumored": 3,
-    "countriesAffected": 13,
+    "totalSites": 98,
+    "confirmed": 85,
+    "reported": 9,
+    "rumored": 4,
+    "countriesAffected": 14,
     "categories": {
       "military": 43,
       "nuclear": 8,
@@ -1579,6 +1579,81 @@
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-889930",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-094",
+      "name": "Dubai International Airport Fuel Tank",
+      "country": "UAE",
+      "city": "Dubai",
+      "lat": 25.2532,
+      "lng": 55.3657,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "Iranian drone struck fuel storage tank near Dubai International Airport causing massive fire. All flights suspended for 7+ hours. One of the world's busiest airports completely shut down.",
+      "source": "Dubai Media Office",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+      "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-095",
+      "name": "Fujairah Oil Hub",
+      "country": "UAE",
+      "city": "Fujairah",
+      "lat": 25.1222,
+      "lng": 56.336,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "Fire at Fujairah petroleum storage facility from Iranian drone/missile attack. Continued targeting of UAE energy infrastructure outside the Strait of Hormuz.",
+      "source": "Gulf News",
+      "sourceUrl": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056",
+      "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-096",
+      "name": "Khiam Town Infrastructure",
+      "country": "Lebanon",
+      "city": "Khiam",
+      "lat": 33.3567,
+      "lng": 35.6167,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "IDF airstrikes on town infrastructure in Khiam supporting ground operation. Hezbollah positions and surrounding buildings damaged as Israeli troops enter the town.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-097",
+      "name": "Mehrabad Airport Military Section",
+      "country": "Iran",
+      "city": "Tehran",
+      "lat": 35.6892,
+      "lng": 51.3134,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "IDF destroys Khamenei's personal aircraft and military hangars at Mehrabad Airport in Tehran. Satellite imagery confirms destruction of military section of the dual-use airport.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-890088",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-098",
+      "name": "Al-Kharj Military Compound",
+      "country": "Saudi Arabia",
+      "city": "Al-Kharj",
+      "lat": 24.1584,
+      "lng": 47.3133,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "6 Iranian ballistic missiles struck military compound near Al-Kharj. 2 killed, 12 injured. Part of overnight barrage that included 60+ drones intercepted by Saudi air defenses.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
+      "attributedTo": "iran"
     }
   ]
 }
