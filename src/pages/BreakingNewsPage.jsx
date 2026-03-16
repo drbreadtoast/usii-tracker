@@ -48,8 +48,8 @@ export default function BreakingNewsPage() {
     const lastUpdate = new Date(siteMetadata.lastUpdated)
     const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
 
-    const recent = sorted.filter(item => new Date(item.timestamp) >= cutoff)
-    const older = sorted.filter(item => new Date(item.timestamp) < cutoff)
+    const recent = sorted.filter(item => new Date(item.eventDate || item.timestamp) >= cutoff)
+    const older = sorted.filter(item => new Date(item.eventDate || item.timestamp) < cutoff)
 
     return { recentItems: recent, olderItems: older, cutoffTime: cutoff }
   }, [])

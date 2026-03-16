@@ -92,7 +92,7 @@ src/
 **breaking.json** — Breaking news ticker (28 entries)
 - Structure: Top-level array
 - IDs: `brk-001` through `brk-018` (some gaps from deletions)
-- Schema: `{id, text, timestamp, priority, sources[]}`
+- Schema: `{id, text, timestamp, eventDate, priority, sources[]}`
 - Valid priority: critical, high, medium
 
 **death-toll.json** — Casualty tracking

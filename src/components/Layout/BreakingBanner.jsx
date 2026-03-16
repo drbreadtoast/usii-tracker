@@ -1,13 +1,19 @@
 import { Link } from 'react-router-dom'
 import { AlertTriangle } from 'lucide-react'
 import breakingData from '../../data/breaking.json'
+import siteMetadata from '../../data/site-metadata.json'
 
 export default function BreakingBanner({ breakingNews }) {
   const data = breakingNews || breakingData
   if (!data || data.length === 0) return null
 
-  // Sort by timestamp descending, take latest items
-  const sorted = [...data].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+  // Filter to only events from the last 24 hours based on eventDate
+  const lastUpdate = new Date(siteMetadata.lastUpdated)
+  const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
+  const sorted = [...data]
+    .filter(item => new Date(item.eventDate || item.timestamp) >= cutoff)
+    .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+  if (sorted.length === 0) return null
   const text = sorted.map(item => item.text).join('   ///   ')
   const separator = '   ///   '
 

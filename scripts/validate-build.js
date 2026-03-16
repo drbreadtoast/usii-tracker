@@ -577,6 +577,53 @@ if (parsedFiles['war-costs.json']) {
 }
 
 // ─────────────────────────────────────────────────
+// 10. BREAKING NEWS FRESHNESS
+// ─────────────────────────────────────────────────
+console.log(`\n${BOLD}10. BREAKING NEWS FRESHNESS${RESET}`)
+
+if (parsedFiles['breaking.json'] && parsedFiles['site-metadata.json']) {
+  const breaking = parsedFiles['breaking.json']
+  const lastUpdated = new Date(parsedFiles['site-metadata.json'].lastUpdated)
+  const cutoff48h = new Date(lastUpdated.getTime() - 48 * 60 * 60 * 1000)
+
+  let missingEventDate = 0
+  let staleEntries = 0
+  let dateMismatch = 0
+
+  for (const entry of (Array.isArray(breaking) ? breaking : [])) {
+    // Check eventDate exists
+    if (!entry.eventDate) {
+      missingEventDate++
+      error(`breaking.json: ${entry.id} missing eventDate field`)
+      continue
+    }
+
+    // Check if eventDate is stale (>48h before lastUpdated)
+    const eventDate = new Date(entry.eventDate)
+    if (eventDate < cutoff48h) {
+      staleEntries++
+      warn(`breaking.json: ${entry.id} eventDate ${entry.eventDate} is >48h before lastUpdated — stale for 24 Hour Report`)
+    }
+
+    // Check if eventDate and timestamp differ by >2 days
+    const tsDate = new Date(entry.timestamp.slice(0, 10))
+    const diffDays = Math.abs(eventDate - tsDate) / (1000 * 60 * 60 * 24)
+    if (diffDays > 2) {
+      dateMismatch++
+      warn(`breaking.json: ${entry.id} eventDate (${entry.eventDate}) differs from timestamp date (${entry.timestamp.slice(0, 10)}) by ${diffDays.toFixed(0)} days`)
+    }
+  }
+
+  if (missingEventDate === 0) ok(`breaking.json: All entries have eventDate field`)
+  if (staleEntries === 0) {
+    ok(`breaking.json: No stale entries (all within 48h of lastUpdated)`)
+  }
+  if (dateMismatch === 0 && missingEventDate === 0) {
+    ok(`breaking.json: eventDate/timestamp consistency verified`)
+  }
+}
+
+// ─────────────────────────────────────────────────
 // SUMMARY
 // ─────────────────────────────────────────────────
 console.log(`\n${BOLD}═══════════════════════════════════════════════════${RESET}`)
