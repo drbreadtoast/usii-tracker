@@ -5,6 +5,20 @@ import siteMetadata from '../data/site-metadata.json'
 
 const PATCH_NOTES = [
   {
+    version: '2.8',
+    date: 'March 16, 2026',
+    title: 'Data Freshness, Validation & Internal Tooling',
+    icon: Wrench,
+    iconColor: 'text-green-400',
+    highlights: [
+      'Improved data freshness across the 24 Hour Report — content now strictly reflects the most recent 24-hour window',
+      'Enhanced data validation pipeline with additional integrity checks before every deployment',
+      'New internal refresh tooling for faster, more consistent daily updates across all 16 pages',
+      'Cross-file consistency improvements — prices, costs, and statistics stay in sync across pages',
+      'Updated CLAUDE.md project documentation with latest architecture and procedures',
+    ],
+  },
+  {
     version: '2.3',
     date: 'March 14, 2026',
     title: 'Data Integrity, Cost Page & Oil Page Improvements',

@@ -200,7 +200,21 @@ src/
 
 ## Update Procedure
 
-### Full Refresh
+### Full Refresh — Use `/refresh` command
+The `/refresh` slash command (`.claude/commands/refresh.md`) contains the complete automated refresh procedure. It:
+1. Captures current PT time as the refresh timestamp
+2. Launches 3 parallel research agents (Military, Political, Economic)
+3. Updates all 24 files in priority order: CRITICAL → HIGH → MEDIUM → LOW → METADATA
+4. Cross-checks math consistency (gas↔oil, war costs, hormuz barrels)
+5. Validates with `npm run deploy:check` (90+ checks)
+6. Commits and pushes
+
+**Research agents split by domain:**
+- **Agent 1 — Military:** events, timeline, breaking, death-toll, escalations, missile-strikes, damage, munitions
+- **Agent 2 — Political:** statements, government, media, social, fact-check, global-involvement
+- **Agent 3 — Economic:** oil-tracker, gas-prices, food-prices, hormuz-shipping, war-costs
+
+### Manual Full Refresh (if not using /refresh)
 1. Read UPDATE_MANIFEST.json for the checklist
 2. Research latest developments from news/OSINT sources
 3. Update files in order: CRITICAL → HIGH → MEDIUM → LOW → METADATA
