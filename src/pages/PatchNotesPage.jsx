@@ -15,7 +15,6 @@ const PATCH_NOTES = [
       'Enhanced data validation pipeline with additional integrity checks before every deployment',
       'New internal refresh tooling for faster, more consistent daily updates across all 16 pages',
       'Cross-file consistency improvements — prices, costs, and statistics stay in sync across pages',
-      'Updated CLAUDE.md project documentation with latest architecture and procedures',
     ],
   },
   {
