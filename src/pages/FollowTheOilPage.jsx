@@ -333,7 +333,7 @@ export default function FollowTheOilPage() {
         <SectionHeader
           icon={Zap}
           iconColor="text-orange-400"
-          title="US Gas Price Tracker"
+          title="US Average Gas Price Tracker"
           timestamp={gasPriceData.lastUpdated}
         />
         <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden">
