@@ -4962,5 +4962,203 @@
       "riyadh",
       "iran"
     ]
+  },
+  {
+    "id": "evt-new-115",
+    "title": "IDF Wide-Scale Strikes on Western Iran — 200+ Targets",
+    "description": "IDF launches its largest single-day operation against Iran, hitting over 200 targets across western Iran in 20 attack waves. Senior IRGC commanders Jalali-Nasab and Shariat confirmed eliminated. Targets include military infrastructure, missile production facilities, and command centers near Hamedan.",
+    "type": "strike",
+    "lat": 34.7989,
+    "lng": 48.5146,
+    "location": "Hamedan, Western Iran",
+    "timestamp": "2026-03-15T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-889930"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 2,
+      "civilian": 0,
+      "note": "Senior IRGC commanders Jalali-Nasab and Shariat eliminated; full casualty count unknown"
+    },
+    "tags": [
+      "idf",
+      "iran",
+      "wide-scale",
+      "irgc",
+      "hamedan",
+      "airstrike"
+    ]
+  },
+  {
+    "id": "evt-new-116",
+    "title": "Iranian Cluster Munitions Strike Bnei Brak — 3 Wounded",
+    "description": "Iranian missiles with cluster munitions strike Bnei Brak, wounding 3 civilians. First confirmed use of 'split-warhead' MIRV-type missiles against Israeli population centers, representing a significant escalation in Iran's missile capabilities.",
+    "type": "strike",
+    "lat": 32.0837,
+    "lng": 34.835,
+    "location": "Bnei Brak, Israel",
+    "timestamp": "2026-03-15T21:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-889920"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 3,
+      "note": "3 civilians wounded by cluster munition fragments"
+    },
+    "tags": [
+      "iran",
+      "bnei-brak",
+      "cluster-munitions",
+      "mirv",
+      "civilian-casualties"
+    ]
+  },
+  {
+    "id": "evt-new-117",
+    "title": "Baghdad Airport Hit by 5 Rockets — US Embassy Security Alert",
+    "description": "Five rockets strike Baghdad International Airport, wounding 5 people. US Embassy issues security alert urging all American citizens to leave Iraq immediately. Attack attributed to Iran-aligned Iraqi militias.",
+    "type": "strike",
+    "lat": 33.2627,
+    "lng": 44.2346,
+    "location": "Baghdad International Airport, Iraq",
+    "timestamp": "2026-03-15T21:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Middle East Eye",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/five-wounded-after-rockets-hit-baghdad-airport"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 5,
+      "note": "5 wounded at airport"
+    },
+    "tags": [
+      "iraq",
+      "baghdad",
+      "airport",
+      "rockets",
+      "iraq-militias",
+      "us-embassy"
+    ]
+  },
+  {
+    "id": "evt-new-118",
+    "title": "Iranian Drone Destroys Italian MQ-9 Reaper at Ali Al Salem, Kuwait",
+    "description": "Iranian drone strike destroys an Italian MQ-9 Reaper surveillance drone at Ali Al Salem airbase in Kuwait. $35M loss, no casualties. First direct Iranian attack on a NATO ally's military asset in the Gulf.",
+    "type": "strike",
+    "lat": 29.3467,
+    "lng": 47.5208,
+    "location": "Ali Al Salem Airbase, Kuwait",
+    "timestamp": "2026-03-15T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Daily Sabah",
+        "url": "https://www.dailysabah.com/world/mid-east/drone-strike-hits-italy-us-base-in-kuwait-no-casualties-rome"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No casualties; $35M MQ-9 Reaper destroyed"
+    },
+    "tags": [
+      "iran",
+      "kuwait",
+      "drone",
+      "italy",
+      "nato",
+      "mq-9",
+      "ali-al-salem"
+    ]
+  },
+  {
+    "id": "evt-new-119",
+    "title": "Dubai Intercepts Iranian Projectiles Over Marina & Al Sufouh",
+    "description": "Dubai air defenses intercept incoming Iranian projectiles over the Marina and Al Sufouh districts after Iran issued evacuation warnings to specific neighborhoods. Interceptions follow unprecedented Iranian warnings to Gulf civilian populations.",
+    "type": "strike",
+    "lat": 25.0809,
+    "lng": 55.1402,
+    "location": "Dubai Marina / Al Sufouh, UAE",
+    "timestamp": "2026-03-15T22:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel (Liveblog)",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-issues-warning-for-strikes-in-specific-areas-of-dubai-and-doha/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "All projectiles intercepted; no casualties reported"
+    },
+    "tags": [
+      "iran",
+      "dubai",
+      "uae",
+      "interception",
+      "air-defense",
+      "gulf"
+    ]
+  },
+  {
+    "id": "evt-new-120",
+    "title": "Doha Intercepts Iranian Missiles After Evacuation Warning",
+    "description": "Qatar air defenses intercept Iranian missiles targeting Doha after Iran issued evacuation warnings to specific neighborhoods. The attack on a traditionally neutral Gulf state marks a dramatic expansion of Iran's target list.",
+    "type": "strike",
+    "lat": 25.3548,
+    "lng": 51.1839,
+    "location": "Doha, Qatar",
+    "timestamp": "2026-03-15T22:45:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel (Liveblog)",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-issues-warning-for-strikes-in-specific-areas-of-dubai-and-doha/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "Missiles intercepted; no casualties reported"
+    },
+    "tags": [
+      "iran",
+      "qatar",
+      "doha",
+      "interception",
+      "air-defense",
+      "gulf"
+    ]
   }
 ]

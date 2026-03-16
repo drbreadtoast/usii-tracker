@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-15T20:30:00Z",
+    "lastUpdated": "2026-03-16T00:35:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 16,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
@@ -92,7 +92,7 @@
           },
           "oilPriceImpact": {
             "amount": 16500000000,
-            "description": "Cost to US economy from Brent at $103.82/bbl (+30.1% from pre-war $79.8). Gas at $3.70/gal national avg (+$0.52 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 2026 lows, down 3.1% YTD.",
+            "description": "Cost to US economy from Brent at $105.66/bbl (+32.4% from pre-war $79.8). Gas at $3.70/gal national avg (+$0.52 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 2026 lows, down 3.1% YTD.",
             "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
             "sourceUrl": "https://www.eia.gov/outlooks/steo/"
           },
@@ -527,9 +527,9 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 103.82,
+      "currentPrice": 105.66,
       "peakPrice": 119.5,
-      "wtiPrice": 99.30,
+      "wtiPrice": 101.32,
       "usGasPricePerGallon": 3.70,
       "priceUnit": "USD per barrel (Brent Crude)",
       "percentageIncrease": 41.5,
@@ -567,8 +567,8 @@
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "S&P 500 at 6,632 \u2014 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
-    "oilPriceImpact": "Brent $103.82/bbl (+30.1% from pre-war). WTI $99.30 (+31.5%). Fourth consecutive weekly gain. IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $100 for four consecutive sessions. Rystad warns $135 if conflict persists 4 months.",
-    "gasPrice": "$3.70/gallon national average (+16.4% from pre-war $3.18). California $5.37/gal. Polymarket: 64% odds of $4.50 by end of March."
+    "oilPriceImpact": "Brent $105.66/bbl (+32.4% from pre-war). WTI $101.32 (+34.2%). Fourth consecutive weekly gain. IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $105. Rystad warns $135 if conflict persists 4 months. Gold above $5,000/oz.",
+    "gasPrice": "$3.70/gallon national average (+16.4% from pre-war $3.18). California $5.34/gal. Polymarket: 64% odds of $4.50 by end of March."
   },
   "keyFacts": [
     {
@@ -654,6 +654,34 @@
       "cost": 66400000000,
       "source": "Fortune",
       "sourceUrl": "https://fortune.com/"
+    },
+    {
+      "id": "fact-13",
+      "fact": "F1 cancels Bahrain and Saudi Arabia GPs — estimated $100M combined hosting fee loss",
+      "cost": 100000000,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/sports/"
+    },
+    {
+      "id": "fact-14",
+      "fact": "Maritime insurance premiums up 1,000%+; container surcharges $1,500-2,000/TEU",
+      "cost": null,
+      "source": "Lloyd's List Intelligence",
+      "sourceUrl": "https://www.lloydslistintelligence.com/"
+    },
+    {
+      "id": "fact-15",
+      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait — $30-35M asset loss",
+      "cost": 32500000,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/middle-east/"
+    },
+    {
+      "id": "fact-16",
+      "fact": "Gold above $5,000/oz; Iranian rial crashed to 1.75M/USD (all-time low, down 30% YTD)",
+      "cost": null,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/markets/commodities/"
     }
   ],
   "totals": {
@@ -662,8 +690,8 @@
     "combinedTotalCosts": 141640000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 16. CSIS benchmark: $16.5B US costs through Day 12.",
-    "lastCalculated": "2026-03-15T20:30:00Z"
+    "lastCalculated": "2026-03-16T00:35:00Z"
   },
   "daysOfConflict": 16,
-  "lastUpdated": "2026-03-15T20:30:00Z"
+  "lastUpdated": "2026-03-16T00:35:00Z"
 }

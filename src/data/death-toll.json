@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T20:30:00Z",
+  "lastUpdated": "2026-03-16T00:35:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -123,8 +123,8 @@
           "name": "Iran",
           "flag": "🇮🇷",
           "confirmed": {
-            "military": 800,
-            "civilian": 644,
+            "military": 397,
+            "civilian": 1047,
             "total": 1444,
             "source": "Iranian Health Ministry (as of March 15 — 1,444 confirmed killed)",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
@@ -141,7 +141,7 @@
             "total": 8000,
             "military": 5000,
             "civilian": 3000,
-            "note": "HRANA documented 1,097 civilian deaths by Day 4 alone — extrapolation through Day 15 implies far higher toll. 200+ children among dead per WHO. HRANA precedent from 2025 Twelve-Day War: official figure was 610, HRANA later confirmed 1,190 (nearly double). Internet at 4% makes independent verification near-impossible. ~20,000 civilian buildings, 77 healthcare facilities, 65 schools damaged.",
+            "note": "IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000 wounded (March 15). HRANA documented 1,097 civilian deaths by Day 4 alone — extrapolation through Day 16 implies far higher toll. 200+ children among dead per WHO. HRANA precedent from 2025 Twelve-Day War: official figure was 610, HRANA later confirmed 1,190 (nearly double). Internet at 4% makes independent verification near-impossible. ~20,000 civilian buildings, 77 healthcare facilities, 65 schools damaged.",
             "socialSources": [
               {
                 "platform": "HRANA",
@@ -177,6 +177,13 @@
                 "claim": "Experts say actual death toll 'could be far greater as more details are released' — Iran's internet blackout prevents verification",
                 "url": "https://www.npr.org/2026/03/14/nx-s1-5746623/iran-war-cost-deaths",
                 "date": "2026-03-14"
+              },
+              {
+                "platform": "JPost",
+                "handle": "IDF Brig Gen Effie Defrin",
+                "claim": "IDF claims 6,000+ IRGC killed, 15,000 wounded, 70% of Iran's missile launchers destroyed, 2,000+ targets hit. Plans through Passover (3+ more weeks).",
+                "url": "https://www.jpost.com/israel-news/defense-news/article-890010",
+                "date": "2026-03-15"
               }
             ]
           },
@@ -203,7 +210,7 @@
             "total": 17,
             "source": "Israeli media estimates",
             "sourceUrl": "https://www.timesofisrael.com/topic/iran-war/",
-            "note": "15 confirmed killed (Alma Center). 2 killed by cluster munition strike in central Israel (Day 14). 9 killed in Beit Shemesh (Day 2). ~3,138 wounded. 11 Iranian cluster missiles penetrated air defenses."
+            "note": "15 confirmed killed (Alma Center). 2 killed by cluster munition strike in central Israel (Day 14). 9 killed in Beit Shemesh (Day 2). 3,195 hospitalized per Israel Health Ministry. 11 Iranian cluster missiles penetrated air defenses."
           },
           "rumored": {
             "total": 45,
@@ -227,8 +234,8 @@
               }
             ]
           },
-          "injured": 3138,
-          "injuredNote": "Includes 50+ wounded in Zarzir missile strike. 11 Iranian cluster missiles penetrated air defenses."
+          "injured": 3195,
+          "injuredNote": "3,195 hospitalized per Israel Health Ministry (March 15). Includes 50+ wounded in Zarzir missile strike. 11 Iranian cluster missiles penetrated air defenses."
         },
         {
           "name": "United States",
@@ -337,18 +344,18 @@
           "flag": "🌐",
           "confirmed": {
             "military": 0,
-            "civilian": 23,
-            "total": 23,
+            "civilian": 28,
+            "total": 28,
             "source": "Gulf state media reports / defense ministry statements",
             "sourceUrl": "https://www.cnbc.com/2026/03/10/iran-strikes-gulf-neighbors-us-assets-oil-infrastructure.html"
           },
           "estimated": {
             "military": 0,
-            "civilian": 28,
-            "total": 28,
-            "source": "Estimated from missile impact reports across Gulf",
+            "civilian": 33,
+            "total": 33,
+            "source": "Estimated from missile impact reports across Gulf and Iraq",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks",
-            "note": "UAE: 6 killed, 122 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 11 killed. Bahrain: 1 killed (+ 32 wounded), 125 ballistic missiles and 211 drones intercepted since war began. Saudi Arabia: 2 killed. Oman: 3 killed."
+            "note": "Iraq: 20 killed (Baghdad airport rockets wounded 5 more, Mar 15). UAE: 6 killed, 142 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 1 killed. Bahrain: 27 killed (+ 32 wounded), 125 ballistic missiles and 211 drones intercepted since war began. Saudi Arabia: 2 killed. Oman: 3 killed."
           },
           "rumored": {
             "total": 35,
@@ -372,8 +379,8 @@
               }
             ]
           },
-          "injured": 192,
-          "injuredNote": "UAE: 122 injured. Bahrain: 32 wounded. 262 missiles detected over UAE (241 destroyed), ~1,400 drones intercepted."
+          "injured": 193,
+          "injuredNote": "UAE: 142 injured. Bahrain: 32 wounded. Iraq: 5+ wounded (Baghdad airport rockets, Mar 15). 262 missiles detected over UAE (241 destroyed), ~1,400 drones intercepted."
         },
         {
           "name": "France",

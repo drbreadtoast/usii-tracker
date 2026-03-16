@@ -15,9 +15,9 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-15T20:30:00Z",
+    "lastUpdated": "2026-03-16T00:35:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 98,
+    "totalStatements": 102,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-03-15"
@@ -515,6 +515,17 @@
           "factCheckNote": "Mojtaba Khamenei's condition not independently confirmed. $10M reward confirmed by State Department.",
           "source": "Axios",
           "sourceUrl": "https://www.axios.com/2026/03/13/hegseth-iran-war-supreme-leader-wounded-disfigured"
+        },
+        {
+          "id": "hegseth-13",
+          "date": "2026-03-15",
+          "text": "Iranian forces launched thousands of drones AND missiles at its neighbours.",
+          "context": "CENTCOM X post responding to Iranian FM Araghchi's claims. Hegseth/CENTCOM pushed back on Iranian narrative about the scope of Iranian attacks on regional neighbors.",
+          "venue": "CENTCOM X post",
+          "factCheck": "verified",
+          "factCheckNote": "CENTCOM statement confirmed. Iran has launched missiles at Gulf states, Iraq, and Israel throughout the conflict.",
+          "source": "ABC News",
+          "sourceUrl": "https://abcnews.com/International/live-updates/iran-live-updates/?id=130893022"
         }
       ]
     },
@@ -696,6 +707,17 @@
           "factCheckNote": "Reported by Bloomberg; press conference footage available",
           "source": "Bloomberg",
           "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/netanyahu-says-no-guarantee-of-iran-regime-change-after-war"
+        },
+        {
+          "id": "netanyahu-015",
+          "date": "2026-03-15",
+          "text": "[Video posted showing himself alive and well]",
+          "context": "Netanyahu posted a video to counter Iranian state media rumors that he had been killed. The video showed him in an undisclosed location, appearing unharmed.",
+          "venue": "Social media post",
+          "factCheck": "verified",
+          "factCheckNote": "Video confirmed authentic. Posted in direct response to Iranian propaganda claiming Netanyahu was dead.",
+          "source": "US News & World Report",
+          "sourceUrl": "https://www.usnews.com/news/world/articles/2026-03-15/netanyahu-posts-video-in-response-to-iran-rumours-that-he-is-dead"
         }
       ]
     },
@@ -1407,6 +1429,48 @@
           "factCheckNote": "French soldier death confirmed by French Ministry of Armed Forces and France24. France maintains counterterrorism forces in Iraq under Operation Chammal.",
           "source": "France 24",
           "sourceUrl": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf"
+        }
+      ]
+    },
+    {
+      "id": "wright",
+      "name": "Chris Wright",
+      "title": "US Secretary of Energy",
+      "country": "United States",
+      "color": "#1565C0",
+      "shortName": "Wright",
+      "statements": [
+        {
+          "id": "wright-001",
+          "date": "2026-03-15",
+          "text": "This conflict will certainly come to an end in the next few weeks.",
+          "context": "ABC 'This Week' interview. Energy Secretary Wright predicted the war would end within weeks, suggesting the administration sees a timeline for resolution. Comments come amid sustained $100+ oil prices and growing economic pressure.",
+          "venue": "ABC 'This Week'",
+          "factCheck": "unverified",
+          "factCheckNote": "Prediction about conflict duration. IDF Brig Gen Defrin separately indicated plans through Passover (3+ more weeks), contradicting a quick resolution.",
+          "source": "Fortune",
+          "sourceUrl": "https://fortune.com/2026/03/15/us-energy-chief-chris-wright-iran-war-several-more-weeks-oil-prices/"
+        }
+      ]
+    },
+    {
+      "id": "defrin",
+      "name": "Brig Gen Effie Defrin",
+      "title": "IDF Spokesperson / Senior Commander",
+      "country": "Israel",
+      "color": "#0D47A1",
+      "shortName": "Defrin",
+      "statements": [
+        {
+          "id": "defrin-001",
+          "date": "2026-03-15",
+          "text": "We have plans through Passover. Over 2,000 targets have been hit. 70% of Iran's missile launchers have been destroyed. More than 6,000 IRGC fighters have been killed.",
+          "context": "IDF Brig Gen Effie Defrin outlined the scope and timeline of Israeli operations against Iran. The Passover timeline (April 12) implies at least 3 more weeks of operations. The 6,000+ IRGC killed claim is significantly higher than Iranian government figures.",
+          "venue": "IDF briefing",
+          "factCheck": "partially_verified",
+          "factCheckNote": "Strike numbers plausible given CENTCOM data. IRGC casualty claim of 6,000+ cannot be independently verified due to Iran's internet blackout. Iran's Health Ministry reports 1,444 total killed.",
+          "source": "Jerusalem Post",
+          "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-890010"
         }
       ]
     }

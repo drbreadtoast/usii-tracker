@@ -2,7 +2,7 @@
   "straitStatus": "effectively_closed",
   "blockadeDay": 13,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-15T20:30:00Z",
+  "lastUpdated": "2026-03-16T00:35:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -11,7 +11,7 @@
     "vesselsTransitLast24h": 0,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
-    "vlccDailyRate": 400000,
+    "vlccDailyRate": 800000,
     "vesselsDamaged": 18,
     "vesselsSunk": 3,
     "insuranceStatus": "withdrawn",
@@ -133,6 +133,17 @@
       "status": "effectively_closed",
       "barrels": 200000,
       "note": "Afternoon update — Iranian supertanker transit and coalition proposal"
+    },
+    {
+      "date": "2026-03-15",
+      "event": "Iran issues evacuation warnings for specific areas of Dubai, Abu Dhabi, and Doha ports; Fujairah oil loading resumes after Saturday fire; two Indian LPG tankers cross with Iran's permission",
+      "status": "effectively_closed",
+      "barrels": 1200000
+    },
+    {
+      "date": "2026-03-15",
+      "event": "Trump urges China and allies to send warships; coalition expected to be announced 'this week' (WSJ). No countries publicly commit yet",
+      "status": "effectively_closed"
     }
   ],
   "impactedGoods": [
@@ -140,8 +151,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "0 bbl/day",
-      "priceImpact": "+30.1% (Brent $103.82, WTI $99.30)",
-      "detail": "20% of global supply cut off. Brent past $100/barrel for first time since 2022. IEA record 400M barrel release across 32 countries (US contributing 172M from SPR) fails to contain surge. 16 ships now damaged/sunk. 280+ bulk carriers stranded, dry bulk trade down 91%. Traffic down 95%+."
+      "priceImpact": "+32.4% (Brent $105.66, WTI $101.32)",
+      "detail": "20% of global supply cut off. Brent past $105/barrel. IEA record 400M barrel release across 32 countries (US contributing 172M from SPR) fails to contain surge. 18 ships damaged, 3 sunk. 280+ bulk carriers stranded, dry bulk trade down 91%. Traffic down 95%+. VLCC charter rates at $800K/day."
     },
     {
       "commodity": "LNG",
@@ -155,7 +166,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+12%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas prices at $3.70/gal (AAA), up 16.4% from pre-war $3.18. California at $5.34/gal. Diesel at $4.83 (+28%). Oil above $103/barrel. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel release ongoing. Gas Prices Relief Act introduced to suspend 18.4c/gal federal gas tax."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas prices at $3.70/gal (AAA), up 16.4% from pre-war $3.18. California at $5.34/gal. Diesel at $4.83 (+28%). Oil above $105/barrel. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel release ongoing. Gas Prices Relief Act introduced to suspend 18.4c/gal federal gas tax."
     },
     {
       "commodity": "Petrochemicals",
