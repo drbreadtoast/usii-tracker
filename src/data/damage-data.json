@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-16T10:40:00Z",
+    "lastUpdated": "2026-03-16T15:20:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,10 +27,10 @@
     ]
   },
   "summary": {
-    "totalSites": 98,
-    "confirmed": 85,
-    "reported": 9,
-    "rumored": 4,
+    "totalSites": 97,
+    "confirmed": 88,
+    "reported": 6,
+    "rumored": 3,
     "countriesAffected": 14,
     "categories": {
       "military": 43,
@@ -1654,6 +1654,51 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon",
       "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-099",
+      "name": "Iran Space Research Center",
+      "country": "Iran",
+      "city": "Tehran",
+      "lat": 35.6892,
+      "lng": 51.389,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "Israel destroyed Iran's primary space research center used for anti-satellite weapons development and Chamran-1 satellite program.",
+      "source": "Washington Times",
+      "sourceUrl": "https://www.washingtontimes.com/news/2026/mar/16/israel-defense-forces-strike-iranian-space-research-center-used/",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-100",
+      "name": "Umm Al Quwain Building",
+      "country": "UAE",
+      "city": "Umm Al Quwain",
+      "lat": 25.5647,
+      "lng": 55.5532,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "Building targeted in drone attack, resulting in fire. No casualties.",
+      "source": "Gulf News",
+      "sourceUrl": "https://gulfnews.com/uae/usisrael-war-with-iran-day-17-trump-urges-allies-to-secure-strait-of-hormuz-dubai-flights-suspended-1.500475750",
+      "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-101",
+      "name": "Baghdad International Airport",
+      "country": "Iraq",
+      "city": "Baghdad",
+      "lat": 33.2625,
+      "lng": 44.2346,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "5 rockets struck airport area. Kataib Hezbollah claimed attack targeting Camp Victory. 5 wounded.",
+      "source": "BNO News",
+      "sourceUrl": "https://bnonews.com/index.php/2026/03/5-injured-in-rocket-attack-on-baghdad-airport/",
+      "attributedTo": "iraq_militias"
     }
   ]
 }

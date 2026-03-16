@@ -1582,7 +1582,7 @@
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
     "sourceCategory": "osint_analyst",
-    "text": "BREAKING: IDF confirms ground operation in southern Lebanon — troops have entered Khiam. Airstrikes supporting the advance. This is the deepest IDF ground incursion since the war began.",
+    "text": "BREAKING: IDF confirms ground operation in southern Lebanon \u2014 troops have entered Khiam. Airstrikes supporting the advance. This is the deepest IDF ground incursion since the war began.",
     "timestamp": "2026-03-16T14:00:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "IDF spokesperson confirmed ground operation in southern Lebanon",
@@ -1628,7 +1628,7 @@
     "handle": "@IntelCrab",
     "displayName": "Intel Crab",
     "sourceCategory": "osint_analyst",
-    "text": "CONFIRMED: IDF destroys Khamenei's personal aircraft at Mehrabad Airport, Tehran. Multiple satellite images show destroyed hangars on the military side of the airport. Symbolic strike — the Supreme Leader's escape route eliminated.",
+    "text": "CONFIRMED: IDF destroys Khamenei's personal aircraft at Mehrabad Airport, Tehran. Multiple satellite images show destroyed hangars on the military side of the airport. Symbolic strike \u2014 the Supreme Leader's escape route eliminated.",
     "timestamp": "2026-03-16T18:00:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "Jerusalem Post and satellite imagery confirm strike on Mehrabad Airport military section",
@@ -1651,7 +1651,7 @@
     "handle": "@BNONews",
     "displayName": "BNO News",
     "sourceCategory": "lead_source",
-    "text": "BREAKING: IRGC declares USS Gerald Ford carrier strike group's entire support network — including supply ships, tankers, and escort vessels — as 'legitimate military targets.' Major escalation in rhetoric against US naval assets.",
+    "text": "BREAKING: IRGC declares USS Gerald Ford carrier strike group's entire support network \u2014 including supply ships, tankers, and escort vessels \u2014 as 'legitimate military targets.' Major escalation in rhetoric against US naval assets.",
     "timestamp": "2026-03-16T20:00:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "IRGC spokesman Zolfaqari statement broadcast on Iranian state media",
@@ -1666,6 +1666,74 @@
       "navy",
       "escalation",
       "day-17"
+    ]
+  },
+  {
+    "id": "social-078",
+    "platform": "X",
+    "handle": "@ClemensonResearch",
+    "displayName": "Clemson University Research",
+    "sourceCategory": "osint_analyst",
+    "text": "NEW REPORT: Identified 62 IRGC-linked social media accounts on X, Bluesky, and Instagram posing as Scottish, Irish, and Latina users to push pro-Tehran narratives and spread Netanyahu death hoax.",
+    "timestamp": "2026-03-16T14:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Clemson University research team report; covered by Fox News",
+    "engagement": {
+      "likes": 15200,
+      "retweets": 8900,
+      "replies": 2100
+    },
+    "keywords": [
+      "irgc",
+      "misinformation",
+      "social-media",
+      "netanyahu-hoax"
+    ]
+  },
+  {
+    "id": "social-079",
+    "platform": "X",
+    "handle": "@DavidSacks",
+    "displayName": "David Sacks",
+    "sourceCategory": "lead_source",
+    "text": "All-In podcast: US should 'declare victory and get out.' Warned Israel 'could get seriously destroyed' and might contemplate nuclear weapon use. Called Republicans 'largely responsible' for escalation.",
+    "timestamp": "2026-03-14T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "All-In podcast aired March 14. First senior Trump admin figure to publicly criticize war.",
+    "engagement": {
+      "likes": 245000,
+      "retweets": 89000,
+      "replies": 42000
+    },
+    "keywords": [
+      "sacks",
+      "all-in",
+      "antiwar",
+      "nuclear",
+      "off-ramp"
+    ]
+  },
+  {
+    "id": "social-080",
+    "platform": "X",
+    "handle": "@Snopes",
+    "displayName": "Snopes Fact-Check",
+    "sourceCategory": "osint_analyst",
+    "text": "FACT CHECK: Netanyahu '6 fingers' deepfake video debunked. Original shows 5 fingers. AI detection: 0.1% likelihood. Grok AI erroneously labeled cafe response video as '100% deepfake.'",
+    "timestamp": "2026-03-16T12:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Snopes full analysis with frame-by-frame evidence",
+    "engagement": {
+      "likes": 67000,
+      "retweets": 31000,
+      "replies": 8500
+    },
+    "keywords": [
+      "fact-check",
+      "deepfake",
+      "netanyahu",
+      "grok",
+      "ai"
     ]
   }
 ]

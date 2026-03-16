@@ -1791,5 +1791,77 @@
       "killed": 2,
       "injured": 12
     }
+  },
+  {
+    "id": "ms-118",
+    "city": "Jerusalem",
+    "country": "Israel",
+    "lat": 31.7784,
+    "lng": 35.2296,
+    "strikeType": "ballistic missile (intercepted fragments)",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Iranian missile fragments fell near Church of the Holy Sepulchre, National Library near Knesset, and East Jerusalem after interception. 1 minor injury.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/in-jerusalem-missile-fragments-fall-near-church-of-holy-sepulchre-national-library-close-to-the-knesset/",
+    "weaponType": "ballistic missile",
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-119",
+    "city": "Abu Dhabi (Al Bahyah)",
+    "country": "UAE",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "strikeType": "missile",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Missile struck civilian vehicle in Al Bahyah area, killing one Palestinian national.",
+    "source": "Gulf News",
+    "sourceUrl": "https://gulfnews.com/uae/usisrael-war-with-iran-day-17-trump-urges-allies-to-secure-strait-of-hormuz-dubai-flights-suspended-1.500475750",
+    "weaponType": "ballistic missile",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-120",
+    "city": "Baghdad (Airport)",
+    "country": "Iraq",
+    "lat": 33.2625,
+    "lng": 44.2346,
+    "strikeType": "rockets",
+    "attributedTo": "iraq_militias",
+    "date": "2026-03-16",
+    "description": "5 rockets hit Baghdad International Airport and surrounding area. Kataib Hezbollah claimed responsibility targeting Camp Victory. 5 wounded.",
+    "source": "BNO News",
+    "sourceUrl": "https://bnonews.com/index.php/2026/03/5-injured-in-rocket-attack-on-baghdad-airport/",
+    "weaponType": "rockets",
+    "casualties": {
+      "killed": 0,
+      "injured": 5
+    }
+  },
+  {
+    "id": "ms-121",
+    "city": "Jurf al-Sakhar",
+    "country": "Iraq",
+    "lat": 32.95,
+    "lng": 44.15,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-03-16",
+    "description": "Air raid hit PMF headquarters in Jurf al-Sakhar, Iraq. 3 people injured.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/iran-war-what-is-happening-on-day-17-of-us-israel-attacks",
+    "weaponType": "airstrike",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]
