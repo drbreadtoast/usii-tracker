@@ -117,7 +117,7 @@ export default function BreakingNewsPage() {
         >
           <span className="text-amber-500">♥</span>
           <span>This tracker is built and updated daily by 1 person.</span>
-          <span className="font-semibold text-amber-400 hover:text-amber-300 underline underline-offset-2">Support this project</span>
+          <span className="font-semibold text-amber-400 hover:text-amber-300 underline underline-offset-2">Buy me a coffee</span>
         </a>
       </div>
 

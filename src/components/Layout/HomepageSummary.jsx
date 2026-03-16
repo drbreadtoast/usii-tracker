@@ -432,7 +432,7 @@ export default function HomepageSummary() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-[10px] text-amber-400/80 hover:text-amber-300 transition-colors"
           >
-            <span className="text-amber-500">♥</span> Built by 1 person — support this project
+            <span className="text-amber-500">♥</span> Built by 1 person — buy me a coffee
           </a>
         </div>
       </div>
@@ -460,7 +460,7 @@ export default function HomepageSummary() {
       {/* Footer note */}
       <div className="text-center pb-6 px-4">
         <p className="text-[10px] text-gray-700">Data refreshed multiple times daily from verified sources. Click any section for full details and source links.</p>
-        <p className="text-[10px] text-gray-600 mt-1">Independent project by 1 developer. <a href="https://buymeacoffee.com/theossreport" target="_blank" rel="noopener noreferrer" className="text-amber-500/70 hover:text-amber-400 transition-colors">Support this project</a></p>
+        <p className="text-[10px] text-gray-600 mt-1">Independent project by 1 developer. <a href="https://buymeacoffee.com/theossreport" target="_blank" rel="noopener noreferrer" className="text-amber-500/70 hover:text-amber-400 transition-colors">Buy me a coffee</a></p>
       </div>
     </div>
   )

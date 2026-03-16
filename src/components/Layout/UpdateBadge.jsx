@@ -92,7 +92,7 @@ export default function UpdateBadge({ variant = 'full' }) {
           className="inline-flex items-center gap-1 text-[9px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0"
         >
           <Heart size={9} />
-          Support
+          Coffee
         </a>
       </div>
     </>

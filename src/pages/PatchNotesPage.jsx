@@ -258,7 +258,7 @@ export default function PatchNotesPage() {
                 className="inline-flex items-center justify-center gap-2 w-full text-sm font-semibold text-amber-200 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/30 hover:border-amber-500/50 px-4 py-2.5 rounded-lg transition-colors"
               >
                 <Heart size={16} />
-                Support This Project
+                Buy Me a Coffee
                 <ExternalLink size={12} className="ml-1 opacity-60" />
               </a>
               <p className="text-[10px] text-gray-600 text-center mt-1.5">Opens Buy Me A Coffee in a new tab</p>

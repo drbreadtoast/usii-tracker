@@ -95,7 +95,7 @@ export default function SourcesNotice() {
                 className="inline-flex items-center gap-1.5 mt-2 text-[10px] font-semibold text-amber-300 bg-amber-600/15 hover:bg-amber-600/25 border border-amber-500/25 hover:border-amber-500/40 px-3 py-1.5 rounded-md transition-colors"
               >
                 <Heart size={10} />
-                Support This Project
+                Buy Me a Coffee
                 <ExternalLink size={8} className="opacity-60" />
               </a>
             </div>
