@@ -1735,5 +1735,49 @@
       "grok",
       "ai"
     ]
+  },
+  {
+    "id": "social-081",
+    "platform": "X",
+    "handle": "@Conflicts",
+    "displayName": "Conflicts Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "BREAKING: IDF 91st Division ground forces have taken control of Khiam in southern Lebanon. Merkava tanks and APCs seen advancing. IDF claims 230+ Hezbollah fighters eliminated since campaign began.",
+    "timestamp": "2026-03-16T18:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by IDF spokesperson, Times of Israel, Al Jazeera",
+    "engagement": {
+      "likes": 89000,
+      "retweets": 52000,
+      "replies": 12000
+    },
+    "keywords": [
+      "khiam",
+      "lebanon",
+      "ground-operation",
+      "91st-division"
+    ]
+  },
+  {
+    "id": "social-082",
+    "platform": "X",
+    "handle": "@AlJazeera",
+    "displayName": "Al Jazeera English",
+    "sourceCategory": "lead_source",
+    "text": "Strait of Hormuz: Iran has selectively allowed passage for ships from Pakistan, India, and Turkey while maintaining blockade on US allies. China and France are in negotiations for access. Fewer than 5 ships per day transiting vs 138 historical average.",
+    "timestamp": "2026-03-16T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera investigation with shipping data",
+    "engagement": {
+      "likes": 67000,
+      "retweets": 41000,
+      "replies": 9800
+    },
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "selective-passage",
+      "blockade"
+    ]
   }
 ]

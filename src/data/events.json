@@ -5650,5 +5650,261 @@
       "coalition",
       "diplomatic-failure"
     ]
+  },
+  {
+    "id": "evt-new-136",
+    "title": "Iranian Cluster Missile Barrage Hits Rishon Lezion, Central Israel",
+    "description": "Iran fired Fajr-type missiles with cluster munition warheads at central Israel. Impacts in Rishon Lezion, Lod, and Shoham. 10 locations damaged (7 in Rishon Lezion). 30-year-old woman injured in safe room when home destroyed. President Herzog visited impact site.",
+    "type": "strike",
+    "lat": 31.964,
+    "lng": 34.804,
+    "location": "Rishon Lezion, Israel",
+    "timestamp": "2026-03-16T08:05:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-16-2026/"
+      },
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/article-890140"
+      },
+      {
+        "name": "Ynet",
+        "url": "https://www.ynetnews.com/article/bjy6alb5bg"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 1,
+      "note": "1 woman lightly injured; significant property damage"
+    },
+    "tags": [
+      "rishon-lezion",
+      "cluster-munitions",
+      "central-israel"
+    ]
+  },
+  {
+    "id": "evt-new-137",
+    "title": "IDF 91st Division Launches Ground Operation in Southern Lebanon",
+    "description": "IDF 91st 'Galilee' Division launched 'limited and targeted ground operation' in southern Lebanon. Merkava tanks and APCs advanced toward Khiam and Aitaroun. IDF effectively took control of Khiam. 230+ Hezbollah fighters eliminated, 200+ targets struck. 450,000 reservists called up.",
+    "type": "movement",
+    "lat": 33.282,
+    "lng": 35.641,
+    "location": "Khiam, Southern Lebanon",
+    "timestamp": "2026-03-16T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/idf-begins-targeted-ground-operation-to-expand-south-lebanon-buffer-against-hezbollah/"
+      },
+      {
+        "name": "Israel Hayom",
+        "url": "https://www.israelhayom.com/2026/03/16/idf-ground-operation-southern-lebanon-hezbollah-division-91"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "230+ Hezbollah fighters eliminated (IDF claim)"
+    },
+    "tags": [
+      "ground-operation",
+      "lebanon",
+      "khiam",
+      "91st-division"
+    ]
+  },
+  {
+    "id": "evt-new-138",
+    "title": "Hezbollah Rocket Strikes Nahariya Residential Building \u2014 6 Wounded",
+    "description": "Hezbollah rocket struck residential building in Nahariya at ~6 PM local time. Fire erupted between two homes. 6 wounded (2 adults, 4 children \u2014 smoke inhalation). Separate impact near Kibbutz Kabri wounded 1. IDF confirmed rocket from Lebanon.",
+    "type": "strike",
+    "lat": 33.005,
+    "lng": 35.093,
+    "location": "Nahariya, Israel",
+    "timestamp": "2026-03-16T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/hezbollah-rocket-hits-a-residential-building-in-israels-nahariya"
+      },
+      {
+        "name": "The Media Line",
+        "url": "https://themedialine.org/headlines/hezbollah-rocket-hits-nahariya-residential-area-injuring-6-as-northern-front-escalates/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 7,
+      "note": "6 wounded in Nahariya (4 children), 1 near Kibbutz Kabri"
+    },
+    "tags": [
+      "nahariya",
+      "hezbollah",
+      "northern-front",
+      "children"
+    ]
+  },
+  {
+    "id": "evt-new-139",
+    "title": "Fujairah Oil Zone Hit by Iranian Drone \u2014 Second Strike in 2 Days",
+    "description": "Iranian drone struck Fujairah Oil Industry Zone for second time in two days. Three separate fires reported. ADNOC suspended loading operations at the strategically critical port (handles up to 1.8M barrels/day). Fujairah is UAE's only oil export route outside Hormuz.",
+    "type": "strike",
+    "lat": 25.129,
+    "lng": 56.326,
+    "location": "Fujairah, UAE",
+    "timestamp": "2026-03-16T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html"
+      },
+      {
+        "name": "Khaleej Times",
+        "url": "https://www.khaleejtimes.com/uae/fujairah-fire-oil-industries-area-drone-attack-no-injuries"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/uae/drone-attack-triggers-fire-at-fujairah-petroleum-facility-no-injuries-reported-1.500476002"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No injuries reported"
+    },
+    "tags": [
+      "fujairah",
+      "oil-infrastructure",
+      "uae",
+      "adnoc"
+    ]
+  },
+  {
+    "id": "evt-new-140",
+    "title": "IDF Destroys Supreme Leader's Aircraft at Mehrabad Airport, Tehran",
+    "description": "Israeli Air Force destroyed the aircraft used by Iran's Supreme Leader at Mehrabad International Airport in Tehran. Plane had been used by senior officials for international flights.",
+    "type": "strike",
+    "lat": 35.689,
+    "lng": 51.311,
+    "location": "Mehrabad International Airport, Tehran",
+    "timestamp": "2026-03-16T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Alma Center",
+        "url": "https://israel-alma.org/daily-report-the-second-iran-war-march-16-2026-1800/"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-16-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "Not reported"
+    },
+    "tags": [
+      "tehran",
+      "mehrabad",
+      "supreme-leader",
+      "aircraft"
+    ]
+  },
+  {
+    "id": "evt-new-141",
+    "title": "G5 Nations Warn Israel Against Major Ground Offensive in Lebanon",
+    "description": "Leaders of Canada, France, Germany, Italy, and UK issued joint statement expressing 'grave concern' about violence in Lebanon. Warned a 'significant Israeli ground offensive would have devastating humanitarian consequences.' 1M+ displaced since March 2.",
+    "type": "diplomatic",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "location": "Multiple capitals (joint statement)",
+    "timestamp": "2026-03-16T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "UK Government",
+        "url": "https://www.gov.uk/government/news/joint-statement-on-the-escalating-conflict-between-israel-and-hezbollah-16-march-2026"
+      },
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-16/canada-france-germany-uk-warn-against-major-israeli-ground-offensive-in-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "N/A"
+    },
+    "tags": [
+      "g5",
+      "lebanon",
+      "diplomatic",
+      "humanitarian"
+    ]
+  },
+  {
+    "id": "evt-new-142",
+    "title": "US Embassy Baghdad Issues 'Leave Iraq Now' Security Alert",
+    "description": "US Embassy Baghdad issued security alert urging all US citizens to leave Iraq immediately. Level 4: Do Not Travel. Iran-aligned militias attacking International Zone, Erbil airport, and US facilities.",
+    "type": "diplomatic",
+    "lat": 33.313,
+    "lng": 44.366,
+    "location": "Baghdad, Iraq",
+    "timestamp": "2026-03-16T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US Embassy Baghdad",
+        "url": "https://iq.usembassy.gov/security-alert-u-s-embassy-baghdad-iraq-march-16-2026/"
+      },
+      {
+        "name": "Soufan Center",
+        "url": "https://thesoufancenter.org/intelbrief-2026-march-16/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "N/A"
+    },
+    "tags": [
+      "iraq",
+      "embassy",
+      "evacuation",
+      "security-alert"
+    ]
   }
 ]

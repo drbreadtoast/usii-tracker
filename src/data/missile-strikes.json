@@ -1863,5 +1863,77 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-122",
+    "city": "Rishon Lezion",
+    "country": "Israel",
+    "lat": 31.964,
+    "lng": 34.804,
+    "strikeType": "cluster missile",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Fajr-type missiles with cluster munition warheads. 10 locations damaged in Rishon Lezion, Lod, and Shoham. 1 woman injured when home destroyed.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/israel-news/article-890140",
+    "weaponType": "cluster missile (Fajr-type)",
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-123",
+    "city": "Nahariya",
+    "country": "Israel",
+    "lat": 33.005,
+    "lng": 35.093,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-03-16",
+    "description": "Hezbollah rocket struck residential building causing fire. 6 wounded (2 adults, 4 children). Separate impact near Kibbutz Kabri wounded 1.",
+    "source": "The Media Line",
+    "sourceUrl": "https://themedialine.org/headlines/hezbollah-rocket-hits-nahariya-residential-area-injuring-6-as-northern-front-escalates/",
+    "weaponType": "rocket",
+    "casualties": {
+      "killed": 0,
+      "injured": 7
+    }
+  },
+  {
+    "id": "ms-124",
+    "city": "Fujairah",
+    "country": "UAE",
+    "lat": 25.129,
+    "lng": 56.326,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-16",
+    "description": "Iranian drone struck Fujairah Oil Industry Zone \u2014 second strike in 2 days. ADNOC suspended loading at UAE's only non-Hormuz oil export route.",
+    "source": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html",
+    "weaponType": "drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-125",
+    "city": "Mehrabad (Tehran)",
+    "country": "Iran",
+    "lat": 35.689,
+    "lng": 51.311,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-16",
+    "description": "IDF destroyed Supreme Leader's aircraft at Mehrabad International Airport. Plane used by senior Iranian officials for international flights.",
+    "source": "Alma Center",
+    "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-16-2026-1800/",
+    "weaponType": "airstrike",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
