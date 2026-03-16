@@ -4,7 +4,7 @@
     "title": "Rumor Tracker & Fact Check",
     "description": "Analyzing rumors and verifying trending claims about the Iran-Israel conflict. Each entry is independently researched with linked sources.",
     "methodology": "Claims are sourced from trending social media posts, news outlets, and government statements. Each is independently checked against multiple sources. Verdicts: Confirmed (verified true), Not Likely (available evidence contradicts), Likely (evidence supports but not fully confirmed), Unlikely (evidence contradicts but remains inconclusive), Unverified (insufficient evidence either way).",
-    "totalClaims": 28
+    "totalClaims": 36
   },
   "claims": [
     {
@@ -726,7 +726,183 @@
           "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26"
         }
       ]
+    },
+    {
+      "id": "fc-044",
+      "claim": "Trump claims Iran 'wants a deal' and is 'about to surrender'",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "political",
+      "summary": "Trump posted on Truth Social that Iran 'is totally defeated and wants a deal.' Iranian FM Abbas Araghchi directly refuted this on CBS's Face the Nation on March 15, stating: 'No, we never asked for a ceasefire, and we have never asked even for negotiation.' He added Iran sees 'no reason' to talk with Americans. Iran continues offensive operations including missile salvos at Israel, Hormuz blockade, and drone strikes across the Gulf. No credible evidence supports Trump's claim that Iran initiated negotiations.",
+      "origin": "Trump's Truth Social post and G7 call remarks, March 14-15, 2026",
+      "viralPlatforms": ["Truth Social", "X/Twitter", "Cable news"],
+      "sources": [
+        {
+          "name": "NPR — Iran's foreign minister says 'we never asked for a ceasefire'",
+          "url": "https://www.npr.org/2026/03/15/nx-s1-5748472/us-military-six-killed-iran-war"
+        },
+        {
+          "name": "Newsweek — Iranian official rejects Trump's claim Iran wants a deal",
+          "url": "https://www.newsweek.com/iran-war-latest-updates-iran-rejects-trump-claim-it-wants-deal-11679948"
+        },
+        {
+          "name": "Time — Iran denies seeking ceasefire",
+          "url": "https://time.com/article/2026/03/15/iran-Abbas-Araghchi-ceasefire-trump/"
+        }
+      ]
+    },
+    {
+      "id": "fc-045",
+      "claim": "Israel is running critically low on missile interceptors",
+      "verdict": "unverified",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "military",
+      "summary": "Semafor reported on March 14 that Israel informed the US it is 'running critically low on ballistic missile interceptors,' citing US officials. The IDF denied it the next day, with an official stating they have 'no interceptor shortage as of now.' Israeli FM Sa'ar said 'the answer is no.' Israel Hayom reported Israeli officials suspect the Semafor report was 'planted by Iran or one of its allies' as disinformation. However, hours after the denial, the Israeli government approved NIS 2.6 billion ($826M) in emergency defense procurement. Iran has launched approximately 300 ballistic missiles at Israel since the war began, and the US used $2.4B worth of Patriot interceptors in the first 5 days alone.",
+      "origin": "Semafor exclusive citing US officials, March 14, 2026",
+      "viralPlatforms": ["X/Twitter", "News outlets", "Telegram"],
+      "sources": [
+        {
+          "name": "Semafor — Israel running critically low on interceptors",
+          "url": "https://www.semafor.com/article/03/14/2026/israel-is-running-critically-low-on-interceptors-us-officials-say"
+        },
+        {
+          "name": "Times of Israel — IDF says no shortage of interceptors",
+          "url": "https://www.timesofisrael.com/idf-says-ready-for-any-scenario-amid-reports-that-missile-interceptors-critically-low/"
+        },
+        {
+          "name": "Israel Hayom — Israel denies interceptor shortage, suspects Iran disinformation",
+          "url": "https://www.israelhayom.com/2026/03/15/israel-denies-interceptor-shortage-iran-disinformation"
+        }
+      ]
+    },
+    {
+      "id": "fc-046",
+      "claim": "Pope Leo XIV directly condemned the US and Israel by name, saying 'War is not holy'",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "political",
+      "summary": "Social media posts claimed Pope Leo XIV directly condemned the US and Israel and quoted him saying 'War is not holy; only peace is holy because it is willed by God.' Snopes fact-checked this. Pope Leo XIV did make his strongest ceasefire appeal on March 15-16 during his Sunday noon blessing, but he did NOT name the US or Israel directly. The 'war is not holy' quote comes from an October 2025 speech at a Sant'Egidio event, not his March 2026 remarks. His actual March 16 statement was an appeal for peace referencing attacks on a school, but it was not the direct condemnation described in viral posts.",
+      "origin": "Social media posts misattributing older quotes to March 15-16 remarks",
+      "viralPlatforms": ["X/Twitter", "Facebook", "Instagram"],
+      "sources": [
+        {
+          "name": "Snopes — Did Pope Leo XIV condemn Iran war?",
+          "url": "https://www.snopes.com/fact-check/pope-leo-xiv-iran-war/"
+        },
+        {
+          "name": "Vatican News — Pope appeals for ceasefire",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-03/pope-leo-appeal-ceasefire-dialogue-middle-east-iran-us-israel.html"
+        }
+      ]
+    },
+    {
+      "id": "fc-047",
+      "claim": "AI-generated video shows USS Gerald Ford aircraft carrier destroyed by Iran",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "military",
+      "summary": "A Facebook video posted claiming the Iranian military successfully destroyed the USS Gerald Ford carrier, with missiles causing it to burst into flames. Tempo verified the video was AI-generated — a Veo watermark (Google's AI model) was visible in the bottom right corner. A separate real fire incident on the Ford was confirmed by the US Navy as a laundry section fire, not combat-related. CENTCOM confirmed the Ford remains operational. The IRGC separately declared the Ford's support network as 'legitimate targets' on March 16, fueling confusion.",
+      "origin": "Facebook and pro-Iranian Telegram channels. Separate from earlier AI-generated USS Abraham Lincoln sinking claim (fc-027).",
+      "viralPlatforms": ["Facebook", "Telegram", "X/Twitter", "TikTok"],
+      "sources": [
+        {
+          "name": "Tempo Fact Check — Video claiming US aircraft carrier sunk is AI-generated",
+          "url": "https://en.tempo.co/read/2092902/fact-check-video-claiming-u-s-aircraft-carrier-sunk-by-iran-is-ai-generated"
+        },
+        {
+          "name": "The Week — Did Iranian missiles cause a fire on the USS Gerald Ford?",
+          "url": "https://www.theweek.in/news/middle-east/2026/03/13/did-iranian-missiles-cause-a-fire-on-the-uss-gerald-r-ford-aircraft-carrier-us-navy-clarifies.html"
+        }
+      ]
+    },
+    {
+      "id": "fc-048",
+      "claim": "173 American Delta Force soldiers were captured in Iran",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "military",
+      "summary": "An X post claimed 'Iranian officials confirmed 173 American Delta Force soldiers were captured after a failed US air operation in Tehran.' Lead Stories found the accompanying photos were AI-generated — one scored 100% likely AI-generated by Hive Moderation, and another had a Google Gemini AI watermark visible. No credible news outlet reported any such capture. CENTCOM confirmed 13 US service members killed total with no reports of captured personnel. This is a more specific version of the earlier 'US special forces captured' claim (fc-028) with fabricated numbers.",
+      "origin": "Pro-Iranian X accounts, originally posted March 8 and still circulating March 15-16",
+      "viralPlatforms": ["X/Twitter", "Telegram", "TikTok"],
+      "sources": [
+        {
+          "name": "Lead Stories — 173 American Delta Force soldiers were NOT captured in Iran",
+          "url": "https://leadstories.com/hoax-alert/2026/03/fact-check-173-american-delta-force-soldiers-not-captured-iran.html"
+        }
+      ]
+    },
+    {
+      "id": "fc-049",
+      "claim": "Iran has fully closed the Strait of Hormuz to ALL shipping",
+      "verdict": "unlikely",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "military",
+      "summary": "Widespread social media claims state Iran completely shut down the Strait of Hormuz, blocking all global oil shipments. Iranian FM Araghchi clarified on March 15 that the strait is selectively blocked: 'It is only closed to American, Israeli ships and tankers, and not to others.' Iran is allowing tankers picking up Iranian crude to pass while blocking Gulf states from exporting. India successfully negotiated passage for 2 Indian-flagged tankers through Hormuz. The strait is effectively closed for most commercial traffic (~17M barrels/day blocked), but this is a selective blockade, not a total closure as claimed.",
+      "origin": "Social media amplification of partial facts, exaggerated by news aggregators",
+      "viralPlatforms": ["X/Twitter", "TikTok", "Reddit", "Facebook"],
+      "sources": [
+        {
+          "name": "CBS News — Araghchi Face the Nation transcript",
+          "url": "https://www.cbsnews.com/news/iranian-foreign-minister-abbas-araghchi-face-the-nation-transcript-03-15-2026/"
+        },
+        {
+          "name": "CNN — Iran war latest updates Day 17",
+          "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-16-26"
+        }
+      ]
+    },
+    {
+      "id": "fc-050",
+      "claim": "IRGC says it has only used old missiles so far — most weapons cache intact",
+      "verdict": "unverified",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "military",
+      "summary": "IRGC spokesperson claimed on March 16 that missiles used so far in the war are from 'a decade ago' and Iran has NOT yet deployed its newer post-June 2025 missiles. Claims most of Iran's weapons cache remains intact. This is unverifiable — Iran has incentive to project strength, while the US/Israel have claimed to have destroyed significant portions of Iran's military infrastructure. Pentagon briefings suggest Iran's air defense and command structures have been heavily degraded, but missile launch capability remains.",
+      "origin": "IRGC spokesperson statement, carried by Al Jazeera and Iranian state media",
+      "viralPlatforms": ["Telegram", "X/Twitter", "Iranian state TV"],
+      "sources": [
+        {
+          "name": "Al Jazeera — What is happening on Day 17",
+          "url": "https://www.aljazeera.com/news/2026/3/16/iran-war-what-is-happening-on-day-17-of-us-israel-attacks"
+        }
+      ]
+    },
+    {
+      "id": "fc-051",
+      "claim": "Dubai airport was 'destroyed' by Iranian drone strike",
+      "verdict": "debunked",
+      "trending": true,
+      "dateAdded": "2026-03-16T22:40:00Z",
+      "lastChecked": "2026-03-16T22:40:00Z",
+      "category": "military",
+      "summary": "Social media posts exaggerated the March 16 Dubai airport incident, claiming the airport was destroyed or suffered catastrophic damage. A drone did hit a fuel tank near Dubai International Airport, causing a fire and suspending flights for 7+ hours. However, the fire was contained with no injuries, and limited flight operations resumed the same day. The airport was NOT destroyed. The UAE arrested 35 individuals for publishing misleading or fabricated AI content about the incident.",
+      "origin": "Social media posts exaggerating a confirmed but limited incident",
+      "viralPlatforms": ["X/Twitter", "Telegram", "TikTok"],
+      "sources": [
+        {
+          "name": "CNBC — Dubai airport resumes limited flights after drone attack",
+          "url": "https://www.cnbc.com/2026/03/16/dubai-airport-suspends-flights-drone-attack.html"
+        },
+        {
+          "name": "The National — Dubai airport flights resume on limited schedule",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/fire-near-dubai-airport-after-drone-strike-hits-fuel-tank/"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-03-14T21:44:00Z"
+  "lastUpdated": "2026-03-16T22:40:00Z"
 }

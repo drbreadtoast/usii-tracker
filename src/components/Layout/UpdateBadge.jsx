@@ -17,12 +17,7 @@ function formatAbsolute(date) {
 function formatLastUpdated(isoString) {
   const date = new Date(isoString)
   const now = new Date()
-  const diffMs = now - date
-
-  // Guard against future timestamps
-  if (diffMs < 0) {
-    return { relativeTime: 'moments ago', absolute: formatAbsolute(date) }
-  }
+  const diffMs = Math.abs(now - date)
 
   const diffMins = Math.floor(diffMs / 60000)
   const diffHours = Math.floor(diffMs / 3600000)
