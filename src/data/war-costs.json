@@ -37,13 +37,13 @@
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
     "lastUpdated": "2026-03-16T22:48:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 17,
+    "daysOfConflict": 18,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
     "us": {
       "name": "United States",
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "🇺🇸",
       "directMilitaryCosts": {
         "total": 22000000000,
         "currency": "USD",
@@ -120,7 +120,7 @@
     },
     "israel": {
       "name": "Israel",
-      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "flag": "🇮🇱",
       "directMilitaryCosts": {
         "total": 7140000000,
         "currency": "USD",
@@ -192,7 +192,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "flag": "🇮🇷",
       "directMilitaryCosts": {
         "total": 3560000000,
         "currency": "USD",
@@ -460,9 +460,9 @@
     },
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
-    "daysDeployed": 17,
-    "totalNavalCost": 425000000,
-    "totalNavalCostNote": "Total naval deployment cost for 17 days of active conflict operations ($25M/day \u00d7 17 days); does not include pre-conflict surge deployment costs",
+    "daysDeployed": 18,
+    "totalNavalCost": 450000000,
+    "totalNavalCostNote": "Total naval deployment cost for 18 days of active conflict operations ($25M/day × 18 days)",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -530,12 +530,12 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 104.73,
+      "currentPrice": 100.21,
       "peakPrice": 119.5,
-      "wtiPrice": 99.68,
-      "usGasPricePerGallon": 3.7,
+      "wtiPrice": 93.5,
+      "usGasPricePerGallon": 3.72,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 41.5,
+      "percentageIncrease": 25.6,
       "estimatedGlobalCost": 850000000000,
       "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
       "hormuzFlowDisruption": {
@@ -563,15 +563,15 @@
       "currentWarRiskPremium": 5.0,
       "premiumUnit": "percentage of hull value",
       "percentageIncrease": 9900,
-      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20\u00b0N)",
+      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20°N)",
       "estimatedAdditionalCostPerTransit": 2500000,
       "description": "War risk insurance premiums for vessels transiting the Persian Gulf have surged from 0.05% to 5% of hull value. A typical VLCC (Very Large Crude Carrier) valued at $120 million now faces $6 million in war risk premiums per transit compared to $60,000 pre-conflict. Many underwriters have suspended coverage entirely.",
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
-    "stockMarketImpact": "S&P 500 at 6,632 \u2014 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
-    "oilPriceImpact": "Brent $104.73/bbl (+31.2% from pre-war). WTI $99.68 (+32.0%). IEA 400M barrel + US 172M SPR release failing to suppress prices. Brent above $104. Rystad warns $135 if conflict persists 4 months. Gold above $5,000/oz. S&P 500 futures up 0.51% Monday premarket at 5,709.",
-    "gasPrice": "$3.70/gallon national average (+26% from pre-war $2.94). California $5.36/gal, Hawaii $4.76. Fed meeting March 17-18 \u2014 99% probability holds rates at 3.50-3.75%."
+    "stockMarketImpact": "S&P 500 at 6,632 — 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
+    "oilPriceImpact": "Brent $100.21/bbl (+25.6% from pre-war). WTI $93.50 (+23.8%). Oil dropped sharply after Bessent allowed Iranian tankers through Hormuz. IEA 400M barrel + US 172M SPR release continuing. Larijani killing may push prices back up. Gold above $5,000/oz.",
+    "gasPrice": "$3.72/gallon national average (+16.9% from pre-war $3.18). California $5.36/gal, Hawaii $4.76. Fed meeting March 17-18 — 99% probability holds rates at 3.50-3.75%."
   },
   "keyFacts": [
     {
@@ -632,14 +632,14 @@
     },
     {
       "id": "fact-9",
-      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 \u2014 an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
+      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 — an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
       "cost": 16500000000,
       "source": "CSIS / NBC News",
       "sourceUrl": "https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12"
     },
     {
       "id": "fact-10",
-      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days \u2014 each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
+      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days — each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
       "cost": 150000000,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-13/us-sends-intercept-drones-used-in-ukraine-to-blunt-iran-strikes"
@@ -660,7 +660,7 @@
     },
     {
       "id": "fact-13",
-      "fact": "F1 cancels Bahrain and Saudi Arabia GPs \u2014 estimated $100M combined hosting fee loss",
+      "fact": "F1 cancels Bahrain and Saudi Arabia GPs — estimated $100M combined hosting fee loss",
       "cost": 100000000,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/sports/"
@@ -674,7 +674,7 @@
     },
     {
       "id": "fact-15",
-      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait \u2014 $30-35M asset loss",
+      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait — $30-35M asset loss",
       "cost": 32500000,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/"
@@ -702,14 +702,14 @@
     },
     {
       "id": "fact-19",
-      "fact": "Dubai airport drone strike \u2014 7+ hours flight suspension, estimated tens of millions in losses",
+      "fact": "Dubai airport drone strike — 7+ hours flight suspension, estimated tens of millions in losses",
       "cost": null,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/"
     },
     {
       "id": "fact-20",
-      "fact": "Fujairah oil hub struck 2nd consecutive day \u2014 port operations repeatedly disrupted",
+      "fact": "Fujairah oil hub struck 2nd consecutive day — port operations repeatedly disrupted",
       "cost": null,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/energy"
@@ -720,7 +720,7 @@
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
     },
     {
-      "text": "Israel Knesset voting to raise deficit ceiling from 3.9% to 5.1% GDP \u2014 NIS 32B ($10.2B) additional spending. Updated defense budget: NIS 143B. Iran war has cost Israel NIS 9B so far.",
+      "text": "Israel Knesset voting to raise deficit ceiling from 3.9% to 5.1% GDP — NIS 32B ($10.2B) additional spending. Updated defense budget: NIS 143B. Iran war has cost Israel NIS 9B so far.",
       "source": "Times of Israel / Jerusalem Post",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/knesset-to-vote-on-raising-deficit-increasing-defense-spending-amid-iran-war/"
     },
@@ -735,9 +735,9 @@
     "allCountriesIndirectCosts": 108940000000,
     "combinedTotalCosts": 141640000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 17.",
-    "lastCalculated": "2026-03-16T15:20:00Z"
+    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 18.",
+    "lastCalculated": "2026-03-17T13:19:00Z"
   },
-  "daysOfConflict": 17,
-  "lastUpdated": "2026-03-17T05:01:00Z"
+  "daysOfConflict": 18,
+  "lastUpdated": "2026-03-17T13:19:00Z"
 }

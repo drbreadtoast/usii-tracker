@@ -5,21 +5,21 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-006',
-    headline: 'Bessent Says US Will Allow Iranian Tankers Through Hormuz — Oil Drops 4-6%',
+    id: 'ba-007',
+    headline: 'Israel Kills Ali Larijani, Senior Iranian Leader — Iran Vows "Crushing Response"',
     status: 'confirmed',
-    lastUpdated: '2026-03-17T01:00:00Z',
-    summary: 'Treasury Secretary Scott Bessent announced the US would allow Iranian oil tankers through the Strait of Hormuz. Oil prices immediately dropped: Brent -4.3% to $100.21, WTI -6.1% to $93.50. Signals potential de-escalation on economic front.',
+    lastUpdated: '2026-03-17T13:19:00Z',
+    summary: 'Israel confirmed the targeted killing of Ali Larijani, former Speaker of Iran\'s Parliament and senior adviser to Supreme Leader Mojtaba Khamenei. Iran\'s Parliament Speaker Qalibaf called it a "war crime." Basij paramilitary leadership also eliminated. Cluster missiles hit central Israel.',
     officialStatus: {
-      label: 'Impact — Economic & Energy Markets',
-      detail: 'Oil drops sharply. First signal of potential Hormuz de-escalation. Markets rally on hopes of reduced economic disruption.\n\nBrent crude fell from $104.63 to $100.21 (-4.3%), while WTI dropped from $100.75 to $93.50 (-6.1%). This is the largest single-day oil price decline since the war began on February 28.\n\nBessent stated the US would ensure safe passage for Iranian oil tankers, breaking from the effective naval blockade that had been in place since Day 4 (March 3). The Strait of Hormuz handles roughly 20% of global oil supply.\n\nThe Pentagon is also reportedly developing "off-ramp" scenarios for de-escalation, though military operations continue on other fronts.',
+      label: 'Impact — Major Escalation on Day 18',
+      detail: 'Israel expands targeting from military to political leadership.\n\nAli Larijani, one of Iran\'s most powerful political figures, was killed in a precision Israeli airstrike in Tehran. Defense Minister Katz stated: "No one in the regime is beyond our reach."\n\nLarijani served as Speaker of Parliament (2008-2020) and was a key adviser to Supreme Leader Mojtaba Khamenei. His killing marks the highest-profile political assassination since the war began.\n\nSimultaneously, Israel eliminated senior Basij paramilitary commanders in Tehran. IDF ground forces advanced into southern Lebanon (Khiam). Iranian cluster munitions hit 10+ locations in central Israel including Rishon LeZion.\n\nUS airstrikes on Arak killed 14 civilians. Fujairah oil zone struck for the 3rd consecutive day. Pope Leo XIV made urgent ceasefire appeal. David Sacks (White House AI Czar) publicly called for an "off-ramp."',
       sources: [
-        { name: 'CNBC', url: 'https://www.cnbc.com/2026/03/16/us-is-allowing-iranian-tankers-through-strait-of-hormuz-says-bessent.html' },
-        { name: 'Washington Examiner', url: 'https://www.washingtonexaminer.com/policy/energy-and-environment/4492756/us-allowing-iranian-oil-tankers-strait-of-hormuz-scott-bessent/' },
+        { name: 'Times of Israel', url: 'https://www.timesofisrael.com/liveblog-march-16-2026/' },
+        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/news/2026/3/17/iran-vows-retaliation-larijani-killing' },
       ]
     },
     cyberAttack: null,
-    context: 'The Strait of Hormuz has been a central flashpoint since the Iran-Israel war began on February 28. Iran began blocking the strait on Day 4 (March 3), and it is now effectively closed — causing oil prices to surge past $104/barrel and US gas prices to rise 17% to $3.72/gallon. Bessent\'s announcement is the first major US economic de-escalation signal, though military operations including drone strikes on the Shah gas field in Abu Dhabi and Green Zone attacks in Baghdad continue elsewhere.'
+    context: 'Day 18 of the Iran-Israel war marks a significant escalation with Israel targeting Iran\'s political establishment directly. The Larijani killing follows the elimination of the original Supreme Leader Khamenei on Day 1 (Feb 28). The Strait of Hormuz remains effectively closed (Day 15 of blockade). Oil at $100.21/barrel. US gas at $3.72/gallon. Death toll: Iran 5,844, Israel 12, US 13, Lebanon 886. EU rejects military involvement in Hormuz. G5 nations warn Israel against Lebanon escalation.'
   }
 ]
 

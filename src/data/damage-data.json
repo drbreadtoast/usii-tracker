@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-17T05:01:00Z",
+    "lastUpdated": "2026-03-17T13:19:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,17 +27,17 @@
     ]
   },
   "summary": {
-    "totalSites": 103,
-    "confirmed": 94,
+    "totalSites": 107,
+    "confirmed": 98,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
     "categories": {
-      "military": 43,
+      "military": 49,
       "nuclear": 8,
       "infrastructure": 12,
-      "civilian": 22,
-      "energy": 3,
+      "civilian": 28,
+      "energy": 5,
       "diplomatic": 1
     }
   },
@@ -320,7 +320,7 @@
       "date": "2026-03-03",
       "attributedTo": "us",
       "damageLevel": "destroyed",
-      "description": "US JASSM-ER struck building identified as suspected IRGC warehouse \u2014 actually a girls' school in session. Deadliest single incident of the war.",
+      "description": "US JASSM-ER struck building identified as suspected IRGC warehouse — actually a girls' school in session. Deadliest single incident of the war.",
       "weaponUsed": "JASSM-ER",
       "casualties": "85-180 schoolgirls killed (ages 12-17), 200+ wounded",
       "source": "Iranian Red Crescent / Al Jazeera",
@@ -481,7 +481,7 @@
     },
     {
       "id": "dmg-024",
-      "name": "Jerusalem \u2014 Multiple Impact Sites",
+      "name": "Jerusalem — Multiple Impact Sites",
       "city": "Jerusalem",
       "country": "Israel",
       "lat": 31.7683,
@@ -595,7 +595,7 @@
     },
     {
       "id": "dmg-030",
-      "name": "Kiryat Shmona \u2014 City-wide Damage",
+      "name": "Kiryat Shmona — City-wide Damage",
       "city": "Kiryat Shmona",
       "country": "Israel",
       "lat": 33.2075,
@@ -1004,7 +1004,7 @@
       "date": "2026-03-08",
       "attributedTo": "iran",
       "damageLevel": "minor",
-      "description": "17 ballistic missiles and 6 drones launched at Qatar \u2014 all intercepted by Qatari and allied air defense systems.",
+      "description": "17 ballistic missiles and 6 drones launched at Qatar — all intercepted by Qatari and allied air defense systems.",
       "weaponUsed": "Shahab-3 / Shahed-136",
       "casualties": "No casualties",
       "source": "Al Jazeera",
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "dmg-058",
-      "name": "Commercial Vessels \u2014 Strait of Hormuz (Day 12)",
+      "name": "Commercial Vessels — Strait of Hormuz (Day 12)",
       "city": "Strait of Hormuz",
       "country": "International Waters",
       "lat": 26.5667,
@@ -1198,7 +1198,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-12",
-      "description": "Israeli overnight strikes hit Beirut's Corniche \u2014 a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
+      "description": "Israeli overnight strikes hit Beirut's Corniche — a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
       "source": "ABC News",
       "sourceUrl": "https://abcnews.com/International/strikes-israel-hezbollah-ramp-evacuation-notice-issued-beirut/story?id=130981948"
     },
@@ -1282,7 +1282,7 @@
     },
     {
       "id": "dmg-069",
-      "name": "Central Israel \u2014 Cluster Missile Impact Zone",
+      "name": "Central Israel — Cluster Missile Impact Zone",
       "country": "Israel",
       "lat": 32.07,
       "lng": 34.77,
@@ -1302,7 +1302,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation \u2014 rally was held in solidarity with Palestinians amid ongoing conflict.",
+      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation — rally was held in solidarity with Palestinians amid ongoing conflict.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians"
     },
@@ -1315,7 +1315,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Israel destroyed the Zrarieh Bridge over the Litani River \u2014 first acknowledged strike on civilian infrastructure in Lebanon.",
+      "description": "Israel destroyed the Zrarieh Bridge over the Litani River — first acknowledged strike on civilian infrastructure in Lebanon.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/israel-destroys-bridge-in-lebanon-and-threatens-gaza-scale-devastation",
       "attributedTo": "israel"
@@ -1329,7 +1329,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Explosion near Al-Quds Day rally in Tehran. 1 woman killed. Part of highest volume strikes day \u2014 15,000+ total targets hit.",
+      "description": "Explosion near Al-Quds Day rally in Tehran. 1 woman killed. Part of highest volume strikes day — 15,000+ total targets hit.",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/world/explosion-rocks-state-organized-rally-in-tehran-after-israeli-warning",
       "attributedTo": "us"
@@ -1399,7 +1399,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-14",
-      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port \u2014 key Hormuz alternative.",
+      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port — key Hormuz alternative.",
       "source": "Gulf News",
       "sourceUrl": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056",
       "attributedTo": "iran"
@@ -1426,7 +1426,7 @@
       "category": "military",
       "status": "confirmed",
       "date": "2026-03-14",
-      "description": "CENTCOM struck 90 military targets \u2014 naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Oil infrastructure deliberately spared.",
+      "description": "CENTCOM struck 90 military targets — naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Oil infrastructure deliberately spared.",
       "source": "Washington Post",
       "sourceUrl": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/",
       "attributedTo": "us"
@@ -1455,7 +1455,7 @@
       "category": "military",
       "status": "confirmed",
       "date": "2026-03-15",
-      "description": "Multiple military installations near Shiraz struck \u2014 20 explosions reported overnight",
+      "description": "Multiple military installations near Shiraz struck — 20 explosions reported overnight",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
       "attributedTo": "us"
@@ -1789,6 +1789,66 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/iran-war-live-news",
       "attributedTo": "us"
+    },
+    {
+      "id": "dmg-108",
+      "location": "Rishon LeZion, Israel",
+      "country": "Israel",
+      "lat": 31.964,
+      "lng": 34.802,
+      "category": "civilian",
+      "type": "Train station and residential",
+      "description": "Cluster munitions struck 10+ locations in central Israel. Train station and residential buildings damaged. First confirmed use of cluster munitions in conflict.",
+      "date": "2026-03-17",
+      "status": "confirmed",
+      "severity": "major",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-march-16-2026/"
+    },
+    {
+      "id": "dmg-109",
+      "location": "Fujairah Oil Zone, UAE",
+      "country": "UAE",
+      "lat": 25.129,
+      "lng": 56.326,
+      "category": "energy",
+      "type": "Oil loading facility",
+      "description": "Third consecutive day of strikes on Fujairah oil zone. Oil loading operations suspended. Commercial tanker hit.",
+      "date": "2026-03-17",
+      "status": "confirmed",
+      "severity": "major",
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/energy"
+    },
+    {
+      "id": "dmg-110",
+      "location": "Arak residential area, Iran",
+      "country": "Iran",
+      "lat": 34.0917,
+      "lng": 49.6892,
+      "category": "civilian",
+      "type": "Residential neighborhood",
+      "description": "US airstrikes hit residential areas in Arak, killing at least 14 civilians including children. Widespread destruction reported.",
+      "date": "2026-03-17",
+      "status": "confirmed",
+      "severity": "major",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/iran-vows-retaliation-larijani-killing"
+    },
+    {
+      "id": "dmg-111",
+      "location": "Beirut Dahiyeh, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.847,
+      "lng": 35.503,
+      "category": "military",
+      "type": "Hezbollah infrastructure",
+      "description": "Israeli airstrikes on southern Beirut suburbs targeting Hezbollah command infrastructure during ground offensive.",
+      "date": "2026-03-17",
+      "status": "confirmed",
+      "severity": "major",
+      "source": "CNN",
+      "sourceUrl": "https://www.cnn.com/2026/03/16/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
     }
   ]
 }

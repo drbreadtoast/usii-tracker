@@ -1671,7 +1671,7 @@
     "category": "military",
     "severity": "critical",
     "timestamp": "2026-03-16T22:00:00Z",
-    "impact": "Global aviation disrupted. Thousands of flights diverted. Dubai airport — world's busiest international hub — shut down indefinitely.",
+    "impact": "Global aviation disrupted. Thousands of flights diverted. Dubai airport \u2014 world's busiest international hub \u2014 shut down indefinitely.",
     "sources": [
       {
         "name": "US News",
@@ -1685,7 +1685,7 @@
   },
   {
     "id": "esc-096",
-    "title": "Israel Strikes Shah Gas Field — Iran's Largest Natural Gas Reserve",
+    "title": "Israel Strikes Shah Gas Field \u2014 Iran's Largest Natural Gas Reserve",
     "description": "Israeli jets struck Iran's Shah gas field (South Pars complex), the world's largest natural gas field shared with Qatar. Major fire reported. Could affect global LNG supply if damage is severe.",
     "category": "economic",
     "severity": "critical",
@@ -1704,7 +1704,7 @@
   },
   {
     "id": "esc-097",
-    "title": "Bessent Says US Will Allow Iranian Tankers Through Hormuz — Oil Drops 4-6%",
+    "title": "Bessent Says US Will Allow Iranian Tankers Through Hormuz \u2014 Oil Drops 4-6%",
     "description": "Treasury Secretary Scott Bessent announced the US would allow Iranian oil tankers through the Strait of Hormuz. Oil prices immediately dropped: Brent -4.3% to $100.21, WTI -6.1% to $93.50. Signals potential de-escalation on economic front.",
     "category": "economic",
     "severity": "high",
@@ -1737,6 +1737,101 @@
       {
         "name": "Jerusalem Post",
         "url": "https://www.jpost.com/middle-east/article-890170"
+      }
+    ]
+  },
+  {
+    "id": "esc-099",
+    "title": "Israel Claims Killing Ali Larijani \u2014 Iran's De Facto Leader",
+    "description": "Defense Minister Katz announced Ali Larijani, secretary of Supreme National Security Council and de facto ruler since Khamenei's death, killed in overnight strikes. Biggest targeted killing since Khamenei. Iran has not confirmed.",
+    "category": "military",
+    "severity": "critical",
+    "timestamp": "2026-03-17T05:00:00Z",
+    "impact": "If confirmed, removes Iran's most senior decision-maker. Could trigger leadership vacuum or more extreme IRGC response. Escalation risk very high.",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/17/israel-says-it-has-killed-ali-larijani-irans-top-security-official"
+      },
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/03/17/us-iran-israel-war-ali-larijani/"
+      }
+    ]
+  },
+  {
+    "id": "esc-100",
+    "title": "Israel Ground Invasion of Southern Lebanon \u2014 100,000 Troops Deployed",
+    "description": "Israel launched ground operations south of Litani River with 6 divisions (~100,000 soldiers). Defense Minister compared to Gaza war and suggested indefinite occupation. 886 killed in Lebanon, 1M displaced.",
+    "category": "military",
+    "severity": "critical",
+    "timestamp": "2026-03-17T06:00:00Z",
+    "impact": "Opens major new front. Risks direct confrontation with Hezbollah ground forces. Five Western nations issued joint statement calling for invasion to 'be averted'.",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/03/14/israel-lebanon-ground-invasion-hezbollah"
+      }
+    ]
+  },
+  {
+    "id": "esc-101",
+    "title": "Iran Cluster Munitions Hit Central Israel \u2014 Train Station Damaged",
+    "description": "Fourth ballistic missile salvo with cluster warheads struck central Israel. Damage at train station; fragments near Knesset and Church of Holy Sepulchre. ~300 missiles fired at Israel in war, half carry cluster warheads.",
+    "category": "military",
+    "severity": "critical",
+    "timestamp": "2026-03-17T08:00:00Z",
+    "impact": "Cluster munitions banned by most nations. Demonstrates Iran's continued ability to hit Israeli population centers despite air defenses.",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-17-2026/"
+      },
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/security-aviation/2026-03-12/ty-article-magazine/.premium/11-iranian-cluster-missiles-penetrated-one-dropped-70-bombs-over-central-israel/0000019c-e1d3-dffd-a3fc-e1df09ed0000"
+      }
+    ]
+  },
+  {
+    "id": "esc-102",
+    "title": "Most Intense Attack on US Embassy Baghdad \u2014 Drone Penetrates Compound",
+    "description": "3 drones + 4 rockets fired at US Embassy Green Zone. Most intense since war began. C-RAM intercepted 2, 1 drone struck inside compound. Al-Rasheed Hotel also hit. 4 killed in US retaliatory strike.",
+    "category": "military",
+    "severity": "high",
+    "timestamp": "2026-03-17T03:00:00Z",
+    "impact": "Escalates Iraq front. Drone penetrating embassy compound represents security failure. Could trigger expanded US operations against Iraqi militias.",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-17-26"
+      }
+    ]
+  },
+  {
+    "id": "esc-103",
+    "title": "Second Fujairah Oil Zone Drone Strike \u2014 UAE's Last Export Bypass Threatened",
+    "description": "Fresh drone strike caused fire at Fujairah Oil Industry Zone, second attack in 3 days. ADNOC loading halted. Threatens to sever UAE's last crude export route bypassing Hormuz.",
+    "category": "economic",
+    "severity": "high",
+    "timestamp": "2026-03-17T06:30:00Z",
+    "impact": "If Fujairah export capacity eliminated, UAE loses ability to export oil without transiting Hormuz. Major blow to global energy supply chain.",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html"
+      },
+      {
+        "name": "Arabian Business",
+        "url": "https://www.arabianbusiness.com/abnews/drone-strike-sparks-fire-at-fujairah-oil-industry-zone"
       }
     ]
   }
