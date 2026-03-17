@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-16T22:48:00Z",
+    "lastUpdated": "2026-03-17T05:01:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -75,16 +75,16 @@
       "date": "2026-03-16",
       "label": "Active Conflict \u2014 Day 17",
       "wti": {
-        "price": 100.75,
-        "change": "+33.4%",
-        "changeDollars": "+$25.24"
+        "price": 93.50,
+        "change": "+23.8%",
+        "changeDollars": "+$18.00"
       },
       "brent": {
-        "price": 104.63,
-        "change": "+31.1%",
-        "changeDollars": "+$24.79"
+        "price": 100.21,
+        "change": "+25.6%",
+        "changeDollars": "+$20.41"
       },
-      "changePercent": 31.1
+      "changePercent": 25.6
     },
     "priceHistory": [
       {
@@ -227,6 +227,13 @@
         "wti": 99.68,
         "brent": 104.73,
         "label": "Day 17 \u2014 Brent $104.73, WTI $99.68; Dubai airport struck, Fujairah hit again, Fed meeting looms",
+        "isEvent": true
+      },
+      {
+        "date": "2026-03-16",
+        "wti": 93.50,
+        "brent": 100.21,
+        "label": "Day 17 PM \u2014 Oil drops sharply: Brent -4.3%, WTI -6.1% after Bessent says US allowing Iranian tankers through Hormuz",
         "isEvent": true
       }
     ],
@@ -408,7 +415,7 @@
     ],
     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932",
     "vesselsDamaged": 18,
-    "description": "Strait of Hormuz effectively closed to tanker traffic (Day 14). 18 vessels damaged, 3 sunk since war began. 300+ ships stranded in Gulf. Dubai airport fuel tank struck by Iranian drone. Fujairah oil hub struck 2nd consecutive day. Traffic down 95%+ from pre-war levels. IEA 400M barrel reserve release across 32 countries fails to contain Brent above $104. VLCC charter rates at $800K/day. War risk insurance premiums surged fivefold."
+    "description": "Strait of Hormuz effectively closed to tanker traffic (Day 14). 18 vessels damaged, 3 sunk since war began. 300+ ships stranded in Gulf. Treasury Sec. Bessent says US will allow Iranian tankers through Hormuz — oil drops sharply. Shah gas field struck by Israel. UAE closes airspace. WSJ reports US building multinational escort coalition. Brent falls to $100.21 (-4.3%), WTI to $93.50 (-6.1%). VLCC charter rates at $800K/day."
   },
   "consumerImpact": {
     "currency": "USD",
@@ -429,7 +436,7 @@
         },
         "change": "+$0.54",
         "changePercent": "+17.0%",
-        "detail": "AAA national average at $3.70/gal (March 15). Up from $3.18 pre-war. IEA record 400M barrel reserve release has not brought prices down. Brent above $105 keeps upward pressure on pump prices. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.34/gal.",
+        "detail": "AAA national average at $3.72/gal (March 16). Up from $3.18 pre-war. Oil prices fell sharply in evening after Bessent allowed Iranian tankers — pump prices may ease next week if crude stays below $100. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.34/gal.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -546,15 +553,15 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.70/gallon \u2014 up 16.4% from pre-war $3.18/gal. Diesel at $4.66/gal \u2014 up 22.6%",
-      "detail": "AAA national average at $3.70/gal as of March 15. Diesel at $4.66/gal. IEA 400M barrel reserve release has not stemmed price increases. Brent above $105 keeps upward pressure on pump prices. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.34/gal.",
+      "fact": "US gasoline prices at $3.72/gallon \u2014 up 17.0% from pre-war $3.18/gal. Diesel at $4.66/gal \u2014 up 22.6%",
+      "detail": "AAA national average at $3.72/gal as of March 16. Diesel at $4.66/gal. Oil prices dropped sharply in evening trading after Bessent allowed Iranian tankers — may ease pump prices next week. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.34/gal.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Brent crude at $105.66/barrel (+32.4% from pre-war) and WTI at $101.32 (+34.2%). IEA approved largest-ever coordinated release of 400M barrels across 32 countries, with US contributing 172M barrels from SPR.",
-      "detail": "Brent crude surged past $105 on March 15 and remains elevated at $105.66. WTI at $101.32. IEA's record 400M barrel reserve release has failed to bring prices below $100. Iran's selective Hormuz reopening for non-Western ships adds to market uncertainty. Both benchmarks remain ~33% above pre-war levels.",
+      "fact": "Brent crude at $100.21/barrel (+25.6% from pre-war) and WTI at $93.50 (+23.8%). Oil drops sharply after Bessent says US allowing Iranian tankers through Hormuz.",
+      "detail": "Brent dropped from $104.63 to $100.21 (-4.3%) and WTI plunged from $100.75 to $93.50 (-6.1%) after Treasury Secretary Bessent announced the US would allow Iranian oil tankers through the Strait of Hormuz. WSJ reports US building multinational naval escort coalition. Pentagon exploring diplomatic off-ramps. Both benchmarks remain ~25% above pre-war levels.",
       "source": "CNBC / IEA",
       "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
     },
@@ -614,6 +621,16 @@
       "fact": "S&P 500 futures up 0.51% Monday premarket at 5,709 after 3-week losing streak",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/pre-markets/"
+    },
+    {
+      "fact": "Treasury Secretary Bessent says US will allow Iranian oil tankers through Hormuz — oil drops 4-6% on the news",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/markets/commodities/"
+    },
+    {
+      "fact": "WSJ reports US building multinational naval escort coalition for Strait of Hormuz commercial shipping",
+      "source": "Wall Street Journal",
+      "sourceUrl": "https://www.wsj.com/world/middle-east/"
     }
   ]
 }

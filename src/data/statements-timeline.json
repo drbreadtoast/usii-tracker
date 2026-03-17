@@ -15,9 +15,9 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-16T22:48:00Z",
+    "lastUpdated": "2026-03-17T05:01:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 127,
+    "totalStatements": 131,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-03-16"
@@ -330,6 +330,17 @@
           "factCheckNote": "Israel maintains a policy of nuclear ambiguity.",
           "source": "NBC4i",
           "sourceUrl": "https://www.nbc4i.com/hill-politics/trump-says-israel-wont-use-a-nuclear-weapon-in-iran/"
+        },
+        {
+          "id": "trump-050",
+          "date": "2026-03-16",
+          "text": "Scott Bessent is doing a tremendous job. We're opening up the strait for oil. Prices are going to come down very quickly.",
+          "context": "Commenting on Treasury Secretary Bessent's announcement that US would allow Iranian tankers through Hormuz. Oil dropped 4-6% on the news.",
+          "venue": "White House remarks",
+          "factCheck": "misleading",
+          "factCheckNote": "Oil did drop on the Bessent announcement, but analysts note the strait remains effectively closed to most commercial traffic. Pump price relief likely weeks away.",
+          "source": "Reuters",
+          "sourceUrl": "https://www.reuters.com/markets/commodities/"
         }
       ]
     },
@@ -784,6 +795,17 @@
           "factCheckNote": "Reuters confirmed Netanyahu's presence via cafe surveillance cameras. Snopes debunked the 6-finger deepfake claim.",
           "source": "Times of Israel",
           "sourceUrl": "https://www.timesofisrael.com/in-video-netanyahu-mocks-conspiracy-theories-about-his-death/"
+        },
+        {
+          "id": "netanyahu-016",
+          "date": "2026-03-16",
+          "text": "We will eradicate Hezbollah from Lebanon. The IDF's ground operation will continue until the threat to our northern border is eliminated.",
+          "context": "Statement following IDF ground operations into southern Lebanon. 91st Division took Khiam. 450,000 reservists called up.",
+          "venue": "Security cabinet statement",
+          "factCheck": "verified",
+          "factCheckNote": "IDF confirmed ground operations in southern Lebanon. However, 'eradicate' language is aspirational given Hezbollah's deep roots in Lebanese society.",
+          "source": "Times of Israel",
+          "sourceUrl": "https://www.timesofisrael.com/"
         }
       ]
     },
@@ -1613,6 +1635,48 @@
           "factCheckNote": "Statement confirmed by Japan Times and Bloomberg. Japan's constitutional constraints on military deployment make this a sensitive domestic issue.",
           "source": "The Japan Times",
           "sourceUrl": "https://www.japantimes.co.jp/news/2026/03/16/japan/politics/japan-takaichi-no-warships-middle-east/"
+        }
+      ]
+    },
+    {
+      "id": "bessent",
+      "name": "Scott Bessent",
+      "title": "US Secretary of the Treasury",
+      "country": "United States",
+      "color": "#1565C0",
+      "shortName": "Bessent",
+      "statements": [
+        {
+          "id": "bessent-001",
+          "date": "2026-03-16",
+          "text": "The United States will allow Iranian oil tankers to transit through the Strait of Hormuz. We are working to ensure global energy markets are not destabilized beyond what is necessary.",
+          "context": "Major policy shift. Treasury Secretary announced US would not block Iranian tankers in Hormuz. Oil dropped 4-6% immediately. WSJ reports US simultaneously building multinational naval escort coalition for commercial shipping.",
+          "venue": "Treasury Department statement",
+          "factCheck": "verified",
+          "factCheckNote": "Oil markets confirmed the impact: Brent -4.3% to $100.21, WTI -6.1% to $93.50. However, the strait remains effectively closed to most commercial traffic.",
+          "source": "Reuters",
+          "sourceUrl": "https://www.reuters.com/markets/commodities/"
+        }
+      ]
+    },
+    {
+      "id": "erdogan",
+      "name": "Recep Tayyip Erdogan",
+      "title": "President of Turkey",
+      "country": "Turkey",
+      "color": "#E30A17",
+      "shortName": "Erdogan",
+      "statements": [
+        {
+          "id": "erdogan-001",
+          "date": "2026-03-16",
+          "text": "Turkey condemns the expansion of Israeli military operations into Lebanon. This aggressive action threatens the entire region's stability.",
+          "context": "Turkey condemned IDF ground operations in southern Lebanon. Turkey has been allowing Iranian ships through selective Hormuz passage while maintaining NATO membership, walking a delicate line.",
+          "venue": "Official statement",
+          "factCheck": "verified",
+          "factCheckNote": "Turkish MFA issued formal condemnation. Turkey's position is complicated by NATO membership and economic ties to both sides.",
+          "source": "Reuters",
+          "sourceUrl": "https://www.reuters.com/world/middle-east/"
         }
       ]
     }

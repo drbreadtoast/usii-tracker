@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-14T13:00:00Z",
+    "lastUpdated": "2026-03-17T05:01:00Z",
     "title": "Rumor Tracker & Fact Check",
     "description": "Analyzing rumors and verifying trending claims about the Iran-Israel conflict. Each entry is independently researched with linked sources.",
     "methodology": "Claims are sourced from trending social media posts, news outlets, and government statements. Each is independently checked against multiple sources. Verdicts: Confirmed (verified true), Not Likely (available evidence contradicts), Likely (evidence supports but not fully confirmed), Unlikely (evidence contradicts but remains inconclusive), Unverified (insufficient evidence either way).",
@@ -1131,8 +1131,59 @@
           "url": "https://variety.com/2026/tv/news/brendan-carr-broadcast-licenses-iran-war-donald-trump-fcc-1236688078/"
         }
       ]
+    },
+    {
+      "id": "fc-044",
+      "claim": "Pentagon is exploring diplomatic off-ramps to end the Iran conflict",
+      "summary": "NBC News reported Pentagon officials are exploring diplomatic off-ramps. This aligns with Bessent's move to allow Iranian tankers through Hormuz and WSJ reports of a multinational escort coalition. However, IDF ground operations in Lebanon and continued strikes suggest military operations are not winding down.",
+      "origin": "NBC News report",
+      "viralPlatforms": [
+        "cable news",
+        "X"
+      ],
+      "verdict": "likely",
+      "category": "Military Strategy",
+      "dateAdded": "2026-03-17T05:01:00Z",
+      "lastChecked": "2026-03-17T05:01:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/"
+        },
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/world/middle-east/"
+        }
+      ]
+    },
+    {
+      "id": "fc-045",
+      "claim": "Oil prices will drop to pre-war levels now that Bessent allowed Iranian tankers",
+      "summary": "While oil did drop 4-6% after Bessent's announcement, analysts note the Strait of Hormuz remains effectively closed to most commercial traffic. Only Iranian tankers were mentioned, not a full reopening. Pre-war Brent was $79.80; current close is $100.21 — still 25.6% above pre-war. Analysts say sustained price relief requires full Hormuz reopening.",
+      "origin": "Social media speculation after Bessent announcement",
+      "viralPlatforms": [
+        "X",
+        "TikTok",
+        "Reddit"
+      ],
+      "verdict": "unlikely",
+      "category": "Economic Claims",
+      "dateAdded": "2026-03-17T05:01:00Z",
+      "lastChecked": "2026-03-17T05:01:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/commodities/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/energy"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-03-16T22:48:00Z",
-  "totalClaims": 43
+  "lastUpdated": "2026-03-17T05:01:00Z",
+  "totalClaims": 45
 }

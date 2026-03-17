@@ -5763,5 +5763,168 @@
       }
     ],
     "significance": "high"
+  },
+  {
+    "id": "tl-219",
+    "date": "2026-03-16",
+    "time": "17:00",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "Drone Strikes Al-Rasheed Hotel in Baghdad Green Zone",
+    "description": "Drone struck Al-Rasheed Hotel roof in Baghdad's Green Zone. Hotel houses EU missions and Saudi Embassy. No casualties. Katyusha rockets also intercepted near US Embassy. Kataeb Hezbollah retaliating for al-Askari killing.",
+    "actor": "iraq_militias",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by Al Jazeera, US News, Arab News",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-220",
+    "date": "2026-03-16",
+    "time": "18:00",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "Kataeb Hezbollah Confirms Death of Security Chief Abu Ali al-Askari",
+    "description": "Kataeb Hezbollah confirmed al-Askari's death in Baghdad airstrike. Security chief and spokesperson for over a decade. Personally involved in Israeli hostage Elizabeth Tsurkov's captivity. Replaced by Abou Moujahed al-Assaf.",
+    "actor": "us",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by Shafaq News, Jerusalem Post, Times of Israel",
+    "sources": [
+      {
+        "name": "Shafaq News",
+        "url": "https://shafaq.com/en/Security/Kataib-Hezbollah-announces-death-of-spokesperson-Abu-Ali-al-Askari"
+      },
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/article-890170"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-221",
+    "date": "2026-03-16",
+    "time": "19:00",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "Iranian Drone Strikes Shah Gas Field \u2014 ADNOC Suspends Operations",
+    "description": "Drone struck Shah natural gas field in Abu Dhabi (ADNOC/Occidental). Fire erupted, operations suspended. Produces ~70,000 bbl/day. Third major UAE energy facility hit on Day 17 (after Dubai airport fuel tank and Fujairah oil zone).",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by Bloomberg, Gulf News",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/drone-strike-sets-uae-natural-gas-field-ablaze-abu-dhabi-says"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/uae/government/drone-strike-triggers-fire-at-shah-gas-field-in-abu-dhabi-1.500476722"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-222",
+    "date": "2026-03-16",
+    "time": "20:00",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "UAE Closes Entire Airspace \u2014 Exceptional Precautionary Measure",
+    "description": "UAE GCAA announced temporary full closure of national airspace after series of Iranian attacks on energy infrastructure and airports. Foreign carriers banned. Reopened early Tuesday.",
+    "actor": "iran",
+    "type": "military",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Confirmed by US News, Bloomberg, WAM",
+    "sources": [
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-16/uae-temporarily-closes-its-airspace-as-an-exceptional-precautionary-measure"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-223",
+    "date": "2026-03-16",
+    "time": "21:00",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "Oil Drops as Bessent Says US Allowing Iranian Tankers Through Hormuz",
+    "description": "Brent fell from $106 to $100.21 after Treasury Secretary Bessent told CNBC the US is allowing Iranian tankers through Hormuz. WSJ reported US will announce Hormuz escort coalition. Bessent said oil should fall 'much lower' than $80 after war ends.",
+    "actor": "us",
+    "type": "economic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Bessent interview aired on CNBC",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/16/us-is-allowing-iranian-tankers-through-strait-of-hormuz-says-bessent.html"
+      },
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/article/price-of-oil-03-16-2026/"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-224",
+    "date": "2026-03-16",
+    "time": "22:00",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "NBC: Pentagon Presents Daily Exit Options \u2014 Trump Takes None",
+    "description": "NBC News reported (6 sources) Pentagon includes exit strategy options in daily war planning briefings for Trump, but he has not chosen any. White House initial assessment: 4-6 weeks to achieve military objectives. US intelligence sees no signs of imminent collapse of Iran's establishment.",
+    "actor": "us",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Sourced from 6 officials familiar with planning",
+    "sources": [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/politics/national-security/trump-presented-daily-options-end-war-iran-hasnt-taken-far-rcna263399"
+      }
+    ],
+    "significance": "high"
+  },
+  {
+    "id": "tl-225",
+    "date": "2026-03-16",
+    "time": "22:30",
+    "day": 17,
+    "dayLabel": "DAY 17",
+    "title": "Turkey Condemns Israel's Lebanon Ground Offensive",
+    "description": "Turkey 'condemns in the strongest terms' Israel's ground offensive in Lebanon, warns it 'further deepens instability.' Accused Netanyahu government of 'genocide and collective punishment.' Official MFA Statement No. 49.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": "verified",
+    "factCheckNote": "Official Turkish MFA statement confirmed",
+    "sources": [
+      {
+        "name": "Turkish MFA",
+        "url": "https://www.mfa.gov.tr/no_-49_-israil-in-lubnan-a-yonelik-kara-harekati-hk.en.mfa"
+      },
+      {
+        "name": "Anadolu Agency",
+        "url": "https://www.aa.com.tr/en/turkiye/turkiye-strongly-condemns-israel-s-ground-operation-in-lebanon/3866899"
+      }
+    ],
+    "significance": "medium"
   }
 ]

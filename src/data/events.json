@@ -5906,5 +5906,144 @@
       "evacuation",
       "security-alert"
     ]
+  },
+  {
+    "id": "evt-new-143",
+    "title": "UAE Closes Entire Airspace \u2014 Exceptional Precautionary Measure",
+    "description": "UAE's General Civil Aviation Authority announced temporary full closure of the country's airspace as an 'exceptional precautionary measure' after intercepting Iranian missiles and drones. Foreign carriers banned. Airspace later reopened early Tuesday.",
+    "type": "infrastructure",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "location": "UAE (nationwide)",
+    "timestamp": "2026-03-16T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-16/uae-temporarily-closes-its-airspace-as-an-exceptional-precautionary-measure"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/uae-closes-airspace-as-precautionary-measure-wam-reports"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "None from closure"
+    },
+    "tags": [
+      "uae",
+      "airspace",
+      "aviation"
+    ]
+  },
+  {
+    "id": "evt-new-144",
+    "title": "Iranian Drone Strikes Shah Gas Field in Abu Dhabi \u2014 Fire Erupts",
+    "description": "A drone struck the Shah natural gas field (operated by ADNOC/Occidental), sparking a fire. Operations suspended. Field produces ~70,000 barrels/day and has capacity of 1.28 billion scf/day. Fire was contained; no injuries.",
+    "type": "strike",
+    "lat": 23.45,
+    "lng": 53.45,
+    "location": "Shah Gas Field, Abu Dhabi, UAE",
+    "timestamp": "2026-03-16T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/drone-strike-sets-uae-natural-gas-field-ablaze-abu-dhabi-says"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/uae/government/drone-strike-triggers-fire-at-shah-gas-field-in-abu-dhabi-1.500476722"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No injuries"
+    },
+    "tags": [
+      "uae",
+      "gas-field",
+      "adnoc",
+      "energy-infrastructure"
+    ]
+  },
+  {
+    "id": "evt-new-145",
+    "title": "Drone Strikes Al-Rasheed Hotel in Baghdad Green Zone \u2014 US Embassy Targeted",
+    "description": "Drone struck the Al-Rasheed Hotel roof in Baghdad's Green Zone at ~7 PM local. Hotel houses EU diplomatic missions and Saudi Embassy. No casualties. Separately, Katyusha rockets intercepted near US Embassy. Kataeb Hezbollah retaliating for al-Askari killing.",
+    "type": "strike",
+    "lat": 33.295,
+    "lng": 44.37,
+    "location": "Baghdad Green Zone, Iraq",
+    "timestamp": "2026-03-16T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted"
+      },
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-16/drone-attack-hits-hotel-in-baghdad-no-injuries-reported"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 0,
+      "civilian": 0,
+      "note": "No casualties at hotel; 4 killed in broader Baghdad airstrikes"
+    },
+    "tags": [
+      "baghdad",
+      "green-zone",
+      "embassy",
+      "al-rasheed"
+    ]
+  },
+  {
+    "id": "evt-new-146",
+    "title": "Kataeb Hezbollah Confirms Death of Security Chief Abu Ali al-Askari",
+    "description": "Kataeb Hezbollah confirmed the death of Abu Ali al-Askari, their security chief and spokesperson for over a decade, killed in a Baghdad airstrike. Al-Askari was personally involved in Israeli hostage Elizabeth Tsurkov's captivity. Replaced by Abou Moujahed al-Assaf.",
+    "type": "strike",
+    "lat": 33.295,
+    "lng": 44.37,
+    "location": "Baghdad, Iraq",
+    "timestamp": "2026-03-16T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Shafaq News",
+        "url": "https://shafaq.com/en/Security/Kataib-Hezbollah-announces-death-of-spokesperson-Abu-Ali-al-Askari"
+      },
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/article-890170"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "military": 1,
+      "civilian": 0,
+      "note": "Abu Ali al-Askari killed"
+    },
+    "tags": [
+      "kataib-hezbollah",
+      "baghdad",
+      "leadership-strike",
+      "tsurkov"
+    ]
   }
 ]

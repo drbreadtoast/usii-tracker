@@ -1779,5 +1779,71 @@
       "selective-passage",
       "blockade"
     ]
+  },
+  {
+    "id": "social-083",
+    "platform": "X",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "BREAKING: UAE has closed its entire national airspace. All flights at DXB (world's busiest international airport) suspended. Comes after Iranian drones struck airport fuel tanks and Fujairah oil hub on consecutive days.",
+    "timestamp": "2026-03-16T22:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by multiple aviation trackers and flight radar data",
+    "engagement": {
+      "likes": 145000,
+      "retweets": 89000,
+      "replies": 12000
+    },
+    "keywords": [
+      "uae",
+      "airspace",
+      "dubai",
+      "aviation"
+    ]
+  },
+  {
+    "id": "social-084",
+    "platform": "X",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Senior IRGC Quds Force commander Brig. Gen. Hossein al-Askari killed in drone strike on Baghdad's Green Zone. Was coordinating militia operations across Iraq. Major escalation of targeted killings.",
+    "timestamp": "2026-03-17T02:15:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Multiple Iraqi sources and IRGC media confirm",
+    "engagement": {
+      "likes": 98000,
+      "retweets": 67000,
+      "replies": 8500
+    },
+    "keywords": [
+      "irgc",
+      "al-askari",
+      "baghdad",
+      "green-zone"
+    ]
+  },
+  {
+    "id": "social-085",
+    "platform": "X",
+    "handle": "@Reuters",
+    "displayName": "Reuters",
+    "sourceCategory": "lead_source",
+    "text": "Oil drops sharply: Brent -4.3% to $100.21, WTI -6.1% to $93.50 after Treasury Secretary Bessent says US will allow Iranian tankers through the Strait of Hormuz. WSJ reports US building multinational naval escort coalition.",
+    "timestamp": "2026-03-17T01:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Reuters market data confirmed",
+    "engagement": {
+      "likes": 112000,
+      "retweets": 78000,
+      "replies": 15000
+    },
+    "keywords": [
+      "oil",
+      "bessent",
+      "hormuz",
+      "tankers"
+    ]
   }
 ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-16T22:48:00Z",
+    "lastUpdated": "2026-03-17T05:01:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 101,
-    "confirmed": 92,
+    "totalSites": 103,
+    "confirmed": 94,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
@@ -1759,6 +1759,36 @@
       "source": "Alma Center",
       "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-16-2026-1800/",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-106",
+      "name": "Shah Gas Field (South Pars Complex)",
+      "country": "Iran",
+      "city": "South Pars",
+      "lat": 27.5,
+      "lng": 52.5,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "Israeli airstrike on Shah gas field at South Pars — world's largest natural gas field. Major fire reported. Shared with Qatar.",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/middle-east/",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-107",
+      "name": "Al-Rasheed Hotel Area, Green Zone",
+      "country": "Iraq",
+      "city": "Baghdad",
+      "lat": 33.295,
+      "lng": 44.365,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-16",
+      "description": "US drone strike near Al-Rasheed Hotel in Green Zone killed IRGC commander al-Askari.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/iran-war-live-news",
+      "attributedTo": "us"
     }
   ]
 }
