@@ -11,7 +11,15 @@ export default function BreakingBanner({ breakingNews }) {
   const lastUpdate = new Date(siteMetadata.lastUpdated)
   const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
   const sorted = [...data]
-    .filter(item => new Date(item.eventDate || item.timestamp) >= cutoff)
+    .filter(item => {
+      // Parse date-only eventDate as end-of-day UTC so "2026-03-16" isn't treated as
+      // midnight UTC (which would exclude same-day events when lastUpdated is late in the day)
+      if (item.eventDate) {
+        const [y, m, d] = item.eventDate.split('-').map(Number)
+        return new Date(Date.UTC(y, m - 1, d, 23, 59, 59)) >= cutoff
+      }
+      return new Date(item.timestamp) >= cutoff
+    })
     .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
   if (sorted.length === 0) return null
   const text = sorted.map(item => item.text).join('   ///   ')
