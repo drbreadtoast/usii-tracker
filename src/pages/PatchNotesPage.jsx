@@ -5,6 +5,19 @@ import siteMetadata from '../data/site-metadata.json'
 
 const PATCH_NOTES = [
   {
+    version: '2.9',
+    date: 'March 17, 2026',
+    title: 'Social Intel Page Redesign',
+    icon: MessageCircle,
+    iconColor: 'text-blue-400',
+    highlights: [
+      'Redesigned Social Media Intel page — now shows analyst report summaries instead of raw posts',
+      'Reports grouped by date with real timestamps for full transparency',
+      'Rolling 24-hour window keeps the feed focused on the latest intelligence',
+      'Improved refresh process ensures analyst reports are thoroughly updated with each data cycle',
+    ],
+  },
+  {
     version: '2.8',
     date: 'March 16, 2026',
     title: 'Data Freshness, Validation & Internal Tooling',

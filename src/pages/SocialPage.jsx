@@ -8,8 +8,8 @@ export default function SocialPage() {
   return (
     <TabPageLayout
       title="Social Media Intel"
-      subtitle="Curated posts from OSINT analysts and lead sources on X/Twitter. Verification status shown for each post."
-      footerNote="Social media posts are under continuous verification."
+      subtitle="Summaries of key analyst reports and OSINT intelligence. Rolling 24-hour window — updated with each data refresh."
+      footerNote="Analyst reports are under continuous verification."
     >
       <div style={{ minHeight: '60vh' }}>
         <SocialFeed socialPosts={socialPosts} />

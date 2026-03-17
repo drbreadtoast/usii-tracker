@@ -85,6 +85,19 @@ Search for:
 8. "Iran war international response [DATE]"
 9. "[Speaker name] Iran war" for each of: Trump, Rubio, Hegseth, Netanyahu, Khamenei, Pezeshkian, Guterres, Kallas, Araghchi, Pope Leo
 
+For SOCIAL POSTS (social-posts.json) — this is a rolling 24-hour analyst summary feed:
+- Search for latest reports from OSINT analysts: @IntelCrab, @OSINTdefender, @AuroraIntel, @TankerTrackers, @sentdefender
+- Search: "[analyst name] Iran war [DATE]" for each tracked analyst
+- Search: "OSINT Iran war analysis [DATE]"
+- For each finding: write a 1-2 sentence SUMMARY of what the analyst reported — NOT a fake tweet
+- Use real timestamps from when the report was published
+- Set sourceCategory: "osint_analyst" for OSINT accounts, "lead_source" for media outlets, "lead" for political figures
+- NO engagement field (likes/retweets) — we don't fabricate social metrics
+- NO platform field
+- Include keywords[] array with relevant tags
+- Minimum 5 new summary entries per refresh
+- Old entries (>24h from refresh timestamp) will be deleted during Step 4
+
 For MEDIA PERSPECTIVES — search for latest headlines from:
 - US Left: CNN, MSNBC, NYT, WaPo, NPR
 - US Right: Fox News, Daily Wire, NY Post, Newsmax
@@ -154,7 +167,7 @@ After all 3 agents return, update files in this EXACT order:
 8. **gas-prices.json** — Update currentAverage. Add new priceHistory entry. Recalculate changePercent. Update lastUpdated.
 9. **food-prices.json** — Update commodity prices. Update groceryImpact. Update lastUpdated.
 10. **hormuz-shipping.json** — Update straitStatus, blockadeDay, statistics. Add timeline entries. Update lastUpdated.
-11. **social-posts.json** — Add new OSINT posts with sequential IDs.
+11. **social-posts.json** — Rolling 24-hour window of analyst summaries. First DELETE all entries with timestamps older than 24h from the refresh timestamp. Then add new summary entries with sequential IDs. Each entry is a 1-2 sentence SUMMARY of what an analyst reported — NOT a fake social media post. Schema: `{id, handle, displayName, sourceCategory, text, timestamp, verificationStatus, verificationNote, keywords[]}`. No `engagement` or `platform` fields. Minimum 5 new entries per refresh.
 12. **government-statements.json** — Add new official statements with sequential IDs.
 13. **escalations.json** — Add major escalation events with sequential IDs.
 14. **media-perspectives.json** — Update ALL 5 categories with fresh headlines/URLs. Update lastUpdated.
@@ -246,6 +259,12 @@ git push
 ```json
 {"id": "brk-XXX", "text": "CATEGORY: Description", "timestamp": "ISO", "eventDate": "YYYY-MM-DD", "priority": "critical|high|medium", "sources": [{"name": "", "url": ""}]}
 ```
+
+### social-posts.json (array — rolling 24h window)
+```json
+{"id": "social-XXX", "handle": "@Handle", "displayName": "Name", "sourceCategory": "osint_analyst|lead_source|lead", "text": "1-2 sentence summary of what the analyst reported", "timestamp": "ISO", "verificationStatus": "confirmed|likely|rumored", "verificationNote": "", "keywords": []}
+```
+NOTE: No `engagement`, no `platform` field. Delete entries >24h old each refresh. Minimum 5 new entries per refresh.
 
 ### fact-check.json claims (array inside object)
 ```json

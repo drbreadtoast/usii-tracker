@@ -42,37 +42,12 @@ export function useEvents() {
   }, [events])
 
   const sortedSocialPosts = useMemo(() => {
-    const sorted = [...socialPosts].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
-    if (sorted.length === 0) return sorted
-
-    // Compress all posts into the last ~55 minutes
-    // Newest post = 2 minutes ago, oldest = 55 minutes ago
-    // This makes the feed feel live regardless of original timestamp gaps
-    const now = Date.now()
-    const newestTarget = now - 120000    // 2 minutes ago
-    const oldestTarget = now - 3300000   // 55 minutes ago
-    const spread = newestTarget - oldestTarget  // 53 minutes of spread
-
-    return sorted.map((post, i) => ({
-      ...post,
-      timestamp: new Date(
-        newestTarget - (i / Math.max(sorted.length - 1, 1)) * spread
-      ).toISOString()
-    }))
-  }, [socialPosts, lastRefreshTime])
+    return [...socialPosts].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+  }, [socialPosts])
 
   const refresh = useCallback(() => {
     return new Promise((resolve) => {
       setTimeout(() => {
-        // Shuffle social posts to simulate new data
-        setSocialPosts(prev => {
-          const shuffled = [...prev]
-          for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-          }
-          return shuffled
-        })
         setLastRefreshTime(new Date().toISOString())
         resolve()
       }, 1200)

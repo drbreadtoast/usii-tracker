@@ -113,11 +113,13 @@ src/
 **oil-tracker.json** — Oil market data
 - Structure: `{metadata{}, oilPrices{preWar{brent, wti}, current{brent, wti, changePercent}}, keyPlayers[], hormuzImpact{}, consumerImpact{}, keyFacts[]}`
 
-**social-posts.json** — OSINT social media (29 posts)
+**social-posts.json** — Analyst intelligence summaries (rolling 24h window)
 - Structure: Top-level array
-- IDs: `social-001` through `social-019` (some gaps)
-- Schema: `{id, platform, handle, displayName, text, timestamp, sourceCategory, verificationStatus, verificationNote, engagement{likes, retweets, replies}}`
-- Valid sourceCategory: osint_analyst, lead_source
+- Schema: `{id, handle, displayName, text, timestamp, sourceCategory, verificationStatus, verificationNote, keywords[]}`
+- Valid sourceCategory: osint_analyst, lead_source, lead
+- Each entry is a 1-2 sentence SUMMARY of what an analyst reported — NOT a fake social media post
+- No `engagement` or `platform` fields
+- Old entries (>24h) are deleted during each `/refresh`; minimum 5 new entries added per refresh
 
 **government-statements.json** — Official government statements (25 entries)
 - Structure: Top-level array
