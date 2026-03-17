@@ -10,13 +10,25 @@ const PRIORITY_STYLES = {
   medium: { bg: 'bg-yellow-950/30', border: 'border-yellow-800', badge: 'bg-yellow-600 text-white', label: 'MEDIUM' },
 }
 
-function formatEntryDate(timestamp) {
-  const [datePart] = timestamp.split('T')
+function formatEntryDate(eventDate, timestamp) {
+  // Prefer eventDate (when event actually happened) over timestamp (when data was entered)
+  const dateStr = eventDate || timestamp
+  const [datePart] = dateStr.split('T')
   const [year, month, day] = datePart.split('-').map(Number)
   const localDate = new Date(year, month - 1, day)
   return localDate.toLocaleDateString('en-US', {
     month: 'short', day: 'numeric', year: 'numeric',
   })
+}
+
+function parseEventDate(item) {
+  // For filtering: parse eventDate as end-of-day UTC (23:59:59) so date-only strings
+  // like "2026-03-16" aren't treated as midnight UTC (which would exclude current-day events)
+  if (item.eventDate) {
+    const [year, month, day] = item.eventDate.split('-').map(Number)
+    return new Date(Date.UTC(year, month - 1, day, 23, 59, 59))
+  }
+  return new Date(item.timestamp)
 }
 
 function SourceBadge({ source }) {
@@ -48,8 +60,8 @@ export default function BreakingNewsPage() {
     const lastUpdate = new Date(siteMetadata.lastUpdated)
     const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
 
-    const recent = sorted.filter(item => new Date(item.eventDate || item.timestamp) >= cutoff)
-    const older = sorted.filter(item => new Date(item.eventDate || item.timestamp) < cutoff)
+    const recent = sorted.filter(item => parseEventDate(item) >= cutoff)
+    const older = sorted.filter(item => parseEventDate(item) < cutoff)
 
     return { recentItems: recent, olderItems: older, cutoffTime: cutoff }
   }, [])
@@ -141,7 +153,7 @@ export default function BreakingNewsPage() {
                       <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${style.badge}`}>{style.label}</span>
                       <span className="text-[10px] text-gray-500 flex items-center gap-1">
                         <Clock size={10} />
-                        {formatEntryDate(item.timestamp)}
+                        {formatEntryDate(item.eventDate, item.timestamp)}
                       </span>
                     </div>
                     <p className="text-sm text-gray-200 leading-relaxed">{item.text}</p>
@@ -182,7 +194,7 @@ export default function BreakingNewsPage() {
                         <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${style.badge} opacity-60`}>{style.label}</span>
                         <span className="text-[10px] text-gray-600 flex items-center gap-1">
                           <Clock size={10} />
-                          {formatEntryDate(item.timestamp)}
+                          {formatEntryDate(item.eventDate, item.timestamp)}
                         </span>
                       </div>
                       <p className="text-sm text-gray-400 leading-relaxed">{item.text}</p>
