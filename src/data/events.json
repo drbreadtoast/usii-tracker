@@ -6390,5 +6390,391 @@
       "hormuz-coalition",
       "diplomatic"
     ]
+  },
+  {
+    "id": "evt-new-159",
+    "title": "Joe Kent Resigns as NCTC Director Over Iran War",
+    "description": "National Counterterrorism Center Director Joe Kent resigned, becoming the highest-profile Trump official to quit over the war. Called Iran 'no imminent threat' and blamed 'pressure from Israel and its powerful American lobby.' Trump called him 'very weak on security.'",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington, DC",
+    "timestamp": "2026-03-17T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/17/nx-s1-5750426/joe-kent-counterterrorism-official-resigns-trump"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/03/17/politics/joe-kent-resigns-iran-war"
+      }
+    ],
+    "tags": [
+      "joe-kent",
+      "resignation",
+      "nctc",
+      "political"
+    ]
+  },
+  {
+    "id": "evt-new-160",
+    "title": "Trump Threatens to Leave NATO Over Hormuz Refusal",
+    "description": "Trump said leaving NATO is 'something to think about' after allies refused to help secure the Strait of Hormuz. UK, Germany, France, Spain, Italy all declined. Trump said the US will rely on Israel and Gulf states instead.",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington, DC",
+    "timestamp": "2026-03-17T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Time",
+        "url": "https://time.com/article/2026/03/17/trump-iran-war-nato-allies-strait-of-hormuz/"
+      },
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/17/israel-says-it-has-launched-new-strikes-targeting-tehran-and-beirut-as-war-in-iran-enters-"
+      }
+    ],
+    "tags": [
+      "trump",
+      "nato",
+      "hormuz",
+      "diplomatic"
+    ]
+  },
+  {
+    "id": "evt-new-161",
+    "title": "Iran Deploys Haj Qasem Ballistic Missile for First Time",
+    "description": "IRGC used the Haj Qasem ballistic missile (named after Qasem Soleimani, 1,400km range, MaRV-equipped) for the first time in combat, targeting Tel Aviv, Jerusalem, and US bases across the Gulf in the 59th missile attack wave.",
+    "type": "strike",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Tel Aviv, Israel (target)",
+    "timestamp": "2026-03-17T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "EADaily",
+        "url": "https://eadaily.com/en/news/2026/03/17/this-is-for-you-for-soleimani-iran-used-the-haj-qasem-missile-for-the-first-time"
+      },
+      {
+        "name": "ILKHA News",
+        "url": "https://ilkha.com/english/world/iran-unleashes-%E2%80%9Chaj-qasem%E2%80%9D-missile-in-powerful-strike-against-israeli-targets-518924"
+      }
+    ],
+    "tags": [
+      "haj-qasem",
+      "ballistic-missile",
+      "irgc",
+      "first-use"
+    ]
+  },
+  {
+    "id": "evt-new-162",
+    "title": "Missile Fragments Hit Jerusalem Holy Sites",
+    "description": "Israeli police found missile and interceptor fragments at the Temple Mount/Al-Aqsa Mosque compound, Church of the Holy Sepulchre, and Armenian Patriarchate after missile interceptions over Jerusalem. A warhead landed less than 1km from the Temple Mount.",
+    "type": "strike",
+    "lat": 31.7767,
+    "lng": 35.2345,
+    "location": "Jerusalem Old City, Israel",
+    "timestamp": "2026-03-17T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/iranian-missile-warhead-fell-less-than-a-kilometer-from-temple-mount-al-aqsa-mosque/"
+      },
+      {
+        "name": "Middle East Eye",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/missile-debris-falls-near-al-aqsa-mosque-and-church-holy-sepulchre"
+      }
+    ],
+    "casualties": {
+      "dead": 0,
+      "injured": 1
+    },
+    "tags": [
+      "jerusalem",
+      "temple-mount",
+      "al-aqsa",
+      "holy-sites"
+    ]
+  },
+  {
+    "id": "evt-new-163",
+    "title": "Russia Sharing Satellite Imagery and Drone Tech with Iran \u2014 WSJ",
+    "description": "WSJ reports Russia is expanding intelligence sharing with Iran, providing satellite imagery of US force locations and improved Shahed drone components. Russia drawing on Ukraine drone warfare experience.",
+    "type": "cyber",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "location": "Moscow, Russia",
+    "timestamp": "2026-03-17T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "US News / WSJ",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-17/russia-is-sharing-satellite-imagery-and-drone-technology-with-iran-wsj-reports"
+      }
+    ],
+    "tags": [
+      "russia",
+      "iran",
+      "intelligence",
+      "drones",
+      "shahed"
+    ]
+  },
+  {
+    "id": "evt-new-164",
+    "title": "USS Gerald R. Ford Heading to Crete for Repairs After Fire",
+    "description": "USS Gerald R. Ford heading to Souda Bay, Crete for 1+ week of repairs after a 30-hour onboard fire. ~200 sailors treated for smoke inhalation, 600 crew lost berthing. Carrier temporarily out of theater.",
+    "type": "naval",
+    "lat": 35.4847,
+    "lng": 24.0657,
+    "location": "En route to Souda Bay, Crete",
+    "timestamp": "2026-03-17T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "USNI News",
+        "url": "https://news.usni.org/2026/03/17/uss-gerald-r-ford-headed-to-souda-bay-for-repairs-after-fire"
+      }
+    ],
+    "casualties": {
+      "dead": 0,
+      "injured": 200
+    },
+    "tags": [
+      "uss-ford",
+      "carrier",
+      "fire",
+      "crete",
+      "repairs"
+    ]
+  },
+  {
+    "id": "evt-new-165",
+    "title": "Kuwait Arrests 16-Member Hezbollah Cell Planning Sabotage",
+    "description": "Kuwait arrested 16 Hezbollah-linked cell members (14 Kuwaiti, 2 Lebanese) planning sabotage. Seized weapons, assassination tools, drones, encrypted communications, and ammunition.",
+    "type": "infrastructure",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "location": "Kuwait City, Kuwait",
+    "timestamp": "2026-03-17T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/article-890291"
+      },
+      {
+        "name": "Kuwait Times",
+        "url": "https://kuwaittimes.com/article/41183/kuwait/kuwait-arrests-hezbollah-linked-terrorist-cell/"
+      }
+    ],
+    "tags": [
+      "kuwait",
+      "hezbollah",
+      "cell",
+      "sabotage"
+    ]
+  },
+  {
+    "id": "evt-new-166",
+    "title": "IDF 36th Division Expands Lebanon Ground Operations",
+    "description": "IDF's 36th Division began deeper ground operations in southern Lebanon, joining the 91st Division. Fresh evacuation warnings issued for Tyre and surrounding areas \u2014 civilians told to move north of Zahrani River.",
+    "type": "movement",
+    "lat": 33.2705,
+    "lng": 35.2038,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-03-17T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/idf-pushes-deeper-into-south-lebanon-as-hezbollah-keeps-up-fire-at-northern-israel/"
+      },
+      {
+        "name": "Israel National News",
+        "url": "https://www.israelnationalnews.com/news/424075"
+      }
+    ],
+    "tags": [
+      "lebanon",
+      "36th-division",
+      "ground-invasion",
+      "tyre"
+    ]
+  },
+  {
+    "id": "evt-new-167",
+    "title": "Hezbollah Rockets Hit Nahariya and Karmiel; 6 Wounded",
+    "description": "Hezbollah launched dozens of rockets and 5 drones at northern Israel. A rocket hit a residential home in Karmiel; fire in Nahariya from rocket impact. 6 people wounded. 37 attack waves identified on March 16 alone.",
+    "type": "strike",
+    "lat": 33.005,
+    "lng": 35.0933,
+    "location": "Nahariya and Karmiel, Israel",
+    "timestamp": "2026-03-17T17:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel Liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-17-2026/"
+      },
+      {
+        "name": "Alma Center",
+        "url": "https://israel-alma.org/daily-report-second-iran-war-march-17-2026-1600/"
+      }
+    ],
+    "casualties": {
+      "dead": 0,
+      "injured": 6
+    },
+    "tags": [
+      "hezbollah",
+      "rockets",
+      "nahariya",
+      "karmiel",
+      "northern-israel"
+    ]
+  },
+  {
+    "id": "evt-new-168",
+    "title": "Iran Strikes UAE Shah Gas Field \u2014 20% of UAE Gas Supply Ablaze",
+    "description": "Iran attacked UAE's Shah gas field, setting it ablaze. The field supplies 20% of UAE gas. Fujairah oil terminal hit for the 3rd time in 4 days. Kuwait-flagged tanker also struck near Fujairah.",
+    "type": "strike",
+    "lat": 23.7,
+    "lng": 54.3,
+    "location": "Shah Gas Field, Abu Dhabi, UAE",
+    "timestamp": "2026-03-17T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html"
+      }
+    ],
+    "tags": [
+      "uae",
+      "shah-gas-field",
+      "energy",
+      "fujairah",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "evt-new-169",
+    "title": "Pakistani National Killed by Missile Debris in Abu Dhabi",
+    "description": "A Pakistani national killed in Abu Dhabi's Bani Yas area by falling debris from an intercepted Iranian ballistic missile. UAE total interceptions: 304 ballistic missiles, 15 cruise missiles, 1,627 drones since war began.",
+    "type": "strike",
+    "lat": 24.4225,
+    "lng": 54.5045,
+    "location": "Bani Yas, Abu Dhabi, UAE",
+    "timestamp": "2026-03-17T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The National",
+        "url": "https://www.thenationalnews.com/news/uae/2026/03/17/one-person-killed-as-debris-falls-from-intercepted-iranian-missile-in-abu-dhabi/"
+      },
+      {
+        "name": "Khaleeji Times",
+        "url": "https://www.khaleejtimes.com/uae/uae-details-response-iranian-missile-attack-one-dead-flights-suspended"
+      }
+    ],
+    "casualties": {
+      "dead": 1,
+      "injured": 0
+    },
+    "tags": [
+      "uae",
+      "abu-dhabi",
+      "civilian-casualty",
+      "debris"
+    ]
+  },
+  {
+    "id": "evt-new-170",
+    "title": "Witkoff-Araghchi Back-Channel Communication Reactivated",
+    "description": "Direct communication between US envoy Steve Witkoff and Iranian FM Araghchi resumed \u2014 first direct contact since war began. Contradictory accounts on who initiated. Araghchi publicly denied contact, calling claims 'geared to mislead oil traders.'",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington, DC / Tehran",
+    "timestamp": "2026-03-17T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/03/16/iran-war-us-communication-witkoff-araghchi"
+      },
+      {
+        "name": "Drop Site News",
+        "url": "https://www.dropsitenews.com/p/iran-war-trump-witkoff-araghchi"
+      }
+    ],
+    "tags": [
+      "diplomacy",
+      "witkoff",
+      "araghchi",
+      "back-channel",
+      "ceasefire"
+    ]
+  },
+  {
+    "id": "evt-new-171",
+    "title": "Netanyahu Urges Iranians to Celebrate Chaharshanbe Suri",
+    "description": "Netanyahu released a video message urging Iranians to go out and celebrate Chaharshanbe Suri (fire festival), an anti-regime protest symbol. Said 'we're watching from above.' Opposition called for mass participation.",
+    "type": "diplomatic",
+    "lat": 31.7683,
+    "lng": 35.2137,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-03-17T17:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-urges-iranians-to-go-out-and-celebrate-ancient-festival-now-seen-as-anti-regime-protest/"
+      },
+      {
+        "name": "The Media Line",
+        "url": "https://themedialine.org/top-stories/the-bonfire-of-defiance-irans-youth-head-into-the-streets-tuesday-night/"
+      }
+    ],
+    "tags": [
+      "netanyahu",
+      "chaharshanbe-suri",
+      "iran-protests",
+      "psyops"
+    ]
   }
 ]

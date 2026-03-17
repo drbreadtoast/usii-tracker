@@ -1,82 +1,5 @@
 [
   {
-    "id": "social-074",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "IDF confirmed ground operation in southern Lebanon with approximately 100,000 troops across 6 divisions pushing south of the Litani River. 886 killed, 1 million displaced.",
-    "timestamp": "2026-03-16T14:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF official statement confirmed troop deployment",
-    "keywords": ["lebanon", "ground-invasion", "litani"]
-  },
-  {
-    "id": "social-075",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "Iranian drone struck a fuel storage tank near Dubai International Airport, suspending flights for over 7 hours. Fujairah oil hub also struck again — oil loading operations suspended.",
-    "timestamp": "2026-03-16T16:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Dubai Airports and Fujairah port authority confirmed",
-    "keywords": ["dubai", "airport", "drone", "fujairah"]
-  },
-  {
-    "id": "social-076",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "sourceCategory": "osint_analyst",
-    "text": "IDF destroyed Khamenei's personal aircraft at Mehrabad Airport in Tehran. Part of expanded targeting of Iranian leadership assets and symbols of power.",
-    "timestamp": "2026-03-16T18:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Satellite imagery and IDF confirmation",
-    "keywords": ["tehran", "mehrabad", "khamenei", "aircraft"]
-  },
-  {
-    "id": "social-077",
-    "handle": "@BNONews",
-    "displayName": "BNO News",
-    "sourceCategory": "lead_source",
-    "text": "IRGC declared the USS Gerald Ford carrier strike group's entire support network a legitimate military target, warning of potential attacks on supply and logistics vessels.",
-    "timestamp": "2026-03-16T20:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IRGC official statement via Tasnim News",
-    "keywords": ["irgc", "gerald-ford", "navy", "threat"]
-  },
-  {
-    "id": "social-078",
-    "handle": "@ClemensonResearch",
-    "displayName": "Clemson University Research",
-    "sourceCategory": "osint_analyst",
-    "text": "Researchers identified 62 IRGC-linked social media accounts on X, Bluesky, and Instagram spreading coordinated disinformation narratives about civilian casualties and US involvement.",
-    "timestamp": "2026-03-16T14:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Clemson University Media Forensics Hub report",
-    "keywords": ["disinformation", "irgc", "social-media"]
-  },
-  {
-    "id": "social-081",
-    "handle": "@Conflicts",
-    "displayName": "Conflicts Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "IDF 91st Division ground forces took control of Khiam in southern Lebanon, the largest town captured so far. Hezbollah forces reported withdrawing north of the Litani River.",
-    "timestamp": "2026-03-16T18:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF spokesperson confirmed Khiam capture",
-    "keywords": ["khiam", "lebanon", "91st-division", "hezbollah"]
-  },
-  {
-    "id": "social-082",
-    "handle": "@AlJazeera",
-    "displayName": "Al Jazeera English",
-    "sourceCategory": "lead_source",
-    "text": "Iran has selectively allowed passage through the Strait of Hormuz for ships from Pakistan, India, and Turkey, while Western-flagged commercial vessels remain blocked. Fewer than 5 ships per day transiting vs. 138 historical average.",
-    "timestamp": "2026-03-16T20:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera shipping investigation confirmed by maritime data",
-    "keywords": ["hormuz", "shipping", "blockade", "selective"]
-  },
-  {
     "id": "social-083",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
@@ -85,29 +8,44 @@
     "timestamp": "2026-03-16T22:30:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "UAE aviation authority and flight tracking data confirmed",
-    "keywords": ["uae", "airspace", "dubai", "aviation"]
+    "keywords": [
+      "uae",
+      "airspace",
+      "dubai",
+      "aviation"
+    ]
   },
   {
     "id": "social-084",
     "handle": "@IntelCrab",
     "displayName": "Intel Crab",
     "sourceCategory": "osint_analyst",
-    "text": "Senior IRGC Quds Force commander Brig. Gen. Hossein al-Askari killed in drone strike on Baghdad's Green Zone. Was coordinating militia operations across Iraq — a major escalation of targeted killings.",
+    "text": "Senior IRGC Quds Force commander Brig. Gen. Hossein al-Askari killed in drone strike on Baghdad's Green Zone. Was coordinating militia operations across Iraq \u2014 a major escalation of targeted killings.",
     "timestamp": "2026-03-17T02:15:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "Multiple Iraqi sources and IRGC media confirm",
-    "keywords": ["irgc", "al-askari", "baghdad", "green-zone"]
+    "keywords": [
+      "irgc",
+      "al-askari",
+      "baghdad",
+      "green-zone"
+    ]
   },
   {
     "id": "social-085",
     "handle": "@Reuters",
     "displayName": "Reuters",
     "sourceCategory": "lead_source",
-    "text": "Oil dropped sharply — Brent fell 4.3% to $100.21 and WTI dropped 6.1% to $93.50 after Treasury Secretary Bessent said the US will allow Iranian tankers through the Strait of Hormuz. WSJ reports the US is building a multinational naval escort coalition.",
+    "text": "Oil dropped sharply \u2014 Brent fell 4.3% to $100.21 and WTI dropped 6.1% to $93.50 after Treasury Secretary Bessent said the US will allow Iranian tankers through the Strait of Hormuz. WSJ reports the US is building a multinational naval escort coalition.",
     "timestamp": "2026-03-17T01:30:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "Reuters market data confirmed",
-    "keywords": ["oil", "bessent", "hormuz", "tankers"]
+    "keywords": [
+      "oil",
+      "bessent",
+      "hormuz",
+      "tankers"
+    ]
   },
   {
     "id": "social-086",
@@ -118,18 +56,12 @@
     "timestamp": "2026-03-17T08:00:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "TankerTrackers.com satellite tracking data",
-    "keywords": ["hormuz", "china", "shadow-fleet", "oil"]
-  },
-  {
-    "id": "social-087",
-    "handle": "@DavidSacks",
-    "displayName": "David Sacks",
-    "sourceCategory": "lead",
-    "text": "White House AI Czar David Sacks publicly called for finding an off-ramp, saying this is a good time to declare victory and exit. Warned that Iran has a 'dead man's switch' over Gulf states' economic fate, including desalination plants.",
-    "timestamp": "2026-03-16T20:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "First senior Trump adviser to publicly break with war policy",
-    "keywords": ["sacks", "off-ramp", "policy", "ceasefire"]
+    "keywords": [
+      "hormuz",
+      "china",
+      "shadow-fleet",
+      "oil"
+    ]
   },
   {
     "id": "social-088",
@@ -140,17 +72,174 @@
     "timestamp": "2026-03-17T06:00:00Z",
     "verificationStatus": "likely",
     "verificationNote": "Based on IDF announcement; awaiting Iran confirmation",
-    "keywords": ["basij", "soleimani", "irgc", "leadership"]
+    "keywords": [
+      "basij",
+      "soleimani",
+      "irgc",
+      "leadership"
+    ]
   },
   {
     "id": "social-089",
     "handle": "@ABORDEAUX",
     "displayName": "Aurora Intel",
     "sourceCategory": "osint_analyst",
-    "text": "UAE defense ministry reported 304 ballistic missiles, 15 cruise missiles, and 1,627 UAVs intercepted since the conflict began — a staggering number of Iranian projectiles aimed at Gulf states.",
+    "text": "UAE defense ministry reported 304 ballistic missiles, 15 cruise missiles, and 1,627 UAVs intercepted since the conflict began \u2014 a staggering number of Iranian projectiles aimed at Gulf states.",
     "timestamp": "2026-03-17T10:00:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "UAE Ministry of Defense statement",
-    "keywords": ["uae", "interceptions", "missiles", "drones"]
+    "keywords": [
+      "uae",
+      "interceptions",
+      "missiles",
+      "drones"
+    ]
+  },
+  {
+    "id": "social-090",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "US and Israel have discussed sending special forces into Iran to secure its stockpile of highly enriched uranium at a later stage of the war, according to Axios sources familiar with the discussions.",
+    "timestamp": "2026-03-17T19:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Axios citing sources familiar with discussions",
+    "keywords": [
+      "special-forces",
+      "uranium",
+      "enrichment",
+      "escalation"
+    ]
+  },
+  {
+    "id": "social-091",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "French President Macron declared after G7 video call that 'No one can tell what US President Trump wants from this ongoing war with Iran.' Israeli officials provided conflicting war objectives to G7 leaders.",
+    "timestamp": "2026-03-17T21:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Macron statement after G7 call confirmed by Elysee",
+    "keywords": [
+      "macron",
+      "g7",
+      "war-objectives",
+      "france"
+    ]
+  },
+  {
+    "id": "social-092",
+    "handle": "@AlmaCenter",
+    "displayName": "Alma Research Center",
+    "sourceCategory": "lead_source",
+    "text": "Day 18 daily report: IDF moved 36th Division deeper into southern Lebanon while cluster munitions hit central Israel. 37 Hezbollah attack waves identified on March 16. IDF expanding buffer zone toward Tyre.",
+    "timestamp": "2026-03-17T16:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Alma Center daily situation report",
+    "keywords": [
+      "lebanon",
+      "36th-division",
+      "cluster-munitions",
+      "tyre"
+    ]
+  },
+  {
+    "id": "social-093",
+    "handle": "@SoufanCenter",
+    "displayName": "Soufan Center",
+    "sourceCategory": "lead_source",
+    "text": "Iran-linked cyber proxies have become highly active since the war began. MOIS-linked 'Stryker' cyberattack demonstrates Iran retains high-end offensive cyber capability despite kinetic degradation of military targets.",
+    "timestamp": "2026-03-17T15:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Soufan Center IntelBrief assessment",
+    "keywords": [
+      "cyber",
+      "mois",
+      "stryker",
+      "iran-proxies"
+    ]
+  },
+  {
+    "id": "social-094",
+    "handle": "@HIKIKOMORI_MEDIA",
+    "displayName": "HRANA",
+    "sourceCategory": "lead_source",
+    "text": "Updated Iran civilian casualty count to 1,351 civilians killed including 207 children, plus 1,126 military personnel and 622 unclassified deaths. Most detailed independent casualty tracking available.",
+    "timestamp": "2026-03-17T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "HRANA verified casualty database",
+    "keywords": [
+      "casualties",
+      "civilians",
+      "iran",
+      "children"
+    ]
+  },
+  {
+    "id": "social-095",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "sourceCategory": "osint_analyst",
+    "text": "Joe Kent resignation is huge \u2014 first senior Trump official to quit over the war. His claim that Iran posed 'no imminent threat' directly contradicts the Article II legal justification. Expect Congressional subpoena.",
+    "timestamp": "2026-03-17T18:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Analysis of confirmed resignation",
+    "keywords": [
+      "joe-kent",
+      "resignation",
+      "legal",
+      "article-ii"
+    ]
+  },
+  {
+    "id": "social-096",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "Kuwait-flagged tanker Gas Al Ahmadiah struck near Fujairah \u2014 23rd vessel damaged since blockade began. Iraq's oil minister in direct talks with Iran to negotiate passage for Iraqi tankers through the strait.",
+    "timestamp": "2026-03-17T17:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Satellite tracking and Iraqi government statement",
+    "keywords": [
+      "tanker",
+      "fujairah",
+      "iraq",
+      "hormuz",
+      "blockade"
+    ]
+  },
+  {
+    "id": "social-097",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "USS Gerald R. Ford heading to Crete for repairs after 30-hour onboard fire. ~200 sailors treated for smoke inhalation. Carrier temporarily out of theater \u2014 significant gap in US naval power projection in the Eastern Mediterranean.",
+    "timestamp": "2026-03-17T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "USNI News confirmed via Navy sources",
+    "keywords": [
+      "uss-ford",
+      "carrier",
+      "fire",
+      "crete",
+      "navy"
+    ]
+  },
+  {
+    "id": "social-098",
+    "handle": "@Conflicts",
+    "displayName": "Conflicts Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Russia expanding intelligence sharing with Iran per WSJ \u2014 satellite imagery of US force locations plus improved Shahed drone components. Iran's targeting accuracy against US assets has noticeably improved since Ukraine-era drone tech transfer.",
+    "timestamp": "2026-03-17T19:30:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Based on WSJ report citing European intelligence officials",
+    "keywords": [
+      "russia",
+      "iran",
+      "drones",
+      "shahed",
+      "intelligence"
+    ]
   }
 ]
