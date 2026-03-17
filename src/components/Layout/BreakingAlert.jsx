@@ -5,23 +5,21 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-008',
-    headline: 'NCTC Director Joe Kent Resigns — Russia Arming Iran — Trump Threatens NATO — Missiles Hit Jerusalem Holy Sites',
+    id: 'ba-007',
+    headline: 'Israel Kills Ali Larijani, Senior Iranian Leader — Iran Vows "Crushing Response"',
     status: 'confirmed',
-    lastUpdated: '2026-03-17T21:52:00Z',
-    summary: 'Day 18 afternoon: NCTC Director Joe Kent quit over the war, calling Iran "no imminent threat." WSJ reports Russia sharing satellite imagery and drone tech with Iran. Trump threatens to leave NATO after allies refuse Hormuz mission. Missile fragments hit Temple Mount and Holy Sepulchre. Iran deploys new Haj Qasem missile. Shah gas field ablaze.',
+    lastUpdated: '2026-03-17T13:19:00Z',
+    summary: 'Israel confirmed the targeted killing of Ali Larijani, former Speaker of Iran\'s Parliament and senior adviser to Supreme Leader Mojtaba Khamenei. Iran\'s Parliament Speaker Qalibaf called it a "war crime." Basij paramilitary leadership also eliminated. Cluster missiles hit central Israel.',
     officialStatus: {
-      label: 'Impact — Multiple Critical Escalations on Day 18',
-      detail: 'Joe Kent, Director of the National Counterterrorism Center, resigned — the highest-profile Trump official to quit. His resignation letter stated Iran "posed no imminent threat" and blamed "pressure from Israel and its powerful American lobby." Trump called him "very weak on security."\n\nWSJ reports Russia is sharing satellite imagery of US force locations and improved Shahed drone components with Iran, drawing on Ukraine warfare experience.\n\nTrump said leaving NATO is "something to think about" after Germany, UK, France, Japan, Italy, and Australia all refused to join a Hormuz escort coalition.\n\nMissile fragments hit Jerusalem\'s Temple Mount/Al-Aqsa, Church of the Holy Sepulchre, and Armenian Quarter. Iran deployed the Haj Qasem ballistic missile (1,400km range, MaRV-equipped) for the first time.\n\nIran struck UAE\'s Shah gas field (20% of UAE gas supply), setting it ablaze. Fujairah hit for the 3rd time in 4 days. Oil surged to $103.50. USS Gerald Ford heading to Crete for fire repairs.',
+      label: 'Impact — Major Escalation on Day 18',
+      detail: 'Israel expands targeting from military to political leadership.\n\nAli Larijani, one of Iran\'s most powerful political figures, was killed in a precision Israeli airstrike in Tehran. Defense Minister Katz stated: "No one in the regime is beyond our reach."\n\nLarijani served as Speaker of Parliament (2008-2020) and was a key adviser to Supreme Leader Mojtaba Khamenei. His killing marks the highest-profile political assassination since the war began.\n\nSimultaneously, Israel eliminated senior Basij paramilitary commanders in Tehran. IDF ground forces advanced into southern Lebanon (Khiam). Iranian cluster munitions hit 10+ locations in central Israel including Rishon LeZion.\n\nUS airstrikes on Arak killed 14 civilians. Fujairah oil zone struck for the 3rd consecutive day. Pope Leo XIV made urgent ceasefire appeal. David Sacks (White House AI Czar) publicly called for an "off-ramp."',
       sources: [
-        { name: 'NPR', url: 'https://www.npr.org/2026/03/17/nx-s1-5750426/joe-kent-counterterrorism-official-resigns-trump' },
-        { name: 'US News / WSJ', url: 'https://www.usnews.com/news/world/articles/2026-03-17/russia-is-sharing-satellite-imagery-and-drone-technology-with-iran-wsj-reports' },
-        { name: 'Time', url: 'https://time.com/article/2026/03/17/trump-iran-war-nato-allies-strait-of-hormuz/' },
-        { name: 'Times of Israel', url: 'https://www.timesofisrael.com/iranian-missile-warhead-fell-less-than-a-kilometer-from-temple-mount-al-aqsa-mosque/' },
+        { name: 'Times of Israel', url: 'https://www.timesofisrael.com/liveblog-march-16-2026/' },
+        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/news/2026/3/17/iran-vows-retaliation-larijani-killing' },
       ]
     },
     cyberAttack: null,
-    context: 'Day 18 afternoon of the Iran-Israel war saw multiple critical escalations. The Strait of Hormuz remains effectively closed (Day 15 of blockade). Brent crude at $103.50/barrel. US gas at $3.79/gallon. Iran death toll: 2,477 confirmed (1,351 civilian, 1,126 military). Israel: 15 killed. US: 13 killed. Lebanon: 912 killed. Witkoff-Araghchi back-channel reactivated. Kuwait arrested 16-member Hezbollah cell. IDF 36th Division expanding Lebanon buffer zone.'
+    context: 'Day 18 of the Iran-Israel war marks a significant escalation with Israel targeting Iran\'s political establishment directly. The Larijani killing follows the elimination of the original Supreme Leader Khamenei on Day 1 (Feb 28). The Strait of Hormuz remains effectively closed (Day 15 of blockade). Oil at $103.50/barrel. US gas at $3.79/gallon. Death toll: Iran 2,477 confirmed, Israel 15, US 13, Lebanon 912. EU rejects military involvement in Hormuz. G5 nations warn Israel against Lebanon escalation.'
   }
 ]
 
