@@ -21,6 +21,8 @@ export default function BreakingBanner({ breakingNews }) {
       return new Date(item.timestamp) >= cutoff
     })
     .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+    // Exclude entries already covered by the red BreakingAlert banner
+    .filter(item => !item.text.startsWith('LEADERSHIP STRIKE'))
   if (sorted.length === 0) return null
   const text = sorted.map(item => item.text).join('   ///   ')
   const separator = '   ///   '
