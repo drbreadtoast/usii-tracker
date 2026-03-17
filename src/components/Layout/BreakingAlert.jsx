@@ -12,14 +12,14 @@ const BREAKING_ALERTS = [
     summary: 'Treasury Secretary Scott Bessent announced the US would allow Iranian oil tankers through the Strait of Hormuz. Oil prices immediately dropped: Brent -4.3% to $100.21, WTI -6.1% to $93.50. Signals potential de-escalation on economic front.',
     officialStatus: {
       label: 'Impact — Economic & Energy Markets',
-      detail: 'Oil drops sharply. First signal of potential Hormuz de-escalation. Markets rally on hopes of reduced economic disruption.\n\nBrent crude fell from $104.63 to $100.21 (-4.3%), while WTI dropped from $100.75 to $93.50 (-6.1%). This is the largest single-day oil price decline since the war began on February 28.\n\nBessent stated the US would ensure safe passage for Iranian oil tankers, breaking from the effective naval blockade that had been in place since Day 12. The Strait of Hormuz handles roughly 20% of global oil supply.\n\nThe Pentagon is also reportedly developing "off-ramp" scenarios for de-escalation, though military operations continue on other fronts.',
+      detail: 'Oil drops sharply. First signal of potential Hormuz de-escalation. Markets rally on hopes of reduced economic disruption.\n\nBrent crude fell from $104.63 to $100.21 (-4.3%), while WTI dropped from $100.75 to $93.50 (-6.1%). This is the largest single-day oil price decline since the war began on February 28.\n\nBessent stated the US would ensure safe passage for Iranian oil tankers, breaking from the effective naval blockade that had been in place since Day 4 (March 3). The Strait of Hormuz handles roughly 20% of global oil supply.\n\nThe Pentagon is also reportedly developing "off-ramp" scenarios for de-escalation, though military operations continue on other fronts.',
       sources: [
         { name: 'CNBC', url: 'https://www.cnbc.com/2026/03/16/us-is-allowing-iranian-tankers-through-strait-of-hormuz-says-bessent.html' },
         { name: 'Washington Examiner', url: 'https://www.washingtonexaminer.com/policy/energy-and-environment/4492756/us-allowing-iranian-oil-tankers-strait-of-hormuz-scott-bessent/' },
       ]
     },
     cyberAttack: null,
-    context: 'The Strait of Hormuz has been a central flashpoint since the Iran-Israel war began on February 28. Iran partially blocked the strait on Day 12, causing oil prices to surge past $104/barrel and US gas prices to rise 17% to $3.72/gallon. Bessent\'s announcement is the first major US economic de-escalation signal, though military operations including drone strikes on the Shah gas field in Abu Dhabi and Green Zone attacks in Baghdad continue elsewhere.'
+    context: 'The Strait of Hormuz has been a central flashpoint since the Iran-Israel war began on February 28. Iran began blocking the strait on Day 4 (March 3), and it is now effectively closed — causing oil prices to surge past $104/barrel and US gas prices to rise 17% to $3.72/gallon. Bessent\'s announcement is the first major US economic de-escalation signal, though military operations including drone strikes on the Shah gas field in Abu Dhabi and Green Zone attacks in Baghdad continue elsewhere.'
   }
 ]
 
