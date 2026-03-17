@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import BreakingAlert from './components/Layout/BreakingAlert'
-
+import BreakingBanner from './components/Layout/BreakingBanner'
 import NavBar from './components/Layout/NavBar'
 import CommodityTicker from './components/Commodities/CommodityTicker'
 import UpdateBadge from './components/Layout/UpdateBadge'
@@ -35,6 +35,7 @@ export default function App() {
 
   return (
     <div className="h-screen w-screen flex flex-col overflow-hidden bg-gray-950 text-gray-100">
+      <BreakingBanner />
       <BreakingAlert />
       <NavBar />
       <div ref={mainRef} className="flex-1 min-h-0 overflow-auto flex flex-col">
