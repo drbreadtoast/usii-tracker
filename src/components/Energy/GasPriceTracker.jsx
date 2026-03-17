@@ -254,15 +254,6 @@ export default function GasPriceTracker() {
         <PriceChartContent />
       </CollapsibleSection>
 
-      <CollapsibleSection
-        title="Price Breakdown"
-        icon={Calculator}
-        iconColor="text-purple-400"
-        hint="Click to see what makes up the price ▸"
-      >
-        <BreakdownContent />
-      </CollapsibleSection>
-
       <ContextNote />
       <div className="flex items-center justify-between text-[8px] text-gray-700 px-1">
         <div className="flex items-center gap-2">

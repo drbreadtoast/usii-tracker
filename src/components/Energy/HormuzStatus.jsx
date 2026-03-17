@@ -1,4 +1,5 @@
-import { Anchor, Ship, AlertTriangle, Clock, ShieldAlert, Waves, Skull, Ban, ExternalLink } from 'lucide-react'
+import { useState } from 'react'
+import { Anchor, Ship, AlertTriangle, Clock, ShieldAlert, Waves, Skull, Ban, ExternalLink, ChevronDown, ChevronUp } from 'lucide-react'
 import data from '../../data/hormuz-shipping.json'
 
 const statusColors = {
@@ -72,40 +73,56 @@ function StatsGrid() {
 }
 
 function Timeline() {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-lg p-2">
-      <div className="flex items-center gap-1.5 mb-2">
-        <Waves size={12} className="text-blue-400" />
-        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Blockade Timeline</span>
-      </div>
-      <div className="space-y-1">
-        {data.timeline.map((entry, i) => {
-          const isBlocked = entry.status === 'blocked' || entry.status === 'effectively_closed'
-          const dotColor = isBlocked ? 'bg-red-500' : 'bg-amber-500'
-          const isLast = i === data.timeline.length - 1
-          return (
-            <div key={entry.date} className="flex items-start gap-2">
-              <div className="flex flex-col items-center pt-1">
-                <div className={`w-1.5 h-1.5 rounded-full ${dotColor} shrink-0`} />
-                {!isLast && <div className="w-px h-full bg-gray-800 min-h-[12px]" />}
-              </div>
-              <div className="flex-1 min-w-0 pb-1">
-                <div className="flex items-center gap-2">
-                  <span className="text-[9px] text-gray-600 font-mono shrink-0">
-                    {new Date(entry.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                  </span>
-                  <span className={`text-[8px] px-1 py-0.5 rounded font-medium ${
-                    isBlocked ? 'bg-red-900/50 text-red-400' : 'bg-amber-900/50 text-amber-400'
-                  }`}>
-                    {entry.barrels === 0 ? '0 bbl' : `${(entry.barrels / 1000000).toFixed(0)}M bbl`}
-                  </span>
+    <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex items-center justify-between px-3 py-2.5 hover:bg-gray-800/50 transition-colors"
+      >
+        <div className="flex items-center gap-1.5">
+          <Waves size={12} className="text-blue-400" />
+          <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Blockade Timeline</span>
+          <span className="text-[9px] text-gray-600">({data.timeline.length} events)</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-[9px] text-blue-400">{isOpen ? 'Collapse' : 'Click to view full timeline'} </span>
+          {isOpen ? <ChevronUp size={14} className="text-gray-500" /> : <ChevronDown size={14} className="text-gray-500" />}
+        </div>
+      </button>
+      {isOpen && (
+        <div className="border-t border-gray-800 p-2">
+          <div className="space-y-1">
+            {data.timeline.map((entry, i) => {
+              const isBlocked = entry.status === 'blocked' || entry.status === 'effectively_closed'
+              const dotColor = isBlocked ? 'bg-red-500' : 'bg-amber-500'
+              const isLast = i === data.timeline.length - 1
+              return (
+                <div key={entry.date} className="flex items-start gap-2">
+                  <div className="flex flex-col items-center pt-1">
+                    <div className={`w-1.5 h-1.5 rounded-full ${dotColor} shrink-0`} />
+                    {!isLast && <div className="w-px h-full bg-gray-800 min-h-[12px]" />}
+                  </div>
+                  <div className="flex-1 min-w-0 pb-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[9px] text-gray-600 font-mono shrink-0">
+                        {new Date(entry.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                      </span>
+                      <span className={`text-[8px] px-1 py-0.5 rounded font-medium ${
+                        isBlocked ? 'bg-red-900/50 text-red-400' : 'bg-amber-900/50 text-amber-400'
+                      }`}>
+                        {entry.barrels === 0 ? '0 bbl' : `${(entry.barrels / 1000000).toFixed(0)}M bbl`}
+                      </span>
+                    </div>
+                    <p className="text-[10px] text-gray-400 leading-tight mt-0.5">{entry.event}</p>
+                  </div>
                 </div>
-                <p className="text-[10px] text-gray-400 leading-tight mt-0.5">{entry.event}</p>
-              </div>
-            </div>
-          )
-        })}
-      </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
