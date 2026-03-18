@@ -133,6 +133,16 @@ export default function BreakingNewsPage() {
         </a>
       </div>
 
+      {/* Timestamp notice */}
+      <div className="max-w-5xl mx-auto w-full px-4 sm:px-6 pt-3">
+        <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg px-3 py-2 flex items-start gap-2">
+          <Clock size={12} className="text-gray-400 shrink-0 mt-0.5" />
+          <p className="text-[10px] text-gray-400 leading-relaxed">
+            <strong className="text-gray-300">Note:</strong> Timestamps are currently disabled due to a bug that causes false timestamps. Once this bug is fixed, timestamps will return.
+          </p>
+        </div>
+      </div>
+
       {/* 24-hour news items */}
       <div className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6 space-y-4">
         {recentItems.length === 0 ? (

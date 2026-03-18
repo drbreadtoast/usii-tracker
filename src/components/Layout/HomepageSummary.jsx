@@ -429,18 +429,9 @@ export default function HomepageSummary() {
         <div className="flex items-center justify-center gap-2 mt-2 flex-wrap">
           <Clock size={12} className="text-blue-400" />
           <span className="text-[11px] text-blue-400 font-semibold">
-            Last updated: {new Date(siteMetadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
+            Last news refresh: {new Date(siteMetadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
           </span>
           <span className="text-[10px] text-gray-600">· Day {siteMetadata.conflictDay}</span>
-          <span className="text-gray-700 hidden sm:inline">|</span>
-          <a
-            href={siteMetadata.donationUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-[10px] text-amber-400/80 hover:text-amber-300 transition-colors"
-          >
-            <span className="text-amber-500">♥</span> Built by 1 person — buy me a coffee
-          </a>
         </div>
       </div>
 
@@ -448,6 +439,26 @@ export default function HomepageSummary() {
       <div className="max-w-[1400px] mx-auto px-4 mb-4">
         <CensorshipNotice />
         <SourcesNotice />
+      </div>
+
+      {/* Support note */}
+      <div className="max-w-2xl mx-auto px-4 mb-4">
+        <div className="bg-gray-900/60 border border-gray-800 rounded-lg p-4 text-center">
+          <p className="text-xs text-gray-300 leading-relaxed">
+            This site is currently updated 3-4 times a day with the latest news, data, and statistics — each update requires significant AI and research resources. Hourly automated updates and live tracking features are possible but would require paid APIs and additional infrastructure, raising costs significantly.
+          </p>
+          <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+            This site is free, ad-free, and built by one person. If there's enough support, I can upgrade to more frequent updates and live data. Every contribution helps keep this running and makes those upgrades possible.
+          </p>
+          <a
+            href={siteMetadata.donationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-3 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
+          >
+            <span>☕</span> Buy Me a Coffee — Support This Project
+          </a>
+        </div>
       </div>
 
       {/* Grid of summary cards */}
