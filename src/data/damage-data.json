@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-17T21:52:00Z",
+    "lastUpdated": "2026-03-18T03:13:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 111,
-    "confirmed": 102,
+    "totalSites": 115,
+    "confirmed": 106,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
@@ -1901,6 +1901,58 @@
       "description": "Hezbollah rocket hit a residential home in Karmiel. Residents survived in safe room.",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-march-17-2026/"
+    },
+    {
+      "id": "dmg-116",
+      "name": "Ramat Gan Residential (Stairwell)",
+      "country": "Israel",
+      "lat": 32.0827,
+      "lng": 34.8141,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-03-17",
+      "description": "IRGC missile strike killed elderly couple in residential building stairwell. Shrapnel also hit Tel Aviv Savidor Center train station.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-03-18/ty-article/two-killed-in-ramat-gan-as-iran-hits-israel-with-cluster-munitions/0000019c-fe1b-da5c-a3bc-fe1b956c0000"
+    },
+    {
+      "id": "dmg-117",
+      "name": "Bushehr Nuclear Power Plant Premises",
+      "country": "Iran",
+      "lat": 28.83,
+      "lng": 50.89,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-17",
+      "description": "Projectile hit premises near metrological service building, close to operating power unit. IAEA confirmed no reactor damage.",
+      "source": "US News",
+      "sourceUrl": "https://www.usnews.com/news/world/articles/2026-03-17/projectile-hits-near-irans-bushehr-nuclear-plant-no-damage-or-injuries-reported"
+    },
+    {
+      "id": "dmg-118",
+      "name": "US Embassy Baghdad (Outer Wall)",
+      "country": "Iraq",
+      "lat": 33.3,
+      "lng": 44.37,
+      "category": "diplomatic",
+      "status": "confirmed",
+      "date": "2026-03-17",
+      "description": "Explosive drone struck outer wall of US Embassy. Fire sparked. 2 other drones intercepted.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/iraqi-capital-baghdad-rocked-by-powerful-blasts-near-us-embassy"
+    },
+    {
+      "id": "dmg-119",
+      "name": "Beirut Kafaat/Haret Hreik",
+      "country": "Lebanon",
+      "lat": 33.86,
+      "lng": 35.5,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-03-17",
+      "description": "Israeli strikes on Kafaat and Haret Hreik areas. 6 killed, 24 injured.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced"
     }
   ]
 }

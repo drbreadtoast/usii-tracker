@@ -2223,5 +2223,131 @@
       "dead": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-142",
+    "city": "Ramat Gan",
+    "country": "Israel",
+    "lat": 32.0827,
+    "lng": 34.8141,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-17",
+    "description": "IRGC Khorramshahr-4 and Qadr missiles hit Ramat Gan. Elderly couple killed in stairwell. Shrapnel hit Tel Aviv Savidor Center train station.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-03-18/ty-article/two-killed-in-ramat-gan-as-iran-hits-israel-with-cluster-munitions/0000019c-fe1b-da5c-a3bc-fe1b956c0000",
+    "weaponType": "Khorramshahr-4 / Qadr",
+    "casualties": {
+      "dead": 2,
+      "injured": 5
+    }
+  },
+  {
+    "id": "ms-143",
+    "city": "Bushehr",
+    "country": "Iran",
+    "lat": 28.83,
+    "lng": 50.89,
+    "strikeType": "missile",
+    "attributedTo": "israel",
+    "date": "2026-03-17",
+    "description": "Projectile hit premises of Bushehr Nuclear Power Plant near operating unit. IAEA confirmed no reactor damage.",
+    "source": "US News",
+    "sourceUrl": "https://www.usnews.com/news/world/articles/2026-03-17/projectile-hits-near-irans-bushehr-nuclear-plant-no-damage-or-injuries-reported",
+    "weaponType": "Unknown projectile",
+    "casualties": {
+      "dead": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-144",
+    "city": "Baghdad Green Zone",
+    "country": "Iraq",
+    "lat": 33.3,
+    "lng": 44.37,
+    "strikeType": "drone",
+    "attributedTo": "iraq_militias",
+    "date": "2026-03-17",
+    "description": "Coordinated drone and rocket attack on US Embassy. 1 of 3 drones struck outer wall.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/iraqi-capital-baghdad-rocked-by-powerful-blasts-near-us-embassy",
+    "weaponType": "Explosive drone / rockets",
+    "casualties": {
+      "dead": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-145",
+    "city": "Beirut (Kafaat)",
+    "country": "Lebanon",
+    "lat": 33.86,
+    "lng": 35.5,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-17",
+    "description": "Israeli strikes on Kafaat and Haret Hreik, Beirut. 6 killed, 24 injured.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+    "weaponType": "Guided bomb",
+    "casualties": {
+      "dead": 6,
+      "injured": 24
+    }
+  },
+  {
+    "id": "ms-146",
+    "city": "Nabatieh (Haboush)",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-17",
+    "description": "Israeli strike on Haboush, Nabatieh. 3 killed, 8 missing.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+    "weaponType": "Guided bomb",
+    "casualties": {
+      "dead": 3,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-147",
+    "city": "Baalbek",
+    "country": "Lebanon",
+    "lat": 34.01,
+    "lng": 36.21,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-17",
+    "description": "Israeli strike on Baalbek. 4 killed, 7 injured.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+    "weaponType": "Guided bomb",
+    "casualties": {
+      "dead": 4,
+      "injured": 7
+    }
+  },
+  {
+    "id": "ms-148",
+    "city": "Arak",
+    "country": "Iran",
+    "lat": 34.09,
+    "lng": 49.69,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-03-17",
+    "description": "US-Israeli strike on Arak killed 3-day-old infant, 2-year-old sister, mother, and grandmother.",
+    "source": "Democracy Now",
+    "sourceUrl": "https://www.democracynow.org/2026/3/17/headlines/iran_says_infant_toddler_mother_and_grandmother_among_latest_victims_of_us_israeli_strikes",
+    "weaponType": "Guided munition",
+    "casualties": {
+      "dead": 4,
+      "injured": 0
+    }
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "id": "social-083",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "UAE closed its entire national airspace with all flights at Dubai International suspended. This is the world's busiest international airport handling 90+ million passengers annually.",
-    "timestamp": "2026-03-16T22:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UAE aviation authority and flight tracking data confirmed",
-    "keywords": [
-      "uae",
-      "airspace",
-      "dubai",
-      "aviation"
-    ]
-  },
-  {
     "id": "social-084",
     "handle": "@IntelCrab",
     "displayName": "Intel Crab",
@@ -240,6 +224,108 @@
       "drones",
       "shahed",
       "intelligence"
+    ]
+  },
+  {
+    "id": "social-099",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Trump responds to Joe Kent resignation: says Kent was 'weak on security' and a 'known leaker' who had been cut out of POTUS intelligence briefings months ago. Senior admin official tells Fox that Kent had no involvement in Iran planning.",
+    "timestamp": "2026-03-18T01:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump's response confirmed by Fox News and Townhall reporting",
+    "keywords": [
+      "joe-kent",
+      "resignation",
+      "trump",
+      "nctc",
+      "leaker"
+    ]
+  },
+  {
+    "id": "social-100",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Chaharshanbe Suri unfolding in Iran tonight under near-total internet blackout. Tehran streets largely quiet but fires and fireworks reported from apartment windows. Government sent mass text warnings threatening imprisonment and flogging for 'unconventional behaviour.'",
+    "timestamp": "2026-03-18T00:30:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "AFP reporting from Iran, IranWire and Iran International coverage. Internet blackout limits verification.",
+    "keywords": [
+      "chaharshanbe-suri",
+      "iran",
+      "protests",
+      "tehran",
+      "fire-festival"
+    ]
+  },
+  {
+    "id": "social-101",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Trump says he is 'not afraid' of boots on the ground in Iran when asked if it could become another Vietnam. First direct signal he is open to ground invasion. Pentagon reportedly preparing options for Hormuz ground operation.",
+    "timestamp": "2026-03-18T02:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Iran International and New Republic confirmed Trump remarks with Irish PM",
+    "keywords": [
+      "boots-on-ground",
+      "trump",
+      "vietnam",
+      "ground-troops",
+      "iran"
+    ]
+  },
+  {
+    "id": "social-102",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "Tanker hit by projectile near UAE — first attack on Hormuz shipping in 5 days. At least 17 vessels struck since war began. Brent crude settled at $103.42/barrel, up 3.2% and now 42% higher since conflict started.",
+    "timestamp": "2026-03-18T01:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Alma Research Center daily report and oil market data confirmed",
+    "keywords": [
+      "tanker",
+      "hormuz",
+      "oil-price",
+      "brent",
+      "shipping"
+    ]
+  },
+  {
+    "id": "social-103",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Senate Democrats led by Booker, Murphy, Kaine threatening to force repeated war powers votes and slow Senate business this week. Filed 5 resolutions demanding troop withdrawal. Republicans still blocking public hearings on the war.",
+    "timestamp": "2026-03-18T02:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PBS, The Hill, and Fortune confirmed Democratic strategy and filed resolutions",
+    "keywords": [
+      "congress",
+      "war-powers",
+      "booker",
+      "democrats",
+      "oversight"
+    ]
+  },
+  {
+    "id": "social-104",
+    "handle": "@Conflicts",
+    "displayName": "Conflicts Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "AI-generated war misinformation reaching unprecedented levels — state actors flooding social media with fake videos of explosions, destroyed cities, and downed carriers. ABC News identifies both Iranian and Russian influence operations behind coordinated disinfo campaigns.",
+    "timestamp": "2026-03-18T03:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "ABC News, Rolling Stone, and Poynter fact-check reporting confirmed state-backed disinfo campaigns",
+    "keywords": [
+      "ai-misinformation",
+      "deepfakes",
+      "propaganda",
+      "russia",
+      "iran"
     ]
   }
 ]

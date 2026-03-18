@@ -15,9 +15,9 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-17T21:52:00Z",
+    "lastUpdated": "2026-03-18T03:13:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 152,
+    "totalStatements": 160,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-03-17"
@@ -374,6 +374,28 @@
           "factCheckNote": "Trump confirmed response",
           "source": "NPR",
           "sourceUrl": "https://www.npr.org/2026/03/17/nx-s1-5750426/joe-kent-counterterrorism-official-resigns-trump"
+        },
+        {
+          "id": "trump-025",
+          "date": "2026-03-17",
+          "text": "We're knocking them for a loop. They cannot have a nuclear weapon, and they now understand that very strongly. I rebuilt the military in my first term, and I didn't expect to have to use it so much in my second.",
+          "context": "Evening remarks at the White House alongside Irish PM. Trump praised military success and said Iran now understands it cannot obtain nuclear weapons.",
+          "venue": "White House",
+          "factCheck": "misleading",
+          "factCheckNote": "Iran continues to launch missiles and maintain the Hormuz blockade despite significant damage to its military. The claim of decisive victory overstates the situation.",
+          "source": "ABC7",
+          "sourceUrl": "https://abc7news.com/live-updates/iran-war-live-updates-israel-steps-operation-lebanon-trump-says-countries-help-strait-hormuz/18721484/"
+        },
+        {
+          "id": "trump-026",
+          "date": "2026-03-17",
+          "text": "No, I'm not afraid of — I'm really not afraid of anything.",
+          "context": "When asked if boots on the ground in Iran could become another Vietnam, Trump said he was not afraid. He later added the war would end 'in the very near future' but he wasn't ready to leave yet.",
+          "venue": "White House press availability",
+          "factCheck": "verified",
+          "factCheckNote": "Confirmed by multiple reporters present. First direct signal Trump is open to ground troops in Iran.",
+          "source": "Iran International",
+          "sourceUrl": "https://www.iranintl.com/en/202603179787"
         }
       ]
     },
@@ -1305,6 +1327,17 @@
           "factCheckNote": "EU rejection of Hormuz military role confirmed. Germany's Pistorius explicitly stated 'This is not our war.'",
           "source": "Al Jazeera",
           "sourceUrl": "https://www.aljazeera.com/news/2026/3/16/eu-leaders-reject-military-involvement-in-strait-of-hormuz-amid-war-on-iran"
+        },
+        {
+          "id": "kallas-010",
+          "date": "2026-03-17",
+          "text": "We have been consulting with Gulf countries, Jordan, Egypt about whether we could bring forward proposals for Iran, Israel and the US to get out of this situation so that everybody saves face.",
+          "context": "Kallas called on US and Israel to end the war in a Reuters exclusive. Said EU is consulting regional governments on a face-saving diplomatic exit. Also discussed with UN Secretary-General Guterres a Black Sea grain deal-style arrangement for Hormuz oil transit.",
+          "venue": "Reuters exclusive interview",
+          "factCheck": "verified",
+          "factCheckNote": "Reuters exclusive confirmed by Fox News and Al-Monitor. Kallas confirmed consulting with Gulf states on diplomatic off-ramp.",
+          "source": "Reuters via US News",
+          "sourceUrl": "https://www.usnews.com/news/world/articles/2026-03-17/exclusive-eu-foreign-policy-chief-kallas-calls-on-us-israel-to-end-iran-war"
         }
       ]
     },
@@ -1660,6 +1693,17 @@
           "factCheckNote": "French soldier death confirmed by French Ministry of Armed Forces and France24. France maintains counterterrorism forces in Iraq under Operation Chammal.",
           "source": "France 24",
           "sourceUrl": "https://www.france24.com/en/middle-east/20260312-middle-east-war-live-israel-lebanon-iran-gulf"
+        },
+        {
+          "id": "macron-002",
+          "date": "2026-03-17",
+          "text": "France would never take part in operations to unblock the Strait of Hormuz in the current context.",
+          "context": "Macron explicitly ruled out French participation in any US-led military operation to reopen the Strait of Hormuz, joining other European nations in rejecting Trump's demands for allied help.",
+          "venue": "Official statement",
+          "factCheck": "verified",
+          "factCheckNote": "Confirmed by CBS News and Al Jazeera liveblog coverage of EU foreign ministers' decisions.",
+          "source": "CBS News",
+          "sourceUrl": "https://www.cbsnews.com/live-updates/iran-war-israel-kills-larijani-eu-rejects-trump-strait-of-hormuz-oil-gas-prices/"
         }
       ]
     },
@@ -1881,6 +1925,69 @@
           "factCheckNote": "Gabbard confirmed statement; notable for NOT endorsing war given her 'No War With Iran' history",
           "source": "The Hill",
           "sourceUrl": "https://thehill.com/policy/defense/5788405-trump-iran-threat-gabbard/"
+        }
+      ]
+    },
+    {
+      "id": "danon",
+      "name": "Danny Danon",
+      "title": "Israeli Ambassador to the UN",
+      "country": "Israel",
+      "color": "#1976D2",
+      "shortName": "Danon",
+      "statements": [
+        {
+          "id": "danon-001",
+          "date": "2026-03-17",
+          "text": "Yes there are potential leaders in Iran today who can lead the nation in the right direction, use the resources for prosperity, for infrastructure and not to send ballistic missiles to all its neighbors and block the Strait of Hormuz.",
+          "context": "Danon appeared on CNN and said there are alternative Iranian leaders who could open the door to diplomacy. Declined to name specific individuals but signaled Israel has identified potential negotiating partners.",
+          "venue": "CNN interview",
+          "factCheck": "verified",
+          "factCheckNote": "C-SPAN and CNN confirmed Danon's remarks. First explicit Israeli acknowledgment of potential diplomatic partners inside Iran.",
+          "source": "CNN",
+          "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-17-26"
+        }
+      ]
+    },
+    {
+      "id": "hassett",
+      "name": "Kevin Hassett",
+      "title": "Director of the National Economic Council",
+      "country": "United States",
+      "color": "#4CAF50",
+      "shortName": "Hassett",
+      "statements": [
+        {
+          "id": "hassett-001",
+          "date": "2026-03-17",
+          "text": "If the war were to be extended, it wouldn't really disrupt the US economy very much at all. [Consumer pain] is the last of our concerns right now.",
+          "context": "CNBC interview. Hassett said consumer pain from rising gas prices was 'the last of our concerns,' sparking fierce backlash from Democrats. Rep. Ted Lieu said he wanted Hassett sent to every swing district to repeat the statement.",
+          "venue": "CNBC Squawk Box",
+          "factCheck": "misleading",
+          "factCheckNote": "Gas has risen 88 cents/gallon in a month to $3.80, diesel up $1.39 to $5.04. Consumer pain is measurable and growing.",
+          "source": "The Hill",
+          "sourceUrl": "https://thehill.com/homenews/administration/5787473-kevin-hassett-iran-war-consumer-pain/"
+        }
+      ]
+    },
+    {
+      "id": "radan",
+      "name": "Ahmadreza Radan",
+      "title": "Commander of Iran's Police Force",
+      "country": "Iran",
+      "color": "#4A148C",
+      "shortName": "Radan",
+      "statements": [
+        {
+          "id": "radan-001",
+          "date": "2026-03-17",
+          "text": "This year's celebrations come under different circumstances. The country is effectively in a state of war. Supporters of the Islamic Republic must not leave the squares empty.",
+          "context": "Police Commander Radan warned of crackdown ahead of Chaharshanbe Suri fire festival. Government sent mass text warnings that 'unconventional behaviour' could result in imprisonment and flogging.",
+          "venue": "Nighttime rally in Tajrish, Tehran",
+          "factCheck": "verified",
+          "factCheckNote": "Confirmed by Iran International and IranWire reporting.",
+          "source": "Iran International",
+          "sourceUrl": "https://www.iranintl.com/en/202603176490"
         }
       ]
     }
