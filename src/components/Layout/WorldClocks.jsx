@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { Clock } from 'lucide-react'
+import { Clock, Heart } from 'lucide-react'
+import siteMetadata from '../../data/site-metadata.json'
 
 const TIMEZONES = [
   { label: 'Jerusalem', abbr: 'IST', tz: 'Asia/Jerusalem', flag: '🇮🇱' },
@@ -37,6 +38,15 @@ export default function WorldClocks() {
           <span className="text-gray-600 text-[10px]">{abbr}</span>
         </div>
       ))}
+      <a
+        href={siteMetadata.donationUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0 ml-auto"
+      >
+        <Heart size={10} />
+        Buy Me a Coffee
+      </a>
     </div>
   )
 }
