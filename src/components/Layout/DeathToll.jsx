@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Skull, ChevronDown, ChevronUp, ExternalLink, AlertTriangle, Shield, MessageCircle, Info } from 'lucide-react'
+import { Skull, ChevronDown, ChevronUp, ExternalLink, AlertTriangle, Shield, MessageCircle } from 'lucide-react'
 
 function NumberDisplay({ value, className = '' }) {
   if (value === null || value === undefined) return <span className="text-gray-600">N/A</span>
@@ -275,15 +275,6 @@ export default function DeathToll({ deathToll }) {
         <p className="text-[10px] text-gray-600 mt-0.5">
           Updated: {new Date(deathToll.lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
         </p>
-      </div>
-
-      <div className="mx-2 mt-2 bg-amber-950/30 border border-amber-800/40 rounded-lg p-2.5">
-        <div className="flex items-start gap-2">
-          <Info size={14} className="text-amber-400 shrink-0 mt-0.5" />
-          <p className="text-[10px] text-amber-300/90 leading-relaxed">
-            <strong className="text-amber-200">Important:</strong> Actual casualty figures are likely significantly higher than reported. All parties — including governments and media on every side of the conflict — have motives to suppress, delay, or manipulate casualty numbers. Iran's internet is at ~4% capacity, making independent verification nearly impossible.
-          </p>
-        </div>
       </div>
 
       <div className="flex-1 overflow-y-auto p-2 space-y-3">

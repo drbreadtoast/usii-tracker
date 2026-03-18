@@ -171,6 +171,14 @@ function CasualtySummary() {
           ))}
         </div>
       )}
+      <div className="mt-2 bg-amber-950/30 border border-amber-800/40 rounded-lg p-2">
+        <div className="flex items-start gap-1.5">
+          <AlertTriangle size={10} className="text-amber-400 shrink-0 mt-0.5" />
+          <p className="text-[9px] text-amber-300/90 leading-relaxed">
+            <strong className="text-amber-200">Important:</strong> Actual casualty figures are likely significantly higher than reported. All parties — including governments and media on every side of the conflict — have motives to suppress, delay, or manipulate casualty numbers. Iran's internet is at ~4% capacity, making independent verification nearly impossible.
+          </p>
+        </div>
+      </div>
     </SectionCard>
   )
 }
