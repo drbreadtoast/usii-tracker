@@ -290,9 +290,6 @@ export default function FollowTheOilPage() {
       <header className="bg-gray-900/50 border-b border-gray-800 px-4 sm:px-6 py-2">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <h1 className="text-sm font-bold text-gray-300">Follow the Oil, Gas & Energy</h1>
-          <div className="flex items-center gap-4 text-xs text-gray-500">
-            <TimestampBadge isoString={metadata.lastUpdated} label="Data" />
-          </div>
         </div>
       </header>
 
