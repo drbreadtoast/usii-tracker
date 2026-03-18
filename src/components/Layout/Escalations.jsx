@@ -48,7 +48,7 @@ function EscalationCard({ item }) {
           </span>
           <span className="text-[10px] text-gray-500 ml-auto flex items-center gap-0.5 shrink-0">
             <Clock size={10} />
-            {formatFullTimestamp(item.timestamp)}
+            {new Date(item.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
           </span>
         </div>
 
@@ -108,6 +108,13 @@ export default function Escalations() {
             {highCount} High
           </span>
         </div>
+      </div>
+
+      <div className="mx-2 mt-2 bg-gray-800/50 border border-gray-700/50 rounded-lg px-3 py-2 flex items-start gap-2">
+        <Clock size={12} className="text-gray-400 shrink-0 mt-0.5" />
+        <p className="text-[10px] text-gray-400 leading-relaxed">
+          <strong className="text-gray-300">Note:</strong> Timestamps are currently disabled due to a bug that causes false timestamps. Once this bug is fixed, timestamps will return.
+        </p>
       </div>
 
       <div className="flex-1 overflow-y-auto p-2 space-y-2">

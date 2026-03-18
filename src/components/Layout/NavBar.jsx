@@ -9,9 +9,10 @@ import timelineData from '../../data/war-timeline.json'
 const NAV_LINKS = [
   { to: '/', label: 'Home', icon: Map, color: 'text-gray-300 hover:text-white' },
   { to: '/follow-the-oil', label: 'Oil, Gas & Energy', icon: Droplet, color: 'text-amber-400 hover:text-amber-300' },
-  { to: '/fact-check', label: 'Fact Check', icon: ShieldCheck, color: 'text-green-400 hover:text-green-300' },
   { to: '/breaking-news', label: '24hr Report', icon: Newspaper, color: 'text-red-400 hover:text-red-300' },
+  { to: '/escalations', label: 'Escalations', icon: AlertOctagon, color: 'text-orange-400 hover:text-orange-300' },
   { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, color: 'text-cyan-400 hover:text-cyan-300' },
+  { to: '/fact-check', label: 'Fact Check', icon: ShieldCheck, color: 'text-green-400 hover:text-green-300', badge: 'BETA' },
   { to: '/deaths', label: 'Deaths', icon: Skull, color: 'text-red-400 hover:text-red-300' },
   { to: '/follow-the-damage', label: 'Damage', icon: Flame, color: 'text-orange-400 hover:text-orange-300' },
   { to: '/follow-the-cost', label: 'Cost', icon: Receipt, color: 'text-purple-400 hover:text-purple-300' },
@@ -20,7 +21,6 @@ const NAV_LINKS = [
   { to: '/media', label: 'Media', icon: Newspaper, color: 'text-purple-400 hover:text-purple-300' },
   { to: '/government', label: 'Gov', icon: Landmark, color: 'text-cyan-400 hover:text-cyan-300' },
   { to: '/timeline', label: 'Timeline & Events', icon: Clock, color: 'text-blue-400 hover:text-blue-300' },
-  { to: '/escalations', label: 'Escalations', icon: AlertOctagon, color: 'text-orange-400 hover:text-orange-300' },
   { to: '/follow-the-money', label: 'Money', icon: DollarSign, color: 'text-green-400 hover:text-green-300' },
 ]
 
@@ -146,7 +146,7 @@ export default function NavBar() {
             ref={navRef}
             className="flex items-center gap-1 overflow-x-auto scrollbar-hide scroll-smooth"
           >
-            {NAV_LINKS.map(({ to, label, icon: Icon, color }) => {
+            {NAV_LINKS.map(({ to, label, icon: Icon, color, badge }) => {
               const isActive = location.pathname === to
               return (
                 <Link
@@ -160,6 +160,7 @@ export default function NavBar() {
                 >
                   <Icon size={10} />
                   {label}
+                  {badge && <span className="text-[7px] font-bold bg-green-600 text-white px-1 py-0.5 rounded leading-none">{badge}</span>}
                 </Link>
               )
             })}
