@@ -292,16 +292,6 @@ export default function FollowTheOilPage() {
           <h1 className="text-sm font-bold text-gray-300">Follow the Oil, Gas & Energy</h1>
           <div className="flex items-center gap-4 text-xs text-gray-500">
             <TimestampBadge isoString={metadata.lastUpdated} label="Data" />
-            <div className="hidden sm:flex items-center gap-1.5">
-              <Fuel size={12} className="text-amber-400" />
-              <span className="text-amber-400 font-bold">${oilPrices.current.brent.price}</span>
-              <span>Brent</span>
-            </div>
-            <div className="hidden sm:flex items-center gap-1.5">
-              <TrendingUp size={12} className="text-red-400" />
-              <span className="text-red-400 font-bold">{oilPrices.current.brent.change}</span>
-              <span>since pre-war</span>
-            </div>
           </div>
         </div>
       </header>
