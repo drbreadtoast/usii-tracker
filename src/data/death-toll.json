@@ -49,7 +49,7 @@
     },
     {
       "name": "Iranian Protests Crackdown (Dec 2025 - Jan 2026)",
-      "period": "December 2025 - January 2026",
+      "period": "February 28, 2026 - Ongoing (Day 18)",
       "parties": [
         {
           "name": "Iranian Civilians",
@@ -78,164 +78,221 @@
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
             "military": 0,
-            "civilian": 217,
-            "total": 217,
-            "source": "Lebanese Ministry of Public Health",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/6/death-toll-in-israels-lebanon-attacks-over-120-as-beirut-south-east-hit"
+            "civilian": 912,
+            "total": 912,
+            "source": "Lebanese Ministry of Public Health (March 17). 912 killed including 67 women, 111 children, 38 health workers.",
+            "sourceUrl": "https://www.middleeastmonitor.com/20260317-lebanons-death-toll-in-israeli-attacks-since-march-2-surpasses-900-health-ministry/"
           },
           "estimated": {
-            "military": 60,
-            "civilian": 230,
-            "total": 290,
-            "source": "ACLED / UN OCHA",
-            "sourceUrl": "https://acleddata.com/update/middle-east-special-issue-march-2026",
-            "note": "Includes Hezbollah fighters. 95,000-300,000 displaced."
+            "military": 200,
+            "civilian": 900,
+            "total": 1100,
+            "source": "Lebanese media + IDF Hezbollah fighter estimates",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+            "note": "912 confirmed by Health Ministry (March 17). 26 killed + 80 injured in last 24 hours alone. IDF claims 200 Hezbollah fighters killed since March 2. Hezbollah does not officially announce its dead. 1,100+ Israeli strikes since Feb 28. Ground invasion launched March 16 south of Litani River. Rescue teams unable to access some strike sites."
           },
-          "injured": 600
+          "injured": 2221,
+          "rumored": {
+            "total": 1400,
+            "military": 400,
+            "civilian": 1000,
+            "note": "Hezbollah fighter casualties not separately broken out in Health Ministry figures \u2014 actual Hezbollah dead could be 300-400+. IDF ground invasion (launched March 16) expected to significantly increase casualties. Rescue teams unable to access multiple strike sites in southern Lebanon. Some villages entirely cut off.",
+            "socialSources": [
+              {
+                "platform": "Al Jazeera",
+                "handle": "Al Jazeera Live",
+                "claim": "26 killed in last 24 hours across Beirut, Nabatieh, Baalbek, Bint Jbeil. 1 million displaced \u2014 20% of Lebanon's population.",
+                "url": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+                "date": "2026-03-17"
+              },
+              {
+                "platform": "CARE",
+                "handle": "care.org",
+                "claim": "One million displaced nationwide. 130,000+ in 600+ collective shelters. Humanitarian access increasingly restricted.",
+                "url": "https://www.care.org/news-and-stories/march-17-2026-in-lebanon-one-million-displaced-nationwide/",
+                "date": "2026-03-17"
+              },
+              {
+                "platform": "Alma Center",
+                "handle": "israel-alma.org",
+                "claim": "IDF claims approximately 200 Hezbollah fighters killed since March 2. Hezbollah deliberately does not announce its dead.",
+                "url": "https://israel-alma.org/hezbollah-fighters-killed-in-recent-fighting-march-2026/",
+                "date": "2026-03-17"
+              }
+            ]
+          },
+          "injuredNote": "2,221 wounded per Lebanese Health Ministry (March 17). 38 health workers killed. 80 injured in last 24 hours. IDF ground operations in border areas ongoing.",
+          "displaced": 1000000,
+          "displacedNote": "1,000,000+ displaced \u2014 ~20% of Lebanon's population. 130,000+ in 600+ collective shelters. Ground invasion launched March 16."
         },
         {
           "name": "Gulf States",
           "flag": "\ud83c\uddfa\ud83c\udde6",
           "confirmed": {
-            "military": 0,
-            "civilian": 11,
-            "total": 11,
-            "source": "Regional government reports",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/8/iran-war-what-is-happening-on-day-nine-of-us-israel-attacks"
+            "military": 2,
+            "civilian": 31,
+            "total": 33,
+            "source": "HRW + Gulf state government reports (March 17). At least 11 civilian deaths across GCC \u2014 10 of those killed are foreign nationals/migrant workers.",
+            "sourceUrl": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians"
           },
           "estimated": {
-            "military": 0,
-            "civilian": 15,
-            "total": 15,
-            "source": "ACLED",
-            "sourceUrl": "https://acleddata.com/update/middle-east-special-issue-march-2026",
-            "note": "Includes UAE (3), Kuwait (4+), Bahrain, other GCC nations. 112+ wounded in UAE alone."
+            "military": 2,
+            "civilian": 36,
+            "total": 38,
+            "source": "Compiled from regional government reports and HRW (March 17)",
+            "sourceUrl": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians",
+            "note": "Kuwait: 11 killed (6 US soldiers + 5 Kuwaiti), 99 injured. UAE: 8 killed (2 military, 6 foreign nationals), 157 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Saudi Arabia: 2 killed (al-Kharj), 12 injured. Bahrain: 2 killed (1 Asian worker, 1 Bahraini woman), 8+ injured. Oman: 3 killed. Iraq (non-US/French): ~27 killed in US strikes on militia targets + crossfire."
           },
-          "injured": 130
+          "injured": 280,
+          "rumored": {
+            "total": 50,
+            "military": 5,
+            "civilian": 45,
+            "note": "HRW reports majority of Gulf civilian victims are migrant workers \u2014 deaths may be underreported due to foreign national status. Iraq casualties from US strikes on militia targets (27+) not fully tracked. Some Gulf nations restrict casualty reporting. Air defense interception rates (92-95%) prevented much worse toll.",
+            "socialSources": [
+              {
+                "platform": "HRW",
+                "handle": "Human Rights Watch",
+                "claim": "At least 11 civilian deaths and 268 injuries across GCC states. 10 of those killed are foreign nationals. Migrant worker deaths likely underreported.",
+                "url": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians",
+                "date": "2026-03-17"
+              },
+              {
+                "platform": "CNBC",
+                "handle": "CNBC",
+                "claim": "Fujairah oil hub struck 2 consecutive days. Saudi al-Kharj compound hit with casualties. Full picture unclear as some nations restrict reporting.",
+                "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html",
+                "date": "2026-03-16"
+              }
+            ]
+          },
+          "injuredNote": "UAE: 157 injured. Kuwait: 99. Saudi Arabia: 12. Bahrain: 8+. Oman: 4+. HRW documented 268 civilian injuries across GCC states."
         }
       ]
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 17)",
+      "period": "February 28, 2026 - Ongoing (Day 18)",
       "parties": [
         {
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
-            "military": 1444,
+            "military": 0,
             "civilian": 0,
             "total": 1444,
-            "source": "Iranian Health Ministry (as of March 15 \u2014 1,444 confirmed killed)",
+            "source": "Iranian Health Ministry (as of March 15). Does not break down military vs. civilian. Figure has not been updated since Day 16.",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
           },
           "estimated": {
-            "military": 1000,
-            "civilian": 858,
-            "total": 1600,
-            "source": "HRANA (Human Rights Activists News Agency)",
-            "sourceUrl": "https://www.en-hrana.org/",
-            "note": "HRANA estimates 1,858+ killed as of March 15 \u2014 higher than government's 1,444 figure. Includes 180 at Minab girls' school, 4 oil workers. 65 schools and 32 medical facilities damaged. 10,000+ civilian sites damaged. 5,000+ targets struck (CENTCOM confirmed). 101 sailors missing from IRINS Dena. Internet at 4% \u2014 independent verification nearly impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
+            "military": 1126,
+            "civilian": 1351,
+            "total": 3099,
+            "source": "HRANA (Human Rights Activists News Agency) \u2014 March 16 report. 1,351 civilians, 1,126 military, 622 unclassified. Nearly 6,000 attacks recorded nationwide.",
+            "sourceUrl": "https://www.en-hrana.org/statistical-overview-as-the-second-week-of-war-in-iran-concludes-nearly-6000-attacks-recorded-nationwide/",
+            "note": "HRANA documented 3,099 killed by Day 17 \u2014 more than double the government's stale 1,444 figure. By Day 4 alone, HRANA had counted 1,097 civilians killed (including 181 children). 65 schools and 77 healthcare facilities damaged. 42,000+ civilian sites damaged per Iranian government spokesperson. Internet at 4% \u2014 independent verification near-impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
           },
           "rumored": {
             "total": 8000,
             "military": 5000,
             "civilian": 3000,
-            "note": "IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000 wounded (March 15). HRANA documented 1,097 civilian deaths by Day 4 alone \u2014 extrapolation through Day 16 implies far higher toll. 200+ children among dead per WHO. HRANA precedent from 2025 Twelve-Day War: official figure was 610, HRANA later confirmed 1,190 (nearly double). Internet at 4% makes independent verification near-impossible. ~20,000 civilian buildings, 77 healthcare facilities, 65 schools damaged.",
+            "note": "Hengaw (March 17): 5,300 killed \u2014 4,789 military, 511 civilians (120 minors, 160 women) across 178 cities in 25 provinces. IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000 wounded (March 15). IDF spokesperson claims ~1,900 regime members 'eliminated.' HRANA precedent from 2025 Twelve-Day War: official figure was 610, HRANA later confirmed 1,190 (nearly double). Given systematic suppression, 8,000+ is plausible upper range.",
             "socialSources": [
+              {
+                "platform": "Hengaw",
+                "handle": "hengaw.net",
+                "claim": "5th report (March 17): 5,300 killed \u2014 4,789 military, 511 civilians. 120 minors, 160 women among dead. 178 cities across 25 provinces affected.",
+                "url": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-9",
+                "date": "2026-03-17"
+              },
               {
                 "platform": "HRANA",
                 "handle": "en-hrana.org",
-                "claim": "By Day 4 alone: 1,097 civilians killed (including 181 children), 5,402 injured. This was already 3x the government's claimed toll at that point",
+                "claim": "By Day 4 alone: 1,097 civilians killed (including 181 children), 5,402 injured. This was already 3x the government's claimed toll at that point.",
                 "url": "https://www.en-hrana.org/the-fourth-day-of-the-u-s-israel-war-on-iran-strikes-continue-in-western-regions-of-the-country/",
                 "date": "2026-03-03"
               },
               {
-                "platform": "X",
-                "handle": "@IntelCrab",
-                "claim": "Satellite imagery of Bandar Abbas naval base shows 8 destroyed structures \u2014 Iran only confirmed 15 KIA there. Real toll likely 200+",
-                "url": "https://x.com/IntelCrab",
-                "date": "2026-03-07"
+                "platform": "JPost",
+                "handle": "IDF Brig Gen Effie Defrin",
+                "claim": "IDF claims 6,000+ IRGC killed, 15,000 wounded, 70% of Iran's missile launchers destroyed. Plans through Passover (3+ more weeks).",
+                "url": "https://www.jpost.com/israel-news/defense-news/article-890010",
+                "date": "2026-03-15"
               },
               {
-                "platform": "Telegram",
-                "handle": "@IranNewsFarsi",
-                "claim": "Leaked hospital records from Isfahan show 1,200 admitted in 48 hours \u2014 officials claim only 89 casualties in the city",
-                "url": "https://t.me/IranNewsFarsi",
-                "date": "2026-03-07"
-              },
-              {
-                "platform": "X",
-                "handle": "@sentdefender",
-                "claim": "IRINS Dena sinking alone could account for 100+ dead \u2014 only 79 of 180 crew recovered. Iran lists them as 'missing'",
-                "url": "https://x.com/sentdefender",
-                "date": "2026-03-05"
+                "platform": "Alma Center",
+                "handle": "israel-alma.org",
+                "claim": "IDF spokesperson claims approximately 1,900 Iranian regime members 'eliminated' as of Day 18.",
+                "url": "https://israel-alma.org/daily-report-second-iran-war-march-17-2026-1600/",
+                "date": "2026-03-17"
               },
               {
                 "platform": "NPR",
                 "handle": "npr.org",
-                "claim": "Experts say actual death toll 'could be far greater as more details are released' \u2014 Iran's internet blackout prevents verification",
+                "claim": "Experts say actual death toll 'could be far greater as more details are released' \u2014 Iran's internet blackout prevents verification.",
                 "url": "https://www.npr.org/2026/03/14/nx-s1-5746623/iran-war-cost-deaths",
                 "date": "2026-03-14"
-              },
-              {
-                "platform": "JPost",
-                "handle": "IDF Brig Gen Effie Defrin",
-                "claim": "IDF claims 6,000+ IRGC killed, 15,000 wounded, 70% of Iran's missile launchers destroyed, 2,000+ targets hit. Plans through Passover (3+ more weeks).",
-                "url": "https://www.jpost.com/israel-news/defense-news/article-890010",
-                "date": "2026-03-15"
               }
             ]
           },
           "injured": 18551,
-          "injuredNote": "Includes hospital admissions across 14+ provinces. 77 healthcare facilities damaged, straining capacity.",
+          "injuredNote": "18,551 injured per Health Ministry. 77 healthcare facilities damaged, straining capacity. HRANA counted 5,402 injured by Day 4 alone.",
           "missing": 101,
           "missingNote": "101 sailors from IRINS Dena \u2014 only 79 of 180 crew recovered after ship sank in Gulf of Oman.",
           "displaced": 3200000,
-          "displacedNote": "3.2M displaced across Tehran, Isfahan, Shiraz and border regions. UNHCR reports shelter capacity exceeded."
+          "displacedNote": "3.2M displaced across Tehran, Isfahan, Shiraz and border regions per UNHCR. Shelter capacity exceeded.",
+          "arrested": 38,
+          "arrestedNote": "20 arrested in NW Iran for alleged cooperation with Israel. 18 arrested for ties to Iran International (March 16-17)."
         },
         {
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
             "military": 4,
-            "civilian": 11,
-            "total": 15,
-            "source": "IDF / Israeli media (as of March 15).",
-            "sourceUrl": "https://www.timesofisrael.com/liveblog-march-15-2026/"
+            "civilian": 13,
+            "total": 17,
+            "source": "IDF / Alma Center / Israeli media (updated March 17 evening). Includes 2 killed in Ramat Gan IRGC cluster munition retaliation strike.",
+            "sourceUrl": "https://israel-alma.org/daily-report-second-iran-war-march-17-2026-1600/"
           },
           "estimated": {
-            "military": 5,
-            "civilian": 12,
-            "total": 17,
-            "source": "Israeli media estimates",
-            "sourceUrl": "https://www.timesofisrael.com/topic/iran-war/",
-            "note": "15 confirmed killed (Alma Center). 2 killed by cluster munition strike in central Israel (Day 14). 9 killed in Beit Shemesh (Day 2). 3,195 hospitalized per Israel Health Ministry. 11 Iranian cluster missiles penetrated air defenses."
+            "military": 4,
+            "civilian": 15,
+            "total": 19,
+            "source": "Israeli media compilation including Alma Center daily reports",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-march-18-2026/",
+            "note": "17 confirmed killed (Alma Center March 17). Key incidents: 9 killed in Beit Shemesh synagogue (Day 2), 2 killed in Yehud cluster bomb (Day 10), 2 killed in Ramat Gan IRGC retaliation (Day 18), 1 in Tel Aviv (Day 1). 5 additional wounded in Kafr Qasem, Petah Tikva, Bnei Brak from March 17 cluster barrage. 11+ Iranian cluster missiles penetrated air defenses."
           },
           "rumored": {
-            "total": 45,
-            "military": 20,
+            "total": 50,
+            "military": 25,
             "civilian": 25,
-            "note": "Iranian state media claims significantly higher Israeli casualties; some OSINT analysts report additional unreported incidents",
+            "note": "Iranian state media claims significantly higher Israeli casualties \u2014 IRGC claims 40+ killed across 9 missile salvos. OSINT analysts report direct hits on residential areas in southern Tel Aviv not covered by Israeli media. Israel's military censor restricts casualty reporting under wartime regulations.",
             "socialSources": [
               {
                 "platform": "X",
                 "handle": "@AuroraIntel",
-                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media \u2014 possible casualties suppressed by censorship",
+                "claim": "Multiple videos show direct hits on residential areas in southern Tel Aviv not covered by Israeli media \u2014 possible casualties suppressed by military censorship.",
                 "url": "https://x.com/AuroraIntel",
                 "date": "2026-03-08"
               },
               {
                 "platform": "Telegram",
                 "handle": "@IranPressTV",
-                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos \u2014 IDF only confirming 12",
+                "claim": "IRGC claims 40+ Israelis killed across 9 missile salvos \u2014 IDF only confirming 17.",
                 "url": "https://t.me/IranPressTV",
                 "date": "2026-03-07"
+              },
+              {
+                "platform": "Media Line",
+                "handle": "themedialine.org",
+                "claim": "2 killed in Ramat Gan as Iranian cluster missile hits multiple impact sites. Shrapnel rained on several neighborhoods.",
+                "url": "https://themedialine.org/headlines/2-killed-in-ramat-gan-as-iranian-cluster-missile-hits-multiple-impact-sites/",
+                "date": "2026-03-17"
               }
             ]
           },
-          "injured": 3369,
-          "injuredNote": "3,195 hospitalized per Israel Health Ministry (March 15). Includes 50+ wounded in Zarzir missile strike. 11 Iranian cluster missiles penetrated air defenses."
+          "injured": 3535,
+          "injuredNote": "3,530+ injured per Alma Center (March 17). 5 wounded in Kafr Qasem/Petah Tikva/Bnei Brak from March 17 cluster munition barrage. 11+ Iranian cluster missiles penetrated air defenses."
         },
         {
           "name": "United States",
@@ -244,150 +301,143 @@
             "military": 13,
             "civilian": 0,
             "total": 13,
-            "source": "Pentagon / NPR / Al Jazeera",
+            "source": "Pentagon / NPR / Time Magazine. 7 killed by enemy fire + 6 KC-135 crew killed in crash.",
             "sourceUrl": "https://www.npr.org/2026/03/15/nx-s1-5748472/us-military-six-killed-iran-war"
           },
           "estimated": {
             "military": 13,
             "civilian": 0,
             "total": 13,
-            "source": "Pentagon / NPR / Al Jazeera",
-            "sourceUrl": "https://www.npr.org/2026/03/15/nx-s1-5748472/us-military-six-killed-iran-war",
-            "note": "13 confirmed KIA: 7 killed by enemy fire + 6 KC-135 crew killed in crash near Turaibil, Iraq. Pentagon identified all 6 airmen on Mar 15. ~150 wounded. 4th manned US aircraft lost."
+            "source": "Pentagon / CENTCOM",
+            "sourceUrl": "https://time.com/article/2026/03/10/us-service-members-killed-iran-war-casualties/",
+            "note": "13 confirmed KIA: 6 in Kuwait drone strike (Port Shuaiba, March 1) \u2014 Capt. Khork, SFC Tietjens, SFC Amor, Sgt. Coady identified. 1 first-day combat death (March 1). 6 KC-135 crew in Iraq crash (March 12) \u2014 Maj. Klinner identified. ~200 wounded per CENTCOM (March 17). 4th manned US aircraft lost."
           },
           "rumored": {
             "total": 40,
             "military": 40,
             "civilian": 0,
-            "note": "IRGC claims 650+ US killed/wounded in first 2 days (largely debunked by Jerusalem Post). Ali Larijani claims US soldiers were captured \u2014 Pentagon explicitly denied. Iran state TV broadcast alleged captured US troops. Multiple IRGC claims later deleted after being disproven.",
+            "note": "IRGC claims 650+ US killed/wounded in first 2 days (largely debunked by Jerusalem Post). Ali Larijani claimed US soldiers were captured \u2014 Pentagon explicitly denied. Iran state TV broadcast alleged captured US troops. Multiple IRGC claims later deleted after being disproven.",
             "socialSources": [
               {
                 "platform": "IRGC/Tasnim",
                 "handle": "Tasnim News Agency",
-                "claim": "IRGC spokesperson Ali Mohammad Naini claimed 650 US troops killed or wounded in first 2 days, including 160 at US military HQ in Bahrain. Claims largely disproven by Jerusalem Post investigation.",
+                "claim": "IRGC spokesperson claimed 650 US troops killed or wounded in first 2 days, including 160 at US military HQ in Bahrain. Claims largely disproven.",
                 "url": "https://www.jpost.com/middle-east/iran-news/article-888652",
                 "date": "2026-03-02"
               },
               {
-                "platform": "Press TV",
-                "handle": "IRGC Operation True Promise 4",
-                "claim": "Claims missile strikes on 3 US/British oil tankers, shutdown of US naval facilities in Kuwait, 'hundreds of American military casualties.' Multiple claims later deleted.",
-                "url": "https://www.presstv.ir/Detail/2026/03/01/764872/Iran-IRGC-strikes-United-States-Israel-tankers-bases-Kuwait-Bahrain",
-                "date": "2026-03-01"
-              },
-              {
                 "platform": "Al Jazeera",
                 "handle": "Ali Larijani (Iran NSC)",
-                "claim": "Claims Iran captured US soldiers. 'Americans claim they have been killed in action to cover up captures.' Trump administration explicitly denied any captures.",
+                "claim": "Claims Iran captured US soldiers. Pentagon explicitly denied any captures.",
                 "url": "https://www.aljazeera.com/news/2026/3/7/trump-administration-denies-reports-that-iran-captured-us-soldiers",
                 "date": "2026-03-07"
               },
               {
                 "platform": "Telegram",
                 "handle": "@MilitaryWatchMag",
-                "claim": "Sources in Bahrain report 12+ additional US wounded at 5th Fleet HQ not in official Pentagon count",
+                "claim": "Sources in Bahrain report 12+ additional US wounded at 5th Fleet HQ not in official Pentagon count.",
                 "url": "https://t.me/MilitaryWatchMag",
                 "date": "2026-03-07"
               }
             ]
           },
-          "injured": 140,
-          "injuredNote": "108 returned to duty, 8 severely injured. Includes casualties from drone attacks, IED strikes, and KC-135 crash. Updated March 15."
+          "injured": 200,
+          "injuredNote": "~200 wounded per CENTCOM (March 17). 180+ returned to duty, 8 severely injured. Includes casualties from drone attacks, IED strikes, and KC-135 crash."
         },
         {
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 100,
-            "civilian": 111,
-            "total": 886,
-            "source": "Lebanese Health Ministry (March 15 update \u2014 850 killed including 106+ children, 2,009 wounded)",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+            "military": 0,
+            "civilian": 912,
+            "total": 912,
+            "source": "Lebanese Ministry of Public Health (March 17). 912 killed including 67 women, 111 children, 38 health workers.",
+            "sourceUrl": "https://www.middleeastmonitor.com/20260317-lebanons-death-toll-in-israeli-attacks-since-march-2-surpasses-900-health-ministry/"
           },
           "estimated": {
-            "military": 160,
-            "civilian": 740,
-            "total": 900,
-            "source": "Lebanese media and Hezbollah casualty estimates",
-            "sourceUrl": "https://www.middleeastmonitor.com/20260311-death-toll-from-israeli-bombardment-of-lebanon-rises-to-570/",
-            "note": "Includes Hezbollah fighters. 830,000+ displaced. 826 killed confirmed by Lebanese Health Ministry March 14. 12 medics killed in Burj Qalaouiyah health center strike. 1,100+ Israeli strikes in Lebanon since Feb 28. Israel planning ground invasion south of Litani River."
+            "military": 200,
+            "civilian": 900,
+            "total": 1100,
+            "source": "Lebanese media + IDF Hezbollah fighter estimates",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+            "note": "912 confirmed by Health Ministry (March 17). 26 killed + 80 injured in last 24 hours alone. IDF claims 200 Hezbollah fighters killed since March 2. Hezbollah does not officially announce its dead. 1,100+ Israeli strikes since Feb 28. Ground invasion launched March 16 south of Litani River. Rescue teams unable to access some strike sites."
           },
           "rumored": {
-            "total": 1100,
-            "military": 300,
-            "civilian": 800,
-            "note": "Hezbollah fighter casualties are not separately broken out in Lebanese Health Ministry figures. IDF planning major ground invasion south of Litani River \u2014 expected to significantly increase casualties. 1,100+ Israeli strikes on Lebanon since Feb 28. Rescue teams unable to access some strike sites.",
+            "total": 1400,
+            "military": 400,
+            "civilian": 1000,
+            "note": "Hezbollah fighter casualties not separately broken out in Health Ministry figures \u2014 actual Hezbollah dead could be 300-400+. IDF ground invasion (launched March 16) expected to significantly increase casualties. Rescue teams unable to access multiple strike sites in southern Lebanon. Some villages entirely cut off.",
             "socialSources": [
               {
                 "platform": "Al Jazeera",
-                "handle": "Al Jazeera Live Tracker",
-                "claim": "12 medics killed in single Israeli strike on Burj Qalaouiyah health center \u2014 rescue teams unable to reach multiple other sites in southern Lebanon",
-                "url": "https://www.aljazeera.com/news/2026/3/14/israel-kills-12-medics-in-attack-in-southern-lebanon-as-war-drags-on",
-                "date": "2026-03-14"
+                "handle": "Al Jazeera Live",
+                "claim": "26 killed in last 24 hours across Beirut, Nabatieh, Baalbek, Bint Jbeil. 1 million displaced \u2014 20% of Lebanon's population.",
+                "url": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+                "date": "2026-03-17"
               },
               {
-                "platform": "Democracy Now",
-                "handle": "democracynow.org",
-                "claim": "Israel bombs central Beirut and targets civilian infrastructure \u2014 death toll rising as hospitals overwhelmed in southern Lebanon",
-                "url": "https://www.democracynow.org/2026/3/13/headlines/lebanon_death_toll_rises_as_israel_bombs_central_beirut_and_targets_civilian_infrastructure",
-                "date": "2026-03-13"
+                "platform": "CARE",
+                "handle": "care.org",
+                "claim": "One million displaced nationwide. 130,000+ in 600+ collective shelters. Humanitarian access increasingly restricted.",
+                "url": "https://www.care.org/news-and-stories/march-17-2026-in-lebanon-one-million-displaced-nationwide/",
+                "date": "2026-03-17"
+              },
+              {
+                "platform": "Alma Center",
+                "handle": "israel-alma.org",
+                "claim": "IDF claims approximately 200 Hezbollah fighters killed since March 2. Hezbollah deliberately does not announce its dead.",
+                "url": "https://israel-alma.org/hezbollah-fighters-killed-in-recent-fighting-march-2026/",
+                "date": "2026-03-17"
               }
             ]
           },
-          "injured": 2105,
-          "injuredNote": "2,009 wounded per Lebanese Health Ministry (March 14). 15+ healthcare workers killed. IDF ground operations in border areas ongoing.",
+          "injured": 2221,
+          "injuredNote": "2,221 wounded per Lebanese Health Ministry (March 17). 38 health workers killed. 80 injured in last 24 hours. IDF ground operations in border areas ongoing.",
           "displaced": 1000000,
-          "displacedNote": "830,000+ displaced across Lebanon. Israel planning ground invasion south of Litani River."
+          "displacedNote": "1,000,000+ displaced \u2014 ~20% of Lebanon's population. 130,000+ in 600+ collective shelters. Ground invasion launched March 16."
         },
         {
           "name": "Gulf States (UAE, Kuwait, Bahrain, etc.)",
           "flag": "\ud83c\udf10",
           "confirmed": {
-            "military": 0,
-            "civilian": 20,
-            "total": 32,
-            "source": "Gulf state media reports / defense ministry statements",
-            "sourceUrl": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html"
+            "military": 2,
+            "civilian": 31,
+            "total": 33,
+            "source": "HRW + Gulf state government reports (March 17). At least 11 civilian deaths across GCC \u2014 10 of those killed are foreign nationals/migrant workers.",
+            "sourceUrl": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians"
           },
           "estimated": {
-            "military": 0,
+            "military": 2,
             "civilian": 36,
-            "total": 36,
-            "source": "Estimated from missile impact reports across Gulf and Iraq",
-            "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/16/iran-war-live-tehran-rejects-trump-claim-on-talks-gulf-attacks-continue",
-            "note": "Iraq: 20 killed (Baghdad airport rockets wounded 5 more, Mar 15). UAE: 7 killed (Abu Dhabi missile killed Palestinian civilian, Mar 16), 142 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Kuwait: 1 killed. Bahrain: 27 killed (+ 32 wounded), 125 ballistic missiles and 211 drones intercepted since war began. Saudi Arabia: 4 killed (2 at al-Kharj compound, Mar 16), 12 injured. Oman: 3 killed."
+            "total": 38,
+            "source": "Compiled from regional government reports and HRW (March 17)",
+            "sourceUrl": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians",
+            "note": "Kuwait: 11 killed (6 US soldiers + 5 Kuwaiti), 99 injured. UAE: 8 killed (2 military, 6 foreign nationals), 157 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Saudi Arabia: 2 killed (al-Kharj), 12 injured. Bahrain: 2 killed (1 Asian worker, 1 Bahraini woman), 8+ injured. Oman: 3 killed. Iraq (non-US/French): ~27 killed in US strikes on militia targets + crossfire."
           },
           "rumored": {
-            "total": 40,
-            "military": 0,
-            "civilian": 40,
-            "note": "Potential unreported migrant worker deaths in UAE, Bahrain, and Oman not included in official counts. Several confirmed dead were foreign nationals. Air defense interception rates (92-95%) suggest toll could have been far higher if systems failed. Fujairah oil hub struck 2 consecutive days (Mar 15-16).",
+            "total": 50,
+            "military": 5,
+            "civilian": 45,
+            "note": "HRW reports majority of Gulf civilian victims are migrant workers \u2014 deaths may be underreported due to foreign national status. Iraq casualties from US strikes on militia targets (27+) not fully tracked. Some Gulf nations restrict casualty reporting. Air defense interception rates (92-95%) prevented much worse toll.",
             "socialSources": [
               {
-                "platform": "Al Jazeera",
-                "handle": "Al Jazeera",
-                "claim": "Woman killed in Bahrain as other Gulf states intercept Iranian missiles \u2014 multiple foreign nationals among casualties across Gulf",
-                "url": "https://www.aljazeera.com/news/2026/3/10/woman-killed-in-bahrain-as-other-gulf-states-intercept-iranian-missiles",
-                "date": "2026-03-10"
+                "platform": "HRW",
+                "handle": "Human Rights Watch",
+                "claim": "At least 11 civilian deaths and 268 injuries across GCC states. 10 of those killed are foreign nationals. Migrant worker deaths likely underreported.",
+                "url": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians",
+                "date": "2026-03-17"
               },
               {
                 "platform": "CNBC",
                 "handle": "CNBC",
-                "claim": "Iranian projectiles continue to strike Gulf countries' infrastructure \u2014 full casualty picture unclear as some nations restrict reporting",
-                "url": "https://www.cnbc.com/2026/03/08/iranian-projectiles-continue-to-strike-gulf-countries-infrastructure.html",
-                "date": "2026-03-08"
-              },
-              {
-                "platform": "CNBC",
-                "handle": "CNBC",
-                "claim": "Fujairah oil hub struck again for 2nd consecutive day \u2014 Saudi Arabia's al-Kharj compound also hit with casualties",
+                "claim": "Fujairah oil hub struck 2 consecutive days. Saudi al-Kharj compound hit with casualties. Full picture unclear as some nations restrict reporting.",
                 "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html",
                 "date": "2026-03-16"
               }
             ]
           },
-          "injured": 205,
-          "injuredNote": "UAE: 142 injured. Bahrain: 32 wounded. Iraq: 5+ wounded (Baghdad airport rockets, Mar 15). Saudi Arabia: 12 injured (al-Kharj compound, Mar 16). 262 missiles detected over UAE (241 destroyed), ~1,400 drones intercepted."
+          "injured": 280,
+          "injuredNote": "UAE: 157 injured. Kuwait: 99. Saudi Arabia: 12. Bahrain: 8+. Oman: 4+. HRW documented 268 civilian injuries across GCC states."
         },
         {
           "name": "France",
