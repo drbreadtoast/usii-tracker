@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-18T03:13:00Z",
-  "currentAverage": 3.79,
+  "lastUpdated": "2026-03-18T14:29:00Z",
+  "currentAverage": 3.84,
   "preWarAverage": 3.18,
-  "changePercent": 19.2,
+  "changePercent": 20.8,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -139,6 +139,12 @@
       "price": 3.79,
       "label": "Day 18 \u2014 Shah gas field ablaze; oil surges; gas hits $3.79",
       "isEvent": true
+    },
+    {
+      "date": "2026-03-18",
+      "price": 3.84,
+      "label": "Day 19 \u2014 Gas spikes to $3.84; CA $5.53; Fed holds rates; highest since Oct 2023",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -188,12 +194,12 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Mar 15)",
-      "crudePerBarrel": 106,
+      "label": "Current (Mar 18)",
+      "crudePerBarrel": 104,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$106 \u00f7 42 gal",
+          "formula": "$104 \u00f7 42 gal",
           "value": 2.48,
           "percent": 62,
           "change": "+$0.86"
@@ -235,12 +241,12 @@
         }
       ],
       "total": 4.004,
-      "note": "AAA national average at $3.70/gal (March 15). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California at $5.34/gal. Polymarket: 64% odds of $4.50 by end of March.",
+      "note": "Gas at $3.84/gal (March 18). Pump prices lag crude by 1-2 weeks. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel reserve release ongoing. California at $5.53/gal. Fed holds rates at 3.5-3.75%, may forecast zero cuts in 2026.",
       "crude": 2.48,
       "taxes": 0.52,
       "refining": 0.44,
       "distribution": 0.44
     }
   },
-  "context": "AAA national average at $3.72/gallon \u2014 surged from $3.18 pre-war to $3.72 (+16.9%). California highest at $5.36/gal, Hawaii $4.76. Brent crude at $100.21/barrel after Bessent allowed Iranian tankers through Hormuz. Fed meeting March 17-18. Treasury waived Russia oil sanctions for 1 month to ease supply. IEA 400M barrel reserve release ongoing. Pump prices lag crude by 1-2 weeks. Israel kills senior Iranian leader Ali Larijani \u2014 markets watching for retaliation."
+  "context": "Gas spiked to $3.84/gallon (March 18) \u2014 up 20.8% from $3.18 pre-war. Highest since Oct 2023. California at $5.53/gal, Kansas cheapest at $3.15. Brent at $104.17/barrel. Fed holds rates at 3.5-3.75%, may forecast zero cuts in 2026 due to war inflation. IMO emergency meeting on Hormuz safe corridor. IEA 400M barrel reserve release ongoing. Treasury waived Russia oil sanctions for 1 month. Pump prices lag crude by 1-2 weeks \u2014 expect further increases."
 }

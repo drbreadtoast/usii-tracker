@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-18T03:13:00Z",
+    "lastUpdated": "2026-03-18T14:29:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,19 +72,19 @@
       }
     },
     "current": {
-      "date": "2026-03-17",
-      "label": "Active Conflict \u2014 Day 18",
+      "date": "2026-03-18",
+      "label": "Active Conflict \u2014 Day 19",
       "wti": {
-        "price": 96.21,
-        "change": "+27.4%",
-        "changeDollars": "+$20.70"
+        "price": 94.53,
+        "change": "+25.2%",
+        "changeDollars": "+$19.02"
       },
       "brent": {
-        "price": 103.5,
-        "change": "+29.7%",
-        "changeDollars": "+$23.7"
+        "price": 104.17,
+        "change": "+30.5%",
+        "changeDollars": "+$24.37"
       },
-      "changePercent": 29.6
+      "changePercent": 30.5
     },
     "priceHistory": [
       {
@@ -242,6 +242,13 @@
         "brent": 100.21,
         "label": "Day 18 \u2014 Larijani killed; oil holds at $100 post-Bessent; markets watch for Iran retaliation",
         "isEvent": true
+      },
+      {
+        "date": "2026-03-18",
+        "wti": 94.53,
+        "brent": 104.17,
+        "label": "Day 19 \u2014 Brent $104.17; WTI eases to $94.53; IMO emergency meeting on Hormuz; Fed holds rates; hedge funds worst losses since Liberation Day",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -374,7 +381,7 @@
   ],
   "hormuzImpact": {
     "status": "effectively_closed",
-    "blockadeDayCount": 15,
+    "blockadeDayCount": 16,
     "blockadeStartDate": "2026-03-02",
     "barrelsBlockedDaily": 21000000,
     "breakdownBlocked": {
@@ -421,13 +428,13 @@
       }
     ],
     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932",
-    "vesselsDamaged": 18,
-    "description": "Strait of Hormuz effectively closed to tanker traffic (Day 14). 18 vessels damaged, 3 sunk since war began. 300+ ships stranded in Gulf. Treasury Sec. Bessent says US will allow Iranian tankers through Hormuz \u2014 oil drops sharply. Shah gas field struck by Israel. UAE closes airspace. WSJ reports US building multinational escort coalition. Brent falls to $100.21 (-4.3%), WTI to $93.50 (-6.1%). VLCC charter rates at $800K/day."
+    "vesselsDamaged": 21,
+    "description": "Strait of Hormuz effectively closed (Day 16). 21+ vessels damaged, 3 sunk since war began. Only 21 tankers total have transited since war began \u2014 traffic down 97%. 340+ ships stranded. IMO emergency meeting in London to discuss safe maritime corridor. Bulk carriers finding new route through Iranian territorial waters. India attempting to escort 6 vessels through. Brent $104.17, WTI $94.53. VLCC charter rates at $800K/day."
   },
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-17",
+    "lastUpdated": "2026-03-18",
     "note": "National weighted averages. Regional prices vary significantly \u2014 California, Hawaii, and Northeast typically 15-30% above national average.",
     "fuels": [
       {
@@ -438,12 +445,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 3.79,
-          "date": "2026-03-17"
+          "price": 3.84,
+          "date": "2026-03-18"
         },
-        "change": "+$0.61",
-        "changePercent": "+19.2%",
-        "detail": "AAA national average at $3.72/gal (March 17). Up from $3.18 pre-war. Oil at $100.21 after Bessent allowed Iranian tankers. Larijani assassination may push prices back up if Iran retaliates. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.36/gal.",
+        "change": "+$0.66",
+        "changePercent": "+20.8%",
+        "detail": "Gas spiked to $3.84/gal overnight (March 18). Up from $3.18 pre-war \u2014 highest since Oct 2023. Brent at $104.17. Fed holds rates at 3.5-3.75%. California highest at $5.53/gal, Kansas cheapest at $3.15. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -560,15 +567,15 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.72/gallon \u2014 up 16.9% from pre-war $3.18/gal. Diesel at $4.66/gal \u2014 up 22.6%",
-      "detail": "AAA national average at $3.72/gal as of March 17. Diesel at $4.66/gal. Oil at $100.21 after Bessent Hormuz policy. Israel kills Larijani \u2014 markets watching for Iran retaliation. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax. California highest at $5.36/gal.",
+      "fact": "US gasoline prices at $3.84/gallon \u2014 up 20.8% from pre-war $3.18/gal. California at $5.53/gal. Highest since Oct 2023.",
+      "detail": "Gas spiked to $3.84/gal overnight (March 18). California highest at $5.53, Kansas cheapest at $3.15. Brent at $104.17. Fed holds rates at 3.5-3.75%; inflation forecast raised to ~3% through late 2026. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Brent crude at $100.21/barrel (+25.6% from pre-war) and WTI at $93.50 (+23.8%). Oil drops sharply after Bessent says US allowing Iranian tankers through Hormuz.",
-      "detail": "Brent dropped from $104.63 to $100.21 (-4.3%) and WTI plunged from $100.75 to $93.50 (-6.1%) after Treasury Secretary Bessent announced the US would allow Iranian oil tankers through the Strait of Hormuz. WSJ reports US building multinational naval escort coalition. Pentagon exploring diplomatic off-ramps. Both benchmarks remain ~25% above pre-war levels.",
+      "fact": "Brent crude at $104.17/barrel (+30.5% from pre-war) and WTI at $94.53 (+25.2%). Oil rebounds as Iran barrage continues despite Bessent tanker policy.",
+      "detail": "Brent rose to $104.17 (+$0.75) while WTI eased to $94.53 (-$1.24) on March 18. Iran launched fresh attacks on Gulf neighbors. IMO emergency meeting in London on Hormuz safe corridor. Fed holds rates at 3.5-3.75%. Hedge funds worst losses since Liberation Day (JPMorgan). S&P 500 +0.58% to 6,755.",
       "source": "CNBC / IEA",
       "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
     },
@@ -640,13 +647,20 @@
       "sourceUrl": "https://www.wsj.com/world/middle-east/"
     }
   ],
-  "lastUpdated": "2026-03-18T03:13:00Z",
+  "lastUpdated": "2026-03-18T14:29:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
       "brent": 103.5,
       "wti": 96.21,
       "label": "Day 18 PM \u2014 Iran strikes UAE Shah gas field; oil surges 3%+",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-18",
+      "brent": 104.17,
+      "wti": 94.53,
+      "label": "Day 19 \u2014 Brent $104.17; IMO emergency meeting; Fed holds rates; hedge funds worst losses since Liberation Day",
       "isEvent": true
     }
   ]

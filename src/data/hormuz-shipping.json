@@ -1,8 +1,8 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 15,
+  "blockadeDay": 16,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-18T03:13:00Z",
+  "lastUpdated": "2026-03-18T14:29:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -12,7 +12,7 @@
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
-    "vesselsDamaged": 23,
+    "vesselsDamaged": 24,
     "vesselsSunk": 3,
     "insuranceStatus": "withdrawn",
     "naviesPresent": [
@@ -196,6 +196,18 @@
       "event": "Kuwait-flagged tanker Gas Al Ahmadiah struck near Fujairah. Iraq begins talks with Iran to negotiate ship passage. South Korea reports 26 vessels and 183 crew stranded.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-03-18",
+      "event": "Day 19: IMO emergency 2-day meeting in London \u2014 40-member council may vote on safe maritime corridor resolution. Only 21 tankers total have transited Hormuz since war began \u2014 traffic down 97%. Bulk carriers finding new route through Iranian territorial waters. India attempting to escort 6 vessels through.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-18",
+      "event": "Iran launched fresh attacks across Persian Gulf on Gulf neighbors. Some ships spoofing transponders as Chinese-flagged to gain passage. Liberian-flagged bulk carrier broadcast destination as 'CHINA OWNER_ALL CREW' to transit.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -203,8 +215,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "0 bbl/day",
-      "priceImpact": "+25.6% (Brent $100.21, WTI $93.50)",
-      "detail": "20% of global supply cut off. Brent dropped to $100.21 after Bessent allowed Iranian tankers. WTI fell to $93.50. WSJ reports US building multinational escort coalition. 18 ships damaged, 3 sunk. 300+ ships stranded in Gulf, dry bulk trade down 91%. Traffic down 95%+. VLCC charter rates at $800K/day."
+      "priceImpact": "+30.5% (Brent $104.17, WTI $94.53)",
+      "detail": "20% of global supply cut off. Brent at $104.17, WTI at $94.53. Only 21 tankers total have transited since war began \u2014 traffic down 97%. IMO emergency meeting on safe corridor. 24+ ships damaged, 3 sunk. 340+ ships stranded. VLCC charter rates at $800K/day."
     },
     {
       "commodity": "LNG",
@@ -218,7 +230,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+12%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas prices at $3.72/gal (AAA), up 17.0% from pre-war $3.18. California at $5.34/gal. Diesel at $4.66 (+22.6%). Oil at $100.21/barrel after dropping on Bessent Iranian tanker news. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel release ongoing. Gas Prices Relief Act introduced to suspend 18.4c/gal federal gas tax."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas at $3.84/gal (March 18), up 20.8% from pre-war $3.18. California at $5.53/gal. Diesel at $5.04 (+32.7%). Fed holds rates at 3.5-3.75%, may forecast zero cuts in 2026 due to war inflation. Treasury waived Russia oil sanctions for 1 month. IEA 400M barrel release ongoing."
     },
     {
       "commodity": "Petrochemicals",

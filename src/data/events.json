@@ -6987,5 +6987,252 @@
       "infant",
       "humanitarian"
     ]
+  },
+  {
+    "id": "evt-new-179",
+    "title": "Israel Kills Intelligence Minister Esmail Khatib in Tehran",
+    "description": "IDF airstrike killed Iran's Intelligence Minister Esmail Khatib overnight \u2014 the third senior Iranian official eliminated in 48 hours after Larijani and Basij chief Soleimani. Defense Minister Katz announced all senior Iranian officials are now authorized targets.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-18T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/18/nx-s1-5751694/iran-retaliates-israel-kills-two-top-iranian-officials"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/03/18/israel-kills-iran-intelligence-minister-khatib"
+      }
+    ],
+    "casualties": {
+      "dead": 1,
+      "injured": 0
+    },
+    "tags": [
+      "khatib",
+      "assassination",
+      "tehran",
+      "intelligence-minister"
+    ]
+  },
+  {
+    "id": "evt-new-180",
+    "title": "US-Israel Strike South Pars Gas Field \u2014 World's Largest",
+    "description": "Israeli jets struck gas storage tanks at South Pars/Assaluyeh \u2014 the world's largest gas field. Two refineries halted with combined capacity of ~100M cubic meters/day. First upstream energy infrastructure strike of the war. Brent surged 5%. Iran threatened retaliation against Saudi, UAE, Qatar energy sites.",
+    "type": "infrastructure",
+    "lat": 27.4833,
+    "lng": 52.6167,
+    "location": "Assaluyeh, Bushehr Province, Iran",
+    "timestamp": "2026-03-18T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CTV News/AP",
+        "url": "https://www.ctvnews.ca/world/mideast-conflict/article/irans-state-run-media-report-an-attack-on-facilities-at-its-key-south-pars-offshore-gas-field/"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-18-2026/"
+      }
+    ],
+    "tags": [
+      "south-pars",
+      "energy",
+      "assaluyeh",
+      "gas-field",
+      "escalation"
+    ]
+  },
+  {
+    "id": "evt-new-181",
+    "title": "Israeli Strikes on Beirut Kill 20+ \u2014 Bachoura, Basta, Zuqaq al-Blat",
+    "description": "Multiple Israeli airstrikes across Beirut killed 20+. Bachoura building destroyed after 4 AM evacuation order, killing 6. Strikes in Zuqaq al-Blat and Basta killed 6 more with no warning. Dozens wounded across south and east Lebanon.",
+    "type": "strike",
+    "lat": 33.8938,
+    "lng": 35.5097,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-18T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon"
+      }
+    ],
+    "casualties": {
+      "dead": 20,
+      "injured": 30
+    },
+    "tags": [
+      "beirut",
+      "bachoura",
+      "basta",
+      "lebanon",
+      "airstrikes"
+    ]
+  },
+  {
+    "id": "evt-new-182",
+    "title": "Dorud City Strike Kills 7, Injures 56",
+    "description": "Israeli/US strike on densely populated area of Dorud in western Iran killed 7 and injured 56. Separate strike in Chegeni region killed 4 more.",
+    "type": "strike",
+    "lat": 33.4922,
+    "lng": 49.0572,
+    "location": "Dorud, Lorestan Province, Iran",
+    "timestamp": "2026-03-18T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/18/iran-launches-revenge-missile-attack-on-israel-after-assassinations"
+      }
+    ],
+    "casualties": {
+      "dead": 11,
+      "injured": 56
+    },
+    "tags": [
+      "dorud",
+      "lorestan",
+      "civilians"
+    ]
+  },
+  {
+    "id": "evt-new-183",
+    "title": "US Drops 5,000-lb Bunker Busters on Hormuz Missile Sites",
+    "description": "US CENTCOM used 2,270 kg deep penetrator munitions against hardened Iranian antiship missile sites along Iran's coastline near Strait of Hormuz. Analysts describe it as opening of multi-week campaign to reopen the waterway.",
+    "type": "strike",
+    "lat": 26.5,
+    "lng": 56.3,
+    "location": "Iranian coastline, Strait of Hormuz",
+    "timestamp": "2026-03-18T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-bunker-busters-israel-beirut-lebanon-hezbollah-rcna264012"
+      }
+    ],
+    "tags": [
+      "hormuz",
+      "bunker-buster",
+      "centcom",
+      "naval"
+    ]
+  },
+  {
+    "id": "evt-new-184",
+    "title": "Iran Threatens Gulf Energy Infrastructure Retaliation",
+    "description": "After South Pars strike, Iran via Tasnim named specific Gulf energy targets as 'legitimate targets': Saudi Samref Refinery, Jubail Petrochemical Complex, UAE Al Hasan Gas Field, Qatar facilities. Gulf states intercepted new Iranian missiles/drones.",
+    "type": "diplomatic",
+    "lat": 26.0,
+    "lng": 50.5,
+    "location": "Persian Gulf Region",
+    "timestamp": "2026-03-18T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-18-2026/"
+      }
+    ],
+    "tags": [
+      "gulf",
+      "energy",
+      "threats",
+      "saudi",
+      "uae",
+      "qatar"
+    ]
+  },
+  {
+    "id": "evt-new-185",
+    "title": "IDF Evacuates Tyre, Strikes Follow",
+    "description": "IDF issued mass evacuation order for Tyre and surrounding villages/refugee camps. Strikes followed in Tyre and Burj Shemali. ~11,000 displaced people had been sheltering there. Amnesty International condemned the 'overly broad' orders.",
+    "type": "strike",
+    "lat": 33.2705,
+    "lng": 35.2038,
+    "location": "Tyre, Lebanon",
+    "timestamp": "2026-03-18T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Amnesty International",
+        "url": "https://www.amnesty.org/en/latest/news/2026/03/lebanon-israeli-militarys-overly-broad-mass-evacuation-orders-sowing-panic-and-fuelling-humanitarian-suffering/"
+      }
+    ],
+    "tags": [
+      "tyre",
+      "evacuation",
+      "lebanon",
+      "humanitarian"
+    ]
+  },
+  {
+    "id": "evt-new-186",
+    "title": "Larestan Judiciary Facility Struck",
+    "description": "Strike on a judiciary facility in Larestan, southern Iran, killing and injuring civilians and judicial staff.",
+    "type": "strike",
+    "lat": 27.6736,
+    "lng": 54.3494,
+    "location": "Larestan, Fars Province, Iran",
+    "timestamp": "2026-03-18T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Fox 5 NY",
+        "url": "https://www.fox5ny.com/news/iran-war-live-updates-march-18-2026"
+      }
+    ],
+    "tags": [
+      "larestan",
+      "judiciary",
+      "iran"
+    ]
+  },
+  {
+    "id": "evt-new-187",
+    "title": "IMO Emergency Session on Hormuz Safe Corridor",
+    "description": "International Maritime Organisation opened emergency session. 40-member council may vote on resolution to establish safe maritime corridor for evacuating stranded seafarers and ships from Persian Gulf.",
+    "type": "diplomatic",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "location": "London, UK",
+    "timestamp": "2026-03-18T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/18/un-maritime-body-starts-talks-on-middle-east-shipping-with-hormuz-strait-effectively-close"
+      }
+    ],
+    "tags": [
+      "imo",
+      "hormuz",
+      "shipping",
+      "diplomacy"
+    ]
   }
 ]

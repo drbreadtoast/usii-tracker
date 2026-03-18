@@ -35,9 +35,9 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-18T03:13:00Z",
+    "lastUpdated": "2026-03-18T14:29:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 18,
+    "daysOfConflict": 19,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -45,11 +45,11 @@
       "name": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
-        "total": 22000000000,
+        "total": 23100000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 5800000000,
+            "amount": 6900000000,
             "description": "Tomahawk cruise missiles (400+ used), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $50B supplemental requested for replenishment.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
@@ -79,12 +79,12 @@
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$22.0B",
-        "source": "DoD Comptroller / CRS estimates. Note: White House adviser Kevin Hassett cited $12B figure on CBS (March 15).",
+        "totalFormatted": "$23.1B",
+        "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. 250+ groups oppose additional funding. $50B+ supplemental being drafted.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
       "indirectCosts": {
-        "total": 37050000000,
+        "total": 37550000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
@@ -94,8 +94,8 @@
             "sourceUrl": "https://www.cbo.gov/topics/defense-and-national-security"
           },
           "oilPriceImpact": {
-            "amount": 16500000000,
-            "description": "Cost to US economy from Brent at $105.66/bbl (+32.4% from pre-war $79.8). Gas at $3.70/gal national avg (+$0.52 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 2026 lows, down 3.1% YTD.",
+            "amount": 17000000000,
+            "description": "Cost to US economy from Brent at $104.17/bbl (+30.5% from pre-war $79.8). Gas at $3.84/gal national avg (+$0.66 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 rallied to 6,755 (+0.58%) ahead of Fed decision.",
             "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
             "sourceUrl": "https://www.eia.gov/outlooks/steo/"
           },
@@ -115,8 +115,8 @@
       },
       "dailyBurnRate": 1100000000,
       "dailyBurnRateNote": "Trump adviser confirmed $12B direct US cost so far. CSIS estimates $891M-$1.43B/day (shown as ~$1.1B midpoint). Pentagon told Senate first 6 days cost $11.3B ($1.88B/day) + $1B/day ongoing. CSIS update: $16.5B through Day 12. European Business Magazine projects $259B over 6 months.",
-      "totalEstimate": "$19-22 billion",
-      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Penn Wharton projects $40B-$95B direct costs, up to $210B total economic impact. Pentagon requesting $50B supplemental. Brown University: $31.35B-$33.77B total US spending connected to broader conflict since Oct 7 2023."
+      "totalEstimate": "$20-24 billion",
+      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Daily costs $890M-$2B. 250+ groups oppose additional funding. Pentagon $50B+ supplemental being drafted. Hassett confirmed $12B figure but Coons says actual figure higher. Penn Wharton projects $40B-$95B direct costs, up to $210B total economic impact."
     },
     "israel": {
       "name": "Israel",
@@ -460,9 +460,9 @@
     },
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
-    "daysDeployed": 18,
-    "totalNavalCost": 450000000,
-    "totalNavalCostNote": "Total naval deployment cost for 18 days of active conflict operations ($25M/day \u00d7 18 days)",
+    "daysDeployed": 19,
+    "totalNavalCost": 475000000,
+    "totalNavalCostNote": "Total naval deployment cost for 19 days of active conflict operations ($25M/day \u00d7 19 days)",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -530,12 +530,12 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 78.5,
-      "currentPrice": 100.21,
+      "currentPrice": 104.17,
       "peakPrice": 119.5,
-      "wtiPrice": 93.5,
-      "usGasPricePerGallon": 3.72,
+      "wtiPrice": 94.53,
+      "usGasPricePerGallon": 3.84,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 25.6,
+      "percentageIncrease": 30.5,
       "estimatedGlobalCost": 850000000000,
       "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
       "hormuzFlowDisruption": {
@@ -569,11 +569,11 @@
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
-    "stockMarketImpact": "S&P 500 at 6,632 \u2014 2026 closing low, down 3.1% YTD. Third straight losing week for S&P, Nasdaq, and Dow. $3.5T wiped from global markets in first week. GDP Q4 2025 revised down to 0.7%. Consumer sentiment at 55.5 (lowest of 2026). 56% of Americans oppose the war.",
-    "oilPriceImpact": "Brent $100.21/bbl (+25.6% from pre-war). WTI $93.50 (+23.8%). Oil dropped sharply after Bessent allowed Iranian tankers through Hormuz. IEA 400M barrel + US 172M SPR release continuing. Larijani killing may push prices back up. Gold above $5,000/oz.",
-    "gasPrice": 3.79,
-    "brentCrude": 103.5,
-    "wtiCrude": 96.21
+    "stockMarketImpact": "S&P 500 rallied to 6,755 (+0.58%) March 18. Nasdaq +0.65%, Dow +240pts. Fed holds rates at 3.5-3.75% (99% expected). Hedge funds worst losses since Liberation Day (JPMorgan). Fed may forecast zero rate cuts in 2026 due to war-driven inflation at ~3%. $3.5T wiped from global markets in first weeks. 56% of Americans oppose the war.",
+    "oilPriceImpact": "Brent $104.17/bbl (+30.5% from pre-war). WTI $94.53 (+25.2%). Oil rebounds as Iran launches fresh attacks on Gulf neighbors. IMO emergency meeting on Hormuz safe corridor. IEA 400M barrel + US 172M SPR release continuing. Only 21 tankers transited Hormuz since war began. Gold above $5,000/oz.",
+    "gasPrice": 3.84,
+    "brentCrude": 104.17,
+    "wtiCrude": 94.53
   },
   "keyFacts": [
     {
@@ -730,16 +730,26 @@
       "text": "Bank of America warns markets 'underpricing risk,' conflict extending to Q2 'equally likely.' Raised Brent forecast to potential $130/bbl if disruptions persist into late 2026.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-16/markets-may-be-underpricing-iran-risks-bank-of-america-warns"
+    },
+    {
+      "text": "Pentagon told senators first 6 days cost $11.3B. 250+ groups (ACLU, Public Citizen) oppose additional war funding. $50B+ supplemental being drafted. Jeffries won't commit to blocking funding. Daily costs $890M-$2B.",
+      "source": "NBC News / ACLU",
+      "sourceUrl": "https://www.nbcnews.com/politics/congress/first-6-days-iran-war-cost-11-billion-pentagon-tells-senators-rcna263060"
+    },
+    {
+      "text": "Hedge funds suffering worst drawdowns since Liberation Day amid Iran war fallout (JPMorgan). Fed holds rates at 3.5-3.75%; inflation forecast raised to ~3% through late 2026. Fed may cut rate-cut forecast from 1 to zero.",
+      "source": "CNBC / Chicago Tribune",
+      "sourceUrl": "https://www.cnbc.com/2026/03/18/hedge-funds-suffer-worst-losses-since-liberation-day-on-iran-war-turmoil.html"
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 32700000000,
-    "allCountriesIndirectCosts": 108940000000,
-    "combinedTotalCosts": 141640000000,
+    "allCountriesDirectMilitary": 33800000000,
+    "allCountriesIndirectCosts": 109440000000,
+    "combinedTotalCosts": 143240000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military ($32.7B) + indirect economic costs ($108.9B) for all three belligerents through Day 18.",
-    "lastCalculated": "2026-03-17T13:19:00Z"
+    "description": "Combined direct military ($33.8B) + indirect economic costs ($109.4B) for all three belligerents through Day 19.",
+    "lastCalculated": "2026-03-18T14:29:00Z"
   },
-  "daysOfConflict": 18,
-  "lastUpdated": "2026-03-18T03:13:00Z"
+  "daysOfConflict": 19,
+  "lastUpdated": "2026-03-18T14:29:00Z"
 }

@@ -15,7 +15,7 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-18T03:13:00Z",
+    "lastUpdated": "2026-03-18T14:29:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
     "totalStatements": 160,
     "dateRange": {
@@ -389,13 +389,24 @@
         {
           "id": "trump-026",
           "date": "2026-03-17",
-          "text": "No, I'm not afraid of — I'm really not afraid of anything.",
+          "text": "No, I'm not afraid of \u2014 I'm really not afraid of anything.",
           "context": "When asked if boots on the ground in Iran could become another Vietnam, Trump said he was not afraid. He later added the war would end 'in the very near future' but he wasn't ready to leave yet.",
           "venue": "White House press availability",
           "factCheck": "verified",
           "factCheckNote": "Confirmed by multiple reporters present. First direct signal Trump is open to ground troops in Iran.",
           "source": "Iran International",
           "sourceUrl": "https://www.iranintl.com/en/202603179787"
+        },
+        {
+          "id": "trump-027",
+          "date": "2026-03-18",
+          "text": "We don't know if he's dead or not. A lot of people are saying he's badly disfigured. Nobody's saying he's 100 percent healthy.",
+          "context": "On Mojtaba Khamenei's status",
+          "venue": "Press remarks",
+          "factCheck": "unverified",
+          "factCheckNote": "No evidence presented for claims about Mojtaba",
+          "source": "The Hill",
+          "sourceUrl": "https://thehill.com/homenews/administration/5782579-trump-iran-supreme-leader/"
         }
       ]
     },
@@ -1408,6 +1419,17 @@
           "factCheckNote": "AIS data confirms selective passage being granted to Turkish, Indian, and Saudi vessels",
           "source": "Al Jazeera",
           "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran"
+        },
+        {
+          "id": "mojtaba_khamenei-002",
+          "date": "2026-03-17",
+          "text": "Not the right time for peace. Negotiations can only begin once the United States and Israel are defeated and agree to pay compensation.",
+          "context": "Rejected ceasefire proposals from two intermediary countries",
+          "venue": "Private communication via intermediaries",
+          "factCheck": "verified",
+          "factCheckNote": "Confirmed by multiple outlets",
+          "source": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/news/world/not-right-time-for-peace-mojtaba-khamenei-vows-to-bring-us-israel-to-knees-as-conflict-rages-2026-03-17-1034082"
         }
       ]
     },
@@ -1574,6 +1596,28 @@
           "factCheckNote": "Multiple sources including Axios confirm contact did occur; Araghchi's denial appears strategic",
           "source": "Jerusalem Post",
           "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-890175"
+        },
+        {
+          "id": "araghchi-007",
+          "date": "2026-03-18",
+          "text": "The Islamic Republic has a strong political structure. The presence or absence of a single individual does not affect this structure.",
+          "context": "On Larijani killing",
+          "venue": "Al Jazeera interview",
+          "factCheck": "verified",
+          "factCheckNote": "Direct quote",
+          "source": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/killing-of-larijani-will-not-destabilise-iranian-political-system-minister"
+        },
+        {
+          "id": "araghchi-008",
+          "date": "2026-03-18",
+          "text": "This war is not our war. We did not start it. The United States started it and is responsible for all consequences.",
+          "context": "Talk to Al Jazeera interview",
+          "venue": "Al Jazeera",
+          "factCheck": "misleading",
+          "factCheckNote": "Iran's Hormuz blockade preceded US strikes",
+          "source": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/3/18/this-is-americas-war-irans-foreign-minister-araghchi"
         }
       ]
     },

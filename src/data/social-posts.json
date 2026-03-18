@@ -1,85 +1,5 @@
 [
   {
-    "id": "social-084",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "sourceCategory": "osint_analyst",
-    "text": "Senior IRGC Quds Force commander Brig. Gen. Hossein al-Askari killed in drone strike on Baghdad's Green Zone. Was coordinating militia operations across Iraq \u2014 a major escalation of targeted killings.",
-    "timestamp": "2026-03-17T02:15:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Multiple Iraqi sources and IRGC media confirm",
-    "keywords": [
-      "irgc",
-      "al-askari",
-      "baghdad",
-      "green-zone"
-    ]
-  },
-  {
-    "id": "social-085",
-    "handle": "@Reuters",
-    "displayName": "Reuters",
-    "sourceCategory": "lead_source",
-    "text": "Oil dropped sharply \u2014 Brent fell 4.3% to $100.21 and WTI dropped 6.1% to $93.50 after Treasury Secretary Bessent said the US will allow Iranian tankers through the Strait of Hormuz. WSJ reports the US is building a multinational naval escort coalition.",
-    "timestamp": "2026-03-17T01:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Reuters market data confirmed",
-    "keywords": [
-      "oil",
-      "bessent",
-      "hormuz",
-      "tankers"
-    ]
-  },
-  {
-    "id": "social-086",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "sourceCategory": "osint_analyst",
-    "text": "Iran has sent at least 11.7 million barrels of crude through the Strait of Hormuz to China since the war began. Shadow fleet vessels continue operating despite the blockade that has halted all Western commercial shipping.",
-    "timestamp": "2026-03-17T08:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "TankerTrackers.com satellite tracking data",
-    "keywords": [
-      "hormuz",
-      "china",
-      "shadow-fleet",
-      "oil"
-    ]
-  },
-  {
-    "id": "social-088",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "sourceCategory": "osint_analyst",
-    "text": "IDF announced it killed Basij commander Gholamreza Soleimani, his deputy, and IRGC Aerospace Force chief in overnight strikes. Described as the biggest leadership decapitation night of the war so far.",
-    "timestamp": "2026-03-17T06:00:00Z",
-    "verificationStatus": "likely",
-    "verificationNote": "Based on IDF announcement; awaiting Iran confirmation",
-    "keywords": [
-      "basij",
-      "soleimani",
-      "irgc",
-      "leadership"
-    ]
-  },
-  {
-    "id": "social-089",
-    "handle": "@ABORDEAUX",
-    "displayName": "Aurora Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "UAE defense ministry reported 304 ballistic missiles, 15 cruise missiles, and 1,627 UAVs intercepted since the conflict began \u2014 a staggering number of Iranian projectiles aimed at Gulf states.",
-    "timestamp": "2026-03-17T10:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UAE Ministry of Defense statement",
-    "keywords": [
-      "uae",
-      "interceptions",
-      "missiles",
-      "drones"
-    ]
-  },
-  {
     "id": "social-090",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
@@ -282,7 +202,7 @@
     "handle": "@TankerTrackers",
     "displayName": "TankerTrackers.com",
     "sourceCategory": "osint_analyst",
-    "text": "Tanker hit by projectile near UAE — first attack on Hormuz shipping in 5 days. At least 17 vessels struck since war began. Brent crude settled at $103.42/barrel, up 3.2% and now 42% higher since conflict started.",
+    "text": "Tanker hit by projectile near UAE \u2014 first attack on Hormuz shipping in 5 days. At least 17 vessels struck since war began. Brent crude settled at $103.42/barrel, up 3.2% and now 42% higher since conflict started.",
     "timestamp": "2026-03-18T01:30:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "Alma Research Center daily report and oil market data confirmed",
@@ -316,7 +236,7 @@
     "handle": "@Conflicts",
     "displayName": "Conflicts Intel",
     "sourceCategory": "osint_analyst",
-    "text": "AI-generated war misinformation reaching unprecedented levels — state actors flooding social media with fake videos of explosions, destroyed cities, and downed carriers. ABC News identifies both Iranian and Russian influence operations behind coordinated disinfo campaigns.",
+    "text": "AI-generated war misinformation reaching unprecedented levels \u2014 state actors flooding social media with fake videos of explosions, destroyed cities, and downed carriers. ABC News identifies both Iranian and Russian influence operations behind coordinated disinfo campaigns.",
     "timestamp": "2026-03-18T03:00:00Z",
     "verificationStatus": "confirmed",
     "verificationNote": "ABC News, Rolling Stone, and Poynter fact-check reporting confirmed state-backed disinfo campaigns",
@@ -326,6 +246,111 @@
       "propaganda",
       "russia",
       "iran"
+    ]
+  },
+  {
+    "id": "social-105",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Israel kills Iran intelligence minister Esmail Khatib in overnight Tehran airstrike \u2014 third senior official eliminated in 48 hours. Defense Minister Katz announces all Iranian officials now authorized targets.",
+    "timestamp": "2026-03-18T08:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NPR, Axios confirmed",
+    "keywords": [
+      "khatib",
+      "assassination",
+      "tehran"
+    ]
+  },
+  {
+    "id": "social-106",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Iran fires cluster munitions at central Israel for first time \u2014 Khorramshahr-4 and Qadr missiles hit Ramat Gan killing elderly couple. IRGC explicitly frames as revenge for Larijani assassination.",
+    "timestamp": "2026-03-18T09:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz, Times of Israel confirmed",
+    "keywords": [
+      "cluster-munitions",
+      "ramat-gan",
+      "retaliation"
+    ]
+  },
+  {
+    "id": "social-107",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "South Pars gas field struck by Israeli jets \u2014 two refineries halted (100M cubic meters/day). First upstream energy strike of the war. Brent spikes. Iran threatens retaliation against Saudi, UAE, Qatar energy sites.",
+    "timestamp": "2026-03-18T10:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg, CTV confirmed",
+    "keywords": [
+      "south-pars",
+      "energy",
+      "oil-prices"
+    ]
+  },
+  {
+    "id": "social-108",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Turkey FM Fidan heading to Riyadh for multilateral meeting. 10+ countries attending including Pakistan, Egypt, UAE, Qatar. Aim: diplomatic pathway to end Iran war.",
+    "timestamp": "2026-03-18T11:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Daily Sabah confirmed",
+    "keywords": [
+      "turkey",
+      "diplomacy",
+      "riyadh"
+    ]
+  },
+  {
+    "id": "social-109",
+    "handle": "@Conflicts",
+    "displayName": "Conflicts Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Chaharshanbe Suri aftermath: footage shows bonfires across Tehran despite regime crackdown threats. PMOI claims 15 resistance operations. Reza Pahlavi says ready to return. Internet still blacked out.",
+    "timestamp": "2026-03-18T12:00:00Z",
+    "verificationStatus": "likely",
+    "verificationNote": "Internet blackout limits verification",
+    "keywords": [
+      "chaharshanbe-suri",
+      "protests",
+      "iran"
+    ]
+  },
+  {
+    "id": "social-110",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Mojtaba Khamenei rejects ceasefire proposals from two intermediary countries. Says 'not the right time for peace.' Still no public appearance since appointment \u2014 health status unknown.",
+    "timestamp": "2026-03-18T13:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "India TV News confirmed",
+    "keywords": [
+      "mojtaba",
+      "ceasefire",
+      "rejected"
+    ]
+  },
+  {
+    "id": "social-111",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "US CENTCOM deploys 5,000-lb bunker busters against hardened Iranian antiship missile sites along Hormuz. Analysts call it opening salvo of multi-week campaign to reopen strait.",
+    "timestamp": "2026-03-18T13:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NBC News confirmed",
+    "keywords": [
+      "hormuz",
+      "bunker-busters",
+      "centcom"
     ]
   }
 ]

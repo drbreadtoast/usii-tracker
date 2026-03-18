@@ -1415,8 +1415,82 @@
           "url": "https://edition.cnn.com/2026/03/17/politics/fact-check-trump-iran-war"
         }
       ]
+    },
+    {
+      "id": "fc-056",
+      "claim": "Netanyahu is dead and all proof-of-life videos are AI deepfakes",
+      "summary": "Netanyahu has posted 3+ daily videos including a caf\u00e9 visit verified by location. Met Ambassador Huckabee on camera March 17. CBC News and Snopes confirmed videos authentic.",
+      "origin": "Social media speculation fueled by Grok AI chatbot contradicting itself on video authenticity",
+      "viralPlatforms": [
+        "X",
+        "Telegram",
+        "TikTok"
+      ],
+      "verdict": "debunked",
+      "category": "disinformation",
+      "dateAdded": "2026-03-18T14:29:00Z",
+      "lastChecked": "2026-03-18T14:29:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/03/18/netanyahu-denies-death-rumours-in-social-media-clip-which-grok-falsely-branded-ai"
+        },
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/world/netanyahu-video-proof-of-life-iran-israel-9.7132558"
+        }
+      ]
+    },
+    {
+      "id": "fc-057",
+      "claim": "Grok AI chatbot can reliably identify real vs fake Iran war footage",
+      "summary": "Atlantic Council DFRLab found Grok contradicted itself minute-to-minute, sometimes calling the same image both real and AI-generated. Researchers warn against using Grok for verification.",
+      "origin": "Users relying on Grok for war footage verification on X",
+      "viralPlatforms": [
+        "X"
+      ],
+      "verdict": "debunked",
+      "category": "ai-misinformation",
+      "dateAdded": "2026-03-18T14:29:00Z",
+      "lastChecked": "2026-03-18T14:29:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/03/11/politics/fake-ai-images-videos-iran-war"
+        },
+        {
+          "name": "Rolling Stone",
+          "url": "https://www.rollingstone.com/culture/culture-features/ai-misinformation-propaganda-iran-war-1235526150/"
+        }
+      ]
+    },
+    {
+      "id": "fc-058",
+      "claim": "White House shared authentic war footage on X",
+      "summary": "White House official X account merged real Iran strike clips with Call of Duty video game footage on March 4. First known case of a government using game footage in official war communications.",
+      "origin": "White House official X account",
+      "viralPlatforms": [
+        "X"
+      ],
+      "verdict": "misleading",
+      "category": "government-communications",
+      "dateAdded": "2026-03-18T14:29:00Z",
+      "lastChecked": "2026-03-18T14:29:00Z",
+      "trending": false,
+      "sources": [
+        {
+          "name": "PolitiFact",
+          "url": "https://www.politifact.com/article/2026/mar/12/identifying-fake-war-imagery-us-israel-iran/"
+        },
+        {
+          "name": "Poynter",
+          "url": "https://www.poynter.org/fact-checking/2026/fake-videos-strikes-iran/"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-03-17T21:52:00Z",
-  "totalClaims": 55
+  "lastUpdated": "2026-03-18T14:29:00Z",
+  "totalClaims": 58
 }

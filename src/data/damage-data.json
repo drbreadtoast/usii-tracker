@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-18T03:13:00Z",
+    "lastUpdated": "2026-03-18T14:29:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 115,
-    "confirmed": 106,
+    "totalSites": 119,
+    "confirmed": 109,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
@@ -1953,6 +1953,58 @@
       "description": "Israeli strikes on Kafaat and Haret Hreik areas. 6 killed, 24 injured.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced"
+    },
+    {
+      "id": "dmg-120",
+      "name": "South Pars Gas Field (Assaluyeh)",
+      "country": "Iran",
+      "lat": 27.4833,
+      "lng": 52.6167,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-18",
+      "description": "Gas storage tanks struck, two refineries halted (~100M cubic meters/day). World's largest gas field.",
+      "source": "CTV News/AP",
+      "sourceUrl": "https://www.ctvnews.ca/world/mideast-conflict/article/irans-state-run-media-report-an-attack-on-facilities-at-its-key-south-pars-offshore-gas-field/"
+    },
+    {
+      "id": "dmg-121",
+      "name": "Beirut Bachoura Building",
+      "country": "Lebanon",
+      "lat": 33.8938,
+      "lng": 35.5097,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-03-18",
+      "description": "Building destroyed after evacuation order. 4th time struck. 6 killed.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon"
+    },
+    {
+      "id": "dmg-122",
+      "name": "Dorud Residential Area",
+      "country": "Iran",
+      "lat": 33.4922,
+      "lng": 49.0572,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-03-18",
+      "description": "Densely populated area struck. 7 killed, 56 injured.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/iran-launches-revenge-missile-attack-on-israel-after-assassinations"
+    },
+    {
+      "id": "dmg-123",
+      "name": "Larestan Judiciary Facility",
+      "country": "Iran",
+      "lat": 27.6736,
+      "lng": 54.3494,
+      "category": "government",
+      "status": "likely",
+      "date": "2026-03-18",
+      "description": "Judiciary facility struck, civilians and judicial staff killed/injured.",
+      "source": "Fox 5 NY",
+      "sourceUrl": "https://www.fox5ny.com/news/iran-war-live-updates-march-18-2026"
     }
   ]
 }
