@@ -21,31 +21,33 @@ export default function WorldClocks() {
   }, [])
 
   return (
-    <div className="flex items-center gap-3 px-3 py-1.5 bg-gray-900/50 border-b border-gray-800/50 overflow-x-auto scrollbar-hide">
-      <Clock size={12} className="text-gray-600 shrink-0" />
-      {TIMEZONES.map(({ label, abbr, tz, flag }) => (
-        <div key={label} className="flex items-center gap-1.5 text-xs shrink-0">
-          <span>{flag}</span>
-          <span className="text-gray-500">{label}</span>
-          <span className="font-mono text-gray-300">
-            {time.toLocaleTimeString('en-US', {
-              hour: '2-digit',
-              minute: '2-digit',
-              hour12: false,
-              timeZone: tz,
-            })}
-          </span>
-          <span className="text-gray-600 text-[10px]">{abbr}</span>
-        </div>
-      ))}
+    <div className="flex items-center bg-gray-900/50 border-b border-gray-800/50">
+      <div className="flex items-center gap-3 px-3 py-1.5 overflow-x-auto scrollbar-hide flex-1 min-w-0">
+        <Clock size={12} className="text-gray-600 shrink-0" />
+        {TIMEZONES.map(({ label, abbr, tz, flag }) => (
+          <div key={label} className="flex items-center gap-1.5 text-xs shrink-0">
+            <span>{flag}</span>
+            <span className="text-gray-500">{label}</span>
+            <span className="font-mono text-gray-300">
+              {time.toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false,
+                timeZone: tz,
+              })}
+            </span>
+            <span className="text-gray-600 text-[10px]">{abbr}</span>
+          </div>
+        ))}
+      </div>
       <a
         href={siteMetadata.donationUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0 ml-auto"
+        className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0 mr-3"
       >
         <Heart size={10} />
-        Buy Me a Coffee
+        <span className="hidden sm:inline">Buy Me a</span> Coffee
       </a>
     </div>
   )
