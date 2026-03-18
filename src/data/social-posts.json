@@ -1,21 +1,5 @@
 [
   {
-    "id": "social-090",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "US and Israel have discussed sending special forces into Iran to secure its stockpile of highly enriched uranium at a later stage of the war, according to Axios sources familiar with the discussions.",
-    "timestamp": "2026-03-17T19:00:00Z",
-    "verificationStatus": "likely",
-    "verificationNote": "Axios citing sources familiar with discussions",
-    "keywords": [
-      "special-forces",
-      "uranium",
-      "enrichment",
-      "escalation"
-    ]
-  },
-  {
     "id": "social-091",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
@@ -29,121 +13,6 @@
       "g7",
       "war-objectives",
       "france"
-    ]
-  },
-  {
-    "id": "social-092",
-    "handle": "@AlmaCenter",
-    "displayName": "Alma Research Center",
-    "sourceCategory": "lead_source",
-    "text": "Day 18 daily report: IDF moved 36th Division deeper into southern Lebanon while cluster munitions hit central Israel. 37 Hezbollah attack waves identified on March 16. IDF expanding buffer zone toward Tyre.",
-    "timestamp": "2026-03-17T16:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Alma Center daily situation report",
-    "keywords": [
-      "lebanon",
-      "36th-division",
-      "cluster-munitions",
-      "tyre"
-    ]
-  },
-  {
-    "id": "social-093",
-    "handle": "@SoufanCenter",
-    "displayName": "Soufan Center",
-    "sourceCategory": "lead_source",
-    "text": "Iran-linked cyber proxies have become highly active since the war began. MOIS-linked 'Stryker' cyberattack demonstrates Iran retains high-end offensive cyber capability despite kinetic degradation of military targets.",
-    "timestamp": "2026-03-17T15:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Soufan Center IntelBrief assessment",
-    "keywords": [
-      "cyber",
-      "mois",
-      "stryker",
-      "iran-proxies"
-    ]
-  },
-  {
-    "id": "social-094",
-    "handle": "@HIKIKOMORI_MEDIA",
-    "displayName": "HRANA",
-    "sourceCategory": "lead_source",
-    "text": "Updated Iran civilian casualty count to 1,351 civilians killed including 207 children, plus 1,126 military personnel and 622 unclassified deaths. Most detailed independent casualty tracking available.",
-    "timestamp": "2026-03-17T20:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "HRANA verified casualty database",
-    "keywords": [
-      "casualties",
-      "civilians",
-      "iran",
-      "children"
-    ]
-  },
-  {
-    "id": "social-095",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "sourceCategory": "osint_analyst",
-    "text": "Joe Kent resignation is huge \u2014 first senior Trump official to quit over the war. His claim that Iran posed 'no imminent threat' directly contradicts the Article II legal justification. Expect Congressional subpoena.",
-    "timestamp": "2026-03-17T18:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Analysis of confirmed resignation",
-    "keywords": [
-      "joe-kent",
-      "resignation",
-      "legal",
-      "article-ii"
-    ]
-  },
-  {
-    "id": "social-096",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "sourceCategory": "osint_analyst",
-    "text": "Kuwait-flagged tanker Gas Al Ahmadiah struck near Fujairah \u2014 23rd vessel damaged since blockade began. Iraq's oil minister in direct talks with Iran to negotiate passage for Iraqi tankers through the strait.",
-    "timestamp": "2026-03-17T17:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Satellite tracking and Iraqi government statement",
-    "keywords": [
-      "tanker",
-      "fujairah",
-      "iraq",
-      "hormuz",
-      "blockade"
-    ]
-  },
-  {
-    "id": "social-097",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "USS Gerald R. Ford heading to Crete for repairs after 30-hour onboard fire. ~200 sailors treated for smoke inhalation. Carrier temporarily out of theater \u2014 significant gap in US naval power projection in the Eastern Mediterranean.",
-    "timestamp": "2026-03-17T20:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "USNI News confirmed via Navy sources",
-    "keywords": [
-      "uss-ford",
-      "carrier",
-      "fire",
-      "crete",
-      "navy"
-    ]
-  },
-  {
-    "id": "social-098",
-    "handle": "@Conflicts",
-    "displayName": "Conflicts Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "Russia expanding intelligence sharing with Iran per WSJ \u2014 satellite imagery of US force locations plus improved Shahed drone components. Iran's targeting accuracy against US assets has noticeably improved since Ukraine-era drone tech transfer.",
-    "timestamp": "2026-03-17T19:30:00Z",
-    "verificationStatus": "likely",
-    "verificationNote": "Based on WSJ report citing European intelligence officials",
-    "keywords": [
-      "russia",
-      "iran",
-      "drones",
-      "shahed",
-      "intelligence"
     ]
   },
   {
@@ -351,6 +220,84 @@
       "hormuz",
       "bunker-busters",
       "centcom"
+    ]
+  },
+  {
+    "id": "social-112",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Iran strikes Qatar's Ras Laffan LNG facility \u2014 world's largest. QatarEnergy reports 'extensive damage.' Qatar immediately expels Iran's military attaches. War now directly hitting allied Gulf energy infrastructure.",
+    "timestamp": "2026-03-18T17:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Bloomberg confirmed",
+    "keywords": [
+      "ras-laffan",
+      "qatar",
+      "lng",
+      "energy-war"
+    ]
+  },
+  {
+    "id": "social-113",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Gabbard omitted from testimony that Iran was NOT rebuilding enrichment before war. Bloomberg caught discrepancy between written and spoken testimony. Major blow to war justification narrative.",
+    "timestamp": "2026-03-18T19:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Washington Post, Bloomberg confirmed",
+    "keywords": [
+      "gabbard",
+      "enrichment",
+      "testimony",
+      "war-justification"
+    ]
+  },
+  {
+    "id": "social-114",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "USS Ford leaving Red Sea for Crete repairs after fire. Only Lincoln remains. Iran simultaneously hitting UAE (13 missiles, 27 drones), Saudi (4 missiles, 21 drones), and Qatar (Ras Laffan). Conflict fully regional.",
+    "timestamp": "2026-03-18T18:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNN, Gulf News confirmed",
+    "keywords": [
+      "uss-ford",
+      "gulf-attacks",
+      "regional"
+    ]
+  },
+  {
+    "id": "social-115",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "8 non-Iranian vessels detected transiting Hormuz \u2014 nearly double recent days. Iran allowing 'permission-based transits to friendly countries.' Traffic still down ~97% overall.",
+    "timestamp": "2026-03-18T20:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, Al Jazeera confirmed",
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "transit"
+    ]
+  },
+  {
+    "id": "social-116",
+    "handle": "@Conflicts",
+    "displayName": "Conflicts Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "IAEA reveals new underground enrichment site at Isfahan never inspected. Iran stockpile could fuel 9 nuclear weapons. Grossi: war has caused 'enormous degradation' but enrichment capabilities will likely survive.",
+    "timestamp": "2026-03-18T19:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "The National confirmed",
+    "keywords": [
+      "iaea",
+      "nuclear",
+      "isfahan",
+      "enrichment"
     ]
   }
 ]

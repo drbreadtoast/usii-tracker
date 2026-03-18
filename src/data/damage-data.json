@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-18T14:29:00Z",
+    "lastUpdated": "2026-03-18T21:09:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 119,
-    "confirmed": 109,
+    "totalSites": 121,
+    "confirmed": 111,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
@@ -2005,6 +2005,32 @@
       "description": "Judiciary facility struck, civilians and judicial staff killed/injured.",
       "source": "Fox 5 NY",
       "sourceUrl": "https://www.fox5ny.com/news/iran-war-live-updates-march-18-2026"
+    },
+    {
+      "id": "dmg-124",
+      "name": "Ras Laffan LNG Facility",
+      "country": "Qatar",
+      "lat": 25.9167,
+      "lng": 51.5333,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-18",
+      "description": "World's largest LNG export terminal (~20% global LNG). 'Extensive damage' from Iranian missile. Fires contained.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility"
+    },
+    {
+      "id": "dmg-125",
+      "name": "Hebron Beauty Salon",
+      "country": "West Bank",
+      "lat": 31.5326,
+      "lng": 35.0998,
+      "category": "commercial",
+      "status": "confirmed",
+      "date": "2026-03-18",
+      "description": "Iranian missile hit beauty salon near Hebron. 3 Palestinians killed.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-03-18/ty-article-live/two-killed-in-central-israel-following-iranian-missile-attack/0000019c-feee-d088-a5fc-feef9f180000"
     }
   ]
 }
