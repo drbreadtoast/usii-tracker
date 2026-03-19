@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T14:48:00Z",
+  "lastUpdated": "2026-03-19T21:08:00Z",
   "commodities": [
     {
       "name": "Wheat",
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.54,
-      "change": "+5.3%",
-      "detail": "May '26 futures at $4.54/bu. Fertilizer prices up 21-41% YoY impacting planting costs.",
+      "current": 4.62,
+      "change": "+2.0%",
+      "detail": "Corn climbed 2%+ driven by biofuel demand boost and fertilizer disruption.",
       "source": "CME Group",
       "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/corn.html"
     },
@@ -57,7 +57,7 @@
       "preWar": "$3.49",
       "current": "$6.14",
       "change": "+75.9%",
-      "detail": "Palm oil jumped 10% \u2014 shipping through Strait of Hormuz blocked. Alternative routing adds 12+ days and $933,000 per voyage.",
+      "detail": "Palm oil jumped 10% — shipping through Strait of Hormuz blocked. Alternative routing adds 12+ days and $933,000 per voyage.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
     },
@@ -83,10 +83,10 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": "$64",
+    "averageWeeklyIncrease": "$67",
     "preWarWeekly": "$168",
-    "currentWeekly": "$232",
-    "changePercent": "+38%"
+    "currentWeekly": "$235",
+    "changePercent": "+40%"
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -96,5 +96,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "IMO emergency meeting in London on Hormuz safe maritime corridor (March 18). EU's Kallas warns of 'food deprivation next year' from fertilizer shortage \u2014 ~1/3 of globally traded fertilizer transits Hormuz. Fertilizer crisis deepening \u2014 urea at $695/mt (+46%), ammonia up 41% YoY. Grain futures rallied on biofuel demand and export optimism. USDA projects wheat $5.00/bu, corn $4.20/bu, soybeans $10.30/bu for 2026 marketing year \u2014 all near or below break-even cost of production. Asia bracing for inflation: Japan gas +18%, South Korea imposing fuel price caps, Sri Lanka reintroduced fuel rationing. 25% of US farmers have not yet purchased fertilizer for planting season."
+  "context": "Fertilizer crisis deepening: ammonia +92% YoY in Middle East, urea +70% YoY. 1/3 of world fertilizer moves through Hormuz. Palm oil surged 10%. Farmers reporting delayed/unavailable shipments. Stanford IEPR estimates additional $740/year in gas costs per household."
 }

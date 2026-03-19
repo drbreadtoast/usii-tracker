@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T14:48:00Z",
+  "lastUpdated": "2026-03-19T21:08:00Z",
   "currentAverage": 3.84,
   "preWarAverage": 3.18,
   "changePercent": 20.8,
@@ -89,70 +89,76 @@
     {
       "date": "2026-03-10",
       "price": 3.55,
-      "label": "Day 11 \u2014 Oil crashes 11% on Trump 'war ending soon'",
+      "label": "Day 11 — Oil crashes 11% on Trump 'war ending soon'",
       "isEvent": true
     },
     {
       "date": "2026-03-11",
       "price": 3.578,
-      "label": "Day 12 \u2014 IEA 400M barrel release; oil rebounds 3%",
+      "label": "Day 12 — IEA 400M barrel release; oil rebounds 3%",
       "isEvent": true
     },
     {
       "date": "2026-03-12",
       "price": 3.58,
-      "label": "Day 13 \u2014 AAA avg $3.58, CA above $5.00. Oil at $100+",
+      "label": "Day 13 — AAA avg $3.58, CA above $5.00. Oil at $100+",
       "isEvent": true
     },
     {
       "date": "2026-03-13",
       "price": 3.63,
-      "label": "$3.63 \u2014 up 35\u00a2 in one week. California above $5/gal. Analysts predict $4/gal nationally next week.",
+      "label": "$3.63 — up 35¢ in one week. California above $5/gal. Analysts predict $4/gal nationally next week.",
       "isEvent": true
     },
     {
       "date": "2026-03-14",
       "price": 3.68,
-      "label": "Day 15 \u2014 IEA 400M barrel release fails to stem prices",
+      "label": "Day 15 — IEA 400M barrel release fails to stem prices",
       "isEvent": true
     },
     {
       "date": "2026-03-15",
       "price": 3.7,
-      "label": "Day 16 PM \u2014 AAA average $3.70, up 23% since Feb 28",
+      "label": "Day 16 PM — AAA average $3.70, up 23% since Feb 28",
       "isEvent": true
     },
     {
       "date": "2026-03-16",
       "price": 3.7,
-      "label": "Day 17 \u2014 Dubai airport struck, Fujairah oil hub hit again",
+      "label": "Day 17 — Dubai airport struck, Fujairah oil hub hit again",
       "isEvent": true
     },
     {
       "date": "2026-03-16",
       "price": 3.72,
-      "label": "Day 17 \u2014 Hormuz zero-transit milestone",
+      "label": "Day 17 — Hormuz zero-transit milestone",
       "isEvent": true
     },
     {
       "date": "2026-03-17",
       "price": 3.79,
-      "label": "Day 18 \u2014 Shah gas field ablaze; oil surges; gas hits $3.79",
+      "label": "Day 18 — Shah gas field ablaze; oil surges; gas hits $3.79",
       "isEvent": true
     },
     {
       "date": "2026-03-18",
       "price": 3.84,
-      "label": "Day 19 \u2014 Gas spikes to $3.84; CA $5.53; Fed holds rates; highest since Oct 2023",
+      "label": "Day 19 — Gas spikes to $3.84; CA $5.53; Fed holds rates; highest since Oct 2023",
       "isEvent": true
     },
     {
       "date": "2026-03-19",
       "price": 3.84,
       "label": "Day 20 - Gulf energy attacks"
+    },
+    {
+      "date": "2026-03-19",
+      "price": 3.84,
+      "label": "Day 20 PM — Diesel hits $5.07",
+      "isEvent": true
     }
   ],
-  "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
+  "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
   "breakdown": {
     "preWar": {
       "label": "Before War (Feb 27)",
@@ -160,7 +166,7 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$68 \u00f7 42 gal",
+          "formula": "$68 ÷ 42 gal",
           "value": 1.62,
           "percent": 51
         },
@@ -204,7 +210,7 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$104 \u00f7 42 gal",
+          "formula": "$104 ÷ 42 gal",
           "value": 2.48,
           "percent": 62,
           "change": "+$0.86"
@@ -253,5 +259,5 @@
       "distribution": 0.44
     }
   },
-  "context": "Gas at $3.84/gallon (March 18 evening) \u2014 up 20.8% from $3.18 pre-war. Highest since Oct 2023. California at $5.53/gal, Kansas cheapest at $3.15. Brent settled near $107-109/barrel. Diesel above $5/gallon first time since 2022. Fed holds rates at 3.5-3.75%, projects only 1 cut in 2026 (inflation raised to 2.7%). PPI jumped 0.7% (doubling expectations). Pentagon requests $200B+ war supplemental. IMO emergency session on Hormuz. Pump prices lag crude by 1-2 weeks \u2014 expect further increases."
+  "context": "Gas at $3.84/gallon (March 18 evening) — up 20.8% from $3.18 pre-war. Highest since Oct 2023. California at $5.53/gal, Kansas cheapest at $3.15. Brent settled near $107-109/barrel. Diesel above $5/gallon first time since 2022. Fed holds rates at 3.5-3.75%, projects only 1 cut in 2026 (inflation raised to 2.7%). PPI jumped 0.7% (doubling expectations). Pentagon requests $200B+ war supplemental. IMO emergency session on Hormuz. Pump prices lag crude by 1-2 weeks — expect further increases."
 }
