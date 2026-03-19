@@ -7870,5 +7870,209 @@
       "diplomacy",
       "arab-league"
     ]
+  },
+  {
+    "id": "evt-new-212",
+    "title": "Ras Laffan Struck Second Time \u2014 LNG Fires Rage",
+    "description": "Iran struck Qatar's Ras Laffan with ballistic missiles a second time in 12 hours. QatarEnergy: 'sizeable fires and extensive further damage' to multiple LNG facilities.",
+    "type": "strike",
+    "lat": 25.9167,
+    "lng": 51.5333,
+    "location": "Ras Laffan, Qatar",
+    "timestamp": "2026-03-19T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-19-2026/"
+      }
+    ],
+    "tags": [
+      "ras-laffan",
+      "qatar",
+      "lng",
+      "second-strike"
+    ]
+  },
+  {
+    "id": "evt-new-213",
+    "title": "Trump: Israel Won't Strike South Pars Again, But US Will If Qatar Hit",
+    "description": "Trump posted 'NO MORE ATTACKS' on South Pars but threatened US would 'massively blow up the entirety' of the field if Iran attacks Qatar again. Axios: Trump DID coordinate original strike with Netanyahu despite denying it.",
+    "type": "diplomatic",
+    "lat": 38.9,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-03-19T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/03/19/iran-war-trump-israel-strike-gas"
+      }
+    ],
+    "tags": [
+      "trump",
+      "south-pars",
+      "qatar",
+      "threat"
+    ]
+  },
+  {
+    "id": "evt-new-214",
+    "title": "Iran Fires 6+ Missile Salvos at Israel Overnight",
+    "description": "IRGC fired at least 6 separate ballistic missile salvos at central and northern Israel using cluster bomb warheads. Most hit open areas. IRGC framing as sustained 'punishment' for assassinations.",
+    "type": "strike",
+    "lat": 32.08,
+    "lng": 34.78,
+    "location": "Central and Northern Israel",
+    "timestamp": "2026-03-19T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-19-2026/"
+      }
+    ],
+    "tags": [
+      "irgc",
+      "missiles",
+      "cluster-bombs",
+      "overnight"
+    ]
+  },
+  {
+    "id": "evt-new-215",
+    "title": "Foreign Worker Killed at Moshav Adanim by Cluster Missile",
+    "description": "30-year-old foreign worker killed by shrapnel from Iranian cluster missile at Moshav Adanim. 4+ injured in related strikes on Bnei Brak, Kafr Qassem, Jaljulia.",
+    "type": "strike",
+    "lat": 32.18,
+    "lng": 34.94,
+    "location": "Moshav Adanim, Israel",
+    "timestamp": "2026-03-19T01:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/foreign-worker-killed-in-central-israel-by-shrapnel-from-iranian-cluster-missile/"
+      }
+    ],
+    "casualties": {
+      "dead": 1,
+      "injured": 4
+    },
+    "tags": [
+      "cluster-missile",
+      "moshav-adanim",
+      "foreign-worker"
+    ]
+  },
+  {
+    "id": "evt-new-216",
+    "title": "Israeli Drones Kill 3 Lebanese Army Soldiers",
+    "description": "Israeli drone strikes killed 3 uniformed Lebanese Armed Forces soldiers and injured 5 in Nabatieh, Zibdin, Doueir. Lebanon President Aoun condemned strikes. Israel says 'under review.'",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.48,
+    "location": "Nabatieh/Zibdin, Lebanon",
+    "timestamp": "2026-03-18T23:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "The National",
+        "url": "https://www.thenationalnews.com/news/mena/2026/03/18/lebanese-army-thrust-into-centre-of-israels-war-on-hezbollah-as-israeli-attacks-kill-soldiers/"
+      }
+    ],
+    "casualties": {
+      "dead": 3,
+      "injured": 5
+    },
+    "tags": [
+      "laf",
+      "drone",
+      "nabatieh"
+    ]
+  },
+  {
+    "id": "evt-new-217",
+    "title": "Saudi Arabia: 'Trust in Iran Completely Shattered'",
+    "description": "Riyadh FM Prince Faisal declared 'little trust that remained in Iran has been completely shattered.' Said Saudi Arabia 'reserves the right to take military action.'",
+    "type": "diplomatic",
+    "lat": 24.71,
+    "lng": 46.68,
+    "location": "Riyadh, Saudi Arabia",
+    "timestamp": "2026-03-19T04:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone"
+      }
+    ],
+    "tags": [
+      "saudi",
+      "trust",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "evt-new-218",
+    "title": "FBI Investigating Joe Kent for Classified Leaks",
+    "description": "FBI opened investigation into whether resigned NCTC Director Joe Kent leaked classified information when he publicly stated there was 'no intelligence' supporting an imminent Iranian threat.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.03,
+    "location": "Washington, DC",
+    "timestamp": "2026-03-19T03:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-19-2026/"
+      }
+    ],
+    "tags": [
+      "fbi",
+      "joe-kent",
+      "classified",
+      "leak"
+    ]
+  },
+  {
+    "id": "evt-new-219",
+    "title": "Asian Markets Crash \u2014 Nikkei -2.7%, Brent Breaks $110",
+    "description": "Asian markets fell sharply on March 19 open. Nikkei -2.7%, KOSPI -2.6%, Hang Seng -1.4%. Brent crude breached $110/barrel. Dubai crude hit all-time high above $150 for Asian buyers.",
+    "type": "infrastructure",
+    "lat": 35.68,
+    "lng": 139.69,
+    "location": "Global markets",
+    "timestamp": "2026-03-19T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/2026/03/18/oil-prices-110-crude-brent-iran-war-israel-strait-hormuz-lng/"
+      }
+    ],
+    "tags": [
+      "markets",
+      "asian-crash",
+      "oil-110"
+    ]
   }
 ]
