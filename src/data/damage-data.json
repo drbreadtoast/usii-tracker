@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-19T05:57:00Z",
+    "lastUpdated": "2026-03-19T14:48:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 122,
-    "confirmed": 112,
+    "totalSites": 128,
+    "confirmed": 118,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
@@ -2044,6 +2044,84 @@
       "description": "Second strike on world's largest LNG facility. Sizeable fires, extensive further damage.",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-march-19-2026/"
+    },
+    {
+      "id": "dmg-127",
+      "name": "South Pars Gas Treatment Facilities",
+      "country": "Iran",
+      "lat": 27.5,
+      "lng": 52.6,
+      "type": "energy",
+      "status": "confirmed",
+      "description": "4 gas treatment plants at South Pars/Asaluyeh struck by IAF. Taken offline to contain fires. 36% of Iran's gas reserves affected.",
+      "date": "2026-03-18",
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-18/iran-says-strikes-hit-key-south-pars-gas-field-oil-facilities"
+    },
+    {
+      "id": "dmg-128",
+      "name": "Bandar Anzali Naval Base",
+      "country": "Iran",
+      "lat": 37.47,
+      "lng": 49.46,
+      "type": "military",
+      "status": "confirmed",
+      "description": "IDF destroyed 4 missile boats, a corvette, and naval infrastructure at Bandar Anzali on Caspian Sea.",
+      "date": "2026-03-18",
+      "source": "Israel Hayom",
+      "sourceUrl": "https://www.israelhayom.com/2026/03/18/caspian-strike-marks-first-idf-hit-on-iran-russia-supply-lifeline/"
+    },
+    {
+      "id": "dmg-129",
+      "name": "Ras Laffan LNG Complex",
+      "country": "Qatar",
+      "lat": 25.9,
+      "lng": 51.5,
+      "type": "energy",
+      "status": "confirmed",
+      "description": "Iranian missile causes extensive damage to Ras Laffan Industrial City. Shell Pearl GTL plant also damaged. Fire extinguished, no casualties.",
+      "date": "2026-03-19",
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-18/qatar-reports-extensive-damage-at-site-of-ras-laffan-lng-plant"
+    },
+    {
+      "id": "dmg-130",
+      "name": "SAMREF Refinery, Yanbu",
+      "country": "Saudi Arabia",
+      "lat": 24.1,
+      "lng": 38.0,
+      "type": "energy",
+      "status": "confirmed",
+      "description": "Iranian drone strikes SAMREF refinery in Red Sea port of Yanbu. Damage assessment underway.",
+      "date": "2026-03-19",
+      "source": "Military.com",
+      "sourceUrl": "https://www.military.com/daily-news/2026/03/19/iran-hits-back-multiple-gulf-refineries-after-israeli-strike-its-offshore-gas-field.html"
+    },
+    {
+      "id": "dmg-131",
+      "name": "Habshan Gas Facility",
+      "country": "UAE",
+      "lat": 23.8,
+      "lng": 53.8,
+      "type": "energy",
+      "status": "confirmed",
+      "description": "Abu Dhabi shuts Habshan gas facilities after debris from intercepted Iranian strike. Bab field also affected.",
+      "date": "2026-03-19",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone"
+    },
+    {
+      "id": "dmg-132",
+      "name": "Ramat Gan Residential Area",
+      "country": "Israel",
+      "lat": 32.07,
+      "lng": 34.81,
+      "type": "residential",
+      "status": "confirmed",
+      "description": "Iranian revenge missile destroys apartment in Ramat Gan, killing couple in their 70s.",
+      "date": "2026-03-19",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-03-18/ty-article-live/two-killed-in-central-israel-following-iranian-missile-attack/0000019c-feee-d088-a5fc-feef9f180000"
     }
   ]
 }

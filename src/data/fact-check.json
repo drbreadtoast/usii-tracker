@@ -1489,8 +1489,85 @@
           "url": "https://www.poynter.org/fact-checking/2026/fake-videos-strikes-iran/"
         }
       ]
+    },
+    {
+      "id": "fc-059",
+      "claim": "Trump says US 'knew nothing' about the South Pars gas field strike",
+      "summary": "Trump posted on Truth Social that the US 'knew nothing about this particular attack.' However, CNN and Jerusalem Post report Israel coordinated with the US, with an Israeli official explicitly confirming coordination.",
+      "origin": "Trump Truth Social post, March 19",
+      "viralPlatforms": [
+        "Truth Social",
+        "X/Twitter",
+        "Cable news"
+      ],
+      "verdict": "misleading",
+      "category": "US-Israel coordination",
+      "dateAdded": "2026-03-19T14:48:00Z",
+      "lastChecked": "2026-03-19T14:48:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-19-26"
+        },
+        {
+          "name": "Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-890393"
+        }
+      ]
+    },
+    {
+      "id": "fc-060",
+      "claim": "Iran's nuclear program was 'obliterated' and not being rebuilt before the 2026 war",
+      "summary": "DNI Gabbard testified to Senate Intelligence Committee that Iran's nuclear enrichment was 'obliterated' by June 2025 strikes with 'no efforts to rebuild.' This undermines Trump's stated rationale that Iran's nuclear program posed an imminent threat.",
+      "origin": "Gabbard Senate Intelligence Committee testimony, March 18",
+      "viralPlatforms": [
+        "Cable news",
+        "X/Twitter",
+        "Congressional proceedings"
+      ],
+      "verdict": "confirmed",
+      "category": "War justification",
+      "dateAdded": "2026-03-19T14:48:00Z",
+      "lastChecked": "2026-03-19T14:48:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/03/18/tulsi-gabbard-iran-intelligence-hearing/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/18/us-intel-chief-gabbard-says-iran-was-not-rebuilding-enrichment-prior-to-war"
+        }
+      ]
+    },
+    {
+      "id": "fc-061",
+      "claim": "The Pentagon's $200 billion war supplemental is more than any country's annual defense budget except the US",
+      "summary": "Multiple outlets confirm the Pentagon requested $200+ billion in supplemental war funding. This is indeed larger than any other country's entire annual defense budget. China's is ~$230B official (est. $350B actual).",
+      "origin": "Washington Post report, March 18",
+      "viralPlatforms": [
+        "X/Twitter",
+        "Cable news"
+      ],
+      "verdict": "confirmed",
+      "category": "War costs",
+      "dateAdded": "2026-03-19T14:48:00Z",
+      "lastChecked": "2026-03-19T14:48:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/03/19/200-billion-iran-war-hegseth-penntagon"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-03-18T14:29:00Z",
-  "totalClaims": 58
+  "lastUpdated": "2026-03-19T14:48:00Z",
+  "totalClaims": 61
 }

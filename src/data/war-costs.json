@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-19T05:57:00Z",
+    "lastUpdated": "2026-03-19T14:48:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 19,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
@@ -45,11 +45,11 @@
       "name": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
-        "total": 23100000000,
+        "total": 24300000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 6900000000,
+            "amount": 7500000000,
             "description": "Tomahawk cruise missiles (400+ used), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $50B supplemental requested for replenishment.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
@@ -61,13 +61,13 @@
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
           "airOperations": {
-            "amount": 5200000000,
+            "amount": 5600000000,
             "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15.",
             "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
           "personnelDeployment": {
-            "amount": 2200000000,
+            "amount": 2400000000,
             "description": "~50,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA (7 enemy fire, 6 KC-135 crash).",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
@@ -758,13 +758,13 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 33800000000,
+    "allCountriesDirectMilitary": 35000000000,
     "allCountriesIndirectCosts": 109440000000,
-    "combinedTotalCosts": 143240000000,
+    "combinedTotalCosts": 144440000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military ($33.8B) + indirect economic costs ($109.4B) for all three belligerents through Day 19.",
     "lastCalculated": "2026-03-19T01:15:00Z"
   },
-  "daysOfConflict": 19,
-  "lastUpdated": "2026-03-19T05:57:00Z"
+  "daysOfConflict": 20,
+  "lastUpdated": "2026-03-19T14:48:00Z"
 }

@@ -1,110 +1,5 @@
 [
   {
-    "id": "social-105",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "Israel kills Iran intelligence minister Esmail Khatib in overnight Tehran airstrike \u2014 third senior official eliminated in 48 hours. Defense Minister Katz announces all Iranian officials now authorized targets.",
-    "timestamp": "2026-03-18T08:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NPR, Axios confirmed",
-    "keywords": [
-      "khatib",
-      "assassination",
-      "tehran"
-    ]
-  },
-  {
-    "id": "social-106",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "sourceCategory": "osint_analyst",
-    "text": "Iran fires cluster munitions at central Israel for first time \u2014 Khorramshahr-4 and Qadr missiles hit Ramat Gan killing elderly couple. IRGC explicitly frames as revenge for Larijani assassination.",
-    "timestamp": "2026-03-18T09:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Haaretz, Times of Israel confirmed",
-    "keywords": [
-      "cluster-munitions",
-      "ramat-gan",
-      "retaliation"
-    ]
-  },
-  {
-    "id": "social-107",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "sourceCategory": "osint_analyst",
-    "text": "South Pars gas field struck by Israeli jets \u2014 two refineries halted (100M cubic meters/day). First upstream energy strike of the war. Brent spikes. Iran threatens retaliation against Saudi, UAE, Qatar energy sites.",
-    "timestamp": "2026-03-18T10:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Bloomberg, CTV confirmed",
-    "keywords": [
-      "south-pars",
-      "energy",
-      "oil-prices"
-    ]
-  },
-  {
-    "id": "social-108",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "Turkey FM Fidan heading to Riyadh for multilateral meeting. 10+ countries attending including Pakistan, Egypt, UAE, Qatar. Aim: diplomatic pathway to end Iran war.",
-    "timestamp": "2026-03-18T11:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Daily Sabah confirmed",
-    "keywords": [
-      "turkey",
-      "diplomacy",
-      "riyadh"
-    ]
-  },
-  {
-    "id": "social-109",
-    "handle": "@Conflicts",
-    "displayName": "Conflicts Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "Chaharshanbe Suri aftermath: footage shows bonfires across Tehran despite regime crackdown threats. PMOI claims 15 resistance operations. Reza Pahlavi says ready to return. Internet still blacked out.",
-    "timestamp": "2026-03-18T12:00:00Z",
-    "verificationStatus": "likely",
-    "verificationNote": "Internet blackout limits verification",
-    "keywords": [
-      "chaharshanbe-suri",
-      "protests",
-      "iran"
-    ]
-  },
-  {
-    "id": "social-110",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "Mojtaba Khamenei rejects ceasefire proposals from two intermediary countries. Says 'not the right time for peace.' Still no public appearance since appointment \u2014 health status unknown.",
-    "timestamp": "2026-03-18T13:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "India TV News confirmed",
-    "keywords": [
-      "mojtaba",
-      "ceasefire",
-      "rejected"
-    ]
-  },
-  {
-    "id": "social-111",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "sourceCategory": "osint_analyst",
-    "text": "US CENTCOM deploys 5,000-lb bunker busters against hardened Iranian antiship missile sites along Hormuz. Analysts call it opening salvo of multi-week campaign to reopen strait.",
-    "timestamp": "2026-03-18T13:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NBC News confirmed",
-    "keywords": [
-      "hormuz",
-      "bunker-busters",
-      "centcom"
-    ]
-  },
-  {
     "id": "social-112",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
@@ -346,6 +241,118 @@
       "kent",
       "saudi",
       "riyadh"
+    ]
+  },
+  {
+    "id": "social-128",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Confirmed: IDF struck Bandar Anzali naval base on the Caspian Sea \u2014 first-ever Israeli strike in northern Iran. 4 missile boats and corvette destroyed. Targeting Iran-Russia supply lifeline.",
+    "timestamp": "2026-03-19T08:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Verified by Israel Hayom, Ynet",
+    "keywords": [
+      "caspian-sea",
+      "bandar-anzali",
+      "naval",
+      "iran-russia"
+    ]
+  },
+  {
+    "id": "social-129",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "sourceCategory": "osint_analyst",
+    "text": "BREAKING: Iran has now struck energy infrastructure in ALL 6 GCC countries simultaneously. Ras Laffan extensive damage, SAMREF in Yanbu hit, 2 Kuwaiti refineries ablaze, Habshan shut down. Unprecedented regional escalation.",
+    "timestamp": "2026-03-19T09:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Multiple sources confirm",
+    "keywords": [
+      "gulf-states",
+      "energy-war",
+      "ras-laffan",
+      "samref"
+    ]
+  },
+  {
+    "id": "social-130",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Satellite imagery shows 4 gas treatment plants at South Pars/Asaluyeh completely offline. Major fires visible from space. Iran's gas output likely cut by 30-40% \u2014 will affect domestic heating and electricity.",
+    "timestamp": "2026-03-19T10:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg imagery analysis corroborates",
+    "keywords": [
+      "south-pars",
+      "satellite",
+      "gas-production",
+      "energy"
+    ]
+  },
+  {
+    "id": "social-131",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Pentagon $200B supplemental is extraordinary \u2014 more than every country's annual defense budget except the US itself. Combined with existing $1T budget, US military spending approaches $1.2T annualized.",
+    "timestamp": "2026-03-19T11:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WaPo, Axios confirmed the figure",
+    "keywords": [
+      "pentagon",
+      "budget",
+      "200-billion",
+      "defense-spending"
+    ]
+  },
+  {
+    "id": "social-132",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "IMO talks on safe maritime corridor started yesterday \u2014 first formal attempt to reopen Hormuz. Only 21 tankers have transited since Feb 28 vs 100+/day pre-war. 500+ tankers still trapped in the Gulf.",
+    "timestamp": "2026-03-19T12:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, Euronews confirmed",
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "imo",
+      "tankers"
+    ]
+  },
+  {
+    "id": "social-133",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "DNI Gabbard testimony bombshell: Iran's nuclear enrichment was 'obliterated' in June 2025 and they weren't rebuilding. Mojtaba Khamenei confirmed 'severely injured.' This contradicts the administration's stated war rationale.",
+    "timestamp": "2026-03-19T13:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WaPo, Al Jazeera confirmed",
+    "keywords": [
+      "gabbard",
+      "nuclear",
+      "mojtaba",
+      "intelligence"
+    ]
+  },
+  {
+    "id": "social-134",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "sourceCategory": "osint_analyst",
+    "text": "Qatar has expelled Iran's military and security attaches, giving them 24 hours to leave. Saudi Arabia says trust in Iran is 'completely shattered.' Gulf states turning hostile to Iran despite opposing the US/Israeli war.",
+    "timestamp": "2026-03-19T14:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Euronews, The National confirmed",
+    "keywords": [
+      "qatar",
+      "diplomatic",
+      "expulsion",
+      "gulf-states"
     ]
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-19T05:57:00Z",
+  "lastUpdated": "2026-03-19T14:48:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": "$6.18",
-      "change": "+10.0%",
-      "detail": "Wheat near 2-year high at $5.98/bu. Black Sea and Persian Gulf shipping routes disrupted. Hormuz closure blocking fertilizer shipments at peak planting season.",
+      "current": 5.9,
+      "change": "+10.5%",
+      "detail": "May '26 futures at $5.90/bu. Down from $6.42 peak on March 9. Fertilizer crisis threatens spring planting.",
       "source": "CME Group",
       "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/wheat.html"
     },
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": "$6.02",
-      "change": "+39.7%",
-      "detail": "Fertilizer supply chain from Middle East severely disrupted. Diesel costs for farming operations surging.",
+      "current": 4.54,
+      "change": "+5.3%",
+      "detail": "May '26 futures at $4.54/bu. Fertilizer prices up 21-41% YoY impacting planting costs.",
       "source": "CME Group",
       "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/corn.html"
     },
@@ -83,10 +83,10 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": "$57",
+    "averageWeeklyIncrease": "$64",
     "preWarWeekly": "$168",
-    "currentWeekly": "$225",
-    "changePercent": "+34%"
+    "currentWeekly": "$232",
+    "changePercent": "+38%"
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",

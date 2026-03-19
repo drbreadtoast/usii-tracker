@@ -2,7 +2,7 @@
   "straitStatus": "effectively_closed",
   "blockadeDay": 17,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-19T05:57:00Z",
+  "lastUpdated": "2026-03-19T14:48:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -21,7 +21,10 @@
       "IRGC Navy",
       "French Navy"
     ],
-    "anchoredShips": 150
+    "anchoredShips": 150,
+    "tankerTraffic": "21 tankers transited since Feb 28 (vs 100+/day pre-war)",
+    "strandedSeafarers": "40,000+",
+    "trappedVessels": "500+ oil/gas tankers, 500+ container ships, 6 cruise ships"
   },
   "timeline": [
     {
@@ -206,6 +209,12 @@
     {
       "date": "2026-03-18",
       "event": "Iran launched fresh attacks across Persian Gulf on Gulf neighbors. Some ships spoofing transponders as Chinese-flagged to gain passage. Liberian-flagged bulk carrier broadcast destination as 'CHINA OWNER_ALL CREW' to transit.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-19",
+      "event": "IMO talks on safe maritime corridor begin; Iran strikes all 6 GCC energy sites. Brent surges past $119 intraday.",
       "status": "effectively_closed",
       "barrels": 0
     }
