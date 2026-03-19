@@ -49,7 +49,7 @@
     },
     {
       "name": "Iranian Protests Crackdown (Dec 2025 - Jan 2026)",
-      "period": "February 28, 2026 - Ongoing (Day 19)",
+      "period": "December 2025 - January 2026",
       "parties": [
         {
           "name": "Iranian Civilians",
@@ -72,101 +72,6 @@
           "injured": null,
           "arrested": 41800,
           "arrestedNote": "Mass arrests during Dec 2025\u2013Jan 2026 protests. HRANA documented 41,800+ detained across 31 provinces."
-        },
-        {
-          "name": "Lebanon",
-          "flag": "\ud83c\uddf1\ud83c\udde7",
-          "confirmed": {
-            "military": 0,
-            "civilian": 968,
-            "total": 968,
-            "source": "Lebanese Ministry of Public Health (March 18). 968 killed. 35+ killed on Day 19 alone.",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon"
-          },
-          "estimated": {
-            "military": 200,
-            "civilian": 968,
-            "total": 1168,
-            "source": "Lebanese media + IDF Hezbollah fighter estimates",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon",
-            "note": "968 confirmed by Health Ministry (March 18). 35+ killed on Day 19 across Baalbek, Sahmar, Beirut. Al Manar TV director killed. IDF destroyed 2 Litani River bridges, trapping ~150,000 civilians. Ground invasion ongoing south of Litani."
-          },
-          "injured": 2432,
-          "rumored": {
-            "total": 1400,
-            "military": 400,
-            "civilian": 1000,
-            "note": "Hezbollah fighter casualties not separately broken out in Health Ministry figures \u2014 actual Hezbollah dead could be 300-400+. IDF ground invasion (launched March 16) expected to significantly increase casualties. Rescue teams unable to access multiple strike sites in southern Lebanon. Some villages entirely cut off.",
-            "socialSources": [
-              {
-                "platform": "Al Jazeera",
-                "handle": "Al Jazeera Live",
-                "claim": "26 killed in last 24 hours across Beirut, Nabatieh, Baalbek, Bint Jbeil. 1 million displaced \u2014 20% of Lebanon's population.",
-                "url": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
-                "date": "2026-03-17"
-              },
-              {
-                "platform": "CARE",
-                "handle": "care.org",
-                "claim": "One million displaced nationwide. 130,000+ in 600+ collective shelters. Humanitarian access increasingly restricted.",
-                "url": "https://www.care.org/news-and-stories/march-17-2026-in-lebanon-one-million-displaced-nationwide/",
-                "date": "2026-03-17"
-              },
-              {
-                "platform": "Alma Center",
-                "handle": "israel-alma.org",
-                "claim": "IDF claims approximately 200 Hezbollah fighters killed since March 2. Hezbollah deliberately does not announce its dead.",
-                "url": "https://israel-alma.org/hezbollah-fighters-killed-in-recent-fighting-march-2026/",
-                "date": "2026-03-17"
-              }
-            ]
-          },
-          "injuredNote": "2,221 wounded per Lebanese Health Ministry (March 17). 38 health workers killed. 80 injured in last 24 hours. IDF ground operations in border areas ongoing.",
-          "displaced": 1000000,
-          "displacedNote": "1,000,000+ displaced \u2014 ~20% of Lebanon's population. 130,000+ in 600+ collective shelters. Ground invasion launched March 16."
-        },
-        {
-          "name": "Gulf States",
-          "flag": "\ud83c\uddfa\ud83c\udde6",
-          "confirmed": {
-            "military": 2,
-            "civilian": 31,
-            "total": 33,
-            "source": "HRW + Gulf state government reports (March 17). At least 11 civilian deaths across GCC \u2014 10 of those killed are foreign nationals/migrant workers.",
-            "sourceUrl": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians"
-          },
-          "estimated": {
-            "military": 2,
-            "civilian": 36,
-            "total": 38,
-            "source": "Compiled from regional government reports and HRW (March 17)",
-            "sourceUrl": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians",
-            "note": "Kuwait: 11 killed (6 US soldiers + 5 Kuwaiti), 99 injured. UAE: 8 killed (2 military, 6 foreign nationals), 157 injured, 262 missiles detected (241 destroyed), ~1,400 drones intercepted. Saudi Arabia: 2 killed (al-Kharj), 12 injured. Bahrain: 2 killed (1 Asian worker, 1 Bahraini woman), 8+ injured. Oman: 3 killed. Iraq (non-US/French): ~27 killed in US strikes on militia targets + crossfire."
-          },
-          "injured": 280,
-          "rumored": {
-            "total": 50,
-            "military": 5,
-            "civilian": 45,
-            "note": "HRW reports majority of Gulf civilian victims are migrant workers \u2014 deaths may be underreported due to foreign national status. Iraq casualties from US strikes on militia targets (27+) not fully tracked. Some Gulf nations restrict casualty reporting. Air defense interception rates (92-95%) prevented much worse toll.",
-            "socialSources": [
-              {
-                "platform": "HRW",
-                "handle": "Human Rights Watch",
-                "claim": "At least 11 civilian deaths and 268 injuries across GCC states. 10 of those killed are foreign nationals. Migrant worker deaths likely underreported.",
-                "url": "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians",
-                "date": "2026-03-17"
-              },
-              {
-                "platform": "CNBC",
-                "handle": "CNBC",
-                "claim": "Fujairah oil hub struck 2 consecutive days. Saudi al-Kharj compound hit with casualties. Full picture unclear as some nations restrict reporting.",
-                "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html",
-                "date": "2026-03-16"
-              }
-            ]
-          },
-          "injuredNote": "UAE: 157 injured. Kuwait: 99. Saudi Arabia: 12. Bahrain: 8+. Oman: 4+. HRW documented 268 civilian injuries across GCC states."
         }
       ]
     },
@@ -249,7 +154,7 @@
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
             "military": 4,
-            "civilian": 19,
+            "civilian": 16,
             "total": 20,
             "source": "Israeli emergency services (March 19). 20 killed including foreign worker at Moshav Adanim.",
             "sourceUrl": "https://israel-alma.org/daily-report-second-iran-war-march-17-2026-1600/"
@@ -350,8 +255,8 @@
           "confirmed": {
             "military": 0,
             "civilian": 968,
-            "total": 968,
-            "source": "Lebanese Ministry of Public Health (March 18). 968 killed. 35+ killed on Day 19 alone.",
+            "total": 971,
+            "source": "Lebanese Health Ministry + Anadolu (March 19). 971 killed including 3 LAF soldiers by Israeli drones.",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon"
           },
           "estimated": {
@@ -391,7 +296,7 @@
               }
             ]
           },
-          "injured": 2432,
+          "injured": 2437,
           "injuredNote": "2,221 wounded per Lebanese Health Ministry (March 17). 38 health workers killed. 80 injured in last 24 hours. IDF ground operations in border areas ongoing.",
           "displaced": 1000000,
           "displacedNote": "1,000,000+ displaced \u2014 ~20% of Lebanon's population. 130,000+ in 600+ collective shelters. Ground invasion launched March 16."
