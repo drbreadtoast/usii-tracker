@@ -8424,5 +8424,84 @@
       "sanchez",
       "kallas"
     ]
+  },
+  {
+    "id": "evt-new-232",
+    "title": "US/Israeli Airstrikes Hit Iraq PMF Positions \u2014 2 Killed in Salahuddin and Nineveh",
+    "description": "Dawn airstrikes hit PMF 6th and 31st Brigades in Salahuddin Province (Beiji HQ) and PMF 4th Regiment in Nineveh Plains, killing 2 and injuring several. Islamic Resistance in Iraq has claimed 290+ attacks on US forces since Feb 28.",
+    "type": "strike",
+    "lat": 34.9,
+    "lng": 43.5,
+    "location": "Beiji, Salahuddin Province, Iraq",
+    "timestamp": "2026-03-19T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The National",
+        "url": "https://www.thenationalnews.com/news/mena/2026/03/19/air-strikes-hit-iraqs-popular-mobilisation-forces-killing-at-least-one/"
+      }
+    ],
+    "tags": [
+      "iraq",
+      "pmf",
+      "militia",
+      "beiji"
+    ]
+  },
+  {
+    "id": "evt-new-233",
+    "title": "HIMARS Fires from Bahrain at Iran \u2014 First US Ballistic Missiles Launched from Gulf State",
+    "description": "NBC verified video shows US-built HIMARS launchers firing missiles at Iran from Bahrain \u2014 first documented use of American ballistic missiles fired from a Gulf state in the conflict.",
+    "type": "strike",
+    "lat": 26.07,
+    "lng": 50.55,
+    "location": "Bahrain",
+    "timestamp": "2026-03-19T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-bunker-busters-israel-beirut-lebanon-hezbollah-rcna264012"
+      }
+    ],
+    "tags": [
+      "himars",
+      "bahrain",
+      "gulf-state",
+      "ballistic-missile"
+    ]
+  },
+  {
+    "id": "evt-new-234",
+    "title": "Israeli Bombardment Kills 33 Across Lebanon on March 19 \u2014 Litani Bridges Destroyed",
+    "description": "Israeli strikes across Lebanon kill 33 and wound 152 on March 19 alone. At least 2 bridges over the Litani River destroyed. Strike on Bashoura in central Beirut. Total Lebanon toll: 1,001+ killed.",
+    "type": "strike",
+    "lat": 33.89,
+    "lng": 35.5,
+    "location": "Multiple locations, Lebanon",
+    "timestamp": "2026-03-19T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon"
+      },
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-19/ty-article-live/qatarenergy-says-missile-attacks-hit-lng-facilities-causing-fires/0000019d-040f-d46f-affd-949ff1420000"
+      }
+    ],
+    "tags": [
+      "lebanon",
+      "beirut",
+      "litani",
+      "hezbollah"
+    ]
   }
 ]
