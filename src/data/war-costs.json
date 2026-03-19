@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-18T21:09:00Z",
+    "lastUpdated": "2026-03-19T01:15:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 19,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
@@ -80,7 +80,7 @@
           }
         },
         "totalFormatted": "$23.1B",
-        "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. 250+ groups oppose additional funding. $50B+ supplemental being drafted.",
+        "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon now requesting $200B+ supplemental (WaPo March 18). 250+ groups oppose additional funding.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
       "indirectCosts": {
@@ -740,6 +740,21 @@
       "text": "Hedge funds suffering worst drawdowns since Liberation Day amid Iran war fallout (JPMorgan). Fed holds rates at 3.5-3.75%; inflation forecast raised to ~3% through late 2026. Fed may cut rate-cut forecast from 1 to zero.",
       "source": "CNBC / Chicago Tribune",
       "sourceUrl": "https://www.cnbc.com/2026/03/18/hedge-funds-suffer-worst-losses-since-liberation-day-on-iran-war-turmoil.html"
+    },
+    {
+      "text": "Pentagon requests $200B+ war supplemental from Congress \u2014 far exceeding the $50B initially drafted. Would urgently increase production of critical munitions. Dow drops 768 pts (-1.63%) after Fed holds rates, warns inflation 'not coming down as hoped.'",
+      "source": "Washington Post / CNBC",
+      "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/"
+    },
+    {
+      "text": "Fed holds rates at 3.5-3.75%, projects only 1 rate cut in 2026. Raises inflation outlook to 2.7%. Powell says oil crisis may have 'only temporary effects' but admits progress on inflation has stalled. S&P 500 -1.36%, Nasdaq -1.46%.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html"
+    },
+    {
+      "text": "Gas prices at $3.84/gallon nationwide \u2014 up 92 cents in a month. Diesel above $5/gallon for first time since 2022 inflation surge. PPI jumps 0.7%, doubling expectations.",
+      "source": "NPR / ABC7",
+      "sourceUrl": "https://abc7.com/post/fed-holds-interest-rates-steady-1st-move-war-iran-spiked-oil-prices/18730613/"
     }
   ],
   "totals": {
@@ -748,8 +763,8 @@
     "combinedTotalCosts": 143240000000,
     "globalEconomicImpact": 850000000000,
     "description": "Combined direct military ($33.8B) + indirect economic costs ($109.4B) for all three belligerents through Day 19.",
-    "lastCalculated": "2026-03-18T14:29:00Z"
+    "lastCalculated": "2026-03-19T01:15:00Z"
   },
   "daysOfConflict": 19,
-  "lastUpdated": "2026-03-18T21:09:00Z"
+  "lastUpdated": "2026-03-19T01:15:00Z"
 }

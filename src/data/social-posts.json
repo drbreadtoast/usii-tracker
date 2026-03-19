@@ -1,55 +1,5 @@
 [
   {
-    "id": "social-091",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "French President Macron declared after G7 video call that 'No one can tell what US President Trump wants from this ongoing war with Iran.' Israeli officials provided conflicting war objectives to G7 leaders.",
-    "timestamp": "2026-03-17T21:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Macron statement after G7 call confirmed by Elysee",
-    "keywords": [
-      "macron",
-      "g7",
-      "war-objectives",
-      "france"
-    ]
-  },
-  {
-    "id": "social-099",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "Trump responds to Joe Kent resignation: says Kent was 'weak on security' and a 'known leaker' who had been cut out of POTUS intelligence briefings months ago. Senior admin official tells Fox that Kent had no involvement in Iran planning.",
-    "timestamp": "2026-03-18T01:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trump's response confirmed by Fox News and Townhall reporting",
-    "keywords": [
-      "joe-kent",
-      "resignation",
-      "trump",
-      "nctc",
-      "leaker"
-    ]
-  },
-  {
-    "id": "social-100",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "sourceCategory": "osint_analyst",
-    "text": "Chaharshanbe Suri unfolding in Iran tonight under near-total internet blackout. Tehran streets largely quiet but fires and fireworks reported from apartment windows. Government sent mass text warnings threatening imprisonment and flogging for 'unconventional behaviour.'",
-    "timestamp": "2026-03-18T00:30:00Z",
-    "verificationStatus": "likely",
-    "verificationNote": "AFP reporting from Iran, IranWire and Iran International coverage. Internet blackout limits verification.",
-    "keywords": [
-      "chaharshanbe-suri",
-      "iran",
-      "protests",
-      "tehran",
-      "fire-festival"
-    ]
-  },
-  {
     "id": "social-101",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
@@ -298,6 +248,96 @@
       "nuclear",
       "isfahan",
       "enrichment"
+    ]
+  },
+  {
+    "id": "social-117",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Senate defeats Booker war powers resolution 53-47 for third time. Democrats pledge weekly votes. Gabbard told Senate Iran regime 'intact but largely degraded.'",
+    "timestamp": "2026-03-19T00:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News confirmed",
+    "keywords": [
+      "senate",
+      "war-powers",
+      "gabbard"
+    ]
+  },
+  {
+    "id": "social-118",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "sourceCategory": "osint_analyst",
+    "text": "Trump issues 60-day Jones Act waiver for foreign ships. Treasury eases Venezuela PDVSA sanctions. Analysts say combined gas price impact ~3 cents/gal.",
+    "timestamp": "2026-03-18T23:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed",
+    "keywords": [
+      "jones-act",
+      "venezuela",
+      "energy"
+    ]
+  },
+  {
+    "id": "social-119",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "UANI identifies 25 Iranian tankers in Gulf carrying ~20M barrels ($1B+ revenue for IRGC). 7 dark fleet tankers heading to Malaysia for China-bound transfers.",
+    "timestamp": "2026-03-18T22:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "UANI report confirmed",
+    "keywords": [
+      "tankers",
+      "iran-oil",
+      "dark-fleet"
+    ]
+  },
+  {
+    "id": "social-120",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Fed holds rates at 3.5-3.75%. Dow crashes 768 points. Hot PPI at 0.7%. Only 1 cut projected for 2026. Markets fear stagflation.",
+    "timestamp": "2026-03-19T00:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed",
+    "keywords": [
+      "fed",
+      "markets",
+      "stagflation"
+    ]
+  },
+  {
+    "id": "social-121",
+    "handle": "@Conflicts",
+    "displayName": "Conflicts Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "Riyadh emergency meeting of 10+ Arab/Islamic FMs convenes without US. Missile alerts sound in Saudi capital during session. Germany's Merz openly criticizes war.",
+    "timestamp": "2026-03-18T21:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "US News confirmed",
+    "keywords": [
+      "riyadh",
+      "diplomacy",
+      "germany"
+    ]
+  },
+  {
+    "id": "social-122",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "Speaker Johnson says 'mission just about accomplished' but Hormuz 'dragging it out.' WFP warns 45M more could face acute hunger if war continues through June.",
+    "timestamp": "2026-03-19T01:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNN confirmed",
+    "keywords": [
+      "johnson",
+      "wfp",
+      "hunger"
     ]
   }
 ]
