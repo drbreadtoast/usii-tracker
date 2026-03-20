@@ -8782,5 +8782,206 @@
       "naval-escort"
     ],
     "casualties": null
+  },
+  {
+    "id": "evt-new-244",
+    "title": "Hegseth announces 'largest strike package yet' against Iran",
+    "description": "Defense Secretary Pete Hegseth announced the US will launch its 'largest strike package yet' against Iran. Said US has struck over 7,800 targets, destroyed all 11 Iranian subs, sunk or damaged 120+ warships, hit 40+ mine-laying vessels. Pentagon requesting $200B war supplemental from Congress. 'It takes money to kill bad guys.'",
+    "type": "strike",
+    "lat": 32.42,
+    "lng": 53.69,
+    "location": "Iran (nationwide)",
+    "timestamp": "2026-03-19T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/hegseth-caine-iran-war-update-briefing-2026-03-19/"
+      },
+      {
+        "name": "Military.com",
+        "url": "https://www.military.com/daily-news/headlines/2026/03/19/hegseth-signals-massive-iran-strike-war-escalates.html"
+      }
+    ],
+    "tags": ["hegseth", "pentagon", "strike-package", "war-funding", "operation-epic-fury"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-245",
+    "title": "IDF strikes 200+ targets including first Bandar Anzali strike on Caspian coast",
+    "description": "IDF struck over 200 targets in western and central Iran including missile storage, UAV facilities, air defense systems, and weapons production sites. First-ever strike on Bandar Anzali on the Caspian Sea coast — 5 Iranian Navy missile boats, a headquarters, and a shipyard destroyed. Joint Chiefs Chairman Caine said forces striking 'deeper' into Iran using 5,000-lb bunker busters.",
+    "type": "strike",
+    "lat": 37.47,
+    "lng": 49.46,
+    "location": "Bandar Anzali, Caspian coast, Iran",
+    "timestamp": "2026-03-19T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Alma Research Center",
+        "url": "https://israel-alma.org/daily-report-the-second-iran-war-march-19-2026-1800/"
+      }
+    ],
+    "tags": ["idf", "bandar-anzali", "caspian", "naval-targets", "bunker-busters"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-246",
+    "title": "Iran executes 3 men linked to January protests, including 19-year-old wrestler",
+    "description": "Iran executed three men in Qom in connection with January 2026 nationwide anti-government protests, including a 19-year-old wrestler whose conviction drew US criticism. Rights groups described the trials as shams based on forced confessions and torture. First public hangings linked to the protest crackdown.",
+    "type": "humanitarian",
+    "lat": 34.64,
+    "lng": 50.88,
+    "location": "Qom, Iran",
+    "timestamp": "2026-03-19T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "ABC News",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=131108492"
+      }
+    ],
+    "tags": ["executions", "protests", "human-rights", "qom"],
+    "casualties": { "killed": 3 }
+  },
+  {
+    "id": "evt-new-247",
+    "title": "Qatar expels Iranian military and security personnel",
+    "description": "Qatar declared Iranian military and security forces 'persona non grata,' giving them 24 hours to leave the country. Qatar called the Ras Laffan assault 'a dangerous escalation, a flagrant violation of its sovereignty.' Qatar had remained neutral since war began but said Iranian forces 'continuously targeted' it and neighbors.",
+    "type": "diplomatic",
+    "lat": 25.29,
+    "lng": 51.53,
+    "location": "Doha, Qatar",
+    "timestamp": "2026-03-19T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "qatar",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/qatar-expels-iranian-attaches-after-lng-facility-strike"
+      },
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/19/qatar-expels-officials-from-irans-embassy-after-attacks-on-ras-laffan-gas-field"
+      }
+    ],
+    "tags": ["qatar", "diplomacy", "expulsion", "persona-non-grata"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-248",
+    "title": "Canada joins 7-nation Hormuz joint statement with UK, France, Germany, Italy, Netherlands, Japan",
+    "description": "Canada joined the joint statement on the Strait of Hormuz, expanding the coalition to 7 nations. Leaders expressed 'readiness to contribute to appropriate efforts to ensure safe passage.' Called for immediate moratorium on attacks on civilian infrastructure including oil and gas installations. Marked shift from earlier European reluctance to join naval operations.",
+    "type": "diplomatic",
+    "lat": 26.57,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-03-19T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/government/news/joint-statement-from-the-leaders-of-the-united-kingdom-france-germany-italy-the-netherlands-and-japan-on-the-strait-of-hormuz-19-march-2026"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/19/european-nations-japan-to-join-appropriate-efforts-to-open-hormuz-strait"
+      }
+    ],
+    "tags": ["hormuz", "joint-statement", "canada", "naval-coalition", "infrastructure-moratorium"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-249",
+    "title": "IMO to negotiate humanitarian corridor for 20,000 stranded seafarers in Gulf",
+    "description": "The UN's International Maritime Organization announced it will begin negotiating with countries to establish a humanitarian corridor to free approximately 20,000 seafarers stranded in the Gulf by the war and Hormuz blockade.",
+    "type": "humanitarian",
+    "lat": 26.57,
+    "lng": 56.25,
+    "location": "Persian Gulf / Strait of Hormuz",
+    "timestamp": "2026-03-19T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-19-26"
+      }
+    ],
+    "tags": ["imo", "humanitarian", "seafarers", "hormuz", "blockade"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-250",
+    "title": "State Department approves arms sales to Gulf countries",
+    "description": "The US State Department approved new arms sales to Gulf countries amid ongoing Iranian attacks on their energy infrastructure and territory. Move comes as Gulf states face continued Iranian missile and drone strikes on oil, gas, and refinery facilities.",
+    "type": "diplomatic",
+    "lat": 38.9,
+    "lng": -77.04,
+    "location": "Washington, D.C.",
+    "timestamp": "2026-03-19T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NewsNation",
+        "url": "https://www.newsnationnow.com/world/iran-war-saudi-arabia-refinery-israel-epic-fury-live-updates/"
+      }
+    ],
+    "tags": ["arms-sales", "gulf-states", "state-department"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-251",
+    "title": "IAF choosing not to intercept some Iranian cluster bomblets to conserve interceptors",
+    "description": "Israeli Air Force has begun making tactical decisions not to shoot down some Iranian cluster submunitions to conserve interceptor missiles. About half of Iranian missiles since Feb 28 carry cluster warheads with ~24 submunitions each, breaking apart at 7-10 km altitude. Overall interception rate for missiles targeting populated areas: 90%.",
+    "type": "strike",
+    "lat": 32.09,
+    "lng": 34.77,
+    "location": "Israel (nationwide air defense)",
+    "timestamp": "2026-03-19T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/to-conserve-interceptors-iaf-choosing-not-to-shoot-down-some-iranian-cluster-bomblets/"
+      }
+    ],
+    "tags": ["air-defense", "cluster-munitions", "iron-dome", "interceptors", "iaf"],
+    "casualties": null
+  },
+  {
+    "id": "evt-new-252",
+    "title": "Joe Kent under FBI investigation for classified Iran war leaks",
+    "description": "Former National Counterterrorism Center Director Joe Kent is under FBI investigation for alleged leaks of classified information related to the Iran war. Kent resigned earlier this week over the Trump administration's handling of the conflict.",
+    "type": "diplomatic",
+    "lat": 38.9,
+    "lng": -77.04,
+    "location": "Washington, D.C.",
+    "timestamp": "2026-03-19T22:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/hegseth-caine-iran-war-update-briefing-2026-03-19/"
+      }
+    ],
+    "tags": ["fbi", "joe-kent", "leaks", "classified", "nctc"],
+    "casualties": null
   }
 ]
