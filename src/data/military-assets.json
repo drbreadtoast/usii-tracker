@@ -67,7 +67,7 @@
     "lat": 27.5,
     "lng": 55,
     "status": "Deployed",
-    "description": "Ohio-class guided-missile submarine. Carries up to 154 Tomahawk cruise missiles. Position approximate — exact location classified. Confirmed deployed to CENTCOM area of operations by Pentagon.",
+    "description": "Ohio-class guided-missile submarine. Carries up to 154 Tomahawk cruise missiles. Position approximate \u2014 exact location classified. Confirmed deployed to CENTCOM area of operations by Pentagon.",
     "source": "Department of Defense",
     "sourceUrl": "https://www.defense.gov"
   },
@@ -118,5 +118,16 @@
     "description": "Dolphin-class submarine, one of Israel's most capable naval assets. Position approximate. Widely reported to be capable of launching nuclear-armed cruise missiles, providing Israel's sea-based deterrent.",
     "source": "IISS Military Balance",
     "sourceUrl": "https://www.iiss.org/publications/the-military-balance"
+  },
+  {
+    "id": "asset-us-lhd-4",
+    "name": "USS Boxer ARG + 11th MEU",
+    "type": "amphibious_ready_group",
+    "country": "us",
+    "lat": 20.0,
+    "lng": 65.0,
+    "description": "USS Boxer (LHD-4), USS Portland, USS Comstock with 11th MEU. ~4,000 personnel with F-35Bs. Departed San Diego March 18, transiting to Middle East.",
+    "status": "deploying",
+    "lastUpdated": "2026-03-20T10:33:00Z"
   }
 ]

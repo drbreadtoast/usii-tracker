@@ -15,7 +15,7 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-20T02:45:00Z",
+    "lastUpdated": "2026-03-20T10:33:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
     "totalStatements": 160,
     "dateRange": {
@@ -451,6 +451,28 @@
           "factCheckNote": "Gas prices up 20%+, oil hit $119 intraday. 'Not putting troops anywhere' contradicts 2,200 Marines deployment. No timeline given for 'pretty soon.'",
           "source": "CBS News",
           "sourceUrl": "https://www.cbsnews.com/live-updates/iran-war-us-israel-persian-gulf-strait-of-hormuz-trump-netanyahu/"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "Israel 'out of anger for what has taken place in the Middle East, has violently lashed out' at South Pars Gas Field. US 'knew nothing about this particular attack.'",
+          "context": "Truth Social post",
+          "venue": "Truth Social",
+          "factCheck": "misleading",
+          "factCheckNote": "Sources contradicted claim US didn't know in advance",
+          "source": "CNN",
+          "sourceUrl": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26",
+          "id": "trump-051"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "Threatened to 'massively blow up the entirety' of South Pars if Iran attacks Qatar again. Said NO US ground troops. Invoked Pearl Harbor during Japan PM meeting.",
+          "context": "White House remarks with Japan PM Takaichi",
+          "venue": "White House",
+          "factCheck": "verified",
+          "factCheckNote": "Broadcast remarks",
+          "source": "NPR",
+          "sourceUrl": "https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks",
+          "id": "trump-052"
         }
       ]
     },
@@ -549,6 +571,17 @@
           "factCheckDetail": "Critics pointed out the contradiction between calling for restraint while simultaneously authorizing emergency weapons shipments to Israel. The U.S. also vetoed a ceasefire resolution at the same Security Council session.",
           "sourceUrl": "https://press.un.org/en/2026/sc16307.doc.htm",
           "sourceName": "UN Security Council Press Release"
+        },
+        {
+          "date": "2026-03-17",
+          "text": "Ordered all embassies to urge allies to pressure Iran 'at highest level' by March 20. Iran 'more sensitive to collective action.'",
+          "context": "Diplomatic cable",
+          "venue": "State Department",
+          "factCheck": "verified",
+          "factCheckNote": "ABC News obtained cable",
+          "source": "ABC News",
+          "sourceUrl": "https://abcnews.com/Politics/rubio-orders-us-diplomats-push-countries-swift-action/story?id=131127950",
+          "id": "rubio-009"
         }
       ]
     },
@@ -735,6 +768,17 @@
           "factCheckNote": "Pentagon briefing aired live",
           "source": "CBS News",
           "sourceUrl": "https://www.cbsnews.com/news/hegseth-caine-iran-war-update-briefing-2026-03-19/"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "$200B supplemental: 'That number could move. It takes money to kill bad guys.' NOT a 'forever war or quagmire.' No timeline for end. Over 7,000 targets struck.",
+          "context": "Pentagon briefing",
+          "venue": "Pentagon",
+          "factCheck": "verified",
+          "factCheckNote": "Briefing broadcast",
+          "source": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn",
+          "id": "hegseth-021"
         }
       ]
     },
@@ -993,6 +1037,28 @@
           "factCheckNote": "No evidence provided for uranium enrichment claim. IAEA chief Grossi: 'the material will still be there.' Ground offensive claim represents major policy shift.",
           "source": "CNBC",
           "sourceUrl": "https://www.cnbc.com/2026/03/19/netanyahu-says-iran-no-longer-has-uranium-enrichment-capacity.html"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "Iran can no longer enrich uranium or produce ballistic missiles. Regime change requires 'ground component.' On South Pars: 'Israel acted alone. President Trump asked us to hold off, and we're holding off.'",
+          "context": "2nd press conference since war",
+          "venue": "Jerusalem",
+          "factCheck": "unverified",
+          "factCheckNote": "Nuclear/missile claims unverified independently",
+          "source": "Times of Israel",
+          "sourceUrl": "https://www.timesofisrael.com/on-19th-day-of-war-netanyahu-says-iran-can-no-longer-enrich-uranium-build-missiles/",
+          "id": "netanyahu-021"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "Mocked Mojtaba: 'I am not sure who is ruling Iran. Mojtaba, the replacement Ayatollah, has yet to appear.' Denied dragging US into war.",
+          "context": "Press conference",
+          "venue": "Jerusalem",
+          "factCheck": "verified",
+          "factCheckNote": "Broadcast live",
+          "source": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/03/19/netanyahu-trump-us-israel-iran-ground-component.html",
+          "id": "netanyahu-022"
         }
       ]
     },
@@ -1492,6 +1558,17 @@
           "factCheckNote": "Multiple EU press pool reports",
           "source": "Al Jazeera",
           "sourceUrl": "https://www.aljazeera.com/news/2026/3/19/european-nations-japan-to-join-appropriate-efforts-to-open-hormuz-strait"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "EU 'no appetite' to join military campaign. European Council: moratorium on energy/water strikes, reopen Hormuz. ECB: 'material impact on near-term inflation.'",
+          "context": "European Council summit",
+          "venue": "Brussels",
+          "factCheck": "verified",
+          "factCheckNote": "Council conclusions published",
+          "source": "European Council",
+          "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/19/european-council-conclusions-on-middle-east/",
+          "id": "kallas-021"
         }
       ]
     },
@@ -1573,6 +1650,17 @@
           "factCheckNote": "Confirmed by multiple outlets",
           "source": "India TV News",
           "sourceUrl": "https://www.indiatvnews.com/news/world/not-right-time-for-peace-mojtaba-khamenei-vows-to-bring-us-israel-to-knees-as-conflict-rages-2026-03-17-1034082"
+        },
+        {
+          "date": "2026-03-20",
+          "text": "Nowruz message: enemies' 'security must be taken away.' Read by TV anchor with still photo \u2014 has NOT appeared in person since becoming Supreme Leader.",
+          "context": "Nowruz statement to Pezeshkian",
+          "venue": "Tehran (message)",
+          "factCheck": "verified",
+          "factCheckNote": "Statement confirmed; absence noted by multiple outlets",
+          "source": "Euronews",
+          "sourceUrl": "https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf",
+          "id": "mojtaba_khamenei-016"
         }
       ]
     },
@@ -1794,6 +1882,17 @@
           "factCheckNote": "Posted on official Araghchi account",
           "source": "Al Jazeera",
           "sourceUrl": "https://www.aljazeera.com/news/2026/3/19/iran-attacks-cut-17-of-qatars-lng-capacity-for-up-to-5-years-qatarenergy"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "Rejected ceasefire: 'We do not want this scenario repeated.' Nuclear material 'under the rubbles' with 'no plan to recover.' Negotiations 'off the table.'",
+          "context": "Talk to Al Jazeera interview",
+          "venue": "Al Jazeera",
+          "factCheck": "verified",
+          "factCheckNote": "Interview broadcast live",
+          "source": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/3/18/this-is-americas-war-irans-foreign-minister-araghchi",
+          "id": "araghchi-021"
         }
       ]
     },
@@ -1873,6 +1972,17 @@
           "factCheckNote": "Vatican Press Office confirmed the Pope's direct calls to both heads of state. This represents an unprecedented level of papal diplomatic engagement.",
           "source": "Vatican News",
           "sourceUrl": "https://www.vaticannews.va/en.html"
+        },
+        {
+          "date": "2026-03-19",
+          "text": "Cardinal Parolin: Would urge Trump 'to stop as soon as possible, danger of escalation imminent.' Rejected 'preventive war' justification.",
+          "context": "Vatican Secretary of State remarks",
+          "venue": "Vatican",
+          "factCheck": "verified",
+          "factCheckNote": "CathNews, NCR confirmed",
+          "source": "CathNews",
+          "sourceUrl": "https://cathnews.com/2026/03/20/vatican-secretary-of-state-calls-for-end-to-iran-war/",
+          "id": "pope_leo-006"
         }
       ]
     },

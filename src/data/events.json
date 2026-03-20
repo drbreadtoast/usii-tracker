@@ -9126,5 +9126,408 @@
     "casualties": {
       "killed": 20
     }
+  },
+  {
+    "id": "evt-new-256",
+    "title": "IRGC Spokesperson Gen. Naeini killed in Israeli airstrike",
+    "description": "IDF killed IRGC spokesperson Brig. Gen. Ali Mohammad Naeini in overnight airstrike targeting command centers in Tehran/Karaj region. He had hours earlier claimed Iran was still producing missiles. 4th senior Iranian official killed this week after Larijani, Soleimani, and Khatib.",
+    "type": "strike",
+    "lat": 35.83,
+    "lng": 51.01,
+    "location": "Tehran/Karaj, Iran",
+    "timestamp": "2026-03-20T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/20/iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted"
+      },
+      {
+        "name": "WION News",
+        "url": "https://www.wionews.com/world/iran-confirms-irgc-spokesperson-brig-gen-ali-mohammad-naeini-killed-in-us-israeli-airstrikes-1773995438516/amp"
+      }
+    ],
+    "tags": [
+      "irgc",
+      "tehran",
+      "leadership-kill",
+      "naeini",
+      "day-21"
+    ],
+    "casualties": {
+      "killed": 1
+    }
+  },
+  {
+    "id": "evt-new-257",
+    "title": "Israel strikes Tehran on Nowruz \u2014 wave of attacks on Persian New Year",
+    "description": "Israel pounded Tehran with airstrikes Friday morning as Iranians marked Nowruz. IDF announced 'wave of strikes targeting infrastructure of the Iranian terror regime.' Multiple explosions reported across the capital.",
+    "type": "strike",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-20T05:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-20/ty-article-live/idf-launches-wave-of-strikes-against-iranian-terror-regime-in-tehran/0000019d-0935-d46f-affd-99bfd1a60000"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26"
+      }
+    ],
+    "tags": [
+      "tehran",
+      "nowruz",
+      "airstrikes",
+      "day-21"
+    ]
+  },
+  {
+    "id": "evt-new-258",
+    "title": "Kuwait Mina Al-Ahmadi refinery hit again by Iranian drones",
+    "description": "Two waves of Iranian drone strikes hit Kuwait's largest refinery (730K bpd) for second consecutive day, sparking fires. Several units shut down as precaution. No casualties reported.",
+    "type": "strike",
+    "lat": 29.06,
+    "lng": 48.17,
+    "location": "Mina Al-Ahmadi, Kuwait",
+    "timestamp": "2026-03-20T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/us/articles/2026-03-20/kuwait-says-its-mina-al-ahmadi-refinery-again-hit-in-iranian-drone-attacks-starting-fire"
+      },
+      {
+        "name": "Argus Media",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803125-refineries-in-kuwait-saudi-arabia-hit-by-drones"
+      }
+    ],
+    "tags": [
+      "kuwait",
+      "refinery",
+      "drone",
+      "energy-infrastructure",
+      "day-21"
+    ]
+  },
+  {
+    "id": "evt-new-259",
+    "title": "Saudi SAMREF refinery at Yanbu hit by Iranian drone",
+    "description": "Drone struck SAMREF refinery (Saudi Aramco/ExxonMobil JV, 400K bpd) in Red Sea port of Yanbu. Saudi air defenses also intercepted ballistic missile targeting Yanbu Port and drones over Riyadh and Eastern Province.",
+    "type": "strike",
+    "lat": 24.09,
+    "lng": 38.06,
+    "location": "Yanbu, Saudi Arabia",
+    "timestamp": "2026-03-19T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Arabiya",
+        "url": "https://english.alarabiya.net/News/saudi-arabia/2026/03/19/drone-crashes-in-refinery-in-saudi-arabia-s-yanbu-assessment-underway-"
+      },
+      {
+        "name": "Saudi Gazette",
+        "url": "https://saudigazette.com.sa/article/659865/saudi-arabia/saudi-intercepts-missile-drones-as-uav-falls-at-yanbu-refinery"
+      }
+    ],
+    "tags": [
+      "saudi",
+      "yanbu",
+      "refinery",
+      "drone",
+      "energy-infrastructure",
+      "day-20"
+    ]
+  },
+  {
+    "id": "evt-new-260",
+    "title": "Dubai explosions \u2014 UAE air defenses intercept Iranian fire on Eid",
+    "description": "Heavy explosions shook Dubai as UAE air defenses intercepted incoming Iranian fire during Eid al-Fitr celebrations. Dubai Media Office confirmed explosions were from successful interceptions.",
+    "type": "strike",
+    "lat": 25.2,
+    "lng": 55.27,
+    "location": "Dubai, UAE",
+    "timestamp": "2026-03-20T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf"
+      }
+    ],
+    "tags": [
+      "dubai",
+      "uae",
+      "interception",
+      "eid",
+      "day-21"
+    ]
+  },
+  {
+    "id": "evt-new-261",
+    "title": "Bahrain warehouse fire from intercepted Iranian projectile shrapnel",
+    "description": "Bahrain Interior Ministry reported warehouse fire from shrapnel of intercepted Iranian projectile. Civil defense extinguished blaze, no injuries. Bahrain total interceptions since war start: 139 missiles, 238 drones.",
+    "type": "strike",
+    "lat": 26.07,
+    "lng": 50.55,
+    "location": "Bahrain",
+    "timestamp": "2026-03-20T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Anadolu Agency",
+        "url": "https://www.aa.com.tr/en/middle-east/bahrain-says-warehouse-caught-fire-after-shrapnel-fell-during-iranian-attack/3872402"
+      }
+    ],
+    "tags": [
+      "bahrain",
+      "interception",
+      "shrapnel",
+      "day-21"
+    ]
+  },
+  {
+    "id": "evt-new-262",
+    "title": "Saudi Arabia intercepts missile over Al Jouf region",
+    "description": "Saudi air defenses intercepted an Iranian missile over the northern Al Jouf region on Day 21.",
+    "type": "strike",
+    "lat": 29.8,
+    "lng": 40.1,
+    "location": "Al Jouf, Saudi Arabia",
+    "timestamp": "2026-03-20T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks"
+      }
+    ],
+    "tags": [
+      "saudi",
+      "al-jouf",
+      "interception",
+      "day-21"
+    ]
+  },
+  {
+    "id": "evt-new-263",
+    "title": "USS Boxer ARG + 11th MEU departs San Diego for Middle East",
+    "description": "USS Boxer Amphibious Ready Group (Boxer, Portland, Comstock) with 11th MEU (~4,000 personnel with F-35s) departed San Diego ahead of schedule. Joins ~50,000 US troops in region. Second MEU deployment to theater.",
+    "type": "naval",
+    "lat": 32.68,
+    "lng": -117.23,
+    "location": "San Diego, CA",
+    "timestamp": "2026-03-18T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/international/article-890630"
+      },
+      {
+        "name": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com/policy/defense/4498353/us-deployment-thousands-marines-sailors-iran/"
+      }
+    ],
+    "tags": [
+      "navy",
+      "uss-boxer",
+      "11th-meu",
+      "deployment",
+      "marines"
+    ]
+  },
+  {
+    "id": "evt-new-264",
+    "title": "Netanyahu agrees to halt strikes on Iran energy sites after Trump demand",
+    "description": "Netanyahu said Israel will comply with Trump's demand to stop attacking Iran energy infrastructure after South Pars gas field strike. Netanyahu: 'Israel acted alone. President Trump asked us to hold off.' Trump: 'I told him, don't do that.'",
+    "type": "diplomatic",
+    "lat": 31.77,
+    "lng": 35.22,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-03-19T18:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-he-told-netanyahu-not-to-strike-any-more-iran-energy-sites/"
+      }
+    ],
+    "tags": [
+      "netanyahu",
+      "trump",
+      "south-pars",
+      "energy",
+      "diplomatic"
+    ]
+  },
+  {
+    "id": "evt-new-265",
+    "title": "Pentagon requests $200B supplemental war budget from Congress",
+    "description": "Pentagon asked White House to approve $200+ billion supplemental request to Congress for Iran war. Hegseth: 'That number could move. It takes money to kill bad guys.' First 100 hours cost $3.7B; first 12 days cost $16.5B per CSIS.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.06,
+    "location": "Washington, DC",
+    "timestamp": "2026-03-19T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/"
+      },
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/2026/03/19/200-billion-iran-war-funding-pete-hegseth-donald-trump/"
+      }
+    ],
+    "tags": [
+      "pentagon",
+      "budget",
+      "200-billion",
+      "hegseth",
+      "congress"
+    ]
+  },
+  {
+    "id": "evt-new-266",
+    "title": "European Council calls for moratorium on energy/water facility strikes",
+    "description": "All 27 EU heads of state issued conclusions calling for de-escalation, moratorium on strikes against energy and water facilities, and reopening of Strait of Hormuz. Condemned Iran's indiscriminate strikes on Gulf states.",
+    "type": "diplomatic",
+    "lat": 50.84,
+    "lng": 4.38,
+    "location": "Brussels, Belgium",
+    "timestamp": "2026-03-19T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "European Council",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/19/european-council-conclusions-on-middle-east/"
+      }
+    ],
+    "tags": [
+      "eu",
+      "moratorium",
+      "energy",
+      "diplomacy",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "evt-new-267",
+    "title": "Mojtaba Khamenei issues Nowruz statement \u2014 still not seen in public",
+    "description": "Iran's new Supreme Leader Mojtaba Khamenei issued Nowruz statement calling for enemies' 'security to be taken away.' Message read by TV anchor with still photo \u2014 Mojtaba has still not appeared in person since becoming Supreme Leader. US officials suggest he may have been injured.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-20T06:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf"
+      },
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-20/iran-hits-kuwaiti-oil-refinery-and-explosions-boom-over-tehran-from-israeli-attack"
+      }
+    ],
+    "tags": [
+      "mojtaba-khamenei",
+      "nowruz",
+      "supreme-leader",
+      "missing"
+    ]
+  },
+  {
+    "id": "evt-new-268",
+    "title": "Araghchi rejects ceasefire \u2014 'negotiations off the table'",
+    "description": "Iran FM Abbas Araghchi rejected ceasefire: 'We are not seeking a cease-fire because we do not want this scenario to be repeated again.' Cited bitter experience of US attacking during negotiations. On nuclear material: 'under the rubbles' with 'no plan to recover.'",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-19T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Time Magazine",
+        "url": "https://time.com/article/2026/03/18/iran-war-united-states-warning-ceasefire-strikes-escalation/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/3/18/this-is-americas-war-irans-foreign-minister-araghchi"
+      }
+    ],
+    "tags": [
+      "araghchi",
+      "ceasefire",
+      "nuclear",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "evt-new-269",
+    "title": "Gabbard testimony: Iran NOT rebuilding enrichment before war",
+    "description": "DNI Tulsi Gabbard testified Iran's regime is 'intact but largely degraded.' Intel community assessed Iran was NOT rebuilding enrichment capabilities before war \u2014 undercutting Trump's key justification. Joe Kent resigned from NCTC, saying Iran 'posed no imminent threat.'",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "Washington, DC (Senate)",
+    "timestamp": "2026-03-18T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Foreign Policy",
+        "url": "https://foreignpolicy.com/2026/03/19/iran-war-tulsi-gabbard-intelligence-senate-testimony/"
+      },
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/national-security/2026/03/18/tulsi-gabbard-iran-intelligence-hearing/"
+      }
+    ],
+    "tags": [
+      "gabbard",
+      "intelligence",
+      "enrichment",
+      "joe-kent",
+      "senate"
+    ]
   }
 ]

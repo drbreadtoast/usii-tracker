@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-20T02:45:00Z",
+    "lastUpdated": "2026-03-20T10:33:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,8 +27,8 @@
     ]
   },
   "summary": {
-    "totalSites": 133,
-    "confirmed": 123,
+    "totalSites": 137,
+    "confirmed": 127,
     "reported": 6,
     "rumored": 3,
     "countriesAffected": 14,
@@ -2202,6 +2202,58 @@
       "sourceUrl": "https://www.cnbc.com/2026/03/19/iran-attack-qatar-lng-capacity.html",
       "severity": "severe",
       "repairEstimate": "3-5 years"
+    },
+    {
+      "id": "dmg-138",
+      "name": "IRGC Command Center, Tehran/Karaj",
+      "country": "Iran",
+      "lat": 35.83,
+      "lng": 51.01,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-20",
+      "description": "IRGC command center struck \u2014 spokesman Gen. Naeini killed. Facility destroyed.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/20/iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted"
+    },
+    {
+      "id": "dmg-139",
+      "name": "Mina Al-Ahmadi Refinery (Day 2), Kuwait",
+      "country": "Kuwait",
+      "lat": 29.06,
+      "lng": 48.17,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-20",
+      "description": "730K bpd refinery hit by Iranian drones for 2nd consecutive day. Multiple fires, units shut down.",
+      "source": "US News",
+      "sourceUrl": "https://www.usnews.com/news/us/articles/2026-03-20/kuwait-says-its-mina-al-ahmadi-refinery-again-hit-in-iranian-drone-attacks-starting-fire"
+    },
+    {
+      "id": "dmg-140",
+      "name": "SAMREF Refinery, Yanbu, Saudi Arabia",
+      "country": "Saudi Arabia",
+      "lat": 24.09,
+      "lng": 38.06,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-19",
+      "description": "400K bpd refinery (Aramco/ExxonMobil JV) struck by Iranian drone. Oil loading continued normally.",
+      "source": "Al Arabiya",
+      "sourceUrl": "https://english.alarabiya.net/News/saudi-arabia/2026/03/19/drone-crashes-in-refinery-in-saudi-arabia-s-yanbu-assessment-underway-"
+    },
+    {
+      "id": "dmg-141",
+      "name": "Warehouse, Bahrain",
+      "country": "Bahrain",
+      "lat": 26.07,
+      "lng": 50.55,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-20",
+      "description": "Company warehouse caught fire from shrapnel of intercepted Iranian projectile. Extinguished, no injuries.",
+      "source": "Anadolu Agency",
+      "sourceUrl": "https://www.aa.com.tr/en/middle-east/bahrain-says-warehouse-caught-fire-after-shrapnel-fell-during-iranian-attack/3872402"
     }
   ]
 }

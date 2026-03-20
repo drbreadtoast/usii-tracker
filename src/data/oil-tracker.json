@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-19T21:08:00Z",
+    "lastUpdated": "2026-03-20T10:33:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,19 +72,19 @@
       }
     },
     "current": {
-      "date": "2026-03-19",
-      "label": "Active Conflict \u2014 Day 20 (Evening)",
+      "date": "2026-03-20",
+      "label": "Day 21 (Morning)",
       "wti": {
-        "price": 96.14,
-        "change": "+27.3%",
-        "changeDollars": "+$20.64"
+        "price": 93.55,
+        "change": "+23.9%",
+        "changeDollars": "+$18.05"
       },
       "brent": {
-        "price": 108.65,
-        "change": "+36.2%",
-        "changeDollars": "+$28.85"
+        "price": 110.71,
+        "change": "+38.7%",
+        "changeDollars": "+$30.91"
       },
-      "changePercent": "+36.2%"
+      "changePercent": "+38.7%"
     },
     "priceHistory": [
       {
@@ -256,6 +256,12 @@
         "brent": 108.65,
         "label": "Day 20 PM \u2014 Brent spikes $119 on Ras Laffan strike, settles $108.65; 7-nation Hormuz coalition; QatarEnergy 17% LNG offline",
         "isEvent": true
+      },
+      {
+        "date": "2026-03-20",
+        "brent": 110.71,
+        "wti": 93.55,
+        "label": "Day 21 (Morning)"
       }
     ],
     "historicalComparisons": [
@@ -388,7 +394,7 @@
   ],
   "hormuzImpact": {
     "status": "effectively_closed",
-    "blockadeDayCount": 17,
+    "blockadeDayCount": 18,
     "blockadeStartDate": "2026-03-03",
     "barrelsBlockedDaily": 21000000,
     "breakdownBlocked": {
@@ -453,8 +459,7 @@
         },
         "current": {
           "price": 3.88,
-          "change": "+$0.70",
-          "changeDollars": "+$0.70"
+          "change": "+22.0%"
         },
         "change": "+$0.70",
         "changePercent": "+22.0%",
@@ -470,8 +475,7 @@
         },
         "current": {
           "price": 5.07,
-          "change": "+33.4%",
-          "changeDollars": "+$1.27"
+          "change": "+33.4%"
         },
         "change": "+$1.27",
         "changePercent": "+33.4%",
@@ -487,7 +491,7 @@
         },
         "current": {
           "price": 4.1,
-          "date": "2026-03-06"
+          "change": "+67.3%"
         },
         "change": "+$1.65",
         "changePercent": "+67.3%",
@@ -504,7 +508,7 @@
         },
         "current": {
           "price": 5.15,
-          "date": "2026-03-06"
+          "change": "+60.9%"
         },
         "change": "+$1.95",
         "changePercent": "+60.9%",
@@ -576,14 +580,14 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.88/gallon \u2014 up 22.0% from pre-war $3.18/gal. Highest since Sep 2023. California at $5.62/gal.",
+      "fact": "$3.88/gallon \u2014 up 22.0% from pre-war $3.18 (AAA national average)",
       "detail": "Gas at $3.88/gal (March 19 AAA). Up 28\u00a2 in one week. California highest at $5.62, Oklahoma cheapest at $3.24. Brent at $108.65. Fed holds rates at 3.5-3.75%; inflation forecast raised to ~3% through late 2026. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Brent crude at $108.65/barrel (+36.2% from pre-war) and WTI at $96.14 (+27.3%). Brent spiked to $119 intraday on Ras Laffan LNG strike before settling.",
+      "fact": "Brent $110.71/barrel (+38.7%) \u2014 briefly spiked to $119.11 on March 19",
       "detail": "Brent spiked to $119 on Iran's strike on Qatar's Ras Laffan LNG facility, then pulled back to $108.65 after Netanyahu said Israel would help reopen Hormuz. Dubai crude hit record $166.80/barrel. European jet fuel at $220/barrel. Goldman Sachs warns Brent could surpass 2008's $147.50 all-time high.",
       "source": "CNBC / IEA",
       "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
@@ -606,7 +610,7 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-15/iranian-supertanker-pushes-through-hormuz-bound-for-china"
     },
     {
-      "fact": "EIA forecasts Brent to remain above $95/bbl for two months, then fall below $80 by Q3 2026",
+      "fact": "Brent $110.71/barrel (+38.7%) \u2014 briefly spiked to $119.11 on March 19",
       "source": "EIA Short-Term Energy Outlook",
       "sourceUrl": "https://www.eia.gov/outlooks/steo/"
     },
@@ -646,7 +650,7 @@
       "sourceUrl": "https://www.cnbc.com/pre-markets/"
     },
     {
-      "fact": "Treasury Secretary Bessent says US will allow Iranian oil tankers through Hormuz \u2014 oil drops 4-6% on the news",
+      "fact": "Bessent: US may unsanction 140M barrels of Iranian oil on tankers; combined with Russian unsanctioning = ~260M excess barrels",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/markets/commodities/"
     },
@@ -661,17 +665,17 @@
       "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-03-19/prices-for-oil-fuel-cargoes-smash-record-highs-as-iran-war-chokes-middle-east-supply"
     },
     {
-      "fact": "Goldman Sachs warns Brent could surpass 2008 all-time high of $147.50 if outages persist. Brent has surged ~80% since war began Feb 28.",
+      "fact": "Brent $110.71/barrel (+38.7%) \u2014 briefly spiked to $119.11 on March 19",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html"
     },
     {
-      "fact": "Bessent: US may unsanction ~140M barrels of Iranian oil stranded on tankers to lower prices for 10-14 days. 'Using Iranian barrels against the Iranians.' Also flagged potential additional SPR release beyond IEA's 400M.",
+      "fact": "Bessent: US may unsanction 140M barrels of Iranian oil on tankers; combined with Russian unsanctioning = ~260M excess barrels",
       "source": "US News / Axios",
       "sourceUrl": "https://www.usnews.com/news/top-news/articles/2026-03-19/us-may-remove-sanctions-on-iranian-oil-stranded-in-tankers-bessent-says"
     }
   ],
-  "lastUpdated": "2026-03-20T02:45:00Z",
+  "lastUpdated": "2026-03-20T10:33:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -693,6 +697,12 @@
       "wti": 96.14,
       "label": "Day 20 PM \u2014 Brent spikes to $119 on Ras Laffan strike, settles $108.65. Dubai crude record $166.80. 7-nation Hormuz coalition formed.",
       "isEvent": true
+    },
+    {
+      "date": "2026-03-20",
+      "brent": 110.71,
+      "wti": 93.55,
+      "label": "Day 21 (Morning)"
     }
   ]
 }

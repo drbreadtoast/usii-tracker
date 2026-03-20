@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-20T02:45:00Z",
+  "lastUpdated": "2026-03-20T10:33:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.08,
-      "change": "+8.2%",
-      "detail": "Chicago May wheat $6.08/bu \u2014 up from $5.62 pre-war. Black Sea exports disrupted by shipping insurance costs.",
+      "current": 5.88,
+      "change": "+4.6%",
+      "detail": "CBOT SRW May: $5.88/bu. HRW (KCBT) at $6.26. War premium fading but fertilizer cost pressures remain.",
       "source": "CME Group",
       "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/wheat.html"
     },
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.7,
-      "change": "+9.0%",
-      "detail": "May corn $4.70/bu \u2014 up from $4.31 pre-war. Ethanol demand steady, feed costs rising.",
+      "current": 4.63,
+      "change": "+7.4%",
+      "detail": "CBOT May: $4.63/bu. Export sales 32% above prior year. Cash avg $4.28.",
       "source": "CME Group",
       "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/corn.html"
     },
@@ -25,9 +25,9 @@
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": "$14.45",
-      "change": "+42.8%",
-      "detail": "Soybeans continuing to climb. Shipping insurance costs quadrupled through Strait of Hormuz. Asian import routes rerouting via Cape of Good Hope.",
+      "current": 10.51,
+      "change": "+3.9%",
+      "detail": "CBOT May: $10.51/bu. Cash avg $10.94. Fertilizer prices elevated.",
       "source": "CME Group",
       "sourceUrl": "https://www.cmegroup.com/markets/agriculture/oilseeds/soybean.html"
     },
@@ -83,10 +83,10 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": "$67",
+    "averageWeeklyIncrease": "$16",
     "preWarWeekly": "$168",
-    "currentWeekly": "$235",
-    "changePercent": "+40%"
+    "currentWeekly": "$248",
+    "changePercent": 6.9
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -96,5 +96,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Fertilizer crisis deepening: ammonia +92% YoY in Middle East, urea +70% YoY. 1/3 of world fertilizer moves through Hormuz. Palm oil surged 10%. Farmers reporting delayed/unavailable shipments. Stanford IEPR estimates additional $740/year in gas costs per household."
+  "context": "Grocery prices rose 0.4% Jan-Feb, 2.4% YoY. Ammonia prices 41% higher YoY, urea 21% higher. Diesel-driven transport costs hitting perishables. Middle East urea up $90/metric ton in one week (19%)."
 }
