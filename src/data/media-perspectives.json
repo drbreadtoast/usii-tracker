@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-20T13:30:00Z",
+  "lastUpdated": "2026-03-20T18:51:00Z",
   "categories": [
     {
       "id": "us-left",
       "label": "US Left-Leaning Media",
       "color": "#3B82F6",
-      "icon": "📺",
+      "icon": "\ud83d\udcfa",
       "outlets": [
         {
           "name": "CNN",
@@ -34,6 +34,13 @@
           "timestamp": "2026-03-20T11:00:00Z",
           "url": "https://www.cnbc.com/2026/03/19/hegseth-iran-war-budget.html",
           "summary": "Fiscal hawks in Republican Party signal resistance to $200B supplemental. Congress was not consulted on war launch."
+        },
+        {
+          "name": "Washington Post",
+          "headline": "Trump calls NATO 'COWARDS' as Iran targets Hormuz shipping on Nowruz",
+          "timestamp": "2026-03-20T16:00:00Z",
+          "url": "https://www.washingtonpost.com/national-security/2026/03/20/us-israel-iran-goals-trump-netanyahu/",
+          "summary": "Trump's Truth Social attack on NATO allies as 'COWARDS' for not helping reopen Strait of Hormuz. WaPo investigation: diverging US-Israel war objectives \u2014 US seeks disarmament, Israel pushes regime change. Day 21 Nowruz strikes continue in Tehran."
         }
       ]
     },
@@ -41,7 +48,7 @@
       "id": "us-right",
       "label": "US Right-Leaning Media",
       "color": "#EF4444",
-      "icon": "📻",
+      "icon": "\ud83d\udcfb",
       "outlets": [
         {
           "name": "Fox News",
@@ -70,6 +77,13 @@
           "timestamp": "2026-03-20T06:00:00Z",
           "url": "https://redstate.com/terichristoph/2026/03/19/hegseth-presser-march-19-n2200390",
           "summary": "Hegseth's Pentagon briefing: 7,000+ targets struck, 90% reduction in ballistic attacks on US forces, 11 Iranian subs destroyed."
+        },
+        {
+          "name": "Fox News",
+          "headline": "IDF destroys 70% of Iranian missile launchers \u2014 plans 3 more weeks through Passover",
+          "timestamp": "2026-03-20T16:30:00Z",
+          "url": "https://www.timesofisrael.com/idf-planning-3-more-weeks-of-operations-to-systematically-degrade-irans-defense-industry/",
+          "summary": "IDF claims air supremacy over most of Iran after destroying 100+ air defense systems. 70% of Iran's ~500 ballistic missile launchers degraded. IDF Brig. Gen. Defrin: campaign continues through Passover. Gen. Shekarchi killed hours after threatening tourist sites worldwide."
         }
       ]
     },
@@ -77,7 +91,7 @@
       "id": "international",
       "label": "International Media",
       "color": "#22C55E",
-      "icon": "🌍",
+      "icon": "\ud83c\udf0d",
       "outlets": [
         {
           "name": "Al Jazeera",
@@ -106,6 +120,13 @@
           "timestamp": "2026-03-20T14:00:00Z",
           "url": "https://www.euronews.com/video/2026/03/20/watch-trumps-pearl-harbor-joke-tests-us-japan-alliance-amid-iran-tensions",
           "summary": "Trump compared Iran surprise strikes to Pearl Harbor in front of Takaichi. European allies say it underscores lack of consultation."
+        },
+        {
+          "name": "BBC",
+          "headline": "Iran's Khamenei warns of 'other fronts' in Nowruz statement \u2014 still not seen publicly",
+          "timestamp": "2026-03-20T15:00:00Z",
+          "url": "https://www.aljazeera.com/news/2026/3/20/irans-khamenei-says-enemy-defeated-in-written-nowruz-message",
+          "summary": "Supreme Leader Mojtaba Khamenei's full Nowruz written statement: names 2026 'year of resistance economy under national unity.' Claims enemy made 'gross miscalculation.' Warns 'other fronts may be activated.' Has not appeared publicly since assuming power Feb 28. EU summit calls for energy site moratorium."
         }
       ]
     },
@@ -113,7 +134,7 @@
       "id": "israeli",
       "label": "Israeli Media",
       "color": "#60A5FA",
-      "icon": "🇮🇱",
+      "icon": "\ud83c\uddee\ud83c\uddf1",
       "outlets": [
         {
           "name": "Times of Israel",
@@ -142,6 +163,13 @@
           "timestamp": "2026-03-20T07:00:00Z",
           "url": "https://www.fox9.com/news/iran-war-latest-march-20-2026",
           "summary": "Day 21 coincides with Nowruz and Eid al-Fitr. Strikes across Tehran. Gulf wide-area missile and drone intercepts."
+        },
+        {
+          "name": "Haaretz",
+          "headline": "Iran fires 8th missile salvo \u2014 fragments 400m from Western Wall; Hezbollah intelligence chief killed",
+          "timestamp": "2026-03-20T16:00:00Z",
+          "url": "https://www.timesofisrael.com/liveblog-march-20-2026/",
+          "summary": "Day 21: Iran launches 8th ballistic missile salvo since midnight on Nowruz. Intercepted missile fragments land 400m from Western Wall in Jerusalem Old City. IDF kills Hezbollah intelligence chief Hussein Makled in Beirut. New evacuation orders for southern Lebanon. Israel deploys 2,500 more Marines."
         }
       ]
     },
@@ -149,11 +177,11 @@
       "id": "iranian",
       "label": "Iranian Media",
       "color": "#F97316",
-      "icon": "🇮🇷",
+      "icon": "\ud83c\uddee\ud83c\uddf7",
       "outlets": [
         {
           "name": "IRNA (Islamic Republic News Agency)",
-          "headline": "IRGC confirms martyrdom of spokesman Naini — missile production continues despite enemy strikes",
+          "headline": "IRGC confirms martyrdom of spokesman Naini \u2014 missile production continues despite enemy strikes",
           "timestamp": "2026-03-20T07:00:00Z",
           "url": "https://en.irna.ir/news/",
           "summary": "Iranian state news agency confirms Naini's death as martyrdom, insisting missile production is unaffected. Frames Nowruz strikes as 'cowardly attacks on sacred cultural holiday.'"
@@ -167,17 +195,24 @@
         },
         {
           "name": "Iran International (opposition)",
-          "headline": "Iran does not seek ceasefire but war must end, FM Araghchi says — as Israel kills 4th official in week",
+          "headline": "Iran does not seek ceasefire but war must end, FM Araghchi says \u2014 as Israel kills 4th official in week",
           "timestamp": "2026-03-20T09:00:00Z",
           "url": "https://www.iranintl.com/en",
           "summary": "Iran International reports on Araghchi's continued rejection of ceasefire talks while covering the wave of senior official killings. Mojtaba Khamenei's first public statement analyzed."
         },
         {
           "name": "Tasnim News (IRGC-affiliated)",
-          "headline": "Hezbollah fires rockets into northern Israel — confirms operations from Lebanon continuing",
+          "headline": "Hezbollah fires rockets into northern Israel \u2014 confirms operations from Lebanon continuing",
           "timestamp": "2026-03-20T06:00:00Z",
           "url": "https://www.tasnimnews.com/en",
           "summary": "IRGC-linked outlet covers Hezbollah's continued operations into northern Israel as Iran renews Gulf attacks. Claims axis of resistance 'unbowed' despite leadership losses."
+        },
+        {
+          "name": "IRNA (Islamic Republic News Agency)",
+          "headline": "Khamenei on Nowruz: Iran dealt enemy 'dizzying blow' \u2014 resistance economy will prevail",
+          "timestamp": "2026-03-20T14:00:00Z",
+          "url": "https://www.aljazeera.com/news/2026/3/20/irans-khamenei-says-enemy-defeated-in-written-nowruz-message",
+          "summary": "Iran's Supreme Leader Khamenei's Nowruz statement emphasizes Iranian resilience and 'victory.' Gen. Shekarchi claims Iran is 'producing missiles even during war conditions' (later killed). State media avoids reporting Naini assassination. Nowruz framed as celebration of resistance."
         }
       ]
     }
