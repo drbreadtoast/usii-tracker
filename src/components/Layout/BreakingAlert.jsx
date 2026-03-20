@@ -5,21 +5,23 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-007',
-    headline: 'Israel Kills Ali Larijani, Senior Iranian Leader — Iran Vows "Crushing Response"',
+    id: 'ba-008',
+    headline: 'FIRST HOSTILE HIT: US F-35 Struck by Suspected Iranian Fire — Emergency Landing, Pilot Stable',
     status: 'confirmed',
-    lastUpdated: '2026-03-17T13:19:00Z',
-    summary: 'Israel confirmed the targeted killing of Ali Larijani, former Speaker of Iran\'s Parliament and senior adviser to Supreme Leader Mojtaba Khamenei. Iran\'s Parliament Speaker Qalibaf called it a "war crime." Basij paramilitary leadership also eliminated. Cluster missiles hit central Israel.',
+    lastUpdated: '2026-03-19T22:00:00Z',
+    summary: 'A US F-35 stealth fighter was hit by suspected Iranian fire during a combat mission over Iran, forcing an emergency landing at a US air base in the Middle East. The pilot is in stable condition. CENTCOM confirmed the emergency landing but declined to confirm the cause. The IRGC claimed responsibility. This is the first time Iran has hit a US aircraft in the war — and the first confirmed hostile hit on an F-35 in combat history.',
     officialStatus: {
-      label: 'Impact — Major Escalation on Day 18',
-      detail: 'Israel expands targeting from military to political leadership.\n\nAli Larijani, one of Iran\'s most powerful political figures, was killed in a precision Israeli airstrike in Tehran. Defense Minister Katz stated: "No one in the regime is beyond our reach."\n\nLarijani served as Speaker of Parliament (2008-2020) and was a key adviser to Supreme Leader Mojtaba Khamenei. His killing marks the highest-profile political assassination since the war began.\n\nSimultaneously, Israel eliminated senior Basij paramilitary commanders in Tehran. IDF ground forces advanced into southern Lebanon (Khiam). Iranian cluster munitions hit 10+ locations in central Israel including Rishon LeZion.\n\nUS airstrikes on Arak killed 14 civilians. Fujairah oil zone struck for the 3rd consecutive day. Pope Leo XIV made urgent ceasefire appeal. David Sacks (White House AI Czar) publicly called for an "off-ramp."',
+      label: 'Impact — First Hostile F-35 Hit in History',
+      detail: 'A US F-35 stealth fighter jet made an emergency landing after being struck during a combat mission over Iran on Day 20 of the conflict.\n\nCENTCOM spokesperson Capt. Tim Hawkins confirmed the aircraft was "flying a combat mission over Iran" and landed safely. The pilot is in stable condition.\n\nThe IRGC issued a statement claiming it targeted the US aircraft. CENTCOM declined to confirm whether the damage was caused by Iranian fire.\n\nThis is historic: no F-35 has ever been confirmed struck by enemy fire in combat since the aircraft entered service in 2015. The F-35 costs upward of $100 million per unit. Both the US and Israel fly F-35s in this conflict.\n\nOther US aircraft losses in the war include 3 F-15s downed by Kuwaiti friendly fire, a KC-135 crash in Iraq killing 6 airmen, and ~12 MQ-9 Reaper drones lost. Total US KIA: 13, with ~200 wounded.',
       sources: [
-        { name: 'Times of Israel', url: 'https://www.timesofisrael.com/liveblog-march-16-2026/' },
-        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/news/2026/3/17/iran-vows-retaliation-larijani-killing' },
+        { name: 'CNN', url: 'https://www.cnn.com/2026/03/19/politics/f-35-damage-iran-war' },
+        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/news/2026/3/19/us-f-35-aircraft-makes-emergency-landing-after-a-combat-mission-over-iran' },
+        { name: 'Military Times', url: 'https://www.militarytimes.com/news/your-military/2026/03/19/us-f-35-forced-to-make-emergency-landing-after-iran-combat-mission/' },
+        { name: 'The Jerusalem Post', url: 'https://www.jpost.com/middle-east/iran-news/article-890587' },
       ]
     },
     cyberAttack: null,
-    context: 'Day 18 of the Iran-Israel war marks a significant escalation with Israel targeting Iran\'s political establishment directly. The Larijani killing follows the elimination of the original Supreme Leader Khamenei on Day 1 (Feb 28). The Strait of Hormuz remains effectively closed (Day 15 of blockade). Oil at $103.50/barrel. US gas at $3.79/gallon. Death toll: Iran 2,477 confirmed, Israel 15, US 13, Lebanon 912. EU rejects military involvement in Hormuz. G5 nations warn Israel against Lebanon escalation.'
+    context: 'Day 20 of the Iran-Israel war. The F-35 incident challenges US claims of uncontested air superiority over Iran. The Strait of Hormuz remains effectively closed (Day 17 of blockade). Oil at $108.65/barrel. US gas at $3.88/gallon. Total war costs: $144.94B. Death toll: Iran 5,332 confirmed, Israel 23, US 13 KIA, Lebanon 1,031. Hegseth announced the "largest strike package" of the war. Qatar expelled Iranian diplomats. A 7-nation Hormuz coalition is forming.'
   }
 ]
 
