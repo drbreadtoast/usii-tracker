@@ -9067,5 +9067,64 @@
       "market-intervention"
     ],
     "casualties": null
+  },
+  {
+    "id": "evt-new-254",
+    "title": "Airstrikes hit Iraq PMF brigades in Salahuddin and Nineveh \u2014 3 killed",
+    "description": "Airstrikes (attributed to US/Israel) hit Iraq's PMF 6th and 31st Brigades in Salahuddin province (Beiji HQ and Al Siniya checkpoint), killing 2 fighters. A third strike hit the PMF 4th Regiment of the 30th Brigade in Nineveh Plains, killing 1 and injuring 2.",
+    "type": "strike",
+    "lat": 34.93,
+    "lng": 43.49,
+    "location": "Beiji, Salahuddin Province, Iraq",
+    "timestamp": "2026-03-19T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The National",
+        "url": "https://www.thenationalnews.com/news/mena/2026/03/19/air-strikes-hit-iraqs-popular-mobilisation-forces-killing-at-least-one/"
+      }
+    ],
+    "tags": [
+      "iraq",
+      "pmf",
+      "beiji",
+      "nineveh",
+      "militia"
+    ],
+    "casualties": {
+      "killed": 3,
+      "injured": 2
+    }
+  },
+  {
+    "id": "evt-new-255",
+    "title": "IDF kills 20+ Hezbollah fighters in southern Lebanon \u2014 Golani Brigade",
+    "description": "IDF killed 20+ Hezbollah fighters in southern Lebanon over 24 hours. Golani Brigade engaged fighters launching anti-tank missiles. IDF issued evacuation order south of Zahrani River. Weapons confiscated including RPGs and anti-tank rockets.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.2,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-03-19T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-890494"
+      }
+    ],
+    "tags": [
+      "lebanon",
+      "hezbollah",
+      "golani",
+      "idf",
+      "zahrani"
+    ],
+    "casualties": {
+      "killed": 20
+    }
   }
 ]
