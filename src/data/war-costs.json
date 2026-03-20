@@ -37,7 +37,7 @@
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
     "lastUpdated": "2026-03-19T21:08:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 19,
+    "daysOfConflict": 20,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details."
   },
   "countryCosts": {
@@ -79,7 +79,7 @@
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$23.1B",
+        "totalFormatted": "$24.8B",
         "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon now requesting $200B+ supplemental (WaPo March 18). 250+ groups oppose additional funding.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
@@ -95,7 +95,7 @@
           },
           "oilPriceImpact": {
             "amount": 17000000000,
-            "description": "Cost to US economy from Brent at $104.17/bbl (+30.5% from pre-war $79.8). Gas at $3.84/gal national avg (+$0.66 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 rallied to 6,755 (+0.58%) ahead of Fed decision.",
+            "description": "Cost to US economy from Brent at $108.65/bbl (+36.2% from pre-war $79.8). Gas at $3.88/gal national avg (+$0.70 since war began). IEA 400M barrel + US 172M SPR barrels released. S&P 500 at 6,606 (-0.27% on Day 20). Fed holds rates at 3.5-3.75%.",
             "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
             "sourceUrl": "https://www.eia.gov/outlooks/steo/"
           },
@@ -460,9 +460,9 @@
     },
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
-    "daysDeployed": 19,
-    "totalNavalCost": 475000000,
-    "totalNavalCostNote": "Total naval deployment cost for 19 days of active conflict operations ($25M/day \u00d7 19 days)",
+    "daysDeployed": 20,
+    "totalNavalCost": 500000000,
+    "totalNavalCostNote": "Total naval deployment cost for 20 days of active conflict operations ($25M/day \u00d7 20 days)",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -529,13 +529,13 @@
       "sourceUrl": "https://www.imf.org/en/Publications/WEO"
     },
     "oilPriceShock": {
-      "preConflictPrice": 78.5,
-      "currentPrice": 104.17,
+      "preConflictPrice": 79.8,
+      "currentPrice": 108.65,
       "peakPrice": 119.5,
-      "wtiPrice": 94.53,
-      "usGasPricePerGallon": 3.84,
+      "wtiPrice": 96.14,
+      "usGasPricePerGallon": 3.88,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 30.5,
+      "percentageIncrease": 36.2,
       "estimatedGlobalCost": 850000000000,
       "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
       "hormuzFlowDisruption": {
@@ -569,11 +569,11 @@
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
-    "stockMarketImpact": "S&P 500 rallied to 6,755 (+0.58%) March 18. Nasdaq +0.65%, Dow +240pts. Fed holds rates at 3.5-3.75% (99% expected). Hedge funds worst losses since Liberation Day (JPMorgan). Fed may forecast zero rate cuts in 2026 due to war-driven inflation at ~3%. $3.5T wiped from global markets in first weeks. 56% of Americans oppose the war.",
-    "oilPriceImpact": "Brent $104.17/bbl (+30.5% from pre-war). WTI $94.53 (+25.2%). Oil rebounds as Iran launches fresh attacks on Gulf neighbors. IMO emergency meeting on Hormuz safe corridor. IEA 400M barrel + US 172M SPR release continuing. Only 21 tankers transited Hormuz since war began. Gold above $5,000/oz.",
-    "gasPrice": 3.84,
-    "brentCrude": 104.17,
-    "wtiCrude": 94.53
+    "stockMarketImpact": "S&P 500 at 6,606 (-0.27%) March 19. Nasdaq -0.28%, Dow -0.44% (-200pts). Fed holds rates at 3.5-3.75%, projects 1 cut in 2026. Hedge funds worst losses since Liberation Day (JPMorgan). Oil-driven inflation at ~2.7%. $3.5T wiped from global markets since war began. 56% of Americans oppose the war. Pentagon requests $200B+ supplemental.",
+    "oilPriceImpact": "Brent $108.65/bbl (+36.2% from pre-war $79.8). WTI $96.14 (+27.3%). Brent spiked to $119 intraday on Ras Laffan strike. Dubai crude record $166.80/bbl. Goldman warns $147+ possible. QatarEnergy 17% LNG offline 3-5 years. 7-nation Hormuz coalition formed. Gold at $4,569/oz.",
+    "gasPrice": 3.88,
+    "brentCrude": 108.65,
+    "wtiCrude": 96.14
   },
   "keyFacts": [
     {

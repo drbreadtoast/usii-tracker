@@ -72,19 +72,19 @@
       }
     },
     "current": {
-      "date": "2026-03-18",
-      "label": "Active Conflict \u2014 Day 19 (Evening)",
+      "date": "2026-03-19",
+      "label": "Active Conflict \u2014 Day 20 (Evening)",
       "wti": {
         "price": 96.14,
         "change": "+27.3%",
-        "changeDollars": "+$20.63"
+        "changeDollars": "+$20.64"
       },
       "brent": {
         "price": 108.65,
         "change": "+36.2%",
         "changeDollars": "+$28.85"
       },
-      "changePercent": "+36.1%"
+      "changePercent": "+36.2%"
     },
     "priceHistory": [
       {
@@ -249,6 +249,13 @@
         "brent": 104.17,
         "label": "Day 19 \u2014 Brent $104.17; WTI eases to $94.53; IMO emergency meeting on Hormuz; Fed holds rates; hedge funds worst losses since Liberation Day",
         "isEvent": true
+      },
+      {
+        "date": "2026-03-19",
+        "wti": 96.14,
+        "brent": 108.65,
+        "label": "Day 20 PM \u2014 Brent spikes $119 on Ras Laffan strike, settles $108.65; 7-nation Hormuz coalition; QatarEnergy 17% LNG offline",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -381,8 +388,8 @@
   ],
   "hormuzImpact": {
     "status": "effectively_closed",
-    "blockadeDayCount": 16,
-    "blockadeStartDate": "2026-03-02",
+    "blockadeDayCount": 17,
+    "blockadeStartDate": "2026-03-03",
     "barrelsBlockedDaily": 21000000,
     "breakdownBlocked": {
       "crudeOil": 17000000,
@@ -429,7 +436,7 @@
     ],
     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932",
     "vesselsDamaged": 21,
-    "description": "Strait of Hormuz effectively closed (Day 16). 21+ vessels damaged, 3 sunk since war began. Only 21 tankers total have transited since war began \u2014 traffic down 97%. 340+ ships stranded. IMO emergency meeting in London to discuss safe maritime corridor. Bulk carriers finding new route through Iranian territorial waters. India attempting to escort 6 vessels through. Brent $104.17, WTI $94.53. VLCC charter rates at $800K/day."
+    "description": "Strait of Hormuz effectively closed (Day 17). 24+ vessels damaged, 3 sunk since war began. Only 21 tankers total have transited since war began \u2014 traffic down 97%. 400+ ships stranded. IMO negotiating humanitarian corridor to free ~20,000 seafarers. 7-nation Hormuz coalition formed (UK, France, Germany, Italy, Netherlands, Japan, Canada). Brent $108.65 (hit $119 intraday), WTI $96.14. VLCC charter rates at $800K/day."
   },
   "consumerImpact": {
     "currency": "USD",
@@ -451,7 +458,7 @@
         },
         "change": "+$0.70",
         "changePercent": "+22.0%",
-        "detail": "Gas spiked to $3.84/gal overnight (March 18). Up from $3.18 pre-war \u2014 highest since Oct 2023. Brent at $104.17. Fed holds rates at 3.5-3.75%. California highest at $5.53/gal, Kansas cheapest at $3.15. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
+        "detail": "Gas at $3.88/gal (March 19 AAA). Up 28\u00a2 in one week. California at $5.62/gal, Oklahoma cheapest at $3.24. Brent at $108.65 after $119 spike. Fed holds rates at 3.5-3.75%. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -569,15 +576,15 @@
     },
     {
       "id": 6,
-      "fact": "US gasoline prices at $3.84/gallon \u2014 up 20.8% from pre-war $3.18/gal. California at $5.53/gal. Highest since Oct 2023.",
-      "detail": "Gas spiked to $3.84/gal overnight (March 18). California highest at $5.53, Kansas cheapest at $3.15. Brent at $104.17. Fed holds rates at 3.5-3.75%; inflation forecast raised to ~3% through late 2026. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
+      "fact": "US gasoline prices at $3.88/gallon \u2014 up 22.0% from pre-war $3.18/gal. Highest since Sep 2023. California at $5.62/gal.",
+      "detail": "Gas at $3.88/gal (March 19 AAA). Up 28\u00a2 in one week. California highest at $5.62, Oklahoma cheapest at $3.24. Brent at $108.65. Fed holds rates at 3.5-3.75%; inflation forecast raised to ~3% through late 2026. Gas Prices Relief Act of 2026 introduced to suspend 18.4c/gal federal gas tax.",
       "source": "EIA Weekly Retail Gasoline and Diesel Prices",
       "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
     },
     {
       "id": 7,
-      "fact": "Brent crude at $104.17/barrel (+30.5% from pre-war) and WTI at $94.53 (+25.2%). Oil rebounds as Iran barrage continues despite Bessent tanker policy.",
-      "detail": "Brent rose to $104.17 (+$0.75) while WTI eased to $94.53 (-$1.24) on March 18. Iran launched fresh attacks on Gulf neighbors. IMO emergency meeting in London on Hormuz safe corridor. Fed holds rates at 3.5-3.75%. Hedge funds worst losses since Liberation Day (JPMorgan). S&P 500 +0.58% to 6,755.",
+      "fact": "Brent crude at $108.65/barrel (+36.2% from pre-war) and WTI at $96.14 (+27.3%). Brent spiked to $119 intraday on Ras Laffan LNG strike before settling.",
+      "detail": "Brent spiked to $119 on Iran's strike on Qatar's Ras Laffan LNG facility, then pulled back to $108.65 after Netanyahu said Israel would help reopen Hormuz. Dubai crude hit record $166.80/barrel. European jet fuel at $220/barrel. Goldman Sachs warns Brent could surpass 2008's $147.50 all-time high.",
       "source": "CNBC / IEA",
       "sourceUrl": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html"
     },
