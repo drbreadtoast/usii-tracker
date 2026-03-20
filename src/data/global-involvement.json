@@ -3,7 +3,7 @@
     "id": "gi-russia",
     "country": "Russia",
     "key": "russia",
-    "flag": "\ud83c\uddf7\ud83c\uddfa",
+    "flag": "🇷🇺",
     "lat": 55.7558,
     "lng": 37.6173,
     "level": "military_support",
@@ -87,7 +87,7 @@
       {
         "date": "2026-03-19",
         "type": "diplomatic",
-        "text": "Russia condemns IDF strike on Bandar Anzali naval base on Caspian Sea \u2014 threatens the Russia-Iran supply corridor."
+        "text": "Russia condemns IDF strike on Bandar Anzali naval base on Caspian Sea — threatens the Russia-Iran supply corridor."
       },
       {
         "date": "2026-03-19",
@@ -98,6 +98,11 @@
         "date": "2026-03-19",
         "type": "intelligence",
         "text": "Providing Iran with intelligence including precise locations of US warships and aircraft (WaPo report)."
+      },
+      {
+        "date": "2026-03-20",
+        "type": "statement",
+        "text": "Russian Foreign Ministry condemned Israel's Nowruz strikes on Tehran as 'provocative targeting of civilian celebrations during a sacred cultural holiday.' Russia abstained on UNSC Resolution 2817."
       }
     ],
     "statements": [
@@ -137,7 +142,7 @@
     "id": "gi-china",
     "country": "China",
     "key": "china",
-    "flag": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "🇨🇳",
     "lat": 39.9042,
     "lng": 116.4074,
     "level": "diplomatic",
@@ -181,7 +186,7 @@
       {
         "date": "2026-03-10",
         "type": "economic",
-        "text": "Barred export of rare earth elements for military use \u2014 could impact US weapons replenishment during conflict"
+        "text": "Barred export of rare earth elements for military use — could impact US weapons replenishment during conflict"
       },
       {
         "date": "2026-03-10",
@@ -227,6 +232,11 @@
         "date": "2026-03-19",
         "type": "economic",
         "text": "Barred export of rare earth elements for military use. Chinese buyers purchasing 90%+ of Iranian oil at discount."
+      },
+      {
+        "date": "2026-03-20",
+        "type": "statement",
+        "text": "China called for 'immediate cessation' of Nowruz strikes on Tehran. Chinese FM said Iran's sacred holiday should be respected. China's tankers remain the primary buyers of Iranian crude — US unsanctioning plan targets redirecting this oil away from China."
       }
     ],
     "statements": [
@@ -261,7 +271,7 @@
     "id": "gi-eu",
     "country": "European Union",
     "key": "eu",
-    "flag": "\ud83c\uddea\ud83c\uddfa",
+    "flag": "🇪🇺",
     "lat": 50.8503,
     "lng": 4.3517,
     "level": "diplomatic",
@@ -285,7 +295,7 @@
       {
         "date": "2026-03-04",
         "type": "humanitarian",
-        "text": "Pledged \u20ac500M emergency humanitarian aid package for affected civilians"
+        "text": "Pledged €500M emergency humanitarian aid package for affected civilians"
       },
       {
         "date": "2026-03-06",
@@ -376,6 +386,11 @@
         "date": "2026-03-19",
         "type": "diplomatic",
         "text": "European Council: moratorium on energy/water strikes, reopen Hormuz. 6-nation Hormuz coalition (UK, FR, DE, IT, NL, JP). ECB: 'material impact on near-term inflation.'"
+      },
+      {
+        "date": "2026-03-20",
+        "type": "diplomatic",
+        "text": "EU foreign policy chief Kallas condemned Nowruz strikes, saying attacks on civilian celebrations are 'deeply disturbing.' EU maintains ceasefire call and moratorium demand on civilian infrastructure strikes."
       }
     ],
     "statements": [
@@ -410,11 +425,11 @@
     "id": "gi-france",
     "country": "France",
     "key": "france",
-    "flag": "\ud83c\uddeb\ud83c\uddf7",
+    "flag": "🇫🇷",
     "lat": 48.8566,
     "lng": 2.3522,
     "level": "military_support",
-    "summary": "First military casualty on Day 13 \u2014 French soldier killed in Iraqi militia drone attack on counterterrorism base. Macron called death 'unacceptable.' Carrier group deployed to Eastern Mediterranean. Escalating from observer to directly affected party.",
+    "summary": "First military casualty on Day 13 — French soldier killed in Iraqi militia drone attack on counterterrorism base. Macron called death 'unacceptable.' Carrier group deployed to Eastern Mediterranean. Escalating from observer to directly affected party.",
     "actions": [
       {
         "date": "2026-03-01",
@@ -444,12 +459,12 @@
       {
         "date": "2026-03-08",
         "type": "diplomatic",
-        "text": "Macron: 'An attack on Cyprus is an attack on all of Europe' \u2014 invokes EU mutual defense clause"
+        "text": "Macron: 'An attack on Cyprus is an attack on all of Europe' — invokes EU mutual defense clause"
       },
       {
         "date": "2026-03-12",
         "type": "military",
-        "text": "French soldier killed in Iraqi militia drone attack on counterterrorism base \u2014 first French military fatality of the conflict"
+        "text": "French soldier killed in Iraqi militia drone attack on counterterrorism base — first French military fatality of the conflict"
       },
       {
         "date": "2026-03-12",
@@ -529,7 +544,7 @@
     "id": "gi-germany",
     "country": "Germany",
     "key": "germany",
-    "flag": "\ud83c\udde9\ud83c\uddea",
+    "flag": "🇩🇪",
     "lat": 52.52,
     "lng": 13.405,
     "level": "observer",
@@ -553,7 +568,7 @@
       {
         "date": "2026-03-05",
         "type": "economic",
-        "text": "Allocated \u20ac200M for energy market stabilization measures"
+        "text": "Allocated €200M for energy market stabilization measures"
       },
       {
         "date": "2026-03-08",
@@ -563,7 +578,7 @@
       {
         "date": "2026-03-09",
         "type": "economic",
-        "text": "Germany announces emergency \u20ac1B energy stabilization fund as gas prices surge"
+        "text": "Germany announces emergency €1B energy stabilization fund as gas prices surge"
       },
       {
         "date": "2026-03-16",
@@ -618,7 +633,7 @@
     "id": "gi-switzerland",
     "country": "Switzerland",
     "key": "switzerland",
-    "flag": "\ud83c\udde8\ud83c\udded",
+    "flag": "🇨🇭",
     "lat": 46.948,
     "lng": 7.4474,
     "level": "diplomatic",
@@ -647,7 +662,7 @@
     "id": "gi-turkey",
     "country": "Turkey",
     "key": "TR",
-    "flag": "\ud83c\uddf9\ud83c\uddf7",
+    "flag": "🇹🇷",
     "lat": 39.93,
     "lng": 32.86,
     "level": "military_support",
@@ -716,7 +731,7 @@
     "id": "gi-lebanon",
     "country": "Lebanon",
     "key": "lebanon",
-    "flag": "\ud83c\uddf1\ud83c\udde7",
+    "flag": "🇱🇧",
     "lat": 33.8938,
     "lng": 35.5018,
     "level": "diplomatic",
@@ -725,7 +740,7 @@
       {
         "date": "2026-03-11",
         "type": "diplomatic",
-        "text": "Cabinet voted 22-2 to declare Hezbollah military activities illegal \u2014 historic break from decades of tolerance for the militia's armed wing"
+        "text": "Cabinet voted 22-2 to declare Hezbollah military activities illegal — historic break from decades of tolerance for the militia's armed wing"
       }
     ],
     "statements": [
@@ -740,7 +755,7 @@
     "id": "gi-spain",
     "country": "Spain",
     "key": "ES",
-    "flag": "\ud83c\uddea\ud83c\uddf8",
+    "flag": "🇪🇸",
     "lat": 40.4168,
     "lng": -3.7038,
     "level": "diplomatic",
@@ -749,7 +764,7 @@
       {
         "date": "2026-03-10",
         "type": "diplomatic",
-        "text": "Council of Ministers approved decree terminating Ambassador Ana Mar\u00eda S\u00e1lomon P\u00e9rez's appointment to Israel"
+        "text": "Council of Ministers approved decree terminating Ambassador Ana María Sálomon Pérez's appointment to Israel"
       },
       {
         "date": "2026-03-11",
@@ -765,7 +780,7 @@
       },
       {
         "date": "2026-03-11",
-        "speaker": "FM Jos\u00e9 Manuel Albares",
+        "speaker": "FM José Manuel Albares",
         "text": "Our embassy in Israel will remain open to assist with all evacuation operations of citizens by all possible means."
       }
     ]
@@ -774,7 +789,7 @@
     "id": "gi-greece",
     "country": "Greece",
     "key": "GR",
-    "flag": "\ud83c\uddec\ud83c\uddf7",
+    "flag": "🇬🇷",
     "lat": 37.9838,
     "lng": 23.7275,
     "level": "economic",
@@ -783,7 +798,7 @@
       {
         "date": "2026-03-11",
         "type": "economic",
-        "text": "Imposed 3-month profit margin caps on fuel (max 12\u00a2/liter retail markup) and food prices, effective through June 30, 2026"
+        "text": "Imposed 3-month profit margin caps on fuel (max 12¢/liter retail markup) and food prices, effective through June 30, 2026"
       }
     ],
     "statements": [
@@ -798,7 +813,7 @@
     "id": "gi-vatican",
     "country": "Vatican",
     "key": "VA",
-    "flag": "\ud83c\uddfb\ud83c\udde6",
+    "flag": "🇻🇦",
     "lat": 41.9029,
     "lng": 12.4534,
     "level": "diplomatic",
@@ -832,7 +847,7 @@
     "id": "gi-italy",
     "country": "Italy",
     "key": "IT",
-    "flag": "\ud83c\uddee\ud83c\uddf9",
+    "flag": "🇮🇹",
     "lat": 41.9028,
     "lng": 12.4964,
     "level": "military_support",
@@ -841,7 +856,7 @@
       {
         "date": "2026-03-15",
         "type": "military",
-        "text": "Italian Air Force MQ-9 Reaper drone destroyed at Ali Al Salem airbase, Kuwait \u2014 first NATO ally hardware loss in the conflict"
+        "text": "Italian Air Force MQ-9 Reaper drone destroyed at Ali Al Salem airbase, Kuwait — first NATO ally hardware loss in the conflict"
       }
     ],
     "statements": [
@@ -856,7 +871,7 @@
     "id": "gi-ukraine",
     "country": "Ukraine",
     "key": "UA",
-    "flag": "\ud83c\uddfa\ud83c\udde6",
+    "flag": "🇺🇦",
     "lat": 50.4501,
     "lng": 30.5234,
     "level": "military_support",
@@ -880,7 +895,7 @@
     "id": "gi-india",
     "country": "India",
     "key": "IN",
-    "flag": "\ud83c\uddee\ud83c\uddf3",
+    "flag": "🇮🇳",
     "lat": 28.6139,
     "lng": 77.209,
     "level": "economic",
@@ -889,7 +904,7 @@
       {
         "date": "2026-03-15",
         "type": "economic",
-        "text": "LPG crisis deepens \u2014 only 2 tankers crossed Hormuz with Iran's permission, 22 vessels stuck. Government weighing emergency rationing."
+        "text": "LPG crisis deepens — only 2 tankers crossed Hormuz with Iran's permission, 22 vessels stuck. Government weighing emergency rationing."
       }
     ],
     "statements": []
@@ -898,7 +913,7 @@
     "id": "gi-japan",
     "country": "Japan",
     "key": "japan",
-    "flag": "\ud83c\uddef\ud83c\uddf5",
+    "flag": "🇯🇵",
     "lat": 35.6762,
     "lng": 139.6503,
     "level": "diplomatic",
