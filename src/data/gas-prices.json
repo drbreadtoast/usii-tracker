@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-20T18:51:00Z",
-  "currentAverage": 3.88,
+  "lastUpdated": "2026-03-21T02:34:00Z",
+  "currentAverage": 3.912,
   "preWarAverage": 3.18,
-  "changePercent": 22.0,
+  "changePercent": 23.0,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -161,6 +161,12 @@
       "date": "2026-03-20",
       "price": 3.88,
       "label": "Day 21 (Nowruz) \u2014 AAA national average $3.88; Bessent plans 140M barrel Iranian crude release"
+    },
+    {
+      "date": "2026-03-20",
+      "price": 3.912,
+      "label": "Day 21 Evening \u2014 AAA: $3.912/gal (+28\u00a2 week-over-week); CA $5.61; US Treasury formally lifts sanctions on 140M barrels Iranian crude",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -261,7 +267,10 @@
       "crude": 2.48,
       "taxes": 0.52,
       "refining": 0.44,
-      "distribution": 0.44
+      "distribution": 0.44,
+      "regularGasoline": 3.912,
+      "changeFromPreWar": "+$0.73",
+      "changePercent": "+23.0%"
     }
   },
   "context": "National average at $3.88/gal (AAA March 20). Up $0.70/gal (+22%) from pre-war $3.18. California leads at $5.62/gal. Oklahoma cheapest at $3.24. Brent crude at $110.28 after hitting $119.11 intraday. Treasury Sec. Bessent announced US may unsanction 140M barrels of Iranian crude to help cap prices. Ahead of spring driving season. Gas Prices Relief Act of 2026 proposed to suspend 18.4\u00a2/gal federal gas tax."

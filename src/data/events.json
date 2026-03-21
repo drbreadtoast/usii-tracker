@@ -9873,5 +9873,118 @@
       "lebanon",
       "day21"
     ]
+  },
+  {
+    "id": "evt-new-281",
+    "title": "Iran fires ballistic missiles at Diego Garcia \u2014 unprecedented 4,000km range",
+    "description": "Iran fired two intermediate-range ballistic missiles toward Diego Garcia, the joint US-UK military base in the British Indian Ocean Territory \u2014 the longest-range Iranian strike ever attempted at approximately 4,000 km, double Iran's previously claimed 2,000 km range. The attack came hours after UK PM Starmer gave the US permission to use Diego Garcia to target Iranian missile sites. One missile reportedly failed mid-flight; a US destroyer fired an SM-3 interceptor at the second. Neither missile struck the base. The attack demonstrates a previously unknown Iranian IRBM capability and opens a new geographic front far from the Persian Gulf.",
+    "type": "strike",
+    "lat": -7.31,
+    "lng": 72.41,
+    "location": "Diego Garcia, British Indian Ocean Territory",
+    "timestamp": "2026-03-21T00:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-890690"
+      },
+      {
+        "name": "GB News",
+        "url": "https://www.gbnews.com/news/world/chagos-islands-iran-launches-ballistic-missiles-diego-garcia-uk-us-base-keir-starmer-donald-trump"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-march-21-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "wounded": 0,
+      "note": "Base not hit; both missiles failed to impact"
+    },
+    "tags": [
+      "iran",
+      "diego-garcia",
+      "irbm",
+      "uk-base",
+      "escalation",
+      "day21",
+      "unprecedented-range"
+    ]
+  },
+  {
+    "id": "evt-new-282",
+    "title": "Trump signals 'winding down' of Iran war \u2014 calls NATO 'COWARDS' on Truth Social",
+    "description": "President Trump signaled the US may be approaching an end to Iran war operations, posting on Truth Social that the US is 'getting very close to meeting our objectives as we consider winding down our great Military efforts.' In a speech to Naval Academy midshipmen, Trump stated 'their leaders are all gone... there's nobody to talk to' in Iran. Trump separately blasted NATO allies as 'COWARDS' for refusing to commit forces to reopen the Strait of Hormuz, writing 'Without the U.S.A., NATO IS A PAPER TIGER!' Trump also ruled out ground troops, saying 'I'm not putting troops anywhere \u2014 if I were, I certainly wouldn't tell you.'",
+    "type": "diplomatic",
+    "lat": 38.99,
+    "lng": -76.48,
+    "location": "Washington DC / Annapolis, United States",
+    "timestamp": "2026-03-20T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/20/trump-iran-war-troops-rebuild.html"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-20/trump-calls-nato-cowards-for-not-helping-join-fight-with-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "trump",
+      "winding-down",
+      "nato",
+      "cowards",
+      "diplomatic",
+      "us",
+      "day21"
+    ]
+  },
+  {
+    "id": "evt-new-283",
+    "title": "Iran develops Hormuz 'vetting system' \u2014 selective passage for friendly nations",
+    "description": "Iran is developing a vetting system for selective transit through the Strait of Hormuz, allowing friendly nations to negotiate case-by-case passage. India, China, Turkey, Pakistan, and Malaysia are among nations in discussions. At least 9 ships have transited via an Iranian territorial waters corridor, with at least one tanker reportedly paying $2 million for passage rights. Around 8 non-Iranian vessels were detected via AIS on March 18 \u2014 nearly double recent days \u2014 signaling Iran may be partially softening the blockade for strategic partners while maintaining effective closure for Western shipping.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.27,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-03-20T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/20/iran-developing-a-vetting-system-for-strait-of-hormuz-transit-report"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/18/hormuz-bottleneck-vessel-tanker-tracker-shipping-strait-of-hormuz.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "hormuz",
+      "iran",
+      "shipping",
+      "blockade",
+      "vetting-system",
+      "day21"
+    ]
   }
 ]

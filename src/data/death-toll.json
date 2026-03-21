@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T18:51:00Z",
+  "lastUpdated": "2026-03-21T02:34:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -83,11 +83,11 @@
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
-            "military": 4830,
-            "civilian": 545,
-            "total": 5375,
-            "source": "Hengaw 5th report (March 17): 4,789 mil + 511 civ = 5,300. Plus Day 19-21 strikes adding ~75 confirmed. Iran Red Crescent: 1,444+ total killed, 18,551 injured.",
-            "sourceUrl": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-9"
+            "military": 5305,
+            "civilian": 595,
+            "total": 5900,
+            "source": "Hengaw 6th report (March 20, Day 21): 5,900 killed \u2014 5,305 military, 595 civilians. Includes 127 minors, 168 women. 204 children killed per Al Jazeera tracker. Iran Red Crescent: 1,400+ total killed, 18,000+ injured.",
+            "sourceUrl": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-11"
           },
           "estimated": {
             "military": 1138,
@@ -98,10 +98,10 @@
             "note": "HRANA (Human Rights Activists News Agency) \u2014 March 16 report. 1,351 civilians, 1,126 military, 622 unclassified. Total 3,099. Nearly 6,000 attacks recorded nationwide. By Day 4 alone, HRANA had counted 1,097 civilians killed (including 181 children). 65 schools and 77 healthcare facilities damaged. 42,000+ civilian sites damaged per Iranian government spokesperson. Internet at 4% \u2014 independent verification near-impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh."
           },
           "rumored": {
-            "total": 8000,
-            "military": 5000,
+            "total": 9000,
+            "military": 6000,
             "civilian": 3000,
-            "note": "Hengaw (March 17): 5,300 killed \u2014 4,789 military, 511 civilians (120 minors, 160 women) across 178 cities in 25 provinces. IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000 wounded (March 15). IDF spokesperson claims ~1,900 regime members 'eliminated.' HRANA precedent from 2025 Twelve-Day War: official figure was 610, HRANA later confirmed 1,190 (nearly double). Given systematic suppression, 8,000+ is plausible upper range.",
+            "note": "Hengaw (March 20): 5,900 killed \u2014 5,305 military, 595 civilians (127 minors, 168 women) across 25 provinces. IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000+ wounded. With ongoing Nowruz strikes (Day 21) adding more casualties, upper range approaching 9,000. Internet blackout prevents independent verification.",
             "socialSources": [
               {
                 "platform": "Hengaw",
@@ -140,8 +140,8 @@
               }
             ]
           },
-          "injured": 18607,
-          "injuredNote": "18,551 injured per Health Ministry. 77 healthcare facilities damaged, straining capacity. HRANA counted 5,402 injured by Day 4 alone.",
+          "injured": 18700,
+          "injuredNote": "18,000+ injured per Health Ministry / Al Jazeera tracker. 77 healthcare facilities damaged. HRANA counted 5,402 injured by Day 4 alone.",
           "missing": 101,
           "missingNote": "101 sailors from IRINS Dena \u2014 only 79 of 180 crew recovered after ship sank in Gulf of Oman.",
           "displaced": 3200000,
@@ -154,10 +154,10 @@
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
             "military": 13,
-            "civilian": 5,
-            "total": 18,
-            "source": "IDF and Israeli government official figures. US military: 13 KIA (7 enemy fire, 6 KC-135 crash). 3,491 injured.",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
+            "civilian": 7,
+            "total": 20,
+            "source": "IDF, Israeli government, and Magen David Adom. 13 soldiers KIA (includes 7 killed Beit Shemesh synagogue missile, 2 West Bank soldiers, others). 7+ civilians killed: Yehud cluster bomb (2), Ramat Gan (2), Thai worker Moshav Adanim (1), others. 2 lightly wounded in Rehovot (Day 21 Nowruz barrage). Fragment from intercepted missile struck near Dung Gate, Jerusalem Old City (400m from Western Wall).",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-march-20-2026/"
           },
           "estimated": {
             "military": 4,
@@ -196,8 +196,8 @@
               }
             ]
           },
-          "injured": 3784,
-          "injuredNote": "3,784 injured per Alma Center Day 21 update. 4 wounded in Kiryat Shmona March 19. Additional wounds from Day 21 Western Wall-area fragments (no serious injuries reported)."
+          "injured": 3800,
+          "injuredNote": "3,800+ injured per Alma Center Day 21 update. 2 lightly wounded in Rehovot from Nowruz barrage cluster bomb (Day 21). 4 wounded in Kiryat Shmona March 19. Additional wounds from Jerusalem Old City fragment."
         },
         {
           "name": "United States",
@@ -206,8 +206,8 @@
             "military": 13,
             "civilian": 0,
             "total": 13,
-            "source": "Pentagon / NPR / Time Magazine. 7 killed by enemy fire + 6 KC-135 crew killed in crash.",
-            "sourceUrl": "https://www.npr.org/2026/03/15/nx-s1-5748472/us-military-six-killed-iran-war"
+            "source": "Pentagon / NPR / Time Magazine. 7 killed by enemy fire + 6 KC-135 crew killed in crash. ~200 wounded per CENTCOM (March 17).",
+            "sourceUrl": "https://time.com/article/2026/03/10/us-service-members-killed-iran-war-casualties/"
           },
           "estimated": {
             "military": 13,
@@ -253,10 +253,10 @@
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 0,
-            "civilian": 1001,
+            "military": 150,
+            "civilian": 851,
             "total": 1001,
-            "source": "Lebanon Health Ministry confirmed 1,001 killed, 2,584 wounded. 118 children dead. 1M displaced (1/6 of population).",
+            "source": "Lebanese Health Ministry (March 20, Day 21): 1,001 killed, 2,584 wounded. Over 1 million displaced (1 in 5 Lebanese). UN warned nearly a fifth of Lebanon's population uprooted.",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks"
           },
           "estimated": {
@@ -298,8 +298,8 @@
           },
           "injured": 2584,
           "injuredNote": "2,584+ wounded per Lebanese Health Ministry (March 19). 79 women, 118 children, 40 healthcare workers among dead.",
-          "displaced": 1000000,
-          "displacedNote": "1,000,000+ displaced \u2014 ~20% of Lebanon's population. 130,000+ in 600+ collective shelters. Ground invasion launched March 16."
+          "displaced": 1049328,
+          "displacedNote": "1,049,328 displaced per Lebanese authorities as of March 20 \u2014 approximately 1 in 5 Lebanese. UN warned nearly a fifth of the population is uprooted."
         },
         {
           "name": "Gulf States (UAE, Kuwait, Bahrain, etc.)",

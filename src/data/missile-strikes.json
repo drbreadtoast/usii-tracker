@@ -3059,5 +3059,81 @@
       "killed": 1,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-192",
+    "city": "Bandar Anzali",
+    "country": "Iran",
+    "lat": 37.47,
+    "lng": 49.47,
+    "strikeType": "naval_strike",
+    "attributedTo": "israel",
+    "date": "2026-03-20",
+    "description": "First Israeli strike on Iran's Caspian coast \u2014 IDF targeted Bandar Anzali naval base, destroying 5 Iranian Navy missile boats, striking a headquarters building, and damaging a shipyard. This opened a new geographic front in the war, demonstrating Israel's ability to strike across Iran's full extent. The Caspian Sea had previously been considered beyond reach.",
+    "source": "Alma Research Center",
+    "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-20-2026-1600/",
+    "weaponType": "air-launched precision munitions",
+    "casualties": {
+      "killed": 0,
+      "wounded": 0,
+      "note": "Iranian Navy casualties not reported"
+    }
+  },
+  {
+    "id": "ms-193",
+    "city": "Diego Garcia",
+    "country": "British Indian Ocean Territory",
+    "lat": -7.31,
+    "lng": 72.41,
+    "strikeType": "irbm",
+    "attributedTo": "iran",
+    "date": "2026-03-21",
+    "description": "Iran fired two intermediate-range ballistic missiles at Diego Garcia US-UK base \u2014 the longest-range Iranian strike ever attempted at ~4,000 km, double Iran's previously claimed capability. One failed mid-flight; US destroyer fired SM-3 interceptor at the second. Neither missile hit the base. Attack came hours after UK authorized US to use the base for Iran strikes.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-890690",
+    "weaponType": "IRBM (type unconfirmed, ~4,000km range)",
+    "casualties": {
+      "killed": 0,
+      "wounded": 0,
+      "note": "Base not struck; both missiles intercepted/failed"
+    }
+  },
+  {
+    "id": "ms-194",
+    "city": "Jerusalem (Old City, near Dung Gate)",
+    "country": "Israel",
+    "lat": 31.775,
+    "lng": 35.234,
+    "strikeType": "ballistic_missile_fragment",
+    "attributedTo": "iran",
+    "date": "2026-03-20",
+    "description": "Fragment from an intercepted Iranian ballistic missile struck a road and wall near Dung Gate in Jerusalem's Jewish Quarter \u2014 approximately 400 meters from the Western Wall and Al-Aqsa Mosque. No injuries from this specific impact. Part of Iran's 8th ballistic missile barrage of Day 21 (Nowruz), which targeted multiple Israeli cities.",
+    "source": "Times of Israel liveblog",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-20-2026/",
+    "weaponType": "intercepted ballistic missile fragment",
+    "casualties": {
+      "killed": 0,
+      "wounded": 0,
+      "note": "No injuries from this fragment; 2 lightly wounded in separate Rehovot cluster bomb impact"
+    }
+  },
+  {
+    "id": "ms-195",
+    "city": "Mina Al-Ahmadi",
+    "country": "Kuwait",
+    "lat": 29.07,
+    "lng": 48.14,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-20",
+    "description": "Second consecutive day of Iranian drone strikes on Kuwait's Mina Al-Ahmadi oil refinery (730,000 bpd capacity). Two waves of drones sparked fires across multiple processing units. Mina Abdullah refinery also reportedly struck. Kuwait's air defenses were actively intercepting threats. The refinery is one of the largest in the Middle East.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/20/kuwait-oil-refinery-hit-again-as-iran-targets-gulf-energy-infrastructure",
+    "weaponType": "UAV / drone swarm",
+    "casualties": {
+      "killed": 0,
+      "wounded": 0,
+      "note": "No casualties reported; fire damage to processing units"
+    }
   }
 ]
