@@ -43,7 +43,7 @@
   "countryCosts": {
     "us": {
       "name": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
         "total": 28100000000,
         "currency": "USD",
@@ -114,14 +114,14 @@
         }
       },
       "dailyBurnRate": 1100000000,
-      "dailyBurnRateNote": "Kevin Hassett confirmed ~$12B direct US cost through ~Day 15. CSIS: $16.5B through Day 12 ($1.38B/day). Pentagon requesting $200B supplemental from Congress — Hegseth: 'it takes money to kill bad guys.' Penn Wharton projects $65B minimum direct costs.",
+      "dailyBurnRateNote": "Kevin Hassett confirmed ~$12B direct US cost through ~Day 15. CSIS: $16.5B through Day 12 ($1.38B/day). Pentagon requesting $200B supplemental from Congress \u2014 Hegseth: 'it takes money to kill bad guys.' Penn Wharton projects $65B minimum direct costs.",
       "totalEstimate": "$20-24 billion",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 15. Daily costs $890M-$2B. Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), bringing total ~50,000 personnel in theater. Hegseth: '7,000+ targets struck across Iran.'",
       "totalCost": 0
     },
     "israel": {
       "name": "Israel",
-      "flag": "🇮🇱",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
       "directMilitaryCosts": {
         "total": 7140000000,
         "currency": "USD",
@@ -195,7 +195,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "directMilitaryCosts": {
         "total": 3560000000,
         "currency": "USD",
@@ -465,7 +465,7 @@
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
     "daysDeployed": 21,
     "totalNavalCost": 525000000,
-    "totalNavalCostNote": "Total naval deployment cost for 20 days of active conflict operations ($25M/day × 20 days)",
+    "totalNavalCostNote": "Total naval deployment cost for 20 days of active conflict operations ($25M/day \u00d7 20 days)",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -566,14 +566,14 @@
       "currentWarRiskPremium": 5.0,
       "premiumUnit": "percentage of hull value",
       "percentageIncrease": 9900,
-      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20°N)",
+      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20\u00b0N)",
       "estimatedAdditionalCostPerTransit": 2500000,
       "description": "War risk insurance premiums for vessels transiting the Persian Gulf have surged from 0.05% to 5% of hull value. A typical VLCC (Very Large Crude Carrier) valued at $120 million now faces $6 million in war risk premiums per transit compared to $60,000 pre-conflict. Many underwriters have suspended coverage entirely.",
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "S&P 500 at 6,606 (-0.27%) March 19. Nasdaq -0.28%, Dow -0.44% (-200pts). 4th consecutive weekly decline. Triple-witching: $5.7T options expiry March 20. Approaching correction territory (~8% off highs). Macquarie: Fed may raise rates.",
-    "oilPriceImpact": "Brent $110.71/bbl (+38.7% from pre-war $79.8). WTI $93.55 (+23.9%). Brent spiked to $119.11 intraday. IEA: largest supply disruption in history — 8 mb/d plunge. Goldman warns $147+.",
+    "oilPriceImpact": "Brent $110.71/bbl (+38.7% from pre-war $79.8). WTI $93.55 (+23.9%). Brent spiked to $119.11 intraday. IEA: largest supply disruption in history \u2014 8 mb/d plunge. Goldman warns $147+.",
     "gasPrice": 3.88,
     "brentCrude": 110.71,
     "wtiCrude": 96.2,
@@ -639,14 +639,14 @@
     },
     {
       "id": "fact-9",
-      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 — an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
+      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 \u2014 an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
       "cost": 16500000000,
       "source": "CSIS / NBC News",
       "sourceUrl": "https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12"
     },
     {
       "id": "fact-10",
-      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days — each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
+      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days \u2014 each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
       "cost": 150000000,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-13/us-sends-intercept-drones-used-in-ukraine-to-blunt-iran-strikes"
@@ -667,7 +667,7 @@
     },
     {
       "id": "fact-13",
-      "fact": "F1 cancels Bahrain and Saudi Arabia GPs — estimated $100M combined hosting fee loss",
+      "fact": "F1 cancels Bahrain and Saudi Arabia GPs \u2014 estimated $100M combined hosting fee loss",
       "cost": 100000000,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/sports/"
@@ -681,7 +681,7 @@
     },
     {
       "id": "fact-15",
-      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait — $30-35M asset loss",
+      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait \u2014 $30-35M asset loss",
       "cost": 32500000,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/"
@@ -709,14 +709,14 @@
     },
     {
       "id": "fact-19",
-      "fact": "Dubai airport drone strike — 7+ hours flight suspension, estimated tens of millions in losses",
+      "fact": "Dubai airport drone strike \u2014 7+ hours flight suspension, estimated tens of millions in losses",
       "cost": null,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/"
     },
     {
       "id": "fact-20",
-      "fact": "Fujairah oil hub struck 2nd consecutive day — port operations repeatedly disrupted",
+      "fact": "Fujairah oil hub struck 2nd consecutive day \u2014 port operations repeatedly disrupted",
       "cost": null,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/energy"
@@ -727,7 +727,7 @@
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
     },
     {
-      "text": "Israel Knesset voting to raise deficit ceiling from 3.9% to 5.1% GDP — NIS 32B ($10.2B) additional spending. Updated defense budget: NIS 143B. Iran war has cost Israel NIS 9B so far.",
+      "text": "Israel Knesset voting to raise deficit ceiling from 3.9% to 5.1% GDP \u2014 NIS 32B ($10.2B) additional spending. Updated defense budget: NIS 143B. Iran war has cost Israel NIS 9B so far.",
       "source": "Times of Israel / Jerusalem Post",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/knesset-to-vote-on-raising-deficit-increasing-defense-spending-amid-iran-war/"
     },
@@ -747,7 +747,7 @@
       "sourceUrl": "https://www.cnbc.com/2026/03/18/hedge-funds-suffer-worst-losses-since-liberation-day-on-iran-war-turmoil.html"
     },
     {
-      "text": "Pentagon requests $200B+ war supplemental from Congress — far exceeding the $50B initially drafted. Would urgently increase production of critical munitions. Dow drops 768 pts (-1.63%) after Fed holds rates, warns inflation 'not coming down as hoped.'",
+      "text": "Pentagon requests $200B+ war supplemental from Congress \u2014 far exceeding the $50B initially drafted. Would urgently increase production of critical munitions. Dow drops 768 pts (-1.63%) after Fed holds rates, warns inflation 'not coming down as hoped.'",
       "source": "Washington Post / CNBC",
       "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/"
     },
@@ -757,7 +757,7 @@
       "sourceUrl": "https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html"
     },
     {
-      "text": "Pentagon requests $200B+ war supplemental — far exceeding initial $50B draft. Hegseth: 'largest strike package yet' coming. Dubai crude hits record $166.80. European jet fuel at $220/barrel. QatarEnergy declares force majeure; 17% LNG capacity offline 3-5 years.",
+      "text": "Pentagon requests $200B+ war supplemental \u2014 far exceeding initial $50B draft. Hegseth: 'largest strike package yet' coming. Dubai crude hits record $166.80. European jet fuel at $220/barrel. QatarEnergy declares force majeure; 17% LNG capacity offline 3-5 years.",
       "source": "CBS News / US News / CNBC",
       "sourceUrl": "https://www.cbsnews.com/news/hegseth-caine-iran-war-update-briefing-2026-03-19/"
     },
@@ -782,6 +782,6 @@
     "combinedCosts": 148240000000
   },
   "daysOfConflict": 22,
-  "lastUpdated": "2026-03-21T09:59:00Z",
+  "lastUpdated": "2026-03-21T17:29:00Z",
   "dailyBurnRate": 1286
 }

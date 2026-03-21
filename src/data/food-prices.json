@@ -1,35 +1,35 @@
 {
-  "lastUpdated": "2026-03-21T09:59:00Z",
+  "lastUpdated": "2026-03-21T17:29:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 5.95,
-      "change": "+5.9%",
-      "detail": "Wheat futures near 2-year peak (Bloomberg, March 20). Up 3%+ in latest session driven by energy/fertilizer cost surge and shipping disruptions. Hormuz closure raises concerns for Egypt and Middle East wheat importers.",
-      "source": "CME Group",
-      "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/wheat.html"
+      "current": 6.36,
+      "change": "+13.2%",
+      "detail": "Wheat futures near 2-year high at $6.36/bushel (+3.2% session on March 21). Up 13.2% from pre-war. Driven by energy and fertilizer cost surge, shipping disruptions, and concerns for Egypt and Middle East wheat importers relying on Hormuz routes.",
+      "source": "CME Group / Zawya",
+      "sourceUrl": "https://www.zawya.com/en/economy/global/chicago-soy-wheat-corn-rise-on-oil-rally-iran-war-q9ewo513"
     },
     {
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.65,
-      "change": "+7.9%",
-      "detail": "Corn futures up 2%+ on fertilizer price spike (urea up from $450 to $600+/tonne) and increased biofuel demand as oil prices stay elevated.",
-      "source": "CME Group",
-      "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/corn.html"
+      "current": 4.72,
+      "change": "+9.5%",
+      "detail": "Corn futures at $4.72/bushel (+2.5% session). Up 9.5% from pre-war $4.31. Fertilizer (urea) price now $700+/tonne, up 47% from pre-war. Biofuel demand elevated as oil prices remain high.",
+      "source": "CME Group / Zawya",
+      "sourceUrl": "https://www.zawya.com/en/economy/global/chicago-soy-wheat-corn-rise-on-oil-rally-iran-war-q9ewo513"
     },
     {
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": 11.61,
-      "change": "+14.7%",
-      "detail": "CBOT May: $11.50/bu. Cash avg $11.50. Recovery on China trade talks. Soy/corn ratio at 2.42 (elevated). Palm oil also surged 10%. One-third of globally traded fertilizer passes through Hormuz.",
-      "source": "CME Group",
-      "sourceUrl": "https://www.cmegroup.com/markets/agriculture/oilseeds/soybean.html"
+      "current": 12.3,
+      "change": "+21.5%",
+      "detail": "CBOT soybeans at $12.30/bushel (+2.46% session). Up 21.5% from pre-war $10.12. Soybean oil hit 69.73 cents/lb (highest since December 2022). Palm oil also surged up to 10%. One-third of globally traded fertilizer passes through Hormuz.",
+      "source": "CME Group / Zawya",
+      "sourceUrl": "https://www.zawya.com/en/economy/global/chicago-soy-wheat-corn-rise-on-oil-rally-iran-war-q9ewo513"
     },
     {
       "name": "Rice",
@@ -57,7 +57,7 @@
       "preWar": "$3.49",
       "current": "$6.14",
       "change": "+75.9%",
-      "detail": "Palm oil jumped 10% — shipping through Strait of Hormuz blocked. Alternative routing adds 12+ days and $933,000 per voyage.",
+      "detail": "Palm oil jumped 10% \u2014 shipping through Strait of Hormuz blocked. Alternative routing adds 12+ days and $933,000 per voyage.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
     },
@@ -90,11 +90,11 @@
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
-    "ureaCurrent": "$695/tonne",
-    "ureaChange": "+46%",
+    "ureaCurrent": "$700+/tonne",
+    "ureaChange": "+47%",
     "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea surged from $475 to $695/tonne. Ammonia prices up 41% YoY. Worst timing: start of Northern Hemisphere planting season. Wolfe Research estimates food-at-home inflation could rise ~2 percentage points. USDA predicts 3.1% food price rise in 2026.",
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 22: Grain futures pulled back week-over-week on Netanyahu's commitment not to repeat Iranian energy site strikes. Wheat -5.5% from high of $6.30 (March 18); corn -3.1% from $4.80. Soybeans slightly up. Fundamentals remain stressed — Hormuz blockade Day 19 continues to disrupt fertilizer shipping. BofA projects 20-30% corn upside if conflict extends to Q2."
+  "context": "Day 22: Grain futures rising on continued oil rally and Hormuz blockade (Day 19). Wheat at $6.36 (+13.2%), corn at $4.72 (+9.5%), soybeans at $12.30 (+21.5%). Urea fertilizer now $700+/tonne, up 47% from pre-war. Hormuz blockade disrupting fertilizer shipping at start of Northern Hemisphere planting season. BofA projects 20-30% corn upside if conflict extends to Q2."
 }
