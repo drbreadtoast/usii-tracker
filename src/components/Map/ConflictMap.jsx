@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef, useCallback, useState } from 'react'
 import L from 'leaflet'
 import { MapContainer, TileLayer, Marker, Popup, Tooltip, ZoomControl, GeoJSON, useMap } from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-cluster'
@@ -41,6 +41,26 @@ function onEachCountry(feature, layer) {
 const NOW = Date.now()
 const DAY_MS = 24 * 60 * 60 * 1000
 
+// Enable scroll-zoom only after clicking the map; disable when clicking outside
+function ScrollZoomToggle() {
+  const map = useMap()
+  useEffect(() => {
+    map.scrollWheelZoom.disable()
+    const container = map.getContainer()
+    const enable = () => map.scrollWheelZoom.enable()
+    const disable = (e) => {
+      if (!container.contains(e.target)) map.scrollWheelZoom.disable()
+    }
+    container.addEventListener('click', enable)
+    document.addEventListener('click', disable)
+    return () => {
+      container.removeEventListener('click', enable)
+      document.removeEventListener('click', disable)
+    }
+  }, [map])
+  return null
+}
+
 // Inner component to handle programmatic map actions (flyTo, open popups)
 function MapController({ selectedEvent, markerRefs }) {
   const map = useMap()
@@ -81,6 +101,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
         center={MAP_CENTER}
         zoom={MAP_ZOOM}
         zoomControl={false}
+        scrollWheelZoom={false}
         className="w-full h-full"
         style={{ background: '#0a0a0a' }}
         minZoom={3}
@@ -93,6 +114,7 @@ export default function ConflictMap({ events, onEventSelect, showBases = true, s
           maxZoom={20}
         />
         <ZoomControl position="bottomright" />
+        <ScrollZoomToggle />
         <MapController selectedEvent={selectedEvent} markerRefs={markerRefs} />
 
         {/* Country borders for conflict nations */}

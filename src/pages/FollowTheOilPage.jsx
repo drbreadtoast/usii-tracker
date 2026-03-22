@@ -95,8 +95,74 @@ function LivePriceWidget({ symbol, title }) {
   }, [symbol])
 
   return (
-    <div className="flex-1 min-w-0">
+    <div className="flex-1 min-w-0 h-[84px] overflow-hidden">
       <div ref={containerRef} className="tradingview-widget-container" />
+    </div>
+  )
+}
+
+// --- Live OilPrice.com Prices (Brent, WTI from S3 JSON) ---
+
+const OIL_PRICE_IDS = [
+  [46, 'Brent Crude'],
+  [45, 'WTI Crude'],
+]
+
+function OilPriceComBanner() {
+  const [prices, setPrices] = useState(null)
+  const [error, setError] = useState(false)
+
+  const fetchPrices = () => {
+    fetch('https://s3.amazonaws.com/oilprice.com/widgets/oilprices/all/last.json')
+      .then(r => r.json())
+      .then(d => {
+        const mapped = OIL_PRICE_IDS.map(([id, name]) => {
+          const p = d[id]
+          return p ? { name, price: p.price, change: p.change, changePercent: p.change_percent, time: p.time } : null
+        }).filter(Boolean)
+        setPrices(mapped)
+        setError(false)
+      })
+      .catch(() => setError(true))
+  }
+
+  useEffect(() => {
+    fetchPrices()
+    const interval = setInterval(fetchPrices, 5 * 60 * 1000)
+    return () => clearInterval(interval)
+  }, [])
+
+  if (error || !prices) return null
+
+  return (
+    <div className="bg-gray-900 border-b border-gray-800">
+      <div className="flex flex-col sm:flex-row sm:items-center">
+        <a
+          href="https://oilprice.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-emerald-950/60 px-3 py-2 sm:py-2.5 flex items-center gap-1.5 shrink-0 border-b sm:border-b-0 sm:border-r border-gray-700 hover:bg-emerald-950/80 transition-colors"
+        >
+          <Droplet size={12} className="text-emerald-400" />
+          <span className="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">OilPrice.com</span>
+        </a>
+        <div className="grid grid-cols-2 sm:flex sm:flex-nowrap items-center flex-1 sm:divide-x divide-gray-800">
+          {prices.map(p => {
+            const isUp = p.change >= 0
+            return (
+              <div key={p.name} className="flex flex-col sm:flex-row items-center gap-0.5 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 min-w-0 flex-1 border-r sm:border-r-0 last:border-r-0 border-gray-800">
+                <span className="text-[8px] sm:text-[9px] font-bold text-emerald-400 bg-emerald-950/40 px-1.5 sm:px-2 py-0.5 sm:py-1 shrink-0 uppercase tracking-wider whitespace-nowrap">
+                  {p.name.replace(' Crude', '')}
+                </span>
+                <span className="text-xs sm:text-sm font-bold text-gray-100">${p.price.toFixed(2)}</span>
+                <span className={`text-[8px] sm:text-[10px] font-semibold whitespace-nowrap ${isUp ? 'text-green-400' : 'text-red-400'}`}>
+                  {isUp ? '+' : ''}{p.changePercent.toFixed(1)}%
+                </span>
+              </div>
+            )
+          })}
+        </div>
+      </div>
     </div>
   )
 }
@@ -104,18 +170,23 @@ function LivePriceWidget({ symbol, title }) {
 function OilPriceBanner() {
   return (
     <div className="bg-gray-900 border-b border-gray-800">
-      <div className="flex items-center">
-        <div className="bg-amber-950/60 px-3 py-2.5 flex items-center gap-1.5 shrink-0 border-r border-gray-700">
+      <div className="flex flex-col sm:flex-row sm:items-center">
+        <a
+          href="https://www.tradingview.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-amber-950/60 px-3 py-2 sm:py-2.5 flex items-center gap-1.5 shrink-0 border-b sm:border-b-0 sm:border-r border-gray-700 hover:bg-amber-950/80 transition-colors"
+        >
           <TrendingUp size={12} className="text-amber-400" />
-          <span className="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Live Prices</span>
-        </div>
-        <div className="flex items-center flex-1 divide-x divide-gray-800">
+          <span className="text-[10px] font-bold text-amber-400 uppercase tracking-wider">TradingView</span>
+        </a>
+        <div className="flex flex-wrap sm:flex-nowrap items-center flex-1 divide-x divide-gray-800">
           <div className="flex items-center flex-1 min-w-0">
-            <span className="text-[9px] font-bold text-orange-400 bg-orange-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">Brent</span>
+            <span className="text-[8px] sm:text-[9px] font-bold text-orange-400 bg-orange-950/40 px-1.5 sm:px-2 py-0.5 sm:py-1 shrink-0 uppercase tracking-wider">Brent</span>
             <LivePriceWidget symbol="TVC:UKOIL" title="Brent Crude" />
           </div>
           <div className="flex items-center flex-1 min-w-0">
-            <span className="text-[9px] font-bold text-amber-400 bg-amber-950/40 px-2 py-1 shrink-0 uppercase tracking-wider">WTI</span>
+            <span className="text-[8px] sm:text-[9px] font-bold text-amber-400 bg-amber-950/40 px-1.5 sm:px-2 py-0.5 sm:py-1 shrink-0 uppercase tracking-wider">WTI</span>
             <LivePriceWidget symbol="TVC:USOIL" title="WTI Crude" />
           </div>
         </div>
@@ -293,8 +364,17 @@ export default function FollowTheOilPage() {
         </div>
       </header>
 
-      {/* Live Oil Price Banner */}
+      {/* Live Oil Price Banners — TradingView first, OilPrice.com second */}
       <OilPriceBanner />
+      <OilPriceComBanner />
+
+      {/* Brent note */}
+      <div className="bg-blue-950/30 border-b border-blue-900/30 px-4 py-2 flex items-center justify-center gap-2">
+        <BarChart3 size={12} className="text-blue-400 shrink-0" />
+        <p className="text-[11px] text-blue-300 font-medium text-center">
+          About 2/3rds of all crude oil contracts around the globe include Brent crude oil, making it the most popular marker.
+        </p>
+      </div>
 
       {/* Support bar */}
       <div className="bg-amber-950/20 border-b border-amber-900/20 px-4 py-1.5 flex items-center justify-center">
