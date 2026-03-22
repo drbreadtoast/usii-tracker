@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-22T03:14:00Z",
+    "lastUpdated": "2026-03-22T16:07:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -75,16 +75,17 @@
       "date": "2026-03-22",
       "label": "Day 22 Evening \u2014 Trump 48-hour Hormuz ultimatum; threatens to obliterate Iran power plants. Iran counter-threatens Gulf desalination infrastructure. IDF Zamir: campaign at 'halfway stage', 3+ more weeks planned. Brent $112 (+40.3%).",
       "wti": {
-        "price": 98.23,
-        "change": "+30.1%",
-        "changeDollars": "+$22.72"
+        "price": 98.32,
+        "change": "+30.2%",
+        "changeDollars": "+$22.81"
       },
       "brent": {
-        "price": 112.0,
-        "change": "+40.4%",
-        "changeDollars": "+$32.20"
+        "price": 106.41,
+        "change": "+33.3%",
+        "changeDollars": "+$26.57"
       },
-      "changePercent": "+35.7%"
+      "changePercent": 33.3,
+      "lastUpdated": "2026-03-22"
     },
     "priceHistory": [
       {
@@ -548,7 +549,8 @@
       ],
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
-    }
+    },
+    "regularGasoline": 3.925
   },
   "keyFacts": [
     {
@@ -729,6 +731,13 @@
       "brent": 108.84,
       "wti": 98.23,
       "label": "Day 22 PM \u2014 Iran strikes Dimona/Arad, air defense failure; Houthi Bab el-Mandeb threat",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-22",
+      "brent": 106.41,
+      "wti": 98.32,
+      "label": "Day 23 \u2014 Trump 48-hr deadline; Israel strikes Malek Ashtar University Tehran",
       "isEvent": true
     }
   ]

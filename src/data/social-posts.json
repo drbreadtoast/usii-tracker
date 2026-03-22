@@ -1,218 +1,5 @@
 [
   {
-    "id": "social-181",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "Day 22: Iran fired two IRBMs at Diego Garcia approximately 7 hours after UK PM Starmer authorized US use of the base for strikes on Iranian Hormuz missile sites. One missile failed mid-flight; a US Navy destroyer intercepted the second with an SM-3. No damage or casualties. Demonstrates Iran's ~4,000km IRBM range \u2014 double previously claimed capability.",
-    "timestamp": "2026-03-21T07:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Diego Garcia IRBM launch confirmed by WSJ, CNBC, Times of Israel, ITV. SM-3 intercept reported by multiple US officials.",
-    "keywords": [
-      "diego-garcia",
-      "irbm",
-      "iran",
-      "uk",
-      "starmer",
-      "sm-3",
-      "intercept"
-    ]
-  },
-  {
-    "id": "social-182",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "text": "Natanz nuclear enrichment facility struck by US-Israel on Day 22. Iranian Tasnim reports 'no radioactive leakage.' This is the first confirmed strike on the primary centrifuge enrichment complex. Earlier strikes hit auxiliary buildings; today's attack appears to target the main hall. Internet blackout prevents independent BDA.",
-    "timestamp": "2026-03-21T05:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Natanz strike confirmed by Al Jazeera and Times of Israel liveblogs. 'No radioactive leakage' claim from Tasnim only; not independently verified.",
-    "keywords": [
-      "natanz",
-      "nuclear",
-      "iran",
-      "strike",
-      "day22",
-      "radioactive"
-    ]
-  },
-  {
-    "id": "social-183",
-    "handle": "@WarMonitor",
-    "displayName": "War Monitor",
-    "text": "Araghchi signals Iran may seek diplomatic exit: 'We seek to end the war permanently' per Al Arabiya. Sets conditions: permanent end to attacks + reparations. Simultaneously reports of CIA-Iranian intelligence backchannel through a third country. First diplomatic signal from Tehran in 22 days of war.",
-    "timestamp": "2026-03-21T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Reported by Al Arabiya \u2014 not yet confirmed by official Iranian statement. Iran International also reports backchannel contact.",
-    "keywords": [
-      "araghchi",
-      "iran",
-      "diplomatic",
-      "ceasefire",
-      "cia",
-      "negotiations"
-    ]
-  },
-  {
-    "id": "social-184",
-    "handle": "@MilitaryLandNet",
-    "displayName": "Military Land",
-    "text": "IDF Day 22 BDA summary: 356 total timeline events logged. Caspian Sea campaign confirmed \u2014 4 missile boats and 1 corvette destroyed at Bandar Anzali. Cluster missile struck Rishon Lezion daycare (empty); debris near Al-Aqsa in Jerusalem. Israel choosing not to intercept some cluster bomblets to conserve interceptor supply (90%+ rate maintained).",
-    "timestamp": "2026-03-21T08:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF confirmed Caspian strikes via Lt. Col. Shoshani. Rishon Lezion damage confirmed by Israeli emergency services.",
-    "keywords": [
-      "idf",
-      "caspian",
-      "bandar-anzali",
-      "rishon-lezion",
-      "cluster",
-      "bda"
-    ]
-  },
-  {
-    "id": "social-185",
-    "handle": "@EnergyIntel",
-    "displayName": "Energy Intelligence",
-    "text": "Brent crude pulls back to $107.20 (from $110.28) on Day 22. US Treasury's 30-day sanctions waiver for 140M barrels of Iranian crude officially in effect through April 19. Bessent: 'using Iranian barrels against the Iranians.' WTI at $98.23. Goldman Sachs maintains triple-digit oil for 'potentially years' if Hormuz stays blocked.",
-    "timestamp": "2026-03-21T09:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Oil prices from CNBC/Bloomberg Day 22. Sanctions waiver confirmed by CNBC and WaPo. Goldman projection from CNN Business.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "sanctions",
-      "iran",
-      "bessent",
-      "hormuz"
-    ]
-  },
-  {
-    "id": "social-186",
-    "handle": "@Conflict_Monitor",
-    "displayName": "Conflict Monitor",
-    "text": "Hormuz Blockade Day 19 update: Iran refuses to discuss Hormuz reopening while under attack (Bloomberg). DIA assessment says Iran can maintain blockade 1-6 months. 21 total ships have crossed via Iranian corridor since war began vs 100+/day pre-war. ~40,000 seafarers remain stranded. Trump called NATO 'COWARDS' for refusing to contribute troops to open strait.",
-    "timestamp": "2026-03-21T09:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "DIA blockade assessment from CNN. 21 ships figure from Bloomberg Hormuz tracker. NATO COWARDS post from Bloomberg and Al Jazeera.",
-    "keywords": [
-      "hormuz",
-      "blockade",
-      "iran",
-      "day19",
-      "nato",
-      "trump",
-      "shipping"
-    ]
-  },
-  {
-    "id": "social-187",
-    "handle": "@ISWonline",
-    "displayName": "Institute for the Study of War (ISW)",
-    "text": "ISW: Iran's Katz statement contradicts Trump's wind-down narrative \u2014 Israel's defense establishment appears to be driving operational tempo, not Washington. Katz declared attacks will 'increase significantly' within hours of Trump's Truth Social winding down post. Pentagon sources describe 'frustration' with Israeli messaging.",
-    "timestamp": "2026-03-21T12:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "ISW daily assessment citing Katz statement vs Trump post.",
-    "keywords": [
-      "katz",
-      "trump",
-      "escalation",
-      "contradiction",
-      "day22"
-    ]
-  },
-  {
-    "id": "social-188",
-    "handle": "@oryxspioenkop",
-    "displayName": "Oryx (OSINT \u2014 Military Losses)",
-    "text": "Oryx confirms: IDF footage of 5 simultaneous strikes on western Iran ballistic missile storage array is verified. Imagery shows secondary explosions consistent with solid-fuel propellant storage. At least 3 distinct storage buildings destroyed. This represents Iran's largest single-session loss of ready-to-fire ballistic missile stockpile.",
-    "timestamp": "2026-03-21T13:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Consistent with IDF-released footage and Jerusalem Post reporting on strike.",
-    "keywords": [
-      "idf",
-      "ballistic-missiles",
-      "iran",
-      "strikes",
-      "day22"
-    ]
-  },
-  {
-    "id": "social-189",
-    "handle": "@DaryaZargar",
-    "displayName": "Darya Zargar (Iran analyst)",
-    "text": "Analysis: Pezeshkian's Nowruz 'Islamic Assembly of Middle East' proposal is diplomatically significant but structurally hollow \u2014 it implicitly demands US withdrawal as a precondition. The speech signals Tehran knows the war is unsustainable but lacks leverage to end it on acceptable terms. Watch for backchannel activity in the next 72 hours.",
-    "timestamp": "2026-03-21T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Analytical assessment consistent with Pezeshkian's Nowruz address reported by ANI and Al Jazeera.",
-    "keywords": [
-      "pezeshkian",
-      "nowruz",
-      "diplomacy",
-      "iran",
-      "day22"
-    ]
-  },
-  {
-    "id": "social-190",
-    "handle": "@NatSecLaw",
-    "displayName": "Jack Goldsmith (Lawfare / Harvard Law)",
-    "text": "Goldsmith analysis: Araghchi's NBC demand for war 'reparations' and a 'permanent end' rather than a ceasefire marks a hardening of Iran's diplomatic posture. Combined with Katz's escalation signal and Trump's nominal wind-down, the gap between all parties' stated positions is as wide as it has been at any point in Day 22.",
-    "timestamp": "2026-03-21T14:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "Analysis consistent with publicly available Araghchi NBC statements and Katz's media statement.",
-    "keywords": [
-      "araghchi",
-      "ceasefire",
-      "diplomacy",
-      "iran",
-      "day22"
-    ]
-  },
-  {
-    "id": "social-191",
-    "handle": "@Maysam_Behravesh",
-    "displayName": "Maysam Behravesh (Iran OSINT)",
-    "text": "Behravesh: IAEA's 'no radiation' confirmation from Natanz actually serves Iranian diplomatic interests \u2014 it removes the nuclear catastrophe narrative while allowing Iran to claim Natanz was hit without triggering global panic. IDF's denial of the Natanz strike is unusual and suggests US may be operating more unilaterally than acknowledged.",
-    "timestamp": "2026-03-21T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Analysis consistent with IAEA statement and IDF denial reported by Jerusalem Post and Al Jazeera.",
-    "keywords": [
-      "natanz",
-      "nuclear",
-      "iaea",
-      "idf",
-      "day22"
-    ]
-  },
-  {
-    "id": "social-192",
-    "handle": "@DefenseNewsBreak",
-    "displayName": "Defense News \u2014 Breaking",
-    "text": "CENTCOM confirms overnight IDF strikes in western Iran destroyed a 'major ballistic missile component manufacturing and storage complex.' DoD says Iran's ready-to-fire ballistic missile inventory is now estimated below 15% of pre-war capacity. Missile attack rate into Israel has dropped ~90% from war-opening pace.",
-    "timestamp": "2026-03-21T15:30:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "DoD briefing consistent with Hegseth public remarks and CENTCOM statements reported by multiple outlets.",
-    "keywords": [
-      "centcom",
-      "ballistic-missiles",
-      "iran",
-      "idf",
-      "day22"
-    ]
-  },
-  {
     "id": "social-193",
     "handle": "@OSINTdefender",
     "displayName": "OSINT Defender",
@@ -413,6 +200,112 @@
       "negotiations",
       "iran-terms",
       "war-termination"
+    ]
+  },
+  {
+    "id": "social-205",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Day 23: Israel struck Malek Ashtar University of Technology in East Tehran \u2014 Iran's top defense engineering school, linked to IRGC ballistic missile, drone, and nuclear weaponization programs. IDF confirmed the strike explicitly as targeting 'nuclear weapon and ballistic missile components' development. This is the first confirmed Israeli strike on Iran's weapons-development academic complex.",
+    "timestamp": "2026-03-22T07:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF announcement confirmed by Times of Israel, Al Jazeera Day 23, CNN live updates.",
+    "keywords": [
+      "malek-ashtar",
+      "tehran",
+      "nuclear-rd",
+      "idf",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-206",
+    "handle": "@WarMonitor",
+    "displayName": "War Monitor",
+    "text": "Trump's 48-hour Hormuz deadline (expires ~7:44 PM ET Monday) has ~34 hours remaining as of Day 23 morning. Iran's military has flatly refused: Hormuz will be 'completely closed indefinitely' if power plants are struck. Iran also counter-threatens all US/Israeli desalination and energy infrastructure in the Gulf. Markets now pricing in ~40% chance of expanded strikes before the deadline expires.",
+    "timestamp": "2026-03-22T09:07:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Iran counter-threat via Bloomberg confirmed. Deadline calculation confirmed. Market probability is analyst estimate from options pricing.",
+    "keywords": [
+      "trump",
+      "hormuz",
+      "deadline",
+      "iran",
+      "power-plants",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-207",
+    "handle": "@MENAosint",
+    "displayName": "MENA OSINT",
+    "text": "Netanyahu at Arad \u2014 visiting the site of Iran's Day 22 direct hit \u2014 urged European nations to join the war coalition. Key data point: Iran's demonstrated ~4,000km IRBM range (Diego Garcia strike, March 21) puts Berlin, Paris, London, and Rome within reach. Netanyahu explicitly invoked this to call for European commitment. So far zero European nations have committed combat forces.",
+    "timestamp": "2026-03-22T09:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Netanyahu Arad visit and statement confirmed by Times of Israel and Jerusalem Post. 4,000km range calculation confirmed by multiple defense analysts.",
+    "keywords": [
+      "netanyahu",
+      "europe",
+      "coalition",
+      "irbm-range",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-208",
+    "handle": "@Conflict_Monitor",
+    "displayName": "Conflict Monitor",
+    "text": "Lebanon health ministry Day 23: 1,001+ killed since March 2 (when Hezbollah formally entered the war), 2,650+ wounded, 1 million+ displaced. Hezbollah fired 6 rockets at Metula this morning \u2014 3 crashed in Lebanon, 3 intercepted. IDF ordered strikes on all Litani River bridges \u2014 cutting Hezbollah's main supply routes and trapping ~150,000 civilians south of the river.",
+    "timestamp": "2026-03-22T10:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Lebanon health ministry figures from Times of Israel liveblog. Hezbollah rocket attack confirmed by IDF. Litani bridge strikes order confirmed by Katz.",
+    "keywords": [
+      "lebanon",
+      "hezbollah",
+      "metula",
+      "death-toll",
+      "litani",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-209",
+    "handle": "@ISW_Research",
+    "displayName": "Institute for the Study of War (ISW)",
+    "text": "ISW Day 23 assessment: The Rubio-Hegseth internal feud over US ground troops in Iran is the most significant administrative fracture of the conflict so far. Rubio opposes ground deployment; Hegseth supports it at Israel's request. Combined with Trump's oscillating signals (wind-down vs. power plant obliteration), the US lacks a coherent war termination strategy \u2014 raising the risk of strategic drift into an open-ended commitment.",
+    "timestamp": "2026-03-22T12:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "likely",
+    "verificationNote": "Rubio-Hegseth feud confirmed by Middle East Eye. ISW assessment methodology is editorial analysis.",
+    "keywords": [
+      "rubio",
+      "hegseth",
+      "ground-troops",
+      "strategy",
+      "us-internal",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-210",
+    "handle": "@AraghchiWatch",
+    "displayName": "Araghchi Watch",
+    "text": "NYT reports Iran's Ministry of Intelligence secretly contacted CIA via a third-country intelligence service on Day 23. Iran's public posture: 'never asked for a ceasefire, never asked for negotiation.' The private contact suggests Iran may be exploring exit options while maintaining defiant posture for domestic consumption. No formal talks \u2014 Iran's conditions (permanent end, reparations, withdrawal) remain non-starters for the US.",
+    "timestamp": "2026-03-22T13:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "likely",
+    "verificationNote": "NYT backchannel report confirmed by Jerusalem Post and Iran International. Iran's public statements confirmed. Classified nature prevents full verification.",
+    "keywords": [
+      "iran",
+      "cia",
+      "backchannel",
+      "negotiations",
+      "araghchi",
+      "day23"
     ]
   }
 ]

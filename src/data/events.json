@@ -10737,5 +10737,117 @@
       "naval",
       "day22"
     ]
+  },
+  {
+    "id": "evt-new-306",
+    "title": "Israel strikes Malek Ashtar University R&D complex in East Tehran",
+    "description": "Israel launched strikes on East Tehran on Day 23, specifically targeting a research and development facility at Malek Ashtar University of Technology. The IDF announced the facility was used to develop components for nuclear weapons and ballistic missiles. Explosions were reported in eastern Tehran neighborhoods. The IDF stated: 'Israel will not allow the Iranian regime to acquire nuclear weapons.' The Malek Ashtar complex is Iran's leading defense engineering university and has been linked to IRGC missile and weapons programs.",
+    "type": "strike",
+    "lat": 35.69,
+    "lng": 51.49,
+    "location": "East Tehran, Tehran Province, Iran",
+    "timestamp": "2026-03-22T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-22-2026/"
+      },
+      {
+        "name": "Al Jazeera Day 23",
+        "url": "https://www.aljazeera.com/news/2026/3/22/iran-war-whats-happening-on-day-23-of-us-israel-attacks"
+      },
+      {
+        "name": "CNN live updates",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-22-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["israel", "tehran", "nuclear-rd", "strike", "weapons-development", "day23"]
+  },
+  {
+    "id": "evt-new-307",
+    "title": "Netanyahu at Arad: 'Europe must join the fight against Iran'",
+    "description": "Israeli Prime Minister Benjamin Netanyahu visited Arad — the city struck by Iranian ballistic missiles the previous night — and urged European leaders to join the coalition against Iran. Netanyahu cited Iran's demonstrated ~4,000km IRBM range (evidenced by the Diego Garcia attack) as proof that Berlin, Paris, and Rome are within Iranian missile range. He stated: 'If you want proof that Iran endangers the entire world, the last 48 hours have proved it. They have the capacity to reach deep into Europe. It's time to see the leaders of the rest of the countries join up.' He called the Hormuz blockade 'blackmail of the entire world.'",
+    "type": "diplomatic",
+    "lat": 31.26,
+    "lng": 35.21,
+    "location": "Arad, Southern District, Israel",
+    "timestamp": "2026-03-22T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/citing-long-range-attack-netanyahu-urges-europe-to-join-fight-against-iran/"
+      },
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/article-890798"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["netanyahu", "israel", "europe", "coalition", "diplomacy", "day23"]
+  },
+  {
+    "id": "evt-new-308",
+    "title": "Hezbollah fires 6 rockets at Metula; Lebanon death toll reaches 1,001",
+    "description": "Hezbollah launched six rockets at Metula in northern Israel from southern Lebanon on Day 23. Three rockets crashed in Lebanese territory; three were intercepted by Israeli air defenses. Lebanon's Ministry of Public Health simultaneously confirmed that 1,001 people have been killed in Lebanon since the conflict expanded on March 2, with over 2,650 wounded and more than 1 million displaced. Israeli Defense Minister Katz ordered IDF strikes on all Litani River bridges to cut Hezbollah supply and movement routes southward.",
+    "type": "strike",
+    "lat": 33.28,
+    "lng": 35.57,
+    "location": "Metula, Northern District, Israel",
+    "timestamp": "2026-03-22T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-22-2026/"
+      },
+      {
+        "name": "Long War Journal",
+        "url": "https://www.longwarjournal.org/archives/2026/03/analysis-israel-strikes-over-500-targets-in-lebanon-issues-evac-orders-in-new-war-with-hezbollah-march-2-6-updates.php"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["hezbollah", "rockets", "metula", "lebanon", "death-toll", "day23"]
+  },
+  {
+    "id": "evt-new-309",
+    "title": "Iran military: Hormuz 'completely closed indefinitely' if power plants struck",
+    "description": "Iran's military operational command issued a formal counter-threat in response to Trump's 48-hour ultimatum to open the Strait of Hormuz: if Iran's power plants are struck, the strait will be 'completely closed indefinitely.' The statement also warned that all US and Israeli energy, information technology, and desalination infrastructure across the Gulf region would be targeted. With the Trump deadline expiring Monday March 23 at approximately 7:44 PM ET, Iran signaled it would not comply with the Hormuz reopening demand and would escalate significantly if its energy infrastructure is attacked.",
+    "type": "diplomatic",
+    "lat": 27.09,
+    "lng": 56.08,
+    "location": "Strait of Hormuz, Persian Gulf",
+    "timestamp": "2026-03-22T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-22/iran-threatens-to-hit-key-infrastructure-after-trump-s-ultimatum"
+      },
+      {
+        "name": "Al Jazeera live blog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/22/iran-war-live-trump-threatens-attacks-on-power-plants-over-hormuz-strait"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/iran-unswayed-trumps-48-hour-deadline-threats-obliterate-energy-infras-rcna264607"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "hormuz", "counter-threat", "power-plants", "trump-ultimatum", "escalation", "day23"]
   }
 ]
