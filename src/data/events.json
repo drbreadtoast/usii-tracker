@@ -10766,7 +10766,14 @@
     ],
     "socialRefs": [],
     "casualties": null,
-    "tags": ["israel", "tehran", "nuclear-rd", "strike", "weapons-development", "day23"]
+    "tags": [
+      "israel",
+      "tehran",
+      "nuclear-rd",
+      "strike",
+      "weapons-development",
+      "day23"
+    ]
   },
   {
     "id": "evt-new-307",
@@ -10792,7 +10799,14 @@
     ],
     "socialRefs": [],
     "casualties": null,
-    "tags": ["netanyahu", "israel", "europe", "coalition", "diplomacy", "day23"]
+    "tags": [
+      "netanyahu",
+      "israel",
+      "europe",
+      "coalition",
+      "diplomacy",
+      "day23"
+    ]
   },
   {
     "id": "evt-new-308",
@@ -10818,7 +10832,14 @@
     ],
     "socialRefs": [],
     "casualties": null,
-    "tags": ["hezbollah", "rockets", "metula", "lebanon", "death-toll", "day23"]
+    "tags": [
+      "hezbollah",
+      "rockets",
+      "metula",
+      "lebanon",
+      "death-toll",
+      "day23"
+    ]
   },
   {
     "id": "evt-new-309",
@@ -10848,6 +10869,201 @@
     ],
     "socialRefs": [],
     "casualties": null,
-    "tags": ["iran", "hormuz", "counter-threat", "power-plants", "trump-ultimatum", "escalation", "day23"]
+    "tags": [
+      "iran",
+      "hormuz",
+      "counter-threat",
+      "power-plants",
+      "trump-ultimatum",
+      "escalation",
+      "day23"
+    ]
+  },
+  {
+    "id": "evt-new-310",
+    "title": "Hezbollah rocket kills Israeli civilian Ofer Moskovitz at Misgav Am",
+    "description": "Hezbollah fired rockets at Misgav Am in northern Israel on March 22, killing Ofer Moskovitz, 60 years old. The IDF opened an investigation into whether the death was caused by a Hezbollah projectile or Israeli artillery fire, as no warning sirens had sounded before the strike. Hezbollah claimed responsibility for 'a rocket barrage targeting a gathering of Israeli enemy army soldiers' in the area. The death raised the Israeli civilian death toll from Hezbollah to at least 3 since the conflict expansion began on March 2. Israel Defense Minister Katz ordered the IDF to immediately destroy all bridges over the Litani River used for Hezbollah supply and movement routes.",
+    "type": "strike",
+    "lat": 33.21,
+    "lng": 35.52,
+    "location": "Misgav Am, Northern District, Israel",
+    "timestamp": "2026-03-22T10:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-22-2026/"
+      },
+      {
+        "name": "Al Jazeera Day 23",
+        "url": "https://www.aljazeera.com/news/2026/3/22/iran-war-whats-happening-on-day-23-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0,
+      "note": "Ofer Moskovitz, 60, killed by Hezbollah rocket at Misgav Am"
+    },
+    "tags": [
+      "hezbollah",
+      "rocket",
+      "misgav-am",
+      "israel",
+      "civilian-killed",
+      "day23"
+    ]
+  },
+  {
+    "id": "evt-new-311",
+    "title": "Iran fires 8th missile salvo of the day at Israel — 150+ wounded across multiple cities",
+    "description": "Iran's IRGC fired an eighth wave of ballistic missiles at Israel on March 22, targeting Arad, Dimona, Eilat, Beersheba, and Kiryat Gat. The combined day's salvos wounded approximately 150-180 people, with at least 11 in serious condition. Israeli emergency services reported Israeli air defenses intercepted the majority of incoming missiles, but at least two direct hits caused structural damage in Arad. The IRGC stated the attacks were in retaliation for US-Israeli strikes on Iran's Natanz nuclear facility the previous day. Iran confirmed zero deaths on the Israeli side from its own count, contrary to Iranian state media claims. Israeli Defense Ministry confirmed the salvos and said the multi-front attack from Iran and Hezbollah simultaneously was being analyzed.",
+    "type": "strike",
+    "lat": 31.32,
+    "lng": 35.1,
+    "location": "Southern Israel (Arad, Dimona, Beersheba area)",
+    "timestamp": "2026-03-22T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-22-2026/"
+      },
+      {
+        "name": "Al Jazeera liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/22/iran-war-live-trump-threatens-attacks-on-power-plants-over-hormuz-strait"
+      },
+      {
+        "name": "CNN live updates",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-22-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 180,
+      "note": "150-180 wounded across southern Israel; 11 serious. No confirmed deaths from Day 23 salvos."
+    },
+    "tags": [
+      "iran",
+      "irgc",
+      "missile",
+      "arad",
+      "dimona",
+      "beersheba",
+      "israel",
+      "day23"
+    ]
+  },
+  {
+    "id": "evt-new-312",
+    "title": "IRGC releases 'Say goodbye to electricity' map of Gulf energy targets in response to Trump ultimatum",
+    "description": "Iran's IRGC released an official targeting map via Mehr News Agency depicting power plants, energy infrastructure, and desalination facilities across UAE, Saudi Arabia, Qatar, Kuwait, and Bahrain captioned 'Say goodbye to electricity.' The map was issued as a direct counter-threat following President Trump's 48-hour ultimatum to open the Strait of Hormuz or face US strikes on Iranian power plants. Parliament Speaker Ghalibaf stated that vital energy and oil infrastructure across the region would become legitimate targets if Iran's own power infrastructure is struck. The threat was directed at US-allied Gulf states hosting US military assets.",
+    "type": "diplomatic",
+    "lat": 25.0,
+    "lng": 54.0,
+    "location": "Persian Gulf Region",
+    "timestamp": "2026-03-22T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CBS News live blog",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-gas-and-oil-prices-trump-netanyahu-strait-hormuz/"
+      },
+      {
+        "name": "Al Jazeera — Iranian authorities taunt US/Israel/EU",
+        "url": "https://www.aljazeera.com/news/2026/3/22/iranian-authorities-taunt-us-israel-eu-amid-strikes-and-assassinations"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "irgc",
+      "threat",
+      "gulf-states",
+      "power-plants",
+      "energy-infrastructure",
+      "trump-ultimatum",
+      "day23"
+    ]
+  },
+  {
+    "id": "evt-new-313",
+    "title": "Iran grants Japan safe passage through Hormuz; developing IRGC vetting system for transit",
+    "description": "Iranian Foreign Minister Abbas Araghchi announced on March 21 that Japan-related ships are approved to transit the Strait of Hormuz, joining China, India, and Pakistan as nations granted selective passage. Iran is simultaneously developing a formal IRGC registration and vetting system for Hormuz transit, requiring vessels to pre-submit ownership documentation, cargo details, and destination information to IRGC naval command. Reports indicate at least one tanker paid approximately $2 million for transit rights. The dual-track approach — selective approval for friendly nations, vetting for others — represents Iran's attempt to maintain leverage over global oil supply while avoiding total isolation. Some 40,000 seafarers remain stranded on ships on either side of the strait.",
+    "type": "naval",
+    "lat": 26.5,
+    "lng": 56.3,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-03-21T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran allows Japanese ships",
+        "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-it-will-allow-japanese-ships-to-transit-the-strait-of-hormuz"
+      },
+      {
+        "name": "Japan Times",
+        "url": "https://www.japantimes.co.jp/news/2026/03/21/japan/japan-iran-hormuz-trump/"
+      },
+      {
+        "name": "Al Jazeera — Iran vetting system",
+        "url": "https://www.aljazeera.com/news/2026/3/20/iran-developing-a-vetting-system-for-strait-of-hormuz-transit-report"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "hormuz",
+      "japan",
+      "shipping",
+      "vetting-system",
+      "transit",
+      "day22-23"
+    ]
+  },
+  {
+    "id": "evt-new-314",
+    "title": "EU announces new sanctions on 19 Iranian officials for human rights violations",
+    "description": "EU High Representative Kaja Kallas announced on March 22 that EU Member States ambassadors approved new sanctions targeting 19 Iranian regime officials and entities responsible for serious human rights violations during the conflict. The sanctions complement existing EU restrictive measures and were coordinated with calls to keep the Strait of Hormuz open. Kallas also held calls with Turkey, Qatar, and South Korea on conflict de-escalation. The announcement came as Europe publicly declined to send NATO warships to Hormuz but increased diplomatic pressure on Iran.",
+    "type": "diplomatic",
+    "lat": 50.85,
+    "lng": 4.35,
+    "location": "Brussels, Belgium (EU)",
+    "timestamp": "2026-03-22T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Kallas on X",
+        "url": "https://x.com/kajakallas/status/2031690454027080082"
+      },
+      {
+        "name": "EU EEAS press remarks",
+        "url": "https://www.eeas.europa.eu/eeas/eu-gcc-extraordinary-meeting-press-remarks-high-representative-kaja-kallas_en"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "eu",
+      "kallas",
+      "sanctions",
+      "iran",
+      "human-rights",
+      "diplomacy",
+      "day23"
+    ]
   }
 ]

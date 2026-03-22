@@ -1,110 +1,9 @@
 [
   {
-    "id": "social-193",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "BREAKING: Iran ballistic missile direct hit on Arad, southern Israel \u2014 air defense systems failed to intercept. 74 injured including 7 serious. IDF opens formal probe into the interception failure. Highest single-attack civilian casualty count of the war.",
-    "timestamp": "2026-03-21T16:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Consistent with IDF spokesperson statement confirming interception failure and MDA casualty figures.",
-    "keywords": [
-      "arad",
-      "air-defense-failure",
-      "iran-missile",
-      "casualties"
-    ]
-  },
-  {
-    "id": "social-194",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "text": "Day 22 escalation: Iran successfully struck Dimona \u2014 adjacent to Negev Nuclear Research Center. This is Iran's first strike on Israel's nuclear city. IAEA says no reactor damage, but Ghalibaf's statement that 'the skies of Israel are unprotected' signals further nuclear-area targeting is planned.",
-    "timestamp": "2026-03-21T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Dimona strike confirmed by Euronews, IAEA statement, Times of Israel. Ghalibaf statement confirmed by Haaretz.",
-    "keywords": [
-      "dimona",
-      "nuclear",
-      "iran-missile",
-      "ghalibaf",
-      "escalation"
-    ]
-  },
-  {
-    "id": "social-195",
-    "handle": "@WarMonitor",
-    "displayName": "War Monitor",
-    "text": "IDF probing interception failure at Arad as Iran simultaneously struck Dimona. The dual strike pattern \u2014 one failing interception, one near nuclear site \u2014 suggests Iran may be conducting saturation tactics to overwhelm Israeli air defense coverage in the Negev region.",
-    "timestamp": "2026-03-21T17:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Tactical analysis from confirmed strike data. Saturation theory is analyst assessment, not confirmed.",
-    "keywords": [
-      "arad",
-      "dimona",
-      "air-defense",
-      "iran-tactics",
-      "negev"
-    ]
-  },
-  {
-    "id": "social-196",
-    "handle": "@MENAosint",
-    "displayName": "MENA OSINT",
-    "text": "Houthi threat to close Bab el-Mandeb Strait is not rhetoric \u2014 military official Abed al-Thawr declared 'Hour Zero' readiness. If executed alongside Hormuz blockade (now Day 19), this would create the first-ever double chokepoint in history affecting ~30% of global seaborne trade.",
-    "timestamp": "2026-03-21T18:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Houthi statement from named officials confirmed by Africanews and CGTN. Shipping economic figures from CNBC analysis.",
-    "keywords": [
-      "houthis",
-      "bab-el-mandeb",
-      "chokepoint",
-      "shipping",
-      "escalation"
-    ]
-  },
-  {
-    "id": "social-197",
-    "handle": "@conflictmonitor",
-    "displayName": "Conflict Monitor",
-    "text": "Netanyahu's 'very difficult evening' statement and Katz's 'intensifying strikes' declaration both came on the same day Trump said he was 'considering winding down.' The contradictions within the US-Israel alliance are now public and sharp \u2014 suggesting a policy rift is emerging over war termination.",
-    "timestamp": "2026-03-21T19:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "All three statements confirmed by multiple outlets. Analysis is editorial assessment.",
-    "keywords": [
-      "trump",
-      "netanyahu",
-      "katz",
-      "policy-rift",
-      "ceasefire"
-    ]
-  },
-  {
-    "id": "social-198",
-    "handle": "@ISW_Research",
-    "displayName": "Institute for the Study of War (ISW)",
-    "text": "ISW assessment: Iran's ability to conduct precision strikes on Arad and Dimona despite 90% declared degradation suggests Iran retains a significant reserve ballistic missile inventory or has concealed production capacity. The Arad interception failure may signal Iran is adapting trajectory profiles to defeat Israeli radar.",
-    "timestamp": "2026-03-21T20:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "ISW assessment methodology confirmed. Analysis of strike patterns is ISW institutional assessment, not confirmed operational fact.",
-    "keywords": [
-      "iran-missiles",
-      "idf-defense",
-      "arad",
-      "tactical-analysis",
-      "day22"
-    ]
-  },
-  {
     "id": "social-199",
     "handle": "@IranWarWatch",
     "displayName": "Iran War Watch",
-    "text": "Trump's 48-hour Hormuz ultimatum is unprecedented \u2014 threatening to strike civilian power infrastructure crosses a line no US president has crossed publicly before. Iran's immediate counter-threat to target Gulf desalination plants suggests this could spiral rapidly if the deadline expires without compliance.",
+    "text": "Trump's 48-hour Hormuz ultimatum is unprecedented — threatening to strike civilian power infrastructure crosses a line no US president has crossed publicly before. Iran's immediate counter-threat to target Gulf desalination plants suggests this could spiral rapidly if the deadline expires without compliance.",
     "timestamp": "2026-03-22T01:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -121,7 +20,7 @@
     "id": "social-200",
     "handle": "@MiddleEastEye",
     "displayName": "Middle East Eye",
-    "text": "IDF Chief Zamir's 'halfway stage' statement is significant \u2014 it means the IDF envisions ~3 more weeks of operations, carrying the campaign well past Passover. This contradicts Trump's wind-down narrative and suggests the US-Israel alliance is fracturing over war termination timing.",
+    "text": "IDF Chief Zamir's 'halfway stage' statement is significant — it means the IDF envisions ~3 more weeks of operations, carrying the campaign well past Passover. This contradicts Trump's wind-down narrative and suggests the US-Israel alliance is fracturing over war termination timing.",
     "timestamp": "2026-03-22T01:15:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
@@ -138,7 +37,7 @@
     "id": "social-201",
     "handle": "@OSINTdefender",
     "displayName": "OSINT Defender",
-    "text": "Iran's counter-threat on desalination infrastructure is not empty rhetoric \u2014 Iran has previously demonstrated precision drone capability against Gulf industrial targets. Saudi Arabia, UAE, Qatar, and Kuwait rely on desalination for 70-100% of their drinking water. An attack on this infrastructure would be catastrophic.",
+    "text": "Iran's counter-threat on desalination infrastructure is not empty rhetoric — Iran has previously demonstrated precision drone capability against Gulf industrial targets. Saudi Arabia, UAE, Qatar, and Kuwait rely on desalination for 70-100% of their drinking water. An attack on this infrastructure would be catastrophic.",
     "timestamp": "2026-03-22T01:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -155,7 +54,7 @@
     "id": "social-202",
     "handle": "@CovertCabal",
     "displayName": "Covert Cabal",
-    "text": "USS Boxer + 11th MEU deployment signals the US is building an amphibious assault option. This is not just about reinforcing defense \u2014 USS Boxer is an offensive platform. Combined with ~50,000 troops now in the region, the US has built genuine ground-invasion capability for the first time in this conflict.",
+    "text": "USS Boxer + 11th MEU deployment signals the US is building an amphibious assault option. This is not just about reinforcing defense — USS Boxer is an offensive platform. Combined with ~50,000 troops now in the region, the US has built genuine ground-invasion capability for the first time in this conflict.",
     "timestamp": "2026-03-22T02:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -172,7 +71,7 @@
     "id": "social-203",
     "handle": "@wareconomics",
     "displayName": "War Economics",
-    "text": "Trump's power plant threat sent Brent crude back toward $112. Markets are pricing in a 40% chance Trump actually strikes Iran's power infrastructure by March 23. If he does, Iran's counter-strike on Gulf desalination could push Brent above $130 \u2014 exceeding the 2008 record.",
+    "text": "Trump's power plant threat sent Brent crude back toward $112. Markets are pricing in a 40% chance Trump actually strikes Iran's power infrastructure by March 23. If he does, Iran's counter-strike on Gulf desalination could push Brent above $130 — exceeding the 2008 record.",
     "timestamp": "2026-03-22T02:15:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "likely",
@@ -189,7 +88,7 @@
     "id": "social-204",
     "handle": "@AraghchiWatch",
     "displayName": "Araghchi Watch",
-    "text": "Araghchi's statement that Iran seeks 'not a ceasefire but a complete and lasting end to the war' plus demands for reparations effectively makes any quick deal impossible. Iran's position: total US-Israeli withdrawal, compensation, no future attacks \u2014 terms the US will never accept. This war has no near-term exit.",
+    "text": "Araghchi's statement that Iran seeks 'not a ceasefire but a complete and lasting end to the war' plus demands for reparations effectively makes any quick deal impossible. Iran's position: total US-Israeli withdrawal, compensation, no future attacks — terms the US will never accept. This war has no near-term exit.",
     "timestamp": "2026-03-22T02:45:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
@@ -206,7 +105,7 @@
     "id": "social-205",
     "handle": "@IntelCrab",
     "displayName": "Intel Crab",
-    "text": "Day 23: Israel struck Malek Ashtar University of Technology in East Tehran \u2014 Iran's top defense engineering school, linked to IRGC ballistic missile, drone, and nuclear weaponization programs. IDF confirmed the strike explicitly as targeting 'nuclear weapon and ballistic missile components' development. This is the first confirmed Israeli strike on Iran's weapons-development academic complex.",
+    "text": "Day 23: Israel struck Malek Ashtar University of Technology in East Tehran — Iran's top defense engineering school, linked to IRGC ballistic missile, drone, and nuclear weaponization programs. IDF confirmed the strike explicitly as targeting 'nuclear weapon and ballistic missile components' development. This is the first confirmed Israeli strike on Iran's weapons-development academic complex.",
     "timestamp": "2026-03-22T07:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -241,7 +140,7 @@
     "id": "social-207",
     "handle": "@MENAosint",
     "displayName": "MENA OSINT",
-    "text": "Netanyahu at Arad \u2014 visiting the site of Iran's Day 22 direct hit \u2014 urged European nations to join the war coalition. Key data point: Iran's demonstrated ~4,000km IRBM range (Diego Garcia strike, March 21) puts Berlin, Paris, London, and Rome within reach. Netanyahu explicitly invoked this to call for European commitment. So far zero European nations have committed combat forces.",
+    "text": "Netanyahu at Arad — visiting the site of Iran's Day 22 direct hit — urged European nations to join the war coalition. Key data point: Iran's demonstrated ~4,000km IRBM range (Diego Garcia strike, March 21) puts Berlin, Paris, London, and Rome within reach. Netanyahu explicitly invoked this to call for European commitment. So far zero European nations have committed combat forces.",
     "timestamp": "2026-03-22T09:30:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
@@ -258,7 +157,7 @@
     "id": "social-208",
     "handle": "@Conflict_Monitor",
     "displayName": "Conflict Monitor",
-    "text": "Lebanon health ministry Day 23: 1,001+ killed since March 2 (when Hezbollah formally entered the war), 2,650+ wounded, 1 million+ displaced. Hezbollah fired 6 rockets at Metula this morning \u2014 3 crashed in Lebanon, 3 intercepted. IDF ordered strikes on all Litani River bridges \u2014 cutting Hezbollah's main supply routes and trapping ~150,000 civilians south of the river.",
+    "text": "Lebanon health ministry Day 23: 1,001+ killed since March 2 (when Hezbollah formally entered the war), 2,650+ wounded, 1 million+ displaced. Hezbollah fired 6 rockets at Metula this morning — 3 crashed in Lebanon, 3 intercepted. IDF ordered strikes on all Litani River bridges — cutting Hezbollah's main supply routes and trapping ~150,000 civilians south of the river.",
     "timestamp": "2026-03-22T10:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -276,7 +175,7 @@
     "id": "social-209",
     "handle": "@ISW_Research",
     "displayName": "Institute for the Study of War (ISW)",
-    "text": "ISW Day 23 assessment: The Rubio-Hegseth internal feud over US ground troops in Iran is the most significant administrative fracture of the conflict so far. Rubio opposes ground deployment; Hegseth supports it at Israel's request. Combined with Trump's oscillating signals (wind-down vs. power plant obliteration), the US lacks a coherent war termination strategy \u2014 raising the risk of strategic drift into an open-ended commitment.",
+    "text": "ISW Day 23 assessment: The Rubio-Hegseth internal feud over US ground troops in Iran is the most significant administrative fracture of the conflict so far. Rubio opposes ground deployment; Hegseth supports it at Israel's request. Combined with Trump's oscillating signals (wind-down vs. power plant obliteration), the US lacks a coherent war termination strategy — raising the risk of strategic drift into an open-ended commitment.",
     "timestamp": "2026-03-22T12:00:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "likely",
@@ -294,7 +193,7 @@
     "id": "social-210",
     "handle": "@AraghchiWatch",
     "displayName": "Araghchi Watch",
-    "text": "NYT reports Iran's Ministry of Intelligence secretly contacted CIA via a third-country intelligence service on Day 23. Iran's public posture: 'never asked for a ceasefire, never asked for negotiation.' The private contact suggests Iran may be exploring exit options while maintaining defiant posture for domestic consumption. No formal talks \u2014 Iran's conditions (permanent end, reparations, withdrawal) remain non-starters for the US.",
+    "text": "NYT reports Iran's Ministry of Intelligence secretly contacted CIA via a third-country intelligence service on Day 23. Iran's public posture: 'never asked for a ceasefire, never asked for negotiation.' The private contact suggests Iran may be exploring exit options while maintaining defiant posture for domestic consumption. No formal talks — Iran's conditions (permanent end, reparations, withdrawal) remain non-starters for the US.",
     "timestamp": "2026-03-22T13:00:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "likely",
@@ -305,6 +204,120 @@
       "backchannel",
       "negotiations",
       "araghchi",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-211",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "OSINT Defender tracking: Iran fired its 8th missile salvo of Day 23 targeting Arad, Dimona, Eilat, Beersheba, and Kiryat Gat. Cumulative Day 23 injuries estimated 150-180; 11 in serious condition. Air defenses performed better in later salvos. IDF confirmed no Day 23 fatalities from missile fire.",
+    "timestamp": "2026-03-22T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Consistent with Times of Israel liveblog and Al Jazeera Day 23 coverage.",
+    "keywords": [
+      "iran",
+      "missile",
+      "8th-salvo",
+      "arad",
+      "dimona",
+      "israel",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-212",
+    "handle": "@IranWarWatch",
+    "displayName": "Iran War Watch",
+    "text": "Iran War Watch: IRGC released official targeting map via Mehr News Agency depicting Gulf state energy infrastructure captioned 'Say goodbye to electricity' — UAE, Saudi Arabia, Qatar, Kuwait, Bahrain power plants and desalination facilities all marked. Direct counter-threat to Trump's Hormuz power plant ultimatum. Gulf states have issued emergency advisories.",
+    "timestamp": "2026-03-22T11:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Map confirmed via CBS News liveblog and Al Jazeera reporting on Iranian threats.",
+    "keywords": [
+      "irgc",
+      "map",
+      "gulf",
+      "power-plants",
+      "threat",
+      "trump-ultimatum",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-213",
+    "handle": "@WarMonitor3",
+    "displayName": "War Monitor",
+    "text": "War Monitor: Hezbollah rocket killed 60-year-old Israeli civilian Ofer Moskovitz at Misgav Am. IDF investigating potential friendly fire — no sirens before strike. Defense Minister Katz ordered immediate destruction of all Litani River bridges. Lebanon confirmed death toll now 1,021+. IDF ground operations in southern Lebanon continuing 7th day.",
+    "timestamp": "2026-03-22T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Death confirmed by Israeli emergency services. Katz bridge order confirmed by Times of Israel.",
+    "keywords": [
+      "hezbollah",
+      "misgav-am",
+      "moskovitz",
+      "civilian-killed",
+      "litani",
+      "lebanon",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-214",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Intel Crab: Iran FM Araghchi confirmed Japan granted Hormuz transit rights joining China, India, Pakistan. IRGC simultaneously building formal vetting/registration system for approved vessels — ships must pre-submit ownership, cargo destination to IRGC command. One tanker reportedly paid $2M for passage. 40,000+ seafarers stranded on both sides of strait.",
+    "timestamp": "2026-03-22T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Araghchi statement confirmed by Japan Times and Al Jazeera. Vetting system confirmed by Al Jazeera March 20 report.",
+    "keywords": [
+      "hormuz",
+      "japan",
+      "transit",
+      "irgc",
+      "vetting-system",
+      "shipping",
+      "day22-23"
+    ]
+  },
+  {
+    "id": "social-215",
+    "handle": "@SentDefender",
+    "displayName": "Sentinel Defense",
+    "text": "Sentinel Defense: Sen. Murkowski (R-AK) signaling push for congressional war authorization vote if Trump orders ground troops to Iran. Dem senators blocked SECOND War Powers vote (March 18) by Republicans. Trump administration still operating without formal war authorization for Operation Epic Fury entering Week 4. Legal scholars debate whether AUMF 2001 covers current operations.",
+    "timestamp": "2026-03-22T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Murkowski quote confirmed by CNN. War Powers vote confirmed by Sen. Booker's office statement.",
+    "keywords": [
+      "murkowski",
+      "war-authorization",
+      "congress",
+      "trump",
+      "war-powers",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-216",
+    "handle": "@MENAosint",
+    "displayName": "MENA OSINT",
+    "text": "MENA OSINT: EU sanctions 19 Iranian officials (Kallas March 22). Russia called Natanz strike 'a blatant violation of international law' — Putin pledged Moscow remains 'loyal friend to Iran.' China called for immediate ceasefire and condemned military operations targeting civilian infrastructure. 22-nation joint statement (incl. UK, France, Germany, Japan) condemned Iranian vessel attacks and offered to help secure Hormuz.",
+    "timestamp": "2026-03-22T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "EU sanctions confirmed by Kallas X post. Russia statement confirmed by CBS liveblog. 22-nation statement confirmed by UK gov website.",
+    "keywords": [
+      "eu",
+      "sanctions",
+      "russia",
+      "china",
+      "diplomacy",
+      "hormuz",
+      "22-nation",
       "day23"
     ]
   }
