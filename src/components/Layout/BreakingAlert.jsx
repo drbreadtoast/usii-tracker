@@ -5,23 +5,23 @@ import { AlertTriangle, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, XC
 // Breaking alerts — only for major, verified-or-actively-developing stories
 const BREAKING_ALERTS = [
   {
-    id: 'ba-008',
-    headline: 'FIRST HOSTILE HIT: US F-35 Struck by Suspected Iranian Fire — Emergency Landing, Pilot Stable',
+    id: 'ba-009',
+    headline: 'IRAN STRIKES DIMONA: Missile hits Israel\'s nuclear city — 47 injured, air defense fails. IAEA: no facility damage.',
     status: 'confirmed',
-    lastUpdated: '2026-03-19T22:00:00Z',
-    summary: 'A US F-35 stealth fighter was hit by suspected Iranian fire during a combat mission over Iran, forcing an emergency landing at a US air base in the Middle East. The pilot is in stable condition. CENTCOM confirmed the emergency landing but declined to confirm the cause. The IRGC claimed responsibility. This is the first time Iran has hit a US aircraft in the war — and the first confirmed hostile hit on an F-35 in combat history.',
+    lastUpdated: '2026-03-22T03:14:00Z',
+    summary: 'An Iranian ballistic missile scored a direct hit on Dimona, the southern Israeli city adjacent to the Negev Nuclear Research Center, on Day 22 of the war. 47 people were hospitalized, including a 12-year-old boy in serious condition. A three-story building collapsed; 12 distinct impact sites confirmed across the city. Israeli air defense systems (Arrow and David\'s Sling) failed to intercept — the IDF has opened a formal probe. The IAEA confirmed no damage to the nuclear research facility itself and no abnormal radiation levels detected.',
     officialStatus: {
-      label: 'Impact — First Hostile F-35 Hit in History',
-      detail: 'A US F-35 stealth fighter jet made an emergency landing after being struck during a combat mission over Iran on Day 20 of the conflict.\n\nCENTCOM spokesperson Capt. Tim Hawkins confirmed the aircraft was "flying a combat mission over Iran" and landed safely. The pilot is in stable condition.\n\nThe IRGC issued a statement claiming it targeted the US aircraft. CENTCOM declined to confirm whether the damage was caused by Iranian fire.\n\nThis is historic: no F-35 has ever been confirmed struck by enemy fire in combat since the aircraft entered service in 2015. The F-35 costs upward of $100 million per unit. Both the US and Israel fly F-35s in this conflict.\n\nOther US aircraft losses in the war include 3 F-15s downed by Kuwaiti friendly fire, a KC-135 crash in Iraq killing 6 airmen, and ~12 MQ-9 Reaper drones lost. Total US KIA: 13, with ~200 wounded.',
+      label: 'Confirmed — Iran\'s First Strike on Israel\'s Nuclear City',
+      detail: 'An Iranian ballistic missile struck residential areas of Dimona, located approximately 10 km from Israel\'s Negev Nuclear Research Center — the country\'s only nuclear facility.\n\nMagen David Adom (MDA) confirmed 47 casualties: at least 1 serious (a 12-year-old boy with shrapnel wounds), multiple moderate, and the rest light injuries. A three-storey building collapsed and 12 separate impact sites were identified across the city.\n\nIsraeli air defense systems — Arrow and David\'s Sling — were activated but failed to intercept the incoming missile. The IDF described the weapon as "not a special or unfamiliar type," making the interception failure significant. IDF has formally opened an investigation.\n\nThe IAEA stated it was "closely monitoring" the situation and confirmed no increase in off-site radiation levels and no damage to the Negev Nuclear Research Center itself.\n\nThe strike followed Iran\'s IRBM attack on Diego Garcia and a simultaneous direct hit on the city of Arad (74 injured, also with interception failure). Trump subsequently issued a 48-hour ultimatum demanding Iran fully open the Strait of Hormuz or face strikes on Iran\'s power plants.',
       sources: [
-        { name: 'CNN', url: 'https://www.cnn.com/2026/03/19/politics/f-35-damage-iran-war' },
-        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/news/2026/3/19/us-f-35-aircraft-makes-emergency-landing-after-a-combat-mission-over-iran' },
-        { name: 'Military Times', url: 'https://www.militarytimes.com/news/your-military/2026/03/19/us-f-35-forced-to-make-emergency-landing-after-iran-combat-mission/' },
-        { name: 'The Jerusalem Post', url: 'https://www.jpost.com/middle-east/iran-news/article-890587' },
+        { name: 'Euronews', url: 'https://www.euronews.com/2026/03/21/at-least-40-injured-after-iranian-missile-strikes-israeli-town-home-to-nuclear-facility' },
+        { name: 'Times of Israel', url: 'https://www.timesofisrael.com/liveblog_entry/idf-investigating-its-failure-to-intercept-iranian-ballistic-missile-that-hit-dimona/' },
+        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/news/2026/3/21/iran-strikes-towns-near-israels-nuclear-site-in-escalating-tit-for-tat' },
+        { name: 'PBS NewsHour', url: 'https://www.pbs.org/newshour/world/dozens-injured-in-israel-after-iranian-missile-strikes-target-two-areas-near-main-nuclear-research-center' },
       ]
     },
     cyberAttack: null,
-    context: 'Day 20 of the Iran-Israel war. The F-35 incident challenges US claims of uncontested air superiority over Iran. The Strait of Hormuz remains effectively closed (Day 17 of blockade). Oil at $108.65/barrel. US gas at $3.88/gallon. Total war costs: $144.94B. Death toll: Iran 5,332 confirmed, Israel 23, US 13 KIA, Lebanon 1,031. Hegseth announced the "largest strike package" of the war. Qatar expelled Iranian diplomats. A 7-nation Hormuz coalition is forming.'
+    context: 'Day 22 of the Iran-Israel war. Also on Day 22: Iran struck Arad (74 injured, second simultaneous interception failure), Rishon Lezion hit with cluster munitions (empty daycare), US struck Natanz again, IDF hit Malek-Ashtar nuclear R&D facility in Tehran. Trump issued a 48-hour Hormuz ultimatum threatening Iran\'s power plants. IDF Chief Zamir said campaign is at "halfway stage" with 3 more weeks planned. Strait of Hormuz blockade Day 20. Oil at $112/barrel. US gas at $3.925/gallon.'
   }
 ]
 
