@@ -3488,7 +3488,7 @@
     "city": "Tehran (IRGC HQ, Basij base, rocket factory)",
     "country": "Iran",
     "lat": 35.6892,
-    "lng": 51.3890,
+    "lng": 51.389,
     "strikeType": "airstrike",
     "attributedTo": "israel",
     "date": "2026-03-23",
@@ -3517,7 +3517,7 @@
     "id": "ms-218",
     "city": "Tabriz",
     "country": "Iran",
-    "lat": 38.0800,
+    "lat": 38.08,
     "lng": 46.2919,
     "strikeType": "airstrike",
     "attributedTo": "multiple",
@@ -3564,6 +3564,39 @@
     "casualties": {
       "killed": 1,
       "injured": 1
+    }
+  },
+  {
+    "id": "ms-221",
+    "city": "Qom",
+    "country": "Iran",
+    "lat": 34.6401,
+    "lng": 50.8764,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-03-23",
+    "description": "CENTCOM confirmed US forces struck and destroyed the Qom Turbine Engine Production Plant, an IRGC facility manufacturing gas turbine engines for attack drones and aircraft components. CENTCOM released before/after satellite imagery confirming complete destruction. The facility had been photographed intact on March 6 and was destroyed by March 23.",
+    "source": "CENTCOM / Business Standard",
+    "sourceUrl": "https://www.business-standard.com/world-news/us-strikes-destroy-iran-s-qom-turbine-engine-plant-amid-escalating-conflict-126032300082_1.html",
+    "weaponType": "precision airstrike",
+    "casualties": null
+  },
+  {
+    "id": "ms-222",
+    "city": "Tyre (Sur)",
+    "country": "Lebanon",
+    "lat": 33.2718,
+    "lng": 35.2038,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-23",
+    "description": "Israeli airstrike hit the al-Shahabiya district of Tyre (Sur) in southern Lebanon, killing one civilian and wounding four others with moderate injuries. Confirmed by Lebanon's National News Agency (NNA). IDF simultaneously struck additional crossings on the Litani River, continuing its campaign to destroy all river crossing infrastructure.",
+    "source": "Al Jazeera / Lebanon NNA",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran",
+    "weaponType": "airstrike",
+    "casualties": {
+      "killed": 1,
+      "injured": 4
     }
   }
 ]

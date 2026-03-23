@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-23T07:56:00Z",
+    "lastUpdated": "2026-03-23T17:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,7 +27,7 @@
     ]
   },
   "summary": {
-    "totalSites": 164,
+    "totalSites": 168,
     "confirmed": 12,
     "reported": 6,
     "rumored": 3,
@@ -39,7 +39,8 @@
       "civilian": 28,
       "energy": 5,
       "diplomatic": 1
-    }
+    },
+    "lastUpdated": "2026-03-23T17:08:00Z"
   },
   "damageLocations": [
     {
@@ -2729,7 +2730,7 @@
       "name": "IRGC Police HQ / Basij Militia Base — Tehran",
       "country": "Iran",
       "lat": 35.6892,
-      "lng": 51.3890,
+      "lng": 51.389,
       "type": "military",
       "category": "command",
       "status": "destroyed",
@@ -2782,6 +2783,29 @@
         {
           "name": "Anadolu Agency",
           "url": "https://www.aa.com.tr/en/middle-east/us-israeli-strike-hits-broadcast-center-in-southern-iran-killing-1-report/3875273"
+        }
+      ]
+    },
+    {
+      "id": "dmg-172",
+      "name": "Qasmiyeh Coastal Highway Bridge — Litani River",
+      "country": "Lebanon",
+      "lat": 33.335,
+      "lng": 35.2703,
+      "type": "infrastructure",
+      "category": "bridge",
+      "status": "destroyed",
+      "date": "2026-03-23",
+      "description": "Israel struck the Qasmiyeh coastal highway bridge over the Litani River — the fifth Litani-area bridge struck since March 2. Defense Minister Katz had ordered all Litani River crossings demolished. Lebanon President Aoun called it a 'dangerous escalation' and 'prelude to a ground invasion north of the Litani.' Approximately 150,000 civilians in southern Lebanon face severely restricted movement.",
+      "attributedTo": "israel",
+      "sources": [
+        {
+          "name": "Times of Israel March 23 liveblog",
+          "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
+        },
+        {
+          "name": "US News/AP — Israel orders destruction of bridges in Lebanon",
+          "url": "https://www.usnews.com/news/world/articles/2026-03-22/israel-orders-destruction-of-bridges-in-lebanon-and-homes-near-israeli-border"
         }
       ]
     }

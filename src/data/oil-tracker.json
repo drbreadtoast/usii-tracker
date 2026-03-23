@@ -416,7 +416,7 @@
   ],
   "hormuzImpact": {
     "status": "effectively_closed",
-    "blockadeDayCount": 18,
+    "blockadeDayCount": 21,
     "blockadeStartDate": "2026-03-03",
     "barrelsBlockedDaily": 21000000,
     "breakdownBlocked": {
@@ -622,7 +622,7 @@
       "sourceUrl": "https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546"
     }
   ],
-  "lastUpdated": "2026-03-22T22:05:00Z",
+  "lastUpdated": "2026-03-23T17:08:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -670,6 +670,13 @@
       "brent": 106.41,
       "wti": 98.32,
       "label": "Day 23 — Trump 48-hr deadline; Israel strikes Malek Ashtar University Tehran",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-23",
+      "brent": 101.44,
+      "wti": 98.23,
+      "label": "Day 24 — Trump announces 5-day pause on Iran energy strikes citing 'productive talks'; Brent pulls back 10%+ from $112 highs. CENTCOM destroys Qom drone factory; IDF strikes Tehran IRGC HQ. Iran threatens to mine Persian Gulf.",
       "isEvent": true
     }
   ]

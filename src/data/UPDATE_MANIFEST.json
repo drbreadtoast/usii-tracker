@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-03-23T13:11:00Z",
+  "lastFullUpdate": "2026-03-23T17:08:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,30 +10,30 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-332",
-          "totalEntries": 380,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "evt-new-335",
+          "totalEntries": 383,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         },
         {
           "file": "war-timeline.json",
           "structure": "top-level-array",
-          "lastId": "tl-400",
-          "totalEntries": 400,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "tl-403",
+          "totalEntries": 403,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         },
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-376",
-          "totalEntries": 17,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "brk-378",
+          "totalEntries": 10,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         },
         {
           "file": "death-toll.json",
           "structure": "object-with-conflicts",
           "lastId": null,
           "totalEntries": 3,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastUpdated": "2026-03-23T17:08:00Z"
         }
       ]
     },
@@ -64,16 +64,16 @@
         {
           "file": "social-posts.json",
           "structure": "top-level-array",
-          "lastId": "social-240",
-          "totalEntries": 29,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "social-246",
+          "totalEntries": 31,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         },
         {
           "file": "government-statements.json",
           "structure": "top-level-array",
-          "lastId": "gov-206",
-          "totalEntries": 206,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "gov-209",
+          "totalEntries": 210,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         },
         {
           "file": "escalations.json",
@@ -132,16 +132,16 @@
         {
           "file": "damage-data.json",
           "structure": "object-with-damageLocations",
-          "lastId": "dmg-171",
-          "totalEntries": 167,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "dmg-172",
+          "totalEntries": 168,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         },
         {
           "file": "missile-strikes.json",
           "structure": "top-level-array",
-          "lastId": "ms-220",
-          "totalEntries": 220,
-          "lastUpdated": "2026-03-23T13:11:00Z"
+          "lastId": "ms-222",
+          "totalEntries": 222,
+          "lastUpdated": "2026-03-23T17:08:00Z"
         }
       ]
     },

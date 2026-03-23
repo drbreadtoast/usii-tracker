@@ -1,80 +1,5 @@
 [
   {
-    "id": "social-211",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "OSINT Defender tracking: Iran fired its 8th missile salvo of Day 23 targeting Arad, Dimona, Eilat, Beersheba, and Kiryat Gat. Cumulative Day 23 injuries estimated 150-180; 11 in serious condition. Air defenses performed better in later salvos. IDF confirmed no Day 23 fatalities from missile fire.",
-    "timestamp": "2026-03-22T16:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Consistent with Times of Israel liveblog and Al Jazeera Day 23 coverage.",
-    "keywords": [
-      "iran",
-      "missile",
-      "8th-salvo",
-      "arad",
-      "dimona",
-      "israel",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-213",
-    "handle": "@WarMonitor3",
-    "displayName": "War Monitor",
-    "text": "War Monitor: Hezbollah rocket killed 60-year-old Israeli civilian Ofer Moskovitz at Misgav Am. IDF investigating potential friendly fire — no sirens before strike. Defense Minister Katz ordered immediate destruction of all Litani River bridges. Lebanon confirmed death toll now 1,021+. IDF ground operations in southern Lebanon continuing 7th day.",
-    "timestamp": "2026-03-22T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Death confirmed by Israeli emergency services. Katz bridge order confirmed by Times of Israel.",
-    "keywords": [
-      "hezbollah",
-      "misgav-am",
-      "moskovitz",
-      "civilian-killed",
-      "litani",
-      "lebanon",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-214",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "text": "Intel Crab: Iran FM Araghchi confirmed Japan granted Hormuz transit rights joining China, India, Pakistan. IRGC simultaneously building formal vetting/registration system for approved vessels — ships must pre-submit ownership, cargo destination to IRGC command. One tanker reportedly paid $2M for passage. 40,000+ seafarers stranded on both sides of strait.",
-    "timestamp": "2026-03-22T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Araghchi statement confirmed by Japan Times and Al Jazeera. Vetting system confirmed by Al Jazeera March 20 report.",
-    "keywords": [
-      "hormuz",
-      "japan",
-      "transit",
-      "irgc",
-      "vetting-system",
-      "shipping",
-      "day22-23"
-    ]
-  },
-  {
-    "id": "social-215",
-    "handle": "@SentDefender",
-    "displayName": "Sentinel Defense",
-    "text": "Sentinel Defense: Sen. Murkowski (R-AK) signaling push for congressional war authorization vote if Trump orders ground troops to Iran. Dem senators blocked SECOND War Powers vote (March 18) by Republicans. Trump administration still operating without formal war authorization for Operation Epic Fury entering Week 4. Legal scholars debate whether AUMF 2001 covers current operations.",
-    "timestamp": "2026-03-22T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Murkowski quote confirmed by CNN. War Powers vote confirmed by Sen. Booker's office statement.",
-    "keywords": [
-      "murkowski",
-      "war-authorization",
-      "congress",
-      "trump",
-      "war-powers",
-      "day23"
-    ]
-  },
-  {
     "id": "social-216",
     "handle": "@MENAosint",
     "displayName": "MENA OSINT",
@@ -531,6 +456,118 @@
       "qasmiyeh",
       "idf",
       "bridges",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-241",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats Project",
+    "text": "CTP-ISW Day 24 assessment: Trump's deal-term claims (no nukes, no enrichment, Hormuz jointly controlled) are unverified. Iran's categorical denial follows a pattern — Tehran refused to acknowledge back-channel contacts even when confirmed by third parties. Key question: is there a 'most respected Iranian leader' distinct from Mojtaba Khamenei who has authority to agree these terms? US officials have not confirmed the counterpart's identity.",
+    "timestamp": "2026-03-23T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "CTP-ISW pattern assessment based on prior Iranian negotiating behavior. Deal terms unconfirmed by Iran.",
+    "keywords": [
+      "trump",
+      "iran",
+      "deal",
+      "nuclear",
+      "khamenei",
+      "negotiations",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-242",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "Aurora Intel: Iran launched its 76th wave of Operation True Promise 4 strikes against Israel on Day 24. Ballistic missile launches from Iran are down 86% from Day 1 levels per Joint Chiefs chairman — but Iran's recent penetration of Israeli air defenses near Dimona (nuclear site) shows its remaining arsenal can still achieve strategic effect. IDF has destroyed ~300 Iranian missile launchers; Iran retains estimated 70-100 functional launchers.",
+    "timestamp": "2026-03-23T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Operation True Promise 4 wave count from Press TV/Tribune India. 86% reduction from CTP-ISW citing Joint Chiefs. Launcher count estimated via ISW/Alma Center.",
+    "keywords": [
+      "iran",
+      "operation-true-promise",
+      "missile",
+      "wave76",
+      "launchers",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-243",
+    "handle": "@HormuzWatch",
+    "displayName": "Hormuz Watch",
+    "text": "Hormuz Watch: Windward maritime AI reports Hormuz transits down 94.2% since Feb 28. First Iraqi oil supertanker (2M barrels) crossed the strait today with AIS signal off — suggesting Iran's selective permission system is functional. 40,000+ seafarers remain stranded. Trump's 5-day pause reduces likelihood of imminent US naval seizure operation but military planning continues. 22-nation Hormuz coalition still mobilizing.",
+    "timestamp": "2026-03-23T14:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Windward 94.2% transit drop confirmed by CBS News. Iraqi supertanker crossing confirmed by Bloomberg.",
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "transit",
+      "iraq-tanker",
+      "windward",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-244",
+    "handle": "@ISW_Research",
+    "displayName": "ISW Research",
+    "text": "ISW analysis: Turkey's FM Hakan Fidan has made 12+ calls in 48 hours to Iranian, Egyptian, US, and EU counterparts on ceasefire mediation. Egypt, Pakistan, and Turkey are serving as intermediaries for US-Iran back-channel contact — consistent with Trump's claim that talks occurred. Pakistan previously hosted P5+1 nuclear talks and has established back-channel with both Washington and Tehran. Formal talks in Islamabad within days is possible.",
+    "timestamp": "2026-03-23T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Turkey FM calls confirmed by CNN. Egypt/Pakistan/Turkey intermediary role confirmed by Bloomberg/Axios.",
+    "keywords": [
+      "turkey",
+      "pakistan",
+      "egypt",
+      "mediation",
+      "ceasefire",
+      "diplomacy",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-245",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "OSINT Defender: Kataib Hezbollah claims 27 attacks on US military bases across Iraq and Gulf in 24 hours ending March 23 — highest single-day tempo of the conflict. Islamic Resistance in Iraq simultaneously extended 5-day pause on US Embassy Baghdad attacks. Simultaneous surge and diplomacy suggests militia is using attack tempo as leverage in negotiations, not contradicting them. Iranian proxy coordination pattern consistent with ceasefire positioning.",
+    "timestamp": "2026-03-23T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Kataib Hezbollah embassy pause confirmed by The National. 27 attacks claim from militia's own statements — individual attacks not independently verified.",
+    "keywords": [
+      "kataib",
+      "iraq",
+      "militia",
+      "us-bases",
+      "embassy",
+      "leverage",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-246",
+    "handle": "@ACLED_Research",
+    "displayName": "ACLED Iran Crisis",
+    "text": "ACLED crisis update: IEA confirms 40+ energy facilities across 9 countries severely damaged — makes this the largest supply disruption in modern oil market history, per IEA. Brent was briefly at $119/barrel before Trump's pause pulled it to $101. If 5-day pause leads to ceasefire talks, markets may drop further. If talks fail, military option including Kharg Island seizure returns to table. Outcome window: March 28.",
+    "timestamp": "2026-03-23T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IEA 40+ facilities statement confirmed by NBC News live updates. Brent $119 peak confirmed by Bloomberg.",
+    "keywords": [
+      "iea",
+      "oil",
+      "energy",
+      "hormuz",
+      "kharg",
+      "ceasefire",
       "day24"
     ]
   }
