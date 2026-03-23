@@ -434,7 +434,15 @@ export default function HomepageSummary() {
         <div className="flex items-center justify-center gap-2 mt-2 flex-wrap">
           <Clock size={12} className="text-blue-400" />
           <span className="text-[11px] text-blue-400 font-semibold">
-            Last news refresh: {new Date(siteMetadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
+            Last news refresh: {(() => {
+              const diffMs = Math.abs(new Date() - new Date(siteMetadata.lastUpdated))
+              const mins = Math.floor(diffMs / 60000)
+              const hrs = Math.floor(diffMs / 3600000)
+              if (mins < 1) return 'moments ago'
+              if (mins < 60) return `${mins}m ago`
+              if (hrs < 24) return `${hrs}h ago`
+              return `${Math.floor(hrs / 24)}d ago`
+            })()}
           </span>
           <span className="text-[10px] text-gray-600">· Day {siteMetadata.conflictDay}</span>
         </div>
