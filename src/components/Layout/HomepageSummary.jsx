@@ -199,11 +199,11 @@ function EnergySummary() {
       <div className="grid grid-cols-2 gap-3">
         <div className="bg-gray-800/50 rounded-lg p-3">
           <p className="text-[9px] text-gray-500 uppercase font-semibold">Brent Crude</p>
-          <p className="text-[10px] text-gray-500 mt-1">Pre-war: <span className="text-gray-300 font-semibold">${brentPre.toFixed(2)}</span>/bbl</p>
-          <p className="text-[10px] text-gray-500 mt-0.5">Now: <span className="text-amber-300 font-bold">${brentNow.toFixed(2)}</span>/bbl</p>
+          <p className="text-lg font-bold text-gray-300">${brentPre.toFixed(2)}<span className="text-[10px] text-gray-500">/bbl</span></p>
+          <p className="text-[10px] text-gray-500 mt-0.5">pre-war price</p>
           <div className="flex items-center gap-1 mt-1">
             <TrendingUp size={10} className="text-red-400" />
-            <span className="text-[10px] text-red-400 font-semibold">+{brentChange}% increase</span>
+            <span className="text-[10px] text-red-400 font-semibold">+{brentChange}% since</span>
           </div>
         </div>
         <div className="bg-gray-800/50 rounded-lg p-3">
