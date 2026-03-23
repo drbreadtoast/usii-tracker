@@ -6,6 +6,7 @@ import NavBar from './components/Layout/NavBar'
 import CommodityTicker from './components/Commodities/CommodityTicker'
 import UpdateBadge from './components/Layout/UpdateBadge'
 import UpdateNotification from './components/Layout/UpdateNotification'
+import ContactModal from './components/Layout/ContactModal'
 import Dashboard from './pages/Dashboard'
 import TimelinePage from './pages/TimelinePage'
 import FollowTheMoneyPage from './pages/FollowTheMoneyPage'
@@ -66,6 +67,7 @@ export default function App() {
         <UpdateBadge />
       </div>
       <UpdateNotification />
+      <ContactModal />
     </div>
   )
 }
