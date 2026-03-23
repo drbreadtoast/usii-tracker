@@ -476,8 +476,6 @@ export default function HomepageSummary() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-8 max-w-[1400px] mx-auto">
         <EscalationsAnd24hrSummary />
         <CasualtySummary />
-        <DamageSummary />
-        <StrikesSummary />
         <EnergySummary />
         <CostSummary />
         <MediaSummary />
