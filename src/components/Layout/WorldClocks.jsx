@@ -42,46 +42,48 @@ export default function WorldClocks() {
     return () => clearInterval(timer)
   }, [])
 
+  const refresh = formatRefreshTime(siteMetadata.lastUpdated)
+
   return (
-    <div className="flex items-center bg-gray-900/50 border-b border-gray-800/50">
-      <div className="flex items-center gap-3 px-3 py-1.5 overflow-x-auto scrollbar-hide flex-1 min-w-0">
-        <Clock size={12} className="text-gray-600 shrink-0" />
-        {TIMEZONES.map(({ label, abbr, tz, flag }) => (
-          <div key={label} className="flex items-center gap-1.5 text-xs shrink-0">
-            <span>{flag}</span>
-            <span className="text-gray-500">{label}</span>
-            <span className="font-mono text-gray-300">
-              {time.toLocaleTimeString('en-US', {
-                hour: '2-digit',
-                minute: '2-digit',
-                hour12: false,
-                timeZone: tz,
-              })}
-            </span>
-            <span className="text-gray-600 text-[10px]">{abbr}</span>
-          </div>
-        ))}
-      </div>
-      <div className="flex items-center gap-2 shrink-0 mr-3">
-        {/* Refresh timestamp */}
-        <div className="flex flex-col items-end shrink-0">
-          <p className="text-[8px] text-gray-600 leading-tight hidden sm:block">Updated at least 3x daily — morning, afternoon & evening Pacific Time</p>
-          <div className="flex items-center gap-1.5">
-            <RefreshCw size={10} className="text-blue-400 shrink-0" />
-            <span className="text-[11px] text-white font-semibold">Last news refresh: {formatRefreshTime(siteMetadata.lastUpdated).relative}</span>
-            <span className="text-[10px] text-gray-400 hidden md:inline">({formatRefreshTime(siteMetadata.lastUpdated).absolute})</span>
-          </div>
+    <div>
+      {/* Time bar */}
+      <div className="flex items-center bg-gray-900/50 border-b border-gray-800/50">
+        <div className="flex items-center gap-3 px-3 py-1.5 overflow-x-auto scrollbar-hide flex-1 min-w-0">
+          <Clock size={12} className="text-gray-600 shrink-0" />
+          {TIMEZONES.map(({ label, abbr, tz, flag }) => (
+            <div key={label} className="flex items-center gap-1.5 text-xs shrink-0">
+              <span>{flag}</span>
+              <span className="text-gray-500">{label}</span>
+              <span className="font-mono text-gray-300">
+                {time.toLocaleTimeString('en-US', {
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  hour12: false,
+                  timeZone: tz,
+                })}
+              </span>
+              <span className="text-gray-600 text-[10px]">{abbr}</span>
+            </div>
+          ))}
         </div>
-        <span className="text-gray-700">|</span>
         <a
           href={siteMetadata.donationUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0"
+          className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 hover:text-amber-300 bg-amber-950/40 hover:bg-amber-950/60 border border-amber-900/40 px-2 py-0.5 rounded transition-colors shrink-0 mr-3"
         >
           <Heart size={10} />
           <span className="hidden sm:inline">Buy Me a</span> Coffee
         </a>
+      </div>
+      {/* Refresh info bar — right under the time bar */}
+      <div className="flex items-center justify-between bg-gray-950/80 border-b border-gray-800/30 px-3 py-1">
+        <p className="text-[9px] text-gray-600 hidden sm:block">Updated at least 3x daily — morning, afternoon & evening Pacific Time</p>
+        <div className="flex items-center gap-1.5 ml-auto">
+          <RefreshCw size={10} className="text-blue-400 shrink-0" />
+          <span className="text-[11px] text-white font-semibold">Last news refresh: {refresh.relative}</span>
+          <span className="text-[10px] text-gray-400 hidden md:inline">({refresh.absolute})</span>
+        </div>
       </div>
     </div>
   )
