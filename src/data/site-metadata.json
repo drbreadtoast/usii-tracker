@@ -1,17 +1,26 @@
 {
-  "lastUpdated": "2026-03-23T04:31:00Z",
-  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
+  "lastUpdated": "2026-03-23T07:56:00Z",
+  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.0",
-  "conflictDay": 23,
-  "totalSocialPosts": 24,
+  "conflictDay": 24,
+  "totalSocialPosts": 29,
   "dataFiles": {
-    "events": 368,
+    "events": {
+      "count": 372,
+      "lastId": "evt-new-324"
+    },
     "warTimeline": 393,
-    "breaking": 18,
+    "breaking": {
+      "count": 19,
+      "lastId": "brk-369"
+    },
     "socialPosts": 24,
     "governmentStatements": 200,
-    "escalations": 167,
+    "escalations": {
+      "count": 169,
+      "lastId": "esc-168"
+    },
     "missileStrikes": 213,
     "damageLocations": 160,
     "factCheckClaims": 67,
@@ -20,7 +29,27 @@
     "factCheck": 70,
     "statements": 238,
     "globalInvolvement": 16,
-    "timeline": 380
+    "timeline": 380,
+    "war-timeline": {
+      "count": 396,
+      "lastId": "tl-396"
+    },
+    "missile-strikes": {
+      "count": 215,
+      "lastId": "ms-215"
+    },
+    "damage-data": {
+      "count": 164,
+      "lastId": "dmg-168"
+    },
+    "government-statements": {
+      "count": 203,
+      "lastId": "gov-203"
+    },
+    "social-posts": {
+      "count": 29,
+      "lastId": "social-234"
+    }
   },
-  "updateNote": "Day 23 9:07 AM PDT refresh \u2014 Israel strikes Malek Ashtar Univ Tehran; Netanyahu urges Europe to join war; Hormuz deadline 34hrs remain; Iran refuses compliance; Lebanon 1,001+ dead"
+  "updateNote": "Day 23 9:07 AM PDT refresh — Israel strikes Malek Ashtar Univ Tehran; Netanyahu urges Europe to join war; Hormuz deadline 34hrs remain; Iran refuses compliance; Lebanon 1,001+ dead"
 }

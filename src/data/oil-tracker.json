@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-23T01:43:00Z",
+    "lastUpdated": "2026-03-23T07:56:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,25 +73,25 @@
     },
     "current": {
       "date": "2026-03-23",
-      "label": "Day 23 Evening — Trump 48-hr Hormuz ultimatum expires Monday; US drops GBU-72 bunker busters on anti-ship missile bunkers; cluster munitions hit Tel Aviv. Brent +40% from pre-war on risk premium.",
-      "wti": {
-        "price": 98.48,
-        "change": "+30.4%",
-        "changeDollars": "+22.97",
+      "label": "Day 24 Morning — Trump Hormuz ultimatum expires tonight; IDF overnight Tehran strikes; Brent pulled back from  peak as markets await US decision on power plant strikes.",
+      "brent": {
+        "price": 106.41,
+        "change": "+33.3%",
+        "changeDollars": "+26.57",
         "unit": "$/barrel",
-        "source": "NYMEX WTI front-month futures (March 22)",
+        "source": "OilPrice.com — March 23 early morning",
+        "sourceUrl": "https://oilprice.com/"
+      },
+      "wti": {
+        "price": 98.32,
+        "change": "+30.2%",
+        "changeDollars": "+22.81",
+        "unit": "$/barrel",
+        "source": "Investing.com WTI front-month futures — March 23",
         "sourceUrl": "https://www.investing.com/commodities/crude-oil"
       },
-      "brent": {
-        "price": 112.19,
-        "change": "+40.6%",
-        "changeDollars": "+32.39",
-        "unit": "$/barrel",
-        "source": "ICE Brent front-month futures (intraday March 22)",
-        "sourceUrl": "https://www.investing.com/commodities/brent-oil"
-      },
-      "changePercent": 34.3,
-      "lastUpdated": "2026-03-22"
+      "changePercent": 31.8,
+      "lastUpdated": "2026-03-23"
     },
     "priceHistory": [
       {
@@ -615,7 +615,12 @@
     },
     "US Treasury issued Iran General License U (March 20): 30-day temporary authorization for ~140M barrels of Iranian crude at sea to be delivered legally — partial rollback of maximum pressure sanctions to contain energy price surge.",
     "Iraq declared force majeure at all foreign-operated oilfields (March 19); two Kuwait refinery drone strikes drove Brent to $112 close Friday March 20.",
-    "Iran selectively approving Hormuz transit: China, India, Pakistan, Japan granted passage; IRGC developing formal vetting/registration system requiring cargo and ownership data. One tanker reportedly paid $2M for rights."
+    "Iran selectively approving Hormuz transit: China, India, Pakistan, Japan granted passage; IRGC developing formal vetting/registration system requiring cargo and ownership data. One tanker reportedly paid $2M for rights.",
+    {
+      "fact": "US Treasury eased sanctions on ~140 million barrels of stranded Iranian oil (March 21, 2026) in attempt to cool surging energy prices.",
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546"
+    }
   ],
   "lastUpdated": "2026-03-22T22:05:00Z",
   "priceHistory": [
