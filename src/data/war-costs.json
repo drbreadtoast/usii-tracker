@@ -113,15 +113,16 @@
           }
         }
       },
-      "dailyBurnRate": 1500000000,
-      "dailyBurnRateNote": "Kevin Hassett confirmed ~$12B direct US cost through ~Day 15. CSIS: $16.5B through Day 12 ($1.38B/day). Pentagon requesting $200B supplemental from Congress — Hegseth: 'it takes money to kill bad guys.' Penn Wharton projects $65B minimum direct costs.",
+      "dailyBurnRate": 1286,
+      "dailyBurnRateNote": "Blended estimate: $1.286B/day. CSIS: $891M/day operational; Congressional private estimate: up to $2B/day. Pentagon seeking $200B supplemental from Congress.",
       "totalEstimate": "$20-24 billion",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 15. Daily costs $890M-$2B. Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), bringing total ~50,000 personnel in theater. Hegseth: '7,000+ targets struck across Iran.'",
       "totalCost": 0,
       "totalFormatted": "$34.5B",
-      "total": 34500000000,
+      "total": "$16.5B+",
       "lastUpdated": "2026-03-22",
-      "note": "Day 23 total. $1.5B/day average × 23 days = ~$34.5B. Hegseth seeking $200B supplemental from Congress. Includes $630M pre-war repositioning."
+      "note": "Day 23 total. $1.5B/day average × 23 days = ~$34.5B. Hegseth seeking $200B supplemental from Congress. Includes $630M pre-war repositioning.",
+      "totalNote": "CSIS estimate through Day 12: $16.5B ($11.3B operational + $1.7B combat losses). Growing daily. Trump admin seeking $200B supplemental from Congress."
     },
     "israel": {
       "name": "Israel",
@@ -786,6 +787,6 @@
     "combinedCosts": 151220000000
   },
   "daysOfConflict": 23,
-  "lastUpdated": "2026-03-22T22:05:00Z",
+  "lastUpdated": "2026-03-23T01:43:00Z",
   "dailyBurnRate": 1286
 }

@@ -1,56 +1,5 @@
 [
   {
-    "id": "social-199",
-    "handle": "@IranWarWatch",
-    "displayName": "Iran War Watch",
-    "text": "Trump's 48-hour Hormuz ultimatum is unprecedented — threatening to strike civilian power infrastructure crosses a line no US president has crossed publicly before. Iran's immediate counter-threat to target Gulf desalination plants suggests this could spiral rapidly if the deadline expires without compliance.",
-    "timestamp": "2026-03-22T01:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Analysis based on confirmed Trump Truth Social post and Iranian military counter-statement via Fars News Agency.",
-    "keywords": [
-      "trump",
-      "ultimatum",
-      "hormuz",
-      "power-plants",
-      "escalation"
-    ]
-  },
-  {
-    "id": "social-200",
-    "handle": "@MiddleEastEye",
-    "displayName": "Middle East Eye",
-    "text": "IDF Chief Zamir's 'halfway stage' statement is significant — it means the IDF envisions ~3 more weeks of operations, carrying the campaign well past Passover. This contradicts Trump's wind-down narrative and suggests the US-Israel alliance is fracturing over war termination timing.",
-    "timestamp": "2026-03-22T01:15:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Zamir statement confirmed by Times of Israel. Analysis reflects documented US-Israel tension on war objectives.",
-    "keywords": [
-      "idf",
-      "zamir",
-      "halfway",
-      "campaign",
-      "us-israel-rift"
-    ]
-  },
-  {
-    "id": "social-201",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "Iran's counter-threat on desalination infrastructure is not empty rhetoric — Iran has previously demonstrated precision drone capability against Gulf industrial targets. Saudi Arabia, UAE, Qatar, and Kuwait rely on desalination for 70-100% of their drinking water. An attack on this infrastructure would be catastrophic.",
-    "timestamp": "2026-03-22T01:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Iranian military statement via Fars News confirmed. Gulf desalination dependency is factually documented by UN and World Bank reports.",
-    "keywords": [
-      "iran",
-      "desalination",
-      "counter-threat",
-      "gulf-states",
-      "water-infrastructure"
-    ]
-  },
-  {
     "id": "social-202",
     "handle": "@CovertCabal",
     "displayName": "Covert Cabal",
@@ -318,6 +267,119 @@
       "diplomacy",
       "hormuz",
       "22-nation",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-217",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Intel Crab: CENTCOM Admiral Cooper confirmed US dropped GBU-72 Advanced Penetrator 5,000-lb bunker busters on hardened Iranian anti-ship missile bunkers near Strait of Hormuz — these are the largest conventional penetrating bombs in the US arsenal, designed for deeply buried facilities. 8,000+ Iranian targets struck total, 130 naval vessels destroyed. Cooper: 'will not stop.'",
+    "timestamp": "2026-03-22T20:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CENTCOM press statement confirmed by Gulf News and Maritime Executive.",
+    "keywords": [
+      "gbu-72",
+      "bunker-buster",
+      "centcom",
+      "hormuz",
+      "iran",
+      "anti-ship",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-218",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "OSINT Defender: Netanyahu at Arad strike site (Day 23): 'What more proof do you need that this regime that threatens the entire world has to be stopped? Israel and the United States are working together for the entire world.' Called on international leaders to formally join the coalition. Ben Gurion flight restrictions effective Monday. IDF chief Zamir says Hezbollah fight 'only just begun' — weeks more of fighting expected.",
+    "timestamp": "2026-03-22T19:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Netanyahu quote confirmed by Jerusalem Post and Times of Israel liveblog March 22.",
+    "keywords": [
+      "netanyahu",
+      "arad",
+      "israel",
+      "coalition",
+      "zamir",
+      "hezbollah",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-219",
+    "handle": "@WarMonitor",
+    "displayName": "War Monitor",
+    "text": "War Monitor: CRITICAL — Iranian cluster munition ballistic missiles scattered submunitions across 7+ central Israel sites including Tel Aviv. 15 wounded. Cluster warhead fragments confirmed by IDF. This is internationally condemned munitions use against civilian-populated areas. Alma Research Center tracking: 29 Iranian attack waves weekend March 20-21 alone — 41% targeting southern Israel, 31% Tel Aviv area. Iran missile degradation now 90%+ but ongoing.",
+    "timestamp": "2026-03-22T22:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF confirmed cluster fragments. Alma Research Center daily report March 22.",
+    "keywords": [
+      "cluster-munitions",
+      "tel-aviv",
+      "iran",
+      "civilians",
+      "idf",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-220",
+    "handle": "@AraghchiWatch",
+    "displayName": "Araghchi Watch",
+    "text": "Araghchi Watch: Iranian FM Araghchi posted on X: 'Strait of Hormuz is not closed. Ships hesitate because insurers fear the war of choice you initiated — not Iran. No insurer — and no Iranian — will be swayed by more threats. Try respect. Freedom of Navigation cannot exist without Freedom of Trade.' Trump 48-hr ultimatum expires Monday 7:44 PM ET — Iran has shown zero compliance signal.",
+    "timestamp": "2026-03-22T21:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Araghchi X post confirmed. Trump ultimatum via Truth Social confirmed by NPR, CBS, CNN.",
+    "keywords": [
+      "araghchi",
+      "hormuz",
+      "iran",
+      "trump",
+      "ultimatum",
+      "strait",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-221",
+    "handle": "@MENAosint",
+    "displayName": "MENA OSINT",
+    "text": "MENA OSINT: Iran President Pezeshkian on X: 'The illusion of erasing Iran from the map shows desperation against the will of a history-making nation. Threats and terror only strengthen our unity. The Strait of Hormuz is open to all except those who violate our soil.' Called on BRICS to 'play an independent role in halting aggressions.' Zero sign of Iran complying with Trump's 48-hr power plant ultimatum.",
+    "timestamp": "2026-03-22T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Pezeshkian X post confirmed by Tribune India and Al Jazeera Day 23 explainer.",
+    "keywords": [
+      "pezeshkian",
+      "iran",
+      "hormuz",
+      "brics",
+      "trump",
+      "ultimatum",
+      "day23"
+    ]
+  },
+  {
+    "id": "social-222",
+    "handle": "@ISW_Research",
+    "displayName": "ISW Research",
+    "text": "ISW Research: US temporarily eased sanctions on ~140 million barrels of Iranian oil at sea (March 20) — allowing allies to purchase to contain energy prices. Critics call it 'funding a war against itself.' AAA gas now $3.942/gal national average (+23% from pre-war $3.21). Brent crude trading ~$112 intraday on Trump ultimatum risk premium (+40% from pre-war). European TTF gas €59/MWh (+39% YoY).",
+    "timestamp": "2026-03-22T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "US sanctions easing confirmed by NBC News March 20. Oil/gas prices confirmed by AAA, OilpriceAPI, Investing.com.",
+    "keywords": [
+      "sanctions",
+      "oil",
+      "gas-prices",
+      "energy",
+      "iran",
+      "brent",
       "day23"
     ]
   }

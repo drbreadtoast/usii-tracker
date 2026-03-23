@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-22T22:05:00Z",
+    "lastUpdated": "2026-03-23T01:43:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,17 +72,23 @@
       }
     },
     "current": {
-      "date": "2026-03-22",
-      "label": "Day 23 PM — Iran fires 8th missile salvo at Israel (150-180 wounded); IRGC releases Gulf energy targeting map; Trump Hormuz deadline expires Monday March 23 7:44 PM ET. Brent +34%.",
+      "date": "2026-03-23",
+      "label": "Day 23 Evening — Trump 48-hr Hormuz ultimatum expires Monday; US drops GBU-72 bunker busters on anti-ship missile bunkers; cluster munitions hit Tel Aviv. Brent +40% from pre-war on risk premium.",
       "wti": {
-        "price": 98.32,
-        "change": "+30.2%",
-        "changeDollars": "+$22.82"
+        "price": 98.48,
+        "change": "+30.4%",
+        "changeDollars": "+22.97",
+        "unit": "$/barrel",
+        "source": "NYMEX WTI front-month futures (March 22)",
+        "sourceUrl": "https://www.investing.com/commodities/crude-oil"
       },
       "brent": {
-        "price": 107.2,
-        "change": "+34.3%",
-        "changeDollars": "+$27.36"
+        "price": 112.19,
+        "change": "+40.6%",
+        "changeDollars": "+32.39",
+        "unit": "$/barrel",
+        "source": "ICE Brent front-month futures (intraday March 22)",
+        "sourceUrl": "https://www.investing.com/commodities/brent-oil"
       },
       "changePercent": 34.3,
       "lastUpdated": "2026-03-22"
@@ -557,7 +563,9 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 3.925
+    "regularGasoline": 3.925,
+    "gasPriceRegular": "$3.942/gal (AAA March 22, +22.8% from pre-war $3.21)",
+    "gasPriceDiesel": "$5.04/gal (+38% from pre-war $3.65)"
   },
   "keyFacts": [
     {

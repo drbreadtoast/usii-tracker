@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-22T22:05:00Z",
+    "lastUpdated": "2026-03-23T01:43:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,7 +27,7 @@
     ]
   },
   "summary": {
-    "totalSites": 158,
+    "totalSites": 160,
     "confirmed": 146,
     "reported": 6,
     "rumored": 3,
@@ -2617,6 +2617,34 @@
         "injured": 0,
         "note": "Ofer Moskovitz, 60, killed."
       }
+    },
+    {
+      "id": "dmg-163",
+      "name": "Iranian Anti-Ship Missile Bunkers near Strait of Hormuz",
+      "country": "Iran",
+      "lat": 26.5,
+      "lng": 56.5,
+      "category": "military",
+      "status": "confirmed",
+      "dateOfDamage": "2026-03-22",
+      "description": "US GBU-72 Advanced Penetrator 5,000-pound bunker buster bombs destroyed hardened underground Iranian anti-ship missile facilities overlooking the Strait of Hormuz. CENTCOM reported destruction of anti-ship cruise missile launchers, mobile missile systems, intelligence support sites, and ship-tracking radar relays. Part of CENTCOM's campaign that has now struck 8,000+ Iranian targets total.",
+      "attributedTo": "us",
+      "source": "Gulf News — CENTCOM GBU-72",
+      "sourceUrl": "https://gulfnews.com/world/mena/after-dropping-5000-pound-bombs-on-missile-bunkers-overlooking-hormuz-us-centcom-chief-says-will-not-stop-1.500482077"
+    },
+    {
+      "id": "dmg-164",
+      "name": "Residential Buildings — Tel Aviv Cluster Munition Impact Sites",
+      "country": "Israel",
+      "lat": 32.07,
+      "lng": 34.77,
+      "category": "civilian",
+      "status": "confirmed",
+      "dateOfDamage": "2026-03-22",
+      "description": "Iranian ballistic missiles with cluster warheads scattered submunitions across 7+ sites in central Israel including Tel Aviv. Residential buildings and streets damaged. Cluster bomb fragments wounded 15 people across multiple neighborhoods. IDF confirmed cluster warhead type at multiple impact sites. Internationally condemned munition type used against civilian-populated area.",
+      "attributedTo": "iran",
+      "source": "Times of Israel liveblog",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-march-22-2026/"
     }
   ]
 }

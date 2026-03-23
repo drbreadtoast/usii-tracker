@@ -11065,5 +11065,125 @@
       "diplomacy",
       "day23"
     ]
+  },
+  {
+    "id": "evt-new-315",
+    "title": "US drops GBU-72 Advanced Penetrator bombs on Iranian anti-ship missile bunkers near Strait of Hormuz",
+    "description": "CENTCOM announced US forces deployed multiple GBU-72 Advanced Penetrator (5,000-pound deep-penetrating bunker buster) bombs against hardened Iranian anti-ship missile sites along the coastline overlooking the Strait of Hormuz. CENTCOM Admiral Brad Cooper stated the strikes destroyed underground hardened facilities housing Iranian anti-ship cruise missiles, mobile missile launchers, intelligence support sites, and ship-tracking radar relays used to monitor vessel movements in the strait. Cooper reported US forces have now struck over 8,000 Iranian targets total, including the destruction of 130 vessels — describing it as 'the largest elimination of a navy over a three-week period since World War II.' The GBU-72 is designed to penetrate deeply hardened underground facilities that smaller munitions cannot destroy.",
+    "type": "strike",
+    "lat": 26.5,
+    "lng": 56.5,
+    "location": "Iranian coastline near Strait of Hormuz",
+    "timestamp": "2026-03-22T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Gulf News — CENTCOM GBU-72 Hormuz strike",
+        "url": "https://gulfnews.com/world/mena/after-dropping-5000-pound-bombs-on-missile-bunkers-overlooking-hormuz-us-centcom-chief-says-will-not-stop-1.500482077"
+      },
+      {
+        "name": "Maritime Executive — US hits Iran antiship missile sites",
+        "url": "https://maritime-executive.com/article/u-s-hits-iran-s-antiship-missile-sites-in-the-strait-of-hormuz"
+      },
+      {
+        "name": "The Hill — 5,000-lb deep-penetrator bombs near Hormuz",
+        "url": "https://thehill.com/policy/defense/5789279-strait-hormuz-oil-supply/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "us",
+      "centcom",
+      "gbu-72",
+      "bunker-buster",
+      "hormuz",
+      "anti-ship",
+      "iran",
+      "naval",
+      "day23"
+    ]
+  },
+  {
+    "id": "evt-new-316",
+    "title": "Netanyahu visits Arad missile strike site; calls on world leaders to join war against Iran",
+    "description": "Prime Minister Netanyahu visited the city of Arad on March 22, where Iranian ballistic missiles struck residential buildings overnight, killing no one but wounding 115+ residents including children. At the site, Netanyahu stated: 'If you want proof that Iran endangers the entire world, the last 48 hours have given it.' He cited three events: Iran targeted civilians in Arad; Iran 'fired on Jerusalem, right next to the holy sites of the three monotheistic faiths'; and Iran 'fired an intercontinental ballistic missile on Diego Garcia.' Netanyahu called on world leaders to formally join the US-Israel coalition: 'It's time for world leaders to join us, and I'm seeing movement from some in that direction.' Separately, IDF Chief of Staff Lt. Gen. Eyal Zamir declared the fight with Hezbollah is 'only just begun' and the war will continue 'several more weeks.' Ben Gurion Airport imposed flight restrictions effective Monday afternoon.",
+    "type": "diplomatic",
+    "lat": 31.26,
+    "lng": 35.21,
+    "location": "Arad, Israel",
+    "timestamp": "2026-03-22T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Netanyahu at Arad",
+        "url": "https://www.jpost.com/israel-news/article-890798"
+      },
+      {
+        "name": "Times of Israel liveblog March 22",
+        "url": "https://www.timesofisrael.com/liveblog-march-22-2026/"
+      },
+      {
+        "name": "Al Jazeera — Day 23 explainer",
+        "url": "https://www.aljazeera.com/news/2026/3/22/iran-war-whats-happening-on-day-23-of-us-israel-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "netanyahu",
+      "israel",
+      "iran",
+      "arad",
+      "diplomacy",
+      "coalition",
+      "idf",
+      "zamir",
+      "day23"
+    ]
+  },
+  {
+    "id": "evt-new-317",
+    "title": "Iranian cluster munition ballistic missiles scatter submunitions across central Israel; 15 wounded in Tel Aviv",
+    "description": "Cluster bomb fragments from Iranian ballistic missiles landed across at least 7 sites in central Israel on March 22, including the Tel Aviv metropolitan area, wounding 15 people. The cluster munitions were delivered via ballistic missiles and scattered submunitions over residential neighborhoods. Iran's use of cluster munitions — internationally condemned weapons that scatter indiscriminate bomblets over wide areas — marked a new phase of Iranian targeting tactics. The International Committee of the Red Cross and human rights organizations condemned the use of such weapons against civilian-populated areas. Separately, on March 23, additional cluster missile impacts were reported in central Israel with no new injuries. Israel's military confirmed cluster warhead fragments were found at multiple sites.",
+    "type": "strike",
+    "lat": 32.09,
+    "lng": 34.78,
+    "location": "Tel Aviv and central Israel",
+    "timestamp": "2026-03-22T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog March 22",
+        "url": "https://www.timesofisrael.com/liveblog-march-22-2026/"
+      },
+      {
+        "name": "Jerusalem Post — cluster missile Tel Aviv",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-890734"
+      },
+      {
+        "name": "Defence Security Asia — Iranian cluster munitions OSINT",
+        "url": "https://defencesecurityasia.com/en/iran-dimona-missile-nuclear-scientists-osint-escalation-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "injured": 15
+    },
+    "tags": [
+      "iran",
+      "cluster-munitions",
+      "tel-aviv",
+      "israel",
+      "civilians",
+      "irgc",
+      "day23"
+    ]
   }
 ]

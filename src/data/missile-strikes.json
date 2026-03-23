@@ -3378,5 +3378,41 @@
       "injured": 0,
       "note": "Part of coordinated 8-salvo campaign. Casualties included in combined count."
     }
+  },
+  {
+    "id": "ms-210",
+    "city": "Tel Aviv (Central Israel)",
+    "country": "Israel",
+    "lat": 32.07,
+    "lng": 34.77,
+    "strikeType": "Cluster Munition Ballistic Missile",
+    "attributedTo": "iran",
+    "date": "2026-03-22",
+    "description": "Iranian ballistic missile fitted with cluster warhead scattered submunitions across at least 7 sites in central Israel including the Tel Aviv metropolitan area. Cluster bomb fragments wounded 15 people across multiple neighborhoods. IDF confirmed cluster warhead fragments at multiple sites. A second cluster missile impact occurred March 23 with no new injuries. Iran's use of cluster munitions against civilian-populated urban areas marked an escalation in weapons types deployed.",
+    "source": "Times of Israel liveblog March 22",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-22-2026/",
+    "weaponType": "Ballistic Missile with Cluster Warhead",
+    "casualties": {
+      "killed": 0,
+      "wounded": 15
+    }
+  },
+  {
+    "id": "ms-211",
+    "city": "Hormuz Strait Coastline",
+    "country": "Iran",
+    "lat": 26.5,
+    "lng": 56.5,
+    "strikeType": "GBU-72 Advanced Penetrator (US Strike on Iran)",
+    "attributedTo": "us",
+    "date": "2026-03-22",
+    "description": "US forces dropped multiple GBU-72 Advanced Penetrator 5,000-pound bunker buster bombs on hardened underground Iranian anti-ship missile facilities along the coastline near the Strait of Hormuz. CENTCOM destroyed anti-ship cruise missile launchers, mobile missile systems, intelligence support sites, and ship-tracking radar relays. Part of Operation Epic Fury's campaign to degrade Iran's ability to threaten Hormuz shipping.",
+    "source": "Gulf News — CENTCOM GBU-72",
+    "sourceUrl": "https://gulfnews.com/world/mena/after-dropping-5000-pound-bombs-on-missile-bunkers-overlooking-hormuz-us-centcom-chief-says-will-not-stop-1.500482077",
+    "weaponType": "GBU-72 Advanced Penetrator (5,000 lb bunker buster)",
+    "casualties": {
+      "killed": 0,
+      "wounded": 0
+    }
   }
 ]
