@@ -11435,5 +11435,221 @@
       "aviation",
       "day24"
     ]
+  },
+  {
+    "id": "evt-new-325",
+    "title": "IDF launches wide-scale wave of strikes on Tehran — IRGC HQ, Basij base, rocket factory hit",
+    "description": "The IDF launched a 'wide-scale wave of strikes targeting Iranian terror regime infrastructure in Tehran' in the early morning hours of March 23. Targets included the IRGC police headquarters, Basij militia base, rocket engine production facility, and Isfahan Internal Security Force HQ. Al Jazeera's Tehran correspondent reported the size and volume of explosions were 'unprecedented,' especially on the eastern side of the city. Power outages reported in parts of Tehran.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-23T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel March 23 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
+      },
+      {
+        "name": "CBC News — Israel launches new attacks on Tehran",
+        "url": "https://www.cbc.ca/news/world/israel-new-attacks-tehran-9.7138210"
+      },
+      {
+        "name": "Al Jazeera — Unprecedented US-Israel strikes across Iran",
+        "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["israel", "iran", "tehran", "irgc", "strike", "day24"]
+  },
+  {
+    "id": "evt-new-326",
+    "title": "CENTCOM destroys Qom Turbine Engine Production Plant — IRGC drone engine factory eliminated",
+    "description": "US CENTCOM struck and destroyed Iran's Qom Turbine Engine Production Plant, which produced gas turbine engines for IRGC attack drones and aircraft components. CENTCOM released before/after satellite imagery confirming the facility's destruction. Part of the US campaign to suppress Iran's drone production capacity.",
+    "type": "strike",
+    "lat": 34.6401,
+    "lng": 50.8764,
+    "location": "Qom, Iran",
+    "timestamp": "2026-03-23T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Business Standard — US strikes destroy Iran's Qom turbine engine plant",
+        "url": "https://www.business-standard.com/world-news/us-strikes-destroy-iran-s-qom-turbine-engine-plant-amid-escalating-conflict-126032300082_1.html"
+      },
+      {
+        "name": "Middle East Eye — US hit Iranian engine production facility at Qom",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-hit-iranian-engine-production-facility-qom-centcom-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "centcom", "iran", "qom", "strike", "drones", "day24"]
+  },
+  {
+    "id": "evt-new-327",
+    "title": "Airstrikes on Tabriz kill 6, flatten residential buildings",
+    "description": "US-Israeli airstrikes hit residential buildings in Tabriz, northwestern Iran, killing at least 6 people and injuring 6 others. East Azerbaijan Province Crisis Management Director Majid Farshi confirmed two separate deadly attacks on the city. Iranian Red Crescent rescue teams were deployed.",
+    "type": "strike",
+    "lat": 38.0800,
+    "lng": 46.2919,
+    "location": "Tabriz, Iran",
+    "timestamp": "2026-03-23T02:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Unprecedented US-Israel strikes across Iran",
+        "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
+      },
+      {
+        "name": "Al Jazeera Iran War liveblog March 23",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 6, "injured": 6},
+    "tags": ["iran", "tabriz", "strike", "civilians", "day24"]
+  },
+  {
+    "id": "evt-new-328",
+    "title": "Strike hits Bandar Abbas IRIB radio transmitter — 1 security guard killed",
+    "description": "A US-Israeli strike hit a 100-kilowatt AM transmitter of the Islamic Republic of Iran Broadcasting (IRIB) radio station in Bandar Abbas, killing one IRIB security staffer and injuring another. IRIB said broadcasts resumed normally. Bandar Abbas is home to Iran's primary naval base on the Strait of Hormuz.",
+    "type": "strike",
+    "lat": 27.1865,
+    "lng": 56.2808,
+    "location": "Bandar Abbas, Iran",
+    "timestamp": "2026-03-23T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Ynet News — Strike hits broadcast center in southern Iran",
+        "url": "https://www.ynetnews.com/article/q48cx5kyw"
+      },
+      {
+        "name": "Anadolu Agency — US-Israeli strike hits broadcast center in southern Iran",
+        "url": "https://www.aa.com.tr/en/middle-east/us-israeli-strike-hits-broadcast-center-in-southern-iran-killing-1-report/3875273"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "injured": 1},
+    "tags": ["iran", "bandar-abbas", "strike", "infrastructure", "media", "day24"]
+  },
+  {
+    "id": "evt-new-329",
+    "title": "Khorramabad residential airstrike kills at least 1 child — multiple civilians wounded",
+    "description": "An airstrike hit a residential area in Khorramabad, western Iran (Lorestan province), killing at least one child whose body was pulled from rubble, with multiple others wounded. Iranian state media Fars News Agency confirmed the casualty. Al Jazeera verified footage of the aftermath.",
+    "type": "strike",
+    "lat": 33.4878,
+    "lng": 48.3558,
+    "location": "Khorramabad, Iran",
+    "timestamp": "2026-03-23T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "RTÉ News — Iran war March 23",
+        "url": "https://www.rte.ie/news/world/2026/0323/1564702-iran-war/"
+      },
+      {
+        "name": "Al Jazeera Iran War liveblog March 23",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1},
+    "tags": ["iran", "khorramabad", "strike", "civilians", "children", "day24"]
+  },
+  {
+    "id": "evt-new-330",
+    "title": "Airstrikes flatten residential buildings in Urmia — rescue teams searching rubble",
+    "description": "Airstrikes flattened residential buildings in Urmia, northwest Iran. Iranian Red Crescent rescue teams were deployed to search rubble. Iranian state media Nour News reported buildings 'flattened.' No immediate confirmed casualty figure as rescue operations were ongoing.",
+    "type": "strike",
+    "lat": 37.5527,
+    "lng": 45.0760,
+    "location": "Urmia, Iran",
+    "timestamp": "2026-03-23T03:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera Iran War liveblog March 23",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit"
+      },
+      {
+        "name": "CNN live updates March 23",
+        "url": "https://us.cnn.com/world/live-news/iran-war-us-israel-trump-03-23-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "urmia", "strike", "civilians", "northwest", "day24"]
+  },
+  {
+    "id": "evt-new-331",
+    "title": "Intercepted Iranian missile fragment falls in Safed — fire ignited, no casualties",
+    "description": "Part of an intercepted Iranian ballistic missile fell in the northern Israeli city of Safed (Tzfat), igniting a fire at the impact site. Firefighters responded and brought the fire under control. No casualties reported from the shrapnel fall.",
+    "type": "strike",
+    "lat": 32.9646,
+    "lng": 35.4965,
+    "location": "Safed, northern Israel",
+    "timestamp": "2026-03-23T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post live updates March 23",
+        "url": "https://www.jpost.com/middle-east/iran-news/2026-03-23/live-updates-890852"
+      },
+      {
+        "name": "Times of Israel March 23 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "israel", "safed", "missile", "interception", "day24"]
+  },
+  {
+    "id": "evt-new-332",
+    "title": "Trump announces 5-day pause on Iran energy strikes — claims 'productive talks' on ending war",
+    "description": "President Trump posted on Truth Social that the US and Iran have had 'very good and productive conversations regarding a complete and total resolution' of hostilities. He instructed the Department of Defense to postpone all strikes on Iranian power plants and energy infrastructure for 5 days, subject to ongoing discussions. Iran's Foreign Ministry categorically denied any negotiations. Trump also told CNBC the situation constitutes 'regime change.' Markets surged on the announcement.",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-03-23T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — Iran defiant as Trump delays striking power plants",
+        "url": "https://www.npr.org/2026/03/23/nx-s1-5757172/iran-defiant-trump-hormuz"
+      },
+      {
+        "name": "Bloomberg — Trump delays Iran strikes for five days",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway"
+      },
+      {
+        "name": "Fox News — Trump orders War Dept to postpone strikes on Iranian energy sites",
+        "url": "https://www.foxnews.com/politics/trump-orders-war-dept-postpone-strikes-iranian-energy-sites-citing-productive-talks-end-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "iran", "diplomatic", "hormuz", "trump", "ceasefire", "day24"]
   }
 ]

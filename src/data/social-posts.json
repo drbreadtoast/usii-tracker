@@ -1,94 +1,5 @@
 [
   {
-    "id": "social-206",
-    "handle": "@WarMonitor",
-    "displayName": "War Monitor",
-    "text": "Trump's 48-hour Hormuz deadline (expires ~7:44 PM ET Monday) has ~34 hours remaining as of Day 23 morning. Iran's military has flatly refused: Hormuz will be 'completely closed indefinitely' if power plants are struck. Iran also counter-threatens all US/Israeli desalination and energy infrastructure in the Gulf. Markets now pricing in ~40% chance of expanded strikes before the deadline expires.",
-    "timestamp": "2026-03-22T09:07:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Iran counter-threat via Bloomberg confirmed. Deadline calculation confirmed. Market probability is analyst estimate from options pricing.",
-    "keywords": [
-      "trump",
-      "hormuz",
-      "deadline",
-      "iran",
-      "power-plants",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-207",
-    "handle": "@MENAosint",
-    "displayName": "MENA OSINT",
-    "text": "Netanyahu at Arad — visiting the site of Iran's Day 22 direct hit — urged European nations to join the war coalition. Key data point: Iran's demonstrated ~4,000km IRBM range (Diego Garcia strike, March 21) puts Berlin, Paris, London, and Rome within reach. Netanyahu explicitly invoked this to call for European commitment. So far zero European nations have committed combat forces.",
-    "timestamp": "2026-03-22T09:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Netanyahu Arad visit and statement confirmed by Times of Israel and Jerusalem Post. 4,000km range calculation confirmed by multiple defense analysts.",
-    "keywords": [
-      "netanyahu",
-      "europe",
-      "coalition",
-      "irbm-range",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-208",
-    "handle": "@Conflict_Monitor",
-    "displayName": "Conflict Monitor",
-    "text": "Lebanon health ministry Day 23: 1,001+ killed since March 2 (when Hezbollah formally entered the war), 2,650+ wounded, 1 million+ displaced. Hezbollah fired 6 rockets at Metula this morning — 3 crashed in Lebanon, 3 intercepted. IDF ordered strikes on all Litani River bridges — cutting Hezbollah's main supply routes and trapping ~150,000 civilians south of the river.",
-    "timestamp": "2026-03-22T10:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Lebanon health ministry figures from Times of Israel liveblog. Hezbollah rocket attack confirmed by IDF. Litani bridge strikes order confirmed by Katz.",
-    "keywords": [
-      "lebanon",
-      "hezbollah",
-      "metula",
-      "death-toll",
-      "litani",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-209",
-    "handle": "@ISW_Research",
-    "displayName": "Institute for the Study of War (ISW)",
-    "text": "ISW Day 23 assessment: The Rubio-Hegseth internal feud over US ground troops in Iran is the most significant administrative fracture of the conflict so far. Rubio opposes ground deployment; Hegseth supports it at Israel's request. Combined with Trump's oscillating signals (wind-down vs. power plant obliteration), the US lacks a coherent war termination strategy — raising the risk of strategic drift into an open-ended commitment.",
-    "timestamp": "2026-03-22T12:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "Rubio-Hegseth feud confirmed by Middle East Eye. ISW assessment methodology is editorial analysis.",
-    "keywords": [
-      "rubio",
-      "hegseth",
-      "ground-troops",
-      "strategy",
-      "us-internal",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-210",
-    "handle": "@AraghchiWatch",
-    "displayName": "Araghchi Watch",
-    "text": "NYT reports Iran's Ministry of Intelligence secretly contacted CIA via a third-country intelligence service on Day 23. Iran's public posture: 'never asked for a ceasefire, never asked for negotiation.' The private contact suggests Iran may be exploring exit options while maintaining defiant posture for domestic consumption. No formal talks — Iran's conditions (permanent end, reparations, withdrawal) remain non-starters for the US.",
-    "timestamp": "2026-03-22T13:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "NYT backchannel report confirmed by Jerusalem Post and Iran International. Iran's public statements confirmed. Classified nature prevents full verification.",
-    "keywords": [
-      "iran",
-      "cia",
-      "backchannel",
-      "negotiations",
-      "araghchi",
-      "day23"
-    ]
-  },
-  {
     "id": "social-211",
     "handle": "@OSINTdefender",
     "displayName": "OSINT Defender",
@@ -104,25 +15,6 @@
       "arad",
       "dimona",
       "israel",
-      "day23"
-    ]
-  },
-  {
-    "id": "social-212",
-    "handle": "@IranWarWatch",
-    "displayName": "Iran War Watch",
-    "text": "Iran War Watch: IRGC released official targeting map via Mehr News Agency depicting Gulf state energy infrastructure captioned 'Say goodbye to electricity' — UAE, Saudi Arabia, Qatar, Kuwait, Bahrain power plants and desalination facilities all marked. Direct counter-threat to Trump's Hormuz power plant ultimatum. Gulf states have issued emergency advisories.",
-    "timestamp": "2026-03-22T11:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Map confirmed via CBS News liveblog and Al Jazeera reporting on Iranian threats.",
-    "keywords": [
-      "irgc",
-      "map",
-      "gulf",
-      "power-plants",
-      "threat",
-      "trump-ultimatum",
       "day23"
     ]
   },
@@ -532,6 +424,114 @@
       "ceasefire",
       "araghchi",
       "day23"
+    ]
+  },
+  {
+    "id": "social-235",
+    "handle": "@WarMonitor",
+    "displayName": "War Monitor",
+    "text": "Trump posted on Truth Social claiming \"productive\" US-Iran talks and announced a 5-day pause on strikes on Iranian energy infrastructure. Key detail: Iran's FM Araghchi immediately denied any contact, calling the claim an attempt to mislead oil traders. Iran's Fars News cited a government source confirming \"no direct or indirect contact\" with the US.",
+    "timestamp": "2026-03-23T11:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump post confirmed across all major outlets. Iran denial confirmed by Araghchi statement and Fars News source.",
+    "keywords": [
+      "trump",
+      "iran",
+      "negotiations",
+      "hormuz",
+      "pause",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-236",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "IDF confirmed a \"wide-scale wave of strikes\" on Tehran in early morning March 23 — targeting IRGC police HQ, Basij militia base, rocket engine production facility, and Isfahan Internal Security Force HQ. Al Jazeera's Tehran correspondent called the explosions \"unprecedented\" in scale, especially on the city's eastern side. Separate CENTCOM strike destroyed the Qom Turbine Engine Production Plant used for IRGC drone manufacturing.",
+    "timestamp": "2026-03-23T09:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF formally announced the operation. CENTCOM confirmed Qom plant with satellite imagery.",
+    "keywords": [
+      "tehran",
+      "idf",
+      "irgc",
+      "strikes",
+      "qom",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-237",
+    "handle": "@IranObserver",
+    "displayName": "Iran Observer",
+    "text": "Day 24 civilian casualty summary from Iranian cities: Tabriz — 6 killed, 6 injured (residential buildings). Khorramabad — 1 child killed, body pulled from rubble. Urmia — buildings \"flattened,\" rescue teams searching. Bandar Abbas — 1 IRIB guard killed at state radio transmitter. Total new confirmed civilian deaths in this morning's strikes: at least 8.",
+    "timestamp": "2026-03-23T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Tabriz confirmed by crisis management official Farshi. Khorramabad by Fars News. Bandar Abbas by Anadolu and Ynet.",
+    "keywords": [
+      "iran",
+      "civilians",
+      "tabriz",
+      "khorramabad",
+      "urmia",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-238",
+    "handle": "@CriticalThreats",
+    "displayName": "CTP-ISW",
+    "text": "Iran Defense Council issued an escalatory threat to mine the Strait of Hormuz and the entire Persian Gulf if US or Israeli forces attack Iran's coastline or islands. This would be a qualitative escalation beyond the existing effective blockade — mining represents a persistent threat to all shipping, not just selective denial. IRGC also specifically threatened Gulf power plants: \"If you hit electricity, we hit electricity.\"",
+    "timestamp": "2026-03-23T10:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Iran Defense Council statement confirmed by Al Jazeera and Times of Israel liveblogs.",
+    "keywords": [
+      "iran",
+      "hormuz",
+      "mining",
+      "irgc",
+      "escalation",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-239",
+    "handle": "@MENAosint",
+    "displayName": "MENA OSINT",
+    "text": "USS Tripoli (LHA-7) with 2,000+ Marines reportedly moving to the region as the US prepares a \"weeks-long operation\" to force open the Strait of Hormuz — potentially including seizure of Kharg Island (Iran's main oil export terminal). This plan was in motion before Trump's 5-day pause announcement. The pause buys time but the military option is being readied.",
+    "timestamp": "2026-03-23T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "USS Tripoli movement confirmed by Times of Israel. Kharg Island plan reported by Israeli officials.",
+    "keywords": [
+      "hormuz",
+      "uss-tripoli",
+      "marines",
+      "kharg",
+      "us",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-240",
+    "handle": "@LebanonTracker",
+    "displayName": "Lebanon Conflict Tracker",
+    "text": "Israel blew up the Qasmiyeh coastal highway bridge over the Litani River — the fifth Litani-area bridge struck since March 2. Lebanon President Aoun called it a \"dangerous escalation\" and \"prelude to a ground invasion\" north of the Litani. Defense Minister Katz ordered ALL Litani River bridges demolished. Around 150,000 civilians in southern Lebanon face restricted movement.",
+    "timestamp": "2026-03-23T08:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Times of Israel, Al Jazeera, and CGTN footage of bridge strike.",
+    "keywords": [
+      "lebanon",
+      "litani",
+      "qasmiyeh",
+      "idf",
+      "bridges",
+      "day24"
     ]
   }
 ]
