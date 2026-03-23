@@ -41,12 +41,12 @@ function SectionCard({ icon: Icon, title, color, route, children }) {
 // ----- 1. Escalations + 24hr Report (split card) -----
 function EscalationsAnd24hrSummary() {
   const sortedEsc = [...escalationsData].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
-  const topEsc = sortedEsc.filter(e => e.severity === 'critical' || e.severity === 'high').slice(0, 3)
+  const topEsc = sortedEsc.filter(e => e.severity === 'critical' || e.severity === 'high').slice(0, 6)
 
   const sortedBreaking = [...breakingData].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
   const lastUpdate = new Date(siteMetadata.lastUpdated)
   const cutoff = new Date(lastUpdate.getTime() - 24 * 60 * 60 * 1000)
-  const recent24hr = sortedBreaking.filter(item => new Date(item.timestamp) >= cutoff).slice(0, 3)
+  const recent24hr = sortedBreaking.filter(item => new Date(item.timestamp) >= cutoff).slice(0, 6)
 
   return (
     <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-700 transition-colors">
@@ -57,8 +57,8 @@ function EscalationsAnd24hrSummary() {
             <AlertOctagon size={14} className="text-orange-400" />
             <span className="text-sm font-semibold text-gray-200">Latest Escalations</span>
           </div>
-          <Link to="/escalations" className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
-            See all <ChevronRight size={10} />
+          <Link to="/escalations" className="flex items-center gap-1 text-[11px] bg-blue-600/20 border border-blue-500/30 text-blue-400 hover:bg-blue-600/30 hover:text-blue-300 font-semibold px-2.5 py-1 rounded-md transition-colors">
+            See all <ChevronRight size={12} />
           </Link>
         </div>
         <div className="p-4 space-y-2">
@@ -73,6 +73,9 @@ function EscalationsAnd24hrSummary() {
               </div>
             </div>
           ))}
+          <Link to="/escalations" className="flex items-center justify-center gap-1.5 mt-3 pt-3 border-t border-gray-800 text-[11px] text-blue-400 hover:text-blue-300 font-semibold transition-colors">
+            View all escalations <ChevronRight size={12} />
+          </Link>
         </div>
       </div>
 
@@ -83,28 +86,33 @@ function EscalationsAnd24hrSummary() {
             <Newspaper size={14} className="text-red-400" />
             <span className="text-sm font-semibold text-gray-200">24hr Report</span>
           </div>
-          <Link to="/breaking-news" className="flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
-            See all <ChevronRight size={10} />
+          <Link to="/breaking-news" className="flex items-center gap-1 text-[11px] bg-blue-600/20 border border-blue-500/30 text-blue-400 hover:bg-blue-600/30 hover:text-blue-300 font-semibold px-2.5 py-1 rounded-md transition-colors">
+            See all <ChevronRight size={12} />
           </Link>
         </div>
         <div className="p-4 space-y-2">
           {recent24hr.length === 0 ? (
             <p className="text-[10px] text-gray-600 text-center py-2">No developments in the past 24 hours.</p>
           ) : (
-            recent24hr.map(item => (
-              <div key={item.id} className="flex items-start gap-2">
-                <Zap size={10} className={`shrink-0 mt-0.5 ${item.priority === 'critical' ? 'text-red-400' : item.priority === 'high' ? 'text-orange-400' : 'text-yellow-400'}`} />
-                <div className="min-w-0">
-                  <p className="text-xs text-gray-200 font-medium leading-snug line-clamp-2">{item.text}</p>
-                  <p className="text-[9px] text-gray-600 mt-0.5">
-                    {new Date(item.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                    {item.sources && item.sources.length > 0 && (
-                      <> · {item.sources.length} source{item.sources.length > 1 ? 's' : ''}</>
-                    )}
-                  </p>
+            <>
+              {recent24hr.map(item => (
+                <div key={item.id} className="flex items-start gap-2">
+                  <Zap size={10} className={`shrink-0 mt-0.5 ${item.priority === 'critical' ? 'text-red-400' : item.priority === 'high' ? 'text-orange-400' : 'text-yellow-400'}`} />
+                  <div className="min-w-0">
+                    <p className="text-xs text-gray-200 font-medium leading-snug line-clamp-2">{item.text}</p>
+                    <p className="text-[9px] text-gray-600 mt-0.5">
+                      {new Date(item.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                      {item.sources && item.sources.length > 0 && (
+                        <> · {item.sources.length} source{item.sources.length > 1 ? 's' : ''}</>
+                      )}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))
+              ))}
+              <Link to="/breaking-news" className="flex items-center justify-center gap-1.5 mt-3 pt-3 border-t border-gray-800 text-[11px] text-blue-400 hover:text-blue-300 font-semibold transition-colors">
+                View full 24hr report <ChevronRight size={12} />
+              </Link>
+            </>
           )}
         </div>
       </div>
@@ -197,10 +205,11 @@ function EnergySummary() {
       <div className="grid grid-cols-2 gap-3">
         <div className="bg-gray-800/50 rounded-lg p-3">
           <p className="text-[9px] text-gray-500 uppercase font-semibold">Brent Crude</p>
-          <p className="text-lg font-bold text-amber-300">${brentNow.toFixed(2)}<span className="text-[10px] text-gray-500">/bbl</span></p>
-          <div className="flex items-center gap-1 mt-0.5">
+          <p className="text-[10px] text-gray-500 mt-1">Pre-war: <span className="text-gray-300 font-semibold">${brentPre.toFixed(2)}</span>/bbl</p>
+          <p className="text-[10px] text-gray-500 mt-0.5">Now: <span className="text-amber-300 font-bold">${brentNow.toFixed(2)}</span>/bbl</p>
+          <div className="flex items-center gap-1 mt-1">
             <TrendingUp size={10} className="text-red-400" />
-            <span className="text-[10px] text-red-400 font-semibold">+{brentChange}% since pre-war</span>
+            <span className="text-[10px] text-red-400 font-semibold">+{brentChange}% increase</span>
           </div>
         </div>
         <div className="bg-gray-800/50 rounded-lg p-3">
