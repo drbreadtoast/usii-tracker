@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-23T17:08:00Z",
+    "lastUpdated": "2026-03-23T22:36:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -27,20 +27,20 @@
     ]
   },
   "summary": {
-    "totalSites": 168,
+    "totalSites": 169,
     "confirmed": 12,
     "reported": 6,
     "rumored": 3,
-    "countriesAffected": 14,
+    "countriesAffected": 15,
     "categories": {
-      "military": 49,
+      "military": 50,
       "nuclear": 8,
       "infrastructure": 12,
       "civilian": 28,
       "energy": 5,
       "diplomatic": 1
     },
-    "lastUpdated": "2026-03-23T17:08:00Z"
+    "lastUpdated": "2026-03-23T22:36:00Z"
   },
   "damageLocations": [
     {
@@ -2806,6 +2806,29 @@
         {
           "name": "US News/AP — Israel orders destruction of bridges in Lebanon",
           "url": "https://www.usnews.com/news/world/articles/2026-03-22/israel-orders-destruction-of-bridges-in-lebanon-and-homes-near-israeli-border"
+        }
+      ]
+    },
+    {
+      "id": "dmg-173",
+      "name": "Prince Sultan Airbase — IRGC Missile and Drone Strike",
+      "country": "Saudi Arabia",
+      "lat": 24.0623,
+      "lng": 47.5804,
+      "type": "military",
+      "category": "airbase",
+      "status": "damaged",
+      "date": "2026-03-23",
+      "description": "IRGC launched ballistic missiles and drones at Prince Sultan Airbase — the primary US Air Force hub in the Arabian Peninsula housing F-35 and F-22 squadrons. Saudi Arabia confirmed two ballistic missiles were fired toward Riyadh; one was intercepted, one fell in uninhabited area south of capital. Extent of damage to the base not confirmed. IRGC simultaneously struck US 5th Fleet headquarters at Naval Support Activity Bahrain.",
+      "attributedTo": "iran",
+      "sources": [
+        {
+          "name": "Al Jazeera — Iran war Day 24 explainer",
+          "url": "https://www.aljazeera.com/economy/2026/3/23/iran-war-whats-happening-on-day-24-of-us-israel-attacks"
+        },
+        {
+          "name": "CBS News — Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-trump-ultimatum-strait-of-hormuz/"
         }
       ]
     }

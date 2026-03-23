@@ -1,35 +1,35 @@
 {
-  "lastUpdated": "2026-03-23T17:08:00Z",
+  "lastUpdated": "2026-03-23T22:36:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.36,
-      "change": "+18%",
-      "detail": "Near 2-year peak. Iran war energy/fertilizer cost pass-through driving sustained rally. +3% week-over-week.",
-      "source": "CME Group / Zawya",
-      "sourceUrl": "https://www.zawya.com/en/economy/global/chicago-soy-wheat-corn-rise-on-oil-rally-iran-war-q9ewo513"
+      "current": 5.98,
+      "change": "+6.4%",
+      "detail": "SRW wheat (May) at $5.98/bushel — retreated from $6.36 highs as Trump 5-day pause pulled oil prices lower. Still up 6.4% from pre-war $5.62. Iran war fertilizer/energy cost pass-through remains a driver. Spring planting season underway in Northern Hemisphere.",
+      "source": "Brownfield Ag News / CME March 20 closing",
+      "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
     },
     {
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.72,
-      "change": "+9.5%",
-      "detail": "Corn futures at $4.72/bushel (+2.5% session). Up 9.5% from pre-war $4.31. Fertilizer (urea) price now $700+/tonne, up 47% from pre-war. Biofuel demand elevated as oil prices remain high.",
-      "source": "CME Group / Zawya",
-      "sourceUrl": "https://www.zawya.com/en/economy/global/chicago-soy-wheat-corn-rise-on-oil-rally-iran-war-q9ewo513"
+      "current": 4.65,
+      "change": "+8.1%",
+      "detail": "Corn (May) at $4.65/bushel. Up 8.1% from pre-war $4.31. Fertilizer (urea) price now $700+/tonne, up 47% from pre-war. Biofuel demand elevated as oil prices remain high despite pullback. Analysts warn prolonged Hormuz closure could push toward $6.00.",
+      "source": "Brownfield Ag News / CME March 20 closing",
+      "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
     },
     {
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": 12.3,
-      "change": "+21.5%",
-      "detail": "CBOT soybeans at $12.30/bushel (+2.46% session). Up 21.5% from pre-war $10.12. Soybean oil hit 69.73 cents/lb (highest since December 2022). Palm oil also surged up to 10%. One-third of globally traded fertilizer passes through Hormuz.",
-      "source": "CME Group / Zawya",
-      "sourceUrl": "https://www.zawya.com/en/economy/global/chicago-soy-wheat-corn-rise-on-oil-rally-iran-war-q9ewo513"
+      "current": 11.61,
+      "change": "+14.7%",
+      "detail": "CBOT soybeans (May) at $11.61/bushel. Up 14.7% from pre-war $10.12. Managed money at 4-year high net long in grains. Soybean oil surging on biofuel demand. Palm oil also elevated. One-third of globally traded fertilizer transits through Hormuz.",
+      "source": "Brownfield Ag News / CME March 20 closing",
+      "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
     },
     {
       "name": "Rice",
@@ -45,11 +45,11 @@
       "name": "Sugar",
       "unit": "/lb",
       "preWar": "$0.21",
-      "current": "$0.31",
-      "change": "+47.6%",
-      "detail": "Energy costs for refineries surging globally. Transport costs up 40% due to diesel price spikes.",
-      "source": "CME Group",
-      "sourceUrl": "https://www.cmegroup.com/markets/agriculture/softs/sugar-no11.html"
+      "current": "$0.142",
+      "change": "-32.4%",
+      "detail": "Sugar #11 (ICE) at $0.142/lb — actually DOWN from pre-war $0.21. Global sugar market has a 3.4 million metric ton surplus forecast for 2026/27; the Iran war has not materially elevated sugar prices. Unlike energy-linked grains, sugar supply/demand dynamics dominated by global harvest conditions.",
+      "source": "Barchart / ICE Sugar Futures",
+      "sourceUrl": "https://www.barchart.com/futures/quotes/SBH26"
     },
     {
       "name": "Cooking Oil",
@@ -96,5 +96,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 23: Food prices remain elevated due to Hormuz blockade, fuel cost surge (+24%), and Iran's threat to Gulf energy infrastructure. Wheat near 2-year high (+13-14%). Fertilizer (urea) up 32-47% at New Orleans import hub. US farmers cutting fertilizer applications by up to 25%. European TTF natural gas spiked 32% overnight after Ras Laffan damage. Fourth consecutive week of elevated commodity prices."
+  "context": "Day 24: Grain prices eased slightly as Trump announced 5-day pause on Iran energy strikes, pulling oil from $112 to ~$101 Brent. Wheat retreated from highs to $5.98 (+6.4% from pre-war). Soybeans at $11.61 (+14.7%). Fertilizer (urea) up 47% at New Orleans import hub. US farmers cutting fertilizer applications by up to 25%. QatarEnergy LNG force majeure continues — Dutch TTF gas up 59% since war. Note: Sugar is actually DOWN (-32.4%) due to a global 3.4 MMT surplus. Fourth consecutive week of Hormuz blockade impact on agricultural supply chains."
 }

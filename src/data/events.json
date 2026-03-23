@@ -11729,5 +11729,109 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iea", "oil", "energy", "economic", "hormuz", "global", "day24"]
+  },
+  {
+    "id": "evt-new-336",
+    "title": "IRGC launches missiles and drones at Prince Sultan Airbase (Saudi Arabia) and US 5th Fleet headquarters (Bahrain)",
+    "description": "The IRGC confirmed it attacked Prince Sultan Airbase in Saudi Arabia and Naval Support Activity Bahrain — home of the US 5th Fleet — using a combination of ballistic missiles and drones on Day 24. Saudi Arabia confirmed two ballistic missiles were launched toward Riyadh: one was intercepted by Saudi air defenses, a second fell in an uninhabited area south of the capital. The attacks marked Iran's continued direct engagement against Gulf Cooperation Council territory and US regional military infrastructure.",
+    "type": "strike",
+    "lat": 24.0623,
+    "lng": 47.5804,
+    "location": "Prince Sultan Airbase, Saudi Arabia",
+    "timestamp": "2026-03-23T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war Day 24 explainer",
+        "url": "https://www.aljazeera.com/economy/2026/3/23/iran-war-whats-happening-on-day-24-of-us-israel-attacks"
+      },
+      {
+        "name": "Al Jazeera — Unprecedented US-Israel strikes across Iran",
+        "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "saudi_arabia", "bahrain", "us", "strike", "irgc", "gulf", "day24"]
+  },
+  {
+    "id": "evt-new-337",
+    "title": "Iran fires 6 separate missile barrages at Israel on Day 24 — joint Hezbollah rocket salvos coordinated simultaneously",
+    "description": "Iran launched at least six separate missile barrages at Israel on Day 24, with sirens blasting across northern, southern, and central Israel throughout the day. Falling shrapnel was reported in multiple communities across central Israel after intercepts. Hezbollah launched simultaneous rocket salvos from Lebanon during at least two of the barrages, continuing the coordinated dual-front attack pattern established since IDF began Lebanon ground operations on March 16.",
+    "type": "strike",
+    "lat": 31.7683,
+    "lng": 35.2137,
+    "location": "Israel (multiple cities)",
+    "timestamp": "2026-03-23T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — March 23 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
+      },
+      {
+        "name": "Haaretz — Iran War Live Updates March 23",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-23/ty-article-live/iranian-missile-barrage-causes-damage-in-several-central-israel-locations/0000019d-18f4-d362-a7fd-1df6d3f00000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "israel", "missile", "hezbollah", "joint_attack", "air_defense", "day24"]
+  },
+  {
+    "id": "evt-new-338",
+    "title": "IDF kills IRGC Quds Force member in Beirut strike; issues evacuation warnings for four southern suburbs",
+    "description": "The IDF confirmed a strike in Beirut that killed an identified IRGC Quds Force member operating in Lebanon. Following the strike, the IDF issued evacuation warnings for four densely populated southern Beirut suburbs: Bourj el-Barajneh, Hadath, Haret Hreik, and Chiyah — the same areas housing Hezbollah's political and administrative infrastructure. The warnings signaled an expansion of Israel's Beirut targeting beyond prior strike patterns.",
+    "type": "strike",
+    "lat": 33.8685,
+    "lng": 35.5078,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-23T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — March 23 live updates",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-890940"
+      },
+      {
+        "name": "Times of Israel — March 23 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "injured": 0, "note": "1 IRGC Quds Force member killed"},
+    "tags": ["israel", "irgc", "beirut", "lebanon", "targeted_killing", "hezbollah", "day24"]
+  },
+  {
+    "id": "evt-new-339",
+    "title": "USS Boxer Amphibious Ready Group with 2,500 Marines departs San Diego for Middle East",
+    "description": "Three California-based warships — USS Boxer (Wasp-class amphibious assault ship), USS Portland, and USS Comstock — carrying approximately 2,500 Marines from the 11th Marine Expeditionary Unit departed Naval Base San Diego for the Middle East. The deployment follows the earlier dispatch of USS Tripoli with 2,200 Marines. Combined with existing forces, total US military personnel in the broader Middle East theater stands at approximately 50,000.",
+    "type": "movement",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "location": "San Diego, California (departing)",
+    "timestamp": "2026-03-23T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Mercury News — Three San Diego warships carrying 2,500 Marines en route to Middle East",
+        "url": "https://www.mercurynews.com/2026/03/23/three-san-diego-warships-carrying-2500-camp-pendleton-marines-en-route-to-middle-east/"
+      },
+      {
+        "name": "Stars and Stripes — Marines, USS Boxer deployment to Iran",
+        "url": "https://www.stripes.com/branches/marine_corps/2026-03-20/more-marines-uss-boxer-deployment-iran-21129893.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "marines", "naval", "deployment", "persian_gulf", "uss_boxer", "day24"]
   }
 ]

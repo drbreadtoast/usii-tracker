@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-23T13:11:00Z",
+    "lastUpdated": "2026-03-23T22:36:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -83,14 +83,14 @@
         "sourceUrl": "https://fortune.com/article/price-of-oil-03-23-2026/"
       },
       "wti": {
-        "price": 98.23,
-        "change": "+30.1%",
-        "changeDollars": "+22.73",
+        "price": 91.4,
+        "change": "+21.1%",
+        "changeDollars": "+15.89",
         "unit": "$/barrel",
-        "source": "OilPriceAPI / FX Daily Report — March 23, 2026",
-        "sourceUrl": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-march-23-2026/"
+        "source": "FX Daily Report / CNBC — March 23, 2026 afternoon",
+        "sourceUrl": "https://www.cnbc.com/2026/03/23/oil-prices-trump-iran-strait-of-hormuz-wti-crude-middle-east-lng-gas.html"
       },
-      "changePercent": 28.2,
+      "changePercent": 24.1,
       "lastUpdated": "2026-03-23"
     },
     "priceHistory": [
@@ -283,6 +283,13 @@
         "wti": 98.32,
         "brent": 107.2,
         "label": "Day 23 PM — Iran 8th missile salvo; IRGC Gulf energy targeting map; Hormuz deadline 20hrs remain",
+        "isEvent": true
+      },
+      {
+        "date": "2026-03-23",
+        "wti": 91.4,
+        "brent": 101.44,
+        "label": "Day 24 — Trump announces 5-day pause on Iran energy strikes citing 'productive talks'; Iran denies. Brent -10%+ from $112 highs. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain.",
         "isEvent": true
       }
     ],
@@ -480,12 +487,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 3.942,
-          "change": "+24.0%"
+          "price": 3.956,
+          "change": "+24.4%"
         },
-        "change": "+$0.76",
-        "changePercent": "+24.0%",
-        "detail": "Gas at $3.942/gal (AAA March 22, Day 23). Up $0.762/gal from pre-war $3.18. Highest since October 2023. California: $5.62/gal; Oklahoma: $3.24/gal. Hormuz ultimatum deadline March 23 adds upside risk.",
+        "change": "+$0.78",
+        "changePercent": "+24.4%",
+        "detail": "Gas at $3.956/gal (AAA March 23, Day 24). Up $0.776/gal from pre-war $3.18. Highest since October 2023. California: $5.62/gal; Oklahoma: $3.24/gal. Trump 5-day pause on Iran energy strikes in effect through March 28.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -563,9 +570,9 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 3.925,
-    "gasPriceRegular": "$3.942/gal (AAA March 22, +22.8% from pre-war $3.21)",
-    "gasPriceDiesel": "$5.04/gal (+38% from pre-war $3.65)"
+    "regularGasoline": 3.956,
+    "gasPriceRegular": "$3.956/gal (AAA March 23, +24.4% from pre-war $3.18)",
+    "gasPriceDiesel": "$5.07/gal (+33.4% from pre-war $3.80)"
   },
   "keyFacts": [
     {
@@ -622,7 +629,7 @@
       "sourceUrl": "https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546"
     }
   ],
-  "lastUpdated": "2026-03-23T17:08:00Z",
+  "lastUpdated": "2026-03-23T22:36:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -675,8 +682,8 @@
     {
       "date": "2026-03-23",
       "brent": 101.44,
-      "wti": 98.23,
-      "label": "Day 24 — Trump announces 5-day pause on Iran energy strikes citing 'productive talks'; Brent pulls back 10%+ from $112 highs. CENTCOM destroys Qom drone factory; IDF strikes Tehran IRGC HQ. Iran threatens to mine Persian Gulf.",
+      "wti": 91.4,
+      "label": "Day 24 — Trump 5-day pause on energy strikes; Iran denies talks. Brent -10%+ from $112 highs, WTI slides 6.9%. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain; Iran fires 6 missile barrages at Israel.",
       "isEvent": true
     }
   ]

@@ -3598,5 +3598,39 @@
       "killed": 1,
       "injured": 4
     }
+  },
+  {
+    "id": "ms-223",
+    "city": "Prince Sultan Airbase",
+    "country": "Saudi Arabia",
+    "lat": 24.0623,
+    "lng": 47.5804,
+    "strikeType": "missile",
+    "attributedTo": "iran",
+    "date": "2026-03-23",
+    "description": "IRGC launched ballistic missiles and drones targeting Prince Sultan Airbase in Saudi Arabia — primary US air hub in the region — and Naval Support Activity Bahrain (US 5th Fleet headquarters). Saudi Arabia confirmed two ballistic missiles were fired toward Riyadh: one intercepted by air defenses, a second fell in an uninhabited area south of the capital. The IRGC simultaneously threatened to mine all Persian Gulf access routes if Iran's coastline or islands were attacked.",
+    "source": "Al Jazeera — Iran war Day 24 explainer",
+    "sourceUrl": "https://www.aljazeera.com/economy/2026/3/23/iran-war-whats-happening-on-day-24-of-us-israel-attacks",
+    "weaponType": "ballistic missile + drone",
+    "casualties": null
+  },
+  {
+    "id": "ms-224",
+    "city": "Beirut",
+    "country": "Lebanon",
+    "lat": 33.8685,
+    "lng": 35.5078,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-23",
+    "description": "IDF conducted a targeted airstrike in Beirut that killed an identified IRGC Quds Force member — the first confirmed killing of an IRGC officer inside the Lebanese capital since the current conflict began. The IDF subsequently issued evacuation warnings for four southern Beirut suburbs: Bourj el-Barajneh, Hadath, Haret Hreik, and Chiyah, signaling expansion of Israeli targeting inside Beirut.",
+    "source": "Jerusalem Post — March 23 live updates",
+    "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-890940",
+    "weaponType": "precision airstrike",
+    "casualties": {
+      "killed": 1,
+      "injured": 0,
+      "note": "1 IRGC Quds Force member killed"
+    }
   }
 ]

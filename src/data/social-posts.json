@@ -570,5 +570,99 @@
       "ceasefire",
       "day24"
     ]
+  },
+  {
+    "id": "social-247",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "OSINT Defender: US officials have confirmed at least 12 Iranian naval mines — identified as Maham 3 and Maham 7 Limpet Mine models — are currently positioned in the Strait of Hormuz. These mines are the primary physical obstacle preventing commercial transit beyond the IRGC active deterrence. Removal would require coordinated MCM (mine countermeasures) operation before safe shipping lanes could be declared.",
+    "timestamp": "2026-03-23T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "US officials confirmed mine presence to CBS News. Maham-type identification from CENTCOM assessment.",
+    "keywords": [
+      "hormuz",
+      "mines",
+      "irgc",
+      "naval",
+      "shipping",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-248",
+    "handle": "@GeoConfirmed",
+    "displayName": "GeoConfirmed",
+    "text": "GeoConfirmed analysis: THAAD system failure to intercept Iranian missiles at Dimona (March 21-22) is under active investigation. CENTCOM reviewing 3 separate THAAD intercept attempts that missed. This is significant — THAAD was considered the 'last layer' for ballistic missiles penetrating Iron Dome. 180+ injured in Arad and Dimona after the defense failure. Similar failure was observed at Erbil THAAD battery during Day 3.",
+    "timestamp": "2026-03-23T19:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "THAAD failure at Dimona/Arad reported by OSINTdefender. NBC confirmed 180+ injured after air defense penetration. CENTCOM investigation referenced in CBS News.",
+    "keywords": [
+      "thaad",
+      "air_defense",
+      "dimona",
+      "arad",
+      "iran",
+      "missiles",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-249",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Intel Crab: IRGC expanded its attack envelope today — Prince Sultan Airbase in Saudi Arabia and US 5th Fleet HQ in Bahrain both struck with ballistic missiles and drones. Saudi Arabia confirms 2 missiles fired toward Riyadh, 1 intercepted. This marks escalation into GCC territory beyond the Hormuz strategic perimeter. Iran simultaneously denying any talks with US while expanding its target set.",
+    "timestamp": "2026-03-23T19:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IRGC confirmed the strikes. Saudi confirmation of 2 ballistic missiles toward Riyadh via Al Jazeera.",
+    "keywords": [
+      "irgc",
+      "saudi_arabia",
+      "bahrain",
+      "us_5th_fleet",
+      "strike",
+      "gcc",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-250",
+    "handle": "@WarMonitor",
+    "displayName": "War Monitor",
+    "text": "War Monitor: IDF has issued evacuation warnings for four southern Beirut suburbs (Bourj el-Barajneh, Hadath, Haret Hreik, Chiyah) following confirmed killing of an IRGC Quds Force member in Beirut. These are the same neighborhoods housing Hezbollah's political bureau and administrative infrastructure. If struck, this would represent the most significant IDF Beirut operation since the start of the current conflict.",
+    "timestamp": "2026-03-23T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF evacuation warnings confirmed by JPost and Times of Israel. IRGC member killing confirmed by IDF.",
+    "keywords": [
+      "idf",
+      "beirut",
+      "hezbollah",
+      "irgc",
+      "evacuation",
+      "lebanon",
+      "day24"
+    ]
+  },
+  {
+    "id": "social-251",
+    "handle": "@tasnimnewsEN",
+    "displayName": "Tasnim News (Iranian)",
+    "text": "Iranian military source via Tasnim: Iran has 'new surprises planned for coming days' that 'could produce very big results.' Source claims Trump 'knows his offensive and defensive military ammunition is in a very bad condition.' Iran simultaneously fired 6 separate missile barrages at Israel on Day 24 — highest single-day launch tempo recorded in the conflict.",
+    "timestamp": "2026-03-23T21:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "likely",
+    "verificationNote": "Tasnim News article confirmed. Iranian military source claims unverified. Six barrages confirmed by Times of Israel liveblog.",
+    "keywords": [
+      "iran",
+      "military",
+      "missiles",
+      "israel",
+      "escalation",
+      "warning",
+      "day24"
+    ]
   }
 ]
