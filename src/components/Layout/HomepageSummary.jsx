@@ -52,14 +52,11 @@ function EscalationsAnd24hrSummary() {
     <div className="bg-gray-900/60 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-700 transition-colors">
       {/* Escalations half */}
       <div className="border-b border-gray-800">
-        <div className="flex items-center justify-between px-4 py-2.5 border-b border-gray-800">
+        <div className="flex items-center px-4 py-2.5 border-b border-gray-800">
           <div className="flex items-center gap-2">
             <AlertOctagon size={14} className="text-orange-400" />
             <span className="text-sm font-semibold text-gray-200">Latest Escalations</span>
           </div>
-          <Link to="/escalations" className="flex items-center gap-1 text-[11px] bg-blue-600/20 border border-blue-500/30 text-blue-400 hover:bg-blue-600/30 hover:text-blue-300 font-semibold px-2.5 py-1 rounded-md transition-colors">
-            See all <ChevronRight size={12} />
-          </Link>
         </div>
         <div className="p-4 space-y-2">
           {topEsc.map(e => (
@@ -81,14 +78,11 @@ function EscalationsAnd24hrSummary() {
 
       {/* 24hr Report half */}
       <div>
-        <div className="flex items-center justify-between px-4 py-2.5 border-b border-gray-800 bg-gray-900/30">
+        <div className="flex items-center px-4 py-2.5 border-b border-gray-800 bg-gray-900/30">
           <div className="flex items-center gap-2">
             <Newspaper size={14} className="text-red-400" />
             <span className="text-sm font-semibold text-gray-200">24hr Report</span>
           </div>
-          <Link to="/breaking-news" className="flex items-center gap-1 text-[11px] bg-blue-600/20 border border-blue-500/30 text-blue-400 hover:bg-blue-600/30 hover:text-blue-300 font-semibold px-2.5 py-1 rounded-md transition-colors">
-            See all <ChevronRight size={12} />
-          </Link>
         </div>
         <div className="p-4 space-y-2">
           {recent24hr.length === 0 ? (
