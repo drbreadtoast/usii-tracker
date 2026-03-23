@@ -1,5 +1,6 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap } from 'lucide-react'
+import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X } from 'lucide-react'
 import CensorshipNotice from './CensorshipNotice'
 import SourcesNotice from './SourcesNotice'
 import siteMetadata from '../../data/site-metadata.json'
@@ -420,6 +421,7 @@ function MoneySummary() {
 
 // ----- Main Export -----
 export default function HomepageSummary() {
+  const [showSupport, setShowSupport] = useState(true)
   return (
     <div id="quick-brief" className="bg-gray-950 border-t border-gray-800">
       {/* Section header */}
@@ -441,25 +443,34 @@ export default function HomepageSummary() {
         <SourcesNotice />
       </div>
 
-      {/* Support note */}
-      <div className="max-w-2xl mx-auto px-4 mb-4">
-        <div className="bg-gray-900/60 border border-gray-800 rounded-lg p-4 text-center">
-          <p className="text-xs text-gray-300 leading-relaxed">
-            This site is currently updated 3-4 times a day with the latest news, data, and statistics — each update requires significant AI and research resources. Hourly automated updates and live tracking features are possible but would require paid APIs and additional infrastructure, raising costs significantly.
-          </p>
-          <p className="text-xs text-gray-400 mt-2 leading-relaxed">
-            This site is free, ad-free, and built by one person. If there's enough support, I can upgrade to more frequent updates and live data. Every contribution helps keep this running and makes those upgrades possible.
-          </p>
-          <a
-            href={siteMetadata.donationUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 mt-3 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
-          >
-            <span>☕</span> Buy Me a Coffee — Support This Project
-          </a>
+      {/* Support note — dismissible */}
+      {showSupport && (
+        <div className="max-w-2xl mx-auto px-4 mb-4">
+          <div className="relative bg-gray-900/60 border border-gray-800 rounded-lg p-4 text-center">
+            <button
+              onClick={() => setShowSupport(false)}
+              className="absolute top-2 right-2 p-1 text-gray-500 hover:text-gray-300 transition-colors"
+              aria-label="Dismiss"
+            >
+              <X size={14} />
+            </button>
+            <p className="text-xs text-gray-300 leading-relaxed">
+              This site is currently updated 3-4 times a day with the latest news, data, and statistics — each update requires significant AI and research resources. Hourly automated updates and live tracking features are possible but would require paid APIs and additional infrastructure, raising costs significantly.
+            </p>
+            <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+              This site is free, ad-free, and built by one person. If there's enough support, I can upgrade to more frequent updates and live data. Every contribution helps keep this running and makes those upgrades possible.
+            </p>
+            <a
+              href={siteMetadata.donationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-3 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
+            >
+              <span>☕</span> Buy Me a Coffee — Support This Project
+            </a>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Grid of summary cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-8 max-w-[1400px] mx-auto">
