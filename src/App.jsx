@@ -36,8 +36,8 @@ export default function App() {
 
   return (
     <div className="h-screen w-screen flex flex-col overflow-hidden bg-gray-950 text-gray-100">
-      {/* <BreakingBanner /> */}
-      <BreakingAlert />
+      <BreakingBanner />
+      {/* <BreakingAlert /> */}
       <NavBar />
       <div ref={mainRef} className="flex-1 min-h-0 overflow-auto flex flex-col">
         <Routes>
