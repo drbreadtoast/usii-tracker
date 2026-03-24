@@ -12457,5 +12457,139 @@
       "israel",
       "day25"
     ]
+  },
+  {
+    "id": "evt-new-354",
+    "title": "IDF strikes Isfahan explosives production facility — 120+ bombs across dozens of Iranian targets",
+    "description": "The Israeli Air Force struck Iran's main explosives production facility in the Isfahan area as part of a broad overnight strike wave targeting Iran's 'production industries.' Over 120 bombs were dropped across dozens of targets including ballistic missile launch sites, weapons production facilities, and air defense systems. The Isfahan explosives factory had been partially restored since a previous strike in June 2025. The IDF said it was systematically dismantling Iran's capacity to produce munitions for its ongoing missile campaigns.",
+    "type": "strike",
+    "lat": 32.6,
+    "lng": 51.7,
+    "location": "Isfahan area, Iran",
+    "timestamp": "2026-03-24T01:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Israeli Air Force bombed key Iranian explosives facility in Isfahan",
+        "url": "https://www.timesofisrael.com/liveblog_entry/israeli-air-force-bombed-key-iranian-explosives-facility-in-isfahan-says-idf/"
+      },
+      {
+        "name": "Iran International — Israel strikes missile facility in Isfahan",
+        "url": "https://www.iranintl.com/en/202603046530"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": ["israel", "idf", "iran", "isfahan", "strike", "explosives", "production", "day25"]
+  },
+  {
+    "id": "evt-new-355",
+    "title": "Iranian cluster warhead missile hits Petah Tikva and Bnei Brak — 6 wounded by shrapnel",
+    "description": "Iran fired a ballistic missile with a cluster warhead at central Israel. The cluster munition dispersed bomblets over the densely populated Petah Tikva and Bnei Brak areas east of Tel Aviv. At least 6 people were wounded by shrapnel. The attack followed a separate missile with a conventional warhead that struck Tel Aviv earlier in the day. Iran's use of cluster munitions against populated civilian areas drew international condemnation.",
+    "type": "strike",
+    "lat": 32.09,
+    "lng": 34.88,
+    "location": "Petah Tikva / Bnei Brak, Israel",
+    "timestamp": "2026-03-24T18:01:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post — At least six injured after shrapnel hits Tel Aviv area",
+        "url": "https://www.jpost.com/israel-news/article-890999"
+      },
+      {
+        "name": "Al Jazeera — What are Iran's cluster munitions penetrating Israeli defenses?",
+        "url": "https://www.aljazeera.com/features/2026/3/24/what-are-irans-cluster-munitions-that-are-penetrating-israeli-defences"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"injured": 6},
+    "tags": ["iran", "missile", "cluster_warhead", "petah_tikva", "bnei_brak", "israel", "civilians", "day25"]
+  },
+  {
+    "id": "evt-new-356",
+    "title": "Hezbollah rocket kills woman at Mahanayim Junction — 2 others wounded in northern Israel",
+    "description": "Hezbollah fired rockets from Lebanon at northern Israel. A woman in her 30s was killed by a direct rocket impact at the Mahanayim Junction in northern Israel. A man in his 20s suffered serious shrapnel wounds to the head; a second person sustained light injuries. A school building in the area was damaged (empty at the time). The IDF responded with airstrikes on Hezbollah positions in southern Lebanon. Separately, Hezbollah fired approximately 30 rockets at the Haifa Bay area, most of which were intercepted.",
+    "type": "strike",
+    "lat": 32.97,
+    "lng": 35.57,
+    "location": "Mahanayim Junction, northern Israel",
+    "timestamp": "2026-03-24T19:08:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Woman declared dead after Hezbollah rocket attack",
+        "url": "https://www.timesofisrael.com/liveblog_entry/woman-declared-dead-after-hezbollah-rocket-attack-say-first-responders/"
+      },
+      {
+        "name": "Jerusalem Post — One killed, two wounded by Hezbollah rocket fire in northern Israel",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-891047"
+      },
+      {
+        "name": "Ynet News — Woman killed as Hezbollah fires nonstop rockets on northern Israel",
+        "url": "https://www.ynetnews.com/article/b1izt4eszl"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "injured": 2},
+    "tags": ["hezbollah", "rocket", "northern_israel", "mahanayim", "civilian_killed", "day25"]
+  },
+  {
+    "id": "evt-new-357",
+    "title": "US airstrike kills PMF commander Saad Dawai + 14 fighters at Habbaniyah — deadliest Iraq strike of the war",
+    "description": "US airstrikes hit the Popular Mobilisation Forces (PMF) operations headquarters at Habbaniyah base in Anbar province during a command meeting attended by senior commanders. PMF confirmed the death of Anbar operations commander Saad Dawai al-Baiji and at least 14 named fighters, with 30 more wounded. The US also reportedly struck the residence of senior PMF leader Falih al-Fayadh in Mosul (he was not present). This is the deadliest single US strike on Iraqi militia forces since the conflict began on February 28.",
+    "type": "strike",
+    "lat": 33.37,
+    "lng": 43.60,
+    "location": "Habbaniyah base, Anbar province, Iraq",
+    "timestamp": "2026-03-24T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The National — Air strike kills 15 PMF fighters in Iraq in deadliest attack since start of Iran war",
+        "url": "https://www.thenationalnews.com/news/mena/2026/03/24/iraqs-pmf-raises-death-toll-from-airstrike-to-15-in-deadliest-attack-since-iran-war/"
+      },
+      {
+        "name": "Kurdistan 24 — PMF Anbar Operations Commander and 14 Fighters Killed in US Strike",
+        "url": "https://www.kurdistan24.net/en/story/902765/pmf-anbar-operations-commander-and-14-fighters-killed-in-us-strike"
+      },
+      {
+        "name": "The Defense Post — Iraq Armed Group Says Commander Fighters Killed in Strike",
+        "url": "https://thedefensepost.com/2026/03/24/iraq-commander-fighters-killed-strike/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 15, "injured": 30},
+    "tags": ["us", "iraq", "pmf", "anbar", "habbaniyah", "strike", "commander_killed", "day25"]
+  },
+  {
+    "id": "evt-new-358",
+    "title": "Houthis fire 6 missiles at tanker MV Huang Pu — 1 direct hit, fire extinguished",
+    "description": "Houthi forces (Ansar Allah) fired six anti-ship ballistic missiles at the Chinese-owned, Panama-flagged oil tanker MV Huang Pu en route to New Mangalore Port, India. One missile scored a direct hit on the vessel, causing a fire aboard the ship. The crew contained and extinguished the fire within 30 minutes. The tanker was carrying Russian crude oil. The Houthis cited solidarity with Iran as justification for the attack despite the tanker carrying Russian cargo.",
+    "type": "naval",
+    "lat": 14.5,
+    "lng": 56.0,
+    "location": "Gulf of Aden / Arabian Sea",
+    "timestamp": "2026-03-24T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "FDD Long War Journal — Houthis express solidarity with Iran but do not launch retaliatory attacks yet",
+        "url": "https://www.longwarjournal.org/archives/2026/03/houthis-express-solidarity-with-iran-but-do-not-launch-retaliatory-attacks-yet.php"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": ["houthis", "naval", "tanker", "red_sea", "shipping", "oil", "day25"]
   }
 ]
