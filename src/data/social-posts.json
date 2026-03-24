@@ -1,117 +1,5 @@
 [
   {
-    "id": "social-249",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "text": "Intel Crab: IRGC expanded its attack envelope today — Prince Sultan Airbase in Saudi Arabia and US 5th Fleet HQ in Bahrain both struck with ballistic missiles and drones. Saudi Arabia confirms 2 missiles fired toward Riyadh, 1 intercepted. This marks escalation into GCC territory beyond the Hormuz strategic perimeter. Iran simultaneously denying any talks with US while expanding its target set.",
-    "timestamp": "2026-03-23T19:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IRGC confirmed the strikes. Saudi confirmation of 2 ballistic missiles toward Riyadh via Al Jazeera.",
-    "keywords": [
-      "irgc",
-      "saudi_arabia",
-      "bahrain",
-      "us_5th_fleet",
-      "strike",
-      "gcc",
-      "day24"
-    ]
-  },
-  {
-    "id": "social-250",
-    "handle": "@WarMonitor",
-    "displayName": "War Monitor",
-    "text": "War Monitor: IDF has issued evacuation warnings for four southern Beirut suburbs (Bourj el-Barajneh, Hadath, Haret Hreik, Chiyah) following confirmed killing of an IRGC Quds Force member in Beirut. These are the same neighborhoods housing Hezbollah's political bureau and administrative infrastructure. If struck, this would represent the most significant IDF Beirut operation since the start of the current conflict.",
-    "timestamp": "2026-03-23T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF evacuation warnings confirmed by JPost and Times of Israel. IRGC member killing confirmed by IDF.",
-    "keywords": [
-      "idf",
-      "beirut",
-      "hezbollah",
-      "irgc",
-      "evacuation",
-      "lebanon",
-      "day24"
-    ]
-  },
-  {
-    "id": "social-251",
-    "handle": "@tasnimnewsEN",
-    "displayName": "Tasnim News (Iranian)",
-    "text": "Iranian military source via Tasnim: Iran has 'new surprises planned for coming days' that 'could produce very big results.' Source claims Trump 'knows his offensive and defensive military ammunition is in a very bad condition.' Iran simultaneously fired 6 separate missile barrages at Israel on Day 24 — highest single-day launch tempo recorded in the conflict.",
-    "timestamp": "2026-03-23T21:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "Tasnim News article confirmed. Iranian military source claims unverified. Six barrages confirmed by Times of Israel liveblog.",
-    "keywords": [
-      "iran",
-      "military",
-      "missiles",
-      "israel",
-      "escalation",
-      "warning",
-      "day24"
-    ]
-  },
-  {
-    "id": "social-252",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "OSINTdefender: Pentagon has made detailed preparations for US special forces to be deployed into Iran to secure its stockpile of highly enriched uranium — plans submitted pending presidential decision. A separate contingency plan for US ground forces in Iran more broadly has also been presented to senior military commanders. Both remain on hold pending outcome of Trump's 5-day pause.",
-    "timestamp": "2026-03-23T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "OSINTdefender reporting confirmed by NBC News and CBS News liveblog. Ground force plan details from Pentagon sources to multiple outlets.",
-    "keywords": [
-      "pentagon",
-      "special-forces",
-      "iran",
-      "nuclear",
-      "ground-troops",
-      "day24"
-    ]
-  },
-  {
-    "id": "social-253",
-    "handle": "@ACLED_Research",
-    "displayName": "ACLED Iran Crisis",
-    "text": "ACLED: Iran fired 6 separate ballistic missile barrages at Israel on Day 24 — highest single-day launch tempo in the conflict. Day 24 simultaneously saw Trump's 5-day pause announcement, IRGC strikes on Saudi/Bahrain, and Kataib Hezbollah claiming 27 attacks on US bases. Iran is signaling military strength while leaving diplomatic doors open. The 5-day clock runs to March 28.",
-    "timestamp": "2026-03-23T22:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Six barrages confirmed by Times of Israel and Alma Research Center daily report. 5-day pause confirmed by all major outlets.",
-    "keywords": [
-      "iran",
-      "missiles",
-      "israel",
-      "barrages",
-      "record",
-      "day24"
-    ]
-  },
-  {
-    "id": "social-254",
-    "handle": "@ISW_Research",
-    "displayName": "ISW Research",
-    "text": "ISW analysis: Iran's categorical denial of Trump's negotiation claims follows a consistent pattern — Tehran historically refuses to acknowledge back-channel contacts even when confirmed by third parties. Key open question: who is the 'most respected Iranian leader' Trump spoke with? US officials confirm it is NOT Araghchi; preference is for parliament speaker Qalibaf, who has more pragmatic credibility. Pakistan as meeting venue within days is viable.",
-    "timestamp": "2026-03-23T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "ISW CTP pattern assessment. Qalibaf preference confirmed by NPR. Pakistan venue reporting by Bloomberg and Axios.",
-    "keywords": [
-      "iran",
-      "negotiations",
-      "qalibaf",
-      "pakistan",
-      "backchannel",
-      "trump",
-      "day24"
-    ]
-  },
-  {
     "id": "social-255",
     "handle": "@WarMonitor",
     "displayName": "War Monitor",
@@ -386,6 +274,101 @@
       "deal",
       "backchannel",
       "day25"
+    ]
+  },
+  {
+    "id": "social-270",
+    "handle": "@ELINTNews",
+    "displayName": "ELINT News",
+    "text": "ELINT News: MAJOR — IDF strikes confirmed the IRGC’s main central security headquarters in Tehran. This is separate from earlier strikes on Tehran IRGC regional HQ. Combined with the 82nd Airborne deployment and Iran’s missile waves at Eilat and Jerusalem, Day 25 PM is the most kinetically active period of the afternoon watch so far.",
+    "timestamp": "2026-03-24T19:35:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF IRGC HQ strike confirmed by JNS and Alma Research Center.",
+    "keywords": [
+      "idf",
+      "irgc",
+      "tehran",
+      "hq",
+      "strike",
+      "82nd_airborne",
+      "day25"
+    ]
+  },
+  {
+    "id": "social-271",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "OSINT Defender: Trump’s “war has been won” claim is creating massive confusion. Iran’s IRGC just called him a “deceitful president.” Parliament Speaker Ghalibaf says the peace talk claims are “fakenews to manipulate oil markets.” Yet Araghchi reportedly told Witkoff and Kushner he had Mojtaba Khamenei’s blessing to close talks. Dual-track diplomacy: deny publicly, negotiate privately.",
+    "timestamp": "2026-03-24T20:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Araghchi-Witkoff back-channel reported by Iran International. Ghalibaf/IRGC public denials confirmed.",
+    "keywords": [
+      "trump",
+      "iran",
+      "negotiations",
+      "araghchi",
+      "witkoff",
+      "backchannel",
+      "day25"
+    ]
+  },
+  {
+    "id": "social-272",
+    "handle": "@CombatAirForce",
+    "displayName": "Combat Air Force Watch",
+    "text": "Combat Air Force Watch: The deployment of 82nd Airborne (2,000-3,000 paratroopers) to the Middle East alongside 2 MEUs (~5,000 Marines) gives CENTCOM an airborne assault capability that didn’t previously exist in theater. This is not a defensive force. The 82nd Airborne is an offensive rapid-deployment division. Combined with the Hormuz reopening operation CENTCOM’s Admiral Cooper is planning, ground options are being actively built.",
+    "timestamp": "2026-03-24T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Deployment facts confirmed. Tactical assessment is analyst commentary.",
+    "keywords": [
+      "82nd_airborne",
+      "marines",
+      "centcom",
+      "deployment",
+      "hormuz",
+      "ground_ops",
+      "day25"
+    ]
+  },
+  {
+    "id": "social-273",
+    "handle": "@BabakTaghvaee",
+    "displayName": "Babak Taghvaee (Aviation Analyst)",
+    "text": "Babak Taghvaee: Bushehr strike confirmed by IAEA — a structure 350 metres from the reactor was destroyed. This is the second attack near Bushehr in one week. The IAEA reports no radiation release and no reactor damage. However, the escalatory signal is unmistakable: strikes are creeping closer to Iran’s only nuclear power plant. Iran’s Atomic Energy Organization has called for emergency IAEA Board action.",
+    "timestamp": "2026-03-24T18:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bushehr proximity confirmed by IAEA and Haaretz Day 25.",
+    "keywords": [
+      "bushehr",
+      "nuclear",
+      "iaea",
+      "iran",
+      "strike",
+      "day25"
+    ]
+  },
+  {
+    "id": "social-274",
+    "handle": "@Conflicts_Watcher",
+    "displayName": "Conflicts Watcher",
+    "text": "Conflicts Watcher: Day 25 PM summary — Iran fired 13+ missile/drone barrages at Israel today including cluster warheads on central Israel. IDF destroyed IRGC central HQ and hit Bushehr proximity. US killed 15 PMF fighters in Iraq’s deadliest US strike. 82nd Airborne deploying. Trump claims peace, Iran denies. Israel fears premature ceasefire. The conflict shows no signs of stopping despite diplomatic noise.",
+    "timestamp": "2026-03-24T22:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Summary sourced from confirmed reporting across TOI, JPost, AJ, CNN, NPR.",
+    "keywords": [
+      "day25",
+      "summary",
+      "idf",
+      "iran",
+      "trump",
+      "negotiations",
+      "ceasefire",
+      "82nd_airborne"
     ]
   }
 ]

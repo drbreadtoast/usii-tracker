@@ -3785,5 +3785,83 @@
     "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/israeli-air-force-bombed-key-iranian-explosives-facility-in-isfahan-says-idf/",
     "weaponType": "Air-dropped bombs (120+)",
     "casualties": {}
+  },
+  {
+    "id": "ms-234",
+    "city": "Tehran",
+    "country": "Iran",
+    "lat": 35.69,
+    "lng": 51.39,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-24",
+    "description": "IDF struck and destroyed the IRGC main central security headquarters in Tehran in a large-scale strike wave. Additional energy facilities and gas pipelines were struck simultaneously across Tehran and surrounding areas.",
+    "source": "JNS / Alma Research Center",
+    "sourceUrl": "https://www.jns.org/news/israel-news/idf-launches-large-scale-strikes-on-iranian-targets-hitting-main-irgc-security-headquarters",
+    "weaponType": "precision_guided_munitions",
+    "casualties": {}
+  },
+  {
+    "id": "ms-235",
+    "city": "Bushehr",
+    "country": "Iran",
+    "lat": 28.83,
+    "lng": 50.89,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-03-24",
+    "description": "US-Israeli airstrike struck a structure approximately 350 metres from the Bushehr Nuclear Power Plant. IAEA confirmed the strike and reported no radiation release and no technical damage to the reactor itself. Iran condemned the attack as targeting the vicinity of its only nuclear power plant.",
+    "source": "Haaretz Day 25 / Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/iran-says-us-and-israel-attacked-vicinity-of-bushehr-nuclear-plant/",
+    "weaponType": "precision_guided_munitions",
+    "casualties": {}
+  },
+  {
+    "id": "ms-236",
+    "city": "Eilat",
+    "country": "Israel",
+    "lat": 29.56,
+    "lng": 34.95,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Iran launched a ballistic missile barrage at the Eilat area — the 13th Iranian attack on Israel within a 24-hour period. All missiles were assessed as intercepted. No injuries or damage reported.",
+    "source": "Times of Israel liveblog March 24",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+    "weaponType": "ballistic_missile",
+    "casualties": {}
+  },
+  {
+    "id": "ms-237",
+    "city": "Jerusalem",
+    "country": "Israel",
+    "lat": 31.78,
+    "lng": 35.22,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Iran launched a ballistic missile barrage at the Jerusalem region. Air raid sirens activated across the city and surrounding areas. No injuries or direct impacts confirmed.",
+    "source": "Times of Israel liveblog March 24",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+    "weaponType": "ballistic_missile",
+    "casualties": {}
+  },
+  {
+    "id": "ms-238",
+    "city": "Habbaniyah",
+    "country": "Iraq",
+    "lat": 33.37,
+    "lng": 43.6,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-03-24",
+    "description": "US airstrike hit the PMF operations headquarters at Habbaniyah base, Anbar province, during a command meeting. PMF Anbar commander Saad Dawai al-Baiji and 14 fighters killed; 30 wounded. Deadliest single US strike on Iraqi militias since the conflict began.",
+    "source": "The National / Kurdistan 24",
+    "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/03/24/iraqs-pmf-raises-death-toll-from-airstrike-to-15-in-deadliest-attack-since-iran-war/",
+    "weaponType": "precision_guided_munitions",
+    "casualties": {
+      "killed": 15,
+      "injured": 30
+    }
   }
 ]
