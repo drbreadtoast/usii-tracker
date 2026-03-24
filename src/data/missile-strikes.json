@@ -3651,5 +3651,89 @@
       "injured": 1,
       "note": "1 man lightly injured by cluster munition fragment"
     }
+  },
+  {
+    "id": "ms-226",
+    "city": "Central Tel Aviv",
+    "country": "Israel",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Iranian ballistic missile struck a residential area in central Tel Aviv, detonating a 100-kilogram (220 lb) warhead. The impact left a large crater, mangled the facade of an apartment building, and crushed surrounding vehicles. Four people sustained light injuries. NPR journalists confirmed the scene.",
+    "source": "Times of Israel / NPR",
+    "sourceUrl": "https://www.timesofisrael.com/idf-says-it-struck-islamic-guards-hq-in-tehran-man-lightly-wounded-as-iran-keeps-up-strikes/",
+    "weaponType": "Ballistic Missile (100kg warhead)",
+    "casualties": {
+      "injured": 4,
+      "killed": 0
+    }
+  },
+  {
+    "id": "ms-227",
+    "city": "Negev Desert (Bedouin community)",
+    "country": "Israel",
+    "lat": 31.0,
+    "lng": 34.8,
+    "strikeType": "missile_fragment",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Intercepted Iranian ballistic missile fragmented, with debris striking a mobile home in an unrecognized Bedouin community in the Negev. A man in his 40s was in moderate condition; a woman aged 26 and two infants sustained light injuries.",
+    "source": "Times of Israel liveblog March 24, 2026",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+    "weaponType": "Missile Fragment (intercepted)",
+    "casualties": {
+      "injured": 4,
+      "killed": 0
+    }
+  },
+  {
+    "id": "ms-228",
+    "city": "Tehran (IRGC HQ + Intelligence Ministry)",
+    "country": "Iran",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-24",
+    "description": "IDF conducted major overnight strike package on Tehran targeting 6 high-value sites: IRGC security HQ, army training base, Defense Ministry weapons production, IRGC Air Force weapons site, Intelligence Ministry HQ, and Khatam-al Anbiya emergency command.",
+    "source": "Times of Israel / Jerusalem Post",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-hit-arms-production-sites-intel-and-military-hqs-in-overnight-tehran-strikes/",
+    "weaponType": "Precision airstrikes",
+    "casualties": null
+  },
+  {
+    "id": "ms-229",
+    "city": "Beirut (southern suburbs)",
+    "country": "Lebanon",
+    "lat": 33.86,
+    "lng": 35.495,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-03-24",
+    "description": "IDF launched 7 overnight airstrikes on Beirut targeting Hezbollah HQ in the southern suburbs. Lebanon's National News Agency confirmed 7 areas struck. IDF also bombed gas stations across Lebanon claiming they fund Hezbollah.",
+    "source": "Times of Israel liveblog March 24 / France 24",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+    "weaponType": "Precision airstrikes",
+    "casualties": null
+  },
+  {
+    "id": "ms-230",
+    "city": "Haifa Bay (Krayot suburbs)",
+    "country": "Israel",
+    "lat": 32.79,
+    "lng": 35.01,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-03-24",
+    "description": "Hezbollah fired approximately 30 rockets from southern Lebanon targeting the Haifa Bay area. Most were intercepted. Shrapnel fell in Acre and Krayot suburbs at 10:30 a.m. local time following two consecutive Hezbollah launch waves.",
+    "source": "Times of Israel liveblog March 24",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+    "weaponType": "Rockets (~30)",
+    "casualties": {
+      "injured": 0,
+      "killed": 0
+    }
   }
 ]

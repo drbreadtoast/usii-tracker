@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-24T01:10:00Z",
+    "lastUpdated": "2026-03-24T13:47:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 171
   },
   "summary": {
-    "totalSites": 171,
+    "totalSites": 174,
     "confirmed": 14,
     "reported": 6,
     "rumored": 3,
@@ -2874,6 +2874,48 @@
           "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
         }
       ]
+    },
+    {
+      "id": "dmg-176",
+      "name": "IRGC Security Headquarters",
+      "country": "Iran",
+      "city": "Tehran",
+      "lat": 35.695,
+      "lng": 51.42,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-24",
+      "description": "Israeli airstrike destroyed the IRGC main security headquarters in Tehran as part of a 6-target overnight strike package. Also struck in the same package: IRGC Air Force weapons production site, Khatam-al Anbiya military emergency command center, Intelligence Ministry HQ, Defense Ministry weapons production facility, and army training base.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-hit-arms-production-sites-intel-and-military-hqs-in-overnight-tehran-strikes/"
+    },
+    {
+      "id": "dmg-177",
+      "name": "Iranian Intelligence Ministry Headquarters",
+      "country": "Iran",
+      "city": "Tehran",
+      "lat": 35.69,
+      "lng": 51.375,
+      "category": "government",
+      "status": "confirmed",
+      "date": "2026-03-24",
+      "description": "Israeli airstrike struck the Iranian Intelligence Ministry headquarters in Tehran as part of overnight strike package targeting command and control infrastructure. The Intelligence Ministry oversees Iran's domestic and foreign intelligence services including operations against Israel.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-890804"
+    },
+    {
+      "id": "dmg-178",
+      "name": "Hezbollah HQ \u2014 Beirut Southern Suburbs (7 buildings)",
+      "country": "Lebanon",
+      "city": "Beirut",
+      "lat": 33.86,
+      "lng": 35.495,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-24",
+      "description": "Israeli airstrikes hit 7 confirmed locations in Beirut's southern suburbs in one of the largest single-night strikes on the Lebanese capital. Lebanon's National News Agency confirmed 7 areas struck. Separate strikes hit gas stations across Lebanon. IDF says all Litani River bridges used by Hezbollah have been destroyed.",
+      "source": "Times of Israel liveblog / France 24",
+      "sourceUrl": "https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel"
     }
   ]
 }

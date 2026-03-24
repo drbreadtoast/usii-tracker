@@ -1,39 +1,39 @@
 {
-  "lastUpdated": "2026-03-23T22:36:00Z",
+  "lastUpdated": "2026-03-24T13:47:00Z",
   "categories": [
     {
       "id": "us-left",
       "label": "US Left-Leaning Media",
       "color": "#3b82f6",
-      "icon": "📰",
+      "icon": "\ud83d\udcf0",
       "outlets": [
+        {
+          "name": "CNN",
+          "headline": "Mixed signals on Iran talks as war rages on and oil prices climb back over $100",
+          "timestamp": "2026-03-24T05:00:00Z",
+          "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-24-26",
+          "summary": "CNN live updates focus on humanitarian cost and scrutinizing Trump's claims about Iran negotiations, noting Iran publicly denied any talks while the White House said conversations were \"productive.\""
+        },
         {
           "name": "CNN",
           "headline": "Trump delays strikes on Iranian power plants after 'very good' talks with Tehran",
           "timestamp": "2026-03-23T12:00:00Z",
           "url": "https://us.cnn.com/world/live-news/iran-war-us-israel-trump-03-23-26",
-          "summary": "CNN leads with Trump's surprise Truth Social post announcing a 5-day pause on Iran energy strikes citing productive talks — Iran's immediate denial and markets surging on the announcement."
+          "summary": "CNN leads with Trump's surprise Truth Social post announcing a 5-day pause on Iran energy strikes citing productive talks \u2014 Iran's immediate denial and markets surging on the announcement."
         },
         {
           "name": "NPR",
           "headline": "Iran defiant as Trump delays striking power plants for 5 days",
           "timestamp": "2026-03-23T12:00:00Z",
           "url": "https://www.npr.org/2026/03/23/nx-s1-5757172/iran-defiant-trump-hormuz",
-          "summary": "NPR reports on the sharp contradiction between Trump's claim of 'productive talks' and Iran's immediate categorical denial — with Araghchi calling the claim designed to 'mislead oil traders.'"
+          "summary": "NPR reports on the sharp contradiction between Trump's claim of 'productive talks' and Iran's immediate categorical denial \u2014 with Araghchi calling the claim designed to 'mislead oil traders.'"
         },
         {
           "name": "Washington Post",
-          "headline": "Trump says US negotiating end to war with Iran — Tehran says no such talks are happening",
+          "headline": "Trump says US negotiating end to war with Iran \u2014 Tehran says no such talks are happening",
           "timestamp": "2026-03-23T11:30:00Z",
           "url": "https://www.washingtonpost.com/politics/2026/03/23/trump-iran-talks-strikes/",
-          "summary": "WaPo examines the 5-day pause against the backdrop of unprecedented IDF strikes across Iran — Tabriz (6 killed), Khorramabad (1 child killed), Tehran IRGC HQ — and what it means for war trajectory."
-        },
-        {
-          "name": "NBC News",
-          "headline": "Trump postpones strikes on Iran power plants amid talks to end war",
-          "timestamp": "2026-03-23T11:00:00Z",
-          "url": "https://www.nbcnews.com/world/middle-east/live-blog/live-updates-iran-war-trump-hormuz-deadline-energy-crisis-gulf-power-rcna264685",
-          "summary": "NBC live updates cover Trump's Truth Social announcement, markets surging, Iran's denial of negotiations, CENTCOM destroying Qom drone factory, and civilian casualties from multiple Iranian cities."
+          "summary": "WaPo examines the 5-day pause against the backdrop of unprecedented IDF strikes across Iran \u2014 Tabriz (6 killed), Khorramabad (1 child killed), Tehran IRGC HQ \u2014 and what it means for war trajectory."
         }
       ]
     },
@@ -41,14 +41,21 @@
       "id": "us-right",
       "label": "US Right-Leaning Media",
       "color": "#ef4444",
-      "icon": "📺",
+      "icon": "\ud83d\udcfa",
       "outlets": [
+        {
+          "name": "Fox News",
+          "headline": "Trump announces 'productive' Iran talks to end conflict; market rallies on ceasefire hopes",
+          "timestamp": "2026-03-24T04:00:00Z",
+          "url": "https://www.foxnews.com/live-news/iran-israel-us-war-trump-horumuz-deadline-march-23",
+          "summary": "Fox News emphasizes Trump's diplomatic framing and the market's positive response to the 5-day energy-strike pause, describing it as a potential turning point in the conflict."
+        },
         {
           "name": "Fox News",
           "headline": "Trump announces 'productive' Iran talks to end conflict; postpones energy strikes 5 days",
           "timestamp": "2026-03-23T12:00:00Z",
           "url": "https://www.foxnews.com/politics/trump-orders-war-dept-postpone-strikes-iranian-energy-sites-citing-productive-talks-end-war",
-          "summary": "Fox News frames Trump's 5-day pause as diplomatic strength — citing Trump's CNBC claim this represents 'regime change' and markets surging. Notes IDF delivered 'wide-scale wave' of Tehran strikes overnight."
+          "summary": "Fox News frames Trump's 5-day pause as diplomatic strength \u2014 citing Trump's CNBC claim this represents 'regime change' and markets surging. Notes IDF delivered 'wide-scale wave' of Tehran strikes overnight."
         },
         {
           "name": "Washington Examiner",
@@ -63,13 +70,6 @@
           "timestamp": "2026-03-23T11:00:00Z",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-trump-03-23-26/",
           "summary": "CBS News live blog covers Trump's pause announcement alongside IDF overnight strikes on Tehran infrastructure and civilian casualties across Iran including Tabriz and Khorramabad."
-        },
-        {
-          "name": "Bloomberg",
-          "headline": "Trump Delays Iran Strikes for Five Days as Ceasefire Talks Begin",
-          "timestamp": "2026-03-23T11:30:00Z",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway",
-          "summary": "Bloomberg markets desk reports oil pulling back from $109 highs to ~$101/bbl after Trump's pause announcement — amid Iran's denial that any negotiations are occurring."
         }
       ]
     },
@@ -77,11 +77,18 @@
       "id": "international",
       "label": "International Media",
       "color": "#8b5cf6",
-      "icon": "🌍",
+      "icon": "\ud83c\udf0d",
       "outlets": [
         {
           "name": "Al Jazeera",
-          "headline": "'Unprecedented': Israel, US carry out extensive strikes across Iran — Tabriz, Khorramabad, Urmia hit",
+          "headline": "Where do reported US-Iran 'negotiations' leave Israel?",
+          "timestamp": "2026-03-24T08:00:00Z",
+          "url": "https://www.aljazeera.com/news/2026/3/24/where-do-us-iran-negotiations-leave-israel",
+          "summary": "Al Jazeera examines how US-Iran backchannel talks are proceeding without Israeli involvement, raising questions about whether Israel's war aims can be met under a bilateral deal."
+        },
+        {
+          "name": "Al Jazeera",
+          "headline": "'Unprecedented': Israel, US carry out extensive strikes across Iran \u2014 Tabriz, Khorramabad, Urmia hit",
           "timestamp": "2026-03-23T10:00:00Z",
           "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran",
           "summary": "Al Jazeera's Tehran correspondent reports explosions 'unprecedented in scale' on eastern Tehran, with simultaneous strikes killing civilians in Tabriz (6), Khorramabad (1 child), Urmia. Iran denies Trump's 'productive talks' claim."
@@ -95,17 +102,10 @@
         },
         {
           "name": "Reuters",
-          "headline": "US planning weeks-long operation to seize and reopen Hormuz — including possible Kharg Island operation",
+          "headline": "US planning weeks-long operation to seize and reopen Hormuz \u2014 including possible Kharg Island operation",
           "timestamp": "2026-03-23T10:00:00Z",
           "url": "https://www.reuters.com/world/middle-east/",
-          "summary": "Reuters reports USS Tripoli (2,000+ Marines) moving toward region as US plans a weeks-long Hormuz seizure operation — including potential Kharg Island capture — even as Trump's 5-day pause offers diplomatic off-ramp."
-        },
-        {
-          "name": "BBC",
-          "headline": "Iran war Day 24: Trump's 5-day pause, Tehran strikes and Tabriz civilian deaths",
-          "timestamp": "2026-03-23T12:00:00Z",
-          "url": "https://www.bbc.com/news/live/cwyd1l3gl08t",
-          "summary": "BBC covers the day's key events: Trump's surprise 5-day pause announcement, Iran's categorical denial, IDF wide-scale Tehran strikes, and civilian deaths across Tabriz, Khorramabad, and Bandar Abbas."
+          "summary": "Reuters reports USS Tripoli (2,000+ Marines) moving toward region as US plans a weeks-long Hormuz seizure operation \u2014 including potential Kharg Island capture \u2014 even as Trump's 5-day pause offers diplomatic off-ramp."
         }
       ]
     },
@@ -113,8 +113,15 @@
       "id": "israeli",
       "label": "Israeli Media",
       "color": "#f59e0b",
-      "icon": "✡️",
+      "icon": "\u2721\ufe0f",
       "outlets": [
+        {
+          "name": "Times of Israel",
+          "headline": "'Persona non grata': Lebanon boots Iran's envoy after proxy Hezbollah drew country into war",
+          "timestamp": "2026-03-24T10:00:00Z",
+          "url": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+          "summary": "Times of Israel leads with Lebanon's expulsion of Iran's ambassador as a landmark development, while also covering continued Iranian missile strikes on Tel Aviv and Netanya."
+        },
         {
           "name": "Times of Israel",
           "headline": "Trump says he's holding productive talks with Iran on ending all hostilities; postpones ultimatum to bomb energy sites",
@@ -127,21 +134,14 @@
           "headline": "Trump: US Holding Talks With Iran Over 'Complete' Resolution of Mideast Hostilities",
           "timestamp": "2026-03-23T12:00:00Z",
           "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-23/ty-article-live/iranian-missile-barrage-causes-damage-in-several-central-israel-locations/0000019d-18f4-d362-a7fd-1df6d3f00000",
-          "summary": "Haaretz Day 24 coverage leads with Trump's claim of productive Iran talks — noting that Iran immediately denied any contact and that IDF delivered 'unprecedented' wave of Tehran strikes in the same morning."
+          "summary": "Haaretz Day 24 coverage leads with Trump's claim of productive Iran talks \u2014 noting that Iran immediately denied any contact and that IDF delivered 'unprecedented' wave of Tehran strikes in the same morning."
         },
         {
           "name": "Jerusalem Post",
           "headline": "US plans weeks-long Hormuz operation; IDF strikes IRGC HQ, Basij, rocket factory across Tehran",
           "timestamp": "2026-03-23T10:00:00Z",
           "url": "https://www.timesofisrael.com/us-said-planning-weeks-long-operation-to-reopen-hormuz-strait-idf-strikes-tehran-overnight/",
-          "summary": "Jerusalem Post reports US planning a weeks-long operation to force open Hormuz — potentially seizing Kharg Island — alongside IDF's overnight wide-scale strike campaign on Tehran's IRGC infrastructure."
-        },
-        {
-          "name": "Ynet News",
-          "headline": "Missile fragment hits Safed; joint Iran-Hezbollah barrage targets northern Israel; 7 soldiers lightly wounded",
-          "timestamp": "2026-03-23T09:00:00Z",
-          "url": "https://www.ynetnews.com/article/q48cx5kyw",
-          "summary": "Ynet covers the joint Iran-Hezbollah coordinated barrage on northern Israel — called a 'simultaneous attack' by Al Jazeera — with missile shrapnel falling in Safed and 7 IDF soldiers wounded."
+          "summary": "Jerusalem Post reports US planning a weeks-long operation to force open Hormuz \u2014 potentially seizing Kharg Island \u2014 alongside IDF's overnight wide-scale strike campaign on Tehran's IRGC infrastructure."
         }
       ]
     },
@@ -149,8 +149,15 @@
       "id": "iranian",
       "label": "Iranian State Media",
       "color": "#10b981",
-      "icon": "🇮🇷",
+      "icon": "\ud83c\uddee\ud83c\uddf7",
       "outlets": [
+        {
+          "name": "IRNA (Iranian State Media)",
+          "headline": "Islamic Republic confirms: No negotiations with United States have occurred; Trump claims are fabricated",
+          "timestamp": "2026-03-24T06:00:00Z",
+          "url": "https://en.irna.ir/",
+          "summary": "Iranian state media flatly denied Trump's claims of productive negotiations, framing his statements as an attempt to manipulate oil prices. The IRGC called Trump a \"deceitful American president.\""
+        },
         {
           "name": "PressTV",
           "headline": "US president backs down following Iran's firm warning; Trump delays energy strikes 5 days",
@@ -160,24 +167,17 @@
         },
         {
           "name": "IRNA",
-          "headline": "Iran denies Trump's 'productive talks' claim — 'no direct or indirect contact' with US",
+          "headline": "Iran denies Trump's 'productive talks' claim \u2014 'no direct or indirect contact' with US",
           "timestamp": "2026-03-23T12:00:00Z",
           "url": "https://en.irna.ir/news/",
           "summary": "IRNA publishes Iran Foreign Ministry's categorical denial of Trump's Truth Social claim of productive negotiations, with FM Araghchi's statement that the claim is designed to 'mislead oil traders.'"
         },
         {
           "name": "Fars News",
-          "headline": "Iran to mine Persian Gulf, strike Gulf power plants if coastline or islands attacked — Defense Council",
+          "headline": "Iran to mine Persian Gulf, strike Gulf power plants if coastline or islands attacked \u2014 Defense Council",
           "timestamp": "2026-03-23T10:00:00Z",
           "url": "https://www.farsnews.ir/en/",
           "summary": "Fars News covers Iran's Defense Council threat to mine the Persian Gulf and destroy power plants supplying US military bases across the Gulf if Iran's coastline or islands are attacked."
-        },
-        {
-          "name": "Tasnim News",
-          "headline": "Iranian resistance strikes unprecedented blow — Khorramabad, Tabriz, Tehran show Iranian people's resilience",
-          "timestamp": "2026-03-23T09:00:00Z",
-          "url": "https://www.tasnimnews.com/en/",
-          "summary": "Tasnim (IRGC-affiliated) covers the civilian casualties from US-Israeli strikes across Iran as evidence of 'genocide' while praising Iranian resistance. Claims the strikes strengthen national unity."
         }
       ]
     }

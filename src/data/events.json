@@ -12132,5 +12132,220 @@
       "attacks",
       "day24"
     ]
+  },
+  {
+    "id": "evt-new-345",
+    "title": "IDF overnight strikes on Tehran: IRGC security HQ, Intelligence Ministry HQ, Khatam-al Anbiya command struck",
+    "description": "The Israeli Air Force conducted a major overnight strike package targeting Tehran, hitting the IRGC main security headquarters, an Iranian army training base with anti-aircraft missile storage, a weapons production and storage site of the Iranian Defense Ministry, a weapons production site of the IRGC Air Force, the Iranian Intelligence Ministry headquarters, and the headquarters of Khatam-al Anbiya \u2014 Iran's military emergency command center. The strikes represented a continued escalation against Tehran's command and control infrastructure on Day 25.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-24T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel \u2014 IDF hits arms production sites, intel and military HQs in Tehran",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-hit-arms-production-sites-intel-and-military-hqs-in-overnight-tehran-strikes/"
+      },
+      {
+        "name": "Jerusalem Post \u2014 IDF strikes several targets in Tehran including intelligence HQ",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-890804"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "israel",
+      "idf",
+      "tehran",
+      "irgc",
+      "intel",
+      "airstrike",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-346",
+    "title": "Iranian ballistic missile strikes residential area in central Tel Aviv \u2014 100kg warhead, 4 lightly injured",
+    "description": "An Iranian ballistic missile struck a residential area in central Tel Aviv, detonating a 100-kilogram (220 lb) warhead. Police confirmed the warhead was not intercepted; the impact left a large crater, mangled the facade of an apartment building, and crushed surrounding vehicles. Firefighters extinguished multiple vehicle fires. Four people sustained light injuries. NPR reporters visited the scene and confirmed the crater in the upscale neighborhood. The strike was part of a renewed campaign of near-hourly barrages launched by Iran after an 11-hour quiet period.",
+    "type": "strike",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Central Tel Aviv, Israel",
+    "timestamp": "2026-03-24T04:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel \u2014 4 people lightly hurt as Iranian missile attack hits Tel Aviv",
+        "url": "https://www.timesofisrael.com/idf-says-it-struck-islamic-guards-hq-in-tehran-man-lightly-wounded-as-iran-keeps-up-strikes/"
+      },
+      {
+        "name": "Jerusalem Post \u2014 Several injured after Iranian missile barrage causes damage in Tel Aviv",
+        "url": "https://www.jpost.com/israel-news/article-890999"
+      },
+      {
+        "name": "NPR \u2014 Iran fires more missiles at Israel",
+        "url": "https://www.npr.org/2026/03/24/nx-s1-5759000/iran-war-talks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "injured": 4
+    },
+    "tags": [
+      "iran",
+      "missile",
+      "tel_aviv",
+      "israel",
+      "residential",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-347",
+    "title": "Hezbollah fires ~30 rockets at Haifa Bay area; IDF launches 7 overnight airstrikes on Beirut",
+    "description": "Hezbollah fired a barrage of approximately 30 rockets from southern Lebanon targeting the Haifa Bay area. Most were intercepted by Israeli air defenses; shrapnel fell in Acre and the Krayot suburbs of Haifa around 10:30 a.m. local time following two Hezbollah launch waves. Separately, Israel launched seven overnight airstrikes on Beirut targeting Hezbollah headquarters in the southern suburbs \u2014 one of the largest salvos on the Lebanese capital in recent days. Lebanon's National News Agency confirmed seven areas were struck. The IDF also bombed gas stations across Lebanon, stating they fund Hezbollah activities. Israeli Defense Minister Katz announced all bridges over the Litani River used by Hezbollah have been destroyed.",
+    "type": "strike",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "location": "Beirut and Haifa Bay",
+    "timestamp": "2026-03-24T07:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog March 24, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-march-24-2026/"
+      },
+      {
+        "name": "France 24 Middle East Live \u2014 March 24",
+        "url": "https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel"
+      },
+      {
+        "name": "Al Jazeera Day 25 liveblog",
+        "url": "https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "hezbollah",
+      "haifa",
+      "beirut",
+      "rockets",
+      "israel",
+      "lebanon",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-348",
+    "title": "Lebanon declares Iran's incoming ambassador persona non grata, orders him to leave by March 29",
+    "description": "Lebanese Foreign Minister Youssef Raggi withdrew accreditation for Iran's incoming ambassador Mohammad Reza Shibani and declared him persona non grata, ordering him to leave Lebanese territory by March 29. Lebanon also recalled its own ambassador to Tehran for consultations and reimposed visa requirements on Iranian travelers. The government cited the IRGC's direct command of Hezbollah military operations on Lebanese soil as a violation of diplomatic norms. Israeli FM Gideon Sa'ar welcomed the move. The war has killed over 1,000 people in Lebanon and displaced nearly one million, representing 20% of the population.",
+    "type": "diplomatic",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-24T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera \u2014 Lebanon declares Iranian ambassador persona non grata",
+        "url": "https://www.aljazeera.com/news/2026/3/24/lebanon-declares-iranian-ambassador-persona-non-grata-amid-israeli-attacks"
+      },
+      {
+        "name": "The National \u2014 Lebanon declares incoming Iranian ambassador persona non grata",
+        "url": "https://www.thenationalnews.com/news/mena/2026/03/24/lebanon-declares-incoming-iranian-ambassador-persona-non-grata/"
+      },
+      {
+        "name": "Times of Israel liveblog March 24",
+        "url": "https://www.timesofisrael.com/liveblog_entry/lebanon-ousts-iranian-envoy-from-the-country-amid-regional-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "lebanon",
+      "iran",
+      "diplomatic",
+      "ambassador",
+      "persona_non_grata",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-349",
+    "title": "Iran appoints hardline IRGC veteran Mohammad-Bagher Zolghadr as new Supreme National Security Council secretary",
+    "description": "Iran appointed Mohammad-Bagher Zolghadr as secretary of the Supreme National Security Council, replacing Ali Larijani who was killed in an Israeli airstrike earlier in the conflict. The appointment was made with the approval of Supreme Leader Mojtaba Khamenei by decree of President Pezeshkian. Zolghadr is a hardline former IRGC brigadier general and former deputy interior minister under Ahmadinejad, previously associated with Basij suppression operations. His appointment is seen as a signal of continued military posture. Analysts noted he is likely himself a target of Israeli assassination operations.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-24T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Bloomberg \u2014 Iran Appoints IRGC Veteran Zolghadr as Security Chief",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-24/iran-names-irgc-veteran-to-replace-slain-security-head-larijani"
+      },
+      {
+        "name": "The National \u2014 Iran appoints new security chief Mohammad Bagher Zolghadr",
+        "url": "https://www.thenationalnews.com/news/mena/2026/03/24/iran-appoints-new-security-chief-mohammad-bagher-zolghadr/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "iran",
+      "irgc",
+      "zolghadr",
+      "security_council",
+      "leadership",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-350",
+    "title": "US strike in Iraq Anbar Province targets senior Iran-backed militia commander Saad Dawai",
+    "description": "The US military launched a strike in Iraq's Anbar province targeting the headquarters of an Iran-backed armed group and senior commander Saad Dawai. The Islamic Resistance in Iraq has now claimed over 290 attacks on US forces in the region since Operation Epic Fury began. The IRI also announced a reward of 150 million Iraqi dinars (approximately ,000) for information on the whereabouts of American forces in Iraq \u2014 a significant escalation in the militia's anti-US campaign.",
+    "type": "strike",
+    "lat": 33.4,
+    "lng": 42.5,
+    "location": "Anbar Province, Iraq",
+    "timestamp": "2026-03-24T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera Day 25 \u2014 whats happening on day 25 of attacks",
+        "url": "https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks"
+      },
+      {
+        "name": "Long War Journal \u2014 Iranian-backed militias continue attacks on US forces in Iraq",
+        "url": "https://www.longwarjournal.org/archives/2026/03/iranian-backed-militias-continue-attacks-on-us-forces-in-iraq.php"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": [
+      "us",
+      "iraq",
+      "anbar",
+      "militia",
+      "strike",
+      "islamic_resistance",
+      "day25"
+    ]
   }
 ]
