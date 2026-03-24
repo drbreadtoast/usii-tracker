@@ -12347,5 +12347,115 @@
       "islamic_resistance",
       "day25"
     ]
+  },
+  {
+    "id": "evt-new-351",
+    "title": "Iran continues Day 25 attacks on Gulf States \u2014 Saudi Arabia intercepts 20 drones, Kuwait activates 7+ times, UAE intercepts ballistic missile (1 Indian national injured)",
+    "description": "Iran continued targeting Gulf States on Day 25. Saudi Arabia intercepted approximately 20 drones targeting its Eastern Province (home to major oil and energy facilities). Kuwait air defenses activated at least seven times in a single night from Iranian missile and drone attacks. Bahrain has now intercepted 153 missiles and 301 drones total since the war began. UAE air defense intercepted a ballistic missile targeting Abu Dhabi; one Indian national sustained minor injuries from falling debris. At least 21 Gulf State civilians have been killed since the war began.",
+    "type": "strike",
+    "lat": 26.2172,
+    "lng": 50.1971,
+    "location": "Gulf States (Saudi Arabia, Kuwait, UAE, Bahrain)",
+    "timestamp": "2026-03-24T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera Day 25 \u2014 US-Israel war on Iran whats happening on Day 25",
+        "url": "https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks"
+      },
+      {
+        "name": "NBC News live updates Iran war March 24",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-peace-talks-israel-gulf-attacks-markets-rcna264854"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "injured": 1
+    },
+    "tags": [
+      "iran",
+      "gulf_states",
+      "saudi_arabia",
+      "kuwait",
+      "uae",
+      "bahrain",
+      "drones",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-352",
+    "title": "IDF captures 2 elite Hezbollah Radwan Force operatives in southern Lebanon; discovers weapons tunnel",
+    "description": "Golani Brigade troops captured two Hezbollah operatives from the elite Radwan Force in southern Lebanon over the weekend (March 22-23). The operatives were spotted preparing to fire anti-tank missiles at Israeli forces and into Israel; they surrendered when confronted. Forces discovered and destroyed a tunnel containing numerous weapons. The Radwan Force is Hezbollah's most capable and best-equipped rapid-reaction unit. A separate raid the prior week by Golani troops killed 8 Hezbollah operatives including one confirmed Radwan Force sniper.",
+    "type": "movement",
+    "lat": 33.3,
+    "lng": 35.4,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-03-22T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel \u2014 IDF troops capture two Radwan Force operatives in southern Lebanon",
+        "url": "https://www.timesofisrael.com/idf-says-troops-capture-two-operatives-from-elite-hezbollah-unit-in-southern-lebanon-over-the-weekend/"
+      },
+      {
+        "name": "Times of Israel liveblog March 24",
+        "url": "https://www.timesofisrael.com/liveblog-march-24-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "captured": 2
+    },
+    "tags": [
+      "israel",
+      "idf",
+      "hezbollah",
+      "radwan",
+      "capture",
+      "lebanon",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-353",
+    "title": "Iranian missile fragment strikes Bedouin community in Negev \u2014 4 injured including 2 infants",
+    "description": "An intercepted Iranian ballistic missile fragmented during interception, with debris striking a mobile home in an unrecognized Bedouin community in the Negev Desert. A man in his 40s was hospitalized in moderate condition; a woman aged 26, and two infants sustained light injuries. Emergency crews responded to the scene. The Bedouin community is in an area not covered by permanent housing, increasing vulnerability to missile fragments. The incident highlights how even intercepted missiles pose dangers to civilian populations.",
+    "type": "strike",
+    "lat": 31.0,
+    "lng": 34.8,
+    "location": "Negev Desert, Israel (Bedouin community)",
+    "timestamp": "2026-03-24T13:40:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog March 24, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-march-24-2026/"
+      },
+      {
+        "name": "Al Jazeera Day 25 liveblog",
+        "url": "https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "injured": 4
+    },
+    "tags": [
+      "iran",
+      "missile_fragment",
+      "negev",
+      "bedouin",
+      "civilian",
+      "infants",
+      "israel",
+      "day25"
+    ]
   }
 ]

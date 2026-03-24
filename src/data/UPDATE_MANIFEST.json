@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-03-24T13:47:00Z",
+  "lastFullUpdate": "2026-03-24T14:30:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,22 +10,22 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-350",
-          "totalEntries": 398,
+          "lastId": "evt-new-353",
+          "totalEntries": 401,
           "lastUpdated": "2026-03-24T13:47:00Z"
         },
         {
           "file": "war-timeline.json",
           "structure": "top-level-array",
-          "lastId": "tl-416",
-          "totalEntries": 416,
+          "lastId": "tl-420",
+          "totalEntries": 420,
           "lastUpdated": "2026-03-24T13:47:00Z"
         },
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-387",
-          "totalEntries": 19,
+          "lastId": "brk-389",
+          "totalEntries": 21,
           "lastUpdated": "2026-03-24T13:47:00Z"
         },
         {
@@ -71,8 +71,8 @@
         {
           "file": "government-statements.json",
           "structure": "top-level-array",
-          "lastId": "gov-221",
-          "totalEntries": 221,
+          "lastId": "gov-223",
+          "totalEntries": 223,
           "lastUpdated": "2026-03-24T13:47:00Z"
         },
         {
