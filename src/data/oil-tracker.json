@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-25T03:27:00Z",
+    "lastUpdated": "2026-03-25T19:01:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,26 +72,26 @@
       }
     },
     "current": {
-      "date": "2026-03-24",
-      "label": "Day 25 PM — Brent rebounds 4%+ to $104.49 as skepticism grows over Trump ceasefire claims. 82nd Airborne deployment and Kharg Island mission news accelerate rally. Philippines declares national energy emergency. Kuwait airport struck again. Lebanon expels Iran ambassador. 12 underwater mines confirmed in Hormuz.",
+      "date": "2026-03-25",
+      "label": "Day 26 AM — Brent drops ~6% to ~$99 on ceasefire plan hopes — first below $100 since Day 22. 15-point US peace plan delivered to Iran via Pakistan. Iran mocks negotiations. IDF destroys submarine R&D center. Rosatom evacuating Bushehr. Saudi intercepts 32+ drones. Oil volatile — $580M in pre-announcement bets under investigation.",
       "brent": {
-        "price": 104.49,
-        "change": "+30.9%",
-        "changeDollars": "+$24.69",
+        "price": 99.0,
+        "change": "+24.1%",
+        "changeDollars": "+$19.20",
         "unit": "$/barrel",
-        "source": "CNBC — Oil prices today — March 24, 2026",
-        "sourceUrl": "https://www.cnbc.com/2026/03/24/oil-prices-today-wti-brent-middle-east-iran-war.html"
+        "source": "Fortune — Oil prices today March 25, 2026",
+        "sourceUrl": "https://fortune.com/article/price-of-oil-03-25-2026/"
       },
       "wti": {
-        "price": 92.35,
-        "change": "+22.3%",
-        "changeDollars": "+$16.85",
+        "price": 88.5,
+        "change": "+17.2%",
+        "changeDollars": "+$13.00",
         "unit": "$/barrel",
-        "source": "CNBC — Oil prices today WTI Brent — March 24, 2026",
-        "sourceUrl": "https://www.cnbc.com/2026/03/24/oil-prices-today-wti-brent-middle-east-iran-war.html"
+        "source": "Fortune — Oil prices today March 25, 2026",
+        "sourceUrl": "https://fortune.com/article/price-of-oil-03-25-2026/"
       },
-      "changePercent": 37.2,
-      "lastUpdated": "2026-03-24"
+      "changePercent": 24.1,
+      "lastUpdated": "2026-03-25"
     },
     "priceHistory": [
       {
@@ -298,6 +298,13 @@
         "brent": 102.47,
         "label": "Day 25 — Brent recovering to $102.47 (+1% day-over-day) after Trump's 5-day energy-strike pause. Lebanon expels Iran ambassador. Araghchi signals deal readiness via backchannel. Hormuz selective vetting system ($2M+ transit fees). WTI near $91.",
         "isEvent": true
+      },
+      {
+        "date": "2026-03-25",
+        "wti": 88.5,
+        "brent": 99.0,
+        "label": "Day 26 — Brent drops ~6% below $100 on 15-point ceasefire plan hopes. First time below $100 since Day 22. IDF destroys submarine R&D center. Rosatom evacuating Bushehr staff. Saudi intercepts 32+ drones. Japan announces 30-day oil reserve release. $580M suspicious pre-announcement oil bets under investigation.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -499,7 +506,7 @@
         },
         "change": "+$0.80",
         "changePercent": "+25.1%",
-        "detail": "Gas at $3.977/gal (AAA March 24, Day 25 PM). Up $0.80/gal from pre-war $3.18. Just $0.023 from $4/gal milestone. California: $5.82/gal. Diesel: $5.29/gal. Philippines declares national energy emergency. US domestic supply at 244M barrels. Demand at 8.72M b/d.",
+        "detail": "Gas at $3.977/gal (AAA March 25, Day 26). Up $0.80/gal from pre-war $3.18. Just $0.023 from $4/gal milestone. California: $5.82/gal. Diesel: over $5/gal nationally (+34% since war). Brent drops ~6% to ~$99 on ceasefire hopes. Japan announces 30-day strategic oil reserve release. Philippines energy emergency continues.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -668,7 +675,7 @@
       "sourceUrl": "https://www.upi.com/Top_News/US/2026/03/24/cost-of-war-iran-defense-budget/7801774358253/"
     }
   ],
-  "lastUpdated": "2026-03-24T17:44:00Z",
+  "lastUpdated": "2026-03-25T19:01:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -730,6 +737,13 @@
       "brent": 104.49,
       "wti": 92.35,
       "label": "Day 25 PM — Brent rebounds 4%+ on ceasefire skepticism + 82nd Airborne Kharg Island deployment news. Philippines declares energy emergency. Kuwait airport struck again. Gas nears $4/gal.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-25",
+      "brent": 99.0,
+      "wti": 88.5,
+      "label": "Day 26 — Brent drops ~6% to ~$99, first below $100 since Day 22, on Trump ceasefire talk hopes. WTI falls to $88.50. IRGC Wave 80 (4 salvos). Iran rejects 15-point plan with 5 counter-conditions including Hormuz sovereignty demand. Philippines declares energy emergency. $580M in pre-announcement oil bets under insider trading probe.",
       "isEvent": true
     }
   ]

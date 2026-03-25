@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T03:27:00Z",
+  "lastUpdated": "2026-03-25T19:01:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,17 +77,17 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 25, 8:27 PM PDT)",
+      "period": "February 28, 2026 - Ongoing (Day 26, 12:01 PM PDT)",
       "parties": [
         {
           "name": "Iran",
           "flag": "🇮🇷",
           "confirmed": {
             "military": 0,
-            "civilian": 1500,
-            "total": 1500,
-            "source": "Iran Health Ministry official figure (Day 25). Military casualty figures concealed by Iranian government. Health Ministry reported 1,500+ killed including 210+ children, 234 women. 300+ health/emergency facilities damaged. Last detailed update March 8 (~1,200 killed); cumulative updated to 1,500 by March 23. Day 25 figures unavailable due to internet blackout.",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
+            "civilian": 1750,
+            "total": 1750,
+            "source": "IRNA (Iranian state news) — Day 26. 1,750+ killed, 22,800 injured, 3 million displaced, 500,000 homeless per IRNA. Military casualty figures systematically concealed by Iranian government. 210+ children killed. 300+ health/emergency facilities damaged. Internet at ~4% — independent verification near-impossible.",
+            "sourceUrl": "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-march-25-2026/",
             "confirmedMilitaryNote": "Iran does not publish military casualty figures. The 0 reflects concealment, not absence of military deaths."
           },
           "estimated": {
@@ -101,19 +101,19 @@
             "maxTotal": 3500
           },
           "rumored": {
-            "total": 9000,
+            "total": 9500,
             "military": 6000,
-            "civilian": 3000,
-            "note": "Hengaw 6th report (March 20): 5,900 killed — 5,305 military, 595 civilians (127 minors, 168 women) across 184 cities in 26 provinces. IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000+ wounded. With ongoing strikes through Day 24, upper range approaching 9,000. Internet blackout prevents independent verification.",
-            "minTotal": 5900,
-            "maxTotal": 9000,
+            "civilian": 3500,
+            "note": "Hengaw 7th report (March 25): 6,530 killed — 5,890 military, 640 civilians across 190+ cities in 27 provinces. IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000+ wounded. With ongoing strikes through Day 26, upper range approaching 9,500. Internet blackout prevents independent verification.",
+            "minTotal": 6530,
+            "maxTotal": 9500,
             "socialSources": [
               {
                 "platform": "Hengaw",
                 "handle": "hengaw.net",
-                "claim": "6th report (March 20): 5,900 killed — 5,305 military, 595 civilians (127 minors, 168 women). 184 cities across 26 provinces targeted. Iranian security institutions systematically conceal casualty figures.",
-                "url": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-11",
-                "date": "2026-03-20"
+                "claim": "7th report (March 25): 6,530 killed — 5,890 military, 640 civilians. 190+ cities across 27 provinces targeted. Iranian security institutions systematically conceal casualty figures.",
+                "url": "https://hengaw.net/en/reports-and-statistics-1/2026/03/article-12-1",
+                "date": "2026-03-25"
               },
               {
                 "platform": "Hengaw",
@@ -159,8 +159,8 @@
               }
             ]
           },
-          "injured": 18551,
-          "injuredNote": "18,551+ injured per Al Jazeera live tracker citing Iranian Red Crescent / Health Ministry (Day 25). 210+ children killed, 1,500+ under 18 injured. 300+ health/emergency facilities damaged. 82,000+ civilian structures damaged or destroyed per Iranian Red Crescent Society (March 24). Iran internet at ~4% — independent verification near-impossible.",
+          "injured": 22800,
+          "injuredNote": "22,800 injured per IRNA state news (Day 26). 210+ children killed, 1,500+ under 18 injured. 300+ health/emergency facilities damaged. 82,000+ civilian structures damaged or destroyed per Iranian Red Crescent Society. Iran internet at ~4% — independent verification near-impossible.",
           "missing": 61,
           "missingNote": "61 sailors still missing from IRIS Dena — 87 bodies recovered and 32 rescued from ~180 crew after US submarine USS Charlotte torpedoed the frigate off Sri Lanka coast (March 4).",
           "displaced": 3200000,
@@ -226,8 +226,8 @@
               }
             ]
           },
-          "injured": 4588,
-          "injuredNote": "4,588+ hospitalized per Israel Health Ministry via Alma Center (March 24 evening). Includes 180+ in Dimona/Arad strikes (March 21-22), 12 injured in Bnei Brak cluster munition strike (Day 25, including 6 children), 4 lightly injured from northern Tel Aviv ballistic missile interception failure (Day 25), 4 injured including 2 infants from Negev Bedouin community missile fragment (Day 25), 48 IDF casualties in Lebanon operations (2 killed, 46 injured). MDA treated 1,576+ since war start. ~5,000 Israelis displaced.",
+          "injured": 4589,
+          "injuredNote": "4,589+ hospitalized per Israel Health Ministry via Alma Center (March 25 morning). Includes 180+ in Dimona/Arad strikes (March 21-22), 12 injured in Bnei Brak cluster munition strike (Day 25), 4 injured from Tel Aviv interception failure (Day 25), 1 IDF officer wounded in Hezbollah anti-tank attack (Day 26), 49 IDF casualties in Lebanon operations (2 killed, 47 injured). MDA treated 1,576+ since war start. ~5,000 Israelis displaced.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
         },
@@ -280,28 +280,28 @@
               }
             ]
           },
-          "injured": 200,
-          "injuredNote": "~200 wounded across 7 countries per CENTCOM (March 17). 180+ returned to duty, 10 seriously injured (2 reclassified). Wounds include burns, TBIs, shrapnel. Most injuries from one-way attack drones. Countries: Kuwait, Saudi Arabia, UAE, Jordan, Bahrain, Iraq, Israel."
+          "injured": 290,
+          "injuredNote": "~290 wounded across 7 countries per Pentagon/NBC News (March 25). 255+ returned to duty, 10 seriously injured. Wounds include burns, TBIs, shrapnel. Most injuries from one-way attack drones. Countries: Kuwait, Saudi Arabia, UAE, Jordan, Bahrain, Iraq, Israel."
         },
         {
           "name": "Lebanon",
           "flag": "🇱🇧",
           "confirmed": {
             "military": 0,
-            "civilian": 1072,
-            "total": 1072,
-            "source": "Lebanese Ministry of Public Health — March 24, Day 25. 1,072 killed including 121 children, 82 women, 42 healthcare workers. 2,966 wounded. Health Ministry does not separately break out Hezbollah fighter deaths.",
-            "sourceUrl": "https://english.wafa.ps/Pages/Details/168563"
+            "civilian": 1105,
+            "total": 1105,
+            "source": "Lebanese Ministry of Public Health — Day 26 (March 25). 1,072 confirmed + 33 deaths in last 24 hours = 1,105. 124 children, 84 women, 43 healthcare workers among dead. 3,000+ wounded. Health Ministry does not separately break out Hezbollah fighter deaths.",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/3/25/us-israel-war-on-iran-whats-happening-on-day-26-of-attacks"
           },
           "estimated": {
             "military": 350,
-            "civilian": 1072,
-            "total": 1422,
-            "source": "Lebanese Health Ministry (1,072 confirmed, March 24) + Alma Center Hezbollah fighter estimates (~350 killed)",
+            "civilian": 1105,
+            "total": 1455,
+            "source": "Lebanese Health Ministry (1,105 confirmed, Day 26) + Alma Center Hezbollah fighter estimates (~350 killed)",
             "sourceUrl": "https://israel-alma.org/hezbollah-fighters-killed-in-recent-fighting-march-2026/",
             "note": "1,072 confirmed by Health Ministry (March 24). Alma Center estimates 350+ Hezbollah fighters killed including ~1/3 Radwan special forces and senior commanders (Abu Khalil Barji, Hussein Makled). Hezbollah does not announce its dead — fighter deaths folded into Health Ministry civilian count. IDF destroyed all Litani River crossings, trapping ~150,000 civilians. Israel announced permanent 'security zone' to Litani. 1.5M displaced. Ground invasion ongoing south of Litani. Amnesty International: Israel deploying same playbook as 2024.",
-            "minTotal": 1072,
-            "maxTotal": 1450
+            "minTotal": 1081,
+            "maxTotal": 1460
           },
           "rumored": {
             "total": 1400,
@@ -332,8 +332,8 @@
               }
             ]
           },
-          "injured": 2966,
-          "injuredNote": "2,966 wounded per Lebanese Health Ministry (March 24). 121 children, 82 women, 42 healthcare workers among dead. Over 1.5 million displaced. IDF ground operation ongoing south of Litani River. Israel announced permanent 'security zone' to Litani River.",
+          "injured": 3000,
+          "injuredNote": "3,000+ wounded per Lebanese Health Ministry (Day 26). 124 children, 84 women, 43 healthcare workers among dead. Over 1.5 million displaced. IDF ground operation ongoing south of Litani River. Israel formally announced occupation of south Lebanon to Litani River on Day 26. 5th and final Litani bridge destroyed by IDF on Day 26.",
           "displaced": 1500000,
           "displacedNote": "1.5M displaced per Lebanese authorities as of March 24 — approximately 1 in 4 Lebanese. UN warned nearly a quarter of the population is uprooted."
         },

@@ -1972,7 +1972,88 @@
         }
       ]
     }
+    ,
+    {
+      "id": "fc-078",
+      "claim": "Trump: 'Iran agreed it will never have a nuclear weapon'",
+      "summary": "Unverified — Trump claimed on March 25 that Iran agreed to give up nuclear ambitions as part of ceasefire talks. Iran publicly denied any direct negotiations. Military spokesman Lt. Col. Zolfaghari mocked: 'Have your internal conflicts reached the point where you are negotiating with yourselves?' Parliamentary speaker Qalibaf dismissed reports as 'fake news.' No confirmation from any Iranian source of nuclear concessions.",
+      "origin": "White House remarks, March 25, 2026",
+      "viralPlatforms": ["X", "cable news", "Truth Social"],
+      "verdict": "unverified",
+      "category": "political",
+      "dateAdded": "2026-03-25T14:12:00Z",
+      "lastChecked": "2026-03-25T14:12:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "CNBC — Trump Iran war negotiations",
+          "url": "https://www.cnbc.com/2026/03/24/trump-iran-war-negotiations.html"
+        },
+        {
+          "name": "CBS News — Iran mocks US peace overtures",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-israel-tehran-mocks-us-warns-against-ground-invasion/"
+        }
+      ]
+    },
+    {
+      "id": "fc-079",
+      "claim": "Rosatom declares Bushehr nuclear plant 'worst-case scenario'",
+      "summary": "Confirmed — Rosatom chief Likhachev publicly stated the situation at Bushehr was unfolding under a 'worst-case scenario' after a second projectile struck the grounds. Third evacuation phase began. ~480 Russian personnel remain. IAEA called for 'maximum restraint.' Confirmed by Al Arabiya, CGTN, and DevDiscourse.",
+      "origin": "Rosatom official statement, March 25, 2026",
+      "viralPlatforms": ["Al Arabiya", "CGTN", "X"],
+      "verdict": "confirmed",
+      "category": "military",
+      "dateAdded": "2026-03-25T14:12:00Z",
+      "lastChecked": "2026-03-25T14:12:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "Al Arabiya — Rosatom worst-case scenario",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/03/25/rosatom-says-situation-at-iran-s-bushehr-nuclear-plant-unfolding-under-worstcase-scenario"
+        },
+        {
+          "name": "DevDiscourse — Rosatom evacuates personnel",
+          "url": "https://www.devdiscourse.com/article/headlines/3849993-crisis-at-bushehr-rosatom-evacuates-personnel-amid-escalating-tensions"
+        }
+      ]
+    },
+    {
+      "id": "fc-080",
+      "claim": "$580M in oil bets placed 15 minutes before Trump ceasefire announcement — insider trading",
+      "summary": "Likely — Financial Times reported $580 million in bets on falling oil prices were placed approximately 15 minutes before Trump's public ceasefire announcement. Pattern suggests advance knowledge. SEC and CFTC oversight expected.",
+      "origin": "Financial Times reporting, March 24-25, 2026",
+      "viralPlatforms": ["X", "Financial Times", "CNBC"],
+      "verdict": "likely",
+      "category": "economic",
+      "dateAdded": "2026-03-25T14:12:00Z",
+      "lastChecked": "2026-03-25T14:12:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "CNBC — Stock market and oil prices",
+          "url": "https://www.cnbc.com/2026/03/23/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "id": "fc-081",
+      "claim": "Iran may target Gulf desalination plants 'within days' — 100M people at risk",
+      "summary": "Likely — UN official Kaveh Madani warned Iran could strike Gulf desalination plants within days, potentially affecting water supply for 100+ million people. While the threat is credible given Iran's targeting of Gulf infrastructure, no specific intelligence confirming imminent attack has been publicly disclosed.",
+      "origin": "UN official statement, March 25, 2026",
+      "viralPlatforms": ["Fox News", "Al Jazeera", "X"],
+      "verdict": "likely",
+      "category": "humanitarian",
+      "dateAdded": "2026-03-25T14:12:00Z",
+      "lastChecked": "2026-03-25T14:12:00Z",
+      "trending": true,
+      "sources": [
+        {
+          "name": "Fox News — Iran threatens mass water war",
+          "url": "https://www.foxnews.com/world/iran-threatens-mass-water-war-un-official-says-desalination-plants-hit-days"
+        }
+      ]
+    }
   ],
-  "lastUpdated": "2026-03-25T03:27:00Z",
-  "totalClaims": 77
+  "lastUpdated": "2026-03-25T14:12:00Z",
+  "totalClaims": 81
 }

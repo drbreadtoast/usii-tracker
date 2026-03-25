@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-25T03:27:00Z",
+    "lastUpdated": "2026-03-25T19:01:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 171
+    "totalSites": 193
   },
   "summary": {
-    "totalSites": 182,
+    "totalSites": 193,
     "confirmed": 13,
     "reported": 6,
     "rumored": 3,
@@ -41,7 +41,7 @@
       "energy": 5,
       "diplomatic": 1
     },
-    "lastUpdated": "2026-03-23T22:36:00Z"
+    "lastUpdated": "2026-03-25T19:01:00Z"
   },
   "damageLocations": [
     {
@@ -3029,6 +3029,104 @@
       "attributedTo": "israel",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-891021"
+    },
+    {
+      "id": "dmg-187",
+      "name": "Isfahan Underwater Research Center — Iran's sole submarine R&D facility destroyed",
+      "country": "Iran",
+      "category": "military",
+      "lat": 32.65,
+      "lng": 51.68,
+      "verificationStatus": "confirmed",
+      "description": "IDF destroyed Iran's Underwater Research Center — the only site responsible for submarine planning and development for the Iranian navy. Two naval cruise missile production sites in central Tehran also struck with extensive damage.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "israel",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-march-25-2026/"
+    },
+    {
+      "id": "dmg-188",
+      "name": "Bushehr Nuclear Power Plant — 2nd projectile strike, Rosatom evacuating",
+      "country": "Iran",
+      "category": "infrastructure",
+      "lat": 28.83,
+      "lng": 50.89,
+      "verificationStatus": "confirmed",
+      "description": "Projectile struck grounds of Bushehr Nuclear Power Plant at 9:08 PM local March 24 — second strike in two weeks. Iran reported no damage. Rosatom chief declared 'worst-case scenario', began 3rd evacuation phase. ~480 Russian staff remain.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "unknown",
+      "source": "Al Arabiya",
+      "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/03/25/rosatom-says-situation-at-iran-s-bushehr-nuclear-plant-unfolding-under-worstcase-scenario"
+    },
+    {
+      "id": "dmg-189",
+      "name": "Southern Tehran residential area — 12 killed, 28 wounded",
+      "country": "Iran",
+      "category": "residential",
+      "lat": 35.65,
+      "lng": 51.42,
+      "verificationStatus": "likely",
+      "description": "Strike on residential area in southern Tehran killed 12 and wounded 28. School and residential buildings in eastern Tehran also destroyed.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "multiple",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/25/us-israel-war-on-iran-whats-happening-on-day-26-of-attacks"
+    },
+    {
+      "id": "dmg-190",
+      "name": "Adloun + Mieh Mieh refugee camp — Israeli strikes kill 9 in southern Lebanon",
+      "country": "Lebanon",
+      "category": "residential",
+      "lat": 33.40,
+      "lng": 35.27,
+      "verificationStatus": "confirmed",
+      "description": "Israeli strikes killed 9 in southern Lebanon: 4 in Adloun, 2 in Mieh Mieh Palestinian refugee camp (4 wounded), 3 elsewhere. Part of Israel's newly declared 'security zone' occupation to Litani River.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "israel",
+      "source": "France 24",
+      "sourceUrl": "https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead"
+    },
+    {
+      "id": "dmg-191",
+      "name": "Qaaqaait al-Jisr Bridge — 5th and final Litani River crossing destroyed",
+      "country": "Lebanon",
+      "category": "infrastructure",
+      "lat": 33.53,
+      "lng": 35.44,
+      "verificationStatus": "confirmed",
+      "description": "IDF airstrike destroyed the Qaaqaait al-Jisr Bridge over the Litani River — the 5th and final Litani crossing to be blown up, completing Israel's isolation of south Lebanon. Defense Minister Katz confirmed all five Litani bridges have been destroyed. Approximately 150,000 civilians are trapped south of the Litani with no road connection northward.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "israel",
+      "source": "Israel Hayom",
+      "sourceUrl": "https://www.israelhayom.com/2026/03/25/idf-strikes-tehran-military-industry-lebanon-bridges-hezbollah-rockets"
+    },
+    {
+      "id": "dmg-192",
+      "name": "Tel Aviv metro — IRGC Wave 80 debris and vehicle fire",
+      "country": "Israel",
+      "category": "civilian",
+      "lat": 32.08,
+      "lng": 34.78,
+      "verificationStatus": "confirmed",
+      "description": "IRGC Wave 80 fired four successive missile salvos at Tel Aviv metro area. Debris from one intercepted missile caused a vehicle fire in a central parking lot. 6 Israelis lightly injured at four sites across the metro area. Multiple interceptions over Tel Aviv, Hadera, and Bnei Brak. An Iranian ballistic missile was intercepted over Lebanese airspace for the first time.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "iran",
+      "source": "Al Jazeera liveblog March 25",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/25/iran-war-live-trump-again-says-talks-underway-12-killed-in-south-tehran"
+    },
+    {
+      "id": "dmg-193",
+      "name": "Anbar Province PMF sites — US A-10 strikes, 7 killed",
+      "country": "Iraq",
+      "category": "military",
+      "lat": 33.37,
+      "lng": 43.30,
+      "verificationStatus": "confirmed",
+      "description": "US A-10 Thunderbolt II aircraft struck Popular Mobilization Forces (PMF) targets in Anbar Province, Iraq, killing 7 and wounding 10. Separately, pro-Iranian militia struck US positions including a radar position and a Black Hawk helicopter at Victoria Base near Baghdad, and the US consulate in Erbil. Iraq's National Security Council subsequently authorized PMF self-defense response.",
+      "dateReported": "2026-03-25",
+      "attributedTo": "us",
+      "source": "Alma Research — March 25 daily report",
+      "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-25-2026-1800/"
     }
   ]
 }
