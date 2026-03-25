@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-24T23:06:00Z",
+    "lastUpdated": "2026-03-25T03:27:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,24 +73,24 @@
     },
     "current": {
       "date": "2026-03-24",
-      "label": "Day 25 — Lebanon expels Iran ambassador; Araghchi signals deal readiness to Witkoff/Kushner; Brent recovering to $102.47 after Trump 5-day energy-strike pause. Iran still firing on Hormuz vessels. CENTCOM planning weeks-long operation to force reopening. Selective Iranian vetting system allows some ships through for $2M+ fees.",
+      "label": "Day 25 PM — Brent rebounds 4%+ to $104.49 as skepticism grows over Trump ceasefire claims. 82nd Airborne deployment and Kharg Island mission news accelerate rally. Philippines declares national energy emergency. Kuwait airport struck again. Lebanon expels Iran ambassador. 12 underwater mines confirmed in Hormuz.",
       "brent": {
-        "price": 102.47,
-        "change": "+28.4%",
-        "changeDollars": "+22.67",
+        "price": 104.49,
+        "change": "+30.9%",
+        "changeDollars": "+$24.69",
         "unit": "$/barrel",
-        "source": "Fortune / CNBC — March 24, 2026",
-        "sourceUrl": "https://fortune.com/article/price-of-oil-03-24-2026/"
-      },
-      "wti": {
-        "price": 91.82,
-        "change": "+21.6%",
-        "changeDollars": "+16.31",
-        "unit": "$/barrel",
-        "source": "CNBC — Oil prices today WTI Brent Middle East Iran war — March 24, 2026",
+        "source": "CNBC — Oil prices today — March 24, 2026",
         "sourceUrl": "https://www.cnbc.com/2026/03/24/oil-prices-today-wti-brent-middle-east-iran-war.html"
       },
-      "changePercent": 24.6,
+      "wti": {
+        "price": 92.35,
+        "change": "+22.3%",
+        "changeDollars": "+$16.85",
+        "unit": "$/barrel",
+        "source": "CNBC — Oil prices today WTI Brent — March 24, 2026",
+        "sourceUrl": "https://www.cnbc.com/2026/03/24/oil-prices-today-wti-brent-middle-east-iran-war.html"
+      },
+      "changePercent": 37.2,
       "lastUpdated": "2026-03-24"
     },
     "priceHistory": [
@@ -499,7 +499,7 @@
         },
         "change": "+$0.80",
         "changePercent": "+25.1%",
-        "detail": "Gas at $3.977/gal (AAA March 24, Day 25). Up $0.80/gal from pre-war $3.18. Approaching $4/gal milestone. California: $5.79/gal. Diesel: $5.29/gal. Trump 5-day pause on Iran energy strikes in effect through March 28.",
+        "detail": "Gas at $3.977/gal (AAA March 24, Day 25 PM). Up $0.80/gal from pre-war $3.18. Just $0.023 from $4/gal milestone. California: $5.82/gal. Diesel: $5.29/gal. Philippines declares national energy emergency. US domestic supply at 244M barrels. Demand at 8.72M b/d.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -723,6 +723,13 @@
       "brent": 101.44,
       "wti": 91.4,
       "label": "Day 24 — Trump 5-day pause on energy strikes; Iran denies talks. Brent -10%+ from $112 highs, WTI slides 6.9%. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain; Iran fires 6 missile barrages at Israel.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-24",
+      "brent": 104.49,
+      "wti": 92.35,
+      "label": "Day 25 PM — Brent rebounds 4%+ on ceasefire skepticism + 82nd Airborne Kharg Island deployment news. Philippines declares energy emergency. Kuwait airport struck again. Gas nears $4/gal.",
       "isEvent": true
     }
   ]

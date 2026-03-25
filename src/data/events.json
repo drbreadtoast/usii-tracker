@@ -12823,5 +12823,374 @@
       "iaea",
       "day25"
     ]
+  },
+  {
+    "id": "evt-new-364",
+    "title": "Iranian cluster munitions strike Bnei Brak — 12 injured including 6 children",
+    "description": "Iranian cluster bomb munitions impacted Bnei Brak near Tel Aviv, injuring 12 people including 6 children and 2 elderly women. A 23-year-old man was hospitalized in moderate condition with shrapnel wounds. A 94-year-old woman was rescued from a damaged building. Additional cluster munition impacts in Petah Tikva and Rosh Ha'ayin damaged buildings and vehicles.",
+    "type": "strike",
+    "lat": 32.09,
+    "lng": 34.83,
+    "location": "Bnei Brak, Petah Tikva, and Rosh Ha'ayin, Israel",
+    "timestamp": "2026-03-24T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — 3 lightly injured after Iranian cluster munition impacts in Bnei Brak",
+        "url": "https://www.timesofisrael.com/liveblog_entry/3-lightly-injured-after-iranian-cluster-munition-impacts-in-bnei-brak/"
+      },
+      {
+        "name": "Jerusalem Post — Several wounded in central Israel",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-891047"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "injured": 12
+    },
+    "tags": [
+      "iran",
+      "cluster_munitions",
+      "bnei_brak",
+      "petah_tikva",
+      "israel",
+      "civilian",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-365",
+    "title": "Iranian ballistic missile strikes northern Tel Aviv — interception failure, buildings destroyed",
+    "description": "An Iranian ballistic missile with a conventional warhead of several hundred kilograms struck northern Tel Aviv after Israeli air defenses failed to intercept despite multiple attempts. The missile left a large crater, gutted multiple apartment blocks, and injured at least 4 people. The IAF is investigating the interception failure.",
+    "type": "strike",
+    "lat": 32.10,
+    "lng": 34.79,
+    "location": "Northern Tel Aviv, Israel",
+    "timestamp": "2026-03-24T09:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — 4 people hurt, buildings mangled in Tel Aviv missile strike",
+        "url": "https://www.timesofisrael.com/idf-says-it-struck-islamic-guards-hq-in-tehran-man-lightly-wounded-as-iran-keeps-up-strikes/"
+      },
+      {
+        "name": "Al Jazeera — Building collapses after Iranian missile strike on Israel",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/24/building-collapses-after-iranian-missile-strike-on-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "injured": 4
+    },
+    "tags": [
+      "iran",
+      "ballistic_missile",
+      "tel_aviv",
+      "interception_failure",
+      "israel",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-366",
+    "title": "Lebanon declares Iranian ambassador persona non grata — orders departure by March 29",
+    "description": "Lebanese Foreign Minister Youssef Raggi declared Iranian ambassador-designate Mohammad Reza Shibani persona non grata, ordering him to leave Lebanon by March 29. Lebanon also recalled its own ambassador from Tehran for consultations. Hezbollah condemned the decision as 'reckless and reprehensible.' Hours later, Iran fired a missile that was intercepted over Lebanese territory.",
+    "type": "diplomatic",
+    "lat": 33.89,
+    "lng": 35.50,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-03-24T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Lebanon declares Iranian ambassador persona non grata",
+        "url": "https://www.aljazeera.com/news/2026/3/24/lebanon-declares-iranian-ambassador-persona-non-grata-amid-israeli-attacks"
+      },
+      {
+        "name": "Washington Post — Lebanon orders Iran's ambassador out",
+        "url": "https://www.washingtonpost.com/world/2026/03/24/lebanon-iran-war-israel-hezbollah-ambassador/4c111930-27b7-11f1-a0f2-3ba4c9fe08ac_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "lebanon",
+      "iran",
+      "diplomatic",
+      "persona_non_grata",
+      "hezbollah",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-367",
+    "title": "IDF strikes Hezbollah fuel stations, intelligence HQ, and Litani River crossings in Lebanon",
+    "description": "IDF struck Hezbollah-linked Al-Amana fuel stations, a Hezbollah Intelligence Directorate HQ in Beirut, a Radwan Force command center, and crossings along the Litani River used for weapons transfers. Defense Minister Katz claimed all Litani crossings used by Hezbollah have been destroyed. IDF also destroyed a Hezbollah terror tunnel near Mount Dov. At least 3 IRGC Quds Force members were killed in targeted assassinations in Beirut overnight.",
+    "type": "strike",
+    "lat": 33.89,
+    "lng": 35.50,
+    "location": "Beirut and southern Lebanon",
+    "timestamp": "2026-03-24T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — IDF strikes Hezbollah fuel stations",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-891021"
+      },
+      {
+        "name": "Al Jazeera — Israel kills three in Beirut as it intensifies attacks",
+        "url": "https://www.aljazeera.com/news/2026/3/24/israel-kills-two-in-beirut-as-it-intensifies-attacks-across-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 3
+    },
+    "tags": [
+      "israel",
+      "hezbollah",
+      "lebanon",
+      "litani",
+      "fuel",
+      "quds_force",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-368",
+    "title": "Israel announces 'security zone' in southern Lebanon — Rafah-model demolitions to Litani River",
+    "description": "Defense Minister Israel Katz announced Israel will install a permanent 'security zone' in southern Lebanon stretching to the Litani River (~30km north of the border). IDF instructed to demolish homes and villages near the border using a 'Rafah model' approach to completely depopulate the southern region. Over 1 million Lebanese civilians displaced from the south. Total Lebanese casualties since March 2: 1,072 killed, 2,966 injured.",
+    "type": "movement",
+    "lat": 33.35,
+    "lng": 35.48,
+    "location": "Southern Lebanon to Litani River",
+    "timestamp": "2026-03-24T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — US-Israel war on Iran: What's happening on Day 25",
+        "url": "https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks"
+      },
+      {
+        "name": "CNN — Live updates: Iran war Day 25",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-24-26"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "israel",
+      "lebanon",
+      "security_zone",
+      "litani",
+      "displacement",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-369",
+    "title": "Iranian drones strike Kuwait International Airport fuel depot — 4th attack since war began",
+    "description": "Iranian drones struck a fuel depot at Kuwait International Airport, triggering a fire. Emergency teams deployed. No casualties reported; material damage only. This is at least the 4th time the airport has been targeted since the war began on Feb 28.",
+    "type": "strike",
+    "lat": 29.23,
+    "lng": 47.97,
+    "location": "Kuwait International Airport, Kuwait",
+    "timestamp": "2026-03-25T01:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gulf News — Iranian drone strikes hit fuel depot at Kuwait airport",
+        "url": "https://gulfnews.com/world/gulf/kuwait/iranian-drone-strikes-hit-fuel-depot-at-kuwait-airport-1.500485349"
+      },
+      {
+        "name": "Times of Israel — Iranian drones damage Kuwait's international airport",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iranian-drones-damage-kuwaits-international-airport-no-casualties/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "iran",
+      "drone",
+      "kuwait",
+      "airport",
+      "infrastructure",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-370",
+    "title": "Saudi Arabia intercepts 5 Iranian drones over Eastern Province oil region",
+    "description": "Saudi Ministry of Defense intercepted and destroyed 5 drones targeting the Eastern Province oil-producing region. This follows the interception of 1 ballistic missile over Riyadh and 15 drones over the Eastern Province on March 23, and 19 drones on March 24 in earlier waves.",
+    "type": "strike",
+    "lat": 26.43,
+    "lng": 50.10,
+    "location": "Eastern Province, Saudi Arabia",
+    "timestamp": "2026-03-24T21:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Liveuamap — Saudi MOD intercepted 5 drones Eastern Province",
+        "url": "https://iran.liveuamap.com/en/2026/24-march-02-saudi-ministry-of-defense-intercepted-and-destroyed"
+      },
+      {
+        "name": "PBS — Strikes hit Iran while Tehran targets Gulf states",
+        "url": "https://www.pbs.org/newshour/world/strikes-hit-iran-while-tehran-targets-israel-and-gulf-states-amid-mixed-signals-over-talks-to-end-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "iran",
+      "saudi_arabia",
+      "drone",
+      "eastern_province",
+      "oil",
+      "interception",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-371",
+    "title": "Philippines declares national energy emergency — first country to do so over Iran war",
+    "description": "President Marcos declared a state of national energy emergency, the first country to do so due to the Iran war. The Philippines imports 98% of its oil from the Gulf. Fuel prices have risen approximately 200% since Feb 28. Energy Secretary warned only 45 days of fuel supplies remain. A four-day work week was implemented for civil servants to reduce fuel consumption.",
+    "type": "infrastructure",
+    "lat": 14.60,
+    "lng": 120.98,
+    "location": "Manila, Philippines",
+    "timestamp": "2026-03-24T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Rappler — Marcos declares national energy emergency",
+        "url": "https://www.rappler.com/philippines/marcos-declares-national-energy-emergency-march-2026/"
+      },
+      {
+        "name": "Fortune — Philippine president declares state of emergency over energy supply",
+        "url": "https://fortune.com/2026/03/24/philippine-president-declares-state-emergency-energy-supply/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "philippines",
+      "energy",
+      "emergency",
+      "oil",
+      "hormuz",
+      "global_impact",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-372",
+    "title": "AWS Bahrain region disrupted again by Iranian drone activity — second outage since war began",
+    "description": "Amazon confirmed its AWS Bahrain cloud region was disrupted again due to Iranian drone activity on March 24. This is the second time the company's Gulf cloud operations have been affected since the initial March 1 strikes damaged facilities in UAE and Bahrain.",
+    "type": "cyber",
+    "lat": 26.07,
+    "lng": 50.55,
+    "location": "Bahrain",
+    "timestamp": "2026-03-24T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Amazon says AWS Bahrain region disrupted following drone activity",
+        "url": "https://www.aljazeera.com/news/2026/3/24/amazon-says-aws-bahrain-region-disrupted-following-drone-activity"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "iran",
+      "bahrain",
+      "aws",
+      "infrastructure",
+      "cyber",
+      "drone",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-373",
+    "title": "German President Steinmeier condemns Iran war as 'breach of international law' — calls trust in US lost",
+    "description": "German President Frank-Walter Steinmeier called the Iran war a 'breach of international law' and a 'politically disastrous mistake,' saying 'the rift is too deep and the trust in American power politics has been lost.' He urged Germany to become more independent of the United States.",
+    "type": "diplomatic",
+    "lat": 52.52,
+    "lng": 13.40,
+    "location": "Berlin, Germany",
+    "timestamp": "2026-03-24T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "France 24 — US-Israeli war on Iran is 'breach of international law': German president",
+        "url": "https://www.france24.com/en/live-news/20260324-us-israeli-war-on-iran-is-breach-of-international-law-german-president"
+      },
+      {
+        "name": "Haaretz — German president says Iran war is disastrous violation of international law",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-24/ty-article/german-president-says-iran-war-is-disastrous-violation-of-international-law/0000019d-1fe3-d7c1-a59f-dffb85350000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "germany",
+      "diplomatic",
+      "international_law",
+      "criticism",
+      "day25"
+    ]
+  },
+  {
+    "id": "evt-new-374",
+    "title": "Iran names ex-IRGC commander Zolghadr as new SNSC secretary — replaces Larijani killed March 17",
+    "description": "Iran named former IRGC commander Mohammad Bagher Zolghadr as the new secretary of the Supreme National Security Council, replacing Ali Larijani who was killed in a US-Israeli strike on March 17. The appointment signals Iran's hardline posture despite back-channel negotiations.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-24T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN — Day 25: What we know about the US-Israel-Iran war",
+        "url": "https://www.cnn.com/2026/03/23/middleeast/us-israel-iran-middle-east-war-day-25-what-we-know-intl-hnk"
+      },
+      {
+        "name": "NPR — Trump declares victory in Iran",
+        "url": "https://www.npr.org/2026/03/24/nx-s1-5759000/iran-war-talks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "iran",
+      "irgc",
+      "zolghadr",
+      "snsc",
+      "leadership",
+      "day25"
+    ]
   }
 ]

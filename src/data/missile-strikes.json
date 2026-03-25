@@ -3863,5 +3863,54 @@
       "killed": 15,
       "injured": 30
     }
+  },
+  {
+    "id": "ms-239",
+    "city": "Bnei Brak",
+    "country": "Israel",
+    "lat": 32.09,
+    "lng": 34.83,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Iranian cluster bomb munitions struck Bnei Brak near Tel Aviv, scattering bomblets across residential areas. 12 injured including 6 children and 2 elderly women. A 23-year-old man hospitalized with shrapnel to head/abdomen. Additional impacts in Petah Tikva and Rosh Ha'ayin.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/3-lightly-injured-after-iranian-cluster-munition-impacts-in-bnei-brak/",
+    "weaponType": "cluster_munition",
+    "casualties": {
+      "injured": 12
+    }
+  },
+  {
+    "id": "ms-240",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "lat": 32.10,
+    "lng": 34.79,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Iranian ballistic missile with several-hundred-kg conventional warhead struck northern Tel Aviv after Israeli air defenses failed to intercept. Large crater, multiple apartment blocks gutted, 4 lightly injured. IAF investigating interception failure.",
+    "source": "Times of Israel / Al Jazeera",
+    "sourceUrl": "https://www.timesofisrael.com/idf-says-it-struck-islamic-guards-hq-in-tehran-man-lightly-wounded-as-iran-keeps-up-strikes/",
+    "weaponType": "ballistic_missile",
+    "casualties": {
+      "injured": 4
+    }
+  },
+  {
+    "id": "ms-241",
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "lat": 29.23,
+    "lng": 47.97,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-24",
+    "description": "Iranian drones struck a fuel depot at Kuwait International Airport, triggering a fire. No casualties; material damage only. 4th attack on the airport since war began Feb 28.",
+    "source": "Gulf News",
+    "sourceUrl": "https://gulfnews.com/world/gulf/kuwait/iranian-drone-strikes-hit-fuel-depot-at-kuwait-airport-1.500485349",
+    "weaponType": "shahed_drone",
+    "casualties": {}
   }
 ]

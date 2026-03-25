@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-24T19:10:00Z",
+    "lastUpdated": "2026-03-25T03:27:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 171
   },
   "summary": {
-    "totalSites": 178,
+    "totalSites": 182,
     "confirmed": 13,
     "reported": 6,
     "rumored": 3,
@@ -2973,6 +2973,62 @@
       "attributedTo": "us",
       "source": "The National",
       "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/03/24/iraqs-pmf-raises-death-toll-from-airstrike-to-15-in-deadliest-attack-since-iran-war/"
+    },
+    {
+      "id": "dmg-183",
+      "name": "Residential buildings — Bnei Brak / Petah Tikva cluster munition strike",
+      "country": "Israel",
+      "category": "civilian",
+      "lat": 32.09,
+      "lng": 34.83,
+      "verificationStatus": "confirmed",
+      "description": "Iranian cluster bomb munitions struck residential areas in Bnei Brak, Petah Tikva, and Rosh Ha'ayin. 12 injured including 6 children. Buildings and vehicles damaged by scattered bomblets.",
+      "dateReported": "2026-03-24",
+      "attributedTo": "iran",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/3-lightly-injured-after-iranian-cluster-munition-impacts-in-bnei-brak/"
+    },
+    {
+      "id": "dmg-184",
+      "name": "Apartment blocks — Northern Tel Aviv ballistic missile impact",
+      "country": "Israel",
+      "category": "civilian",
+      "lat": 32.10,
+      "lng": 34.79,
+      "verificationStatus": "confirmed",
+      "description": "Iranian ballistic missile struck northern Tel Aviv after interception failure. Large crater, multiple apartment blocks gutted. 4 injured. IAF investigating the defense failure.",
+      "dateReported": "2026-03-24",
+      "attributedTo": "iran",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/3/24/building-collapses-after-iranian-missile-strike-on-israel"
+    },
+    {
+      "id": "dmg-185",
+      "name": "Kuwait International Airport — Fuel depot drone strike (4th attack)",
+      "country": "Kuwait",
+      "category": "infrastructure",
+      "lat": 29.23,
+      "lng": 47.97,
+      "verificationStatus": "confirmed",
+      "description": "Iranian drones struck a fuel depot at Kuwait International Airport, triggering a fire. No casualties; material damage only. Fourth attack on the airport since Feb 28.",
+      "dateReported": "2026-03-24",
+      "attributedTo": "iran",
+      "source": "Gulf News",
+      "sourceUrl": "https://gulfnews.com/world/gulf/kuwait/iranian-drone-strikes-hit-fuel-depot-at-kuwait-airport-1.500485349"
+    },
+    {
+      "id": "dmg-186",
+      "name": "Hezbollah Al-Amana fuel stations + Litani River crossings — IDF strikes",
+      "country": "Lebanon",
+      "category": "military",
+      "lat": 33.35,
+      "lng": 35.48,
+      "verificationStatus": "confirmed",
+      "description": "IDF struck Hezbollah-linked Al-Amana fuel stations, Intelligence Directorate HQ in Beirut, Radwan Force command center, and all crossings along the Litani River used for weapons transfers. Terror tunnel near Mount Dov destroyed.",
+      "dateReported": "2026-03-24",
+      "attributedTo": "israel",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-891021"
     }
   ]
 }
