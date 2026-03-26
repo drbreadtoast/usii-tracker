@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-26T12:07:00Z",
+    "lastUpdated": "2026-03-26T18:56:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -41,7 +41,7 @@
       "energy": 5,
       "diplomatic": 1
     },
-    "lastUpdated": "2026-03-26T12:07:00Z"
+    "lastUpdated": "2026-03-26T18:56:00Z"
   },
   "damageLocations": [
     {
@@ -3220,6 +3220,58 @@
       "description": "Cluster munition debris from IRGC Wave 81 ('True Promise 4') struck Bnei Brak residential area, injuring 12 people. Part of the 81st IRGC wave that targeted 70+ Israeli sites with Emad, Qiam, Khorramshahr-4, and Qadr ballistic missiles.",
       "source": "Times of Israel — Day 27 liveblog",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-march-26-2026/"
+    },
+    {
+      "id": "dmg-200",
+      "name": "Bandar Abbas — IRGC Naval HQ & 9th Air Force Airbase (Wave of Strikes)",
+      "country": "Iran",
+      "lat": 27.18,
+      "lng": 56.27,
+      "date": "2026-03-26",
+      "type": "military",
+      "verificationStatus": "confirmed",
+      "description": "Israeli strikes destroyed the IRGC naval headquarters in Bandar Abbas, killing IRGC Navy Commander Tangsiri and two senior aides. CTP-ISW geolocated OSINT confirmed at least 4 strikes on the 9th Artesh Air Force Tactical Airbase ammunition bunkers, causing large secondary explosions. A nearby residential area was also struck, killing two teenage brothers.",
+      "source": "Euronews — IRGC Navy Chief Tangsiri killed in 'precise and lethal operation,' Israel says",
+      "sourceUrl": "https://www.euronews.com/2026/03/26/irgc-navy-chief-alireza-tangsiri-killed-in-precise-and-lethal-operation-israel-says"
+    },
+    {
+      "id": "dmg-201",
+      "name": "Mashhad — 14th Artesh Air Force Tactical Airbase",
+      "country": "Iran",
+      "lat": 36.3,
+      "lng": 59.6,
+      "date": "2026-03-26",
+      "type": "military",
+      "verificationStatus": "confirmed",
+      "description": "IDF struck the 14th Artesh Air Force Tactical Airbase in Mashhad — the most northeastern target struck since the war began. First major strike on Iran's second-largest city. CTP-ISW OSINT geolocated via satellite imagery.",
+      "source": "Alma Research Center — Daily Report Day 27",
+      "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-26-2026-1800/"
+    },
+    {
+      "id": "dmg-202",
+      "name": "Tabriz International Airport — F-5 and F-4 jets destroyed",
+      "country": "Iran",
+      "lat": 38.08,
+      "lng": 46.3,
+      "date": "2026-03-26",
+      "type": "military",
+      "verificationStatus": "confirmed",
+      "description": "IDF struck Tabriz International Airport, destroying an F-5 and an F-4 fighter jet on the runway and damaging adjacent rail infrastructure. First Israeli strike on Tabriz, Iran's fourth-largest city. Located 100km from Turkish/Azerbaijani borders.",
+      "source": "Al Jazeera — What's happening on Day 27 of US-Israel attacks on Iran",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/26/us-israel-war-on-iran-whats-happening-on-day-27-of-attacks"
+    },
+    {
+      "id": "dmg-203",
+      "name": "Nahariya — Hezbollah Rocket Strike on Parking Lot",
+      "country": "Israel",
+      "lat": 32.99,
+      "lng": 35.1,
+      "date": "2026-03-26",
+      "type": "civilian",
+      "verificationStatus": "confirmed",
+      "description": "Hezbollah rocket struck a residential parking lot in Nahariya, killing one man and seriously wounding another. Three impact sites in the city. 14 physically wounded, 11 treated for acute anxiety. 10-rocket salvo fired from Lebanon.",
+      "source": "Times of Israel — 1 dead, 14 wounded in Hezbollah rocket strike on Nahariya",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/medics-1-dead-and-14-wounded-in-hezbollah-rocket-strike-on-nahariya/"
     }
   ]
 }

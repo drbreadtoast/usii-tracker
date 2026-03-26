@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-26T12:07:00Z",
+    "lastUpdated": "2026-03-26T18:56:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -72,26 +72,26 @@
       }
     },
     "current": {
-      "date": "2026-03-25",
-      "label": "Day 26 AM — Brent drops ~6% to ~$99 on ceasefire plan hopes — first below $100 since Day 22. 15-point US peace plan delivered to Iran via Pakistan. Iran mocks negotiations. IDF destroys submarine R&D center. Rosatom evacuating Bushehr. Saudi intercepts 32+ drones. Oil volatile — $580M in pre-announcement bets under investigation.",
+      "date": "2026-03-26",
+      "label": "Day 27 — Brent spikes to $105.85 (+32.6% from pre-war) after Iran firmly rejects US 15-point peace plan and IRGC Navy Commander Tangsiri killed. Brent had dipped to $93 on ceasefire hopes then rebounded sharply. WTI $93.61. AAA gas $3.981/gal nationally. Trump Cabinet meeting: Iran 'begging' but no deal imminent.",
       "brent": {
-        "price": 97.0,
-        "change": "+21.6%",
-        "changeDollars": "+$17.20",
+        "price": 105.85,
+        "change": "+32.6%",
+        "changeDollars": "+$26.01",
         "unit": "$/barrel",
-        "source": "FX Leaders — WTI battles $92 as Iran rejects 15-point peace plan",
-        "sourceUrl": "https://www.fxleaders.com/news/2026/03/26/crude-oil-price-forecast-wti-battles-92-as-iran-rejects-15-point-peace-plan-whats-next/"
+        "source": "Fortune — Price of oil March 26, 2026",
+        "sourceUrl": "https://fortune.com/article/price-of-oil-03-26-2026/"
       },
       "wti": {
-        "price": 91.64,
-        "change": "+21.4%",
-        "changeDollars": "+$16.13",
+        "price": 93.61,
+        "change": "+24.0%",
+        "changeDollars": "+$18.10",
         "unit": "$/barrel",
         "source": "FX Leaders — WTI battles $92 as Iran rejects 15-point peace plan",
         "sourceUrl": "https://www.fxleaders.com/news/2026/03/26/crude-oil-price-forecast-wti-battles-92-as-iran-rejects-15-point-peace-plan-whats-next/"
       },
-      "changePercent": "+25.0%",
-      "lastUpdated": "2026-03-25"
+      "changePercent": "+32.6%",
+      "lastUpdated": "2026-03-26"
     },
     "priceHistory": [
       {
@@ -490,7 +490,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-26T12:07:00Z",
+    "lastUpdated": "2026-03-26T18:56:00Z",
     "note": "National weighted averages. Regional prices vary significantly — California, Hawaii, and Northeast typically 15-30% above national average.",
     "fuels": [
       {
@@ -678,7 +678,7 @@
     },
     "Day 26: Brent dropped -$2.72 (-2.65%) to $99.75/bbl on Trump Iran negotiation signals — market testing whether diplomatic track is real; Iran's formal rejection may reverse this."
   ],
-  "lastUpdated": "2026-03-25T19:01:00Z",
+  "lastUpdated": "2026-03-26T18:56:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -747,6 +747,13 @@
       "brent": 99.0,
       "wti": 88.5,
       "label": "Day 26 — Brent drops ~6% to ~$99, first below $100 since Day 22, on Trump ceasefire talk hopes. WTI falls to $88.50. IRGC Wave 80 (4 salvos). Iran rejects 15-point plan with 5 counter-conditions including Hormuz sovereignty demand. Philippines declares energy emergency. $580M in pre-announcement oil bets under insider trading probe.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-26",
+      "brent": 105.85,
+      "wti": 93.61,
+      "label": "Day 27 — Brent spikes to $105.85 (+32.6% pre-war) after Iran definitively rejects US 15-point peace plan. IRGC Navy Commander Tangsiri killed at Bandar Abbas. IRGC Wave 82 fires at Israel. UAE struck — 2 killed in Abu Dhabi by missile debris. Trump Cabinet: Iran 'begging to make a deal'; WSJ reports Trump wants to 'wrap up' conflict. AAA gas $3.981/gal nationally.",
       "isEvent": true
     }
   ]
