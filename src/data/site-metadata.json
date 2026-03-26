@@ -1,22 +1,46 @@
 {
-  "lastUpdated": "2026-03-26T03:40:00Z",
-  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
+  "lastUpdated": "2026-03-26T12:07:00Z",
+  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.0",
-  "conflictDay": 26,
+  "conflictDay": 27,
   "totalSocialPosts": 21,
   "dataFiles": {
-    "events": 448,
-    "warTimeline": 440,
-    "breaking": 25,
-    "socialPosts": 21,
-    "governmentStatements": 245,
-    "escalations": 192,
-    "missileStrikes": 252,
+    "events": {
+      "count": 453,
+      "lastId": "evt-new-405"
+    },
+    "warTimeline": {
+      "count": 442,
+      "lastId": "tl-442"
+    },
+    "breaking": {
+      "count": 11,
+      "lastId": "brk-438"
+    },
+    "socialPosts": {
+      "count": 21,
+      "lastId": "social-307"
+    },
+    "governmentStatements": {
+      "count": 248,
+      "lastId": "gov-248"
+    },
+    "escalations": {
+      "count": 196,
+      "lastId": "esc-194"
+    },
+    "missileStrikes": {
+      "count": 256,
+      "lastId": "ms-255"
+    },
     "damageLocations": 189,
     "factCheckClaims": 77,
     "statementsTimeline": 287,
-    "damageData": 189,
+    "damageData": {
+      "count": 195,
+      "lastId": "dmg-199"
+    },
     "factCheck": 77,
     "statements": 268,
     "globalInvolvement": 18,
@@ -48,5 +72,5 @@
     },
     "damageSites": 192
   },
-  "updateNote": "Day 26 PM refresh \u2014 IRGC Wave 80 fires 4 salvos at Tel Aviv, Iran formally rejects US 15-point plan with 5 counter-conditions, Hezbollah commander Halawi killed, first ballistic missile intercepted over Lebanon, Philippines energy emergency, Saudi/UAE moving toward war entry"
+  "updateNote": "Day 26 PM refresh — IRGC Wave 80 fires 4 salvos at Tel Aviv, Iran formally rejects US 15-point plan with 5 counter-conditions, Hezbollah commander Halawi killed, first ballistic missile intercepted over Lebanon, Philippines energy emergency, Saudi/UAE moving toward war entry"
 }
