@@ -35,18 +35,18 @@
       }
     ],
     "methodology": "Estimates are compiled from open-source intelligence (OSINT), published government reports, Congressional testimony, and assessments from recognized defense research institutions. Quantities represent best-available estimates and may differ from actual classified inventories. Production rates are inferred from procurement budgets, contractor disclosures, and historical delivery schedules. Conflict expenditure figures are derived from satellite imagery analysis, official briefings, and corroborated media reports.",
-    "lastUpdated": "2026-03-25T19:01:00Z",
+    "lastUpdated": "2026-03-26T03:40:00Z",
     "updateFrequency": "daily",
     "disclaimer": "All figures are estimates based on publicly available information and open-source analysis. Actual military inventories are classified. Numbers should be treated as approximations subject to revision. This data is compiled for informational purposes and does not represent official government positions. Conflict usage figures include both confirmed and analytically assessed strikes. Source URLs point to institutional pages that published relevant analyses; specific reports may require navigation within those sites.",
     "conflictDay": 26,
     "daysOfConflict": 26,
-    "totalTargetsStruck": 7000,
+    "totalTargetsStruck": 10000,
     "note": "Day 26: IDF reports 330 of 470 IRGC missile launchers destroyed (70%). IRGC Wave 80 fired, 4 salvos at Tel Aviv metro area + US Gulf bases. First Iranian ballistic missile intercepted over Lebanese airspace. Hegseth: over 7,000 targets struck across Iran. 20% of Navy SM-3 inventory expended. 20-50% THAAD stocks used."
   },
   "countries": {
     "us": {
       "name": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "arsenal": [
         {
           "name": "BGM-109 Tomahawk (Block IV/V)",
@@ -330,7 +330,7 @@
     },
     "israel": {
       "name": "Israel",
-      "flag": "🇮🇱",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
       "arsenal": [
         {
           "name": "Iron Dome (Tamir Interceptor)",
@@ -623,7 +623,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "arsenal": [
         {
           "name": "Shahab-3 / Emad",
@@ -845,7 +845,7 @@
             "Dimona nuclear facility vicinity",
             "Bahrain civilian areas",
             "Turkish airspace (intercepted by NATO)",
-            "Haifa, Israel (Day 13 barrage — intercepted)",
+            "Haifa, Israel (Day 13 barrage \u2014 intercepted)",
             "US bases in Kuwait and Bahrain (Day 13)"
           ],
           "confirmed": true,
@@ -896,7 +896,7 @@
           "targets": [
             "Central Israel (Tel Aviv, Haifa)",
             "US base at Al Dhafra, UAE",
-            "Tel Aviv / Haifa (Day 13 barrage — intercepted)"
+            "Tel Aviv / Haifa (Day 13 barrage \u2014 intercepted)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.csis.org/"
@@ -906,7 +906,7 @@
           "quantityUsed": 5,
           "dateRange": "2026-03-12",
           "targets": [
-            "Tel Aviv / Haifa (Day 13 barrage — all intercepted by Israeli defenses)"
+            "Tel Aviv / Haifa (Day 13 barrage \u2014 all intercepted by Israeli defenses)"
           ],
           "confirmed": false,
           "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
