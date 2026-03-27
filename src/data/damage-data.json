@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-26T18:56:00Z",
+    "lastUpdated": "2026-03-27T02:10:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 195,
+    "totalSites": 202,
     "confirmed": 14,
     "reported": 8,
     "rumored": 3,
@@ -322,7 +322,7 @@
       "date": "2026-03-03",
       "attributedTo": "us",
       "damageLevel": "destroyed",
-      "description": "US JASSM-ER struck building identified as suspected IRGC warehouse — actually a girls' school in session. Deadliest single incident of the war.",
+      "description": "US JASSM-ER struck building identified as suspected IRGC warehouse \u2014 actually a girls' school in session. Deadliest single incident of the war.",
       "weaponUsed": "JASSM-ER",
       "casualties": "85-180 schoolgirls killed (ages 12-17), 200+ wounded",
       "source": "Iranian Red Crescent / Al Jazeera",
@@ -483,7 +483,7 @@
     },
     {
       "id": "dmg-024",
-      "name": "Jerusalem — Multiple Impact Sites",
+      "name": "Jerusalem \u2014 Multiple Impact Sites",
       "city": "Jerusalem",
       "country": "Israel",
       "lat": 31.7683,
@@ -597,7 +597,7 @@
     },
     {
       "id": "dmg-030",
-      "name": "Kiryat Shmona — City-wide Damage",
+      "name": "Kiryat Shmona \u2014 City-wide Damage",
       "city": "Kiryat Shmona",
       "country": "Israel",
       "lat": 33.2075,
@@ -1006,7 +1006,7 @@
       "date": "2026-03-08",
       "attributedTo": "iran",
       "damageLevel": "minor",
-      "description": "17 ballistic missiles and 6 drones launched at Qatar — all intercepted by Qatari and allied air defense systems.",
+      "description": "17 ballistic missiles and 6 drones launched at Qatar \u2014 all intercepted by Qatari and allied air defense systems.",
       "weaponUsed": "Shahab-3 / Shahed-136",
       "casualties": "No casualties",
       "source": "Al Jazeera",
@@ -1129,7 +1129,7 @@
     },
     {
       "id": "dmg-058",
-      "name": "Commercial Vessels — Strait of Hormuz (Day 12)",
+      "name": "Commercial Vessels \u2014 Strait of Hormuz (Day 12)",
       "city": "Strait of Hormuz",
       "country": "International Waters",
       "lat": 26.5667,
@@ -1200,7 +1200,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-12",
-      "description": "Israeli overnight strikes hit Beirut's Corniche — a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
+      "description": "Israeli overnight strikes hit Beirut's Corniche \u2014 a designated evacuation area. 8+ killed, buildings damaged along the seafront promenade.",
       "source": "ABC News",
       "sourceUrl": "https://abcnews.com/International/strikes-israel-hezbollah-ramp-evacuation-notice-issued-beirut/story?id=130981948"
     },
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "dmg-069",
-      "name": "Central Israel — Cluster Missile Impact Zone",
+      "name": "Central Israel \u2014 Cluster Missile Impact Zone",
       "country": "Israel",
       "lat": 32.07,
       "lng": 34.77,
@@ -1304,7 +1304,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation — rally was held in solidarity with Palestinians amid ongoing conflict.",
+      "description": "Explosion at Al-Quds Day rally in Tehran. 1 killed. Cause under investigation \u2014 rally was held in solidarity with Palestinians amid ongoing conflict.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians"
     },
@@ -1317,7 +1317,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Israel destroyed the Zrarieh Bridge over the Litani River — first acknowledged strike on civilian infrastructure in Lebanon.",
+      "description": "Israel destroyed the Zrarieh Bridge over the Litani River \u2014 first acknowledged strike on civilian infrastructure in Lebanon.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/13/israel-destroys-bridge-in-lebanon-and-threatens-gaza-scale-devastation",
       "attributedTo": "israel"
@@ -1331,7 +1331,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-03-13",
-      "description": "Explosion near Al-Quds Day rally in Tehran. 1 woman killed. Part of highest volume strikes day — 15,000+ total targets hit.",
+      "description": "Explosion near Al-Quds Day rally in Tehran. 1 woman killed. Part of highest volume strikes day \u2014 15,000+ total targets hit.",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/world/explosion-rocks-state-organized-rally-in-tehran-after-israeli-warning",
       "attributedTo": "us"
@@ -1401,7 +1401,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-14",
-      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port — key Hormuz alternative.",
+      "description": "Drone attack causes fire, forces suspension of oil loading operations at Fujairah port \u2014 key Hormuz alternative.",
       "source": "Gulf News",
       "sourceUrl": "https://gulfnews.com/uae/us-israel-war-on-iran-day-15-trump-says-bombs-kharg-island-tehran-warns-of-oil-retaliation-1.500474056",
       "attributedTo": "iran"
@@ -1428,7 +1428,7 @@
       "category": "military",
       "status": "confirmed",
       "date": "2026-03-14",
-      "description": "CENTCOM struck 90 military targets — naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Oil infrastructure deliberately spared.",
+      "description": "CENTCOM struck 90 military targets \u2014 naval mine storage, missile bunkers, air defenses, naval base, airport control tower, helicopter hangar. Oil infrastructure deliberately spared.",
       "source": "Washington Post",
       "sourceUrl": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/",
       "attributedTo": "us"
@@ -1457,7 +1457,7 @@
       "category": "military",
       "status": "confirmed",
       "date": "2026-03-15",
-      "description": "Multiple military installations near Shiraz struck — 20 explosions reported overnight",
+      "description": "Multiple military installations near Shiraz struck \u2014 20 explosions reported overnight",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks",
       "attributedTo": "us"
@@ -1772,7 +1772,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-03-16",
-      "description": "Israeli airstrike on Shah gas field at South Pars — world's largest natural gas field. Major fire reported. Shared with Qatar.",
+      "description": "Israeli airstrike on Shah gas field at South Pars \u2014 world's largest natural gas field. Major fire reported. Shared with Qatar.",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/",
       "attributedTo": "israel"
@@ -2139,7 +2139,7 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage",
       "severity": "moderate",
-      "repairEstimate": "Minor — operational within hours"
+      "repairEstimate": "Minor \u2014 operational within hours"
     },
     {
       "id": "dmg-134",
@@ -2175,7 +2175,7 @@
     },
     {
       "id": "dmg-136",
-      "name": "Bandar Anzali Naval Base — 5 Missile Boats Destroyed",
+      "name": "Bandar Anzali Naval Base \u2014 5 Missile Boats Destroyed",
       "country": "Iran",
       "city": "Bandar Anzali",
       "lat": 37.47,
@@ -2187,11 +2187,11 @@
       "source": "Alma Research Center",
       "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-19-2026-1800/",
       "severity": "severe",
-      "repairEstimate": "Not applicable — vessels destroyed"
+      "repairEstimate": "Not applicable \u2014 vessels destroyed"
     },
     {
       "id": "dmg-137",
-      "name": "Ras Laffan LNG Facility — 17% Capacity Offline 3-5 Years",
+      "name": "Ras Laffan LNG Facility \u2014 17% Capacity Offline 3-5 Years",
       "country": "Qatar",
       "city": "Ras Laffan",
       "lat": 25.92,
@@ -2214,7 +2214,7 @@
       "category": "military",
       "status": "confirmed",
       "date": "2026-03-20",
-      "description": "IRGC command center struck — spokesman Gen. Naeini killed. Facility destroyed.",
+      "description": "IRGC command center struck \u2014 spokesman Gen. Naeini killed. Facility destroyed.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/20/iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted"
     },
@@ -2278,7 +2278,7 @@
     },
     {
       "id": "dmg-143",
-      "name": "Tehran Eastern Districts — Nowruz Infrastructure Strikes",
+      "name": "Tehran Eastern Districts \u2014 Nowruz Infrastructure Strikes",
       "country": "Iran",
       "city": "Tehran",
       "lat": 35.72,
@@ -2301,7 +2301,7 @@
     },
     {
       "id": "dmg-144",
-      "name": "Jerusalem Old City — Jewish Quarter (interception fragments)",
+      "name": "Jerusalem Old City \u2014 Jewish Quarter (interception fragments)",
       "category": "Residential/Religious",
       "status": "confirmed",
       "date": "2026-03-20",
@@ -2323,7 +2323,7 @@
     },
     {
       "id": "dmg-145",
-      "name": "Hezbollah Intelligence Headquarters — Beirut (Hussein Makled killed)",
+      "name": "Hezbollah Intelligence Headquarters \u2014 Beirut (Hussein Makled killed)",
       "category": "Military/Command",
       "status": "confirmed",
       "date": "2026-03-20",
@@ -2371,7 +2371,7 @@
     },
     {
       "id": "dmg-148",
-      "name": "Jerusalem Old City — Dung Gate wall/road",
+      "name": "Jerusalem Old City \u2014 Dung Gate wall/road",
       "country": "Israel",
       "lat": 31.775,
       "lng": 35.234,
@@ -2393,7 +2393,7 @@
       "lng": 34.7925,
       "status": "confirmed",
       "date": "2026-03-21",
-      "description": "Iranian cluster munition struck an empty daycare center in Rishon Lezion on Day 22. The building sustained significant structural damage from cluster submunitions. No casualties — the facility was empty at the time of the strike.",
+      "description": "Iranian cluster munition struck an empty daycare center in Rishon Lezion on Day 22. The building sustained significant structural damage from cluster submunitions. No casualties \u2014 the facility was empty at the time of the strike.",
       "source": "Times of Israel liveblog",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-march-21-2026/",
       "attributedTo": "iran",
@@ -2418,7 +2418,7 @@
     },
     {
       "id": "dmg-151",
-      "name": "Jerusalem Old City — Jewish Quarter Road/Wall",
+      "name": "Jerusalem Old City \u2014 Jewish Quarter Road/Wall",
       "type": "civilian",
       "category": "historic_site",
       "country": "Israel",
@@ -2435,7 +2435,7 @@
     },
     {
       "id": "dmg-152",
-      "name": "Natanz Uranium Enrichment Facility — 2nd Strike",
+      "name": "Natanz Uranium Enrichment Facility \u2014 2nd Strike",
       "country": "Iran",
       "lat": 33.7255,
       "lng": 51.7266,
@@ -2448,7 +2448,7 @@
     },
     {
       "id": "dmg-153",
-      "name": "Mina al-Ahmadi Oil Refinery — Repeated Strikes",
+      "name": "Mina al-Ahmadi Oil Refinery \u2014 Repeated Strikes",
       "country": "Kuwait",
       "lat": 29.0622,
       "lng": 48.1456,
@@ -2461,7 +2461,7 @@
     },
     {
       "id": "dmg-154",
-      "name": "Ballistic Missile Storage Complex — Western Iran",
+      "name": "Ballistic Missile Storage Complex \u2014 Western Iran",
       "country": "Iran",
       "lat": 33.9,
       "lng": 46.2,
@@ -2474,7 +2474,7 @@
     },
     {
       "id": "dmg-155",
-      "name": "Arad Residential Buildings — 4 Buildings Damaged",
+      "name": "Arad Residential Buildings \u2014 4 Buildings Damaged",
       "country": "Israel",
       "city": "Arad",
       "lat": 31.26,
@@ -2490,7 +2490,7 @@
     },
     {
       "id": "dmg-156",
-      "name": "Dimona Building — Adjacent to Negev Nuclear Research Center",
+      "name": "Dimona Building \u2014 Adjacent to Negev Nuclear Research Center",
       "country": "Israel",
       "city": "Dimona",
       "lat": 31.07,
@@ -2498,7 +2498,7 @@
       "type": "residential",
       "status": "confirmed",
       "date": "2026-03-21",
-      "description": "Iranian ballistic missile struck and destroyed a one-story building in Dimona. The Negev Nuclear Research Center (Israel's nuclear reactor complex) is located just outside the city — first strike on Israel's nuclear city. IAEA confirmed no damage to nuclear facility. Ghalibaf: 'The skies of Israel are unprotected.'",
+      "description": "Iranian ballistic missile struck and destroyed a one-story building in Dimona. The Negev Nuclear Research Center (Israel's nuclear reactor complex) is located just outside the city \u2014 first strike on Israel's nuclear city. IAEA confirmed no damage to nuclear facility. Ghalibaf: 'The skies of Israel are unprotected.'",
       "attributedTo": "iran",
       "casualties": "47 injured (10-year-old in serious condition)",
       "source": "Euronews / IAEA",
@@ -2514,7 +2514,7 @@
       "category": "residential",
       "verificationStatus": "confirmed",
       "date": "2026-03-21",
-      "description": "Iranian ballistic missile direct hit on Arad residential neighborhood. Three buildings sustained massive damage. Air defense failure — IDF opened formal probe. 74 casualties (7 serious, 15 moderate, 52 light).",
+      "description": "Iranian ballistic missile direct hit on Arad residential neighborhood. Three buildings sustained massive damage. Air defense failure \u2014 IDF opened formal probe. 74 casualties (7 serious, 15 moderate, 52 light).",
       "attributedTo": "iran",
       "casualties": {
         "killed": 0,
@@ -2631,12 +2631,12 @@
       "dateOfDamage": "2026-03-22",
       "description": "US GBU-72 Advanced Penetrator 5,000-pound bunker buster bombs destroyed hardened underground Iranian anti-ship missile facilities overlooking the Strait of Hormuz. CENTCOM reported destruction of anti-ship cruise missile launchers, mobile missile systems, intelligence support sites, and ship-tracking radar relays. Part of CENTCOM's campaign that has now struck 8,000+ Iranian targets total.",
       "attributedTo": "us",
-      "source": "Gulf News — CENTCOM GBU-72",
+      "source": "Gulf News \u2014 CENTCOM GBU-72",
       "sourceUrl": "https://gulfnews.com/world/mena/after-dropping-5000-pound-bombs-on-missile-bunkers-overlooking-hormuz-us-centcom-chief-says-will-not-stop-1.500482077"
     },
     {
       "id": "dmg-164",
-      "name": "Residential Buildings — Tel Aviv Cluster Munition Impact Sites",
+      "name": "Residential Buildings \u2014 Tel Aviv Cluster Munition Impact Sites",
       "country": "Israel",
       "lat": 32.07,
       "lng": 34.77,
@@ -2650,7 +2650,7 @@
     },
     {
       "id": "dmg-165",
-      "name": "IRGC Missile Production Compound — Tehran",
+      "name": "IRGC Missile Production Compound \u2014 Tehran",
       "country": "Iran",
       "lat": 35.72,
       "lng": 51.4,
@@ -2668,7 +2668,7 @@
     },
     {
       "id": "dmg-166",
-      "name": "Qasmiyeh Bridge — Southern Lebanon",
+      "name": "Qasmiyeh Bridge \u2014 Southern Lebanon",
       "country": "Lebanon",
       "lat": 33.52,
       "lng": 35.3,
@@ -2686,7 +2686,7 @@
     },
     {
       "id": "dmg-167",
-      "name": "Zrarieh Bridge — Southern Lebanon",
+      "name": "Zrarieh Bridge \u2014 Southern Lebanon",
       "country": "Lebanon",
       "lat": 33.34,
       "lng": 35.35,
@@ -2709,7 +2709,7 @@
     },
     {
       "id": "dmg-168",
-      "name": "Nahariya Residential Area — Northern Israel",
+      "name": "Nahariya Residential Area \u2014 Northern Israel",
       "country": "Israel",
       "lat": 33.01,
       "lng": 35.1,
@@ -2728,7 +2728,7 @@
     },
     {
       "id": "dmg-169",
-      "name": "IRGC Police HQ / Basij Militia Base — Tehran",
+      "name": "IRGC Police HQ / Basij Militia Base \u2014 Tehran",
       "country": "Iran",
       "lat": 35.6892,
       "lng": 51.389,
@@ -2744,7 +2744,7 @@
           "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
         },
         {
-          "name": "Al Jazeera — Unprecedented US-Israel strikes across Iran",
+          "name": "Al Jazeera \u2014 Unprecedented US-Israel strikes across Iran",
           "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
         }
       ]
@@ -2763,14 +2763,14 @@
       "attributedTo": "us",
       "sources": [
         {
-          "name": "Business Standard — CENTCOM destroys Qom turbine plant",
+          "name": "Business Standard \u2014 CENTCOM destroys Qom turbine plant",
           "url": "https://www.business-standard.com/world-news/us-strikes-destroy-iran-s-qom-turbine-engine-plant-amid-escalating-conflict-126032300082_1.html"
         }
       ]
     },
     {
       "id": "dmg-171",
-      "name": "IRIB Radio Transmitter Station — Bandar Abbas",
+      "name": "IRIB Radio Transmitter Station \u2014 Bandar Abbas",
       "country": "Iran",
       "lat": 27.1865,
       "lng": 56.2808,
@@ -2789,7 +2789,7 @@
     },
     {
       "id": "dmg-172",
-      "name": "Qasmiyeh Coastal Highway Bridge — Litani River",
+      "name": "Qasmiyeh Coastal Highway Bridge \u2014 Litani River",
       "country": "Lebanon",
       "lat": 33.335,
       "lng": 35.2703,
@@ -2797,7 +2797,7 @@
       "category": "bridge",
       "status": "destroyed",
       "date": "2026-03-23",
-      "description": "Israel struck the Qasmiyeh coastal highway bridge over the Litani River — the fifth Litani-area bridge struck since March 2. Defense Minister Katz had ordered all Litani River crossings demolished. Lebanon President Aoun called it a 'dangerous escalation' and 'prelude to a ground invasion north of the Litani.' Approximately 150,000 civilians in southern Lebanon face severely restricted movement.",
+      "description": "Israel struck the Qasmiyeh coastal highway bridge over the Litani River \u2014 the fifth Litani-area bridge struck since March 2. Defense Minister Katz had ordered all Litani River crossings demolished. Lebanon President Aoun called it a 'dangerous escalation' and 'prelude to a ground invasion north of the Litani.' Approximately 150,000 civilians in southern Lebanon face severely restricted movement.",
       "attributedTo": "israel",
       "sources": [
         {
@@ -2805,14 +2805,14 @@
           "url": "https://www.timesofisrael.com/liveblog-march-23-2026/"
         },
         {
-          "name": "US News/AP — Israel orders destruction of bridges in Lebanon",
+          "name": "US News/AP \u2014 Israel orders destruction of bridges in Lebanon",
           "url": "https://www.usnews.com/news/world/articles/2026-03-22/israel-orders-destruction-of-bridges-in-lebanon-and-homes-near-israeli-border"
         }
       ]
     },
     {
       "id": "dmg-173",
-      "name": "Prince Sultan Airbase — IRGC Missile and Drone Strike",
+      "name": "Prince Sultan Airbase \u2014 IRGC Missile and Drone Strike",
       "country": "Saudi Arabia",
       "lat": 24.0623,
       "lng": 47.5804,
@@ -2820,22 +2820,22 @@
       "category": "airbase",
       "status": "damaged",
       "date": "2026-03-23",
-      "description": "IRGC launched ballistic missiles and drones at Prince Sultan Airbase — the primary US Air Force hub in the Arabian Peninsula housing F-35 and F-22 squadrons. Saudi Arabia confirmed two ballistic missiles were fired toward Riyadh; one was intercepted, one fell in uninhabited area south of capital. Extent of damage to the base not confirmed. IRGC simultaneously struck US 5th Fleet headquarters at Naval Support Activity Bahrain.",
+      "description": "IRGC launched ballistic missiles and drones at Prince Sultan Airbase \u2014 the primary US Air Force hub in the Arabian Peninsula housing F-35 and F-22 squadrons. Saudi Arabia confirmed two ballistic missiles were fired toward Riyadh; one was intercepted, one fell in uninhabited area south of capital. Extent of damage to the base not confirmed. IRGC simultaneously struck US 5th Fleet headquarters at Naval Support Activity Bahrain.",
       "attributedTo": "iran",
       "sources": [
         {
-          "name": "Al Jazeera — Iran war Day 24 explainer",
+          "name": "Al Jazeera \u2014 Iran war Day 24 explainer",
           "url": "https://www.aljazeera.com/economy/2026/3/23/iran-war-whats-happening-on-day-24-of-us-israel-attacks"
         },
         {
-          "name": "CBS News — Iran war live updates",
+          "name": "CBS News \u2014 Iran war live updates",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-trump-ultimatum-strait-of-hormuz/"
         }
       ]
     },
     {
       "id": "dmg-174",
-      "name": "Tabriz — Residential Buildings Strike",
+      "name": "Tabriz \u2014 Residential Buildings Strike",
       "country": "Iran",
       "lat": 38.0962,
       "lng": 46.2738,
@@ -2847,18 +2847,18 @@
       "attributedTo": "us",
       "sources": [
         {
-          "name": "Al Jazeera — Unprecedented US-Israel strikes across Iran",
+          "name": "Al Jazeera \u2014 Unprecedented US-Israel strikes across Iran",
           "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
         },
         {
-          "name": "RTÉ News — Iran war March 23",
+          "name": "RT\u00c9 News \u2014 Iran war March 23",
           "url": "https://www.rte.ie/news/world/2026/0323/1564702-iran-war/"
         }
       ]
     },
     {
       "id": "dmg-175",
-      "name": "Khorramabad — Residential Building Collapse",
+      "name": "Khorramabad \u2014 Residential Building Collapse",
       "country": "Iran",
       "lat": 33.4879,
       "lng": 48.3558,
@@ -2866,11 +2866,11 @@
       "category": "residential",
       "status": "destroyed",
       "date": "2026-03-23",
-      "description": "A US-Israeli airstrike hit residential buildings in Khorramabad (Lorestan Province). At least 1 child was killed — the body pulled from rubble by rescue teams. Multiple civilian casualties reported. Red Crescent deployed to the site. Khorramabad was simultaneously included in IDF warning for evacuation, suggesting more strikes may follow.",
+      "description": "A US-Israeli airstrike hit residential buildings in Khorramabad (Lorestan Province). At least 1 child was killed \u2014 the body pulled from rubble by rescue teams. Multiple civilian casualties reported. Red Crescent deployed to the site. Khorramabad was simultaneously included in IDF warning for evacuation, suggesting more strikes may follow.",
       "attributedTo": "us",
       "sources": [
         {
-          "name": "Al Jazeera — Unprecedented US-Israel strikes across Iran",
+          "name": "Al Jazeera \u2014 Unprecedented US-Israel strikes across Iran",
           "url": "https://www.aljazeera.com/news/2026/3/23/unprecedented-israel-us-carry-out-extensive-strikes-across-iran"
         }
       ]
@@ -2905,7 +2905,7 @@
     },
     {
       "id": "dmg-178",
-      "name": "Hezbollah HQ — Beirut Southern Suburbs (7 buildings)",
+      "name": "Hezbollah HQ \u2014 Beirut Southern Suburbs (7 buildings)",
       "country": "Lebanon",
       "city": "Beirut",
       "lat": 33.86,
@@ -2948,7 +2948,7 @@
     },
     {
       "id": "dmg-181",
-      "name": "Bushehr Nuclear Plant — Adjacent Structure",
+      "name": "Bushehr Nuclear Plant \u2014 Adjacent Structure",
       "country": "Iran",
       "category": "infrastructure",
       "lat": 28.83,
@@ -2962,7 +2962,7 @@
     },
     {
       "id": "dmg-182",
-      "name": "PMF Operations HQ — Habbaniyah Base",
+      "name": "PMF Operations HQ \u2014 Habbaniyah Base",
       "country": "Iraq",
       "category": "military",
       "lat": 33.37,
@@ -2976,7 +2976,7 @@
     },
     {
       "id": "dmg-183",
-      "name": "Residential buildings — Bnei Brak / Petah Tikva cluster munition strike",
+      "name": "Residential buildings \u2014 Bnei Brak / Petah Tikva cluster munition strike",
       "country": "Israel",
       "category": "civilian",
       "lat": 32.09,
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "dmg-184",
-      "name": "Apartment blocks — Northern Tel Aviv ballistic missile impact",
+      "name": "Apartment blocks \u2014 Northern Tel Aviv ballistic missile impact",
       "country": "Israel",
       "category": "civilian",
       "lat": 32.1,
@@ -3004,7 +3004,7 @@
     },
     {
       "id": "dmg-185",
-      "name": "Kuwait International Airport — Fuel depot drone strike (4th attack)",
+      "name": "Kuwait International Airport \u2014 Fuel depot drone strike (4th attack)",
       "country": "Kuwait",
       "category": "infrastructure",
       "lat": 29.23,
@@ -3018,7 +3018,7 @@
     },
     {
       "id": "dmg-186",
-      "name": "Hezbollah Al-Amana fuel stations + Litani River crossings — IDF strikes",
+      "name": "Hezbollah Al-Amana fuel stations + Litani River crossings \u2014 IDF strikes",
       "country": "Lebanon",
       "category": "military",
       "lat": 33.35,
@@ -3032,13 +3032,13 @@
     },
     {
       "id": "dmg-187",
-      "name": "Isfahan Underwater Research Center — Iran's sole submarine R&D facility destroyed",
+      "name": "Isfahan Underwater Research Center \u2014 Iran's sole submarine R&D facility destroyed",
       "country": "Iran",
       "category": "military",
       "lat": 32.65,
       "lng": 51.68,
       "verificationStatus": "confirmed",
-      "description": "IDF destroyed Iran's Underwater Research Center — the only site responsible for submarine planning and development for the Iranian navy. Two naval cruise missile production sites in central Tehran also struck with extensive damage.",
+      "description": "IDF destroyed Iran's Underwater Research Center \u2014 the only site responsible for submarine planning and development for the Iranian navy. Two naval cruise missile production sites in central Tehran also struck with extensive damage.",
       "dateReported": "2026-03-25",
       "attributedTo": "israel",
       "source": "Times of Israel",
@@ -3046,13 +3046,13 @@
     },
     {
       "id": "dmg-188",
-      "name": "Bushehr Nuclear Power Plant — 2nd projectile strike, Rosatom evacuating",
+      "name": "Bushehr Nuclear Power Plant \u2014 2nd projectile strike, Rosatom evacuating",
       "country": "Iran",
       "category": "infrastructure",
       "lat": 28.83,
       "lng": 50.89,
       "verificationStatus": "confirmed",
-      "description": "Projectile struck grounds of Bushehr Nuclear Power Plant at 9:08 PM local March 24 — second strike in two weeks. Iran reported no damage. Rosatom chief declared 'worst-case scenario', began 3rd evacuation phase. ~480 Russian staff remain.",
+      "description": "Projectile struck grounds of Bushehr Nuclear Power Plant at 9:08 PM local March 24 \u2014 second strike in two weeks. Iran reported no damage. Rosatom chief declared 'worst-case scenario', began 3rd evacuation phase. ~480 Russian staff remain.",
       "dateReported": "2026-03-25",
       "attributedTo": "unknown",
       "source": "Al Arabiya",
@@ -3060,7 +3060,7 @@
     },
     {
       "id": "dmg-189",
-      "name": "Southern Tehran residential area — 12 killed, 28 wounded",
+      "name": "Southern Tehran residential area \u2014 12 killed, 28 wounded",
       "country": "Iran",
       "category": "residential",
       "lat": 35.65,
@@ -3074,7 +3074,7 @@
     },
     {
       "id": "dmg-190",
-      "name": "Adloun + Mieh Mieh refugee camp — Israeli strikes kill 9 in southern Lebanon",
+      "name": "Adloun + Mieh Mieh refugee camp \u2014 Israeli strikes kill 9 in southern Lebanon",
       "country": "Lebanon",
       "category": "residential",
       "lat": 33.4,
@@ -3088,13 +3088,13 @@
     },
     {
       "id": "dmg-191",
-      "name": "Qaaqaait al-Jisr Bridge — 5th and final Litani River crossing destroyed",
+      "name": "Qaaqaait al-Jisr Bridge \u2014 5th and final Litani River crossing destroyed",
       "country": "Lebanon",
       "category": "infrastructure",
       "lat": 33.53,
       "lng": 35.44,
       "verificationStatus": "confirmed",
-      "description": "IDF airstrike destroyed the Qaaqaait al-Jisr Bridge over the Litani River — the 5th and final Litani crossing to be blown up, completing Israel's isolation of south Lebanon. Defense Minister Katz confirmed all five Litani bridges have been destroyed. Approximately 150,000 civilians are trapped south of the Litani with no road connection northward.",
+      "description": "IDF airstrike destroyed the Qaaqaait al-Jisr Bridge over the Litani River \u2014 the 5th and final Litani crossing to be blown up, completing Israel's isolation of south Lebanon. Defense Minister Katz confirmed all five Litani bridges have been destroyed. Approximately 150,000 civilians are trapped south of the Litani with no road connection northward.",
       "dateReported": "2026-03-25",
       "attributedTo": "israel",
       "source": "Israel Hayom",
@@ -3102,7 +3102,7 @@
     },
     {
       "id": "dmg-192",
-      "name": "Tel Aviv metro — IRGC Wave 80 debris and vehicle fire",
+      "name": "Tel Aviv metro \u2014 IRGC Wave 80 debris and vehicle fire",
       "country": "Israel",
       "category": "civilian",
       "lat": 32.08,
@@ -3116,7 +3116,7 @@
     },
     {
       "id": "dmg-193",
-      "name": "Anbar Province PMF sites — US A-10 strikes, 7 killed",
+      "name": "Anbar Province PMF sites \u2014 US A-10 strikes, 7 killed",
       "country": "Iraq",
       "category": "military",
       "lat": 33.37,
@@ -3125,12 +3125,12 @@
       "description": "US A-10 Thunderbolt II aircraft struck Popular Mobilization Forces (PMF) targets in Anbar Province, Iraq, killing 7 and wounding 10. Separately, pro-Iranian militia struck US positions including a radar position and a Black Hawk helicopter at Victoria Base near Baghdad, and the US consulate in Erbil. Iraq's National Security Council subsequently authorized PMF self-defense response.",
       "dateReported": "2026-03-25",
       "attributedTo": "us",
-      "source": "Alma Research — March 25 daily report",
+      "source": "Alma Research \u2014 March 25 daily report",
       "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-25-2026-1800/"
     },
     {
       "id": "dmg-194",
-      "name": "Kuwait International Airport — Fuel Storage Tank",
+      "name": "Kuwait International Airport \u2014 Fuel Storage Tank",
       "country": "Kuwait",
       "lat": 29.24,
       "lng": 47.98,
@@ -3141,14 +3141,14 @@
       "attributedTo": "iran",
       "sources": [
         {
-          "name": "Al Arabiya — Fire at Kuwait airport after drones hit fuel tank",
+          "name": "Al Arabiya \u2014 Fire at Kuwait airport after drones hit fuel tank",
           "url": "https://english.alarabiya.net/News/gulf/2026/03/25/fire-at-kuwait-airport-after-drones-hit-fuel-tank-aviation-agency"
         }
       ]
     },
     {
       "id": "dmg-195",
-      "name": "Tehran — Naval Cruise Missile Production Sites (2 facilities)",
+      "name": "Tehran \u2014 Naval Cruise Missile Production Sites (2 facilities)",
       "country": "Iran",
       "lat": 35.68,
       "lng": 51.38,
@@ -3159,14 +3159,14 @@
       "attributedTo": "israel",
       "sources": [
         {
-          "name": "Haaretz — IDF shifts Iran strikes to military targets",
+          "name": "Haaretz \u2014 IDF shifts Iran strikes to military targets",
           "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-25/ty-article/.premium/idf-shifts-iran-strikes-to-military-targets-not-regime-defense-sources-say/0000019d-259c-d875-a9ff-ffffbb950000"
         }
       ]
     },
     {
       "id": "dmg-196",
-      "name": "Haifa Bay — Rocket Impacts (Wave 80 Hezbollah barrage)",
+      "name": "Haifa Bay \u2014 Rocket Impacts (Wave 80 Hezbollah barrage)",
       "country": "Israel",
       "lat": 32.79,
       "lng": 34.99,
@@ -3177,14 +3177,14 @@
       "attributedTo": "hezbollah",
       "sources": [
         {
-          "name": "Times of Israel — Day 26 liveblog",
+          "name": "Times of Israel \u2014 Day 26 liveblog",
           "url": "https://www.timesofisrael.com/liveblog-march-25-2026/"
         }
       ]
     },
     {
       "id": "dmg-197",
-      "name": "IRGC Navy Headquarters — Bandar Abbas (Tangsiri Killed)",
+      "name": "IRGC Navy Headquarters \u2014 Bandar Abbas (Tangsiri Killed)",
       "country": "Iran",
       "lat": 27.18,
       "lng": 56.27,
@@ -3197,7 +3197,7 @@
     },
     {
       "id": "dmg-198",
-      "name": "Isfahan — Industrial and Military Infrastructure (Wave)",
+      "name": "Isfahan \u2014 Industrial and Military Infrastructure (Wave)",
       "country": "Iran",
       "lat": 32.65,
       "lng": 51.67,
@@ -3205,12 +3205,12 @@
       "type": "military",
       "verificationStatus": "reported",
       "description": "IDF completed a wave of strikes on Isfahan regime infrastructure, focusing on arms factories and military production facilities in advance of a possible ceasefire. The strikes are accelerating over the next 48 hours to degrade Iranian military capacity while diplomatic efforts continue. Isfahan is home to Iran's main ballistic missile development and production facilities.",
-      "source": "NPR — Iran war peace conditions",
+      "source": "NPR \u2014 Iran war peace conditions",
       "sourceUrl": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions"
     },
     {
       "id": "dmg-199",
-      "name": "Bnei Brak — Cluster Munition Impact (Wave 81)",
+      "name": "Bnei Brak \u2014 Cluster Munition Impact (Wave 81)",
       "country": "Israel",
       "lat": 32.08,
       "lng": 34.84,
@@ -3218,12 +3218,12 @@
       "type": "civilian",
       "verificationStatus": "confirmed",
       "description": "Cluster munition debris from IRGC Wave 81 ('True Promise 4') struck Bnei Brak residential area, injuring 12 people. Part of the 81st IRGC wave that targeted 70+ Israeli sites with Emad, Qiam, Khorramshahr-4, and Qadr ballistic missiles.",
-      "source": "Times of Israel — Day 27 liveblog",
+      "source": "Times of Israel \u2014 Day 27 liveblog",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-march-26-2026/"
     },
     {
       "id": "dmg-200",
-      "name": "Bandar Abbas — IRGC Naval HQ & 9th Air Force Airbase (Wave of Strikes)",
+      "name": "Bandar Abbas \u2014 IRGC Naval HQ & 9th Air Force Airbase (Wave of Strikes)",
       "country": "Iran",
       "lat": 27.18,
       "lng": 56.27,
@@ -3231,25 +3231,25 @@
       "type": "military",
       "verificationStatus": "confirmed",
       "description": "Israeli strikes destroyed the IRGC naval headquarters in Bandar Abbas, killing IRGC Navy Commander Tangsiri and two senior aides. CTP-ISW geolocated OSINT confirmed at least 4 strikes on the 9th Artesh Air Force Tactical Airbase ammunition bunkers, causing large secondary explosions. A nearby residential area was also struck, killing two teenage brothers.",
-      "source": "Euronews — IRGC Navy Chief Tangsiri killed in 'precise and lethal operation,' Israel says",
+      "source": "Euronews \u2014 IRGC Navy Chief Tangsiri killed in 'precise and lethal operation,' Israel says",
       "sourceUrl": "https://www.euronews.com/2026/03/26/irgc-navy-chief-alireza-tangsiri-killed-in-precise-and-lethal-operation-israel-says"
     },
     {
       "id": "dmg-201",
-      "name": "Mashhad — 14th Artesh Air Force Tactical Airbase",
+      "name": "Mashhad \u2014 14th Artesh Air Force Tactical Airbase",
       "country": "Iran",
       "lat": 36.3,
       "lng": 59.6,
       "date": "2026-03-26",
       "type": "military",
       "verificationStatus": "confirmed",
-      "description": "IDF struck the 14th Artesh Air Force Tactical Airbase in Mashhad — the most northeastern target struck since the war began. First major strike on Iran's second-largest city. CTP-ISW OSINT geolocated via satellite imagery.",
-      "source": "Alma Research Center — Daily Report Day 27",
+      "description": "IDF struck the 14th Artesh Air Force Tactical Airbase in Mashhad \u2014 the most northeastern target struck since the war began. First major strike on Iran's second-largest city. CTP-ISW OSINT geolocated via satellite imagery.",
+      "source": "Alma Research Center \u2014 Daily Report Day 27",
       "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-march-26-2026-1800/"
     },
     {
       "id": "dmg-202",
-      "name": "Tabriz International Airport — F-5 and F-4 jets destroyed",
+      "name": "Tabriz International Airport \u2014 F-5 and F-4 jets destroyed",
       "country": "Iran",
       "lat": 38.08,
       "lng": 46.3,
@@ -3257,12 +3257,12 @@
       "type": "military",
       "verificationStatus": "confirmed",
       "description": "IDF struck Tabriz International Airport, destroying an F-5 and an F-4 fighter jet on the runway and damaging adjacent rail infrastructure. First Israeli strike on Tabriz, Iran's fourth-largest city. Located 100km from Turkish/Azerbaijani borders.",
-      "source": "Al Jazeera — What's happening on Day 27 of US-Israel attacks on Iran",
+      "source": "Al Jazeera \u2014 What's happening on Day 27 of US-Israel attacks on Iran",
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/26/us-israel-war-on-iran-whats-happening-on-day-27-of-attacks"
     },
     {
       "id": "dmg-203",
-      "name": "Nahariya — Hezbollah Rocket Strike on Parking Lot",
+      "name": "Nahariya \u2014 Hezbollah Rocket Strike on Parking Lot",
       "country": "Israel",
       "lat": 32.99,
       "lng": 35.1,
@@ -3270,8 +3270,47 @@
       "type": "civilian",
       "verificationStatus": "confirmed",
       "description": "Hezbollah rocket struck a residential parking lot in Nahariya, killing one man and seriously wounding another. Three impact sites in the city. 14 physically wounded, 11 treated for acute anxiety. 10-rocket salvo fired from Lebanon.",
-      "source": "Times of Israel — 1 dead, 14 wounded in Hezbollah rocket strike on Nahariya",
+      "source": "Times of Israel \u2014 1 dead, 14 wounded in Hezbollah rocket strike on Nahariya",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/medics-1-dead-and-14-wounded-in-hezbollah-rocket-strike-on-nahariya/"
+    },
+    {
+      "id": "dmg-204",
+      "name": "IRGC Naval HQ, Bandar Abbas",
+      "country": "Iran",
+      "lat": 27.19,
+      "lng": 56.27,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-26",
+      "description": "IRGC Naval Headquarters struck in overnight airstrike that killed Navy Commander Tangsiri and two senior aides. Naval command and control infrastructure destroyed. IRGC Naval HQ was also the coordination center for the Hormuz blockade operations.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/26/iranian-naval-commander-alireza-tangsiri-killed-in-attack-says-israel"
+    },
+    {
+      "id": "dmg-205",
+      "name": "Kafr Qasim Residential Building",
+      "country": "Israel",
+      "lat": 32.11,
+      "lng": 34.98,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-26",
+      "description": "Residential building struck by Iranian cluster munition missile. Submunitions dispersed across wide area. 6 lightly wounded. Part of IRGC-Hezbollah coordinated Wave 82 attack.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/9-injured-as-iran-fires-7-missile-salvos-at-israel-within-hours-many-with-cluster-warheads/"
+    },
+    {
+      "id": "dmg-206",
+      "name": "Tabriz Airport (West Azerbaijan)",
+      "country": "Iran",
+      "lat": 38.08,
+      "lng": 46.29,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-26",
+      "description": "Tabriz International Airport struck by IAF \u2014 first strike in this northwestern city bordering Azerbaijan. Two F-5 and F-4 fighter jets destroyed on runway. Rail lines connecting Tabriz to western Iran also damaged.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/3/26/us-israel-war-on-iran-whats-happening-on-day-27-of-attacks"
     }
   ]
 }

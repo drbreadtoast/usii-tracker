@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-26T18:56:00Z",
+    "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
+    "lastUpdated": "2026-03-27T02:10:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,24 +73,24 @@
     },
     "current": {
       "date": "2026-03-26",
-      "label": "Day 27 — Brent spikes to $105.85 (+32.6% from pre-war) after Iran firmly rejects US 15-point peace plan and IRGC Navy Commander Tangsiri killed. Brent had dipped to $93 on ceasefire hopes then rebounded sharply. WTI $93.61. AAA gas $3.981/gal nationally. Trump Cabinet meeting: Iran 'begging' but no deal imminent.",
+      "label": "Day 27 PM \u2014 Brent surges to $107.99 peak $109 after Iran denies negotiations; Trump extends energy pause to April 6; S&P -1.74% worst day of war. Pakistan confirms indirect US-Iran talks. Kallas: Russia giving Iran intel to kill Americans. WTI $94.48.",
       "brent": {
-        "price": 105.85,
-        "change": "+32.6%",
-        "changeDollars": "+$26.01",
+        "price": 107.99,
+        "change": "+35.3%",
+        "changeDollars": "+$28.19",
         "unit": "$/barrel",
-        "source": "Fortune — Price of oil March 26, 2026",
-        "sourceUrl": "https://fortune.com/article/price-of-oil-03-26-2026/"
+        "source": "Al Jazeera \u2014 Oil prices rise higher as Iran denies US talks",
+        "sourceUrl": "https://www.aljazeera.com/economy/2026/3/26/oil-prices-rise-higher-as-iran-denies-us-talks-dimming-deescalation-hopes"
       },
       "wti": {
-        "price": 93.61,
-        "change": "+24.0%",
-        "changeDollars": "+$18.10",
+        "price": 94.48,
+        "change": "+25.1%",
+        "changeDollars": "+$18.98",
         "unit": "$/barrel",
-        "source": "FX Leaders — WTI battles $92 as Iran rejects 15-point peace plan",
-        "sourceUrl": "https://www.fxleaders.com/news/2026/03/26/crude-oil-price-forecast-wti-battles-92-as-iran-rejects-15-point-peace-plan-whats-next/"
+        "source": "Pintu News \u2014 WTI oil price today Thursday March 26 2026",
+        "sourceUrl": "https://pintu.co.id/en/news/268233-wti-oil-price-today-thursday-march-26-2026"
       },
-      "changePercent": "+32.6%",
+      "changePercent": "+35.3%",
       "lastUpdated": "2026-03-26"
     },
     "priceHistory": [
@@ -116,33 +116,33 @@
         "date": "2026-02-22",
         "wti": 74.9,
         "brent": 79.1,
-        "label": "Negotiations stall — tensions rise"
+        "label": "Negotiations stall \u2014 tensions rise"
       },
       {
         "date": "2026-02-27",
         "wti": 75.5,
         "brent": 79.8,
-        "label": "Pre-strike baseline — buildup visible"
+        "label": "Pre-strike baseline \u2014 buildup visible"
       },
       {
         "date": "2026-02-28",
         "wti": 82.76,
         "brent": 85.3,
-        "label": "US/Israel launch strikes on Iran — Khamenei killed",
+        "label": "US/Israel launch strikes on Iran \u2014 Khamenei killed",
         "isEvent": true
       },
       {
         "date": "2026-03-01",
         "wti": 85.2,
         "brent": 88.5,
-        "label": "Iran retaliates — missiles hit Tel Aviv and US bases",
+        "label": "Iran retaliates \u2014 missiles hit Tel Aviv and US bases",
         "isEvent": true
       },
       {
         "date": "2026-03-02",
         "wti": 87.4,
         "brent": 90.1,
-        "label": "Hezbollah strikes Israel — IRGC closes Hormuz",
+        "label": "Hezbollah strikes Israel \u2014 IRGC closes Hormuz",
         "isEvent": true
       },
       {
@@ -191,119 +191,126 @@
         "date": "2026-03-09",
         "wti": 101.2,
         "brent": 103.47,
-        "label": "Brent surges to $119.50 intraday — Hormuz effectively closed",
+        "label": "Brent surges to $119.50 intraday \u2014 Hormuz effectively closed",
         "isEvent": true
       },
       {
         "date": "2026-03-10",
         "wti": 83.45,
         "brent": 87.8,
-        "label": "Oil CRASHES 11-12% — Trump says war will end 'very soon'",
+        "label": "Oil CRASHES 11-12% \u2014 Trump says war will end 'very soon'",
         "isEvent": true
       },
       {
         "date": "2026-03-11",
         "wti": 86.01,
         "brent": 90.77,
-        "label": "Oil rebounds +3% — IEA record 400M barrel reserve release",
+        "label": "Oil rebounds +3% \u2014 IEA record 400M barrel reserve release",
         "isEvent": true
       },
       {
         "date": "2026-03-12",
         "wti": 95.73,
         "brent": 100.46,
-        "label": "Brent past $100 — IEA 400M barrel release (32 countries) fails to contain surge",
+        "label": "Brent past $100 \u2014 IEA 400M barrel release (32 countries) fails to contain surge",
         "isEvent": true
       },
       {
         "date": "2026-03-13",
         "wti": 98.71,
         "brent": 103.14,
-        "label": "Brent $103 — Marines deployed, Russia sanctions waived, highest volume strikes",
+        "label": "Brent $103 \u2014 Marines deployed, Russia sanctions waived, highest volume strikes",
         "isEvent": true
       },
       {
         "date": "2026-03-15",
         "wti": 101.32,
         "brent": 105.66,
-        "label": "Day 16 PM — Brent $105.66, WTI $101.32; oil tops $105 on Hormuz tensions",
+        "label": "Day 16 PM \u2014 Brent $105.66, WTI $101.32; oil tops $105 on Hormuz tensions",
         "isEvent": true
       },
       {
         "date": "2026-03-16",
         "wti": 99.68,
         "brent": 104.73,
-        "label": "Day 17 — Brent $104.73, WTI $99.68; Dubai airport struck, Fujairah hit again, Fed meeting looms",
+        "label": "Day 17 \u2014 Brent $104.73, WTI $99.68; Dubai airport struck, Fujairah hit again, Fed meeting looms",
         "isEvent": true
       },
       {
         "date": "2026-03-16",
         "wti": 93.5,
         "brent": 100.21,
-        "label": "Day 17 PM — Oil drops sharply: Brent -4.3%, WTI -6.1% after Bessent says US allowing Iranian tankers through Hormuz",
+        "label": "Day 17 PM \u2014 Oil drops sharply: Brent -4.3%, WTI -6.1% after Bessent says US allowing Iranian tankers through Hormuz",
         "isEvent": true
       },
       {
         "date": "2026-03-17",
         "wti": 93.5,
         "brent": 100.21,
-        "label": "Day 18 — Larijani killed; oil holds at $100 post-Bessent; markets watch for Iran retaliation",
+        "label": "Day 18 \u2014 Larijani killed; oil holds at $100 post-Bessent; markets watch for Iran retaliation",
         "isEvent": true
       },
       {
         "date": "2026-03-18",
         "wti": 94.53,
         "brent": 104.17,
-        "label": "Day 19 — Brent $104.17; WTI eases to $94.53; IMO emergency meeting on Hormuz; Fed holds rates; hedge funds worst losses since Liberation Day",
+        "label": "Day 19 \u2014 Brent $104.17; WTI eases to $94.53; IMO emergency meeting on Hormuz; Fed holds rates; hedge funds worst losses since Liberation Day",
         "isEvent": true
       },
       {
         "date": "2026-03-19",
         "wti": 96.14,
         "brent": 108.65,
-        "label": "Day 20 PM — Brent spikes $119 on Ras Laffan strike, settles $108.65; 7-nation Hormuz coalition; QatarEnergy 17% LNG offline",
+        "label": "Day 20 PM \u2014 Brent spikes $119 on Ras Laffan strike, settles $108.65; 7-nation Hormuz coalition; QatarEnergy 17% LNG offline",
         "isEvent": true
       },
       {
         "date": "2026-03-20",
         "brent": 110.28,
         "wti": 96.2,
-        "label": "Day 21 (Nowruz) — IDF strikes Tehran; Naini killed; Bessent: 140M barrels Iranian crude to be unsanctioned",
+        "label": "Day 21 (Nowruz) \u2014 IDF strikes Tehran; Naini killed; Bessent: 140M barrels Iranian crude to be unsanctioned",
         "isEvent": true
       },
       {
         "date": "2026-03-21",
         "brent": 112.0,
         "wti": 98.23,
-        "label": "Day 22 PM — Trump 48-hr power plant ultimatum; Iran counter-threatens Gulf desalination. IDF: 3 more weeks of strikes.",
+        "label": "Day 22 PM \u2014 Trump 48-hr power plant ultimatum; Iran counter-threatens Gulf desalination. IDF: 3 more weeks of strikes.",
         "isEvent": true
       },
       {
         "date": "2026-03-22",
         "wti": 98.32,
         "brent": 107.2,
-        "label": "Day 23 PM — Iran 8th missile salvo; IRGC Gulf energy targeting map; Hormuz deadline 20hrs remain",
+        "label": "Day 23 PM \u2014 Iran 8th missile salvo; IRGC Gulf energy targeting map; Hormuz deadline 20hrs remain",
         "isEvent": true
       },
       {
         "date": "2026-03-23",
         "wti": 91.4,
         "brent": 101.44,
-        "label": "Day 24 — Trump announces 5-day pause on Iran energy strikes citing 'productive talks'; Iran denies. Brent -10%+ from $112 highs. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain.",
+        "label": "Day 24 \u2014 Trump announces 5-day pause on Iran energy strikes citing 'productive talks'; Iran denies. Brent -10%+ from $112 highs. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain.",
         "isEvent": true
       },
       {
         "date": "2026-03-24",
         "wti": 91.27,
         "brent": 102.47,
-        "label": "Day 25 — Brent recovering to $102.47 (+1% day-over-day) after Trump's 5-day energy-strike pause. Lebanon expels Iran ambassador. Araghchi signals deal readiness via backchannel. Hormuz selective vetting system ($2M+ transit fees). WTI near $91.",
+        "label": "Day 25 \u2014 Brent recovering to $102.47 (+1% day-over-day) after Trump's 5-day energy-strike pause. Lebanon expels Iran ambassador. Araghchi signals deal readiness via backchannel. Hormuz selective vetting system ($2M+ transit fees). WTI near $91.",
         "isEvent": true
       },
       {
         "date": "2026-03-25",
         "wti": 88.5,
         "brent": 99.0,
-        "label": "Day 26 — Brent drops ~6% below $100 on 15-point ceasefire plan hopes. First time below $100 since Day 22. IDF destroys submarine R&D center. Rosatom evacuating Bushehr staff. Saudi intercepts 32+ drones. Japan announces 30-day oil reserve release. $580M suspicious pre-announcement oil bets under investigation.",
+        "label": "Day 26 \u2014 Brent drops ~6% below $100 on 15-point ceasefire plan hopes. First time below $100 since Day 22. IDF destroys submarine R&D center. Rosatom evacuating Bushehr staff. Saudi intercepts 32+ drones. Japan announces 30-day oil reserve release. $580M suspicious pre-announcement oil bets under investigation.",
+        "isEvent": true
+      },
+      {
+        "date": "2026-03-26",
+        "wti": 94.48,
+        "brent": 107.99,
+        "label": "Day 27 PM \u2014 Brent surges to $107.99 (peak $109) after Iran denies negotiations; Trump extends energy-strike pause to April 6; S&P -1.74%; Pakistan confirms US-Iran indirect talks; Kallas: Russia giving Iran intel to kill Americans",
         "isEvent": true
       }
     ],
@@ -348,7 +355,7 @@
   "keyPlayers": [
     {
       "country": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "dailyProductionMbpd": 13.5,
       "globalSharePercent": 13.7,
       "provenReservesBillionBarrels": 44.4,
@@ -359,7 +366,7 @@
     },
     {
       "country": "Saudi Arabia",
-      "flag": "🇸🇦",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
       "dailyProductionMbpd": 9.47,
       "globalSharePercent": 9.6,
       "provenReservesBillionBarrels": 258.6,
@@ -370,7 +377,7 @@
     },
     {
       "country": "Russia",
-      "flag": "🇷🇺",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
       "dailyProductionMbpd": 9.13,
       "globalSharePercent": 9.3,
       "provenReservesBillionBarrels": 80,
@@ -381,7 +388,7 @@
     },
     {
       "country": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "dailyProductionMbpd": 3.1,
       "globalSharePercent": 3.1,
       "provenReservesBillionBarrels": 208.6,
@@ -392,7 +399,7 @@
     },
     {
       "country": "Iraq",
-      "flag": "🇮🇶",
+      "flag": "\ud83c\uddee\ud83c\uddf6",
       "dailyProductionMbpd": 4.01,
       "globalSharePercent": 4.1,
       "provenReservesBillionBarrels": 145,
@@ -403,7 +410,7 @@
     },
     {
       "country": "United Arab Emirates",
-      "flag": "🇦🇪",
+      "flag": "\ud83c\udde6\ud83c\uddea",
       "dailyProductionMbpd": 3.3,
       "globalSharePercent": 3.4,
       "provenReservesBillionBarrels": 97.8,
@@ -414,7 +421,7 @@
     },
     {
       "country": "Kuwait",
-      "flag": "🇰🇼",
+      "flag": "\ud83c\uddf0\ud83c\uddfc",
       "dailyProductionMbpd": 2.5,
       "globalSharePercent": 2.5,
       "provenReservesBillionBarrels": 101.5,
@@ -425,7 +432,7 @@
     },
     {
       "country": "Venezuela",
-      "flag": "🇻🇪",
+      "flag": "\ud83c\uddfb\ud83c\uddea",
       "dailyProductionMbpd": 0.9,
       "globalSharePercent": 0.9,
       "provenReservesBillionBarrels": 303.8,
@@ -455,47 +462,47 @@
       {
         "country": "Saudi Arabia",
         "blockedExportsMbpd": 5.5,
-        "alternativeRoutes": "East-West Pipeline to Yanbu (Red Sea) — limited to 5 Mbpd"
+        "alternativeRoutes": "East-West Pipeline to Yanbu (Red Sea) \u2014 limited to 5 Mbpd"
       },
       {
         "country": "Iraq",
         "blockedExportsMbpd": 3.3,
-        "alternativeRoutes": "Kirkuk-Ceyhan pipeline (Turkey) — 0.45 Mbpd operational"
+        "alternativeRoutes": "Kirkuk-Ceyhan pipeline (Turkey) \u2014 0.45 Mbpd operational"
       },
       {
         "country": "UAE",
         "blockedExportsMbpd": 2.5,
-        "alternativeRoutes": "Habshan-Fujairah pipeline — 1.5 Mbpd, under Houthi threat"
+        "alternativeRoutes": "Habshan-Fujairah pipeline \u2014 1.5 Mbpd, under Houthi threat"
       },
       {
         "country": "Kuwait",
         "blockedExportsMbpd": 2.5,
-        "alternativeRoutes": "None — fully landlocked from export routes"
+        "alternativeRoutes": "None \u2014 fully landlocked from export routes"
       },
       {
         "country": "Qatar",
         "blockedExportsMbpd": 1.8,
-        "alternativeRoutes": "None — LNG terminals face same blockade"
+        "alternativeRoutes": "None \u2014 LNG terminals face same blockade"
       },
       {
         "country": "Iran",
         "blockedExportsMbpd": 0.4,
-        "alternativeRoutes": "Jask terminal (Gulf of Oman) — damaged in strikes"
+        "alternativeRoutes": "Jask terminal (Gulf of Oman) \u2014 damaged in strikes"
       }
     ],
     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=39932",
     "vesselsDamaged": 21,
-    "description": "Strait of Hormuz effectively closed (Day 18 of blockade, Day 21 of war). 24+ vessels damaged, 3 sunk since war began. Only 21 tankers total have transited since war began — traffic down 97%. 400+ ships stranded. IMO negotiating humanitarian corridor for ~20,000 seafarers. 8-nation Hormuz coalition (UK, France, Germany, Italy, Netherlands, Japan, Canada, plus Canada). Brent $110.28 (hit $119.11 intraday), WTI $96.20. Saudi officials warn $180/barrel possible by April. VLCC charter rates at $800K/day."
+    "description": "Strait of Hormuz effectively closed (Day 18 of blockade, Day 21 of war). 24+ vessels damaged, 3 sunk since war began. Only 21 tankers total have transited since war began \u2014 traffic down 97%. 400+ ships stranded. IMO negotiating humanitarian corridor for ~20,000 seafarers. 8-nation Hormuz coalition (UK, France, Germany, Italy, Netherlands, Japan, Canada, plus Canada). Brent $110.28 (hit $119.11 intraday), WTI $96.20. Saudi officials warn $180/barrel possible by April. VLCC charter rates at $800K/day."
   },
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-26T18:56:00Z",
-    "note": "National weighted averages. Regional prices vary significantly — California, Hawaii, and Northeast typically 15-30% above national average.",
+    "lastUpdated": "2026-03-27T02:10:00Z",
+    "note": "National weighted averages. Regional prices vary significantly \u2014 California, Hawaii, and Northeast typically 15-30% above national average.",
     "fuels": [
       {
         "type": "Regular Gasoline",
-        "icon": "⛽",
+        "icon": "\u26fd",
         "preWar": {
           "price": 3.18,
           "date": "2026-02-27"
@@ -506,12 +513,12 @@
         },
         "change": "+$0.80",
         "changePercent": "+25.2%",
-        "detail": "Gas at $3.977/gal (AAA March 25, Day 26). Up $0.80/gal from pre-war $3.18. Just $0.023 from $4/gal milestone. California: $5.82/gal. Diesel: over $5/gal nationally (+34% since war). Brent drops ~6% to ~$99 on ceasefire hopes. Japan announces 30-day strategic oil reserve release. Philippines energy emergency continues.",
+        "detail": "Gas at $3.981/gal (AAA March 26, Day 27). Up $0.80/gal from pre-war $3.18. Just $0.019 from $4/gal milestone. California: $5.84/gal. Diesel: over $5/gal nationally (+33%). Brent surges to $108 on Iran rejecting talks; Trump extends energy pause to April 6.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
         "type": "Diesel",
-        "icon": "🛢️",
+        "icon": "\ud83d\udee2\ufe0f",
         "preWar": {
           "price": 3.8,
           "date": "2026-02-27"
@@ -522,12 +529,12 @@
         },
         "change": "+$1.27",
         "changePercent": "+33.4%",
-        "detail": "National average at $5.07/gal — up sharply from pre-war levels. Highest since 2022. Critical for trucking and freight — fuel surcharges being implemented across major carriers.",
+        "detail": "National average at $5.07/gal \u2014 up sharply from pre-war levels. Highest since 2022. Critical for trucking and freight \u2014 fuel surcharges being implemented across major carriers.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
         "type": "Jet Fuel (Kerosene)",
-        "icon": "✈️",
+        "icon": "\u2708\ufe0f",
         "preWar": {
           "price": 2.45,
           "date": "2026-02-27"
@@ -544,7 +551,7 @@
       },
       {
         "type": "Heating Oil",
-        "icon": "🏠",
+        "icon": "\ud83c\udfe0",
         "preWar": {
           "price": 3.2,
           "date": "2026-02-27"
@@ -585,14 +592,14 @@
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
     "regularGasoline": 3.981,
-    "gasPriceRegular": "$3.977/gal (AAA March 24, +25.2% from pre-war $3.18)",
+    "gasPriceRegular": "$3.981/gal (AAA March 26, +25.2% from pre-war $3.18)",
     "gasPriceDiesel": "$5.07/gal (+33.4% from pre-war $3.80)",
     "changeFromPreWar": "+$0.801",
     "changePercent": "+25.2%"
   },
   "keyFacts": [
     {
-      "fact": "Trump weighing seizure of Kharg Island — would be 'economic knockout of the regime' (FT interview)",
+      "fact": "Trump weighing seizure of Kharg Island \u2014 would be 'economic knockout of the regime' (FT interview)",
       "source": "Financial Times",
       "sourceUrl": "https://www.ft.com/world/mideast"
     },
@@ -617,12 +624,12 @@
       "sourceUrl": "https://www.wsj.com/world/middle-east/"
     },
     {
-      "fact": "Dubai crude hits all-time record $166.80/barrel — physical oil market pricing far above futures. European jet fuel at $220/barrel, diesel at $200/barrel.",
+      "fact": "Dubai crude hits all-time record $166.80/barrel \u2014 physical oil market pricing far above futures. European jet fuel at $220/barrel, diesel at $200/barrel.",
       "source": "US News",
       "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-03-19/prices-for-oil-fuel-cargoes-smash-record-highs-as-iran-war-chokes-middle-east-supply"
     },
     {
-      "fact": "Brent $110.71/barrel (+38.7%) — briefly spiked to $119.11 on March 19",
+      "fact": "Brent $110.71/barrel (+38.7%) \u2014 briefly spiked to $119.11 on March 19",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html"
     },
@@ -632,7 +639,7 @@
       "sourceUrl": "https://www.cbsnews.com/news/trump-administration-temporarily-lifts-sanctions-on-iranian-oil-at-sea/"
     },
     {
-      "fact": "US Treasury issued Iran General License U (March 20): 30-day temporary authorization for ~140M barrels of Iranian crude at sea to be delivered legally — partial rollback of maximum pressure sanctions to contain energy price surge.",
+      "fact": "US Treasury issued Iran General License U (March 20): 30-day temporary authorization for ~140M barrels of Iranian crude at sea to be delivered legally \u2014 partial rollback of maximum pressure sanctions to contain energy price surge.",
       "source": "Multiple",
       "sourceUrl": "https://reuters.com/world/middle-east/"
     },
@@ -652,12 +659,12 @@
       "sourceUrl": "https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546"
     },
     {
-      "fact": "Iran operating selective Hormuz vetting system — at least 9 ships allowed through for fees of up to $2M per transit (Day 25). Japan, India, Pakistan, Iraq, Malaysia, China negotiating bilateral passage agreements.",
+      "fact": "Iran operating selective Hormuz vetting system \u2014 at least 9 ships allowed through for fees of up to $2M per transit (Day 25). Japan, India, Pakistan, Iraq, Malaysia, China negotiating bilateral passage agreements.",
       "source": "Bloomberg / Al Jazeera",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-23/strait-of-hormuz-how-iran-is-blocking-route-as-trump-extends-deadline-to-reopen"
     },
     {
-      "fact": "Valero Port Arthur refinery explosion (March 23 PM, still burning March 24) — one of 10 largest US refineries at 435,000 bpd capacity. Wholesale gasoline futures up 10 cents/gallon, diesel up 16 cents/gallon as direct result. No injuries. Adds domestic supply pressure on top of Iran war energy shock.",
+      "fact": "Valero Port Arthur refinery explosion (March 23 PM, still burning March 24) \u2014 one of 10 largest US refineries at 435,000 bpd capacity. Wholesale gasoline futures up 10 cents/gallon, diesel up 16 cents/gallon as direct result. No injuries. Adds domestic supply pressure on top of Iran war energy shock.",
       "source": "CNN Business / NBC News",
       "sourceUrl": "https://www.cnn.com/2026/03/24/business/oil-prices-rise-trump-iran-intl"
     },
@@ -667,7 +674,7 @@
       "sourceUrl": "https://www.cnbc.com/2026/03/24/oil-prices-today-wti-brent-middle-east-iran-war.html"
     },
     {
-      "fact": "Dutch TTF European natural gas benchmark approx €59/MWh on March 24 — up ~60% since war began. EU gas storage at 39.2% (vs 52% a year ago). Germany 30.2%, France 29%, Netherlands 23.5%. BofA: 10 weeks of lost Gulf LNG supply could push Q1 2027 TTF above 2022 crisis highs (€300/MWh peak).",
+      "fact": "Dutch TTF European natural gas benchmark approx \u20ac59/MWh on March 24 \u2014 up ~60% since war began. EU gas storage at 39.2% (vs 52% a year ago). Germany 30.2%, France 29%, Netherlands 23.5%. BofA: 10 weeks of lost Gulf LNG supply could push Q1 2027 TTF above 2022 crisis highs (\u20ac300/MWh peak).",
       "source": "Oil Price API / Bank of America / S&P Global",
       "sourceUrl": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/030926-european-gas-price-jumps-near-eur70mwh-as-iran-war-enters-second-week"
     },
@@ -676,29 +683,29 @@
       "source": "UPI",
       "sourceUrl": "https://www.upi.com/Top_News/US/2026/03/24/cost-of-war-iran-defense-budget/7801774358253/"
     },
-    "Day 26: Brent dropped -$2.72 (-2.65%) to $99.75/bbl on Trump Iran negotiation signals — market testing whether diplomatic track is real; Iran's formal rejection may reverse this."
+    "Day 26: Brent dropped -$2.72 (-2.65%) to $99.75/bbl on Trump Iran negotiation signals \u2014 market testing whether diplomatic track is real; Iran's formal rejection may reverse this."
   ],
-  "lastUpdated": "2026-03-26T18:56:00Z",
+  "lastUpdated": "2026-03-27T02:10:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
       "brent": 103.5,
       "wti": 96.21,
-      "label": "Day 18 PM — Iran strikes UAE Shah gas field; oil surges 3%+",
+      "label": "Day 18 PM \u2014 Iran strikes UAE Shah gas field; oil surges 3%+",
       "isEvent": true
     },
     {
       "date": "2026-03-18",
       "brent": 104.17,
       "wti": 94.53,
-      "label": "Day 19 — Brent $104.17; IMO emergency meeting; Fed holds rates; hedge funds worst losses since Liberation Day",
+      "label": "Day 19 \u2014 Brent $104.17; IMO emergency meeting; Fed holds rates; hedge funds worst losses since Liberation Day",
       "isEvent": true
     },
     {
       "date": "2026-03-19",
       "brent": 108.65,
       "wti": 96.14,
-      "label": "Day 20 PM — Brent spikes to $119 on Ras Laffan strike, settles $108.65. Dubai crude record $166.80. 7-nation Hormuz coalition formed.",
+      "label": "Day 20 PM \u2014 Brent spikes to $119 on Ras Laffan strike, settles $108.65. Dubai crude record $166.80. 7-nation Hormuz coalition formed.",
       "isEvent": true
     },
     {
@@ -711,49 +718,49 @@
       "date": "2026-03-21",
       "brent": 107.2,
       "wti": 98.23,
-      "label": "Day 22 — Oil pulls back as 140M barrel Iran sanctions waiver takes effect. Netanyahu signals no repeat energy strikes per Trump request.",
+      "label": "Day 22 \u2014 Oil pulls back as 140M barrel Iran sanctions waiver takes effect. Netanyahu signals no repeat energy strikes per Trump request.",
       "isEvent": true
     },
     {
       "date": "2026-03-21",
       "brent": 108.84,
       "wti": 98.23,
-      "label": "Day 22 PM — Iran strikes Dimona/Arad, air defense failure; Houthi Bab el-Mandeb threat",
+      "label": "Day 22 PM \u2014 Iran strikes Dimona/Arad, air defense failure; Houthi Bab el-Mandeb threat",
       "isEvent": true
     },
     {
       "date": "2026-03-22",
       "brent": 106.41,
       "wti": 98.32,
-      "label": "Day 23 — Trump 48-hr deadline; Israel strikes Malek Ashtar University Tehran",
+      "label": "Day 23 \u2014 Trump 48-hr deadline; Israel strikes Malek Ashtar University Tehran",
       "isEvent": true
     },
     {
       "date": "2026-03-23",
       "brent": 101.44,
       "wti": 91.4,
-      "label": "Day 24 — Trump 5-day pause on energy strikes; Iran denies talks. Brent -10%+ from $112 highs, WTI slides 6.9%. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain; Iran fires 6 missile barrages at Israel.",
+      "label": "Day 24 \u2014 Trump 5-day pause on energy strikes; Iran denies talks. Brent -10%+ from $112 highs, WTI slides 6.9%. CENTCOM destroys Qom drone factory; IRGC strikes Prince Sultan Airbase + US 5th Fleet Bahrain; Iran fires 6 missile barrages at Israel.",
       "isEvent": true
     },
     {
       "date": "2026-03-24",
       "brent": 104.49,
       "wti": 92.35,
-      "label": "Day 25 PM — Brent rebounds 4%+ on ceasefire skepticism + 82nd Airborne Kharg Island deployment news. Philippines declares energy emergency. Kuwait airport struck again. Gas nears $4/gal.",
+      "label": "Day 25 PM \u2014 Brent rebounds 4%+ on ceasefire skepticism + 82nd Airborne Kharg Island deployment news. Philippines declares energy emergency. Kuwait airport struck again. Gas nears $4/gal.",
       "isEvent": true
     },
     {
       "date": "2026-03-25",
       "brent": 99.0,
       "wti": 88.5,
-      "label": "Day 26 — Brent drops ~6% to ~$99, first below $100 since Day 22, on Trump ceasefire talk hopes. WTI falls to $88.50. IRGC Wave 80 (4 salvos). Iran rejects 15-point plan with 5 counter-conditions including Hormuz sovereignty demand. Philippines declares energy emergency. $580M in pre-announcement oil bets under insider trading probe.",
+      "label": "Day 26 \u2014 Brent drops ~6% to ~$99, first below $100 since Day 22, on Trump ceasefire talk hopes. WTI falls to $88.50. IRGC Wave 80 (4 salvos). Iran rejects 15-point plan with 5 counter-conditions including Hormuz sovereignty demand. Philippines declares energy emergency. $580M in pre-announcement oil bets under insider trading probe.",
       "isEvent": true
     },
     {
       "date": "2026-03-26",
       "brent": 105.85,
       "wti": 93.61,
-      "label": "Day 27 — Brent spikes to $105.85 (+32.6% pre-war) after Iran definitively rejects US 15-point peace plan. IRGC Navy Commander Tangsiri killed at Bandar Abbas. IRGC Wave 82 fires at Israel. UAE struck — 2 killed in Abu Dhabi by missile debris. Trump Cabinet: Iran 'begging to make a deal'; WSJ reports Trump wants to 'wrap up' conflict. AAA gas $3.981/gal nationally.",
+      "label": "Day 27 \u2014 Brent spikes to $105.85 (+32.6% pre-war) after Iran definitively rejects US 15-point peace plan. IRGC Navy Commander Tangsiri killed at Bandar Abbas. IRGC Wave 82 fires at Israel. UAE struck \u2014 2 killed in Abu Dhabi by missile debris. Trump Cabinet: Iran 'begging to make a deal'; WSJ reports Trump wants to 'wrap up' conflict. AAA gas $3.981/gal nationally.",
       "isEvent": true
     }
   ]
