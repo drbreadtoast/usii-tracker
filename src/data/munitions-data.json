@@ -35,18 +35,18 @@
       }
     ],
     "methodology": "Estimates are compiled from open-source intelligence (OSINT), published government reports, Congressional testimony, and assessments from recognized defense research institutions. Quantities represent best-available estimates and may differ from actual classified inventories. Production rates are inferred from procurement budgets, contractor disclosures, and historical delivery schedules. Conflict expenditure figures are derived from satellite imagery analysis, official briefings, and corroborated media reports.",
-    "lastUpdated": "2026-03-26T18:56:00Z",
+    "lastUpdated": "2026-03-27T11:38:00Z",
     "updateFrequency": "daily",
     "disclaimer": "All figures are estimates based on publicly available information and open-source analysis. Actual military inventories are classified. Numbers should be treated as approximations subject to revision. This data is compiled for informational purposes and does not represent official government positions. Conflict usage figures include both confirmed and analytically assessed strikes. Source URLs point to institutional pages that published relevant analyses; specific reports may require navigation within those sites.",
-    "conflictDay": 27,
+    "conflictDay": 28,
     "daysOfConflict": 27,
     "totalTargetsStruck": 10500,
-    "note": "Day 27: IRGC Wave 82 fired — two salvos of ballistic missiles at central Israel. IDF strikes on Mashhad (14th airbase, first strike on city), Tabriz airport (F-5, F-4 destroyed), Shiraz command center, Kermanshah/Dezful missile sites (~70 munitions). CENTCOM 10,000+ targets milestone confirmed by Adm. Cooper. Tangsiri killed — IRGC Navy Commander eliminated. IDF destroyed 2 fighter jets at Tabriz. US 82nd Airborne deploying 2,000 soldiers to region. Iron Dome/Arrow-3 interceptor stockpile depletion continues — Iran saturation tactics (2 salvos in 30 min) designed to overwhelm."
+    "note": "Day 28: IAF deployed 60-jet wave (150+ munitions) on Tehran weapon manufacturing. 20 sorties/70 munitions on Kermanshah/Dezful launchers. Yazd naval arms production site destroyed. IRGC Wave 83 used ballistic missiles, precision multi-warhead systems, loitering drones."
   },
   "countries": {
     "us": {
       "name": "United States",
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "flag": "🇺🇸",
       "arsenal": [
         {
           "name": "BGM-109 Tomahawk (Block IV/V)",
@@ -330,7 +330,7 @@
     },
     "israel": {
       "name": "Israel",
-      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "flag": "🇮🇱",
       "arsenal": [
         {
           "name": "Iron Dome (Tamir Interceptor)",
@@ -623,7 +623,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "flag": "🇮🇷",
       "arsenal": [
         {
           "name": "Shahab-3 / Emad",
@@ -845,7 +845,7 @@
             "Dimona nuclear facility vicinity",
             "Bahrain civilian areas",
             "Turkish airspace (intercepted by NATO)",
-            "Haifa, Israel (Day 13 barrage \u2014 intercepted)",
+            "Haifa, Israel (Day 13 barrage — intercepted)",
             "US bases in Kuwait and Bahrain (Day 13)"
           ],
           "confirmed": true,
@@ -896,7 +896,7 @@
           "targets": [
             "Central Israel (Tel Aviv, Haifa)",
             "US base at Al Dhafra, UAE",
-            "Tel Aviv / Haifa (Day 13 barrage \u2014 intercepted)"
+            "Tel Aviv / Haifa (Day 13 barrage — intercepted)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.csis.org/"
@@ -906,7 +906,7 @@
           "quantityUsed": 5,
           "dateRange": "2026-03-12",
           "targets": [
-            "Tel Aviv / Haifa (Day 13 barrage \u2014 all intercepted by Israeli defenses)"
+            "Tel Aviv / Haifa (Day 13 barrage — all intercepted by Israeli defenses)"
           ],
           "confirmed": false,
           "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
