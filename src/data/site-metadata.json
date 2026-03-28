@@ -1,19 +1,43 @@
 {
-  "lastUpdated": "2026-03-27T20:34:00Z",
-  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
+  "lastUpdated": "2026-03-28T00:08:00Z",
+  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.0",
   "conflictDay": 28,
-  "totalSocialPosts": 18,
+  "totalSocialPosts": 20,
   "dataFiles": {
-    "events": 463,
-    "warTimeline": 444,
-    "breaking": 16,
-    "socialPosts": 17,
-    "governmentStatements": 256,
-    "escalations": 199,
-    "missileStrikes": 265,
-    "damageLocations": 203,
+    "events": {
+      "count": 480,
+      "lastId": "evt-new-432"
+    },
+    "warTimeline": {
+      "count": 457,
+      "lastId": "tl-457"
+    },
+    "breaking": {
+      "count": 14,
+      "lastId": "brk-458"
+    },
+    "socialPosts": {
+      "count": 20,
+      "lastId": "social-337"
+    },
+    "governmentStatements": {
+      "count": 268,
+      "lastId": "gov-268"
+    },
+    "escalations": {
+      "count": 204,
+      "lastId": "esc-203"
+    },
+    "missileStrikes": {
+      "count": 280,
+      "lastId": "ms-280"
+    },
+    "damageLocations": {
+      "count": 213,
+      "lastId": "dmg-217"
+    },
     "factCheckClaims": 77,
     "statementsTimeline": 302,
     "damageData": 202,
@@ -48,5 +72,5 @@
     },
     "damageSites": 203
   },
-  "updateNote": "Day 28 4:38 AM PDT \u2014 Wave 83 hits four US Gulf bases; IAF destroys Yazd naval arms facility; 60-jet Tehran wave; Pentagon weighs 10K troops; Brent $107.99; Kallas: Russia gives Iran intel to kill Americans"
+  "updateNote": "Day 28 4:38 AM PDT — Wave 83 hits four US Gulf bases; IAF destroys Yazd naval arms facility; 60-jet Tehran wave; Pentagon weighs 10K troops; Brent $107.99; Kallas: Russia gives Iran intel to kill Americans"
 }
