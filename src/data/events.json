@@ -15245,5 +15245,214 @@
       "diplomatic",
       "day28"
     ]
+  },
+  {
+    "id": "evt-new-433",
+    "title": "Houthis enter 2026 Iran War — first ballistic missile attack on Israel from Yemen",
+    "description": "Yemen's Houthi movement launched its first ballistic missile attack on Israel since the start of the 2026 Iran War, marking a major escalation. Houthi military spokesman Brigadier General Yahya Saree announced on Al-Masirah TV that the group fired a 'barrage of ballistic missiles' targeting 'sensitive Israeli military sites.' The IDF confirmed one missile was fired from Yemen and was successfully intercepted. The Houthis had previously stated they would not join the war at Tehran's request, but reversed course on Day 29. Analysts warned that if the Houthis move to also block the Bab al-Mandeb strait, two major global shipping choke points would be simultaneously closed.",
+    "type": "strike",
+    "lat": 15.36,
+    "lng": 44.19,
+    "location": "Sanaa, Yemen (launch site) — targeting southern Israel",
+    "timestamp": "2026-03-28T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Al Jazeera — Yemen's Houthis launch missile attack on Israel",
+        "url": "https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2"
+      },
+      {
+        "name": "Haaretz — Houthis Join Iran War Firing First Missile at Israel",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-28/ty-article/idf-detects-missile-fire-from-yemen-in-first-since-hamas-cease-fire/0000019d-32ee-d687-a9fd-b6fe015d0000"
+      },
+      {
+        "name": "Washington Post — Israel says it intercepted first incoming missile from Yemen",
+        "url": "https://www.washingtonpost.com/business/2026/03/28/iran-us-israel-trump-lebanon-march-28-2026/fadadc42-2a7a-11f1-a0f2-3ba4c9fe08ac_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "houthis",
+      "yemen",
+      "israel",
+      "missile",
+      "escalation",
+      "day29",
+      "fifth-front"
+    ]
+  },
+  {
+    "id": "evt-new-434",
+    "title": "Iran drones strike Kuwait International Airport — radar 'significantly' damaged",
+    "description": "Iranian drones attacked Kuwait International Airport and two Kuwaiti ports (Mubarak Al-Kabeer and Shuwaikh) in a coordinated dawn strike. Kuwait's civil aviation authority confirmed the attack via state news agency KUNA. The airport's radar system was 'significantly' damaged in the strike. Kuwait's air defense intercepted 4 drones before they reached the ports and intercepted 3 additional hostile aircraft in Kuwaiti airspace. No injuries were reported. The attack came hours after Kuwait's Saturday dawn prayers, targeting civilian aviation infrastructure.",
+    "type": "strike",
+    "lat": 29.24,
+    "lng": 47.97,
+    "location": "Kuwait International Airport, Kuwait City, Kuwait",
+    "timestamp": "2026-03-28T02:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Kuwait International Airport attacked by several drones",
+        "url": "https://www.jpost.com/middle-east/article-891457"
+      },
+      {
+        "name": "Times of Israel — Day 29 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-28-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "civilian": 0
+    },
+    "tags": [
+      "iran",
+      "kuwait",
+      "drone",
+      "airport",
+      "infrastructure",
+      "day29"
+    ]
+  },
+  {
+    "id": "evt-new-435",
+    "title": "Iran cruise missiles and drones strike UAE industrial zone — 5 injured, fires break out",
+    "description": "Iran fired cruise missiles and drones at the UAE, triggering fires in an industrial zone. The UAE defense ministry confirmed the attack and its air defense response. Five people were injured in the strike. Industrial fires burned at the targeted zone. The UAE's air defense systems intercepted multiple incoming projectiles before additional missiles reached their targets. The attack is part of Iran's expanding campaign against Gulf Cooperation Council members in response to their hosting of US military forces.",
+    "type": "strike",
+    "lat": 24.45,
+    "lng": 54.37,
+    "location": "Industrial zone, Abu Dhabi emirate, UAE",
+    "timestamp": "2026-03-28T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — Day 29 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-28-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "civilian": 5,
+      "injured": 5
+    },
+    "tags": [
+      "iran",
+      "uae",
+      "cruise-missile",
+      "drone",
+      "industrial",
+      "day29"
+    ]
+  },
+  {
+    "id": "evt-new-436",
+    "title": "Iranian drones strike Port of Salalah, Oman — worker injured, crane damaged",
+    "description": "Two Iranian drones struck the Port of Salalah in southern Oman, injuring one foreign worker and causing limited damage including to a crane. The Oman News Agency confirmed the drone attack. The IRGC claimed it was targeting a US logistics vessel near the port. Oman had previously been positioned as a neutral diplomatic intermediary in the conflict, making the attack diplomatically significant. The port of Salalah is a major regional container hub and key logistics node for Indian Ocean shipping.",
+    "type": "strike",
+    "lat": 17.01,
+    "lng": 54.1,
+    "location": "Port of Salalah, Dhofar Governorate, Oman",
+    "timestamp": "2026-03-28T03:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Arabiya — Worker injured in drone attack on Oman's Salalah port",
+        "url": "https://english.alarabiya.net/News/gulf/2026/03/28/worker-injured-in-drone-attack-on-oman-s-salalah-port"
+      },
+      {
+        "name": "Oman Observer — Port of Salalah attacked by drones, expat worker injured",
+        "url": "https://www.omanobserver.om/article/1186812/oman/governorates/port-of-salalah-attacked-by-drones-expat-worker-injured"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "civilian": 1,
+      "injured": 1
+    },
+    "tags": [
+      "iran",
+      "oman",
+      "drone",
+      "port",
+      "salalah",
+      "shipping",
+      "day29"
+    ]
+  },
+  {
+    "id": "evt-new-437",
+    "title": "Pakistan hosts emergency Iran peace summit — Saudi, Turkish, Egyptian FMs arrive in Islamabad",
+    "description": "Pakistan hosted a critical diplomatic summit as foreign ministers from Saudi Arabia, Turkey, and Egypt converged on Islamabad for emergency peace talks aimed at ending the Iran War. Pakistan Deputy PM Ishaq Dar confirmed the meeting. The summit represents the most significant collective Arab/Muslim diplomatic effort to end the conflict. The talks focus on a possible ceasefire framework and Iran's conditions — including reparations, international security guarantees, and an end to hostilities. Iranian President Pezeshkian spoke with Pakistan PM Sharif to affirm Iran's conditions for a settlement.",
+    "type": "diplomatic",
+    "lat": 33.72,
+    "lng": 73.04,
+    "location": "Islamabad, Pakistan",
+    "timestamp": "2026-03-28T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Daily Pakistan — Pakistan hosts critical talks as Saudi, Turkish, Egyptian leaders arrive for Iran peace talks",
+        "url": "https://en.dailypakistan.com.pk/28-Mar-2026/pakistan-hosts-critical-talks-as-saudi-turkish-egyptian-leaders-arrive-for-iran-peace-talks"
+      },
+      {
+        "name": "Times of Israel — Day 29 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-28-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "diplomacy",
+      "pakistan",
+      "saudi",
+      "turkey",
+      "egypt",
+      "peace",
+      "ceasefire",
+      "day29"
+    ]
+  },
+  {
+    "id": "evt-new-438",
+    "title": "Trump calls NATO a 'paper tiger' — demands allies send warships to Hormuz or lose protection",
+    "description": "President Trump escalated his criticism of NATO allies, calling the alliance a 'paper tiger' on Truth Social and in public remarks. Trump said NATO countries 'didn't want to join the fight to stop a Nuclear Powered Iran' and now 'complain about high oil prices' while refusing to help open the Strait of Hormuz. Trump warned he would scale back NATO protection for countries that refused to send warships to the Gulf. He also stated the US still has 'thousands of targets left to strike' in Iran, pushing back against reports that the war was winding down. The comments represented the sharpest transatlantic rupture since the conflict began.",
+    "type": "diplomatic",
+    "lat": 38.91,
+    "lng": -77.04,
+    "location": "Washington D.C. / Truth Social",
+    "timestamp": "2026-03-28T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Hill — Trump calls NATO a 'paper tiger'",
+        "url": "https://thehill.com/homenews/administration/5793172-trump-nato-paper-tiger/"
+      },
+      {
+        "name": "Al Jazeera — Iran war live: Trump again slams NATO's lack of support",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/3/28/iran-war-live-trump-again-slams-natos-lack-of-support-for-war-on-tehran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {},
+    "tags": [
+      "trump",
+      "nato",
+      "diplomacy",
+      "hormuz",
+      "day29"
+    ]
   }
 ]

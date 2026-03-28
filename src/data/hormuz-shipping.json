@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 25,
+  "blockadeDay": 26,
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-28T00:08:00Z",
+  "lastUpdated": "2026-03-28T09:47:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -27,13 +27,13 @@
     "tankerTraffic": "21 tankers transited since Feb 28 (vs 100+/day pre-war)",
     "strandedSeafarers": "40,000+",
     "trappedVessels": "500+ oil/gas tankers, 500+ container ships, 6 cruise ships",
-    "lastUpdated": "2026-03-28T00:08:00Z",
+    "lastUpdated": "2026-03-28T09:47:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
-    "countriesApprovedForTransit": 7,
-    "note": "Iran approved 7 nations for selective transit: China, Russia, India, Iraq, Pakistan, Malaysia, Spain"
+    "countriesApprovedForTransit": 8,
+    "note": "Iran approved 8 nations for selective transit: China, Russia, India, Iraq, Pakistan, Malaysia, Spain, Thailand"
   },
   "timeline": [
     {
@@ -332,6 +332,12 @@
     {
       "date": "2026-03-27",
       "event": "Day 28 (Hormuz blockade Day 25): Iran turns back 3 Chinese ships (COSCO CSCL Indian Ocean, CSCL Arctic Ocean, Marshall Islands-flagged Lotus Rising) near Larak Island — IRGC confirms strait shut to unauthorized vessels. Brent surges to $112.57/bbl (highest since 2022), WTI briefly crosses $100 for first time this conflict. Macquarie warns $200 oil (40% probability) if Hormuz stays shut through June. Iran accepts UN request for humanitarian aid and agricultural shipping corridor. Only 21 tankers transited since war began vs 100+/day pre-war. 150+ ships anchored outside strait. Trump's extended Hormuz reopening deadline: April 7.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-03-28",
+      "event": "Blockade Day 26: Iran attacks Kuwait Airport radar (significantly damaged), Salalah Port Oman (1 injured), UAE industrial zone (5 injured) — simultaneous 3-nation Gulf strike; Thailand reaches transit agreement (8th approved nation); Houthis fire first missile at Israel from Yemen; Islamabad peace summit opens with Saudi/Turkey/Egypt FMs",
       "status": "effectively_closed",
       "barrels": 0
     }

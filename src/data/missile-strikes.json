@@ -4577,5 +4577,59 @@
     "sourceUrl": "https://aninews.in/news/world/middle-east/irgc-claims-impact-driven-strike-on-al-kharj-base-us-refuelling-fleet-destroyed-in-84th-wave20260327222100/",
     "weaponType": "ballistic missile and drone",
     "casualties": {}
+  },
+  {
+    "id": "ms-281",
+    "city": "Kuwait City (International Airport)",
+    "country": "Kuwait",
+    "lat": 29.24,
+    "lng": 47.97,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-28",
+    "description": "Iranian drones struck Kuwait International Airport, significantly damaging the radar system. Kuwait civil aviation authorities confirmed the attack via KUNA. Four drones were intercepted before reaching commercial ports; three additional hostile aircraft were intercepted in Kuwaiti airspace. No casualties.",
+    "source": "Jerusalem Post — Kuwait International Airport attacked by several drones",
+    "sourceUrl": "https://www.jpost.com/middle-east/article-891457",
+    "weaponType": "Shahed-class drone",
+    "casualties": {
+      "civilian": 0,
+      "military": 0
+    }
+  },
+  {
+    "id": "ms-282",
+    "city": "Salalah",
+    "country": "Oman",
+    "lat": 17.01,
+    "lng": 54.1,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-03-28",
+    "description": "Two Iranian drones struck the Port of Salalah in southern Oman, injuring one foreign worker and damaging a crane. The IRGC claimed it was targeting a US logistics vessel near the port. Oman had been serving as a diplomatic intermediary. This was the first direct strike on Oman in the conflict.",
+    "source": "Al Arabiya — Worker injured in drone attack on Oman's Salalah port",
+    "sourceUrl": "https://english.alarabiya.net/News/gulf/2026/03/28/worker-injured-in-drone-attack-on-oman-s-salalah-port",
+    "weaponType": "Shahed-class drone",
+    "casualties": {
+      "civilian": 1,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-283",
+    "city": "Abu Dhabi (Industrial Zone)",
+    "country": "UAE",
+    "lat": 24.45,
+    "lng": 54.37,
+    "strikeType": "cruise_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-28",
+    "description": "Iran fired cruise missiles and drones at a UAE industrial zone, triggering industrial fires and injuring 5 people. The UAE defense ministry confirmed the attack and its air defense response. Several projectiles were intercepted before causing additional damage.",
+    "source": "Times of Israel — Day 29 liveblog",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-march-28-2026/",
+    "weaponType": "Cruise missile / Shahed drone",
+    "casualties": {
+      "civilian": 5,
+      "injured": 5
+    }
   }
 ]
