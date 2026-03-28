@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X, Radio, CheckCircle, XCircle, HelpCircle } from 'lucide-react'
+import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X } from 'lucide-react'
 import CensorshipNotice from './CensorshipNotice'
 import SourcesNotice from './SourcesNotice'
 import siteMetadata from '../../data/site-metadata.json'
@@ -19,7 +19,6 @@ import damageData from '../../data/damage-data.json'
 import socialData from '../../data/social-posts.json'
 import lobbyData from '../../data/lobby-data.json'
 import hormuzData from '../../data/hormuz-shipping.json'
-import developingStories from '../../data/developing-stories.json'
 
 // ----- Reusable section wrapper -----
 function SectionCard({ icon: Icon, title, color, route, children }) {
@@ -116,145 +115,6 @@ function EscalationsAnd24hrSummary() {
 }
 
 // ----- DEVELOPING STORIES -----
-function DevelopingStories() {
-  const [expandedStory, setExpandedStory] = useState(null)
-  const [expandedSections, setExpandedSections] = useState({})
-
-  if (!developingStories || developingStories.length === 0) return null
-
-  const toggleSection = (storyId, sectionIdx) => {
-    const key = `${storyId}-${sectionIdx}`
-    setExpandedSections(prev => ({ ...prev, [key]: !prev[key] }))
-  }
-
-  const statusIcon = (status) => {
-    switch (status) {
-      case 'confirmed': return <CheckCircle size={10} className="text-green-400 shrink-0" />
-      case 'debunked': return <XCircle size={10} className="text-red-400 shrink-0" />
-      case 'likely': return <HelpCircle size={10} className="text-yellow-400 shrink-0" />
-      default: return <HelpCircle size={10} className="text-gray-400 shrink-0" />
-    }
-  }
-
-  const statusColor = (status) => {
-    switch (status) {
-      case 'confirmed': return 'text-green-400'
-      case 'debunked': return 'text-red-400'
-      case 'likely': return 'text-yellow-400'
-      default: return 'text-gray-400'
-    }
-  }
-
-  return (
-    <>
-      {developingStories.map(story => {
-        const isExpanded = expandedStory === story.id
-        return (
-          <div key={story.id} className="bg-gray-900/60 border border-red-900/60 rounded-lg overflow-hidden">
-            {/* DEVELOPING red bar header */}
-            <button
-              onClick={() => setExpandedStory(isExpanded ? null : story.id)}
-              className="w-full flex items-center gap-3 px-4 py-3 bg-red-950/80 border-b border-red-900/40 hover:bg-red-950 transition-colors cursor-pointer text-left"
-            >
-              <div className="flex items-center gap-2 shrink-0">
-                <Radio size={14} className="text-red-400 animate-pulse" />
-                <span className="text-[10px] font-black tracking-widest text-red-400 bg-red-900/50 px-2 py-0.5 rounded">DEVELOPING</span>
-              </div>
-              <p className="text-xs font-bold text-red-200 flex-1 leading-snug">{story.headline}</p>
-              <ChevronDown size={16} className={`text-red-400 shrink-0 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
-
-            {/* Summary always visible */}
-            <div className="px-4 py-3 border-b border-gray-800/60">
-              <p className="text-[11px] text-gray-300 leading-relaxed">{story.summary}</p>
-              <p className="text-[9px] text-gray-600 mt-1.5">
-                Last updated: {new Date(story.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}
-              </p>
-              {!isExpanded && (
-                <button
-                  onClick={() => setExpandedStory(story.id)}
-                  className="mt-2 text-[10px] text-red-400 hover:text-red-300 font-semibold transition-colors"
-                >
-                  Click to expand full breakdown ▾
-                </button>
-              )}
-            </div>
-
-            {/* Expandable content */}
-            {isExpanded && (
-              <div className="divide-y divide-gray-800/40">
-                {story.sections.map((section, sIdx) => {
-                  const sKey = `${story.id}-${sIdx}`
-                  const sectionOpen = expandedSections[sKey] !== false // default open
-                  return (
-                    <div key={sIdx}>
-                      {/* Section header */}
-                      <button
-                        onClick={() => toggleSection(story.id, sIdx)}
-                        className="w-full flex items-center gap-2 px-4 py-2.5 bg-gray-900/40 hover:bg-gray-800/40 transition-colors cursor-pointer text-left"
-                      >
-                        {statusIcon(section.status)}
-                        <span className="text-[10px] font-bold text-gray-200 flex-1">{section.title}</span>
-                        <span className={`text-[8px] font-bold uppercase tracking-wider ${statusColor(section.status)}`}>
-                          {section.status}
-                        </span>
-                        <ChevronDown size={12} className={`text-gray-500 shrink-0 transition-transform duration-200 ${sectionOpen ? 'rotate-180' : ''}`} />
-                      </button>
-
-                      {/* Section items */}
-                      {sectionOpen && (
-                        <div className="px-4 py-2 space-y-2.5">
-                          {section.items.map((item, iIdx) => (
-                            <div key={iIdx} className="bg-gray-800/30 rounded-lg p-3">
-                              <div className="flex items-start justify-between gap-3">
-                                <p className="text-[11px] font-semibold text-gray-200 leading-snug flex-1">{item.label}</p>
-                                <span className={`shrink-0 text-[10px] font-bold px-2 py-0.5 rounded ${
-                                  item.value === 'DEBUNKED' ? 'bg-red-900/50 text-red-300' :
-                                  item.value === 'UNVERIFIED' ? 'bg-yellow-900/50 text-yellow-300' :
-                                  'bg-gray-800 text-gray-300'
-                                }`}>
-                                  {item.value}
-                                </span>
-                              </div>
-                              <p className="text-[10px] text-gray-400 leading-relaxed mt-1.5">{item.detail}</p>
-                              {item.source && (
-                                <div className="flex items-center gap-1.5 mt-2">
-                                  <ExternalLink size={8} className="text-blue-400 shrink-0" />
-                                  <a
-                                    href={item.sourceUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-[9px] text-blue-400 hover:text-blue-300 transition-colors truncate"
-                                  >
-                                    {item.source}
-                                  </a>
-                                </div>
-                              )}
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )
-                })}
-
-                {/* Bottom disclaimer */}
-                <div className="px-4 py-3 bg-gray-900/30">
-                  <div className="flex items-start gap-1.5">
-                    <AlertTriangle size={10} className="text-amber-400 shrink-0 mt-0.5" />
-                    <p className="text-[9px] text-amber-300/80 leading-relaxed">
-                      <strong className="text-amber-200">This is an active developing story.</strong> Figures may change as new information becomes available. IRGC casualty claims have been systematically inflated and should be treated with extreme skepticism. Pentagon reporting has also been criticized for staged disclosure. Independent verification is limited by operational security restrictions and Iran's internet blackout.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-        )
-      })}
-    </>
-  )
-}
 
 // ----- 2. Casualties -----
 function CasualtySummary() {
@@ -627,10 +487,7 @@ export default function HomepageSummary() {
 
       {/* Grid of summary cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-8 max-w-[1400px] mx-auto">
-        <div className="space-y-4">
-          <EscalationsAnd24hrSummary />
-          <DevelopingStories />
-        </div>
+        <EscalationsAnd24hrSummary />
         <CasualtySummary />
         <EnergySummary />
         <CostSummary />
