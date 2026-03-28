@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Radio, ChevronDown, CheckCircle, XCircle, HelpCircle, AlertTriangle, ExternalLink } from 'lucide-react'
+import { Radio, ChevronDown, HelpCircle, AlertTriangle, ExternalLink, Shield } from 'lucide-react'
 import developingStories from '../../data/developing-stories.json'
 
 export default function DevelopingBanner() {
@@ -15,19 +15,28 @@ export default function DevelopingBanner() {
 
   const statusIcon = (status) => {
     switch (status) {
-      case 'confirmed': return <CheckCircle size={10} className="text-green-400 shrink-0" />
-      case 'debunked': return <XCircle size={10} className="text-red-400 shrink-0" />
-      case 'likely': return <HelpCircle size={10} className="text-yellow-400 shrink-0" />
+      case 'irgc': return <Radio size={10} className="text-red-400 shrink-0" />
+      case 'us': return <Shield size={10} className="text-blue-400 shrink-0" />
+      case 'independent': return <HelpCircle size={10} className="text-yellow-400 shrink-0" />
       default: return <HelpCircle size={10} className="text-gray-400 shrink-0" />
     }
   }
 
   const statusColor = (status) => {
     switch (status) {
-      case 'confirmed': return 'text-green-400'
-      case 'debunked': return 'text-red-400'
-      case 'likely': return 'text-yellow-400'
+      case 'irgc': return 'text-red-400'
+      case 'us': return 'text-blue-400'
+      case 'independent': return 'text-yellow-400'
       default: return 'text-gray-400'
+    }
+  }
+
+  const statusLabel = (status) => {
+    switch (status) {
+      case 'irgc': return 'IRANIAN SOURCE'
+      case 'us': return 'US SOURCE'
+      case 'independent': return 'INDEPENDENT'
+      default: return status?.toUpperCase()
     }
   }
 
@@ -82,7 +91,7 @@ export default function DevelopingBanner() {
                     {statusIcon(section.status)}
                     <span className="text-[10px] font-bold text-gray-200 flex-1">{section.title}</span>
                     <span className={`text-[8px] font-bold uppercase tracking-wider ${statusColor(section.status)}`}>
-                      {section.status}
+                      {statusLabel(section.status)}
                     </span>
                     <ChevronDown size={12} className={`text-gray-500 shrink-0 transition-transform duration-200 ${sectionOpen ? 'rotate-180' : ''}`} />
                   </button>
@@ -93,12 +102,7 @@ export default function DevelopingBanner() {
                         <div key={iIdx} className="bg-gray-800/30 rounded-lg p-3">
                           <div className="flex items-start justify-between gap-3">
                             <p className="text-[11px] font-semibold text-gray-200 leading-snug flex-1">{item.label}</p>
-                            <span className={`shrink-0 text-[10px] font-bold px-2 py-0.5 rounded ${
-                              item.value === 'DEBUNKED' ? 'bg-red-900/50 text-red-300' :
-                              item.value === 'CONFIRMED' ? 'bg-green-900/50 text-green-300' :
-                              item.value === 'UNVERIFIED' ? 'bg-yellow-900/50 text-yellow-300' :
-                              'bg-gray-800 text-gray-300'
-                            }`}>
+                            <span className="shrink-0 text-[10px] font-bold px-2 py-0.5 rounded bg-gray-800 text-gray-300">
                               {item.value}
                             </span>
                           </div>
@@ -129,7 +133,7 @@ export default function DevelopingBanner() {
               <div className="flex items-start gap-1.5">
                 <AlertTriangle size={10} className="text-amber-400 shrink-0 mt-0.5" />
                 <p className="text-[9px] text-amber-300/80 leading-relaxed">
-                  <strong className="text-amber-200">This is an active developing story.</strong> IRGC claims about sinking US ships have been systematically debunked. Viral videos have been traced to video game footage. Independent verification is limited by operational security restrictions and Iran's internet blackout (~4% connectivity).
+                  <strong className="text-amber-200">This is an active developing story.</strong> Claims from all sides are presented as reported by their respective sources. Independent verification is limited. Readers should evaluate all claims critically.
                 </p>
               </div>
             </div>
