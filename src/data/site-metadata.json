@@ -1,23 +1,32 @@
 {
-  "lastUpdated": "2026-03-28T14:08:00Z",
-  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
+  "lastUpdated": "2026-03-28T22:33:00Z",
+  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.0",
   "conflictDay": 29,
-  "totalSocialPosts": 25,
+  "totalSocialPosts": 23,
   "dataFiles": {
-    "events": 487,
+    "events": {
+      "totalEntries": 490,
+      "lastId": "evt-new-442"
+    },
     "warTimeline": {
       "count": 462,
       "lastId": "tl-462"
     },
-    "breaking": 15,
+    "breaking": {
+      "totalEntries": 12,
+      "lastId": "brk-468"
+    },
     "socialPosts": {
       "count": 25,
       "lastId": "social-349"
     },
     "governmentStatements": 276,
-    "escalations": 207,
+    "escalations": {
+      "totalEntries": 208,
+      "lastId": "esc-207"
+    },
     "missileStrikes": 285,
     "damageLocations": 218,
     "factCheckClaims": 77,
@@ -28,31 +37,30 @@
     "globalInvolvement": 18,
     "timeline": 462,
     "war-timeline": {
-      "count": 462,
-      "lastId": "tl-462",
-      "totalEntries": 462
+      "totalEntries": 465,
+      "lastId": "tl-465"
     },
     "missile-strikes": {
-      "count": 285,
-      "lastId": "ms-285",
-      "totalEntries": 285
+      "totalEntries": 287,
+      "lastId": "ms-287"
     },
     "damage-data": {
-      "count": 218,
-      "lastId": "dmg-222",
-      "totalEntries": 218
+      "totalEntries": 220,
+      "lastId": "dmg-224"
     },
     "government-statements": {
-      "count": 276,
-      "lastId": "gov-276",
-      "totalEntries": 276
+      "totalEntries": 279,
+      "lastId": "gov-279"
     },
     "social-posts": {
-      "count": 25,
-      "lastId": "social-349",
-      "totalEntries": 25
+      "totalEntries": 23,
+      "lastId": "social-355"
     },
-    "damageSites": 218
+    "damageSites": 218,
+    "global-involvement": {
+      "totalEntries": 19,
+      "lastId": "gi-pakistan"
+    }
   },
-  "updateNote": "Day 29 7:08 AM PDT — Houthis enter war (1st missile at Israel intercepted); Israel kills 2 journalists in Jezzine Lebanon; Islamabad peace summit underway; G7 demands Hormuz reopening; Iran 5-point counter-plan submitted; Lebanon toll 1,145+"
+  "updateNote": "Day 29 7:08 AM PDT \u2014 Houthis enter war (1st missile at Israel intercepted); Israel kills 2 journalists in Jezzine Lebanon; Islamabad peace summit underway; G7 demands Hormuz reopening; Iran 5-point counter-plan submitted; Lebanon toll 1,145+"
 }

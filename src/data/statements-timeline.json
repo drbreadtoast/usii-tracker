@@ -15,9 +15,9 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-03-28T14:08:00Z",
+    "lastUpdated": "2026-03-28T22:33:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 305,
+    "totalStatements": 325,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-03-25"
@@ -2077,6 +2077,17 @@
           "factCheckNote": "Pezeshkian's X post confirmed. Calls with Russia and Pakistan PM confirmed by both sides.",
           "source": "Pezeshkian on X via Pakistan Today",
           "sourceUrl": "https://www.pakistantoday.com.pk/2026/03/23/pm-shehbaz-stresses-urgent-need-for-collective-de-escalation-efforts-in-call-with-iranian-president"
+        },
+        {
+          "id": "pezeshkian-016",
+          "date": "2026-03-28",
+          "text": "Iran needs trust and credible guarantees before any talks can succeed. Pakistan's mediation is valuable \u2014 but the window for diplomacy requires all parties to act in good faith. Iran has laid out its conditions: recognition of legitimate rights, payment of reparations, and firm guarantees against future aggression.",
+          "context": "Phone call with Pakistan PM Shehbaz Sharif on Day 29, discussing Islamabad peace summit and Iran's conditions for ceasefire negotiations",
+          "venue": "Phone call with Pakistani PM Sharif",
+          "factCheck": "verified",
+          "factCheckNote": "Call confirmed by Iranian state media and Times of Israel liveblog.",
+          "source": "Times of Israel",
+          "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/irans-pezeshkian-tells-pakistani-pm-trust-needed-in-talks-to-end-war-praises-mediation-efforts/"
         }
       ]
     },
@@ -2537,6 +2548,17 @@
           "factCheckNote": "Kallas statement confirmed by Euronews and the G7 joint communique. G7 joint statement conditioned Hormuz security mission on ceasefire.",
           "source": "Euronews \u2014 G7 agrees to secure Strait of Hormuz but only after war in Iran ends",
           "sourceUrl": "https://www.euronews.com/my-europe/2026/03/27/g7-agrees-to-secure-strait-of-hormuz-but-only-after-war-in-iran-ends"
+        },
+        {
+          "id": "kallas-026",
+          "date": "2026-03-28",
+          "text": "The EU continues to hold Iran accountable. Today, EU Member States ambassadors approved new sanctions targeting 19 regime officials and entities responsible for serious human rights violations. As the Iran war continues, the EU will protect its interests and pursue those responsible for domestic repression.",
+          "context": "X post announcing new EU targeted sanctions approved at Day 29 of the conflict",
+          "venue": "X (formerly Twitter)",
+          "factCheck": "verified",
+          "factCheckNote": "Kallas X post confirmed. EU Council approved new sanctions package targeting 19 officials.",
+          "source": "Kaja Kallas X post",
+          "sourceUrl": "https://x.com/kajakallas/status/2031690454027080082"
         }
       ]
     },
@@ -3325,6 +3347,17 @@
           "factCheckNote": "The Hill confirmed the statement. Pope Leo has made multiple similar statements across the conflict \u2014 see pope_leo-011 through pope_leo-013 for prior context.",
           "source": "The Hill",
           "sourceUrl": "https://thehill.com/policy/international/5762130-pope-leo-xiv-iran-peace/"
+        },
+        {
+          "id": "pope_leo-015",
+          "date": "2026-03-24",
+          "text": "I want to renew my call for a ceasefire, to work toward peace, not through weapons, but through dialogue, and to genuinely seek a solution that benefits everyone. Right now, hatred is on the rise, violence is getting worse, there are over a million displaced people, and so many have lost their lives.",
+          "context": "Remarks to journalists at Castel Gandolfo, renewing ceasefire appeal as conflict enters its fourth week",
+          "venue": "Castel Gandolfo, Vatican",
+          "factCheck": "verified",
+          "factCheckNote": "Confirmed by Melbourne Catholic and The Hill.",
+          "source": "The Hill",
+          "sourceUrl": "https://thehill.com/policy/international/5762130-pope-leo-xiv-iran-peace/"
         }
       ]
     },
@@ -3780,6 +3813,27 @@
           "factCheckNote": "DW News confirmed",
           "source": "The Hill",
           "sourceUrl": "https://thehill.com/policy/international/5776842-germany-merz-concerns-iran-war/"
+        }
+      ]
+    },
+    {
+      "id": "vance",
+      "name": "JD Vance",
+      "title": "Vice President of the United States",
+      "country": "us",
+      "color": "#EF4444",
+      "shortName": "Vance",
+      "statements": [
+        {
+          "id": "vance-001",
+          "date": "2026-03-28",
+          "text": "We are taking care of business, we are going to be out of there soon, and gas prices will come back down. The president's going to keep at it for a little while longer to ensure that once we leave, we don't have to do this again for a very, very long time. We need to neuter them for a very, very long time and that's the purpose.",
+          "context": "Podcast interview on the Benny Show, stating the US has accomplished most of its military objectives in Iran and will exit the conflict soon",
+          "venue": "Benny Show Podcast",
+          "factCheck": "verified",
+          "factCheckNote": "Confirmed by Haaretz, Times of Israel liveblog, and The Tribune India.",
+          "source": "Haaretz",
+          "sourceUrl": "https://www.haaretz.com/middle-east-news/2026-03-28/ty-article/.premium/vance-on-iran-were-taking-care-of-business-were-going-be-out-of-there-soon/0000019d-34fd-de07-a9fd-b7ff56b10000"
         }
       ]
     }
