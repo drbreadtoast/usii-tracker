@@ -35,23 +35,23 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-03-28T09:47:00Z",
+    "lastUpdated": "2026-03-28T22:33:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 24,
+    "daysOfConflict": 29,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 27
+    "conflictDay": 29
   },
   "countryCosts": {
     "us": {
       "name": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
-        "total": 29600000000,
+        "total": 30500000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 9400000000,
-            "description": "Tomahawk cruise missiles (430+ used), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $50B supplemental requested for replenishment.",
+            "amount": 10300000000,
+            "description": "Tomahawk cruise missiles (850+ used at $2M each = $1.7B \u2014 9\u00d7 annual procurement rate, approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $200B+ supplemental requested for replenishment. 850+ Tomahawks represents ~20-27% of Navy's estimated active inventory.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
@@ -80,7 +80,7 @@
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$25.8B",
+        "totalFormatted": "$30.5B",
         "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon now requesting $200B+ supplemental (WaPo March 18). 250+ groups oppose additional funding.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
@@ -96,7 +96,7 @@
           },
           "oilPriceImpact": {
             "amount": 17000000000,
-            "description": "Cost to US economy from Brent at $99.75/bbl (+24.9% from pre-war $79.84). Gas at $3.977/gal national avg (+$0.80 from pre-war $3.18). IEA 400M barrel + US 172M SPR barrels released March 11. S&P 500 under pressure. Fed holds rates at 3.5-3.75%.",
+            "description": "Cost to US economy from Brent at $112.57/bbl (+41.1% from pre-war $79.84). Gas at $3.981/gal national avg (+$0.80 from pre-war $3.18). IEA 400M barrel + US 172M SPR barrels released March 11. S&P 500 in correction territory \u2014 Dow dropped 1.73% on Day 28 (5th straight weekly loss). Fed holds rates at 3.5-3.75%, warns inflation 'not coming down as hoped.'",
             "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
             "sourceUrl": "https://www.eia.gov/outlooks/steo/"
           },
@@ -114,27 +114,27 @@
           }
         }
       },
-      "dailyBurnRate": 1500000000,
-      "dailyBurnRateNote": "$1.5-2 billion/day estimated. First 6 days cost $11.3B per congressional briefing. Pentagon emergency funding request of $50-200B pending.",
-      "totalEstimate": "$24-28 billion",
-      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 15. Daily costs $890M-$2B. Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), bringing total ~50,000 personnel in theater. Hegseth: '7,000+ targets struck across Iran.'",
-      "totalCost": 27000000000,
-      "totalFormatted": "~$43.5 billion (Day 29 est.)",
-      "total": 43500000000,
-      "lastUpdated": "2026-03-26",
-      "note": "Day 28 total at 1.5B/day burn rate. Pentagon submitted \\B supplemental budget request. US struck 7,000+ targets in Iran. CENTCOM confirmed 92% of Iran large navy ships eliminated.",
-      "totalNote": "CSIS estimate through Day 12: $16.5B ($11.3B operational + $1.7B combat losses). Growing daily. Trump admin seeking $200B supplemental from Congress."
+      "dailyBurnRate": 850000000,
+      "dailyBurnRateNote": "$850M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
+      "totalEstimate": "$30B direct military + $38B indirect",
+      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
+      "totalCost": 30500000000,
+      "totalFormatted": "~$68.0B (direct + indirect, Day 29)",
+      "total": 68050000000,
+      "lastUpdated": "2026-03-28",
+      "note": "Day 29. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. US struck 15,000+ targets in Iran (Hegseth Day 29). CENTCOM confirmed 92% of Iran large navy ships eliminated. Daily burn rate settling to $601M-$1B/day (CSIS/CAP).",
+      "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress."
     },
     "israel": {
       "name": "Israel",
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "directMilitaryCosts": {
-        "total": 8110000000,
+        "total": 9310000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 2000000000,
-            "description": "Arrow-3 and Arrow-2 interceptors, Iron Dome Tamir interceptors, David's Sling interceptors, LORA ballistic missiles, Delilah cruise missiles, and precision-guided munitions used in strikes and air defense",
+            "amount": 3200000000,
+            "description": "Arrow-3 (40+ used, $2.5M each), Arrow-2 (55+ used, $3M each), Iron Dome Tamir (4,500+ used, $50K each = $225M), David's Sling (80+ used, $1M each), LORA ballistic missiles, Delilah cruise missiles, precision-guided munitions. RUSI warns Arrow stocks near total depletion. $1.25B Raytheon-Rafael contract to surge Tamir production. NIS 2.6B ($826M) emergency procurement allocation.",
             "source": "Israeli Ministry of Defense / SIPRI Arms Transfers Database",
             "sourceUrl": "https://www.sipri.org/databases/armstransfers"
           },
@@ -163,7 +163,7 @@
             "sourceUrl": "https://www.mod.gov.il/English/"
           }
         },
-        "source": " | Anadolu Agency: Iran war cost Israeli military $6.4B in first 20 days (March 20, 2026).",
+        "source": "Calcalist: $480-550M/day avg. | Anadolu Agency: Iran war cost Israeli military $6.4B in first 20 days (March 20, 2026). | Haaretz: Defense budget $11B+ above plan. | Bloomberg: $13B budget increase + $2.9B supplement.",
         "sourceUrl": "https://www.aa.com.tr/en/middle-east/iran-war-cost-israeli-military-64b-in-first-20-days-report/3872414"
       },
       "indirectCosts": {
@@ -196,9 +196,9 @@
           }
         }
       },
-      "dailyBurnRate": 970000000,
-      "dailyBurnRateNote": "Estimated daily cost including missile defense operations, IAF sorties, reserve mobilization, and civil defense",
-      "note": "$6.4B in first 20 days (~$320M/day). Day 24 cumulative estimated $7.1B+. NIS 32B emergency defense budget supplement; 8.8% GDP defense spending."
+      "dailyBurnRate": 500000000,
+      "dailyBurnRateNote": "Calcalist estimates $480-550M/day average ($645-970M/day first 3 days). Includes missile defense operations, IAF sorties (60 jets dropped 150+ bombs Day 28 alone), 300,000 reserve mobilization, and civil defense.",
+      "note": "Calcalist: $480-550M/day avg. $6.4B in first 20 days (~$320M/day early, accelerating). Day 29 cumulative estimated $14.5B+. NIS 177B revised defense budget (from NIS 112B base). NIS 2.6B ($826M) emergency procurement. $13B + $2.9B budget supplements approved. RUSI: Arrow interceptors near total depletion \u2014 'unsustainable' 92% interception rate. UK declined US request to share interceptors."
     },
     "iran": {
       "name": "Iran",
@@ -278,11 +278,11 @@
       "weapon": "BGM-109 Tomahawk Block V",
       "country": "us",
       "unitCost": 2000000,
-      "quantityUsed": 400,
-      "totalCost": 800000000,
-      "description": "Land-attack cruise missile launched from Arleigh Burke-class destroyers and Virginia-class submarines against Iranian military and nuclear facilities",
+      "quantityUsed": 850,
+      "totalCost": 1700000000,
+      "description": "Land-attack cruise missile launched from Arleigh Burke-class destroyers and Virginia-class submarines against Iranian military and nuclear facilities. 850+ fired through Day 29 \u2014 approximately 9\u00d7 annual procurement rate. Pentagon approaching 'Winchester' status for Tomahawks in CENTCOM.",
       "source": "CRS Report: Navy Tomahawk Cruise Missile Program",
-      "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32544"
+      "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/27/iran-war-tomahawk-missiles/"
     },
     {
       "weapon": "GBU-57A/B Massive Ordnance Penetrator (MOP)",
@@ -338,9 +338,9 @@
       "weapon": "Iron Dome Tamir Interceptor",
       "country": "israel",
       "unitCost": 50000,
-      "quantityUsed": 2000,
-      "totalCost": 100000000,
-      "description": "Short-range interceptor missiles used to defend Israeli population centers against Iranian rocket and drone attacks; high intercept rate against Shahed-136 drones and short-range rockets",
+      "quantityUsed": 4500,
+      "totalCost": 225000000,
+      "description": "Short-range interceptor missiles used to defend Israeli population centers against Iranian rocket, drone, and (unexpectedly) some ballistic missile attacks. Iron Dome now performing ballistic intercepts as Arrow stocks deplete. $1.25B Raytheon-Rafael contract to surge Tamir production.",
       "source": "CSIS Missile Defense Project / Rafael Advanced Defense Systems",
       "sourceUrl": "https://missilethreat.csis.org/system/iron-dome/"
     },
@@ -348,9 +348,9 @@
       "weapon": "Arrow-3 Interceptor",
       "country": "israel",
       "unitCost": 2500000,
-      "quantityUsed": 15,
-      "totalCost": 37500000,
-      "description": "Exo-atmospheric ballistic missile defense interceptor used against Iranian Emad and Sejjil medium-range ballistic missiles; intercepts targets in space before reentry",
+      "quantityUsed": 40,
+      "totalCost": 100000000,
+      "description": "Exo-atmospheric ballistic missile defense interceptor used against Iranian Emad and Sejjil medium-range ballistic missiles; intercepts targets in space before reentry. RUSI warns Arrow-3 stocks 'near total depletion' after 29 days of sustained mass intercept operations. Could be fully exhausted by end of March.",
       "source": "CSIS Missile Defense Project / Israel Missile Defense Organization",
       "sourceUrl": "https://missilethreat.csis.org/system/arrow-3/"
     },
@@ -358,9 +358,9 @@
       "weapon": "Arrow-2 Interceptor",
       "country": "israel",
       "unitCost": 3000000,
-      "quantityUsed": 20,
-      "totalCost": 60000000,
-      "description": "Endo-atmospheric ballistic missile defense interceptor providing lower-tier defense against Iranian ballistic missiles that penetrate Arrow-3 engagement envelope",
+      "quantityUsed": 55,
+      "totalCost": 165000000,
+      "description": "Endo-atmospheric ballistic missile defense interceptor providing lower-tier defense against Iranian ballistic missiles that penetrate Arrow-3 engagement envelope. More than half of pre-war inventory depleted in first 96 hours. UK declined US request to share interceptors.",
       "source": "CSIS Missile Defense Project / IAI",
       "sourceUrl": "https://missilethreat.csis.org/system/arrow-2/"
     },
@@ -368,9 +368,9 @@
       "weapon": "David's Sling Stunner Interceptor",
       "country": "israel",
       "unitCost": 1000000,
-      "quantityUsed": 45,
-      "totalCost": 45000000,
-      "description": "Medium-range interceptor bridging the gap between Iron Dome and Arrow systems; used against Iranian cruise missiles and large-caliber rockets",
+      "quantityUsed": 80,
+      "totalCost": 80000000,
+      "description": "Medium-range interceptor bridging the gap between Iron Dome and Arrow systems; used against Iranian cruise missiles and large-caliber rockets. Heavily tasked as Arrow stocks depleted. ~$700K-$1M per interceptor.",
       "source": "CSIS Missile Defense Project / Rafael-Raytheon",
       "sourceUrl": "https://missilethreat.csis.org/system/davids-sling/"
     },
@@ -378,9 +378,9 @@
       "weapon": "Shahed-136 (Geran-2) One-Way Attack UAV",
       "country": "iran",
       "unitCost": 20000,
-      "quantityUsed": 500,
-      "totalCost": 10000000,
-      "description": "Delta-wing loitering munition/kamikaze drone with ~2,500km range and 50kg warhead; launched in swarms to overwhelm Israeli air defenses and strike infrastructure",
+      "quantityUsed": 1200,
+      "totalCost": 24000000,
+      "description": "Delta-wing loitering munition/kamikaze drone with ~2,500km range and 50kg warhead; launched in swarms to overwhelm Israeli air defenses and strike infrastructure. Iran averaging ~94 drones/day after initial phase. Drones down 95% per Hegseth.",
       "source": "RUSI / IISS Military Balance",
       "sourceUrl": "https://rusi.org/"
     },
@@ -450,7 +450,7 @@
       },
       {
         "name": "Carrier Strike Group 2 (CVN-77 Bush)",
-        "location": "Gulf of Oman",
+        "location": "En route / Eastern Mediterranean",
         "vessels": 7
       }
     ],
@@ -458,21 +458,21 @@
     "carrierGroupDailyCostNote": "Estimated daily operating cost per carrier strike group including air wing operations, escort vessels, and logistics ships based on Navy Visibility and Management of Operating and Support Costs (VAMOSC)",
     "destroyerDailyCost": 500000,
     "destroyerDailyCostNote": "Estimated daily operating cost per Arleigh Burke-class guided-missile destroyer at wartime tempo",
-    "totalAssetsDeployed": 35,
+    "totalAssetsDeployed": 38,
     "assetBreakdown": {
       "aircraftCarriers": 3,
       "guidedMissileDestroyers": 12,
       "guidedMissileCruisers": 3,
       "attackSubmarines": 4,
       "guidedMissileSubmarines": 1,
-      "amphibiousAssaultShips": 3,
-      "logisticsAndSupportShips": 6
+      "amphibiousAssaultShips": 4,
+      "logisticsAndSupportShips": 7
     },
     "estimatedDailyCost": 25000000,
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
-    "daysDeployed": 21,
-    "totalNavalCost": 525000000,
-    "totalNavalCostNote": "Total naval deployment cost for 20 days of active conflict operations ($25M/day \u00d7 20 days)",
+    "daysDeployed": 29,
+    "totalNavalCost": 725000000,
+    "totalNavalCostNote": "Total naval deployment cost for 29 days of active conflict operations ($25M/day \u00d7 29 days)",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -540,19 +540,19 @@
     },
     "oilPriceShock": {
       "preConflictPrice": 79.8,
-      "currentPrice": 110.28,
+      "currentPrice": 112.57,
       "peakPrice": 119.11,
-      "wtiPrice": 96.2,
-      "usGasPricePerGallon": 3.88,
+      "wtiPrice": 99.64,
+      "usGasPricePerGallon": 3.981,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 38.2,
-      "estimatedGlobalCost": 850000000000,
-      "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated, based on approximately 100 million barrels/day global consumption",
+      "percentageIncrease": 41.1,
+      "estimatedGlobalCost": 950000000000,
+      "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated at Brent $112.57, based on approximately 100 million barrels/day global consumption. Macquarie warns 40% probability of $200 oil if Hormuz stays shut through June.",
       "hormuzFlowDisruption": {
         "normalFlowMBD": 21.0,
-        "currentFlowMBD": 3.5,
-        "percentageReduction": 83.3,
-        "description": "Approximately 21 million barrels per day normally transit the Strait of Hormuz (~21% of global oil consumption). Iranian mine-laying and IRGC Navy operations have reduced flow to approximately 3.5 million barrels per day through limited convoy routes."
+        "currentFlowMBD": 0.5,
+        "percentageReduction": 97.6,
+        "description": "Approximately 21 million barrels per day normally transit the Strait of Hormuz (~21% of global oil consumption). IRGC enforcing effective blockade \u2014 only 21 tankers have transited since war began vs 100+/day pre-war. Iran operates 'toll booth' system allowing select friendly nations (China, Russia, India, Pakistan, Iraq, Thailand, Malaysia). Overall tanker traffic down 95%+. Only ~0.5 MBD trickling through via tolled passages."
       },
       "source": "EIA / IEA Oil Market Report",
       "sourceUrl": "https://www.eia.gov/petroleum/weekly/"
@@ -579,13 +579,13 @@
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
-    "stockMarketImpact": "S&P 500 at 6,606 (-0.27%) March 19. Nasdaq -0.28%, Dow -0.44% (-200pts). 4th consecutive weekly decline. Triple-witching: $5.7T options expiry March 20. Approaching correction territory (~8% off highs). Macquarie: Fed may raise rates.",
-    "oilPriceImpact": "Brent $110.71/bbl (+38.7% from pre-war $79.8). WTI $93.55 (+23.9%). Brent spiked to $119.11 intraday. IEA: largest supply disruption in history \u2014 8 mb/d plunge. Goldman warns $147+.",
-    "gasPrice": 3.88,
-    "brentCrude": 110.71,
-    "wtiCrude": 96.2,
-    "brentPrice": 110.28,
-    "oilPriceIncrease": "+38.2%",
+    "stockMarketImpact": "S&P 500 -1.67% Day 28 (7-month low, 5th straight weekly loss). Dow -1.73% officially in correction. Nasdaq underperforming. Fed holds rates at 3.5-3.75%, warns inflation progress stalled. Hedge funds worst drawdowns since Liberation Day (JPMorgan). Macquarie: 'crude will trade like a meme stock until the solution is peace.'",
+    "oilPriceImpact": "Brent $112.57/bbl (+41.1% from pre-war $79.84). WTI $99.64 (+32.0% from $75.51). Brent spiked to $119.50 intraday (52-week high). IEA: largest supply disruption in history \u2014 21 MBD to ~0.5 MBD through Hormuz. Goldman warns $147+. Macquarie: 40% chance of $200 if Hormuz shut through June.",
+    "gasPrice": 3.981,
+    "brentCrude": 112.57,
+    "wtiCrude": 99.64,
+    "brentPrice": 112.57,
+    "oilPriceIncrease": "+41.1%",
     "sanctionsNote": "Trump temporarily lifted sanctions on ~140M barrels Iranian crude at sea (March 20). Jones Act and Russian oil sanctions also temporarily suspended to ease energy prices."
   },
   "keyFacts": [
@@ -789,22 +789,22 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 41780000000,
+    "allCountriesDirectMilitary": 43880000000,
     "allCountriesIndirectCosts": 109440000000,
-    "combinedTotalCosts": 151220000000,
+    "combinedTotalCosts": 153320000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military + indirect economic costs through Day 28.",
-    "lastCalculated": "2026-03-28T00:08:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 29.",
+    "lastCalculated": "2026-03-28T22:33:00Z",
     "allCountriesIndirect": 109440000000,
-    "combinedTotalFormatted": "$151.22B",
-    "lastUpdated": "2026-03-28T00:08:00Z",
-    "directCosts": 41780000000,
+    "combinedTotalFormatted": "$153.32B",
+    "lastUpdated": "2026-03-28T22:33:00Z",
+    "directCosts": 43880000000,
     "indirectCosts": 109440000000,
-    "combinedCosts": 151220000000
+    "combinedCosts": 153320000000
   },
   "daysOfConflict": 29,
   "lastUpdated": "2026-03-28T22:33:00Z",
-  "dailyBurnRate": 1286,
-  "totalCost": 34500000000,
-  "totalFormatted": "$34.5B"
+  "dailyBurnRate": 1860000000,
+  "totalCost": 43880000000,
+  "totalFormatted": "$43.9B (direct military, all countries)"
 }
