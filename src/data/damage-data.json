@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-28T09:47:00Z",
+    "lastUpdated": "2026-03-28T14:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 216,
-    "confirmed": 25,
+    "totalSites": 218,
+    "confirmed": 27,
     "reported": 8,
     "rumored": 3,
     "countriesAffected": 15,
@@ -37,11 +37,13 @@
       "military": 56,
       "nuclear": 8,
       "infrastructure": 12,
-      "civilian": 28,
+      "civilian": 30,
+      "media_civilian": 2,
+      "residential": 1,
       "energy": 5,
       "diplomatic": 1
     },
-    "lastUpdated": "2026-03-27T11:38:00Z",
+    "lastUpdated": "2026-03-28T14:08:00Z",
     "military": 56
   },
   "damageLocations": [
@@ -3540,6 +3542,34 @@
       "source": "Times of Israel — Day 29 liveblog",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-march-28-2026/",
       "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-221",
+      "name": "Al Manar/Al Mayadeen Press Location — Jezzine, South Lebanon",
+      "lat": 33.5484,
+      "lng": 35.5874,
+      "country": "Lebanon",
+      "category": "media_civilian",
+      "status": "confirmed",
+      "date": "2026-03-28",
+      "description": "Israeli airstrike in the Jezzine area of south Lebanon struck a media position, killing Al Manar TV correspondent Ali Shoeib and Al Mayadeen reporter Fatima Ftouni. IDF claimed Shoeib was an IRGC intelligence operative using journalism as cover. Lebanese President Aoun condemned the strike as targeting press freedom.",
+      "source": "Times of Israel — Day 29 liveblog",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-march-28-2026/",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-222",
+      "name": "Residential Building — Bourj Hammoud, Beirut",
+      "lat": 33.891,
+      "lng": 35.5467,
+      "country": "Lebanon",
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-03-28",
+      "description": "Israeli airstrike struck a residential apartment building in Bourj Hammoud, northeastern Beirut, killing at least one person and wounding four others. Smoke was visible across multiple neighborhoods in Beirut from the strikes.",
+      "source": "CBS News — Live updates Iran war March 28",
+      "sourceUrl": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-oil-tanker-israel/",
+      "attributedTo": "israel"
     }
   ]
 }
