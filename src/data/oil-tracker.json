@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-03-29T07:30:00Z",
+    "lastUpdated": "2026-03-29T12:34:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,24 +73,24 @@
     },
     "current": {
       "date": "2026-03-29",
-      "label": "Day 30 AM — Brent $107.81/bbl (+35.1%), WTI $99.64 (+32.0%); IDF wide wave on Tehran overnight; Iran cluster munitions kill 1 in Tel Aviv; Islamabad summit — Iran allows 20 Pakistani ships through Hormuz; Houthis fire 2 missiles at Israel; war enters Month 2.",
+      "label": "Day 30 — Brent $112.57/bbl (+41.0%, war high), WTI $99.64 (+32.0%); IRGC strikes Bahrain/UAE aluminium facilities; E-3 AWACS confirmed totally destroyed; Pentagon readies ground ops; Islamabad summit — Pakistani ships transit Hormuz; war enters Month 2.",
       "brent": {
-        "price": 107.81,
-        "change": "+35.1%",
-        "changeDollars": "+$28.01",
+        "price": 112.57,
+        "change": "+41.1%",
+        "changeDollars": "+$32.73",
         "unit": "$/barrel",
-        "source": "Fortune — Price of Oil March 27, 2026",
-        "sourceUrl": "https://fortune.com/article/price-of-oil-03-27-2026/"
+        "source": "The Middle East Insider — Oil Price March 28, 2026",
+        "sourceUrl": "https://themiddleeastinsider.com/2026/03/28/oil-price-march-28-2026-brent-112-wti-100/?lang=en"
       },
       "wti": {
         "price": 99.64,
         "change": "+32.0%",
         "changeDollars": "+$24.14",
         "unit": "$/barrel",
-        "source": "CNBC — Oil price: WTI, Brent after Iran rejects direct U.S. talks",
-        "sourceUrl": "https://www.cnbc.com/2026/03/26/oil-price-wti-brent-crude-iran-rejects-direct-us-trump-talks-hormuz.html"
+        "source": "The Middle East Insider — Oil Price March 28, 2026",
+        "sourceUrl": "https://themiddleeastinsider.com/2026/03/28/oil-price-march-28-2026-brent-112-wti-100/?lang=en"
       },
-      "changePercent": "+33.4%",
+      "changePercent": "+36.5%",
       "lastUpdated": "2026-03-29"
     },
     "priceHistory": [
@@ -511,7 +511,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-29T07:30:00Z",
+    "lastUpdated": "2026-03-29T12:34:00Z",
     "note": "National weighted averages. Regional prices vary significantly — California, Hawaii, and Northeast typically 15-30% above national average.",
     "fuels": [
       {
@@ -605,8 +605,8 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 3.981,
-    "gasPriceRegular": "$3.981/gal (AAA March 26, +25.2% from pre-war $3.18)",
+    "regularGasoline": 3.98,
+    "gasPriceRegular": "$3.98/gal (AAA March 26, +25.2% from pre-war $3.18)",
     "gasPriceDiesel": "$5.07/gal (+33.4% from pre-war $3.80)",
     "changeFromPreWar": "+$0.801",
     "changePercent": "+25.2%"

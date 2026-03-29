@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-29T07:30:00Z",
+    "lastUpdated": "2026-03-29T12:34:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 223,
-    "confirmed": 31,
+    "totalSites": 226,
+    "confirmed": 34,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -3650,6 +3650,75 @@
       "source": "CNN / Times of Israel",
       "sourceUrl": "https://www.cnn.com/2026/03/28/world/live-news/iran-war-us-israel-trump",
       "attributedTo": "iran"
+    },
+    {
+      "id": "dmg-228",
+      "name": "Aluminium Bahrain (Alba) — Smelter Complex",
+      "country": "Bahrain",
+      "city": "Bahrain",
+      "lat": 26.15,
+      "lng": 50.5,
+      "category": "industrial",
+      "status": "confirmed",
+      "description": "IRGC struck the Aluminium Bahrain (Alba) smelter complex in a combined missile and drone attack. Alba is one of the world's largest single-site aluminium smelters. IRGC claimed it is 'affiliated with US military and aerospace sectors.' Two employees lightly wounded. Damage to facility infrastructure confirmed by Al Jazeera.",
+      "date": "2026-03-29",
+      "attributedTo": "iran",
+      "sources": [
+        {
+          "name": "Al Jazeera — IRGC claims attacks on UAE, Bahrain aluminium facilities",
+          "url": "https://www.aljazeera.com/news/2026/3/29/irans-irgc-claim-attacks-on-uae-bahrain-facilities-linked-to-us-war"
+        },
+        {
+          "name": "CNBC — Bahrain aluminium giant says Iranian attack targeted its facility",
+          "url": "https://www.cnbc.com/2026/03/29/bahrain-aluminum-giant-says-iranian-attack-targeted-its-facilit.html"
+        }
+      ]
+    },
+    {
+      "id": "dmg-229",
+      "name": "Emirates Global Aluminium (EGA) — Al-Taweelah, Khalifa Economic Zone",
+      "country": "UAE",
+      "city": "Abu Dhabi",
+      "lat": 24.47,
+      "lng": 54.62,
+      "category": "industrial",
+      "status": "confirmed",
+      "description": "IRGC struck Emirates Global Aluminium (EGA) at the Al-Taweelah site within Abu Dhabi's Khalifa Economic Zone. EGA is one of the world's largest aluminium producers. 'Significant damage' to facility per Al Jazeera. Multiple employees injured (non-life-threatening).",
+      "date": "2026-03-29",
+      "attributedTo": "iran",
+      "sources": [
+        {
+          "name": "Al Jazeera — IRGC claims attacks on UAE, Bahrain aluminium facilities",
+          "url": "https://www.aljazeera.com/news/2026/3/29/irans-irgc-claim-attacks-on-uae-bahrain-facilities-linked-to-us-war"
+        },
+        {
+          "name": "New Arab — Iran Guards say struck Bahrain, UAE aluminium plants",
+          "url": "https://www.newarab.com/news/iran-guards-say-struck-bahrain-uae-aluminium-plants"
+        }
+      ]
+    },
+    {
+      "id": "dmg-230",
+      "name": "E-3G AWACS + KC-135 aircraft — Prince Sultan Air Base",
+      "country": "Saudi Arabia",
+      "city": "Al Kharj",
+      "lat": 24.06,
+      "lng": 47.58,
+      "category": "military",
+      "status": "confirmed",
+      "description": "Open-source imagery confirmed total destruction of US Air Force E-3G Sentry AWACS (tail 81-0005) at Prince Sultan Air Base in the March 27 IRGC attack. Fuselage split in two; rotodome displaced. One KC-135R Stratotanker also completely destroyed; three others severely damaged. First US strategic aircraft destroyed in combat since the Cold War. 15+ US troops wounded.",
+      "date": "2026-03-27",
+      "attributedTo": "iran",
+      "sources": [
+        {
+          "name": "Air & Space Forces Magazine — Key E-3 AWACS Damaged/Destroyed",
+          "url": "https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/"
+        },
+        {
+          "name": "The War Zone — Images Show E-3 Sentry Totally Destroyed",
+          "url": "https://www.twz.com/air/images-purportedly-show-e-3-sentry-totally-destroyed-from-iranian-strike"
+        }
+      ]
     }
   ]
 }

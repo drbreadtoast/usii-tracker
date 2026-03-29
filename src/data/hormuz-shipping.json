@@ -4,7 +4,7 @@
   "dailyTransits": 20,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-03-29T07:30:00Z",
+  "lastUpdated": "2026-03-29T12:34:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -27,13 +27,13 @@
     "tankerTraffic": "21 tankers transited since Feb 28 (vs 100+/day pre-war)",
     "strandedSeafarers": "40,000+",
     "trappedVessels": "500+ oil/gas tankers, 500+ container ships, 6 cruise ships",
-    "lastUpdated": "2026-03-29T07:30:00Z",
+    "lastUpdated": "2026-03-29T12:34:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Iran approved transit for 8 nations for selective transit; Pakistan secured agreement for 20 ships/day (2 daily under Pakistani flag). All major commercial carriers still suspended. 27-day blockade with first crack via Islamabad summit."
+    "note": "Iran approved transit for 8 nations for selective transit; Pakistan confirmed 20 ships total (2/day). First 2 Pakistani ships (MV Multan + P-Akili crude tanker) already transited and en route to Karachi. All major commercial carriers still suspended. 27-day blockade with first crack via Islamabad summit. $2M/crossing IRGC toll system in operation."
   },
   "timeline": [
     {
@@ -346,6 +346,12 @@
       "event": "Islamabad summit: Iran agrees to allow 20 Pakistani-flagged ships per day through Hormuz (2 daily rate). First partial opening of blockade in 27 days. Trump extends full-reopening deadline to April 6.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-03-29-morning",
+      "event": "Day 30 (Blockade Day 27): First two Pakistani-flagged ships confirmed to have already transited Hormuz — MV Multan (cargo) and P-Akili (crude, 80M+ litres) en route to Karachi, expected to dock March 31. Pentagon ground ops planning for Kharg Island reported by WaPo — adds new escalation risk to blockade. IRGC strikes Bahrain (Alba) and UAE (EGA) aluminium plants. Guterres at EU Council: 'Hormuz closure causes enormous pain around the world.' Trump April 6 full-reopening deadline remains.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -353,8 +359,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+32.6% (Brent $105.85, WTI $93.61)",
-      "detail": "20% of global supply cut off — Day 24 of blockade. Iran shifted to 'selective blockade' policy on March 25 — 'non-hostile ships' may transit with Iran's approval; Japan explicitly approved. Still fewer than 10 AIS-visible transits/day (vs 138 pre-war). IRGC Navy Commander Tangsiri — the architect of the blockade — was killed by Israel on March 26. His elimination may affect IRGC naval command coordination but blockade infrastructure (mines, missiles, vetting system) remains in place. 3,200+ ships trapped, 40,000+ seafarers stranded. VLCC charter rates at $800K/day."
+      "priceImpact": "+41.0% (Brent $112.57, WTI $99.64)",
+      "detail": "20% of global supply cut off — Day 27 of blockade. Iran operating selective vetting system (approved: China, Russia, India, Iraq, Pakistan, Spain, Malaysia, Japan). Pakistan secured 20-ship deal (2/day). First 2 Pakistani ships transited as of March 29 morning. Still fewer than 10 AIS-visible transits/day (vs 138 pre-war). Goldman Sachs estimates $14-18/bbl geopolitical risk premium. Macquarie warned $200 oil (40% probability) if blockade holds through June. Brent $112.57/bbl — war high (+41%). Trump April 6 deadline for full reopening."
     },
     {
       "commodity": "LNG",
