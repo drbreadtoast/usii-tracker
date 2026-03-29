@@ -11,6 +11,7 @@ export default function DeathsPage() {
       title="Death Toll & Casualties"
       subtitle="Confirmed and estimated casualties by conflict and party. Data sourced from government reports, UN agencies, and independent monitors."
       footerNote="Casualty figures include confirmed and estimated. Sources provided per entry."
+      hideAd
     >
       <div className="mx-4 mb-4 bg-red-950/40 border border-red-700/50 rounded-lg p-4">
         <div className="flex items-start gap-3">

@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import AdBanner from '../components/Ads/AdBanner'
 import {
   Receipt, ChevronDown, ChevronUp, ExternalLink, Shield,
   AlertTriangle, DollarSign, TrendingUp, TrendingDown, Anchor, Plane,
@@ -624,6 +625,11 @@ export default function FollowTheCostPage() {
             <KeyFactCard key={fact.id} fact={fact} />
           ))}
         </div>
+      </div>
+
+      {/* Ad before footer */}
+      <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 py-4">
+        <AdBanner className="bg-gray-900/40 border border-gray-800/50 rounded-lg p-3" />
       </div>
 
       {/* Footer */}

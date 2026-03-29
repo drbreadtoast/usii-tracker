@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { ShieldCheck, ShieldX, ShieldAlert, ShieldQuestion, HelpCircle, ExternalLink, Clock, Filter, ChevronDown, ChevronUp, AlertTriangle, Search, TrendingUp, ArrowLeft, Shield, Newspaper } from 'lucide-react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import AdBanner from '../components/Ads/AdBanner'
 import factCheckData from '../data/fact-check.json'
 import siteMetadata from '../data/site-metadata.json'
 
@@ -337,6 +338,11 @@ export default function FactCheckPage() {
             <ClaimCard key={claim.id} claim={claim} />
           ))
         )}
+      </div>
+
+      {/* Ad before footer */}
+      <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 py-4">
+        <AdBanner className="bg-gray-900/40 border border-gray-800/50 rounded-lg p-3" />
       </div>
 
       {/* Footer */}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X } from 'lucide-react'
+import AdBanner from '../Ads/AdBanner'
 import CensorshipNotice from './CensorshipNotice'
 import SourcesNotice from './SourcesNotice'
 import siteMetadata from '../../data/site-metadata.json'
@@ -471,7 +472,7 @@ export default function HomepageSummary() {
               This site is currently updated 3-4 times a day with the latest news, data, and statistics — each update requires significant AI and research resources. Hourly automated updates and live tracking features are possible but would require paid APIs and additional infrastructure, raising costs significantly.
             </p>
             <p className="text-xs text-gray-400 mt-2 leading-relaxed">
-              This site is free, ad-free, and built by one person. If there's enough support, I can upgrade to more frequent updates and live data. Every contribution helps keep this running and makes those upgrades possible.
+              You may notice some ads — I appreciate your patience. Thanks to your support, I'm working to improve refresh times and add new features, but upgrading the tools behind the scenes raises costs. To help offset that, I'm experimenting with ads and will adjust or remove them based on your feedback. If they feel intrusive, please let me know using the blue contact button at the bottom left. More donations = fewer ads. Got a better idea? I'm all ears.
             </p>
             <a
               href={siteMetadata.donationUrl}
@@ -491,6 +492,12 @@ export default function HomepageSummary() {
         <CasualtySummary />
         <EnergySummary />
         <CostSummary />
+
+        {/* Ad placement — spans full row on desktop */}
+        <div className="md:col-span-2">
+          <AdBanner className="bg-gray-900/40 border border-gray-800/50 rounded-lg p-3" />
+        </div>
+
         <MediaSummary />
         <StatementsSummary />
         <SocialSummary />

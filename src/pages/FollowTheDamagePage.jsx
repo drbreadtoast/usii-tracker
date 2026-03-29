@@ -7,6 +7,7 @@ import {
   Filter, Eye, EyeOff, Satellite
 } from 'lucide-react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import AdBanner from '../components/Ads/AdBanner'
 import damageData from '../data/damage-data.json'
 import 'leaflet/dist/leaflet.css'
 
@@ -555,6 +556,11 @@ export default function FollowTheDamagePage() {
             Last updated: {new Date(metadata.lastUpdated).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Los_Angeles', hour12: true })} PT
           </div>
         </div>
+      </div>
+
+      {/* Ad before footer */}
+      <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 py-4">
+        <AdBanner className="bg-gray-900/40 border border-gray-800/50 rounded-lg p-3" />
       </div>
 
       {/* Footer */}

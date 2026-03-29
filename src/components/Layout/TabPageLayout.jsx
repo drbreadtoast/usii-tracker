@@ -1,11 +1,13 @@
 import { Shield } from 'lucide-react'
 import UpdateBadge from './UpdateBadge'
+import AdBanner from '../Ads/AdBanner'
 
 export default function TabPageLayout({
   title,
   subtitle,
   headerExtra,
   footerNote,
+  hideAd = false,
   children
 }) {
   return (
@@ -31,6 +33,13 @@ export default function TabPageLayout({
       <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6">
         {children}
       </div>
+
+      {/* Ad before footer */}
+      {!hideAd && (
+        <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 py-4">
+          <AdBanner className="bg-gray-900/40 border border-gray-800/50 rounded-lg p-3" />
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800 mt-auto">

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import UpdateBadge from '../components/Layout/UpdateBadge'
+import AdBanner from '../components/Ads/AdBanner'
 import GasPriceTracker from '../components/Energy/GasPriceTracker'
 import HormuzStatus from '../components/Energy/HormuzStatus'
 import FoodImpact from '../components/Energy/FoodImpact'
@@ -685,6 +686,11 @@ export default function FollowTheOilPage() {
             <KeyFactCard key={fact.id} fact={fact} />
           ))}
         </div>
+      </div>
+
+      {/* Ad before footer */}
+      <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 py-4">
+        <AdBanner className="bg-gray-900/40 border border-gray-800/50 rounded-lg p-3" />
       </div>
 
       {/* Footer */}
