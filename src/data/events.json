@@ -16250,5 +16250,191 @@
     "socialRefs": [],
     "casualties": {"killed": 0, "injured": 0},
     "tags": ["islamabad", "diplomacy", "pakistan", "saudi-arabia", "turkey", "egypt", "iran", "day30"]
+  },
+  {
+    "id": "evt-new-462",
+    "title": "IDF morning wave — 120+ bombs on Tehran missile/weapons R&D sites",
+    "description": "The IDF conducted a major overnight airstrike wave on Tehran, dropping over 120 munitions on Iranian weapons production and research infrastructure. Dozens of IAF fighter jets participated. Targets included: a site producing 'essential' components for ballistic missiles; an IRGC complex for R&D of ballistic missiles and satellite launchers; a weapons R&D and production site of the Iranian Army; ballistic missile storage and launch sites; and Iranian air defense systems. IDF stated strikes hit ~40 Tehran weapons facilities over two days. Shrapnel knocked out a high-voltage tower in Alborz province causing power blackouts across 4 Tehran districts. 2 killed near Shaft, 17 wounded across Tehran.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-03-30T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says strikes in Tehran targeted missile and weapons sites with over 120 bombs",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-its-strikes-in-tehran-this-morning-targeted-missile-weapons-sites-with-over-120-bombs/"
+      },
+      {
+        "name": "Anadolu Agency — US-Israeli strikes hit Tehran Mehrabad Airport and Tabriz petrochemical facility",
+        "url": "https://www.aa.com.tr/en/middle-east/us-israeli-strikes-hit-tehran-s-mehrabad-airport-petrochemical-facility-in-tabriz/3884485"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 2, "injured": 17},
+    "tags": ["idf", "tehran", "missile-strike", "weapons-production", "iran", "day31"]
+  },
+  {
+    "id": "evt-new-463",
+    "title": "US-Israeli strike hits Tabriz Petrochemical Company — fire contained, no toxic release",
+    "description": "A US-Israeli airstrike hit a production unit at the Tabriz Petrochemical Company in northwestern Iran at approximately midnight Tehran time. Iran's IRNA news agency reported the strike. Emergency teams responded rapidly and contained the fire. The company CEO confirmed the strike live on Iranian state TV, stating no hazardous or toxic substances were released. Oil prices surged toward $115/barrel on reports of strikes on energy infrastructure.",
+    "type": "strike",
+    "lat": 38.08,
+    "lng": 46.2919,
+    "location": "Tabriz, East Azerbaijan Province, Iran",
+    "timestamp": "2026-03-29T20:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Anadolu Agency — Iran's Tabriz petrochemical facility hit in attack, fire contained",
+        "url": "https://www.aa.com.tr/en/middle-east/irans-tabriz-petrochemical-facility-hit-in-attack-fire-contained-company-says/3884684"
+      },
+      {
+        "name": "ANI News — US-Israeli airstrikes hit petrochemical facility in Iran's Tabriz",
+        "url": "https://aninews.in/news/world/middle-east/us-israeli-airstrikes-hit-petrochemical-facility-in-irans-tabriz-reports-state-media20260330061927/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["tabriz", "petrochemical", "iran", "strike", "day31", "energy-infrastructure"]
+  },
+  {
+    "id": "evt-new-464",
+    "title": "Iran/Hezbollah barrage ignites fire at Haifa Bazan Oil Refinery",
+    "description": "A coordinated barrage from Iran and Lebanon struck Haifa. An Iranian cluster munition hit five locations in Haifa and neighboring towns. Ten additional missiles were fired from Lebanon, most intercepted. A direct hit was confirmed on a tanker at the Bazan (ORL) oil refinery; smoke rose from a building and a gasoline storage tank was damaged. Power lines were hit by shrapnel causing localized outages restored within one hour. Bazan refinery shares fell 2.5%. This was the seventh Iranian wave since midnight.",
+    "type": "strike",
+    "lat": 32.8156,
+    "lng": 35.0594,
+    "location": "Haifa, Israel",
+    "timestamp": "2026-03-30T05:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Anadolu Agency — Fire erupts at Haifa oil refinery after missile barrage from Iran and Lebanon",
+        "url": "https://www.aa.com.tr/en/middle-east/fire-erupts-at-haifa-oil-refinery-in-northern-israel-after-missile-barrage-from-iran-lebanon/3884967"
+      },
+      {
+        "name": "Jerusalem Post — Haifa oil refinery hit in Iranian missile attack",
+        "url": "https://www.jpost.com/israel-news/article-891624"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 1},
+    "tags": ["haifa", "oil-refinery", "bazan", "iran", "hezbollah", "strike", "day31"]
+  },
+  {
+    "id": "evt-new-465",
+    "title": "Iranian drone kills Indian worker at Kuwait power/desalination plant",
+    "description": "An Iranian drone struck a service building at a major power station and water desalination plant in Kuwait. An Indian worker was killed and the building sustained significant material damage. Kuwait's Ministry of Electricity, Water and Renewable Energy officially confirmed the fatality. Technical and emergency teams were deployed. The Indian Embassy in Kuwait confirmed the death, stating the number of Indian nationals killed in the wider West Asia conflict has risen to eight.",
+    "type": "strike",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "location": "Kuwait (power/desalination plant)",
+    "timestamp": "2026-03-29T22:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Kuwait Times — Iranian attack hits power and water distillation facility, kills Indian worker",
+        "url": "https://kuwaittimes.com/article/41616/kuwait/electricity-min-brutal-iranian-attack-hits-power-water-distillation-facility-kills-indian-worker/"
+      },
+      {
+        "name": "Gulf News — Kuwait service building of power station damaged in Iranian attack",
+        "url": "https://gulfnews.com/world/mena/kuwait-service-building-of-power-station-water-desalination-plant-damaged-in-iranian-attack-1.500490314"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "injured": 0},
+    "tags": ["kuwait", "iran", "drone", "civilian", "infrastructure", "day31"]
+  },
+  {
+    "id": "evt-new-466",
+    "title": "IDF Alpinist Unit — first documented cross-border raid from Syrian Hermon to south Lebanon",
+    "description": "IDF's Alpinist Unit (mountain commandos) under the 810th Brigade / 210th Division conducted a rare cross-border operation. Soldiers crossed on foot through deep snow from the Syrian Hermon to the Mount Dov area in southern Lebanon to gather intelligence and locate Hezbollah terrorist infrastructure. Described as the first time the IDF has documented such an operation. Forces uncovered bunkers and an extensive weapons cache including artillery, mortars, rocket launchers, explosives, and landmines.",
+    "type": "movement",
+    "lat": 33.4109,
+    "lng": 35.7461,
+    "location": "Mount Dov / Mount Hermon, Lebanon-Syria border",
+    "timestamp": "2026-03-30T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF elite forces carried out rare cross-border raid from Syrian Hermon to southern Lebanon",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-elite-forces-carried-out-rare-cross-border-raid-from-syrian-hermon-to-southern-lebanon/"
+      },
+      {
+        "name": "Jerusalem Post — IDF Alpinist Unit cross-border Lebanon raid",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-891494"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["idf", "lebanon", "hezbollah", "special-ops", "mount-hermon", "day31"]
+  },
+  {
+    "id": "evt-new-467",
+    "title": "Trump claims 'regime change achieved' in Iran — threatens to seize Kharg Island",
+    "description": "US President Trump declared in a Financial Times interview that 'regime change' has been achieved in Iran, saying 'the one regime was decimated, destroyed, they're all dead.' He simultaneously threatened to seize Kharg Island, which handles 90% of Iran's oil exports, and threatened to 'obliterate' Iran's power plants and oil wells unless a deal is reached soon. He also posted on Truth Social that the US is 'in serious discussions with A NEW, AND MORE REASONABLE, REGIME.' Iran's government publicly denied accepting any US framework — Araghchi said US demands are 'unreasonable' and exchanges with mediators do not constitute negotiations.",
+    "type": "diplomatic",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "location": "Washington D.C. / Air Force One",
+    "timestamp": "2026-03-30T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Time Magazine — Trump Seems to Embrace 'Regime Change' in Iran",
+        "url": "https://time.com/article/2026/03/30/trump-regime-change-iran/"
+      },
+      {
+        "name": "Al Jazeera — Trump wants to invade Iran to seize oil, calls US objectors 'stupid people'",
+        "url": "https://www.aljazeera.com/news/2026/3/30/trump-wants-to-invade-iran-to-seize-oil-calls-us-objectors-stupid"
+      },
+      {
+        "name": "Bloomberg — Trump says US could 'take the oil in Iran,' seize export hub",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/trump-says-us-could-take-the-oil-in-iran-seize-export-hub-ft"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["trump", "regime-change", "kharg-island", "diplomacy", "iran", "day31"]
+  },
+  {
+    "id": "evt-new-468",
+    "title": "Spain closes airspace to US military planes — Trump threatens trade war with Spain",
+    "description": "Spain's Defense Minister Margarita Robles formally closed Spanish airspace to all US military aircraft conducting operations related to the Iran war. 'Neither the bases are authorised, nor is the use of Spanish airspace authorised for any actions related to the war in Iran.' The US had already relocated 15 aircraft from Rota and Morón bases after Spain's earlier ban on base use. Trump responded by threatening to cut all trade with Spain, calling Spain 'terrible' and instructing Treasury Secretary Bessent to 'cut off all dealings with Spain.' Spain is the first NATO ally to formally bar use of its territory and airspace for the Iran campaign.",
+    "type": "diplomatic",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "location": "Madrid, Spain",
+    "timestamp": "2026-03-30T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Euronews — Spain closes its airspace to all US aircraft involved in Iran war",
+        "url": "https://www.euronews.com/2026/03/30/spain-closes-its-airspace-to-all-us-aircraft-involved-in-iran-war"
+      },
+      {
+        "name": "Times of Israel — Trump threatens to cut all trade ties with Spain over Iran war refusal",
+        "url": "https://www.timesofisrael.com/trump-threatens-to-cut-all-trade-ties-with-spain-over-iran-war-refusal/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["spain", "diplomacy", "nato", "trump", "airspace", "trade-war", "day31"]
   }
 ]
