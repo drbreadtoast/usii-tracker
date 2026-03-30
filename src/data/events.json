@@ -16075,5 +16075,180 @@
       "adama",
       "day30"
     ]
+  },
+  {
+    "id": "evt-new-456",
+    "title": "IDF wide-scale Tehran evening strikes — power outages, residential casualties",
+    "description": "The IDF conducted a wide-scale wave of airstrikes targeting dozens of Iranian military infrastructure sites across Tehran during the evening hours. Targets included ballistic missile R&D complexes, weapons research and production sites, ballistic missile storage and launch facilities, and air defense systems. Over 120 bombs dropped by dozens of IAF fighter jets. Power outages spread across northeastern, western, central, and eastern Tehran after shrapnel struck a high-voltage tower in Alborz province (confirmed at ~10:17 PM Israel time). Civilian casualties reported: 3 wounded in Saadat Abad (northern Tehran), 9 wounded in western Tehran, 2 killed and 5 wounded near Shaft city.",
+    "type": "strike",
+    "lat": 35.7,
+    "lng": 51.4,
+    "location": "Tehran and Karaj, Iran",
+    "timestamp": "2026-03-29T19:17:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Day 30 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-march-29-2026/"
+      },
+      {
+        "name": "Jerusalem Post — Day 30 live updates",
+        "url": "https://www.jpost.com/middle-east/iran-news/2026-03-29/live-updates-891484"
+      },
+      {
+        "name": "Al Jazeera — US-Israel war on Iran, Day 30",
+        "url": "https://www.aljazeera.com/news/2026/3/29/us-israel-war-on-iran-whats-happening-on-day-30-of-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2,
+      "injured": 17
+    },
+    "tags": ["tehran", "karaj", "idf", "israel", "airstrikes", "power-outage", "day30", "evening"]
+  },
+  {
+    "id": "evt-new-457",
+    "title": "IAEA confirms Khondab heavy water reactor destroyed — 'no longer operational'",
+    "description": "The IAEA confirmed that the Khondab heavy water research reactor (IR-40) near Arak, Markazi Province, 'sustained severe damage and is no longer operational.' The IAEA stated no declared nuclear material was present at the time of the strike. IAEA confirmation came at approximately 11:28 PM Israel time on March 29 (20:28 UTC). The IR-40 was a key element of Iran's heavy water program and had been the subject of JCPOA redesign commitments in 2015.",
+    "type": "strike",
+    "lat": 34.2,
+    "lng": 49.1,
+    "location": "Arak/Khondab, Markazi Province, Iran",
+    "timestamp": "2026-03-29T20:28:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF confirms bombing Iran's heavy water reactor",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-confirms-bombing-irans-heavy-water-reactor-key-nuclear-facility-in-arak/"
+      },
+      {
+        "name": "Jerusalem Post — Day 30 live updates",
+        "url": "https://www.jpost.com/middle-east/iran-news/2026-03-29/live-updates-891484"
+      },
+      {
+        "name": "Türkiye Today — US-Israeli strikes hit Iran's Khondab facility at Arak",
+        "url": "https://www.turkiyetoday.com/region/us-israeli-strikes-hit-irans-khondab-facility-at-arak-nuclear-site-3217011/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["arak", "khondab", "nuclear", "iaea", "heavy-water", "israel", "day30"]
+  },
+  {
+    "id": "evt-new-458",
+    "title": "UNIFIL peacekeeper killed in southern Lebanon explosion — Indonesian battalion",
+    "description": "A UNIFIL peacekeeper was killed and one was critically injured after an explosion struck a UN peacekeeping position near Adchit Al-Qusayr in southern Lebanon. The position belonged to the Indonesian battalion. UNIFIL stated: 'Deliberate attacks on peacekeepers are grave violations of international humanitarian law and may amount to war crimes.' An investigation was launched; the origin of the projectile was not immediately attributed.",
+    "type": "strike",
+    "lat": 33.3,
+    "lng": 35.4,
+    "location": "Adchit Al-Qusayr, Southern Lebanon",
+    "timestamp": "2026-03-29T22:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "RTE.ie — UNIFIL peacekeeper killed in Lebanon",
+        "url": "https://www.rte.ie/news/world/2026/0329/1565823-unifil-lebanon/"
+      },
+      {
+        "name": "Times of Israel — UNIFIL says one peacekeeper killed, one critically injured",
+        "url": "https://www.timesofisrael.com/liveblog_entry/unifil-says-one-peacekeeper-killed-one-critically-injured-in-southern-lebanon-explosion/"
+      },
+      {
+        "name": "ANI News — UNIFIL peacekeeper killed near Adchit Al-Qusayr",
+        "url": "https://aninews.in/news/world/middle-east/unifil-peacekeeper-killed-another-critically-injured-near-adchit-al-qusayr-in-southern-lebanon20260330071156/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "injured": 1},
+    "tags": ["unifil", "lebanon", "peacekeeper", "indonesia", "day30", "southern-lebanon"]
+  },
+  {
+    "id": "evt-new-459",
+    "title": "Houthi second wave intercepted — 2 drones from Yemen shot down by IDF",
+    "description": "Yemen's Houthis launched a second wave of cruise missiles and drones toward Israel on Day 30, targeting 'vital sites in southern Israel' including the Tel Aviv area and Eilat. The IDF intercepted two attack drones launched from Yemen at approximately 1:28 AM Israel time on March 30. Houthi military spokesman General Yahya Sarea confirmed the attack was coordinated with Iran and Hezbollah and would continue 'until aggression on all fronts ceases.' This marked a renewed Houthi operational tempo against Israel after the war's second month began.",
+    "type": "strike",
+    "lat": 13.5,
+    "lng": 44.0,
+    "location": "Yemen → Southern Israel / Eilat",
+    "timestamp": "2026-03-29T22:28:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "CGTN — Yemen's Houthis launch 2nd wave of missile/drone attacks on Israel",
+        "url": "https://news.cgtn.com/news/2026-03-29/Yemen-s-Houthis-launch-2nd-wave-of-missile-drone-attacks-on-Israel-1LTTeiCWfny/p.html"
+      },
+      {
+        "name": "Al Jazeera — Houthis open new front in Iran war",
+        "url": "https://www.aljazeera.com/news/2026/3/29/houthis-open-new-front-in-iran-war-will-yemeni-group-block-bab-al-mandeb"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["houthis", "yemen", "drone", "cruise-missile", "intercept", "day30"]
+  },
+  {
+    "id": "evt-new-460",
+    "title": "Trump: Iran agreed to 'most of' 15-point demands; Kharg Island seizure still on table",
+    "description": "Aboard Air Force One, President Trump told reporters Iran had agreed to 'most of' the 15-point US demands conveyed through Pakistan. 'I do see a deal in Iran, yeah. Could be soon.' Trump also confirmed in a Financial Times interview that he is still considering seizing Kharg Island — Iran's main oil export hub handling ~90% of Iranian crude exports — stating 'Maybe we take Kharg Island, maybe we don't. We have a lot of options.' Iran's FM Araghchi publicly contradicted Trump, calling the 15-point list 'unreasonable demands,' while Parliament Speaker Ghalibaf rejected the plan entirely.",
+    "type": "diplomatic",
+    "lat": 0,
+    "lng": 0,
+    "location": "Air Force One (in flight)",
+    "timestamp": "2026-03-30T01:01:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — Day 30 live updates: Iran war, US-Israel",
+        "url": "https://www.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump"
+      },
+      {
+        "name": "Bloomberg — Trump says US could seize Iran's oil export hub",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/trump-says-us-could-take-the-oil-in-iran-seize-export-hub-ft"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["trump", "diplomacy", "iran", "kharg-island", "negotiations", "day30", "15-point-plan"]
+  },
+  {
+    "id": "evt-new-461",
+    "title": "Islamabad summit — Pakistan, Saudi Arabia, Turkey, Egypt align on hosting US-Iran talks",
+    "description": "Foreign ministers from Pakistan (Ishaq Dar), Saudi Arabia (Prince Faisal bin Farhan), Turkey (Hakan Fidan), and Egypt (Badr Abdelatty) convened in Islamabad for the most coordinated regional diplomatic push since the war began. Pakistan announced it will host direct US-Iran talks 'in coming days.' FM Dar: 'Pakistan is very honored to host and facilitate meaningful talks between the two sides.' All four nations expressed full support for the initiative. China conveyed support for Pakistan's mediation role. Rubio-Araghchi direct talks reportedly possible within 48-72 hours.",
+    "type": "diplomatic",
+    "lat": 33.7,
+    "lng": 73.0,
+    "location": "Islamabad, Pakistan",
+    "timestamp": "2026-03-29T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Pakistan hosts four-nation bid for US-Iran diplomacy",
+        "url": "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy"
+      },
+      {
+        "name": "Bloomberg — Pakistan, Saudi Arabia, Egypt, Turkey back US-Iran peace talks",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-29/pakistan-says-saudi-egypt-turkey-support-us-iran-peace-talks"
+      },
+      {
+        "name": "NPR — Pakistan diplomatic discussions on ending war",
+        "url": "https://www.npr.org/2026/03/29/nx-s1-5765344/pakistan-hosts-diplomatic-discussions-on-ending-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "injured": 0},
+    "tags": ["islamabad", "diplomacy", "pakistan", "saudi-arabia", "turkey", "egypt", "iran", "day30"]
   }
 ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-29T18:15:00Z",
+    "lastUpdated": "2026-03-30T02:12:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -3742,6 +3742,31 @@
         {
           "name": "Times of Israel \u2014 ADAMA says its plant in southern Israel was hit",
           "url": "https://www.timesofisrael.com/liveblog_entry/adama-says-its-plant-in-southern-israel-is-the-one-that-was-hit-in-iranian-missile-attack/"
+        }
+      ]
+    },
+    {
+      "id": "dmg-232",
+      "name": "Khondab Heavy Water Research Reactor (IR-40)",
+      "country": "Iran",
+      "city": "Arak, Markazi Province",
+      "lat": 34.2,
+      "lng": 49.1,
+      "type": "Nuclear Facility",
+      "category": "nuclear",
+      "status": "confirmed",
+      "date": "2026-03-27",
+      "description": "IAEA confirmed on March 29 that Iran's Khondab heavy water research reactor (IR-40) near Arak 'sustained severe damage and is no longer operational.' The IAEA noted no declared nuclear material was present at the time. The IR-40 was a 40MW heavy water reactor that had been redesigned under the 2015 JCPOA agreement and was a key element of Iran's civilian nuclear program. This marks the second major confirmed nuclear facility rendered inoperable during the conflict, after Fordow.",
+      "attributedTo": "israel",
+      "severity": "critical",
+      "sources": [
+        {
+          "name": "Times of Israel \u2014 IDF confirms bombing Iran's heavy water reactor at Arak",
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-confirms-bombing-irans-heavy-water-reactor-key-nuclear-facility-in-arak/"
+        },
+        {
+          "name": "Türkiye Today \u2014 US-Israeli strikes hit Iran's Khondab facility at Arak",
+          "url": "https://www.turkiyetoday.com/region/us-israeli-strikes-hit-irans-khondab-facility-at-arak-nuclear-site-3217011/"
         }
       ]
     }

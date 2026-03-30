@@ -1,44 +1,5 @@
 [
   {
-    "id": "social-354",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intelligence",
-    "text": "Aurora Intelligence: Lebanon toll reaches 1,189 confirmed \u2014 47 killed in 24 hours. Three journalists killed in a single strike on a marked media vehicle in Jezzine. WHO documents 9 paramedics killed in 5 separate strikes in one day \u2014 51 total healthcare workers killed in Lebanon. Israeli anti-war protest in Tel Aviv with 1,200 attendees and 21 arrested is the largest single-location anti-war demonstration in Israel to date.",
-    "timestamp": "2026-03-28T19:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Lebanon toll confirmed by Lebanese Health Ministry. Three journalists confirmed by CPJ, Washington Post, PBS. WHO paramedic figures confirmed by WHO statement. Protest figures confirmed by Haaretz and CNN.",
-    "keywords": [
-      "lebanon",
-      "journalists",
-      "jezzine",
-      "paramedics",
-      "tel-aviv",
-      "protest",
-      "day29"
-    ]
-  },
-  {
-    "id": "social-355",
-    "handle": "@TankerTrackers",
-    "displayName": "Tanker Trackers / VesselsValue",
-    "text": "Tanker Trackers: Salalah Port suspended operations after Iranian drone destroys container crane. Maersk confirmed all crew safe; suspended ops for 48h for damage assessment. AIS shows 0 vessels actively transiting Hormuz in past 6 hours. Pakistan's 20-ship agreement (2/day) is marginal \u2014 would restore <0.5% of pre-war Hormuz flow. Brent at $107.81/bbl correctly pricing a prolonged disruption.",
-    "timestamp": "2026-03-28T20:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Salalah suspension confirmed by Maersk and Maritime Executive. Pakistan ship agreement confirmed by Washington Examiner and CNN liveblog. Brent price confirmed by Fortune/Bloomberg.",
-    "keywords": [
-      "salalah",
-      "hormuz",
-      "pakistan",
-      "maersk",
-      "oil",
-      "brent",
-      "shipping",
-      "day29"
-    ]
-  },
-  {
     "id": "social-356",
     "handle": "@IranWarLive",
     "displayName": "Iran War Live \u2014 Lead Source",
@@ -355,5 +316,71 @@
       "araghchi",
       "idf"
     ]
+  },
+  {
+    "id": "social-373",
+    "handle": "@OSINTtechnical",
+    "displayName": "OSINT Technical",
+    "text": "OSINT Technical: IDF evening Tehran wave notable for targeting Alborz province high-voltage transmission infrastructure \u2014 confirms IDF now treating Iran's civilian power grid as legitimate military target given grid powers missile production facilities. Power outages across 4 Tehran districts. IAEA confirmation of Khondab IR-40 destruction is milestone \u2014 second major nuclear facility confirmed destroyed after Fordow.",
+    "timestamp": "2026-03-29T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Power outages confirmed by Iranian state media and JPost liveblog. IAEA confirmation at 20:28 UTC confirmed by Times of Israel and Turkiye Today.",
+    "keywords": ["tehran", "power-grid", "iaea", "khondab", "ir-40", "nuclear", "day30"]
+  },
+  {
+    "id": "social-374",
+    "handle": "@IntelCrab",
+    "displayName": "Intel Crab",
+    "text": "Intel Crab: UNIFIL peacekeeper killed near Adchit Al-Qusayr is strategically significant \u2014 Indonesia has the largest UNIFIL contingent (~1,200 troops) and Jakarta has been a vocal opponent of Israel's campaign in Lebanon. UNIFIL statement language ('may amount to war crimes') unusually strong. Watch for Indonesian political response and potential UNIFIL restructuring.",
+    "timestamp": "2026-03-29T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "UNIFIL statement confirmed by RTE, Times of Israel, ANI News. Indonesia battalion confirmed by UNIFIL.",
+    "keywords": ["unifil", "indonesia", "lebanon", "peacekeeper", "war-crimes", "day30"]
+  },
+  {
+    "id": "social-375",
+    "handle": "@GeoConfirmed",
+    "displayName": "GeoConfirmed",
+    "text": "GeoConfirmed: WaPo missile infrastructure assessment confirms geolocated data \u2014 satellite imagery reviewed shows 29 of ~30 identified Iranian ballistic missile launch sites hit, ~330 of 470 launchers destroyed or damaged. IDF claim that Iran 'cannot manufacture new missiles' appears supported by Parchin and Khojir facility destruction. Remaining Iranian missile capability is pre-positioned stockpile, not production capacity.",
+    "timestamp": "2026-03-29T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "WaPo investigation with satellite imagery review published March 29. IDF Lt. Col. Shoshani statement on Parchin confirmed by Times of Israel.",
+    "keywords": ["idf", "parchin", "missile-production", "satellite", "iran", "wapro", "day30"]
+  },
+  {
+    "id": "social-376",
+    "handle": "@IslamabadSummit",
+    "displayName": "Diplomatic Monitor \u2014 South Asia",
+    "text": "Diplomatic Monitor: Islamabad quadrilateral summit outcome assessment \u2014 Pakistan's mediation role is genuine and significant. FM Dar confirmed both sides have 'expressed confidence in Pakistan.' Trump reposting Dar's Hormuz announcement on Truth Social is notable signaling. Iran allowing Pakistani ships while refusing others suggests selective diplomacy. Key test: whether Rubio and Araghchi physically meet in Islamabad in next 48-72 hours.",
+    "timestamp": "2026-03-29T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Summit outcomes confirmed by Al Jazeera, Bloomberg, NPR. Pakistan 20-ship deal confirmed. Trump repost confirmed by Dawn and Pakistan Today.",
+    "keywords": ["islamabad", "diplomacy", "pakistan", "rubio", "araghchi", "iran", "hormuz", "day30"]
+  },
+  {
+    "id": "social-377",
+    "handle": "@NuclearWatch",
+    "displayName": "Nuclear Security Monitor",
+    "text": "Nuclear Security Monitor: Iran's NPT withdrawal legislation moving through parliament is the single most dangerous diplomatic development of Day 30. Unlike tactical military escalations, exiting the NPT removes IAEA inspection rights, eliminates legal constraints on weapons development, and creates a precedent for North Korea-style nuclear breakout. If passed, triggers mandatory UN Security Council emergency session and would likely be met with unprecedented US-EU-Israel response.",
+    "timestamp": "2026-03-29T19:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NPT withdrawal legislation confirmed by Al Jazeera, Tasnim, Press TV, Middle East Monitor.",
+    "keywords": ["npt", "nuclear", "iran", "iaea", "parliament", "breakout", "day30"]
+  },
+  {
+    "id": "social-378",
+    "handle": "Day30EveningSummary",
+    "displayName": "Iran War Live \u2014 Lead Source",
+    "text": "Iran War Live: Day 30 evening summary (7:12 PM PDT) \u2014 (1) IDF evening Tehran wave: 120+ bombs, power blackouts across 4 districts, 2 killed near Shaft; (2) IAEA confirms Khondab IR-40 destroyed; (3) UNIFIL peacekeeper killed, Adchit Al-Qusayr; (4) Houthi 2nd wave: 2 drones intercepted; (5) Trump: Iran agreed to 'most of' 15 points, Kharg Island still on table; (6) Islamabad summit: Pakistan ready to host Rubio-Araghchi talks; (7) Iran advancing NPT withdrawal legislation; cumulative: Iran 1,972+ killed, Lebanon 1,239+ killed.",
+    "timestamp": "2026-03-30T02:12:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from Times of Israel, Jerusalem Post, CNN, Bloomberg, Al Jazeera, NPR Day 30 liveblogs.",
+    "keywords": ["day30", "summary", "tehran", "iaea", "khondab", "unifil", "trump", "islamabad", "npt"]
   }
 ]
