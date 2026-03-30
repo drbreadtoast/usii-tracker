@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-30T12:27:00Z",
+    "lastUpdated": "2026-03-30T21:16:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 230,
+    "totalSites": 232,
     "confirmed": 38,
     "reported": 9,
     "rumored": 3,
@@ -3836,6 +3836,27 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/3/30/iranian-drone-strike-kills-indian-worker-in-kuwait"
+        }
+      ]
+    },
+    {
+      "id": "dmg-236",
+      "name": "Martyr Mohammed Alaa Air Base — Aircraft Destroyed",
+      "country": "Iraq",
+      "city": "Baghdad",
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "type": "Military Air Base",
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-30",
+      "description": "Iraqi militia rockets struck the Martyr Mohammed Alaa Air Base in Baghdad, destroying one aircraft. No injuries reported. This is part of the ongoing Islamic Resistance in Iraq (IRI) militia campaign against US-associated military facilities. The US Embassy Baghdad issued a security alert on March 29 urging all US citizens to leave Iraq.",
+      "attributedTo": "iraq_militias",
+      "severity": "medium",
+      "sources": [
+        {
+          "name": "Kurdistan 24 — Iraqi militia drone attack",
+          "url": "https://www.kurdistan24.net/en/story/897231/iraqi-militia-group-claims-drone-attack-on-us-bases-in-erbil"
         }
       ]
     }

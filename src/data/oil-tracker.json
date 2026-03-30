@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-30T12:27:00Z",
+    "lastUpdated": "2026-03-30T21:16:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -76,20 +76,20 @@
       "date": "2026-03-30",
       "label": "Day 31 AM \u2014 Brent $114.90/bbl (+43.9%), WTI $101.01 (+33.8%); IDF 120+ bombs on Tehran missile/weapons sites; Tabriz Petrochemical Company struck; Haifa Bazan Oil Refinery fire; Indian worker killed in Kuwait; Trump 'regime change achieved' + Kharg Island seizure threat; Spain closes airspace to US military.",
       "brent": {
-        "price": 114.90,
-        "change": "+44.0%",
-        "changeDollars": "+$35.06",
+        "price": 112.78,
+        "change": "+41.3%",
+        "changeDollars": "+$32.94",
         "unit": "$/barrel",
-        "source": "CNBC \u2014 Oil price today: WTI, Brent as Iran war enters Day 31",
+        "source": "CNBC / Fortune \u2014 Brent crude Day 31 settlement (afternoon)",
         "sourceUrl": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"
       },
       "wti": {
-        "price": 101.01,
-        "change": "+33.8%",
-        "changeDollars": "+$25.50",
+        "price": 102.88,
+        "change": "+36.3%",
+        "changeDollars": "+$27.37",
         "unit": "$/barrel",
-        "source": "CNBC \u2014 Oil price today: WTI, Brent as Iran war enters Day 31",
-        "sourceUrl": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"
+        "source": "CNBC / FX Daily Report \u2014 WTI crude Day 31 settlement (first close above $100 since 2022)",
+        "sourceUrl": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-march-30-2026/"
       },
       "changePercent": "+38.7%",
       "lastUpdated": "2026-03-30"
@@ -513,7 +513,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-03-29T12:34:00Z",
-    "note": "National weighted averages. Regional prices vary significantly \u2014 California, Hawaii, and Northeast typically 15-30% above national average.",
+    "note": "AAA national average $3.99/gallon as of March 30, 2026 (Day 31 PM). Up $0.87/gallon (+27.9%) from pre-war $3.12. Up $1.00 in exactly one month per AAA. Brent crude settled $112.78/bbl (intraday high $116 on Trump Kharg Island obliterate threat). WTI first close above $100 since July 2022. California: $5.87/gal; Kansas: $3.25/gal.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -523,12 +523,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 3.981,
-          "change": "+25.2%"
+          "price": 3.99,
+          "change": "+25.5%"
         },
-        "change": "+$0.80",
-        "changePercent": "+25.2%",
-        "detail": "Gas at $3.981/gal (AAA March 26, Day 27). Up $0.80/gal from pre-war $3.18. Just $0.019 from $4/gal milestone. California: $5.84/gal. Diesel: over $5/gal nationally (+33%). Brent surges to $108 on Iran rejecting talks; Trump extends energy pause to April 6.",
+        "change": "+$0.81",
+        "changePercent": "+25.5%",
+        "detail": "Gas at $3.99/gal (AAA/GasBuddy March 30, Day 31). Up $0.81/gal from pre-war $3.18. $4/gal milestone breached. California: $5.90+/gal. Diesel: over $5/gal nationally (+33%). WTI closed above $100 for first time since 2022. Brent settled $112.78.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -606,7 +606,7 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 3.981,
+    "regularGasoline": 3.99,
     "gasPriceRegular": "$3.981/gal (AAA March 26, +25.2% from pre-war $3.18)",
     "gasPriceDiesel": "$5.07/gal (+33.4% from pre-war $3.80)",
     "changeFromPreWar": "+$0.801",
