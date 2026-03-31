@@ -28,8 +28,8 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 236,
-    "confirmed": 38,
+    "totalSites": 238,
+    "confirmed": 40,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -3937,6 +3937,46 @@
         {
           "name": "Times of Israel \u2014 Lebanese soldier killed",
           "url": "https://www.timesofisrael.com/liveblog_entry/lebanese-military-says-soldier-killed-in-israeli-strike-on-checkpoint-in-south-lebanon/"
+        }
+      ]
+    },
+    {
+      "id": "dmg-241",
+      "country": "Israel",
+      "city": "Haifa Bazan Oil Refinery",
+      "lat": 32.8191,
+      "lng": 34.9983,
+      "type": "Energy Infrastructure",
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-30",
+      "description": "Missile struck gasoline storage tank at Bazan Group refinery. Fire with thick black smoke. 2 injured (1 serious). 2nd hit during war (first March 19). Fire contained; Energy Minister said no production damage.",
+      "attributedTo": "iran",
+      "severity": "high",
+      "sources": [
+        {
+          "name": "Al Jazeera — Fire after missile attack on Haifa refinery",
+          "url": "https://www.aljazeera.com/news/2026/3/30/fire-contained-after-missile-attack-on-oil-refinery-in-israels-haifa"
+        }
+      ]
+    },
+    {
+      "id": "dmg-242",
+      "country": "Iran",
+      "city": "Alborz Province (orphanage)",
+      "lat": 35.84,
+      "lng": 50.94,
+      "type": "Civilian Infrastructure",
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-30",
+      "description": "Strike on orphanage in Alborz province west of Tehran. 2 killed, 5 injured per Fars News Agency.",
+      "attributedTo": "israel",
+      "severity": "high",
+      "sources": [
+        {
+          "name": "CGTN — Iran says US, Israel strike orphanage",
+          "url": "https://news.cgtn.com/news/2026-03-30/news-1LW1CKa4SUo/p.html"
         }
       ]
     }

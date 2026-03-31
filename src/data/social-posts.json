@@ -1,26 +1,5 @@
 [
   {
-    "id": "social-378",
-    "handle": "Day30EveningSummary",
-    "displayName": "Iran War Live \u2014 Lead Source",
-    "text": "Iran War Live: Day 30 evening summary (7:12 PM PDT) \u2014 (1) IDF evening Tehran wave: 120+ bombs, power blackouts across 4 districts, 2 killed near Shaft; (2) IAEA confirms Khondab IR-40 destroyed; (3) UNIFIL peacekeeper killed, Adchit Al-Qusayr; (4) Houthi 2nd wave: 2 drones intercepted; (5) Trump: Iran agreed to 'most of' 15 points, Kharg Island still on table; (6) Islamabad summit: Pakistan ready to host Rubio-Araghchi talks; (7) Iran advancing NPT withdrawal legislation; cumulative: Iran 1,972+ killed, Lebanon 1,239+ killed.",
-    "timestamp": "2026-03-30T02:12:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from Times of Israel, Jerusalem Post, CNN, Bloomberg, Al Jazeera, NPR Day 30 liveblogs.",
-    "keywords": [
-      "day30",
-      "summary",
-      "tehran",
-      "iaea",
-      "khondab",
-      "unifil",
-      "trump",
-      "islamabad",
-      "npt"
-    ]
-  },
-  {
     "id": "social-379",
     "handle": "@IranWarLive",
     "displayName": "Iran War Live \u2014 Lead Source",
@@ -374,6 +353,103 @@
       "imf",
       "knesset",
       "al-salmi"
+    ]
+  },
+  {
+    "id": "social-397",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "IDF announces 170-target strike wave across Tehran completed overnight. Targets include plutonium production facility, IRGC Imam Hussein University, missile R&D, UAV engine factory. Power blackout in Tehran from electrical infrastructure hits. IAF now claims 'air supremacy in most of Iran's airspace' after destroying 100+ air defense systems.",
+    "timestamp": "2026-03-31T03:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by CBS News live updates, JNS, and Israel.com.",
+    "keywords": [
+      "tehran",
+      "idf",
+      "170-targets",
+      "plutonium",
+      "air-supremacy",
+      "day31"
+    ]
+  },
+  {
+    "id": "social-398",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab OSINT",
+    "text": "4 IDF Nahal Brigade soldiers killed in Hezbollah ambush in southern Lebanon. Anti-tank missile hit during evacuation. Cpt. Madmoni (22), SSgt. Cohen (21), SSgt. Entis (21) + 1 named. Deadliest single IDF engagement in Lebanon since war began. IDF responded with tank fire + airstrikes. Separately, Haifa Bazan refinery gasoline tank hit by missile — fire contained.",
+    "timestamp": "2026-03-31T03:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Times of Israel liveblog, Ynet, and Haaretz.",
+    "keywords": [
+      "idf",
+      "nahal",
+      "hezbollah",
+      "lebanon",
+      "haifa",
+      "refinery",
+      "day31"
+    ]
+  },
+  {
+    "id": "social-399",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "WSJ: Trump tells aides willing to end war without reopening Hormuz. Assessed reopening would extend conflict beyond 4-6 week timeline. Brent immediately dips ~1% to $111.55 on report. Separately, FT reports Hegseth's broker attempted multimillion defense ETF investment BEFORE war — Pentagon denies. Gulf states (Saudi, UAE, Kuwait, Bahrain) privately told White House they want war to continue until regime change.",
+    "timestamp": "2026-03-31T04:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WSJ exclusive per Haaretz and US News. FT Hegseth report per CNBC and Al Jazeera. Gulf states per WSJ.",
+    "keywords": [
+      "trump",
+      "hormuz",
+      "hegseth",
+      "scandal",
+      "gulf-states",
+      "brent",
+      "day32"
+    ]
+  },
+  {
+    "id": "social-400",
+    "handle": "@MiddleEastEye",
+    "displayName": "Middle East Eye Analysis",
+    "text": "NYT: Killing dozens of Iranian leaders has hampered Tehran's decision-making AND complicates US negotiation efforts. Leadership decapitation empowering IRGC hardliners. Rubio-Hegseth 'at each other's throats' over troop deployment. Pakistan FM Dar in Beijing — China's Wang Yi backs mediation efforts.",
+    "timestamp": "2026-03-31T04:45:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NYT per Times of Israel liveblog. Rubio-Hegseth tensions per Middle East Eye. Pakistan-China per Al Jazeera.",
+    "keywords": [
+      "decapitation",
+      "irgc",
+      "rubio",
+      "hegseth",
+      "pakistan",
+      "china",
+      "mediation",
+      "day32"
+    ]
+  },
+  {
+    "id": "social-401",
+    "handle": "@IranWarLive",
+    "displayName": "Iran War Live — Lead Source",
+    "text": "Day 31-32 overnight/early AM summary (9:57 PM PDT): (1) IDF 170-target Tehran wave completed — plutonium facility + IRGC university; (2) 4 IDF soldiers killed in Lebanon Hezbollah ambush; (3) Haifa Bazan refinery hit again — gasoline tank fire; (4) Orphanage struck in Alborz — 2 killed; (5) Iran missile salvo at Jerusalem 5:30 AM — intercepted; (6) WSJ: Trump may end war without Hormuz; (7) FT: Hegseth investment scandal; (8) Brent $111.55; gas $3.99.",
+    "timestamp": "2026-03-31T04:57:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from Times of Israel, Haaretz, Al Jazeera, CNBC, CBS News, JNS, WSJ, FT.",
+    "keywords": [
+      "day32",
+      "summary",
+      "tehran",
+      "idf",
+      "hezbollah",
+      "haifa",
+      "hormuz",
+      "hegseth",
+      "brent"
     ]
   }
 ]

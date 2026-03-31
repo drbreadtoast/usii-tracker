@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-31T00:39:00Z",
+    "lastUpdated": "2026-03-31T04:57:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,24 +74,24 @@
     },
     "current": {
       "date": "2026-03-31",
-      "label": "Day 31 PM \u2014 Brent $114.90/bbl (+43.9%), WTI $102.88 (+36.2%); Al-Salmi tanker struck at Dubai port; IMF: 'largest oil disruption in history'; Saudi intercepts 5 missiles targeting Eastern Province oil; IRGC Commander Hassanzadeh killed; 82nd Airborne arrives",
+      "label": "Day 32 early \u2014 Brent $111.55/bbl (+39.7%), WTI $102.14 (+35.3%); Brent dips ~1% in early Asia trading on WSJ report Trump may end war without reopening Hormuz; March = Brent best monthly gain since inception (1988); Goldman: $14-18/bbl risk premium",
       "brent": {
-        "price": 114.9,
-        "change": "+44.0%",
-        "changeDollars": "+$35.06",
+        "price": 111.55,
+        "change": "+39.8%",
+        "changeDollars": "+$31.75",
         "unit": "$/barrel",
-        "source": "CNBC / Fortune \u2014 Brent crude Day 31 late session (after Trump Kharg threat spike)",
-        "sourceUrl": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"
+        "source": "CNBC \u2014 Oil price March 31 early Asia trading",
+        "sourceUrl": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html"
       },
       "wti": {
-        "price": 102.88,
-        "change": "+36.3%",
-        "changeDollars": "+$27.37",
+        "price": 102.14,
+        "change": "+35.3%",
+        "changeDollars": "+$26.64",
         "unit": "$/barrel",
-        "source": "CNBC / FX Daily Report \u2014 WTI crude Day 31 settlement (first close above $100 since 2022)",
-        "sourceUrl": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-march-30-2026/"
+        "source": "CNBC \u2014 WTI crude March 31 early session",
+        "sourceUrl": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html"
       },
-      "changePercent": "+40.1%",
+      "changePercent": "+37.5%",
       "lastUpdated": "2026-03-31"
     },
     "priceHistory": [
@@ -512,7 +512,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-31T00:39:00Z",
+    "lastUpdated": "2026-03-31T04:57:00Z",
     "note": "AAA national average $3.99/gallon as of March 30, 2026 (Day 31 PM). Up $0.87/gallon (+27.9%) from pre-war $3.12. Brent crude $114.90/bbl (intraday high $116). WTI $102.88 \u2014 first close above $100 since 2022. Al-Salmi tanker struck at Dubai port. March = Brent's best monthly gain since inception (1988). Diesel at $5.375/gal.",
     "fuels": [
       {
@@ -707,7 +707,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-03-30T02:12:00Z",
+  "lastUpdated": "2026-03-31T04:57:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -804,6 +804,13 @@
       "brent": 114.9,
       "wti": 102.88,
       "label": "Day 31 late \u2014 Brent surges to $114.90 after Iranian drone strikes Kuwaiti VLCC 'Al-Salmi' at Dubai port. Saudi intercepts 5 missiles at Eastern Province. NATO 4th missile over Turkey. Record monthly gain since Brent inception 1988.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-31",
+      "brent": 111.55,
+      "wti": 102.14,
+      "label": "Day 32 early \u2014 Brent dips ~1% to $111.55 in Asia trading on WSJ: Trump willing to end war without reopening Hormuz. WTI eases to $102.14. March = best monthly gain since Brent inception (1988). Goldman: $14-18/bbl geopolitical risk premium. Macquarie: 40% chance Brent $200 by June.",
       "isEvent": true
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T00:39:00Z",
+  "lastUpdated": "2026-03-31T04:57:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,16 +77,16 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 31, 5:39 PM PDT)",
+      "period": "February 28, 2026 - Ongoing (Day 31-32, 9:57 PM PDT)",
       "parties": [
         {
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
             "military": 0,
-            "civilian": 1974,
-            "total": 1974,
-            "source": "Iran Health Ministry / Al Jazeera tracker \u2014 Day 31 PM (March 30). 1,974+ killed, 24,964+ injured since Feb. 28. Includes 2 killed near Shaft from Day 31 morning wave + 17 wounded in overnight strikes. 217+ children killed. IRGC Commander Hassanzadeh and Gen. Zakariaei confirmed killed.",
+            "civilian": 1976,
+            "total": 1976,
+            "source": "Iran Health Ministry / Al Jazeera tracker \u2014 Day 31-32 (March 30-31). 1,976+ killed, 24,969+ injured since Feb. 28. Includes 2 killed in orphanage strike in Alborz province (March 30), 5 injured. 217+ children killed. IRGC Commander Hassanzadeh and Gen. Zakariaei confirmed killed. 170-target Tehran strike wave completed.",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
             "confirmedMilitaryNote": "Iran does not publish military casualty figures. The 0 reflects concealment, not absence of military deaths."
           },
@@ -159,8 +159,8 @@
               }
             ]
           },
-          "injured": 24964,
-          "injuredNote": "25,000+ injured per Iran Health Ministry (Day 31 AM). Includes 17 newly wounded in overnight/morning Tehran strikes (3 Saadat Abad, 9 west Tehran, 5 near Shaft). 217+ children killed, 1,500+ under 18 injured. Iran internet at ~4%.",
+          "injured": 24969,
+          "injuredNote": "24,969+ injured per Iran Health Ministry (Day 31-32). Includes 5 injured in Alborz orphanage strike (March 30) and ongoing injuries from 170-target Tehran strike wave. 217+ children killed, 1,500+ under 18 injured. Iran internet at ~4%.",
           "missing": 61,
           "missingNote": "61 sailors still missing from IRIS Dena \u2014 87 bodies recovered and 32 rescued from ~180 crew after US submarine USS Charlotte torpedoed the frigate off Sri Lanka coast (March 4).",
           "displaced": 3200000,
@@ -172,21 +172,21 @@
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
-            "military": 7,
+            "military": 11,
             "civilian": 13,
-            "total": 20,
-            "source": "Israeli government + IDF (Day 31). 7 IDF soldiers killed (including Sgt. Liran Ben Zion, killed by Hezbollah anti-tank missile March 30). 13 civilians killed (including 4 from Iran cluster munitions per HRW). 5,492-6,000+ injured.",
-            "sourceUrl": "https://www.timesofisrael.com/idf-solider-killed-in-lebanon-blaze-at-haifa-refinery-after-iran-hezbollah-missile-attack/"
+            "total": 24,
+            "source": "Israeli government + IDF (Day 31-32). 11 IDF soldiers killed: includes 4 Nahal Brigade soldiers killed in Lebanon clash March 30 (Cpt. Madmoni, SSgt. Cohen, SSgt. Entis + 1 unnamed) and Sgt. Ben Zion (anti-tank missile March 30). 13 civilians killed (including 4 from Iran cluster munitions per HRW). 6,000+ injured.",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-march-31-2026/"
           },
           "estimated": {
-            "military": 8,
+            "military": 12,
             "civilian": 14,
-            "total": 22,
+            "total": 26,
             "source": "INSS / Statista compilation + Alma Center daily reports + Israeli emergency services",
             "sourceUrl": "https://www.timesofisrael.com/liveblog-march-26-2026/",
-            "note": "INSS at Tel Aviv University tracks 16 fatalities (14 civilian + 2 military) through March 18. Additional incidents: 1 Misgav Am (March 22), 1 Thai worker Moshav Adanim, 1 Mahanayim Junction (March 24), 1 killed Lebanon (Day 27 \u2014 Greenberg), 1 killed Lebanon (Day 27 \u2014 Volansky Merkava). Estimated 24 total including possible unreported deaths. 92% interception rate prevented far worse toll.",
-            "minTotal": 18,
-            "maxTotal": 25
+            "note": "INSS at Tel Aviv University tracks 16 fatalities (14 civilian + 2 military) through March 18. Additional: 1 Misgav Am (March 22), 1 Thai worker Moshav Adanim, 1 Mahanayim Junction (March 24), 1 Greenberg (Day 27 Lebanon), 1 Volansky (Day 27 Merkava). +4 Nahal Brigade killed in Lebanon clash March 30 (Madmoni, Cohen, Entis + 1). +1 Sgt. Ben Zion (March 30). Estimated 26 total.",
+            "minTotal": 22,
+            "maxTotal": 30
           },
           "rumored": {
             "total": 50,
@@ -226,8 +226,8 @@
               }
             ]
           },
-          "injured": 5800,
-          "injuredNote": "5,790+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 31 PM). Includes 1 lightly wounded near Haifa Bazan refinery (March 30 barrage). 393+ Iranian attack waves recorded. 92% interception rate prevented far worse toll.",
+          "injured": 5804,
+          "injuredNote": "5,804+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 31-32). Includes 2 injured in Haifa Bazan refinery barrage (1 serious) + 2 wounded in Lebanon clash (1 serious, 1 moderate). 393+ Iranian attack waves recorded. 92% interception rate prevented far worse toll.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
         },
