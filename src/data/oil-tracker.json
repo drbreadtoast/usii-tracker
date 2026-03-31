@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-30T21:16:00Z",
+    "lastUpdated": "2026-03-31T00:39:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,14 +73,14 @@
       }
     },
     "current": {
-      "date": "2026-03-30",
-      "label": "Day 31 AM \u2014 Brent $114.90/bbl (+43.9%), WTI $101.01 (+33.8%); IDF 120+ bombs on Tehran missile/weapons sites; Tabriz Petrochemical Company struck; Haifa Bazan Oil Refinery fire; Indian worker killed in Kuwait; Trump 'regime change achieved' + Kharg Island seizure threat; Spain closes airspace to US military.",
+      "date": "2026-03-31",
+      "label": "Day 31 PM \u2014 Brent $114.90/bbl (+43.9%), WTI $102.88 (+36.2%); Al-Salmi tanker struck at Dubai port; IMF: 'largest oil disruption in history'; Saudi intercepts 5 missiles targeting Eastern Province oil; IRGC Commander Hassanzadeh killed; 82nd Airborne arrives",
       "brent": {
-        "price": 112.78,
-        "change": "+41.3%",
-        "changeDollars": "+$32.94",
+        "price": 114.9,
+        "change": "+44.0%",
+        "changeDollars": "+$35.06",
         "unit": "$/barrel",
-        "source": "CNBC / Fortune \u2014 Brent crude Day 31 settlement (afternoon)",
+        "source": "CNBC / Fortune \u2014 Brent crude Day 31 late session (after Trump Kharg threat spike)",
         "sourceUrl": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"
       },
       "wti": {
@@ -91,8 +91,8 @@
         "source": "CNBC / FX Daily Report \u2014 WTI crude Day 31 settlement (first close above $100 since 2022)",
         "sourceUrl": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-march-30-2026/"
       },
-      "changePercent": "+38.7%",
-      "lastUpdated": "2026-03-30"
+      "changePercent": "+40.1%",
+      "lastUpdated": "2026-03-31"
     },
     "priceHistory": [
       {
@@ -512,8 +512,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-29T12:34:00Z",
-    "note": "AAA national average $3.99/gallon as of March 30, 2026 (Day 31 PM). Up $0.87/gallon (+27.9%) from pre-war $3.12. Up $1.00 in exactly one month per AAA. Brent crude settled $112.78/bbl (intraday high $116 on Trump Kharg Island obliterate threat). WTI first close above $100 since July 2022. California: $5.87/gal; Kansas: $3.25/gal.",
+    "lastUpdated": "2026-03-31T00:39:00Z",
+    "note": "AAA national average $3.99/gallon as of March 30, 2026 (Day 31 PM). Up $0.87/gallon (+27.9%) from pre-war $3.12. Brent crude $114.90/bbl (intraday high $116). WTI $102.88 \u2014 first close above $100 since 2022. Al-Salmi tanker struck at Dubai port. March = Brent's best monthly gain since inception (1988). Diesel at $5.375/gal.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -698,7 +698,14 @@
       "source": "UPI",
       "sourceUrl": "https://www.upi.com/Top_News/US/2026/03/24/cost-of-war-iran-defense-budget/7801774358253/"
     },
-    "Day 26: Brent dropped -$2.72 (-2.65%) to $99.75/bbl on Trump Iran negotiation signals \u2014 market testing whether diplomatic track is real; Iran's formal rejection may reverse this."
+    "Day 26: Brent dropped -$2.72 (-2.65%) to $99.75/bbl on Trump Iran negotiation signals \u2014 market testing whether diplomatic track is real; Iran's formal rejection may reverse this.",
+    {
+      "fact": "IMF March 30: Iran war causing 'largest disruption to global oil market in history.' Every 10% oil price increase = +0.4% global inflation and -0.2% GDP. OECD raised US inflation forecast to 4.2% for 2026. Goldman Sachs: 30% US recession probability. Bank of Israel held rates at 4% citing war inflation.",
+      "source": "Bloomberg / IMF",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-30/imf-says-iran-war-means-higher-prices-slower-growth-worldwide",
+      "date": "2026-03-30",
+      "category": "economic_impact"
+    }
   ],
   "lastUpdated": "2026-03-30T02:12:00Z",
   "priceHistory": [
@@ -783,6 +790,20 @@
       "brent": 112.57,
       "wti": 99.64,
       "label": "Day 28 PM \u2014 Brent $112.57 highest since 2022 (+41%); WTI $99.64 crosses $100 intraday; Iran blocks COSCO ships; G7 demands Hormuz reopening; IRGC Wave 84; cluster bomb kills 1 in Israel.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-30",
+      "brent": 112.78,
+      "wti": 102.88,
+      "label": "Day 31 PM \u2014 Brent $112.78 settled; WTI $102.88 first close above $100 since 2022. Brent intraday $116 on Trump Kharg Island threat. AAA gas $3.99/gal. IMF: 'largest oil disruption in history.' 82nd Airborne arrives.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-03-31",
+      "brent": 114.9,
+      "wti": 102.88,
+      "label": "Day 31 late \u2014 Brent surges to $114.90 after Iranian drone strikes Kuwaiti VLCC 'Al-Salmi' at Dubai port. Saudi intercepts 5 missiles at Eastern Province. NATO 4th missile over Turkey. Record monthly gain since Brent inception 1988.",
       "isEvent": true
     }
   ]

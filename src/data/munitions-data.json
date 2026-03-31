@@ -35,18 +35,18 @@
       }
     ],
     "methodology": "Estimates are compiled from open-source intelligence (OSINT), published government reports, Congressional testimony, and assessments from recognized defense research institutions. Quantities represent best-available estimates and may differ from actual classified inventories. Production rates are inferred from procurement budgets, contractor disclosures, and historical delivery schedules. Conflict expenditure figures are derived from satellite imagery analysis, official briefings, and corroborated media reports.",
-    "lastUpdated": "2026-03-30T21:16:00Z",
+    "lastUpdated": "2026-03-31T00:39:00Z",
     "updateFrequency": "daily",
     "disclaimer": "All figures are estimates based on publicly available information and open-source analysis. Actual military inventories are classified. Numbers should be treated as approximations subject to revision. This data is compiled for informational purposes and does not represent official government positions. Conflict usage figures include both confirmed and analytically assessed strikes. Source URLs point to institutional pages that published relevant analyses; specific reports may require navigation within those sites.",
     "conflictDay": 30,
     "daysOfConflict": 27,
     "totalTargetsStruck": 10500,
-    "note": "Day 28: IAF deployed 60-jet wave (150+ munitions) on Tehran weapon manufacturing. 20 sorties/70 munitions on Kermanshah/Dezful launchers. Yazd naval arms production site destroyed. IRGC Wave 83 used ballistic missiles, precision multi-warhead systems, loitering drones."
+    "note": "Day 31 PM: IRGC drone used against Al-Salmi tanker at Dubai port. NATO intercepted 4th Iranian ballistic missile over Turkey. 14 ballistic missiles + 12 drones over Kuwait. 5 Iranian missiles intercepted by Saudi Arabia targeting Eastern Province. AI-targeted strike killed IRGC Commander Hassanzadeh."
   },
   "countries": {
     "us": {
       "name": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "arsenal": [
         {
           "name": "BGM-109 Tomahawk (Block IV/V)",
@@ -330,7 +330,7 @@
     },
     "israel": {
       "name": "Israel",
-      "flag": "🇮🇱",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
       "arsenal": [
         {
           "name": "Iron Dome (Tamir Interceptor)",
@@ -623,7 +623,7 @@
     },
     "iran": {
       "name": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "arsenal": [
         {
           "name": "Shahab-3 / Emad",
@@ -845,7 +845,7 @@
             "Dimona nuclear facility vicinity",
             "Bahrain civilian areas",
             "Turkish airspace (intercepted by NATO)",
-            "Haifa, Israel (Day 13 barrage — intercepted)",
+            "Haifa, Israel (Day 13 barrage \u2014 intercepted)",
             "US bases in Kuwait and Bahrain (Day 13)"
           ],
           "confirmed": true,
@@ -896,7 +896,7 @@
           "targets": [
             "Central Israel (Tel Aviv, Haifa)",
             "US base at Al Dhafra, UAE",
-            "Tel Aviv / Haifa (Day 13 barrage — intercepted)"
+            "Tel Aviv / Haifa (Day 13 barrage \u2014 intercepted)"
           ],
           "confirmed": true,
           "sourceUrl": "https://www.csis.org/"
@@ -906,7 +906,7 @@
           "quantityUsed": 5,
           "dateRange": "2026-03-12",
           "targets": [
-            "Tel Aviv / Haifa (Day 13 barrage — all intercepted by Israeli defenses)"
+            "Tel Aviv / Haifa (Day 13 barrage \u2014 all intercepted by Israeli defenses)"
           ],
           "confirmed": false,
           "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace"
@@ -1236,7 +1236,7 @@
     }
   ],
   "conflictExpenditure": {
-    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through Day 31. Iran has fired 560+ ballistic missiles (including 11 cluster munitions that penetrated Israeli defenses on Day 14 — confirmed as war crimes by Human Rights Watch report March 30, 2026) and 2,000+ drones including Fattah hypersonic missiles. IDF destroyed 250+ Iranian drones. US claims 6,000+ targets hit across Iran. 43 Iranian warships destroyed. NATO intercepted 3rd Iranian missile over Turkey.",
+    "summary": "Estimated total munition expenditure costs for all parties from conflict initiation (Feb 28, 2026) through Day 31. Iran has fired 560+ ballistic missiles (including 11 cluster munitions that penetrated Israeli defenses on Day 14 \u2014 confirmed as war crimes by Human Rights Watch report March 30, 2026) and 2,000+ drones including Fattah hypersonic missiles. IDF destroyed 250+ Iranian drones. US claims 6,000+ targets hit across Iran. 43 Iranian warships destroyed. NATO intercepted 3rd Iranian missile over Turkey.",
     "lastUpdated": "2026-03-13",
     "byCountry": {
       "us": {
