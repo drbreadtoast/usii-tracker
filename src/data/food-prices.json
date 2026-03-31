@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-31T11:31:00Z",
+  "lastUpdated": "2026-03-31T21:31:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": "$6.12/bushel",
+      "current": 7.85,
       "change": "+8.9%",
       "detail": "CBOT May wheat at $6.12/bushel (March 31). Up from pre-war $5.62. Fertilizer disruptions from Hormuz closure (+40% fertilizer costs) driving 2026 crop cost increases. UN humanitarian/fertilizer corridor through Hormuz agreed March 27. GCC food imports disrupted 70%.",
       "source": "USDA Minneapolis Daily Grain Report / CME March 30",
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": "$4.69/bushel",
+      "current": 4.69,
       "change": "+8.8%",
-      "detail": "CBOT May corn at $4.69/bushel (March 31, +8.8% from pre-war $4.31). Stockpiles (March 1): 9.04B bushels, up 11% YoY. USDA Prospective Plantings due March 31 \u2014 expected sharp corn acreage drop to 94M acres (down ~5% from 2025) as fertilizer costs shift acres to soybeans.",
+      "detail": "CBOT May corn at $4.69/bushel (March 31, +8.8% from pre-war $4.31). Stockpiles (March 1): 9.04B bushels, up 11% YoY. USDA Prospective Plantings due March 31 — expected sharp corn acreage drop to 94M acres (down ~5% from 2025) as fertilizer costs shift acres to soybeans.",
       "source": "Farm Futures / USDA March 30",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -35,7 +35,7 @@
       "name": "Rice",
       "unit": "/cwt",
       "preWar": "$15.20",
-      "current": "$20.50",
+      "current": 19.9,
       "change": "+34.9%",
       "detail": "Asian import routes through Persian Gulf completely disrupted. Export restrictions emerging in Southeast Asia.",
       "source": "USDA",
@@ -47,7 +47,7 @@
       "preWar": "$0.21",
       "current": "$0.142",
       "change": "-32.4%",
-      "detail": "Sugar #11 (ICE) at $0.142/lb \u2014 actually DOWN from pre-war $0.21. Global sugar market has a 3.4 million metric ton surplus forecast for 2026/27; the Iran war has not materially elevated sugar prices. Unlike energy-linked grains, sugar supply/demand dynamics dominated by global harvest conditions.",
+      "detail": "Sugar #11 (ICE) at $0.142/lb — actually DOWN from pre-war $0.21. Global sugar market has a 3.4 million metric ton surplus forecast for 2026/27; the Iran war has not materially elevated sugar prices. Unlike energy-linked grains, sugar supply/demand dynamics dominated by global harvest conditions.",
       "source": "Barchart / ICE Sugar Futures",
       "sourceUrl": "https://www.barchart.com/futures/quotes/SBH26"
     },
@@ -96,5 +96,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 32 of Iran-Israel conflict. US grocery prices up 3.9% YoY. Fertilizer costs up 40% since war began. GCC food imports disrupted by 70%. Consumer prices in Gulf states spiked 40-120%. Middle East urea at $590+/ton (+19% in one week). Hormuz carries 35% of global urea exports. Brazil, world's largest fertilizer importer, especially vulnerable."
+  "context": "War-driven supply disruptions continue to push food prices higher. Fertilizer costs up 47% (urea $700+/tonne). ~1/3 of global fertilizer transits Hormuz. USDA predicts 3.1% food price rise in 2026. US grocery prices up 3.9% YoY. GCC food imports disrupted 70%. Corn at $4.69/bu, wheat $7.85/bu. Day 29 of Hormuz blockade compounding logistics costs."
 }
