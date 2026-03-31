@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-31T04:57:00Z",
+  "lastUpdated": "2026-03-31T11:31:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": "$6.07/bushel",
-      "change": "+7.9%",
-      "detail": "CBOT May wheat at $5.90/bushel (March 30). Plains drought (nearly all of Oklahoma, Nebraska, Texas under moderate-to-extreme drought) offsetting some of earlier war-driven spike. Fertilizer disruptions from Hormuz still putting upward pressure on 2026 crop costs. UN secured humanitarian/fertilizer passage through Hormuz (March 27).",
+      "current": "$6.12/bushel",
+      "change": "+8.9%",
+      "detail": "CBOT May wheat at $6.12/bushel (March 31). Up from pre-war $5.62. Fertilizer disruptions from Hormuz closure (+40% fertilizer costs) driving 2026 crop cost increases. UN humanitarian/fertilizer corridor through Hormuz agreed March 27. GCC food imports disrupted 70%.",
       "source": "USDA Minneapolis Daily Grain Report / CME March 30",
       "sourceUrl": "https://www.ams.usda.gov/mnreports/ams_3046.pdf"
     },
@@ -17,7 +17,7 @@
       "preWar": "$4.31",
       "current": "$4.69/bushel",
       "change": "+8.8%",
-      "detail": "CBOT May corn at $4.69/bushel (March 31, +8.8% from pre-war $4.31). National stockpiles (March 1): 9.04 billion bushels, up 11% YoY. Hormuz carries 1/3 of world's fertilizer supply. USDA Prospective Plantings report due March 31 12pm ET — expected to show sharp corn acreage drop to 94M acres (down ~5% from 2025's 98.79M) as fertilizer cost spikes shift acres to soybeans.",
+      "detail": "CBOT May corn at $4.69/bushel (March 31, +8.8% from pre-war $4.31). Stockpiles (March 1): 9.04B bushels, up 11% YoY. USDA Prospective Plantings due March 31 \u2014 expected sharp corn acreage drop to 94M acres (down ~5% from 2025) as fertilizer costs shift acres to soybeans.",
       "source": "Farm Futures / USDA March 30",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -83,10 +83,10 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": 48,
+    "averageWeeklyIncrease": 2.5,
     "preWarWeekly": "$168",
-    "currentWeekly": 290,
-    "changePercent": "+72.6%"
+    "currentWeekly": 112,
+    "changePercent": 7.7
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -96,5 +96,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 31-32: IMF March 30: 'all roads lead to higher prices and slower growth' — largest oil disruption in history. WFP warns 45 million additional people face acute food insecurity from Hormuz blockade. Fertilizer (urea) at $700+/MT globally (+47% from pre-war $475). Wheat CBOT May at $6.07/bushel (+7.9%); corn $4.69/bushel (+8.8%); soybeans $11.59/bushel (+14.5%). UN humanitarian/fertilizer passage through Hormuz per March 27 agreement. USDA Prospective Plantings report due March 31 12pm ET — expected corn acreage drop to 94M acres as fertilizer costs shift acres to soybeans. Diesel at $5.416/gal hitting trucking costs hard."
+  "context": "Day 32 of Iran-Israel conflict. US grocery prices up 3.9% YoY. Fertilizer costs up 40% since war began. GCC food imports disrupted by 70%. Consumer prices in Gulf states spiked 40-120%. Middle East urea at $590+/ton (+19% in one week). Hormuz carries 35% of global urea exports. Brazil, world's largest fertilizer importer, especially vulnerable."
 }

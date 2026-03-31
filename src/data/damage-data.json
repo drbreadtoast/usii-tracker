@@ -28,8 +28,8 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 238,
-    "confirmed": 40,
+    "totalSites": 243,
+    "confirmed": 188,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -3955,7 +3955,7 @@
       "severity": "high",
       "sources": [
         {
-          "name": "Al Jazeera — Fire after missile attack on Haifa refinery",
+          "name": "Al Jazeera \u2014 Fire after missile attack on Haifa refinery",
           "url": "https://www.aljazeera.com/news/2026/3/30/fire-contained-after-missile-attack-on-oil-refinery-in-israels-haifa"
         }
       ]
@@ -3975,8 +3975,108 @@
       "severity": "high",
       "sources": [
         {
-          "name": "CGTN — Iran says US, Israel strike orphanage",
+          "name": "CGTN \u2014 Iran says US, Israel strike orphanage",
           "url": "https://news.cgtn.com/news/2026-03-30/news-1LW1CKa4SUo/p.html"
+        }
+      ]
+    },
+    {
+      "id": "dmg-243",
+      "country": "Israel",
+      "city": "Bnei Brak / Ramat Gan / Petah Tikva",
+      "lat": 32.0833,
+      "lng": 34.8333,
+      "type": "Civilian Infrastructure",
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-31",
+      "description": "Iranian cluster munition warhead dispersed ~24 bomblets over central Israel. Multiple cars set ablaze, workshop fire in Petah Tikva. 12 wounded including 6 children.",
+      "attributedTo": "iran",
+      "severity": "high",
+      "sources": [
+        {
+          "name": "Ynet",
+          "url": "https://www.ynetnews.com/article/bkdjevlo11e"
+        }
+      ]
+    },
+    {
+      "id": "dmg-244",
+      "country": "UAE",
+      "city": "Dubai port anchorage (VLCC Al-Salmi)",
+      "lat": 25.27,
+      "lng": 55.27,
+      "type": "Maritime/Energy",
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-31",
+      "description": "IRGC drone struck Kuwaiti VLCC Al-Salmi at Dubai anchorage. Fire contained. No spill. 24 crew safe.",
+      "attributedTo": "iran",
+      "severity": "critical",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-30/iran-strikes-fully-laden-kuwait-oil-tanker-in-dubai-port-area"
+        }
+      ]
+    },
+    {
+      "id": "dmg-245",
+      "country": "Iran",
+      "city": "Tabriz (petrochemical unit)",
+      "lat": 38.08,
+      "lng": 46.29,
+      "type": "Energy Infrastructure",
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-03-31",
+      "description": "Overnight US-Israeli strike hit Tabriz petrochemical unit. Fire contained per Fars.",
+      "attributedTo": "multiple",
+      "severity": "high",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/3/30/us-israel-war-on-iran-whats-happening-on-day-31-of-attacks"
+        }
+      ]
+    },
+    {
+      "id": "dmg-246",
+      "country": "Lebanon",
+      "city": "al-Amiriyah checkpoint, Qleileh",
+      "lat": 33.28,
+      "lng": 35.27,
+      "type": "Military Infrastructure",
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-03-30",
+      "description": "Israeli airstrike hit LAF checkpoint. First strike on permanent LAF installation. 1 soldier killed, 5 wounded.",
+      "attributedTo": "israel",
+      "severity": "high",
+      "sources": [
+        {
+          "name": "Asharq Al-Awsat",
+          "url": "https://english.aawsat.com/arab-world/5256799-lebanese-soldier-killed-israeli-strike-checkpoint"
+        }
+      ]
+    },
+    {
+      "id": "dmg-247",
+      "country": "Saudi Arabia",
+      "city": "Al-Kharj Governorate",
+      "lat": 24.15,
+      "lng": 47.3,
+      "type": "Civilian Infrastructure",
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-31",
+      "description": "Intercepted Iranian drone debris fell on 6 houses. No casualties. Part of 10 drone + 8 missile overnight wave.",
+      "attributedTo": "iran",
+      "severity": "medium",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/03/31/world/live-news/iran-war-us-trump-oil"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-03-31T04:57:00Z",
+    "lastUpdated": "2026-03-31T11:31:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,24 +74,24 @@
     },
     "current": {
       "date": "2026-03-31",
-      "label": "Day 32 early \u2014 Brent $111.55/bbl (+39.7%), WTI $102.14 (+35.3%); Brent dips ~1% in early Asia trading on WSJ report Trump may end war without reopening Hormuz; March = Brent best monthly gain since inception (1988); Goldman: $14-18/bbl risk premium",
+      "label": "Day 32 AM \u2014 Brent $112.90/bbl (+41.4%), WTI $102.08 (+35.2%); Iranian drone strikes Kuwaiti VLCC Al-Salmi at Dubai port; Iran Parliament approves Hormuz toll plan; gas crosses $4.00; Brent record monthly gain since 1988; Trump ceasefire talk lifts futures",
       "brent": {
-        "price": 111.55,
-        "change": "+39.8%",
-        "changeDollars": "+$31.75",
+        "price": 112.9,
+        "change": "+41.5%",
+        "changeDollars": "+$33.10",
         "unit": "$/barrel",
-        "source": "CNBC \u2014 Oil price March 31 early Asia trading",
+        "source": "CNBC \u2014 Oil price March 31 trading",
         "sourceUrl": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html"
       },
       "wti": {
-        "price": 102.14,
-        "change": "+35.3%",
-        "changeDollars": "+$26.64",
+        "price": 102.08,
+        "change": "+35.2%",
+        "changeDollars": "+$26.58",
         "unit": "$/barrel",
-        "source": "CNBC \u2014 WTI crude March 31 early session",
+        "source": "CNBC \u2014 WTI crude March 31",
         "sourceUrl": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html"
       },
-      "changePercent": "+37.5%",
+      "changePercent": "+38.3%",
       "lastUpdated": "2026-03-31"
     },
     "priceHistory": [
@@ -327,6 +327,13 @@
         "brent": 107.81,
         "label": "Day 30 (Sun) \u2014 Markets closed; last close Brent $107.81, WTI $99.64; Islamabad summit Day 1; IDF widespread wave Tehran; Iran cluster munitions Tel Aviv; Houthis enter war on 2nd front",
         "isEvent": true
+      },
+      {
+        "date": "2026-03-31",
+        "wti": 102.08,
+        "brent": 112.9,
+        "label": "Day 32 AM \u2014 Brent $112.90 (+41.4%); WTI $102.08 (+35.2%); Iranian drone hits Kuwaiti VLCC Al-Salmi at Dubai; Iran Parliament approves Hormuz toll plan; gas $4.02/gal; futures up on Trump ceasefire remarks; Brent record monthly gain since 1988",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -512,8 +519,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-03-31T04:57:00Z",
-    "note": "AAA national average $3.99/gallon as of March 30, 2026 (Day 31 PM). Up $0.87/gallon (+27.9%) from pre-war $3.12. Brent crude $114.90/bbl (intraday high $116). WTI $102.88 \u2014 first close above $100 since 2022. Al-Salmi tanker struck at Dubai port. March = Brent's best monthly gain since inception (1988). Diesel at $5.375/gal.",
+    "lastUpdated": "2026-03-31T11:31:00Z",
+    "note": "AAA national average $4.02/gallon as of March 31, 2026 (Day 32). Up $0.88/gallon (+28.0%) from pre-war $3.14 (or +$1.04/+34.9% from Feb 26 $2.98). Brent $112.90/bbl (+41.4%). WTI $102.08 \u2014 steady above $100. Al-Salmi tanker attacked at Dubai port. Iran Parliament toll plan. Diesel $5.45/gal (+45%).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -523,11 +530,11 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 3.99,
-          "change": "+25.5%"
+          "price": 4.02,
+          "change": "+28.0%"
         },
-        "change": "+$0.81",
-        "changePercent": "+25.5%",
+        "change": "+$0.84",
+        "changePercent": "+26.4%",
         "detail": "Gas at $3.99/gal (AAA/GasBuddy March 30, Day 31). Up $0.81/gal from pre-war $3.18. $4/gal milestone breached. California: $5.90+/gal. Diesel: over $5/gal nationally (+33%). WTI closed above $100 for first time since 2022. Brent settled $112.78.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -539,11 +546,11 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 5.07,
-          "change": "+33.4%"
+          "price": 5.45,
+          "change": "+43.4%"
         },
-        "change": "+$1.27",
-        "changePercent": "+33.4%",
+        "change": "+$1.65",
+        "changePercent": "+43.4%",
         "detail": "National average at $5.07/gal \u2014 up sharply from pre-war levels. Highest since 2022. Critical for trucking and freight \u2014 fuel surcharges being implemented across major carriers.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },

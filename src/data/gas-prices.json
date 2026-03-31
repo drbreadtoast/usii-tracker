@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-31T04:57:00Z",
-  "currentAverage": 3.99,
+  "lastUpdated": "2026-03-31T11:31:00Z",
+  "currentAverage": 4.02,
   "preWarAverage": 3.18,
-  "changePercent": 25.5,
+  "changePercent": 26.4,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -239,6 +239,12 @@
       "price": 3.99,
       "label": "Day 31 PM \u2014 AAA avg hits $3.99/gal (+$0.87 from pre-war); WTI closes above $100 for first time since July 2022; Brent settles $112.78 (intraday $116 on Trump Kharg Island threat); USS Tripoli arrives; 3 UNIFIL peacekeepers killed",
       "isEvent": true
+    },
+    {
+      "date": "2026-03-31",
+      "price": 4.02,
+      "label": "Day 32 AM \u2014 AAA national avg crosses $4.00 at $4.02/gal (+$1.04 from Feb 26 $2.98); first time above $4 since Aug 2022; up $0.10 in one week; California $5.87/gal; Diesel $5.45/gal; Brent $112.90/bbl; Iran Parliament Hormuz toll plan; Al-Salmi tanker attack",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -289,12 +295,12 @@
     },
     "current": {
       "label": "Current (Mar 18)",
-      "crudePerBarrel": 111.55,
+      "crudePerBarrel": 112.9,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$104 \u00f7 42 gal",
-          "value": 2.48,
+          "formula": "$112.9 \u00f7 42 gal",
+          "value": 2.69,
           "percent": 62,
           "change": "+$0.86"
         },

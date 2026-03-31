@@ -119,8 +119,8 @@
       "totalEstimate": "~$31.35B direct military + ~$38B indirect through Day 30",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
       "totalCost": 31350000000,
-      "totalFormatted": "~$69.7B (direct + indirect, Day 31)",
-      "total": 69050000000,
+      "totalFormatted": "~$71.8B (direct + indirect, Day 32)",
+      "total": 71750000000,
       "lastUpdated": "2026-03-30T21:16:00Z",
       "note": "Day 31 PM. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26; estimated ~$30-32B by Day 31 PM. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. Trump threatened to obliterate Iran's power plants and Kharg Island (Truth Social, March 30). USS Tripoli (3,500 Marines) confirmed operational. US Rangers and Navy SEALs deployed. Daily burn rate settling to $601M-$1B/day (CSIS/CAP). Total US troops: 57,000+ in theater.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress."
@@ -198,7 +198,12 @@
       },
       "dailyBurnRate": 500000000,
       "dailyBurnRateNote": "Calcalist estimates $480-550M/day average ($645-970M/day first 3 days). Includes missile defense operations, IAF sorties (60 jets dropped 150+ bombs Day 28 alone), 300,000 reserve mobilization, and civil defense.",
-      "note": "Calcalist: $480-550M/day avg. $6.4B in first 20 days (~$320M/day early, accelerating). Day 29 cumulative estimated $14.5B+. NIS 177B revised defense budget (from NIS 112B base). NIS 2.6B ($826M) emergency procurement. $13B + $2.9B budget supplements approved. RUSI: Arrow interceptors near total depletion \u2014 'unsustainable' 92% interception rate. UK declined US request to share interceptors."
+      "note": "Calcalist: $480-550M/day avg. $6.4B in first 20 days (~$320M/day early, accelerating). Day 29 cumulative estimated $14.5B+. NIS 177B revised defense budget (from NIS 112B base). NIS 2.6B ($826M) emergency procurement. $13B + $2.9B budget supplements approved. RUSI: Arrow interceptors near total depletion \u2014 'unsustainable' 92% interception rate. UK declined US request to share interceptors.",
+      "total": 16000000000,
+      "totalFormatted": "~$16.0B (direct military, Day 32)",
+      "notes": [
+        "Knesset approved record NIS 143B ($45.8B) 2026 defense budget on March 30 \u2014 $9.48B increase over 2025. Includes NIS 30B ($9.5B) wartime funding. Total state budget NIS 850.6B ($271B), largest in Israeli history. New $48M deal with Elbit for 155mm shells."
+      ]
     },
     "iran": {
       "name": "Iran",
@@ -814,18 +819,18 @@
     "allCountriesIndirectCosts": 109440000000,
     "combinedTotalCosts": 153320000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military + indirect economic costs through Day 31.",
-    "lastCalculated": "2026-03-30T12:27:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 32.",
+    "lastCalculated": "2026-03-31T11:31:00Z",
     "allCountriesIndirect": 109440000000,
-    "combinedTotalFormatted": "$155.18B",
-    "lastUpdated": "2026-03-30T12:27:00Z",
-    "directCosts": 45740000000,
+    "combinedTotalFormatted": "$153.32B",
+    "lastUpdated": "2026-03-31T11:31:00Z",
+    "directCosts": 43880000000,
     "indirectCosts": 109440000000,
-    "combinedCosts": 155180000000,
-    "combinedCost": 155180000000
+    "combinedCosts": 153320000000,
+    "combinedCost": 153320000000
   },
-  "daysOfConflict": 31,
-  "lastUpdated": "2026-03-31T04:57:00Z",
+  "daysOfConflict": 32,
+  "lastUpdated": "2026-03-31T11:31:00Z",
   "dailyBurnRate": 1860000000,
   "totalCost": 47600000000,
   "totalFormatted": "$47.6B (direct military, all countries, Day 31)"
