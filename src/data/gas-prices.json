@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T11:32:00Z",
+  "lastUpdated": "2026-04-01T17:35:00Z",
   "currentAverage": 4.018,
   "preWarAverage": 3.18,
   "changePercent": 26.4,
@@ -257,6 +257,12 @@
       "price": 4.018,
       "label": "Day 33 AM — AAA avg holding at $4.018/gal. Brent seesawing $101-$108 on Trump exit talk. CA $5.89/gal. Diesel $5.45/gal. EIA weekly: $4.126.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-01",
+      "price": 4.018,
+      "label": "Day 33 PM — AAA avg holds $4.018/gal. Oil crashing (Brent ~$102, WTI <$100) on Trump exit signals — pump prices may lag oil decline 2-3 days. IEA: 'April worse.' Ceasefire by April 6: $3.50-$3.75; escalation: $5-$7 (Time).",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -353,7 +359,7 @@
         }
       ],
       "total": 4.018,
-      "note": "National average $4.018/gal (AAA April 1) — holding above $4 since March 31. Up 26.4% from pre-war $3.18. Brent crude $105.27/bbl (June front-month, volatile). Diesel $5.454/gal. California: $5.887/gal. Macquarie: $7/gal if war extends to summer.",
+      "note": "National average $4.018/gal (AAA April 1) — holding above $4 since March 31. Up 26.4% from pre-war $3.18. Brent crashed to ~$102/bbl PM (from $108 AM). Diesel $5.454/gal. California: $5.887/gal. If ceasefire by April 6: $3.50-$3.75. If escalation: $5-$7 (Time). Pump prices lag oil by 2-3 days.",
       "crude": 2.78,
       "taxes": 0.52,
       "refining": 0.44,
@@ -361,7 +367,7 @@
       "regularGasoline": 4.018,
       "changeFromPreWar": "+$0.838",
       "changePercent": "+26.4%",
-      "lastUpdated": "2026-04-01T11:32:00Z",
+      "lastUpdated": "2026-04-01T17:35:00Z",
       "date": "2026-04-01"
     }
   },

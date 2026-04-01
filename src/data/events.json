@@ -18739,5 +18739,310 @@
       "six-months",
       "day33"
     ]
+  },
+  {
+    "id": "evt-new-532",
+    "title": "Trump confirms primetime address 9PM ET; strongly considers leaving NATO",
+    "description": "Trump to deliver first major primetime address on Iran war at 9 PM ET. Will reaffirm war ending in 2-3 weeks. Told Reuters he is 'absolutely' considering withdrawing US from NATO over allies' refusal to join war. Told allies to 'get your own oil' and 'start learning how to fight for yourself.'",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington D.C., USA",
+    "timestamp": "2026-04-01T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — Trump to address nation on Iran war",
+        "url": "https://www.npr.org/2026/04/01/nx-s1-5769805/iran-war-trump"
+      },
+      {
+        "name": "NBC News — Trump considering pulling out of NATO",
+        "url": "https://www.nbcnews.com/world/middle-east/live-blog/live-updates-iran-war-trump-address-nation-rcna266149"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "trump",
+      "nato",
+      "address",
+      "diplomacy",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-533",
+    "title": "Pezeshkian signals ceasefire openness; Mojtaba Khamenei contradicts — vows resistance",
+    "description": "Iran President Pezeshkian told European Council President Costa that Iran has 'the necessary will to end this war' if guaranteed no further attacks. But Supreme Leader Mojtaba Khamenei contradicted: 'Hormuz leverage must continue. The demand of the masses is continuation of effective defense.' IRGC made no mention of ending the war.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-01T14:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC — Trump says Iran asked for ceasefire",
+        "url": "https://www.cnbc.com/2026/04/01/trump-iran-war-ceasefire.html"
+      },
+      {
+        "name": "France 24 — Mojtaba Khamenei vows continued support",
+        "url": "https://www.france24.com/en/middle-east/20260401-middle-east-war-live-trump-says-iran-war-could-end-two-weeks-maybe-three"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "pezeshkian",
+      "khamenei",
+      "ceasefire",
+      "split",
+      "diplomacy",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-534",
+    "title": "Zanjan strikes kill 4, damage Shia mosque and religious site",
+    "description": "US-Israeli strikes killed 4 people and wounded 26 in Zanjan, northwest Iran. Strikes damaged a Shia Muslim mosque and religious site. Part of broader IDF campaign hitting 15 weapons production sites in Tehran overnight including ballistic missile factory, IRGC R&D center, and long-range SAM assembly facilities.",
+    "type": "strike",
+    "lat": 36.6736,
+    "lng": 48.4787,
+    "location": "Zanjan, Iran",
+    "timestamp": "2026-04-01T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Alma Center — Daily report April 1",
+        "url": "https://israel-alma.org/daily-report-the-second-iran-war-april-1-2026-1600/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 4,
+      "injured": 26
+    },
+    "tags": [
+      "zanjan",
+      "mosque",
+      "casualties",
+      "infrastructure",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-535",
+    "title": "Qeshm Island desalination plant destroyed in strikes",
+    "description": "A desalination plant on Qeshm Island in the Strait of Hormuz was knocked out of service by strikes. Qeshm Island is strategically located in the strait, and the destruction of civilian water infrastructure affects the local population.",
+    "type": "infrastructure",
+    "lat": 26.95,
+    "lng": 56.27,
+    "location": "Qeshm Island, Iran",
+    "timestamp": "2026-04-01T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Day 33 summary",
+        "url": "https://www.aljazeera.com/news/2026/4/1/iran-war-what-is-happening-on-day-33-of-us-israel-attacks"
+      },
+      {
+        "name": "Gulf News — Day 33",
+        "url": "https://gulfnews.com/world/mena/usisrael-war-on-iran-day-33-trump-says-conflict-could-end-in-two-weeks-maybe-three-kuwait-airport-hit-by-drone-attacks-1.500492706"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "qeshm",
+      "desalination",
+      "infrastructure",
+      "hormuz",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-536",
+    "title": "IDF strikes fentanyl factory in Iran, claims chemical weapons link",
+    "description": "IDF struck a civilian factory in Iran that it claims was producing fentanyl on behalf of Iran's chemical weapons program, alleging the fentanyl was being transferred to the Iranian defense body tasked with producing chemical weapons.",
+    "type": "strike",
+    "lat": 35.5,
+    "lng": 51.4,
+    "location": "Iran (exact location unspecified)",
+    "timestamp": "2026-04-01T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Israel strikes drug factory in Iran",
+        "url": "https://www.timesofisrael.com/israel-strikes-drug-factory-in-iran-says-it-made-fentanyl-for-chemical-weapons-rd/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "fentanyl",
+      "chemical-weapons",
+      "idf",
+      "strike",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-537",
+    "title": "IDF kills Hezbollah Southern Front commander in naval strike south of Beirut",
+    "description": "IDF eliminated Hezbollah's Southern Front commander Hajj Youssef Ismail Hashem in a naval strike south of Beirut. Hezbollah launched 46 attack waves on March 31 alone — double the previous day — consisting of 29 rocket/missile attacks and 17 UAV attacks toward Israel.",
+    "type": "strike",
+    "lat": 33.85,
+    "lng": 35.5,
+    "location": "South of Beirut, Lebanon",
+    "timestamp": "2026-04-01T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Alma Center — Daily report April 1",
+        "url": "https://israel-alma.org/daily-report-the-second-iran-war-april-1-2026-1600/"
+      },
+      {
+        "name": "Times of Israel — Liveblog April 1",
+        "url": "https://www.timesofisrael.com/liveblog-april-01-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": [
+      "hezbollah",
+      "commander",
+      "naval-strike",
+      "beirut",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-538",
+    "title": "UAE intercepts 5 ballistic missiles and 35 UAVs from Iran",
+    "description": "UAE air defenses on April 1 engaged 5 ballistic missiles and 35 UAVs launched from Iran. Cumulative UAE toll: 12 killed (including 3 military), 188 injured. UAE has intercepted 1,800+ missiles and drones since war began.",
+    "type": "strike",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "location": "UAE airspace",
+    "timestamp": "2026-04-01T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gulf News — Day 33 summary",
+        "url": "https://gulfnews.com/world/mena/usisrael-war-on-iran-day-33-trump-says-conflict-could-end-in-two-weeks-maybe-three-kuwait-airport-hit-by-drone-attacks-1.500492706"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "uae",
+      "air-defense",
+      "ballistic-missiles",
+      "drones",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-539",
+    "title": "Pope Leo XIV calls for Easter ceasefire in Iran war",
+    "description": "Pope Leo XIV urged an Easter end to the war: 'I'm told that President Trump has recently stated that he would like to end the war. I hope he is looking for an off-ramp.' Vatican Secretary of State Parolin said the war 'does not seem to meet the conditions' for a just war. First American pope taking increasingly vocal antiwar stance.",
+    "type": "diplomatic",
+    "lat": 41.9022,
+    "lng": 12.4539,
+    "location": "Vatican City",
+    "timestamp": "2026-04-01T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Manila Times — Pope Leo calls for Easter ceasefire",
+        "url": "https://www.manilatimes.net/2026/04/01/world/pope-leo-xiv-calls-for-easter-ceasefire-in-us-israel-war-on-iran-urges-dialogue/2312019"
+      },
+      {
+        "name": "Washington Post — Pope urges Easter end to war",
+        "url": "https://www.washingtonpost.com/world/2026/03/31/pope-vatican-mideast-peace/10cad33a-2d3d-11f1-aac2-f56b5ccad184_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "pope",
+      "ceasefire",
+      "easter",
+      "diplomacy",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-540",
+    "title": "Oil crashes: Brent to ~$102, WTI below $100 on Trump exit signals",
+    "description": "Oil prices dropped sharply as war premium deflates on Trump's 2-3 week exit timeline. Brent crashed from ~$108 to ~$102/bbl. WTI dipped below $100 to ~$99.46. Goldman estimates $14-18/bbl geopolitical premium in current prices. May Brent contract expired at record $118.35. IEA chief Birol warned 'April will be much worse than March' for supply.",
+    "type": "infrastructure",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "location": "Global markets",
+    "timestamp": "2026-04-01T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "CNBC — Oil prices fall on Trump exit signals",
+        "url": "https://www.cnbc.com/2026/04/01/oil-prices-today-brent-wti.html"
+      },
+      {
+        "name": "CNBC — IEA warns April worse than March",
+        "url": "https://www.cnbc.com/2026/04/01/oil-price-iea-fatih-birol-brent-iran-strait-hormuz.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "oil",
+      "brent",
+      "wti",
+      "markets",
+      "iea",
+      "day33"
+    ]
   }
 ]

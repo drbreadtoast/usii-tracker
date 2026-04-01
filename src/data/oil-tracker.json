@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-01T11:32:00Z",
+    "lastUpdated": "2026-04-01T17:35:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,25 +74,25 @@
     },
     "current": {
       "date": "2026-04-01",
-      "label": "Day 33 AM — Brent $105.27/bbl (+31.8%), WTI $102.92 (+36.3%); volatile trading on Trump '2-3 weeks' exit comments; Aqua 1 tanker hit off Qatar; Kuwait airport fuel fire; IRGC 3 missile waves at Israel; markets seesawing on peace hopes vs continued escalation",
+      "label": "Day 33 PM — Brent ~$101.97/bbl (+27.7%), WTI ~$99.46 (+31.7%); sharp sell-off on Trump exit signals + Pezeshkian ceasefire talk; war premium deflating; Goldman: $14-18/bbl premium; IEA: 'April worse than March'; May Brent expired at record $118.35",
       "brent": {
-        "price": 105.27,
-        "change": "+31.9%",
-        "changeDollars": "+$25.43",
+        "price": 101.97,
+        "change": "+27.8%",
+        "changeDollars": "+$22.17",
         "unit": "$/barrel",
-        "source": "CNBC — Brent crude April 1 volatile trading",
+        "source": "CNBC — Brent crude April 1 PM sell-off",
         "sourceUrl": "https://www.cnbc.com/2026/04/01/oil-prices-today-brent-wti.html",
-        "note": "Volatile intraday range $101.75-$108+. May contract expired at $118.35 (record monthly gain). June front-month trading around $105. EIA forecasts Brent above $95 for next 2 months."
+        "note": "Fell sharply from $108 AM high. June front-month volatile range $98.52-$105.93. May contract expired at $118.35 (record monthly gain). Goldman: $14-18/bbl geopolitical premium. IEA Birol: 'April will be much worse than March.' BCA Research warns of 'oil cliff mid-April.'"
       },
       "wti": {
-        "price": 102.92,
-        "change": "+36.3%",
-        "changeDollars": "+$27.41",
+        "price": 99.46,
+        "change": "+31.7%",
+        "changeDollars": "+$23.95",
         "unit": "$/barrel",
-        "source": "CNBC — WTI crude April 1",
+        "source": "CNBC — WTI crude April 1 dips below $100",
         "sourceUrl": "https://www.cnbc.com/2026/04/01/oil-prices-today-brent-wti.html"
       },
-      "changePercent": "+31.9%",
+      "changePercent": "+27.8%",
       "lastUpdated": "2026-04-01"
     },
     "priceHistory": [
@@ -335,6 +335,13 @@
         "brent": 112.9,
         "label": "Day 32 AM — Brent $112.90 (+41.4%); WTI $102.08 (+35.2%); Iranian drone hits Kuwaiti VLCC Al-Salmi at Dubai; Iran Parliament approves Hormuz toll plan; gas $4.02/gal; futures up on Trump ceasefire remarks; Brent record monthly gain since 1988",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-01",
+        "wti": 99.46,
+        "brent": 101.97,
+        "label": "Day 33 PM — Brent crashes to ~$102 from $108 AM (-5.6%); WTI below $100; war premium deflating on Trump 2-3 week exit + Pezeshkian ceasefire signal; Goldman: $14-18/bbl premium; IEA Birol: 'April worse than March'; May Brent expired record $118.35; BCA: 'oil cliff mid-April'",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -520,8 +527,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-01T11:32:00Z",
-    "note": "AAA national average crossed $4.00 milestone on March 31 — first since Aug 2022. California $5.887/gal. Oklahoma $3.272/gal. Macquarie warns $7/gal if war extends to summer.",
+    "lastUpdated": "2026-04-01T17:35:00Z",
+    "note": "AAA national average at $4.018/gal — above $4 since March 31 (first since Aug 2022). Oil crashing on Trump exit signals: Brent ~$102 (from $108 AM). California $5.89/gal. Oklahoma $3.27/gal. Macquarie warns $7/gal if war extends to summer. IEA mulling second SPR release.",
     "fuels": [
       {
         "type": "Regular Gasoline",
