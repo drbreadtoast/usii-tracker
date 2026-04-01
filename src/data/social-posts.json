@@ -1,355 +1,129 @@
 [
   {
-    "id": "social-392",
-    "handle": "@NavalIntelWatch",
-    "displayName": "Naval Intelligence Watch",
-    "text": "BREAKING: Iranian IRGC drone struck fully laden Kuwaiti VLCC 'Al-Salmi' at anchor in Dubai port area just after midnight local time. Fire on hull. All 24 crew evacuated safely. First-ever Iranian strike on a commercial vessel in port (vs at sea). Oil spill risk from fully loaded tanker. IRGC claims Israeli-linked flag. Dubai government and Kuwait Petroleum Corp confirm. Separately: 3 Chinese-flagged vessels transited Hormuz unopposed today — selective blockade continues. Total crossings since March 1: ~195 (down 95% from peacetime).",
-    "timestamp": "2026-03-31T00:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al-Salmi attack confirmed by Bloomberg and Al Jazeera. Chinese vessel transit confirmed by CNN liveblog.",
-    "keywords": [
-      "al-salmi",
-      "tanker",
-      "dubai",
-      "hormuz",
-      "china",
-      "selective-blockade",
-      "day31"
-    ]
-  },
-  {
-    "id": "social-396",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 31 late PM summary (5:39 PM PDT): (1) IRGC Commander Hassanzadeh killed in Tehran; (2) Gen. Zakariaei dies from March 28 wounds; (3) 82nd Airborne arrives — 57,000+ US troops; (4) NATO 4th missile interception over Turkey; (5) Saudi intercepts 5 missiles; (6) Kuwait camp hit, 10 soldiers hurt; (7) Abu Dhabi debris injures 6; (8) Israeli strike kills LAF soldier; (9) IMF: largest oil disruption ever; (10) Knesset $45.8B defense budget; (11) Al-Salmi tanker struck in Dubai port.",
-    "timestamp": "2026-03-31T00:39:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from all verified sources above.",
-    "keywords": [
-      "day31",
-      "summary",
-      "hassanzadeh",
-      "82nd-airborne",
-      "nato",
-      "saudi",
-      "kuwait",
-      "imf",
-      "knesset",
-      "al-salmi"
-    ]
-  },
-  {
-    "id": "social-397",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "IDF announces 170-target strike wave across Tehran completed overnight. Targets include plutonium production facility, IRGC Imam Hussein University, missile R&D, UAV engine factory. Power blackout in Tehran from electrical infrastructure hits. IAF now claims 'air supremacy in most of Iran's airspace' after destroying 100+ air defense systems.",
-    "timestamp": "2026-03-31T03:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by CBS News live updates, JNS, and Israel.com.",
-    "keywords": [
-      "tehran",
-      "idf",
-      "170-targets",
-      "plutonium",
-      "air-supremacy",
-      "day31"
-    ]
-  },
-  {
-    "id": "social-398",
+    "id": "social-414",
     "handle": "@IntelCrab",
-    "displayName": "IntelCrab OSINT",
-    "text": "4 IDF Nahal Brigade soldiers killed in Hezbollah ambush in southern Lebanon. Anti-tank missile hit during evacuation. Cpt. Madmoni (22), SSgt. Cohen (21), SSgt. Entis (21) + 1 named. Deadliest single IDF engagement in Lebanon since war began. IDF responded with tank fire + airstrikes. Separately, Haifa Bazan refinery gasoline tank hit by missile — fire contained.",
-    "timestamp": "2026-03-31T03:15:00Z",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "IDF struck Tofiq Daru pharmaceutical factory in Tehran, claiming it supplied fentanyl to Iran's SPND for chemical weapons R&D. Major new claim — essentially accusing Iran of violating the Chemical Weapons Convention. Not independently verified. Iran has historically denied CW programs.",
+    "timestamp": "2026-04-01T00:00:00Z",
     "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Times of Israel liveblog, Ynet, and Haaretz.",
+    "verificationStatus": "likely",
+    "verificationNote": "Israel National News and Times of Israel confirmed IDF statement. CW claim unverified.",
     "keywords": [
-      "idf",
-      "nahal",
-      "hezbollah",
-      "lebanon",
-      "haifa",
-      "refinery",
-      "day31"
-    ]
-  },
-  {
-    "id": "social-399",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "WSJ: Trump tells aides willing to end war without reopening Hormuz. Assessed reopening would extend conflict beyond 4-6 week timeline. Brent immediately dips ~1% to $111.55 on report. Separately, FT reports Hegseth's broker attempted multimillion defense ETF investment BEFORE war — Pentagon denies. Gulf states (Saudi, UAE, Kuwait, Bahrain) privately told White House they want war to continue until regime change.",
-    "timestamp": "2026-03-31T04:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "WSJ exclusive per Haaretz and US News. FT Hegseth report per CNBC and Al Jazeera. Gulf states per WSJ.",
-    "keywords": [
-      "trump",
-      "hormuz",
-      "hegseth",
-      "scandal",
-      "gulf-states",
-      "brent",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-400",
-    "handle": "@MiddleEastEye",
-    "displayName": "Middle East Eye Analysis",
-    "text": "NYT: Killing dozens of Iranian leaders has hampered Tehran's decision-making AND complicates US negotiation efforts. Leadership decapitation empowering IRGC hardliners. Rubio-Hegseth 'at each other's throats' over troop deployment. Pakistan FM Dar in Beijing — China's Wang Yi backs mediation efforts.",
-    "timestamp": "2026-03-31T04:45:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NYT per Times of Israel liveblog. Rubio-Hegseth tensions per Middle East Eye. Pakistan-China per Al Jazeera.",
-    "keywords": [
-      "decapitation",
-      "irgc",
-      "rubio",
-      "hegseth",
-      "pakistan",
-      "china",
-      "mediation",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-401",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 31-32 overnight/early AM summary (9:57 PM PDT): (1) IDF 170-target Tehran wave completed — plutonium facility + IRGC university; (2) 4 IDF soldiers killed in Lebanon Hezbollah ambush; (3) Haifa Bazan refinery hit again — gasoline tank fire; (4) Orphanage struck in Alborz — 2 killed; (5) Iran missile salvo at Jerusalem 5:30 AM — intercepted; (6) WSJ: Trump may end war without Hormuz; (7) FT: Hegseth investment scandal; (8) Brent $111.55; gas $3.99.",
-    "timestamp": "2026-03-31T04:57:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from Times of Israel, Haaretz, Al Jazeera, CNBC, CBS News, JNS, WSJ, FT.",
-    "keywords": [
-      "day32",
-      "summary",
-      "tehran",
-      "idf",
-      "hezbollah",
-      "haifa",
-      "hormuz",
-      "hegseth",
-      "brent"
-    ]
-  },
-  {
-    "id": "social-402",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab OSINT",
-    "text": "BREAKING: Iranian missile with cluster munition warhead struck central Israel — bomblets over Bnei Brak, Ramat Gan, Petah Tikva. 12 wounded including 6 children. First confirmed cluster munition use by Iran against civilian areas. HRW documenting.",
-    "timestamp": "2026-03-31T07:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Ynet and HRW documentation.",
-    "keywords": [
-      "cluster-munition",
-      "bnei-brak",
+      "chemical-weapons",
+      "fentanyl",
+      "spnd",
+      "tofiq-daru",
       "iran",
-      "civilian",
       "day32"
     ]
   },
   {
-    "id": "social-403",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "Day 32 update: Iranian drone struck Kuwaiti VLCC Al-Salmi at Dubai anchorage ~00:10 local — 2M barrels crude, fire contained, 24 crew safe. Separately, IRGC Brig. Gen. Hassanzadeh (Rasul-Allah Corps Tehran) confirmed killed. Saudi intercepted 10 drones + 8 missiles overnight.",
-    "timestamp": "2026-03-31T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al-Salmi: Bloomberg, Al Jazeera. Hassanzadeh: Alma Center, Israel National News. Saudi: CNN.",
-    "keywords": [
-      "al-salmi",
-      "tanker",
-      "hassanzadeh",
-      "saudi",
-      "interception",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-404",
-    "handle": "@JoeTruzman",
-    "displayName": "Joe Truzman — FDD Long War Journal",
-    "text": "3 Indonesian UNIFIL peacekeepers killed in south Lebanon within 24 hours — first UNIFIL fatalities of this conflict. France demands emergency UNSC meeting. IDF says investigating. Islamic Resistance in Iraq claims 290+ attacks on US forces since war began.",
-    "timestamp": "2026-03-31T08:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UNIFIL: France 24, UN News. Iraq: FDD Long War Journal.",
-    "keywords": [
-      "unifil",
-      "peacekeeper",
-      "lebanon",
-      "iraq-militias",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-405",
-    "handle": "@KyleJGlen",
-    "displayName": "Kyle Glen — OSINT Analyst",
-    "text": "Iran Parliament approves Hormuz toll plan: rial-denominated fees, US/Israeli ships banned, sanctioning nation ships banned. Ghalibaf says he has intel on US plan to seize an Iranian island with regional ally. Revenue potential $600-800M/month. Rubio: 'illegal, unacceptable, dangerous.'",
-    "timestamp": "2026-03-31T09:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "BNN Bloomberg and India TV confirmed parliamentary approval.",
-    "keywords": [
-      "hormuz",
-      "toll",
-      "parliament",
-      "ghalibaf",
-      "rubio",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-406",
-    "handle": "@MiddleEastEye",
-    "displayName": "Middle East Eye Analysis",
-    "text": "Rubio tells Al Jazeera: war objectives 'weeks not months.' Confirms backchannel with Iran via intermediaries. 'Would we be heartbroken if there was regime change? Absolutely not.' Separately: Pope Leo on Palm Sunday rejected God-justifies-war claims, drawing sharp contrast with Trump administration.",
-    "timestamp": "2026-03-31T10:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Rubio: Al Jazeera interview + State Dept transcript. Pope: NPR, Axios.",
-    "keywords": [
-      "rubio",
-      "diplomacy",
-      "pope-leo",
-      "regime-change",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-407",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 32 AM summary (4:31 AM PDT): (1) Cluster munition hits central Israel — 12 wounded; (2) IRGC Gen. Hassanzadeh killed; (3) Al-Salmi tanker attacked at Dubai; (4) 3 UNIFIL killed — first fatalities; (5) Saudi intercepts 18 projectiles; (6) Iran toll plan approved; (7) Rubio: 'weeks not months'; (8) Gas $4.02; Brent $112.90; (9) Knesset $45.8B budget.",
-    "timestamp": "2026-03-31T11:31:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from Ynet, Bloomberg, Alma Center, France 24, CNN, BNN Bloomberg, Al Jazeera, AAA, Breaking Defense.",
-    "keywords": [
-      "day32",
-      "summary",
-      "cluster-munition",
-      "al-salmi",
-      "unifil",
-      "hormuz",
-      "gas",
-      "budget"
-    ]
-  },
-  {
-    "id": "social-408",
-    "handle": "@IntelDoge",
-    "displayName": "IntelDoge — OSINT Analyst",
-    "text": "US bunker-buster strikes on Isfahan overnight left massive fireballs visible for miles. Pentagon confirms B-52s now flying overland missions over Iran — first non-stealth bomber used, signaling total air defense destruction. Hegseth at briefing: 'decisive days ahead.'",
-    "timestamp": "2026-03-31T14:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Euronews video confirmed fireballs. GV Wire, CBS News confirmed B-52 and Hegseth statements.",
-    "keywords": [
-      "isfahan",
-      "bunker-buster",
-      "b-52",
-      "hegseth",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-409",
+    "id": "social-415",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel — OSINT Analyst",
-    "text": "UAE MoD reports intercepted 8 BMs, 4 CMs, 36 drones from Iran today. Cumulative since Day 1: 433 BMs, 19 CMs, 1,977 drones. Meanwhile Iranian drone hit Kuwaiti VLCC Al-Salmi at Dubai port — 2M barrels aboard, fire extinguished, no spill.",
-    "timestamp": "2026-03-31T15:00:00Z",
+    "text": "White House confirms Trump to address the nation Wednesday 9 PM ET on Iran. Follows his statement that US forces could leave in '2-3 weeks.' Combined with Pezeshkian's 'necessary will' to end war and Pakistan hosting direct talks, signals from both sides suggest potential off-ramp emerging.",
+    "timestamp": "2026-04-01T00:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "LiveUAMap and Al Jazeera confirmed UAE data. Bloomberg confirmed tanker attack.",
+    "verificationNote": "CNBC, Axios, Bloomberg confirmed address. NPR confirmed '2-3 weeks' quote.",
     "keywords": [
-      "uae",
-      "interception",
-      "al-salmi",
-      "tanker",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-410",
-    "handle": "@conflicts",
-    "displayName": "Faytuks News — Lead Source",
-    "text": "Hezbollah 45-rocket barrage at Haifa/Galilee — 3 lightly injured. IDF responded by striking launchers and killing 8 across Tyre, Sidon, Bint Jbeil districts (32 wounded). NATO intercepted 4th Iranian missile over Turkey via SM-3. Iranian missile hit Petah Tikva workshop.",
-    "timestamp": "2026-03-31T16:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog, Al Jazeera, UPI confirmed.",
-    "keywords": [
-      "hezbollah",
-      "haifa",
-      "lebanon",
-      "nato",
-      "turkey",
-      "day32"
-    ]
-  },
-  {
-    "id": "social-411",
-    "handle": "@Charles_Lister",
-    "displayName": "Charles Lister — OSINT Analyst",
-    "text": "China and Pakistan unveil 5-point peace plan: immediate ceasefire, peace talks, end non-military strikes, restore Hormuz, UN framework. First formal peace plan from major power. Pezeshkian tells EU Council President Costa he is 'ready to stop fighting with guarantees.' Araghchi confirms US backchannel via Witkoff.",
-    "timestamp": "2026-03-31T18:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Middle East Eye, Euronews, Al Jazeera confirmed.",
-    "keywords": [
-      "china",
+      "trump",
+      "address",
+      "peace",
       "pakistan",
-      "peace-plan",
-      "pezeshkian",
-      "araghchi",
+      "talks",
       "day32"
     ]
   },
   {
-    "id": "social-412",
-    "handle": "@Joyce_Karam",
-    "displayName": "Joyce Karam — Lead Source",
-    "text": "US journalist Shelly Kittleson kidnapped in Baghdad by Kataib Hezbollah-linked gunmen near Palestine Hotel. One kidnapper arrested. UNSC holds emergency session on 3 UNIFIL peacekeepers killed. France's Barrot: 'unacceptable and unjustifiable.'",
-    "timestamp": "2026-03-31T19:00:00Z",
+    "id": "social-416",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender — OSINT Analyst",
+    "text": "IDF dual airstrike in Beirut — Khalde highway + Jnah area. 7 killed, 24 wounded per Lebanese Health Ministry. IDF says targeted senior Hezbollah commander + another operative. Hezbollah confirmed one commander was killed. Ongoing Israeli ground ops south of Litani deepening.",
+    "timestamp": "2026-04-01T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, PBS, Lebanese Health Ministry confirmed.",
+    "keywords": [
+      "beirut",
+      "hezbollah",
+      "commander",
+      "airstrike",
+      "lebanon",
+      "day32"
+    ]
+  },
+  {
+    "id": "social-417",
+    "handle": "@MilitaryOSINT",
+    "displayName": "Military OSINT — Lead Source",
+    "text": "Araghchi on Al Jazeera: 'Trust level is at zero.' Confirms receiving Witkoff messages but denies sending response to US 15-point plan. Wants 'complete end to war' not ceasefire. Contradicts Hegseth/Rubio claims that negotiations are 'very real' and 'gaining strength.'",
+    "timestamp": "2026-04-01T00:30:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Washington Post, Al Jazeera, Euronews confirmed.",
+    "verificationNote": "Al Jazeera interview confirmed. Anadolu Agency corroborated.",
     "keywords": [
-      "journalist",
-      "kidnapping",
-      "baghdad",
-      "unifil",
-      "unsc",
+      "araghchi",
+      "negotiations",
+      "witkoff",
+      "hormuz",
+      "diplomacy",
       "day32"
     ]
   },
   {
-    "id": "social-413",
+    "id": "social-418",
+    "handle": "@ConflictZone",
+    "displayName": "Conflict Zone Intel — OSINT Analyst",
+    "text": "Allied tensions escalating: France refused Israeli resupply overflight, Italy denied Sigonella access, Spain closed airspace to US planes. Rubio warned of NATO reassessment post-war. Fox News internal divisions — Laura Ingraham reportedly breaking ranks on war support.",
+    "timestamp": "2026-04-01T01:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News, Stars and Stripes, Media Matters confirmed.",
+    "keywords": [
+      "nato",
+      "allies",
+      "france",
+      "italy",
+      "spain",
+      "overflight",
+      "day32"
+    ]
+  },
+  {
+    "id": "social-419",
+    "handle": "@NuclearWatch",
+    "displayName": "Nuclear Watch — OSINT Analyst",
+    "text": "Iran threatens 17 US tech companies (Apple, Microsoft, Google, Meta, IBM, Intel, Tesla + 10 more) if more Iranian leaders killed. Retaliation threat issued via Fars news agency. Represents escalation from military to tech/economic targeting.",
+    "timestamp": "2026-04-01T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Times of Israel reported. Fars News Agency statement referenced.",
+    "keywords": [
+      "tech-companies",
+      "retaliation",
+      "iran",
+      "threats",
+      "day32"
+    ]
+  },
+  {
+    "id": "social-420",
     "handle": "@IranWarLive",
     "displayName": "Iran War Live — Lead Source",
-    "text": "Day 32 PM summary (2:31 PM PDT): (1) Isfahan bunker-buster strikes; (2) B-52s overland; (3) Hegseth: 'decisive days'; (4) Hezbollah 45 rockets at Haifa; (5) IDF kills 8 in Lebanon; (6) China-Pakistan peace plan; (7) Kittleson kidnapped; (8) Brent $118.35 (May expiry); Gas $4.018; (9) Stocks rally +1,125; (10) Pezeshkian: 'ready for ceasefire'.",
-    "timestamp": "2026-03-31T21:31:00Z",
+    "text": "Day 32 PM evening summary (7:25 PM PDT): (1) IDF strikes Tofiq Daru chemical factory; (2) Trump to address nation Wed 9PM; (3) IDF dual Beirut strike kills Hezb commander; (4) Araghchi: 'zero trust'; (5) Pope: 'atrocious' war; (6) Allied overflight tensions; (7) Pakistan hosting talks; (8) Iran threatens 17 tech companies; (9) Oil Brent $108/WTI $101.38; (10) Gas $4.018.",
+    "timestamp": "2026-04-01T02:25:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from CNBC, CBS, Al Jazeera, Middle East Eye, WaPo, Euronews, ConsumerAffairs.",
+    "verificationNote": "Compiled from CNBC, Times of Israel, Al Jazeera, PBS, Axios, CBS News, NPR.",
     "keywords": [
       "day32",
       "summary",
-      "isfahan",
-      "b-52",
-      "hezbollah",
-      "peace-plan",
-      "gas",
-      "stocks"
+      "chemical-weapons",
+      "trump-address",
+      "beirut",
+      "araghchi",
+      "pope"
     ]
   }
 ]

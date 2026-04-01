@@ -5303,5 +5303,95 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-326",
+    "city": "Tehran (Tofiq Daru factory)",
+    "country": "Iran",
+    "lat": 35.7,
+    "lng": 51.4,
+    "strikeType": "air_strike",
+    "attributedTo": "israel",
+    "date": "2026-03-31",
+    "description": "IDF struck Tofiq Daru chemical/pharmaceutical factory, claiming it supplied fentanyl to Iran's SPND for chemical weapons R&D.",
+    "source": "Israel National News",
+    "sourceUrl": "https://www.israelnationalnews.com/news/424909",
+    "weaponType": "guided_bomb",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-327",
+    "city": "Petah Tikva",
+    "country": "Israel",
+    "lat": 32.09,
+    "lng": 34.89,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-31",
+    "description": "Iranian cluster missile struck Petah Tikva area. Multiple submunitions scattered.",
+    "source": "Israel National News",
+    "sourceUrl": "https://www.israelnationalnews.com/news/424869",
+    "weaponType": "cluster_munition",
+    "casualties": {
+      "killed": 0,
+      "injured": 4
+    }
+  },
+  {
+    "id": "ms-328",
+    "city": "Bnei Brak",
+    "country": "Israel",
+    "lat": 32.08,
+    "lng": 34.83,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-03-31",
+    "description": "Iranian cluster missile direct hit on house. Mother and two sons lightly injured.",
+    "source": "Israel National News",
+    "sourceUrl": "https://www.israelnationalnews.com/news/424869",
+    "weaponType": "cluster_munition",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-329",
+    "city": "Khalde, Beirut",
+    "country": "Lebanon",
+    "lat": 33.82,
+    "lng": 35.47,
+    "strikeType": "air_strike",
+    "attributedTo": "israel",
+    "date": "2026-04-01",
+    "description": "IDF airstrike on Khalde highway targeting senior Hezbollah commander. Vehicle struck.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-beirut-strikes-targeted-a-top-hezbollah-commander-and-another-senior-terrorist/",
+    "weaponType": "drone_strike",
+    "casualties": {
+      "killed": 4,
+      "injured": 12
+    }
+  },
+  {
+    "id": "ms-330",
+    "city": "Jnah, Beirut",
+    "country": "Lebanon",
+    "lat": 33.86,
+    "lng": 35.49,
+    "strikeType": "air_strike",
+    "attributedTo": "israel",
+    "date": "2026-04-01",
+    "description": "IDF airstrike in Jnah area targeting another Hezbollah operative. Hezbollah confirmed commander killed.",
+    "source": "PBS — Hezbollah confirms commander killed",
+    "sourceUrl": "https://www.pbs.org/newshour/world/hezbollah-confirms-one-of-its-commanders-was-killed-in-an-israeli-airstrike-in-beirut",
+    "weaponType": "drone_strike",
+    "casualties": {
+      "killed": 3,
+      "injured": 12
+    }
   }
 ]

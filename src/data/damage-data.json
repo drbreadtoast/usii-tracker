@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-03-31T21:31:00Z",
+    "lastUpdated": "2026-04-01T02:25:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 246,
-    "confirmed": 191,
+    "totalSites": 249,
+    "confirmed": 194,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4118,6 +4118,45 @@
       "description": "Shia religious center damaged in US/Israeli airstrike.",
       "source": "The Week India",
       "sourceUrl": "https://www.theweek.in/news/middle-east/2026/03/31/explosions-rock-iran-isfahans-strategic-hub-targeted-by-us-bunker-buster-bombs.html"
+    },
+    {
+      "id": "dmg-251",
+      "name": "Tofiq Daru Chemical Factory",
+      "country": "Iran",
+      "lat": 35.7,
+      "lng": 51.4,
+      "type": "industrial",
+      "status": "confirmed",
+      "date": "2026-03-31",
+      "description": "Pharmaceutical/chemical factory destroyed by IDF. Accused of supplying fentanyl for chemical weapons R&D.",
+      "source": "Israel National News",
+      "sourceUrl": "https://www.israelnationalnews.com/news/424909"
+    },
+    {
+      "id": "dmg-252",
+      "name": "Bnei Brak Residential House",
+      "country": "Israel",
+      "lat": 32.08,
+      "lng": 34.83,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-03-31",
+      "description": "Direct hit from Iranian cluster munition submunition. Mother and two sons lightly injured.",
+      "source": "Israel National News",
+      "sourceUrl": "https://www.israelnationalnews.com/news/424869"
+    },
+    {
+      "id": "dmg-253",
+      "name": "Khalde Highway Vehicles",
+      "country": "Lebanon",
+      "lat": 33.82,
+      "lng": 35.47,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "IDF airstrike destroyed vehicles on Khalde highway targeting Hezbollah commander. 7 killed, 24 wounded total across 2 Beirut strikes.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-beirut-strikes-targeted-a-top-hezbollah-commander-and-another-senior-terrorist/"
     }
   ]
 }
