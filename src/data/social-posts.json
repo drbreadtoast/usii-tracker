@@ -1,127 +1,111 @@
 [
   {
-    "id": "social-428",
+    "id": "social-435",
     "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "Iran internal split now visible: Pezeshkian tells European Council he has 'necessary will to end war' if guarantees met. But Mojtaba Khamenei contradicts: 'Hormuz leverage must continue, demand is continuation of defense.' IRGC silent on talks. Power struggle between elected president and supreme leader playing out in real time.",
-    "timestamp": "2026-04-01T14:30:00Z",
+    "displayName": "IntelCrab \u2014 OSINT Analyst",
+    "text": "Day 33 evening: Former Iran FM Kharazi seriously injured, wife killed in Tehran strike. He was reportedly coordinating diplomatic back-channel with Pakistan for possible Vance-Iran meeting. Targeting diplomats signals Israel wants to foreclose negotiation options.",
+    "timestamp": "2026-04-01T19:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, France 24, Al Jazeera confirmed both positions.",
+    "verificationNote": "Al Arabiya confirmed Kharazi strike.",
+    "keywords": [
+      "kharazi",
+      "diplomacy",
+      "tehran",
+      "strike",
+      "day33"
+    ]
+  },
+  {
+    "id": "social-436",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender \u2014 OSINT Analyst",
+    "text": "Pezeshkian's open letter to Americans is unprecedented in Iranian wartime diplomacy. Markets interpreted it as strongest ceasefire signal yet \u2014 Dow rallied on peace hopes. But Araghchi simultaneously says Iran prepared for 6 months of war. Mixed signals.",
+    "timestamp": "2026-04-01T19:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg published full text. Al Jazeera confirmed.",
     "keywords": [
       "pezeshkian",
-      "khamenei",
+      "letter",
       "ceasefire",
-      "split",
-      "diplomacy",
+      "markets",
       "day33"
     ]
   },
   {
-    "id": "social-429",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Analyst",
-    "text": "Oil prices crashing on Trump exit signals: Brent down from $108 AM to ~$102 PM. WTI dipped below $100. Goldman estimates $14-18/bbl geopolitical premium baked into current prices. May Brent expired at record $118.35. But IEA chief Birol warns 'April will be much worse than March' for actual physical supply.",
-    "timestamp": "2026-04-01T15:00:00Z",
+    "id": "social-437",
+    "handle": "@aurora_intel",
+    "displayName": "Aurora Intel \u2014 OSINT Analyst",
+    "text": "Hormuz transits collapsed to just 6 ships today (from 130/day pre-war). IEA chief Birol warns April will be 'much worse than March.' BCA Research: 4.5-5M bbl/day lost now, could double by mid-April. Britain hosting 35-nation meeting tomorrow on reopening.",
+    "timestamp": "2026-04-01T20:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, Fortune, Bloomberg confirmed price movements.",
+    "verificationNote": "NPR, CNBC, Bloomberg confirmed Hormuz data.",
     "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "crash",
-      "iea",
-      "day33"
-    ]
-  },
-  {
-    "id": "social-430",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender — OSINT Analyst",
-    "text": "Trump confirms primetime address at 9PM ET tonight — first major address on Iran war. Will reaffirm 2-3 week timeline. But bigger news: told Reuters he is 'absolutely' considering pulling US out of NATO over allies' refusal to join war. This would fundamentally reshape the global security order.",
-    "timestamp": "2026-04-01T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NPR, NBC News, Washington Post confirmed.",
-    "keywords": [
-      "trump",
-      "nato",
-      "address",
-      "primetime",
-      "day33"
-    ]
-  },
-  {
-    "id": "social-431",
-    "handle": "@MilitaryOSINT",
-    "displayName": "Military OSINT — Lead Source",
-    "text": "Hezbollah Southern Front commander Hajj Youssef Ismail Hashem killed in IDF naval strike south of Beirut. This follows 46 attack waves on March 31 — double the previous day. Despite losses, Hezbollah sustaining 29 rocket/missile + 17 UAV attacks per day. IDF also struck fentanyl factory it claims was tied to Iran chemical weapons program.",
-    "timestamp": "2026-04-01T13:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Alma Center daily report, Times of Israel confirmed.",
-    "keywords": [
-      "hezbollah",
-      "commander",
-      "fentanyl",
-      "chemical-weapons",
-      "day33"
-    ]
-  },
-  {
-    "id": "social-432",
-    "handle": "@ConflictZone",
-    "displayName": "Conflict Zone Intel — OSINT Analyst",
-    "text": "Pope Leo XIV calls for Easter ceasefire: 'I hope Trump is looking for an off-ramp.' Vatican says war fails just war criteria. Britain hosting 35-nation Hormuz meeting tomorrow. Australian PM Albanese addresses nation on economic shocks. International pressure for ceasefire mounting from all directions.",
-    "timestamp": "2026-04-01T13:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Manila Times, Washington Post, CNN confirmed.",
-    "keywords": [
-      "pope",
-      "ceasefire",
-      "easter",
       "hormuz",
-      "britain",
+      "shipping",
+      "iea",
+      "oil",
+      "blockade",
       "day33"
     ]
   },
   {
-    "id": "social-433",
-    "handle": "@NuclearWatch",
-    "displayName": "Nuclear Watch — OSINT Analyst",
-    "text": "US equipment losses growing per Axios: 12 MQ-9 Reapers ($192-678M), 1 E-3 AWACS (~$500M, irreplaceable until 2030s), 4 THAAD radars ($2.7B), 3 F-15Es to friendly fire, 1 F-35 damaged, 850+ Tomahawks expended. These are not trivial losses — the E-3 and THAAD radars represent capability gaps that won't be filled for years.",
-    "timestamp": "2026-04-01T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Axios equipment loss reporting confirmed.",
-    "keywords": [
-      "equipment",
-      "losses",
-      "reaper",
-      "awacs",
-      "thaad",
-      "day33"
-    ]
-  },
-  {
-    "id": "social-434",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 33 PM summary (10:35 AM PDT): (1) Oil crashing — Brent ~$102/WTI ~$99; (2) Trump primetime 9PM + NATO exit threat; (3) Pezeshkian ceasefire vs Khamenei resistance split; (4) Pope Easter ceasefire; (5) IEA 'April worse'; (6) Britain 35-nation Hormuz meeting; (7) Hezbollah commander killed; (8) Fentanyl factory struck; (9) Zanjan 4 killed/mosque; (10) Equipment losses mounting.",
-    "timestamp": "2026-04-01T17:35:00Z",
+    "id": "social-438",
+    "handle": "@WarWaveTracker",
+    "displayName": "War Wave Tracker \u2014 Lead Source",
+    "text": "IRGC Wave 88 of True Promise 4 \u2014 coordinated triple-front attack: Iran launched 10 ballistic missiles (cluster warheads) at central Israel on Passover eve, Hezbollah fired at coastal corridor (Herzliya-Ashkelon), Houthis launched 3rd barrage at southern Israel. First confirmed three-front coordinated strike.",
+    "timestamp": "2026-04-01T20:30:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from CNBC, NPR, NBC News, France 24, Alma Center, Times of Israel, Axios.",
+    "verificationNote": "Times of Israel, Al Jazeera, JNS confirmed multi-front attack.",
+    "keywords": [
+      "wave88",
+      "true-promise",
+      "coordinated",
+      "hezbollah",
+      "houthi",
+      "passover",
+      "day33"
+    ]
+  },
+  {
+    "id": "social-439",
+    "handle": "@TritaParsi",
+    "displayName": "Trita Parsi \u2014 Foreign Policy Expert",
+    "text": "Remember, at first they said this war would be over in four days. Then three weeks. Three weeks have passed, now it's 2-3 more weeks. The timeline keeps extending. Trump to address nation at 9PM \u2014 expect more timeline promises. PolitiFact rated 'regime change' claim Mostly False.",
+    "timestamp": "2026-04-01T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PolitiFact fact-check confirmed. CNN, NPR reporting on address.",
+    "keywords": [
+      "timeline",
+      "trump",
+      "address",
+      "fact-check",
+      "regime-change",
+      "day33"
+    ]
+  },
+  {
+    "id": "social-440",
+    "handle": "@IranWarLive",
+    "displayName": "Iran War Live \u2014 Lead Source",
+    "text": "Day 33 PM update (3:24 PM PDT): Kharazi struck in Tehran (wife killed); Pezeshkian open letter to Americans; EU extends sanctions (262 individuals); Gas $4.06; Brent ~$101; DOE 10M barrel SPR exchange; Trump 9PM address; 35-nation Hormuz meeting tomorrow; IDF 400+ strikes in 48hrs; coordinated Iran-Hezbollah-Houthi Passover barrage.",
+    "timestamp": "2026-04-01T22:24:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from AAA, CNBC, Al Arabiya, Al Jazeera, NPR, JURIST, DOE.",
     "keywords": [
       "day33",
       "summary",
+      "kharazi",
+      "pezeshkian",
       "oil",
-      "ceasefire",
-      "nato",
-      "pope",
-      "equipment"
+      "gas",
+      "hormuz",
+      "passover"
     ]
   }
 ]
