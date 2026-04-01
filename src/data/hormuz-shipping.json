@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 29,
+  "blockadeDay": 30,
   "dailyTransits": 20,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-01T02:25:00Z",
+  "lastUpdated": "2026-04-01T11:32:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -33,14 +33,14 @@
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Blockade Day 29. ~195 total crossings since March 1 (down 95% from peacetime 138/day). 2,142 vessels stranded/anchored in Gulf. 25 commercial vessels attacked since March 1 (latest: Kuwaiti VLCC Al-Salmi at Dubai port, March 31). 8 seafarers/dock workers killed. Iran charging ~$2M per transit. Pakistan 20-ship deal continuing. Iran Parliament approved toll plan March 31 — bans US/Israeli ships, rial-denominated fees, revenue $600-800M/month. Shadow fleet = 80%+ of March transits.",
+    "note": "Blockade Day 30. ~201 total crossings since March 1 (down 95% from peacetime 138/day). 2,142+ vessels stranded/anchored in Gulf. 27 commercial vessels attacked since March 1 (latest: QatarEnergy tanker Aqua 1 hit by cruise missile off Qatar, April 1; Kuwait airport fuel depots hit by drone, April 1). 9 seafarers/dock workers killed (+1 Fujairah drone debris). Iran charging ~$2M per transit. Pakistan 20-ship deal continuing. Iran Parliament toll plan active. Trump April 6 energy deadline looms but WSJ reports willing to leave without reopening Hormuz.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 201,
     "weeklyTransits": 7,
     "peacetimeDailyTransits": 120,
     "reductionPercent": 95,
     "vesselsStranded": 2142,
-    "commercialAttacks": 25,
+    "commercialAttacks": 27,
     "seafarersKilled": 8,
     "seafarersAffected": 20000
   },
@@ -397,6 +397,12 @@
       "event": "Iranian drone strikes Kuwaiti VLCC Al-Salmi at Dubai port anchorage — 2M barrels crude, fire contained, 24 crew safe. Iran Parliament approves Hormuz toll plan — bans US/Israeli ships. Rubio: Hormuz will reopen 'one way or another.'",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-01",
+      "event": "Iranian cruise missile hits QatarEnergy tanker Aqua 1 (17nm N of Ras Laffan); Qatar intercepted 2 of 3 missiles; 21 crew evacuated. Iranian drone hits Kuwait airport fuel depots — massive fire. 1 killed Fujairah (UAE) from drone debris. Bahrain fire. Trump willing to leave without reopening Hormuz per WSJ.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -404,8 +410,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+35.3% (Brent $108 June front, WTI $101.38)",
-      "detail": "20% of global supply cut off — Day 29 of blockade. Iran operating selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan). ~201 total crossings (95% drop). 2,142 vessels stranded. Al-Salmi VLCC struck at Dubai port (March 31). Iran parliament formalizing toll system — rial-denominated fees, $2M per crossing in yuan. Brent May expiry $118.35 — best monthly gain since inception (1988). June front-month ~$108. Goldman Sachs $14-18/bbl risk premium. Macquarie: $200 oil (40% prob) if blockade holds through June."
+      "priceImpact": "+31.8% (Brent $105.27, WTI $102.92)",
+      "detail": "20% of global supply cut off — Day 30 of blockade. Iran operating selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan). ~201 total crossings (95% drop). 2,142+ vessels stranded. Aqua 1 tanker hit off Qatar (April 1). Kuwait airport fuel depots hit (April 1). Iran toll system active. Trump April 6 energy deadline but WSJ: willing to leave without reopening Hormuz. Brent volatile $101-$108 on peace hopes. Goldman Sachs: Hormuz shock 17x larger than Russia disruption."
     },
     {
       "commodity": "LNG",

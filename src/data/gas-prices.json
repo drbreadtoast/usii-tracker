@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T02:25:00Z",
+  "lastUpdated": "2026-04-01T11:32:00Z",
   "currentAverage": 4.018,
   "preWarAverage": 3.18,
   "changePercent": 26.4,
@@ -251,6 +251,12 @@
       "price": 4.018,
       "label": "Day 32 PM — AAA $4.018/gal — crosses $4 milestone. First since Aug 2022. Up 26.4% from pre-war $3.18.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-01",
+      "price": 4.018,
+      "label": "Day 33 AM — AAA avg holding at $4.018/gal. Brent seesawing $101-$108 on Trump exit talk. CA $5.89/gal. Diesel $5.45/gal. EIA weekly: $4.126.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -347,7 +353,7 @@
         }
       ],
       "total": 4.018,
-      "note": "National average $4.018/gal (AAA March 31) — first time above $4 since Aug 2022. Up 26.4% from pre-war $3.18. Brent crude $108/bbl (June front-month). Diesel $5.454/gal. California: $5.887/gal. Macquarie: $7/gal if war extends to summer.",
+      "note": "National average $4.018/gal (AAA April 1) — holding above $4 since March 31. Up 26.4% from pre-war $3.18. Brent crude $105.27/bbl (June front-month, volatile). Diesel $5.454/gal. California: $5.887/gal. Macquarie: $7/gal if war extends to summer.",
       "crude": 2.78,
       "taxes": 0.52,
       "refining": 0.44,
@@ -355,9 +361,9 @@
       "regularGasoline": 4.018,
       "changeFromPreWar": "+$0.838",
       "changePercent": "+26.4%",
-      "lastUpdated": "2026-04-01T02:25:00Z",
-      "date": "2026-03-31"
+      "lastUpdated": "2026-04-01T11:32:00Z",
+      "date": "2026-04-01"
     }
   },
-  "context": "AAA national average at $4.018/gallon (March 31), up 26.4% from the $3.18 pre-war baseline. Crossed $4 threshold for first time since August 2022. California: $5.887/gallon. Oklahoma: $3.272/gallon. Brent crude settled $118.35 (May expiry) — best monthly gain since inception (1988). June front-month ~$108. WTI $101.38. Diesel $5.454/gallon nationally. Macquarie warns $7/gal if war extends to summer. Trump April 6 Hormuz energy strike deadline remains."
+  "context": "AAA national average at $4.018/gallon (April 1), up 26.4% from the $3.18 pre-war baseline. Above $4 since March 31, first time since August 2022. California: $5.887/gallon. Oklahoma: $3.272/gallon. Brent crude volatile at $105.27/bbl (June front-month), seesawing on Trump 2-3 weeks exit comments. WTI $102.92. Diesel $5.454/gallon nationally. Macquarie warns $7/gal if war extends to summer. Trump April 6 Hormuz energy strike deadline looms."
 }

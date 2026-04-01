@@ -18428,5 +18428,316 @@
       "diplomacy",
       "day32"
     ]
+  },
+  {
+    "id": "evt-new-523",
+    "title": "IRGC fires 3 missile waves at Israel — 16+ wounded, 11-year-old girl critical",
+    "description": "Iranian Revolutionary Guards fired three waves of ballistic missiles at Israel within one hour on Wednesday morning. Cluster munition warheads struck Bnei Brak area. At least 16 people wounded including an 11-year-old girl in critical condition (shrapnel injuries, Sheba Medical Center), a boy seriously injured, and a woman and child at Schneider Children's Medical Center. A fourth attack wave was intercepted later in the day.",
+    "type": "strike",
+    "lat": 32.08,
+    "lng": 34.83,
+    "location": "Bnei Brak / Tel Aviv area, Israel",
+    "timestamp": "2026-04-01T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel Liveblog April 1",
+        "url": "https://www.timesofisrael.com/liveblog-april-01-2026/"
+      },
+      {
+        "name": "CGTN — Iran fires missiles at Israel",
+        "url": "https://news.cgtn.com/news/2026-04-01/news-1LZdopFvlJe/p.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 16
+    },
+    "tags": [
+      "iran",
+      "missiles",
+      "cluster-munitions",
+      "bnei-brak",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-524",
+    "title": "Mobarakeh Steel Complex in Isfahan struck for second time",
+    "description": "US-Israeli forces bombed Iran's largest steel production facility, the Mobarakeh Steel Complex in Isfahan, for the second time. Fars news agency confirmed the strike. Massive secondary explosions and fireballs near Isfahan mountains geolocated by NBC News.",
+    "type": "strike",
+    "lat": 32.34,
+    "lng": 51.52,
+    "location": "Mobarakeh, Isfahan, Iran",
+    "timestamp": "2026-04-01T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera Liveblog — Isfahan steel plants hit",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/1/iran-live-trump-says-no-deal-needed-to-end-war-isfahan-steel-plants-hit"
+      },
+      {
+        "name": "Euronews — Massive fireball over Isfahan",
+        "url": "https://www.euronews.com/video/2026/03/31/moment-us-strike-sends-massive-fireball-into-sky-over-irans-isfahan"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "isfahan",
+      "steel",
+      "infrastructure",
+      "iran",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-525",
+    "title": "Iranian cruise missile hits oil tanker Aqua 1 off Qatar",
+    "description": "Three cruise missiles launched from Iran toward Qatar. Qatar armed forces intercepted 2 of 3. Third missile struck the Aqua 1, a fuel oil tanker chartered to QatarEnergy, 17 nautical miles north of Ras Laffan industrial hub. Hull damage above waterline, no environmental impact. 21-member crew evacuated, no casualties.",
+    "type": "naval",
+    "lat": 26.15,
+    "lng": 51.55,
+    "location": "17nm north of Ras Laffan, Qatar",
+    "timestamp": "2026-04-01T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran missiles hit oil tanker off Qatar",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/1/iran-live-trump-says-no-deal-needed-to-end-war-isfahan-steel-plants-hit"
+      },
+      {
+        "name": "Al Arabiya — Iranian missile hit oil tanker in Qatari waters",
+        "url": "https://english.alarabiya.net/News/gulf/2026/04/01/iranian-missile-hit-oil-tanker-in-qatari-waters-qatar-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "qatar",
+      "tanker",
+      "cruise-missile",
+      "hormuz",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-526",
+    "title": "Iranian drone strikes Kuwait International Airport fuel depots",
+    "description": "Iranian drone struck KAFCO fuel tanks at Kuwait International Airport, igniting a large fire. Airport remains closed since earlier attacks; radar systems disabled, Terminal 1 damaged. No casualties reported — material damage only.",
+    "type": "strike",
+    "lat": 29.23,
+    "lng": 47.97,
+    "location": "Kuwait International Airport, Kuwait",
+    "timestamp": "2026-04-01T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Kuwait Times — Hostile drones hit Kuwait airport fuel depots",
+        "url": "https://kuwaittimes.com/article/41724/kuwait/civil-aviation-hostile-drones-hit-kuwait-international-airports-fuel-depots-igniting-massive-fire/"
+      },
+      {
+        "name": "AGBI — Kuwait says Iran drone sets airport fuel tanks ablaze",
+        "url": "https://www.agbi.com/aviation/2026/04/kuwait-says-iran-drone-attack-sets-airport-fuel-tanks-ablaze/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "kuwait",
+      "airport",
+      "drone",
+      "infrastructure",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-527",
+    "title": "Houthi-Iran-Hezbollah joint ballistic missile attack on southern Israel",
+    "description": "Yemen's Houthis launched a 'fresh wave' of ballistic missile attacks targeting 'vital sites' in southern Israel, conducted jointly with Iran and Hezbollah. IDF downed a Houthi projectile targeting the south.",
+    "type": "strike",
+    "lat": 31.25,
+    "lng": 34.79,
+    "location": "Southern Israel (Beersheba area)",
+    "timestamp": "2026-04-01T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "CGTN — Houthis claim fresh missile wave on Israel",
+        "url": "https://news.cgtn.com/news/2026-04-01/news-1LZdopFvlJe/p.html"
+      },
+      {
+        "name": "CNBC — Houthi missile attacks on Israel",
+        "url": "https://www.cnbc.com/2026/03/28/yemens-houthis-launch-israel-strike-the-first-of-the-iran-war.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "houthis",
+      "yemen",
+      "missiles",
+      "beersheba",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-528",
+    "title": "IDF wave of strikes on Iranian government infrastructure in Tehran",
+    "description": "IDF completed another wave of strikes on Iranian government infrastructure in Tehran. Targets included Shahid Haqqani Port in Bandar Abbas, a meteorological facility in Bushehr, a residential complex in Malard (west of Tehran), and the Grand Hosseinieh of Zanjan mosque complex (admin/cultural buildings destroyed). Bunker-buster bombs triggered massive secondary explosions.",
+    "type": "strike",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran / Multiple sites, Iran",
+    "timestamp": "2026-04-01T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "JNS — IDF unleashes wave of airstrikes on Tehran",
+        "url": "https://www.jns.org/news/israel-news/idf-unleashes-wave-of-airstrikes-on-iranian-terror-infrastructure-in-tehran"
+      },
+      {
+        "name": "Times of Israel Liveblog April 1",
+        "url": "https://www.timesofisrael.com/liveblog-april-01-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "tehran",
+      "infrastructure",
+      "idf",
+      "strikes",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-529",
+    "title": "1 killed in Fujairah (UAE) from intercepted drone debris",
+    "description": "One person killed in Fujairah, UAE, when hit by debris from an intercepted Iranian drone. Two drones also intercepted over Saudi Arabia. Bahrain sounded missile alerts; a fire broke out at a business facility.",
+    "type": "strike",
+    "lat": 25.12,
+    "lng": 56.34,
+    "location": "Fujairah, UAE",
+    "timestamp": "2026-04-01T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The National — Kuwait and Bahrain report fires after Iranian attacks",
+        "url": "https://www.thenationalnews.com/news/mena/2026/04/01/kuwait-and-bahrain-report-fires-after-iranian-attacks/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": [
+      "uae",
+      "fujairah",
+      "drone",
+      "debris",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-530",
+    "title": "Trump: war could end in 2-3 weeks, no deal needed — address nation Wednesday",
+    "description": "Trump told reporters Iran doesn't need to make a deal for him to end the war. Said US will leave 'maybe two weeks, maybe three' when Iran is 'put into the Stone Ages.' WSJ reported Trump willing to end war without reopening Hormuz. White House press secretary Leavitt said private talks are 'going well.' Trump will address the nation Wednesday 9 PM ET.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "White House, Washington DC",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — Trump tells allies 'get your own oil'",
+        "url": "https://www.aljazeera.com/news/2026/4/1/trump-tells-allies-get-your-own-oil-says-iran-war-could-end-in-2-3-weeks"
+      },
+      {
+        "name": "NPR — Trump to address nation",
+        "url": "https://www.npr.org/2026/04/01/nx-s1-5769805/iran-war-trump"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "trump",
+      "diplomacy",
+      "exit",
+      "address",
+      "day33"
+    ]
+  },
+  {
+    "id": "evt-new-531",
+    "title": "Araghchi: Iran prepared for 6 months of war, Russia 'helping in many directions'",
+    "description": "Iran FM Araghchi in Al Jazeera interview confirmed Iran is 'completely ready' for a ground attack and prepared for 'at least six months' of war. Confirmed Russian assistance: 'They are helping us in many different directions.' Demanded Lebanon be included in any ceasefire. Iran demands reparations and sovereignty guarantees.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-01T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Three key takeaways from Araghchi interview",
+        "url": "https://www.aljazeera.com/news/2026/4/1/war-on-iran-three-key-takeaways-from-araghchis-interview-with-al-jazeera"
+      },
+      {
+        "name": "NBC News — Iran FM rejects ceasefire calls",
+        "url": "https://www.nbcnews.com/world/iran/irans-foreign-minister-rejects-calls-ceasefire-continue-fighting-rcna262291"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "araghchi",
+      "russia",
+      "diplomacy",
+      "six-months",
+      "day33"
+    ]
   }
 ]

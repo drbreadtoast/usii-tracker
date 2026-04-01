@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-01T02:25:00Z",
+  "lastUpdated": "2026-04-01T11:32:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 7.85,
-      "change": "+8.9%",
-      "detail": "CBOT May wheat at $6.12/bushel (March 31). Up from pre-war $5.62. Fertilizer disruptions from Hormuz closure (+40% fertilizer costs) driving 2026 crop cost increases. UN humanitarian/fertilizer corridor through Hormuz agreed March 27. GCC food imports disrupted 70%.",
+      "current": 6.18,
+      "change": "+10.0%",
+      "detail": "CBOT SRW wheat at $6.18/bushel (April 1). Up from pre-war $5.62. Nearing 2-year peak. Fertilizer disruptions from Hormuz closure (+40% costs) driving 2026 crop increases. UN humanitarian/fertilizer corridor through Hormuz agreed March 27. GCC food imports disrupted 70%.",
       "source": "USDA Minneapolis Daily Grain Report / CME March 30",
       "sourceUrl": "https://www.ams.usda.gov/mnreports/ams_3046.pdf"
     },
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.69,
-      "change": "+8.8%",
-      "detail": "CBOT May corn at $4.69/bushel (March 31, +8.8% from pre-war $4.31). Stockpiles (March 1): 9.04B bushels, up 11% YoY. USDA Prospective Plantings due March 31 — expected sharp corn acreage drop to 94M acres (down ~5% from 2025) as fertilizer costs shift acres to soybeans.",
+      "current": 4.56,
+      "change": "+5.8%",
+      "detail": "CBOT May corn at $4.56/bushel (April 1). Up from pre-war $4.31. USDA Prospective Plantings showed corn acreage down 3.45M acres YoY as fertilizer costs shift acres to soybeans. USDA projects $4.20 marketing year average.",
       "source": "Farm Futures / USDA March 30",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -96,5 +96,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "War-driven supply disruptions continue to push food prices higher. Fertilizer costs up 47% (urea $700+/tonne). ~1/3 of global fertilizer transits Hormuz. USDA predicts 3.1% food price rise in 2026. US grocery prices up 3.9% YoY. GCC food imports disrupted 70%. Corn at $4.69/bu, wheat $7.85/bu. Day 29 of Hormuz blockade compounding logistics costs."
+  "context": "War-driven supply disruptions continue to push food prices higher. Fertilizer costs up 40% (urea $700+/tonne, ammonia +92% YoY in ME). ~1/3 of global fertilizer transits Hormuz. USDA predicts 3.6% food price rise in 2026. Wheat $6.18/bu nearing 2-year peak, corn $4.56/bu. Day 30 of Hormuz blockade compounding logistics costs. IFPRI warns of 10-15% food transport cost increase from oil surge. US farmers shifting 1.5M acres from corn to soybeans."
 }

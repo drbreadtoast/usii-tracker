@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-01T02:25:00Z",
+    "lastUpdated": "2026-04-01T11:32:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 193
   },
   "summary": {
-    "totalSites": 249,
-    "confirmed": 194,
+    "totalSites": 254,
+    "confirmed": 199,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4157,6 +4157,71 @@
       "description": "IDF airstrike destroyed vehicles on Khalde highway targeting Hezbollah commander. 7 killed, 24 wounded total across 2 Beirut strikes.",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-beirut-strikes-targeted-a-top-hezbollah-commander-and-another-senior-terrorist/"
+    },
+    {
+      "id": "dmg-254",
+      "name": "Mobarakeh Steel Complex (2nd strike)",
+      "country": "Iran",
+      "lat": 32.34,
+      "lng": 51.52,
+      "type": "industrial",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Iran's largest steel plant struck for second time by US-Israeli forces. Massive fireballs. Fars news confirmed.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/1/iran-live-trump-says-no-deal-needed-to-end-war-isfahan-steel-plants-hit"
+    },
+    {
+      "id": "dmg-255",
+      "name": "Shahid Haqqani Port",
+      "country": "Iran",
+      "lat": 27.18,
+      "lng": 56.28,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Port facility in Bandar Abbas struck by IDF as part of Tehran infrastructure wave.",
+      "source": "JNS",
+      "sourceUrl": "https://www.jns.org/news/israel-news/idf-unleashes-wave-of-airstrikes-on-iranian-terror-infrastructure-in-tehran"
+    },
+    {
+      "id": "dmg-256",
+      "name": "Kuwait Airport KAFCO Fuel Tanks",
+      "country": "Kuwait",
+      "lat": 29.23,
+      "lng": 47.97,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Iranian drone struck KAFCO fuel tanks at Kuwait International Airport, igniting massive fire. No casualties.",
+      "source": "Kuwait Times",
+      "sourceUrl": "https://kuwaittimes.com/article/41724/kuwait/civil-aviation-hostile-drones-hit-kuwait-international-airports-fuel-depots-igniting-massive-fire/"
+    },
+    {
+      "id": "dmg-257",
+      "name": "QatarEnergy Tanker Aqua 1",
+      "country": "Qatar",
+      "lat": 26.15,
+      "lng": 51.55,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Iranian cruise missile hit fuel oil tanker 17nm north of Ras Laffan. Hull damage above waterline. 21 crew evacuated.",
+      "source": "Al Arabiya",
+      "sourceUrl": "https://english.alarabiya.net/News/gulf/2026/04/01/iranian-missile-hit-oil-tanker-in-qatari-waters-qatar-says"
+    },
+    {
+      "id": "dmg-258",
+      "name": "Grand Hosseinieh of Zanjan Mosque Complex",
+      "country": "Iran",
+      "lat": 36.67,
+      "lng": 48.50,
+      "type": "religious",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Mosque complex admin/cultural buildings destroyed in US-Israeli airstrike.",
+      "source": "Times of Israel Liveblog",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-01-2026/"
     }
   ]
 }
