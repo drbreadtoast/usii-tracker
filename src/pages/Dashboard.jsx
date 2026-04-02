@@ -4,6 +4,7 @@ import FilterPanel from '../components/Layout/FilterPanel'
 import ConflictMap from '../components/Map/ConflictMap'
 import VideoSection from '../components/Media/VideoSection'
 import HomepageSummary from '../components/Layout/HomepageSummary'
+import SpeechReport from '../components/Layout/SpeechReport'
 import { useEvents } from '../hooks/useEvents'
 import { useFilters } from '../hooks/useFilters'
 
@@ -29,7 +30,10 @@ export default function Dashboard() {
 
   return (
     <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-y-auto">
-      {/* Quick Brief — first thing visitors see (includes notices) */}
+      {/* Trump's April 1 primetime address report — first thing visitors see */}
+      <SpeechReport />
+
+      {/* Quick Brief */}
       <HomepageSummary />
 
       {/* Scroll hint — tells users there's a live map below */}
