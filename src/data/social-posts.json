@@ -1,111 +1,68 @@
 [
   {
-    "id": "social-435",
+    "id": "social-441",
     "handle": "@IntelCrab",
-    "displayName": "IntelCrab \u2014 OSINT Analyst",
-    "text": "Day 33 evening: Former Iran FM Kharazi seriously injured, wife killed in Tehran strike. He was reportedly coordinating diplomatic back-channel with Pakistan for possible Vance-Iran meeting. Targeting diplomats signals Israel wants to foreclose negotiation options.",
-    "timestamp": "2026-04-01T19:00:00Z",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "BREAKING: Trump just set an April 6 deadline for Iran to reopen Hormuz or face destruction of all energy infrastructure including Kharg Island oil facilities. This is the biggest escalation threat since Day 1. Markets reacting — Brent jumped 5% to $106.",
+    "timestamp": "2026-04-02T01:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Al Arabiya confirmed Kharazi strike.",
-    "keywords": [
-      "kharazi",
-      "diplomacy",
-      "tehran",
-      "strike",
-      "day33"
-    ]
+    "verificationNote": "CNBC, Al Jazeera confirmed Trump address and deadline.",
+    "keywords": ["trump", "april-6", "hormuz", "kharg", "oil", "escalation", "day33"]
   },
   {
-    "id": "social-436",
+    "id": "social-442",
+    "handle": "@War_Mapper",
+    "displayName": "War Mapper — OSINT Analyst",
+    "text": "IDF claims 400+ strikes on Iran in 48 hours using 650+ munitions. 20 weapons production sites in Tehran hit. Isfahan bunker-busters caused massive secondary explosions — largest of the war. Steel plants struck in Isfahan and Ahvaz.",
+    "timestamp": "2026-04-02T01:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera Day 33 liveblog, Alma Research Center confirmed.",
+    "keywords": ["idf", "strikes", "iran", "tehran", "isfahan", "bunker-buster", "day33"]
+  },
+  {
+    "id": "social-443",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Analyst",
+    "text": "Vafaei elimination confirmed: IRGC Quds Force engineering chief who built Hezbollah's tunnel network for 20 years killed in Mahallat. Also: Hezbollah's Southern Front Commander 'Hajj Sadiq' eliminated by Israeli Navy. Two high-value targets in 24 hours.",
+    "timestamp": "2026-04-02T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Ynet News, JNS, Legal Insurrection, Alma Center confirmed both kills.",
+    "keywords": ["vafaei", "hajj-sadiq", "quds-force", "hezbollah", "targeted-killing", "day33"]
+  },
+  {
+    "id": "social-444",
     "handle": "@sentdefender",
-    "displayName": "OSINTdefender \u2014 OSINT Analyst",
-    "text": "Pezeshkian's open letter to Americans is unprecedented in Iranian wartime diplomacy. Markets interpreted it as strongest ceasefire signal yet \u2014 Dow rallied on peace hopes. But Araghchi simultaneously says Iran prepared for 6 months of war. Mixed signals.",
-    "timestamp": "2026-04-01T19:30:00Z",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "Hezbollah doubled attack waves: 46 waves on March 31 (29 rockets/missiles + 17 UAVs). Iran fired 10 ballistic missiles at central Israel during Passover Seder. Coordinated triple-front attack: Iran + Hezbollah + Houthis. 14 wounded including 11-year-old girl.",
+    "timestamp": "2026-04-02T02:15:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Bloomberg published full text. Al Jazeera confirmed.",
-    "keywords": [
-      "pezeshkian",
-      "letter",
-      "ceasefire",
-      "markets",
-      "day33"
-    ]
+    "verificationNote": "Times of Israel, Jerusalem Post, Alma Center confirmed.",
+    "keywords": ["hezbollah", "passover", "missile", "coordinated", "houthi", "day33"]
   },
   {
-    "id": "social-437",
-    "handle": "@aurora_intel",
-    "displayName": "Aurora Intel \u2014 OSINT Analyst",
-    "text": "Hormuz transits collapsed to just 6 ships today (from 130/day pre-war). IEA chief Birol warns April will be 'much worse than March.' BCA Research: 4.5-5M bbl/day lost now, could double by mid-April. Britain hosting 35-nation meeting tomorrow on reopening.",
-    "timestamp": "2026-04-01T20:00:00Z",
+    "id": "social-445",
+    "handle": "@faborsky",
+    "displayName": "Faborsky — OSINT Analyst",
+    "text": "Economic warfare escalating: Iran's internet at 4% of normal. 35-nation Hormuz conference in London tomorrow. UAE preparing to help open Hormuz by force (WSJ). China-Pakistan 5-point peace plan proposed. Australia halves fuel excise. Oil volatile $101-$106.",
+    "timestamp": "2026-04-02T02:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "NPR, CNBC, Bloomberg confirmed Hormuz data.",
-    "keywords": [
-      "hormuz",
-      "shipping",
-      "iea",
-      "oil",
-      "blockade",
-      "day33"
-    ]
+    "verificationNote": "SOCRadar, Haaretz, Bloomberg, Newsweek confirmed.",
+    "keywords": ["hormuz", "internet", "uae", "china", "australia", "oil", "day33"]
   },
   {
-    "id": "social-438",
-    "handle": "@WarWaveTracker",
-    "displayName": "War Wave Tracker \u2014 Lead Source",
-    "text": "IRGC Wave 88 of True Promise 4 \u2014 coordinated triple-front attack: Iran launched 10 ballistic missiles (cluster warheads) at central Israel on Passover eve, Hezbollah fired at coastal corridor (Herzliya-Ashkelon), Houthis launched 3rd barrage at southern Israel. First confirmed three-front coordinated strike.",
-    "timestamp": "2026-04-01T20:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel, Al Jazeera, JNS confirmed multi-front attack.",
-    "keywords": [
-      "wave88",
-      "true-promise",
-      "coordinated",
-      "hezbollah",
-      "houthi",
-      "passover",
-      "day33"
-    ]
-  },
-  {
-    "id": "social-439",
-    "handle": "@TritaParsi",
-    "displayName": "Trita Parsi \u2014 Foreign Policy Expert",
-    "text": "Remember, at first they said this war would be over in four days. Then three weeks. Three weeks have passed, now it's 2-3 more weeks. The timeline keeps extending. Trump to address nation at 9PM \u2014 expect more timeline promises. PolitiFact rated 'regime change' claim Mostly False.",
-    "timestamp": "2026-04-01T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PolitiFact fact-check confirmed. CNN, NPR reporting on address.",
-    "keywords": [
-      "timeline",
-      "trump",
-      "address",
-      "fact-check",
-      "regime-change",
-      "day33"
-    ]
-  },
-  {
-    "id": "social-440",
+    "id": "social-446",
     "handle": "@IranWarLive",
-    "displayName": "Iran War Live \u2014 Lead Source",
-    "text": "Day 33 PM update (3:24 PM PDT): Kharazi struck in Tehran (wife killed); Pezeshkian open letter to Americans; EU extends sanctions (262 individuals); Gas $4.06; Brent ~$101; DOE 10M barrel SPR exchange; Trump 9PM address; 35-nation Hormuz meeting tomorrow; IDF 400+ strikes in 48hrs; coordinated Iran-Hezbollah-Houthi Passover barrage.",
-    "timestamp": "2026-04-01T22:24:00Z",
+    "displayName": "Iran War Live — Lead Source",
+    "text": "Day 33 night (8:20 PM PDT): Trump address — 2-3 weeks, April 6 deadline; Netanyahu 'Ten Plagues'; Iran denies ceasefire; Brent $106/WTI $104; Vafaei + Hajj Sadiq killed; 46 Hezbollah waves; IDF 400+ strikes in 48h; Isfahan bunker-busters; Kuwait airport hit; gas $4.06; UK Hormuz conf tomorrow.",
+    "timestamp": "2026-04-02T03:20:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from AAA, CNBC, Al Arabiya, Al Jazeera, NPR, JURIST, DOE.",
-    "keywords": [
-      "day33",
-      "summary",
-      "kharazi",
-      "pezeshkian",
-      "oil",
-      "gas",
-      "hormuz",
-      "passover"
-    ]
+    "verificationNote": "Compiled from CNBC, AAA, Ynet, Al Jazeera, Times of Israel, Alma Center.",
+    "keywords": ["day33", "summary", "trump", "oil", "hormuz", "vafaei", "gas"]
   }
 ]

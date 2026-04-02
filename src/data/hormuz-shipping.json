@@ -4,7 +4,7 @@
   "dailyTransits": 20,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-01T22:24:00Z",
+  "lastUpdated": "2026-04-02T03:20:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -33,7 +33,7 @@
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Blockade Day 30. ~207 total crossings since March 1 (down 95% from peacetime 138/day). 2,142+ vessels stranded/anchored in Gulf. 27 commercial vessels attacked since March 1. Only 6 vessel transits on April 1. Trump says US 'no longer concerned' with Hormuz reopening \u2014 tells countries 'keep it open yourself.' Britain hosting 35-nation virtual Hormuz meeting April 2. IEA chief Birol: 'April will be much worse than March' for supply. 20,000+ seafarers stranded in active war zone.",
+    "note": "Blockade Day 30. ~207 total crossings since March 1 (down 95% from peacetime 138/day). 2,142+ vessels stranded/anchored in Gulf. 27 commercial vessels attacked since March 1. Only 6 vessel transits on April 1. Trump sets April 6 deadline: reopen Hormuz or face destruction of all energy infrastructure including Kharg Island. Britain hosting 35-nation virtual Hormuz conference April 2. IEA chief Birol: 'April will be much worse than March' for supply. UAE preparing to help open Hormuz by force (WSJ). 20,000+ seafarers stranded in active war zone.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 7,
@@ -409,6 +409,12 @@
       "event": "Day 33 (Blockade Day 30): Hormuz transits collapsed to 6 ships (from 130/day pre-war, down 95%). Kharazi struck in Tehran. Pezeshkian open letter. DOE 10M barrel SPR exchange RFP. IEA Birol: 'April much worse than March.' 35-nation Hormuz meeting tomorrow (hosted by Britain). EU extends sanctions. Gas $4.06. Iran Parliament toll plan advancing. IRGC threatens 18 US tech companies.",
       "status": "effectively_closed",
       "barrels": 200000
+    },
+    {
+      "date": "2026-04-02",
+      "event": "Day 34 (Blockade Day 31): Trump sets April 6 deadline in prime-time address \u2014 reopen Hormuz or face destruction of all energy infrastructure including Kharg Island oil facilities. Brent spiked 5% to $106.42. IEA chief Birol warns 'April will be much worse than March.' Britain hosting 35-nation virtual Hormuz conference today. UAE preparing to help open Hormuz by force (WSJ). Only 6 ships transited April 1 (down from 130/day pre-war). China-Pakistan 5-point peace plan proposed. Australia halves fuel excise to ease consumer pain.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -416,8 +422,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+31.8% (Brent $105.27, WTI $102.92)",
-      "detail": "20% of global supply cut off \u2014 Day 30 of blockade. Iran operating selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan). ~201 total crossings (95% drop). 2,142+ vessels stranded. Aqua 1 tanker hit off Qatar (April 1). Kuwait airport fuel depots hit (April 1). Iran toll system active. Trump April 6 energy deadline but WSJ: willing to leave without reopening Hormuz. Brent volatile $101-$108 on peace hopes. Goldman Sachs: Hormuz shock 17x larger than Russia disruption."
+      "priceImpact": "+33.2% (Brent $106.42, WTI $104)",
+      "detail": "20% of global supply cut off \u2014 Day 31 of blockade. Iran operating selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan). ~207 total crossings (95% drop). 2,142+ vessels stranded. Only 6 ships transited April 1. Trump sets April 6 deadline: reopen Hormuz or destroy energy infrastructure. Brent spiked 5% to $106.42 on address. UK hosting 35-nation Hormuz conference April 2. UAE preparing to open Hormuz by force (WSJ). Goldman Sachs: Hormuz shock 17x larger than Russia disruption."
     },
     {
       "commodity": "LNG",
@@ -431,7 +437,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+25%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas at $4.018/gal (AAA March 31) \u2014 first above $4 since Aug 2022, up 26.4% from pre-war $3.18. California: $5.887/gal. Diesel at $5.454/gal. Iran shifted to selective blockade \u2014 approved ships may transit. Philippines declared energy emergency. Pakistan 20-ship deal providing limited relief."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas at $4.06/gal (AAA April 1) \u2014 first above $4 since Aug 2022, up 27.7% from pre-war $3.18. California: $5.887/gal. Diesel at $5.454/gal. Iran shifted to selective blockade \u2014 approved ships may transit. Philippines declared energy emergency. Pakistan 20-ship deal providing limited relief. Australia halved fuel excise to ease consumer burden."
     },
     {
       "commodity": "Petrochemicals",

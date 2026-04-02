@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-01T22:24:00Z",
+  "lastUpdated": "2026-04-02T03:20:00Z",
   "currentAverage": 4.06,
   "preWarAverage": 3.18,
-  "changePercent": 27.7,
+  "changePercent": 27.67,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -263,6 +263,12 @@
       "price": 4.018,
       "label": "Day 33 PM \u2014 AAA avg holds $4.018/gal. Oil crashing (Brent ~$102, WTI <$100) on Trump exit signals \u2014 pump prices may lag oil decline 2-3 days. IEA: 'April worse.' Ceasefire by April 6: $3.50-$3.75; escalation: $5-$7 (Time).",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-02",
+      "price": 4.06,
+      "label": "Day 33 night \u2014 $4.06/gal (AAA). First above $4 since Aug 2022. Diesel $5.49. California $5.89. Oklahoma $3.25. Brent spiked to $106 on Trump address. April 6 Hormuz deadline may push higher.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -312,15 +318,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Mar 18)",
-      "crudePerBarrel": 112.9,
+      "label": "Current (Apr 2)",
+      "crudePerBarrel": 106.42,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$112.9 \u00f7 42 gal",
-          "value": 2.69,
-          "percent": 62,
-          "change": "+$0.86"
+          "formula": "$106.42 \u00f7 42 gal",
+          "value": 2.456,
+          "percent": 60,
+          "change": "+$0.836"
         },
         {
           "name": "Refining",
@@ -359,7 +365,7 @@
         }
       ],
       "total": 4.06,
-      "note": "National average $4.06/gal (AAA April 1 PM) \u2014 first time above $4 since August 2022. Up 27.7% from pre-war $3.18. Brent settling ~$101/bbl (down from $105 AM). Diesel $5.45/gal. California: $5.89/gal. Oklahoma: $3.25/gal. War premium fading on Trump 2-3 week exit signals. OPEC+ meeting April 5.",
+      "note": "National average $4.06/gal (AAA April 2) \u2014 first time above $4 since August 2022. Up 27.67% from pre-war $3.18. Brent spiked to $106.42/bbl after Trump prime-time address. Diesel $5.49/gal. California: $5.89/gal. Oklahoma: $3.25/gal. April 6 Hormuz energy deadline may push prices higher. OPEC+ meeting April 5.",
       "crude": 2.8,
       "taxes": 0.52,
       "refining": 0.44,
@@ -367,9 +373,9 @@
       "regularGasoline": 4.06,
       "changeFromPreWar": "+$0.88",
       "changePercent": "+27.7%",
-      "lastUpdated": "2026-04-01T22:24:00Z",
-      "date": "2026-04-01"
+      "lastUpdated": "2026-04-02T03:20:00Z",
+      "date": "2026-04-02"
     }
   },
-  "context": "AAA national average at $4.06/gallon (April 1 PM), up 27.7% from the $3.18 pre-war baseline. First time above $4 since August 2022. California: $5.89/gallon. Oklahoma: $3.25/gallon. Diesel $5.45/gallon. Brent settling ~$101/bbl on Trump exit signals. Gas $4.06 vs $4.018 earlier. DOE issued 10M barrel emergency SPR exchange RFP. OPEC+ meeting April 5. Macquarie warns $7/gal if war extends to summer."
+  "context": "AAA national average at $4.06/gallon (April 2), up 27.67% from the $3.18 pre-war baseline. First time above $4 since August 2022. California: $5.89/gallon. Oklahoma: $3.25/gallon. Diesel $5.49/gallon. Brent spiked to $106.42/bbl after Trump prime-time Oval Office address vowing to hit Iran 'extremely hard' and setting April 6 Hormuz energy deadline. DOE issued 10M barrel emergency SPR exchange RFP. OPEC+ meeting April 5. Macquarie warns $7/gal if war extends to summer."
 }

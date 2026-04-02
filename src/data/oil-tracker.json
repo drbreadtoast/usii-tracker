@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-01T22:24:00Z",
+    "lastUpdated": "2026-04-02T03:20:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,22 +73,22 @@
       }
     },
     "current": {
-      "date": "2026-04-01",
-      "label": "Day 33 PM \u2014 Brent ~$101.97/bbl (+27.7%), WTI ~$99.46 (+31.7%); sharp sell-off on Trump exit signals + Pezeshkian ceasefire talk; war premium deflating; Goldman: $14-18/bbl premium; IEA: 'April worse than March'; May Brent expired at record $118.35",
+      "date": "2026-04-02",
+      "label": "Day 33 night \u2014 Brent $106.42 (+33.4%); WTI $104.21 (+38.0%); reversed earlier dip to $101 on peace hopes after Trump prime-time address vowing to hit Iran 'extremely hard'; April 6 Hormuz energy deadline. Gas $4.06.",
       "brent": {
-        "price": 101.5,
-        "change": "+27.2%",
-        "changeDollars": 21.66,
-        "changePercent": 27.2
+        "price": 106.42,
+        "change": "+33.4%",
+        "changeDollars": 26.62,
+        "changePercent": 33.4
       },
       "wti": {
-        "price": 102.92,
-        "change": "+36.3%",
-        "changeDollars": 27.41,
-        "changePercent": 36.3
+        "price": 104.21,
+        "change": "+38.0%",
+        "changeDollars": 28.70,
+        "changePercent": 38.0
       },
-      "changePercent": 27.2,
-      "lastUpdated": "2026-04-01"
+      "changePercent": 33.4,
+      "lastUpdated": "2026-04-02"
     },
     "priceHistory": [
       {
@@ -337,6 +337,13 @@
         "brent": 101.97,
         "label": "Day 33 PM \u2014 Brent crashes to ~$102 from $108 AM (-5.6%); WTI below $100; war premium deflating on Trump 2-3 week exit + Pezeshkian ceasefire signal; Goldman: $14-18/bbl premium; IEA Birol: 'April worse than March'; May Brent expired record $118.35; BCA: 'oil cliff mid-April'",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-02",
+        "brent": 106.42,
+        "wti": 104.21,
+        "label": "Day 33 night \u2014 Brent $106.42 (+5% on day) after Trump prime-time address vowing to hit Iran 'extremely hard'; WTI $104.21 (+4.1%). April 6 Hormuz energy deadline. Earlier dip to $101 on peace hopes reversed. Gas $4.06.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -522,7 +529,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-01T22:24:00Z",
+    "lastUpdated": "2026-04-02T03:20:00Z",
     "note": "AAA national average at $4.06/gal \u2014 above $4 since March 31 (first since Aug 2022). Up 27.7% from pre-war $3.18. War premium fading on Trump 2-3 week exit signals. DOE issued 10M barrel SPR exchange RFP. OPEC+ meeting April 5.",
     "fuels": [
       {
@@ -539,7 +546,7 @@
         },
         "change": "+$0.88",
         "changePercent": "+27.7%",
-        "detail": "Gas at $4.018/gal (AAA March 31, Day 32). Up $0.838/gal from pre-war $3.18. $4/gal milestone crossed \u2014 first since Aug 2022. California: $5.887/gal. Diesel: $5.454/gal nationally. Brent $108 (June front-month). Macquarie warns $7/gal if war extends to summer.",
+        "detail": "Gas at $4.06/gal (AAA April 1). Up $0.88/gal from pre-war $3.18. $4/gal milestone crossed \u2014 first since Aug 2022. California: $5.89/gal. Diesel: $5.49/gal nationally. Brent $106.42 after Trump address. April 6 Hormuz deadline. Macquarie warns $7/gal if war extends to summer.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

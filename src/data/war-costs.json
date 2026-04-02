@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-01T17:35:00Z",
+    "lastUpdated": "2026-04-02T03:20:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 33,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
@@ -46,42 +46,42 @@
       "name": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
-        "total": 30500000000,
+        "total": 36000000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 10300000000,
-            "description": "Tomahawk cruise missiles (850+ used at $2M each = $1.7B \u2014 9\u00d7 annual procurement rate, approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $200B+ supplemental requested for replenishment. 850+ Tomahawks represents ~20-27% of Navy's estimated active inventory.",
+            "amount": 12800000000,
+            "description": "Tomahawk cruise missiles (900+ used at $2M each = $1.8B \u2014 9\u00d7 annual procurement rate, approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $200B+ supplemental requested for replenishment. 900+ Tomahawks represents ~23-29% of Navy's estimated active inventory. Day 33: Trump vowed to hit Iran 'extremely hard' if Hormuz not reopened by April 6.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
-            "amount": 7500000000,
-            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU (2,500 Marines) departed San Diego March 20, destroyer/submarine operations, naval aviation sorties. 3 CSGs at $7M/day each = $21M/day combined. France deployed Charles de Gaulle + 10 warships.",
+            "amount": 8200000000,
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU (2,500 Marines) departed San Diego March 20, destroyer/submarine operations, naval aviation sorties. 3 CSGs at $7M/day each = $21M/day combined. France deployed Charles de Gaulle + 10 warships. Day 33: sustained Hormuz patrol operations.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
           "airOperations": {
-            "amount": 6800000000,
-            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15.",
+            "amount": 7800000000,
+            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15. Day 33: continued intensive air operations over Iran.",
             "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
           "personnelDeployment": {
-            "amount": 2400000000,
-            "description": "~50,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA (7 enemy fire, 6 KC-135 crash).",
+            "amount": 2900000000,
+            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA (7 enemy fire, 6 KC-135 crash). US Rangers and Navy SEALs deployed.",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
           },
           "logistics": {
-            "amount": 3500000000,
-            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Includes Day 23 operational continuity costs.",
+            "amount": 4300000000,
+            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Includes Day 23-33 operational continuity costs and increased fuel costs from elevated oil prices.",
             "source": "USTRANSCOM / Defense Logistics Agency",
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$30.5B",
-        "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon now requesting $200B+ supplemental (WaPo March 18). 250+ groups oppose additional funding.",
+        "totalFormatted": "$36.0B",
+        "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon now requesting $200B+ supplemental (WaPo March 18). 250+ groups oppose additional funding. Penn Wharton: $40B-$95B total direct costs.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
       "indirectCosts": {
@@ -114,15 +114,15 @@
           }
         }
       },
-      "dailyBurnRate": 850000000,
-      "dailyBurnRateNote": "$850M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
-      "totalEstimate": "~$31.35B direct military + ~$38B indirect through Day 30",
+      "dailyBurnRate": 900000000,
+      "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
+      "totalEstimate": "~$36B direct military + ~$38B indirect through Day 33",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
-      "totalCost": 31350000000,
-      "totalFormatted": "~$71.8B (direct + indirect, Day 32)",
-      "total": 71750000000,
-      "lastUpdated": "2026-03-30T21:16:00Z",
-      "note": "Day 31 PM. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26; estimated ~$30-32B by Day 31 PM. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. Trump threatened to obliterate Iran's power plants and Kharg Island (Truth Social, March 30). USS Tripoli (3,500 Marines) confirmed operational. US Rangers and Navy SEALs deployed. Daily burn rate settling to $601M-$1B/day (CSIS/CAP). Total US troops: 57,000+ in theater.",
+      "totalCost": 36000000000,
+      "totalFormatted": "~$74B (direct + indirect, Day 33)",
+      "total": 73550000000,
+      "lastUpdated": "2026-04-02T03:20:00Z",
+      "note": "Day 33 night. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26; estimated ~$36B by Day 33. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. Trump prime-time Oval Office address vowed to hit Iran 'extremely hard' \u2014 April 6 Hormuz deadline. USS Tripoli (3,500 Marines) confirmed operational. US Rangers and Navy SEALs deployed. Daily burn rate settling to $800M-$1B/day (CSIS/CAP). Total US troops: 57,000+ in theater. Penn Wharton projects $40B-$95B direct US costs, up to $210B total economic impact.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress."
     },
     "israel": {
@@ -200,7 +200,7 @@
       "dailyBurnRateNote": "Calcalist estimates $480-550M/day average ($645-970M/day first 3 days). Includes missile defense operations, IAF sorties (60 jets dropped 150+ bombs Day 28 alone), 300,000 reserve mobilization, and civil defense.",
       "note": "Calcalist: $480-550M/day avg. $6.4B in first 20 days (~$320M/day early, accelerating). Day 29 cumulative estimated $14.5B+. NIS 177B revised defense budget (from NIS 112B base). NIS 2.6B ($826M) emergency procurement. $13B + $2.9B budget supplements approved. RUSI: Arrow interceptors near total depletion \u2014 'unsustainable' 92% interception rate. UK declined US request to share interceptors.",
       "total": 16000000000,
-      "totalFormatted": "~$16.0B (direct military, Day 32)",
+      "totalFormatted": "~$16.0B (direct military, Day 33)",
       "notes": [
         "Knesset approved record NIS 143B ($45.8B) 2026 defense budget on March 30 \u2014 $9.48B increase over 2025. Includes NIS 30B ($9.5B) wartime funding. Total state budget NIS 850.6B ($271B), largest in Israeli history. New $48M deal with Elbit for 155mm shells."
       ]
@@ -585,12 +585,12 @@
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "S&P 500 -1.67% Day 28 (7-month low, 5th straight weekly loss). Dow -1.73% officially in correction. Nasdaq underperforming. Fed holds rates at 3.5-3.75%, warns inflation progress stalled. Hedge funds worst drawdowns since Liberation Day (JPMorgan). Macquarie: 'crude will trade like a meme stock until the solution is peace.'",
-    "oilPriceImpact": "Brent $112.57/bbl (+41.1% from pre-war $79.84). WTI $99.64 (+32.0% from $75.51). Brent spiked to $119.50 intraday (52-week high). IEA: largest supply disruption in history \u2014 21 MBD to ~0.5 MBD through Hormuz. Goldman warns $147+. Macquarie: 40% chance of $200 if Hormuz shut through June.",
-    "gasPrice": 3.981,
-    "brentCrude": 112.57,
-    "wtiCrude": 99.64,
-    "brentPrice": 112.57,
-    "oilPriceIncrease": "+41.1%",
+    "oilPriceImpact": "Brent $106.42/bbl (+33.3% from pre-war $79.84). WTI $104.21 (+38.0% from $75.51). Reversed earlier dip to $101 after Trump prime-time Oval Office address vowing to hit Iran 'extremely hard.' April 6 Hormuz energy deadline. IEA: largest supply disruption in history \u2014 21 MBD to ~0.5 MBD through Hormuz. Goldman warns $147+. Macquarie: 40% chance of $200 if Hormuz shut through June.",
+    "gasPrice": 4.06,
+    "brentCrude": 106.42,
+    "wtiCrude": 104.21,
+    "brentPrice": 106.42,
+    "oilPriceIncrease": "+33.3%",
     "sanctionsNote": "Trump temporarily lifted sanctions on ~140M barrels Iranian crude at sea (March 20). Jones Act and Russian oil sanctions also temporarily suspended to ease energy prices."
   },
   "keyFacts": [
@@ -815,23 +815,23 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 43880000000,
+    "allCountriesDirectMilitary": 49380000000,
     "allCountriesIndirectCosts": 109440000000,
-    "combinedTotalCosts": 153320000000,
+    "combinedTotalCosts": 158820000000,
     "globalEconomicImpact": 850000000000,
-    "description": "Combined direct military + indirect economic costs through Day 32.",
-    "lastCalculated": "2026-04-01T11:32:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 33.",
+    "lastCalculated": "2026-04-02T03:20:00Z",
     "allCountriesIndirect": 109440000000,
-    "combinedTotalFormatted": "$153.32B",
-    "lastUpdated": "2026-04-01T17:35:00Z",
-    "directCosts": 43880000000,
+    "combinedTotalFormatted": "$158.82B",
+    "lastUpdated": "2026-04-02T03:20:00Z",
+    "directCosts": 49380000000,
     "indirectCosts": 109440000000,
-    "combinedCosts": 153320000000,
-    "combinedCost": 153320000000
+    "combinedCosts": 158820000000,
+    "combinedCost": 158820000000
   },
   "daysOfConflict": 33,
-  "lastUpdated": "2026-04-01T22:24:00Z",
-  "dailyBurnRate": 1860000000,
-  "totalCost": 47600000000,
-  "totalFormatted": "$47.6B (direct military, all countries, Day 31)"
+  "lastUpdated": "2026-04-02T03:20:00Z",
+  "dailyBurnRate": 1910000000,
+  "totalCost": 53070000000,
+  "totalFormatted": "$53.07B (direct military, all countries, Day 33)"
 }

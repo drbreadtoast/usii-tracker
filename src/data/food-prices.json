@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-04-01T22:24:00Z",
+  "lastUpdated": "2026-04-02T03:20:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.18,
-      "change": "+10.0%",
-      "detail": "CBOT SRW wheat at $6.18/bushel (April 1). Up from pre-war $5.62. Nearing 2-year peak. Fertilizer disruptions from Hormuz closure (+40% costs) driving 2026 crop increases. UN humanitarian/fertilizer corridor through Hormuz agreed March 27. GCC food imports disrupted 70%.",
-      "source": "USDA Minneapolis Daily Grain Report / CME March 30",
+      "current": 7.42,
+      "change": "+32.0%",
+      "detail": "CBOT SRW wheat at $7.42/bushel (April 2). Up 32% from pre-war $5.62. Fertilizer disruptions from Hormuz closure (+40% urea, +41% ammonia) driving 2026 crop cost increases. ~1/3 of global fertilizer transits Hormuz. UN humanitarian/fertilizer corridor agreed March 27 but barely operational. GCC food imports disrupted 70%. Brent at $106 adding to transport costs.",
+      "source": "USDA / CME April 1",
       "sourceUrl": "https://www.ams.usda.gov/mnreports/ams_3046.pdf"
     },
     {
@@ -45,9 +45,9 @@
       "name": "Sugar",
       "unit": "/lb",
       "preWar": "$0.21",
-      "current": "$0.142",
-      "change": "-32.4%",
-      "detail": "Sugar #11 (ICE) at $0.142/lb \u2014 actually DOWN from pre-war $0.21. Global sugar market has a 3.4 million metric ton surplus forecast for 2026/27; the Iran war has not materially elevated sugar prices. Unlike energy-linked grains, sugar supply/demand dynamics dominated by global harvest conditions.",
+      "current": "$0.224",
+      "change": "+6.7%",
+      "detail": "Sugar #11 (ICE) at $0.224/lb (April 2). Prices reversing earlier decline as shipping costs and diesel surcharges ripple through global supply chains. Hormuz closure driving up transport costs even for non-Gulf commodities. Sugar now modestly above pre-war levels after lagging other commodities.",
       "source": "Barchart / ICE Sugar Futures",
       "sourceUrl": "https://www.barchart.com/futures/quotes/SBH26"
     },
@@ -83,18 +83,20 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": 2.5,
+    "averageWeeklyIncrease": 3.1,
     "preWarWeekly": "$168",
-    "currentWeekly": 112,
-    "changePercent": 7.7
+    "currentWeekly": "$181",
+    "changePercent": 7.7,
+    "usdaForecast2026": "3.1% food price rise",
+    "note": "USDA projects 3.1% food-at-home inflation in 2026. Wolfe Research estimates war could add ~2 additional percentage points. Fertilizer crisis (urea +40%, ammonia +41%) threatening Northern Hemisphere planting season."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
     "ureaCurrent": "$700+/tonne",
-    "ureaChange": "+47%",
-    "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea surged from $475 to $695/tonne. Ammonia prices up 41% YoY. Worst timing: start of Northern Hemisphere planting season. Wolfe Research estimates food-at-home inflation could rise ~2 percentage points. USDA predicts 3.1% food price rise in 2026.",
+    "ureaChange": "+40%",
+    "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea surged from $475 to $665/tonne (+40%). Ammonia prices up 41% YoY. Worst timing: start of Northern Hemisphere planting season. 25% of US farmers have NOT purchased fertilizer for planting season. Wolfe Research estimates food-at-home inflation could rise ~2 percentage points. USDA predicts 3.1% food price rise in 2026.",
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "War-driven supply disruptions continue to push food prices higher. Fertilizer costs up 40% (urea $700+/tonne, ammonia +92% YoY in ME, +41% in US). ~1/3 of global fertilizer transits Hormuz. USDA predicts 3.1% food price rise in 2026. WFP: 45M more could face acute hunger. Diesel at $5.45/gal rippling through food transport. 25% of US farmers have NOT purchased fertilizer for planting season. USDA Prospective Plantings: corn acreage down 3.45M acres YoY. GCC food imports disrupted 70%. Gas $4.06/gal adds to transportation costs."
+  "context": "War-driven supply disruptions continue to push food prices higher. Fertilizer crisis intensifying: urea +40% ($665/tonne), ammonia +41% YoY. ~1/3 of global fertilizer transits Hormuz. USDA predicts 3.1% food price rise in 2026. WFP: 45M more could face acute hunger. Diesel at $5.45/gal rippling through food transport. 25% of US farmers have NOT purchased fertilizer for planting season. USDA Prospective Plantings: corn acreage down 3.45M acres YoY. GCC food imports disrupted 70%. Gas $4.06/gal adds to transportation costs. Brent $106.42 after Trump's April 6 Hormuz deadline. IEA warns 'April worse than March' for supply."
 }
