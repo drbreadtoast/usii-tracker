@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-02T03:20:00Z",
+    "lastUpdated": "2026-04-02T11:40:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -4355,6 +4355,58 @@
       "description": "Strike hit Shia religious site in northwestern Iran.",
       "source": "Antiwar.com",
       "sourceUrl": "https://news.antiwar.com/2026/03/31/us-israeli-strikes-in-iran-hit-orphanage-cancer-drug-facility-religious-site-and-more-residential-buildings/"
+    },
+    {
+      "id": "dmg-269",
+      "name": "Residential Buildings, Bnei Brak (Passover Eve)",
+      "country": "Israel",
+      "lat": 32.0833,
+      "lng": 34.8333,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Iranian cluster missile struck residential area on Passover eve. 14 wounded including 11-year-old girl critical. Extensive damage to homes and vehicles in Bnei Brak, Rosh HaAyin, and Petah Tikva.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-01/ty-article/.premium/at-least-14-wounded-by-iranian-cluster-missile-strike-in-central-israel/0000019d-4822-d70a-abbf-ddff3c820000"
+    },
+    {
+      "id": "dmg-270",
+      "name": "Sewage Infrastructure, Bnei Brak (Overnight April 2)",
+      "country": "Israel",
+      "lat": 32.0833,
+      "lng": 34.8333,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-02",
+      "description": "Iranian cluster bomblet damaged sewage pipes in Bnei Brak causing flooding. 4 wounded overnight including 2 babies. Impact sites also in Tel Aviv city center.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-02-2026/"
+    },
+    {
+      "id": "dmg-271",
+      "name": "Kharazi Residence, Ajouraniyeh, Tehran",
+      "country": "Iran",
+      "lat": 35.78,
+      "lng": 51.45,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "Airstrike hit home of former Iranian FM Kamal Kharazi in Tehran's Ajouraniyeh neighborhood. Kharazi seriously wounded, wife killed. He was overseeing diplomatic back-channel with Pakistan for Vance-Iran meeting.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/2/irans-ex-foreign-minister-kharazi-gravely-wounded-in-attack-on-his-home"
+    },
+    {
+      "id": "dmg-272",
+      "name": "Building in Shfaram, Northern Israel",
+      "country": "Israel",
+      "lat": 32.81,
+      "lng": 35.17,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-02",
+      "description": "Hezbollah rocket from Lebanon hit building in Druze city of Shfaram east of Haifa. Part of 50+ rocket barrage during Passover.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-02-2026/"
     }
   ]
 }

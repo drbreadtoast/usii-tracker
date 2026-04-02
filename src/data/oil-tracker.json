@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-02T03:20:00Z",
+    "lastUpdated": "2026-04-02T11:40:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 33
+    "conflictDay": 34
   },
   "oilPrices": {
     "preWar": {
@@ -74,20 +74,20 @@
     },
     "current": {
       "date": "2026-04-02",
-      "label": "Day 33 night \u2014 Brent $106.42 (+33.4%); WTI $104.21 (+38.0%); reversed earlier dip to $101 on peace hopes after Trump prime-time address vowing to hit Iran 'extremely hard'; April 6 Hormuz energy deadline. Gas $4.06.",
+      "label": "Day 34 AM — Brent $109.16 (+36.8%); WTI $108.36 (+43.5%); surged 8% overnight on Trump 'hit extremely hard' vow. Reversed April 1 dip to $101 on peace hopes. April 6 Hormuz energy deadline looms. Gas $4.064.",
       "brent": {
-        "price": 106.42,
-        "change": "+33.4%",
-        "changeDollars": 26.62,
-        "changePercent": 33.4
+        "price": 109.16,
+        "change": "+36.8%",
+        "changeDollars": 29.36,
+        "changePercent": 36.8
       },
       "wti": {
-        "price": 104.21,
-        "change": "+38.0%",
-        "changeDollars": 28.70,
-        "changePercent": 38.0
+        "price": 108.36,
+        "change": "+43.5%",
+        "changeDollars": 32.85,
+        "changePercent": 43.5
       },
-      "changePercent": 33.4,
+      "changePercent": 36.8,
       "lastUpdated": "2026-04-02"
     },
     "priceHistory": [
@@ -529,8 +529,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-02T03:20:00Z",
-    "note": "AAA national average at $4.06/gal \u2014 above $4 since March 31 (first since Aug 2022). Up 27.7% from pre-war $3.18. War premium fading on Trump 2-3 week exit signals. DOE issued 10M barrel SPR exchange RFP. OPEC+ meeting April 5.",
+    "lastUpdated": "2026-04-02T11:40:00Z",
+    "note": "AAA national average at $4.064/gal — above $4 since March 31 (first since Aug 2022). Up 27.8% from pre-war $3.18. Oil surged 8% on Trump escalation vow. DOE issued 10M barrel SPR exchange RFP. OPEC+ meeting April 5.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -540,13 +540,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.06,
-          "change": "+27.7%",
+          "price": 4.064,
+          "change": "+27.8%",
           "changeDollars": "+$0.88"
         },
         "change": "+$0.88",
-        "changePercent": "+27.7%",
-        "detail": "Gas at $4.06/gal (AAA April 1). Up $0.88/gal from pre-war $3.18. $4/gal milestone crossed \u2014 first since Aug 2022. California: $5.89/gal. Diesel: $5.49/gal nationally. Brent $106.42 after Trump address. April 6 Hormuz deadline. Macquarie warns $7/gal if war extends to summer.",
+        "changePercent": "+27.8%",
+        "detail": "Gas at $4.064/gal (AAA April 2). Up $0.884/gal from pre-war $3.18. $4/gal milestone crossed — first since Aug 2022. California: $5.89/gal. Diesel: $5.49/gal nationally. Brent $109.16 surging 8%. April 6 Hormuz deadline. Macquarie warns $7/gal if war extends to summer.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
