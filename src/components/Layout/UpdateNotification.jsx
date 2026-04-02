@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react'
 import { RefreshCw, X } from 'lucide-react'
 import useVersionCheck from '../../hooks/useVersionCheck'
 
@@ -8,11 +9,33 @@ import useVersionCheck from '../../hooks/useVersionCheck'
  * Polls /version.json every 60 seconds. When the deploy timestamp changes:
  * - Shows a persistent banner at the bottom of the screen
  * - Offers instant "Refresh Now" button
- * - Auto-refreshes after 120 seconds if user doesn't act
+ * - Auto-refreshes after 120 seconds if user doesn't dismiss
  * - Can be dismissed (won't nag again until next deploy)
  */
 export default function UpdateNotification() {
   const { updateAvailable, newVersion, refresh, dismiss } = useVersionCheck(60_000)
+  const [countdown, setCountdown] = useState(120)
+  const timerRef = useRef(null)
+
+  // Auto-refresh countdown when update is available
+  useEffect(() => {
+    if (!updateAvailable) {
+      setCountdown(120)
+      return
+    }
+
+    timerRef.current = setInterval(() => {
+      setCountdown(prev => {
+        if (prev <= 1) {
+          window.location.reload()
+          return 0
+        }
+        return prev - 1
+      })
+    }, 1000)
+
+    return () => clearInterval(timerRef.current)
+  }, [updateAvailable])
 
   if (!updateAvailable) return null
 
@@ -30,7 +53,7 @@ export default function UpdateNotification() {
                 New update available{newVersion ? ` (v${newVersion})` : ''}
               </p>
               <p className="text-[11px] text-blue-400/70">
-                Fresh data has been published. Refresh to see the latest information.
+                Fresh data has been published. Auto-refreshing in {countdown}s…
               </p>
             </div>
           </div>

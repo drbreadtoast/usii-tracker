@@ -30,20 +30,28 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script>
-      // Auto-refresh: checks for new version every 5 minutes
-      // If a new deploy is detected, reloads the page so users get updated code
+      // Auto-refresh: checks for new deploy every 5 minutes
+      // Compares the build timestamp — if it changes, a new deploy happened
+      // Fallback for the React-based UpdateNotification component
       (function(){
-        var currentVersion = '3.1';
-        setInterval(function(){
+        var initialTimestamp = null;
+        function check(){
           fetch('/version.json?_=' + Date.now())
             .then(function(r){ return r.json(); })
             .then(function(data){
-              if(data.v && data.v !== currentVersion){
+              if(!data.t) return;
+              if(initialTimestamp === null){
+                initialTimestamp = data.t;
+                return;
+              }
+              if(data.t !== initialTimestamp){
                 window.location.reload();
               }
             })
             .catch(function(){});
-        }, 300000); // 5 minutes
+        }
+        check();
+        setInterval(check, 300000); // 5 minutes
       })();
     </script>
   </body>
