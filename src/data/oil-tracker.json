@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-02T11:40:00Z",
+    "lastUpdated": "2026-04-02T17:33:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,20 +74,20 @@
     },
     "current": {
       "date": "2026-04-02",
-      "label": "Day 34 AM — Brent $109.16 (+36.8%); WTI $108.36 (+43.5%); surged 8% overnight on Trump 'hit extremely hard' vow. Reversed April 1 dip to $101 on peace hopes. April 6 Hormuz energy deadline looms. Gas $4.064.",
+      "label": "Day 34 PM — Brent $109.35 (+37.0%); WTI $111.00 (+47.0%); extreme volatility on Trump 'stone ages' speech + Iran-Oman Hormuz regime draft. Intraday highs: Brent $111.69, WTI $113.03. Gas $4.08. 40-nation Hormuz summit (US absent). OPEC+ Apr 5.",
       "brent": {
-        "price": 109.16,
-        "change": "+36.8%",
-        "changeDollars": 29.36,
-        "changePercent": 36.8
+        "price": 109.35,
+        "change": "+37.0%",
+        "changeDollars": 29.51,
+        "changePercent": 37.0
       },
       "wti": {
-        "price": 108.36,
-        "change": "+43.5%",
-        "changeDollars": 32.85,
-        "changePercent": 43.5
+        "price": 111.0,
+        "change": "+47.0%",
+        "changeDollars": 35.49,
+        "changePercent": 47.0
       },
-      "changePercent": 36.8,
+      "changePercent": 37.0,
       "lastUpdated": "2026-04-02"
     },
     "priceHistory": [
@@ -540,13 +540,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.064,
-          "change": "+27.8%",
-          "changeDollars": "+$0.88"
+          "price": 4.08,
+          "change": "+28.3%",
+          "changeDollars": "+$0.90"
         },
-        "change": "+$0.88",
-        "changePercent": "+27.8%",
-        "detail": "Gas at $4.064/gal (AAA April 2). Up $0.884/gal from pre-war $3.18. $4/gal milestone crossed — first since Aug 2022. California: $5.89/gal. Diesel: $5.49/gal nationally. Brent $109.16 surging 8%. April 6 Hormuz deadline. Macquarie warns $7/gal if war extends to summer.",
+        "change": "+$0.90",
+        "changePercent": "+28.3%",
+        "detail": "Gas at $4.08/gal (AAA April 2 PM). Up $0.90/gal from pre-war $3.18. First time above $4/gal since Aug 2022. California: $5.89/gal. Diesel: $5.49/gal nationally. Brent surging to $109.35 (+37% from pre-war). April 6 Hormuz deadline. OPEC+ meets April 5. Macquarie warns $7/gal if war extends to summer.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -845,6 +845,13 @@
       "brent": 101.5,
       "wti": 102.92,
       "label": "Day 33 PM \u2014 Brent settling ~$101.50 (-2.4% on day); WTI $102.92 (+1.5%). War premium fading on Trump 2-3 weeks exit signals. Kharazi struck in Tehran. Pezeshkian open letter. DOE 10M barrel SPR exchange RFP. Gas $4.06. EU extends sanctions. 35-nation Hormuz meeting tomorrow.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-02",
+      "brent": 109.35,
+      "wti": 111.0,
+      "label": "Day 34 PM \u2014 Brent $109.35 (+8.1% on day); WTI $111.00 (+12.9%). Extreme volatility: Brent hit $111.69, WTI $113.03 intraday. Trump 'stone ages' speech reversed peace rally. Iran-Oman Hormuz navigation regime draft partially recovered markets. 40-nation Hormuz summit (US absent). Gas $4.08. S&P -0.81%. Gold -2.7%.",
       "isEvent": true
     }
   ]

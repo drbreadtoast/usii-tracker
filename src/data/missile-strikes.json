@@ -5807,5 +5807,59 @@
       "killed": 1,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-354",
+    "city": "Tehran",
+    "country": "Iran",
+    "lat": 35.72,
+    "lng": 51.42,
+    "strikeType": "airstrike",
+    "attributedTo": "multiple",
+    "date": "2026-04-02",
+    "description": "US-Israeli airstrike destroyed the Pasteur Institute of Iran, a century-old medical research center (founded 1920) serving as Iran's leading center for vaccine development and infectious disease research.",
+    "source": "Common Dreams",
+    "sourceUrl": "https://www.commondreams.org/news/pasteur-institute-iran",
+    "weaponType": "Precision-guided munition",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-355",
+    "city": "Western Tehran",
+    "country": "Iran",
+    "lat": 35.70,
+    "lng": 51.30,
+    "strikeType": "airstrike",
+    "attributedTo": "multiple",
+    "date": "2026-04-02",
+    "description": "US-Israeli strikes destroyed a major bridge under construction in western Tehran — set to become the tallest bridge in the Middle East. Several people injured.",
+    "source": "Middle East Eye",
+    "sourceUrl": "https://www.middleeasteye.net/live/iran-war-live-israel-says-it-will-control-bridges-and-area-south-lebanons-litani-river",
+    "weaponType": "Precision-guided munition",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-356",
+    "city": "Bnei Brak",
+    "country": "Israel",
+    "lat": 32.08,
+    "lng": 34.83,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-02",
+    "description": "Iran launched three waves of cluster munitions at central Israel between 7:45-9:00 AM local time. 16 wounded including 12-year-old girl (serious) in Bnei Brak, 6-year-old boy in Rishon LeZion, 11-year-old girl critical.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/israel-news/article-891868",
+    "weaponType": "Ballistic missile (cluster munitions)",
+    "casualties": {
+      "killed": 0,
+      "injured": 16
+    }
   }
 ]

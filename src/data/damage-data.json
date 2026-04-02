@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-02T11:40:00Z",
+    "lastUpdated": "2026-04-02T17:33:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 264,
-    "confirmed": 208,
+    "totalSites": 267,
+    "confirmed": 211,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4407,6 +4407,45 @@
       "description": "Hezbollah rocket from Lebanon hit building in Druze city of Shfaram east of Haifa. Part of 50+ rocket barrage during Passover.",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-april-02-2026/"
+    },
+    {
+      "id": "dmg-273",
+      "name": "Pasteur Institute of Iran, Tehran",
+      "country": "Iran",
+      "lat": 35.72,
+      "lng": 51.42,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-02",
+      "description": "US-Israeli airstrike severely damaged the Pasteur Institute of Iran, a century-old medical research center (founded 1920) that serves as Iran's leading center for vaccine development and infectious disease research. Iran Health Ministry: 'barbaric assault on international health security.'",
+      "source": "Common Dreams",
+      "sourceUrl": "https://www.commondreams.org/news/pasteur-institute-iran"
+    },
+    {
+      "id": "dmg-274",
+      "name": "Tallest Bridge Under Construction, Western Tehran",
+      "country": "Iran",
+      "lat": 35.70,
+      "lng": 51.30,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-02",
+      "description": "US-Israeli strikes destroyed a major bridge under construction in western Tehran — set to become the tallest bridge in the Middle East. Near completion. Several people injured.",
+      "source": "Middle East Eye",
+      "sourceUrl": "https://www.middleeasteye.net/live/iran-war-live-israel-says-it-will-control-bridges-and-area-south-lebanons-litani-river"
+    },
+    {
+      "id": "dmg-275",
+      "name": "Mobarakeh Steel Complex (Full Shutdown), Isfahan",
+      "country": "Iran",
+      "lat": 32.34,
+      "lng": 51.87,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-02",
+      "description": "Iran's largest steel producer completely shut down after repeated US-Israeli strikes. All steelmaking furnaces damaged. Khuzestan Steel in Ahvaz also struck. Recovery estimated 6-12 months. Iran calls it 'economic terrorism.'",
+      "source": "Al Arabiya",
+      "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/04/02/reconstruction-of-damaged-iranian-steel-factory-to-take-up-to-one-year-company-official"
     }
   ]
 }

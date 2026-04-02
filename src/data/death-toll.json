@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T11:40:00Z",
+  "lastUpdated": "2026-04-02T17:33:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,26 +77,26 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 34, 4:40 AM PDT)",
+      "period": "February 28, 2026 - Ongoing (Day 34, 10:33 AM PDT)",
       "parties": [
         {
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
             "military": 0,
-            "civilian": 1980,
-            "total": 1980,
-            "source": "Iran Health Ministry / Al Jazeera tracker \u2014 Day 33 (April 1). 1,980+ killed, 24,995+ injured since Feb. 28. Includes 4 killed and 26 wounded in Zanjan strikes (April 1, mosque/religious site damaged). 217+ children killed. IRGC Commander Hassanzadeh and Gen. Zakariaei confirmed killed. IDF hit 15 weapons production sites in Tehran overnight.",
+            "civilian": 2000,
+            "total": 2000,
+            "source": "Iran Health Ministry / Al Jazeera tracker / Iranian Red Crescent \u2014 Day 34 (April 2). 2,000+ killed, 25,000+ injured since Feb. 28. IFRC cites 1,900 killed, 20,000 injured. 316 healthcare/emergency centers damaged. WHO documented 24+ attacks on healthcare. Pasteur Institute of Iran (century-old medical research center) struck. Mobarakeh Steel completely shut down.",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
             "confirmedMilitaryNote": "Iran does not publish military casualty figures. The 0 reflects concealment, not absence of military deaths."
           },
           "estimated": {
-            "military": 1795,
-            "civilian": 1407,
-            "total": 3202,
-            "source": "HRANA (Human Rights Activists News Agency) \u2014 Day 23 report (March 22). 1,407 civilians killed (including 214 children, 234 women), 1,138 military, 657 unclassified. Total 3,202. Over 15% of fatalities are children.",
+            "military": 1910,
+            "civilian": 1551,
+            "total": 3461,
+            "source": "HRANA (Human Rights Activists News Agency) \u2014 Day 34 (April 2). 3,461 killed: 1,551 civilians (including 236 children), ~1,910 military/unclassified. Over 15% of fatalities are children. 316 healthcare centers damaged. Pasteur Institute struck.",
             "sourceUrl": "https://www.en-hrana.org/day-23-of-u-s-and-israeli-attacks-on-iran-more-than-15-of-the-total-fatalities-are-children/",
-            "note": "HRANA documents via field reports, local contacts, medical sources, and civil society networks. By Day 4 alone, HRANA counted 1,097 civilians killed (including 181 children). Iran International reported HRANA confirmed 1,407+ civilian deaths including 214 children as of Day 23. Military figure (1,138) + unclassified (657) = 1,795 non-civilian. 65 schools and 77+ healthcare facilities damaged. Internet at ~4% \u2014 independent verification near-impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh.",
+            "note": "HRANA documents via field reports, local contacts, medical sources, and civil society networks. Day 34 cumulative: 3,461 total (1,551 civilians including 236 children, ~1,910 military/unclassified). 65 schools and 77+ healthcare facilities damaged (now 316 per Health Ministry). Internet at ~4% \u2014 independent verification near-impossible. ~40 officials killed including Armed Forces CoS Bagheri, IRGC commanders Salami, Rashid, Hajizadeh.",
             "minTotal": 1500,
             "maxTotal": 3500
           },
@@ -159,8 +159,8 @@
               }
             ]
           },
-          "injured": 24995,
-          "injuredNote": "24,995+ injured per Iran Health Ministry (Day 33). Includes 26 wounded in Zanjan strikes (April 1), 5 injured in Alborz orphanage strike (March 30). Qeshm Island desalination plant destroyed. IDF struck fentanyl factory. 217+ children killed, 1,500+ under 18 injured. Iran internet at ~4%.",
+          "injured": 25000,
+          "injuredNote": "25,000+ injured per Iran Health Ministry / IFRC (Day 34). IFRC cites 20,000+. 316 healthcare/emergency centers damaged. 236+ children killed, 1,500+ under 18 injured. WHO documented 24+ attacks on healthcare infrastructure. Pasteur Institute struck. Iran internet at ~4%.",
           "missing": 61,
           "missingNote": "61 sailors still missing from IRIS Dena \u2014 87 bodies recovered and 32 rescued from ~180 crew after US submarine USS Charlotte torpedoed the frigate off Sri Lanka coast (March 4).",
           "displaced": 3200000,
@@ -172,11 +172,11 @@
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
-            "military": 11,
+            "military": 13,
             "civilian": 13,
-            "total": 24,
-            "source": "Israeli government + IDF (Day 31-32). 11 IDF soldiers killed: includes 4 Nahal Brigade soldiers killed in Lebanon clash March 30 (Cpt. Madmoni, SSgt. Cohen, SSgt. Entis + 1 unnamed) and Sgt. Ben Zion (anti-tank missile March 30). 13 civilians killed (including 4 from Iran cluster munitions per HRW). 6,000+ injured.",
-            "sourceUrl": "https://www.timesofisrael.com/liveblog-march-31-2026/"
+            "total": 26,
+            "source": "Israeli government + IDF (Day 34). 13 IDF soldiers killed: includes 4 Nahal Brigade (March 30), Sgt. Ben Zion (March 30), 2 Golani Brigade soldiers killed in Lebanon clashes (April 2). 13 civilians killed (including 4 from Iran cluster munitions per HRW). 6,255+ injured (16 wounded in April 2 cluster munition attacks on central Israel).",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-april-02-2026/"
           },
           "estimated": {
             "military": 12,
@@ -226,8 +226,8 @@
               }
             ]
           },
-          "injured": 6249,
-          "injuredNote": "6,249+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 34 AM). Includes 4 wounded overnight April 2 (2 babies in Bnei Brak from cluster bomblet), 6 wounded in Hezbollah Passover rockets (Kiryat Shmona, Nahariya, Kabri). 16+ wounded from IRGC 3-wave cluster missile strike on Bnei Brak (April 1): 11-year-old girl critical. 400+ Iranian attack waves recorded. 92% interception rate prevented far worse toll.",
+          "injured": 6265,
+          "injuredNote": "6,265+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 34 PM). Includes 16 wounded from 3-wave cluster munition attacks on central Israel (April 2: 12-year-old girl serious in Bnei Brak, 6-year-old boy in Rishon LeZion, 11-year-old girl critical). 2 lightly wounded from 50+ Hezbollah rockets (Passover). 400+ Iranian attack waves recorded. 92% interception rate prevented far worse toll.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
         },
@@ -290,8 +290,8 @@
             "military": 271,
             "civilian": 1047,
             "total": 1318,
-            "source": "Lebanese Health Ministry (Day 33 PM, April 1). 1,318+ killed since March 2. Includes 7 killed in IDF dual airstrike on Khalde/Jnah, Beirut (April 1) targeting Hezbollah commanders. 3 UNIFIL peacekeepers killed March 29-30.",
-            "sourceUrl": "https://www.timesofisrael.com/liveblog-april-01-2026/"
+            "source": "Lebanese Health Ministry (Day 34 PM, April 2). 1,318+ killed since March 2. 7 killed in southern Lebanon strikes April 2. Hezbollah southern front commander Hashem confirmed killed in Beirut strike (April 1). 2 IDF Golani soldiers killed in Lebanon clashes (April 2). 3,935 injured.",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-april-02-2026/"
           },
           "estimated": {
             "military": 350,
@@ -344,7 +344,7 @@
             "military": 0,
             "civilian": 30,
             "total": 30,
-            "source": "Al Jazeera tracker + regional government reports (Day 33 PM, April 1). UAE: 12 killed (+1 Fujairah drone debris April 1). Kuwait: 7 killed. Saudi Arabia: 2 killed. Bahrain: 2 killed (+facility fire from Iranian attack). Oman: 3 killed. Qatar: 0 killed. Aqua 1 tanker hit off Qatar (April 1) \u2014 21 crew evacuated, 0 killed. Kuwait airport fuel depots hit by drone (April 1) \u2014 0 killed.",
+            "source": "Al Jazeera tracker + regional government reports (Day 34 PM, April 2). UAE: 12 killed, 191 injured total since Feb 28. UAE intercepted 19 ballistic missiles and 26 drones on April 2 alone (cumulative: 457 ballistic, 19 cruise, 2,038 drones). Kuwait: 7 killed. Saudi Arabia: 2 killed. Bahrain: 2 killed. Oman: 3 killed. Qatar: 0 killed.",
             "sourceUrl": "https://kuwaittimes.com/article/41616/kuwait/electricity-min-brutal-iranian-attack-hits-power-water-distillation-facility-kills-indian-worker/"
           },
           "estimated": {
@@ -378,7 +378,7 @@
             ]
           },
           "injured": 298,
-          "injuredNote": "298+ injured across GCC states (Day 31 PM). Includes: 10 Kuwaiti soldiers from military camp attack (March 30), 6 injured in Abu Dhabi from missile debris (March 30). UAE: 178. Kuwait: 52. Saudi Arabia: 20. Qatar: 16. Oman: 16. Bahrain: dozens."
+          "injuredNote": "298+ injured across GCC states (Day 34 PM). UAE: 191 (per Gulf News). Kuwait: 52. Saudi Arabia: 20. Qatar: 16. Oman: 16. Bahrain: dozens. Cumulative UAE air defense: 457 ballistic missiles, 19 cruise missiles, 2,038 drones intercepted since Feb 28."
         },
         {
           "name": "Iraq",
