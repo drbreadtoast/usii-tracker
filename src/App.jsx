@@ -35,7 +35,7 @@ export default function App() {
   }, [location.pathname])
 
   return (
-    <div className="h-screen w-screen flex flex-col overflow-hidden bg-gray-950 text-gray-100">
+    <div className="fixed inset-0 flex flex-col overflow-hidden bg-gray-950 text-gray-100">
       <BreakingBanner />
       {/* <BreakingAlert /> */}
       <NavBar />
