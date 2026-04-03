@@ -1,16 +1,5 @@
 [
   {
-    "id": "social-446",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 33 night (8:20 PM PDT): Trump address — 2-3 weeks, April 6 deadline; Netanyahu 'Ten Plagues'; Iran denies ceasefire; Brent $106/WTI $104; Vafaei + Hajj Sadiq killed; 46 Hezbollah waves; IDF 400+ strikes in 48h; Isfahan bunker-busters; Kuwait airport hit; gas $4.06; UK Hormuz conf tomorrow.",
-    "timestamp": "2026-04-02T03:20:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from CNBC, AAA, Ynet, Al Jazeera, Times of Israel, Alma Center.",
-    "keywords": ["day33", "summary", "trump", "oil", "hormuz", "vafaei", "gas"]
-  },
-  {
     "id": "social-447",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab — OSINT Analyst",
@@ -196,5 +185,82 @@
     "verificationStatus": "confirmed",
     "verificationNote": "Compiled from Breaking Defense, Times of Israel, Bloomberg, CNBC, AAA.",
     "keywords": ["day34", "summary", "army-chief", "cluster", "hormuz", "macron", "oil", "gas"]
+  },
+  {
+    "id": "social-464",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "Rubio on Hannity: 'We can see the finish line. It's not today, it's not tomorrow, but it is coming.' Confirms US-Iran message exchanges via Pakistan with potential for direct meeting. Also signals US will reexamine NATO relations post-war. Significant diplomatic shift.",
+    "timestamp": "2026-04-03T01:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Breitbart and GMA News confirmed Rubio quotes from Hannity interview.",
+    "keywords": ["rubio", "finish-line", "diplomacy", "nato", "pakistan", "day35"]
+  },
+  {
+    "id": "social-465",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "GCC just backed a draft UN Security Council resolution authorizing 'all defensive means necessary' to reopen Hormuz. Bahrain (current UNSC president) proposed it. Russia and China expected to veto. Vote scheduled for FRIDAY April 4. Diplomatic pressure intensifying ahead of Trump's April 6 deadline.",
+    "timestamp": "2026-04-03T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel and The National confirmed resolution details.",
+    "keywords": ["gcc", "unsc", "hormuz", "bahrain", "resolution", "veto", "day35"]
+  },
+  {
+    "id": "social-466",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Analyst",
+    "text": "Physical Brent crude just hit $141.36/barrel — highest since 2008 financial crisis. WTI settled at $113.03 after 12.9% single-session surge, biggest daily gain since war began. IEA warns April will be 'much worse than March.' Second strategic reserves release under consideration.",
+    "timestamp": "2026-04-03T02:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed Dated Brent $141.36 and WTI $113.03 settlement.",
+    "keywords": ["brent", "wti", "oil", "141", "iea", "reserves", "day35"]
+  },
+  {
+    "id": "social-467",
+    "handle": "@War_Mapper",
+    "displayName": "War Mapper — OSINT Analyst",
+    "text": "IDF 162nd Division killed 40 Hezbollah fighters in new push deeper into southern Lebanon — reached new section of Litani River. Lebanese Army withdrawing from border villages. IDF ordering demolition of homes and bridges south of Litani. 7 civilians killed in related strikes.",
+    "timestamp": "2026-04-03T03:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera and Jerusalem Post confirmed IDF operations.",
+    "keywords": ["idf", "162nd-division", "lebanon", "hezbollah", "litani", "day35"]
+  },
+  {
+    "id": "social-468",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender — OSINT Analyst",
+    "text": "IRGC struck Amazon AWS in Bahrain for the FOURTH time since war began. Part of broader campaign against 18 named US tech companies. Meanwhile US intelligence assesses ~50% of Iran's missile launchers still intact and thousands of one-way attack drones remain.",
+    "timestamp": "2026-04-03T04:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Anadolu Agency confirmed Amazon strike. Haaretz confirmed US intel assessment.",
+    "keywords": ["amazon", "bahrain", "irgc", "tech", "missile-launchers", "intelligence", "day35"]
+  },
+  {
+    "id": "social-469",
+    "handle": "@faborsky",
+    "displayName": "Faborsky — OSINT Analyst",
+    "text": "Trump Truth Social just now: 'US military hasn't even started destroying what's left in Iran. Bridges next, then Electric Power Plants!' April 6 Hormuz deadline now just 3 days away. Power grid strikes were postponed to April 6 amid talks — now being openly threatened again.",
+    "timestamp": "2026-04-03T06:05:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al-Monitor and Gulf News confirmed Trump's Truth Social post.",
+    "keywords": ["trump", "bridges", "power-plants", "april6", "escalation", "day35"]
+  },
+  {
+    "id": "social-470",
+    "handle": "@IranWarLive",
+    "displayName": "Iran War Live — Lead Source",
+    "text": "Day 35 AM (11:12 PM PDT): Brent $109.35/WTI $113.03 (physical Brent $141.36!); gas $4.08; Trump threatens bridges + power plants; GCC backs UN Hormuz force vote Fri; Rubio 'finish line'; IDF kills 40 Hezbollah; IRGC hits Amazon 4th time; April 6 in 3 DAYS.",
+    "timestamp": "2026-04-03T06:12:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from CNBC, Al-Monitor, Gulf News, Times of Israel, Al Jazeera, Breitbart.",
+    "keywords": ["day35", "summary", "oil", "brent", "trump", "hormuz", "gcc", "rubio", "hezbollah"]
   }
 ]

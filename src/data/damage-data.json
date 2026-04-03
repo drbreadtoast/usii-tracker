@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-02T22:58:00Z",
+    "lastUpdated": "2026-04-03T06:12:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 268,
-    "confirmed": 212,
+    "totalSites": 270,
+    "confirmed": 214,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4459,6 +4459,32 @@
       "description": "Iranian ballistic missile with cluster warhead struck industrial buildings between residential and industrial zones. Bomblets spread to a nearby playground. Homes and vehicles damaged. 5 wounded including 11-year-old girl in critical condition.",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/images-from-petah-tikva-show-industrial-buildings-damaged-by-iranian-missile/"
+    },
+    {
+      "id": "dmg-277",
+      "name": "B1 Bridge, Karaj Northern Bypass",
+      "country": "Iran",
+      "lat": 35.83,
+      "lng": 51.00,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-02",
+      "description": "Iran's tallest bridge (B1 Bridge on Karaj Northern Bypass) completely collapsed after two waves of US airstrikes. Civilians celebrating Nowruz Nature Day gathered under the bridge. 8 killed, 95 wounded. Trump posted: 'much more to follow.' Bridge connected Tehran to western regions.",
+      "source": "Anadolu Agency",
+      "sourceUrl": "https://www.aa.com.tr/en/middle-east/trump-says-much-more-to-follow-after-irans-highest-bridge-struck/3889774"
+    },
+    {
+      "id": "dmg-278",
+      "name": "Amazon AWS Cloud Facility, Bahrain",
+      "country": "Bahrain",
+      "lat": 26.07,
+      "lng": 50.55,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-01",
+      "description": "IRGC missile strike damaged Amazon Web Services cloud computing facility — fourth attack on Amazon Bahrain operations since war began. Part of IRGC campaign against 18 named US tech companies.",
+      "source": "Anadolu Agency",
+      "sourceUrl": "https://www.aa.com.tr/en/middle-east/amazon-s-cloud-operation-in-bahrain-damaged-in-iran-strike-report/3888577"
     }
   ]
 }

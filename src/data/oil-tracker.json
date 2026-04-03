@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-02T22:58:00Z",
+    "lastUpdated": "2026-04-03T06:12:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 34
+    "conflictDay": 35
   },
   "oilPrices": {
     "preWar": {
@@ -73,8 +73,8 @@
       }
     },
     "current": {
-      "date": "2026-04-02",
-      "label": "Day 34 EVE — Brent $109.35 (+37.0%); WTI $111.00 (+47.0%); extreme volatility on Trump 'stone ages' speech + Iran-Oman Hormuz regime draft. Intraday highs: Brent $111.69, WTI $113.03. Gas $4.08. 40-nation Hormuz summit (US absent). Macron: military Hormuz reopening 'unrealistic'. Dated Brent physical hit $140 (highest since 2008). OPEC+ Apr 5.",
+      "date": "2026-04-03",
+      "label": "Day 35 AM — Brent $109.35 (+37.0%); WTI $113.03 (+49.7%); WTI surged 12.9% in single session (biggest since war began). Dated Brent physical spot hit $141.36 (highest since 2008). Gas $4.08. Trump threatens bridges + power plants. GCC backs UN Hormuz force resolution (vote Apr 4). April 6 deadline 3 days away. IEA warns April 'much worse than March.'",
       "brent": {
         "price": 109.35,
         "change": "+37.0%",
@@ -82,10 +82,10 @@
         "changePercent": 37.0
       },
       "wti": {
-        "price": 111.0,
-        "change": "+47.0%",
-        "changeDollars": 35.49,
-        "changePercent": 47.0
+        "price": 113.03,
+        "change": "+49.7%",
+        "changeDollars": 37.52,
+        "changePercent": 49.7
       },
       "changePercent": 37.0,
       "lastUpdated": "2026-04-02"
@@ -529,8 +529,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-02T22:58:00Z",
-    "note": "AAA national average at $4.08/gal — above $4 since March 31 (first since Aug 2022). Up 28.3% from pre-war $3.18. Oil surged 8-13% on Trump escalation vow. Macron calls military Hormuz reopening 'unrealistic.' DOE issued 10M barrel SPR exchange RFP. OPEC+ meeting April 5.",
+    "lastUpdated": "2026-04-03T06:12:00Z",
+    "note": "AAA national average at $4.08/gal — above $4 since March 31 (first since Aug 2022). Up 28.3% from pre-war $3.18. WTI surged 12.9% in single session to $113.03. Dated Brent physical hit $141.36 (highest since 2008). IEA warns April supply crunch 'much worse than March.' GCC backs UN force resolution for Hormuz (vote Apr 4). April 6 Trump deadline 3 days away.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -725,7 +725,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-01T22:24:00Z",
+  "lastUpdated": "2026-04-03T06:12:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

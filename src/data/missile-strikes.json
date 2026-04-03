@@ -5879,5 +5879,59 @@
       "killed": 0,
       "injured": 5
     }
+  },
+  {
+    "id": "ms-358",
+    "city": "B1 Bridge, Karaj/Tehran",
+    "country": "Iran",
+    "lat": 35.83,
+    "lng": 51.00,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-04-02",
+    "description": "Two waves of US airstrikes destroyed B1 Bridge on Karaj Northern Bypass — Iran's tallest bridge. Civilians celebrating Nowruz 'Nature Day' gathered underneath. Bridge collapsed completely. Trump posted 'much more to follow.'",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/2/iran-war-live-trump-to-address-nation-tehran-denies-seeking-ceasefire",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 8,
+      "injured": 95
+    }
+  },
+  {
+    "id": "ms-359",
+    "city": "Jnah, Beirut",
+    "country": "Lebanon",
+    "lat": 33.86,
+    "lng": 35.49,
+    "strikeType": "naval_strike",
+    "attributedTo": "israel",
+    "date": "2026-04-01",
+    "description": "Israeli Navy strike killed Hajj Yusuf Ismail Hashem, commander of Hezbollah's Southern Front, in Beirut's Jnah area. Highest-ranking Hezbollah figure killed since the war began. 7 killed, 26 wounded.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/1/israeli-strikes-on-beirut-kill-7-hezbollah-fights-back-in-southern-lebanon",
+    "weaponType": "Naval missile",
+    "casualties": {
+      "killed": 7,
+      "injured": 26
+    }
+  },
+  {
+    "id": "ms-360",
+    "city": "Bahrain (AWS facility)",
+    "country": "Bahrain",
+    "lat": 26.07,
+    "lng": 50.55,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-01",
+    "description": "IRGC missile strike on Amazon AWS cloud computing facility in Bahrain. Fourth Iranian attack on Amazon's Bahrain operations since the war began. Part of campaign against 18 US tech companies.",
+    "source": "Anadolu Agency",
+    "sourceUrl": "https://www.aa.com.tr/en/middle-east/amazon-s-cloud-operation-in-bahrain-damaged-in-iran-strike-report/3888577",
+    "weaponType": "Ballistic missile",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
