@@ -1,27 +1,5 @@
 [
   {
-    "id": "social-447",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "IRGC just threatened 18 major US tech companies (Apple, Google, Meta, Nvidia, Tesla, Boeing) — ordered employee evacuations. Markets rattled. This is unprecedented: first time a state actor has directly threatened named corporations as military targets.",
-    "timestamp": "2026-04-02T05:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Time confirmed IRGC statement.",
-    "keywords": ["irgc", "tech-companies", "apple", "nvidia", "threats", "day34"]
-  },
-  {
-    "id": "social-448",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "4 Iranian missile salvos overnight — cluster warheads again. 2 babies among 4 wounded in Bnei Brak. Meanwhile Hezbollah launched 50+ rockets at northern Israel on Passover morning. Coordinated timing continues: Iran + Hezbollah striking simultaneously.",
-    "timestamp": "2026-04-02T06:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog and IDF confirmed.",
-    "keywords": ["iran", "missiles", "cluster", "hezbollah", "passover", "coordinated", "day34"]
-  },
-  {
     "id": "social-449",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel — OSINT Analyst",
@@ -262,5 +240,71 @@
     "verificationStatus": "confirmed",
     "verificationNote": "Compiled from CNBC, Al-Monitor, Gulf News, Times of Israel, Al Jazeera, Breitbart.",
     "keywords": ["day35", "summary", "oil", "brent", "trump", "hormuz", "gcc", "rubio", "hezbollah"]
+  },
+  {
+    "id": "social-471",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "Hezbollah massive Passover barrage: ~130 rockets at northern Israel in rapid succession. 30+ in a single salvo targeting Kiryat Ata/Haifa area. 4 lightly injured. Largest single barrage this week. Coordinated with Iranian cluster munition strikes.",
+    "timestamp": "2026-04-03T07:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel liveblog confirmed rocket count and casualties.",
+    "keywords": ["hezbollah", "rockets", "passover", "kiryat-ata", "haifa", "barrage", "day35"]
+  },
+  {
+    "id": "social-472",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "Iran using cluster munition warheads on ballistic missiles targeting Kiryat Ata. 1 wounded. IDF warns this represents escalation in Iranian weapon types. Cluster munitions banned under Convention on Cluster Munitions (neither Iran nor Israel are signatories).",
+    "timestamp": "2026-04-03T08:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz confirmed cluster munition warheads and IDF assessment.",
+    "keywords": ["iran", "cluster-munitions", "kiryat-ata", "escalation", "ballistic", "day35"]
+  },
+  {
+    "id": "social-473",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Analyst",
+    "text": "Kuwait hit twice today: drones struck Mina Al-Ahmadi refinery (3rd time, 466K bpd capacity) and missile hit desalination plant. Kuwait blames Iran, IRGC denies. Gulf civilian infrastructure increasingly targeted. Oil markets watching closely.",
+    "timestamp": "2026-04-03T09:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera and The National confirmed both Kuwait strikes.",
+    "keywords": ["kuwait", "refinery", "desalination", "drone", "missile", "gulf", "day35"]
+  },
+  {
+    "id": "social-474",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender — OSINT Analyst",
+    "text": "IRGC claims US F-15E shot down near Qeshm Island in Hormuz. Debris photos surfacing online — clearly F-15E wreckage, NOT F-35 as initially claimed. CENTCOM denies: 'All aircraft safe and accounted for.' Second unconfirmed claim of F-35 over central Iran.",
+    "timestamp": "2026-04-03T10:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "rumored",
+    "verificationNote": "CENTCOM denies shootdown. The Aviationist analyzed debris as F-15E.",
+    "keywords": ["iran", "f-15e", "shootdown", "hormuz", "qeshm", "centcom", "day35"]
+  },
+  {
+    "id": "social-475",
+    "handle": "@faborsky",
+    "displayName": "Faborsky — OSINT Analyst",
+    "text": "Hegseth fires Army Chief of Staff Gen. Randy George + 2 other generals DURING WARTIME. Unprecedented. Gen. LaNeve (Hegseth's former aide) becomes acting chief. Meanwhile Rubio-Hegseth feuding over ground troops. Command instability during active combat operations.",
+    "timestamp": "2026-04-03T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News, Washington Post, CNN all confirmed firings.",
+    "keywords": ["hegseth", "army-chief", "generals", "fired", "pentagon", "command", "day35"]
+  },
+  {
+    "id": "social-476",
+    "handle": "@IranWarLive",
+    "displayName": "Iran War Live — Lead Source",
+    "text": "Day 35 midday (5:50 AM PDT): Brent $109.03/WTI $111.54 (WTI>Brent inversion!); gas $4.09; 130 Hezbollah rockets; Iran cluster bombs; Kuwait refinery+desal hit; Iran claims F-15E shootdown (denied); Hegseth fires Army chief; Trump 'do what I tell them'; April 6 in 3 DAYS.",
+    "timestamp": "2026-04-03T12:50:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from CNBC, Haaretz, Times of Israel, Al Jazeera, CBS News, The Aviationist.",
+    "keywords": ["day35", "summary", "oil", "hezbollah", "cluster", "kuwait", "f-15e", "hegseth", "trump"]
   }
 ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-03T06:12:00Z",
+    "lastUpdated": "2026-04-03T12:50:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 270,
-    "confirmed": 214,
+    "totalSites": 278,
+    "confirmed": 218,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4485,6 +4485,58 @@
       "description": "IRGC missile strike damaged Amazon Web Services cloud computing facility — fourth attack on Amazon Bahrain operations since war began. Part of IRGC campaign against 18 named US tech companies.",
       "source": "Anadolu Agency",
       "sourceUrl": "https://www.aa.com.tr/en/middle-east/amazon-s-cloud-operation-in-bahrain-damaged-in-iran-strike-report/3888577"
+    },
+    {
+      "id": "dmg-279",
+      "name": "Pasteur Institute, Tehran",
+      "country": "Iran",
+      "lat": 35.72,
+      "lng": 51.42,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "US/Israeli strikes heavily damaged Iran's Pasteur Institute in Tehran — century-old medical research center founded in 1920 to combat infectious diseases including plague and smallpox.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/iran-war-what-is-happening-on-day-35-of-us-israeli-attacks"
+    },
+    {
+      "id": "dmg-280",
+      "name": "Isfahan Steel Plants",
+      "country": "Iran",
+      "lat": 32.66,
+      "lng": 51.68,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Israeli strikes shut down Iran's two largest steel production facilities. Restart estimated 6-12 months, threatening to cripple one of Iran's most important industrial sectors.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/2/iran-war-live-trump-to-address-nation-tehran-denies-seeking-ceasefire"
+    },
+    {
+      "id": "dmg-281",
+      "name": "Mina Al-Ahmadi Refinery, Kuwait",
+      "country": "Kuwait",
+      "lat": 29.07,
+      "lng": 48.13,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Iranian drones struck Kuwait's Mina Al-Ahmadi refinery (~466K bpd) for third time since war began. Fires in operational units, contained by emergency teams. No injuries.",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/03/kuwait-races-to-contain-damage-after-drone-strikes-oil-refinery/"
+    },
+    {
+      "id": "dmg-282",
+      "name": "Kuwait Desalination Plant",
+      "country": "Kuwait",
+      "lat": 29.34,
+      "lng": 47.94,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Missile struck Kuwaiti water desalination plant. Kuwait blamed Iran; IRGC denied, blamed Israel. Water infrastructure attack represents dangerous escalation of civilian targeting.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes"
     }
   ]
 }

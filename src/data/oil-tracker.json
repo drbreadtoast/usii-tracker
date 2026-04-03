@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-03T06:12:00Z",
+    "lastUpdated": "2026-04-03T12:50:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,21 +74,21 @@
     },
     "current": {
       "date": "2026-04-03",
-      "label": "Day 35 AM — Brent $109.35 (+37.0%); WTI $113.03 (+49.7%); WTI surged 12.9% in single session (biggest since war began). Dated Brent physical spot hit $141.36 (highest since 2008). Gas $4.08. Trump threatens bridges + power plants. GCC backs UN Hormuz force resolution (vote Apr 4). April 6 deadline 3 days away. IEA warns April 'much worse than March.'",
+      "label": "Day 35 midday — Brent $109.03 (+36.6%); WTI $111.54 (+47.7%); WTI-Brent inversion (unusual). Dated Brent physical $141.36. Gas $4.09 (AAA). Kuwait refinery hit 3rd time. Iran claims F-15E shootdown (denied). Trump: Israel will 'do what I tell them.' Hegseth fires Army chief. GCC UN Hormuz vote Fri. April 6 deadline 3 days away.",
       "brent": {
-        "price": 109.35,
-        "change": "+37.0%",
-        "changeDollars": 29.51,
-        "changePercent": 37.0
+        "price": 109.03,
+        "change": "+36.6%",
+        "changeDollars": 29.19,
+        "changePercent": 36.6
       },
       "wti": {
-        "price": 113.03,
-        "change": "+49.7%",
-        "changeDollars": 37.52,
-        "changePercent": 49.7
+        "price": 111.54,
+        "change": "+47.7%",
+        "changeDollars": 36.03,
+        "changePercent": 47.7
       },
-      "changePercent": 37.0,
-      "lastUpdated": "2026-04-02"
+      "changePercent": 36.6,
+      "lastUpdated": "2026-04-03"
     },
     "priceHistory": [
       {
@@ -529,8 +529,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-03T06:12:00Z",
-    "note": "AAA national average at $4.08/gal — above $4 since March 31 (first since Aug 2022). Up 28.3% from pre-war $3.18. WTI surged 12.9% in single session to $113.03. Dated Brent physical hit $141.36 (highest since 2008). IEA warns April supply crunch 'much worse than March.' GCC backs UN force resolution for Hormuz (vote Apr 4). April 6 Trump deadline 3 days away.",
+    "lastUpdated": "2026-04-03T12:50:00Z",
+    "note": "AAA national average at $4.09/gal (April 3) — above $4 since March 31 (first since Aug 2022). Up 28.3% from pre-war $3.18. WTI surged 12.9% in single session to $113.03. Dated Brent physical hit $141.36 (highest since 2008). IEA warns April supply crunch 'much worse than March.' GCC backs UN force resolution for Hormuz (vote Apr 4). April 6 Trump deadline 3 days away.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -540,13 +540,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.08,
-          "change": "+28.3%",
-          "changeDollars": "+$0.90"
+          "price": 4.09,
+          "change": "+28.6%",
+          "changeDollars": "+$0.91"
         },
-        "change": "+$0.90",
-        "changePercent": "+28.3%",
-        "detail": "Gas at $4.08/gal (AAA April 2 PM). Up $0.90/gal from pre-war $3.18. First time above $4/gal since Aug 2022. California: $5.89/gal. Diesel: $5.49/gal nationally. Brent surging to $109.35 (+37% from pre-war). April 6 Hormuz deadline. OPEC+ meets April 5. Macquarie warns $7/gal if war extends to summer.",
+        "change": "+$0.91",
+        "changePercent": "+28.6%",
+        "detail": "Gas at $4.09/gal (AAA April 3). Up $0.91/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $109.03 (+36.6%). WTI $111.54 (+47.7%). Kuwait refinery hit 3rd time. OPEC+ meets April 5.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -725,7 +725,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-03T06:12:00Z",
+  "lastUpdated": "2026-04-03T12:50:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -852,6 +852,13 @@
       "brent": 109.35,
       "wti": 111.0,
       "label": "Day 34 PM \u2014 Brent $109.35 (+8.1% on day); WTI $111.00 (+12.9%). Extreme volatility: Brent hit $111.69, WTI $113.03 intraday. Trump 'stone ages' speech reversed peace rally. Iran-Oman Hormuz navigation regime draft partially recovered markets. 40-nation Hormuz summit (US absent). Gas $4.08. S&P -0.81%. Gold -2.7%.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-03",
+      "brent": 109.03,
+      "wti": 111.54,
+      "label": "Day 35 midday \u2014 Brent $109.03 (-0.3%); WTI $111.54 (+0.5%). WTI-Brent inversion continues. Kuwait Mina Al-Ahmadi refinery hit 3rd time. Kuwait desal plant hit. Iran claims F-15E shootdown (denied). Hegseth fires Army chief. Trump: 'do what I tell them.' 130 Hezbollah rockets. Gas $4.09.",
       "isEvent": true
     }
   ]

@@ -5933,5 +5933,95 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-361",
+    "city": "Kiryat Ata",
+    "country": "Israel",
+    "lat": 32.81,
+    "lng": 35.11,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-03",
+    "description": "Iranian ballistic missiles carrying cluster bomb warheads struck Kiryat Ata in northern Israel. One man lightly wounded. IDF assessed cluster warheads represent escalation in Iranian weapon types.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-03/ty-article-live/cnn-iran-retains-half-of-missile-launchers-and-massive-drone-fleet/0000019d-5114-db3c-a3df-d995e3f30000",
+    "weaponType": "Ballistic missile (cluster munitions)",
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-362",
+    "city": "Mina Al-Ahmadi",
+    "country": "Kuwait",
+    "lat": 29.07,
+    "lng": 48.13,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-04-03",
+    "description": "Iranian drones struck Kuwait's Mina Al-Ahmadi oil refinery (~466,000 bpd) for the third time since war began. Fires in operational units, contained by emergency teams.",
+    "source": "The National",
+    "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/03/kuwait-races-to-contain-damage-after-drone-strikes-oil-refinery/",
+    "weaponType": "Attack drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-363",
+    "city": "Kuwait City area",
+    "country": "Kuwait",
+    "lat": 29.34,
+    "lng": 47.94,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-03",
+    "description": "Missile struck a Kuwaiti water desalination plant. Kuwait blamed Iran; IRGC denied responsibility. Damage assessment ongoing.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes",
+    "weaponType": "Ballistic missile",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-364",
+    "city": "Isfahan",
+    "country": "Iran",
+    "lat": 32.66,
+    "lng": 51.68,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-03",
+    "description": "Israeli airstrikes shut down Iran's two largest steel plants. Restart estimated 6-12 months.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/2/iran-war-live-trump-to-address-nation-tehran-denies-seeking-ceasefire",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-365",
+    "city": "Tehran (Pasteur Institute)",
+    "country": "Iran",
+    "lat": 35.72,
+    "lng": 51.42,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-04-03",
+    "description": "US/Israeli strikes heavily damaged the Pasteur Institute of Iran, a century-old medical research center founded in 1920.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/iran-war-what-is-happening-on-day-35-of-us-israeli-attacks",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
