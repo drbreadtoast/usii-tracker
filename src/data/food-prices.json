@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-03T12:50:00Z",
+  "lastUpdated": "2026-04-03T18:35:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 7.42,
-      "change": "+32.0%",
-      "detail": "CBOT SRW wheat at $7.42/bushel (April 2). Up 32% from pre-war $5.62. Fertilizer disruptions from Hormuz closure (+40% urea, +41% ammonia) driving 2026 crop cost increases. ~1/3 of global fertilizer transits Hormuz. UN humanitarian/fertilizer corridor agreed March 27 but barely operational. GCC food imports disrupted 70%. Brent at $106 adding to transport costs.",
+      "current": "$5.98/bushel",
+      "change": "+18.2%",
+      "detail": "May wheat at $5.98-1/4 (April 2 close). Up 3/4 cent on day. Hormuz disruption + fertilizer crisis pushing prices higher.",
       "source": "USDA / CME April 1",
       "sourceUrl": "https://www.ams.usda.gov/mnreports/ams_3046.pdf"
     },
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.56,
-      "change": "+5.8%",
-      "detail": "CBOT May corn at $4.56/bushel (April 1). Up from pre-war $4.31. USDA Prospective Plantings showed corn acreage down 3.45M acres YoY as fertilizer costs shift acres to soybeans. USDA projects $4.20 marketing year average.",
+      "current": "$4.52/bushel",
+      "change": "+8.1%",
+      "detail": "May corn at $4.52-1/4 (April 2 close). Down 2 cents on day. USDA: corn acreage down 3.45M acres YoY.",
       "source": "Farm Futures / USDA March 30",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -25,9 +25,9 @@
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": "$11.60/bushel",
-      "change": "+14.7%",
-      "detail": "CBOT soybeans (May) at $11.61/bushel. Up 14.7% from pre-war $10.12. Managed money at 4-year high net long in grains. Soybean oil surging on biofuel demand. Palm oil also elevated. One-third of globally traded fertilizer transits through Hormuz.",
+      "current": "$11.64/bushel",
+      "change": "+12.8%",
+      "detail": "May soybeans at $11.63-1/2 (April 2 close). Down 5 cents on day.",
       "source": "Brownfield Ag News / CME March 20 closing",
       "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
     },
@@ -57,7 +57,7 @@
       "preWar": "$3.49",
       "current": "$6.14",
       "change": "+75.9%",
-      "detail": "Palm oil: shipping insurance costs up 10x (0.25% to ~10% of vessel value per Lloyd's List), spiking transport costs. War risk insurance adds $3-5/MT to global commodity delivery.",
+      "detail": "Vegetable oil price index at highest since June 2022. Palm oil (CPO June) RM 4,861/tonne. Indonesia CPO ref $989.63/MT.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
     },
@@ -83,9 +83,9 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": 3.1,
+    "averageWeeklyIncrease": "$13",
     "preWarWeekly": "$168",
-    "currentWeekly": "$181",
+    "currentWeekly": 181,
     "changePercent": 7.7,
     "usdaForecast2026": "3.1% food price rise",
     "note": "USDA projects 3.1% food-at-home inflation in 2026. Wolfe Research estimates war could add ~2 additional percentage points. Fertilizer crisis (urea +40%, ammonia +41%) threatening Northern Hemisphere planting season."
@@ -98,5 +98,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "War-driven supply disruptions continue to push food prices higher. Fertilizer crisis intensifying: urea +40% ($665/tonne), ammonia +41% YoY. ~1/3 of global fertilizer transits Hormuz. USDA predicts 3.1% food price rise in 2026. WFP: 45M more could face acute hunger. Diesel at $5.49/gal rippling through food transport. 25% of US farmers have NOT purchased fertilizer for planting season. USDA Prospective Plantings: corn acreage down 3.45M acres YoY. GCC food imports disrupted 70%. Gas $4.064/gal adds to transportation costs. Brent surged 8% to $109.16 after Trump escalation vow. April 6 Hormuz deadline. IEA warns 'April worse than March' for supply."
+  "context": "War-driven supply disruptions continue. Fertilizer crisis intensifying: urea $700+/tonne (+40%), ammonia +41% YoY. ~1/3 of global fertilizer transits Hormuz. USDA: 3.1% food-at-home inflation forecast for 2026. Wolfe Research: war could add ~2 additional points. WFP: 45M more could face acute hunger. Diesel $5.43/gal rippling through transport. 25% of US farmers haven't purchased fertilizer for planting. USDA: corn acreage down 3.45M acres YoY. Wheat acreage at record low since 1919. Gas $4.09/gal. Brent $109.24. April 6 Hormuz deadline. Vegetable oil index at highest since June 2022."
 }

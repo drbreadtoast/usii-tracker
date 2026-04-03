@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-03T12:50:00Z",
+    "lastUpdated": "2026-04-03T18:35:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 278,
+    "totalSites": 284,
     "confirmed": 218,
     "reported": 9,
     "rumored": 3,
@@ -4348,7 +4348,7 @@
       "name": "Shia Religious Site, Zanjan",
       "country": "Iran",
       "lat": 36.67,
-      "lng": 48.50,
+      "lng": 48.5,
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-04-01",
@@ -4425,12 +4425,12 @@
       "id": "dmg-274",
       "name": "Tallest Bridge Under Construction, Western Tehran",
       "country": "Iran",
-      "lat": 35.70,
-      "lng": 51.30,
+      "lat": 35.7,
+      "lng": 51.3,
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-04-02",
-      "description": "US-Israeli strikes destroyed a major bridge under construction in western Tehran — set to become the tallest bridge in the Middle East. Near completion. Several people injured.",
+      "description": "US-Israeli strikes destroyed a major bridge under construction in western Tehran \u2014 set to become the tallest bridge in the Middle East. Near completion. Several people injured.",
       "source": "Middle East Eye",
       "sourceUrl": "https://www.middleeasteye.net/live/iran-war-live-israel-says-it-will-control-bridges-and-area-south-lebanons-litani-river"
     },
@@ -4465,7 +4465,7 @@
       "name": "B1 Bridge, Karaj Northern Bypass",
       "country": "Iran",
       "lat": 35.83,
-      "lng": 51.00,
+      "lng": 51.0,
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-04-02",
@@ -4482,7 +4482,7 @@
       "category": "infrastructure",
       "status": "confirmed",
       "date": "2026-04-01",
-      "description": "IRGC missile strike damaged Amazon Web Services cloud computing facility — fourth attack on Amazon Bahrain operations since war began. Part of IRGC campaign against 18 named US tech companies.",
+      "description": "IRGC missile strike damaged Amazon Web Services cloud computing facility \u2014 fourth attack on Amazon Bahrain operations since war began. Part of IRGC campaign against 18 named US tech companies.",
       "source": "Anadolu Agency",
       "sourceUrl": "https://www.aa.com.tr/en/middle-east/amazon-s-cloud-operation-in-bahrain-damaged-in-iran-strike-report/3888577"
     },
@@ -4495,7 +4495,7 @@
       "category": "civilian",
       "status": "confirmed",
       "date": "2026-04-03",
-      "description": "US/Israeli strikes heavily damaged Iran's Pasteur Institute in Tehran — century-old medical research center founded in 1920 to combat infectious diseases including plague and smallpox.",
+      "description": "US/Israeli strikes heavily damaged Iran's Pasteur Institute in Tehran \u2014 century-old medical research center founded in 1920 to combat infectious diseases including plague and smallpox.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/iran-war-what-is-happening-on-day-35-of-us-israeli-attacks"
     },
@@ -4537,6 +4537,84 @@
       "description": "Missile struck Kuwaiti water desalination plant. Kuwait blamed Iran; IRGC denied, blamed Israel. Water infrastructure attack represents dangerous escalation of civilian targeting.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes"
+    },
+    {
+      "id": "dmg-283",
+      "name": "B1 Bridge (Tehran-Karaj Highway)",
+      "location": "Alborz Province, Iran",
+      "lat": 35.83,
+      "lng": 51.0,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "B1 Bridge \u2014 tallest bridge in Middle East connecting Tehran to Karaj \u2014 completely collapsed after two-wave US precision strikes. 8 killed, 95 wounded. Major drone/missile supply route severed.",
+      "source": "The War Zone",
+      "sourceUrl": "https://www.twz.com/news-features/key-iranian-bridge-severed-by-airstrikes"
+    },
+    {
+      "id": "dmg-284",
+      "name": "Red Crescent Aid Warehouse",
+      "location": "Choghadak, Bushehr Province, Iran",
+      "lat": 28.93,
+      "lng": 50.84,
+      "category": "humanitarian",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Drone strike destroyed Red Crescent aid warehouse \u2014 two containers, two buses, emergency vehicles destroyed. Third IFRC personnel death since war began.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/4/3/red-crescent-supply-warehouse-attacked-in-southwest-iran"
+    },
+    {
+      "id": "dmg-285",
+      "name": "Habshan Gas Facility (ADNOC)",
+      "location": "Habshan, Abu Dhabi, UAE",
+      "lat": 23.83,
+      "lng": 53.73,
+      "category": "energy",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Interceptor debris from Iranian missiles caused fire at ADNOC's main gas processing complex. Operations halted. 12 injured in Ajban area from falling debris.",
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-03/abu-dhabi-halts-operations-at-main-gas-facility-after-attack"
+    },
+    {
+      "id": "dmg-286",
+      "name": "Batelco HQ / AWS Data Centers",
+      "location": "Hamala, Bahrain",
+      "lat": 26.12,
+      "lng": 50.48,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Iranian strikes hit Batelco telecom HQ hosting Amazon Web Services data centers. Power outages disrupted banking and airline systems. First strike on US tech company infrastructure.",
+      "source": "Arabian Business",
+      "sourceUrl": "https://www.arabianbusiness.com/business/technology/amazon-cloud-operations-in-bahrain-hit-in-iran-strike-ft-report"
+    },
+    {
+      "id": "dmg-287",
+      "name": "Petah Tikva (near school)",
+      "location": "Petah Tikva, Israel",
+      "lat": 32.09,
+      "lng": 34.88,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "Unintercepted Iranian missile cratered near school. Cluster bomblets damaged homes, roads, vehicles in Petah Tikva, Ramat Gan, and Givat Shmuel. 3 lightly wounded.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-891936"
+    },
+    {
+      "id": "dmg-288",
+      "name": "Sohmor and Mashghara Bridges",
+      "location": "Western Bekaa Valley, Lebanon",
+      "lat": 33.55,
+      "lng": 35.72,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-03",
+      "description": "IDF destroyed bridges over Litani River. Total destroyed Litani crossings reaches 8, effectively isolating western Bekaa from rest of Lebanon.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/israel-threatens-to-destroy-more-lebanon-bridges-as-crisis-mounts"
     }
   ]
 }
