@@ -1,99 +1,5 @@
 [
   {
-    "id": "social-460",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Analyst",
-    "text": "Houthi ballistic missile targeting Tel Aviv area intercepted. Separately, 50+ Hezbollah rockets fired at northern Israel — 2 lightly wounded. Triple-axis coordination continues: Iran + Hezbollah + Houthis all striking in the same evening window.",
-    "timestamp": "2026-04-02T19:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog confirmed all three attack vectors.",
-    "keywords": [
-      "houthi",
-      "hezbollah",
-      "tel-aviv",
-      "rockets",
-      "intercepted",
-      "day34"
-    ]
-  },
-  {
-    "id": "social-462",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender — OSINT Analyst",
-    "text": "Markets staged remarkable intraday reversal: Dow was -600 pts but closed just -61 (-0.13%). S&P actually closed +0.11%. Recovery driven by Iran-Oman Hormuz navigation regime draft news — first diplomatic framework for post-war transit. Oil still at $109/$111.",
-    "timestamp": "2026-04-02T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Motley Fool confirmed market close data and recovery narrative.",
-    "keywords": [
-      "markets",
-      "dow",
-      "sp500",
-      "recovery",
-      "hormuz",
-      "oil",
-      "day34"
-    ]
-  },
-  {
-    "id": "social-463",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 34 EVE (3:58 PM PDT): Army Chief fired; Petah Tikva cluster strike (girl critical); Houthi + Hezbollah evening attacks; Macron 'unrealistic' Hormuz military; markets recovered (S&P +0.11%); Brent $109.35/WTI $111; gas $4.08; 40-nation Hormuz summit; April 6 deadline in 4 days.",
-    "timestamp": "2026-04-02T22:58:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from Breaking Defense, Times of Israel, Bloomberg, CNBC, AAA.",
-    "keywords": [
-      "day34",
-      "summary",
-      "army-chief",
-      "cluster",
-      "hormuz",
-      "macron",
-      "oil",
-      "gas"
-    ]
-  },
-  {
-    "id": "social-464",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "Rubio on Hannity: 'We can see the finish line. It's not today, it's not tomorrow, but it is coming.' Confirms US-Iran message exchanges via Pakistan with potential for direct meeting. Also signals US will reexamine NATO relations post-war. Significant diplomatic shift.",
-    "timestamp": "2026-04-03T01:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Breitbart and GMA News confirmed Rubio quotes from Hannity interview.",
-    "keywords": [
-      "rubio",
-      "finish-line",
-      "diplomacy",
-      "nato",
-      "pakistan",
-      "day35"
-    ]
-  },
-  {
-    "id": "social-465",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "GCC just backed a draft UN Security Council resolution authorizing 'all defensive means necessary' to reopen Hormuz. Bahrain (current UNSC president) proposed it. Russia and China expected to veto. Vote scheduled for FRIDAY April 4. Diplomatic pressure intensifying ahead of Trump's April 6 deadline.",
-    "timestamp": "2026-04-03T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel and The National confirmed resolution details.",
-    "keywords": [
-      "gcc",
-      "unsc",
-      "hormuz",
-      "bahrain",
-      "resolution",
-      "veto",
-      "day35"
-    ]
-  },
-  {
     "id": "social-466",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel — OSINT Analyst",
@@ -534,6 +440,116 @@
       "missiles",
       "cluster",
       "oil",
+      "hormuz",
+      "deadline"
+    ]
+  },
+  {
+    "id": "social-490",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Analyst",
+    "text": "BREAKING: Second US aircraft loss in 24h — A-10 Warthog shot down during F-15E SAR ops in central Iran. Pilot ejected + rescued by SOF. Two HH-60 Black Hawks took small arms fire during extraction. F-15E WSO still missing. Iran offering bounty.",
+    "timestamp": "2026-04-03T22:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NPR, Air & Space Forces Magazine, Breaking Defense all confirmed.",
+    "keywords": [
+      "a-10",
+      "sar",
+      "f-15e",
+      "aircraft-loss",
+      "iran",
+      "day35"
+    ]
+  },
+  {
+    "id": "social-491",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "Haaretz bombshell: Israeli public support for Iran war CRATERED to 45.5% from 63% at war start. Biggest single-poll swing since conflict began. Netanyahu losing domestic mandate. Combined with $45.8B defense budget strain — political pressure mounting.",
+    "timestamp": "2026-04-03T22:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz published full poll with methodology.",
+    "keywords": [
+      "poll",
+      "israel",
+      "public-opinion",
+      "haaretz",
+      "netanyahu",
+      "day35"
+    ]
+  },
+  {
+    "id": "social-492",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender — OSINT Analyst",
+    "text": "EU diplomatic push: Kallas-Wang Yi call on Iran. 19 new EU sanctions designations. Framework extended to April 2027. Meanwhile Italy's Meloni publicly breaks with Trump — first major NATO ally to refuse offensive operations. Traveling to Saudi Arabia for energy deals instead.",
+    "timestamp": "2026-04-03T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "JURIST, The Spectator confirmed.",
+    "keywords": [
+      "eu",
+      "kallas",
+      "china",
+      "meloni",
+      "italy",
+      "sanctions",
+      "day35"
+    ]
+  },
+  {
+    "id": "social-493",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Oil update: Brent surged to $112.42 (+40.8% from pre-war) per Fortune. Physical dated Brent still at $141.36 — highest since 2008. WTI $111.54. Gas $4.09 (AAA). IEA chief: 'April will be much worse than March.' OPEC+ meets April 5. Trump Hormuz deadline April 6 — 2 days.",
+    "timestamp": "2026-04-03T23:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Fortune, CNBC, AAA confirmed prices.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "gas",
+      "iea",
+      "hormuz",
+      "day35"
+    ]
+  },
+  {
+    "id": "social-494",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender — OSINT Analyst",
+    "text": "FactCheck.org debunks multiple claims from Trump's April 1 primetime address: falsely claimed 45K killed in Iran protests (verified ~7K), falsely claimed nuclear sites 'totally obliterated' (intelligence: damaged/set back), falsely claimed $18T investment (WH site: $10.5T).",
+    "timestamp": "2026-04-04T00:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "FactCheck.org, US News, Philadelphia Inquirer all fact-checked.",
+    "keywords": [
+      "fact-check",
+      "trump",
+      "address",
+      "claims",
+      "day35"
+    ]
+  },
+  {
+    "id": "social-495",
+    "handle": "@Liveuamap",
+    "displayName": "Liveuamap — OSINT Analyst",
+    "text": "Day 35 EVE summary (7 PM PDT): 2nd US plane (A-10) downed; WSO missing; Brent $112.42; gas $4.09; Israeli support 45.5%; EU sanctions+Kallas-Wang Yi; Meloni breaks w/Trump; Trump April 6 Hormuz deadline 2 DAYS. OPEC+ April 5.",
+    "timestamp": "2026-04-04T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from NPR, Fortune, Haaretz, JURIST, Spectator.",
+    "keywords": [
+      "day35-summary",
+      "a-10",
+      "oil",
+      "poll",
+      "eu",
       "hormuz",
       "deadline"
     ]
