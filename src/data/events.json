@@ -21331,5 +21331,343 @@
       "diplomacy",
       "day35"
     ]
+  },
+  {
+    "id": "evt-new-610",
+    "title": "Iranian missile barrage hits central and southern Israel — 15 impact sites, cluster munitions",
+    "description": "Iran fired ballistic missiles at central and southern Israel with 15 reported impact sites across Tel Aviv, Bnei Brak, Petah Tikva, Rosh HaAyin, and Givatayim. Cluster munitions caused widespread damage to vehicles and buildings. Fire at Neot Hovav industrial zone in the Negev. 1 person lightly wounded by shattered glass in Bnei Brak.",
+    "type": "strike",
+    "lat": 32.08,
+    "lng": 34.83,
+    "location": "Central Israel (Tel Aviv metropolitan area)",
+    "timestamp": "2026-04-04T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-04/ty-article/.premium/cars-buildings-catch-fire-across-15-reported-impact-sites-negev-factory-struck/0000019d-55d4-db37-a3bd-5fdeebf90000"
+      },
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-missile-damages-cars-and-homes-in-rosh-haayin-and-petah-tikva-no-injuries-reported/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    },
+    "tags": [
+      "iran",
+      "missile",
+      "cluster-munitions",
+      "tel-aviv",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-611",
+    "title": "Israeli strikes on Beirut southern suburbs — Hezbollah infrastructure targeted",
+    "description": "Israeli military struck Hezbollah infrastructure in Beirut's southern suburbs (Dahiyeh). AFP reported two loud explosions within half an hour with smoke visible. Fresh evacuation warnings issued to residents.",
+    "type": "strike",
+    "lat": 33.85,
+    "lng": 35.50,
+    "location": "Dahiyeh, Beirut, Lebanon",
+    "timestamp": "2026-04-04T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "BSSN News",
+        "url": "https://www.bssnews.net/news/374298"
+      },
+      {
+        "name": "WION",
+        "url": "https://www.wionews.com/world/israel-destroys-bridge-in-east-lebanon-after-army-warning-bombs-hezbollah-infrastructure-in-beirut-1775275765161/amp"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "israel",
+      "beirut",
+      "hezbollah",
+      "airstrike",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-612",
+    "title": "Israel destroys Sohmor-Mashghara bridge in eastern Lebanon — 6th+ Litani crossing cut",
+    "description": "Israel destroyed the bridge linking Sohmor with Mashghara in eastern Lebanon to prevent Hezbollah reinforcements. This is the 6th+ bridge over the Litani River destroyed since the conflict began, further isolating the Bekaa Valley.",
+    "type": "strike",
+    "lat": 33.60,
+    "lng": 35.77,
+    "location": "Sohmor-Mashghara, Eastern Lebanon",
+    "timestamp": "2026-04-04T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/4/3/israel-threatens-to-destroy-more-lebanon-bridges-as-crisis-mounts"
+      },
+      {
+        "name": "BSSN News",
+        "url": "https://www.bssnews.net/international/374306"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "israel",
+      "lebanon",
+      "bridge",
+      "infrastructure",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-613",
+    "title": "Islamic Resistance in Iraq carries out 19 attacks on US bases in single day",
+    "description": "Iran-backed Islamic Resistance in Iraq carried out 19 drone and missile attacks targeting US bases across Iraq in a single day — a significant escalation from previous daily attack rates. Targets included PMF headquarters in al-Qaim and 34th Brigade HQ in Mosul.",
+    "type": "strike",
+    "lat": 33.31,
+    "lng": 44.37,
+    "location": "Multiple US bases, Iraq",
+    "timestamp": "2026-04-04T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "ANI News",
+        "url": "https://aninews.in/news/world/middle-east/iran-allied-islamic-resistance-claims-19-attacks-against-us-bases-in-iraq20260404091418/"
+      },
+      {
+        "name": "GlobalSecurity",
+        "url": "https://www.globalsecurity.org/wmd/library/news/iraq/2026/iraq-260403-presstv01.htm"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "iraq",
+      "militia",
+      "us-bases",
+      "escalation",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-614",
+    "title": "3 UNIFIL Indonesian peacekeepers wounded in blast at El Adeisse, southern Lebanon",
+    "description": "Three Indonesian UNIFIL peacekeepers were wounded in an explosion at the El Adeisse position in southern Lebanon, with two in serious condition. This follows three Indonesian peacekeepers killed in previous weeks.",
+    "type": "strike",
+    "lat": 33.28,
+    "lng": 35.47,
+    "location": "El Adeisse, Southern Lebanon",
+    "timestamp": "2026-04-04T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": [
+      "unifil",
+      "peacekeepers",
+      "lebanon",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-615",
+    "title": "Iran rapidly repairing missile bunkers within hours of strikes — US intelligence",
+    "description": "US intelligence reports Iran is using bulldozers to dig out and repair underground missile bunkers within hours of being struck. Iran deploying decoys to confuse damage assessments. CNN reports Iran retains roughly half its missile launchers and massive drone fleet despite 36 days of strikes.",
+    "type": "movement",
+    "lat": 32.65,
+    "lng": 51.68,
+    "location": "Isfahan Province, Iran",
+    "timestamp": "2026-04-04T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "WION",
+        "url": "https://www.wionews.com/world/iran-rapidly-repairs-underground-missile-bunkers-after-us-israel-strikes-us-intelligence-says-1775254528392"
+      },
+      {
+        "name": "CNN",
+        "url": "https://us.cnn.com/2026/04/04/world/live-news/iran-war-us-trump-oil"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "iran",
+      "intelligence",
+      "bunkers",
+      "decoys",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-616",
+    "title": "Iran Parliament Speaker Ghalibaf signals Bab el-Mandeb threat — potential second maritime blockade",
+    "description": "Iran Parliament Speaker Mohammad Bagher Ghalibaf posted on X asking 'What share of global oil, LNG, wheat, rice, and fertiliser shipments transits the Bab el-Mandeb Strait?' — perceived as signaling Iran could expand maritime blockade beyond Hormuz via Houthi allies.",
+    "type": "naval",
+    "lat": 12.58,
+    "lng": 43.33,
+    "location": "Bab el-Mandeb Strait",
+    "timestamp": "2026-04-04T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Tribune India",
+        "url": "https://www.tribuneindia.com/news/world/irans-parliament-speaker-hints-at-targeting-bab-el-mandeb-strait-suggests-expansion-of-maritime-blockade-beyond-hormuz/"
+      },
+      {
+        "name": "Sunday Guardian",
+        "url": "https://sundayguardianlive.com/world/us-israel-iran-war-day-36-latest-news-update-iran-eyes-bab-el-mandeb-after-strait-of-hormuz-blockade-top-official-signals-threat-to-global-oil-route-amid-escalating-middle-east-tensions-181270/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "iran",
+      "bab-el-mandeb",
+      "maritime",
+      "blockade",
+      "houthis",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-617",
+    "title": "UNSC Hormuz vote delayed to April 5 — Russia, China, France blocking",
+    "description": "The UN Security Council delayed its vote on authorizing force to protect the Strait of Hormuz to April 5 due to Good Friday. Bahrain-drafted resolution scaled back to 'defensive measures' after Russia, China, and France objected to 'all necessary means' language. Faces likely triple veto.",
+    "type": "diplomatic",
+    "lat": 40.75,
+    "lng": -73.97,
+    "location": "United Nations, New York",
+    "timestamp": "2026-04-04T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "France24",
+        "url": "https://www.france24.com/en/live-news/20260403-un-security-council-to-vote-on-authorizing-force-to-protect-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "un",
+      "hormuz",
+      "diplomacy",
+      "veto",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-618",
+    "title": "Pope Leo XIV calls for ceasefire on Good Friday — phones Israeli President Herzog",
+    "description": "Pope Leo XIV called on world leaders to end the Iran war on Good Friday, saying God 'does not listen to the prayers of those who wage war.' He spoke with Israeli President Herzog by phone, urging him to 'reopen all paths of dialogue.'",
+    "type": "diplomatic",
+    "lat": 41.90,
+    "lng": 12.45,
+    "location": "Vatican City",
+    "timestamp": "2026-04-04T00:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/04/03/pope-leo-god-war-trump-peace/"
+      },
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-03/pope-leo-urges-israels-herzog-to-end-iran-war-in-phone-call-vatican-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "pope",
+      "ceasefire",
+      "diplomacy",
+      "vatican",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-619",
+    "title": "Guterres: 'To the US and Israel, it is high time to stop the war'",
+    "description": "UN Secretary-General António Guterres warned the world is 'on the edge of a wider war' with catastrophic global implications. He told the US and Israel it is 'high time to stop the war' and told Iran it 'must stop attacking its neighbours.'",
+    "type": "diplomatic",
+    "lat": 40.75,
+    "lng": -73.97,
+    "location": "United Nations, New York",
+    "timestamp": "2026-04-04T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/04/1167244"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "un",
+      "guterres",
+      "ceasefire",
+      "diplomacy",
+      "day36"
+    ]
   }
 ]

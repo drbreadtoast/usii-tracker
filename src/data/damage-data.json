@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-04T02:04:00Z",
+    "lastUpdated": "2026-04-04T10:45:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 284,
+    "totalSites": 287,
     "confirmed": 218,
     "reported": 9,
     "rumored": 3,
@@ -4615,6 +4615,45 @@
       "description": "IDF destroyed bridges over Litani River. Total destroyed Litani crossings reaches 8, effectively isolating western Bekaa from rest of Lebanon.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/3/israel-threatens-to-destroy-more-lebanon-bridges-as-crisis-mounts"
+    },
+    {
+      "id": "dmg-289",
+      "name": "Bnei Brak / Rosh HaAyin / Petah Tikva (cluster munitions)",
+      "location": "Central Israel",
+      "lat": 32.08,
+      "lng": 34.83,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Iranian cluster munition ballistic missiles hit 15 locations across central Israel. Apartment fire in Rosh HaAyin. Widespread vehicle and building damage. Power outages. 1 lightly wounded.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-04/ty-article/.premium/cars-buildings-catch-fire-across-15-reported-impact-sites-negev-factory-struck/0000019d-55d4-db37-a3bd-5fdeebf90000"
+    },
+    {
+      "id": "dmg-290",
+      "name": "Neot Hovav Industrial Zone",
+      "location": "Negev, Israel",
+      "lat": 31.13,
+      "lng": 35.08,
+      "category": "industrial",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Fire at Neot Hovav industrial zone south of Beersheba from Iranian missile strike. Brought under control. No hazardous leaks reported.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-892021"
+    },
+    {
+      "id": "dmg-291",
+      "name": "Sohmor-Mashghara Bridge",
+      "location": "Eastern Lebanon",
+      "lat": 33.6,
+      "lng": 35.77,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Israel destroyed bridge linking Sohmor-Mashghara in eastern Lebanon. 6th+ Litani crossing cut. Bekaa Valley increasingly isolated.",
+      "source": "BSSN News",
+      "sourceUrl": "https://www.bssnews.net/international/374306"
     }
   ]
 }

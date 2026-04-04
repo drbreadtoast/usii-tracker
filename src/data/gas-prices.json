@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T02:04:00Z",
+  "lastUpdated": "2026-04-04T10:45:00Z",
   "currentAverage": 4.091,
   "preWarAverage": 3.18,
   "changePercent": 28.6,
@@ -286,6 +286,12 @@
       "date": "2026-04-03",
       "price": 4.09,
       "label": "Day 35 afternoon — AAA $4.09/gal (first above $4 since Aug 2022). Diesel $5.43. CA $5.89."
+    },
+    {
+      "date": "2026-04-04",
+      "price": 4.091,
+      "label": "Day 36 AM — $4.091 (AAA Apr 3 latest reading). Iran 15 missile impacts in Israel. 19 Iraqi militia attacks on US bases. Ghalibaf Bab el-Mandeb threat. Brent $109.24 (-2.8% from $112.42). UNSC vote Apr 5. April 6 deadline 2 DAYS.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -382,17 +388,17 @@
         }
       ],
       "total": 4.213,
-      "note": "National average $4.09/gal (AAA April 3) — above $4 since March 31 (first since Aug 2022). Up 28.6% from pre-war $3.18. Brent $112.42/bbl (+40.8%). WTI $111.54 (+47.7%). Diesel $5.49/gal. California: $5.89/gal. Kuwait refinery hit 3rd time. April 6 Hormuz deadline. OPEC+ meeting April 5. Breakdown total ($4.22) slightly above AAA average due to state/regional variation.",
-      "crude": 2.619,
+      "note": "National average $4.09/gal (AAA April 3) — above $4 since March 31 (first since Aug 2022). Up 28.6% from pre-war $3.18. Brent $109.24/bbl (+36.8%). WTI $111.54 (+47.7%). Diesel $5.49/gal. California: $5.89/gal. Iran Ghalibaf Bab el-Mandeb threat. UNSC vote Apr 5. OPEC+ Apr 5. April 6 deadline 2 DAYS. Breakdown total ($4.21) slightly above AAA average due to state/regional variation.",
+      "crude": 2.579,
       "taxes": 0.534,
       "refining": 0.65,
       "distribution": 0.3,
       "regularGasoline": 4.091,
       "changeFromPreWar": "+$0.91",
       "changePercent": "+28.6%",
-      "lastUpdated": "2026-04-03T19:02:00Z",
-      "date": "2026-04-03"
+      "lastUpdated": "2026-04-04T10:45:00Z",
+      "date": "2026-04-04"
     }
   },
-  "context": "AAA national average at $4.09/gallon (April 3 evening), up 28.6% from the $3.18 pre-war baseline. Above $4 since March 31 (first since Aug 2022). California: $5.89/gallon. Oklahoma: $3.27/gallon. Diesel $5.43/gallon. Brent $112.42/bbl (+40.8%). WTI $111.54/bbl (+47.7%). A-10 downed during SAR. Israeli support drops to 45.5%. EU extends sanctions. DOE 10M barrel SPR exchange RFP bids due April 6. OPEC+ April 5. Trump April 6 Hormuz deadline 2 DAYS."
+  "context": "AAA national average at $4.09/gallon (April 3 reading, latest available), up 28.6% from the $3.18 pre-war baseline. Above $4 since March 31 (first since Aug 2022). California: $5.89/gallon. Oklahoma: $3.27/gallon. Diesel $5.49/gallon. Brent $109.24/bbl (+36.8%, down from $112.42 yesterday). WTI $111.54/bbl (+47.7%). Iran Ghalibaf signals Bab el-Mandeb blockade. 19 Iraqi militia attacks on US bases. 15 Iran missile impacts in Israel. UNSC vote Apr 5. OPEC+ Apr 5. Trump April 6 Hormuz deadline 2 DAYS."
 }
