@@ -15,9 +15,9 @@
       "Major Wire Services (AP, Reuters, AFP)"
     ],
     "methodology": "Statements were collected from official government communications, press conferences, verified social media accounts, and credible international news sources. Each statement has been reviewed for accuracy with a fact-check rating. All quotes are sourced from verified public records with clickable source links for independent verification.",
-    "lastUpdated": "2026-04-04T18:00:00Z",
+    "lastUpdated": "2026-04-04T17:58:00Z",
     "disclaimer": "All statements are sourced from official government communications, press conferences, and verified news reports. Quotes may be lightly paraphrased for clarity while preserving the speaker's documented position. Click source links to verify each statement independently. Fact-check ratings reflect editorial assessment based on available evidence.",
-    "totalStatements": 415,
+    "totalStatements": 418,
     "dateRange": {
       "earliest": "2023-01-15",
       "latest": "2026-04-01"
@@ -1093,13 +1093,24 @@
         {
           "id": "trump-new-062",
           "date": "2026-04-04",
-          "text": "Remember when I gave Iran ten days to MAKE A DEAL or OPEN UP THE HORMUZ STRAIT. Time is running out - 48 hours before all Hell will reign down on them.",
-          "context": "Truth Social post as April 6 deadline approaches. Graham confirmed phone call: Trump will use \"overwhelming military force.\"",
+          "text": "Time is running out \u2014 48 hours before all Hell will reign down on them. MAKE A DEAL or OPEN UP THE HORMUZ STRAIT!",
+          "context": "Truth Social post reiterating April 6 deadline for Iran to reopen Hormuz or face strikes on energy infrastructure. 10-day energy strike pause expires April 6, 8 PM ET.",
           "venue": "Truth Social",
-          "factCheck": "verified",
-          "factCheckNote": "Axios, CBS News, RFE/RL confirmed.",
+          "factCheck": "misleading",
+          "factCheckNote": "Trump simultaneously claims talks are 'going very well' while threatening 'all hell.' Previous April 1 address contained 5 false claims per FactCheck.org.",
           "source": "Axios",
           "sourceUrl": "https://www.axios.com/2026/04/04/trump-iran-hell-threat-deadline"
+        },
+        {
+          "id": "trump-new-063",
+          "date": "2026-04-04",
+          "text": "Talks are going very well. We'll see what happens. But they have to open up that strait.",
+          "context": "Remarks to reporters contradicting the 'all hell' ultimatum. Claims progress in indirect negotiations via Pakistan.",
+          "venue": "White House",
+          "factCheck": "unverified",
+          "factCheckNote": "Iran FM Araghchi says 'trust level is at zero' and negotiations are not happening. Iran rejected US ceasefire proposal.",
+          "source": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-04/trump-warns-iran-time-running-out-to-make-a-deal-or-open-hormuz"
         }
       ]
     },
@@ -1352,17 +1363,6 @@
           "factCheckNote": "Iran FM Araghchi confirmed receiving messages from US envoy Witkoff but denied formal negotiations.",
           "source": "Breitbart",
           "sourceUrl": "https://www.breitbart.com/politics/2026/04/01/rubio-we-can-see-the-finish-line-its-not-today-its-not-tomorrow-but-it-is-coming/"
-        },
-        {
-          "id": "rubio-new-017",
-          "date": "2026-04-04",
-          "text": "The administration will not allow our country to become a home for foreign nationals who support anti-American terrorist regimes.",
-          "context": "Revoked green cards of Hamideh Soleimani Afshar (Qasem Soleimani's niece) and daughter; both arrested by ICE.",
-          "venue": "State Department Press Release",
-          "factCheck": "verified",
-          "factCheckNote": "State Department official release, Al Jazeera confirmed.",
-          "source": "State Department",
-          "sourceUrl": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/secretary-rubio-revokes-green-cards-of-foreign-nationals-with-ties-to-iranian-terror-regime/"
         }
       ]
     },
@@ -2225,6 +2225,17 @@
           "factCheckNote": "Times of Israel confirmed statement. 70% steel capacity claim unverified independently \u2014 needs satellite imagery.",
           "source": "Times of Israel",
           "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/netanyahu-we-will-keep-hitting-iran-in-full-coordination-with-trump/"
+        },
+        {
+          "id": "netanyahu-050",
+          "date": "2026-04-04",
+          "text": "In full coordination with President Trump, we will continue to strike Iran. This regime is weaker than ever \u2014 Israel is stronger than ever. We have destroyed 70% of Iran's steel production capacity.",
+          "context": "Statement at IDF Kirya HQ after 70+ IDF strikes across Iran. Also said: 'Together with our American friends, we continue to crush the terror regime.'",
+          "venue": "IDF Kirya Headquarters, Tel Aviv",
+          "factCheck": "unverified",
+          "factCheckNote": "The 70% steel destruction claim has not been independently verified. Netanyahu's 'weaker than ever' framing contradicts US intel showing Iran retains 50% of missile launchers.",
+          "source": "Times of Israel",
+          "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/netanyahu-we-will-keep-hitting-iran-in-full-coordination-with-trump/"
         }
       ]
     },
@@ -2899,6 +2910,17 @@
           "venue": "United Nations",
           "factCheck": "verified",
           "factCheckNote": "UN News published full text.",
+          "source": "UN News",
+          "sourceUrl": "https://news.un.org/en/story/2026/04/1167244"
+        },
+        {
+          "id": "guterres-024",
+          "date": "2026-04-04",
+          "text": "When the Strait of Hormuz is strangled, the world's poorest and most vulnerable cannot breathe. Conflicts do not end on their own. They end when leaders choose dialogue over destruction.",
+          "context": "Continuing warning about catastrophic global implications of Iran war. Addressed both US/Israel and Iran.",
+          "venue": "United Nations, New York",
+          "factCheck": "confirmed",
+          "factCheckNote": "Hormuz blockade has disrupted WFP and humanitarian aid deliveries. FAO confirms food price increases.",
           "source": "UN News",
           "sourceUrl": "https://news.un.org/en/story/2026/04/1167244"
         }
@@ -4031,13 +4053,24 @@
         {
           "id": "araghchi-058",
           "date": "2026-04-04",
-          "text": "We are deeply grateful to Pakistan for mediation efforts. Iran never refused to go to Islamabad. Bushehr has been bombed four times since February 28 \u2014 the West applies double standards compared to Zaporizhzhia.",
-          "context": "Multiple interviews warning of catastrophic fallout from nuclear plant strikes.",
-          "venue": "Press conferences",
-          "factCheck": "verified",
-          "factCheckNote": "Express Tribune, Tribune India confirmed.",
-          "source": "Express Tribune",
-          "sourceUrl": "https://tribune.com.pk/story/2601043/deeply-grateful-to-pakistan-for-mediation-efforts-never-refused-to-go-to-islamabad-iranian-fm"
+          "text": "Radioactive fallout will end life in GCC capitals, not Tehran. We will not accept a ceasefire but rather seek a complete end to the war, not in Iran alone but in the entire region.",
+          "context": "Multiple statements on April 4: warning about Bushehr nuclear plant risks to Gulf states, rejecting ceasefire in favor of complete war end, and stating trust with US is 'at zero.'",
+          "venue": "Tehran",
+          "factCheck": "misleading",
+          "factCheckNote": "Bushehr radiation risk to GCC capitals is overstated per nuclear experts \u2014 prevailing winds blow east, not west toward Gulf states. However, any nuclear facility damage carries genuine risk.",
+          "source": "Press TV",
+          "sourceUrl": "https://www.presstv.ir/Detail/2026/04/04/766314/Iran-Araghchi-Bushehr-plant-attack-warning"
+        },
+        {
+          "id": "araghchi-059",
+          "date": "2026-04-04",
+          "text": "We are deeply grateful to Pakistan for sustained mediation efforts. Western media claims that Iran refused Pakistan-hosted talks are fabrications. We are completely ready to confront any sort of ground attack.",
+          "context": "Praising Pakistan's mediation role while dismissing claims Iran refused talks. Also warned against US ground invasion.",
+          "venue": "Tehran",
+          "factCheck": "disputed",
+          "factCheckNote": "Iran FM says trust is 'at zero' but credits Pakistan mediation. Multiple reports confirm Iran DID reject a specific 48-hour ceasefire via Fars agency.",
+          "source": "Pakistan Today",
+          "sourceUrl": "https://www.pakistantoday.com.pk/2026/04/04/iran-praises-pakistans-mediation-as-backchannel-talks-with-us-edge-toward-breakthrough"
         }
       ]
     },

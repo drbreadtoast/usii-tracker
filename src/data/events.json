@@ -21672,19 +21672,54 @@
   },
   {
     "id": "evt-new-620",
-    "title": "US-Israeli strikes hit Mahshahr Petrochemical Complex — Iran's 2nd largest",
-    "description": "US-Israeli airstrikes hit the Mahshahr Special Petrochemical Zone in Khuzestan Province, Iran. Facilities struck include Fajr 1 and 2, Rejal, Amir Kabir, Abou Ali, and Bandar-e Imam Khomeini plants. IDF described it as Iran's second-largest petrochemical complex.",
+    "title": "Projectile strikes Bushehr Nuclear Power Plant — 1 security guard killed (4th attack)",
+    "description": "A projectile hit the perimeter of Iran's Bushehr Nuclear Power Plant, killing one security guard and damaging an auxiliary building. IAEA confirmed no increase in radiation levels. This is the 4th attack on Bushehr since Feb 28. IAEA Director Grossi expressed 'deep concern,' saying nuclear sites 'must never be attacked.'",
+    "type": "strike",
+    "lat": 28.83,
+    "lng": 50.89,
+    "location": "Bushehr Nuclear Power Plant, Iran",
+    "timestamp": "2026-04-04T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/4/4/iaea-says-projectile-hits-near-irans-bushehr-nuclear-plant-killing-one"
+      },
+      {
+        "name": "NucNet",
+        "url": "https://www.nucnet.org/news/projectile-has-hit-premises-of-bushehr-nuclear-power-station-in-iran-iaea-says-3-4-2026"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": [
+      "bushehr",
+      "nuclear",
+      "iaea",
+      "escalation",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-621",
+    "title": "US-Israeli strikes hit Mahshahr Special Petrochemical Zone — 6 plants struck",
+    "description": "US-Israeli strikes hit Iran's Mahshahr Special Petrochemical Zone in Khuzestan Province at ~10:47 AM local time. Fajr 1 and 2, Rejal, Amir Kabir petrochemical plants directly hit. Abou Ali and Bandar-e Imam Khomeini facilities also struck. 5 injuries reported. IDF described it as Iran's second-largest petrochemical complex.",
     "type": "strike",
     "lat": 30.56,
     "lng": 49.19,
-    "location": "Mahshahr, Khuzestan Province, Iran",
+    "location": "Mahshahr Special Petrochemical Zone, Khuzestan, Iran",
     "timestamp": "2026-04-04T07:17:00Z",
     "isMajor": true,
     "verificationStatus": "confirmed",
-    "attributedTo": "multiple",
+    "attributedTo": "us",
     "sources": [
       {
-        "name": "Tasnim News Agency",
+        "name": "Tasnim News",
         "url": "https://www.tasnimnews.ir/en/news/2026/04/04/3556519/us-israeli-strikes-hit-petrochemical-plants-in-southern-iran"
       },
       {
@@ -21697,76 +21732,94 @@
       "killed": 0,
       "injured": 5
     },
-    "tags": ["strike", "iran", "petrochemical", "infrastructure", "day36"]
-  },
-  {
-    "id": "evt-new-621",
-    "title": "Projectile strikes Bushehr Nuclear Plant perimeter — 1 killed",
-    "description": "A projectile struck the perimeter of Iran's Bushehr Nuclear Power Plant, damaging an auxiliary building. One security guard killed. IAEA confirmed 'no increase in radiation levels.' Fourth attack on Bushehr since Feb 28. Rosatom evacuating 198 Russian workers.",
-    "type": "strike",
-    "lat": 28.83,
-    "lng": 50.89,
-    "location": "Bushehr Nuclear Power Plant, Iran",
-    "timestamp": "2026-04-04T10:00:00Z",
-    "isMajor": true,
-    "verificationStatus": "confirmed",
-    "attributedTo": "unknown",
-    "sources": [
-      {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/4/4/iaea-says-projectile-hits-near-irans-bushehr-nuclear-plant-killing-one"
-      },
-      {
-        "name": "South China Morning Post",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3349039/strike-near-irans-bushehr-nuclear-plant-kills-1-says-iaea"
-      }
-    ],
-    "socialRefs": [],
-    "casualties": {
-      "killed": 1,
-      "injured": 0
-    },
-    "tags": ["nuclear", "bushehr", "iaea", "strike", "day36"]
+    "tags": [
+      "petrochemical",
+      "mahshahr",
+      "infrastructure",
+      "iran",
+      "day36"
+    ]
   },
   {
     "id": "evt-new-622",
-    "title": "Iranian cluster missile fragments land near IDF HQ Kirya in Tel Aviv",
-    "description": "Iran launched at least 7 missile salvos including cluster munitions targeting central Israel. Fragments hit parking lot near Kirya military base (IDF HQ). Extensive damage in Bnei Brak, Ramat Gan, Givatayim, Petah Tikva, Rosh Ha'ayin. Building partially collapsed in Ramat Gan. Power outage in Rosh Ha'ayin.",
+    "title": "IDF carries out 70+ strikes across Iran — missile sites, UAV storage, air defense",
+    "description": "The IDF carried out more than 70 strikes in Iran over the past day targeting ballistic missile launch sites, UAV storage facilities, air defense systems, and weapons R&D facilities, including in Tehran. Netanyahu claimed 70% of Iran's steel production capacity has been destroyed.",
     "type": "strike",
-    "lat": 32.07,
-    "lng": 34.79,
-    "location": "Tel Aviv / Central Israel",
-    "timestamp": "2026-04-04T09:00:00Z",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Multiple locations across Iran including Tehran",
+    "timestamp": "2026-04-04T12:00:00Z",
     "isMajor": true,
     "verificationStatus": "confirmed",
-    "attributedTo": "iran",
+    "attributedTo": "israel",
     "sources": [
       {
-        "name": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/defense-news/article-892034"
+        "name": "Tribune India",
+        "url": "https://www.tribuneindia.com/news/ballistic-missiles/idf-carries-out-over-70-strikes-across-iran-targeting-ballistic-missile-sites-uavs"
       },
       {
-        "name": "Haaretz",
-        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-04/ty-article/.premium/four-wounded-after-missile-explodes-over-central-israel-rescue-services-say/0000019d-581a-d759-ab9d-799b1ebb0000"
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-892008"
       }
     ],
     "socialRefs": [],
     "casualties": {
       "killed": 0,
-      "injured": 4
+      "injured": 0
     },
-    "tags": ["iran", "missile", "cluster-munitions", "tel-aviv", "kirya", "day36"]
+    "tags": [
+      "idf",
+      "airstrikes",
+      "iran",
+      "missile-sites",
+      "day36"
+    ]
   },
   {
     "id": "evt-new-623",
-    "title": "Israeli strikes damage hospital in Tyre, Lebanon — 14 killed across south",
-    "description": "IDF struck Beirut southern suburbs and Tyre at dawn. 7 attacks on Dahiyeh. 11-story building NE of Tyre destroyed. Lebanese Italian Hospital damaged but operational. 14 killed across southern Lebanon including 5 at Maarakeh-Tyre junction, 2 in Ain Baal, 2 by drone on Qadmous road.",
+    "title": "IDF Navy strikes Ramada Hotel in Beirut — 5 IRGC Quds Force commanders killed",
+    "description": "IDF Navy struck the Ramada Hotel in the Raouche district of Beirut, killing 5 senior IRGC Quds Force commanders: Majid Hosseini, Ali Reza Biazar, Ahmad Rasouli, Hossein Ahmadlou, and Abu Mohammad Ali.",
+    "type": "strike",
+    "lat": 33.89,
+    "lng": 35.47,
+    "location": "Ramada Hotel, Raouche, Beirut, Lebanon",
+    "timestamp": "2026-04-04T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel",
+        "url": "https://www.timesofisrael.com/idf-says-it-hit-key-commanders-of-irgcs-quds-force-in-beirut-4-reportedly-killed/"
+      },
+      {
+        "name": "YNet",
+        "url": "https://www.ynetnews.com/article/hku3pr5twl"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    },
+    "tags": [
+      "irgc",
+      "targeted-killing",
+      "beirut",
+      "lebanon",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-624",
+    "title": "Israeli strikes damage Lebanese Italian Hospital in Tyre — 11 injured",
+    "description": "Overnight Israeli strikes destroyed two buildings near the Lebanese Italian Hospital in Tyre, southern Lebanon. Hospital windows shattered, suspended ceilings collapsed. At least 11 people injured.",
     "type": "strike",
     "lat": 33.27,
     "lng": 35.20,
-    "location": "Tyre, Lebanon",
-    "timestamp": "2026-04-04T03:00:00Z",
-    "isMajor": true,
+    "location": "Lebanese Italian Hospital, Tyre, Lebanon",
+    "timestamp": "2026-04-04T06:00:00Z",
+    "isMajor": false,
     "verificationStatus": "confirmed",
     "attributedTo": "israel",
     "sources": [
@@ -21775,25 +21828,98 @@
         "url": "https://www.aljazeera.com/news/2026/4/4/israeli-strikes-damage-hospital-in-lebanons-tyre"
       },
       {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/live-news/20260404-israel-issues-evacuation-warnings-for-tyre-in-south-lebanon"
+        "name": "Al-Monitor",
+        "url": "https://www.al-monitor.com/originals/2026/04/israel-strikes-tyre-south-lebanon-after-evacuation-warnings"
       }
     ],
     "socialRefs": [],
     "casualties": {
-      "killed": 14,
-      "injured": 25
+      "killed": 0,
+      "injured": 11
     },
-    "tags": ["lebanon", "tyre", "hospital", "airstrike", "hezbollah", "day36"]
+    "tags": [
+      "tyre",
+      "hospital",
+      "lebanon",
+      "humanitarian",
+      "day36"
+    ]
   },
   {
-    "id": "evt-new-624",
-    "title": "Trump: '48 hours before all Hell will reign down' — Hormuz ultimatum",
-    "description": "Trump posted on Truth Social: 'Time is running out - 48 hours before all Hell will reign down on them.' Deadline aligns with April 6 expiry of 10-day pause on strikes against Iranian energy sites. Senator Graham confirmed phone call, saying Trump will use 'overwhelming military force.'",
+    "id": "evt-new-625",
+    "title": "Hezbollah recaptures northern Khiam and re-enters Qantara — 48 IDF soldiers wounded",
+    "description": "Hezbollah launched ground counterattacks in southern Lebanon, recapturing northern Khiam and re-entering Qantara with clashes in the town center. 48 IDF soldiers wounded in clashes over the past day. At least 40 Hezbollah fighters killed during IDF operations. IDF Division 162 reinforcing two other divisions to expand 'buffer zone.'",
+    "type": "movement",
+    "lat": 33.22,
+    "lng": 35.54,
+    "location": "Khiam and Qantara, southern Lebanon",
+    "timestamp": "2026-04-04T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/article-891935"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 40,
+      "injured": 48,
+      "note": "40 Hezbollah fighters killed, 48 IDF soldiers wounded"
+    },
+    "tags": [
+      "hezbollah",
+      "ground-combat",
+      "lebanon",
+      "counterattack",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-626",
+    "title": "Oracle HQ in Dubai hit by Iranian drone/debris — IRGC claims targeting data center",
+    "description": "Iranian drone or debris from aerial interception damaged Oracle headquarters in Dubai Internet City. IRGC claimed it targeted Oracle's data center; UAE said it was debris from intercepted projectile. No injuries reported.",
+    "type": "strike",
+    "lat": 25.10,
+    "lng": 55.16,
+    "location": "Oracle HQ, Dubai Internet City, UAE",
+    "timestamp": "2026-04-04T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com/iran-says-it-hit-oracle-facilities-in-uae-2000741785"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "oracle",
+      "dubai",
+      "uae",
+      "tech-targeting",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-627",
+    "title": "Trump issues 48-hour ultimatum to Iran — 'all Hell will reign down' by April 6",
+    "description": "President Trump warned Iran has 48 hours (deadline: April 6, 8 PM ET) to reopen the Strait of Hormuz or 'make a deal,' or 'all hell will rain down.' He threatened to target Iran's energy infrastructure. The 10-day pause on strikes against Iranian energy sites ends April 6. Simultaneously said talks are 'going very well.'",
     "type": "diplomatic",
-    "lat": 26.69,
-    "lng": -80.04,
-    "location": "Mar-a-Lago, Florida",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, D.C.",
     "timestamp": "2026-04-04T14:00:00Z",
     "isMajor": true,
     "verificationStatus": "confirmed",
@@ -21804,66 +21930,8 @@
         "url": "https://www.axios.com/2026/04/04/trump-iran-hell-threat-deadline"
       },
       {
-        "name": "CBS News",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-warns-more-coming-oil-gas-strait-hormuz/"
-      }
-    ],
-    "socialRefs": [],
-    "casualties": {
-      "killed": 0,
-      "injured": 0
-    },
-    "tags": ["trump", "ultimatum", "hormuz", "diplomatic", "day36"]
-  },
-  {
-    "id": "evt-new-625",
-    "title": "Iran rejects US 48-hour ceasefire proposal — mediation 'at dead end'",
-    "description": "Iran rejected a US proposal for a 48-hour ceasefire delivered through a 'friendly country,' per Fars news agency. Pakistan-led mediation has reached 'a dead end.' Turkey and Egypt seeking alternative venues (Doha, Istanbul).",
-    "type": "diplomatic",
-    "lat": 35.69,
-    "lng": 51.39,
-    "location": "Tehran, Iran",
-    "timestamp": "2026-04-04T12:00:00Z",
-    "isMajor": true,
-    "verificationStatus": "confirmed",
-    "attributedTo": "iran",
-    "sources": [
-      {
-        "name": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/iran-news/article-892013"
-      },
-      {
-        "name": "Xinhua",
-        "url": "https://english.news.cn/20260404/d1f4f546fa774ff6a00c67914e493beb/c.html"
-      }
-    ],
-    "socialRefs": [],
-    "casualties": {
-      "killed": 0,
-      "injured": 0
-    },
-    "tags": ["iran", "ceasefire", "diplomacy", "mediation", "day36"]
-  },
-  {
-    "id": "evt-new-626",
-    "title": "Rubio revokes green card of Soleimani's niece — ICE arrests",
-    "description": "Secretary of State Rubio revoked green cards of Hamideh Soleimani Afshar (niece of Qasem Soleimani) and her daughter; both arrested by ICE. State Department: 'will not allow our country to become a home for foreign nationals who support anti-American terrorist regimes.'",
-    "type": "diplomatic",
-    "lat": 38.89,
-    "lng": -77.05,
-    "location": "Washington, D.C.",
-    "timestamp": "2026-04-04T15:00:00Z",
-    "isMajor": false,
-    "verificationStatus": "confirmed",
-    "attributedTo": "us",
-    "sources": [
-      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/4/4/top-diplomat-marco-rubio-strips-qassem-soleimanis-niece-of-us-residency"
-      },
-      {
-        "name": "State Department",
-        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/secretary-rubio-revokes-green-cards-of-foreign-nationals-with-ties-to-iranian-terror-regime/"
+        "url": "https://www.aljazeera.com/news/2026/4/4/trump-says-iran-has-48-hours-to-make-deal-as-search-for-us-pilot-continues"
       }
     ],
     "socialRefs": [],
@@ -21871,18 +21939,24 @@
       "killed": 0,
       "injured": 0
     },
-    "tags": ["rubio", "soleimani", "ice", "domestic", "day36"]
+    "tags": [
+      "trump",
+      "ultimatum",
+      "hormuz",
+      "escalation",
+      "day36"
+    ]
   },
   {
-    "id": "evt-new-627",
-    "title": "Iran allows 'essential goods' vessels through Hormuz — oil tankers still blocked",
-    "description": "Iran granted conditional clearance for vessels carrying essential goods and humanitarian aid to pass through Strait of Hormuz to Iranian ports. Oil/gas tankers and vessels from 'enemy' nations remain blocked.",
+    "id": "evt-new-628",
+    "title": "Iran opens Hormuz for 'essential goods' passage — oil blockade remains",
+    "description": "Iran approved passage of ships carrying essential goods and humanitarian supplies through the Strait of Hormuz to Iranian ports. Authorization came via letter from Deputy Agriculture Minister Hooman Fathi. Limited opening for Iranian imports of food/humanitarian goods only; blockade on oil/gas tankers and vessels from 'hostile nations' remains in place.",
     "type": "naval",
     "lat": 26.56,
     "lng": 56.25,
     "location": "Strait of Hormuz",
-    "timestamp": "2026-04-04T11:00:00Z",
-    "isMajor": false,
+    "timestamp": "2026-04-04T13:00:00Z",
+    "isMajor": true,
     "verificationStatus": "confirmed",
     "attributedTo": "iran",
     "sources": [
@@ -21900,28 +21974,30 @@
       "killed": 0,
       "injured": 0
     },
-    "tags": ["hormuz", "shipping", "humanitarian", "iran", "day36"]
+    "tags": [
+      "hormuz",
+      "blockade",
+      "humanitarian",
+      "shipping",
+      "day36"
+    ]
   },
   {
-    "id": "evt-new-628",
-    "title": "Araghchi warns of 'catastrophic fallout' from Bushehr strikes — thanks Pakistan",
-    "description": "Iran FM Araghchi warned of 'catastrophic fallout' from strikes near Bushehr, noting it has been 'bombed four times' since Feb 28. Said Iran is 'deeply grateful to Pakistan' for mediation. Accused West of 'double standards' on nuclear safety.",
+    "id": "evt-new-629",
+    "title": "Araghchi warns Bushehr strike risks 'radioactive fallout on GCC capitals'",
+    "description": "Iran's FM Araghchi warned that attacks on Bushehr Nuclear Plant could cause 'radioactive fallout that will end life in GCC capitals, not Tehran.' Also stated Iran 'will not accept a ceasefire but rather seek a complete end to the war' and that trust with US is 'at zero.'",
     "type": "diplomatic",
     "lat": 35.69,
     "lng": 51.39,
     "location": "Tehran, Iran",
-    "timestamp": "2026-04-04T13:00:00Z",
-    "isMajor": false,
+    "timestamp": "2026-04-04T12:00:00Z",
+    "isMajor": true,
     "verificationStatus": "confirmed",
     "attributedTo": "iran",
     "sources": [
       {
-        "name": "Express Tribune",
-        "url": "https://tribune.com.pk/story/2601043/deeply-grateful-to-pakistan-for-mediation-efforts-never-refused-to-go-to-islamabad-iranian-fm"
-      },
-      {
-        "name": "Tribune India",
-        "url": "https://www.tribuneindia.com/news/araghchi/iran-fm-araghchi-accuses-west-of-hypocrisy-as-bushehr-nuke-plant-is-targeted-again"
+        "name": "Press TV",
+        "url": "https://www.presstv.ir/Detail/2026/04/04/766314/Iran-Araghchi-Bushehr-plant-attack-warning"
       }
     ],
     "socialRefs": [],
@@ -21929,6 +22005,78 @@
       "killed": 0,
       "injured": 0
     },
-    "tags": ["araghchi", "bushehr", "nuclear", "diplomacy", "pakistan", "day36"]
+    "tags": [
+      "araghchi",
+      "bushehr",
+      "nuclear",
+      "diplomacy",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-630",
+    "title": "5 EU nations demand windfall profit tax on energy companies amid war",
+    "description": "Finance ministers of Germany, Italy, Spain, Portugal, and Austria sent joint letter to EU climate commissioner demanding EU-wide windfall profit tax on energy companies. European gas prices have surged 70%+ since war began. Modeled on 2022 'solidarity contribution' during Ukraine crisis.",
+    "type": "diplomatic",
+    "lat": 50.85,
+    "lng": 4.35,
+    "location": "Brussels, Belgium",
+    "timestamp": "2026-04-04T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/my-europe/2026/04/04/letter-to-eu-from-five-member-states-tax-extra-profits-of-energy-companies"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-04/five-eu-states-call-for-energy-windfall-profit-tax-reuters-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "eu",
+      "windfall-tax",
+      "energy",
+      "economic-impact",
+      "day36"
+    ]
+  },
+  {
+    "id": "evt-new-631",
+    "title": "Iran rejected US 48-hour ceasefire proposal — 'response given on battlefield'",
+    "description": "Iran rejected a US proposal for a 48-hour ceasefire, according to Iran's semi-official Fars news agency. The response was given 'not in writing, but through the continuation of attacks on the battlefield.' Indirect negotiations between VP Vance and Iran's Parliament Speaker Ghalibaf, mediated by Pakistan's FM Asim Munir, have not produced agreement.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-04T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "US News",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-03/tehran-rejected-48-hour-ceasefire-proposal-from-us-iranian-media-citing-source-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "ceasefire",
+      "rejection",
+      "diplomacy",
+      "negotiations",
+      "day36"
+    ]
   }
 ]
