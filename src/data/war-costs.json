@@ -35,35 +35,35 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-03T19:02:00Z",
+    "lastUpdated": "2026-04-05T10:32:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 35,
+    "daysOfConflict": 37,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 34
+    "conflictDay": 37
   },
   "countryCosts": {
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
       "directMilitaryCosts": {
-        "total": 36000000000,
+        "total": 37800000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
             "amount": 12800000000,
-            "description": "Tomahawk cruise missiles (900+ used at $2M each = $1.8B — 9× annual procurement rate, approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $200B+ supplemental requested for replenishment. 900+ Tomahawks represents ~23-29% of Navy's estimated active inventory. Day 33: Trump vowed to hit Iran 'extremely hard' if Hormuz not reopened by April 6.",
+            "description": "Tomahawk cruise missiles (900+ used at $2M each = $1.8B — 9× annual procurement rate, approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $200B+ supplemental requested for replenishment. 900+ Tomahawks represents ~23-29% of Navy's estimated active inventory. Day 37: Trump vowed to hit Iran 'extremely hard' if Hormuz not reopened by April 6.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
             "amount": 8200000000,
-            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU (2,500 Marines) departed San Diego March 20, destroyer/submarine operations, naval aviation sorties. 3 CSGs at $7M/day each = $21M/day combined. France deployed Charles de Gaulle + 10 warships. Day 33: sustained Hormuz patrol operations.",
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU (2,500 Marines) departed San Diego March 20, destroyer/submarine operations, naval aviation sorties. 3 CSGs at $7M/day each = $21M/day combined. France deployed Charles de Gaulle + 10 warships. Day 37: sustained Hormuz patrol operations.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
           "airOperations": {
             "amount": 7800000000,
-            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15. Day 33: continued intensive air operations over Iran.",
+            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15. Day 37: continued intensive air operations over Iran.",
             "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
@@ -74,13 +74,13 @@
             "sourceUrl": "https://prhome.defense.gov/"
           },
           "logistics": {
-            "amount": 4300000000,
-            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Includes Day 23-33 operational continuity costs and increased fuel costs from elevated oil prices.",
+            "amount": 6100000000,
+            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Includes Day 37 operational continuity costs, Isfahan rescue op logistics, and increased fuel costs from elevated oil prices.",
             "source": "USTRANSCOM / Defense Logistics Agency",
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$36.0B",
+        "totalFormatted": "$37.8B",
         "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon now requesting $200B+ supplemental (WaPo March 18). 250+ groups oppose additional funding. Penn Wharton: $40B-$95B total direct costs.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
@@ -118,9 +118,9 @@
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
       "totalEstimate": "~$36B direct military + ~$38B indirect through Day 33",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
-      "totalCost": 36000000000,
-      "totalFormatted": "~$74B (direct + indirect, Day 33)",
-      "total": 73550000000,
+      "totalCost": 37800000000,
+      "totalFormatted": "~$76B (direct + indirect, Day 37)",
+      "total": 75550000000,
       "lastUpdated": "2026-04-03T06:12:00Z",
       "note": "Day 33 night. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26; estimated ~$36B by Day 33. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. Trump prime-time Oval Office address vowed to hit Iran 'extremely hard' — April 6 Hormuz deadline. USS Tripoli (3,500 Marines) confirmed operational. US Rangers and Navy SEALs deployed. Daily burn rate settling to $800M-$1B/day (CSIS/CAP). Total US troops: 57,000+ in theater. Penn Wharton projects $40B-$95B direct US costs, up to $210B total economic impact.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress."
@@ -827,23 +827,23 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 49380000000,
+    "allCountriesDirectMilitary": 51180000000,
     "allCountriesIndirectCosts": 109440000000,
-    "combinedTotalCosts": 158820000000,
+    "combinedTotalCosts": 160620000000,
     "globalEconomicImpact": 870000000000,
     "description": "Combined direct military + indirect economic costs through Day 37.",
-    "lastCalculated": "2026-04-05T03:23:00Z",
+    "lastCalculated": "2026-04-05T10:32:00Z",
     "allCountriesIndirect": 109440000000,
-    "combinedTotalFormatted": "$158.82B",
-    "lastUpdated": "2026-04-05T03:23:00Z",
-    "directCosts": 49380000000,
+    "combinedTotalFormatted": "$160.62B",
+    "lastUpdated": "2026-04-05T10:32:00Z",
+    "directCosts": 51180000000,
     "indirectCosts": 109440000000,
-    "combinedCosts": 158820000000,
-    "combinedCost": 158820000000
+    "combinedCosts": 160620000000,
+    "combinedCost": 160620000000
   },
   "daysOfConflict": 37,
-  "lastUpdated": "2026-04-05T03:23:00Z",
+  "lastUpdated": "2026-04-05T10:32:00Z",
   "dailyBurnRate": 1910000000,
-  "totalCost": 49380000000,
-  "totalFormatted": "$49.38B (direct military, all countries, Day 37)"
+  "totalCost": 51180000000,
+  "totalFormatted": "$51.18B (direct military, all countries, Day 37)"
 }

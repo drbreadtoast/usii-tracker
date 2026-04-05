@@ -22406,5 +22406,150 @@
       "injured": 0
     },
     "tags": ["diplomacy", "ultimatum", "hormuz", "ceasefire", "day37"]
+  },
+  {
+    "id": "evt-new-643",
+    "title": "F-15E WSO rescued via commando raid deep inside Iran near Isfahan",
+    "description": "US special forces rescued the F-15E weapons systems officer who had been evading capture in mountainous terrain near Isfahan for over 24 hours after ejecting April 3. CIA ran a deception campaign spreading false information inside Iran that the airman had already been found, buying time. US set up a makeshift airbase inside Iran for the operation, then destroyed two C-130 Hercules transport planes at the site to prevent capture. Iran reports 5 killed during the rescue firefight.",
+    "type": "movement",
+    "lat": 32.65,
+    "lng": 51.68,
+    "location": "Isfahan Province, Iran",
+    "timestamp": "2026-04-05T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — US forces rescue missing F-15 crew member",
+        "url": "https://www.cnn.com/2026/04/05/politics/missing-us-crew-member-iran-rescued-intl-hnk"
+      },
+      {
+        "name": "Axios — Iran F-15 crew member rescued",
+        "url": "https://www.axios.com/2026/04/05/iran-f15-crew-member-rescued"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/iran/second-airman-f-15e-was-shot-iran-rescued-safely-us-officials-say-rcna266688"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    },
+    "tags": ["rescue", "f-15e", "isfahan", "commando", "cia", "day37"]
+  },
+  {
+    "id": "evt-new-644",
+    "title": "Iran claims destruction of US C-130 and 2 Black Hawks during rescue op",
+    "description": "IRGC says it destroyed a US C-130 support aircraft in south Isfahan province and two Black Hawk helicopters during the rescue operation. US confirms one Black Hawk was struck by Iranian fire but managed to exit airspace. US acknowledged destroying two of its own stranded C-130s at the makeshift airbase to prevent capture, which may account for Iran's claims.",
+    "type": "movement",
+    "lat": 32.50,
+    "lng": 51.50,
+    "location": "Isfahan Province, Iran",
+    "timestamp": "2026-04-05T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Anadolu Agency — Iran claims C-130 shot down",
+        "url": "https://www.aa.com.tr/en/middle-east/iran-claims-it-shot-down-us-c-130-support-aircraft-in-isfahan/3892326"
+      },
+      {
+        "name": "Benzinga",
+        "url": "https://www.benzinga.com/news/politics/26/04/51650466/enemy-aircraft-were-destroyed-says-iran-claims-it-destroyed-us-c-130-black-hawks-during-pilot-rescue-mission"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran-claims", "c-130", "black-hawk", "rescue-op", "day37"]
+  },
+  {
+    "id": "evt-new-645",
+    "title": "IDF conducts 272 strikes across 14 Iranian provinces — 184 casualties",
+    "description": "IDF carried out 272 strikes across 14 Iranian provinces on April 4-5, causing 184 casualties. Most strikes concentrated in Tehran, followed by Khuzestan and Isfahan. Targets included Beheshti University medical research institute (almost destroyed) and petrochemical infrastructure. Over 30 Iranian universities have been targeted since the war began.",
+    "type": "strike",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Multiple provinces, Iran",
+    "timestamp": "2026-04-05T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Haaretz — IDF strikes",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-05/ty-article-live/israeli-military-strikes-petrochemical-complex-in-iran-idf-says/0000019d-5b74-d759-ab9d-7bfd41ea0000"
+      },
+      {
+        "name": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-892034"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 184,
+      "injured": 0
+    },
+    "tags": ["idf", "strikes", "272-strikes", "14-provinces", "university", "day37"]
+  },
+  {
+    "id": "evt-new-646",
+    "title": "Tel Aviv anti-war protests violently dispersed — 17 arrested",
+    "description": "Approximately 1,000 protesters gathered at Tel Aviv's Habima Square for an anti-war rally. Police violently dispersed the crowd after exceeding a court-imposed 600-person cap. 17 arrested. A missile alert sounded during the dispersal, forcing protesters into shelters.",
+    "type": "protest",
+    "lat": 32.07,
+    "lng": 34.78,
+    "location": "Tel Aviv, Israel",
+    "timestamp": "2026-04-04T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Police disperse protesters",
+        "url": "https://www.timesofisrael.com/cops-violently-disperse-protesters-at-tel-aviv-anti-war-rally-after-court-raised-attendance-cap/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["protest", "anti-war", "tel-aviv", "arrests", "day37"]
+  },
+  {
+    "id": "evt-new-647",
+    "title": "Kuwait power and water plants hit by Iranian drone attacks",
+    "description": "Iranian drone attacks on Kuwait damaged two power and water desalination plants and sparked a fire at the Shuwaikh oil sector complex. Kuwait Petroleum Corp headquarters caught fire after drone strike. No injuries reported. Bahrain oil storage tank also hit by drone attacks.",
+    "type": "strike",
+    "lat": 29.35,
+    "lng": 47.98,
+    "location": "Kuwait City, Kuwait",
+    "timestamp": "2026-04-05T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue"
+      },
+      {
+        "name": "The National",
+        "url": "https://www.thenationalnews.com/business/energy/2026/04/05/kuwait-petroleum-headquarters-and-power-plants-hit-by-drone-attacks/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["kuwait", "drone", "power", "water", "infrastructure", "day37"]
   }
 ]

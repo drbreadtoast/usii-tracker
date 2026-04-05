@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-05T03:23:00Z",
+    "lastUpdated": "2026-04-05T10:32:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 300,
-    "confirmed": 231,
+    "totalSites": 301,
+    "confirmed": 232,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4810,6 +4810,32 @@
       "description": "Drone attack caused fire at Kuwait Petroleum Corp/Ministry of Oil building. Evacuated, fire contained. No injuries.",
       "source": "GMA News",
       "sourceUrl": "https://www.gmanetwork.com/news/topstories/world/982617/fire-erupts-in-kuwait-s-shuwaikh-oil-sector-complex-after-drone-attack-report/story/"
+    },
+    {
+      "id": "dmg-304",
+      "name": "Beheshti University Medical Research Institute",
+      "location": "Tehran, Iran",
+      "lat": 35.80,
+      "lng": 51.40,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-05",
+      "description": "IDF strikes nearly destroyed Beheshti University medical research institute. Part of 272-strike wave across 14 provinces. Over 30 Iranian universities targeted since war began.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-05/ty-article-live/israeli-military-strikes-petrochemical-complex-in-iran-idf-says/0000019d-5b74-d759-ab9d-7bfd41ea0000"
+    },
+    {
+      "id": "dmg-305",
+      "name": "Kuwait Power/Water Desalination Plants",
+      "location": "Kuwait City, Kuwait",
+      "lat": 29.37,
+      "lng": 47.97,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-05",
+      "description": "Iranian drone attacks damaged two power and water desalination plants. Kuwait Petroleum Corp HQ also hit. No injuries.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue"
     }
   ]
 }

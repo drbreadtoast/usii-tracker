@@ -6455,5 +6455,59 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-390",
+    "city": "Isfahan (Rescue Op Zone)",
+    "country": "Iran",
+    "lat": 32.65,
+    "lng": 51.68,
+    "strikeType": "ground_operation",
+    "attributedTo": "us",
+    "date": "2026-04-05",
+    "description": "US commando rescue operation to extract downed F-15E WSO. Firefight with Iranian forces. 5 Iranians killed. US destroyed 2 stranded C-130 transports at makeshift airbase. 1 Black Hawk struck but exited airspace.",
+    "source": "CNN",
+    "sourceUrl": "https://www.cnn.com/2026/04/05/politics/missing-us-crew-member-iran-rescued-intl-hnk",
+    "weaponType": "Ground operation / SOF",
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-391",
+    "city": "Tehran (Beheshti University)",
+    "country": "Iran",
+    "lat": 35.80,
+    "lng": 51.40,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-05",
+    "description": "IDF strikes on Beheshti University medical research institute — nearly destroyed. Part of 272-strike wave across 14 Iranian provinces causing 184 casualties.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-05/ty-article-live/israeli-military-strikes-petrochemical-complex-in-iran-idf-says/0000019d-5b74-d759-ab9d-7bfd41ea0000",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 184,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-392",
+    "city": "Kuwait City (Power/Water Plants)",
+    "country": "Kuwait",
+    "lat": 29.37,
+    "lng": 47.97,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-04-05",
+    "description": "Iranian drone attacks damaged two power and water desalination plants in Kuwait. Kuwait Petroleum Corp HQ caught fire. No injuries.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue",
+    "weaponType": "Drone/UAV",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
