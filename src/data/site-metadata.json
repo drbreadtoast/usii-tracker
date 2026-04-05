@@ -1,17 +1,26 @@
 {
-  "lastUpdated": "2026-04-05T12:27:00Z",
-  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
+  "lastUpdated": "2026-04-05T20:29:00Z",
+  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.1",
   "conflictDay": 37,
-  "totalSocialPosts": 28,
+  "totalSocialPosts": 24,
   "dataFiles": {
-    "events": 700,
+    "events": {
+      "totalEntries": 706,
+      "lastId": "evt-new-658"
+    },
     "warTimeline": 613,
-    "breaking": 27,
+    "breaking": {
+      "totalEntries": 20,
+      "lastId": "brk-620"
+    },
     "socialPosts": 28,
     "governmentStatements": 389,
-    "escalations": 301,
+    "escalations": {
+      "totalEntries": 303,
+      "lastId": "esc-302"
+    },
     "missileStrikes": 395,
     "damageLocations": 303,
     "factCheckClaims": 77,
@@ -22,34 +31,37 @@
     "globalInvolvement": 19,
     "timeline": 613,
     "war-timeline": {
-      "totalEntries": 613,
-      "lastId": "tl-613",
-      "entries": 613
+      "totalEntries": 614,
+      "lastId": "tl-614"
     },
     "missile-strikes": {
-      "totalEntries": 395,
-      "lastId": "ms-395",
-      "entries": 395
+      "totalEntries": 398,
+      "lastId": "ms-398"
     },
     "damage-data": {
-      "totalEntries": 303,
-      "lastId": "dmg-307"
+      "totalEntries": 305,
+      "lastId": "dmg-309"
     },
     "government-statements": {
-      "totalEntries": 389,
-      "lastId": "gov-389",
-      "entries": 389
+      "totalEntries": 392,
+      "lastId": "gov-392",
+      "entries": 392
     },
     "social-posts": {
-      "totalEntries": 28,
-      "lastId": "social-532",
-      "entries": 28
+      "totalEntries": 24,
+      "lastId": "social-538",
+      "entries": 24
     },
     "damageSites": 303,
     "global-involvement": {
-      "totalEntries": 19,
-      "lastId": "gi-pakistan"
+      "totalEntries": 20,
+      "lastId": "gi-oman"
+    },
+    "statements-timeline": {
+      "totalEntries": 431,
+      "lastId": null
     }
   },
-  "updateNote": "Day 37 5:27 AM PT — F-15E WSO rescued; Neot Hovav chemical plant hit; Gulf state attacks (Kuwait/Bahrain/UAE); Pope Easter plea; Rubio arrests Soleimani family; OPEC+ today; April 6 deadline TOMORROW"
+  "updateNote": "Day 37 1:28 PM PT \u2014 Haifa building struck; Lebanon 14 killed; Houthis target Ben Gurion; Trump Easter rant; Iran rejection; Oman-Iran Hormuz talks; April 7 deadline 2 DAYS",
+  "damageSites": 305
 }
