@@ -22174,5 +22174,237 @@
       "search-and-rescue",
       "day36"
     ]
+  },
+  {
+    "id": "evt-new-635",
+    "title": "Bushehr Nuclear Plant struck for 4th time — IAEA guard killed",
+    "description": "Projectile struck auxiliary building near Bushehr Nuclear Power Plant, killing one physical protection staff member. IAEA confirmed no radiation increase. Russia evacuated 198 more Rosatom staff (3rd wave), ~100 remain. IAEA Director General 'deeply concerned.' Iran FM Araghchi warned of radioactive fallout risk to Gulf states.",
+    "type": "strike",
+    "lat": 28.83,
+    "lng": 50.88,
+    "location": "Bushehr Nuclear Power Plant, Bushehr, Iran",
+    "timestamp": "2026-04-04T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Projectile hits near Bushehr nuclear plant",
+        "url": "https://www.aljazeera.com/news/2026/4/4/iaea-says-projectile-hits-near-irans-bushehr-nuclear-plant-killing-one"
+      },
+      {
+        "name": "UN News — IAEA chief deeply concerned",
+        "url": "https://news.un.org/en/story/2026/04/1167250"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": ["bushehr", "nuclear", "iaea", "strike", "day37"]
+  },
+  {
+    "id": "evt-new-636",
+    "title": "Mahshahr Petrochemical Zone struck — 5 killed, 170 wounded",
+    "description": "US-Israeli airstrikes hit multiple facilities in Mahshahr Special Petrochemical Zone including Fajr 1 and 2, Rejal, Abu Ali, and Bandar Imam petrochemical plants. Deputy governor confirmed 5 killed and 170 wounded (treated, none hospitalized).",
+    "type": "strike",
+    "lat": 30.56,
+    "lng": 49.19,
+    "location": "Mahshahr, Khuzestan Province, Iran",
+    "timestamp": "2026-04-04T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Vanguard — US-Israeli strikes on petrochemical hub",
+        "url": "https://www.vanguardngr.com/2026/04/us-israeli-strikes-on-petrochemical-hub-kills-5-iran-official/"
+      },
+      {
+        "name": "Arab News — Strikes hit petrochemicals hub",
+        "url": "https://www.arabnews.com/node/2638739/middle-east"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 170
+    },
+    "tags": ["petrochemical", "infrastructure", "khuzestan", "strike", "day37"]
+  },
+  {
+    "id": "evt-new-637",
+    "title": "Iranian cluster munitions strike near IDF Kirya HQ in Tel Aviv",
+    "description": "Iran launched ballistic missiles with cluster bomb warheads at central Israel. 2 cluster submunitions struck near IDF's Kirya HQ, damaging a parking lot and nearby school. 10+ impacts across Tel Aviv, Bnei Brak, Petah Tikva, Givatayim, Ramat Gan, Rosh HaAyin.",
+    "type": "strike",
+    "lat": 32.07,
+    "lng": 34.79,
+    "location": "Tel Aviv / Ramat Gan, Israel",
+    "timestamp": "2026-04-04T21:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Iranian missile fragments near Kirya",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-892034"
+      },
+      {
+        "name": "Xinhua — Cluster missile bombs near military HQ",
+        "url": "https://english.news.cn/20260404/af45128fbcac42268b95578313bb0a67/c.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["cluster-munitions", "tel-aviv", "kirya", "iran-strike", "day37"]
+  },
+  {
+    "id": "evt-new-638",
+    "title": "Israeli strikes on Beirut southern suburbs — Hezbollah sites targeted",
+    "description": "Israeli military struck 'Hezbollah infrastructure sites' in Beirut's Dahiyeh (southern suburbs). AFP journalists heard two loud explosions and saw smoke rising. At least 2 strikes confirmed.",
+    "type": "strike",
+    "lat": 33.84,
+    "lng": 35.49,
+    "location": "Beirut Southern Suburbs (Dahiyeh), Lebanon",
+    "timestamp": "2026-04-05T01:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "BSSNEWS — Israel strikes Hezbollah sites in Beirut",
+        "url": "https://www.bssnews.net/news/374298"
+      },
+      {
+        "name": "Al Jazeera — Day 37 liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/5/iran-war-live-tehran-rejects-trumps-ultimatum-fire-at-kuwait-oil-complex"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["beirut", "hezbollah", "dahiyeh", "strike", "day37"]
+  },
+  {
+    "id": "evt-new-639",
+    "title": "Israeli strikes damage hospital in Tyre — 2 girls killed, 40 wounded",
+    "description": "Israeli strikes destroyed two buildings near the Lebanese Italian Hospital in al-Hawsh, shattering windows and collapsing ceilings. 11-storey building NE of Tyre destroyed. Two girls killed in Habbush. 18 wounded near Tyre; 22 wounded in Habbush.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.20,
+    "location": "Tyre / al-Hawsh / Habbush, Lebanon",
+    "timestamp": "2026-04-04T23:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Strikes damage hospital in Tyre",
+        "url": "https://www.aljazeera.com/news/2026/4/4/israeli-strikes-damage-hospital-in-lebanons-tyre"
+      },
+      {
+        "name": "Al-Monitor — Israel strikes Tyre",
+        "url": "https://www.al-monitor.com/originals/2026/04/israel-strikes-tyre-south-lebanon-after-evacuation-warnings"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2,
+      "injured": 40
+    },
+    "tags": ["tyre", "hospital", "lebanon", "civilian", "day37"]
+  },
+  {
+    "id": "evt-new-640",
+    "title": "Eastern Lebanon bridge destroyed — Sohmor-Mashghara link cut",
+    "description": "Israeli warplanes destroyed the bridge linking Sohmor with Mashghara in eastern Lebanon to prevent Hezbollah reinforcements from Bekaa Valley. Israel warned in advance.",
+    "type": "infrastructure",
+    "lat": 33.56,
+    "lng": 35.77,
+    "location": "Sohmor-Mashghara, Eastern Lebanon",
+    "timestamp": "2026-04-04T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "BSSNEWS — Israel destroys east Lebanon bridge",
+        "url": "https://www.bssnews.net/international/374306"
+      },
+      {
+        "name": "Al Jazeera — Israel threatens more Lebanon bridges",
+        "url": "https://www.aljazeera.com/amp/news/2026/4/3/israel-threatens-to-destroy-more-lebanon-bridges-as-crisis-mounts"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["bridge", "lebanon", "infrastructure", "bekaa", "day37"]
+  },
+  {
+    "id": "evt-new-641",
+    "title": "Kuwait Shuwaikh oil complex hit by drone — fire contained",
+    "description": "Drone attack caused fire at Shuwaikh oil sector complex in Kuwait City, housing Kuwait Petroleum Corporation and Ministry of Oil. Building evacuated, fire contained. No injuries. Attribution unclear — likely Iran-aligned militia.",
+    "type": "strike",
+    "lat": 29.35,
+    "lng": 47.93,
+    "location": "Shuwaikh, Kuwait City, Kuwait",
+    "timestamp": "2026-04-05T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "GMA News — Fire at Kuwait oil complex",
+        "url": "https://www.gmanetwork.com/news/topstories/world/982617/fire-erupts-in-kuwait-s-shuwaikh-oil-sector-complex-after-drone-attack-report/story/"
+      },
+      {
+        "name": "Al Jazeera — Day 37 liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/5/iran-war-live-tehran-rejects-trumps-ultimatum-fire-at-kuwait-oil-complex"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["kuwait", "oil", "drone", "infrastructure", "day37"]
+  },
+  {
+    "id": "evt-new-642",
+    "title": "Iran rejects Trump 48-hour Hormuz ultimatum — 'helpless, nervous, stupid'",
+    "description": "Iranian military central command described Trump's 48-hour ultimatum as a 'helpless, nervous, unbalanced and stupid action,' warning 'the gates of hell will open for you.' Ceasefire talks via Pakistan/Egypt/Turkey at standstill. Deadline expires approximately April 6.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-05T00:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Middle East Eye — Iran rejects ceasefire offer",
+        "url": "https://www.middleeasteye.net/news/iran-says-it-rejects-trump-offer-48-hour-ceasefire-report"
+      },
+      {
+        "name": "Al Jazeera — Day 37 liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/5/iran-war-live-tehran-rejects-trumps-ultimatum-fire-at-kuwait-oil-complex"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["diplomacy", "ultimatum", "hormuz", "ceasefire", "day37"]
   }
 ]

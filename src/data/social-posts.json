@@ -1,79 +1,5 @@
 [
   {
-    "id": "social-490",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Analyst",
-    "text": "BREAKING: Second US aircraft loss in 24h — A-10 Warthog shot down during F-15E SAR ops in central Iran. Pilot ejected + rescued by SOF. Two HH-60 Black Hawks took small arms fire during extraction. F-15E WSO still missing. Iran offering bounty.",
-    "timestamp": "2026-04-03T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NPR, Air & Space Forces Magazine, Breaking Defense all confirmed.",
-    "keywords": [
-      "a-10",
-      "sar",
-      "f-15e",
-      "aircraft-loss",
-      "iran",
-      "day35"
-    ]
-  },
-  {
-    "id": "social-491",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "Haaretz bombshell: Israeli public support for Iran war CRATERED to 45.5% from 63% at war start. Biggest single-poll swing since conflict began. Netanyahu losing domestic mandate. Combined with $45.8B defense budget strain — political pressure mounting.",
-    "timestamp": "2026-04-03T22:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Haaretz published full poll with methodology.",
-    "keywords": [
-      "poll",
-      "israel",
-      "public-opinion",
-      "haaretz",
-      "netanyahu",
-      "day35"
-    ]
-  },
-  {
-    "id": "social-492",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender — OSINT Analyst",
-    "text": "EU diplomatic push: Kallas-Wang Yi call on Iran. 19 new EU sanctions designations. Framework extended to April 2027. Meanwhile Italy's Meloni publicly breaks with Trump — first major NATO ally to refuse offensive operations. Traveling to Saudi Arabia for energy deals instead.",
-    "timestamp": "2026-04-03T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "JURIST, The Spectator confirmed.",
-    "keywords": [
-      "eu",
-      "kallas",
-      "china",
-      "meloni",
-      "italy",
-      "sanctions",
-      "day35"
-    ]
-  },
-  {
-    "id": "social-493",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News — Lead Source",
-    "text": "Oil update: Brent surged to $112.42 (+40.8% from pre-war) per Fortune. Physical dated Brent still at $141.36 — highest since 2008. WTI $111.54. Gas $4.09 (AAA). IEA chief: 'April will be much worse than March.' OPEC+ meets April 5. Trump Hormuz deadline April 6 — 2 days.",
-    "timestamp": "2026-04-03T23:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Fortune, CNBC, AAA confirmed prices.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "gas",
-      "iea",
-      "hormuz",
-      "day35"
-    ]
-  },
-  {
     "id": "social-494",
     "handle": "@sentdefender",
     "displayName": "Sentdefender — OSINT Analyst",
@@ -430,5 +356,71 @@
       "lebanon",
       "april6"
     ]
+  },
+  {
+    "id": "social-515",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Analyst",
+    "text": "IAEA confirms projectile struck auxiliary building near Bushehr Nuclear Power Plant — 4th attack on the facility. 1 physical protection staff killed. IAEA DG 'deeply concerned.' No radiation increase detected. Russia evacuated 198 more Rosatom staff (3rd wave), ~100 remain.",
+    "timestamp": "2026-04-05T00:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, UN News, Times of Israel confirmed.",
+    "keywords": ["bushehr", "nuclear", "iaea", "rosatom", "day37"]
+  },
+  {
+    "id": "social-516",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "Iranian cluster munitions landed near IDF Kirya HQ in Tel Aviv — 2 submunitions hit parking lot and nearby school. Multiple impacts across Ramat Gan, Bnei Brak, Petah Tikva. IDF confirms no injuries at HQ. Shows Iran still capable of hitting high-value targets despite air campaign.",
+    "timestamp": "2026-04-05T00:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Jerusalem Post, Times of Israel, Xinhua confirmed.",
+    "keywords": ["cluster-munitions", "kirya", "tel-aviv", "iran-strike", "day37"]
+  },
+  {
+    "id": "social-517",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender — OSINT Analyst",
+    "text": "Iran military central command calls Trump's 48h ultimatum 'helpless, nervous, unbalanced and stupid' — warns 'gates of hell will open for you.' Ceasefire talks via Pakistan/Egypt/Turkey at standstill. Deadline expires Monday April 6. This is the most dangerous 24h window of the war.",
+    "timestamp": "2026-04-05T01:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Middle East Eye, Al Jazeera confirmed.",
+    "keywords": ["ultimatum", "ceasefire", "diplomacy", "april6", "day37"]
+  },
+  {
+    "id": "social-518",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Kuwait Shuwaikh oil complex hit by drone — fire at Kuwait Petroleum Corp/Ministry of Oil building. Evacuated, contained, no injuries. Attribution unclear but likely Iran-aligned militia. Conflict spreading beyond main theatre — 3rd Gulf state oil facility targeted this week.",
+    "timestamp": "2026-04-05T02:15:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "GMA News, Al Jazeera liveblog confirmed.",
+    "keywords": ["kuwait", "oil", "drone", "infrastructure", "day37"]
+  },
+  {
+    "id": "social-519",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender — OSINT Analyst",
+    "text": "WaPo bombshell: Chinese AI firms (some with PLA ties) marketing detailed intelligence on US force movements in Iran. Using AI + open-source data to track carrier groups, aircraft, base activity. Strategic intel concern — data refining Chinese military capabilities in real time.",
+    "timestamp": "2026-04-05T02:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Washington Post confirmed investigation.",
+    "keywords": ["china", "intelligence", "ai", "us-forces", "day37"]
+  },
+  {
+    "id": "social-520",
+    "handle": "@IranWarLive",
+    "displayName": "IranWarLive — OSINT Tracker",
+    "text": "Day 37 summary: Bushehr 4th strike (1 killed). Mahshahr petrochem (5 killed, 170 wounded). Cluster munitions near Kirya HQ. Kuwait oil complex droned. Beirut Dahiyeh struck. Tyre hospital damaged (2 girls killed). Lebanon bridge destroyed. Iran rejects ultimatum. April 6 deadline TOMORROW. Brent $109.24/WTI $111.54. Gas $4.10.",
+    "timestamp": "2026-04-05T03:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, UN News, JPost, GMA News, Middle East Eye confirmed all items.",
+    "keywords": ["day37", "summary", "bushehr", "mahshahr", "kuwait", "april6"]
   }
 ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-04T19:17:00Z",
+    "lastUpdated": "2026-04-05T03:23:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 36
+    "conflictDay": 37
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-04",
-      "label": "Day 36 PM — Brent $109.03 (+36.6%); WTI $111.54 (+47.7%). Good Friday thin trading. Bushehr 4th attack. Mahshahr petrochem 6 plants. 5 IRGC cmds killed Beirut. Trump 48h ultimatum. Iran rejects ceasefire. Hormuz essential goods passage. OPEC+ Apr 5. April 6 deadline TOMORROW.",
+      "date": "2026-04-05",
+      "label": "Day 37 — Brent $109.24 (+36.9%); WTI $111.54 (+47.7%). Thin Saturday trading. Bushehr 4th strike (1 killed). Mahshahr petrochem (5 killed, 170 wounded). Cluster munitions near Kirya HQ. Kuwait oil complex droned. Iran rejects 48h ultimatum. April 6 deadline TOMORROW.",
       "brent": {
-        "price": 109.03,
-        "change": "+36.6%",
-        "changeDollars": "+$29.19"
+        "price": 109.24,
+        "change": "+36.9%",
+        "changeDollars": "+$29.40"
       },
       "wti": {
         "price": 111.54,
         "change": "+47.7%",
         "changeDollars": "+$36.03"
       },
-      "changePercent": "+36.6%",
-      "lastUpdated": "2026-04-04"
+      "changePercent": "+36.9%",
+      "lastUpdated": "2026-04-05"
     },
     "priceHistory": [
       {
@@ -535,7 +535,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-04",
-    "note": "AAA national average at $4.09/gal (April 3-4) — above $4 since March 31 (first since Aug 2022). Up 28.6% from pre-war $3.18. Brent $109.03 (Good Friday thin trading). Bushehr 4th strike. Mahshahr petrochem struck. Trump 48h ultimatum. Iran rejects ceasefire. Hormuz essential goods passage. OPEC+ Apr 5. April 6 deadline TOMORROW.",
+    "note": "AAA national average at $4.104/gal (April 4-5) — above $4 since March 31 (first since Aug 2022). Up 29.1% from pre-war $3.18. Brent $109.24. Kuwait oil complex droned. Iran rejects Trump 48h ultimatum. April 6 deadline TOMORROW.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -545,13 +545,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.091,
-          "change": "+28.6%",
-          "changeDollars": "+$0.91"
+          "price": 4.104,
+          "change": "+29.1%",
+          "changeDollars": "+$0.92"
         },
-        "change": "+$0.91",
-        "changePercent": "+28.6%",
-        "detail": "Gas at $4.091/gal (AAA April 3). Up $0.91/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $109.24 (+36.8%). WTI $111.54 (+47.7%). Ghalibaf Bab el-Mandeb threat. OPEC+ Apr 5.",
+        "change": "+$0.92",
+        "changePercent": "+29.1%",
+        "detail": "Gas at $4.104/gal (AAA April 4-5). Up $0.924/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $109.24 (+36.9%). WTI $111.54 (+47.7%). April 6 deadline TOMORROW.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -878,6 +878,20 @@
       "brent": 112.42,
       "wti": 111.54,
       "label": "Day 35 evening — Brent $112.42 (+40.8%); WTI $111.54 (+47.7%). A-10 downed during F-15E SAR. WSO still missing. Kuwait desal plant hit. Israeli support drops to 45.5%. EU 19 new sanctions. Meloni breaks w/Trump. Gas $4.09.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-04",
+      "brent": 109.03,
+      "wti": 111.54,
+      "label": "Day 36 PM — Brent $109.03 (-3.0% on day, Good Friday). WTI $111.54. Bushehr 4th strike. Mahshahr petrochem hit. 5 IRGC cmds killed Beirut. Trump 48h ultimatum. Hormuz essential goods passage. Gas $4.09.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-05",
+      "brent": 109.24,
+      "wti": 111.54,
+      "label": "Day 37 — Brent $109.24 (+0.2%); WTI $111.54 (flat). Thin Saturday trading. Kuwait oil complex droned. Iran rejects ultimatum. April 6 deadline TOMORROW. Gas $4.10.",
       "isEvent": true
     }
   ]

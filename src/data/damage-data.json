@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-04T19:17:00Z",
+    "lastUpdated": "2026-04-05T03:23:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 293,
-    "confirmed": 224,
+    "totalSites": 300,
+    "confirmed": 231,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4732,6 +4732,84 @@
       "description": "Hezbollah missile direct hit on guesthouse complex in Metula. Surrounding homes and infrastructure damaged. 1 person lightly wounded.",
       "source": "YNet",
       "sourceUrl": "https://www.ynetnews.com/magazine/article/b1l4575rp"
+    },
+    {
+      "id": "dmg-298",
+      "name": "Bushehr Nuclear Power Plant (4th strike)",
+      "location": "Bushehr, Iran",
+      "lat": 28.83,
+      "lng": 50.88,
+      "category": "nuclear",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Projectile struck auxiliary building near Bushehr Nuclear Power Plant. 1 IAEA guard killed. No radiation increase. Russia evacuated 198 Rosatom staff.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/4/iaea-says-projectile-hits-near-irans-bushehr-nuclear-plant-killing-one"
+    },
+    {
+      "id": "dmg-299",
+      "name": "Mahshahr Petrochemical Zone (5 facilities)",
+      "location": "Mahshahr, Khuzestan, Iran",
+      "lat": 30.56,
+      "lng": 49.19,
+      "category": "industrial",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Fajr 1&2, Rejal, Abu Ali, Bandar Imam petrochemical facilities struck. 5 killed, 170 wounded.",
+      "source": "Vanguard",
+      "sourceUrl": "https://www.vanguardngr.com/2026/04/us-israeli-strikes-on-petrochemical-hub-kills-5-iran-official/"
+    },
+    {
+      "id": "dmg-300",
+      "name": "Lebanese Italian Hospital (vicinity)",
+      "location": "Tyre / al-Hawsh, Lebanon",
+      "lat": 33.27,
+      "lng": 35.20,
+      "category": "medical",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "2 buildings near hospital destroyed. Windows shattered, ceilings collapsed. 11-storey building NE of Tyre also destroyed. 2 girls killed in Habbush.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/4/israeli-strikes-damage-hospital-in-lebanons-tyre"
+    },
+    {
+      "id": "dmg-301",
+      "name": "Sohmor-Mashghara Bridge",
+      "location": "Eastern Lebanon",
+      "lat": 33.56,
+      "lng": 35.77,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Bridge linking Sohmor to Mashghara destroyed by Israeli warplanes to cut Hezbollah supply lines.",
+      "source": "BSSNEWS",
+      "sourceUrl": "https://www.bssnews.net/international/374306"
+    },
+    {
+      "id": "dmg-302",
+      "name": "IDF Kirya HQ vicinity",
+      "location": "Tel Aviv, Israel",
+      "lat": 32.07,
+      "lng": 34.79,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-04",
+      "description": "Iranian cluster munition submunitions hit parking lot and nearby school. Multiple cars destroyed in Ramat Gan.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-892034"
+    },
+    {
+      "id": "dmg-303",
+      "name": "Shuwaikh Oil Sector Complex",
+      "location": "Kuwait City, Kuwait",
+      "lat": 29.35,
+      "lng": 47.93,
+      "category": "industrial",
+      "status": "confirmed",
+      "date": "2026-04-05",
+      "description": "Drone attack caused fire at Kuwait Petroleum Corp/Ministry of Oil building. Evacuated, fire contained. No injuries.",
+      "source": "GMA News",
+      "sourceUrl": "https://www.gmanetwork.com/news/topstories/world/982617/fire-erupts-in-kuwait-s-shuwaikh-oil-sector-complex-after-drone-attack-report/story/"
     }
   ]
 }
