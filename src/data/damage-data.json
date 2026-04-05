@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-05T10:32:00Z",
+    "lastUpdated": "2026-04-05T12:27:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 301,
-    "confirmed": 232,
+    "totalSites": 303,
+    "confirmed": 234,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4836,6 +4836,32 @@
       "description": "Iranian drone attacks damaged two power and water desalination plants. Kuwait Petroleum Corp HQ also hit. No injuries.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue"
+    },
+    {
+      "id": "dmg-306",
+      "name": "Neot Hovav Chemical Industrial Zone",
+      "location": "Negev, Israel",
+      "lat": 31.13,
+      "lng": 34.82,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-05",
+      "description": "Iranian ballistic missile struck chemical plant causing hazardous materials leak. 3 hazmat teams deployed. 1 lightly wounded. Second strike on this facility since late March.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-5-2026/"
+    },
+    {
+      "id": "dmg-307",
+      "name": "BAPCO Oil Storage Tank",
+      "location": "Sitra, Bahrain",
+      "lat": 26.03,
+      "lng": 50.55,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-05",
+      "description": "Iranian drone struck storage tank at BAPCO Energies facility causing large fireball. Fire contained and extinguished. No injuries.",
+      "source": "Gulf News",
+      "sourceUrl": "https://gulfnews.com/world/gulf/bahrain/bahrain-energy-facility-fire-contained-after-drone-strike-1.500496782"
     }
   ]
 }

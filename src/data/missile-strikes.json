@@ -6509,5 +6509,59 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-393",
+    "city": "Neot Hovav",
+    "country": "Israel",
+    "lat": 31.13,
+    "lng": 34.82,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-05",
+    "description": "Iranian ballistic missile struck Neot Hovav chemical industrial zone south of Be'er Sheva. Hazmat leak, 3 specialized teams deployed. 1 lightly wounded. Repeat strike on facility.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-april-5-2026/",
+    "weaponType": "Ballistic missile",
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-394",
+    "city": "Sitra (BAPCO)",
+    "country": "Bahrain",
+    "lat": 26.03,
+    "lng": 50.55,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-04-05",
+    "description": "Iranian drone struck BAPCO Energies storage tank. Large fireball — fire contained and extinguished. No injuries.",
+    "source": "Gulf News",
+    "sourceUrl": "https://gulfnews.com/world/gulf/bahrain/bahrain-energy-facility-fire-contained-after-drone-strike-1.500496782",
+    "weaponType": "Drone/UAV",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-395",
+    "city": "UAE (Multiple)",
+    "country": "United Arab Emirates",
+    "lat": 24.45,
+    "lng": 54.65,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-05",
+    "description": "UAE engaged 9 ballistic missiles, 1 cruise missile, 50 drones from Iran targeting aluminum industries. All engaged by air defense.",
+    "source": "Khaleej Times",
+    "sourceUrl": "https://www.khaleejtimes.com/world/day-37-us-israel-iran-war-live-updates",
+    "weaponType": "Ballistic missiles, cruise missiles, drones",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
