@@ -1,6 +1,7 @@
 import { Shield } from 'lucide-react'
 import UpdateBadge from './UpdateBadge'
 import AdBanner from '../Ads/AdBanner'
+import Footer from './Footer'
 
 export default function TabPageLayout({
   title,
@@ -42,20 +43,7 @@ export default function TabPageLayout({
       )}
 
       {/* Footer */}
-      <footer className="bg-gray-900 border-t border-gray-800 mt-auto">
-        <UpdateBadge />
-        <div className="px-4 sm:px-6 py-3 border-t border-gray-800/50">
-          <div className="max-w-6xl mx-auto flex items-center justify-between text-[10px] text-gray-600">
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-red-400">TheOSSreport.com</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Shield size={10} />
-              <span>{footerNote || 'All data is fact-checked where possible.'}</span>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

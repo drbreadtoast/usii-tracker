@@ -74,6 +74,20 @@ export default function SourcesNotice() {
             </div>
           </div>
 
+          {/* Editorial Standards */}
+          <div className="flex items-start gap-2 bg-green-950/20 border border-green-900/30 rounded-lg p-2.5">
+            <Info size={13} className="text-green-400 mt-0.5 shrink-0" />
+            <div>
+              <p className="text-[11px] text-green-200 font-semibold">Editorial Standards</p>
+              <p className="text-[10px] text-green-400/80 mt-1 leading-relaxed">
+                This site maintains strict neutrality and does not advocate for any party. We do not publish
+                graphic imagery or promote violence. All content is presented for informational and historical
+                purposes — to document events for public awareness, not to exploit or sensationalize conflict.
+                See our <a href="/about" className="underline hover:text-green-300">About page</a> for full editorial standards.
+              </p>
+            </div>
+          </div>
+
           {/* Disclaimer + Developer */}
           <div className="bg-gray-900/50 border border-gray-800/40 rounded-lg px-3 py-2.5 space-y-2">
             <p className="text-[10px] text-gray-500 leading-relaxed">

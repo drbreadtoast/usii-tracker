@@ -13,6 +13,11 @@ export default function DeathsPage() {
       footerNote="Casualty figures include confirmed and estimated. Sources provided per entry."
       hideAd
     >
+      <div className="mx-4 mb-3 bg-gray-900/50 border border-gray-700/50 rounded-lg px-4 py-2.5">
+        <p className="text-[10px] text-gray-500 leading-relaxed">
+          This page documents casualties for historical record and public awareness. It is not intended to sensationalize or exploit the conflict. All figures are sourced from official reports and independent monitors.
+        </p>
+      </div>
       <div className="mx-4 mb-4 bg-red-950/40 border border-red-700/50 rounded-lg p-4">
         <div className="flex items-start gap-3">
           <AlertTriangle size={20} className="text-red-400 shrink-0 mt-0.5" />
