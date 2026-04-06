@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-06T06:34:00Z",
+    "lastUpdated": "2026-04-06T12:18:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 307,
-    "confirmed": 252,
+    "totalSites": 310,
+    "confirmed": 255,
     "reported": 9,
     "rumored": 3,
     "countriesAffected": 15,
@@ -4915,6 +4915,48 @@
       "description": "At least 8 homes destroyed in Israeli airstrike on southern Lebanese town. 7 killed including displaced family.",
       "source": "MTV Lebanon",
       "sourceUrl": "https://www.mtv.com.lb/en/news/Local/1677246/7-victims-in-the-strike-on-kfar-hatta",
+      "damageLevel": "severe"
+    },
+    {
+      "id": "dmg-312",
+      "name": "South Pars Petrochemical Complex — Asaluyeh Destroyed",
+      "country": "Iran",
+      "lat": 27.48,
+      "lng": 52.61,
+      "category": "industrial",
+      "status": "confirmed",
+      "date": "2026-04-06",
+      "description": "Israeli strikes destroyed Asaluyeh petrochemical complex, Iran's largest. 85% of Iran's petrochemical exports now offline. 5 killed, 170 injured. Major economic infrastructure target.",
+      "source": "PressTV",
+      "sourceUrl": "https://www.presstv.ir/Detail/2026/04/06/766377/US-Israeli-attack-targets-Iran-s-prestigious-Sharif-University-of-Technology-",
+      "damageLevel": "destroyed"
+    },
+    {
+      "id": "dmg-313",
+      "name": "Sharif University of Technology Electronics Research Center",
+      "country": "Iran",
+      "lat": 35.7022,
+      "lng": 51.351,
+      "category": "academic",
+      "status": "confirmed",
+      "date": "2026-04-06",
+      "description": "US-Israeli airstrike hit Electronics Research Center at Iran's premier engineering university. Nearby gas distribution infrastructure also damaged.",
+      "source": "Middle East Eye",
+      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-israeli-attack-targets-sharif-university-blasts-rock-tehran",
+      "damageLevel": "severe"
+    },
+    {
+      "id": "dmg-314",
+      "name": "Ramat Gan / Bnei Brak — Cluster Bomblet Impact Zone",
+      "country": "Israel",
+      "lat": 32.068,
+      "lng": 34.824,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-04-06",
+      "description": "28+ cluster bomblet impact sites across densely populated Tel Aviv suburbs. Heavy damage to buildings in Ramat Gan, Bnei Brak, Givatayim. High-voltage line damaged in Rosh Ha'ayin causing power outage. 2 killed, 1 moderately wounded.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-06/ty-article-live/israeli-source-u-s-iran-talks-likely-to-fail-israel-prepares-extensive-attack/0000019d-60ee-db3c-a3df-e9ef27260000",
       "damageLevel": "severe"
     }
   ]

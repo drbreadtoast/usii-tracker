@@ -1,31 +1,48 @@
 {
-  "lastUpdated": "2026-04-06T06:34:00Z",
+  "lastUpdated": "2026-04-06T12:18:00Z",
   "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.1",
   "conflictDay": 38,
-  "totalSocialPosts": 28,
+  "totalSocialPosts": 23,
   "dataFiles": {
     "events": {
-      "totalEntries": 719,
-      "lastId": "evt-new-671"
+      "entries": 727,
+      "lastId": "evt-new-679"
     },
-    "warTimeline": 616,
+    "warTimeline": {
+      "entries": 617,
+      "lastId": "tl-617"
+    },
     "breaking": {
-      "totalEntries": 20,
-      "lastId": "brk-624"
+      "entries": 20,
+      "lastId": "brk-629"
     },
-    "socialPosts": 28,
-    "governmentStatements": 396,
+    "socialPosts": {
+      "entries": 23,
+      "lastId": "social-554"
+    },
+    "governmentStatements": {
+      "entries": 400,
+      "lastId": "gov-400"
+    },
     "escalations": {
-      "totalEntries": 306,
-      "lastId": "esc-305"
+      "entries": 309,
+      "lastId": "esc-308"
     },
-    "missileStrikes": 402,
+    "missileStrikes": {
+      "entries": 406,
+      "lastId": "ms-406"
+    },
     "damageLocations": 307,
     "factCheckClaims": 77,
-    "statementsTimeline": 436,
-    "damageData": 307,
+    "statementsTimeline": {
+      "entries": 441
+    },
+    "damageData": {
+      "entries": 310,
+      "lastId": "dmg-314"
+    },
     "factCheck": 77,
     "statements": 436,
     "globalInvolvement": 20,

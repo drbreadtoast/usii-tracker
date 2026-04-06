@@ -85,45 +85,27 @@
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
       "indirectCosts": {
-        "total": 37550000000,
+        "total": 37600000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
-            "amount": 13330000000,
-            "description": "Stock market volatility, defense industry surge costs, supply chain disruptions, and increased homeland security posture including elevated FPCON levels at all DoD installations",
-            "source": "CBO Economic Impact Assessment",
-            "sourceUrl": "https://www.cbo.gov/topics/defense-and-national-security"
-          },
-          "oilPriceImpact": {
-            "amount": 17000000000,
-            "description": "Cost to US economy from Brent at $112.57/bbl (+41.1% from pre-war $79.84). Gas at $3.981/gal national avg (+$0.80 from pre-war $3.18). IEA 400M barrel + US 172M SPR barrels released March 11. S&P 500 in correction territory — Dow dropped 1.73% on Day 28 (5th straight weekly loss). Fed holds rates at 3.5-3.75%, warns inflation 'not coming down as hoped.'",
-            "source": "EIA Short-Term Energy Outlook / Federal Reserve analysis",
-            "sourceUrl": "https://www.eia.gov/outlooks/steo/"
-          },
-          "tradeDisruption": {
-            "amount": 5000000000,
-            "description": "Rerouting of commercial shipping away from Persian Gulf, increased maritime insurance premiums, delayed LNG shipments, and supply chain delays affecting US importers and exporters",
-            "source": "Bureau of Economic Analysis / International Trade Administration",
-            "sourceUrl": "https://www.bea.gov/"
-          },
-          "humanitarian": {
-            "amount": 2220000000,
-            "description": "USAID emergency humanitarian response, refugee assistance coordination, medical evacuation support for US nationals, and embassy emergency operations in the region",
-            "source": "USAID / State Department Bureau of Near Eastern Affairs",
-            "sourceUrl": "https://www.usaid.gov/humanitarian-assistance"
+            "amount": 37600000000,
+            "description": "Indirect economic costs including supply chain disruption, oil price impact, domestic inflation"
           }
         }
       },
-      "dailyBurnRate": 900000000,
+      "dailyBurnRate": 1000000000,
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
       "totalEstimate": "~$36B direct military + ~$38B indirect through Day 33",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
-      "totalCost": 37800000000,
-      "totalFormatted": "~$76B (direct + indirect, Day 37)",
+      "totalCost": 75400000000,
+      "totalFormatted": "$75.4B",
       "total": 75550000000,
       "lastUpdated": "2026-04-03T06:12:00Z",
       "note": "Day 33 night. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26; estimated ~$36B by Day 33. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. Trump prime-time Oval Office address vowed to hit Iran 'extremely hard' — April 6 Hormuz deadline. USS Tripoli (3,500 Marines) confirmed operational. US Rangers and Navy SEALs deployed. Daily burn rate settling to $800M-$1B/day (CSIS/CAP). Total US troops: 57,000+ in theater. Penn Wharton projects $40B-$95B direct US costs, up to $210B total economic impact.",
-      "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress."
+      "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress.",
+      "directMilitary": 37800000000,
+      "description": "US direct military costs ~$37.8B (Day 38). Indirect costs ~$37.6B. Total ~$75.4B. Daily burn rate ~$800M-$1B/day. 57,000+ troops in theater. 900+ Tomahawks fired (~23-29% of Navy inventory). Pentagon $200B supplemental pending Congress. Trump proposed record $1.5T FY2027 defense budget (44% increase)."
     },
     "israel": {
       "name": "Israel",
@@ -200,10 +182,12 @@
       "dailyBurnRateNote": "Calcalist estimates $480-550M/day average ($645-970M/day first 3 days). Includes missile defense operations, IAF sorties (60 jets dropped 150+ bombs Day 28 alone), 300,000 reserve mobilization, and civil defense.",
       "note": "Calcalist: $480-550M/day avg. $6.4B in first 20 days (~$320M/day early, accelerating). Day 29 cumulative estimated $14.5B+. NIS 177B revised defense budget (from NIS 112B base). NIS 2.6B ($826M) emergency procurement. $13B + $2.9B budget supplements approved. RUSI: Arrow interceptors near total depletion — 'unsustainable' 92% interception rate. UK declined US request to share interceptors.",
       "total": 16000000000,
-      "totalFormatted": "~$16.0B (direct military, Day 33)",
+      "totalFormatted": "$9.3B",
       "notes": [
         "Knesset approved record NIS 143B ($45.8B) 2026 defense budget on March 30 — $9.48B increase over 2025. Includes NIS 30B ($9.5B) wartime funding. Total state budget NIS 850.6B ($271B), largest in Israeli history. New $48M deal with Elbit for 155mm shells."
-      ]
+      ],
+      "directMilitary": 9300000000,
+      "description": "Israel direct military costs ~$9.3B (Day 38). Total defense budget $44.8B (112B shekels). $480-550M/day average. Knesset approved record budget March 30. $13B budget increase + $2.9B supplement."
     },
     "iran": {
       "name": "Iran",
@@ -828,22 +812,22 @@
   ],
   "totals": {
     "allCountriesDirectMilitary": 51180000000,
-    "allCountriesIndirectCosts": 109440000000,
-    "combinedTotalCosts": 160620000000,
+    "allCountriesIndirectCosts": 109490000000,
+    "combinedTotalCosts": 160670000000,
     "globalEconomicImpact": 870000000000,
-    "description": "Combined direct military + indirect economic costs through Day 37.",
-    "lastCalculated": "2026-04-06T00:28:00Z",
-    "allCountriesIndirect": 109440000000,
-    "combinedTotalFormatted": "$160.62B",
-    "lastUpdated": "2026-04-06T00:28:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 38.",
+    "lastCalculated": "2026-04-06T12:18:00Z",
+    "allCountriesIndirect": 109490000000,
+    "combinedTotalFormatted": "$160.67B",
+    "lastUpdated": "2026-04-06T12:18:00Z",
     "directCosts": 51180000000,
-    "indirectCosts": 109440000000,
-    "combinedCosts": 160620000000,
-    "combinedCost": 160620000000
+    "indirectCosts": 109490000000,
+    "combinedCosts": 160670000000,
+    "combinedCost": 160670000000
   },
   "daysOfConflict": 38,
-  "lastUpdated": "2026-04-06T06:34:00Z",
-  "dailyBurnRate": 1910000000,
+  "lastUpdated": "2026-04-06T12:18:00Z",
+  "dailyBurnRate": 1920000000,
   "totalCost": 51180000000,
-  "totalFormatted": "$51.18B (direct military, all countries, Day 37)"
+  "totalFormatted": "$51.18B (direct military, all countries, Day 38)"
 }
