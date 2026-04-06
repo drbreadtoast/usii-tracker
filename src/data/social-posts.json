@@ -1,90 +1,5 @@
 [
   {
-    "id": "social-515",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel \u2014 OSINT Analyst",
-    "text": "IAEA confirms projectile struck auxiliary building near Bushehr Nuclear Power Plant \u2014 4th attack on the facility. 1 physical protection staff killed. IAEA DG 'deeply concerned.' No radiation increase detected. Russia evacuated 198 more Rosatom staff (3rd wave), ~100 remain.",
-    "timestamp": "2026-04-05T00:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, UN News, Times of Israel confirmed.",
-    "keywords": [
-      "bushehr",
-      "nuclear",
-      "iaea",
-      "rosatom",
-      "day37"
-    ]
-  },
-  {
-    "id": "social-516",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab \u2014 OSINT Analyst",
-    "text": "Iranian cluster munitions landed near IDF Kirya HQ in Tel Aviv \u2014 2 submunitions hit parking lot and nearby school. Multiple impacts across Ramat Gan, Bnei Brak, Petah Tikva. IDF confirms no injuries at HQ. Shows Iran still capable of hitting high-value targets despite air campaign.",
-    "timestamp": "2026-04-05T00:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Jerusalem Post, Times of Israel, Xinhua confirmed.",
-    "keywords": [
-      "cluster-munitions",
-      "kirya",
-      "tel-aviv",
-      "iran-strike",
-      "day37"
-    ]
-  },
-  {
-    "id": "social-517",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender \u2014 OSINT Analyst",
-    "text": "Iran military central command calls Trump's 48h ultimatum 'helpless, nervous, unbalanced and stupid' \u2014 warns 'gates of hell will open for you.' Ceasefire talks via Pakistan/Egypt/Turkey at standstill. Deadline expires Monday April 6. This is the most dangerous 24h window of the war.",
-    "timestamp": "2026-04-05T01:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Middle East Eye, Al Jazeera confirmed.",
-    "keywords": [
-      "ultimatum",
-      "ceasefire",
-      "diplomacy",
-      "april6",
-      "day37"
-    ]
-  },
-  {
-    "id": "social-518",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News \u2014 Lead Source",
-    "text": "Kuwait Shuwaikh oil complex hit by drone \u2014 fire at Kuwait Petroleum Corp/Ministry of Oil building. Evacuated, contained, no injuries. Attribution unclear but likely Iran-aligned militia. Conflict spreading beyond main theatre \u2014 3rd Gulf state oil facility targeted this week.",
-    "timestamp": "2026-04-05T02:15:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "GMA News, Al Jazeera liveblog confirmed.",
-    "keywords": [
-      "kuwait",
-      "oil",
-      "drone",
-      "infrastructure",
-      "day37"
-    ]
-  },
-  {
-    "id": "social-519",
-    "handle": "@sentdefender",
-    "displayName": "Sentdefender \u2014 OSINT Analyst",
-    "text": "WaPo bombshell: Chinese AI firms (some with PLA ties) marketing detailed intelligence on US force movements in Iran. Using AI + open-source data to track carrier groups, aircraft, base activity. Strategic intel concern \u2014 data refining Chinese military capabilities in real time.",
-    "timestamp": "2026-04-05T02:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Washington Post confirmed investigation.",
-    "keywords": [
-      "china",
-      "intelligence",
-      "ai",
-      "us-forces",
-      "day37"
-    ]
-  },
-  {
     "id": "social-520",
     "handle": "@IranWarLive",
     "displayName": "IranWarLive \u2014 OSINT Tracker",
@@ -425,6 +340,98 @@
       "lebanon",
       "trump",
       "hormuz",
+      "deadline"
+    ]
+  },
+  {
+    "id": "social-539",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News \u2014 Lead Source",
+    "text": "F-15E WSO rescue CONFIRMED: USAF colonel found in mountain crevice at 7,000 ft after 48h evasion in southwestern Iran. Delta Force + SEAL Team Six extraction. Trump: 'WE GOT HIM! An Easter miracle.' Both F-15E crew members now safe. First US combat aircrew rescue in Iran.",
+    "timestamp": "2026-04-05T21:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios, NBC News, Washington Post, Time confirmed rescue.",
+    "keywords": [
+      "f-15e",
+      "rescue",
+      "wso",
+      "delta-force",
+      "seal-team-six",
+      "iran",
+      "day37"
+    ]
+  },
+  {
+    "id": "social-540",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab \u2014 OSINT Analyst",
+    "text": "BUSHEHR UPDATE: Rosatom evacuated 198 more staff from Bushehr NPP on April 4-5. Only ~50 volunteers remain for critical equipment maintenance. IAEA reported 1 plant protection staffer killed by projectile fragment. Nuclear safety concerns escalating \u2014 Araghchi warns of 'radioactive contamination' risk.",
+    "timestamp": "2026-04-05T21:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Anadolu Agency, Moscow Times confirmed evacuation numbers.",
+    "keywords": [
+      "bushehr",
+      "nuclear",
+      "rosatom",
+      "evacuation",
+      "iaea",
+      "day37"
+    ]
+  },
+  {
+    "id": "social-541",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender \u2014 OSINT Analyst",
+    "text": "POPE LEO XIV Easter message \u2014 strongest papal condemnation of Iran war yet: 'Let those who have weapons lay them down! Let those who have the power to unleash wars choose peace!' Lamented world 'becoming indifferent' to violence. Announced April 11 prayer vigil. Significant diplomatic signal.",
+    "timestamp": "2026-04-05T22:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NBC News, Al-Monitor, Axios, CNN confirmed Easter address.",
+    "keywords": [
+      "pope-leo",
+      "vatican",
+      "easter",
+      "peace",
+      "diplomacy",
+      "day37"
+    ]
+  },
+  {
+    "id": "social-542",
+    "handle": "@JulianRoepcke",
+    "displayName": "Julian R\u00f6pcke \u2014 OSINT Analyst",
+    "text": "RUBIO CRACKDOWN: SecState revoked green cards of relatives of Iran's 'most notorious terror general' and had them arrested. Part of broader effort to target regime-connected individuals in US. Separate from sanctions \u2014 this is immigration enforcement action against specific family members.",
+    "timestamp": "2026-04-05T22:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "RedState reported. Identity of the general not disclosed by State Dept.",
+    "keywords": [
+      "rubio",
+      "green-card",
+      "sanctions",
+      "iran",
+      "immigration",
+      "day37"
+    ]
+  },
+  {
+    "id": "social-543",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News \u2014 Lead Source",
+    "text": "Day 37 EVE summary (5:28 PM PDT): F-15E WSO rescue confirmed (Easter miracle); Pope Leo peace plea; Rosatom evacuates 198 from Bushehr (50 remain); Rubio revokes green cards; Gas $4.11; Haifa rescue overnight (3 missing); April 7 deadline TOMORROW; Brent $109.24/WTI $111.54.",
+    "timestamp": "2026-04-06T00:28:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from Axios, NBC News, Anadolu Agency, AAA, Times of Israel, Haaretz.",
+    "keywords": [
+      "day37-eve-summary",
+      "f-15e",
+      "pope-leo",
+      "bushehr",
+      "rubio",
+      "gas",
       "deadline"
     ]
   }
