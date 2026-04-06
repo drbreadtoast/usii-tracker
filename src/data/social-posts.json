@@ -1,23 +1,5 @@
 [
   {
-    "id": "social-520",
-    "handle": "@IranWarLive",
-    "displayName": "IranWarLive \u2014 OSINT Tracker",
-    "text": "Day 37 summary: Bushehr 4th strike (1 killed). Mahshahr petrochem (5 killed, 170 wounded). Cluster munitions near Kirya HQ. Kuwait oil complex droned. Beirut Dahiyeh struck. Tyre hospital damaged (2 girls killed). Lebanon bridge destroyed. Iran rejects ultimatum. April 6 deadline TOMORROW. Brent $109.24/WTI $111.54. Gas $4.10.",
-    "timestamp": "2026-04-05T03:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, UN News, JPost, GMA News, Middle East Eye confirmed all items.",
-    "keywords": [
-      "day37",
-      "summary",
-      "bushehr",
-      "mahshahr",
-      "kuwait",
-      "april6"
-    ]
-  },
-  {
     "id": "social-521",
     "handle": "@sentdefender",
     "displayName": "Sentdefender \u2014 OSINT Analyst",
@@ -434,5 +416,60 @@
       "gas",
       "deadline"
     ]
+  },
+  {
+    "id": "social-544",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender \u2014 OSINT Analyst",
+    "text": "HAIFA UPDATE: Rescue teams confirm 2 dead, 2 still missing under rubble after overnight Iranian ballistic missile direct hit on residential building. 24 wounded. Building partially collapsed. Iran also fired cluster bomb missiles at Petah Tikva (1 serious) and Haifa (4 light).",
+    "timestamp": "2026-04-06T02:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "JPost, Haaretz, Times of Israel confirmed.",
+    "keywords": ["haifa", "missile", "cluster-bomb", "petah-tikva", "day38"]
+  },
+  {
+    "id": "social-545",
+    "handle": "@IranWarLive",
+    "displayName": "IranWarLive \u2014 OSINT Tracker",
+    "text": "LEBANON: Israeli strikes kill 7 in Kfar Hatta (incl. 4yo girl + Lebanese soldier) and 4 near Beirut hospital in Jnah (39 wounded). Masnaa border crossing (Lebanon-Syria) forced closed by Israel. Hezbollah claims cruise missile hit on warship 68nm off coast \u2014 IDF denies. 51 Hezbollah attacks on Israel over weekend.",
+    "timestamp": "2026-04-06T05:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, MTV Lebanon, Times of Israel, Arab News confirmed.",
+    "keywords": ["lebanon", "kfar-hatta", "beirut", "hezbollah", "warship", "day38"]
+  },
+  {
+    "id": "social-546",
+    "handle": "@JulianRoepcke",
+    "displayName": "Julian R\u00f6pcke \u2014 OSINT Analyst",
+    "text": "IRGC Navy declares 'new Persian Gulf order' \u2014 Hormuz will 'never return to its former state.' Iran FM Baghaei rejects Trump's Tuesday deadline as 'incitement to war crimes,' warns of reciprocal attacks. Senior official: Hormuz won't reopen until Iran 'fully compensated' for war damages.",
+    "timestamp": "2026-04-06T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, ABC News, Al Jazeera confirmed.",
+    "keywords": ["irgc", "hormuz", "deadline", "iran", "trump", "day38"]
+  },
+  {
+    "id": "social-547",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News \u2014 Lead Source",
+    "text": "MARKETS: Brent $110.82 (+38.9%); WTI $112.00 (+48.3%). OPEC+ agrees 206k bpd increase for May (Saudi+Russia +62k each). Gas $4.10/gal. FAO Food Index 128.5 (+2.4% MoM). Hormuz Day 35 \u2014 effectively closed. Trump deadline 8PM ET Tuesday.",
+    "timestamp": "2026-04-06T06:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Investing.com, Enerdata, AAA, FAO confirmed.",
+    "keywords": ["oil", "gas", "opec", "food", "hormuz", "day38"]
+  },
+  {
+    "id": "social-548",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News \u2014 Lead Source",
+    "text": "Day 38 AM summary (11:34 PM PDT): Haifa 2 dead/2 missing; cluster bombs Petah Tikva+Haifa; Lebanon 11 killed; Hezbollah warship claim (denied); IRGC 'new Gulf order'; Iran rejects Trump deadline; Masnaa crossing closed; OPEC+ +206k bpd; Brent $110.82/WTI $112.00; gas $4.10; April 7 deadline TOMORROW.",
+    "timestamp": "2026-04-06T06:34:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from JPost, Times of Israel, Al Jazeera, MTV Lebanon, Arab News, NBC News, Enerdata.",
+    "keywords": ["day38-am-summary", "haifa", "lebanon", "hormuz", "deadline", "oil"]
   }
 ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-06T00:28:00Z",
+    "lastUpdated": "2026-04-06T06:34:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-05",
-      "label": "Day 37 \u2014 Brent $109.24 (+36.9%); WTI $111.54 (+47.7%). Thin Saturday trading. Bushehr 4th strike (1 killed). Mahshahr petrochem (5 killed, 170 wounded). Cluster munitions near Kirya HQ. Kuwait oil complex droned. Iran rejects 48h ultimatum. April 6 deadline TOMORROW.",
+      "date": "2026-04-06",
+      "label": "Day 38 \u2014 Brent $110.82 (+38.9%); WTI $112.00 (+48.3%). Sunday thin trading. Haifa 2 dead/2 missing. Cluster bombs on Petah Tikva+Haifa. Lebanon 11 killed. IRGC 'new Gulf order.' Iran rejects Trump deadline. OPEC+ +206k bpd May. April 7 deadline TOMORROW.",
       "brent": {
-        "price": 109.24,
-        "change": "+36.9%",
-        "changeDollars": "+$29.40"
+        "price": 110.82,
+        "change": "+38.9%",
+        "changeDollars": "+$31.02"
       },
       "wti": {
-        "price": 111.54,
-        "change": "+47.7%",
-        "changeDollars": "+$36.03"
+        "price": 112.0,
+        "change": "+48.3%",
+        "changeDollars": "+$36.49"
       },
-      "changePercent": "+36.9%",
-      "lastUpdated": "2026-04-05"
+      "changePercent": "+38.9%",
+      "lastUpdated": "2026-04-06"
     },
     "priceHistory": [
       {
@@ -534,8 +534,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-05",
-    "note": "AAA national average at $4.110/gal (April 5) \u2014 above $4 since March 31 (first since Aug 2022). Up 29.2% from pre-war $3.18. Brent $109.24. F-15E WSO rescued. Pope Leo Easter plea. Rosatom Bushehr evacuation. Rubio green cards. April 7 Hormuz deadline TOMORROW.",
+    "lastUpdated": "2026-04-06",
+    "note": "AAA national average at $4.104/gal (April 6) \u2014 above $4 since March 31 (first since Aug 2022). Up 29.1% from pre-war $3.18. Brent $110.82. Haifa 2 dead/2 missing. Cluster bombs Petah Tikva+Haifa. IRGC 'new Gulf order.' Iran rejects deadline. OPEC+ +206k bpd. April 7 deadline TOMORROW.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -545,13 +545,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.11,
-          "change": "+29.2%",
-          "changeDollars": "+$0.93"
+          "price": 4.104,
+          "change": "+29.1%",
+          "changeDollars": "+$0.92"
         },
-        "change": "+$0.93",
-        "changePercent": "+29.2%",
-        "detail": "Gas at $4.110/gal (AAA April 5). Up $0.93/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $109.24 (+36.9%). WTI $111.54 (+47.7%). April 7 deadline TOMORROW.",
+        "change": "+$0.92",
+        "changePercent": "+29.1%",
+        "detail": "Gas at $4.104/gal (AAA April 6). Up $0.92/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $110.82 (+38.9%). WTI $112.00 (+48.3%). April 7 deadline TOMORROW.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -892,6 +892,13 @@
       "brent": 109.24,
       "wti": 111.54,
       "label": "Day 37 EVE \u2014 Brent $109.24 (+0.2%); WTI $111.54 (flat). Thin Saturday trading. Kuwait desalination/KPC HQ droned. Bahrain BAPCO fire. UAE 60 projectiles. Neot Hovav chemical hit. OPEC+ meeting today. April 6 deadline TOMORROW. Gas $4.10.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-06",
+      "brent": 110.82,
+      "wti": 112.0,
+      "label": "Day 38 AM \u2014 Brent $110.82 (+38.9%); WTI $112.00 (+48.3%). Sunday trading. Haifa 2 dead/2 missing. Cluster bombs Petah Tikva+Haifa. Lebanon 11 killed. IRGC 'new Gulf order.' Iran rejects deadline. OPEC+ +206k bpd for May. Gas $4.10. April 7 deadline TOMORROW.",
       "isEvent": true
     }
   ]

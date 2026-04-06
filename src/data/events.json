@@ -23139,5 +23139,279 @@
       "evacuation",
       "day37"
     ]
+  },
+  {
+    "id": "evt-new-662",
+    "title": "Haifa building rescue: 2 confirmed dead, 2 still missing under rubble",
+    "description": "Overnight rescue operations at the Haifa residential building struck by an Iranian ballistic missile confirmed 2 dead and 2 still missing under rubble. 24 people wounded. Building partially collapsed after direct hit.",
+    "type": "strike",
+    "lat": 32.79,
+    "lng": 34.99,
+    "location": "Haifa, Israel",
+    "timestamp": "2026-04-06T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Overnight Haifa rescue finds two dead",
+        "url": "https://www.jpost.com/israel-news/article-892182"
+      },
+      {
+        "name": "Haaretz — Still missing after Iranian missile hits Haifa",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-05/ty-article/.premium/several-wounded-after-haifa-building-directly-struck-by-iranian-missile/0000019d-5e72-db3c-a3df-dff7e8780000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2,
+      "injured": 24
+    },
+    "tags": ["haifa", "missile", "iran", "residential", "day38"]
+  },
+  {
+    "id": "evt-new-663",
+    "title": "Iranian cluster bomb missile strikes Petah Tikva — woman seriously injured",
+    "description": "Iran fired a ballistic missile with cluster bomb warhead at central Israel. Submunitions struck Petah Tikva, seriously injuring a 34-year-old woman hit by fragments. A man in Tel Aviv lightly injured by glass shards. Marks continued use of cluster warheads against civilian areas.",
+    "type": "strike",
+    "lat": 32.09,
+    "lng": 34.88,
+    "location": "Petah Tikva, Israel",
+    "timestamp": "2026-04-06T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — April 6 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-april-6-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": ["petah-tikva", "cluster-bomb", "iran", "escalation", "day38"]
+  },
+  {
+    "id": "evt-new-664",
+    "title": "Cluster bomb missile hits Haifa area — 4 lightly injured including two girls",
+    "description": "Separate Iranian cluster bomb ballistic missile attack on Haifa area. 4 people lightly injured including a couple in their 40s and two young girls suffering smoke inhalation. Submunitions spread across residential neighborhoods.",
+    "type": "strike",
+    "lat": 32.79,
+    "lng": 34.99,
+    "location": "Haifa area, Israel",
+    "timestamp": "2026-04-06T04:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — April 6 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-april-6-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 4
+    },
+    "tags": ["haifa", "cluster-bomb", "iran", "day38"]
+  },
+  {
+    "id": "evt-new-665",
+    "title": "Israeli airstrike on Kfar Hatta kills 7 including child and soldier",
+    "description": "Israeli airstrike on southern Lebanese town of Kfar Hatta killed 7 people including a 4-year-old girl and a Lebanese Army soldier. A displaced family of 6 was waiting for a ride when struck. At least 8 homes destroyed. IDF had issued forced evacuation order the previous evening.",
+    "type": "strike",
+    "lat": 33.30,
+    "lng": 35.30,
+    "location": "Kfar Hatta, southern Lebanon",
+    "timestamp": "2026-04-06T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — 14 killed in Israeli strikes across Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/4/5/at-least-14-people-killed-in-israeli-strikes-across-lebanon"
+      },
+      {
+        "name": "MTV Lebanon — 7 victims in Kfar Hatta",
+        "url": "https://www.mtv.com.lb/en/news/Local/1677246/7-victims-in-the-strike-on-kfar-hatta"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 7,
+      "injured": 0
+    },
+    "tags": ["lebanon", "kfar-hatta", "israel", "airstrike", "day38"]
+  },
+  {
+    "id": "evt-new-666",
+    "title": "Israeli strike near Beirut hospital kills 4, wounds 39",
+    "description": "Israeli airstrike in Beirut's Jnah neighborhood, approximately 100m from Rafik Hariri University Hospital, killed 4 people and wounded 39. President Aoun pushed for talks with Israel amid escalating strikes on the capital.",
+    "type": "strike",
+    "lat": 33.85,
+    "lng": 35.49,
+    "location": "Jnah, Beirut, Lebanon",
+    "timestamp": "2026-04-06T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Strike kills 4 near Beirut hospital",
+        "url": "https://www.timesofisrael.com/strike-kills-4-near-beirut-hospital-as-president-aoun-pushes-for-talks-with-israel/"
+      },
+      {
+        "name": "Arab News — Strike near Beirut hospital kills 4",
+        "url": "https://www.arabnews.pk/node/2638837/middle-east"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 4,
+      "injured": 39
+    },
+    "tags": ["beirut", "lebanon", "hospital", "israel", "day38"]
+  },
+  {
+    "id": "evt-new-667",
+    "title": "Israel forces closure of Masnaa border crossing (Lebanon-Syria)",
+    "description": "Israel announced it would strike the Masnaa border crossing between Lebanon and Syria, citing Hezbollah weapons smuggling. The crossing was evacuated and closed on both sides, cutting a key supply and escape route.",
+    "type": "infrastructure",
+    "lat": 33.82,
+    "lng": 35.97,
+    "location": "Masnaa, Lebanon-Syria border",
+    "timestamp": "2026-04-06T01:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Manila Times — Israel forces Syria border crossing closed",
+        "url": "https://www.manilatimes.net/2026/04/06/news/israel-renews-lebanon-strikes-forces-syria-border-crossing-closed/2314503"
+      },
+      {
+        "name": "Ya Libnan — Israel forces closure of Syria border crossing",
+        "url": "https://yalibnan.com/2026/04/06/israel-launches-new-strikes-on-lebanon-forces-closure-of-syria-border-crossing/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["masnaa", "border", "lebanon", "syria", "israel", "day38"]
+  },
+  {
+    "id": "evt-new-668",
+    "title": "Hezbollah claims cruise missile hit on Israeli warship — IDF denies",
+    "description": "Hezbollah claimed it fired a cruise missile at an Israeli warship 68 nautical miles off the Lebanese coast at midnight, claiming a direct hit. IDF denied: 'We are not aware of it.' Unverified videos allegedly show a ship ablaze. Reports suggest possible misidentification — may have hit a British vessel.",
+    "type": "naval",
+    "lat": 34.20,
+    "lng": 34.50,
+    "location": "Mediterranean Sea, 126km off Lebanese coast",
+    "timestamp": "2026-04-06T00:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "rumored",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Arab News — Hezbollah says targeted warship with cruise missile",
+        "url": "https://www.arabnews.com/node/2638824/middle-east"
+      },
+      {
+        "name": "Times of Israel — IDF denies Hezbollah warship claim",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-denies-hezbollah-claim-it-struck-israeli-navy-vessel/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "warship", "cruise-missile", "naval", "day38"]
+  },
+  {
+    "id": "evt-new-669",
+    "title": "IRGC Navy declares 'new Persian Gulf order' — Hormuz will 'never return'",
+    "description": "IRGC Navy stated it is completing operational preparations for 'a new Persian Gulf order' and declared the Strait of Hormuz will 'never return to its former state.' Statement came as Trump's April 6 deadline arrived.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-06T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — IRGC preparing 'new Persian Gulf order'",
+        "url": "https://www.timesofisrael.com/liveblog_entry/irgc-says-its-preparing-for-new-persian-gulf-order-hormuz-will-never-return-to-its-former-state/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["irgc", "hormuz", "persian-gulf", "iran", "naval", "day38"]
+  },
+  {
+    "id": "evt-new-670",
+    "title": "OPEC+ agrees to 206,000 bpd output increase starting May",
+    "description": "OPEC+ agreed to increase oil output by 206,000 barrels per day beginning May. Saudi Arabia +62k, Russia +62k, Iraq +26k, UAE +18k, Kuwait +16k, Kazakhstan +10k, Algeria +6k, Oman +5k. Falls far short of 17M bpd blocked by Hormuz.",
+    "type": "diplomatic",
+    "lat": 48.21,
+    "lng": 16.37,
+    "location": "Vienna, Austria (OPEC HQ)",
+    "timestamp": "2026-04-06T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Enerdata — OPEC+ output increase amid Middle East tensions",
+        "url": "https://www.enerdata.net/publications/daily-energy-news/opec-raise-output-206-kbd-april-2026-amid-middle-east-tensions.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["opec", "oil", "production", "hormuz", "day38"]
+  },
+  {
+    "id": "evt-new-671",
+    "title": "Iran FM Baghaei rejects Trump ultimatum — warns of reciprocal attacks",
+    "description": "Iran Foreign Ministry spokesperson Baghaei responded to Trump's 'blowing up the whole country' threat: 'Iran's reaction would be one of reciprocating any such attack.' Dismissed Trump's ultimatum as 'incitement to war crimes.' Senior Iranian official said Hormuz won't reopen until Iran is 'fully compensated' for war damages.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-06T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "ABC News — Iran live updates: Trump touts 'big day'",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-touts-big-day-iran/?id=131532311"
+      },
+      {
+        "name": "Al Jazeera — Tehran rejects Trump's Tuesday deadline",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/6/iran-war-live-tehran-rejects-trumps-tuesday-deadline-on-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "trump", "ultimatum", "rejection", "hormuz", "day38"]
   }
 ]
