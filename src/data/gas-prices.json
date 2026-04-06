@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-06T12:18:00Z",
-  "currentAverage": 4.104,
+  "lastUpdated": "2026-04-06T18:40:00Z",
+  "currentAverage": 4.1,
   "preWarAverage": 3.18,
-  "changePercent": 29.1,
+  "changePercent": 28.9,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -304,6 +304,12 @@
       "price": 4.104,
       "label": "Day 38 — $4.104 (flat on day). Sunday. Haifa 2 dead/2 missing. Cluster bombs Petah Tikva+Haifa. Lebanon 11 killed. IRGC 'new Gulf order.' OPEC+ +206k bpd May. Iran rejects deadline. April 7 deadline TOMORROW.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-06",
+      "price": 4.1,
+      "label": "Day 38 EVE — $4.10/gal; Trump threatens total destruction; deadline TOMORROW",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -354,12 +360,12 @@
     },
     "current": {
       "label": "Current (Apr 2)",
-      "crudePerBarrel": 109.16,
+      "crudePerBarrel": 110,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$109.16 ÷ 42 gal",
-          "value": 2.599,
+          "formula": "$110 ÷ 42 gal",
+          "value": 2.62,
           "percent": 61,
           "change": "+$0.979"
         },
@@ -412,5 +418,5 @@
       "date": "2026-04-06"
     }
   },
-  "context": "AAA national average at $4.104/gallon (April 6), up 29.1% from $3.18 pre-war. Above $4 since March 31 (first since Aug 2022). CA: $5.89. OK: $3.27. Diesel $5.49. Brent $110.82/bbl (+38.8%). WTI $111.54/bbl (+47.7%). IRGC Intel Chief Khademi killed. South Pars petrochemical destroyed. Cluster bombs kill 2 in Ramat Gan. 45-day ceasefire proposal (Islamabad Accord). Qatar LNG attempts Hormuz. Iraqi tanker exemption. April 7 Hormuz deadline TOMORROW."
+  "context": "Day 38 EVE: AAA national average at $4.10/gal — up 28.9% from pre-war $3.18. Trump threatens to destroy all of Iran tomorrow night (Power Plant Day + Bridge Day). Araghchi refuses talks. Iran calls threats \"sheer desperation.\" OPEC+ 206k bpd May hike symbolic. California at $5.89/gal. Deadline TOMORROW 8PM ET."
 }

@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-06T00:28:00Z",
+    "lastUpdated": "2026-04-06T18:40:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 37,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
@@ -102,10 +102,11 @@
       "totalFormatted": "$75.4B",
       "total": 75550000000,
       "lastUpdated": "2026-04-03T06:12:00Z",
-      "note": "Day 33 night. CSIS: $16.5B through Day 12 (~$1.375B/day early). CAP projects ~$25B by Day 26; estimated ~$36B by Day 33. 850+ Tomahawks fired (WaPo). Pentagon submitted $200B+ supplemental budget request. Trump prime-time Oval Office address vowed to hit Iran 'extremely hard' — April 6 Hormuz deadline. USS Tripoli (3,500 Marines) confirmed operational. US Rangers and Navy SEALs deployed. Daily burn rate settling to $800M-$1B/day (CSIS/CAP). Total US troops: 57,000+ in theater. Penn Wharton projects $40B-$95B direct US costs, up to $210B total economic impact.",
+      "note": "Day 38 EVE: ~$45B direct military cost through Day 36 (~$1B/day Pentagon estimate). $200B supplemental requested from Congress. Munitions alone $15B+ (800+ Patriot interceptors = $3B+, Tomahawks, JASSMs). Trump threatens total destruction of Iran tomorrow night.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress.",
       "directMilitary": 37800000000,
-      "description": "US direct military costs ~$37.8B (Day 38). Indirect costs ~$37.6B. Total ~$75.4B. Daily burn rate ~$800M-$1B/day. 57,000+ troops in theater. 900+ Tomahawks fired (~23-29% of Navy inventory). Pentagon $200B supplemental pending Congress. Trump proposed record $1.5T FY2027 defense budget (44% increase)."
+      "description": "US direct military costs ~$37.8B (Day 38). Indirect costs ~$37.6B. Total ~$75.4B. Daily burn rate ~$800M-$1B/day. 57,000+ troops in theater. 900+ Tomahawks fired (~23-29% of Navy inventory). Pentagon $200B supplemental pending Congress. Trump proposed record $1.5T FY2027 defense budget (44% increase).",
+      "totalDirect": "$45B"
     },
     "israel": {
       "name": "Israel",
@@ -826,7 +827,7 @@
     "combinedCost": 160670000000
   },
   "daysOfConflict": 38,
-  "lastUpdated": "2026-04-06T12:18:00Z",
+  "lastUpdated": "2026-04-06T18:40:00Z",
   "dailyBurnRate": 1920000000,
   "totalCost": 51180000000,
   "totalFormatted": "$51.18B (direct military, all countries, Day 38)"
