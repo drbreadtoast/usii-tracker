@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-07T00:37:00Z",
+    "lastUpdated": "2026-04-07T06:24:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 38
+    "conflictDay": 39
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-06",
-      "label": "Day 38 Night — Brent $111.25 (+39.3%); WTI $110.13 (+45.8%). Russia-Iran intel sharing exposed. Velayati threatens Bab al-Mandeb closure. Vance overnight ceasefire talks. JPMorgan: oil $120-$150 if both straits close. Deadline TOMORROW 8pm ET.",
+      "date": "2026-04-07",
+      "label": "Day 39 AM — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Hegseth: most intense strikes coming. Trump 8pm ET deadline tonight. Iran rejects ceasefire. Mojtaba Khamenei missing 30 days. JPMorgan: $120-$150 if Bab al-Mandeb also closes.",
       "brent": {
-        "price": 111.25,
-        "change": "+39.4%",
-        "changeDollars": "+$31.45"
+        "price": 110.05,
+        "change": "+37.9%",
+        "changeDollars": "+$30.25"
       },
       "wti": {
-        "price": 110.13,
-        "change": "+45.9%",
-        "changeDollars": "+$34.63"
+        "price": 113.42,
+        "change": "+50.2%",
+        "changeDollars": "+$37.92"
       },
-      "changePercent": "+39.4% Brent / +45.9% WTI",
-      "lastUpdated": "2026-04-06"
+      "changePercent": "+37.8% Brent / +50.2% WTI",
+      "lastUpdated": "2026-04-07"
     },
     "priceHistory": [
       {
@@ -542,7 +542,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-06",
-    "note": "AAA national average at $4.119/gal (April 6) — above $4 since March 31 (first since Aug 2022). Up 29.5% from pre-war $3.18. Brent $111.25. Velayati threatens Bab al-Mandeb closure. Vance overnight ceasefire talks. Deadline TOMORROW 8PM ET.",
+    "note": "Day 39 DEADLINE DAY: AAA national avg ~$4.12/gal. Brent $110.05 (+37.8%). WTI $113.42 (+50.2%). Hegseth: most intense strikes today. Trump 8pm ET deadline TONIGHT. Iran rejects ceasefire. JPMorgan: $120-$150 if Bab al-Mandeb also closes.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -552,13 +552,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.119,
-          "change": "+29.5%",
+          "price": 4.12,
+          "change": "+29.6%",
           "changeDollars": "+$0.94"
         },
         "change": "+$0.94",
-        "changePercent": "+29.5%",
-        "detail": "Gas at $4.119/gal (AAA April 6). Up $0.94/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $111.25 (+39.3%). WTI $110.13 (+45.8%). April 7 deadline TOMORROW.",
+        "changePercent": "+29.6%",
+        "detail": "Gas ~$4.12/gal (AAA, Day 39). Up ~$0.94/gal from pre-war $3.18. Above $4 since March 31 (first since Aug 2022). California: $5.89/gal. Diesel: $5.49/gal. Brent $110.05 (+37.9%). WTI $113.42 (+50.2%). DEADLINE DAY: 8pm ET tonight.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -636,8 +636,8 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.1,
-    "gasPriceRegular": 4.1,
+    "regularGasoline": 4.12,
+    "gasPriceRegular": 4.12,
     "gasPriceDiesel": "$5.49/gal",
     "changeFromPreWar": "+$0.92",
     "changePercent": "+28.9%"
@@ -870,6 +870,13 @@
       "wti": 110.13,
       "label": "Day 38 Night — Brent $111.25 (+39.3%); WTI $110.13 (+45.8%). Russia-Iran intel sharing on 50+ Israeli energy targets. Velayati threatens Bab al-Mandeb closure. Vance overnight ceasefire talks. Gas $4.119. Deadline TOMORROW 8PM ET.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-07",
+      "brent": 110.05,
+      "wti": 113.42,
+      "label": "Day 39 AM — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Hegseth: most intense strikes today. Trump 8pm ET deadline tonight. Iran rejects ceasefire. Mojtaba Khamenei missing 30 days. Gas ~$4.12.",
+      "isEvent": true
     }
   ],
   "oilPriceHistory": [
@@ -934,6 +941,13 @@
       "brent": 111.25,
       "wti": 110.13,
       "label": "Day 38 Night — Brent $111.25 (+39.3%); WTI $110.13 (+45.8%). Russia-Iran intel sharing on 50+ Israeli targets. Velayati threatens Bab al-Mandeb. Vance overnight talks on Islamabad Accord. Gas $4.119. Deadline TOMORROW 8PM ET.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-07",
+      "brent": 110.05,
+      "wti": 113.42,
+      "label": "Day 39 AM — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Hegseth: most intense day of strikes. Trump 8pm ET Hormuz deadline TONIGHT. Iran rejects ceasefire. Mojtaba Khamenei missing 30 days. Gas ~$4.12.",
       "isEvent": true
     }
   ]

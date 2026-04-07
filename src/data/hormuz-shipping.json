@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 35,
+  "blockadeDay": 36,
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-07T00:37:00Z",
+  "lastUpdated": "2026-04-07T06:24:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -461,6 +461,12 @@
       "event": "Day 38 Night (Blockade Day 35): Iran adviser Velayati threatens 'Resistance front views Bab al-Mandeb as it does Hormuz' — if both straits closed, ~25% of global energy supply blocked. JPMorgan: oil could hit $120-$150/barrel. VP Vance in overnight talks with Pakistan FM + Iran FM on Islamabad Accord ceasefire. Brent surges to $111.25 (+39.3%). Weekly transits at 53 (up from 36). April 7 deadline 8PM ET TOMORROW.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-07",
+      "event": "Day 39 (Blockade Day 36): DEADLINE DAY — Trump's 8pm ET ultimatum expires tonight. Hegseth vows 'most intense day of strikes' on Iran. Iran rejects 45-day ceasefire — demands permanent end to war + guarantees + compensation before Hormuz reopens. No active diplomatic channel. Mojtaba Khamenei missing 30 days. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Gas ~$4.12.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -468,8 +474,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+39.3% Brent ($111.25), +45.8% WTI ($110.13); physical Brent $141.36",
-      "detail": "20% of global supply cut off — Day 35 of blockade. Iraq now exempt from restrictions. Iraqi tanker 'Ocean Thunder' transited April 5. Qatar LNG tankers attempting first exit since Feb 28. Selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines). Weekly transits up to 53 (from 36 prior week). 2,163+ vessels stranded. 45-day ceasefire proposal submitted. Trump deadline Tuesday 8PM ET."
+      "priceImpact": "+37.9% Brent ($110.05), +50.2% WTI ($113.42); physical Brent $141.36",
+      "detail": "20% of global supply cut off — Day 36 of blockade. DEADLINE DAY: Trump 8pm ET tonight. Iran rejects ceasefire — demands permanent end + guarantees. Iraq exempt. Selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines). Weekly transits ~53. 2,163+ vessels stranded. Hegseth: most intense strikes today."
     },
     {
       "commodity": "LNG",
@@ -483,7 +489,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+25%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas at $4.104/gal (AAA April 6) — above $4 since March 31. California: $5.89/gal. Diesel at $5.49/gal. Iraq exemption could unlock 3M bpd of Iraqi exports. OPEC+ +206k bpd for May. Analysts project $4.25-$4.45/gal within 2 weeks."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas ~$4.12/gal (AAA Day 39) — above $4 since March 31. California: $5.89/gal. Diesel: $5.49/gal. Iraq exemption active. OPEC+ +206k bpd for May. Analysts project $4.25-$4.45/gal within 2 weeks."
     },
     {
       "commodity": "Petrochemicals",
