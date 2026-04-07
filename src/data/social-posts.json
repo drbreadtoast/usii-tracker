@@ -1,134 +1,421 @@
 [
   {
-    "id": "social-441",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "BREAKING: Trump just set an April 6 deadline for Iran to reopen Hormuz or face destruction of all energy infrastructure including Kharg Island oil facilities. This is the biggest escalation threat since Day 1. Markets reacting — Brent jumped 5% to $106.",
-    "timestamp": "2026-04-02T01:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, Al Jazeera confirmed Trump address and deadline.",
-    "keywords": ["trump", "april-6", "hormuz", "kharg", "oil", "escalation", "day33"]
-  },
-  {
-    "id": "social-442",
-    "handle": "@War_Mapper",
-    "displayName": "War Mapper — OSINT Analyst",
-    "text": "IDF claims 400+ strikes on Iran in 48 hours using 650+ munitions. 20 weapons production sites in Tehran hit. Isfahan bunker-busters caused massive secondary explosions — largest of the war. Steel plants struck in Isfahan and Ahvaz.",
-    "timestamp": "2026-04-02T01:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera Day 33 liveblog, Alma Research Center confirmed.",
-    "keywords": ["idf", "strikes", "iran", "tehran", "isfahan", "bunker-buster", "day33"]
-  },
-  {
-    "id": "social-443",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Analyst",
-    "text": "Vafaei elimination confirmed: IRGC Quds Force engineering chief who built Hezbollah's tunnel network for 20 years killed in Mahallat. Also: Hezbollah's Southern Front Commander 'Hajj Sadiq' eliminated by Israeli Navy. Two high-value targets in 24 hours.",
-    "timestamp": "2026-04-02T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Ynet News, JNS, Legal Insurrection, Alma Center confirmed both kills.",
-    "keywords": ["vafaei", "hajj-sadiq", "quds-force", "hezbollah", "targeted-killing", "day33"]
-  },
-  {
-    "id": "social-444",
+    "id": "social-544",
     "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "Hezbollah doubled attack waves: 46 waves on March 31 (29 rockets/missiles + 17 UAVs). Iran fired 10 ballistic missiles at central Israel during Passover Seder. Coordinated triple-front attack: Iran + Hezbollah + Houthis. 14 wounded including 11-year-old girl.",
-    "timestamp": "2026-04-02T02:15:00Z",
+    "displayName": "Sentdefender — OSINT Analyst",
+    "text": "HAIFA UPDATE: Rescue teams confirm 2 dead, 2 still missing under rubble after overnight Iranian ballistic missile direct hit on residential building. 24 wounded. Building partially collapsed. Iran also fired cluster bomb missiles at Petah Tikva (1 serious) and Haifa (4 light).",
+    "timestamp": "2026-04-06T02:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel, Jerusalem Post, Alma Center confirmed.",
-    "keywords": ["hezbollah", "passover", "missile", "coordinated", "houthi", "day33"]
+    "verificationNote": "JPost, Haaretz, Times of Israel confirmed.",
+    "keywords": [
+      "haifa",
+      "missile",
+      "cluster-bomb",
+      "petah-tikva",
+      "day38"
+    ]
   },
   {
-    "id": "social-445",
-    "handle": "@faborsky",
-    "displayName": "Faborsky — OSINT Analyst",
-    "text": "Economic warfare escalating: Iran's internet at 4% of normal. 35-nation Hormuz conference in London tomorrow. UAE preparing to help open Hormuz by force (WSJ). China-Pakistan 5-point peace plan proposed. Australia halves fuel excise. Oil volatile $101-$106.",
-    "timestamp": "2026-04-02T02:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "SOCRadar, Haaretz, Bloomberg, Newsweek confirmed.",
-    "keywords": ["hormuz", "internet", "uae", "china", "australia", "oil", "day33"]
-  },
-  {
-    "id": "social-446",
+    "id": "social-545",
     "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 33 night (8:20 PM PDT): Trump address — 2-3 weeks, April 6 deadline; Netanyahu 'Ten Plagues'; Iran denies ceasefire; Brent $106/WTI $104; Vafaei + Hajj Sadiq killed; 46 Hezbollah waves; IDF 400+ strikes in 48h; Isfahan bunker-busters; Kuwait airport hit; gas $4.06; UK Hormuz conf tomorrow.",
-    "timestamp": "2026-04-02T03:20:00Z",
+    "displayName": "IranWarLive — OSINT Tracker",
+    "text": "LEBANON: Israeli strikes kill 7 in Kfar Hatta (incl. 4yo girl + Lebanese soldier) and 4 near Beirut hospital in Jnah (39 wounded). Masnaa border crossing (Lebanon-Syria) forced closed by Israel. Hezbollah claims cruise missile hit on warship 68nm off coast — IDF denies. 51 Hezbollah attacks on Israel over weekend.",
+    "timestamp": "2026-04-06T05:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, MTV Lebanon, Times of Israel, Arab News confirmed.",
+    "keywords": [
+      "lebanon",
+      "kfar-hatta",
+      "beirut",
+      "hezbollah",
+      "warship",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-546",
+    "handle": "@JulianRoepcke",
+    "displayName": "Julian Röpcke — OSINT Analyst",
+    "text": "IRGC Navy declares 'new Persian Gulf order' — Hormuz will 'never return to its former state.' Iran FM Baghaei rejects Trump's Tuesday deadline as 'incitement to war crimes,' warns of reciprocal attacks. Senior official: Hormuz won't reopen until Iran 'fully compensated' for war damages.",
+    "timestamp": "2026-04-06T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, ABC News, Al Jazeera confirmed.",
+    "keywords": [
+      "irgc",
+      "hormuz",
+      "deadline",
+      "iran",
+      "trump",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-547",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "MARKETS: Brent $110.82 (+38.9%); WTI $112.00 (+48.3%). OPEC+ agrees 206k bpd increase for May (Saudi+Russia +62k each). Gas $4.10/gal. FAO Food Index 128.5 (+2.4% MoM). Hormuz Day 35 — effectively closed. Trump deadline 8PM ET Tuesday.",
+    "timestamp": "2026-04-06T06:00:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from CNBC, AAA, Ynet, Al Jazeera, Times of Israel, Alma Center.",
-    "keywords": ["day33", "summary", "trump", "oil", "hormuz", "vafaei", "gas"]
+    "verificationNote": "Investing.com, Enerdata, AAA, FAO confirmed.",
+    "keywords": [
+      "oil",
+      "gas",
+      "opec",
+      "food",
+      "hormuz",
+      "day38"
+    ]
   },
   {
-    "id": "social-447",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "IRGC just threatened 18 major US tech companies (Apple, Google, Meta, Nvidia, Tesla, Boeing) — ordered employee evacuations. Markets rattled. This is unprecedented: first time a state actor has directly threatened named corporations as military targets.",
-    "timestamp": "2026-04-02T05:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Time confirmed IRGC statement.",
-    "keywords": ["irgc", "tech-companies", "apple", "nvidia", "threats", "day34"]
-  },
-  {
-    "id": "social-448",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "4 Iranian missile salvos overnight — cluster warheads again. 2 babies among 4 wounded in Bnei Brak. Meanwhile Hezbollah launched 50+ rockets at northern Israel on Passover morning. Coordinated timing continues: Iran + Hezbollah striking simultaneously.",
-    "timestamp": "2026-04-02T06:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog and IDF confirmed.",
-    "keywords": ["iran", "missiles", "cluster", "hezbollah", "passover", "coordinated", "day34"]
-  },
-  {
-    "id": "social-449",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Analyst",
-    "text": "Oil +8% this morning — Brent $109.16, WTI $108.36. Complete reversal of yesterday's peace-hope dip to $101. Trump's 'hit extremely hard' vow + April 6 Hormuz deadline = markets pricing in escalation, not peace. Goldman now sees $110 average through April.",
-    "timestamp": "2026-04-02T07:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC confirmed price data, Goldman forecast per EIA STEO.",
-    "keywords": ["oil", "brent", "wti", "trump", "escalation", "goldman", "day34"]
-  },
-  {
-    "id": "social-450",
-    "handle": "@War_Mapper",
-    "displayName": "War Mapper — OSINT Analyst",
-    "text": "UK 35-nation Hormuz conference starting now — US conspicuously absent. FM Cooper chairing. France, Germany, Italy, Canada, UAE, Japan all present. This could be the beginning of a non-US Hormuz reopening framework. Military planning session to follow.",
-    "timestamp": "2026-04-02T09:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and Asia Times confirmed summit.",
-    "keywords": ["hormuz", "uk", "35-nations", "cooper", "diplomacy", "day34"]
-  },
-  {
-    "id": "social-451",
-    "handle": "@faborsky",
-    "displayName": "Faborsky — OSINT Analyst",
-    "text": "China-Pakistan 5-point peace plan is the first credible ceasefire framework from a major power. Key: ceasefire + Hormuz reopening packaged together. Pakistan serving as US-Iran mediator. Axios says US may not oppose behind scenes. Watch for Iran's response.",
-    "timestamp": "2026-04-02T08:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Middle East Eye, Axios, SCMP confirmed plan details.",
-    "keywords": ["china", "pakistan", "peace-plan", "ceasefire", "hormuz", "mediation", "day34"]
-  },
-  {
-    "id": "social-452",
-    "handle": "@IranWarLive",
-    "displayName": "Iran War Live — Lead Source",
-    "text": "Day 34 AM (4:40 AM PDT): Brent $109/WTI $108 (+8%); 4 Iran salvos overnight (cluster, 4 hurt); Hezbollah 50+ rockets; IRGC threatens 18 tech giants; UK 35-nation Hormuz summit; China-Pakistan 5-pt peace plan; Rubio-Hegseth ground troop feud; Argentina IRGC designation; gas $4.064.",
-    "timestamp": "2026-04-02T11:40:00Z",
+    "id": "social-548",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Day 38 AM summary (11:34 PM PDT): Haifa 2 dead/2 missing; cluster bombs Petah Tikva+Haifa; Lebanon 11 killed; Hezbollah warship claim (denied); IRGC 'new Gulf order'; Iran rejects Trump deadline; Masnaa crossing closed; OPEC+ +206k bpd; Brent $110.82/WTI $112.00; gas $4.10; April 7 deadline TOMORROW.",
+    "timestamp": "2026-04-06T06:34:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from CNBC, Times of Israel, AAA, Al Jazeera, Middle East Eye.",
-    "keywords": ["day34", "summary", "oil", "hormuz", "irgc", "tech", "peace-plan", "gas"]
+    "verificationNote": "Compiled from JPost, Times of Israel, Al Jazeera, MTV Lebanon, Arab News, NBC News, Enerdata.",
+    "keywords": [
+      "day38-am-summary",
+      "haifa",
+      "lebanon",
+      "hormuz",
+      "deadline",
+      "oil"
+    ]
+  },
+  {
+    "id": "social-549",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "BREAKING: Israel confirms targeted killing of IRGC Intelligence Chief Maj. Gen. Majid Khademi + Quds Force Unit 840 commander Asghar Bagheri in dawn Tehran strike. IRGC's effective No. 2 eliminated. Biggest decapitation strike since Soleimani 2020.",
+    "timestamp": "2026-04-06T08:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "AP, Middle East Eye, NBC News, Xinhua confirmed.",
+    "keywords": [
+      "khademi",
+      "bagheri",
+      "irgc",
+      "assassination",
+      "tehran",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-550",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "South Pars petrochemical complex at Asaluyeh confirmed destroyed by Israeli strikes — 5 killed, 170 injured. Israeli Defense Ministry: 85% of Iran's petrochemical exports now offline. Combined with previous Mahshahr strikes, Iran's non-oil revenue severely crippled.",
+    "timestamp": "2026-04-06T09:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PressTV, Middle East Eye, The Logical Indian confirmed.",
+    "keywords": [
+      "south-pars",
+      "asaluyeh",
+      "petrochemical",
+      "iran",
+      "strike",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-551",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Analyst",
+    "text": "Iranian cluster munitions impact assessment: 28+ bomblet sites across Ramat Gan, Bnei Brak, Givatayim, Petah Tikva. 2 killed (elderly couple 70s), 1 moderate wound. Heavy building damage. First confirmed cluster warhead use on densely populated Tel Aviv suburbs. Escalatory.",
+    "timestamp": "2026-04-06T10:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz, Times of Israel, Israel National News confirmed.",
+    "keywords": [
+      "cluster-munitions",
+      "ramat-gan",
+      "bnei-brak",
+      "iran",
+      "israel",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-552",
+    "handle": "@JulianRoepcke",
+    "displayName": "Julian Röpcke — OSINT Analyst",
+    "text": "ISLAMABAD ACCORD: Egypt/Pakistan/Turkey submit 45-day ceasefire proposal. Phase 1: immediate ceasefire + Hormuz reopening. Phase 2: permanent deal in 15-20 days. Pakistan FM Munir in overnight talks with Vance + Araghchi. Iran: will NOT reopen Hormuz under temporary deal.",
+    "timestamp": "2026-04-06T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios, CBC, CNBC, Al Jazeera, Al-Monitor confirmed.",
+    "keywords": [
+      "ceasefire",
+      "islamabad-accord",
+      "pakistan",
+      "hormuz",
+      "diplomacy",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-553",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender — OSINT Analyst",
+    "text": "Qatar LNG tankers Al Daayen and Rasheeda attempting first Hormuz exit since Feb 28. Al Daayen at 26.10N/55.77E moving 8.8kn toward China (149,613 cbm LNG). Rasheeda pulled back. Iraqi tanker 'Ocean Thunder' (~1M bbl Basrah Heavy) already transited under new Iraq exemption.",
+    "timestamp": "2026-04-06T11:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg confirmed both Qatar LNG transit attempt and Iraqi tanker transit.",
+    "keywords": [
+      "qatar",
+      "lng",
+      "hormuz",
+      "iraq",
+      "tanker",
+      "shipping",
+      "day38"
+    ]
+  },
+  {
+    "id": "social-554",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Day 38 PM summary (05:18 AM PDT): Khademi+Bagheri killed Tehran; South Pars destroyed (5 dead, 170 hurt); Sharif Univ struck; cluster bombs kill 2 Ramat Gan (28+ sites); Haifa 4 dead confirmed; 45-day ceasefire proposal; Qatar LNG Hormuz; Iraqi exemption; IRGC claims USS Tripoli (unverified); Brent $110.82/WTI $111.54; gas $4.104; April 7 deadline TOMORROW.",
+    "timestamp": "2026-04-06T12:18:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from AP, Haaretz, Axios, Bloomberg, Times of Israel, NBC News, AAA.",
+    "keywords": [
+      "day38-pm-summary",
+      "khademi",
+      "south-pars",
+      "cluster-bombs",
+      "ceasefire",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-555",
+    "handle": "@BabakTaghvaee1",
+    "displayName": "Babak Taghvaee",
+    "text": "BREAKING: Planet Labs has imposed indefinite commercial satellite imagery blackout on Iran at US government request, retroactive to March 9. Replaces 14-day delay with \"managed access\" model. Independent damage assessment now impossible.",
+    "timestamp": "2026-04-06T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by SatNews reporting.",
+    "keywords": [
+      "satellite",
+      "imagery",
+      "Planet Labs",
+      "blackout",
+      "OSINT"
+    ]
+  },
+  {
+    "id": "social-556",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "Iran rehabilitating missile sites within hours of US/Israeli strikes per US intelligence. IRGC showing remarkable damage-repair speed despite sustained bombing campaign now in 6th week.",
+    "timestamp": "2026-04-06T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Based on Daily News Egypt report citing US intelligence sources.",
+    "keywords": [
+      "Iran",
+      "missiles",
+      "repair",
+      "IRGC",
+      "resilience"
+    ]
+  },
+  {
+    "id": "social-557",
+    "handle": "@Aurora_Intel",
+    "displayName": "Aurora Intel",
+    "text": "IRGC Intelligence Chief Maj. Gen. Majid Khademi confirmed killed overnight Apr 5-6 alongside Quds Force Unit 840 commander Asghar Bagheri. Khademi described as effectively No. 2 within IRGC. This is 40th+ senior Iranian official eliminated.",
+    "timestamp": "2026-04-06T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IDF confirmed via Fox News, Jerusalem Post.",
+    "keywords": [
+      "Khademi",
+      "Bagheri",
+      "IRGC",
+      "assassination",
+      "targeted killing"
+    ]
+  },
+  {
+    "id": "social-558",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "text": "Trump press conference: \"The entire country can be taken out in one night, and that night might be tomorrow night.\" Sets final Hormuz deadline Tuesday 8pm ET. Power Plant Day + Bridge Day threatened. This is the most direct threat of total destruction yet.",
+    "timestamp": "2026-04-06T17:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Directly quoted from White House press conference. Multiple outlets confirmed.",
+    "keywords": [
+      "Trump",
+      "escalation",
+      "Hormuz",
+      "deadline",
+      "destruction"
+    ]
+  },
+  {
+    "id": "social-559",
+    "handle": "@ELINTNews",
+    "displayName": "ELINT News",
+    "text": "OPEC+ confirms 206,000 bpd output hike for May — largely symbolic as only 2% of Hormuz-disrupted supply. Oil can't transit Hormuz anyway. Brent down slightly to $109.90, WTI $111.81. Markets bracing for Trump Tuesday deadline.",
+    "timestamp": "2026-04-06T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "OPEC+ confirmed via Euronews, Al Jazeera, CNBC.",
+    "keywords": [
+      "OPEC+",
+      "oil",
+      "output",
+      "Hormuz",
+      "symbolic"
+    ]
+  },
+  {
+    "id": "social-560",
+    "handle": "@LinaArabii",
+    "displayName": "Lina Sinjab",
+    "text": "Araghchi on CBS: \"We don't see any reason why we should talk with Americans.\" Also confirmed Lavrov phone call. Iran's position hardening ahead of Trump's Tuesday deadline — diplomatic window narrowing rapidly.",
+    "timestamp": "2026-04-06T15:45:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS Face the Nation broadcast confirmed.",
+    "keywords": [
+      "Araghchi",
+      "diplomacy",
+      "CBS",
+      "Lavrov",
+      "deadline"
+    ]
+  },
+  {
+    "id": "social-561",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "Pope Leo XIV Easter message: \"Let those who have weapons lay them down!\" Hoped Trump would find \"off-ramp.\" First pope to directly reference a sitting US president in Easter address in modern history. Vatican reportedly in back-channel contact with Tehran.",
+    "timestamp": "2026-04-06T13:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed via Washington Post, NBC, Axios.",
+    "keywords": [
+      "Pope Leo",
+      "Easter",
+      "peace",
+      "Vatican",
+      "off-ramp"
+    ]
+  },
+  {
+    "id": "social-562",
+    "handle": "@IntelDoge",
+    "displayName": "IntelDoge",
+    "text": "Zelensky reveals Russia provided Iran with satellite intelligence on 50-53 Israeli energy grid targets in three strategic tiers. Orot Rabin named as primary target. Russia called Israel an 'energy island.' Massive intelligence escalation.",
+    "timestamp": "2026-04-06T20:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Kyiv Post and Jerusalem Post.",
+    "keywords": [
+      "Russia",
+      "Iran",
+      "intelligence",
+      "energy",
+      "Zelensky"
+    ]
+  },
+  {
+    "id": "social-563",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "CRITICAL: Iran adviser Velayati threatens to close Bab al-Mandeb alongside Hormuz. 'Resistance front views Bab al-Mandeb as it does Hormuz.' If both straits closed simultaneously, ~25% of global energy blocked. JPMorgan: oil could hit $120-$150.",
+    "timestamp": "2026-04-06T21:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by Al Jazeera reporting.",
+    "keywords": [
+      "Bab al-Mandeb",
+      "Hormuz",
+      "escalation",
+      "oil",
+      "Velayati"
+    ]
+  },
+  {
+    "id": "social-564",
+    "handle": "@AlmaCenter",
+    "displayName": "Alma Research Center",
+    "text": "Day 38 daily report: 455 Iranian attack waves against Israel since war began. 18 attack waves toward northern Israel past week (March 30-April 5). Daily average down to 7.7/day. 1,121 Hezbollah attack waves since March 2.",
+    "timestamp": "2026-04-06T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Published on Alma Research Center website.",
+    "keywords": [
+      "Alma",
+      "attack waves",
+      "Hezbollah",
+      "statistics",
+      "OSINT"
+    ]
+  },
+  {
+    "id": "social-565",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "VP Vance reportedly in overnight talks with Pakistan FM Munir and Iranian FM Araghchi via Islamabad channel. Two-phase ceasefire deal on table. Reports say a deal 'could be today.' Deadline 8PM ET Tuesday.",
+    "timestamp": "2026-04-07T00:15:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "likely",
+    "verificationNote": "Reported by Breitbart, CNBC.",
+    "keywords": [
+      "Vance",
+      "ceasefire",
+      "Pakistan",
+      "Islamabad Accord",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "social-566",
+    "handle": "@ELINTNews",
+    "displayName": "ELINT News",
+    "text": "Oil surging ahead of Trump deadline: Brent $111.25 (+39.3%), WTI $110.13 (+45.8%). Physical dated Brent hit $141 on Apr 2 — highest since 2008. IEA warns 'April will be much worse than March.' IEA 400M barrel release barely denting prices.",
+    "timestamp": "2026-04-06T22:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Oil prices confirmed via Fortune, Investing.com.",
+    "keywords": [
+      "oil",
+      "Brent",
+      "WTI",
+      "IEA",
+      "deadline"
+    ]
+  },
+  {
+    "id": "social-567",
+    "handle": "@StratSentinel",
+    "displayName": "Strategic Sentinel",
+    "text": "Pentagon confirms 15,000+ enemy targets hit in Iran conflict. 13 US KIA, 365 WIA. Hegseth compared F-15 pilot rescue to Easter resurrection. Iran Health Ministry: 2,076+ killed. HRANA independent count: 3,540 killed (1,616 civilians, 244+ children).",
+    "timestamp": "2026-04-06T19:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Pentagon figures from PBS/Military.com. Iran figures from Al Jazeera tracker.",
+    "keywords": [
+      "Pentagon",
+      "casualties",
+      "Hegseth",
+      "HRANA",
+      "death toll"
+    ]
   }
 ]

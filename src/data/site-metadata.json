@@ -1,51 +1,61 @@
 {
-  "lastUpdated": "2026-04-02T11:40:00Z",
+  "lastUpdated": "2026-04-07T00:37:00Z",
   "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.1",
-  "conflictDay": 34,
-  "totalSocialPosts": 12,
+  "conflictDay": 38,
+  "totalSocialPosts": 24,
   "dataFiles": {
-    "events": 611,
-    "warTimeline": 555,
-    "breaking": 23,
-    "socialPosts": 12,
-    "governmentStatements": 345,
-    "escalations": 262,
-    "missileStrikes": 353,
-    "damageLocations": 272,
+    "events": 737,
+    "warTimeline": 619,
+    "breaking": 13,
+    "socialPosts": 24,
+    "governmentStatements": 406,
+    "escalations": 314,
+    "missileStrikes": 406,
+    "damageLocations": 310,
     "factCheckClaims": 77,
-    "statementsTimeline": 381,
-    "damageData": 272,
+    "statementsTimeline": 450,
+    "damageData": {
+      "entries": 310,
+      "lastId": "dmg-314"
+    },
     "factCheck": 77,
-    "statements": 381,
-    "globalInvolvement": 19,
-    "timeline": 555,
+    "statements": 450,
+    "globalInvolvement": 20,
+    "timeline": 619,
     "war-timeline": {
-      "totalEntries": 555,
-      "lastId": "tl-555"
+      "totalEntries": 619,
+      "lastId": "tl-619"
     },
     "missile-strikes": {
-      "totalEntries": 353,
-      "lastId": "ms-353"
+      "totalEntries": 406,
+      "lastId": "ms-406"
     },
     "damage-data": {
-      "totalEntries": 272,
-      "lastId": "dmg-272"
+      "totalEntries": 310,
+      "lastId": "dmg-314"
     },
     "government-statements": {
-      "totalEntries": 345,
-      "lastId": "gov-345"
+      "totalEntries": 406,
+      "lastId": "gov-406",
+      "entries": 406
     },
     "social-posts": {
-      "totalEntries": 12,
-      "lastId": "social-452"
+      "totalEntries": 24,
+      "lastId": "social-567",
+      "entries": 24
     },
-    "damageSites": 272,
+    "damageSites": 310,
     "global-involvement": {
-      "totalEntries": 19,
-      "lastId": "gi-pakistan"
+      "totalEntries": 20,
+      "lastId": "gi-oman"
+    },
+    "statements-timeline": {
+      "totalEntries": 450,
+      "lastId": null
     }
   },
-  "updateNote": "Day 34 AM refresh — Iran 4 overnight salvos; Hezbollah 50+ Passover rockets; Brent $109/WTI $108 (+8%); IRGC threatens tech; UK Hormuz summit; China-Pakistan peace plan; gas $4.064"
+  "updateNote": "Day 38 5:37 PM PT — Russia-Iran intel sharing; Bab al-Mandeb threat; Vance ceasefire talks; Brent $111.25/WTI $110.13; gas $4.119; DEADLINE TOMORROW 8PM ET",
+  "damageSites": 310
 }
