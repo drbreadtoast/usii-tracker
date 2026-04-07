@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 36,
+  "blockadeDay": 35,
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-07T12:00:00Z",
+  "lastUpdated": "2026-04-07T14:20:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -33,7 +33,7 @@
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Only 12 vessels transited April 3 (down from 138/day peacetime — 91% reduction). 2,163+ vessels stranded. 27 commercial ships attacked since March 1 (13 tankers). 63 ships used Iran-approved Larak Island route. Ghalibaf signals Bab el-Mandeb blockade threat. UNSC vote delayed to Apr 5. Philippines granted transit (Apr 2). Countries approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines.",
+    "note": "53 vessels transited last week (most since war began). 8 countries approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines. Qatar LNG ships aborted Hormuz exit April 6. Iran charging ~$2M per transit in yuan/crypto. Three reopening scenarios under discussion: military clearing, negotiated, or gradual toll-based.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 53,
@@ -465,6 +465,12 @@
     {
       "date": "2026-04-07",
       "event": "Day 39 (Blockade Day 36): DEADLINE DAY — Trump's 8pm ET ultimatum expires tonight. Hegseth vows 'most intense day of strikes' on Iran. Iran rejects 45-day ceasefire — demands permanent end to war + guarantees + compensation before Hormuz reopens. No active diplomatic channel. Mojtaba Khamenei missing 30 days. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Gas ~$4.12.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-07",
+      "event": "DEADLINE DAY: Trump 8PM ET deadline for Iran to reopen Hormuz. US strikes 50+ military targets on Kharg Island. Weekly transits reached 53 (highest since blockade). Qatar LNG aborted exit. OPEC+ agreed +206K bpd May.",
       "status": "effectively_closed",
       "barrels": 0
     }

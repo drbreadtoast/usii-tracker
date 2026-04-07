@@ -35,29 +35,29 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-06T18:40:00Z",
+    "lastUpdated": "2026-04-07T14:20:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 37,
+    "daysOfConflict": 39,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 37
+    "conflictDay": 39
   },
   "countryCosts": {
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
       "directMilitaryCosts": {
-        "total": 37800000000,
+        "total": 38700000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 12800000000,
-            "description": "Tomahawk cruise missiles (900+ used at $2M each = $1.8B — 9× annual procurement rate, approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones (10,000 deployed at $14K each). CSIS: $5.6B in munitions first 2 days alone. Pentagon $200B+ supplemental requested for replenishment. 900+ Tomahawks represents ~23-29% of Navy's estimated active inventory. Day 37: Trump vowed to hit Iran 'extremely hard' if Hormuz not reopened by April 6.",
+            "amount": 13400000000,
+            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 39: 50+ strikes on Kharg Island. IDF bridges/railways campaign. Pentagon $200B+ supplemental requested.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
-            "amount": 8200000000,
-            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU (2,500 Marines) departed San Diego March 20, destroyer/submarine operations, naval aviation sorties. 3 CSGs at $7M/day each = $21M/day combined. France deployed Charles de Gaulle + 10 warships. Day 37: sustained Hormuz patrol operations.",
+            "amount": 8500000000,
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU, destroyer/submarine operations. Day 39: sustained Hormuz patrol + Kharg Island strike support.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
@@ -812,19 +812,20 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 51180000000,
+    "allCountriesDirectMilitary": 52080000000,
     "allCountriesIndirectCosts": 109490000000,
-    "combinedTotalCosts": 160670000000,
+    "combinedTotalCosts": 161570000000,
     "globalEconomicImpact": 870000000000,
     "description": "Combined direct military + indirect economic costs through Day 39.",
-    "lastCalculated": "2026-04-07T00:37:00Z",
+    "lastCalculated": "2026-04-07T14:20:00Z",
     "allCountriesIndirect": 109490000000,
-    "combinedTotalFormatted": "$160.67B",
-    "lastUpdated": "2026-04-06T12:18:00Z",
-    "directCosts": 51180000000,
+    "combinedTotalFormatted": "$161.57B",
+    "lastUpdated": "2026-04-07T14:20:00Z",
+    "directCosts": 52080000000,
     "indirectCosts": 109490000000,
     "combinedCosts": 160670000000,
-    "combinedCost": 160670000000
+    "combinedCost": 160670000000,
+    "combinedCostTotal": 161570000000
   },
   "daysOfConflict": 39,
   "lastUpdated": "2026-04-07T12:00:00Z",
