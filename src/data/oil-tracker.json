@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-07T06:24:00Z",
+    "lastUpdated": "2026-04-07T12:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,7 +74,7 @@
     },
     "current": {
       "date": "2026-04-07",
-      "label": "Day 39 AM — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Hegseth: most intense strikes coming. Trump 8pm ET deadline tonight. Iran rejects ceasefire. Mojtaba Khamenei missing 30 days. JPMorgan: $120-$150 if Bab al-Mandeb also closes.",
+      "label": "Day 39 Midday — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). IDF completes wide-scale strike wave. 33+ killed in Tehran residential areas. IRGC intel chief Khademi killed. Kharg Island hit. Istanbul consulate attack. Trump 8pm ET deadline TONIGHT.",
       "brent": {
         "price": 110.05,
         "change": "+37.9%",
@@ -948,6 +948,13 @@
       "brent": 110.05,
       "wti": 113.42,
       "label": "Day 39 AM — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Hegseth: most intense day of strikes. Trump 8pm ET Hormuz deadline TONIGHT. Iran rejects ceasefire. Mojtaba Khamenei missing 30 days. Gas ~$4.12.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-07",
+      "brent": 110.05,
+      "wti": 113.42,
+      "label": "Day 39 Midday — Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). IDF wide-scale strike wave completed. 33+ killed Tehran residential. Rafi-Nia Synagogue destroyed. IRGC intel chief Khademi killed. Kharg Island hit. Istanbul consulate attack. Iran calls human chains. DEADLINE 8PM ET.",
       "isEvent": true
     }
   ]

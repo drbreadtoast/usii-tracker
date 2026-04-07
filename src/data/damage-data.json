@@ -28,9 +28,9 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 310,
-    "confirmed": 255,
-    "reported": 9,
+    "totalSites": 314,
+    "confirmed": 257,
+    "reported": 10,
     "rumored": 3,
     "countriesAffected": 15,
     "categories": {
@@ -4958,6 +4958,62 @@
       "source": "Haaretz",
       "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-06/ty-article-live/israeli-source-u-s-iran-talks-likely-to-fail-israel-prepares-extensive-attack/0000019d-60ee-db3c-a3df-e9ef27260000",
       "damageLevel": "severe"
+    },
+    {
+      "id": "dmg-315",
+      "name": "Baharestan Residential Area \u2014 Tehran",
+      "country": "Iran",
+      "lat": 35.55,
+      "lng": 51.50,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "Overnight residential strike in Baharestan county. 13 killed including 4 girls and 2 boys under age 10.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/7/synagogue-in-tehran-destroyed-in-us-israeli-strikes-on-iran",
+      "damageLevel": "severe"
+    },
+    {
+      "id": "dmg-316",
+      "name": "Alborz Province Residential Area",
+      "country": "Iran",
+      "lat": 35.83,
+      "lng": 50.99,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "Strike in Alborz province NW of Tehran. 18 killed including 2 infants, 24 injured.",
+      "source": "Military.com",
+      "sourceUrl": "https://www.military.com/daily-news/2026/04/07/iran-calls-human-chains-protect-power-plants-trumps-deadline-nears.html",
+      "damageLevel": "severe"
+    },
+    {
+      "id": "dmg-317",
+      "name": "Rafi-Nia Synagogue \u2014 Central Tehran",
+      "country": "Iran",
+      "lat": 35.69,
+      "lng": 51.42,
+      "category": "cultural",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "Rafi-Nia Synagogue 'completely destroyed' when adjacent residential building struck. One of the most important Khorasan Jewish gathering places.",
+      "source": "Middle East Eye",
+      "sourceUrl": "https://www.middleeasteye.net/news/us-israeli-strikes-completely-destroy-synagogue-tehran",
+      "damageLevel": "destroyed"
+    },
+    {
+      "id": "dmg-318",
+      "name": "Kharg Island Oil Terminal",
+      "country": "Iran",
+      "lat": 29.23,
+      "lng": 50.33,
+      "category": "energy",
+      "status": "reported",
+      "date": "2026-04-07",
+      "description": "New explosions reported on Kharg Island \u2014 Iran's main oil export terminal handling ~90% of oil exports. Damage to oil infrastructure not yet confirmed.",
+      "source": "LBC",
+      "sourceUrl": "https://www.lbc.co.uk/article/kharg-island-strikes-iran-5HjdXPH_2/",
+      "damageLevel": "unknown"
     }
   ]
 }
