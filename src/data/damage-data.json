@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-07T14:20:00Z",
+    "lastUpdated": "2026-04-07T18:45:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,9 +28,9 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 320,
-    "confirmed": 257,
-    "reported": 10,
+    "totalSites": 324,
+    "confirmed": 39,
+    "reported": 11,
     "rumored": 3,
     "countriesAffected": 15,
     "categories": {
@@ -5098,6 +5098,66 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/7/israel-warns-iranians-to-avoid-trains-as-trump-deadline-approaches",
       "damageLevel": "severe"
+    },
+    {
+      "id": "dmg-325",
+      "name": "SABIC Petrochemical Complex, Jubail",
+      "country": "Saudi Arabia",
+      "lat": 26.96,
+      "lng": 49.66,
+      "category": "industrial",
+      "status": "reported",
+      "date": "2026-04-07",
+      "description": "Debris from intercepted Iranian missiles struck SABIC petrochemical complex at Jubail Industrial City, igniting fire. Partial evacuations of worker housing ordered.",
+      "source": "Al-Monitor",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/04/iran-has-attacked-saudi-arabias-jubail-petrochemical-complex-irgc-says",
+      "damageLevel": "moderate",
+      "verificationStatus": "confirmed"
+    },
+    {
+      "id": "dmg-326",
+      "name": "Arvan Shipbuilding Company, Khorramshahr",
+      "country": "Iran",
+      "lat": 30.44,
+      "lng": 48.17,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "IDF struck Arvan Shipbuilding — produces fast-attack boats and IRGC missile corvettes. Smoke plumes visible 20km away. Shatt al-Arab shipping halted.",
+      "source": "Alma Center",
+      "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-april-7-2026-1600/",
+      "damageLevel": "severe",
+      "verificationStatus": "confirmed"
+    },
+    {
+      "id": "dmg-327",
+      "name": "Shahid Mahdavi Marine Industries, Khorramshahr",
+      "country": "Iran",
+      "lat": 30.45,
+      "lng": 48.18,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "IDF struck Shahid Mahdavi Marine Industries — part of 80% IRGC Navy surface combatant production capacity in Khorramshahr.",
+      "source": "Kurdistan24",
+      "sourceUrl": "https://www.kurdistan24.net/en/story/902718/strikes-hit-iranian-energy-facilities-in-isfahan-khorramshahr-amid-ongoing-tensions",
+      "damageLevel": "severe",
+      "verificationStatus": "confirmed"
+    },
+    {
+      "id": "dmg-328",
+      "name": "IRGC Headquarters, Natanz",
+      "country": "Iran",
+      "lat": 33.72,
+      "lng": 51.73,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "IDF targeted IRGC headquarters and Iranian police headquarters in the Natanz area of Isfahan Province.",
+      "source": "Alma Center",
+      "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-april-7-2026-1600/",
+      "damageLevel": "severe",
+      "verificationStatus": "confirmed"
     }
   ]
 }
