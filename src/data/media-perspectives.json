@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-04-07T18:45:00Z",
+  "lastUpdated": "2026-04-07T22:53:00Z",
   "categories": [
     {
       "id": "us-left",
       "label": "US Left-Leaning Media",
       "color": "#3b82f6",
-      "icon": "📰",
+      "icon": "\ud83d\udcf0",
       "outlets": [
         {
           "name": "CNN",
-          "headline": "Trump threatens 'a whole civilization will die tonight' ahead of his Iran deadline",
-          "timestamp": "2026-04-07T17:00:00Z",
+          "headline": "Trump threatens 'a whole civilization will die tonight' \u2014 then agrees to 2-week ceasefire",
+          "timestamp": "2026-04-08T00:15:00Z",
           "url": "https://www.cnn.com/2026/04/07/world/live-news/iran-war-trump-us-israel",
-          "summary": "Live coverage of Trump's escalating rhetoric as 8pm ET Hormuz deadline approaches. Russia/China veto UNSC resolution."
+          "summary": "Coverage of Trump's escalatory rhetoric followed by surprise ceasefire agreement mediated by Pakistan."
         },
         {
-          "name": "NPR",
-          "headline": "Trump warns 'a whole civilization will die tonight' if Iran fails to meet his deadline",
-          "timestamp": "2026-04-07T16:00:00Z",
-          "url": "https://www.npr.org/2026/04/07/nx-s1-5776377/iran-war-updates",
-          "summary": "Coverage of Trump's civilizational threat language and congressional backlash from House Democrats demanding emergency recess recall."
+          "name": "Washington Post",
+          "headline": "US and Israel strike Iran's oil, rail and bridges ahead of Trump deadline",
+          "timestamp": "2026-04-07T20:00:00Z",
+          "url": "https://www.washingtonpost.com/business/2026/04/07/iran-us-israel-trump-lebanon-april-7-2026/bc48fe0c-3239-11f1-b85b-2cd751275c1d_story.html",
+          "summary": "Comprehensive reporting on Day 39 military operations and the diplomatic whiplash from threat to ceasefire."
         }
       ]
     },
@@ -27,21 +27,21 @@
       "id": "us-right",
       "label": "US Right-Leaning Media",
       "color": "#ef4444",
-      "icon": "📺",
+      "icon": "\ud83d\udcfa",
       "outlets": [
         {
           "name": "Fox News",
-          "headline": "Iran war threatens to escalate as Trump demands reopening of Strait of Hormuz",
-          "timestamp": "2026-04-07T16:00:00Z",
-          "url": "https://www.foxnews.com/live-news/trump-iran-deadline-israel-hormuz-april-7",
-          "summary": "Live updates focusing on Trump's deadline enforcement. Hegseth promises 'most intense day' of strikes Tuesday."
+          "headline": "Vance says Iran has '2 pathways' as deadline looms; Trump agrees to 2-week pause",
+          "timestamp": "2026-04-08T00:20:00Z",
+          "url": "https://www.foxnews.com/politics/vance-says-iran-2-pathways-12-hour-deadline-looms-prays-us-gods-side-nixing-nuclear-threat",
+          "summary": "Coverage of Vance's Budapest remarks and Trump's ceasefire decision. Framed as 'peace through strength.'"
         },
         {
-          "name": "Washington Times",
-          "headline": "Trump ramps up ultimatum to Iran: 'A whole civilization will die'",
-          "timestamp": "2026-04-07T16:00:00Z",
-          "url": "https://www.washingtontimes.com/news/2026/apr/7/donald-trump-ramps-ultimatum-iran-whole-civilization-die-tonight/",
-          "summary": "Coverage of Trump's deadline rhetoric. Op-ed critiques Pope Leo's 'flawed war doctrine.'"
+          "name": "Fox News",
+          "headline": "Russia, China veto UN resolution aimed at reopening Strait of Hormuz hours before Trump deadline",
+          "timestamp": "2026-04-07T17:30:00Z",
+          "url": "https://www.foxnews.com/world/russia-china-veto-un-resolution-aimed-reopening-strait-hormuz-hours-trump-deadline",
+          "summary": "Emphasis on Russia-China obstruction and justification for unilateral US action."
         }
       ]
     },
@@ -49,21 +49,21 @@
       "id": "international",
       "label": "International Media",
       "color": "#8b5cf6",
-      "icon": "🌍",
+      "icon": "\ud83c\udf0d",
       "outlets": [
         {
           "name": "Al Jazeera",
-          "headline": "Iran war: What is happening on day 39 of US-Israeli attacks?",
-          "timestamp": "2026-04-07T17:00:00Z",
-          "url": "https://www.aljazeera.com/news/2026/4/7/iran-war-what-is-happening-on-day-39-of-us-israeli-attacks",
-          "summary": "Comprehensive Day 39 roundup. Iran's 10-point peace plan. Russia/China veto Hormuz. Human chains at power plants."
+          "headline": "Iran war: Trump says US to suspend 'bombing, attack' for two weeks",
+          "timestamp": "2026-04-08T00:20:00Z",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/4/7/iran-war-live-trump-warns-of-devastating-attacks-as-deal-deadline-nears",
+          "summary": "Live coverage of Day 39 from threats to ceasefire. Focus on humanitarian impact and cluster munition use."
         },
         {
-          "name": "PBS",
-          "headline": "Russia and China veto watered-down UN resolution aimed at reopening the Strait of Hormuz",
-          "timestamp": "2026-04-07T17:30:00Z",
-          "url": "https://www.pbs.org/newshour/world/russia-and-china-veto-watered-down-un-resolution-aimed-at-reopening-the-strait-of-hormuz",
-          "summary": "UNSC vote coverage. 11-2 vote. Bahrain-sponsored resolution killed by Russian and Chinese vetoes."
+          "name": "BBC",
+          "headline": "Trump offers two-week ceasefire after threatening to destroy Iran",
+          "timestamp": "2026-04-08T00:30:00Z",
+          "url": "https://www.bbc.com/news/world-middle-east",
+          "summary": "Analysis of the diplomatic reversal and Pakistan's mediation role."
         }
       ]
     },
@@ -71,21 +71,21 @@
       "id": "israeli",
       "label": "Israeli Media",
       "color": "#f59e0b",
-      "icon": "✡️",
+      "icon": "\u2721\ufe0f",
       "outlets": [
         {
-          "name": "Jerusalem Post",
-          "headline": "Netanyahu confirms strikes on bridges, railways across Iran to thwart IRGC launcher capacity",
-          "timestamp": "2026-04-07T16:00:00Z",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-892297",
-          "summary": "Netanyahu briefing on IDF infrastructure campaign. 8 bridge segments hit across Tehran, Karaj, Tabriz, Kashan, Qom."
+          "name": "Times of Israel",
+          "headline": "Iran fires ballistic missile salvos at central, southern Israel on last day of Passover",
+          "timestamp": "2026-04-07T19:00:00Z",
+          "url": "https://www.timesofisrael.com/liveblog-april-7-2026/",
+          "summary": "Live coverage of 6 BM salvos with cluster munitions hitting Israeli population centers."
         },
         {
-          "name": "Times of Israel",
-          "headline": "US, IDF strikes hit Iranian rail and Kharg Island; Israel faces ongoing missile attacks",
-          "timestamp": "2026-04-07T17:00:00Z",
-          "url": "https://www.timesofisrael.com/liveblog-april-7-2026/",
-          "summary": "Liveblog covering Day 39. Mojtaba Khamenei incapacitated report. Iran fires BMs at Israel on Passover. UNSC veto."
+          "name": "Jerusalem Post",
+          "headline": "Netanyahu confirms strikes on bridges, railways across Iran to thwart IRGC",
+          "timestamp": "2026-04-07T20:00:00Z",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-892297",
+          "summary": "IDF infrastructure campaign targeting transportation networks used by IRGC."
         }
       ]
     },
@@ -93,21 +93,21 @@
       "id": "iranian",
       "label": "Iranian State Media",
       "color": "#10b981",
-      "icon": "🇮🇷",
+      "icon": "\ud83c\uddee\ud83c\uddf7",
       "outlets": [
         {
-          "name": "Iran International",
-          "headline": "Iran cuts all diplomatic and backchannel contact with US",
-          "timestamp": "2026-04-07T17:00:00Z",
-          "url": "https://www.iranintl.com/en/202604072451",
-          "summary": "Tehran severs all communication with Washington. Comes after Trump's civilizational threat. Pakistan channel may continue."
+          "name": "Press TV",
+          "headline": "IRGC launches Wave 99 of Operation True Promise IV against US-Israeli positions",
+          "timestamp": "2026-04-07T21:00:00Z",
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260407-presstv04.htm",
+          "summary": "Coverage of IRGC retaliatory strikes against US bases in Kuwait and Saudi Arabia."
         },
         {
-          "name": "PressTV",
-          "headline": "Human chains form around power plants as Iranians defy Trump infrastructure threat",
-          "timestamp": "2026-04-07T16:00:00Z",
-          "url": "https://www.france24.com/en/video/20260407-iran-calls-for-young-people-to-form-human-chains-to-protect-power-plants",
-          "summary": "Coverage of Iranian citizens forming human shields around power stations ahead of Trump's deadline to destroy infrastructure."
+          "name": "IRNA",
+          "headline": "Government spokesperson: Trump's civilization threat 'a sign of ignorance'",
+          "timestamp": "2026-04-07T19:00:00Z",
+          "url": "https://www.tasnimnews.ir/en/news/2026/04/07/3559537/iran-s-retaliatory-response-may-deprive-us-allies-of-oil-gas-for-years-irgc",
+          "summary": "Iranian government response to Trump's threats and framing of conflict as defense of Islamic civilization."
         }
       ]
     }
