@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/ads.txt", "destination": "https://srv.adstxtmanager.com/19390/theossreport.com" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [

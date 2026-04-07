@@ -23,6 +23,9 @@ import FollowTheStatementsPage from './pages/FollowTheStatementsPage'
 import FollowTheDamagePage from './pages/FollowTheDamagePage'
 import PatchNotesPage from './pages/PatchNotesPage'
 import FactCheckPage from './pages/FactCheckPage'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
+import TermsOfServicePage from './pages/TermsOfServicePage'
+import AboutPage from './pages/AboutPage'
 
 export default function App() {
   const location = useLocation()
@@ -59,6 +62,9 @@ export default function App() {
           <Route path="/follow-the-damage" element={<FollowTheDamagePage />} />
           <Route path="/fact-check" element={<FactCheckPage />} />
           <Route path="/patch-notes" element={<PatchNotesPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/privacy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms" element={<TermsOfServicePage />} />
         </Routes>
       </div>
       {/* Fixed bottom bars — always visible on all pages */}

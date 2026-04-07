@@ -4,7 +4,7 @@ import FilterPanel from '../components/Layout/FilterPanel'
 import ConflictMap from '../components/Map/ConflictMap'
 import VideoSection from '../components/Media/VideoSection'
 import HomepageSummary from '../components/Layout/HomepageSummary'
-import SpeechReport from '../components/Layout/SpeechReport'
+import Footer from '../components/Layout/Footer'
 import { useEvents } from '../hooks/useEvents'
 import { useFilters } from '../hooks/useFilters'
 
@@ -30,8 +30,10 @@ export default function Dashboard() {
 
   return (
     <div className="flex-1 min-h-0 flex flex-col bg-gray-950 text-gray-100 overflow-y-auto">
-      {/* Trump's April 1 primetime address report — first thing visitors see */}
-      <SpeechReport />
+      {/* Content notice */}
+      <div className="bg-gray-900/40 border-b border-gray-800/50 px-4 py-1.5 text-center">
+        <p className="text-[9px] text-gray-600">This site documents an ongoing conflict for public awareness. Some content may be distressing. <a href="/about" className="text-gray-500 hover:text-gray-400 underline underline-offset-2">Learn about our editorial standards</a></p>
+      </div>
 
       {/* Quick Brief */}
       <HomepageSummary />
@@ -106,6 +108,8 @@ export default function Dashboard() {
         </div>
 
       </div>
+
+      <Footer />
 
       {/* Floating video popup — sits above everything */}
       {showVideo && <VideoSection onClose={() => setShowVideo(false)} />}

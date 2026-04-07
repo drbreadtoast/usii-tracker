@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X, Search, ShieldCheck } from 'lucide-react'
+import { Clock, DollarSign, Newspaper, Droplet, Target, Receipt, MessageSquareQuote, Map, Flame, AlertOctagon, MessageCircle, Landmark, Skull, ChevronLeft, ChevronRight, LayoutGrid, X, Search, ShieldCheck, Info, FileText, Shield } from 'lucide-react'
 import WorldClocks from './WorldClocks'
 import eventsData from '../../data/events.json'
 import breakingData from '../../data/breaking.json'
@@ -45,6 +45,12 @@ const EXPLORE_SECTIONS = [
     { to: '/follow-the-cost', label: 'Cost', icon: Receipt, desc: 'Financial cost of the war by country' },
     { to: '/follow-the-statements', label: 'Statements', icon: MessageSquareQuote, desc: 'Political statements timeline' },
     { to: '/follow-the-damage', label: 'Damage', icon: Flame, desc: 'Strike damage locations & assessment' },
+  ]},
+  { title: 'Info', items: [
+    { to: '/about', label: 'About', icon: Info, desc: 'Our mission, methodology & editorial standards' },
+    { to: '/privacy', label: 'Privacy Policy', icon: Shield, desc: 'How we handle data and cookies' },
+    { to: '/terms', label: 'Terms of Service', icon: FileText, desc: 'Usage terms and disclaimers' },
+    { to: '/patch-notes', label: 'Patch Notes', icon: FileText, desc: 'Site update history and changelog' },
   ]},
 ]
 
