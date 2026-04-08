@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-07T22:53:00Z",
+    "lastUpdated": "2026-04-08T00:47:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -5202,6 +5202,51 @@
       "source": "FDD Long War Journal",
       "sourceUrl": "https://www.longwarjournal.org/archives/2026/04/iranian-ballistic-missile-cluster-munitions-strike-dozens-of-sites-in-israeli-cities.php",
       "damageLevel": "moderate",
+      "verificationStatus": "confirmed"
+    },
+    {
+      "id": "dmg-332",
+      "name": "Tehran Airports (Mehrabad, Azmayesh) \u2014 IRGC aircraft destroyed",
+      "country": "Iran",
+      "lat": 35.69,
+      "lng": 51.31,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "IDF struck 3 airports in Tehran destroying dozens of IRGC Air Force aircraft and helicopters. Also struck IRGC HQ, Air Force HQ, and Aviation Industries Organization building.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/7/iran-war-what-is-happening-on-day-39-of-us-israeli-attacks",
+      "damageLevel": "destroyed",
+      "verificationStatus": "confirmed"
+    },
+    {
+      "id": "dmg-333",
+      "name": "Kharg Island Military Targets (50+ sites)",
+      "country": "Iran",
+      "lat": 29.23,
+      "lng": 50.33,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "US struck 50+ military targets on Kharg Island \u2014 bunkers, storage facilities, runways, air defense systems. Oil infrastructure not targeted per US officials.",
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-deadline-hormuz-infrastructure-ceasefire-rcna267039",
+      "damageLevel": "severe",
+      "verificationStatus": "confirmed"
+    },
+    {
+      "id": "dmg-334",
+      "name": "Khorramshahr Shipyards (IRGC Navy)",
+      "country": "Iran",
+      "lat": 30.43,
+      "lng": 48.17,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-07",
+      "description": "Two shipbuilding companies destroyed. 80% of IRGC Navy vessels built here.",
+      "source": "Alma Center",
+      "sourceUrl": "https://israel-alma.org/daily-report-the-second-iran-war-april-7-2026-1600/",
+      "damageLevel": "destroyed",
       "verificationStatus": "confirmed"
     }
   ]

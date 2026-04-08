@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-07T22:53:00Z",
-  "currentAverage": 4.14,
+  "lastUpdated": "2026-04-08T00:47:00Z",
+  "currentAverage": 4.119,
   "preWarAverage": 3.18,
-  "changePercent": 30.2,
+  "changePercent": 29.5,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -334,6 +334,12 @@
       "price": 4.14,
       "label": "Day 39 EVE — DEADLINE HOUR. Gas $4.14 (+30.2%). Brent $113.40 (+42.0%). WTI $115.17 (+52.5%). Russia/China veto Hormuz. Iran cuts US diplomacy. IRGC hits Saudi Jubail. Khamenei incapacitated. 8PM ET deadline NOW.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-08",
+      "price": 4.119,
+      "label": "Day 40 — CEASEFIRE. Gas $4.119 (+29.5%). Brent $109.27 (rebounded from $93 crash). WTI $112.75. Iran SNSC accepts ceasefire. Hormuz conditional reopening. Islamabad talks April 10.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -383,15 +389,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 2)",
-      "crudePerBarrel": 110,
+      "label": "Current (Apr 8)",
+      "crudePerBarrel": 109,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$110 ÷ 42 gal",
-          "value": 2.62,
+          "formula": "$109 ÷ 42 gal",
+          "value": 2.60,
           "percent": 61,
-          "change": "+$0.979"
+          "change": "+$0.976"
         },
         {
           "name": "Refining",
@@ -429,18 +435,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.14,
-      "note": "National average $4.14/gal (AAA April 7) — above $4 since March 31 (first since Aug 2022). Up 30.2% from pre-war $3.18. Brent $113.40/bbl (+42.0%). WTI $115.17 (+52.5%). Diesel $5.49/gal. CA $5.89. Russia/China veto Hormuz resolution. Iran severs US diplomacy. IRGC hits Saudi Jubail. 8PM ET deadline NOW.",
-      "crude": 2.639,
+      "total": 4.119,
+      "note": "National average $4.119/gal (AAA April 8). Ceasefire in effect. Brent $109.27 (+36.9%). WTI $112.75 (+49.3%). Oil crashed ~16% in after-hours, rebounded. EIA forecasts April peak $4.30/gal. GasBuddy: pump prices won't drop quickly despite ceasefire.",
+      "crude": 2.595,
       "taxes": 0.534,
       "refining": 0.65,
       "distribution": 0.3,
       "regularGasoline": 4.119,
       "changeFromPreWar": "+$0.94",
-      "changePercent": "+29.6%",
-      "lastUpdated": "2026-04-07T18:45:00Z",
-      "date": "2026-04-07"
+      "changePercent": "+29.5%",
+      "lastUpdated": "2026-04-08T00:47:00Z",
+      "date": "2026-04-08"
     }
   },
-  "context": "Day 39 DEADLINE DAY: AAA national average ~$4.12/gal — up 29.6% from pre-war $3.18. Hegseth vows most intense day of strikes. Trump 8pm ET deadline TONIGHT. Iran rejects ceasefire. Brent $110.05 (+37.8%). WTI $113.42 (+50.2%). California at $5.89/gal. JPMorgan: $120-$150 oil if Bab al-Mandeb closes."
+  "context": "Day 40 CEASEFIRE: AAA national average $4.119/gal — up 29.5% from pre-war $3.18. Two-week ceasefire in effect. Iran SNSC accepted. Brent crashed to ~$93 (-16%) in after-hours, rebounded to $109.27. WTI $112.75. EIA forecasts April peak $4.30/gal. GasBuddy: 'two more weeks of status quo' for pump prices."
 }
