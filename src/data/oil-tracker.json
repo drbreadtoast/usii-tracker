@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-08T12:24:00Z",
+    "lastUpdated": "2026-04-08T18:46:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-08",
-      "label": "Day 40 PM \u2014 CEASEFIRE HOLDING. Brent stabilized at $95.80 after crashing to ~$93 (-16%). WTI stabilized at $97.28 after ~$92 low (-19%). Biggest one-day drop since 1991 Gulf War. Physical dated Brent hit record $144.42. Iran violated ceasefire with missile barrage minutes after announcement, but Khamenei ordered compliance by morning. Netanyahu: Lebanon excluded. Markets assessing durability.",
+      "label": "Day 40 Late PM \u2014 CEASEFIRE FRACTURING. Brent settles ~$94.22 (+18.1% from pre-war) after crashing to ~$91 intraday. WTI settles ~$94.25 (+24.8%). Biggest one-day drop since 1991 Gulf War. But Iran RE-CLOSED Hormuz over Israel's Operation Eternal Darkness in Lebanon (254 killed). Hormuz re-closure threatens price recovery. Physical dated Brent hit record $144.42 earlier. Markets reassessing ceasefire durability.",
       "brent": {
-        "price": 95.8,
-        "change": "+20.1%",
-        "changeDollars": "+$16.00"
+        "price": 94.22,
+        "change": "+18.1%",
+        "changeDollars": "+$14.42"
       },
       "wti": {
-        "price": 97.28,
-        "change": "+28.8%",
-        "changeDollars": "+$21.77"
+        "price": 94.25,
+        "change": "+24.8%",
+        "changeDollars": "+$18.74"
       },
-      "changePercent": 20.1,
+      "changePercent": 18.1,
       "lastUpdated": "2026-04-08"
     },
     "priceHistory": [
@@ -563,7 +563,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-08",
-    "note": "Day 40 PM CEASEFIRE: AAA national avg $4.14/gal (+30.2%). Brent $95.80 (+20.0%). WTI $97.28 (+28.8%). Oil crashed 16-19% on ceasefire, stabilizing. Iran violated ceasefire with missiles then Khamenei ordered compliance. Netanyahu: Lebanon excluded. Hormuz conditional reopening. Islamabad talks April 10.",
+    "note": "Day 40 PM CEASEFIRE FRACTURING: AAA national avg $4.164/gal (+30.9%). Brent $94.22 (+18.1%). WTI $94.25 (+24.8%). Oil crashed 17% on ceasefire. But Iran re-closed Hormuz over Israel's Lebanon strikes. 254 killed in Operation Eternal Darkness. Gas may not fall as expected.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -573,14 +573,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.14,
-          "change": "+30.2%",
-          "changeDollars": "+$0.96",
+          "price": 4.164,
+          "change": "+30.9%",
+          "changeDollars": "+$0.98",
           "date": "2026-04-08"
         },
-        "change": "+$0.96",
-        "changePercent": "+30.2%",
-        "detail": "Gas $4.14/gal (AAA, Day 40 PM). Up $0.96/gal from pre-war $3.18. Up 2\u00a2 in 24h. Analysts: could fall below $4 in 1-2 weeks if ceasefire holds. Expert cautions 'do little or nothing' for prices short-term.",
+        "change": "+$0.98",
+        "changePercent": "+30.9%",
+        "detail": "Gas $4.164/gal (AAA, Day 40 PM). Up $0.98/gal from pre-war $3.18. Up 2.4\u00a2 in 24h. Ceasefire fracturing: Israel struck Lebanon, Iran re-closed Hormuz. Gas may not fall as expected.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -658,11 +658,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.14,
-    "gasPriceRegular": 4.14,
+    "regularGasoline": 4.164,
+    "gasPriceRegular": 4.164,
     "gasPriceDiesel": "$5.49/gal",
-    "changeFromPreWar": "+$0.96",
-    "changePercent": "+30.2%"
+    "changeFromPreWar": "+$0.98",
+    "changePercent": "+30.9%"
   },
   "keyFacts": [
     {
@@ -984,6 +984,13 @@
       "brent": 110.05,
       "wti": 113.42,
       "label": "Day 39 Midday \u2014 Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). IDF wide-scale strike wave completed. 33+ killed Tehran residential. Rafi-Nia Synagogue destroyed. IRGC intel chief Khademi killed. Kharg Island hit. Istanbul consulate attack. Iran calls human chains. DEADLINE 8PM ET.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-08",
+      "brent": 94.22,
+      "wti": 94.25,
+      "label": "Day 40 PM \u2014 CEASEFIRE CRASH then FRACTURE. Brent $94.22 (+18.1%); WTI $94.25 (+24.8%). Biggest one-day oil drop since 1991. Ceasefire announced. But Israel launched Operation Eternal Darkness on Lebanon (254 killed). Iran RE-CLOSED Hormuz in response. Gas $4.164. Dow +1,200. Markets reassessing.",
       "isEvent": true
     }
   ]

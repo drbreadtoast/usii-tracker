@@ -7283,5 +7283,77 @@
       "killed": 0,
       "injured": 2
     }
+  },
+  {
+    "id": "ms-436",
+    "city": "Sirri Island",
+    "country": "Iran",
+    "lat": 25.9064,
+    "lng": 54.5364,
+    "strikeType": "air_strike",
+    "attributedTo": "unknown",
+    "date": "2026-04-08",
+    "description": "Explosions struck Sirri Island crude export facilities at ~06:30 GMT. Combined with Lavan = ~25% of Iran's crude export volume. No party claimed responsibility.",
+    "source": "Business Upturn",
+    "sourceUrl": "https://www.businessupturn.com/world/several-explosions-reported-at-irans-sirri-island-on-april-8-2026-report/",
+    "weaponType": "Unknown",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-437",
+    "city": "Tel Sheva",
+    "country": "Israel",
+    "lat": 31.3912,
+    "lng": 34.7884,
+    "strikeType": "ballistic_missile",
+    "attributedTo": "iran",
+    "date": "2026-04-08",
+    "description": "Iranian missile barrage struck Israel despite ceasefire. 3 children aged 12-15 lightly injured by flying glass/shrapnel in Tel Sheva, Negev.",
+    "source": "JPost",
+    "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-892350",
+    "weaponType": "Ballistic missiles",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-438",
+    "city": "Abu Dhabi (Habshan)",
+    "country": "UAE",
+    "lat": 23.83,
+    "lng": 53.71,
+    "strikeType": "mixed",
+    "attributedTo": "iran",
+    "date": "2026-04-08",
+    "description": "UAE intercepted 17 ballistic missiles and 35 UAVs from Iran. Habshan gas complex operations temporarily suspended after debris fire.",
+    "source": "Khaleej Times",
+    "sourceUrl": "https://www.khaleejtimes.com/uae/uae-intercepts-17-ballistic-missiles-35-drones-april-8",
+    "weaponType": "Ballistic missiles (17) and drones (35)",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-439",
+    "city": "Beirut",
+    "country": "Lebanon",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "strikeType": "air_strike",
+    "attributedTo": "israel",
+    "date": "2026-04-08",
+    "description": "Operation Eternal Darkness: 50 IAF jets struck 100+ Hezbollah targets with 160 munitions in 10 minutes. Central Beirut hit without warning during rush hour. 254 killed, 1,165 wounded.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/8/iran-war-live-trump-announces-truce-tehran-agrees-safe-transit-in-hormuz",
+    "weaponType": "Precision-guided munitions (160 total)",
+    "casualties": {
+      "killed": 254,
+      "injured": 1165
+    }
   }
 ]

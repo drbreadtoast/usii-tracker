@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-08T12:24:00Z",
-  "currentAverage": 4.14,
+  "lastUpdated": "2026-04-08T18:46:00Z",
+  "currentAverage": 4.164,
   "preWarAverage": 3.18,
-  "changePercent": 30.2,
+  "changePercent": 30.9,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -350,7 +350,13 @@
     {
       "date": "2026-04-08",
       "price": 4.14,
-      "label": "Day 40 \u2014 CEASEFIRE. AAA average $4.14/gal (+30.2%). Pump prices lag crude 1-2 weeks. Oil crashed 14-16% on ceasefire but gas unchanged yet. Analysts: could fall below $4 within 1-2 weeks if ceasefire holds and Hormuz reopens.",
+      "label": "Day 40 AM \u2014 CEASEFIRE. AAA average $4.14/gal. Oil crashed 14-16% on ceasefire.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-08",
+      "price": 4.164,
+      "label": "Day 40 PM \u2014 AAA $4.164/gal (+30.9%). Up 2.4\u00a2 from AM. Ceasefire fracturing: Israel strikes Lebanon (254 killed), Iran re-closes Hormuz. Oil Brent $94.22 (+18.1%). Gas may resume climbing if Hormuz stays closed.",
       "isEvent": true
     }
   ],
@@ -447,18 +453,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.14,
-      "note": "National average $4.14/gal (AAA April 8 PM). Up 2\u00a2 in 24h. Brent $95.80 (+20.0%). WTI $97.28 (+28.8%). Oil crashed 16% on ceasefire, stabilizing. Analysts: could fall below $4 in 1-2 weeks if ceasefire holds. Expert cautions 'do little or nothing' short-term.",
-      "crude": 2.616,
+      "total": 4.164,
+      "note": "National average $4.164/gal (AAA April 8 PM). Up 2.4\u00a2 in 24h. Brent $94.22 (+18.1%). WTI $94.25 (+24.8%). Oil crashed 17% on ceasefire but Iran re-closed Hormuz over Lebanon strikes. Gas may not fall as quickly as hoped. First time above $4/gal since August 2022.",
+      "crude": 2.578,
       "taxes": 0.534,
       "refining": 0.65,
       "distribution": 0.3,
-      "regularGasoline": 4.14,
-      "changeFromPreWar": "+$0.96",
-      "changePercent": "+30.2%",
+      "regularGasoline": 4.164,
+      "changeFromPreWar": "+$0.98",
+      "changePercent": "+30.9%",
       "lastUpdated": "2026-04-08T06:33:00Z",
       "date": "2026-04-08"
     }
   },
-  "context": "Day 40 CEASEFIRE: AAA national average $4.14/gal \u2014 up 30.2% from pre-war $3.18. Up 2\u00a2 in 24h. Two-week ceasefire in effect. Brent crashed to ~$93, stabilized at $95.80. WTI $97.28. Lavan refinery struck post-ceasefire; Iran retaliates vs Gulf states. First Hormuz transits. Analysts: gas could fall below $4 in 1-2 weeks if ceasefire holds."
+  "context": "Day 40 CEASEFIRE FRACTURING: AAA national average $4.164/gal \u2014 up 30.9% from pre-war $3.18. Up 2.4\u00a2 in 24h. Ceasefire in jeopardy: Israel launched Operation Eternal Darkness on Lebanon (254 killed). Iran re-closed Hormuz in response. Brent $94.22, WTI $94.25. Gas may not fall if Hormuz stays closed. First time above $4/gal since Aug 2022."
 }
