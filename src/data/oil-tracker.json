@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-08T00:47:00Z",
+    "lastUpdated": "2026-04-08T06:33:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-08",
-      "label": "Day 40 — CEASEFIRE IN EFFECT. Brent crashed to ~$93 (-16%) in after-hours on ceasefire, rebounded to $109.27 by morning. WTI crashed to ~$92 (-19%), rebounded to $112.75. Biggest one-day oil drop since 1991 Gulf War. Iran SNSC formally accepts ceasefire. Conditional Hormuz reopening. Islamabad peace talks April 10. Markets skeptical of durability.",
+      "label": "Day 40 PM — CEASEFIRE HOLDING. Brent stabilized at $95.80 after crashing to ~$93 (-16%). WTI stabilized at $97.28 after ~$92 low (-19%). Biggest one-day drop since 1991 Gulf War. Physical dated Brent hit record $144.42. Iran violated ceasefire with missile barrage minutes after announcement, but Khamenei ordered compliance by morning. Netanyahu: Lebanon excluded. Markets assessing durability.",
       "brent": {
-        "price": 109.27,
-        "change": "+36.9%",
-        "changeDollars": "+$29.47"
+        "price": 95.80,
+        "change": "+20.1%",
+        "changeDollars": "+$16.00"
       },
       "wti": {
-        "price": 112.75,
-        "change": "+49.3%",
-        "changeDollars": "+$37.24"
+        "price": 97.28,
+        "change": "+28.8%",
+        "changeDollars": "+$21.77"
       },
-      "changePercent": 36.9,
+      "changePercent": 20.1,
       "lastUpdated": "2026-04-08"
     },
     "priceHistory": [
@@ -356,6 +356,20 @@
         "wti": 111.81,
         "label": "Day 38 EVE — Brent $109.90 (-0.8%); WTI $111.81; Trump: \"take out entire country tomorrow night\"; Araghchi refuses talks; ceasefire rejected; OPEC+ +206k symbolic; deadline TOMORROW",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-07",
+        "brent": 110.05,
+        "wti": 113.42,
+        "label": "Day 39 AM — DEADLINE DAY. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Most intense day of strikes. Trump 8pm ET Hormuz deadline. Iran rejects ceasefire. Mojtaba Khamenei missing.",
+        "isEvent": true
+      },
+      {
+        "date": "2026-04-08",
+        "brent": 95.80,
+        "wti": 97.28,
+        "label": "Day 40 PM — CEASEFIRE CRASH. Brent $95.80 (+20.0%); WTI $97.28 (+28.8%). Crashed 16-19% on ceasefire announcement — biggest drop since 1991 Gulf War. Physical dated Brent hit record $144.42. Iran violated ceasefire with missiles then complied. Stabilizing. Gas $4.14.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -542,7 +556,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-08",
-    "note": "Day 40 CEASEFIRE: AAA national avg $4.119/gal (+29.5%). Brent $109.27 (+36.9%). WTI $112.75 (+49.3%). Ceasefire in effect — Iran SNSC accepted. Oil crashed ~16-19% in after-hours, rebounded. Hormuz conditional reopening. Islamabad talks April 10.",
+    "note": "Day 40 PM CEASEFIRE: AAA national avg $4.14/gal (+30.2%). Brent $95.80 (+20.0%). WTI $97.28 (+28.8%). Oil crashed 16-19% on ceasefire, stabilizing. Iran violated ceasefire with missiles then Khamenei ordered compliance. Netanyahu: Lebanon excluded. Hormuz conditional reopening. Islamabad talks April 10.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -552,14 +566,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.119,
-          "change": "+29.5%",
-          "changeDollars": "+$0.94",
+          "price": 4.14,
+          "change": "+30.2%",
+          "changeDollars": "+$0.96",
           "date": "2026-04-08"
         },
-        "change": "+$0.94",
-        "changePercent": "+29.5%",
-        "detail": "Gas $4.119/gal (AAA, Day 40). Up $0.94/gal from pre-war $3.18. First time above $4 since Aug 2022. EIA forecasts April peak at $4.30/gal. GasBuddy: ceasefire means 'two more weeks of status quo' for pump prices.",
+        "change": "+$0.96",
+        "changePercent": "+30.2%",
+        "detail": "Gas $4.14/gal (AAA, Day 40 PM). Up $0.96/gal from pre-war $3.18. Up 2¢ in 24h. Analysts: could fall below $4 in 1-2 weeks if ceasefire holds. Expert cautions 'do little or nothing' for prices short-term.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -637,11 +651,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.119,
-    "gasPriceRegular": 4.119,
+    "regularGasoline": 4.14,
+    "gasPriceRegular": 4.14,
     "gasPriceDiesel": "$5.49/gal",
-    "changeFromPreWar": "+$0.94",
-    "changePercent": "+29.5%"
+    "changeFromPreWar": "+$0.96",
+    "changePercent": "+30.2%"
   },
   "keyFacts": [
     {
