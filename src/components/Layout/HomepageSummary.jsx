@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X } from 'lucide-react'
+import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X, Loader2, CheckCircle, Send } from 'lucide-react'
 import AdBanner from '../Ads/AdBanner'
 import CensorshipNotice from './CensorshipNotice'
 import SourcesNotice from './SourcesNotice'
@@ -20,6 +20,16 @@ import damageData from '../../data/damage-data.json'
 import socialData from '../../data/social-posts.json'
 import lobbyData from '../../data/lobby-data.json'
 import hormuzData from '../../data/hormuz-shipping.json'
+
+const WEB3FORMS_KEY = 'b6a6218f-b812-4dd9-a358-26536d4bb141'
+const POLL_OPTIONS = [
+  { value: 'us-foreign',  label: 'US Foreign Affairs' },
+  { value: 'us-local',    label: 'US Local Affairs' },
+  { value: 'us-both',     label: 'US Local & Foreign Affairs' },
+  { value: 'middle-east', label: 'Middle Eastern News' },
+  { value: 'shutdown',    label: 'Shut down the site' },
+  { value: 'other',       label: 'Other' },
+]
 
 // ----- Reusable section wrapper -----
 function SectionCard({ icon: Icon, title, color, route, children }) {
@@ -428,6 +438,42 @@ function MoneySummary() {
 // ----- Main Export -----
 export default function HomepageSummary() {
   const [showSupport, setShowSupport] = useState(true)
+  const [feedbackChoice, setFeedbackChoice] = useState('')
+  const [otherText, setOtherText] = useState('')
+  const [feedbackStatus, setFeedbackStatus] = useState('idle')
+
+  const handleFeedbackSubmit = async () => {
+    if (!feedbackChoice || (feedbackChoice === 'other' && !otherText.trim())) return
+    setFeedbackStatus('sending')
+    const choiceLabel = POLL_OPTIONS.find(o => o.value === feedbackChoice)?.label || feedbackChoice
+    const msg = feedbackChoice === 'other'
+      ? `Preference: Other — ${otherText.trim()}`
+      : `Preference: ${choiceLabel}`
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_KEY,
+          subject: '[USII Tracker] News Preference Feedback',
+          from_name: 'USII Tracker Feedback Poll',
+          email: 'poll@usiitracker.com',
+          message: msg,
+          botcheck: '',
+        }),
+      })
+      const data = await res.json()
+      if (data.success) {
+        setFeedbackStatus('success')
+        setTimeout(() => setShowSupport(false), 3000)
+      } else {
+        setFeedbackStatus('idle')
+      }
+    } catch {
+      setFeedbackStatus('idle')
+    }
+  }
+
   return (
     <div id="quick-brief" className="bg-gray-950 border-t border-gray-800">
       {/* Section header */}
@@ -457,31 +503,90 @@ export default function HomepageSummary() {
         <SourcesNotice />
       </div>
 
-      {/* Support note — dismissible */}
+      {/* Support note + feedback poll — dismissible */}
       {showSupport && (
         <div className="max-w-2xl mx-auto px-4 mb-4">
-          <div className="relative bg-gray-900/60 border border-gray-800 rounded-lg p-4 text-center">
+          <div className="relative bg-indigo-950/40 border border-indigo-800/50 rounded-lg p-4 text-center">
             <button
               onClick={() => setShowSupport(false)}
-              className="absolute top-2 right-2 p-1 text-gray-500 hover:text-gray-300 transition-colors"
+              className="absolute top-2 right-2 p-1 text-indigo-400/50 hover:text-gray-300 transition-colors cursor-pointer"
               aria-label="Dismiss"
             >
               <X size={14} />
             </button>
-            <p className="text-xs text-gray-300 leading-relaxed">
-              This site is currently updated 3-4 times a day with the latest news, data, and statistics — each update requires significant AI and research resources. Hourly automated updates and live tracking features are possible but would require paid APIs and additional infrastructure, raising costs significantly.
-            </p>
-            <p className="text-xs text-gray-400 mt-2 leading-relaxed">
-              You may notice some ads — I appreciate your patience. Thanks to your support, I'm working to improve refresh times and add new features, but upgrading the tools behind the scenes raises costs. To help offset that, I'm experimenting with ads and will adjust or remove them based on your feedback. If they feel intrusive, please let me know using the blue contact button at the bottom left. More donations = fewer ads. Got a better idea? I'm all ears.
-            </p>
-            <a
-              href={siteMetadata.donationUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 mt-3 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
-            >
-              <span>☕</span> Buy Me a Coffee — Support This Project
-            </a>
+
+            {feedbackStatus === 'success' ? (
+              <div className="flex flex-col items-center gap-2 py-4">
+                <CheckCircle size={32} className="text-green-400" />
+                <p className="text-sm font-semibold text-gray-200">Thanks for your input!</p>
+                <p className="text-xs text-gray-500">Your feedback helps shape what comes next.</p>
+              </div>
+            ) : (
+              <>
+                <p className="text-xs text-gray-300 leading-relaxed font-medium">
+                  Still tracking. Still updating 3-4x/day — ceasefire or not.
+                </p>
+                <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+                  When this war ends, this site continues as a live news tracker. Help us decide what to cover next:
+                </p>
+
+                <div className="mt-3 space-y-1.5 text-left max-w-sm mx-auto">
+                  {POLL_OPTIONS.map((opt) => (
+                    <button
+                      key={opt.value}
+                      type="button"
+                      onClick={() => setFeedbackChoice(opt.value)}
+                      className={`w-full flex items-center gap-2 text-xs px-3 py-2 rounded-lg border transition-colors cursor-pointer ${
+                        feedbackChoice === opt.value
+                          ? 'bg-blue-600/20 border-blue-500/50 text-blue-300'
+                          : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:bg-gray-700'
+                      }`}
+                    >
+                      <span className={`w-3 h-3 rounded-full border-2 flex-shrink-0 ${
+                        feedbackChoice === opt.value
+                          ? 'border-blue-400 bg-blue-400'
+                          : 'border-gray-600'
+                      }`} />
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+
+                {feedbackChoice === 'other' && (
+                  <input
+                    type="text"
+                    placeholder="What topic would you like?"
+                    value={otherText}
+                    onChange={(e) => setOtherText(e.target.value)}
+                    className="mt-2 w-full max-w-sm mx-auto block bg-gray-800 border border-gray-700 rounded-lg text-xs text-gray-200 placeholder-gray-600 px-3 py-2 outline-none focus:border-blue-500 transition-colors"
+                  />
+                )}
+
+                <button
+                  type="button"
+                  onClick={handleFeedbackSubmit}
+                  disabled={!feedbackChoice || feedbackStatus === 'sending' || (feedbackChoice === 'other' && !otherText.trim())}
+                  className="mt-3 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 disabled:opacity-40 disabled:hover:bg-blue-600 text-white text-xs font-semibold px-5 py-2 rounded-lg transition-colors cursor-pointer"
+                >
+                  {feedbackStatus === 'sending' ? (
+                    <><Loader2 size={13} className="animate-spin" /> Sending...</>
+                  ) : (
+                    <><Send size={13} /> Submit Feedback</>
+                  )}
+                </button>
+
+                <div className="mt-3">
+                  <a
+                    href={siteMetadata.donationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <span>☕</span> Buy Me a Coffee — Support This Project
+                  </a>
+                </div>
+              </>
+            )}
           </div>
         </div>
       )}
