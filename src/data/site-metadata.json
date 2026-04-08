@@ -1,51 +1,88 @@
 {
-  "lastUpdated": "2026-04-08T06:33:00Z",
-  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
+  "lastUpdated": "2026-04-08T12:24:00Z",
+  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.1",
   "conflictDay": 40,
-  "totalSocialPosts": 41,
+  "totalSocialPosts": 37,
   "dataFiles": {
-    "events": 791,
-    "warTimeline": 626,
-    "breaking": 23,
-    "socialPosts": 41,
-    "governmentStatements": 436,
-    "escalations": 337,
-    "missileStrikes": 432,
-    "damageLocations": 332,
-    "statementsTimeline": 483,
-    "globalInvolvement": 20,
-    "war-timeline": {
-      "totalEntries": 626,
-      "lastId": "tl-626"
+    "events": {
+      "entries": 798,
+      "lastId": "evt-new-750"
     },
-    "missile-strikes": {
-      "totalEntries": 432,
-      "lastId": "ms-432"
+    "warTimeline": {
+      "entries": 629,
+      "lastId": "tl-629"
     },
-    "damage-data": {
-      "totalEntries": 332,
-      "lastId": "dmg-336"
+    "breaking": {
+      "entries": 29,
+      "lastId": "brk-679"
     },
-    "government-statements": {
-      "totalEntries": 436,
-      "lastId": "gov-436",
-      "entries": 436
+    "deathToll": {
+      "conflicts": 3
     },
-    "social-posts": {
-      "totalEntries": 41,
-      "lastId": "social-611",
-      "entries": 41
+    "statementsTimeline": {
+      "totalStatements": 495
     },
-    "global-involvement": {
-      "totalEntries": 20,
-      "lastId": "gi-oman"
+    "warCosts": {
+      "daysOfConflict": 40
     },
-    "statements-timeline": {
-      "totalEntries": 483,
-      "lastId": null
+    "oilTracker": {
+      "lastUpdated": "2026-04-08T12:24:00Z"
+    },
+    "socialPosts": {
+      "entries": 37,
+      "lastId": "social-617"
+    },
+    "governmentStatements": {
+      "entries": 442,
+      "lastId": "gov-442"
+    },
+    "escalations": {
+      "entries": 340,
+      "lastId": "esc-339"
+    },
+    "gasPrices": {
+      "currentAverage": 4.14
+    },
+    "mediaPerspectives": {
+      "categories": 5
+    },
+    "globalInvolvement": {
+      "countries": 20
+    },
+    "hormuzShipping": {
+      "straitStatus": "partially_blocked",
+      "blockadeDay": 37
+    },
+    "foodPrices": {
+      "lastUpdated": "2026-04-08T12:24:00Z"
+    },
+    "munitionsData": {
+      "lastUpdated": "2026-04-08T12:24:00Z"
+    },
+    "damageData": {
+      "totalSites": 335,
+      "lastId": "dmg-339"
+    },
+    "missileStrikes": {
+      "entries": 435,
+      "lastId": "ms-435"
+    },
+    "conflictCountries": {
+      "countries": 13
+    },
+    "lobbyData": {
+      "lastUpdated": "2026-04-08T12:24:00Z"
+    },
+    "bases": {
+      "entries": 14,
+      "lastId": "base-014"
+    },
+    "militaryAssets": {
+      "entries": 12,
+      "lastId": "asset-us-lha-7"
     }
   },
-  "updateNote": "Day 40 11:33 PM PT — Iran violated ceasefire then complied; Netanyahu: Lebanon excluded; Brent $95.80; gas $4.14; Hormuz Day 37"
+  "updateNote": "Day 40 11:33 PM PT \u2014 Iran violated ceasefire then complied; Netanyahu: Lebanon excluded; Brent $95.80; gas $4.14; Hormuz Day 37"
 }

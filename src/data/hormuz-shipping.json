@@ -4,13 +4,13 @@
   "dailyTransits": 20,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-08T06:33:00Z",
+  "lastUpdated": "2026-04-08T12:24:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
     "vesselsAnchored": 400,
-    "vesselsTransitLast24h": 0,
+    "vesselsTransitLast24h": 10,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
@@ -26,24 +26,24 @@
     "anchoredShips": 400,
     "tankerTraffic": "21 tankers transited since Feb 28 (vs 100+/day pre-war)",
     "strandedSeafarers": "40,000+",
-    "trappedVessels": "500+ oil/gas tankers, 500+ container ships, 6 cruise ships",
-    "lastUpdated": "2026-03-29T12:34:00Z",
+    "trappedVessels": 800,
+    "lastUpdated": "2026-04-08T12:24:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "CEASEFIRE: Iran agreed to allow safe passage for 2 weeks if vessels coordinate with Iranian Armed Forces. 53 vessels transited last week (most since war began). 293+ total crossings since blockade (Kpler data), 94% decrease from peacetime. 8 countries approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines. Iran charging ~$2M per transit in yuan/crypto. Conditional reopening under ceasefire terms.",
+    "note": "Ceasefire Day 1: 7 ships exited, 3 entered. Greek NJ Earth and Liberian Daytona Beach first through. 800+ vessels remain trapped. Iran requires Armed Forces coordination for transit.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 53,
     "peacetimeDailyTransits": 120,
     "reductionPercent": 95,
-    "vesselsStranded": 2163,
+    "vesselsStranded": 800,
     "commercialAttacks": 27,
     "seafarersKilled": 8,
     "seafarersAffected": 20000,
-    "dailyTransits": 12,
+    "dailyTransits": 10,
     "commercialShipsAttacked": 27,
     "totalTransitsSinceBlockade": 302,
     "strangedVessels": 2163
@@ -93,37 +93,37 @@
     },
     {
       "date": "2026-03-08",
-      "event": "Tehran oil depots bombed — fuel distribution halted. Brent crude +27% for the week. US Navy still not escorting. IRGC vows 6+ months capability.",
+      "event": "Tehran oil depots bombed \u2014 fuel distribution halted. Brent crude +27% for the week. US Navy still not escorting. IRGC vows 6+ months capability.",
       "status": "blocked",
       "barrels": 0
     },
     {
       "date": "2026-03-09",
-      "event": "Strait effectively closed — zero transits for 48+ hours. 310+ vessels at anchor. 8 commercial vessels damaged total, 2 sunk. Brent crude hits $119.50 intraday before settling at $103.47. US minesweeping makes minimal progress. IRGC deploys additional fast attack boats.",
+      "event": "Strait effectively closed \u2014 zero transits for 48+ hours. 310+ vessels at anchor. 8 commercial vessels damaged total, 2 sunk. Brent crude hits $119.50 intraday before settling at $103.47. US minesweeping makes minimal progress. IRGC deploys additional fast attack boats.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-10",
-      "event": "Day 11 — Only 13 vessels/day average; March 8 saw only 2 outbound transits. 170+ containerships trapped, 150+ tankers at anchor. Insurance withdrawn by all major providers. VLCC charter rates surge from $50K to $400K/day. Brent crude holds above $110.",
+      "event": "Day 11 \u2014 Only 13 vessels/day average; March 8 saw only 2 outbound transits. 170+ containerships trapped, 150+ tankers at anchor. Insurance withdrawn by all major providers. VLCC charter rates surge from $50K to $400K/day. Brent crude holds above $110.",
       "status": "effectively_closed",
       "barrels": 900000
     },
     {
       "date": "2026-03-11",
-      "event": "Day 12 — 3 more ships attacked (total 14 damaged/sunk since war began). Shipping traffic down 95% from pre-war. 330+ vessels at anchor. IEA approves record 400M barrel emergency reserve release. Brent rebounds +3.4% to $90.77. Iran deploys Khoramshahr super-heavy missiles.",
+      "event": "Day 12 \u2014 3 more ships attacked (total 14 damaged/sunk since war began). Shipping traffic down 95% from pre-war. 330+ vessels at anchor. IEA approves record 400M barrel emergency reserve release. Brent rebounds +3.4% to $90.77. Iran deploys Khoramshahr super-heavy missiles.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-12",
-      "event": "Day 13 — Two more tankers hit in Iraqi waters (total 16 damaged/sunk). 280+ bulk carriers stranded. Dry bulk trade down 91%. Brent crosses $100. IEA 400M barrel release across 32 countries (US contributing 172M from SPR) fails to contain surge. Mojtaba Khamenei vows Hormuz stays closed.",
+      "event": "Day 13 \u2014 Two more tankers hit in Iraqi waters (total 16 damaged/sunk). 280+ bulk carriers stranded. Dry bulk trade down 91%. Brent crosses $100. IEA 400M barrel release across 32 countries (US contributing 172M from SPR) fails to contain surge. Mojtaba Khamenei vows Hormuz stays closed.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-13",
-      "event": "No commercial transits in either direction for 24 hours (Bloomberg). Iran considering yuan-only access. 2 Indian LPG carriers allowed under Indian Navy escort — rare exception. Hegseth: 'no clear evidence' of new mines but strait 'won't remain contested.'",
+      "event": "No commercial transits in either direction for 24 hours (Bloomberg). Iran considering yuan-only access. 2 Indian LPG carriers allowed under Indian Navy escort \u2014 rare exception. Hegseth: 'no clear evidence' of new mines but strait 'won't remain contested.'",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -141,10 +141,10 @@
     },
     {
       "date": "2026-03-14",
-      "event": "Iran selectively reopens Hormuz — allows Turkish cargo ship, 2 Indian LNG carriers, Saudi oil tanker. Western vessels still prohibited. 150+ ships anchored outside. US 'not ready' to escort oil ships through (Energy Sec. Wright).",
+      "event": "Iran selectively reopens Hormuz \u2014 allows Turkish cargo ship, 2 Indian LNG carriers, Saudi oil tanker. Western vessels still prohibited. 150+ ships anchored outside. US 'not ready' to escort oil ships through (Energy Sec. Wright).",
       "status": "selectively_open",
       "barrels": 200000,
-      "note": "Separate from military events same day — this entry covers selective reopening policy"
+      "note": "Separate from military events same day \u2014 this entry covers selective reopening policy"
     },
     {
       "date": "2026-03-15",
@@ -154,10 +154,10 @@
     },
     {
       "date": "2026-03-15",
-      "event": "Day 16 PM: Iranian supertanker pushes through Hormuz bound for China. Trump calls for naval coalition — no countries publicly agree. Major carriers still suspended. Selective passage continues for Turkey, India, Saudi ships.",
+      "event": "Day 16 PM: Iranian supertanker pushes through Hormuz bound for China. Trump calls for naval coalition \u2014 no countries publicly agree. Major carriers still suspended. Selective passage continues for Turkey, India, Saudi ships.",
       "status": "effectively_closed",
       "barrels": 200000,
-      "note": "Afternoon update — Iranian supertanker transit and coalition proposal"
+      "note": "Afternoon update \u2014 Iranian supertanker transit and coalition proposal"
     },
     {
       "date": "2026-03-15",
@@ -172,7 +172,7 @@
     },
     {
       "date": "2026-03-16",
-      "event": "Dubai airport fuel tank struck by Iranian drone — flights suspended 7+ hours. Fujairah oil hub struck again, oil loading suspended. 300+ ships stranded in Gulf",
+      "event": "Dubai airport fuel tank struck by Iranian drone \u2014 flights suspended 7+ hours. Fujairah oil hub struck again, oil loading suspended. 300+ ships stranded in Gulf",
       "status": "effectively_closed"
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "date": "2026-03-16",
-      "event": "Zero commercial vessel transits recorded on March 14 — first complete stoppage in history. ~400 vessels stuck in surrounding waters. Only shadow fleet and Chinese-linked ships making sporadic crossings.",
+      "event": "Zero commercial vessel transits recorded on March 14 \u2014 first complete stoppage in history. ~400 vessels stuck in surrounding waters. Only shadow fleet and Chinese-linked ships making sporadic crossings.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -224,7 +224,7 @@
     },
     {
       "date": "2026-03-18",
-      "event": "Day 19: IMO emergency 2-day meeting in London — 40-member council may vote on safe maritime corridor resolution. Only 21 tankers total have transited Hormuz since war began — traffic down 97%. Bulk carriers finding new route through Iranian territorial waters. India attempting to escort 6 vessels through.",
+      "event": "Day 19: IMO emergency 2-day meeting in London \u2014 40-member council may vote on safe maritime corridor resolution. Only 21 tankers total have transited Hormuz since war began \u2014 traffic down 97%. Bulk carriers finding new route through Iranian territorial waters. India attempting to escort 6 vessels through.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -248,7 +248,7 @@
     },
     {
       "date": "2026-03-19",
-      "event": "7-nation Hormuz coalition formed (UK, France, Germany, Italy, Netherlands, Japan, Canada). IMO begins negotiations for humanitarian corridor to free ~20,000 stranded seafarers. Dubai crude hits record $166.80/barrel. QatarEnergy declares force majeure on LNG — 17% capacity offline 3-5 years.",
+      "event": "7-nation Hormuz coalition formed (UK, France, Germany, Italy, Netherlands, Japan, Canada). IMO begins negotiations for humanitarian corridor to free ~20,000 stranded seafarers. Dubai crude hits record $166.80/barrel. QatarEnergy declares force majeure on LNG \u2014 17% capacity offline 3-5 years.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -260,19 +260,19 @@
     },
     {
       "date": "2026-03-20",
-      "event": "Day 18: Iran developing selective 'vetting system' for Hormuz transit — India, China, Turkey, Pakistan, Malaysia negotiating case-by-case passage. At least 9 ships have transited Iranian territorial waters corridor; one tanker reported paying $2M passage fee. ~8 non-Iranian vessels detected via AIS (nearly double recent days). Iran still effectively blocking Western shipping.",
+      "event": "Day 18: Iran developing selective 'vetting system' for Hormuz transit \u2014 India, China, Turkey, Pakistan, Malaysia negotiating case-by-case passage. At least 9 ships have transited Iranian territorial waters corridor; one tanker reported paying $2M passage fee. ~8 non-Iranian vessels detected via AIS (nearly double recent days). Iran still effectively blocking Western shipping.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-21",
-      "event": "Day 22: Blockade Day 19. Iran refuses to negotiate Hormuz reopening while under attack. Trump calls NATO 'COWARDS' for not sending troops to open strait. DIA assessment: Iran capable of 1–6 month blockade. 21 total tankers have crossed via Iranian territorial waters corridor since war began vs 100+/day pre-war. UK authorizes Diego Garcia for US Hormuz strike operations.",
+      "event": "Day 22: Blockade Day 19. Iran refuses to negotiate Hormuz reopening while under attack. Trump calls NATO 'COWARDS' for not sending troops to open strait. DIA assessment: Iran capable of 1\u20136 month blockade. 21 total tankers have crossed via Iranian territorial waters corridor since war began vs 100+/day pre-war. UK authorizes Diego Garcia for US Hormuz strike operations.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-21",
-      "event": "Day 22 Evening: Houthis formally threaten to close Bab el-Mandeb Strait — 'Hour Zero' readiness declared by military official Abed al-Thawr. Shipping giants Maersk, Hapag-Lloyd, CMA CGM already suspended Trans-Suez sailings. A double chokepoint scenario (Hormuz + Bab el-Mandeb) would affect ~30% of global seaborne trade. Iran strikes Dimona and Arad, demonstrating continued missile capability on Day 22. Trump calls NATO 'cowards' for not protecting Hormuz.",
+      "event": "Day 22 Evening: Houthis formally threaten to close Bab el-Mandeb Strait \u2014 'Hour Zero' readiness declared by military official Abed al-Thawr. Shipping giants Maersk, Hapag-Lloyd, CMA CGM already suspended Trans-Suez sailings. A double chokepoint scenario (Hormuz + Bab el-Mandeb) would affect ~30% of global seaborne trade. Iran strikes Dimona and Arad, demonstrating continued missile capability on Day 22. Trump calls NATO 'cowards' for not protecting Hormuz.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -284,13 +284,13 @@
     },
     {
       "date": "2026-03-22",
-      "event": "Day 23: Trump 48-hour Hormuz ultimatum — deadline Monday March 23 7:44 PM ET (~20 hrs remain). Iran rejects compliance; IRGC releases 'Say goodbye to electricity' Gulf energy targeting map. Iran selectively granting passage: Japan approved (joining China, India, Pakistan); IRGC developing formal vetting/registration system requiring ship ownership and cargo data. At least one tanker paid $2M for transit rights. Iran fires 8th missile salvo at Israel. 40,000+ seafarers stranded. Zero commercial transits.",
+      "event": "Day 23: Trump 48-hour Hormuz ultimatum \u2014 deadline Monday March 23 7:44 PM ET (~20 hrs remain). Iran rejects compliance; IRGC releases 'Say goodbye to electricity' Gulf energy targeting map. Iran selectively granting passage: Japan approved (joining China, India, Pakistan); IRGC developing formal vetting/registration system requiring ship ownership and cargo data. At least one tanker paid $2M for transit rights. Iran fires 8th missile salvo at Israel. 40,000+ seafarers stranded. Zero commercial transits.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-22-evening",
-      "event": "Day 23 Evening: US drops GBU-72 bunker buster bombs on hardened Iranian anti-ship missile bunkers near strait — CENTCOM Admiral Cooper: 8,000+ targets struck total, 130 vessels destroyed, 'largest naval elimination since WWII.' Trump 48-hr ultimatum (expires March 23 7:44 PM ET) met with full Iranian defiance — IRGC threatens 'complete closure' if power plants struck. Cluster munitions hit 7+ central Israel sites including Tel Aviv (15 wounded). Iran firing on Lebanon territory (first confirmed instance).",
+      "event": "Day 23 Evening: US drops GBU-72 bunker buster bombs on hardened Iranian anti-ship missile bunkers near strait \u2014 CENTCOM Admiral Cooper: 8,000+ targets struck total, 130 vessels destroyed, 'largest naval elimination since WWII.' Trump 48-hr ultimatum (expires March 23 7:44 PM ET) met with full Iranian defiance \u2014 IRGC threatens 'complete closure' if power plants struck. Cluster munitions hit 7+ central Israel sites including Tel Aviv (15 wounded). Iran firing on Lebanon territory (first confirmed instance).",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -302,55 +302,55 @@
     },
     {
       "date": "2026-03-23",
-      "event": "Trump's 48-hour ultimatum expires — deadline Monday evening PDT. IRGC restates complete closure threat if power plants struck. 22 NATO nations mobilizing for Hormuz escort operation.",
+      "event": "Trump's 48-hour ultimatum expires \u2014 deadline Monday evening PDT. IRGC restates complete closure threat if power plants struck. 22 NATO nations mobilizing for Hormuz escort operation.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-23-afternoon",
-      "event": "Trump announces 5-day pause on Iran energy strikes citing 'productive talks' — effectively extending Hormuz deadline to March 28. Iran's Defense Council threatens to mine Persian Gulf if coastline/islands attacked. First Iraqi supertanker (2M barrels) crosses strait with AIS signal off using Iran's permission system. Brent crude falls 10%+ from $112 highs to ~$101 on ceasefire diplomacy hopes.",
+      "event": "Trump announces 5-day pause on Iran energy strikes citing 'productive talks' \u2014 effectively extending Hormuz deadline to March 28. Iran's Defense Council threatens to mine Persian Gulf if coastline/islands attacked. First Iraqi supertanker (2M barrels) crosses strait with AIS signal off using Iran's permission system. Brent crude falls 10%+ from $112 highs to ~$101 on ceasefire diplomacy hopes.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-23",
-      "event": "Supertanker Omega Trader (Mitsui OSK) successfully delivers 2M barrels Iraqi crude to Mumbai via Hormuz-Iranian corridor — first Iraqi oil shipment completing a Hormuz transit since blockade began. AIS signal switched off during transit. Iran developing formal vetting/registration system; at least 9 ships have now used Iranian territorial waters corridor. One tanker reportedly paid $2M for transit rights.",
+      "event": "Supertanker Omega Trader (Mitsui OSK) successfully delivers 2M barrels Iraqi crude to Mumbai via Hormuz-Iranian corridor \u2014 first Iraqi oil shipment completing a Hormuz transit since blockade began. AIS signal switched off during transit. Iran developing formal vetting/registration system; at least 9 ships have now used Iranian territorial waters corridor. One tanker reportedly paid $2M for transit rights.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-24",
-      "event": "Day 25 of war (Hormuz blockade day 22): Iran operating selective vetting system — allowing 9+ ships through for fees of up to $2M per transit. Japan, India, Pakistan, Iraq, Malaysia, China negotiating bilateral passage. Trump extended Hormuz ultimatum after announcing 5-day energy-strike pause citing 'productive talks'. CENTCOM Adm. Cooper confirms planning weeks-long operation to force full reopening. Status: effectively closed for non-vetted vessels.",
+      "event": "Day 25 of war (Hormuz blockade day 22): Iran operating selective vetting system \u2014 allowing 9+ ships through for fees of up to $2M per transit. Japan, India, Pakistan, Iraq, Malaysia, China negotiating bilateral passage. Trump extended Hormuz ultimatum after announcing 5-day energy-strike pause citing 'productive talks'. CENTCOM Adm. Cooper confirms planning weeks-long operation to force full reopening. Status: effectively closed for non-vetted vessels.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-25",
-      "event": "Day 26 of war (Hormuz blockade day 23): Iran formally rejects US 15-point peace plan including Hormuz access provision — demands instead international recognition of its 'authority' over the strait as a counter-condition. Iran's UN ambassador said 'non-hostile vessels' may pass with Iranian coordination — conditional passage only, not reopening. Philippines declares national State of Energy Emergency (first country globally) citing 98% Gulf oil dependence. ~2,000 vessels and 20,000 seafarers remain stranded. Japan begins largest-ever 30-day oil reserve release (part of IEA 400M barrel effort). Brent volatile: $104.49 early AM, dropped to ~$99 on Trump peace-talks announcement.",
+      "event": "Day 26 of war (Hormuz blockade day 23): Iran formally rejects US 15-point peace plan including Hormuz access provision \u2014 demands instead international recognition of its 'authority' over the strait as a counter-condition. Iran's UN ambassador said 'non-hostile vessels' may pass with Iranian coordination \u2014 conditional passage only, not reopening. Philippines declares national State of Energy Emergency (first country globally) citing 98% Gulf oil dependence. ~2,000 vessels and 20,000 seafarers remain stranded. Japan begins largest-ever 30-day oil reserve release (part of IEA 400M barrel effort). Brent volatile: $104.49 early AM, dropped to ~$99 on Trump peace-talks announcement.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-26",
-      "event": "Day 27 of war (Hormuz blockade day 24): IRGC Navy Commander Alireza Tangsiri — the architect of the Hormuz blockade — killed by Israel in Bandar Abbas strike. Iran's shift to 'selective blockade' policy (announced March 25, formally allowing 'non-hostile' ships) continues — Trump revealed Iran let 8-10 tankers through as 'goodwill gesture.' Fewer than 10 AIS transits/day vs 138 pre-war. Brent spiked to $105.85 after Iran definitively rejected US 15-point peace plan. UAE struck by Iranian ballistic missiles — 2 killed in Abu Dhabi by debris. Iran fortifying Kharg Island with mines/MANPADs amid US ground operation planning. Iran Parliament Speaker warns of 'vital infrastructure' attacks on any regional country aiding US Kharg seizure. Spain becomes first European nation approved for Hormuz transit — Iran classifies Spain 'non-hostile' after Spain banned US forces from using its bases for Iran strikes. Malaysia also added. Trump extends energy-strike pause to April 6. Brent surges to $107.99-$109. S&P -1.74% worst day of war.",
+      "event": "Day 27 of war (Hormuz blockade day 24): IRGC Navy Commander Alireza Tangsiri \u2014 the architect of the Hormuz blockade \u2014 killed by Israel in Bandar Abbas strike. Iran's shift to 'selective blockade' policy (announced March 25, formally allowing 'non-hostile' ships) continues \u2014 Trump revealed Iran let 8-10 tankers through as 'goodwill gesture.' Fewer than 10 AIS transits/day vs 138 pre-war. Brent spiked to $105.85 after Iran definitively rejected US 15-point peace plan. UAE struck by Iranian ballistic missiles \u2014 2 killed in Abu Dhabi by debris. Iran fortifying Kharg Island with mines/MANPADs amid US ground operation planning. Iran Parliament Speaker warns of 'vital infrastructure' attacks on any regional country aiding US Kharg seizure. Spain becomes first European nation approved for Hormuz transit \u2014 Iran classifies Spain 'non-hostile' after Spain banned US forces from using its bases for Iran strikes. Malaysia also added. Trump extends energy-strike pause to April 6. Brent surges to $107.99-$109. S&P -1.74% worst day of war.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-27",
-      "event": "Day 28 (Hormuz blockade Day 25): IRGC Wave 83 targets all four major US Gulf bases simultaneously (Al-Dhafra UAE, Al-Udeidi Saudi, Ali Al-Salem Kuwait, Sheikh Isa Bahrain). IAF destroys Yazd naval missile and sea mine production facility — IDF says most central site for Iran's naval arms production. Pentagon weighing 10,000 additional ground troops including 82nd Airborne; Kharg Island seizure option remains active. CENTCOM confirms 92% of Iran's large naval ships eliminated. Brent $107.99 (+4.1%), WTI $94.48 (+4.6%). Tangsiri's replacement not yet named — IRGC Navy in transition. Selective blockade continues: Spain, Malaysia, China, Russia, India, Iraq, Pakistan approved for transit; fewer than 10 AIS transits per day vs 138 pre-war.",
+      "event": "Day 28 (Hormuz blockade Day 25): IRGC Wave 83 targets all four major US Gulf bases simultaneously (Al-Dhafra UAE, Al-Udeidi Saudi, Ali Al-Salem Kuwait, Sheikh Isa Bahrain). IAF destroys Yazd naval missile and sea mine production facility \u2014 IDF says most central site for Iran's naval arms production. Pentagon weighing 10,000 additional ground troops including 82nd Airborne; Kharg Island seizure option remains active. CENTCOM confirms 92% of Iran's large naval ships eliminated. Brent $107.99 (+4.1%), WTI $94.48 (+4.6%). Tangsiri's replacement not yet named \u2014 IRGC Navy in transition. Selective blockade continues: Spain, Malaysia, China, Russia, India, Iraq, Pakistan approved for transit; fewer than 10 AIS transits per day vs 138 pre-war.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-27",
-      "event": "Day 28 (Hormuz blockade Day 25): Iran turns back 3 Chinese ships (COSCO CSCL Indian Ocean, CSCL Arctic Ocean, Marshall Islands-flagged Lotus Rising) near Larak Island — IRGC confirms strait shut to unauthorized vessels. Brent surges to $112.57/bbl (highest since 2022), WTI briefly crosses $100 for first time this conflict. Macquarie warns $200 oil (40% probability) if Hormuz stays shut through June. Iran accepts UN request for humanitarian aid and agricultural shipping corridor. Only 21 tankers transited since war began vs 100+/day pre-war. 150+ ships anchored outside strait. Trump's extended Hormuz reopening deadline: April 7.",
+      "event": "Day 28 (Hormuz blockade Day 25): Iran turns back 3 Chinese ships (COSCO CSCL Indian Ocean, CSCL Arctic Ocean, Marshall Islands-flagged Lotus Rising) near Larak Island \u2014 IRGC confirms strait shut to unauthorized vessels. Brent surges to $112.57/bbl (highest since 2022), WTI briefly crosses $100 for first time this conflict. Macquarie warns $200 oil (40% probability) if Hormuz stays shut through June. Iran accepts UN request for humanitarian aid and agricultural shipping corridor. Only 21 tankers transited since war began vs 100+/day pre-war. 150+ ships anchored outside strait. Trump's extended Hormuz reopening deadline: April 7.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-28",
-      "event": "Blockade Day 26: Iran attacks Kuwait Airport radar (significantly damaged), Salalah Port Oman (1 injured, crane destroyed, Maersk suspends 48h), UAE industrial zone (5 injured) — simultaneous 3-nation Gulf strike; Pakistan announces Iran agreed to allow 20 Pakistani-flagged ships transit (2/day) as part of Islamabad mediation; Houthis fire first missile at Israel from Yemen threatening Bab al-Mandeb closure; Islamabad peace summit opens with Saudi/Turkey/Egypt FMs",
+      "event": "Blockade Day 26: Iran attacks Kuwait Airport radar (significantly damaged), Salalah Port Oman (1 injured, crane destroyed, Maersk suspends 48h), UAE industrial zone (5 injured) \u2014 simultaneous 3-nation Gulf strike; Pakistan announces Iran agreed to allow 20 Pakistani-flagged ships transit (2/day) as part of Islamabad mediation; Houthis fire first missile at Israel from Yemen threatening Bab al-Mandeb closure; Islamabad peace summit opens with Saudi/Turkey/Egypt FMs",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -362,13 +362,13 @@
     },
     {
       "date": "2026-03-29-morning",
-      "event": "Day 30 (Blockade Day 27): First two Pakistani-flagged ships confirmed to have already transited Hormuz — MV Multan (cargo) and P-Akili (crude, 80M+ litres) en route to Karachi, expected to dock March 31. Pentagon ground ops planning for Kharg Island reported by WaPo — adds new escalation risk to blockade. IRGC strikes Bahrain (Alba) and UAE (EGA) aluminium plants. Guterres at EU Council: 'Hormuz closure causes enormous pain around the world.' Trump April 6 full-reopening deadline remains.",
+      "event": "Day 30 (Blockade Day 27): First two Pakistani-flagged ships confirmed to have already transited Hormuz \u2014 MV Multan (cargo) and P-Akili (crude, 80M+ litres) en route to Karachi, expected to dock March 31. Pentagon ground ops planning for Kharg Island reported by WaPo \u2014 adds new escalation risk to blockade. IRGC strikes Bahrain (Alba) and UAE (EGA) aluminium plants. Guterres at EU Council: 'Hormuz closure causes enormous pain around the world.' Trump April 6 full-reopening deadline remains.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-29-evening",
-      "event": "Day 30 PM (Blockade Day 27): Islamabad quadrilateral summit (Pakistan, Saudi Arabia, Turkey, Egypt) concludes — Pakistan pledges to host direct US-Iran talks within days, Rubio-Araghchi meeting possible within 48-72 hours. Trump threatens Kharg Island seizure in FT interview — would effectively end all remaining Iranian oil exports. Iran's NPT withdrawal legislation advancing through parliament. Pakistan 20-ship deal confirmed operational; 2 ships/day transiting with IRGC escort. Total blockade: Blockade Day 27, ~17-18M bbl/day blocked (after pipeline bypass capacity).",
+      "event": "Day 30 PM (Blockade Day 27): Islamabad quadrilateral summit (Pakistan, Saudi Arabia, Turkey, Egypt) concludes \u2014 Pakistan pledges to host direct US-Iran talks within days, Rubio-Araghchi meeting possible within 48-72 hours. Trump threatens Kharg Island seizure in FT interview \u2014 would effectively end all remaining Iranian oil exports. Iran's NPT withdrawal legislation advancing through parliament. Pakistan 20-ship deal confirmed operational; 2 ships/day transiting with IRGC escort. Total blockade: Blockade Day 27, ~17-18M bbl/day blocked (after pipeline bypass capacity).",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -380,31 +380,31 @@
     },
     {
       "date": "2026-03-30-afternoon",
-      "event": "Day 31 PM (Blockade Day 28): Trump Truth Social post threatens to 'completely obliterate' all of Iran's electric generating plants, oil wells, Kharg Island, and possibly desalination plants by April 6 unless Hormuz fully reopened — Brent intraday spikes to $116. Rubio tells Al Jazeera Hormuz 'will reopen one way or another.' US Special Ops (Rangers, SEALs) and USS Tripoli (3,500 Marines) arrive in Middle East. Iran's joint military command declares private residences of US/Israeli officials 'legitimate targets.' Pakistan 20-ship/day deal continuing (2/day). Brent settles $112.78; WTI first close above $100 since July 2022.",
+      "event": "Day 31 PM (Blockade Day 28): Trump Truth Social post threatens to 'completely obliterate' all of Iran's electric generating plants, oil wells, Kharg Island, and possibly desalination plants by April 6 unless Hormuz fully reopened \u2014 Brent intraday spikes to $116. Rubio tells Al Jazeera Hormuz 'will reopen one way or another.' US Special Ops (Rangers, SEALs) and USS Tripoli (3,500 Marines) arrive in Middle East. Iran's joint military command declares private residences of US/Israeli officials 'legitimate targets.' Pakistan 20-ship/day deal continuing (2/day). Brent settles $112.78; WTI first close above $100 since July 2022.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-30-late",
-      "event": "Day 31 late (Blockade Day 28): IRGC drone strikes Kuwaiti VLCC 'Al-Salmi' at anchor in Dubai port area — fire on hull, 24 crew evacuated, oil spill risk. First Iranian strike on commercial vessel in port. IRGC claims Israeli-linked flag. 3 Chinese-flagged vessels transit Hormuz unopposed, underscoring selective blockade. Total crossings since March 1: ~195 (down 95% from peacetime). 2,142 vessels stranded/anchored in Gulf per Bloomberg. Iran charges $2M per transit for approved vessels. Saudi Arabia intercepts 5 Iranian missiles targeting Eastern Province oil infrastructure. Brent surges to $114.90. IMF: 'largest oil disruption in history.' Trump April 6 deadline remains.",
+      "event": "Day 31 late (Blockade Day 28): IRGC drone strikes Kuwaiti VLCC 'Al-Salmi' at anchor in Dubai port area \u2014 fire on hull, 24 crew evacuated, oil spill risk. First Iranian strike on commercial vessel in port. IRGC claims Israeli-linked flag. 3 Chinese-flagged vessels transit Hormuz unopposed, underscoring selective blockade. Total crossings since March 1: ~195 (down 95% from peacetime). 2,142 vessels stranded/anchored in Gulf per Bloomberg. Iran charges $2M per transit for approved vessels. Saudi Arabia intercepts 5 Iranian missiles targeting Eastern Province oil infrastructure. Brent surges to $114.90. IMF: 'largest oil disruption in history.' Trump April 6 deadline remains.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-31",
-      "event": "Day 32 early (Blockade Day 29): WSJ reports Trump willing to end war without reopening Hormuz — would leave complex reopening for later date. Brent dips ~1% to $111.55 on report. Pakistan FM Dar in Beijing — China's Wang Yi backs mediation. Gulf states (Saudi, UAE, Kuwait, Bahrain) privately told White House they want war to continue until regime change. Iran parliament advancing Hormuz toll legislation. Trump April 6 full-reopening deadline in 6 days.",
+      "event": "Day 32 early (Blockade Day 29): WSJ reports Trump willing to end war without reopening Hormuz \u2014 would leave complex reopening for later date. Brent dips ~1% to $111.55 on report. Pakistan FM Dar in Beijing \u2014 China's Wang Yi backs mediation. Gulf states (Saudi, UAE, Kuwait, Bahrain) privately told White House they want war to continue until regime change. Iran parliament advancing Hormuz toll legislation. Trump April 6 full-reopening deadline in 6 days.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-03-31",
-      "event": "Iranian drone strikes Kuwaiti VLCC Al-Salmi at Dubai port anchorage — 2M barrels crude, fire contained, 24 crew safe. Iran Parliament approves Hormuz toll plan — bans US/Israeli ships. Rubio: Hormuz will reopen 'one way or another.'",
+      "event": "Iranian drone strikes Kuwaiti VLCC Al-Salmi at Dubai port anchorage \u2014 2M barrels crude, fire contained, 24 crew safe. Iran Parliament approves Hormuz toll plan \u2014 bans US/Israeli ships. Rubio: Hormuz will reopen 'one way or another.'",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-01",
-      "event": "Iranian cruise missile hits QatarEnergy tanker Aqua 1 (17nm N of Ras Laffan); Qatar intercepted 2 of 3 missiles; 21 crew evacuated. Iranian drone hits Kuwait airport fuel depots — massive fire. 1 killed Fujairah (UAE) from drone debris. Bahrain fire. Trump willing to leave without reopening Hormuz per WSJ.",
+      "event": "Iranian cruise missile hits QatarEnergy tanker Aqua 1 (17nm N of Ras Laffan); Qatar intercepted 2 of 3 missiles; 21 crew evacuated. Iranian drone hits Kuwait airport fuel depots \u2014 massive fire. 1 killed Fujairah (UAE) from drone debris. Bahrain fire. Trump willing to leave without reopening Hormuz per WSJ.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -416,13 +416,13 @@
     },
     {
       "date": "2026-04-02",
-      "event": "Day 34 (Blockade Day 31): UK-led 40-nation Hormuz conference concludes (US absent) — signed statement demanding Iran reopen strait, pledged follow-up military planning. Iran-Oman nearly finalize draft for new Hormuz navigation regime — signals Iran preparing post-war framework. Brent surged to $109.35 (+8.1%). Trump set April 6 deadline to reopen or face Kharg Island destruction. Only 6 ships transited April 1 (down 95% from 130/day pre-war). ~2,142 vessels stranded. 27 commercial ships attacked/incidents since March 1. ~207 total crossings since blockade began. OPEC+ meets April 5.",
+      "event": "Day 34 (Blockade Day 31): UK-led 40-nation Hormuz conference concludes (US absent) \u2014 signed statement demanding Iran reopen strait, pledged follow-up military planning. Iran-Oman nearly finalize draft for new Hormuz navigation regime \u2014 signals Iran preparing post-war framework. Brent surged to $109.35 (+8.1%). Trump set April 6 deadline to reopen or face Kharg Island destruction. Only 6 ships transited April 1 (down 95% from 130/day pre-war). ~2,142 vessels stranded. 27 commercial ships attacked/incidents since March 1. ~207 total crossings since blockade began. OPEC+ meets April 5.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-03",
-      "event": "Day 35 (Blockade Day 32): Iran claims shootdown of US F-15E near Qeshm Island — CENTCOM denies. Philippine-flagged vessels now exempted (added April 2). Kuwait Mina Al-Ahmadi refinery hit by drones for 3rd time; desalination plant also struck. ~2,150 vessels stranded. GCC UN resolution vote scheduled Friday April 4. Brent $109.03; WTI $111.54 (WTI-Brent inversion). April 6 Trump deadline 3 days away.",
+      "event": "Day 35 (Blockade Day 32): Iran claims shootdown of US F-15E near Qeshm Island \u2014 CENTCOM denies. Philippine-flagged vessels now exempted (added April 2). Kuwait Mina Al-Ahmadi refinery hit by drones for 3rd time; desalination plant also struck. ~2,150 vessels stranded. GCC UN resolution vote scheduled Friday April 4. Brent $109.03; WTI $111.54 (WTI-Brent inversion). April 6 Trump deadline 3 days away.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -434,37 +434,37 @@
     },
     {
       "date": "2026-04-04",
-      "event": "Day 36 (Blockade Day 33): Iran approves limited passage for 'essential goods' ships through Hormuz — oil/gas blockade remains. IRGC claims drone attack on MSC Ishyka container ship (unverified). UNSC vote delayed to next week (Good Friday). Trump 48h ultimatum: April 6 deadline. 5 EU nations demand windfall profit tax.",
+      "event": "Day 36 (Blockade Day 33): Iran approves limited passage for 'essential goods' ships through Hormuz \u2014 oil/gas blockade remains. IRGC claims drone attack on MSC Ishyka container ship (unverified). UNSC vote delayed to next week (Good Friday). Trump 48h ultimatum: April 6 deadline. 5 EU nations demand windfall profit tax.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-05",
-      "event": "Day 37 (Blockade Day 34): Oman-Iran deputy FM talks exchange Hormuz transit proposals — first direct bilateral negotiation on passage. 3 Omani ships transit outside Iran's approved corridor. French CMA CGM container ship first Western vessel transit since war began (April 3). Iran toll plan operational — ships paying in yuan/crypto. Trump Easter 'Power Plant Day' threat — April 7 8PM ET deadline. Iran rejects: 'gates of hell.' Markets closed Easter.",
+      "event": "Day 37 (Blockade Day 34): Oman-Iran deputy FM talks exchange Hormuz transit proposals \u2014 first direct bilateral negotiation on passage. 3 Omani ships transit outside Iran's approved corridor. French CMA CGM container ship first Western vessel transit since war began (April 3). Iran toll plan operational \u2014 ships paying in yuan/crypto. Trump Easter 'Power Plant Day' threat \u2014 April 7 8PM ET deadline. Iran rejects: 'gates of hell.' Markets closed Easter.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-06",
-      "event": "Day 38 (Blockade Day 35): Iraq exemption — Iranian military declares Iraq 'exempt from any restrictions.' Iraqi Suezmax tanker 'Ocean Thunder' (~1M bbl Basrah Heavy) transits to Malaysia. Qatar LNG tankers Al Daayen + Rasheeda attempt first Hormuz exit since war began — Al Daayen at 8.8kn toward China, Rasheeda pulled back. Weekly transits up to 53 (from 36). Iran toll plan operational — Parliament approved rial-denominated tolls. 45-day ceasefire proposal from Egypt/Pakistan/Turkey — Iran rejects temporary Hormuz opening. Trump Tuesday 8PM ET deadline TOMORROW.",
+      "event": "Day 38 (Blockade Day 35): Iraq exemption \u2014 Iranian military declares Iraq 'exempt from any restrictions.' Iraqi Suezmax tanker 'Ocean Thunder' (~1M bbl Basrah Heavy) transits to Malaysia. Qatar LNG tankers Al Daayen + Rasheeda attempt first Hormuz exit since war began \u2014 Al Daayen at 8.8kn toward China, Rasheeda pulled back. Weekly transits up to 53 (from 36). Iran toll plan operational \u2014 Parliament approved rial-denominated tolls. 45-day ceasefire proposal from Egypt/Pakistan/Turkey \u2014 Iran rejects temporary Hormuz opening. Trump Tuesday 8PM ET deadline TOMORROW.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-06",
-      "event": "Day 38: Trump threatens total destruction of Iran tomorrow if Hormuz not reopened. Iran rejects 45-day ceasefire — demands permanent end + compensation. OPEC+ symbolic 206k bpd hike. Only 12 vessels transited Apr 3. Iraqi tanker exemption active. Qatar LNG tankers attempting exit.",
+      "event": "Day 38: Trump threatens total destruction of Iran tomorrow if Hormuz not reopened. Iran rejects 45-day ceasefire \u2014 demands permanent end + compensation. OPEC+ symbolic 206k bpd hike. Only 12 vessels transited Apr 3. Iraqi tanker exemption active. Qatar LNG tankers attempting exit.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-06",
-      "event": "Day 38 Night (Blockade Day 35): Iran adviser Velayati threatens 'Resistance front views Bab al-Mandeb as it does Hormuz' — if both straits closed, ~25% of global energy supply blocked. JPMorgan: oil could hit $120-$150/barrel. VP Vance in overnight talks with Pakistan FM + Iran FM on Islamabad Accord ceasefire. Brent surges to $111.25 (+39.3%). Weekly transits at 53 (up from 36). April 7 deadline 8PM ET TOMORROW.",
+      "event": "Day 38 Night (Blockade Day 35): Iran adviser Velayati threatens 'Resistance front views Bab al-Mandeb as it does Hormuz' \u2014 if both straits closed, ~25% of global energy supply blocked. JPMorgan: oil could hit $120-$150/barrel. VP Vance in overnight talks with Pakistan FM + Iran FM on Islamabad Accord ceasefire. Brent surges to $111.25 (+39.3%). Weekly transits at 53 (up from 36). April 7 deadline 8PM ET TOMORROW.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-07",
-      "event": "Day 39 (Blockade Day 36): DEADLINE DAY — Trump's 8pm ET ultimatum expires tonight. Hegseth vows 'most intense day of strikes' on Iran. Iran rejects 45-day ceasefire — demands permanent end to war + guarantees + compensation before Hormuz reopens. No active diplomatic channel. Mojtaba Khamenei missing 30 days. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Gas ~$4.12.",
+      "event": "Day 39 (Blockade Day 36): DEADLINE DAY \u2014 Trump's 8pm ET ultimatum expires tonight. Hegseth vows 'most intense day of strikes' on Iran. Iran rejects 45-day ceasefire \u2014 demands permanent end to war + guarantees + compensation before Hormuz reopens. No active diplomatic channel. Mojtaba Khamenei missing 30 days. Brent $110.05 (+37.8%); WTI $113.42 (+50.2%). Gas ~$4.12.",
       "status": "effectively_closed",
       "barrels": 0
     },
@@ -476,15 +476,21 @@
     },
     {
       "date": "2026-04-07",
-      "event": "Day 39 Evening (Blockade Day 35): Russia & China veto UNSC Hormuz resolution (11-2). Iran severs US diplomacy. IRGC launches 11 BMs + 18 drones at Saudi Jubail petrochemical complex — debris ignites fire. King Fahd Causeway closed. Iran's 10-point peace plan rejected by Trump. 8PM ET deadline imminent. Brent $113.40.",
+      "event": "Day 39 Evening (Blockade Day 35): Russia & China veto UNSC Hormuz resolution (11-2). Iran severs US diplomacy. IRGC launches 11 BMs + 18 drones at Saudi Jubail petrochemical complex \u2014 debris ignites fire. King Fahd Causeway closed. Iran's 10-point peace plan rejected by Trump. 8PM ET deadline imminent. Brent $113.40.",
       "status": "effectively_closed",
       "barrels": 0
     },
     {
       "date": "2026-04-08",
-      "event": "Day 40 (Blockade Day 36): CEASEFIRE — Iran SNSC accepts two-week ceasefire. FM Araghchi: 'Safe passage via coordination with Iran's Armed Forces.' Conditional reopening — NOT a full reopening. 20 transits/day (up from 6, still vs 138 pre-war). Oil crashed 16-19% in after-hours, rebounded. Islamabad talks April 10.",
+      "event": "Day 40 (Blockade Day 36): CEASEFIRE \u2014 Iran SNSC accepts two-week ceasefire. FM Araghchi: 'Safe passage via coordination with Iran's Armed Forces.' Conditional reopening \u2014 NOT a full reopening. 20 transits/day (up from 6, still vs 138 pre-war). Oil crashed 16-19% in after-hours, rebounded. Islamabad talks April 10.",
       "status": "partially_blocked",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-08",
+      "event": "CEASEFIRE DAY 1: First ships transit Hormuz since ceasefire. Greek NJ Earth (08:44 UTC) and Liberian Daytona Beach (06:59 UTC) pass through. Only 7 ships exit, 3 enter. 800+ vessels still trapped. Iran demands Armed Forces coordination. Shipowners cautious, assessing safety.",
+      "status": "partially_blocked",
+      "barrels": 800000
     }
   ],
   "impactedGoods": [
@@ -493,7 +499,7 @@
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
       "priceImpact": "+37.9% Brent ($110.05), +50.2% WTI ($113.42); physical Brent $141.36",
-      "detail": "20% of global supply cut off — Day 36 of blockade. DEADLINE DAY: Trump 8pm ET tonight. Iran rejects ceasefire — demands permanent end + guarantees. Iraq exempt. Selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines). Weekly transits ~53. 2,163+ vessels stranded. Hegseth: most intense strikes today."
+      "detail": "20% of global supply cut off \u2014 Day 36 of blockade. DEADLINE DAY: Trump 8pm ET tonight. Iran rejects ceasefire \u2014 demands permanent end + guarantees. Iraq exempt. Selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines). Weekly transits ~53. 2,163+ vessels stranded. Hegseth: most intense strikes today."
     },
     {
       "commodity": "LNG",
@@ -507,7 +513,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+25%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas ~$4.12/gal (AAA Day 39) — above $4 since March 31. California: $5.89/gal. Diesel: $5.49/gal. Iraq exemption active. OPEC+ +206k bpd for May. Analysts project $4.25-$4.45/gal within 2 weeks."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas ~$4.12/gal (AAA Day 39) \u2014 above $4 since March 31. California: $5.89/gal. Diesel: $5.49/gal. Iraq exemption active. OPEC+ +206k bpd for May. Analysts project $4.25-$4.45/gal within 2 weeks."
     },
     {
       "commodity": "Petrochemicals",
