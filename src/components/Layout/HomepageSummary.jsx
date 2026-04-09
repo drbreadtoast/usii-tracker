@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X, Loader2, CheckCircle, Send } from 'lucide-react'
+import { AlertOctagon, Skull, Fuel, DollarSign, Target, Newspaper, MessageSquareQuote, MapPin, MessageCircle, MessageSquare, Landmark, ExternalLink, ChevronRight, ChevronDown, TrendingUp, TrendingDown, Shield, AlertTriangle, Droplet, Clock, Zap, X } from 'lucide-react'
 import AdBanner from '../Ads/AdBanner'
 import CensorshipNotice from './CensorshipNotice'
 import SourcesNotice from './SourcesNotice'
@@ -21,14 +21,13 @@ import socialData from '../../data/social-posts.json'
 import lobbyData from '../../data/lobby-data.json'
 import hormuzData from '../../data/hormuz-shipping.json'
 
-const WEB3FORMS_KEY = 'b6a6218f-b812-4dd9-a358-26536d4bb141'
-const POLL_OPTIONS = [
-  { value: 'us-foreign',  label: 'US Foreign Affairs' },
-  { value: 'us-local',    label: 'US Local Affairs' },
-  { value: 'us-both',     label: 'US Local & Foreign Affairs' },
-  { value: 'middle-east', label: 'Middle Eastern News' },
-  { value: 'shutdown',    label: 'Shut down the site' },
-  { value: 'other',       label: 'Other' },
+const POLL_RESULTS = [
+  { label: 'US Local & Foreign Affairs', pct: 58.7 },
+  { label: 'US Foreign Affairs',         pct: 25.4 },
+  { label: 'US Local Affairs',           pct: 6.3 },
+  { label: 'Middle Eastern News',        pct: 4.8 },
+  { label: 'Other',                      pct: 3.2 },
+  { label: 'Shut down the site',         pct: 0 },
 ]
 
 // ----- Reusable section wrapper -----
@@ -438,41 +437,6 @@ function MoneySummary() {
 // ----- Main Export -----
 export default function HomepageSummary() {
   const [showSupport, setShowSupport] = useState(true)
-  const [feedbackChoice, setFeedbackChoice] = useState('')
-  const [otherText, setOtherText] = useState('')
-  const [feedbackStatus, setFeedbackStatus] = useState('idle')
-
-  const handleFeedbackSubmit = async () => {
-    if (!feedbackChoice || (feedbackChoice === 'other' && !otherText.trim())) return
-    setFeedbackStatus('sending')
-    const choiceLabel = POLL_OPTIONS.find(o => o.value === feedbackChoice)?.label || feedbackChoice
-    const msg = feedbackChoice === 'other'
-      ? `Preference: Other — ${otherText.trim()}`
-      : `Preference: ${choiceLabel}`
-    try {
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          access_key: WEB3FORMS_KEY,
-          subject: '[USII Tracker] News Preference Feedback',
-          from_name: 'USII Tracker Feedback Poll',
-          email: 'poll@usiitracker.com',
-          message: msg,
-          botcheck: '',
-        }),
-      })
-      const data = await res.json()
-      if (data.success) {
-        setFeedbackStatus('success')
-        setTimeout(() => setShowSupport(false), 3000)
-      } else {
-        setFeedbackStatus('idle')
-      }
-    } catch {
-      setFeedbackStatus('idle')
-    }
-  }
 
   return (
     <div id="quick-brief" className="bg-gray-950 border-t border-gray-800">
@@ -515,78 +479,45 @@ export default function HomepageSummary() {
               <X size={14} />
             </button>
 
-            {feedbackStatus === 'success' ? (
-              <div className="flex flex-col items-center gap-2 py-4">
-                <CheckCircle size={32} className="text-green-400" />
-                <p className="text-sm font-semibold text-gray-200">Thanks for your input!</p>
-                <p className="text-xs text-gray-500">Your feedback helps shape what comes next.</p>
-              </div>
-            ) : (
-              <>
-                <p className="text-xs text-gray-300 leading-relaxed font-medium">
-                  Still tracking. Still updating 3-4x/day — ceasefire or not.
-                </p>
-                <p className="text-xs text-gray-400 mt-2 leading-relaxed">
-                  When this war ends, this site continues as a live news tracker. Help us decide what to cover next:
-                </p>
+            <p className="text-xs text-gray-300 leading-relaxed font-medium">
+              Still tracking. Still updating 3-4x/day — ceasefire or not.
+            </p>
+            <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+              You voted — here are the results. This site continues as a live news tracker.
+            </p>
 
-                <div className="mt-3 space-y-1.5 text-left max-w-sm mx-auto">
-                  {POLL_OPTIONS.map((opt) => (
-                    <button
-                      key={opt.value}
-                      type="button"
-                      onClick={() => setFeedbackChoice(opt.value)}
-                      className={`w-full flex items-center gap-2 text-xs px-3 py-2 rounded-lg border transition-colors cursor-pointer ${
-                        feedbackChoice === opt.value
-                          ? 'bg-blue-600/20 border-blue-500/50 text-blue-300'
-                          : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:bg-gray-700'
-                      }`}
-                    >
-                      <span className={`w-3 h-3 rounded-full border-2 flex-shrink-0 ${
-                        feedbackChoice === opt.value
-                          ? 'border-blue-400 bg-blue-400'
-                          : 'border-gray-600'
-                      }`} />
-                      {opt.label}
-                    </button>
-                  ))}
-                </div>
-
-                {feedbackChoice === 'other' && (
-                  <input
-                    type="text"
-                    placeholder="What topic would you like?"
-                    value={otherText}
-                    onChange={(e) => setOtherText(e.target.value)}
-                    className="mt-2 w-full max-w-sm mx-auto block bg-gray-800 border border-gray-700 rounded-lg text-xs text-gray-200 placeholder-gray-600 px-3 py-2 outline-none focus:border-blue-500 transition-colors"
+            <div className="mt-3 space-y-1.5 text-left max-w-sm mx-auto">
+              {POLL_RESULTS.map((r) => (
+                <div key={r.label} className="relative overflow-hidden rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2">
+                  <div
+                    className="absolute inset-y-0 left-0 bg-blue-600/20"
+                    style={{ width: `${r.pct}%` }}
                   />
-                )}
-
-                <button
-                  type="button"
-                  onClick={handleFeedbackSubmit}
-                  disabled={!feedbackChoice || feedbackStatus === 'sending' || (feedbackChoice === 'other' && !otherText.trim())}
-                  className="mt-3 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 disabled:opacity-40 disabled:hover:bg-blue-600 text-white text-xs font-semibold px-5 py-2 rounded-lg transition-colors cursor-pointer"
-                >
-                  {feedbackStatus === 'sending' ? (
-                    <><Loader2 size={13} className="animate-spin" /> Sending...</>
-                  ) : (
-                    <><Send size={13} /> Submit Feedback</>
-                  )}
-                </button>
-
-                <div className="mt-3">
-                  <a
-                    href={siteMetadata.donationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
-                  >
-                    <span>☕</span> Buy Me a Coffee — Support This Project
-                  </a>
+                  <div className="relative flex items-center justify-between text-xs">
+                    <span className="text-gray-300">{r.label}</span>
+                    <span className="text-gray-400 font-semibold ml-2">{r.pct}%</span>
+                  </div>
                 </div>
-              </>
-            )}
+              ))}
+            </div>
+
+            <div className="mt-3 flex items-center justify-center gap-2 flex-wrap">
+              <button
+                type="button"
+                onClick={() => document.querySelector('[title="Contact Us"]')?.click()}
+                className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-500/40 hover:bg-blue-600/30 text-blue-400 hover:text-blue-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors cursor-pointer"
+              >
+                <MessageSquare size={13} /> Submit Feedback
+              </button>
+              <a
+                href={siteMetadata.donationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-amber-600/20 border border-amber-600/40 hover:bg-amber-600/30 text-amber-400 hover:text-amber-300 text-xs font-semibold px-4 py-2 rounded-lg transition-colors"
+              >
+                <span>☕</span> Buy Me a Coffee
+              </a>
+            </div>
           </div>
         </div>
       )}
