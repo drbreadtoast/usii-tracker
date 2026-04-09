@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-09T06:25:00Z",
+    "lastUpdated": "2026-04-09T12:39:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 340,
+    "totalSites": 343,
     "confirmed": 42,
     "reported": 1,
     "rumored": 0,
@@ -5378,6 +5378,45 @@
       "date": "2026-04-08",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/8/hundreds-of-casualties-across-lebanon-after-israel-says-it-hit-100-sites"
+    },
+    {
+      "id": "dmg-345",
+      "name": "Tallet Khayat, Beirut (Harshi assassination)",
+      "country": "Lebanon",
+      "lat": 33.87,
+      "lng": 35.50,
+      "category": "military",
+      "status": "confirmed",
+      "description": "Israeli strike in Tallet Khayat neighborhood killed Ali Yusuf Harshi, personal secretary and nephew of Hezbollah leader Naim Qassem. Multistory building partially collapsed. Outside Dahiyeh stronghold.",
+      "date": "2026-04-09",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-08-2026/"
+    },
+    {
+      "id": "dmg-346",
+      "name": "Abbassiyeh, southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.39,
+      "category": "civilian",
+      "status": "confirmed",
+      "description": "Israeli airstrike on Abbassiyeh killed 7 and wounded several. Part of broader strikes on Kafra, Jmaijmeh, Safad al-Battikh, Majdal Selm, Deir Antar. Artillery on Haris.",
+      "date": "2026-04-09",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
+    },
+    {
+      "id": "dmg-347",
+      "name": "Qasmiyeh Bridge over Litani River",
+      "country": "Lebanon",
+      "lat": 33.33,
+      "lng": 35.27,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "description": "IDF destroyed the Qasmiyeh Bridge, the main bridge over the Litani River connecting Lebanon and southern Lebanon. Part of strategy to isolate Hezbollah in the south. Defense Minister Katz declared IDF would demolish Lebanese border villages and all Litani crossings.",
+      "date": "2026-04-09",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
     }
   ]
 }

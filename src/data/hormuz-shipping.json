@@ -1,16 +1,16 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 37,
-  "dailyTransits": 10,
+  "blockadeDay": 38,
+  "dailyTransits": 3,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-09T06:25:00Z",
+  "lastUpdated": "2026-04-09T12:39:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
     "vesselsAnchored": 400,
-    "vesselsTransitLast24h": 10,
+    "vesselsTransitLast24h": 3,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
@@ -33,7 +33,7 @@
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Day 41: Ceasefire did not reopen Hormuz as expected. Only 3 bulk carriers transited Apr 8 — zero oil tankers. IRGC re-closed citing Israeli Lebanon strikes. Iran and Oman expected to charge transit tolls. Trump demands opening without tolls.",
+    "note": "Day 41 midday: IRGC publishes mine map showing 'danger zone' over Traffic Separation Scheme. Maham-3 and Maham-7 mines identified. Ships directed to alternative routes north/south of Larak Island. Only 2-3 ships transited since ceasefire (bulk carriers, zero oil tankers). 800+ vessels trapped. Press TV: strait 'fully closed' — tanker AUROURA turned back. White House: closure 'completely unacceptable.'",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 53,
@@ -495,7 +495,13 @@
     },
     {
       "date": "2026-04-09",
-      "event": "Ceasefire Day 2: Only 3 ships transited Apr 8. IRGC claims shipping halted again after Israel's Lebanon strikes. 800+ vessels remain trapped. Iran warns unauthorized ships 'will be destroyed.' White House calls closure 'completely unacceptable.'",
+      "event": "Ceasefire Day 2 AM: Only 3 ships transited Apr 8. IRGC claims shipping halted again after Israel's Lebanon strikes. 800+ vessels remain trapped. Iran warns unauthorized ships 'will be destroyed.' White House calls closure 'completely unacceptable.'",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-09",
+      "event": "Ceasefire Day 2 midday (Blockade Day 38): IRGC publishes mine map via ISNA/Tasnim showing 'danger zone' over Traffic Separation Scheme. Maham-3 and Maham-7 mines identified. Alternative routes: north of Larak Island (entry) and south of Larak (exit). Press TV reports strait 'fully closed' — tanker AUROURA turned 180°. Maersk: 'ceasefire may create transit opportunities but does not yet provide full maritime certainty.' Oil rebounds: Brent $97.80, WTI $97.53.",
       "status": "effectively_closed",
       "barrels": 0
     }
@@ -505,8 +511,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+37.9% Brent ($110.05), +50.2% WTI ($113.42); physical Brent $141.36",
-      "detail": "20% of global supply cut off — Day 36 of blockade. DEADLINE DAY: Trump 8pm ET tonight. Iran rejects ceasefire — demands permanent end + guarantees. Iraq exempt. Selective vetting (approved: China, Russia, India, Iraq, Pakistan, Malaysia, Japan, Philippines). Weekly transits ~53. 2,163+ vessels stranded. Hegseth: most intense strikes today."
+      "priceImpact": "+22.5% Brent ($97.80), +29.2% WTI ($97.53); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 38 of blockade. Ceasefire did NOT reopen Hormuz. IRGC published mine map (Maham-3/7). Only 2-3 bulk carriers transited since ceasefire — zero oil tankers. 800+ vessels trapped. Iran and Oman to charge transit fees. Brent/WTI rebounding on Hormuz re-closure."
     },
     {
       "commodity": "LNG",

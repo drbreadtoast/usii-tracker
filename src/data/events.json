@@ -26692,5 +26692,237 @@
       "injured": 0
     },
     "tags": ["trump", "military-threat", "truth-social", "ceasefire", "day41"]
+  },
+  {
+    "id": "evt-new-765",
+    "title": "IRGC publishes naval mine map — reveals 'danger zone' in Strait of Hormuz",
+    "description": "Iran's IRGC Navy posted a map via semi-official ISNA and Tasnim news agencies showing a large circle marked 'danger zone' in Farsi over the Traffic Separation Scheme — the standard route ships take through the Strait of Hormuz. The map directs vessels to alternative routes north and south of Larak Island, requiring coordination with IRGC forces. Mines identified by OSINT as Maham-3 and Maham-7 sensor-equipped weapons. Statement warns: 'Due to the past war situation and possible anti-ship mines, all vessels are advised to coordinate with the IRGC Navy and use alternative routes until further notice.'",
+    "type": "naval",
+    "lat": 26.57,
+    "lng": 56.25,
+    "location": "Strait of Hormuz, Persian Gulf",
+    "timestamp": "2026-04-09T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — IRGC releases map to guide ships around Hormuz mines",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-media-says-irgc-released-map-to-guide-ships-around-mines-in-strait-of-hormuz/"
+      },
+      {
+        "name": "CBS News — Iran ceasefire live updates",
+        "url": "https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "mines", "irgc", "naval", "shipping", "day41"]
+  },
+  {
+    "id": "evt-new-766",
+    "title": "Hezbollah rocket barrages escalate on northern Israel — 4 injured, 7+ waves",
+    "description": "Hezbollah fired multiple rocket barrages at northern Israel throughout Thursday morning, with sirens sounding at least seven times. Targets included Manara, Nahariya, and Kibbutz Kabri in the Western Galilee. Three people injured in Nahariya and one in Kibbutz Kabri. IDF reported dozens of launches from Lebanon since midnight. Hezbollah claimed attacks in response to 'Israeli ceasefire violations' after Operation Eternal Darkness, stating: 'This response will continue until the Israeli-American aggression against our country and our people ceases.'",
+    "type": "strike",
+    "lat": 33.01,
+    "lng": 35.10,
+    "location": "Northern Israel (Nahariya, Kibbutz Kabri)",
+    "timestamp": "2026-04-09T05:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Rappler — Hezbollah rockets northern Israel",
+        "url": "https://www.rappler.com/world/middle-east/hezbollah-rockets-northern-israel-ceasefire-breach-april-8-2026/"
+      },
+      {
+        "name": "Times of Israel — Sirens sound in northern towns",
+        "url": "https://www.timesofisrael.com/liveblog_entry/rockets-sound-in-northern-towns-for-first-time-in-hours/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 4
+    },
+    "tags": ["hezbollah", "rockets", "nahariya", "galilee", "ceasefire-violation", "day41"]
+  },
+  {
+    "id": "evt-new-767",
+    "title": "Israeli airstrike on Abbassiyeh kills 7 — continued Lebanon operations",
+    "description": "Israeli warplanes struck the southern Lebanese town of Abbassiyeh on Thursday, killing at least seven people and wounding several others, according to Lebanon's National News Agency. The strike was part of a broader wave of attacks on southern Lebanese towns including Kafra, Jmaijmeh, Safad al-Battikh, Majdal Selm, and Deir Antar near Qasmiyeh bridge. Artillery shelling also damaged the town of Haris. Israel continued to assert that the ceasefire does not cover Lebanon.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.39,
+    "location": "Abbassiyeh, southern Lebanon",
+    "timestamp": "2026-04-09T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war live April 9",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
+      },
+      {
+        "name": "Reuters — Lebanon strikes continue",
+        "url": "https://www.reuters.com/world/middle-east/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 7,
+      "injured": 0
+    },
+    "tags": ["lebanon", "airstrike", "abbassiyeh", "ceasefire-excluded", "day41"]
+  },
+  {
+    "id": "evt-new-768",
+    "title": "Houthi anti-ship missile targets Maersk Yorktown in Gulf of Aden — intercepted",
+    "description": "The US-flagged container ship Maersk Yorktown was targeted by a Houthi anti-ship missile while transiting the Gulf of Aden under escort by destroyers USS Mason and USS Laboon. The missile was intercepted before impact. Houthis also claimed attacks on vessels MSC Gina and MSC Darwin (claimed Israeli-owned) and a US destroyer. This follows Houthi attacks on three commercial vessels and two US frigates on April 7.",
+    "type": "naval",
+    "lat": 12.60,
+    "lng": 45.00,
+    "location": "Gulf of Aden",
+    "timestamp": "2026-04-09T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "CNN — Day 40 Middle East conflict live",
+        "url": "https://www.cnn.com/2026/04/08/world/live-news/iran-war-trump-us-ceasefire"
+      },
+      {
+        "name": "Al Jazeera — Iran war live April 9",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["houthis", "gulf-of-aden", "maersk", "naval", "missile-intercept", "day41"]
+  },
+  {
+    "id": "evt-new-769",
+    "title": "House Democrats attempt War Powers Resolution during pro forma session",
+    "description": "House Democrats attempted to pass a War Powers Resolution to limit President Trump's authority to strike Iran, via unanimous consent during a pro forma session at 11:30 AM on April 9. House Minority Leader Hakeem Jeffries demanded passage of the resolution introduced by Ranking Member Greg Meeks. The House is in two-week recess with votes not scheduled until April 14. Republican leadership was expected to block the effort. Rep. Glenn Ivey (D-MD) led the floor effort.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "Washington, DC, United States",
+    "timestamp": "2026-04-09T15:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NBC News — House Democrats war powers Iran",
+        "url": "https://www.nbcnews.com/politics/white-house/trump-threat-whole-civilization-will-die-iran-war-deadline-hormuz-rcna267059"
+      },
+      {
+        "name": "CBS News — Iran ceasefire live updates",
+        "url": "https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["war-powers", "congress", "democrats", "ceasefire", "day41"]
+  },
+  {
+    "id": "evt-new-770",
+    "title": "IDF Division 162 deploys to southern Lebanon — buffer zone expansion",
+    "description": "The Israeli military announced that troops from Division 162 would operate in southern Lebanon 'with the aim of expanding' the buffer zone. This joins five divisions already operating (91st, 36th, 146th, 162nd, 98th). PM Netanyahu said the military planned to create 'a larger buffer zone' to push back Hezbollah missile threat. IDF advancing north past coastal Naqoura toward Bayada, with media reporting no plans to push deeper than ~20km north of the border.",
+    "type": "movement",
+    "lat": 33.22,
+    "lng": 35.21,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-09T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CNN — Day 40 Middle East conflict live",
+        "url": "https://www.cnn.com/2026/04/08/world/live-news/iran-war-trump-us-ceasefire"
+      },
+      {
+        "name": "Al Jazeera — Iran war live April 9",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["ground-operation", "buffer-zone", "lebanon", "idf", "division-162", "day41"]
+  },
+  {
+    "id": "evt-new-771",
+    "title": "Tehran — massive crowds mark 40th day since Ayatollah Khamenei assassination",
+    "description": "Large crowds of Iranians gathered in the streets of Tehran on April 9 to mark the 40th day since Supreme Leader Ayatollah Ali Khamenei was killed in the initial US-Israeli strikes on February 28. The gathering came on the first full day of the ceasefire, with some traffic returning to Tehran's streets during daylight. Iran's Supreme National Security Council called on citizens to remain united until 'victory is finalized.'",
+    "type": "protest",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-09T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PBS News — Iran ceasefire",
+        "url": "https://www.pbs.org/newshour/world/irans-supreme-national-security-council-says-it-has-accepted-two-week-ceasefire-in-the-war"
+      },
+      {
+        "name": "CBS News — Iran ceasefire live updates",
+        "url": "https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["tehran", "mourning", "khamenei", "40th-day", "ceasefire", "day41"]
+  },
+  {
+    "id": "evt-new-772",
+    "title": "Iran re-closes Strait of Hormuz — cites Israeli Lebanon strikes as ceasefire violation",
+    "description": "Iran's IRGC claimed shipping through the Strait of Hormuz stopped following Israel's bombardment of Lebanon on April 8, which Tehran said violated the ceasefire. Press TV reported the strait was 'fully closed' with oil tanker AUROURA making a 180-degree turn near the Musandam coast. Fars news agency confirmed tanker movements halted 'concurrent with Israel's fresh deadly attacks on Lebanon.' White House Press Secretary Leavitt said any closure was 'completely unacceptable.' Only 2-3 ships had transited since the ceasefire, with 800+ freighters still trapped inside the Gulf.",
+    "type": "naval",
+    "lat": 26.57,
+    "lng": 56.25,
+    "location": "Strait of Hormuz, Persian Gulf",
+    "timestamp": "2026-04-09T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN — Hormuz traffic negligible after ceasefire",
+        "url": "https://www.cnn.com/2026/04/08/world/live-news/iran-war-trump-us-ceasefire"
+      },
+      {
+        "name": "CBS News — Iran ceasefire live updates",
+        "url": "https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "blockade", "ceasefire-violation", "shipping", "oil", "day41"]
   }
 ]

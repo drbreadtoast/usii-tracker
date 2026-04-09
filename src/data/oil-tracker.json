@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-09T06:25:00Z",
+    "lastUpdated": "2026-04-09T12:39:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 40
+    "conflictDay": 41
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-08",
-      "label": "Day 40 Late PM — CEASEFIRE FRACTURING. Brent settles ~$94.22 (+18.1% from pre-war) after crashing to ~$91 intraday. WTI settles ~$94.25 (+24.8%). Biggest one-day drop since 1991 Gulf War. But Iran RE-CLOSED Hormuz over Israel's Operation Eternal Darkness in Lebanon (254 killed). Hormuz re-closure threatens price recovery. Physical dated Brent hit record $144.42 earlier. Markets reassessing ceasefire durability.",
+      "date": "2026-04-09",
+      "label": "Day 41 midday — Brent rebounds to $97.80 (+3.1% from Apr 8 close), WTI to $97.53 (+3.3%). Recovery driven by Hormuz re-closure after IRGC claims shipping stopped over Israel's Lebanon strikes. IRGC publishes mine map showing 'danger zone' in strait. Only 2-3 ships transited since ceasefire. 800+ vessels trapped. Ceasefire durability in serious doubt.",
       "brent": {
-        "price": 97.39,
-        "change": "+22.0%",
-        "changeDollars": "+$17.55"
+        "price": 97.80,
+        "change": "+22.6%",
+        "changeDollars": "+$18.00"
       },
       "wti": {
-        "price": 94.41,
-        "change": "+25.0%",
-        "changeDollars": "+$18.90"
+        "price": 97.53,
+        "change": "+29.2%",
+        "changeDollars": "+$22.02"
       },
-      "changePercent": 22.0,
-      "lastUpdated": "2026-04-08"
+      "changePercent": 22.6,
+      "lastUpdated": "2026-04-09"
     },
     "priceHistory": [
       {
@@ -563,7 +563,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-09",
-    "note": "Day 41 PM CEASEFIRE DAY 2: AAA national avg $4.119/gal (+29.5%). Brent rebounding $97.39 (+22.0%). WTI $94.41 (+25.0%). Oil crashed 12-16% on ceasefire Apr 8, now rebounding as Hormuz remains blocked and ceasefire frays. Lebanon mourns 254 killed. Hezbollah resumes rockets.",
+    "note": "Day 41 midday CEASEFIRE DAY 2: AAA national avg $4.17/gal (+31.1%). Brent rebounding $97.80 (+22.6%). WTI $97.53 (+29.2%). Oil crashed 12-16% on ceasefire Apr 8, now rebounding as Hormuz remains blocked and ceasefire frays. IRGC publishes mine map. Hezbollah resumes rockets.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -573,14 +573,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.119,
-          "change": "+29.5%",
-          "changeDollars": "+$0.94",
+          "price": 4.17,
+          "change": "+31.1%",
+          "changeDollars": "+$0.99",
           "date": "2026-04-09"
         },
-        "change": "+$0.94",
-        "changePercent": "+29.5%",
-        "detail": "Gas $4.119/gal (AAA, Day 41 PM). Down 4.5¢ from $4.164 as ceasefire oil crash trickles through. But Hormuz remains closed — rebound expected. Pre-war $3.18.",
+        "change": "+$0.99",
+        "changePercent": "+31.1%",
+        "detail": "Gas $4.17/gal (AAA, Day 41 midday). Brent rebounding to $97.80 as Hormuz re-closed — gas ticking back up. Pre-war $3.18.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -658,11 +658,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.119,
-    "gasPriceRegular": 4.119,
+    "regularGasoline": 4.17,
+    "gasPriceRegular": 4.17,
     "gasPriceDiesel": "$5.49/gal",
-    "changeFromPreWar": "+$0.94",
-    "changePercent": "+29.5%"
+    "changeFromPreWar": "+$0.99",
+    "changePercent": "+31.1%"
   },
   "keyFacts": [
     {
@@ -759,7 +759,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-08T12:24:00Z",
+  "lastUpdated": "2026-04-09T12:39:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
