@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-09T00:23:00Z",
+    "lastUpdated": "2026-04-09T06:25:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 339,
+    "totalSites": 340,
     "confirmed": 42,
     "reported": 1,
     "rumored": 0,
@@ -5365,6 +5365,19 @@
       "description": "Operation Eternal Darkness: 50 IAF jets struck 100+ Hezbollah targets with 160 munitions in 10 minutes. Central Beirut commercial areas struck without warning during rush hour. 254 killed, 1,165 wounded. Targets in Beirut, Beqaa Valley, southern Lebanon.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/8/iran-war-live-trump-announces-truce-tehran-agrees-safe-transit-in-hormuz"
+    },
+    {
+      "id": "dmg-344",
+      "name": "Central Beirut — Operation Eternal Darkness targets",
+      "country": "Lebanon",
+      "lat": 33.89,
+      "lng": 35.5,
+      "category": "military",
+      "status": "confirmed",
+      "description": "100+ Hezbollah targets struck across 5+ Beirut neighborhoods during rush hour. 50 IAF jets, 160 munitions in 10 minutes. 92 killed in Beirut alone, 742 wounded. Command centers, intelligence HQs, Radwan Force assets targeted.",
+      "date": "2026-04-08",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/8/hundreds-of-casualties-across-lebanon-after-israel-says-it-hit-100-sites"
     }
   ]
 }

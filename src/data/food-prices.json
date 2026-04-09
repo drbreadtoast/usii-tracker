@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-09T00:23:00Z",
+  "lastUpdated": "2026-04-09T06:25:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": "$5.90/bushel",
-      "change": "+5.0%",
-      "detail": "CBOT wheat fell 1.3% to $5.90 (April 8 PM). Pulling back on ceasefire news. But fertilizer crisis worsening: Urea $826/ton (+35% from pre-war $677). Middle East urea $700+/tonne (+40%). QatarEnergy halted urea production. 25% of US farmers have NOT purchased fertilizer.",
+      "current": 6.07,
+      "change": "+8.0%",
+      "detail": "May SRW wheat $6.07/bu (Apr 8 close). Pre-war $5.62. Up 2.25¢ on day. Fertilizer crisis bigger long-term driver.",
       "source": "Farm Futures / CME April 7",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": "$4.49/bushel",
+      "current": 4.49,
       "change": "+4.2%",
-      "detail": "May corn fell 0.7% to $4.49 (April 8 PM). Pulling back on ceasefire. But USDA: corn acreage down 3.45M acres YoY. Fertilizer supply disruption ongoing.",
+      "detail": "May corn $4.49/bu (Apr 8 close). Pre-war $4.31. Down 8.5¢ on day. Easing slightly on ceasefire hopes.",
       "source": "Farm Futures / CME April 7",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -25,9 +25,9 @@
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": "$11.60/bushel",
-      "change": "+14.6%",
-      "detail": "May soybeans eased 0.3% to $11.60 (April 8 PM). Largely stable on ceasefire news.",
+      "current": 11.67,
+      "change": "+15.3%",
+      "detail": "May soybeans $11.67/bu (Apr 6 close). Pre-war $10.12. Up 3.25¢. India and Brazil 2026 crop yields expected lower.",
       "source": "Brownfield Ag News / CME March 20 closing",
       "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
     },
@@ -98,5 +98,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 40 CEASEFIRE: Food prices remain elevated despite ceasefire. Wheat $6.07/bu (+8.0%), corn $4.69/bu (+8.8%), soybeans $11.64/bu (+15.0%), rice $19.90/cwt (+30.9%). Urea fertilizer $590/MT (+19% in one week). Persian Gulf disruption continues impacting Asian food import routes. Ceasefire may ease pressure if Hormuz reopens fully."
+  "context": "Day 41 (Ceasefire Day 2): Grains easing slightly on ceasefire but fertilizer crisis is bigger driver. Urea $700-720/ton (+49%). 30% of global urea trade comes through Hormuz. 25% of US farmers haven't purchased spring fertilizer. Retail food price increases expected in 2-4 months."
 }
