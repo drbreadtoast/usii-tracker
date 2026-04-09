@@ -17,91 +17,6 @@
     ]
   },
   {
-    "id": "social-595",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "Iran launched 6 separate BM salvos at central/southern Israel on last day of Passover. ~10 missiles per salvo, most with cluster munitions. ~50 submunition impact sites across Petah Tikva, Ramat Gan, Bnei Brak. 6 wounded including 1 woman seriously injured.",
-    "timestamp": "2026-04-07T19:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Times of Israel liveblog and FDD Long War Journal.",
-    "keywords": [
-      "iran",
-      "ballistic-missile",
-      "cluster-munitions",
-      "israel",
-      "passover"
-    ]
-  },
-  {
-    "id": "social-596",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News",
-    "text": "IDF joint IAF/Navy operation struck Iran's central sonar production facility in Shiraz + last remaining petrochemical plant producing nitric acid for BM warheads. IDF now claims 85%+ of Iran's petrochemical export capacity inoperable. Also struck large BM system site in NW Iran.",
-    "timestamp": "2026-04-07T20:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by ANI News, The Media Line, IDF official statements.",
-    "keywords": [
-      "idf",
-      "shiraz",
-      "sonar",
-      "petrochemical",
-      "naval"
-    ]
-  },
-  {
-    "id": "social-597",
-    "handle": "@AuroraIntel",
-    "displayName": "AuroraIntel",
-    "text": "Iranian drone strike hits Ali Al Salem Air Base in Kuwait overnight — 15 American service members wounded. Most returned to duty. IRGC claims as Wave 98 of Operation True Promise 4. US total wounded now 380 across 7 countries.",
-    "timestamp": "2026-04-07T21:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by APA, Al Mayadeen, GlobalSecurity.",
-    "keywords": [
-      "ali-al-salem",
-      "kuwait",
-      "drone",
-      "us-military",
-      "irgc"
-    ]
-  },
-  {
-    "id": "social-598",
-    "handle": "@AlmaCenter",
-    "displayName": "Alma Research Center",
-    "text": "Day 39 comprehensive: IDF struck 10+ railway segments/bridges, 3 Tehran airports, Shiraz sonar + petrochemical, Tabriz, Khorramabad, Isfahan, Kashan. Iranian UAV hit Ali al-Salem (15 wounded). 7 BMs at Saudi Arabia intercepted. 12 Iranian attack waves at Israel Apr 6-7.",
-    "timestamp": "2026-04-07T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Alma Center daily report April 7.",
-    "keywords": [
-      "alma-center",
-      "daily-report",
-      "day39",
-      "idf",
-      "strikes"
-    ]
-  },
-  {
-    "id": "social-599",
-    "handle": "@StratSentinel",
-    "displayName": "Strategic Sentinel",
-    "text": "Day 39 late PM: Trump 2-week ceasefire bombshell via Pakistan. Pope Leo calls civilization threat 'truly unacceptable.' Vance: Iran faces 'two pathways.' Hegseth claims contradict reality per officials. Brent $113.40, WTI $115.17. Gas $4.14. Hormuz Day 36.",
-    "timestamp": "2026-04-07T22:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from US News, CNBC, Vatican News, Washington Times, Spokesman-Review.",
-    "keywords": [
-      "ceasefire",
-      "pope-leo",
-      "vance",
-      "hegseth",
-      "day39"
-    ]
-  },
-  {
     "id": "social-600",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab — OSINT Analyst",
@@ -538,6 +453,114 @@
       "lebanon-dispute",
       "islamabad-talks",
       "vance",
+      "day40"
+    ]
+  },
+  {
+    "id": "social-625",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "UN Human Rights Chief: 'The scale of the killing and destruction in Lebanon today is nothing short of horrific.' Amnesty International calls for immediate protection of civilians after Operation Eternal Darkness. UNICEF reports children among dead in central Beirut strikes.",
+    "timestamp": "2026-04-08T19:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "UN News, Amnesty International confirmed.",
+    "keywords": [
+      "un",
+      "human-rights",
+      "lebanon",
+      "amnesty",
+      "operation-eternal-darkness",
+      "day40"
+    ]
+  },
+  {
+    "id": "social-626",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "Iran Parliament Speaker Ghalibaf accuses US of violating 3 ceasefire terms: (1) noncompliance re Lebanon, (2) drone entered Iranian airspace, (3) denial of Iran's enrichment rights. FM Araghchi told Pakistan mediators ceasefire may collapse if Lebanon attacks continue.",
+    "timestamp": "2026-04-08T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, CBS News, Al Arabiya confirmed Ghalibaf's accusations.",
+    "keywords": [
+      "ghalibaf",
+      "ceasefire-violations",
+      "iran",
+      "enrichment",
+      "lebanon",
+      "day40"
+    ]
+  },
+  {
+    "id": "social-627",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT",
+    "text": "Vance confirmed to lead US delegation at Islamabad talks starting Saturday April 12 (moved from Friday). Delegation includes Witkoff and Kushner. Iran reportedly prefers Vance — he opposed launching the war. Highest-level US-Iran contact since 1979.",
+    "timestamp": "2026-04-08T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios, Bloomberg confirmed Vance leading delegation and Saturday date.",
+    "keywords": [
+      "vance",
+      "islamabad-talks",
+      "witkoff",
+      "kushner",
+      "negotiations",
+      "day40"
+    ]
+  },
+  {
+    "id": "social-628",
+    "handle": "@MarQs__",
+    "displayName": "MarQs — OSINT Analyst",
+    "text": "Oil settlement: Brent $96.24 (-11.9%), WTI $96.14 (-14.9%). Biggest one-day drops since 2020. But Iran's Hormuz re-closure caps downside. Physical Brent still $141+ due to extreme supply tightness. Only 3 ships left Persian Gulf today — all bulk carriers, zero oil tankers.",
+    "timestamp": "2026-04-08T21:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trading Economics, Bloomberg confirmed settlement prices.",
+    "keywords": [
+      "oil-settlement",
+      "brent",
+      "wti",
+      "hormuz",
+      "shipping",
+      "day40"
+    ]
+  },
+  {
+    "id": "social-629",
+    "handle": "@CharlesLister",
+    "displayName": "Charles Lister — MEI Senior Fellow",
+    "text": "Day 40 summary: Ceasefire holding between US and Iran — no new strikes on Iranian soil. But the 'peace' is illusory: 254 killed in Lebanon, Hormuz re-closed, Iran's parliament crying violation, 3 children injured in Negev. The next 48 hours before Islamabad talks will determine if this ceasefire survives.",
+    "timestamp": "2026-04-08T22:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NPR, PBS, CFR analysis pieces confirmed assessment.",
+    "keywords": [
+      "ceasefire-assessment",
+      "day40-summary",
+      "lebanon",
+      "hormuz",
+      "islamabad",
+      "day40"
+    ]
+  },
+  {
+    "id": "social-630",
+    "handle": "@JasonMBrodsky",
+    "displayName": "Jason Brodsky — Iran Policy Expert",
+    "text": "Hormuz update: ~2,000 ships stranded in Persian Gulf including 426 crude tankers, 34 LPG carriers. Iran demanding crypto/bitcoin tolls of ~$1/barrel. White House insists Hormuz must open 'without limitation, including tolls.' Iran describes it as 'permission-based' system. Standoff continues.",
+    "timestamp": "2026-04-08T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg, CNBC, CoinDesk confirmed shipping standoff and crypto toll demands.",
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "crypto-toll",
+      "stranded-ships",
+      "ceasefire",
       "day40"
     ]
   }
