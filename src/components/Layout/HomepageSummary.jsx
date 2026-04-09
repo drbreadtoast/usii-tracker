@@ -483,7 +483,7 @@ export default function HomepageSummary() {
               Still tracking. Still updating 3-4x/day — ceasefire or not.
             </p>
             <p className="text-xs text-gray-400 mt-2 leading-relaxed">
-              You voted — here are the results. This site continues as a live news tracker.
+              Once the US-Iran-Israel conflict resolves, this site will continue as a live news tracker. You voted on what to cover next — here are the results:
             </p>
 
             <div className="mt-3 space-y-1.5 text-left max-w-sm mx-auto">
