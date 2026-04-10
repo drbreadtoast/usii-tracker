@@ -1,39 +1,5 @@
 [
   {
-    "id": "brk-695",
-    "text": "TRUMP WARNS: Posts military 'remains in place' around Iran. Warns 'the Shootin Starts, bigger, and better, and stronger than anyone has ever seen before' if ceasefire not complied with. 'There will be no enrichment of Uranium.'",
-    "timestamp": "2026-04-09T04:00:00Z",
-    "eventDate": "2026-04-09",
-    "priority": "critical",
-    "sources": [
-      {
-        "name": "Al Jazeera — Iran war live April 9",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
-      },
-      {
-        "name": "NBC News — Iran war live updates",
-        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-ceasefire-trump-hormuz-israel-lebanon-rcna267205"
-      }
-    ]
-  },
-  {
-    "id": "brk-696",
-    "text": "OIL UPDATE: Brent rebounding to ~$97.39 after crashing to $96.24 close Apr 8. WTI at ~$94.41. AAA gas dips to $4.119/gal. Ceasefire uncertainty as Hormuz remains closed driving rebound. Markets: Dow +1,325 (+2.85%).",
-    "timestamp": "2026-04-09T06:00:00Z",
-    "eventDate": "2026-04-09",
-    "priority": "high",
-    "sources": [
-      {
-        "name": "OilPriceAPI — Live oil prices",
-        "url": "https://www.oilpriceapi.com/oil-prices-today"
-      },
-      {
-        "name": "AAA — Fuel Prices",
-        "url": "https://gasprices.aaa.com/"
-      }
-    ]
-  },
-  {
     "id": "brk-697",
     "text": "IRAN MINES: IRGC publishes map showing 'danger zone' over Hormuz shipping lanes. Maham-3 and Maham-7 mines identified. Ships directed to alternative routes via Larak Island under IRGC coordination. 800+ vessels trapped in Gulf.",
     "timestamp": "2026-04-09T07:00:00Z",
@@ -330,6 +296,53 @@
       {
         "name": "NPR — How much has the US spent",
         "url": "https://www.npr.org/2026/04/07/nx-s1-5775775/how-much-has-the-us-spent-on-the-war-in-iran"
+      }
+    ]
+  },
+  {
+    "id": "brk-718",
+    "text": "DEATH: Former Iran FM Kamal Kharazi (81) dies from wounds sustained in April 1 US-Israeli airstrike on his Tehran home. Wife also killed. One of most senior Iranian officials killed in the conflict.",
+    "timestamp": "2026-04-10T06:09:00Z",
+    "eventDate": "2026-04-09",
+    "priority": "high",
+    "sources": [
+      {
+        "name": "Free Malaysia Today — Former Iranian FM dies",
+        "url": "https://www.freemalaysiatoday.com/category/world/2026/04/10/former-iranian-foreign-minister-dies-from-attack-wounds"
+      }
+    ]
+  },
+  {
+    "id": "brk-719",
+    "text": "DIPLOMACY: Saudi-Iran FMs hold first phone call since war began. Prince Faisal bin Farhan and Araghchi discuss 'reducing tensions.' Islamabad peace talks begin today with VP Vance, Witkoff, Kushner meeting Iran's Qalibaf.",
+    "timestamp": "2026-04-10T06:09:00Z",
+    "eventDate": "2026-04-09",
+    "priority": "high",
+    "sources": [
+      {
+        "name": "The National — Saudi and Iranian FMs hold first call",
+        "url": "https://www.thenationalnews.com/news/gulf/2026/04/09/saudi-and-iranian-foreign-ministers-hold-first-call-since-start-of-iran-war/"
+      },
+      {
+        "name": "Al Jazeera — US-Iran talks in Pakistan",
+        "url": "https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-pakistan-whos-attending-whats-on-the-agenda"
+      }
+    ]
+  },
+  {
+    "id": "brk-720",
+    "text": "OIL: Brent surges to $98.27 intraday (+23.1% from pre-war), WTI $96.63 open. Ceasefire doubts push oil higher. Hormuz STILL effectively closed — zero oil tankers since ceasefire. Goldman flags $100+ Brent.",
+    "timestamp": "2026-04-10T06:09:00Z",
+    "eventDate": "2026-04-10",
+    "priority": "high",
+    "sources": [
+      {
+        "name": "CNBC — Oil prices today",
+        "url": "https://www.cnbc.com/2026/04/09/oil-prices-today-wti-brent-iran-accuse-us-of-ceasefire-breach.html"
+      },
+      {
+        "name": "Trading Economics — Brent crude",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       }
     ]
   }

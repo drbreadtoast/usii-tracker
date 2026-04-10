@@ -1,80 +1,5 @@
 [
   {
-    "id": "social-632",
-    "handle": "@WarMonitor",
-    "displayName": "War Monitor — Conflict Tracker",
-    "text": "Ceasefire scorecard after 24h: Iran claims 3 US violations (Lebanon, drone, enrichment). US says Lebanon 'not included.' Hezbollah fires first rockets post-ceasefire at Manara. Hormuz effectively still closed — only 3 ships transited. 800+ vessels trapped. Markets rallied anyway: Dow +1,325.",
-    "timestamp": "2026-04-09T03:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, Bloomberg, Rappler, Fortune confirmed all data points.",
-    "keywords": [
-      "ceasefire-scorecard",
-      "day41",
-      "hezbollah",
-      "hormuz",
-      "markets",
-      "violations"
-    ]
-  },
-  {
-    "id": "social-634",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender — Military Analysis",
-    "text": "Iraqi militia drone attacks near Baghdad airport and US Diplomatic Support Center despite ceasefire. US Embassy issues Level 4 warning for all Iraq. Islamic Resistance in Iraq 'suspended' operations but rogue elements continue. Indicates incomplete proxy control despite ceasefire.",
-    "timestamp": "2026-04-09T04:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "US Embassy Baghdad official alert confirmed. Xinhua reported militia suspension.",
-    "keywords": [
-      "baghdad",
-      "drone-attack",
-      "militia",
-      "ceasefire",
-      "iraq",
-      "proxy-control",
-      "day41"
-    ]
-  },
-  {
-    "id": "social-635",
-    "handle": "@NasimZehra",
-    "displayName": "Nasim Zehra — Pakistan Policy Analyst",
-    "text": "Islamabad peace talks confirmed: VP Vance leads US delegation (with Witkoff, Kushner) vs Iran's Qalibaf and Araghchi. Pakistan cemented as primary mediator — PM Sharif and army chief Asim Munir brokered the deal. Highest-level US-Iran meeting since 1979. Talks start Saturday.",
-    "timestamp": "2026-04-09T05:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Axios, Bloomberg, France24 confirmed all details.",
-    "keywords": [
-      "islamabad-talks",
-      "vance",
-      "pakistan",
-      "mediation",
-      "peace-talks",
-      "day41"
-    ]
-  },
-  {
-    "id": "social-636",
-    "handle": "@MarketRebel",
-    "displayName": "Market Rebel — Energy Analyst",
-    "text": "Oil rebounding: Brent $97.39 after crashing to $96.24 close (-12%). WTI $94.41 (-16.4% single day, biggest drop since 2020). Gas dips to $4.119. But ceasefire fraying rapidly — Hormuz re-closed, Hezbollah rockets, IRGC threats. Short-lived relief rally likely.",
-    "timestamp": "2026-04-09T06:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, Bloomberg, OilPriceAPI, AAA confirmed prices.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "gas",
-      "ceasefire-rally",
-      "hormuz",
-      "rebound",
-      "day41"
-    ]
-  },
-  {
     "id": "social-637",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel — OSINT Tracker",
@@ -568,6 +493,112 @@
       "pope-leo",
       "satellite",
       "osint",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-665",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — Conflict Intelligence",
+    "text": "Former Iran FM Kamal Kharazi (81) confirmed dead from April 1 airstrike wounds. His wife was also killed. One of the most senior Iranian officials to die in the conflict. Kharazi served as FM 1997-2005 and was key adviser to Supreme Leader Khamenei.",
+    "timestamp": "2026-04-10T04:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Free Malaysia Today, TRT World, Al Jazeera confirmed.",
+    "keywords": [
+      "kharazi",
+      "tehran",
+      "targeted-killing",
+      "ceasefire",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-666",
+    "handle": "@sentdefender",
+    "displayName": "Sentient Defender — OSINT",
+    "text": "Saudi-Iran FMs hold first phone call since war began. Prince Faisal bin Farhan and Araghchi discuss 'reducing tensions.' Significant — Saudi balancing Gulf Arab allies with Iran relationship. Comes ahead of Islamabad talks with VP Vance arriving Friday.",
+    "timestamp": "2026-04-10T04:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "The National, Al Arabiya confirmed.",
+    "keywords": [
+      "diplomacy",
+      "saudi-arabia",
+      "iran",
+      "ceasefire",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-667",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — Live Tracking",
+    "text": "Oil surging again: Brent hits $98.27 intraday (+23.1% from pre-war). Ceasefire doubts intensifying as Hormuz remains effectively closed — zero oil tankers through since ceasefire. First non-Iranian tanker (Gabon-flagged) tested transit. Iran demands $2M/vessel transit fee.",
+    "timestamp": "2026-04-10T05:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, Trading Economics, Bloomberg confirmed.",
+    "keywords": [
+      "oil",
+      "hormuz",
+      "brent",
+      "ceasefire",
+      "shipping",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-668",
+    "handle": "@MiddleEastEye",
+    "displayName": "Middle East Eye — Analysis",
+    "text": "PBS fact-check: Hegseth's 'historic victory' claims disputed. Joint Chiefs Chairman Caine declined to use 'victory' language. Iran still has nuclear program, Hormuz closed, Hezbollah active. US lost 24 MQ-9 Reapers ($720M+). Pentagon supplemental slashed from $200B to $80-100B.",
+    "timestamp": "2026-04-10T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PBS, WaPo, NPR confirmed.",
+    "keywords": [
+      "hegseth",
+      "pentagon",
+      "fact-check",
+      "reaper",
+      "war-costs",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-669",
+    "handle": "@OSINTtechnical",
+    "displayName": "OSINT Technical — Weapons Analysis",
+    "text": "US MQ-9 Reaper losses now at 24 total ($720M+). Iran shot down ~10, others destroyed on ground. Each costs ~$30M. These are backbone of ISR and precision strike ops in Iran. Tomahawk stocks approaching 'Winchester' — 950+ used (~$1.9B). JASSM-ER and GBU-57 MOP also heavily used.",
+    "timestamp": "2026-04-10T06:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Air & Space Forces, ABC News, 19FortyFive confirmed.",
+    "keywords": [
+      "reaper",
+      "drone",
+      "tomahawk",
+      "munitions",
+      "winchester",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-670",
+    "handle": "@Liveuamap",
+    "displayName": "Liveuamap — Conflict Tracker",
+    "text": "Islamabad talks: VP Vance + Witkoff + Kushner arriving today to meet Iran's Parliament Speaker Qalibaf. Highest-level US-Iran meeting since 1979. Key sticking points: enriched uranium, Lebanon inclusion, Hormuz tolls, sanctions. Mojtaba Khamenei: 'new phase' warning. Pope Leo prayer vigil Saturday.",
+    "timestamp": "2026-04-10T06:09:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Axios, NPR confirmed.",
+    "keywords": [
+      "islamabad",
+      "vance",
+      "qalibaf",
+      "peace-talks",
+      "ceasefire",
       "day42"
     ]
   }

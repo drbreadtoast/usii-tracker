@@ -1,27 +1,47 @@
 {
-  "lastUpdated": "2026-04-10T03:25:00Z",
+  "lastUpdated": "2026-04-10T06:09:00Z",
   "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.1",
   "conflictDay": 42,
-  "totalSocialPosts": 32,
+  "totalSocialPosts": 34,
   "dataFiles": {
-    "events": 836,
-    "warTimeline": 635,
-    "breaking": 22,
+    "events": {
+      "entries": 838,
+      "lastId": "evt-new-790"
+    },
+    "warTimeline": {
+      "entries": 635,
+      "lastId": "tl-635"
+    },
+    "breaking": {
+      "entries": 23,
+      "lastId": "brk-720"
+    },
     "deathToll": {
       "conflicts": 3
     },
-    "statementsTimeline": 536,
+    "statementsTimeline": {
+      "totalStatements": 541
+    },
     "warCosts": {
       "daysOfConflict": 42
     },
     "oilTracker": {
       "lastUpdated": "2026-04-10T03:25:00Z"
     },
-    "socialPosts": 32,
-    "governmentStatements": 470,
-    "escalations": 358,
+    "socialPosts": {
+      "entries": 34,
+      "lastId": "social-670"
+    },
+    "governmentStatements": {
+      "entries": 472,
+      "lastId": "gov-472"
+    },
+    "escalations": {
+      "entries": 359,
+      "lastId": "esc-358"
+    },
     "gasPrices": {
       "currentAverage": 4.16
     },
@@ -40,8 +60,8 @@
       "lastUpdated": "2026-04-10T03:25:00Z"
     },
     "damageData": {
-      "totalSites": 344,
-      "lastId": "dmg-348"
+      "totalSites": 348,
+      "lastId": "dmg-352"
     },
     "missileStrikes": 449,
     "conflictCountries": {
@@ -60,5 +80,5 @@
     },
     "damageLocations": 348
   },
-  "updateNote": "Day 42 8:25 PM PT — Oil settles Brent $95.92/WTI $97.87. Hormuz still closed Day 39. Islamabad talks today. March CPI expected +0.9% monthly. Lebanon toll 1,888. Gas $4.16."
+  "updateNote": "Day 42 11:09 PM PT — Kharazi dies. Saudi-Iran FM call. Oil Brent $98.27/WTI $96.63. Hormuz closed Day 39. Islamabad talks begin. Gas $4.17. Bab el-Mandeb threat."
 }

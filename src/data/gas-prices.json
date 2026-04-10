@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-10T03:25:00Z",
-  "currentAverage": 4.16,
+  "lastUpdated": "2026-04-10T06:09:00Z",
+  "currentAverage": 4.17,
   "preWarAverage": 3.14,
-  "changePercent": 32.5,
+  "changePercent": 32.8,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -369,6 +369,12 @@
       "price": 4.17,
       "label": "Day 42 — Ceasefire Day 3",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-10",
+      "price": 4.17,
+      "label": "Day 42 — Gas holds $4.17 (AAA). Oil surging Brent $98.27 WTI $96.63. Hormuz closed. Kharazi dies. Islamabad talks begin.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -464,18 +470,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.16,
-      "note": "National average $4.17/gal (AAA April 9). Oil surging — Brent $98.26 (+23.1%), WTI $100.27 (+32.8%). Hormuz still closed despite ceasefire. Goldman flags $100+ Brent. Gas may tick up further as oil rises. Analysts say 1-2 weeks before gas falls below $4, months to return to pre-war ~$3.",
-      "crude": 2.34,
+      "total": 4.17,
+      "note": "National average $4.17/gal (AAA April 10). Oil surging — Brent $98.27 (+23.1%), WTI $96.63 (+28.0%). Hormuz still closed despite ceasefire. Goldman flags $100+ Brent. Gas may rise further. Analysts say weeks before gas falls below $4.",
+      "crude": 2.37,
       "taxes": 0.86,
       "refining": 0.52,
       "distribution": 0.45,
       "regularGasoline": 4.17,
-      "changeFromPreWar": "+$0.99",
-      "changePercent": "+31.1%",
-      "lastUpdated": "2026-04-09T20:01:00Z",
-      "date": "2026-04-09"
+      "changeFromPreWar": "+$1.03",
+      "changePercent": "+32.8%",
+      "lastUpdated": "2026-04-10T06:09:00Z",
+      "date": "2026-04-10"
     }
   },
-  "context": "Day 41 (Ceasefire Day 2): Gas edges up to $4.17/gal (AAA) despite ceasefire. Oil rebounding as Hormuz remains closed — IRGC publishes mine map. Iran says shipping stopped after Israel's Lebanon strikes. Analysts warn 1-2 weeks before gas falls below $4. California at $5.89, Virginia over $4."
+  "context": "Day 42 (Ceasefire Day 3): Gas holds at $4.17/gal (AAA). Oil surging — Brent $98.27, WTI $96.63. Hormuz remains effectively closed — zero oil tankers since ceasefire. Iran reclosed strait over Lebanon strikes. Analysts warn gas may rise to $4.25-$4.45/gal. California at $5.89."
 }
