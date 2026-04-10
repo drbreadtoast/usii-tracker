@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-10T06:09:00Z",
+    "lastUpdated": "2026-04-10T12:44:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 348,
-    "confirmed": 288,
+    "totalSites": 350,
+    "confirmed": 290,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5482,6 +5482,36 @@
       "description": "Lavan Oil Refinery struck in early hours of ceasefire day. Fire ignited. No party claimed responsibility.",
       "source": "Wikipedia — 2026 Iran war",
       "sourceUrl": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "id": "dmg-353",
+      "name": "Qasmiyeh Bridge, near Tyre",
+      "country": "Lebanon",
+      "lat": 33.2705,
+      "lng": 35.204,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-10",
+      "description": "Vital Qasmiyeh Bridge near Tyre destroyed by Israeli airstrikes. Bridge was primary humanitarian corridor to southern Lebanon. HRW reported destruction severs aid to 500K+ civilians in south.",
+      "source": "Human Rights Watch",
+      "sourceUrl": "https://www.hrw.org/news/2026/04/10/lebanon-israeli-strikes-kill-hundreds-damage-vital-bridge",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-354",
+      "name": "Residential area, Aita al-Shaab",
+      "country": "Lebanon",
+      "lat": 33.1178,
+      "lng": 35.4525,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-10",
+      "description": "Multiple residential buildings destroyed in IDF strikes on Aita al-Shaab, southern Lebanon. At least 7 killed. Part of continued Israeli operations despite Iran ceasefire.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/10/israel-strikes-residential-areas-destroys-homes-in-southern-lebanon",
+      "severity": "high",
+      "attributedTo": "israel"
     }
   ]
 }
