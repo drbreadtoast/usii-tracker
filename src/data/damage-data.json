@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-10T12:44:00Z",
+    "lastUpdated": "2026-04-10T20:34:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 350,
-    "confirmed": 290,
+    "totalSites": 353,
+    "confirmed": 293,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5512,6 +5512,51 @@
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/10/israel-strikes-residential-areas-destroys-homes-in-southern-lebanon",
       "severity": "high",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-355",
+      "name": "Nabatieh Serail (Government Building)",
+      "country": "Lebanon",
+      "lat": 33.378,
+      "lng": 35.483,
+      "type": "government",
+      "status": "confirmed",
+      "date": "2026-04-10",
+      "description": "Israeli airstrike destroyed the Nabatieh Serail government building in southern Lebanon. 13 Lebanese State Security personnel killed. Lebanon's President Aoun condemned the attack on state institutions.",
+      "source": "AP via WSLS",
+      "sourceUrl": "https://www.wsls.com/news/world/2026/04/10/israeli-strike-kills-lebanese-security-forces-as-israel-and-hezbollah-trade-fire-ahead-of-talks/",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-356",
+      "name": "House hit by Hezbollah rocket, Kibbutz Misgav Am",
+      "country": "Israel",
+      "lat": 33.28,
+      "lng": 35.55,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-10",
+      "description": "Hezbollah rocket directly hit a house in Kibbutz Misgav Am, northern Israel. Part of ~30 rocket barrage. No casualties reported by Magen David Adom.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-10/ty-article/hezbollah-rockets-fired-at-israel-cause-heavy-damage-idf-strikes-south-lebanon/0000019d-77fe-d4a3-a9ff-7fffc82c0000",
+      "severity": "medium",
+      "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-357",
+      "name": "School hit by Hezbollah rocket, Deir al-Asad",
+      "country": "Israel",
+      "lat": 32.93,
+      "lng": 35.27,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-10",
+      "description": "Hezbollah rocket struck a school in Deir al-Asad, northern Israel. Part of ~30 rocket barrage on northern Israel. No casualties reported.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-10/ty-article/hezbollah-rockets-fired-at-israel-cause-heavy-damage-idf-strikes-south-lebanon/0000019d-77fe-d4a3-a9ff-7fffc82c0000",
+      "severity": "medium",
+      "attributedTo": "hezbollah"
     }
   ]
 }

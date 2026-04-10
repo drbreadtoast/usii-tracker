@@ -27880,5 +27880,303 @@
       "ceasefire",
       "day42"
     ]
+  },
+  {
+    "id": "evt-new-797",
+    "title": "Israeli airstrike on Nabatieh Serail kills 13 Lebanese State Security personnel",
+    "description": "Israeli airstrike struck the Nabatieh Serail government building in southern Lebanon, killing 13 Lebanese State Security personnel. Lebanon's President Joseph Aoun condemned the attack on state institutions. The strike targeted the government building, not a Hezbollah facility, raising international condemnation.",
+    "type": "strike",
+    "lat": 33.378,
+    "lng": 35.483,
+    "location": "Nabatieh, Lebanon",
+    "timestamp": "2026-04-10T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "AP via WSLS — Israeli strike kills Lebanese security forces",
+        "url": "https://www.wsls.com/news/world/2026/04/10/israeli-strike-kills-lebanese-security-forces-as-israel-and-hezbollah-trade-fire-ahead-of-talks/"
+      },
+      {
+        "name": "The Business Standard — 13 state security killed in Nabatieh",
+        "url": "https://www.tbsnews.net/world/lebanon-says-israeli-attack-killed-13-state-security-personnel-nabatieh-1408231"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 13,
+      "injured": 0
+    },
+    "tags": [
+      "nabatieh",
+      "lebanon",
+      "state-security",
+      "strike",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-798",
+    "title": "Hezbollah fires missile at Ashdod naval base — deepest strike yet",
+    "description": "Hezbollah claimed it targeted the Israeli naval base at the port of Ashdod with missiles, roughly 90 miles from the Lebanon border — one of its deepest attacks yet. Interceptors were fired and no casualties reported. Hezbollah stated the strike was in response to Israel's 'violation of the ceasefire.'",
+    "type": "strike",
+    "lat": 31.801,
+    "lng": 34.644,
+    "location": "Ashdod, Israel",
+    "timestamp": "2026-04-10T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah fires missile at Ashdod port",
+        "url": "https://www.timesofisrael.com/hezbollah-fires-missile-at-southern-port-of-ashdod-as-idf-strikes-launchers-in-lebanon/"
+      },
+      {
+        "name": "Al Arabiya — Hezbollah says it targeted Ashdod naval base",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/04/10/hezbollah-says-it-targeted-israel-s-ashdod-naval-base-with-missiles-"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "hezbollah",
+      "ashdod",
+      "missile",
+      "deep-strike",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-799",
+    "title": "Hezbollah launches ~30 rockets at northern Israel — Misgav Am, Deir al-Asad, Metula hit",
+    "description": "Hezbollah launched approximately 30 rockets at northern Israel. A house in Kibbutz Misgav Am was hit, a school in Deir al-Asad struck, and a packaging facility fire started in Metula. Magen David Adom reported no casualties. IDF struck approximately 10 Hezbollah launchers in response.",
+    "type": "strike",
+    "lat": 33.28,
+    "lng": 35.55,
+    "location": "Northern Israel",
+    "timestamp": "2026-04-10T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Haaretz — Hezbollah rockets cause heavy damage in Israel",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-10/ty-article/hezbollah-rockets-fired-at-israel-cause-heavy-damage-idf-strikes-south-lebanon/0000019d-77fe-d4a3-a9ff-7fffc82c0000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "hezbollah",
+      "rockets",
+      "northern-israel",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-800",
+    "title": "Hezbollah missile toward central Israel triggers Tel Aviv sirens — intercepted",
+    "description": "Hezbollah launched a missile toward central Israel triggering air raid sirens including in the Tel Aviv area. The missile was intercepted by Israeli air defenses. IDF struck approximately 10 Hezbollah launchers in southern Lebanon in response.",
+    "type": "strike",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Central Israel / Tel Aviv area",
+    "timestamp": "2026-04-10T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Al-Monitor — Hezbollah launches missile at Israel triggering sirens",
+        "url": "https://www.al-monitor.com/originals/2026/04/israeli-military-says-hezbollah-launched-missile-israel-triggering-sirens"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "hezbollah",
+      "missile",
+      "tel-aviv",
+      "intercepted",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-801",
+    "title": "IDF ground clashes in Bint Jbeil — 2 soldiers wounded by Hezbollah anti-tank missile",
+    "description": "Hezbollah engaged IDF soldiers with light arms and RPGs in Bint Jbeil, southern Lebanon. Two IDF officers were wounded by anti-tank missile fire — one seriously, one moderately. IDF's 98th Division has nearly fully taken control of Bint Jbeil.",
+    "type": "movement",
+    "lat": 33.121,
+    "lng": 35.434,
+    "location": "Bint Jbeil, Lebanon",
+    "timestamp": "2026-04-10T14:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Soldiers wounded in Lebanon clash with Hezbollah",
+        "url": "https://www.timesofisrael.com/four-soldiers-killed-2-wounded-in-south-lebanon-clash-with-hezbollah/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": [
+      "idf",
+      "bint-jbeil",
+      "ground-combat",
+      "hezbollah",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-802",
+    "title": "Former Iranian FM Kamal Kharazi dies from wounds of April 1 airstrike",
+    "description": "Former Iranian Foreign Minister Kamal Kharazi (81) died on April 10 from wounds sustained in the April 1 US-Israeli airstrike on his Tehran home. His wife was killed in the same strike. Kharazi served as FM from 1997-2005 and was an advisor to the late Supreme Leader.",
+    "type": "strike",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-10T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Kharazi dies from strike wounds",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-892570"
+      },
+      {
+        "name": "Turkiye Today — Kharazi death confirmed",
+        "url": "https://www.turkiyetoday.com/region/irans-former-foreign-minister-kharazi-dies-from-wounds-in-strike-on-his-tehran-home-3217792"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": [
+      "kharazi",
+      "iran",
+      "tehran",
+      "death",
+      "official",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-803",
+    "title": "House GOP blocks war powers resolution vote — gavels session closed",
+    "description": "House Republicans blocked a Democratic effort to force a vote on an Iran war powers resolution. Speaker Pro Tempore Chris Smith gaveled the session closed without allowing Rep. Glenn Ivey to speak. The move prevents Congress from voting on whether to authorize the war.",
+    "type": "diplomatic",
+    "lat": 38.8899,
+    "lng": -77.0091,
+    "location": "Washington, D.C.",
+    "timestamp": "2026-04-10T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Democracy Now — House GOP blocks war powers vote",
+        "url": "https://www.democracynow.org/2026/4/10/headlines/house_gop_blocks_democratic_effort_to_force_vote_on_iran_war_powers_resolution"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "congress",
+      "war-powers",
+      "domestic",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-804",
+    "title": "US CPI inflation surges to 3.3% — gasoline up 21.2% in one month from war",
+    "description": "The March 2026 Consumer Price Index shows US inflation rose to 3.3% annually, driven primarily by the Iran war oil shock. Gasoline prices surged 21.2% in one month. Consumer sentiment hit a record low. Economists warn inflation may worsen if Hormuz remains closed.",
+    "type": "infrastructure",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington, D.C.",
+    "timestamp": "2026-04-10T12:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — Iran war oil shock pushes US inflation to 3.3%",
+        "url": "https://www.cnn.com/2026/04/10/economy/us-cpi-inflation-march"
+      },
+      {
+        "name": "Bloomberg — CPI surge, record low consumer sentiment",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "inflation",
+      "cpi",
+      "economy",
+      "gasoline",
+      "day42"
+    ]
+  },
+  {
+    "id": "evt-new-805",
+    "title": "Saudi FM holds first call with Iranian FM Araghchi since war began",
+    "description": "Saudi Foreign Minister Prince Faisal bin Farhan held the first phone call with Iranian FM Abbas Araghchi since the war began. They discussed reducing tensions. Araghchi separately warned it would be 'dumb' for the US to let Netanyahu 'kill diplomacy' via continued Lebanon strikes.",
+    "type": "diplomatic",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "location": "Riyadh, Saudi Arabia",
+    "timestamp": "2026-04-10T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Arabiya — Saudi FM call with Iranian counterpart",
+        "url": "https://english.alarabiya.net/News/saudi-arabia/2026/04/09/saudi-fm-receives-phone-call-from-iranian-counterpart-discusses-ways-to-reduce-tension-"
+      },
+      {
+        "name": "Al Jazeera — Araghchi: dumb for US to let Netanyahu kill diplomacy",
+        "url": "https://www.aljazeera.com/news/2026/4/9/iran-says-it-would-be-dumb-for-us-to-let-netanyahu-kill-diplomacy"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "saudi",
+      "iran",
+      "diplomacy",
+      "araghchi",
+      "day42"
+    ]
   }
 ]

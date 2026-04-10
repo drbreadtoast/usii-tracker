@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T12:44:00Z",
+  "lastUpdated": "2026-04-10T20:34:00Z",
   "commodities": [
     {
       "name": "Wheat",
@@ -15,11 +15,11 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.44,
-      "change": "+3.0%",
-      "detail": "May corn $4.44/bu (Apr 9 close, down 3.25c). Pre-war $4.31. Easing on ceasefire hopes. USDA WASDE report Apr 9.",
-      "source": "Farm Futures / CME April 7",
-      "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
+      "current": 4.54,
+      "change": "+5.3%",
+      "detail": "May corn $4.54/bu (Apr 10). Pre-war $4.31. Fertilizer costs driving up planting costs — analysts warn 1.5M acres may shift from corn to soybeans.",
+      "source": "CME Group — Corn Futures",
+      "sourceUrl": "https://www.cmegroup.com/markets/agriculture/grains/corn.quotes.html"
     },
     {
       "name": "Soybeans",
@@ -65,11 +65,11 @@
       "name": "Coffee",
       "unit": "/lb",
       "preWar": "$1.82",
-      "current": "$2.62",
-      "change": "+44.0%",
-      "detail": "Global shipping costs and fuel surcharges rising sharply. Container rates up 85% on key routes. Coffee surged 6% on supply disruption fears.",
-      "source": "CME Group",
-      "sourceUrl": "https://www.cmegroup.com/markets/agriculture/softs/coffee.html"
+      "current": "$2.94",
+      "change": "+61.5%",
+      "detail": "Arabica $2.94/lb (Apr 10). Down from 2025 peak of $4.41 but still elevated. Global shipping costs and fuel surcharges rising sharply. Container rates up 85% on key routes.",
+      "source": "Trading Economics — Coffee",
+      "sourceUrl": "https://tradingeconomics.com/commodity/coffee"
     },
     {
       "name": "Beef",
@@ -87,8 +87,8 @@
     "preWarWeekly": 168,
     "currentWeekly": 181,
     "changePercent": 7.7,
-    "usdaForecast2026": "3.1% food price rise",
-    "note": "USDA projects 3.1% food-at-home inflation in 2026. Wolfe Research estimates war could add ~2 additional percentage points. Fertilizer crisis (urea +40%, ammonia +41%) threatening Northern Hemisphere planting season."
+    "usdaForecast2026": "3.6% food price rise",
+    "note": "USDA projects 3.6% overall food price increase in 2026 (food-at-home +2.5%, food-away-from-home +3.7%). Sugar/sweets +6.7%. Wolfe Research estimates war could add ~2 additional percentage points. Fertilizer crisis (urea +40%, ammonia +41%) threatening Northern Hemisphere planting season."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -98,5 +98,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 42 (Ceasefire Day 3): Grain prices easing slightly on ceasefire — wheat $5.74, corn $4.44. Soybeans still elevated at $11.65. FAO Vegetable Oil Index at 183.1 (highest since Jun 2022). Urea fertilizer +40%. Rice supply chains through Gulf disrupted. USDA April WASDE released."
+  "context": "Day 42 PM (Ceasefire Day 3): Corn rises to $4.54, coffee to $2.94. Wheat $5.74, soybeans $11.65. CPI inflation 3.3% — gasoline +21.2% in one month. USDA projects 3.6% food price increase in 2026. Urea fertilizer +40%. Ammonia +41% YoY. 25% of US farmers haven't purchased fertilizer for planting season."
 }
