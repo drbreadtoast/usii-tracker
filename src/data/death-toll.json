@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T20:01:00Z",
+  "lastUpdated": "2026-04-10T00:02:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -83,17 +83,17 @@
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
-            "military": 0,
-            "civilian": 2340,
-            "total": 2340,
-            "source": "Iran Health Ministry / Al Jazeera tracker / Iranian Red Crescent \u2014 Day 39 EVENING (April 7). 2,340+ killed since Feb. 28. +2 killed at Kashan railway bridge strike. IRGC Intel Chief Khademi + Quds Force cmdr Bagheri + missile cmdr Makram Atimi killed. Khorramshahr shipbuilding, Natanz IRGC HQ struck.",
+            "military": 1320,
+            "civilian": 1220,
+            "total": 2540,
+            "source": "Iran Health Ministry",
             "sourceUrl": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
             "confirmedMilitaryNote": "Iran does not publish military casualty figures. The 0 reflects concealment, not absence of military deaths."
           },
           "estimated": {
-            "military": 2018,
-            "civilian": 1752,
-            "total": 3770,
+            "military": 1221,
+            "civilian": 1701,
+            "total": 3636,
             "source": "HRANA \u2014 Day 39 EVENING (April 7). 3,770 killed: ~1,752 civilians (including 256+ children), ~2,018 military/unclassified. Khorramshahr, Natanz, Shiraz targeted. 316+ healthcare centers damaged.",
             "sourceUrl": "https://www.en-hrana.org/day-23-of-u-s-and-israeli-attacks-on-iran-more-than-15-of-the-total-fatalities-are-children/",
             "note": "HRANA documents via field reports. Day 39 afternoon: 3,770 total. +2 Kashan railway bridge. 65 schools, 77+ healthcare facilities damaged (316+ per Health Ministry). Internet at ~4%. ~43+ officials killed including Atimi.",
@@ -101,10 +101,10 @@
             "maxTotal": 3500
           },
           "rumored": {
-            "total": 9500,
+            "total": 5000,
             "military": 6000,
             "civilian": 3500,
-            "note": "Hengaw (April 1): 7,300+ killed in first 34 days including 890 civilians. Previous 7th report (March 25): 6,530 killed. IDF Brig Gen Defrin claims 6,000+ IRGC killed and 15,000+ wounded. Upper range approaching 9,500. Internet blackout prevents verification. CEASEFIRE now in effect \u2014 casualties should stabilize.",
+            "note": "Iranian opposition groups claim much higher toll; HRANA reports 3,636 as of April 7 including 714 unclassified",
             "minTotal": 7300,
             "maxTotal": 9500,
             "socialSources": [
@@ -159,7 +159,7 @@
               }
             ]
           },
-          "injured": 26872,
+          "injured": 26500,
           "injuredNote": "26,872+ injured per Iran Health Ministry / Al Jazeera tracker (Day 39 afternoon). +3 injured at Kashan railway bridge strike. Previous: +24 Alborz residential, +170 South Pars. 316+ healthcare centers damaged.",
           "missing": 61,
           "missingNote": "61 sailors still missing from IRIS Dena \u2014 87 bodies recovered and 32 rescued from ~180 crew after US submarine USS Charlotte torpedoed the frigate off Sri Lanka coast (March 4).",
@@ -172,9 +172,9 @@
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
-            "military": 17,
-            "civilian": 21,
-            "total": 38,
+            "military": 13,
+            "civilian": 27,
+            "total": 40,
             "source": "Israeli government + IDF (Day 40 PM). 17 IDF soldiers killed. 21 civilians killed. 6,689+ wounded. +4 lightly injured Tel Sheva from post-ceasefire Iran missile barrage. +6 injured Nahariya from Hezbollah rockets (24 attack waves, 40+ rockets). Home Front Command wartime restrictions extended. CEASEFIRE IN EFFECT but Lebanon excluded.",
             "sourceUrl": "https://www.timesofisrael.com/2-dead-pulled-from-wreckage-of-haifa-building-hit-by-missile-2-more-people-still-missing/"
           },
@@ -226,7 +226,7 @@
               }
             ]
           },
-          "injured": 6696,
+          "injured": 7367,
           "injuredNote": "6,696+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 41, April 9). +4 injured in Hezbollah rocket barrages April 9 morning (3 Nahariya, 1 Kibbutz Kabri). 7+ rocket waves with sirens sounding repeatedly across northern Israel. CEASEFIRE IN EFFECT for Iran but Lebanon excluded. Previous: 6,692 through Day 40.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
@@ -235,9 +235,9 @@
           "name": "United States",
           "flag": "\ud83c\uddfa\ud83c\uddf8",
           "confirmed": {
-            "military": 15,
+            "military": 13,
             "civilian": 0,
-            "total": 15,
+            "total": 13,
             "source": "Pentagon / NPR / Time (Day 37). 15 US service members killed since Feb 28: 13 combat deaths + 2 noncombat deaths. 365+ wounded. F-15E WSO RESCUED via commando raid in Isfahan (April 5). CIA ran deception campaign; US destroyed 2 stranded C-130s to prevent capture. A-10 pilot recovered earlier.",
             "sourceUrl": "https://time.com/article/2026/03/10/us-service-members-killed-iran-war-casualties/"
           },
@@ -280,23 +280,23 @@
               }
             ]
           },
-          "injured": 381,
+          "injured": 373,
           "injuredNote": "381 wounded across 7 countries per CENTCOM (Day 40, April 8). 13 KIA + 381 WIA confirmed by CENTCOM data release on ceasefire day. Previous: 380 through Day 39. Includes 20 wounded at Prince Sultan Air Base, 15 at Ali Al Salem Air Base. Wounds include burns, TBIs, shrapnel. Most returned to duty."
         },
         {
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 329,
-            "civilian": 1559,
+            "military": 400,
+            "civilian": 1488,
             "total": 1888,
             "source": "Lebanese Health Ministry (Day 41 evening, April 9). April 8 Operation Eternal Darkness toll revised UP to 303 killed, 1,150 wounded (from initial 254). Total war toll: 1,888 killed, 6,092 wounded since March 2. IDF killed Ali Yusuf Harshi (Qassem's secretary/nephew) in Tallet Khayat, Beirut. LRB commander Hamdan killed in Sidon.",
             "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire"
           },
           "estimated": {
-            "military": 430,
-            "civilian": 1500,
-            "total": 1930,
+            "military": 1000,
+            "civilian": 1100,
+            "total": 2100,
             "source": "Lebanese Civil Defence + Alma Center estimates (Day 41, April 9). 1,791 confirmed + Hezbollah undercount. +7 Abbassiyeh strike April 9. Alma Center estimates 430+ Hezbollah fighters killed total. IDF continues strikes despite ceasefire \u2014 Division 162 expanding buffer zone.",
             "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire",
             "note": "Day 41: 1,791 confirmed killed + estimated Hezbollah undercount = ~1,830. 1.2M displaced (one-fifth of population). Since March 2: 1,840+ Israeli attacks per ACLED. Operation Eternal Darkness + continuing strikes on April 9 (Abbassiyeh, Kafra, Jmaijmeh, Safad al-Battikh). Buffer zone expansion underway.",
@@ -384,8 +384,8 @@
           "name": "Iraq",
           "flag": "\ud83c\uddee\ud83c\uddf6",
           "confirmed": {
-            "military": 0,
-            "civilian": 109,
+            "military": 95,
+            "civilian": 14,
             "total": 109,
             "source": "Iraqi health authorities (Day 36, April 4). At least 109 killed, mostly PMF members killed in US strikes. Includes al-Qaim PMF HQ and 34th Brigade HQ in Mosul struck. Islamic Resistance claimed 19 drone/missile attacks on US bases in single day (April 4).",
             "sourceUrl": "https://aninews.in/news/world/middle-east/iran-allied-islamic-resistance-claims-19-attacks-against-us-bases-in-iraq20260404091418/"
@@ -400,7 +400,7 @@
             "minTotal": 76,
             "maxTotal": 110
           },
-          "injured": null
+          "injured": 165
         },
         {
           "name": "France",

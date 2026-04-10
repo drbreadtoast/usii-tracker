@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-09T20:01:00Z",
+    "lastUpdated": "2026-04-10T00:02:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 41,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
@@ -44,14 +44,14 @@
   "countryCosts": {
     "us": {
       "name": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "directMilitaryCosts": {
         "total": 38700000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
             "amount": 13400000000,
-            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 39: 50+ strikes on Kharg Island. IDF bridges/railways campaign. Pentagon $200B+ supplemental requested.",
+            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B \u2014 approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 39: 50+ strikes on Kharg Island. IDF bridges/railways campaign. Pentagon $200B+ supplemental requested.",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
@@ -94,24 +94,24 @@
           }
         }
       },
-      "dailyBurnRate": 1100000000,
+      "dailyBurnRate": 1000000000,
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
       "totalEstimate": "~$36B direct military + ~$38B indirect through Day 33",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
       "totalCost": 75400000000,
-      "totalFormatted": "$46B",
+      "totalFormatted": "$42B",
       "total": 46000000000,
       "lastUpdated": "2026-04-03T06:12:00Z",
-      "note": "Day 41 evening: $46B+ total through Day 41. Ceasefire Day 2 — burn rate may decrease but troops/assets remain in place. Pentagon supplemental $200B+ pending. Goldman flags $100+ oil if Hormuz shut another month. Trump: forces 'remain in place.' Daily burn rate ~$1-1.43B/day during active combat.",
+      "note": "Day 41 evening: $46B+ total through Day 41. Ceasefire Day 2 \u2014 burn rate may decrease but troops/assets remain in place. Pentagon supplemental $200B+ pending. Goldman flags $100+ oil if Hormuz shut another month. Trump: forces 'remain in place.' Daily burn rate ~$1-1.43B/day during active combat.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin seeking $200B supplemental from Congress.",
       "directMilitary": 37800000000,
       "description": "US direct military costs ~$37.8B (Day 38). Indirect costs ~$37.6B. Total ~$75.4B. Daily burn rate ~$800M-$1B/day. 57,000+ troops in theater. 900+ Tomahawks fired (~23-29% of Navy inventory). Pentagon $200B supplemental pending Congress. Trump proposed record $1.5T FY2027 defense budget (44% increase).",
-      "totalDirect": "$45B",
-      "dailyBurnRateFormatted": "$1.1B/day"
+      "totalDirect": 42000000000,
+      "dailyBurnRateFormatted": "$1B/day"
     },
     "israel": {
       "name": "Israel",
-      "flag": "🇮🇱",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
       "directMilitaryCosts": {
         "total": 9310000000,
         "currency": "USD",
@@ -180,21 +180,22 @@
           }
         }
       },
-      "dailyBurnRate": 200000000,
+      "dailyBurnRate": 500000000,
       "dailyBurnRateNote": "Calcalist estimates $480-550M/day average ($645-970M/day first 3 days). Includes missile defense operations, IAF sorties (60 jets dropped 150+ bombs Day 28 alone), 300,000 reserve mobilization, and civil defense.",
       "note": "Day 41: ~NIS 47 billion ($15B) through 5+ weeks on Iran front. Daily spending ~$200M/day. Bank of Israel total economic toll across all fronts: $112B. Knesset approved $45B defense budget for 2026.",
       "total": 15000000000,
-      "totalFormatted": "$15B",
+      "totalFormatted": "$10B",
       "notes": [
-        "Knesset approved record NIS 143B ($45.8B) 2026 defense budget on March 30 — $9.48B increase over 2025. Includes NIS 30B ($9.5B) wartime funding. Total state budget NIS 850.6B ($271B), largest in Israeli history. New $48M deal with Elbit for 155mm shells."
+        "Knesset approved record NIS 143B ($45.8B) 2026 defense budget on March 30 \u2014 $9.48B increase over 2025. Includes NIS 30B ($9.5B) wartime funding. Total state budget NIS 850.6B ($271B), largest in Israeli history. New $48M deal with Elbit for 155mm shells."
       ],
       "directMilitary": 9300000000,
       "description": "Israel direct military costs ~$9.3B (Day 38). Total defense budget $44.8B (112B shekels). $480-550M/day average. Knesset approved record budget March 30. $13B budget increase + $2.9B supplement.",
-      "dailyBurnRateFormatted": "$200M/day"
+      "dailyBurnRateFormatted": "$500M/day",
+      "totalDirect": 10000000000
     },
     "iran": {
       "name": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "directMilitaryCosts": {
         "total": 4070000000,
         "currency": "USD",
@@ -262,7 +263,9 @@
         }
       },
       "dailyBurnRate": 510000000,
-      "dailyBurnRateNote": "Estimated daily cost including military operations, infrastructure losses, and oil revenue foregone"
+      "dailyBurnRateNote": "Estimated daily cost including military operations, infrastructure losses, and oil revenue foregone",
+      "totalDirect": 4000000000,
+      "totalFormatted": "$4B"
     }
   },
   "weaponCosts": [
@@ -272,7 +275,7 @@
       "unitCost": 2000000,
       "quantityUsed": 850,
       "totalCost": 1700000000,
-      "description": "Land-attack cruise missile launched from Arleigh Burke-class destroyers and Virginia-class submarines against Iranian military and nuclear facilities. 850+ fired through Day 29 — approximately 9× annual procurement rate. Pentagon approaching 'Winchester' status for Tomahawks in CENTCOM.",
+      "description": "Land-attack cruise missile launched from Arleigh Burke-class destroyers and Virginia-class submarines against Iranian military and nuclear facilities. 850+ fired through Day 29 \u2014 approximately 9\u00d7 annual procurement rate. Pentagon approaching 'Winchester' status for Tomahawks in CENTCOM.",
       "source": "CRS Report: Navy Tomahawk Cruise Missile Program",
       "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/27/iran-war-tomahawk-missiles/"
     },
@@ -464,7 +467,7 @@
     "estimatedDailyCostNote": "Combined daily cost of 3 carrier strike groups + USS Tripoli amphibious group + support vessels. France Charles de Gaulle + 10 warships not included.",
     "daysDeployed": 29,
     "totalNavalCost": 725000000,
-    "totalNavalCostNote": "Total naval deployment cost for 29 days of active conflict operations ($25M/day × 29 days)",
+    "totalNavalCostNote": "Total naval deployment cost for 29 days of active conflict operations ($25M/day \u00d7 29 days)",
     "source": "Navy VAMOSC / CRS Naval Operations Budget Reports",
     "sourceUrl": "https://crsreports.congress.gov/product/pdf/RL/RL32665"
   },
@@ -544,7 +547,7 @@
         "normalFlowMBD": 21.0,
         "currentFlowMBD": 0.5,
         "percentageReduction": 97.6,
-        "description": "Approximately 21 million barrels per day normally transit the Strait of Hormuz (~21% of global oil consumption). IRGC enforcing effective blockade — only 21 tankers have transited since war began vs 100+/day pre-war. Iran operates 'toll booth' system allowing select friendly nations (China, Russia, India, Pakistan, Iraq, Thailand, Malaysia). Overall tanker traffic down 95%+. Only ~0.5 MBD trickling through via tolled passages."
+        "description": "Approximately 21 million barrels per day normally transit the Strait of Hormuz (~21% of global oil consumption). IRGC enforcing effective blockade \u2014 only 21 tankers have transited since war began vs 100+/day pre-war. Iran operates 'toll booth' system allowing select friendly nations (China, Russia, India, Pakistan, Iraq, Thailand, Malaysia). Overall tanker traffic down 95%+. Only ~0.5 MBD trickling through via tolled passages."
       },
       "source": "EIA / IEA Oil Market Report",
       "sourceUrl": "https://www.eia.gov/petroleum/weekly/"
@@ -565,14 +568,14 @@
       "currentWarRiskPremium": 5.0,
       "premiumUnit": "percentage of hull value",
       "percentageIncrease": 9900,
-      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20°N)",
+      "affectedArea": "Persian Gulf, Gulf of Oman, Strait of Hormuz, Arabian Sea (north of 20\u00b0N)",
       "estimatedAdditionalCostPerTransit": 2500000,
       "description": "War risk insurance premiums for vessels transiting the Persian Gulf have surged from 0.05% to 5% of hull value. A typical VLCC (Very Large Crude Carrier) valued at $120 million now faces $6 million in war risk premiums per transit compared to $60,000 pre-conflict. Many underwriters have suspended coverage entirely.",
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
     "stockMarketImpact": "S&P 500 -1.67% Day 28 (7-month low, 5th straight weekly loss). Dow -1.73% officially in correction. Nasdaq underperforming. Fed holds rates at 3.5-3.75%, warns inflation progress stalled. Hedge funds worst drawdowns since Liberation Day (JPMorgan). Macquarie: 'crude will trade like a meme stock until the solution is peace.'",
-    "oilPriceImpact": "Brent $106.42/bbl (+33.3% from pre-war $79.84). WTI $104.21 (+38.0% from $75.51). Reversed earlier dip to $101 after Trump prime-time Oval Office address vowing to hit Iran 'extremely hard.' April 6 Hormuz energy deadline. IEA: largest supply disruption in history — 21 MBD to ~0.5 MBD through Hormuz. Goldman warns $147+. Macquarie: 40% chance of $200 if Hormuz shut through June.",
+    "oilPriceImpact": "Brent $106.42/bbl (+33.3% from pre-war $79.84). WTI $104.21 (+38.0% from $75.51). Reversed earlier dip to $101 after Trump prime-time Oval Office address vowing to hit Iran 'extremely hard.' April 6 Hormuz energy deadline. IEA: largest supply disruption in history \u2014 21 MBD to ~0.5 MBD through Hormuz. Goldman warns $147+. Macquarie: 40% chance of $200 if Hormuz shut through June.",
     "gasPrice": 4.06,
     "brentCrude": 106.42,
     "wtiCrude": 104.21,
@@ -639,14 +642,14 @@
     },
     {
       "id": "fact-9",
-      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 — an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
+      "fact": "CSIS estimates the war cost the US $16.5 billion through Day 12 \u2014 an average of $1.375 billion per day. The Pentagon told senators the first 6 days alone cost $11.3 billion, with $5.6 billion spent on munitions in just the first 48 hours.",
       "cost": 16500000000,
       "source": "CSIS / NBC News",
       "sourceUrl": "https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12"
     },
     {
       "id": "fact-10",
-      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days — each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
+      "fact": "10,000 AI-powered Merops interceptor drones were deployed to the Middle East in under 5 days \u2014 each costs $14,000-$15,000 compared to $4M+ for a Patriot interceptor. The entire deployment cost roughly $150M, replacing billions in traditional air defense expenditure.",
       "cost": 150000000,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-13/us-sends-intercept-drones-used-in-ukraine-to-blunt-iran-strikes"
@@ -667,7 +670,7 @@
     },
     {
       "id": "fact-13",
-      "fact": "F1 cancels Bahrain and Saudi Arabia GPs — estimated $100M combined hosting fee loss",
+      "fact": "F1 cancels Bahrain and Saudi Arabia GPs \u2014 estimated $100M combined hosting fee loss",
       "cost": 100000000,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/sports/"
@@ -681,7 +684,7 @@
     },
     {
       "id": "fact-15",
-      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait — $30-35M asset loss",
+      "fact": "Italian MQ-9A Reaper destroyed at Ali Al Salem, Kuwait \u2014 $30-35M asset loss",
       "cost": 32500000,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/"
@@ -709,14 +712,14 @@
     },
     {
       "id": "fact-19",
-      "fact": "Dubai airport drone strike — 7+ hours flight suspension, estimated tens of millions in losses",
+      "fact": "Dubai airport drone strike \u2014 7+ hours flight suspension, estimated tens of millions in losses",
       "cost": null,
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/"
     },
     {
       "id": "fact-20",
-      "fact": "Fujairah oil hub struck 2nd consecutive day — port operations repeatedly disrupted",
+      "fact": "Fujairah oil hub struck 2nd consecutive day \u2014 port operations repeatedly disrupted",
       "cost": null,
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/energy"
@@ -727,7 +730,7 @@
       "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
     },
     {
-      "text": "Israel Knesset voting to raise deficit ceiling from 3.9% to 5.1% GDP — NIS 32B ($10.2B) additional spending. Updated defense budget: NIS 143B. Iran war has cost Israel NIS 9B so far.",
+      "text": "Israel Knesset voting to raise deficit ceiling from 3.9% to 5.1% GDP \u2014 NIS 32B ($10.2B) additional spending. Updated defense budget: NIS 143B. Iran war has cost Israel NIS 9B so far.",
       "source": "Times of Israel / Jerusalem Post",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/knesset-to-vote-on-raising-deficit-increasing-defense-spending-amid-iran-war/"
     },
@@ -747,7 +750,7 @@
       "sourceUrl": "https://www.cnbc.com/2026/03/18/hedge-funds-suffer-worst-losses-since-liberation-day-on-iran-war-turmoil.html"
     },
     {
-      "text": "Pentagon requests $200B+ war supplemental from Congress — far exceeding the $50B initially drafted. Would urgently increase production of critical munitions. Dow drops 768 pts (-1.63%) after Fed holds rates, warns inflation 'not coming down as hoped.'",
+      "text": "Pentagon requests $200B+ war supplemental from Congress \u2014 far exceeding the $50B initially drafted. Would urgently increase production of critical munitions. Dow drops 768 pts (-1.63%) after Fed holds rates, warns inflation 'not coming down as hoped.'",
       "source": "Washington Post / CNBC",
       "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/"
     },
@@ -757,7 +760,7 @@
       "sourceUrl": "https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html"
     },
     {
-      "text": "Pentagon requests $200B+ war supplemental — far exceeding initial $50B draft. Hegseth: 'largest strike package yet' coming. Dubai crude hits record $166.80. European jet fuel at $220/barrel. QatarEnergy declares force majeure; 17% LNG capacity offline 3-5 years.",
+      "text": "Pentagon requests $200B+ war supplemental \u2014 far exceeding initial $50B draft. Hegseth: 'largest strike package yet' coming. Dubai crude hits record $166.80. European jet fuel at $220/barrel. QatarEnergy declares force majeure; 17% LNG capacity offline 3-5 years.",
       "source": "CBS News / US News / CNBC",
       "sourceUrl": "https://www.cbsnews.com/news/hegseth-caine-iran-war-update-briefing-2026-03-19/"
     },
@@ -767,13 +770,13 @@
       "sourceUrl": "https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/"
     },
     {
-      "fact": "Trump administration temporarily lifted sanctions on Iranian crude oil stranded at sea (March 20) — allowing US allies to purchase ~140M barrels. Jones Act temporarily suspended to ease domestic fuel transport. Russian oil sanctions temporarily lifted. Treasury Secretary Bessent called measures 'narrowly tailored.'",
+      "fact": "Trump administration temporarily lifted sanctions on Iranian crude oil stranded at sea (March 20) \u2014 allowing US allies to purchase ~140M barrels. Jones Act temporarily suspended to ease domestic fuel transport. Russian oil sanctions temporarily lifted. Treasury Secretary Bessent called measures 'narrowly tailored.'",
       "source": "Washington Post / NBC News",
       "sourceUrl": "https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546",
       "date": "2026-03-20"
     },
     {
-      "fact": "Macquarie forecasts 40% probability of oil reaching $200/barrel if Hormuz stays shut through June 2026; Brent closed Day 28 at $112.57/barrel — highest since 2022; WTI briefly crossed $100",
+      "fact": "Macquarie forecasts 40% probability of oil reaching $200/barrel if Hormuz stays shut through June 2026; Brent closed Day 28 at $112.57/barrel \u2014 highest since 2022; WTI briefly crossed $100",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-27/brace-for-200-oil-if-the-war-lasts-till-june-macquarie-warns",
       "date": "2026-03-27",
@@ -801,7 +804,7 @@
       "category": "financial"
     },
     {
-      "fact": "Trump requests record $1.5T defense budget ($1.15T base + $350B reconciliation) — 44% increase. Includes $50B missile/interceptor replacement supplemental.",
+      "fact": "Trump requests record $1.5T defense budget ($1.15T base + $350B reconciliation) \u2014 44% increase. Includes $50B missile/interceptor replacement supplemental.",
       "date": "2026-04-03",
       "source": "Washington Post",
       "sourceUrl": "https://www.washingtonpost.com/politics/2026/04/03/trump-budget-pentagon-defense-spending/"
@@ -818,7 +821,7 @@
     "allCountriesIndirectCosts": 109490000000,
     "combinedTotalCosts": 161570000000,
     "globalEconomicImpact": 870000000000,
-    "description": "Combined direct military + indirect economic costs through Day 40. CEASEFIRE IN EFFECT — costs may stabilize if fighting halts. Daily burn rate expected to decrease significantly during ceasefire.",
+    "description": "Combined direct military + indirect economic costs through Day 40. CEASEFIRE IN EFFECT \u2014 costs may stabilize if fighting halts. Daily burn rate expected to decrease significantly during ceasefire.",
     "lastCalculated": "2026-04-09T12:39:00Z",
     "allCountriesIndirect": 109490000000,
     "combinedTotalFormatted": "$161.57B",
@@ -827,10 +830,13 @@
     "indirectCosts": 109490000000,
     "combinedCosts": 161570000000,
     "combinedCost": 161570000000,
-    "combinedCostTotal": 161570000000
+    "combinedCostTotal": 161570000000,
+    "allCountriesDirect": 56000000000,
+    "allCountriesDirectFormatted": "$56B",
+    "globalEconomicImpactFormatted": "$870B+"
   },
-  "daysOfConflict": 41,
-  "lastUpdated": "2026-04-09T20:01:00Z",
+  "daysOfConflict": 42,
+  "lastUpdated": "2026-04-10T00:02:00Z",
   "dailyBurnRate": 1920000000,
   "totalCost": 53100000000,
   "totalFormatted": "$53.1B (direct military, all countries, Day 41)"

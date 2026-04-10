@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-04-09T20:01:00Z",
+  "lastUpdated": "2026-04-10T00:02:00Z",
   "categories": [
     {
       "id": "us-left",
       "label": "US Left-Leaning Media",
       "color": "#3b82f6",
-      "icon": "📰",
+      "icon": "\ud83d\udcf0",
       "outlets": [
         {
           "name": "CNN",
           "headline": "Live updates: Israel says it will begin direct negotiations with Lebanon as US prepares for Iran ceasefire talks",
-          "timestamp": "2026-04-09T18:00:00Z",
+          "timestamp": "2026-04-09T20:00:00Z",
           "url": "https://www.cnn.com/2026/04/09/world/live-news/iran-war-trump-us-ceasefire",
-          "summary": "CNN tracks multiple fronts: IDF kills Hezbollah chief's secretary, ~70 rockets from Lebanon, Netanyahu orders Lebanon talks, oil rebounds above $98."
+          "summary": "CNN covers the diplomatic developments as Israel agrees to Lebanon talks while Lebanon death toll rises to 1,888."
         },
         {
-          "name": "NPR",
-          "headline": "Fragile U.S.-Iran ceasefire shows cracks as Israel pounds Lebanon",
-          "timestamp": "2026-04-09T17:00:00Z",
-          "url": "https://www.npr.org/2026/04/09/nx-s1-5779000/iran-war-updates",
-          "summary": "Trump warns \"shootin starts\" if Iran doesn't comply. NATO friction at Rutte meeting. Ceasefire durability in serious doubt."
+          "name": "Washington Post",
+          "headline": "At least 182 killed as Israel strikes central Beirut after saying Iran truce doesn't apply there",
+          "timestamp": "2026-04-08T22:00:00Z",
+          "url": "https://www.washingtonpost.com/world/2026/04/08/israel-lebanon-hezbollah-beirut-strikes/67712b1c-3346-11f1-b85b-2cd751275c1d_story.html",
+          "summary": "WaPo focuses on civilian casualties in Beirut from Israeli strikes during ceasefire."
         }
       ]
     },
@@ -27,21 +27,21 @@
       "id": "us-right",
       "label": "US Right-Leaning Media",
       "color": "#ef4444",
-      "icon": "📺",
+      "icon": "\ud83d\udcfa",
       "outlets": [
         {
           "name": "Fox News",
-          "headline": "Trump's Iran ceasefire strains as Gulf states report drone attacks",
-          "timestamp": "2026-04-09T16:00:00Z",
-          "url": "https://www.foxnews.com/politics/trumps-iran-ceasefire-rocked-within-hours-amid-reported-missile-drone-attacks",
-          "summary": "Saudi intercepts 9 drones, UAE 17 missiles and 35 drones, Kuwait 28 drone attacks. Ceasefire fraying rapidly."
+          "headline": "President Trump vows 'positive action' as ceasefire agreement with Iran reached",
+          "timestamp": "2026-04-09T18:00:00Z",
+          "url": "https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026",
+          "summary": "Fox highlights Trump's leadership in achieving ceasefire and optimism about peace deal."
         },
         {
-          "name": "Fox News",
-          "headline": "How Trump used the Iran ceasefire to avoid a war he never planned",
-          "timestamp": "2026-04-09T15:00:00Z",
-          "url": "https://www.foxnews.com/media/trumps-last-minute-delay-why-never-going-obliterate-iran-first-place",
-          "summary": "Analysis suggests Trump was never planning full Iran obliteration — ceasefire was the endgame strategy."
+          "name": "NPR",
+          "headline": "Trump warns strikes will resume if Iran doesn't agree to his terms",
+          "timestamp": "2026-04-09T16:00:00Z",
+          "url": "https://www.npr.org/2026/04/09/nx-s1-5779000/iran-war-updates",
+          "summary": "NPR covers Hegseth's victory declaration and Trump's warnings about ceasefire conditions."
         }
       ]
     },
@@ -49,21 +49,21 @@
       "id": "international",
       "label": "International Media",
       "color": "#8b5cf6",
-      "icon": "🌍",
+      "icon": "\ud83c\udf0d",
       "outlets": [
         {
           "name": "Al Jazeera",
           "headline": "Iran war live: Israel to hold ceasefire talks with Lebanon",
-          "timestamp": "2026-04-09T18:00:00Z",
+          "timestamp": "2026-04-09T22:00:00Z",
           "url": "https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire",
-          "summary": "Comprehensive liveblog covering Harshi killing, 70 rockets, Lebanon negotiations, Hormuz Chinese tankers, Qalibaf violations."
+          "summary": "Al Jazeera provides comprehensive liveblog coverage of ceasefire disputes and Lebanon strikes."
         },
         {
-          "name": "Bloomberg",
-          "headline": "Vance to Lead Iran Talks as Tehran Says Ceasefire Violated",
-          "timestamp": "2026-04-09T17:00:00Z",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked",
-          "summary": "Vance, Witkoff, Kushner heading to Pakistan for Islamabad talks. China tankers testing Hormuz. Oil above $100."
+          "name": "BBC",
+          "headline": "A fragile US-Iran ceasefire shows cracks as attacks continue across the region",
+          "timestamp": "2026-04-09T18:00:00Z",
+          "url": "https://www.opb.org/article/2026/04/09/fragile-u-s-iran-ceasefire-shows-cracks-as-israel-pounds-lebanon/",
+          "summary": "BBC/OPB analysis of ceasefire fragility as Lebanon strikes continue."
         }
       ]
     },
@@ -71,21 +71,21 @@
       "id": "israeli",
       "label": "Israeli Media",
       "color": "#f59e0b",
-      "icon": "✡️",
+      "icon": "\u2721\ufe0f",
       "outlets": [
         {
           "name": "Times of Israel",
-          "headline": "IDF says it killed Hezbollah chief's secretary as some 70 rockets fired from Lebanon",
-          "timestamp": "2026-04-09T16:00:00Z",
-          "url": "https://www.timesofisrael.com/idf-says-it-killed-hezbollah-chiefs-secretary-as-rocket-fire-from-lebanon-persists/",
-          "summary": "Ali Yusuf Harshi killed in Tallet Khayat, Beirut. 70 rockets from Hezbollah. Netanyahu orders Lebanon talks."
+          "headline": "IDF chief: Iran is 'much weaker,' Israel is prepared to return to combat 'at any moment'",
+          "timestamp": "2026-04-09T20:00:00Z",
+          "url": "https://www.timesofisrael.com/liveblog-april-09-2026/",
+          "summary": "ToI covers IDF chief's visit to Bint Jbeil, Hezbollah rockets, and Netanyahu's Lebanon negotiations order."
         },
         {
-          "name": "Haaretz",
-          "headline": "IDF Strikes Across Lebanon, Warns of Escalating Hezbollah Fire",
+          "name": "Jerusalem Post",
+          "headline": "IDF 98th Division captures nearly all of Bint Jbeil",
           "timestamp": "2026-04-09T17:00:00Z",
-          "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-09/ty-article-live/hezbollah-says-it-fired-rockets-at-israel-in-response-to-cease-fire-violations/0000019d-6fff-d68a-a39d-6fff46d70000",
-          "summary": "Hezbollah claims rockets fired in response to Israeli ceasefire violations. IDF expanding buffer zone in south Lebanon."
+          "url": "https://www.jpost.com/israel-news/article-892384",
+          "summary": "JPost reports on IDF ground operations in southern Lebanon."
         }
       ]
     },
@@ -93,21 +93,21 @@
       "id": "iranian",
       "label": "Iranian State Media",
       "color": "#10b981",
-      "icon": "🇮🇷",
+      "icon": "\ud83c\uddee\ud83c\uddf7",
       "outlets": [
         {
-          "name": "Press TV",
+          "name": "PressTV",
           "headline": "President Pezeshkian: Iranians will continue to stand together after ceasefire",
-          "timestamp": "2026-04-09T14:00:00Z",
+          "timestamp": "2026-04-09T15:00:00Z",
           "url": "https://www.presstv.ir/Detail/2026/04/08/766492/Pezeshkian-Iranian-nation-will-continue-stand-together-after-truce",
-          "summary": "Pezeshkian calls ceasefire result of martyred Khamenei's blood. Says Lebanon ceasefire essential condition. Condemns Israeli strikes."
+          "summary": "PressTV frames ceasefire as Iranian victory, highlights Pezeshkian's unity message."
         },
         {
-          "name": "IRNA / State TV",
-          "headline": "Mojtaba Khamenei vows revenge and 'new phase' for Hormuz",
-          "timestamp": "2026-04-09T16:30:00Z",
-          "url": "https://www.republicworld.com/world-news/will-take-management-of-hormuz-into-new-phase-mojtaba-khamenei-s-new-hint-ahead-of-crucial-ceasefire-talks-in-islamabad",
-          "summary": "New Supreme Leader pledges revenge for father, warns Gulf neighbors, signals permanent Hormuz changes."
+          "name": "Tehran Times",
+          "headline": "Iran's Supreme Leader vows revenge, says Hormuz entering 'new phase'",
+          "timestamp": "2026-04-09T18:00:00Z",
+          "url": "https://www.middleeasteye.net/news/full-text-iran-national-security-council-statement-ceasefire",
+          "summary": "Iranian media amplifies Mojtaba Khamenei's first statement vowing revenge against US and Israel."
         }
       ]
     }
