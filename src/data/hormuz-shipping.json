@@ -1,16 +1,16 @@
 {
   "straitStatus": "effectively_closed",
   "blockadeDay": 40,
-  "dailyTransits": 6,
+  "dailyTransits": 9,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-11T06:09:00Z",
+  "lastUpdated": "2026-04-11T12:34:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
     "vesselsAnchored": 400,
-    "vesselsTransitLast24h": 6,
+    "vesselsTransitLast24h": 9,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
@@ -519,6 +519,12 @@
       "event": "Day 42 EVE (Blockade Day 39): Only 6 vessels transited (down from 7). 600+ vessels stranded including 325 tankers (230 loaded). Russian-flagged tanker made it through. UAE oil CEO Al Jaber: 'Hormuz is not open.' Iran charging $1M+ per transit. Mine clearance estimated 6-10 weeks. War-risk premiums 0.35-0.45%.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-11",
+      "event": "Day 43 PM (Blockade Day 40): US officials reveal Iran CANNOT FIND its own mines — drifted from original positions. Iran releases navigational maps with alt corridors (first official mine acknowledgment). Clearance est. 6-10 weeks. 9 ships transited Thursday (up from 6) but ZERO oil tankers since ceasefire. 800+ freighters stranded. Iran demanding IRGC permission + $1M+ tolls.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -526,8 +532,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+21.3% Brent ($96.76), +31.2% WTI ($99.03); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 39 of blockade. Ceasefire did NOT reopen Hormuz. Only 6 vessels transited Apr 10. 600+ vessels stranded incl 325 tankers. Saudi supply shock: 600k bpd capacity + 700k bpd pipeline cut. JPMorgan warns $150 if Hormuz shut into mid-May. EIA raises forecast to $96."
+      "priceImpact": "+21.1% Brent ($96.66), +26.5% WTI ($95.50); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 40 of blockade. Iran CAN'T FIND own mines (drifted). Clearance 6-10 weeks. 9 ships transited Apr 10 but ZERO oil tankers. 800+ freighters stranded. Saudi supply shock: 600k bpd capacity + 700k bpd pipeline cut. Goldman $100+ if Hormuz shut another month. JPMorgan $150 if shut into mid-May."
     },
     {
       "commodity": "LNG",
@@ -541,7 +547,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+25%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas $4.17/gal (AAA Day 43) — above $4 since March 31. California: $5.929/gal. Diesel: $5.50/gal. Iraq exemption active. OPEC+ +206k bpd for May. March CPI: gasoline +21.2% in one month."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas $4.166/gal (AAA Day 43 PM) — above $4 since March 31. California: ~$5.40/gal. Diesel: $5.643/gal. Iraq exemption active. OPEC+ +206k bpd for May. March CPI: gasoline +21.2% MoM (largest since 1967). Consumer sentiment 47.6 (record low)."
     },
     {
       "commodity": "Petrochemicals",

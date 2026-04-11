@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-11T06:09:00Z",
-  "currentAverage": 4.17,
+  "lastUpdated": "2026-04-11T12:34:00Z",
+  "currentAverage": 4.166,
   "preWarAverage": 3.14,
-  "changePercent": 32.8,
+  "changePercent": 32.7,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -379,7 +379,13 @@
     {
       "date": "2026-04-11",
       "price": 4.17,
-      "label": "Day 43 — Gas flat $4.17 (AAA). WTI drops to $95.50 (-3.6%). Brent $96.69. Vance arrives Islamabad. IMF warns lasting damage. Hormuz still closed.",
+      "label": "Day 43 AM — Gas flat $4.17 (AAA). WTI drops to $95.50 (-3.6%). Brent $96.69. Vance arrives Islamabad. IMF warns lasting damage. Hormuz still closed.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-11",
+      "price": 4.166,
+      "label": "Day 43 PM — Gas $4.166 (AAA). Brent $96.66 (+21.1%). WTI $95.50 (+26.5%). Iran CAN'T FIND own Hormuz mines. Hezbollah 30+ rockets at Safed. March CPI 3.3% (gas +21.2% MoM, largest since 1967). Consumer sentiment record low 47.6.",
       "isEvent": true
     }
   ],
@@ -476,18 +482,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.17,
-      "note": "National average $4.17/gal (AAA April 11). WTI drops to $95.50 (-3.6%), Brent $96.69 (flat). Hormuz still effectively closed — zero oil tankers. IMF warns lasting damage. DOE 30M SPR exchange. Goldman warns $100+ if Hormuz shut another month.",
+      "total": 4.166,
+      "note": "National average $4.166/gal (AAA April 11 PM). Brent $96.66 (+21.1%), WTI $95.50 (+26.5%). Iran can't find own Hormuz mines — clearance 6-10 weeks. Hezbollah 30+ rockets at Safed. March CPI 3.3% (gas +21.2% MoM). Goldman $100+. Diesel $5.643.",
       "crude": 2.37,
       "taxes": 0.86,
       "refining": 0.52,
       "distribution": 0.45,
-      "regularGasoline": 4.17,
+      "regularGasoline": 4.166,
       "changeFromPreWar": "+$1.03",
-      "changePercent": "+32.8%",
-      "lastUpdated": "2026-04-11T06:09:00Z",
+      "changePercent": "+32.7%",
+      "lastUpdated": "2026-04-11T12:34:00Z",
       "date": "2026-04-11"
     }
   },
-  "context": "Day 43 (Ceasefire Day 4): Gas flat at $4.17/gal (AAA). WTI drops sharply to $95.50 (-3.6%), Brent $96.69 (flat). Hormuz effectively closed — zero oil tankers since ceasefire. IMF warns lasting economic damage. DOE issues 30M barrel SPR exchange RFP. Goldman warns $100+ Brent if Hormuz shut another month. California ~$5.93."
+  "context": "Day 43 PM (Ceasefire Day 4): Gas $4.166/gal (AAA). Brent $96.66 (+21.1%), WTI $95.50 (+26.5%). Iran can't find own Hormuz mines — clearance 6-10 weeks. Hezbollah 30+ rockets at Safed. Israel kills 13 in Lebanon. March CPI 3.3% (gas +21.2% MoM, largest since 1967). Consumer sentiment 47.6 (record low). Diesel $5.643. California ~$5.40. Goldman $100+."
 }
