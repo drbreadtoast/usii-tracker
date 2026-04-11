@@ -4,7 +4,7 @@
   "dailyTransits": 9,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-11T12:34:00Z",
+  "lastUpdated": "2026-04-11T19:14:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -33,7 +33,7 @@
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Day 43 (Ceasefire Day 4): Hormuz STILL effectively closed. ZERO oil tankers since ceasefire. 6 vessels/day (bulk only). Russian-flagged tanker transited Apr 10. Iran demands $1M+ tolls + IRGC permission. IRGC mine map in effect — clearance est. 6-10 weeks. 600+ vessels stranded (325 tankers). Goldman: $100+ Brent if Hormuz shut another month. Blockade Day 40. Vance arrives Islamabad. WTI drops to $95.50.",
+    "note": "Day 43 PM (Ceasefire Day 4): Hormuz STILL effectively closed. BREAKING: USS Frank E. Peterson (DDG-121) and USS Michael Murphy (DDG-112) transit Hormuz — FIRST US warships since war began. CENTCOM Adm. Cooper begins mine clearance, promises 'safe pathway for maritime industry soon.' Iran calls it ceasefire violation, threatens attack 'within 30 minutes.' Iran CAN'T FIND its own 2,000-6,000 mines — drifted from positions. Clearance estimated 8-14 weeks. ZERO oil tankers since ceasefire. 6 vessels/day (bulk only). 600+ vessels stranded (325 tankers). Goldman: $100+ Brent if Hormuz shut another month. Blockade Day 40. Historic Islamabad talks underway.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 53,
@@ -522,7 +522,13 @@
     },
     {
       "date": "2026-04-11",
-      "event": "Day 43 PM (Blockade Day 40): US officials reveal Iran CANNOT FIND its own mines — drifted from original positions. Iran releases navigational maps with alt corridors (first official mine acknowledgment). Clearance est. 6-10 weeks. 9 ships transited Thursday (up from 6) but ZERO oil tankers since ceasefire. 800+ freighters stranded. Iran demanding IRGC permission + $1M+ tolls.",
+      "event": "Day 43 AM (Blockade Day 40): US officials reveal Iran CANNOT FIND its own mines — drifted from original positions. Iran releases navigational maps with alt corridors (first official mine acknowledgment). Clearance est. 6-10 weeks. 9 ships transited Thursday (up from 6) but ZERO oil tankers since ceasefire. 800+ freighters stranded. Iran demanding IRGC permission + $1M+ tolls.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-11",
+      "event": "Day 43 PM: BREAKING — USS Frank E. Peterson (DDG-121) and USS Michael Murphy (DDG-112) transit Strait of Hormuz east-to-west and back — FIRST US warships since war began Feb 28. CENTCOM Adm. Brad Cooper begins mine clearance mission. Underwater drones to join in coming days. Iran calls it ceasefire violation, threatens to attack ships 'within 30 minutes.' Iran planted 2,000-6,000 mines but CAN'T LOCATE them all — realistic clearance timeline: 8-14 weeks. Historic Islamabad talks begin in parallel.",
       "status": "effectively_closed",
       "barrels": 0
     }
@@ -532,8 +538,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+21.1% Brent ($96.66), +26.5% WTI ($95.50); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 40 of blockade. Iran CAN'T FIND own mines (drifted). Clearance 6-10 weeks. 9 ships transited Apr 10 but ZERO oil tankers. 800+ freighters stranded. Saudi supply shock: 600k bpd capacity + 700k bpd pipeline cut. Goldman $100+ if Hormuz shut another month. JPMorgan $150 if shut into mid-May."
+      "priceImpact": "+19.3% Brent ($95.20), +26.5% WTI ($95.50); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 40 of blockade. USS Peterson/Murphy transit Hormuz (first since war). CENTCOM mine clearance begins. Iran CAN'T FIND own 2,000-6,000 mines — clearance 8-14 weeks. ZERO oil tankers since ceasefire. 800+ freighters stranded. Saudi supply shock: 600k bpd capacity + 700k bpd pipeline cut. Goldman $100+ if Hormuz shut another month. JPMorgan $150 if shut into mid-May. Oil down ~12% for week on Islamabad talks optimism."
     },
     {
       "commodity": "LNG",

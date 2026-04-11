@@ -1,111 +1,5 @@
 [
   {
-    "id": "social-677",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "Hezbollah just hit Ashdod naval base — ~90 miles from Lebanon border. One of deepest strikes yet. Intercepted. IDF responding with strikes on 10+ launcher sites in south Lebanon. Hezbollah calling it response to 'ceasefire violations.' Escalation trajectory worsening.",
-    "timestamp": "2026-04-10T15:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel, Al Arabiya, Xinhua all confirming Ashdod attack.",
-    "keywords": [
-      "hezbollah",
-      "ashdod",
-      "deep-strike",
-      "intercepted",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-678",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — Defense Intel",
-    "text": "Israeli airstrike on Nabatieh Serail government building kills 13 Lebanese State Security — NOT Hezbollah fighters. Lebanon President Aoun condemns attack on state institutions. This crosses a line from anti-Hezbollah ops to attacks on Lebanese government.",
-    "timestamp": "2026-04-10T14:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "AP via WSLS, The Business Standard confirmed 13 state security killed.",
-    "keywords": [
-      "nabatieh",
-      "state-security",
-      "lebanon",
-      "strike",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-679",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — Markets",
-    "text": "CPI data is in: 3.3% annual, gasoline +21.2% in one month. Consumer sentiment at record low. Brent settling at $96.69 (down from AM $98.27), WTI at $99.03 (up from $96.63). Market volatility extreme — ceasefire premium eroding as Lebanon escalates.",
-    "timestamp": "2026-04-10T13:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN, Bloomberg confirmed CPI data. Trading Economics, CNBC confirmed oil prices.",
-    "keywords": [
-      "cpi",
-      "inflation",
-      "oil",
-      "brent",
-      "wti",
-      "economy",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-680",
-    "handle": "@ELINTNews",
-    "displayName": "ELINT News — Intel Tracker",
-    "text": "House GOP blocks Democratic effort to force vote on Iran war powers resolution — Speaker Pro Tem Smith gavels session closed. Meanwhile Vance departing for Islamabad. Iran pre-condition: Lebanon ceasefire + frozen assets release BEFORE talks begin.",
-    "timestamp": "2026-04-10T18:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Democracy Now confirmed House vote blockage. PBS, CBS confirmed Islamabad talks details.",
-    "keywords": [
-      "war-powers",
-      "congress",
-      "islamabad",
-      "vance",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-681",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender — Analysis",
-    "text": "CSIS publishes 'Fragile US-Iran Ceasefire: Issues to Watch' — warns ceasefire 'masks far more dangerous reality.' Nuclear ambitions unresolved, Lebanon destabilized, terrorism risks rising. Richard Haass separately assesses winners (Russia, China) and losers (Arab neighbors, Iranian people).",
-    "timestamp": "2026-04-10T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CSIS and Haass Substack both published today. CFR also published analysis.",
-    "keywords": [
-      "csis",
-      "analysis",
-      "ceasefire",
-      "nuclear",
-      "haass",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-682",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com — Maritime Intel",
-    "text": "Iranian supertanker (2M barrel capacity) transited Hormuz today — one of very few vessels to cross. Meanwhile 600+ vessels stranded including 325 tankers (230 loaded). International operators' ships remain stuck. Mine clearance estimated 6-10 weeks. Blockade Day 39.",
-    "timestamp": "2026-04-10T19:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NBC News confirmed Iranian supertanker transit. Al Jazeera confirmed vessel count.",
-    "keywords": [
-      "hormuz",
-      "supertanker",
-      "iran",
-      "mines",
-      "shipping",
-      "day42"
-    ]
-  },
-  {
     "id": "social-683",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel — OSINT Aggregator",
@@ -439,6 +333,114 @@
       "kuwait",
       "casualties",
       "accountability",
+      "day43"
+    ]
+  },
+  {
+    "id": "social-702",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "HISTORIC: First direct US-Iran face-to-face talks since 1979 now underway in Islamabad. Vance leading US side, Ghalibaf/Araghchi for Iran. Format shifted from proximity to direct — significant. Iran's 71-member delegation signals they're serious. No agreements yet but 'detailed, technical phase' per Iranian media.",
+    "timestamp": "2026-04-11T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NPR, Al Jazeera, CNBC all confirming direct talks format and delegation details.",
+    "keywords": [
+      "islamabad",
+      "talks",
+      "vance",
+      "ghalibaf",
+      "diplomacy",
+      "day43"
+    ]
+  },
+  {
+    "id": "social-703",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com — Maritime Intel",
+    "text": "USS Frank E. Peterson (DDG-121) and USS Michael Murphy (DDG-112) just transited the Strait of Hormuz — FIRST US warships to cross since Feb 28. CENTCOM announces mine clearance mission beginning. Iran calling it ceasefire violation. This is the most significant naval development since the blockade started Day 40 ago.",
+    "timestamp": "2026-04-11T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios, USNI News, Stars and Stripes all confirming. CENTCOM Adm. Cooper quoted.",
+    "keywords": [
+      "hormuz",
+      "navy",
+      "mines",
+      "us-warships",
+      "blockade",
+      "day43"
+    ]
+  },
+  {
+    "id": "social-704",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — Defense Intel",
+    "text": "CNN exclusive: US intelligence indicates China is preparing to deliver shoulder-fired MANPADs to Iran via third countries. Would be a massive escalation — first direct Chinese weapons transfer to Iran during the conflict. Beijing denies. If true, changes the air war calculus significantly.",
+    "timestamp": "2026-04-11T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "CNN exclusive citing US intelligence officials. Bloomberg and JPost picked it up. China denied.",
+    "keywords": [
+      "china",
+      "manpads",
+      "iran",
+      "weapons",
+      "intelligence",
+      "day43"
+    ]
+  },
+  {
+    "id": "social-705",
+    "handle": "@ELINTNews",
+    "displayName": "ELINT News — Intel Tracker",
+    "text": "Netanyahu formally rejects ceasefire with Hezbollah ahead of Washington talks with Lebanon Tuesday. Corruption trial resumes Sunday. Meanwhile IDF kills 10+ in Lebanon today including 3 emergency workers. Lebanon toll now 2,020 killed, 6,436 wounded since March 2. The Lebanon front is the biggest threat to any broader deal.",
+    "timestamp": "2026-04-11T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera confirmed rejection. Jerusalem Post confirmed trial date. NBC confirmed casualty figures.",
+    "keywords": [
+      "netanyahu",
+      "lebanon",
+      "ceasefire",
+      "trial",
+      "casualties",
+      "day43"
+    ]
+  },
+  {
+    "id": "social-706",
+    "handle": "@OAlexanderDK",
+    "displayName": "Oliver Alexander",
+    "text": "Iran's mine problem is stunning — US officials say Iran planted 2,000-6,000 mines but CAN'T LOCATE many of them because they drifted. Realistic clearance: 8-14 WEEKS minimum. Hormuz is functionally closed for months regardless of any diplomatic breakthrough. This is the bottleneck that will keep oil elevated.",
+    "timestamp": "2026-04-11T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Japan Times, Jerusalem Post, Haaretz all reporting. USNI Proceedings analysis corroborates timeline.",
+    "keywords": [
+      "hormuz",
+      "mines",
+      "clearance",
+      "oil",
+      "iran",
+      "day43"
+    ]
+  },
+  {
+    "id": "social-707",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Aggregator",
+    "text": "Brent crude drops to $95.20 — down ~12% for the week on Islamabad talks optimism. But Goldman says $100+ average if Hormuz shut another month, JPMorgan warns $150 overshoot if closed to mid-May. Markets pricing in a deal that hasn't happened yet. Oil could snap back violently if talks collapse.",
+    "timestamp": "2026-04-11T19:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trading Economics confirms Brent $95.20. Goldman Sachs and JPMorgan forecasts per OilPrice.com and TheStreet.",
+    "keywords": [
+      "brent",
+      "oil",
+      "prices",
+      "goldman",
+      "jpmorgan",
       "day43"
     ]
   }
