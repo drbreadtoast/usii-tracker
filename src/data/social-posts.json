@@ -17,108 +17,6 @@
     ]
   },
   {
-    "id": "social-652",
-    "handle": "@WarWaveTracker",
-    "displayName": "War Wave Tracker",
-    "text": "Wave 73 summary: Hezbollah Ashdod missile (deepest strike attempt) intercepted. IDF 98th Division near-full control of Bint Jbeil. 70+ rockets from Lebanon. Ceasefire holding on Iran front but Lebanon escalating rapidly.",
-    "timestamp": "2026-04-09T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed via IDF communiqués, Times of Israel",
-    "keywords": [
-      "hezbollah",
-      "ashdod",
-      "bint-jbeil",
-      "wave-73"
-    ]
-  },
-  {
-    "id": "social-656",
-    "handle": "@IntelCrab",
-    "displayName": "Intel Crab",
-    "text": "IMF Georgieva goes full alarm: 'All roads lead to higher prices and slower growth.' Growth downgrade next week. Goldman 30% recession odds. Urea fertilizer at $826/ton (+74% from pre-war). Spring planting crisis looming.",
-    "timestamp": "2026-04-09T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IMF statements confirmed by Al Jazeera, The National",
-    "keywords": [
-      "imf",
-      "recession",
-      "fertilizer",
-      "inflation"
-    ]
-  },
-  {
-    "id": "social-657",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "Vance delegation confirmed: VP + Witkoff + Kushner heading to Islamabad. Iran delegation: Ghalibaf + Araghchi. Vance says confusion over '3 different 10-point proposals' — one 'probably written by ChatGPT.' Key sticking points: enrichment, Lebanon, Hormuz.",
-    "timestamp": "2026-04-09T23:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Al Jazeera, Axios, NBC News",
-    "keywords": [
-      "vance",
-      "islamabad",
-      "peace-talks",
-      "chatgpt"
-    ]
-  },
-  {
-    "id": "social-659",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "March CPI data releasing today (April 10). Economists expect headline +3.4% YoY, +0.9% monthly — steepest monthly rise since June 2022. Oxford Economics projects headline CPI to exceed 4% by April. Gas prices primary driver at +32.5% from pre-war.",
-    "timestamp": "2026-04-09T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Kiplinger, CBS News, Bloomberg confirmed CPI expectations.",
-    "keywords": [
-      "cpi",
-      "inflation",
-      "gas-prices",
-      "economic-impact",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-660",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Aggregator",
-    "text": "Islamabad talks status: Pakistan Red Zone sealed, 2-day public holiday declared. VP Vance leading US delegation with Witkoff and Kushner. Iran sending Ghalibaf and Araghchi. PM Sharif mediating. Uncertain if talks proceed after Hormuz re-closure and Lebanon dispute.",
-    "timestamp": "2026-04-09T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, Time, Axios confirmed delegation details.",
-    "keywords": [
-      "islamabad",
-      "peace-talks",
-      "vance",
-      "ghalibaf",
-      "diplomacy",
-      "day42"
-    ]
-  },
-  {
-    "id": "social-661",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "Oil settlement April 9: Brent $95.92, WTI $97.87. Volatile day — Brent hit $100.99 intraday before settling lower. IEA warning April supply crunch 'much worse than March.' Goldman: $100+ Brent all of 2026 if Hormuz shut another month. $115-120 severe scenario.",
-    "timestamp": "2026-04-09T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, Trading Economics, Fortune, OilPrice.com confirmed.",
-    "keywords": [
-      "oil-prices",
-      "brent",
-      "wti",
-      "goldman",
-      "iea",
-      "hormuz",
-      "day42"
-    ]
-  },
-  {
     "id": "social-662",
     "handle": "@WarMonitor",
     "displayName": "War Monitor — Conflict Tracker",
@@ -481,6 +379,99 @@
       "iran",
       "mines",
       "shipping",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-683",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Aggregator",
+    "text": "Iranian delegation confirmed landed at Nur Khan Airbase, Islamabad under aerial escort. Ghalibaf, Araghchi, SNSC Sec. Ahmadian, CB Gov. Hemmati in attendance. Talks at Serena Hotel Saturday — indirect format with Pakistani shuttling messages between rooms. Pakistan PM Sharif calls it 'make-or-break moment.'",
+    "timestamp": "2026-04-10T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IranWire, Bloomberg, Free Malaysia Today confirmed arrival details.",
+    "keywords": [
+      "islamabad",
+      "ghalibaf",
+      "araghchi",
+      "peace-talks",
+      "pakistan",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-684",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "Trump tells NY Post warships 'loading up' with 'best ammunition ever made' to strike Iran if talks fail. Meanwhile Ghalibaf sets 2 preconditions: Lebanon ceasefire + frozen assets release. Both sides posturing hard ahead of Saturday sit-down. Classic pre-negotiation escalation ladder.",
+    "timestamp": "2026-04-10T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Manila Times, Asharq Al-Awsat, CNBC confirmed Trump remarks and Ghalibaf preconditions.",
+    "keywords": [
+      "trump",
+      "ghalibaf",
+      "preconditions",
+      "islamabad",
+      "escalation",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-685",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "Saudi supply shock update: Saudi Arabia confirms 600,000 bpd production capacity loss + 700,000 bpd East-West Pipeline disruption from Iranian attacks. SATORP, Ras Tanura, SAMREF, Ju'aymah all hit. JPMorgan calls it 'measurable supply shock' — 10% of Saudi pre-conflict exports. Brent $96.76, WTI $99.03.",
+    "timestamp": "2026-04-10T22:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg, Al Jazeera, World Oil confirmed Saudi capacity losses.",
+    "keywords": [
+      "saudi",
+      "supply-shock",
+      "oil",
+      "brent",
+      "wti",
+      "jpmorgan",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-686",
+    "handle": "@Bellingcat",
+    "displayName": "Bellingcat — Open Source Investigation",
+    "text": "Released updated Iran Conflict Damage Proxy Map tool using Sentinel satellite imagery after Planet Labs extended US-ordered commercial blackout indefinitely. ESA Sentinel now primary open-source damage assessment tool. Chinese firm Jing'an Technology claimed to track US B-2 stealth bombers during strikes using AI-driven OSINT.",
+    "timestamp": "2026-04-10T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bellingcat published tool. SatNews confirmed Planet Labs blackout. Asia Times confirmed Chinese OSINT claims.",
+    "keywords": [
+      "bellingcat",
+      "satellite",
+      "damage-assessment",
+      "planet-labs",
+      "china",
+      "osint",
+      "day42"
+    ]
+  },
+  {
+    "id": "social-687",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com — Maritime Intel",
+    "text": "Only 6 vessels transited Hormuz on Thursday Apr 10, down from 7. Zero oil tankers among them. Russian-flagged tanker made it through — suggesting coordinated passage via IRGC lanes. 600+ vessels stranded. UAE oil CEO Al Jaber: 'The Strait of Hormuz is not open.' War-risk premiums 0.35-0.45% (down from 0.5-1.0% peak but still massive).",
+    "timestamp": "2026-04-10T23:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NBC News, Al Jazeera, The Week India, CNBC confirmed vessel counts and Jaber quote.",
+    "keywords": [
+      "hormuz",
+      "shipping",
+      "russia",
+      "tanker",
+      "insurance",
+      "blockade",
       "day42"
     ]
   }

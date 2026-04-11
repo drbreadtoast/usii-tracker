@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-10T20:34:00Z",
+  "lastUpdated": "2026-04-11T00:25:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 5.74,
-      "change": "+2.1%",
-      "detail": "May SRW wheat $5.74/bu (Apr 9 close). Pre-war $5.62. Eased from $6.07 Apr 8 on ceasefire. Fertilizer crisis remains long-term driver.",
+      "current": 5.77,
+      "change": "+2.7%",
+      "detail": "Wheat futures $5.77/bu (Apr 10). USDA season-average raised to $5.00/bu (+5c in April WASDE). Crop insurance spring price $6.19/bu. Fertilizer crisis remains long-term driver.",
       "source": "Farm Futures / CME April 7",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/morning-market-review"
     },
@@ -25,9 +25,9 @@
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": 11.65,
-      "change": "+15.1%",
-      "detail": "May soybeans $11.65/bu (Apr 9 close, up 3.25c). Pre-war $10.12. India and Brazil 2026 crop yields expected lower.",
+      "current": 11.91,
+      "change": "+17.7%",
+      "detail": "July soybeans $11.91/bu (Apr 10, +10.25c). USDA season-average raised to $10.30/bu (+10c). Cash price $10.97. Crop insurance spring price $11.09/bu.",
       "source": "Brownfield Ag News / CME March 20 closing",
       "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
     },
@@ -76,7 +76,7 @@
       "unit": "/lb",
       "preWar": "$5.89",
       "current": 6.75,
-      "change": "+14.4%",
+      "change": "+14.6%",
       "detail": "Feed costs up due to grain price spikes. Diesel-dependent supply chain passing costs to consumers.",
       "source": "USDA",
       "sourceUrl": "https://www.ers.usda.gov/topics/animal-products/cattle-beef/"
@@ -92,11 +92,11 @@
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
-    "ureaCurrent": "$700+/tonne",
-    "ureaChange": "+40%",
-    "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea surged to $590/MT (+19% in one week, April 6). Middle East urea now $700+/tonne (+40%). Ammonia prices up 41% YoY. 25% of US farmers have NOT purchased fertilizer for planting season. Wolfe Research estimates food-at-home inflation could rise ~2 percentage points. If conflict lasts >40 days, farmers may reduce plantings, affecting food supply through end of 2026.",
+    "ureaCurrent": "$650+/tonne",
+    "ureaChange": "+37%",
+    "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea surged to $650+/MT (+~50% in 3 weeks, some spot markets $800+). Ammonia prices up 41% YoY. 25% of US farmers have NOT purchased fertilizer for planting season. USDA projects 3.1% food price rise in 2026. Wolfe Research estimates war could add ~2 additional percentage points. Critical Northern Hemisphere spring planting season underway.",
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 42 PM (Ceasefire Day 3): Corn rises to $4.54, coffee to $2.94. Wheat $5.74, soybeans $11.65. CPI inflation 3.3% — gasoline +21.2% in one month. USDA projects 3.6% food price increase in 2026. Urea fertilizer +40%. Ammonia +41% YoY. 25% of US farmers haven't purchased fertilizer for planting season."
+  "context": "Day 42 EVE (Ceasefire Day 3): Wheat $5.77, corn $4.54, soybeans $11.91, coffee $2.94. CPI 3.3% — gasoline +21.2% in one month (largest since 1967). USDA projects 3.1% food price rise. Urea $650+/MT. Ammonia +41% YoY. 25% of US farmers haven't purchased fertilizer. Spring planting at risk."
 }
