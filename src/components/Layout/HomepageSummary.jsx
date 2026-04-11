@@ -21,14 +21,6 @@ import socialData from '../../data/social-posts.json'
 import lobbyData from '../../data/lobby-data.json'
 import hormuzData from '../../data/hormuz-shipping.json'
 
-const POLL_RESULTS = [
-  { label: 'US Local & Foreign Affairs', pct: 58.7 },
-  { label: 'US Foreign Affairs',         pct: 25.4 },
-  { label: 'US Local Affairs',           pct: 6.3 },
-  { label: 'Middle Eastern News',        pct: 4.8 },
-  { label: 'Other',                      pct: 3.2 },
-  { label: 'Shut down the site',         pct: 0 },
-]
 
 // ----- Reusable section wrapper -----
 function SectionCard({ icon: Icon, title, color, route, children }) {
@@ -479,27 +471,9 @@ export default function HomepageSummary() {
               <X size={14} />
             </button>
 
-            <p className="text-xs text-gray-300 leading-relaxed font-medium">
-              Still tracking. Still updating 3-4x/day — ceasefire or not.
+            <p className="text-xs text-gray-300 leading-relaxed">
+              News updates continue 3-4x daily. When this conflict resolves, this site stays live — pivoting to <span className="text-blue-400 font-semibold">US Local & Foreign Affairs</span> coverage based on your votes.
             </p>
-            <p className="text-xs text-gray-400 mt-2 leading-relaxed">
-              Once the US-Iran-Israel conflict resolves, this site will continue as a live news tracker. You voted on what to cover next — here are the results:
-            </p>
-
-            <div className="mt-3 space-y-1.5 text-left max-w-sm mx-auto">
-              {POLL_RESULTS.map((r) => (
-                <div key={r.label} className="relative overflow-hidden rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2">
-                  <div
-                    className="absolute inset-y-0 left-0 bg-blue-600/20"
-                    style={{ width: `${r.pct}%` }}
-                  />
-                  <div className="relative flex items-center justify-between text-xs">
-                    <span className="text-gray-300">{r.label}</span>
-                    <span className="text-gray-400 font-semibold ml-2">{r.pct}%</span>
-                  </div>
-                </div>
-              ))}
-            </div>
 
             <div className="mt-3 flex items-center justify-center gap-2 flex-wrap">
               <button
