@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-11T00:25:00Z",
-  "currentAverage": 4.166,
+  "lastUpdated": "2026-04-11T06:09:00Z",
+  "currentAverage": 4.17,
   "preWarAverage": 3.14,
-  "changePercent": 32.7,
+  "changePercent": 32.8,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -375,6 +375,12 @@
       "price": 4.17,
       "label": "Day 42 — Gas holds $4.17 (AAA). Oil surging Brent $98.27 WTI $96.63. Hormuz closed. Kharazi dies. Islamabad talks begin.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-11",
+      "price": 4.17,
+      "label": "Day 43 — Gas flat $4.17 (AAA). WTI drops to $95.50 (-3.6%). Brent $96.69. Vance arrives Islamabad. IMF warns lasting damage. Hormuz still closed.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -470,18 +476,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.166,
-      "note": "National average $4.166/gal (AAA April 10 EVE). Essentially flat. Brent $96.76 (+21.3%), WTI $99.03 (+31.2%). Hormuz still effectively closed — 6 vessels Apr 10. Saudi 600k bpd capacity loss. JPMorgan warns $150. California $5.929.",
+      "total": 4.17,
+      "note": "National average $4.17/gal (AAA April 11). WTI drops to $95.50 (-3.6%), Brent $96.69 (flat). Hormuz still effectively closed — zero oil tankers. IMF warns lasting damage. DOE 30M SPR exchange. Goldman warns $100+ if Hormuz shut another month.",
       "crude": 2.37,
       "taxes": 0.86,
       "refining": 0.52,
       "distribution": 0.45,
-      "regularGasoline": 4.166,
+      "regularGasoline": 4.17,
       "changeFromPreWar": "+$1.03",
-      "changePercent": "+32.7%",
-      "lastUpdated": "2026-04-11T00:25:00Z",
-      "date": "2026-04-10"
+      "changePercent": "+32.8%",
+      "lastUpdated": "2026-04-11T06:09:00Z",
+      "date": "2026-04-11"
     }
   },
-  "context": "Day 42 EVE (Ceasefire Day 3): Gas holds at $4.166/gal (AAA). Brent $96.76, WTI $99.03. Hormuz effectively closed — only 6 vessels Apr 10. Saudi supply shock: 600k bpd capacity + 700k bpd pipeline cut. JPMorgan warns $150 if Hormuz shut into mid-May. California $5.929. CPI 3.3% — gasoline +21.2% in one month."
+  "context": "Day 43 (Ceasefire Day 4): Gas flat at $4.17/gal (AAA). WTI drops sharply to $95.50 (-3.6%), Brent $96.69 (flat). Hormuz effectively closed — zero oil tankers since ceasefire. IMF warns lasting economic damage. DOE issues 30M barrel SPR exchange RFP. Goldman warns $100+ Brent if Hormuz shut another month. California ~$5.93."
 }

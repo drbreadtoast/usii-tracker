@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-11T00:25:00Z",
+    "lastUpdated": "2026-04-11T06:09:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 42
+    "conflictDay": 43
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-10",
-      "label": "Day 42 EVE — Brent $96.76 (+21.3%), WTI $99.03 (+31.2%). Saudi supply shock: 600k bpd capacity + 700k bpd pipeline cut. Hormuz effectively closed — only 6 vessels transit. JPMorgan warns $150 if Hormuz shut into mid-May. EIA raises 2026 Brent forecast to $96. Iranian delegation arrives Islamabad. Trump warns fresh strikes. Gas $4.166. S&P 500 on 7-day winning streak.",
+      "date": "2026-04-11",
+      "label": "Day 43 — Brent $96.69 (+21.2%), WTI $95.50 (+26.5%). WTI-Brent spread normalizes (WTI back below Brent). Goldman warns $100+ if Hormuz shut another month. JPMorgan: $150 if shut into mid-May. IMF warns lasting economic damage. Vance arrives Islamabad. Hormuz still effectively closed — zero oil tankers. Gas $4.17. DOE 30M barrel SPR exchange.",
       "brent": {
-        "price": 96.76,
-        "change": "+21.3%",
-        "changeDollars": 16.96
+        "price": 96.69,
+        "change": "+21.2%",
+        "changeDollars": 16.89
       },
       "wti": {
-        "price": 99.03,
-        "change": "+31.2%",
-        "changeDollars": 23.53
+        "price": 95.50,
+        "change": "+26.5%",
+        "changeDollars": 20.00
       },
-      "changePercent": "+21.3%",
-      "lastUpdated": "2026-04-10"
+      "changePercent": "+21.2%",
+      "lastUpdated": "2026-04-11"
     },
     "priceHistory": [
       {
@@ -583,8 +583,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-10T06:09:00Z",
-    "note": "Day 42 EVE CEASEFIRE DAY 3: AAA national avg $4.166/gal (+32.7%). Brent $96.76 (+21.3%). WTI $99.03 (+31.2%). Hormuz effectively closed — only 6 vessels Apr 10. Saudi supply shock: 600k bpd + 700k bpd pipeline cut. JPMorgan warns $150. Gas holding steady. California $5.929.",
+    "lastUpdated": "2026-04-11T06:09:00Z",
+    "note": "Day 43 CEASEFIRE DAY 4: AAA national avg $4.17/gal (+32.8%). Brent $96.69 (+21.2%). WTI $95.50 (+26.5%). Hormuz effectively closed — Blockade Day 40. IMF warns lasting damage. Vance in Islamabad. SPR exchange 2M barrels. California $5.929.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -594,14 +594,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.166,
-          "change": "+32.7%",
+          "price": 4.17,
+          "change": "+32.8%",
           "changeDollars": "+$1.03",
-          "date": "2026-04-10"
+          "date": "2026-04-11"
         },
         "change": "+$1.03",
-        "changePercent": "+32.7%",
-        "detail": "Gas $4.166/gal (AAA, Day 42 EVE). Essentially flat from $4.17. Oil volatile — Brent $96.76. Hormuz still closed. Pre-war $3.14. California $5.929.",
+        "changePercent": "+32.8%",
+        "detail": "Gas $4.17/gal (AAA, Day 43). Brent $96.69 (-3.6%), WTI $95.50. Hormuz closed Day 40. Pre-war $3.14. California $5.929.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

@@ -35,52 +35,52 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-11T00:25:00Z",
+    "lastUpdated": "2026-04-11T06:09:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 42,
+    "daysOfConflict": 43,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 42
+    "conflictDay": 43
   },
   "countryCosts": {
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
       "directMilitaryCosts": {
-        "total": 38700000000,
+        "total": 42000000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 13400000000,
-            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 39: 50+ strikes on Kharg Island. IDF bridges/railways campaign. Pentagon $200B+ supplemental requested.",
+            "amount": 14200000000,
+            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 43: DOE 30M barrel SPR exchange. Pentagon supplemental slashed to $80-100B. $22B munitions procurement requested (+387%).",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
-            "amount": 8500000000,
-            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU, destroyer/submarine operations. Day 39: sustained Hormuz patrol + Kharg Island strike support.",
+            "amount": 8800000000,
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU, destroyer/submarine operations. Day 43: sustained Hormuz patrol. Ceasefire Day 4 — no change in naval posture.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
           "airOperations": {
-            "amount": 7800000000,
-            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). Hegseth: 'highest volume of strikes yet' on Day 14-15. Day 37: continued intensive air operations over Iran.",
+            "amount": 8200000000,
+            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). 24 MQ-9 Reapers lost ($720M+). Ceasefire pauses air ops over Iran but CENTCOM maintains readiness posture.",
             "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
           "personnelDeployment": {
-            "amount": 2900000000,
-            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA (7 enemy fire, 6 KC-135 crash). US Rangers and Navy SEALs deployed.",
+            "amount": 3000000000,
+            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 381 WIA. No new casualties since ceasefire.",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
           },
           "logistics": {
-            "amount": 6100000000,
-            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Includes Day 37 operational continuity costs, Isfahan rescue op logistics, and increased fuel costs from elevated oil prices.",
+            "amount": 7800000000,
+            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Elevated fuel costs from $95-97 crude. Day 43: Ceasefire sustainment ops, Hormuz patrol logistics, SPR management. Includes Isfahan rescue op logistics.",
             "source": "USTRANSCOM / Defense Logistics Agency",
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$37.8B",
+        "totalFormatted": "$42B",
         "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon supplemental slashed from $200B+ to $80-100B (WaPo April 7). 250+ groups oppose additional funding. Penn Wharton: $40B-$95B total direct costs.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
@@ -98,14 +98,14 @@
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
       "totalEstimate": "~$36B direct military + ~$38B indirect through Day 33",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
-      "totalCost": 75400000000,
+      "totalCost": 79600000000,
       "totalFormatted": "$42B",
-      "total": 46000000000,
-      "lastUpdated": "2026-04-03T06:12:00Z",
-      "note": "Day 42 PM: $46B+ total through Day 42. Ceasefire Day 3 — burn rate ~$800M/day as troops/assets remain in place. Pentagon supplemental slashed from $200B+ to $80-100B (WaPo). CPI inflation 3.3% driven by war oil shock. Goldman: $100+ Brent if Hormuz shut another month. 13 KIA, 381 WIA confirmed by CENTCOM.",
+      "total": 79600000000,
+      "lastUpdated": "2026-04-11T06:09:00Z",
+      "note": "Day 43: $42B direct + $37.6B indirect = ~$79.6B total through Day 43. Ceasefire Day 4 — burn rate ~$800M/day as troops/assets remain in place. Pentagon supplemental slashed from $200B+ to $80-100B (WaPo). CPI inflation 3.3% driven by war oil shock. IMF warns lasting damage. 13 KIA, 381 WIA confirmed by CENTCOM.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin now seeking $80-100B supplemental (down from $200B+).",
-      "directMilitary": 37800000000,
-      "description": "US direct military costs ~$38.7B (Day 42). Indirect costs ~$37.6B. Total ~$76.3B. Daily burn rate ~$800M-$1B/day. 57,000+ troops in theater. 950+ Tomahawks fired (~$1.9B, approaching Winchester). Pentagon supplemental slashed to $80-100B. CPI 3.3% from war oil shock.",
+      "directMilitary": 42000000000,
+      "description": "US direct military costs ~$42B (Day 43). Indirect costs ~$37.6B. Total ~$79.6B. Daily burn rate ~$800M-$1B/day. 57,000+ troops in theater. 950+ Tomahawks fired (~$1.9B, approaching Winchester). Pentagon supplemental slashed to $80-100B. CPI 3.3% from war oil shock. IMF warns lasting economic damage.",
       "totalDirect": 42000000000,
       "dailyBurnRateFormatted": "$1B/day"
     },
@@ -113,42 +113,42 @@
       "name": "Israel",
       "flag": "🇮🇱",
       "directMilitaryCosts": {
-        "total": 9310000000,
+        "total": 17500000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 3200000000,
-            "description": "Arrow-3 (40+ used, $2.5M each), Arrow-2 (55+ used, $3M each), Iron Dome Tamir (4,500+ used, $50K each = $225M), David's Sling (80+ used, $1M each), LORA ballistic missiles, Delilah cruise missiles, precision-guided munitions. RUSI warns Arrow stocks near total depletion. $1.25B Raytheon-Rafael contract to surge Tamir production. NIS 2.6B ($826M) emergency procurement allocation.",
+            "amount": 5500000000,
+            "description": "Arrow-3 (40+ used, $2.5M each), Arrow-2 (55+ used, $3M each), Iron Dome Tamir (4,500+ used, $50K each = $225M), David's Sling (80+ used, $1M each), LORA ballistic missiles, Delilah cruise missiles, precision-guided munitions. RUSI warns Arrow stocks near total depletion. $1.25B Raytheon-Rafael contract to surge Tamir production. Finance Ministry: $17.5B total through 40 days.",
             "source": "Israeli Ministry of Defense / SIPRI Arms Transfers Database",
             "sourceUrl": "https://www.sipri.org/databases/armstransfers"
           },
           "navalOperations": {
-            "amount": 500000000,
-            "description": "Sa'ar 6 corvette operations, submarine deployments in Eastern Mediterranean, naval blockade support, and maritime patrol operations",
+            "amount": 1500000000,
+            "description": "Sa'ar 6 corvette operations, submarine deployments in Eastern Mediterranean, naval blockade support, maritime patrol operations. Ashdod port defense after Hezbollah deep strike.",
             "source": "Israeli Navy / Jane's Defence",
             "sourceUrl": "https://www.janes.com/"
           },
           "airOperations": {
-            "amount": 3770000000,
-            "description": "F-35I, F-15I, F-16 sorties over Iran and Lebanon. A-10 and Apache deployments to Hormuz. IAF intensive operations now entering Week 4.",
+            "amount": 6500000000,
+            "description": "F-35I, F-15I, F-16 sorties over Iran and Lebanon. A-10 and Apache deployments. IAF operations now entering Week 7. 5 IDF divisions in Lebanon (98th, 36th, 91st, 146th, 162nd). Operation Eternal Darkness air campaign.",
             "source": "Israeli Air Force / CSIS Missile Defense Project",
             "sourceUrl": "https://missilethreat.csis.org/"
           },
           "personnelDeployment": {
-            "amount": 1060000000,
-            "description": "Full IDF reserve mobilization of approximately 300,000 reservists, combat pay, civil defense activation, and Home Front Command operations across all districts",
+            "amount": 2500000000,
+            "description": "Full IDF reserve mobilization of ~300,000 reservists, combat pay, civil defense activation, Home Front Command operations. 5 divisions deployed to Lebanon ground ops (Operation Roaring Lion).",
             "source": "Israeli Ministry of Finance / Bank of Israel",
             "sourceUrl": "https://www.boi.org.il/en/"
           },
           "logistics": {
-            "amount": 780000000,
-            "description": "Emergency resupply from US stockpiles (WRSA-I), domestic ammunition production surge, civil defense shelter operations, and critical infrastructure hardening",
+            "amount": 1500000000,
+            "description": "Emergency resupply from US stockpiles (WRSA-I), domestic ammunition production surge, civil defense shelter operations, critical infrastructure hardening, Lebanon ground ops sustainment.",
             "source": "Israeli Ministry of Defense Procurement",
             "sourceUrl": "https://www.mod.gov.il/English/"
           }
         },
-        "source": "Calcalist: $480-550M/day avg. | Anadolu Agency: Iran war cost Israeli military $6.4B in first 20 days (March 20, 2026). | Haaretz: Defense budget $11B+ above plan. | Bloomberg: $13B budget increase + $2.9B supplement.",
-        "sourceUrl": "https://www.aa.com.tr/en/middle-east/iran-war-cost-israeli-military-64b-in-first-20-days-report/3872414"
+        "source": "Israel Finance Ministry: $17.5B for 40 days of war on Iran + Lebanon (April 9). | Knesset: record $45.8B defense budget + $13B supplemental approved. | Middle East Monitor April 9. | Breaking Defense.",
+        "sourceUrl": "https://www.middleeastmonitor.com/20260409-israel-estimates-17-5b-cost-of-40-days-of-war-on-iran-lebanon/"
       },
       "indirectCosts": {
         "total": 20560000000,
@@ -182,16 +182,16 @@
       },
       "dailyBurnRate": 500000000,
       "dailyBurnRateNote": "Calcalist estimates $480-550M/day average ($645-970M/day first 3 days). Includes missile defense operations, IAF sorties (60 jets dropped 150+ bombs Day 28 alone), 300,000 reserve mobilization, and civil defense.",
-      "note": "Day 41: ~NIS 47 billion ($15B) through 5+ weeks on Iran front. Daily spending ~$200M/day. Bank of Israel total economic toll across all fronts: $112B. Knesset approved $45B defense budget for 2026.",
-      "total": 15000000000,
-      "totalFormatted": "$10B",
+      "note": "Day 43: Finance Ministry estimates $17.5B for 40 days of war on Iran + Lebanon. Daily spending ~$400M/day. Bank of Israel total economic toll across all fronts: $112B. Knesset approved $45.8B defense budget for 2026.",
+      "total": 38060000000,
+      "totalFormatted": "$17.5B",
       "notes": [
         "Knesset approved record NIS 143B ($45.8B) 2026 defense budget on March 30 — $9.48B increase over 2025. Includes NIS 30B ($9.5B) wartime funding. Total state budget NIS 850.6B ($271B), largest in Israeli history. New $48M deal with Elbit for 155mm shells."
       ],
-      "directMilitary": 9300000000,
-      "description": "Israel direct military costs ~$9.3B (Day 38). Total defense budget $44.8B (112B shekels). $480-550M/day average. Knesset approved record budget March 30. $13B budget increase + $2.9B supplement.",
+      "directMilitary": 17500000000,
+      "description": "Israel direct military costs ~$17.5B (Day 43). Finance Ministry: $17.5B for 40 days of war. Total defense budget $45.8B. $400-500M/day average. Knesset approved record budget March 30. 5 IDF divisions in Lebanon.",
       "dailyBurnRateFormatted": "$500M/day",
-      "totalDirect": 10000000000
+      "totalDirect": 17500000000
     },
     "iran": {
       "name": "Iran",
@@ -817,27 +817,27 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 52080000000,
+    "allCountriesDirectMilitary": 63570000000,
     "allCountriesIndirectCosts": 109490000000,
-    "combinedTotalCosts": 161570000000,
+    "combinedTotalCosts": 173060000000,
     "globalEconomicImpact": 870000000000,
-    "description": "Combined direct military + indirect economic costs through Day 42. CEASEFIRE IN EFFECT (Day 3) — costs may stabilize if fighting halts. Daily burn rate expected to decrease during ceasefire. Kharazi death adds to toll of senior officials killed.",
-    "lastCalculated": "2026-04-09T12:39:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 43. CEASEFIRE IN EFFECT (Day 4) — costs may stabilize if fighting halts. Daily burn rate expected to decrease during ceasefire. Kharazi death adds to toll of senior officials killed.",
+    "lastCalculated": "2026-04-11T06:09:00Z",
     "allCountriesIndirect": 109490000000,
-    "combinedTotalFormatted": "$161.57B",
-    "lastUpdated": "2026-04-11T00:25:00Z",
-    "directCosts": 52080000000,
+    "combinedTotalFormatted": "$173.06B",
+    "lastUpdated": "2026-04-11T06:09:00Z",
+    "directCosts": 63570000000,
     "indirectCosts": 109490000000,
-    "combinedCosts": 161570000000,
-    "combinedCost": 161570000000,
-    "combinedCostTotal": 161570000000,
-    "allCountriesDirect": 56000000000,
-    "allCountriesDirectFormatted": "$56B",
+    "combinedCosts": 173060000000,
+    "combinedCost": 173060000000,
+    "combinedCostTotal": 173060000000,
+    "allCountriesDirect": 63570000000,
+    "allCountriesDirectFormatted": "$63.57B",
     "globalEconomicImpactFormatted": "$870B+"
   },
-  "daysOfConflict": 42,
-  "lastUpdated": "2026-04-11T00:25:00Z",
-  "dailyBurnRate": 1920000000,
-  "totalCost": 53100000000,
-  "totalFormatted": "$53.1B (direct military, all countries, Day 42)"
+  "daysOfConflict": 43,
+  "lastUpdated": "2026-04-11T06:09:00Z",
+  "dailyBurnRate": 1478000000,
+  "totalCost": 63570000000,
+  "totalFormatted": "$63.57B (direct military, all countries, Day 43)"
 }
