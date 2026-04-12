@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-12T06:07:00Z",
+    "lastUpdated": "2026-04-12T12:24:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 199
   },
   "summary": {
-    "totalSites": 356,
-    "confirmed": 296,
+    "totalSites": 359,
+    "confirmed": 299,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5677,6 +5677,51 @@
       "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-892633",
       "severity": "medium",
       "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-366",
+      "name": "Teffahta residential buildings destroyed by Israeli airstrikes",
+      "country": "Lebanon",
+      "lat": 33.46,
+      "lng": 35.36,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli overnight airstrikes destroyed residential buildings in Teffahta, Sidon district. 13 killed. Part of intensified strikes after Islamabad talks collapse.",
+      "source": "Xinhua",
+      "sourceUrl": "https://english.news.cn/20260412/24317bcc33684bccac56b35267573c8e/c.html",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-367",
+      "name": "Qana al-Khashna residential area destroyed",
+      "country": "Lebanon",
+      "lat": 33.2089,
+      "lng": 35.3,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli airstrike destroyed residential homes and infrastructure in Qana al-Khashna area. 5 killed, several wounded.",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/12/israeli-strikes-on-southern-lebanon-intensify-amid-failed-us-iran-peace-talks/",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-368",
+      "name": "Maaroub house destroyed by Israeli airstrike",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.22,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli airstrike destroyed a house in Maaroub, killing 6 people. Overnight strike intensifying after Islamabad talks collapse.",
+      "source": "TRT World",
+      "sourceUrl": "https://www.trtworld.com/article/edfe6e0793f1",
+      "severity": "critical",
+      "attributedTo": "israel"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "dailyTransits": 9,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-12T06:07:00Z",
+  "lastUpdated": "2026-04-12T12:24:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,7 +24,7 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "9 vessels in last 24h (bulk only), ZERO oil tankers since ceasefire. USS Peterson/Murphy transit — first US warships since war. CENTCOM mine clearance begun. Iran lost track of 2,000-6,000 mines — drifted from positions. 800+ vessels trapped incl 325 tankers (230 loaded).",
+    "tankerTraffic": "3 VLCCs exit Hormuz (Serifos, Cospearl Lake, He Rong Hai) — biggest oil day since war (~6M bbl). But 2 empty supertankers U-turned after talks collapse. USS Peterson/Murphy mine clearance continues. Iran lost track of 2,000-6,000 mines. 800+ vessels trapped incl 230 loaded tankers.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
     "lastUpdated": "2026-04-10T06:09:00Z",
@@ -531,15 +531,21 @@
       "event": "Day 43 PM: BREAKING — USS Frank E. Peterson (DDG-121) and USS Michael Murphy (DDG-112) transit Strait of Hormuz east-to-west and back — FIRST US warships since war began Feb 28. CENTCOM Adm. Brad Cooper begins mine clearance mission. Underwater drones to join in coming days. Iran calls it ceasefire violation, threatens to attack ships 'within 30 minutes.' Iran planted 2,000-6,000 mines but CAN'T LOCATE them all — realistic clearance timeline: 8-14 weeks. Historic Islamabad talks begin in parallel.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-12",
+      "event": "Day 44 PM (Blockade Day 41): 3 VLCCs (Serifos, Cospearl Lake, He Rong Hai) exit Hormuz — BIGGEST day of oil movement since war began (~6M barrels). Cospearl Lake laden with Iraqi oil bound for Zhoushan, China. Serifos + He Rong Hai loaded Saudi cargo. Northerly route via Qeshm/Larak Islands. BUT 2 empty supertankers (Agios Fanourios I, Shalamar) U-turned after Islamabad talks collapsed. 230+ loaded tankers still trapped. 800+ freighters stranded. IRGC 'last warning' still in effect. Mine clearance continues — 8-14 weeks.",
+      "status": "effectively_closed",
+      "barrels": 6000000
     }
   ],
   "impactedGoods": [
     {
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
-      "currentFlow": "~0 bbl/day (selective passage for Japan, China, India, Pakistan)",
-      "priceImpact": "+21.1% Brent ($96.66), +26.7% WTI ($95.63); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 41 of blockade. USS Peterson/Murphy transited Hormuz (first US warships since war). CENTCOM mine clearance underway — estimated 6-10 weeks. Iran CAN'T FIND own 2,000-6,000 mines (drifted from positions). ZERO oil tankers since ceasefire. 800+ freighters stranded. Islamabad talks Day 1 ends NO DEAL — Hormuz control key sticking point. Goldman $100+ if Hormuz shut another month. JPMorgan $150 if shut into mid-May."
+      "currentFlow": "~6M bbl (3 VLCCs on April 12, first major oil exit since war)",
+      "priceImpact": "+19.2% Brent ($95.20), +26.5% WTI ($95.50); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 41 of blockade. 3 VLCCs exited April 12 (biggest day since war) but 2 empty supertankers U-turned after talks collapse. CENTCOM mine clearance underway — estimated 8-14 weeks. Iran CAN'T FIND own 2,000-6,000 mines. 800+ freighters stranded. Islamabad talks COLLAPSED after 21 hours. Iran: 'no plan for next round.' Goldman $100+ if Hormuz shut another month. JPMorgan $150 if shut into mid-May."
     },
     {
       "commodity": "LNG",
@@ -553,7 +559,7 @@
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
       "priceImpact": "+25%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas $4.166/gal (AAA Day 44 PM) — above $4 since March 31. California: ~$5.93/gal. Diesel: $5.643/gal. Iraq exemption active. OPEC+ +206k bpd for May. March CPI: gasoline +21.2% MoM (largest since 1967). Consumer sentiment 47.6 (record low)."
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas $4.166/gal (AAA Day 44 PM) — above $4 since March 31. California: ~$5.93/gal. Diesel: $5.643/gal. Iraq exemption active. OPEC+ +206k bpd for May. March CPI: gasoline +21.2% MoM (largest since 1967). Consumer sentiment 47.6 (record low). Islamabad talks collapsed — no deal path."
     },
     {
       "commodity": "Petrochemicals",

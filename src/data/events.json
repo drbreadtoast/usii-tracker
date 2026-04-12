@@ -29632,5 +29632,144 @@
       "diplomacy",
       "day44"
     ]
+  },
+  {
+    "id": "evt-new-848",
+    "title": "Israeli overnight airstrikes kill 24 across southern Lebanon — Teffahta, Qana, Maaroub hit",
+    "description": "Israeli airstrikes killed at least 24 people overnight April 11-12 across southern Lebanon. Teffahta (Sidon district): 13 killed. Qana (al-Khashna area): 5 killed, several wounded, residential homes destroyed. Maaroub: 6 killed in airstrike on a house. Dawn strikes also hit Aaitat, Samaya, Mahrouna, Maarakeh, and Khiam (Jallahiya neighborhood) — 3 wounded transferred to Tyre's Hiram Hospital. Strikes intensifying after Islamabad talks collapse.",
+    "type": "strike",
+    "lat": 33.46,
+    "lng": 35.36,
+    "location": "Teffahta, Sidon District, Lebanon",
+    "timestamp": "2026-04-12T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Xinhua — Israeli airstrikes kill 24 in southern Lebanon overnight",
+        "url": "https://english.news.cn/20260412/24317bcc33684bccac56b35267573c8e/c.html"
+      },
+      {
+        "name": "The National — Israeli strikes intensify amid failed peace talks",
+        "url": "https://www.thenationalnews.com/news/mena/2026/04/12/israeli-strikes-on-southern-lebanon-intensify-amid-failed-us-iran-peace-talks/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 24,
+      "injured": 3
+    },
+    "tags": [
+      "israel",
+      "lebanon",
+      "airstrikes",
+      "civilians",
+      "teffahta",
+      "qana",
+      "day44"
+    ]
+  },
+  {
+    "id": "evt-new-849",
+    "title": "3 supertankers exit Hormuz — biggest oil movement since war began",
+    "description": "Three VLCCs (Serifos, Cospearl Lake, He Rong Hai) exited the Strait of Hormuz on April 12, the biggest day of oil exits since the war began. Each VLCC carries ~2M barrels. Cospearl Lake laden with Iraqi oil bound for Zhoushan, China (ETA May 1). Serifos and He Rong Hai loaded Saudi cargo. Ships followed northerly route through Iranian waters along Qeshm/Larak Islands.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-12T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Oil tankers exit Strait of Hormuz amid fragile ceasefire",
+        "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire"
+      },
+      {
+        "name": "Bloomberg — Three oil supertankers sail through Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-11/three-oil-supertankers-appear-to-make-move-through-hormuz-strait"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "hormuz",
+      "oil",
+      "tankers",
+      "shipping",
+      "ceasefire",
+      "day44"
+    ]
+  },
+  {
+    "id": "evt-new-850",
+    "title": "2 supertankers U-turn in Hormuz after Islamabad talks collapse",
+    "description": "Two empty supertankers (Agios Fanourios I and Shalamar) made U-turns in the Strait of Hormuz immediately after the Islamabad peace talks collapsed. Agios Fanourios I headed to Iraq, Shalamar to UAE. The U-turns signal renewed market panic — Monday oil prices expected to spike.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-12T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Bloomberg — Two supertankers U-turn in Hormuz as US-Iran talks break down",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-12/two-supertankers-u-turn-in-hormuz-as-us-iran-talks-break-down"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "hormuz",
+      "oil",
+      "tankers",
+      "talks-collapse",
+      "day44"
+    ]
+  },
+  {
+    "id": "evt-new-851",
+    "title": "Iran: 'no plan for next round of negotiations' after Islamabad collapse",
+    "description": "Fars News reported Iran currently has 'no plan for a next round of negotiations' after the 21-hour Islamabad talks collapsed. Ghalibaf blamed the US for failure citing a 'trust deficit.' Iran's Foreign Ministry stated 'the ball is in America's court.' The collapse raises risk that the 2-week ceasefire (effective April 8, expiring ~April 22) will not lead to a permanent agreement.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-12T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — US and Iran fail to reach deal after marathon talks",
+        "url": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan"
+      },
+      {
+        "name": "NPR — No Deal: US-Iran peace talks in Islamabad collapse",
+        "url": "https://www.npr.org/2026/04/12/nx-s1-5782538/u-s-iran-peace-talks-islamabad-collapse"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "iran",
+      "diplomacy",
+      "talks-collapse",
+      "islamabad",
+      "day44"
+    ]
   }
 ]
