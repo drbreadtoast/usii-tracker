@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T06:07:00Z",
+  "lastUpdated": "2026-04-12T20:08:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,7 +77,7 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 44, 06:21 AM PDT — CEASEFIRE DAY 5 — TRUMP ANNOUNCES US NAVAL BLOCKADE OF HORMUZ after Islamabad talks collapse; Iran: 'Hormuz will not be opened,' blockade would 'backfire'; Netanyahu: campaign 'not over,' claims 12 nuclear scientists killed; Ghalibaf: 'we don't trust you'; Pope Leo XIV peace vigil; Russia gave Iran 55 Israeli energy targets)",
+      "period": "February 28, 2026 - Ongoing (Day 44, 01:08 PM PDT — CEASEFIRE DAY 5 — IRGC 'deadly vortex' warning after Trump blockade; IDF 200 airstrikes on Lebanon in 24h; Hezbollah 105 attack waves — record day; UK rejects US blockade, 40-nation coalition; Lebanon death toll 2,055; Pezeshkian-Putin call; Iran parliament: 'Hormuz will not be opened')",
       "parties": [
         {
           "name": "Iran",
@@ -173,20 +173,20 @@
           "flag": "🇮🇱",
           "confirmed": {
             "military": 13,
-            "civilian": 27,
-            "total": 40,
-            "source": "Israeli government + IDF (Day 44 AM). 17 IDF soldiers killed. 27 civilians killed. 7,451+ wounded. Hezbollah launched 105 attack waves April 11 — most intense day since war began. Drone struck Shlomi apartment building. Direct hit Safed parking lot, Nahariya Byzantine church hit. No new Israeli deaths. Islamabad talks collapse after 21 hours. Netanyahu trial resumes — court rejects delay. CEASEFIRE IN EFFECT for Iran but Lebanon front excluded.",
+            "civilian": 28,
+            "total": 41,
+            "source": "Israeli government + IDF (Day 44 PM). 17 IDF soldiers killed. 28 civilians killed (+1 woman killed in Hezbollah rocket barrage, northern Israel, April 12). 7,453+ wounded. Hezbollah launched 105 attack waves April 12 — most intense day since war began (1,084 total attack waves since war). CEASEFIRE IN EFFECT for Iran but Lebanon front excluded.",
             "sourceUrl": "https://www.timesofisrael.com/2-dead-pulled-from-wreckage-of-haifa-building-hit-by-missile-2-more-people-still-missing/"
           },
           "estimated": {
             "military": 17,
-            "civilian": 23,
-            "total": 40,
-            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 39 PM)",
-            "sourceUrl": "https://www.timesofisrael.com/liveblog-april-6-2026/",
-            "note": "Updated Day 38 PM: 17 IDF soldiers killed (confirmed). 23 civilians estimated (21 confirmed + possible unreported). +4 Haifa building (elderly couple 80s, man 40s, woman 35), +2 Ramat Gan cluster munitions (elderly couple 70s). Previous: 4 Nahal Brigade Lebanon, 1 Sgt Ben Zion, etc. Iran claims significantly higher but unverified.",
-            "minTotal": 38,
-            "maxTotal": 50
+            "civilian": 30,
+            "total": 47,
+            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 44 PM)",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-april-12-2026/",
+            "note": "Updated Day 44 PM: 17 IDF soldiers killed (confirmed). 30 civilians estimated (28 confirmed + possible unreported from Hezbollah rocket barrages). +1 woman killed April 12 Hezbollah barrage. +4 Haifa building (elderly couple 80s, man 40s, woman 35), +2 Ramat Gan cluster munitions (elderly couple 70s). Iran claims significantly higher but unverified.",
+            "minTotal": 41,
+            "maxTotal": 55
           },
           "rumored": {
             "total": 50,
@@ -226,8 +226,8 @@
               }
             ]
           },
-          "injured": 7451,
-          "injuredNote": "7,451+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 44 AM, April 12). Hezbollah 105 attack waves April 11 — most intense day since war began. Drone struck Shlomi apartment building. Direct hit Safed parking lot (MDA ambulance damaged), Nahariya Byzantine church. No new Israeli deaths. CEASEFIRE IN EFFECT for Iran but Lebanon front excluded.",
+          "injured": 7453,
+          "injuredNote": "7,453+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 44 PM, April 12). Hezbollah 105 attack waves April 12 — most intense day since war began (1,084 total since war). +2 injured in rocket barrage that killed 1 woman in northern Israel. CEASEFIRE IN EFFECT for Iran but Lebanon front excluded.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
         },
@@ -287,21 +287,21 @@
           "name": "Lebanon",
           "flag": "🇱🇧",
           "confirmed": {
-            "military": 430,
+            "military": 441,
             "civilian": 1614,
-            "total": 2044,
-            "source": "Lebanese Health Ministry (Day 44 PM, April 12). 2,044+ killed (2,020 + 24 overnight), 6,439+ wounded. Overnight Israeli strikes killed 24: Teffahta (13), Qana (5), Maaroub (6). Dawn strikes hit Aaitat, Samaya, Mahrouna, Maarakeh, Khiam — 3 more wounded. Strikes intensifying after Islamabad talks collapse.",
+            "total": 2055,
+            "source": "Lebanese Health Ministry (Day 44 PM, April 12). 2,055 killed, 6,588 wounded. +35 killed in past 24h (252 women, 165 children among total dead). 13 state security forces killed in Nabatieh government building strike (April 11). IDF carried out 200 airstrikes in 24h — Bint Jbeil, Siddiqin, Nabatieh, Tyre district. Strikes intensifying after Islamabad talks collapse.",
             "sourceUrl": "https://english.news.cn/20260412/24317bcc33684bccac56b35267573c8e/c.html"
           },
           "estimated": {
             "military": 1080,
-            "civilian": 1224,
-            "total": 2304,
-            "source": "Lebanese Civil Defence + Alma Center estimates (Day 44 PM, April 12). 2,044 confirmed + Hezbollah undercount. IDF claims 1,400+ Hezbollah operatives killed. Overnight strikes killed 24 in Teffahta/Qana/Maaroub. Strikes intensifying after Islamabad talks collapse.",
-            "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/12/israeli-strikes-on-southern-lebanon-intensify-amid-failed-us-iran-peace-talks/",
-            "note": "Day 44 PM: 2,044 confirmed killed + estimated Hezbollah undercount = ~2,304. 1.5M displaced. 54+ emergency workers killed. IDF: 1,400+ Hezbollah killed. Overnight 24 killed (Teffahta 13, Qana 5, Maaroub 6). Strikes intensifying post-talks collapse.",
-            "minTotal": 2044,
-            "maxTotal": 2304
+            "civilian": 1235,
+            "total": 2315,
+            "source": "Lebanese Civil Defence + Alma Center estimates (Day 44 PM, April 12). 2,055 confirmed + Hezbollah undercount. IDF claims 1,400+ Hezbollah operatives killed. IDF 200 airstrikes in 24h across southern Lebanon. Strikes intensifying after Islamabad talks collapse and Trump blockade.",
+            "sourceUrl": "https://www.middleeastmonitor.com/20260412-lebanon-says-35-killed-in-israeli-attacks-over-past-24-hours-death-toll-rises-to-2055/",
+            "note": "Day 44 PM: 2,055 confirmed killed + estimated Hezbollah undercount = ~2,315. 1.5M displaced. 54+ emergency workers killed. IDF: 1,400+ Hezbollah killed. 200 airstrikes in 24h. 85 medics killed total. Strikes intensifying post-talks collapse.",
+            "minTotal": 2055,
+            "maxTotal": 2315
           },
           "rumored": {
             "total": 1400,
@@ -332,8 +332,8 @@
               }
             ]
           },
-          "injured": 6439,
-          "injuredNote": "6,439+ injured per Lebanese Health Ministry (Day 44 PM, April 12). Overnight strikes killed 24 (Teffahta 13, Qana 5, Maaroub 6), 3 wounded transferred to Hiram Hospital. Includes +1,165 wounded in Operation Eternal Darkness (April 8). HRW reports vital Qasmiyeh Bridge destroyed. 1.5M displaced.",
+          "injured": 6588,
+          "injuredNote": "6,588+ injured per Lebanese Health Ministry (Day 44 PM, April 12). +152 wounded in past 24h. IDF 200 airstrikes in 24h — Bint Jbeil, Siddiqin, Nabatieh, Tyre district targets. Includes +1,165 wounded in Operation Eternal Darkness (April 8). HRW reports vital Qasmiyeh Bridge destroyed. 1.5M displaced.",
           "displaced": 1500000,
           "displacedNote": "1.5M displaced per Lebanese authorities as of March 24 — approximately 1 in 4 Lebanese. UN warned nearly a quarter of the population is uprooted."
         },

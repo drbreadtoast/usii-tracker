@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-12T13:21:00Z",
+    "lastUpdated": "2026-04-12T20:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 199
+    "totalSites": 201
   },
   "summary": {
-    "totalSites": 359,
-    "confirmed": 299,
+    "totalSites": 361,
+    "confirmed": 301,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5720,6 +5720,36 @@
       "description": "Israeli airstrike destroyed a house in Maaroub, killing 6 people. Overnight strike intensifying after Islamabad talks collapse.",
       "source": "TRT World",
       "sourceUrl": "https://www.trtworld.com/article/edfe6e0793f1",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-369",
+      "name": "Nabatieh government building struck — 13 security forces killed",
+      "country": "Lebanon",
+      "lat": 33.3786,
+      "lng": 35.4842,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-11",
+      "description": "Israeli strikes hit a government building in Nabatieh, killing 13 Lebanese state security forces. Bodies buried in Sidon on April 12. Part of intensified campaign after Islamabad talks collapse.",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/10/twelve-lebanese-state-security-officers-among-more-than-25-killed-in-israeli-strikes-on-nabatieh/",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-370",
+      "name": "Bint Jbeil airstrikes and artillery damage",
+      "country": "Lebanon",
+      "lat": 33.1167,
+      "lng": 35.4333,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli airstrikes and artillery shelling hit Bint Jbeil. IDF 98th Division in direct urban clashes with Hezbollah at town center. Part of 200 IDF airstrikes in 24h across southern Lebanon.",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/12/israeli-strikes-on-southern-lebanon-intensify-amid-failed-us-iran-peace-talks/",
       "severity": "critical",
       "attributedTo": "israel"
     }
