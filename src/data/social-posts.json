@@ -1,111 +1,5 @@
 [
   {
-    "id": "social-688",
-    "handle": "@Liveuamap",
-    "displayName": "Liveuamap — Conflict Tracker",
-    "text": "VP Vance has landed in Islamabad. US delegation (Vance, Witkoff, Kushner) now in place for Saturday peace talks. Iranian delegation (Ghalibaf, Araghchi, Ahmadian, Hemmati) already at Serena Hotel. Indirect format — Pakistan shuttling messages. First face-to-face US-Iran talks since 1979.",
-    "timestamp": "2026-04-11T03:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera liveblog, NBC News, Axios confirmed arrival.",
-    "keywords": [
-      "vance",
-      "islamabad",
-      "peace-talks",
-      "pakistan",
-      "day43"
-    ]
-  },
-  {
-    "id": "social-689",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — Markets",
-    "text": "WTI drops sharply to $95.50 (-3.6% on day). Brent flat at $96.69. WTI-Brent spread normalizes — WTI now BELOW Brent again (was inverted). Ceasefire calming domestic supply fears while Brent carries Hormuz risk premium. Goldman: $100+ all year if Hormuz shut another month.",
-    "timestamp": "2026-04-11T03:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trading Economics, CNBC confirmed oil prices.",
-    "keywords": [
-      "oil",
-      "wti",
-      "brent",
-      "spread",
-      "ceasefire",
-      "day43"
-    ]
-  },
-  {
-    "id": "social-690",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender — Analysis",
-    "text": "IMF warns of 'lasting economic damage' from Iran war — global growth permanently reduced. World Bank cuts Middle East growth to 1.8% (down 2.4pp). ECB warns of stagflation. S&P 500 best week since November (+3.6%). March CPI confirmed 3.3% annual — gas up 21.2% in one month.",
-    "timestamp": "2026-04-11T04:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Euronews Business, CNN, CNBC confirmed.",
-    "keywords": [
-      "imf",
-      "economy",
-      "cpi",
-      "inflation",
-      "growth",
-      "day43"
-    ]
-  },
-  {
-    "id": "social-691",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — Defense Intel",
-    "text": "Israel Finance Ministry: $17.5B war costs for 40 days on Iran + Lebanon. Up from $15B at 35 days. Knesset approved record $45.8B defense budget + $13B supplemental. Rubio organizing 3-way Israel-Lebanon-US talks in Washington for April 14.",
-    "timestamp": "2026-04-11T04:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Middle East Monitor, Breaking Defense, CBS News confirmed.",
-    "keywords": [
-      "israel",
-      "war-costs",
-      "budget",
-      "rubio",
-      "lebanon",
-      "day43"
-    ]
-  },
-  {
-    "id": "social-692",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "Araghchi criticizes Netanyahu ahead of corruption trial — says war used as delay tactic. Tells Lebanon ambassador: 'US must choose ceasefire or continued war via Israel.' Mojtaba Khamenei 40-day statement demands 'reparations' and 'new phase' for Hormuz.",
-    "timestamp": "2026-04-11T05:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "India News Network, PressTV, Al Jazeera confirmed.",
-    "keywords": [
-      "araghchi",
-      "netanyahu",
-      "ceasefire",
-      "mojtaba",
-      "hormuz",
-      "day43"
-    ]
-  },
-  {
-    "id": "social-693",
-    "handle": "@GeoConfirmed",
-    "displayName": "GeoConfirmed",
-    "text": "Hezbollah rocket hits building in Kiryat Shmona Day 43 — northern Israel under continued fire despite Iran ceasefire. IDF Chief Zamir approved continued ground ops near Bint Jbeil with 5 divisions deployed. HRW: 9 bridges over Litani destroyed.",
-    "timestamp": "2026-04-11T05:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "LiveUAMap, RTE News, HRW confirmed.",
-    "keywords": [
-      "hezbollah",
-      "kiryat-shmona",
-      "lebanon",
-      "bint-jbeil",
-      "day43"
-    ]
-  },
-  {
     "id": "social-694",
     "handle": "@TankerTrackers",
     "displayName": "TankerTrackers.com — Maritime Intel",
@@ -437,6 +331,132 @@
       "iran",
       "weapons",
       "escalation",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-713",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "BREAKING: Islamabad talks COLLAPSE after 21 hours. Vance press conference at Serena Hotel: 'We have not reached an agreement. Bad news for Iran much more than for the US.' Left 'final and best offer' on the table. Nuclear weapons commitment + Hormuz control were the sticking points. Vance departed aboard Air Force Two at 07:08 local time.",
+    "timestamp": "2026-04-12T02:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NPR, AP, CNBC, Newsweek, Al Jazeera all confirmed talks collapse and Vance departure.",
+    "keywords": [
+      "islamabad",
+      "talks-collapse",
+      "vance",
+      "no-deal",
+      "nuclear",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-714",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Aggregator",
+    "text": "Iran Foreign Ministry response: 'The ball is in America's court.' Claims agreement on 'several points' but 'two important issues' remain. Ghalibaf calls talks 'unreasonable,' cites 'deep historical distrust.' Tasnim: Iran in no rush to return to the table. This framing is very different from Vance's — expect oil to spike Monday.",
+    "timestamp": "2026-04-12T03:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "DimSumDaily, Times of Israel, Pakistan Today confirmed Iran response and Ghalibaf statement.",
+    "keywords": [
+      "iran",
+      "ghalibaf",
+      "talks-collapse",
+      "response",
+      "diplomacy",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-715",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "IRGC issues 'last warning' — 'strongly denies' any US warship transit of Hormuz. Vows 'strong response' to foreign military vessels. Meanwhile USS Murphy turned ON its AIS beacon (normally dark) — a deliberate transparency signal/challenge. This standoff is incredibly dangerous with the mine clearance underway.",
+    "timestamp": "2026-04-12T03:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Fortune, ANI, USNI News confirmed IRGC statement and AIS signal.",
+    "keywords": [
+      "irgc",
+      "hormuz",
+      "navy",
+      "mines",
+      "threat",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-716",
+    "handle": "@GeoConfirmed",
+    "displayName": "GeoConfirmed",
+    "text": "Alma Research Center: Hezbollah launched 105 attack waves on Israel April 11 — most intense day since war began. Drone struck apartment building in Shlomi. Meanwhile IDF 98th Division now in DIRECT CLASHES with Hezbollah mechanized forces at Bint Jbeil town center. This is urban warfare now.",
+    "timestamp": "2026-04-12T04:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "JPost, L'Orient Today confirmed 105 attack waves and Bint Jbeil clashes.",
+    "keywords": [
+      "hezbollah",
+      "attack-waves",
+      "bint-jbeil",
+      "shlomi",
+      "record",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-717",
+    "handle": "@OAlexanderDK",
+    "displayName": "Oliver Alexander",
+    "text": "Israel has approved an updated target list for energy/infrastructure strikes on Iran if diplomacy fails entirely. Iran counterthreats: reciprocal attacks that could 'plunge the region into darkness' — specifically naming Orot Rabin power plant (25% of Israel's electricity). Both sides escalating post-talks-collapse.",
+    "timestamp": "2026-04-12T04:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "YNet, Haaretz confirmed Israel target list. Iran threat per Iranian media outlets.",
+    "keywords": [
+      "israel",
+      "energy-strikes",
+      "iran",
+      "escalation",
+      "orot-rabin",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-718",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com — Maritime Intel",
+    "text": "Hormuz Day 41: Still ZERO oil tankers. Mine clearance continuing with USS Peterson + Murphy inside the Gulf. Navy deploying underwater drones to assist. But IRGC denying transit even happened and threatening 'strong response.' With Islamabad talks collapsed, the Hormuz situation just got much more dangerous. Goldman: $100+ Brent if shut another month.",
+    "timestamp": "2026-04-12T05:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Naval News, DefenseScoop, CENTCOM confirmed underwater drones and continued operations.",
+    "keywords": [
+      "hormuz",
+      "mines",
+      "navy",
+      "clearance",
+      "drones",
+      "day44"
+    ]
+  },
+  {
+    "id": "social-719",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Netanyahu corruption trial resumes today — court REJECTED his delay request TWICE. Justice Friedman-Feldman: insufficient justification. Pezeshkian-Macron call: Iran entered with 'determination and seriousness,' outcome depends on US approach. France welcomes ceasefire, calls for end to Lebanon attacks. Diplomacy continues on every track despite Islamabad collapse.",
+    "timestamp": "2026-04-12T05:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, Haaretz confirmed trial. Deccan Chronicle, Pravda France confirmed Pezeshkian-Macron call.",
+    "keywords": [
+      "netanyahu",
+      "trial",
+      "pezeshkian",
+      "macron",
+      "france",
       "day44"
     ]
   }
