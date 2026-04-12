@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-11T19:14:00Z",
+    "lastUpdated": "2026-04-12T00:22:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -5645,6 +5645,36 @@
       "description": "Hezbollah rocket hit a school in Deir al-Asad, northern Israel. Part of 30+ rocket barrage. No casualties reported.",
       "source": "Haaretz",
       "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-10/ty-article/hezbollah-rockets-fired-at-israel-cause-heavy-damage-idf-strikes-south-lebanon/0000019d-77fe-d4a3-a9ff-7fffc82c0000",
+      "severity": "medium",
+      "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-364",
+      "name": "Nahariya Byzantine church damaged by rockets",
+      "country": "Israel",
+      "lat": 33.0061,
+      "lng": 35.0942,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-11",
+      "description": "1,500-year-old Byzantine church in Nahariya damaged by Hezbollah rockets. Part of 30+ rocket barrage on northern Israel.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-892633",
+      "severity": "medium",
+      "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-365",
+      "name": "Shlomi apartment building damaged by rockets",
+      "country": "Israel",
+      "lat": 33.0796,
+      "lng": 35.1430,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-11",
+      "description": "Apartment building in Shlomi damaged by Hezbollah rockets/drones. Part of ongoing Hezbollah attacks on northern Israel. No injuries.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-892633",
       "severity": "medium",
       "attributedTo": "hezbollah"
     }
