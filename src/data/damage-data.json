@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-13T06:47:00Z",
+    "lastUpdated": "2026-04-13T12:02:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 369
+    "totalSites": 371
   },
   "summary": {
-    "totalSites": 369,
-    "confirmed": 304,
+    "totalSites": 371,
+    "confirmed": 306,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5796,6 +5796,36 @@
       "source": "BSSNEWS",
       "sourceUrl": "https://www.bssnews.net/international/377227",
       "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-374",
+      "name": "Kiryat Shmona kindergarten hit by Hezbollah rocket",
+      "country": "Israel",
+      "lat": 33.2087,
+      "lng": 35.5719,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-13",
+      "description": "Hezbollah rocket barrage (30+ rockets) struck Kiryat Shmona. A kindergarten was directly hit but was empty at the time. Parking lot in Safed also struck. 2 civilians lightly injured.",
+      "source": "Anadolu Agency",
+      "sourceUrl": "https://www.aa.com.tr/en/middle-east/2-injured-damage-reported-after-rocket-barrage-from-lebanon-on-northern-israel/3889063",
+      "severity": "critical",
+      "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-375",
+      "name": "Bint Jbeil Governmental Hospital raided by IDF",
+      "country": "Lebanon",
+      "lat": 33.1211,
+      "lng": 35.4347,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-13",
+      "description": "IDF 98th Division and Givati Brigade raided hospital in Bint Jbeil used by Hezbollah as fighting position. ~40 Hezbollah killed. Weapons cache seized. Hospital damaged in operation. Stadium nearby also captured.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/idf-says-it-raided-hospital-used-by-hezbollah-in-groups-bint-jbeil-stronghold/",
+      "severity": "critical",
       "attributedTo": "israel"
     }
   ]

@@ -30713,5 +30713,291 @@
       "injured": 0
     },
     "tags": ["oil", "markets", "blockade", "brent", "wti", "economy", "spr", "day45"]
+  },
+  {
+    "id": "evt-new-883",
+    "title": "Hezbollah fires 30+ rockets at northern Israel; kindergarten hit in Kiryat Shmona",
+    "description": "Hezbollah launched over 30 rockets at northern Israeli towns including Kiryat Shmona, Doviv, and Safed. A kindergarten in Kiryat Shmona was hit (empty at the time), a parking lot in Safed was struck, and 2 people were lightly injured. Hezbollah said the barrage was 'in response to Israeli violations of the ceasefire.'",
+    "type": "strike",
+    "lat": 33.2087,
+    "lng": 35.5719,
+    "location": "Kiryat Shmona, Northern Israel",
+    "timestamp": "2026-04-13T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Middle East Eye — Hezbollah fires rocket barrages at northern Israel",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-fires-rocket-barrages-northern-israel-israeli-soldiers-injured"
+      },
+      {
+        "name": "Anadolu Agency — 2 injured in rocket barrage from Lebanon",
+        "url": "https://www.aa.com.tr/en/middle-east/2-injured-damage-reported-after-rocket-barrage-from-lebanon-on-northern-israel/3889063"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": ["hezbollah", "rockets", "kiryat-shmona", "lebanon", "ceasefire-violation", "day45"]
+  },
+  {
+    "id": "evt-new-884",
+    "title": "IDF nears full control of Bint Jbeil; hospital raided, 100+ Hezbollah killed",
+    "description": "IDF announced it expects full operational control of Bint Jbeil within days. 98th Division (Paratroopers and Commando brigades) and Givati Infantry Brigade raided a hospital where ~20 Hezbollah fighters were barricaded with weapons. ~20 more Hezbollah killed in the vicinity. IDF captured the ruined stadium where Nasrallah gave his 2000 victory speech. Over 100 Hezbollah fighters killed in the Bint Jbeil operation. Lebanese Health Ministry disputes casualty claims.",
+    "type": "movement",
+    "lat": 33.1211,
+    "lng": 35.4347,
+    "location": "Bint Jbeil, Southern Lebanon",
+    "timestamp": "2026-04-13T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF raided hospital used by Hezbollah in Bint Jbeil",
+        "url": "https://www.timesofisrael.com/idf-says-it-raided-hospital-used-by-hezbollah-in-groups-bint-jbeil-stronghold/"
+      },
+      {
+        "name": "JPost — IDF: Within a few days, there won't be major fights left in Lebanon",
+        "url": "https://www.jpost.com/middle-east/article-892814"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 100,
+      "injured": 0
+    },
+    "tags": ["idf", "bint-jbeil", "hezbollah", "hospital", "silver-plow", "lebanon", "day45"]
+  },
+  {
+    "id": "evt-new-885",
+    "title": "Israel-Lebanon peace talks set for Tuesday in Washington — first direct engagement",
+    "description": "Historic direct talks between Israel and Lebanon scheduled to open Tuesday April 15 at the Department of State in Washington, with the US serving as mediator. Israeli Ambassador Yechiel Leiter and Lebanese Ambassador will lead their respective delegations. Late-night Friday discussions between ambassadors finalized arrangements. This marks the first direct diplomatic engagement between the two countries during the conflict.",
+    "type": "diplomatic",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "location": "Washington, D.C., United States",
+    "timestamp": "2026-04-13T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Haaretz — Historic Israel-Lebanon talks set for Washington",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-12/ty-article/.premium/israel-and-lebanon-set-for-u-s-talks-hopes-for-peace-remain-low-sources-say/0000019d-7e55-da4e-a5df-7e5f9b0c0000"
+      },
+      {
+        "name": "Al Jazeera — Who is Yechiel Leiter, Israel's US envoy leading talks with Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/4/13/who-is-israels-us-envoy-leading-negotiations-with-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["diplomacy", "israel", "lebanon", "washington", "talks", "day45"]
+  },
+  {
+    "id": "evt-new-886",
+    "title": "Trump Fox News interview: reveals 5-point nuclear demands, 'all or nothing' blockade",
+    "description": "Trump appeared on Fox News 'Sunday Morning Futures' and outlined nonnegotiable demands for Iran: (1) Dismantle major nuclear enrichment facilities, (2) Retrieve 400+ kg highly enriched uranium buried underground, (3) Accept broader peace/security framework, (4) End funding for Hamas/Hezbollah/Houthis, (5) Fully open Strait of Hormuz with no tolls. Said 'I predict they come back and they give us everything we want. They have no cards.' Confirmed minesweepers being sent to Hormuz.",
+    "type": "diplomatic",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "location": "Miami, FL / Washington, D.C.",
+    "timestamp": "2026-04-13T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Fox News — Trump details sweeping 'all or nothing' blockade of Hormuz",
+        "url": "https://www.foxnews.com/media/trump-details-sweeping-all-nothing-us-blockade-strait-hormuz-after-failed-iran-talks"
+      },
+      {
+        "name": "NBC News — Live updates: US to launch blockade of Iran's ports",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-blockade-iran-ports-trump-hormuz-peace-talks-ceasefire-rcna331473"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "nuclear", "demands", "blockade", "fox-news", "diplomacy", "day45"]
+  },
+  {
+    "id": "evt-new-887",
+    "title": "Pope Leo XIV responds to Trump: 'no fear of Trump administration'",
+    "description": "After Trump attacked Pope Leo XIV as 'WEAK on Crime' and 'terrible for Foreign Policy' on Truth Social, the Pope responded that he has 'no fear of Trump administration' and that the Vatican's appeals for peace are 'rooted in the Gospel.' The Pope had presided over a peace vigil at St. Peter's Basilica on April 11, denouncing the 'delusion of omnipotence' fueling the war and criticizing Trump's threat to destroy Iranian civilization as 'truly unacceptable.'",
+    "type": "diplomatic",
+    "lat": 41.9029,
+    "lng": 12.4534,
+    "location": "Vatican City",
+    "timestamp": "2026-04-13T10:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "NPR — Trump and Pope Leo clash over Iran war",
+        "url": "https://www.npr.org/2026/04/13/nx-s1-5783008/trump-pope-leo"
+      },
+      {
+        "name": "CNN — Pope Leo responds to Trump criticism",
+        "url": "https://www.cnn.com/2026/04/12/politics/trump-pope-leo-criticism-hnk-intl"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["pope-leo", "trump", "vatican", "diplomacy", "peace", "day45"]
+  },
+  {
+    "id": "evt-new-888",
+    "title": "Iran navy chief dismisses US blockade as 'ridiculous and funny'; army calls it 'piracy'",
+    "description": "Iran's navy chief Shahram Irani called Trump's Hormuz blockade threat 'ridiculous and funny.' Iran's armed forces issued a formal statement calling the blockade 'illegal' and 'amounts to piracy,' warning that 'if the security of Iran's ports in the waters of the Persian Gulf and the Arabian Sea is threatened, no port in the Persian Gulf and the Arabian Sea will be safe.'",
+    "type": "naval",
+    "lat": 27.1832,
+    "lng": 56.2764,
+    "location": "Tehran / Strait of Hormuz",
+    "timestamp": "2026-04-13T08:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran's army says US plan to blockade Hormuz 'amounts to piracy'",
+        "url": "https://www.aljazeera.com/news/2026/4/13/irans-army-says-us-plans-to-blockade-hormuz-amounts-to-piracy"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "navy", "blockade", "hormuz", "piracy", "day45"]
+  },
+  {
+    "id": "evt-new-889",
+    "title": "Germany announces fuel tax cut as Iran war energy shock hits European households",
+    "description": "German Chancellor Friedrich Merz announced Germany will slash fuel taxes as households struggle with the energy shock from the Iran war. Oil prices had surged past EUR 2/litre for both petrol and diesel. Germany's 2026 growth forecast already cut from 1.3% to 0.6% due to the conflict.",
+    "type": "infrastructure",
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "location": "Berlin, Germany",
+    "timestamp": "2026-04-13T09:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Free Malaysia Today — Germany to cut fuel taxes amid Iran war energy shock",
+        "url": "https://www.freemalaysiatoday.com/category/business/2026/04/13/germany-to-cut-fuel-taxes-amid-iran-war-energy-shock"
+      },
+      {
+        "name": "Clean Energy Wire — Energy price shock dampens Germany's recovery",
+        "url": "https://www.cleanenergywire.org/news/energy-price-shock-iran-war-dampens-germanys-economic-recovery-economists"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["germany", "fuel-tax", "energy", "economy", "europe", "day45"]
+  },
+  {
+    "id": "evt-new-890",
+    "title": "Iran's Lavan refinery to regain 80% capacity within 1-2 months after war damage",
+    "description": "Iranian Deputy Oil Minister announced the war-damaged Lavan refinery will regain 80% capacity within 1-2 months. The refinery was struck on April 8. Iran claims the attack was attributed to UAE Air Force Mirage-2000-9, though IDF denied involvement.",
+    "type": "infrastructure",
+    "lat": 26.8061,
+    "lng": 53.3564,
+    "location": "Lavan Island, Iran",
+    "timestamp": "2026-04-12T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CGTN — Iran's Lavan refinery to regain 80% capacity within two months",
+        "url": "https://news.cgtn.com/news/2026-04-12/Iran-s-Lavan-refinery-to-restore-80-capacity-within-two-months-1MhX7oRqIQU/p.html"
+      },
+      {
+        "name": "Hydrocarbonprocessing — Iranian Oil Refining confirms attack on Lavan refinery",
+        "url": "https://www.hydrocarbonprocessing.com/news/2026/04/iranian-oil-refining-co-confirms-attack-on-lavan-refinery/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "lavan", "refinery", "infrastructure", "recovery", "day45"]
+  },
+  {
+    "id": "evt-new-891",
+    "title": "New Mossad chief Roman Gofman approved despite controversy; takes office June 2",
+    "description": "Netanyahu's office formally appointed Roman Gofman (Netanyahu's military secretary) as next Mossad director, approved by advisory committee 3-1. He will take office June 2, 2026. The appointment was controversial — integrity concerns raised during the approval process.",
+    "type": "diplomatic",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Tel Aviv, Israel",
+    "timestamp": "2026-04-13T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Roman Gofman approved as next Mossad chief",
+        "url": "https://www.timesofisrael.com/netanyahus-military-secretary-roman-gofman-approved-to-serve-as-next-mossad-chief/"
+      },
+      {
+        "name": "Haaretz — Netanyahu pick for Mossad chief approved despite controversy",
+        "url": "https://www.haaretz.com/israel-news/israel-politics/2026-04-12/ty-article/.premium/netanyahu-pick-for-mossad-chief-approved-despite-lying-in-idf-probe/0000019d-82f4-db8f-addd-c3fec0880000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "mossad", "gofman", "netanyahu", "intelligence", "day45"]
+  },
+  {
+    "id": "evt-new-892",
+    "title": "France and UK announce rival Hormuz conference for 'peaceful multinational mission'",
+    "description": "French President Macron confirmed France and UK will organize a conference 'in the coming days' for countries willing to contribute to a 'strictly defensive, peaceful multinational mission' to restore free transit through the Strait of Hormuz. The initiative is described as 'separate from the warring parties' — a clear alternative to Trump's unilateral blockade approach. UK PM Starmer explicitly stated the UK will not join Trump's blockade.",
+    "type": "naval",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "location": "Paris, France / London, UK",
+    "timestamp": "2026-04-13T11:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Bloomberg — France, UK to host conference on restoring Strait of Hormuz transit",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-13/france-uk-plan-conference-in-coming-days-on-hormuz-transit"
+      },
+      {
+        "name": "Al Jazeera — Starmer says UK will not support US blockade of Strait of Hormuz",
+        "url": "https://www.aljazeera.com/news/2026/4/13/starmer-says-uk-will-not-support-us-blockade-of-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["france", "uk", "hormuz", "conference", "blockade", "diplomacy", "day45"]
   }
 ]
