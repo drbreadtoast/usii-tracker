@@ -30183,5 +30183,349 @@
       "injured": 0
     },
     "tags": ["iran", "russia", "putin", "pezeshkian", "diplomacy", "mediation", "day44"]
+  },
+  {
+    "id": "evt-new-865",
+    "title": "CENTCOM blockade of Iranian ports officially begins at 10:00 AM ET",
+    "description": "US Central Command began enforcing a blockade of ALL maritime traffic entering and exiting Iranian ports at 10:00 AM ET on April 13, using USS Gerald R. Ford and USS Abraham Lincoln carrier strike groups (each with 3 guided-missile destroyers). CENTCOM stated the blockade will NOT impede freedom of navigation for vessels transiting Hormuz to non-Iranian ports. The blockade applies 'impartially against vessels of all nations' at Iranian ports.",
+    "type": "naval",
+    "lat": 26.5667,
+    "lng": 56.2500,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-13T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Stars and Stripes — US forces will begin blockade of Iranian ports on Monday",
+        "url": "https://www.stripes.com/theaters/middle_east/2026-04-12/central-command-iranian-ports-blockade-21356315.html"
+      },
+      {
+        "name": "Naval News — US to Blockade Ships Entering or Exiting Iranian Ports",
+        "url": "https://www.navalnews.com/naval-news/2026/04/u-s-to-blockade-ships-entering-or-exiting-iranian-ports/"
+      },
+      {
+        "name": "Al-Monitor — US military blockade of all ships going to and from Iran",
+        "url": "https://www.al-monitor.com/originals/2026/04/us-military-says-it-will-start-blockade-all-ships-going-and-iran-monday"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "iran", "hormuz", "blockade", "naval", "centcom", "day45"]
+  },
+  {
+    "id": "evt-new-866",
+    "title": "IDF 98th Division storms Bint Jbeil — hospital raid kills ~40 Hezbollah fighters",
+    "description": "IDF's 98th Paratrooper Division entered eastern districts of Bint Jbeil alongside Golani Brigade, confronting Hezbollah Radwan units. Israeli army cut off ALL main roads to the city. Givati Brigade raided Bint Jbeil Governmental Hospital where Hezbollah operatives were firing from windows — killed ~20 gunmen inside the hospital and ~20 more in the vicinity. Weapons cache seized. IDF used airstrikes, artillery, and white phosphorus.",
+    "type": "strike",
+    "lat": 33.1208,
+    "lng": 35.4364,
+    "location": "Bint Jbeil, Lebanon",
+    "timestamp": "2026-04-12T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF raided hospital used by Hezbollah in Bint Jbeil stronghold",
+        "url": "https://www.timesofisrael.com/idf-says-it-raided-hospital-used-by-hezbollah-in-groups-bint-jbeil-stronghold/"
+      },
+      {
+        "name": "Jerusalem Post — IDF finds Hezbollah weapons cache in Bint Jbeil hospital",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-892722"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 40,
+      "injured": 0
+    },
+    "tags": ["israel", "hezbollah", "lebanon", "bint-jbeil", "hospital", "strike", "day44"]
+  },
+  {
+    "id": "evt-new-867",
+    "title": "Israeli drone strike kills Red Cross paramedic in Beit Yahoun, Lebanon",
+    "description": "Israeli drone struck a Lebanese Red Cross ambulance in Beit Yahoun, southern Lebanon. Paramedic Hassan Badawi was killed and another emergency worker wounded. Red Cross said workers were clearly marked and coordinated with UNIFIL. Lebanese ministry condemned the strike as a violation of international humanitarian law.",
+    "type": "strike",
+    "lat": 33.1550,
+    "lng": 35.4300,
+    "location": "Beit Yahoun, Lebanon",
+    "timestamp": "2026-04-12T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Turkiye Today — Israeli drone strike kills Red Cross paramedic in Lebanon",
+        "url": "https://www.turkiyetoday.com/region/israeli-tank-rams-un-vehicles-as-drone-strike-kills-red-cross-paramedic-in-lebanon-3217967"
+      },
+      {
+        "name": "Qatar News Agency — Medic Killed as Israeli Strike Hits Ambulance",
+        "url": "https://qna.org.qa/en/news/news-details?id=medic-killed-another-injured-as-israeli-strike-hits-ambulance-in-southern-lebanon&date=12/04/2026"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    },
+    "tags": ["israel", "lebanon", "red-cross", "humanitarian", "drone", "strike", "day44"]
+  },
+  {
+    "id": "evt-new-868",
+    "title": "UNIFIL: Israeli tank rams UN peacekeeper vehicles twice near Bayada",
+    "description": "UNIFIL reported that an IDF tank rammed UN vehicles twice near Bayada, southern Lebanon. Soldiers blocked roads, fired warning shots near UNIFIL positions, and damaged vehicles. IDF also spray-painted windows at UNIFIL headquarters to deny visibility. UNIFIL stated the actions are 'inconsistent with obligations under UNSCR 1701.'",
+    "type": "movement",
+    "lat": 33.1800,
+    "lng": 35.2000,
+    "location": "Bayada, Lebanon",
+    "timestamp": "2026-04-12T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Middle East Eye — UN says Israeli tank rammed peacekeeper vehicles in south Lebanon",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-says-israeli-tank-rammed-peacekeeper-vehicles-south-lebanon"
+      },
+      {
+        "name": "Arab News — UN force in Lebanon says Israeli tank rammed its vehicles",
+        "url": "https://www.arabnews.pk/node/2639673/middle-east"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "unifil", "un", "lebanon", "movement", "day44"]
+  },
+  {
+    "id": "evt-new-869",
+    "title": "Israeli airstrike on Qana kills 5 including 3 women, wounds 25",
+    "description": "Israeli airstrike on the southern Lebanese town of Qana killed 5 people including 3 women and wounded 25 others. Strike targeted homes and infrastructure in the town, which has been a flashpoint in past conflicts.",
+    "type": "strike",
+    "lat": 33.2087,
+    "lng": 35.2962,
+    "location": "Qana, Lebanon",
+    "timestamp": "2026-04-12T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "BSSNEWS — Lebanon says at least five dead as Israel pounds country's south",
+        "url": "https://www.bssnews.net/international/377227"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 25
+    },
+    "tags": ["israel", "lebanon", "qana", "strike", "civilian", "day44"]
+  },
+  {
+    "id": "evt-new-870",
+    "title": "3 supertankers exit Hormuz — then 2 tankers U-turn as talks collapse",
+    "description": "Three VLCCs (Serifos, Cospearl Lake, He Rong Hai) exited the Strait of Hormuz on April 12 carrying ~6 million barrels — the biggest oil exit since the war began. However, two other tankers (Agios Fanourios I and Shalamar) made last-minute U-turns as the Islamabad peace talks collapsed. ~2,800 ships remain stranded, with 10 crew dead and ~20,000 seafarers stuck.",
+    "type": "naval",
+    "lat": 26.5667,
+    "lng": 56.2500,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-12T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Oil tankers exit Strait of Hormuz amid fragile US-Iran ceasefire",
+        "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire"
+      },
+      {
+        "name": "Kurdistan24 — 2,800 Ships Stranded, 10 Crew Dead, and Now a US Blockade",
+        "url": "https://www.kurdistan24.net/en/story/907491/the-strait-of-hormuz-crisis-deepens-2-800-ships-stranded-10-crew-dead-and-now-a-us-blockade"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "shipping", "oil", "tankers", "naval", "day44"]
+  },
+  {
+    "id": "evt-new-871",
+    "title": "Iran forensic agency announces 3,375 dead identified from US-Israeli strikes",
+    "description": "Iran's Legal Medicine Organization head Abbas Masjedi Arani announced 3,375 people killed in US-Israeli airstrikes have been forensically identified (Feb 28 to April 7). Breakdown: 2,875 men, 496 women. Some foreigners from Afghanistan, Syria, Pakistan, China, Iraq, and Lebanon among the dead.",
+    "type": "humanitarian",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-12T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Middle East Monitor — Iran says 3,375 killed in US-Israeli attacks identified",
+        "url": "https://www.middleeastmonitor.com/20260412-iran-says-it-identified-3375-people-killed-in-us-israeli-attacks"
+      },
+      {
+        "name": "Turkiye Today — Iran says 3,375 killed identified through forensic methods",
+        "url": "https://www.turkiyetoday.com/region/iran-says-3375-killed-in-us-israeli-strikes-identified-through-forensic-methods-3217953"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "casualties", "forensic", "humanitarian", "day44"]
+  },
+  {
+    "id": "evt-new-872",
+    "title": "Netanyahu visits IDF troops in Lebanon — names operation 'Silver Plow'",
+    "description": "PM Netanyahu and Defense Minister Katz visited IDF troops in southern Lebanon with IDF Chief of Staff Zamir and Northern Command chief Milo. Netanyahu declared 'The war continues. Our enemies are now fighting for survival.' Katz officially named the Lebanese operation 'Operation Silver Plow' aimed at disarming Hezbollah and pushing them north of the Litani River.",
+    "type": "movement",
+    "lat": 33.2778,
+    "lng": 35.4444,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-12T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Netanyahu, Katz visit IDF troops in southern Lebanon",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-892747"
+      },
+      {
+        "name": "VIN News — Netanyahu Visits IDF Troops in Southern Lebanon",
+        "url": "https://vinnews.com/2026/04/12/netanyahu-visits-idf-troops-in-southern-lebanon-says-security-zone-thwarted-invasion-threat/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "netanyahu", "lebanon", "operation-silver-plow", "movement", "day44"]
+  },
+  {
+    "id": "evt-new-873",
+    "title": "Oil prices surge above $100 — WTI +9.5%, Brent +7.4% on US blockade",
+    "description": "Oil prices surged sharply on Monday April 13 after Trump announced a US naval blockade of the Strait of Hormuz. Brent crude jumped to ~$102.29/bbl (+7.4%), WTI surged to ~$104.56/bbl (+9.5%). Goldman Sachs $100+ call vindicated. JPMorgan $150 mid-May target in play. Wholesale gas futures surged 6%, European gas futures +18%.",
+    "type": "infrastructure",
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "location": "Global markets",
+    "timestamp": "2026-04-13T13:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC — Oil prices surge above $100 as US Navy to blockade Iran's ports",
+        "url": "https://www.cnbc.com/2026/04/12/oil-prices-iran-war-strait-hormuz-blockade.html"
+      },
+      {
+        "name": "Axios — Oil prices surge on Trump blockade vow",
+        "url": "https://www.axios.com/2026/04/12/oil-prices-surge-trump-iran-blockade"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["oil", "economy", "blockade", "markets", "infrastructure", "day45"]
+  },
+  {
+    "id": "evt-new-874",
+    "title": "Rubio clashes with CBS on Iran nuclear — dismisses DNI Gabbard intel as 'irrelevant'",
+    "description": "Secretary of State Rubio clashed with CBS host Margaret Brennan on Face the Nation over Iran's nuclear program. Rubio dismissed DNI Gabbard's testimony that Iran hadn't ordered nuclear weapon construction as 'irrelevant,' saying Iran has everything needed to build a weapon. Justified the blockade and war continuation on nuclear threat basis.",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington, DC",
+    "timestamp": "2026-04-12T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Fox News — Rubio clashes with CBS host over Iranian nuclear ambitions",
+        "url": "https://www.foxnews.com/media/secretary-state-marco-rubio-clashes-cbs-host-over-iranian-nuclear-ambitions"
+      },
+      {
+        "name": "CBS — Full transcript of Face the Nation, April 12, 2026",
+        "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-04-12-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "rubio", "nuclear", "iran", "diplomatic", "day44"]
+  },
+  {
+    "id": "evt-new-875",
+    "title": "Intel leak: Iran still holds 1,000+ missiles despite Pentagon 'depleted' claims",
+    "description": "US intelligence assessments leaked to media contradict Defense Secretary Hegseth's claims that Iran was 'depleted and decimated.' Iran still holds over 1,000 medium-range missiles from a pre-war stockpile of ~2,500. More than half of Iran's missile launchers damaged/destroyed/trapped underground, but a significant portion remain recoverable.",
+    "type": "cyber",
+    "lat": 38.8719,
+    "lng": -77.0563,
+    "location": "Pentagon, Washington DC",
+    "timestamp": "2026-04-12T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Daily Beast — Damning Intel Leak Blows Up Pentagon Pete's 'Depleted and Decimated' Claim",
+        "url": "https://www.thedailybeast.com/damning-intel-leak-blows-up-pentagon-petes-depleted-and-decimated-claim/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "hegseth", "intelligence", "iran", "missiles", "cyber", "day44"]
+  },
+  {
+    "id": "evt-new-876",
+    "title": "Israel-Lebanon direct talks scheduled for April 15 at US State Department",
+    "description": "First in-person Israel-Lebanon ceasefire talks set for Tuesday April 15 at the US State Department, led by US Ambassador to Lebanon Michel Issa. Israel demands dismantling of Hezbollah's weapons and a lasting peace agreement. However, Israel rejects discussing ceasefire with Hezbollah during the talks.",
+    "type": "diplomatic",
+    "lat": 38.8951,
+    "lng": -77.0486,
+    "location": "Washington, DC",
+    "timestamp": "2026-04-12T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Direct Israel-Lebanon talks set for Tuesday in DC",
+        "url": "https://www.timesofisrael.com/direct-israel-lebanon-talks-set-for-tuesday-in-dc-us-said-pressing-israel-for-ceasefire/"
+      },
+      {
+        "name": "Al Jazeera — Israel rejects ceasefire with Hezbollah before Lebanon talks",
+        "url": "https://www.aljazeera.com/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "diplomacy", "ceasefire", "hezbollah", "us", "day44"]
   }
 ]

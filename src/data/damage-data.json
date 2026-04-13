@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-12T20:08:00Z",
+    "lastUpdated": "2026-04-13T00:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 366
+    "totalSites": 369
   },
   "summary": {
-    "totalSites": 366,
-    "confirmed": 301,
+    "totalSites": 369,
+    "confirmed": 304,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5751,6 +5751,51 @@
       "source": "The National",
       "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/12/israeli-strikes-on-southern-lebanon-intensify-amid-failed-us-iran-peace-talks/",
       "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-371",
+      "name": "Bint Jbeil Governmental Hospital raided by IDF — weapons cache seized",
+      "country": "Lebanon",
+      "lat": 33.1208,
+      "lng": 35.4364,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Givati Brigade (under 98th Division) raided Bint Jbeil Governmental Hospital. ~20 Hezbollah gunmen killed inside, ~20 more in vicinity. Weapons cache seized. Hospital extensively damaged during military operation.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/idf-says-it-raided-hospital-used-by-hezbollah-in-groups-bint-jbeil-stronghold/",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-372",
+      "name": "Red Cross ambulance struck by Israeli drone — Beit Yahoun",
+      "country": "Lebanon",
+      "lat": 33.1550,
+      "lng": 35.4300,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli drone struck Lebanese Red Cross ambulance in Beit Yahoun. Paramedic Hassan Badawi killed, another wounded. Red Cross workers were clearly marked and coordinated with UNIFIL.",
+      "source": "Turkiye Today",
+      "sourceUrl": "https://www.turkiyetoday.com/region/israeli-tank-rams-un-vehicles-as-drone-strike-kills-red-cross-paramedic-in-lebanon-3217967",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-373",
+      "name": "Qana homes and infrastructure struck — 5 killed",
+      "country": "Lebanon",
+      "lat": 33.2087,
+      "lng": 35.2962,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli airstrike on Qana killed 5 (including 3 women) and wounded 25. Strike targeted homes and infrastructure in the town.",
+      "source": "BSSNEWS",
+      "sourceUrl": "https://www.bssnews.net/international/377227",
+      "severity": "high",
       "attributedTo": "israel"
     }
   ]
