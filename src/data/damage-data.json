@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-13T12:02:00Z",
+    "lastUpdated": "2026-04-13T19:24:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 371
+    "totalSites": 373
   },
   "summary": {
-    "totalSites": 371,
+    "totalSites": 373,
     "confirmed": 306,
     "reported": 1,
     "rumored": 0,
@@ -5826,6 +5826,36 @@
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/idf-says-it-raided-hospital-used-by-hezbollah-in-groups-bint-jbeil-stronghold/",
       "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-376",
+      "name": "Nahariya residential building hit by Hezbollah rocket",
+      "country": "Israel",
+      "lat": 33.0042,
+      "lng": 35.0928,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-13",
+      "description": "Hezbollah rocket struck residential building in Nahariya after 6 of 7 rockets intercepted by Iron Dome. ~60-year-old woman lightly wounded with missile and glass fragments.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "http://www.jpost.com/israel-news/article-892857",
+      "severity": "moderate",
+      "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-377",
+      "name": "ICRC center area in Tyre damaged by Israeli strike",
+      "country": "Lebanon",
+      "lat": 33.2705,
+      "lng": 35.2038,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-13",
+      "description": "Israeli strike near ICRC center in Tyre killed 1 person being transported for medical treatment. Red Cross vehicles damaged. Red Cross called strikes 'gravely concerning.'",
+      "source": "Al-Monitor",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/04/red-cross-calls-consecutive-strikes-lebanon-gravely-concerning",
+      "severity": "high",
       "attributedTo": "israel"
     }
   ]

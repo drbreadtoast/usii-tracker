@@ -7895,5 +7895,59 @@
       "killed": 100,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-470",
+    "city": "Nahariya, Israel",
+    "country": "Israel",
+    "lat": 33.0042,
+    "lng": 35.0928,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-13",
+    "description": "Hezbollah launched 7 rockets at Nahariya. 6 intercepted by Iron Dome. 1 struck residential building, wounding a ~60-year-old woman with missile and glass fragments.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "http://www.jpost.com/israel-news/article-892857",
+    "weaponType": "rockets",
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-471",
+    "city": "Ma'roub, Tyre District, Lebanon",
+    "country": "Lebanon",
+    "lat": 33.2706,
+    "lng": 35.1965,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-13",
+    "description": "Israeli airstrike on Ma'roub in Tyre district killed at least 4 people and injured 3. Part of 30+ Israeli strikes across southern Lebanon on April 13.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/13/at-least-six-killed-in-israeli-strikes-in-southern-lebanon",
+    "weaponType": "air-to-ground munitions",
+    "casualties": {
+      "killed": 4,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-472",
+    "city": "Tyre (ICRC area), Lebanon",
+    "country": "Lebanon",
+    "lat": 33.2705,
+    "lng": 35.2038,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-13",
+    "description": "Israeli strike near ICRC center in Tyre killed 1 person being transported for medical treatment. Red Cross vehicles damaged. Israel said it targeted a 'Hezbollah terrorist' and was investigating damage to Red Cross center.",
+    "source": "Al-Monitor",
+    "sourceUrl": "https://www.al-monitor.com/originals/2026/04/red-cross-calls-consecutive-strikes-lebanon-gravely-concerning",
+    "weaponType": "air-to-ground munitions",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T12:02:00Z",
+  "lastUpdated": "2026-04-13T19:24:00Z",
   "currentAverage": 4.125,
   "preWarAverage": 3.14,
   "changePercent": 31.4,
@@ -448,22 +448,22 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 8)",
-      "crudePerBarrel": 109,
+      "label": "Current (Apr 13)",
+      "crudePerBarrel": 104.88,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$109 ÷ 42 gal",
-          "value": 2.6,
-          "percent": 61,
-          "change": "+$0.976"
+          "formula": "$104.88 ÷ 42 gal",
+          "value": 2.50,
+          "percent": 60,
+          "change": "+$0.876"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.65,
-          "percent": 15,
-          "change": "+$0.25"
+          "value": 0.671,
+          "percent": 16,
+          "change": "+$0.271"
         },
         {
           "name": "Distribution & Marketing",
@@ -495,7 +495,7 @@
         }
       ],
       "total": 4.125,
-      "note": "National average $4.125/gal (AAA April 13). Brent $102.51 (+28.5%), WTI $104.82 (+38.8%). CENTCOM blockade of Iranian ports begins Monday April 14 10am ET. RBOB wholesale gas $3.173 (+4.5%). Retail spike expected within days. BCA Research 'oil cliff' warning April 19. CPI 3.3%. Diesel $5.643.",
+      "note": "National average $4.125/gal (AAA April 13). Brent $102.80 (+28.8%), WTI $104.88 (+38.9%). CENTCOM blockade of ALL Iranian ports NOW IN EFFECT as of 10am ET. Iran 'maximum combat alert.' RBOB wholesale gas $3.173 (+4.4%). Retail spike to $4.25-$4.40 expected within days. BCA 'oil cliff' April 19. CPI 3.3%. Diesel $5.643.",
       "crude": 2.37,
       "taxes": 0.86,
       "refining": 0.52,
@@ -507,5 +507,5 @@
       "date": "2026-04-12"
     }
   },
-  "context": "Day 45 PM (Ceasefire Day 6): Gas $4.125/gal (AAA — retail lag, spike expected). Brent $102.51 (+28.5%), WTI $104.82 (+38.8%). CENTCOM blockade of Iranian ports starts Monday April 14 10am ET. Brent +7.3%, WTI +8.5% from Friday. RBOB wholesale gas $3.173 (+4.5%). BCA Research 'oil cliff' warning: SPR + sanctions exemptions expire ~April 19. Goldman $100+ vindicated. JPMorgan $150 mid-May target. DOE 30M barrel SPR exchange bids due today. Dow futures -517, S&P -1.1%, Nasdaq -1.2%. CPI 3.3% (gas +21.2% MoM). Diesel $5.643. EIA peak forecast: $4.30/gal monthly avg April."
+  "context": "Day 45 PM (Ceasefire Day 6): Gas $4.125/gal (AAA — retail lag, spike to $4.25-$4.40 expected within days). Brent $102.80 (+28.8%), WTI $104.88 (+38.9%). US NAVAL BLOCKADE NOW IN EFFECT as of 10am ET. Iran 'maximum combat alert.' 2 tankers reversed course. RBOB wholesale gas $3.173 (+4.4%). BCA 'oil cliff' warning April 19 — OFAC General License U expires. Goldman $100+ vindicated. JPMorgan $150 mid-May target. DOE 30M barrel SPR exchange bids due today. Dow -242 (-0.56%), S&P -0.11%, Nasdaq +0.35%. CPI 3.3% (gas +21.2% MoM). Diesel $5.643. Consumer sentiment 47.6 (all-time low). EIA peak: $4.30/gal avg April."
 }
