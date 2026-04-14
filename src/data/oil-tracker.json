@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-14T06:15:00Z",
+    "lastUpdated": "2026-04-14T18:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-14",
-      "label": "Day 46 AM — OIL PULLS BACK FROM BLOCKADE HIGHS. Brent $98.05 (+22.9%), WTI $96.57 (+27.9%). Prices pulled back from April 13 close ($101.82/$98.00) as Trump signals Iran 'wants to work a deal.' CENTCOM blockade of ALL Iranian ports now in effect (14:00 GMT). Chinese tanker Rich Starry tests blockade. Ostria reversed course. Physical crude in Europe near $150/bbl. OPEC March: production plunged 27% (historic). Gas $4.125 steady. SPR 53.7M bbl total released.",
+      "label": "Day 46 PM — OIL EASES ON DEAL HOPES. Brent $98.13 (+23.0%), WTI $97.34 (+28.9%). Prices ease from April 13 close ($101.82/$98.00) as Trump says Iran 'wants deal badly' — Round 2 talks possible Thursday. Blockade Day 1: 'cautious waiting game' — 14 ships tracked, shadow fleet evading. TRIMMU 3 diverted, OSTRIA went dark. IEA 'ready to act' on further SPR releases. US loaned 8.48M bbl from SPR April 12. Gas $4.12 steady. Gold $4,760/oz.",
       "brent": {
-        "price": 98.05,
-        "change": "+22.9%",
-        "changeDollars": 18.25
+        "price": 98.13,
+        "change": "+23.0%",
+        "changeDollars": 18.33
       },
       "wti": {
-        "price": 96.57,
-        "change": "+27.9%",
-        "changeDollars": 21.07
+        "price": 97.34,
+        "change": "+28.9%",
+        "changeDollars": 21.84
       },
-      "changePercent": "+22.9%",
+      "changePercent": "+23.0%",
       "lastUpdated": "2026-04-14"
     },
     "priceHistory": [
@@ -544,7 +544,7 @@
   ],
   "hormuzImpact": {
     "status": "effectively_closed",
-    "blockadeDayCount": 21,
+    "blockadeDayCount": 43,
     "blockadeStartDate": "2026-03-03",
     "barrelsBlockedDaily": 21000000,
     "breakdownBlocked": {
@@ -597,8 +597,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-14T06:15:00Z",
-    "note": "Day 46 AM CEASEFIRE DAY 7: CENTCOM blockade IN EFFECT 14:00 GMT. AAA avg $4.125/gal (+31.4%). Brent $98.05 (+22.9%), WTI $96.57 (+27.9%) — pulled back from April 13 highs. Chinese tanker Rich Starry tests blockade. OPEC March production plunged 27%. SPR 53.7M bbl total. S&P 500 erased all war losses.",
+    "lastUpdated": "2026-04-14T18:00:00Z",
+    "note": "Day 46 PM CEASEFIRE DAY 7: Blockade Day 1. AAA avg $4.12/gal (+31.2%). Brent $98.13 (+23.0%), WTI $97.34 (+28.9%). Oil easing on deal hopes — Trump says Iran 'wants deal badly.' IEA 'ready to act.' US loaned 8.48M bbl SPR April 12. OPEC production collapse: Saudi -23%, Iraq -61%.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -608,14 +608,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.125,
-          "change": "+31.4%",
+          "price": 4.12,
+          "change": "+31.2%",
           "changeDollars": "+$0.98",
-          "date": "2026-04-12"
+          "date": "2026-04-14"
         },
         "change": "+$0.98",
-        "changePercent": "+31.4%",
-        "detail": "Gas $4.125/gal (AAA, Day 45). Brent $102.29 (+28.2%), WTI $104.56 (+38.5%). Hormuz Day 42 + CENTCOM blockade begins. Pre-war $3.14. California $5.92. Diesel $5.643. Wholesale gas futures +6% on blockade. Retail spike expected within days.",
+        "changePercent": "+31.2%",
+        "detail": "Gas $4.12/gal (AAA $4.118, GasBuddy $4.07 — Day 46 PM). Brent $98.13 (+23.0%), WTI $97.34 (+28.9%). Blockade Day 1 — 'cautious waiting game.' Pre-war $3.14. California $5.89. Diesel $5.63.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -693,11 +693,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.125,
-    "gasPriceRegular": 4.125,
-    "gasPriceDiesel": "$5.643/gal",
+    "regularGasoline": 4.12,
+    "gasPriceRegular": 4.12,
+    "gasPriceDiesel": "$5.63/gal",
     "changeFromPreWar": "+$0.98",
-    "changePercent": "+31.4%"
+    "changePercent": "+31.2%"
   },
   "keyFacts": [
     {

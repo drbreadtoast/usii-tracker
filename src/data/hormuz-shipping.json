@@ -4,7 +4,7 @@
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-14T06:15:00Z",
+  "lastUpdated": "2026-04-14T18:00:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -27,7 +27,7 @@
     "tankerTraffic": "Day 46 AM: CENTCOM blockade of ALL Iranian ports NOW IN EFFECT as of 14:00 GMT April 14. USS Abraham Lincoln + 11 destroyers enforcing. Chinese tanker Rich Starry (~250K bbl methanol from UAE) first vessel to TEST blockade. Ostria (Botswana-flagged) reversed course 41 min after deadline. Trump: ships 'will be immediately ELIMINATED.' IRGC warns of 'new capabilities enemy has no idea about,' calls blockade 'piracy.' Mine-clearing ops with underwater drones — estimated 8-14 weeks. France/UK planning 'strictly defensive' Hormuz reopening mission. 2,800 ships stranded, 10 crew dead, 40,000+ seafarers. Blockade Day 43.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
-    "lastUpdated": "2026-04-10T06:09:00Z",
+    "lastUpdated": "2026-04-14T18:00:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
@@ -541,6 +541,12 @@
     {
       "date": "2026-04-13",
       "event": "Day 45 (Blockade Day 42): CENTCOM officially begins enforcing US NAVAL BLOCKADE of ALL maritime traffic entering/exiting Iranian ports at 10:00 AM ET. USS Gerald R. Ford and USS Abraham Lincoln CSGs with 6 guided-missile destroyers. Non-Iranian port traffic through Hormuz continues freely. IRGC warns military vessels approaching = ceasefire violation, 'deadly vortex.' Oil surges: Brent $102.29 (+7.4%), WTI $104.56 (+9.5%). 2,800 ships stranded, 10 crew dead, 20K seafarers. Mine clearance by USS Peterson/Murphy continues.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-14",
+      "event": "Day 46 PM (Blockade Day 43, US Blockade Day 1): 'Cautious waiting game' — no military confrontation. 14 vessels tracked since blockade began. TRIMMU 3 (Hong Kong-flagged, Lloyd's Shadow Fleet) diverted at Larak Island. OSTRIA (false Botswana flag) reversed to Sharjah and went dark (AIS off). Sanctioned ELPIS changed course. 4 Iran-related ships crossed per BBC Verify. Rich Starry (sanctioned Chinese tanker) transited — not Iran-bound so not intercepted. Trump: Iran 'wants deal badly,' Round 2 talks possible Thursday. Oil eases: Brent $98.13, WTI $97.34. IEA 'ready to act.' Macron-Starmer announce 40-nation Friday Hormuz summit.",
       "status": "effectively_closed",
       "barrels": 0
     }
