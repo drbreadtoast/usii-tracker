@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-13T19:24:00Z",
+    "lastUpdated": "2026-04-14T04:43:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 373
+    "totalSites": 374
   },
   "summary": {
-    "totalSites": 373,
-    "confirmed": 306,
+    "totalSites": 374,
+    "confirmed": 307,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -37,7 +37,7 @@
       "military": 58,
       "nuclear": 8,
       "infrastructure": 12,
-      "civilian": 34,
+      "civilian": 35,
       "media_civilian": 2,
       "residential": 1,
       "energy": 5,
@@ -5852,9 +5852,24 @@
       "type": "civilian",
       "status": "confirmed",
       "date": "2026-04-13",
-      "description": "Israeli strike near ICRC center in Tyre killed 1 person being transported for medical treatment. Red Cross vehicles damaged. Red Cross called strikes 'gravely concerning.'",
+      "description": "Israeli strike near ICRC center in Tyre killed 1 person being transported for medical treatment. Red Cross vehicles damaged. ICRC head Agnes Dhur condemned strikes as 'gravely concerning.'",
       "source": "Al-Monitor",
       "sourceUrl": "https://www.al-monitor.com/originals/2026/04/red-cross-calls-consecutive-strikes-lebanon-gravely-concerning",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-378",
+      "name": "Maaroub village residential home destroyed by Israeli strike",
+      "country": "Lebanon",
+      "lat": 33.2600,
+      "lng": 35.2100,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-12",
+      "description": "Israeli strike on residential home in Maaroub village near Tyre killed 6 people (corrected from initial 4). Home housed 7 people, no prior warning given. Rescue operations continued April 13.",
+      "source": "Arab News",
+      "sourceUrl": "https://www.arabnews.com/node/2639633/middle-east",
       "severity": "high",
       "attributedTo": "israel"
     }
