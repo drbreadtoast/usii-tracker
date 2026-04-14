@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-14T04:43:00Z",
+    "lastUpdated": "2026-04-14T06:15:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 45
+    "conflictDay": 46
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-13",
-      "label": "Day 45 Late PM — BLOCKADE SETTLEMENT. Brent $101.82 (+27.6%), WTI $98.00 (+29.8%). CENTCOM blockade of ALL Iranian ports active since 10am ET. Markets close: Dow -242 (-0.56%), S&P -0.11%, Nasdaq +0.35%. Iran 'maximum combat alert.' Intraday spikes to Brent $103.72, WTI $104.88 before pullback. 2 tankers (Rich Starry, Ostria) reversed course. Physical crude in Europe near $150/bbl. SPR 8.48M bbl released April 12 (53.7M total). Gas $4.125.",
+      "date": "2026-04-14",
+      "label": "Day 46 AM — OIL PULLS BACK FROM BLOCKADE HIGHS. Brent $98.05 (+22.9%), WTI $96.57 (+27.9%). Prices pulled back from April 13 close ($101.82/$98.00) as Trump signals Iran 'wants to work a deal.' CENTCOM blockade of ALL Iranian ports now in effect (14:00 GMT). Chinese tanker Rich Starry tests blockade. Ostria reversed course. Physical crude in Europe near $150/bbl. OPEC March: production plunged 27% (historic). Gas $4.125 steady. SPR 53.7M bbl total released.",
       "brent": {
-        "price": 101.82,
-        "change": "+27.6%",
-        "changeDollars": 22.02
+        "price": 98.05,
+        "change": "+22.9%",
+        "changeDollars": 18.25
       },
       "wti": {
-        "price": 98.00,
-        "change": "+29.8%",
-        "changeDollars": 22.50
+        "price": 96.57,
+        "change": "+27.9%",
+        "changeDollars": 21.07
       },
-      "changePercent": "+27.6%",
-      "lastUpdated": "2026-04-13"
+      "changePercent": "+22.9%",
+      "lastUpdated": "2026-04-14"
     },
     "priceHistory": [
       {
@@ -597,8 +597,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-14T04:43:00Z",
-    "note": "Day 45 Late PM CEASEFIRE DAY 6: CENTCOM blockade active. AAA avg $4.125/gal (+31.4%). Brent settle $101.82 (+27.5%), WTI settle $98.00 (+29.8%). SPR 8.48M bbl released April 12 (53.7M total contracted). France/UK planning Hormuz conference. IMF: 'no return to normal.'",
+    "lastUpdated": "2026-04-14T06:15:00Z",
+    "note": "Day 46 AM CEASEFIRE DAY 7: CENTCOM blockade IN EFFECT 14:00 GMT. AAA avg $4.125/gal (+31.4%). Brent $98.05 (+22.9%), WTI $96.57 (+27.9%) — pulled back from April 13 highs. Chinese tanker Rich Starry tests blockade. OPEC March production plunged 27%. SPR 53.7M bbl total. S&P 500 erased all war losses.",
     "fuels": [
       {
         "type": "Regular Gasoline",

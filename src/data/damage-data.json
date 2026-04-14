@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-14T04:43:00Z",
+    "lastUpdated": "2026-04-14T06:15:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 374
+    "totalSites": 375
   },
   "summary": {
-    "totalSites": 374,
+    "totalSites": 375,
     "confirmed": 307,
     "reported": 1,
     "rumored": 0,
@@ -5871,6 +5871,21 @@
       "source": "Arab News",
       "sourceUrl": "https://www.arabnews.com/node/2639633/middle-east",
       "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-379",
+      "name": "Bint Jbeil — multiple Hezbollah infrastructure sites destroyed in IDF encirclement",
+      "country": "Lebanon",
+      "lat": 33.1217,
+      "lng": 35.4381,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-14",
+      "description": "IDF 98th Division completed encirclement of Bint Jbeil, destroying dozens of Hezbollah infrastructure sites and seizing hundreds of weapons. 100+ Hezbollah killed in CQC and airstrikes. Historic stronghold — site of heaviest fighting in 2006 war. Government Hospital and eastern districts cleared.",
+      "source": "i24NEWS",
+      "sourceUrl": "https://www.i24news.tv/en/news/israel/defense/artc-idf-takes-control-of-bint-jbeil-and-expands-ground-operation-in-southern-lebanon",
+      "severity": "critical",
       "attributedTo": "israel"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-04-14T04:43:00Z",
+  "lastFullUpdate": "2026-04-14T06:15:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,30 +10,30 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-913",
-          "totalEntries": 961,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "evt-new-925",
+          "totalEntries": 973,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "war-timeline.json",
           "structure": "top-level-array",
-          "lastId": "tl-651",
-          "totalEntries": 651,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "tl-652",
+          "totalEntries": 652,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-813",
-          "totalEntries": 86,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "brk-820",
+          "totalEntries": 93,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "death-toll.json",
           "structure": "object-with-conflicts",
           "lastId": null,
           "totalEntries": 3,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         }
       ]
     },
@@ -44,78 +44,78 @@
           "file": "statements-timeline.json",
           "structure": "object-with-speakers",
           "lastId": null,
-          "totalEntries": 576,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "totalEntries": 578,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "war-costs.json",
           "structure": "object-with-metadata",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "oil-tracker.json",
           "structure": "object-with-metadata",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "social-posts.json",
           "structure": "top-level-array",
-          "lastId": "social-763",
-          "totalEntries": 28,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "social-769",
+          "totalEntries": 30,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "government-statements.json",
           "structure": "top-level-array",
-          "lastId": "gov-547",
-          "totalEntries": 547,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "gov-553",
+          "totalEntries": 553,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "escalations.json",
           "structure": "top-level-array",
-          "lastId": "esc-407",
-          "totalEntries": 408,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "esc-410",
+          "totalEntries": 411,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "gas-prices.json",
           "structure": "object-with-lastUpdated",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "media-perspectives.json",
           "structure": "object-with-categories",
           "lastId": null,
           "totalEntries": 10,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "global-involvement.json",
           "structure": "top-level-array",
           "lastId": "gi-australia",
           "totalEntries": 21,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "hormuz-shipping.json",
           "structure": "object-with-timeline",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "food-prices.json",
           "structure": "object-with-lastUpdated",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         }
       ]
     },
@@ -127,21 +127,21 @@
           "structure": "complex-nested",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "damage-data.json",
           "structure": "object-with-damageLocations",
-          "lastId": "dmg-378",
-          "totalEntries": 374,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "dmg-379",
+          "totalEntries": 375,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "missile-strikes.json",
           "structure": "top-level-array",
-          "lastId": "ms-472",
-          "totalEntries": 472,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastId": "ms-473",
+          "totalEntries": 473,
+          "lastUpdated": "2026-04-14T06:15:00Z"
         }
       ]
     },
@@ -186,14 +186,14 @@
           "structure": "simple-object",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         },
         {
           "file": "site-metadata.json",
           "structure": "simple-object",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-04-14T04:43:00Z"
+          "lastUpdated": "2026-04-14T06:15:00Z"
         }
       ]
     }
