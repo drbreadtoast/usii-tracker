@@ -32342,5 +32342,196 @@
       "injured": 0
     },
     "tags": ["icrc", "humanitarian-aid", "turkey", "jordan", "red-cross", "day46"]
+  },
+  {
+    "id": "evt-new-940",
+    "title": "Battle of Bint Jbeil — 1 IDF soldier killed, 13 wounded in overnight clashes",
+    "description": "Master Sgt. Ayal Uriel Bianco, 30, of the 188th Barak Armored Brigade from Katzrin, was killed when a Humvee overturned during operations. Separately, 10 paratroopers from the 101st Battalion were wounded in a firefight with a 3-man Hezbollah cell — 3 seriously, 1 moderately, 6 lightly. IDF killed all 3 Hezbollah fighters via return fire, tank shelling, and airstrikes. An armored battalion commander (Lt. Col.) was also seriously wounded in a separate incident. IDF claims 100+ Hezbollah fighters killed in the Bint Jbeil area over the past week.",
+    "type": "movement",
+    "lat": 33.12,
+    "lng": 35.43,
+    "location": "Bint Jbeil, Southern Lebanon",
+    "timestamp": "2026-04-14T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Liveblog April 14, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-april-14-2026/"
+      },
+      {
+        "name": "Antiwar.com — One Israeli soldier killed, 13 wounded overnight in south Lebanon",
+        "url": "https://news.antiwar.com/2026/04/14/one-israeli-soldier-killed-13-wounded-overnight-in-south-lebanon-fighting/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 4,
+      "injured": 13
+    },
+    "tags": ["bint-jbeil", "idf", "hezbollah", "ground-combat", "lebanon", "day46"]
+  },
+  {
+    "id": "evt-new-941",
+    "title": "Israeli drone strikes on vehicles south of Beirut — 2 killed",
+    "description": "Two Israeli drone strikes hit two vehicles on the Tyre-Beirut coastal highway — one in the seafront town of Saadiyat and another on a coastal highway in neighboring Jiyeh, ~20km south of Beirut. Both locations are outside Hezbollah's traditional strongholds. Additional strikes reported across southern Lebanon in Baraashit, Sawwaneh, Siddiqine, Qlayleh, Jbaa, Nsarieh, Tayr Debba, Mahmoudieh, Bablieh, and on the Habboush-Arab Salim road.",
+    "type": "strike",
+    "lat": 33.65,
+    "lng": 35.40,
+    "location": "Saadiyat & Jiyeh, Lebanon",
+    "timestamp": "2026-04-15T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Free Malaysia Today / AFP — Israeli army strikes south of Beirut",
+        "url": "https://www.freemalaysiatoday.com/category/world/2026/04/15/israeli-army-strikes-south-of-beirut-as-hezbollah-launches-rockets"
+      },
+      {
+        "name": "Naharnet — Israel strikes south of Beirut, Hezbollah targets Israel",
+        "url": "https://www.naharnet.com/stories/en/319532-israel-strikes-south-of-beirut-hezbollah-targets-israel-despite-negotiations"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2,
+      "injured": 0
+    },
+    "tags": ["drone-strike", "beirut", "lebanon", "idf", "day47"]
+  },
+  {
+    "id": "evt-new-942",
+    "title": "Hezbollah fires 30+ rockets at northern Israel — 1 wounded in Tamra",
+    "description": "Hezbollah launched approximately 30 rockets in under 40 minutes targeting Israel's Upper and Western Galilee regions. One rocket struck the Arab-Israeli city of Tamra, wounding a 61-year-old man with shrapnel injuries who was evacuated to Rambam Health Care Campus in Haifa. IDF detected ~30 launches since early morning hours. Attacks coincide with Israel-Lebanon diplomatic talks in Washington.",
+    "type": "strike",
+    "lat": 32.85,
+    "lng": 35.20,
+    "location": "Tamra & Western Galilee, Israel",
+    "timestamp": "2026-04-15T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "JNS — One lightly wounded by Hezbollah rocket strike on Arab-Israeli city",
+        "url": "https://www.jns.org/news/israel-news/one-lightly-wounded-by-hezbollah-rocket-strike-on-arab-israeli-city"
+      },
+      {
+        "name": "Times of Israel — Liveblog April 15, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-april-15-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 1
+    },
+    "tags": ["hezbollah", "rockets", "tamra", "galilee", "northern-israel", "day47"]
+  },
+  {
+    "id": "evt-new-943",
+    "title": "Trump declares Iran war 'very close to being over' on Fox Business",
+    "description": "President Trump told Maria Bartiromo on Fox Business: 'I think it's close to over, yeah. I view it as very close to being over.' Also said: 'If I pulled up stakes right now, it would take them 20 years to rebuild that country. And we're not finished.' Hinted second round of US-Iran talks could happen 'in the next two days' in Pakistan. Said ceasefire is 'holding well' and 'Their military is destroyed. Their whole navy is under water.'",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington, DC",
+    "timestamp": "2026-04-15T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Fox Business — Trump says Iran war very close to being over",
+        "url": "https://www.foxbusiness.com/media/trump-says-iran-war-very-close-being-over-peace-talks-expect-resume"
+      },
+      {
+        "name": "Al Jazeera — Iran war live: Trump says war close to over",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/15/iran-war-live-trump-hints-at-second-round-of-talks-israel-pounds-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "peace-talks", "ceasefire", "fox-business", "day47"]
+  },
+  {
+    "id": "evt-new-944",
+    "title": "Pezeshkian: 'Any attempt to impose force on Iran is doomed to failure'",
+    "description": "Iranian President Masoud Pezeshkian responded to the US naval blockade: 'We emphasise constructive dialogue, but will not be forced to surrender.' Warned that 'threatening the Strait of Hormuz will have widespread consequences for the world.' Indicated Tehran remains open to agreement if Washington 'abandons its totalitarianism and respects the rights of the Iranian nation.'",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-15T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "ANI News — Pezeshkian: any attempt to impose force on Iran doomed to failure",
+        "url": "https://aninews.in/news/world/middle-east/any-attempt-to-impose-force-on-iran-is-doomed-to-failure-president-pezeshkian-amid-us-blockade-on-its-ports20260415145232/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["pezeshkian", "iran", "blockade", "diplomacy", "day47"]
+  },
+  {
+    "id": "evt-new-945",
+    "title": "Iran claims $270B in war losses — demands compensation from US, Israel, and 5 Arab states",
+    "description": "Iranian government spokesperson Fatemeh Mohajerani announced a preliminary estimate of $270 billion in war damages, warning the figure may increase. Compensation demands directed at the US, Israel, and five Arab states (Bahrain, Jordan, Qatar, UAE, Saudi Arabia) whose territory was allegedly used for attacks against Iran. The announcement comes as fresh US-Iran talks loom and the US naval blockade enters its third day.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-15T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran says $270B war loss must be compensated",
+        "url": "https://www.aljazeera.com/news/2026/4/15/iran-says-270bn-war-loss-must-be-compensated-as-fresh-talks-with-us-loom"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "war-costs", "compensation", "arab-states", "270-billion", "day47"]
+  },
+  {
+    "id": "evt-new-946",
+    "title": "Pakistan PM begins 4-day diplomatic tour to arrange Round 2 US-Iran talks",
+    "description": "Pakistani PM Shehbaz Sharif departed April 15 for a 4-day diplomatic tour to Saudi Arabia, Qatar, and Turkey (Antalya Diplomacy Forum). The tour aims to arrange a second round of US-Iran talks after the Islamabad Round 1 (April 11-12) ended without agreement after 21 hours of discussions. Pakistan hosted the first round and is seeking to maintain its mediator role. Ceasefire expires April 21.",
+    "type": "diplomatic",
+    "lat": 33.6844,
+    "lng": 73.0479,
+    "location": "Islamabad, Pakistan",
+    "timestamp": "2026-04-15T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Pakistan PM headed to Saudi and Turkey amid prospect of new US-Iran talks",
+        "url": "https://www.aljazeera.com/news/2026/4/14/pakistan-pm-headed-to-saudi-and-turkiye-amid-prospect-of-new-us-iran-talks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["pakistan", "diplomacy", "round-2", "talks", "saudi-arabia", "qatar", "turkey", "day47"]
   }
 ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-15T02:14:00Z",
+    "lastUpdated": "2026-04-15T11:12:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -5887,6 +5887,36 @@
       "sourceUrl": "https://www.i24news.tv/en/news/israel/defense/artc-idf-takes-control-of-bint-jbeil-and-expands-ground-operation-in-southern-lebanon",
       "severity": "critical",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-380",
+      "name": "Tyre-Beirut highway — 2 vehicles struck by Israeli drones at Saadiyat & Jiyeh",
+      "country": "Lebanon",
+      "lat": 33.65,
+      "lng": 35.40,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Israeli drones struck 2 vehicles on the Tyre-Beirut coastal highway — one in Saadiyat and another in Jiyeh, ~20km south of Beirut. 2 killed. Both locations outside Hezbollah's traditional strongholds. Strikes continued across 10+ southern Lebanon towns.",
+      "source": "Naharnet",
+      "sourceUrl": "https://www.naharnet.com/stories/en/319532-israel-strikes-south-of-beirut-hezbollah-targets-israel-despite-negotiations",
+      "severity": "medium",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-381",
+      "name": "Tamra — Hezbollah rocket strikes residential area, 1 wounded",
+      "country": "Israel",
+      "lat": 32.85,
+      "lng": 35.20,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Hezbollah rocket struck the Arab-Israeli city of Tamra in 30+ rocket barrage at Upper/Western Galilee. 61-year-old man wounded with shrapnel injuries, evacuated to Rambam Health Care Campus in Haifa.",
+      "source": "JNS",
+      "sourceUrl": "https://www.jns.org/news/israel-news/one-lightly-wounded-by-hezbollah-rocket-strike-on-arab-israeli-city",
+      "severity": "medium",
+      "attributedTo": "hezbollah"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-15T02:14:00Z",
+    "lastUpdated": "2026-04-15T11:12:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-14",
-      "label": "Day 47 PM — Oil settles Brent $94.79 (+18.8%), WTI $91.28 (+20.9%). Afternoon session extends decline on Round 2 talk hopes. Trump hints Iran talks 'in next two days.' US sanctions waiver expires April 19. S&P 500 +1.18% erases ALL war losses. IMF/IEA joint warning: 'substantial, global, asymmetric.' OPEC March production plunged 27%. Gas $4.118 flat.",
+      "date": "2026-04-15",
+      "label": "Day 47 AM — Brent jumps to $96.80 (+21.3%), WTI dips to $90.92 (+20.4%). Mixed signals: Brent up 2.13% on supply fears from CENTCOM blockade Day 3, WTI slightly lower on talk optimism. Trump: 'war very close to being over.' Iran claims $270B in war losses. Sanctions waiver expires April 19. Harvard: war will cost US $1 trillion. FAO food catastrophe warning. Gas $4.118 flat.",
       "brent": {
-        "price": 94.79,
-        "change": "+18.8%",
-        "changeDollars": 14.99
+        "price": 96.80,
+        "change": "+21.3%",
+        "changeDollars": 17.00
       },
       "wti": {
-        "price": 91.28,
-        "change": "+20.9%",
-        "changeDollars": 15.78
+        "price": 90.92,
+        "change": "+20.4%",
+        "changeDollars": 15.42
       },
-      "changePercent": "+18.8%",
-      "lastUpdated": "2026-04-14"
+      "changePercent": "+21.3%",
+      "lastUpdated": "2026-04-15"
     },
     "priceHistory": [
       {
@@ -597,8 +597,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-15T02:14:00Z",
-    "note": "Day 47 PM: Oil settles Brent $94.79 (+18.8%), WTI $91.28 (+20.9%). AAA avg $4.118/gal (+31.1%). US sanctions waiver expires April 19. S&P 500 erases all war losses. IMF/IEA joint warning. OPEC March production plunged 27%.",
+    "lastUpdated": "2026-04-15T11:12:00Z",
+    "note": "Day 47 AM: Brent $96.80 (+21.3%), WTI $90.92 (+20.4%). AAA avg $4.118/gal (+31.1%). CENTCOM blockade Day 3. Trump: 'war very close to being over.' Iran claims $270B losses. Sanctions waiver expires April 19. Harvard: war will cost US $1 trillion.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -611,11 +611,11 @@
           "price": 4.118,
           "change": "+31.1%",
           "changeDollars": "+$0.98",
-          "date": "2026-04-14"
+          "date": "2026-04-15"
         },
         "change": "+$0.98",
         "changePercent": "+31.1%",
-        "detail": "Gas $4.118/gal (AAA, Day 47). Brent $94.79 (+18.8%), WTI $91.28 (+20.9%). Oil settles lower. Sanctions waiver expires April 19. Pre-war $3.14. California $5.92. Diesel $5.50.",
+        "detail": "Gas $4.118/gal (AAA, Day 47 AM). Brent $96.80 (+21.3%), WTI $90.92 (+20.4%). CENTCOM blockade Day 3. Sanctions waiver expires April 19. Pre-war $3.14. California $5.89. First time above $4/gal nationally in four years.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -794,7 +794,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-14T04:43:00Z",
+  "lastUpdated": "2026-04-15T11:12:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
