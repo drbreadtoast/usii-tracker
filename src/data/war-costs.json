@@ -35,11 +35,11 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-14T18:35:00Z",
+    "lastUpdated": "2026-04-15T02:14:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 46,
+    "daysOfConflict": 47,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 46
+    "conflictDay": 47
   },
   "countryCosts": {
     "us": {
@@ -69,7 +69,7 @@
           },
           "personnelDeployment": {
             "amount": 3000000000,
-            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 381 WIA. No new casualties since ceasefire.",
+            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 399 WIA (354 returned to duty). No new KIA since ceasefire. CENTCOM blockade Day 2.",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
           },
@@ -96,16 +96,16 @@
       },
       "dailyBurnRate": 1000000000,
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
-      "totalEstimate": "~$43B direct military + ~$37.6B indirect through Day 45",
+      "totalEstimate": "~$43B direct military + ~$37.6B indirect through Day 47",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
       "totalCost": 80600000000,
       "totalFormatted": "$80.6B",
       "total": 80600000000,
-      "lastUpdated": "2026-04-11T19:14:00Z",
-      "note": "Day 45: $43B direct + $37.6B indirect = ~$80.6B total through Day 45. CENTCOM blockade enforcement begins 10am ET. Burn rate ~$1B/day. Pentagon supplemental slashed from $200B+ to $80-100B (WaPo). CPI inflation 3.3% driven by war oil shock. Oil surges above $100 on blockade. 13 KIA, 381 WIA confirmed by CENTCOM.",
+      "lastUpdated": "2026-04-15T02:14:00Z",
+      "note": "Day 47: $43B direct + $37.6B indirect = ~$80.6B total through Day 47. CENTCOM blockade Day 2. Burn rate ~$1B/day. Pentagon supplemental $80-100B. Oil settles Brent $94.79 WTI $91.28. Sanctions waiver expires April 19. 13 KIA, 399 WIA confirmed by CENTCOM.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin now seeking $80-100B supplemental (down from $200B+).",
       "directMilitary": 43000000000,
-      "description": "US direct military costs ~$43B (Day 45). Indirect costs ~$37.6B. Total ~$80.6B. Daily burn rate ~$1B/day. CENTCOM blockade begins. 57,000+ troops in theater. 950+ Tomahawks fired (~$1.9B, approaching Winchester). Pentagon supplemental slashed to $80-100B. Oil above $100 on blockade. 13 KIA, 381 WIA.",
+      "description": "US direct military costs ~$43B (Day 47). Indirect costs ~$37.6B. Total ~$80.6B. Daily burn rate ~$1B/day. CENTCOM blockade Day 2. 57,000+ troops in theater. 950+ Tomahawks fired (~$1.9B). Pentagon supplemental $80-100B. Oil Brent $94.79. 13 KIA, 399 WIA.",
       "totalDirect": 43000000000,
       "dailyBurnRateFormatted": "$1B/day"
     },
@@ -821,11 +821,11 @@
     "allCountriesIndirectCosts": 109490000000,
     "combinedTotalCosts": 174060000000,
     "globalEconomicImpact": 870000000000,
-    "description": "Combined direct military + indirect economic costs through Day 45. CEASEFIRE IN EFFECT (Day 6) but US NAVAL BLOCKADE NOW IN EFFECT. Iran 'maximum combat alert.' IDF Chief orders war readiness. Oil $102-105. Blockade costs Iran ~$435M/day. Costs accelerating.",
-    "lastCalculated": "2026-04-13T19:24:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 47. CEASEFIRE DAY 7. US NAVAL BLOCKADE IN EFFECT (CENTCOM Day 2). Israel-Lebanon historic talks in DC. Oil settles Brent $94.79 WTI $91.28. Sanctions waiver expires April 19. Costs steady ~$1B/day.",
+    "lastCalculated": "2026-04-15T02:14:00Z",
     "allCountriesIndirect": 109490000000,
     "combinedTotalFormatted": "$174.06B",
-    "lastUpdated": "2026-04-13T19:24:00Z",
+    "lastUpdated": "2026-04-15T02:14:00Z",
     "directCosts": 64570000000,
     "indirectCosts": 109490000000,
     "combinedCosts": 174060000000,
@@ -835,9 +835,9 @@
     "allCountriesDirectFormatted": "$64.57B",
     "globalEconomicImpactFormatted": "$870B+"
   },
-  "daysOfConflict": 45,
-  "lastUpdated": "2026-04-13T19:24:00Z",
+  "daysOfConflict": 47,
+  "lastUpdated": "2026-04-15T02:14:00Z",
   "dailyBurnRate": 1478000000,
   "totalCost": 64570000000,
-  "totalFormatted": "$64.57B (direct military, all countries, Day 45)"
+  "totalFormatted": "$64.57B (direct military, all countries, Day 47)"
 }
