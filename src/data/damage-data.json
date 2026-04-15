@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-15T11:58:00Z",
+    "lastUpdated": "2026-04-15T16:26:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 375
+    "totalSites": 378
   },
   "summary": {
-    "totalSites": 375,
-    "confirmed": 307,
+    "totalSites": 378,
+    "confirmed": 310,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -5886,6 +5886,51 @@
       "source": "i24NEWS",
       "sourceUrl": "https://www.i24news.tv/en/news/israel/defense/artc-idf-takes-control-of-bint-jbeil-and-expands-ground-operation-in-southern-lebanon",
       "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-380",
+      "name": "Jbaa family home destroyed — 4 killed (man, wife, son, daughter-in-law)",
+      "country": "Lebanon",
+      "lat": 33.3500,
+      "lng": 35.4000,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Israeli airstrike on family home in Jbaa killed 4 family members. One of multiple strikes across southern Lebanon on April 15, one day after historic Israel-Lebanon talks in Washington.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/15/anger-in-lebanon-as-israel-launches-deadly-strikes-despite-diplomatic-drive",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-381",
+      "name": "Ansariyeh strike — 5 killed in Israeli airstrike",
+      "country": "Lebanon",
+      "lat": 33.3700,
+      "lng": 35.3800,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Israeli airstrike on Ansariyeh killed 5 people. IDF claims 200+ Hezbollah targets struck in past 24 hours.",
+      "source": "Washington Times",
+      "sourceUrl": "https://www.washingtontimes.com/news/2026/apr/15/new-israeli-airstrikes-hit-southern-lebanon-day-historic-talks/",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-382",
+      "name": "Qadmus strike — 4 killed in Israeli airstrike",
+      "country": "Lebanon",
+      "lat": 33.3400,
+      "lng": 35.3900,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Israeli airstrike on Qadmus killed 4 people. Part of widespread April 15 strikes across southern Lebanon.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/15/anger-in-lebanon-as-israel-launches-deadly-strikes-despite-diplomatic-drive",
+      "severity": "high",
       "attributedTo": "israel"
     }
   ]
