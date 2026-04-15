@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-15T02:14:00Z",
+    "lastUpdated": "2026-04-15T11:58:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-14",
-      "label": "Day 47 PM — Oil settles Brent $94.79 (+18.8%), WTI $91.28 (+20.9%). Afternoon session extends decline on Round 2 talk hopes. Trump hints Iran talks 'in next two days.' US sanctions waiver expires April 19. S&P 500 +1.18% erases ALL war losses. IMF/IEA joint warning: 'substantial, global, asymmetric.' OPEC March production plunged 27%. Gas $4.118 flat.",
+      "date": "2026-04-15",
+      "label": "Day 47 AM — Oil rebounds Brent $95.72 (+19.9%), WTI $91.50 (+21.2%). Modest intraday uptick from settlements on mixed signals — Round 2 talk hopes vs blockade escalation. Trump: 'very close to over.' US destroyer intercepts 2 tankers at Chabahar. Iran demands $270B compensation. API: US crude inventories +6.1M bbl (8th straight build). Sanctions waiver expires April 19. Gas $4.118 flat.",
       "brent": {
-        "price": 94.79,
-        "change": "+18.8%",
-        "changeDollars": 14.99
+        "price": 95.72,
+        "change": "+19.9%",
+        "changeDollars": 15.92
       },
       "wti": {
-        "price": 91.28,
-        "change": "+20.9%",
-        "changeDollars": 15.78
+        "price": 91.50,
+        "change": "+21.2%",
+        "changeDollars": 16.00
       },
-      "changePercent": "+18.8%",
-      "lastUpdated": "2026-04-14"
+      "changePercent": "+19.9%",
+      "lastUpdated": "2026-04-15"
     },
     "priceHistory": [
       {
@@ -412,6 +412,13 @@
         "wti": 104.56,
         "label": "Day 45 — BLOCKADE SURGE. Brent $102.29 (+28.2%); WTI $104.56 (+38.5%). Smashes back above $100. CENTCOM blockade of Iranian ports begins 10am ET. Brent +7.4%, WTI +9.5% from Friday. Wholesale gas +6%, European gas +18%. Goldman $100+ vindicated. JPMorgan $150 target in play. 3 VLCCs exited but 2 U-turned. 2,800 ships stranded.",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-14",
+        "brent": 94.79,
+        "wti": 91.28,
+        "label": "Day 47 PM — Oil PLUNGES Brent $94.79 (-7.3%), WTI $91.28 (-12.7%) from blockade surge. Sharpest drop since ceasefire. Round 2 talk hopes. Israel-Lebanon DC talks. Trump hints Pakistan Round 2. Sanctions waiver expires April 19. Xi Jinping first personal statement. S&P 500 erases ALL war losses. Gas $4.118.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -597,8 +604,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-15T02:14:00Z",
-    "note": "Day 47 PM: Oil settles Brent $94.79 (+18.8%), WTI $91.28 (+20.9%). AAA avg $4.118/gal (+31.1%). US sanctions waiver expires April 19. S&P 500 erases all war losses. IMF/IEA joint warning. OPEC March production plunged 27%.",
+    "lastUpdated": "2026-04-15T11:58:00Z",
+    "note": "Day 47 AM: Oil rebounds Brent $95.72 (+19.9%), WTI $91.50 (+21.2%). AAA avg $4.118/gal (+31.1%). Trump: 'very close to over.' US destroyer intercepts 2 tankers. Iran demands $270B. Sanctions waiver expires April 19. API: US crude +6.1M bbl.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -611,11 +618,11 @@
           "price": 4.118,
           "change": "+31.1%",
           "changeDollars": "+$0.98",
-          "date": "2026-04-14"
+          "date": "2026-04-15"
         },
         "change": "+$0.98",
         "changePercent": "+31.1%",
-        "detail": "Gas $4.118/gal (AAA, Day 47). Brent $94.79 (+18.8%), WTI $91.28 (+20.9%). Oil settles lower. Sanctions waiver expires April 19. Pre-war $3.14. California $5.92. Diesel $5.50.",
+        "detail": "Gas $4.118/gal (AAA, Day 47). Brent $95.72 (+19.9%), WTI $91.50 (+21.2%). Oil rebounds modestly. Trump: 'close to over.' Sanctions waiver expires April 19. Pre-war $3.14. California $5.87. Diesel $5.50.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -794,7 +801,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-14T04:43:00Z",
+  "lastUpdated": "2026-04-15T11:58:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
