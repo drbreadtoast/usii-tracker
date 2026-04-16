@@ -33341,5 +33341,129 @@
       "injured": 0
     },
     "tags": ["idf", "readiness", "air-force", "iran-strike", "buffer-zone", "lebanon", "day48"]
+  },
+  {
+    "id": "evt-new-975",
+    "title": "Trump announces 10-day Israel-Lebanon ceasefire starting 5 PM ET",
+    "description": "Trump announced Israel and Lebanon agreed to a 10-day ceasefire beginning at 5 PM ET (21:00 GMT) on April 16. Trump said he had 'excellent conversations' with Lebanese President Aoun and PM Netanyahu. Invited both to the White House for 'first meaningful talks between Israel and Lebanon since 1983.' Israel stated it will NOT withdraw from southern Lebanon and will maintain freedom of action against Hezbollah threats during ceasefire. No confirmation from Hezbollah.",
+    "type": "diplomatic",
+    "lat": 38.9,
+    "lng": -77.04,
+    "location": "Washington, DC (White House)",
+    "timestamp": "2026-04-16T21:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Axios — Lebanon ceasefire Trump announcement",
+        "url": "https://www.axios.com/2026/04/16/lebanon-ceasefire-trump-aoun-israel-netanyahu"
+      },
+      {
+        "name": "PBS — Israel and Lebanon reach 10-day ceasefire",
+        "url": "https://www.pbs.org/newshour/world/israel-and-lebanon-reach-10-day-ceasefire-agreement-trump-says"
+      },
+      {
+        "name": "Bloomberg — Israel, Lebanon agree to 10-day ceasefire",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/trump-says-israel-lebanon-agree-to-10-day-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["ceasefire", "lebanon", "israel", "trump", "diplomacy", "aoun", "netanyahu", "day48"]
+  },
+  {
+    "id": "evt-new-976",
+    "title": "Israeli airstrikes destroy Qasmiyeh Bridge — last crossing over Litani River severed",
+    "description": "Israeli warplanes carried out two consecutive airstrikes on the Qasmiyeh Bridge over the Litani River, completely destroying it. This was the last remaining bridge crossing into southern Lebanon, fully severing almost 10% of Lebanon's territory from the rest of the country. Lebanese army evacuated checkpoint and closed roads.",
+    "type": "strike",
+    "lat": 33.35,
+    "lng": 35.3,
+    "location": "Qasmiyeh Bridge, Litani River, Southern Lebanon",
+    "timestamp": "2026-04-16T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Xinhua — Israeli airstrikes destroy key bridge in Southern Lebanon",
+        "url": "https://english.news.cn/20260416/fa71123b8e9341e5bb6c00909568b56d/c.html"
+      },
+      {
+        "name": "CBC News — Israeli strike destroys last bridge over Litani River",
+        "url": "https://www.cbc.ca/news/world/israeli-strikes-lebanon-litani-river-9.7165708"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["strike", "bridge", "litani", "qasmiyeh", "lebanon", "infrastructure", "day48"]
+  },
+  {
+    "id": "evt-new-977",
+    "title": "Israeli triple-tap strikes kill 4 Lebanese paramedics in Mayfadoun",
+    "description": "Israel launched three consecutive strikes on emergency crews in Mayfadoun near Nabatiyeh. First strike killed 2 Islamic Health Committee paramedics. Second strike hit the rescue team, wounding 3. Third strike killed 2 more medics from Nabatiyeh Emergency Services / Islamic Risala Scout Association. Pattern consistent with triple-tap targeting of first responders.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.48,
+    "location": "Mayfadoun, near Nabatiyeh, Southern Lebanon",
+    "timestamp": "2026-04-16T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israel kills four Lebanese paramedics in consecutive strikes",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/16/israels-military-kills-four-lebanese-paramedics-in-consecutive-strikes"
+      },
+      {
+        "name": "Newsweek — Israeli Strikes Hit 3 Ambulance Teams, Killing 4 Medics",
+        "url": "https://www.newsweek.com/israeli-strikes-hit-ambulance-teams-killing-4-medics-11836945"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 4,
+      "injured": 3
+    },
+    "tags": ["strike", "paramedics", "mayfadoun", "nabatiyeh", "triple-tap", "humanitarian", "day48"]
+  },
+  {
+    "id": "evt-new-978",
+    "title": "US expands naval blockade globally — Navy to intercept Iranian ships worldwide",
+    "description": "Gen. Dan Caine (CJCS) announced at Pentagon briefing that US Navy will now intercept any Iranian-flagged vessel or vessel providing material support to Iran anywhere in the world, including Pacific AOR. 13 ships have turned back rather than challenge blockade. No ships boarded yet. Hegseth warned US is 'locked and loaded' to strike Iran's electrical power infrastructure if negotiations fail.",
+    "type": "naval",
+    "lat": 26.57,
+    "lng": 56.25,
+    "location": "Strait of Hormuz / Global",
+    "timestamp": "2026-04-16T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Breaking Defense — US can intercept any Iran-linked ship globally",
+        "url": "https://breakingdefense.com/2026/04/us-can-intercept-any-iran-linked-ship-globally-caine-says/"
+      },
+      {
+        "name": "Stars and Stripes — US forces expand shipping blockade",
+        "url": "https://www.stripes.com/news/2026-04-16/hegseth-caine-iran-war-21394905.html"
+      },
+      {
+        "name": "Al Jazeera — Hegseth warns blockade to last as long as it takes",
+        "url": "https://www.aljazeera.com/news/2026/4/16/hegseth-says-us-blockade-to-continue-ready-for-new-attacks-on-iran-energy"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["blockade", "naval", "global", "caine", "hegseth", "iran", "interception", "day48"]
   }
 ]

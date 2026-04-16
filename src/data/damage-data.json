@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-16T12:06:00Z",
+    "lastUpdated": "2026-04-16T18:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -5992,6 +5992,21 @@
       "sourceUrl": "https://www.tribuneindia.com/news/al-jazeera/hezbollah-claims-drone-strikes-on-israeli-army-positions-near-nahariya",
       "severity": "medium",
       "attributedTo": "hezbollah"
+    },
+    {
+      "id": "dmg-387",
+      "name": "Qasmiyeh Bridge — last remaining bridge over Litani River completely destroyed",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.3,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-16",
+      "description": "Israeli warplanes carried out two consecutive airstrikes completely destroying Qasmiyeh Bridge — the last remaining bridge crossing over the Litani River. Southern Lebanon (~10% of country) fully severed from the rest of the country. Lebanese army evacuated checkpoint and closed roads.",
+      "source": "Xinhua",
+      "sourceUrl": "https://english.news.cn/20260416/fa71123b8e9341e5bb6c00909568b56d/c.html",
+      "severity": "critical",
+      "attributedTo": "israel"
     }
   ]
 }
