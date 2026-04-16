@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-16T06:02:00Z",
+    "lastUpdated": "2026-04-16T12:06:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,16 +25,16 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 381
+    "totalSites": 382
   },
   "summary": {
-    "totalSites": 381,
-    "confirmed": 310,
+    "totalSites": 382,
+    "confirmed": 311,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
-      "military": 58,
+      "military": 59,
       "nuclear": 8,
       "infrastructure": 12,
       "civilian": 35,
@@ -5977,6 +5977,21 @@
       "sourceUrl": "https://www.jpost.com/middle-east/article-892972",
       "severity": "critical",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-386",
+      "name": "IDF 146th Division logistics base near Nahariya — Hezbollah drone strike damage",
+      "country": "Israel",
+      "lat": 33.01,
+      "lng": 35.10,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-16",
+      "description": "Hezbollah drone strikes hit IDF 146th Division logistics base near Nahariya and nearby settlement near Liman barracks. Part of 39 Hezbollah operations in 24 hours.",
+      "source": "Tribune India (Al Jazeera)",
+      "sourceUrl": "https://www.tribuneindia.com/news/al-jazeera/hezbollah-claims-drone-strikes-on-israeli-army-positions-near-nahariya",
+      "severity": "medium",
+      "attributedTo": "hezbollah"
     }
   ]
 }
