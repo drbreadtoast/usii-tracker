@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-15T16:26:00Z",
+    "lastUpdated": "2026-04-16T01:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 378
+    "totalSites": 380
   },
   "summary": {
-    "totalSites": 378,
+    "totalSites": 380,
     "confirmed": 310,
     "reported": 1,
     "rumored": 0,
@@ -5928,6 +5928,36 @@
       "status": "confirmed",
       "date": "2026-04-15",
       "description": "Israeli airstrike on Qadmus killed 4 people. Part of widespread April 15 strikes across southern Lebanon.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/15/anger-in-lebanon-as-israel-launches-deadly-strikes-despite-diplomatic-drive",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-383",
+      "name": "Mayfadoun triple-tap — 3 paramedics killed, 6 injured",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.31,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Triple-tap Israeli airstrike on Mayfadoun killed 3 Lebanese Civil Defence paramedics and injured 6. One paramedic missing. Strike targeted first responders arriving to help wounded.",
+      "source": "Arab News",
+      "sourceUrl": "https://www.arabnews.pk/node/2639975/middle-east",
+      "severity": "critical",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-384",
+      "name": "Jbaa family home — 4 killed including couple and children",
+      "country": "Lebanon",
+      "lat": 33.55,
+      "lng": 35.39,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-15",
+      "description": "Israeli airstrike on Jbaa killed 4 family members (couple, son, daughter-in-law). Part of 20+ killed in April 15 evening strikes.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/15/anger-in-lebanon-as-israel-launches-deadly-strikes-despite-diplomatic-drive",
       "severity": "high",

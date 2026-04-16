@@ -238,7 +238,10 @@ If validation passes:
 npm run build
 git add [list all changed files explicitly — never use git add -A]
 git commit -m "Day [N] [time] data refresh — [brief summary of key changes]"
-git push
+
+# CRITICAL: Always push to main, even when running in a worktree/scheduled task
+# Do NOT create a new branch. Do NOT use plain "git push".
+git push origin HEAD:main
 ```
 
 ---
