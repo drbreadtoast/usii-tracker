@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-16T01:00:00Z",
+    "lastUpdated": "2026-04-16T06:02:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 380
+    "totalSites": 381
   },
   "summary": {
-    "totalSites": 380,
+    "totalSites": 381,
     "confirmed": 310,
     "reported": 1,
     "rumored": 0,
@@ -5961,6 +5961,21 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/15/anger-in-lebanon-as-israel-launches-deadly-strikes-despite-diplomatic-drive",
       "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-385",
+      "name": "Bint Jbeil — extensive urban destruction from IDF 98th Division battle",
+      "country": "Lebanon",
+      "lat": 33.12,
+      "lng": 35.43,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-16",
+      "description": "Extensive urban destruction in Bint Jbeil as IDF 98th Division nears full capture. Town shelled by artillery and airstrikes since April 9. 100+ Hezbollah killed. 3 Radwan fighters captured. 1 IDF soldier killed, 13 wounded.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-892972",
+      "severity": "critical",
       "attributedTo": "israel"
     }
   ]

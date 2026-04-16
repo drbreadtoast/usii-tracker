@@ -32935,5 +32935,212 @@
       "injured": 0
     },
     "tags": ["satellite", "missile-tunnels", "khomein", "tabriz", "recovery", "day47"]
+  },
+  {
+    "id": "evt-new-961",
+    "title": "IDF soldier killed, 13 wounded in Bint Jbeil clashes; 3 Radwan fighters captured",
+    "description": "Sgt. Maj. (res.) Ayal Uriel Bianco, 30, of the 188th Armored Brigade killed in southern Lebanon fighting. 10 paratroopers wounded fighting 3 Hezbollah fighters in Bint Jbeil (3 serious, 1 moderate, 6 light). 3 additional reservists injured separately. IDF 98th Division nearing full control of Bint Jbeil — 100+ Hezbollah killed since battle began April 9. 3 Radwan special forces fighters captured after being overwhelmed.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.43,
+    "location": "Bint Jbeil, southern Lebanon",
+    "timestamp": "2026-04-16T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — IDF soldier killed in south Lebanon clashes",
+        "url": "https://www.jpost.com/middle-east/article-892972"
+      },
+      {
+        "name": "Naharnet — Israel says soldier killed, 10 wounded in Bint Jbeil",
+        "url": "https://www.naharnet.com/stories/en/319496-israel-says-soldier-killed-in-south-lebanon-clashes-10-wounded-in-bint-jbeil"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 13
+    },
+    "tags": ["bint-jbeil", "idf", "188th-armored", "radwan", "98th-division", "day48"]
+  },
+  {
+    "id": "evt-new-962",
+    "title": "Hezbollah fires ~30 rockets at northern Israel targeting Nahariya",
+    "description": "IDF detected approximately 30 Hezbollah rocket launches at northern Israel. Hezbollah said it targeted multiple northern Israeli areas including Nahariya. Rockets largely fell in open areas with no significant casualties reported.",
+    "type": "strike",
+    "lat": 33.01,
+    "lng": 35.09,
+    "location": "Nahariya, northern Israel",
+    "timestamp": "2026-04-16T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah salvo targeted Nahariya",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-hezbollah-salvo-targeted-nahariya-rockets-fell-in-open-areas/"
+      },
+      {
+        "name": "Xinhua — Hezbollah fires rockets at northern Israel",
+        "url": "https://english.news.cn/20260415/28e80cdc240e4b86bceeb67451109820/c.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "rockets", "nahariya", "northern-israel", "day48"]
+  },
+  {
+    "id": "evt-new-963",
+    "title": "Iran threatens to block ALL shipping in Persian Gulf, Sea of Oman, and Red Sea",
+    "description": "Maj. Gen. Ali Abdollahi (commander of Khatam al-Anbiya Central HQ, IRGC) stated on Iranian state TV: 'The powerful armed forces of Iran will not allow any exports or imports to continue in the area of the Persian Gulf, the Sea of Oman and the Red Sea.' Called US blockade a 'prelude' to violating the ceasefire. Major escalation from previous threats which only covered the Gulf.",
+    "type": "naval",
+    "lat": 26.50,
+    "lng": 56.50,
+    "location": "Persian Gulf / Sea of Oman / Red Sea",
+    "timestamp": "2026-04-16T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NBC News — Iran threatens Red Sea shipping",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-blockade-iran-hormuz-trump-peace-talks-rcna331890"
+      },
+      {
+        "name": "Fox News — Iran threatens halt Red Sea traffic",
+        "url": "https://www.foxnews.com/world/iran-threatens-halt-red-sea-traffic-response-us-military-blockade-ports"
+      },
+      {
+        "name": "Newsweek — Iran new threat to destabilize global trade",
+        "url": "https://www.newsweek.com/iran-new-threat-destabilize-global-trade-red-sea-11833027"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "abdollahi", "irgc", "red-sea", "persian-gulf", "escalation", "day48"]
+  },
+  {
+    "id": "evt-new-964",
+    "title": "Treasury 'Economic Fury' sanctions: 24+ entities in Shamkhani oil smuggling network",
+    "description": "US Treasury sanctioned 24+ individuals, companies, and vessels tied to Mohammad Hossein Shamkhani's oil smuggling network. Also targeted oil-for-gold network financing Hezbollah and IRGC-QF. Shamkhani is son of late Ali Shamkhani (killed Feb 28). Treasury Secretary Bessent called it 'Economic Fury.' State Dept: 'upends Iranian shadow fleet.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC (US Treasury)",
+    "timestamp": "2026-04-15T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US Treasury — Press Release sb0443",
+        "url": "https://home.treasury.gov/news/press-releases/sb0443"
+      },
+      {
+        "name": "State Department — US upends Iranian shadow fleet",
+        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/u-s-upends-iranian-shadow-fleet-and-oil-for-gold-terror-financing-network/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["sanctions", "economic-fury", "shamkhani", "shadow-fleet", "treasury", "day48"]
+  },
+  {
+    "id": "evt-new-965",
+    "title": "Iran NPC suspends all petrochemical exports — 85% capacity destroyed",
+    "description": "Iran's National Petrochemical Company (NPC) halted all petrochemical exports 'until further notice' to prioritize domestic supply after US-Israeli strikes destroyed 85% of capacity. Mahshahr complex (35% output) struck April 4, South Pars/Asaluyeh (50% output) struck April 6. Sector normally exports ~29M tons/year earning ~$13B — Iran's largest non-oil revenue source.",
+    "type": "infrastructure",
+    "lat": 30.44,
+    "lng": 49.19,
+    "location": "Mahshahr / Asaluyeh, Iran",
+    "timestamp": "2026-04-16T00:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "ABC News — Iran halts petrochemical exports",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-us-blockade-irans-strait-hormuz/?id=131983647&entryId=132076655"
+      },
+      {
+        "name": "News.az — Iran halts petrochemical exports over war damage",
+        "url": "https://news.az/news/iran-halts-petrochemical-exports-over-war-damage"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["petrochemical", "npc", "exports-halt", "infrastructure", "day48"]
+  },
+  {
+    "id": "evt-new-966",
+    "title": "Senate blocks 4th Iran war powers resolution (47-52); record 40 Dems vote to block Israel arms sales",
+    "description": "Senate blocked 4th Iran War Powers Resolution 47-52. Duckworth (D-IL) sponsored; Rand Paul (R-KY) sole GOP vote for, Fetterman (D-PA) sole Dem vote against. Separately, Sanders resolutions to block Israel arms sales defeated 40-59 and 36-63, but record 40 Democratic senators supported blocking — Kelly (D-AZ) notable flip.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "US Senate, Washington, DC",
+    "timestamp": "2026-04-15T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Roll Call — Iran war powers resolution blocked for fourth time",
+        "url": "https://rollcall.com/2026/04/15/iran-war-powers-resolution-blocked-for-fourth-time-in-senate/"
+      },
+      {
+        "name": "Haaretz — Record number of Democratic senators vote to block Israel arms sales",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-16/ty-article/.premium/record-number-of-democratic-senators-vote-to-block-israel-arms-sales/0000019d-93ab-d834-abbd-fbeb5dc00000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["senate", "war-powers", "arms-sales", "sanders", "duckworth", "day48"]
+  },
+  {
+    "id": "evt-new-967",
+    "title": "Rubio hosts first Israel-Lebanon direct talks since 1993 in Washington",
+    "description": "Secretary of State Rubio hosted first direct Israel-Lebanon diplomatic talks since 1993. Called it 'a historic opportunity' to achieve 'a permanent answer to 20 or 30 years of Hezbollah's influence.' State Dept praised 'productive discussions.' Lebanese officials say ceasefire with Israel expected 'soon' (FT). Security cabinet meeting ended without Lebanon ceasefire decision.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.05,
+    "location": "State Department, Washington, DC",
+    "timestamp": "2026-04-15T19:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "The Hill — Israel Lebanon diplomatic talks Rubio",
+        "url": "https://thehill.com/policy/international/5830233-israel-lebanon-diplomatic-talks-rubio/"
+      },
+      {
+        "name": "UPI — Lebanon Israel talks",
+        "url": "https://www.upi.com/Top_News/World-News/2026/04/15/Lebanon-Israel-talks/8591776243618/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["rubio", "israel-lebanon", "talks", "diplomatic", "historic", "day48"]
   }
 ]

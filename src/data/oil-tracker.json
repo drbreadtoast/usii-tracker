@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-16T01:00:00Z",
+    "lastUpdated": "2026-04-16T06:02:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 47
+    "conflictDay": 48
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-15",
-      "label": "Day 47 EVE — Oil settles Brent $95.72 (+19.9%), WTI $91.50 (+21.2%). Pentagon: 150 Iranian ships sunk, 13K targets. Hegseth impeachment filed. Ceasefire extension 'in-principle' agreement. UAE-Iran first call since Feb. 10K+ US troops deploying. S&P 500 record 7,022. Blockade 9 tankers. Gas $4.108 (down 1¢).",
+      "date": "2026-04-16",
+      "label": "Day 48 AM — Brent $94.89 (+18.9%), WTI $91.50 (+21.2%). Iran threatens total Gulf/Oman/Red Sea shipping blockade. Treasury 'Economic Fury' sanctions. Sanctions waiver expires April 19. Blockade Day 3 — 9-10 tankers turned back. EIA raises 2026 Brent forecast to $96. S&P 500 record 7,022. Gas $4.108.",
       "brent": {
-        "price": 95.72,
-        "change": "+19.9%",
-        "changeDollars": 15.92
+        "price": 94.89,
+        "change": "+18.9%",
+        "changeDollars": 15.05
       },
       "wti": {
         "price": 91.50,
         "change": "+21.2%",
-        "changeDollars": 16.00
+        "changeDollars": 15.99
       },
-      "changePercent": "+19.9%",
-      "lastUpdated": "2026-04-15"
+      "changePercent": "+18.9%",
+      "lastUpdated": "2026-04-16"
     },
     "priceHistory": [
       {
@@ -604,7 +604,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-16T01:00:00Z",
+    "lastUpdated": "2026-04-16T06:02:00Z",
     "note": "Day 47 EVE: Oil settles Brent $95.72 (+19.9%), WTI $91.50 (+21.2%). AAA avg $4.108/gal (+30.8%). Pentagon: 150 ships sunk, 13K targets. Ceasefire extension 'in-principle.' 10K+ US troops deploying. S&P 500 record 7,022. Blockade 9 tankers.",
     "fuels": [
       {
