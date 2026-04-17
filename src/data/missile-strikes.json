@@ -8219,5 +8219,41 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-488",
+    "city": "Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-16",
+    "description": "Israeli airstrike killed 8 and injured dozens in Nabatieh area, minutes after Trump's ceasefire announcement. One of the last strikes before the ceasefire took effect at midnight Beirut time.",
+    "source": "Middle East Monitor",
+    "sourceUrl": "https://www.middleeastmonitor.com/20260416-israeli-strike-kills-8-injures-dozens-in-southern-lebanon-after-ceasefire-announcement/",
+    "weaponType": "precision munitions",
+    "casualties": {
+      "killed": 8,
+      "injured": 30
+    }
+  },
+  {
+    "id": "ms-489",
+    "city": "Ya'ara / Hanita",
+    "country": "Israel",
+    "lat": 33.05,
+    "lng": 35.15,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-16",
+    "description": "Hezbollah launched 10 rockets at northern Israel approximately 2 hours before the ceasefire took effect. IDF intercepted 8. Three Israelis wounded, two severely.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-16/ty-article-live/report-lebanese-officials-say-cease-fire-with-israel-expected-soon/0000019d-9419-df26-a1bf-b5dbfb980000",
+    "weaponType": "rockets",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]
