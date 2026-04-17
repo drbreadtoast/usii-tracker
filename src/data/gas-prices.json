@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-17T13:15:00Z",
-  "currentAverage": 4.076,
+  "lastUpdated": "2026-04-17T22:06:00Z",
+  "currentAverage": 4.093,
   "preWarAverage": 3.14,
-  "changePercent": 29.8,
+  "changePercent": 30.4,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -467,21 +467,21 @@
     },
     "current": {
       "label": "Current (Apr 14)",
-      "crudePerBarrel": 91.42,
+      "crudePerBarrel": 90.38,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$93.59 ÷ 42 gal (Brent-based)",
-          "value": 2.451,
-          "percent": 60,
-          "change": "+$0.831"
+          "formula": "$90.38 ÷ 42 gal (Brent settlement)",
+          "value": 2.152,
+          "percent": 53,
+          "change": "+$0.532"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.671,
-          "percent": 16,
-          "change": "+$0.271"
+          "value": 0.887,
+          "percent": 22,
+          "change": "+$0.487"
         },
         {
           "name": "Distribution & Marketing",
@@ -501,7 +501,7 @@
           "name": "Average State Tax",
           "formula": "50-state average",
           "value": 0.35,
-          "percent": 8,
+          "percent": 9,
           "change": "$0.00"
         },
         {
@@ -512,18 +512,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.076,
-      "note": "National average $4.076/gal (AAA April 17). MAJOR REVERSAL: Iran declares Hormuz 'completely open.' Brent crashes to $93.59 (+17.3%), WTI $89.90 (+19.1%). Gas ticking lower. AAA: 'Drivers See Small Break.' CPI March 3.3%. CA $5.88. OK $3.44.",
-      "crude": 2.451,
+      "total": 4.093,
+      "note": "National average $4.093/gal (AAA April 17 PM). Oil settled sharply lower — Brent $90.38 (+13.3%), WTI $83.85 (+11.1%). Gas ticked UP slightly despite oil drop (lag effect). AAA: national average exceeded $4 for first time in 4 years. EIA forecasts peak $4.30 in April. CA $5.864. Diesel $5.593.",
+      "crude": 2.152,
       "taxes": 0.86,
-      "refining": 0.52,
-      "distribution": 0.45,
-      "regularGasoline": 4.076,
-      "changeFromPreWar": "+$0.936",
-      "changePercent": "+29.8%",
-      "lastUpdated": "2026-04-17T13:15:00Z",
+      "refining": 0.887,
+      "distribution": 0.3,
+      "regularGasoline": 4.093,
+      "changeFromPreWar": "+$0.953",
+      "changePercent": "+30.4%",
+      "lastUpdated": "2026-04-17T22:06:00Z",
       "date": "2026-04-17"
     }
   },
-  "context": "Day 49 BREAKING: Gas $4.076/gal (AAA). MAJOR REVERSAL — Iran declares Hormuz 'completely open' for commercial traffic. Brent crashes to $93.59/bbl (+17.2%), WTI $89.90 (+19.1%) — down from $99.39 earlier. Lebanon ceasefire holding. S&P record 7,023. Trump 'very close' to deal. AAA: 'Drivers See Small Break as Gas Prices Tick Lower.' CPI March 3.3%. Ceasefire expires April 22. CA $5.88; OK $3.44."
+  "context": "Day 49 PM: Gas $4.093/gal (AAA). Oil settled sharply lower — Brent $90.38 (+13.3%), WTI $83.85 (+11.1%) — biggest crash since April 8. Hormuz declared open. Trump PROHIBITS Israel bombing Lebanon. $20B uranium deal discussed. European Hormuz mission. S&P record 7,126. Nasdaq 13-day streak. EIA forecasts $4.30 peak. Ceasefire expires April 22. CA $5.864; Diesel $5.593."
 }

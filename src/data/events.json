@@ -34116,5 +34116,150 @@
       "injured": 0
     },
     "tags": ["oil", "brent", "wti", "crash", "hormuz", "markets", "sp500", "record", "day49"]
+  },
+  {
+    "id": "evt-new-1002",
+    "title": "Israeli drone strike kills 1 in south Lebanon during ceasefire — first fatality since truce began",
+    "description": "An Israeli drone struck a motorcycle between the southern Lebanese towns of Kounine and Beit Yahoun, killing 1 person and wounding 3 (including a Syrian citizen). First fatality since the 10-day ceasefire took effect at midnight. Lebanese army confirmed the ceasefire violation. UNIFIL observed continued IDF artillery shelling until 6 AM and airspace violations.",
+    "type": "strike",
+    "lat": 33.20,
+    "lng": 35.47,
+    "location": "Kounine-Beit Yahoun, Nabatieh, Lebanon",
+    "timestamp": "2026-04-17T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CBC News — 1 killed in Israeli strike in southern Lebanon",
+        "url": "https://www.cbc.ca/news/world/lebanon-israel-ceasefire-hezbollah-9.7167688"
+      },
+      {
+        "name": "Al Jazeera — What we know about the Israel-Lebanon ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/17/what-we-know-about-the-israel-lebanon-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 3
+    },
+    "tags": ["drone", "ceasefire-violation", "lebanon", "kounine", "day49"]
+  },
+  {
+    "id": "evt-new-1003",
+    "title": "Trump declares Israel 'PROHIBITED' from bombing Lebanon — Netanyahu caught off guard",
+    "description": "Trump posted on Truth Social: 'Israel will not be bombing Lebanon any longer. They are PROHIBITED from doing so by the U.S.A. Enough is enough!!!' Netanyahu and his team were caught off guard — learned about it from media. Axios reported Israeli officials asked White House for clarification as post 'contradicted the agreement.' US official later clarified ceasefire 'preserves Israel's right to self-defense.' Netanyahu responded: 'We haven't finished the job yet.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC / Jerusalem",
+    "timestamp": "2026-04-17T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Reuters — Trump says Israel barred from bombing Lebanon",
+        "url": "https://www.reuters.com/world/middle-east/trump-says-israel-banned-bombing-lebanon-2026-04-17/"
+      },
+      {
+        "name": "Axios — Trump shocked Netanyahu with Lebanon post",
+        "url": "https://www.axios.com/2026/04/17/lebanon-strikes-israel-trump-prohibited"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "netanyahu", "prohibited", "lebanon", "ceasefire", "friction", "day49"]
+  },
+  {
+    "id": "evt-new-1004",
+    "title": "European Hormuz maritime mission — ~30 countries plan UK-led defensive naval force",
+    "description": "France's Macron and UK's Starmer co-chaired a summit of ~30-40 countries in Paris to plan a multinational defensive mission to secure the Strait of Hormuz. Over a dozen countries offered to contribute naval assets. UK will lead the mission, focused on protecting commercial shipping and mine clearance. Trump responded calling NATO allies 'useless' and telling them to 'STAY AWAY.'",
+    "type": "naval",
+    "lat": 48.86,
+    "lng": 2.35,
+    "location": "Paris, France — Hormuz Summit",
+    "timestamp": "2026-04-17T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Reuters — Over a dozen countries offer role in Hormuz mission",
+        "url": "https://www.reuters.com/world/europe/countries-discuss-hormuz-mission-when-conflict-ends-2026-04-17/"
+      },
+      {
+        "name": "Politico EU — Europe to accelerate Hormuz effort despite Trump",
+        "url": "https://www.politico.eu/article/europe-to-accelerate-effort-secure-hormuz-despite-donald-trump-order-to-stay-away/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "maritime", "mission", "macron", "starmer", "uk", "france", "naval", "day49"]
+  },
+  {
+    "id": "evt-new-1005",
+    "title": "Oil crashes to settlement — Brent $90.38, WTI $83.85 — biggest drop since ceasefire Day 1",
+    "description": "Oil prices settled sharply lower after Iran declared Hormuz open and ceasefire optimism grew. Brent settled at $90.38/bbl (+13.3% from pre-war), down from intraday high of $99.39. WTI settled at $83.85/bbl (+11.1% from pre-war). Biggest single-day drop since April 8 ceasefire. S&P 500 closed at record 7,126.06 (+1.20%). Nasdaq: 13th straight gain (longest since 1992). Dow +868 points. Gas $4.093 (AAA). Sanctions waiver expires April 19.",
+    "type": "infrastructure",
+    "lat": 40.71,
+    "lng": -74.01,
+    "location": "New York, USA (NYMEX/Markets)",
+    "timestamp": "2026-04-17T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Reuters — Oil falls on Iran Hormuz opening",
+        "url": "https://www.reuters.com/business/energy/oil-falls-prospects-talks-end-iran-war-revive-supply-2026-04-17/"
+      },
+      {
+        "name": "CNBC — Oil prices, markets April 17",
+        "url": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["oil", "brent", "wti", "settlement", "crash", "hormuz", "sp500", "record", "nasdaq", "day49"]
+  },
+  {
+    "id": "evt-new-1006",
+    "title": "US considers $20B cash-for-uranium deal with Iran — Axios exclusive",
+    "description": "Axios reports the US is considering releasing $20 billion in frozen Iranian funds in exchange for Iran giving up its enriched uranium stockpile (~2,000kg total, including 450kg at 60% purity). Iran initially demanded $27B; US initially offered $6B for humanitarian supplies. Three-page MoU framework being finalized for 60-day negotiation period. Next talks expected this weekend in Islamabad.",
+    "type": "diplomatic",
+    "lat": 33.69,
+    "lng": 73.04,
+    "location": "Islamabad, Pakistan (next round) / Washington, DC",
+    "timestamp": "2026-04-17T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Axios — US considers $20 billion cash-for-uranium deal",
+        "url": "https://www.axios.com/2026/04/17/iran-us-deal-20-billion-frozen-funds-uranium"
+      },
+      {
+        "name": "Reuters — Iran-US talks turn to interim deal",
+        "url": "https://www.reuters.com/world/asia-pacific/iran-us-narrow-differences-after-pakistani-mediation-splits-remain-senior-2026-04-16/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["uranium", "deal", "20-billion", "negotiations", "islamabad", "mou", "day49"]
   }
 ]

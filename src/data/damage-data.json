@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-17T13:15:00Z",
+    "lastUpdated": "2026-04-17T22:06:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 382
+    "totalSites": 383
   },
   "summary": {
-    "totalSites": 384,
+    "totalSites": 385,
     "confirmed": 311,
     "reported": 1,
     "rumored": 0,
@@ -6020,6 +6020,21 @@
       "description": "Israeli airstrike killed 8 and injured dozens in Nabatieh residential area, minutes after Trump announced the 10-day Israel-Lebanon ceasefire. One of the last strikes before the ceasefire took effect at midnight Beirut time.",
       "source": "Middle East Monitor",
       "sourceUrl": "https://www.middleeastmonitor.com/20260416-israeli-strike-kills-8-injures-dozens-in-southern-lebanon-after-ceasefire-announcement/",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-389",
+      "name": "Qasmiyeh Bridge — temporary earthen crossing built overnight after destruction",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.30,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-17",
+      "description": "Workmen built an earthen dyke as a temporary replacement for the destroyed Qasmiyeh Bridge overnight. Thousands of displaced Lebanese forced their way past IDF barriers south of the Litani. HRW called for investigation of the bridge destruction as a potential war crime. 40,000 housing units destroyed/damaged across southern Lebanon per CNRS.",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/middle-east/lebanese-trickle-home-ceasefire-with-israel-mostly-holds-2026-04-17/",
       "severity": "high",
       "attributedTo": "israel"
     }
