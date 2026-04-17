@@ -34116,5 +34116,175 @@
       "injured": 0
     },
     "tags": ["oil", "brent", "wti", "crash", "hormuz", "markets", "sp500", "record", "day49"]
+  },
+  {
+    "id": "evt-new-1002",
+    "title": "Israeli drone kills motorcyclist in southern Lebanon — first major ceasefire violation",
+    "description": "An Israeli drone strike targeted a motorcycle between southern Lebanese towns, killing one person — the first major ceasefire violation reported since the 10-day Israel-Lebanon truce took effect. Strike occurred within hours of Trump declaring Israel 'PROHIBITED' from bombing Lebanon. Lebanese Army reported multiple early violations including intermittent shelling of villages.",
+    "type": "strike",
+    "lat": 33.3772,
+    "lng": 35.4839,
+    "location": "Nabatieh area, southern Lebanon",
+    "timestamp": "2026-04-17T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war live: ceasefire starts in Lebanon",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/17/iran-war-live-ceasefire-starts-in-lebanon-as-trump-says-tehran-deal-close"
+      },
+      {
+        "name": "Al Jazeera — What we know about the Israel-Lebanon ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/17/what-we-know-about-the-israel-lebanon-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "drone", "ceasefire-violation", "nabatieh", "day49"]
+  },
+  {
+    "id": "evt-new-1003",
+    "title": "Israeli fire on ambulance team in Kunin — southern Lebanon ceasefire violation",
+    "description": "Israeli forces fired a heavy machinegun and an artillery shell toward an ambulance team affiliated with the Islamic Health Authority in Kunin, Nabatieh Governorate, shortly after the ceasefire took effect. Multiple medics reported injured.",
+    "type": "strike",
+    "lat": 33.1747,
+    "lng": 35.4119,
+    "location": "Kunin, Nabatieh Governorate, Lebanon",
+    "timestamp": "2026-04-17T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Lebanese return to devastated south",
+        "url": "https://www.aljazeera.com/news/2026/4/17/lebanese-return-to-devastated-south-as-fragile-10-day-truce-takes-hold"
+      },
+      {
+        "name": "Al Jazeera — What we know about the Israel-Lebanon ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/17/what-we-know-about-the-israel-lebanon-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["israel", "lebanon", "ambulance", "ceasefire-violation", "kunin", "medics", "day49"]
+  },
+  {
+    "id": "evt-new-1004",
+    "title": "Trump orders Israel 'PROHIBITED' from bombing Lebanon after Netanyahu says Hezbollah fight 'not over'",
+    "description": "After Netanyahu publicly stated the fight with Hezbollah is 'not over' and that Lebanon is not part of the US-Iran ceasefire, Trump posted on Truth Social declaring Israel 'PROHIBITED' from bombing Lebanon. Major US-Israel public split. Iran and Pakistani mediators side with Trump's interpretation.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington, DC / Truth Social",
+    "timestamp": "2026-04-17T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Times of Israel — Live blog April 17, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-april-17-2026/"
+      },
+      {
+        "name": "NBC News — Live updates: Israel-Lebanon ceasefire",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-israel-lebanon-ceasefire-trump-iran-talks-hormuz-summit-rcna332294"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "netanyahu", "lebanon", "prohibited", "us-israel-split", "truth-social", "day49"]
+  },
+  {
+    "id": "evt-new-1005",
+    "title": "Iraqi air defenses down drone targeting Ain al-Asad airbase radar",
+    "description": "Iraqi Defense Ministry said air defenses shot down a drone aimed at radar systems at the Ain al-Asad airbase in Anbar province. Consistent with ongoing Iran-aligned militia harassment despite Iran war ceasefire. No casualties reported.",
+    "type": "strike",
+    "lat": 33.7856,
+    "lng": 42.4414,
+    "location": "Ain al-Asad Airbase, Anbar, Iraq",
+    "timestamp": "2026-04-17T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "EPIC — Iraq Security and Humanitarian Monitor 537",
+        "url": "https://enablingpeace.org/ishm537/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iraq", "militia", "drone", "ain-al-asad", "anbar", "intercept", "day49"]
+  },
+  {
+    "id": "evt-new-1006",
+    "title": "USS George H.W. Bush Carrier Strike Group transits Gibraltar en route to CENTCOM",
+    "description": "First elements of the USS George H.W. Bush Carrier Strike Group transited the Strait of Gibraltar into the Mediterranean in early April; flagship plus three escorts following. ~6,000 personnel deploying via the Horn of Africa to reinforce the CENTCOM Hormuz blockade, joining USS Gerald R. Ford CSG already in eastern Med.",
+    "type": "movement",
+    "lat": 36.1408,
+    "lng": -5.3536,
+    "location": "Strait of Gibraltar / Mediterranean transit",
+    "timestamp": "2026-04-17T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Stars and Stripes — Navy blockade Iran Persian Gulf USS George H.W. Bush",
+        "url": "https://www.stripes.com/branches/navy/2026-04-14/navy-blockade-iran-persian-gulf-uss-george-hw-bush-21372501.html"
+      },
+      {
+        "name": "The War Zone — Carrier Tracker April 12 2026",
+        "url": "https://www.twz.com/sea/carrier-tracker-as-of-april-12-2026"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us-navy", "bush-csg", "gibraltar", "deployment", "centcom", "blockade", "day49"]
+  },
+  {
+    "id": "evt-new-1007",
+    "title": "Iran Foreign Minister Araghchi: Hormuz 'completely open' for commercial vessels",
+    "description": "Iranian Foreign Minister Abbas Araghchi posted on X: 'In line with the ceasefire in Lebanon, the passage for all commercial vessels through Strait of Hormuz is declared completely open for the remaining period of ceasefire.' Oil prices dropped ~10-11% on announcement. Brent $91.85, WTI $88.10.",
+    "type": "diplomatic",
+    "lat": 26.5667,
+    "lng": 56.2500,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-17T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran FM says Strait of Hormuz completely open",
+        "url": "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open"
+      },
+      {
+        "name": "Bloomberg — Iran Says Hormuz Strait Completely Open",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/iran-says-hormuz-strait-now-completely-open-for-commercial-ships"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "araghchi", "hormuz", "open", "ceasefire", "oil", "day49"]
   }
 ]

@@ -1,10 +1,10 @@
 {
   "straitStatus": "partially_blocked",
   "blockadeDay": 46,
-  "dailyTransits": 6,
+  "dailyTransits": 14,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-17T13:15:00Z",
+  "lastUpdated": "2026-04-17T19:20:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,16 +24,16 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 49 Late: CENTCOM blockade DAY 4. Hormuz summit outcomes: 40 nations plan defensive multinational naval mission — military planning meeting next week. France-UK explicitly reject joining US blockade. Iran Deputy FM at Antalya rejects temporary ceasefire. Ship spoofing detected — Iran-linked tanker 'Alicia' used false AIS. 13-14 ships turned back. 10,000+ US troops, 12+ warships enforcing. USS George H.W. Bush CSG en route as third carrier. Oil surges: Brent $99.39 (+24.5%), WTI $93.74. Gas $4.09. Blockade Day 46.",
+    "tankerTraffic": "Day 49 PM: Iran FM Araghchi declares Hormuz 'completely open' for commercial vessels during ceasefire. CENTCOM blockade of Iranian ports continues (DAY 4). Macron-Starmer ~30-nation Hormuz summit in London — 'Strictly Defensive' multinational naval mission planned, military meeting next week. France/UK explicitly refuse to join US blockade. US NOT invited. Germany, Italy attending in person. USS Spruance intercepted 2nd Iranian tanker. Iran-linked vessel 'Alicia' spoofed AIS. 3 Chinese VLCCs transited via Larak Island corridor. Oil crashes: Brent $91.85 (+15.1%), WTI $88.10. Gas $4.072. 10,000+ US troops, 12+ warships enforcing blockade. USS George H.W. Bush CSG through Gibraltar.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
-    "lastUpdated": "2026-04-10T06:09:00Z",
+    "lastUpdated": "2026-04-17T19:20:00Z",
     "tankersTransitedSinceStart": 21,
-    "dailyAverageAIS": 13,
+    "dailyAverageAIS": 14,
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
     "countriesApprovedForTransit": 8,
-    "note": "Day 46 PM (Ceasefire Day 7): CENTCOM BLOCKADE DAY 1 COMPLETE. 6 ships U-turned. No vessels reached Iranian ports. 3 vessels (incl. Chinese-owned Rich Starry, 2 sanctioned tankers) transited strait but NOT to Iranian ports. China: 'Strait is open to us.' 157.7M bbl Iranian oil on water (97.6% China-bound). Saudi + 5 Gulf states demand US end blockade. Houthi counter-blockade threat at Bab al-Mandeb. Oil plunges: Brent $94.87, WTI $91.42 on talk hopes. IEA: March 10.1M bpd lost. Pakistan pushing Islamabad Round 2. Ceasefire expires April 22. Blockade Day 43.",
+    "note": "Day 49 PM (Blockade Day 46 / CENTCOM Blockade Day 4): Iran declares Hormuz 'completely open' for commercial vessels. Status partially_blocked — commercial transit green-lit by Tehran, but US CENTCOM blockade of Iranian ports continues (~13 tankers turned back). Macron-Starmer Hormuz summit: ~30 countries commit to 'Strictly Defensive' multinational naval mission; France/UK refuse to join US blockade; US NOT invited; military planning meeting next week. Germany, Italy attended. 3 Chinese VLCCs via Larak Island corridor. USS Spruance intercepted 2nd Iranian tanker. Iran-linked tanker 'Alicia' spoofed AIS. Oil crashes: Brent $91.85 (+15.1%), WTI $88.10 (+16.7%) on reopening. Dow futures +500 pts. Ceasefire Day 1 in Lebanon. Blockade Day 46.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 53,
@@ -43,12 +43,12 @@
     "commercialAttacks": 27,
     "seafarersKilled": 8,
     "seafarersAffected": 40000,
-    "dailyTransits": 6,
+    "dailyTransits": 14,
     "commercialShipsAttacked": 27,
-    "totalTransitsSinceBlockade": 302,
+    "totalTransitsSinceBlockade": 316,
     "strangedVessels": 2163,
     "shipsTrapped": 800,
-    "currentTraffic": "6 vessels/day (bulk only, zero oil tankers)",
+    "currentTraffic": "14 vessels/day (Iran declared strait open for commercial vessels; CENTCOM blockade of Iranian ports continues)",
     "preWarTraffic": "135 vessels/day",
     "barrelsBlockedDaily": 15000000
   },
@@ -553,6 +553,12 @@
     {
       "date": "2026-04-17",
       "event": "Day 49 (Blockade Day 46 / CENTCOM Blockade Day 4): MAJOR — Iran FM Araghchi declares Strait of Hormuz 'completely open' for all commercial vessels during ceasefire period. Status changed to 'partially_blocked' — Iran opened commercial transit but US CENTCOM blockade of Iranian ports continues. 13 ships total turned back by US blockade. Dow futures rallied 500+ points. Brent crashes to $93.59 from $99.39. Macron-Starmer Hormuz summit: ~30 countries plan 'Strictly Defensive' multinational naval mission. Germany, Italy attending in person. US NOT invited. Ceasefire Day 1 in Lebanon holding despite violations. 10,000+ US troops enforcing blockade.",
+      "status": "partially_blocked",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-17-pm",
+      "event": "Day 49 PM (Blockade Day 46 / CENTCOM Blockade Day 4): Daily transits climb to 14 after Iran's opening declaration. 3 Chinese VLCCs transit via Larak Island northern corridor. USS Spruance intercepts 2nd Iranian tanker fleeing Bandar Abbas. Iran-linked shadow tanker 'Alicia' detected using AIS spoofing. Macron-Starmer Hormuz summit in London concludes with ~30-nation 'Strictly Defensive' coalition (France, UK, Germany, Italy attending); US explicitly not invited; military planning meeting next week. Trump declares Israel 'PROHIBITED' from Lebanon strikes — Netanyahu public split. Oil settles Brent $91.85 (-3.0%), WTI $88.10. Gas AAA $4.072. USDA raises 2026 food price estimates on Hormuz opening hopes.",
       "status": "partially_blocked",
       "barrels": 0
     }

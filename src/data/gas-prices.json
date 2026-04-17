@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-17T13:15:00Z",
-  "currentAverage": 4.076,
+  "lastUpdated": "2026-04-17T19:20:00Z",
+  "currentAverage": 4.072,
   "preWarAverage": 3.14,
-  "changePercent": 29.8,
+  "changePercent": 29.7,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -414,8 +414,8 @@
     },
     {
       "date": "2026-04-17",
-      "price": 4.09,
-      "label": "Day 49 PM — $4.09 (AAA, -0.3¢). Oil surges: Brent $98.25 (+23.1%), WTI $93.47 (+23.8%). Lebanon ceasefire violations. 40-nation Hormuz summit. IMF cuts growth to 3.1%. Sanctions waiver expires April 19.",
+      "price": 4.072,
+      "label": "Day 49 PM — $4.072 (AAA, -0.4¢ DoD, -5.3¢ WoW). Oil drifts lower: Brent $91.85 (+15.1%), WTI $88.10 (+16.7%). Iran declared Hormuz 'completely open.' Trump: Israel PROHIBITED from Lebanon. ~30-nation Macron-Starmer Hormuz coalition excludes US. Sanctions waiver expires April 19.",
       "isEvent": true
     }
   ],
@@ -466,15 +466,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 14)",
-      "crudePerBarrel": 91.42,
+      "label": "Current (Apr 17 PM)",
+      "crudePerBarrel": 91.85,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$93.59 ÷ 42 gal (Brent-based)",
-          "value": 2.451,
+          "formula": "$91.85 ÷ 42 gal (Brent-based)",
+          "value": 2.447,
           "percent": 60,
-          "change": "+$0.831"
+          "change": "+$0.827"
         },
         {
           "name": "Refining",
@@ -494,14 +494,14 @@
           "name": "Federal Excise Tax",
           "formula": "Fixed rate",
           "value": 0.184,
-          "percent": 4,
+          "percent": 5,
           "change": "$0.00"
         },
         {
           "name": "Average State Tax",
           "formula": "50-state average",
           "value": 0.35,
-          "percent": 8,
+          "percent": 9,
           "change": "$0.00"
         },
         {
@@ -512,18 +512,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.076,
-      "note": "National average $4.076/gal (AAA April 17). MAJOR REVERSAL: Iran declares Hormuz 'completely open.' Brent crashes to $93.59 (+17.3%), WTI $89.90 (+19.1%). Gas ticking lower. AAA: 'Drivers See Small Break.' CPI March 3.3%. CA $5.88. OK $3.44.",
-      "crude": 2.451,
+      "total": 4.072,
+      "note": "National average $4.072/gal (AAA April 17 PM). Brent $91.85 (+15.1%), WTI $88.10 (+16.7%) — continue sliding after Iran's Hormuz 'completely open' declaration. Trump: Israel PROHIBITED from Lebanon. Gas -0.4¢ DoD, -5.3¢ WoW. AAA: 'Drivers See Small Break.' CA $5.87. OK $3.42.",
+      "crude": 2.447,
       "taxes": 0.86,
-      "refining": 0.52,
+      "refining": 0.521,
       "distribution": 0.45,
-      "regularGasoline": 4.076,
-      "changeFromPreWar": "+$0.936",
-      "changePercent": "+29.8%",
-      "lastUpdated": "2026-04-17T13:15:00Z",
+      "regularGasoline": 4.072,
+      "changeFromPreWar": "+$0.932",
+      "changePercent": "+29.7%",
+      "lastUpdated": "2026-04-17T19:20:00Z",
       "date": "2026-04-17"
     }
   },
-  "context": "Day 49 BREAKING: Gas $4.076/gal (AAA). MAJOR REVERSAL — Iran declares Hormuz 'completely open' for commercial traffic. Brent crashes to $93.59/bbl (+17.2%), WTI $89.90 (+19.1%) — down from $99.39 earlier. Lebanon ceasefire holding. S&P record 7,023. Trump 'very close' to deal. AAA: 'Drivers See Small Break as Gas Prices Tick Lower.' CPI March 3.3%. Ceasefire expires April 22. CA $5.88; OK $3.44."
+  "context": "Day 49 PM: Gas $4.072/gal (AAA). Brent $91.85/bbl (+15.1%), WTI $88.10 (+16.7%) — continue drifting lower after Iran's Hormuz 'completely open' declaration this morning. Trump: Israel 'PROHIBITED' from Lebanon (Netanyahu split on Hezbollah fight). ~30 nations back Macron-Starmer Hormuz coalition excluding US. CENTCOM blockade Day 4 — USS Spruance intercepts 2nd Iranian tanker. AAA: 'Drivers See Small Break.' Sanctions waiver expires April 19. Ceasefire expires April 22. CA $5.87; OK $3.42."
 }

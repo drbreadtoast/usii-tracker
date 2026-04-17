@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-17T13:15:00Z",
+    "lastUpdated": "2026-04-17T19:20:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 382
+    "totalSites": 383
   },
   "summary": {
-    "totalSites": 384,
-    "confirmed": 311,
+    "totalSites": 385,
+    "confirmed": 312,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6020,6 +6020,21 @@
       "description": "Israeli airstrike killed 8 and injured dozens in Nabatieh residential area, minutes after Trump announced the 10-day Israel-Lebanon ceasefire. One of the last strikes before the ceasefire took effect at midnight Beirut time.",
       "source": "Middle East Monitor",
       "sourceUrl": "https://www.middleeastmonitor.com/20260416-israeli-strike-kills-8-injures-dozens-in-southern-lebanon-after-ceasefire-announcement/",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-389",
+      "name": "Kunin Civil Defense ambulance — Israeli drone strike during ceasefire",
+      "country": "Lebanon",
+      "lat": 33.2267,
+      "lng": 35.4242,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-17",
+      "description": "Israeli drone strike on Lebanese Civil Defense ambulance in Kunin during 10-day ceasefire. 3 medics wounded, one critically. Second ceasefire violation within hours.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/17/celebrations-in-lebanon-as-10-day-ceasefire-with-israel-begins",
       "severity": "high",
       "attributedTo": "israel"
     }

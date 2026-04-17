@@ -35,78 +35,78 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-16T18:00:00Z",
+    "lastUpdated": "2026-04-17T19:20:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 48,
+    "daysOfConflict": 49,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 48
+    "conflictDay": 49
   },
   "countryCosts": {
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
       "directMilitaryCosts": {
-        "total": 43000000000,
+        "total": 44500000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
-            "amount": 14200000000,
-            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 43: DOE 30M barrel SPR exchange. Pentagon supplemental slashed to $80-100B. $22B munitions procurement requested (+387%).",
+            "amount": 14400000000,
+            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 49: CENTCOM blockade Day 4 uses minimal munitions (boarding ops). Pentagon supplemental $80-100B. $22B munitions procurement requested (+387%).",
             "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
-            "amount": 8800000000,
-            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU, destroyer/submarine operations. Day 43: sustained Hormuz patrol. Ceasefire Day 4 — no change in naval posture.",
+            "amount": 9100000000,
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush through Gibraltar as 3rd carrier), 2,500+ Marines + USS Tripoli, USS Boxer ARG + 11th MEU, 6 guided-missile destroyers. CENTCOM blockade Day 4: USS Spruance intercepted 2nd Iranian tanker. 12+ warships enforcing blockade. Hormuz 'completely open' per Iran but US blockade continues.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
           "airOperations": {
-            "amount": 8200000000,
-            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). 24 MQ-9 Reapers lost ($720M+). Ceasefire pauses air ops over Iran but CENTCOM maintains readiness posture.",
+            "amount": 8400000000,
+            "description": "B-2 Spirit and B-1B sorties from Whiteman AFB and Diego Garcia ($6.7M per B-2 sortie), F-35A/F-22 operations, KC-135/KC-46 tanker support (6 crew killed in KC-135 crash Day 14). 24 MQ-9 Reapers lost ($720M+). Ceasefire Day 1 in Lebanon — air ops over Iran paused; CENTCOM maintains readiness, Hegseth 'locked and loaded' rhetoric.",
             "source": "Air Force Cost Per Flying Hour data / CRS Air Force Budget Report",
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
           "personnelDeployment": {
-            "amount": 3000000000,
-            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 399 WIA (354 returned to duty). No new KIA since ceasefire. CENTCOM blockade Day 2.",
+            "amount": 3100000000,
+            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 399 WIA (354 returned to duty). No new KIA since ceasefire. CENTCOM blockade Day 4.",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
           },
           "logistics": {
-            "amount": 8800000000,
-            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Day 45: Elevated fuel costs from $100+ crude after blockade surge. CENTCOM blockade enforcement logistics. Ceasefire sustainment ops, Hormuz patrol logistics, SPR management. Includes Isfahan rescue op logistics.",
+            "amount": 9500000000,
+            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Day 49: Fuel costs easing from $99 Brent to $91.85 after Iran's Hormuz opening. CENTCOM blockade enforcement (Day 4) logistics. Ceasefire sustainment ops, Hormuz patrol logistics, SPR management (DOE 30M bbl exchange). Includes Isfahan rescue op logistics.",
             "source": "USTRANSCOM / Defense Logistics Agency",
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$43B",
+        "totalFormatted": "$44.5B",
         "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon supplemental slashed from $200B+ to $80-100B (WaPo April 7). 250+ groups oppose additional funding. Penn Wharton: $40B-$95B total direct costs.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
       "indirectCosts": {
-        "total": 37600000000,
+        "total": 38200000000,
         "currency": "USD",
         "breakdown": {
           "economicDisruption": {
-            "amount": 37600000000,
+            "amount": 38200000000,
             "description": "Indirect economic costs including supply chain disruption, oil price impact, domestic inflation"
           }
         }
       },
       "dailyBurnRate": 1000000000,
-      "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
-      "totalEstimate": "~$43B direct military + ~$37.6B indirect through Day 47",
-      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
-      "totalCost": 80600000000,
-      "totalFormatted": "$80.6B",
-      "total": 80600000000,
-      "lastUpdated": "2026-04-15T11:58:00Z",
-      "note": "Day 47 PM: $43B direct + $37.6B indirect = ~$80.6B total through Day 47. CENTCOM blockade 'fully implemented' — 8 tankers intercepted. Harvard: $1T long-term cost. Burn rate ~$1B/day. Pentagon supplemental $80-100B. Oil Brent $96.80. IMF recession warning. EIA: Q2 peak $115/bbl. Iran threatens Red Sea blockade. Sanctions waiver expires April 19. 13 KIA, 399 WIA.",
+      "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $80-100B supplemental pending.",
+      "totalEstimate": "~$44.5B direct military + ~$38.2B indirect through Day 49",
+      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $80-100B supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~57,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
+      "totalCost": 82700000000,
+      "totalFormatted": "$82.7B",
+      "total": 82700000000,
+      "lastUpdated": "2026-04-17T19:20:00Z",
+      "note": "Day 49 PM: $44.5B direct + $38.2B indirect = ~$82.7B total through Day 49. CENTCOM blockade Day 4: 13+ tankers turned back. USS Spruance intercepts 2nd Iranian tanker. Harvard: $1T long-term cost. Burn rate ~$1B/day. Pentagon supplemental $80-100B. Oil Brent $91.85 (-3.0%) after Iran declares Hormuz open. Gas $4.072. Ceasefire Day 1 in Lebanon holding. Trump PROHIBITS Israel from Lebanon. 13 KIA, 399 WIA.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin now seeking $80-100B supplemental (down from $200B+).",
-      "directMilitary": 43000000000,
-      "description": "US direct military costs ~$43B (Day 47 PM). Indirect costs ~$37.6B. Total ~$80.6B. Daily burn rate ~$1B/day. CENTCOM blockade 'fully implemented' — 8 tankers. Harvard: $1T long-term. 57,000+ troops. 950+ Tomahawks (~$1.9B). Pentagon supplemental $80-100B. Oil Brent $96.80. IMF recession warning. 13 KIA, 399 WIA.",
-      "totalDirect": 43000000000,
+      "directMilitary": 44500000000,
+      "description": "US direct military costs ~$44.5B (Day 49 PM). Indirect costs ~$38.2B. Total ~$82.7B. Daily burn rate ~$1B/day. CENTCOM blockade Day 4 — 13+ tankers turned back. Harvard: $1T long-term. 57,000+ troops. 950+ Tomahawks (~$1.9B). Pentagon supplemental $80-100B. Oil Brent $91.85 after Iran declares Hormuz open. 13 KIA, 399 WIA.",
+      "totalDirect": 44500000000,
       "dailyBurnRateFormatted": "$1B/day"
     },
     "israel": {
@@ -534,15 +534,15 @@
       "sourceUrl": "https://www.imf.org/en/Publications/WEO"
     },
     "oilPriceShock": {
-      "preConflictPrice": 79.8,
-      "currentPrice": 112.57,
+      "preConflictPrice": 79.84,
+      "currentPrice": 91.85,
       "peakPrice": 119.11,
-      "wtiPrice": 99.64,
-      "usGasPricePerGallon": 3.981,
+      "wtiPrice": 88.10,
+      "usGasPricePerGallon": 4.072,
       "priceUnit": "USD per barrel (Brent Crude)",
-      "percentageIncrease": 41.1,
-      "estimatedGlobalCost": 950000000000,
-      "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain elevated at Brent $112.57, based on approximately 100 million barrels/day global consumption. Macquarie warns 40% probability of $200 oil if Hormuz stays shut through June.",
+      "percentageIncrease": 15.1,
+      "estimatedGlobalCost": 430000000000,
+      "estimatedGlobalCostNote": "Annualized additional cost to global economy if prices remain at Brent $91.85 (+15.1%), based on approximately 100 million barrels/day global consumption. Oil crashed from $99+ after Iran declared Hormuz open for commercial vessels.",
       "hormuzFlowDisruption": {
         "normalFlowMBD": 21.0,
         "currentFlowMBD": 0.5,
@@ -574,14 +574,14 @@
       "source": "Lloyd's Market Association Joint War Committee",
       "sourceUrl": "https://www.lmalloyds.com/"
     },
-    "stockMarketImpact": "S&P 500 -1.67% Day 28 (7-month low, 5th straight weekly loss). Dow -1.73% officially in correction. Nasdaq underperforming. Fed holds rates at 3.5-3.75%, warns inflation progress stalled. Hedge funds worst drawdowns since Liberation Day (JPMorgan). Macquarie: 'crude will trade like a meme stock until the solution is peace.'",
-    "oilPriceImpact": "Brent $106.42/bbl (+33.3% from pre-war $79.84). WTI $104.21 (+38.0% from $75.51). Reversed earlier dip to $101 after Trump prime-time Oval Office address vowing to hit Iran 'extremely hard.' April 6 Hormuz energy deadline. IEA: largest supply disruption in history — 21 MBD to ~0.5 MBD through Hormuz. Goldman warns $147+. Macquarie: 40% chance of $200 if Hormuz shut through June.",
-    "gasPrice": 4.06,
-    "brentCrude": 106.42,
-    "wtiCrude": 104.21,
-    "brentPrice": 106.42,
-    "oilPriceIncrease": "+33.3%",
-    "sanctionsNote": "Trump temporarily lifted sanctions on ~140M barrels Iranian crude at sea (March 20). Jones Act and Russian oil sanctions also temporarily suspended to ease energy prices."
+    "stockMarketImpact": "Day 49 PM: S&P 500 rallied to intraday record 7,038 on Trump 'very close to being over' remarks and Iran's Hormuz opening. Dow futures +500 points. Fed holds rates at 3.5-3.75%, warns inflation progress stalled. Hedge funds worst drawdowns since Liberation Day (JPMorgan). Markets pricing in Hormuz reopening.",
+    "oilPriceImpact": "Brent $91.85/bbl (+15.1% from pre-war $79.84). WTI $88.10 (+16.7% from $75.51). Crashed from $99.39 earlier after Iran FM Araghchi declared Hormuz 'completely open' for commercial traffic. IEA: largest supply disruption in history. USDA raised 2026 food price estimates on reopening hopes. Ceasefire expires April 22.",
+    "gasPrice": 4.072,
+    "brentCrude": 91.85,
+    "wtiCrude": 88.10,
+    "brentPrice": 91.85,
+    "oilPriceIncrease": "+15.1%",
+    "sanctionsNote": "Trump temporarily lifted sanctions on ~140M barrels Iranian crude at sea (March 20). Jones Act and Russian oil sanctions temporarily suspended. Treasury 'Economic Fury' sanctions on Shamkhani smuggling network (Day 48). Sanctions waiver expires April 19 — will NOT be renewed."
   },
   "keyFacts": [
     {
@@ -817,27 +817,27 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 64570000000,
-    "allCountriesIndirectCosts": 109490000000,
-    "combinedTotalCosts": 174060000000,
-    "globalEconomicImpact": 880000000000,
-    "description": "Combined direct military + indirect economic costs through Day 49 BREAKING. Iran declares Hormuz 'completely open' for commercial traffic. Oil crashes to $93.59 (-6% from earlier $99.39). S&P record 7,023. Hegseth 'locked and loaded.' Harvard: US war cost may exceed $1T. IMF global growth 3.1%. Gas $4.076. Ceasefire expires April 22.",
-    "lastCalculated": "2026-04-17T13:15:00Z",
-    "allCountriesIndirect": 109490000000,
-    "combinedTotalFormatted": "$174.06B",
-    "lastUpdated": "2026-04-17T06:01:00Z",
-    "directCosts": 64570000000,
-    "indirectCosts": 109490000000,
-    "combinedCosts": 174060000000,
-    "combinedCost": 174060000000,
-    "combinedCostTotal": 174060000000,
-    "allCountriesDirect": 64570000000,
-    "allCountriesDirectFormatted": "$64.57B",
-    "globalEconomicImpactFormatted": "$880B+"
+    "allCountriesDirectMilitary": 66070000000,
+    "allCountriesIndirectCosts": 110090000000,
+    "combinedTotalCosts": 176160000000,
+    "globalEconomicImpact": 430000000000,
+    "description": "Combined direct military + indirect economic costs through Day 49 PM. Iran FM Araghchi declares Hormuz 'completely open' for commercial traffic. Oil crashes to $91.85 (-3% from $99.39 earlier). S&P record 7,038. Trump: Iran war 'very close to being over.' Trump PROHIBITS Israel from Lebanon strikes — public US-Israel split. Ceasefire Day 1 in Lebanon. Gas $4.072. Ceasefire expires April 22 (5 days).",
+    "lastCalculated": "2026-04-17T19:20:00Z",
+    "allCountriesIndirect": 110090000000,
+    "combinedTotalFormatted": "$176.16B",
+    "lastUpdated": "2026-04-17T19:20:00Z",
+    "directCosts": 66070000000,
+    "indirectCosts": 110090000000,
+    "combinedCosts": 176160000000,
+    "combinedCost": 176160000000,
+    "combinedCostTotal": 176160000000,
+    "allCountriesDirect": 66070000000,
+    "allCountriesDirectFormatted": "$66.07B",
+    "globalEconomicImpactFormatted": "$430B+"
   },
   "daysOfConflict": 49,
-  "lastUpdated": "2026-04-17T13:15:00Z",
+  "lastUpdated": "2026-04-17T19:20:00Z",
   "dailyBurnRate": 1478000000,
-  "totalCost": 64570000000,
-  "totalFormatted": "$64.57B (direct military, all countries, Day 49)"
+  "totalCost": 66070000000,
+  "totalFormatted": "$66.07B (direct military, all countries, Day 49)"
 }
