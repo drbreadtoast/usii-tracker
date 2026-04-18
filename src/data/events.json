@@ -34377,5 +34377,150 @@
       "injured": 0
     },
     "tags": ["pezeshkian", "letter", "diplomacy", "iran", "day50"]
+  },
+  {
+    "id": "evt-new-1011",
+    "title": "Iran reimposed 'strict control' over Strait of Hormuz — Ghalibaf reverses opening",
+    "description": "Iran Parliament Speaker Ghalibaf officially reversed the April 17 Hormuz opening, citing US 'untrustworthiness' and 'dark track record.' Iran Armed Forces spokesperson accused US of 'piracy and maritime robbery' under the blockade. Control reverted to IRGC Navy management. Commercial vessels now require prior Iranian coordination to transit.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-18T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NBC News — Iran reimposed strict control over Hormuz",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-says-strait-hormuz-reverted-strict-control-blames-us-rcna340767"
+      },
+      {
+        "name": "CBS News — Iran reimposed restrictions on Strait of Hormuz",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-israel-lebanon-ceasefire-hezbollah-strait-hormuz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "ghalibaf", "reversal", "blockade", "irgc", "day50"]
+  },
+  {
+    "id": "evt-new-1012",
+    "title": "IRGC gunboats fire on tanker in Strait of Hormuz — first shots since ceasefire",
+    "description": "Two IRGC gunboats opened fire on a tanker attempting to cross the Strait of Hormuz approximately 20 miles NE of Oman. Two additional merchant vessels reported being hit by gunfire. UK Maritime Trade Operations (UKMTO) confirmed the incident. No injuries or significant damage reported.",
+    "type": "naval",
+    "lat": 26.4,
+    "lng": 56.5,
+    "location": "Strait of Hormuz, 20 miles NE of Oman",
+    "timestamp": "2026-04-18T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Irish Times — Boats under fire in Strait of Hormuz",
+        "url": "https://www.irishtimes.com/world/middle-east/2026/04/18/iran-us-israel-strait-of-hormuz-latest-live-updates/"
+      },
+      {
+        "name": "The National — Tankers under fire from Iranian gunboats",
+        "url": "https://www.thenationalnews.com/news/mena/2026/04/18/live-us-israel-iran-war-strait-of-hormuz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "irgc", "gunboat", "tanker", "ukmto", "day50"]
+  },
+  {
+    "id": "evt-new-1013",
+    "title": "Trump cites 'good news' on Iran at Arizona rally — blockade remains 'in full force'",
+    "description": "Trump told Turning Point USA rally in Phoenix that Hormuz is 'fully open and ready for business' (already reversed by Iran). On Air Force One afterward said 'We had some pretty good news 20 minutes ago' but declined to elaborate. Warned ceasefire 'may not be extended without a deal by Wednesday.' Confirmed blockade 'remains in full force until our transaction with Iran is 100% complete.'",
+    "type": "diplomatic",
+    "lat": 33.45,
+    "lng": -112.07,
+    "location": "Phoenix, AZ, USA / Air Force One",
+    "timestamp": "2026-04-18T23:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al-Monitor — Trump says good news on Iran",
+        "url": "https://www.al-monitor.com/originals/2026/04/trump-says-he-has-good-news-iran-no-clarity-peace-deal"
+      },
+      {
+        "name": "Jerusalem Post — Trump cites good news",
+        "url": "https://www.jpost.com/international/article-893396"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "good-news", "blockade", "arizona", "ceasefire", "day50"]
+  },
+  {
+    "id": "evt-new-1014",
+    "title": "Iran rejects Trump's claim on enriched uranium handover",
+    "description": "Iran's Foreign Ministry rejected Trump's claims that Iran agreed to hand over its enriched uranium stockpile, stating it 'will not be transferred anywhere.' Key sticking points remain: US demands 20-year enrichment moratorium vs Iran's offer of 5 years, and disposition of ~450kg of 60% enriched uranium. Next talks expected Monday in Islamabad.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-18T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Tribune India — Iran rejects Trump uranium claim",
+        "url": "https://www.tribuneindia.com/news/enriched-uranium/iran-rejects-us-president-trumps-uranium-transfer-claim"
+      },
+      {
+        "name": "Bloomberg — Trump sees Iran deal as imminent",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-18/trump-sees-iran-deal-as-imminent-nuclear-issue-remains-in-limbo"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "uranium", "enrichment", "deal", "moratorium", "day50"]
+  },
+  {
+    "id": "evt-new-1015",
+    "title": "US sanctions 7 Iran-backed Iraqi militia commanders",
+    "description": "US Treasury designated seven commanders of Iran-aligned militia groups (Kata'ib Hizballah, Kata'ib Sayyid Al-Shuhada, Harakat Al-Nujaba, Asa'ib Ahl Al-Haqq) under EO 13224 for planning attacks against US personnel in Iraq. State Department simultaneously designated the commanders.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "Washington, DC, USA",
+    "timestamp": "2026-04-17T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US State Department — Action Against Militia Commanders",
+        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/taking-action-against-iran-backed-militia-commanders-threatening-u-s-personnel/"
+      },
+      {
+        "name": "US Treasury — Economic Fury Targets Militia Commanders",
+        "url": "https://home.treasury.gov/news/press-releases/sb0458"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["sanctions", "iraq", "militia", "treasury", "day50"]
   }
 ]
