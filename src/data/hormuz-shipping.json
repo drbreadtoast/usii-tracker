@@ -1,10 +1,10 @@
 {
   "straitStatus": "partially_blocked",
-  "blockadeDay": 46,
+  "blockadeDay": 47,
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-17T22:06:00Z",
+  "lastUpdated": "2026-04-18T00:31:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -555,15 +555,21 @@
       "event": "Day 49 (Blockade Day 46 / CENTCOM Blockade Day 4): MAJOR — Iran FM Araghchi declares Strait of Hormuz 'completely open' for all commercial vessels during ceasefire period. Status changed to 'partially_blocked' — Iran opened commercial transit but US CENTCOM blockade of Iranian ports continues. 13 ships total turned back by US blockade. Brent settles $90.38 (-9% on day), WTI $83.85 — biggest crash since April 8. Macron-Starmer Paris summit: ~30 countries plan UK-led 'Strictly Defensive' multinational naval mission. Maersk 'cautiously welcomed' reopening but needs guarantees. Insurance still 5x normal (~5% of ship value). Traffic still minimal (~6 vessels/day, zero oil tankers). Trump calls NATO allies 'useless' — 'STAY AWAY.' Trump PROHIBITS Israel from bombing Lebanon. $20B cash-for-uranium deal under discussion (Axios). S&P record 7,126. Nasdaq 13-day streak.",
       "status": "partially_blocked",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-18",
+      "event": "Day 50 (Blockade Day 47 / CENTCOM Blockade Day 6): Iran state media walks back Araghchi's Hormuz opening — says he 'misspoke,' only IRGC-authorized civilian vessels on designated routes permitted. US CENTCOM blockade of Iranian ports continues — Trump: blockade 'remains in full force.' 8 tankers raced toward Hormuz on April 17 but most turned back. Macron-Starmer Paris summit: ~30 countries plan UK-France-led 'strictly defensive' multinational naval mission for mine clearance. Sanctions waiver expires April 19. Oil rebounds to $95.86 Brent. US strikes Ras Issa port Yemen (74 killed). Traffic still minimal. Next talks Monday Islamabad.",
+      "status": "partially_blocked",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
     {
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
-      "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran declared Hormuz open but shipping industry cautious.",
-      "priceImpact": "+13.3% Brent ($90.38), +11.1% WTI ($83.85); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 46 of blockade. Iran declared Hormuz 'completely open' but Maersk needs guarantees. Insurance 5x normal. Traffic ~6 vessels/day (zero oil tankers). CENTCOM blockade of Iranian ports continues. Reuters: $50B worth of oil lost in 50 days. 2,800 ships stranded, 10 crew dead, 20K seafarers."
+      "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran walked back Hormuz opening — 'misspoke.'",
+      "priceImpact": "+20.1% Brent ($95.86), +20.2% WTI ($90.79); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 47 of blockade. Iran walked back Araghchi's opening — 'misspoke.' 8 tankers raced toward Hormuz then most turned back. Insurance 5x normal. Traffic ~6 vessels/day (zero oil tankers). CENTCOM blockade continues. Sanctions waiver expires April 19. ~30 countries planning European naval mission."
     },
     {
       "commodity": "LNG",

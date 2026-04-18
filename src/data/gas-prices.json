@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-17T22:06:00Z",
-  "currentAverage": 4.093,
+  "lastUpdated": "2026-04-18T00:31:00Z",
+  "currentAverage": 4.076,
   "preWarAverage": 3.14,
-  "changePercent": 30.4,
+  "changePercent": 29.8,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -417,6 +417,12 @@
       "price": 4.09,
       "label": "Day 49 PM — $4.09 (AAA, -0.3¢). Oil surges: Brent $98.25 (+23.1%), WTI $93.47 (+23.8%). Lebanon ceasefire violations. 40-nation Hormuz summit. IMF cuts growth to 3.1%. Sanctions waiver expires April 19.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-18",
+      "price": 4.076,
+      "label": "Day 50 PM — $4.076 (AAA, -1.7¢). Oil rebounds: Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). Ras Issa strike 74 killed. House vote 213-214. Gold $4,867. Sanctions waiver expires April 19.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -512,18 +518,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.093,
-      "note": "National average $4.093/gal (AAA April 17 PM). Oil settled sharply lower — Brent $90.38 (+13.3%), WTI $83.85 (+11.1%). Gas ticked UP slightly despite oil drop (lag effect). AAA: national average exceeded $4 for first time in 4 years. EIA forecasts peak $4.30 in April. CA $5.864. Diesel $5.593.",
+      "total": 4.076,
+      "note": "National average $4.076/gal (AAA April 18). Oil rebounded — Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). Gas ticking down as April 17 crash filters through. CA $5.864. Diesel $5.593. EIA forecasts peak $4.30 in April.",
       "crude": 2.152,
       "taxes": 0.86,
-      "refining": 0.887,
+      "refining": 0.877,
       "distribution": 0.3,
-      "regularGasoline": 4.093,
-      "changeFromPreWar": "+$0.953",
-      "changePercent": "+30.4%",
-      "lastUpdated": "2026-04-17T22:06:00Z",
-      "date": "2026-04-17"
+      "regularGasoline": 4.076,
+      "changeFromPreWar": "+$0.936",
+      "changePercent": "+29.8%",
+      "lastUpdated": "2026-04-18T00:31:00Z",
+      "date": "2026-04-18"
     }
   },
-  "context": "Day 49 PM: Gas $4.093/gal (AAA). Oil settled sharply lower — Brent $90.38 (+13.3%), WTI $83.85 (+11.1%) — biggest crash since April 8. Hormuz declared open. Trump PROHIBITS Israel bombing Lebanon. $20B uranium deal discussed. European Hormuz mission. S&P record 7,126. Nasdaq 13-day streak. EIA forecasts $4.30 peak. Ceasefire expires April 22. CA $5.864; Diesel $5.593."
+  "context": "Day 50 PM: Gas $4.076/gal (AAA). Oil rebounds — Brent $95.86 (+20.1%), WTI $90.79 (+20.2%) after April 17 crash. US blockade continues despite Hormuz opening. Iran walks back Araghchi. US strikes Ras Issa Yemen 74 killed. House vote fails 213-214. Gold $4,867. EIA forecasts $4.30 peak. Sanctions waiver expires April 19. Ceasefire expires April 22. CA $5.864; Diesel $5.593."
 }

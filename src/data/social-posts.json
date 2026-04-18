@@ -1,47 +1,5 @@
 [
   {
-    "id": "social-816",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "IRAN ESCALATION THREAT: IRGC Maj. Gen. Abdollahi threatens to block ALL shipping — Gulf, Sea of Oman, AND Red Sea. Houthis echo threat on Bab al-Mandeb. USS George H.W. Bush CSG routing around entire Africa to avoid Houthi missile zone. Iran suspended ALL petrochemical exports since April 13. Losing $400M/day from blockade. Treasury sanctions 24+ entities in Shamkhani oil network. Sanctions waiver expires April 19.",
-    "timestamp": "2026-04-16T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Fox News, NBC News confirmed IRGC threat. CBS confirmed Houthi threat. US Treasury confirmed sanctions.",
-    "keywords": [
-      "irgc",
-      "shipping-threat",
-      "red-sea",
-      "houthis",
-      "bush-csg",
-      "sanctions",
-      "shamkhani",
-      "day49"
-    ]
-  },
-  {
-    "id": "social-817",
-    "handle": "@NatSecJeff",
-    "displayName": "NatSecJeff — OSINT Analyst",
-    "text": "MARKET WATCH: S&P 500 above 7,000 for FIRST TIME. Nasdaq 10-day win streak (longest since 2009). Brent 5.86 (+20.1% from pre-war). WTI 1.62 (+21.3%). US crude inventories drop 9.13M bbl (vs +154K expected) — biggest draw in months. EIA forecasts Brent Q2 peak 15/bbl. Gas .093 (flat). Israeli shekel 30-year high 2.9954/USD. Iran rial all-time low 1.75M/USD. IMF cuts global growth to 3.1%.",
-    "timestamp": "2026-04-17T00:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, PBS, EIA, Trading Economics, IMF confirmed all data points.",
-    "keywords": [
-      "sp500",
-      "7000",
-      "oil",
-      "brent",
-      "wti",
-      "inventories",
-      "shekel",
-      "rial",
-      "imf",
-      "day49"
-    ]
-  },
-  {
     "id": "social-818",
     "handle": "@Faytuks",
     "displayName": "Faytuks News — Lead Source",
@@ -444,5 +402,60 @@
     "verificationStatus": "confirmed",
     "verificationNote": "Compiled from Reuters, Axios, CBC News, CNBC, Politico EU, UN News, AAA.",
     "keywords": ["summary", "roundup", "day49", "pm", "prohibited", "oil", "crash", "ceasefire"]
+  },
+  {
+    "id": "social-842",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "RAS ISSA STRIKE: US forces struck Ras Issa oil port in Hodeidah, Yemen — 74 killed, 171+ injured. Deadliest single US strike in Operation Rough Rider. First attack on Houthi-controlled oil facility. Massive fireballs destroyed tanker trucks and port infrastructure. Guterres 'gravely concerned.' Houthi media broadcasting graphic footage.",
+    "timestamp": "2026-04-17T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PBS News, New Arab, Al Mayadeen confirmed strike and casualty figures.",
+    "keywords": ["ras-issa", "yemen", "hodeidah", "houthi", "strike", "deadliest", "day50"]
+  },
+  {
+    "id": "social-843",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "HOUSE WAR POWERS: Resolution fails 213-214 — ONE vote short. Only Rep. Massie (R-KY) crossed party lines. Senate blocked 47-52 on April 15. 60-day War Powers clock approaching April 29. Fifth time Congress has attempted to restrain Trump's Iran war authority. Bipartisan antiwar coalition growing but still insufficient.",
+    "timestamp": "2026-04-17T22:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NBC News, Democracy Now confirmed vote tally and party breakdown.",
+    "keywords": ["house", "war-powers", "213-214", "massie", "congress", "day50"]
+  },
+  {
+    "id": "social-844",
+    "handle": "@Global_Fedia",
+    "displayName": "Global Fedia — OSINT Analyst",
+    "text": "OIL REBOUND: Brent rebounds to $95.86 (+20.1% from pre-war), WTI $90.79 (+20.2%) after massive April 17 crash. Markets realizing US CENTCOM blockade of Iranian ports continues despite Hormuz opening. Iran state media walks back Araghchi — says he 'misspoke.' Gold surges to $4,867/oz (+41.7% YoY). Sanctions waiver expires tomorrow April 19. EIA raised 2026 Brent forecast to $96/bbl average.",
+    "timestamp": "2026-04-18T00:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trading Economics, Investing.com, EIA confirmed oil rebound. Sherwood News confirmed Araghchi walkback.",
+    "keywords": ["oil", "rebound", "brent", "wti", "gold", "sanctions", "walkback", "day50"]
+  },
+  {
+    "id": "social-845",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Aggregator",
+    "text": "PEZESHKIAN LETTER: Iran president publishes second open letter to American people — 'Iran harbours no enmity toward ordinary Americans.' Calls portrayal of Iran as threat 'inconsistent with history.' Separately: Iran Parliament Speaker Qalibaf warns 'If blockade continues, Hormuz will not remain open.' IRGC Navy warns any military vessel approaching strait = ceasefire violation.",
+    "timestamp": "2026-04-18T00:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Iran LiveUAMap, Tribune India confirmed letter. NBC News confirmed Qalibaf warning.",
+    "keywords": ["pezeshkian", "letter", "qalibaf", "hormuz", "irgc", "day50"]
+  },
+  {
+    "id": "social-846",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Day 50 PM roundup: RAS ISSA — US strikes Yemen oil port, 74 killed (deadliest single US strike). HOUSE — War powers fails 213-214 (one vote). OIL — Brent rebounds $95.86, WTI $90.79. Iran walks back Hormuz opening. PEZESHKIAN — 2nd letter to Americans. GOLD — $4,867/oz. Gas $4.076 (ticking down). Sanctions waiver expires April 19. Ceasefire expires April 22 — 4 days. Next talks Monday Islamabad.",
+    "timestamp": "2026-04-18T00:31:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from PBS, NBC News, Trading Economics, Iran LiveUAMap, AAA.",
+    "keywords": ["summary", "roundup", "day50", "pm", "ras-issa", "house-vote", "oil-rebound", "pezeshkian"]
   }
 ]

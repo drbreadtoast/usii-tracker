@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-17T22:06:00Z",
+    "lastUpdated": "2026-04-18T00:31:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 49
+    "conflictDay": 50
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-17",
-      "label": "Day 49 PM — Brent settles $90.38 (+13.3%), WTI $83.85 (+11.1%). Biggest single-day crash since April 8 ceasefire. Iran declared Hormuz 'completely open.' Trump 'PROHIBITS' Israel from bombing Lebanon. $20B cash-for-uranium deal discussed. European Hormuz mission (~30 countries). S&P record 7,126. Nasdaq 13-day streak. Gas $4.093. Ceasefire expires April 22.",
+      "date": "2026-04-18",
+      "label": "Day 50 PM — Brent rebounds to $95.86 (+20.1%), WTI $90.79 (+20.2%) after April 17 crash. US blockade of Iranian ports continues despite Hormuz opening. Iran walks back Araghchi — 'misspoke.' US strikes Ras Issa port Yemen — 74 killed. House war powers vote fails 213-214. Gold $4,867/oz. Gas $4.076. Sanctions waiver expires April 19. Ceasefire expires April 22.",
       "brent": {
-        "price": 90.38,
-        "change": "+13.3%",
-        "changeDollars": 10.58
+        "price": 95.86,
+        "change": "+20.1%",
+        "changeDollars": 16.06
       },
       "wti": {
-        "price": 83.85,
-        "change": "+11.1%",
-        "changeDollars": 8.34
+        "price": 90.79,
+        "change": "+20.3%",
+        "changeDollars": 15.29
       },
-      "changePercent": "+13.3%",
-      "lastUpdated": "2026-04-17"
+      "changePercent": "+20.1%",
+      "lastUpdated": "2026-04-18"
     },
     "priceHistory": [
       {
@@ -612,7 +612,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-17T22:06:00Z",
-    "note": "Day 49 PM: Brent settles $90.38 (+13.3%), WTI $83.85 (+11.1%). Biggest crash since April 8. AAA avg $4.093/gal (+30.3%). Hormuz declared open. Trump PROHIBITS Israel bombing Lebanon. $20B uranium deal. European Hormuz mission. S&P record 7,126. Ceasefire expires April 22.",
+    "note": "Day 50 PM: Brent rebounds to $95.86 (+20.1%), WTI $90.79 (+20.2%) after April 17 crash. US blockade continues despite Hormuz opening. Iran walks back Araghchi. AAA avg $4.076/gal (+29.8%). US strikes Ras Issa Yemen 74 killed. House vote fails 213-214. Gold $4,867. Sanctions waiver expires April 19. Ceasefire expires April 22.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -622,14 +622,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.093,
-          "change": "+30.4%",
-          "changeDollars": "+$0.95",
-          "date": "2026-04-17"
+          "price": 4.076,
+          "change": "+29.8%",
+          "changeDollars": "+$0.94",
+          "date": "2026-04-18"
         },
-        "change": "+$0.95",
-        "changePercent": "+30.4%",
-        "detail": "Gas $4.093/gal (AAA, Day 49 PM). Brent settles $90.38 (+13.3%), WTI $83.85 (+11.1%). Oil crashed on Hormuz opening. Pre-war $3.14. AAA: national average exceeded $4/gal for first time in 4 years. CA $5.864. Diesel $5.593.",
+        "change": "+$0.94",
+        "changePercent": "+29.8%",
+        "detail": "Gas $4.076/gal (AAA, Day 50). Oil rebounded — Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). Gas ticking down as oil crash filters through. Pre-war $3.14. CA $5.864. Diesel $5.593.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -808,7 +808,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-16T18:00:00Z",
+  "lastUpdated": "2026-04-18T00:31:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
