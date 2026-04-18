@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-18T12:22:00Z",
+    "lastUpdated": "2026-04-18T19:04:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-18",
-      "label": "Day 50 AM — HORMUZ CHAOS: Iran reverses opening, IRGC gunboats fire on tanker. Brent surges to $97.68 (+22.3%), WTI $93.74 (+24.1%). Ghalibaf scraps deal citing US 'untrustworthiness.' Trump: 'good news' at Arizona rally, blockade 'in full force.' Iran rejects uranium handover. Gas $4.076. Sanctions waiver expires April 19. Ceasefire expires April 22.",
+      "label": "Day 50 PM — Oil rebounds: Brent $95.86 (+20.1%), WTI $90.79 (+20.2%) after Iran re-closed Hormuz and IRGC gunboats fired on Indian-flagged supertanker carrying Iraqi oil. CENTCOM Apaches patrol strait. Bessent: 'financial equivalent of bombing campaign' in secondary sanctions. Iran studying US proposals via Pakistan. Gas $4.076 (AAA). Sanctions waiver expires April 19. Ceasefire expires April 22 (4 days).",
       "brent": {
-        "price": 97.68,
-        "change": "+22.4%",
-        "changeDollars": 17.88
+        "price": 95.86,
+        "change": "+20.1%",
+        "changeDollars": 16.06
       },
       "wti": {
-        "price": 93.74,
-        "change": "+24.2%",
-        "changeDollars": 18.24
+        "price": 90.79,
+        "change": "+20.3%",
+        "changeDollars": 15.29
       },
-      "changePercent": "+22.4%",
+      "changePercent": "+20.1%",
       "lastUpdated": "2026-04-18"
     },
     "priceHistory": [
@@ -426,6 +426,20 @@
         "wti": 93.47,
         "label": "Day 49 PM — Brent $98.25 (+23.1%); WTI $93.47 (+23.8%). Oil surges 4% on US-Iran negotiation doubts. Lebanon ceasefire violations. 40-nation Hormuz summit. IEA: 10.1M bpd lost in March. IMF cuts global growth to 3.1%. Sanctions waiver expires April 19. Gas $4.09.",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-17",
+        "brent": 86.16,
+        "wti": 83.85,
+        "label": "Day 49 CLOSE — Oil CRASHES: Brent -$12 (-12%), WTI plunges below $84 on Araghchi 'Hormuz fully open' declaration. Biggest 1-day crash since April 8 ceasefire. Markets price in possible ceasefire extension.",
+        "isEvent": true
+      },
+      {
+        "date": "2026-04-18",
+        "brent": 95.86,
+        "wti": 90.79,
+        "label": "Day 50 PM — Oil REBOUNDS: Brent $95.86 (+20.1%), WTI $90.79 (+20.2%) after Iran re-closed Hormuz, IRGC gunboats fired on Indian-flagged supertanker carrying Iraqi oil. CENTCOM Apaches patrol. Bessent 'financial bombing campaign' sanctions. Iran studying US proposals via Pakistan. Gas $4.076. Ceasefire expires April 22.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -611,8 +625,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-18T12:22:00Z",
-    "note": "Day 50 AM: HORMUZ CHAOS — Iran reverses opening, IRGC gunboats fire on tanker. Brent $97.68 (+22.3%), WTI $93.74 (+24.1%). Ghalibaf scraps deal. Trump 'good news.' AAA avg $4.076/gal (+29.8%). Iran rejects uranium handover. Sanctions waiver expires April 19. Ceasefire expires April 22.",
+    "lastUpdated": "2026-04-18T19:04:00Z",
+    "note": "Day 50 PM: Oil REBOUNDS. Brent $95.86 (+20.1%), WTI $90.79 (+20.2%) on Iran re-closure of Hormuz + IRGC gunboat fire on Indian tanker. CENTCOM Apaches patrol strait. Bessent 'financial bombing campaign' sanctions. Iran studies US proposals via Pakistan. AAA avg $4.076/gal (+29.8%). Sanctions waiver expires April 19. Ceasefire expires April 22 (4 days).",
     "fuels": [
       {
         "type": "Regular Gasoline",

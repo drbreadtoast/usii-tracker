@@ -34522,5 +34522,175 @@
       "injured": 0
     },
     "tags": ["sanctions", "iraq", "militia", "treasury", "day50"]
+  },
+  {
+    "id": "evt-new-1016",
+    "title": "CENTCOM releases AH-64 Apache patrol imagery over Strait of Hormuz",
+    "description": "US Central Command released imagery of AH-64 Apache attack helicopters patrolling over the Strait of Hormuz following Iran's reimposed shipping restrictions. Signal of escalated US military posture as IRGC gunboats fired on tankers hours earlier. Apaches based from USS Tripoli ARG provide anti-surface capability against small Iranian boats.",
+    "type": "movement",
+    "lat": 26.57,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-18T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Aviationist — AH-64 Apaches over Hormuz",
+        "url": "https://theaviationist.com/2026/04/18/ah-64-hormuz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["centcom", "apache", "hormuz", "patrol", "day50"]
+  },
+  {
+    "id": "evt-new-1017",
+    "title": "Iranian gunboats fire on Indian-flagged supertanker carrying Iraqi oil",
+    "description": "TankerTrackers.com reported IRGC gunboats fired on an Indian-flagged supertanker carrying Iraqi crude in the Strait of Hormuz, forcing it to turn back. At least three attacks on commercial ships occurred Saturday April 18. Part of Iran's reimposed strait closure following Ghalibaf reversal of Araghchi's opening declaration.",
+    "type": "naval",
+    "lat": 26.45,
+    "lng": 56.3,
+    "location": "Strait of Hormuz, off Oman coast",
+    "timestamp": "2026-04-18T09:20:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Axios — Iran closes Strait, fires on tankers",
+        "url": "https://www.axios.com/2026/04/18/iran-closes-strait-of-hormuz-once-again-fires-on-tankers"
+      },
+      {
+        "name": "Military.com — Iranian gunboats fire on tanker",
+        "url": "https://www.military.com/daily-news/2026/04/18/iranian-gunboats-fire-tanker-strait-of-hormuz-iran-reimposes-restrictions.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "hormuz", "tanker", "india", "iraq-oil", "day50"]
+  },
+  {
+    "id": "evt-new-1018",
+    "title": "Container vessel struck by projectile in Strait of Hormuz",
+    "description": "UKMTO confirmed an unknown projectile struck a container vessel transiting the Strait of Hormuz, damaging containers. No casualties reported. Incident adds to pattern of IRGC maritime harassment after Iran's reimposed shipping control restrictions on April 18.",
+    "type": "naval",
+    "lat": 26.5,
+    "lng": 56.35,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-18T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran closes Strait of Hormuz again",
+        "url": "https://www.aljazeera.com/news/2026/4/18/iran-closes-strait-of-hormuz-again-over-us-blockade-of-its-ports"
+      },
+      {
+        "name": "Ship & Bunker — UKMTO reports projectile strike",
+        "url": "https://shipandbunker.com/news/world/327755-iranian-gunboats-open-fire-on-tanker-in-strait-of-hormuz-ukmto"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "hormuz", "container", "projectile", "day50"]
+  },
+  {
+    "id": "evt-new-1019",
+    "title": "Treasury Sec. Bessent vows 'financial equivalent of bombing campaign' on Iran",
+    "description": "Treasury Secretary Scott Bessent told a White House briefing the administration plans to escalate secondary sanctions on Iran as the 'financial equivalent' of a bombing campaign. Targets include Chinese refiners buying Iranian oil, shadow fleet operators, and front companies moving Iranian crude. Sanctions waiver for Iraq to buy Iranian gas expires April 19 and will not be renewed.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.03,
+    "location": "White House, Washington, DC",
+    "timestamp": "2026-04-18T15:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS — Bessent Loeffler White House briefing",
+        "url": "https://www.pbs.org/newshour/politics/watch-live-bessent-loeffler-join-white-house-briefing-on-tax-day"
+      },
+      {
+        "name": "US Treasury — Iran sanctions",
+        "url": "https://www.state.gov/iran-sanctions"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["treasury", "bessent", "sanctions", "secondary", "china", "iraq-waiver", "day50"]
+  },
+  {
+    "id": "evt-new-1020",
+    "title": "Iran says studying fresh US proposals, calls Hormuz blockade ceasefire 'violation'",
+    "description": "Iranian official confirmed Tehran is studying fresh US proposals delivered via Pakistan track, but insisted the US naval blockade of Iranian ports constitutes a violation of the April 8 ceasefire. Iran says it will continue blocking Hormuz transit until the US lifts port blockade. Next round of talks expected Monday April 20 in Islamabad.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-18T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Irish Times — Iran studying fresh US proposals",
+        "url": "https://www.irishtimes.com/world/middle-east/2026/04/18/iran-us-israel-strait-of-hormuz-latest-live-updates/"
+      },
+      {
+        "name": "OPB — Iran says strait closed again",
+        "url": "https://www.opb.org/article/2026/04/18/iran-says-it-has-closed-the-strait-of-hormuz-again/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "diplomacy", "ceasefire", "hormuz", "islamabad", "pakistan", "day50"]
+  },
+  {
+    "id": "evt-new-1021",
+    "title": "Lebanese army reports IDF ceasefire violations on Day 2 of truce",
+    "description": "Lebanese Armed Forces reported multiple IDF ceasefire violations during first 24 hours of the US-brokered 10-day Israel-Lebanon truce that began April 16. Intermittent shelling impacted several southern Lebanese villages. IDF drone strike killed one person. Netanyahu reportedly told ministers he was 'shocked to learn of truce from media.' IDF maintains positions in southern Lebanon indefinitely.",
+    "type": "military",
+    "lat": 33.27,
+    "lng": 35.2,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-17T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews — 10-day ceasefire goes into effect",
+        "url": "https://www.euronews.com/2026/04/17/us-brokered-10-day-ceasefire-between-israel-and-lebanon-goes-into-effect"
+      },
+      {
+        "name": "Haaretz — IDF drone strike kills one in south Lebanon",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-17/ty-article-live/trump-says-war-in-iran-should-be-ending-pretty-soon/0000019d-9934-d9bd-abfd-fbf508480000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": ["lebanon", "ceasefire", "idf", "violation", "drone-strike", "day50"]
   }
 ]
