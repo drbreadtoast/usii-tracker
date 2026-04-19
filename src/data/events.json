@@ -34646,5 +34646,88 @@
       "injured": 0
     },
     "tags": ["sanctions", "waiver", "oil", "treasury", "day51"]
+  },
+  {
+    "id": "evt-new-1020",
+    "title": "Container ship hit by unidentified projectile off Oman coast",
+    "description": "A container ship was struck by an unidentified projectile approximately 25 nautical miles northeast of Oman. Damage to some containers reported but no fires, no environmental impact, and no injuries. UKMTO confirmed the incident. Ship continued its course. Responsible party unknown. Incident came hours after Iran re-closed Strait of Hormuz.",
+    "type": "naval",
+    "lat": 26.30,
+    "lng": 56.80,
+    "location": "25nm NE of Oman coast, Gulf of Oman",
+    "timestamp": "2026-04-18T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Voice of Emirates — Container ship hit by unidentified projectile",
+        "url": "https://www.voiceofemirates.com/en/news/2026/04/18/breaking-britain-container-ship-hit-by-unidentified-projectile-off-the-coast-of-oman/"
+      },
+      {
+        "name": "gCaptain — Fresh attacks shatter open Hormuz narrative",
+        "url": "https://gcaptain.com/fresh-attacks-shatter-open-hormuz-narrative-as-iran-pushes-new-maritime-regime/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["naval", "hormuz", "oman", "projectile", "day51"]
+  },
+  {
+    "id": "evt-new-1021",
+    "title": "IDF reservist Barak Kalfon dies of wounds from Lebanon explosive",
+    "description": "Command Sgt.-Maj. (Res.) Barak Kalfon, 48, from Adi, 226th Brigade, died Saturday evening from wounds sustained Friday in an explosion from a pre-planted device in southern Lebanon. IDF investigation determined the device was planted before the ceasefire — not classified as a ceasefire violation. Survived by wife Shimrit and daughters Noga and Maya.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.43,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-19T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Command Sgt.-Maj. Barak Kalfon killed",
+        "url": "http://www.jpost.com/israel-news/article-893418"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": ["idf", "casualty", "lebanon", "ceasefire", "day51"]
+  },
+  {
+    "id": "evt-new-1022",
+    "title": "IDF soldier Lidor Porat killed in combat in southern Lebanon",
+    "description": "Sgt. First Class (Res.) Lidor Porat, 31, from Ashdod, 7106th Battalion, 769th Regional Brigade, was killed during combat in southern Lebanon. Multiple additional soldiers were injured (1 severely, 4 moderately, 4 lightly). Second Israeli soldier killed since the Lebanon ceasefire began. IDF cleared for publication April 20.",
+    "type": "strike",
+    "lat": 33.10,
+    "lng": 35.45,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-19T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Lidor Porat killed in southern Lebanon",
+        "url": "http://www.jpost.com/israel-news/defense-news/article-893437"
+      },
+      {
+        "name": "Asharq Al-Awsat — Israeli soldier killed in southern Lebanon",
+        "url": "https://english.aawsat.com/arab-world/5264004-israeli-army-says-soldier-killed-southern-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 9
+    },
+    "tags": ["idf", "casualty", "lebanon", "ceasefire", "combat", "day51"]
   }
 ]

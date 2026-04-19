@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-19T00:19:00Z",
+    "lastUpdated": "2026-04-19T06:14:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 384
+    "totalSites": 385
   },
   "summary": {
-    "totalSites": 386,
-    "confirmed": 312,
+    "totalSites": 387,
+    "confirmed": 313,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6052,6 +6052,21 @@
       "sourceUrl": "https://www.pbs.org/newshour/world/u-s-strikes-yemen-oil-port-in-deadly-escalation-of-trumps-campaign-against-the-houthis",
       "severity": "critical",
       "attributedTo": "us"
+    },
+    {
+      "id": "dmg-391",
+      "name": "Container ship — projectile damage off Oman coast",
+      "country": "Oman",
+      "lat": 26.30,
+      "lng": 56.80,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-18",
+      "description": "Container ship struck by unidentified projectile 25nm northeast of Oman coast in Gulf of Oman. Damage to some containers, no fires, no environmental impact, no injuries. Ship continued course. UKMTO confirmed. 28th vessel damaged since blockade began.",
+      "source": "Voice of Emirates",
+      "sourceUrl": "https://www.voiceofemirates.com/en/news/2026/04/18/breaking-britain-container-ship-hit-by-unidentified-projectile-off-the-coast-of-oman/",
+      "severity": "medium",
+      "attributedTo": "unknown"
     }
   ]
 }
