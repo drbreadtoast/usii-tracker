@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-18T12:22:00Z",
+    "lastUpdated": "2026-04-19T00:19:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 50
+    "conflictDay": 51
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-18",
-      "label": "Day 50 AM — HORMUZ CHAOS: Iran reverses opening, IRGC gunboats fire on tanker. Brent surges to $97.68 (+22.3%), WTI $93.74 (+24.1%). Ghalibaf scraps deal citing US 'untrustworthiness.' Trump: 'good news' at Arizona rally, blockade 'in full force.' Iran rejects uranium handover. Gas $4.076. Sanctions waiver expires April 19. Ceasefire expires April 22.",
+      "label": "Day 51 PM — Brent settles $95.86 (+20.1%), WTI $90.79 (+20.2%) — pullback from $97.68 intraday. IRGC fired on Indian tankers Sanmar Herald + Jag Arnav. India summons ambassador. Sanctions waiver expires April 19 — no renewal. Mojtaba Khamenei Army Day: 'strike like lightning.' UNIFIL peacekeeper killed. Ceasefire expires April 22 — 3 days. Gas $4.076.",
       "brent": {
-        "price": 97.68,
-        "change": "+22.4%",
-        "changeDollars": 17.88
+        "price": 95.86,
+        "change": "+20.1%",
+        "changeDollars": 16.06
       },
       "wti": {
-        "price": 93.74,
-        "change": "+24.2%",
-        "changeDollars": 18.24
+        "price": 90.79,
+        "change": "+20.3%",
+        "changeDollars": 15.29
       },
-      "changePercent": "+22.4%",
+      "changePercent": "+20.1%",
       "lastUpdated": "2026-04-18"
     },
     "priceHistory": [
@@ -611,8 +611,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-18T12:22:00Z",
-    "note": "Day 50 AM: HORMUZ CHAOS — Iran reverses opening, IRGC gunboats fire on tanker. Brent $97.68 (+22.3%), WTI $93.74 (+24.1%). Ghalibaf scraps deal. Trump 'good news.' AAA avg $4.076/gal (+29.8%). Iran rejects uranium handover. Sanctions waiver expires April 19. Ceasefire expires April 22.",
+    "lastUpdated": "2026-04-19T00:19:00Z",
+    "note": "Day 51 PM: IRGC fires on Indian tankers. Sanctions waiver expires — no renewal. Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). AAA avg $4.076/gal (+29.8%). UNIFIL peacekeeper killed. Khamenei Army Day threat. Ceasefire expires April 22 — 3 days.",
     "fuels": [
       {
         "type": "Regular Gasoline",

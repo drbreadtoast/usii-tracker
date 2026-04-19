@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 47,
+  "blockadeDay": 48,
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-18T12:22:00Z",
+  "lastUpdated": "2026-04-19T00:19:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -567,6 +567,12 @@
       "event": "Day 50 AM (Blockade Day 47 / CENTCOM Blockade Day 6): HORMUZ CHAOS — Parliament Speaker Ghalibaf officially reverses Hormuz opening, citing US 'untrustworthiness.' IRGC gunboats fired on tanker 20 miles NE of Oman (UKMTO confirmed, no injuries). Two more merchant vessels hit by gunfire. Armed Forces accuses US of 'piracy.' Strait returns to 'strict control.' Trump claims Hormuz 'fully open' at Arizona rally (already reversed). Oil surges: Brent $97.68 (+22.3%), WTI $93.74 (+24.1%). Ceasefire expires April 22.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-19",
+      "event": "Day 51 (Blockade Day 48 / CENTCOM Blockade Day 7): IRGC fires on Indian tankers Sanmar Herald (~2M bbl) and Jag Arnav despite prior clearance — dramatic audio captured. India summons Iranian ambassador. SNSC: 'determined to enforce monitoring until end of war.' Iran oil sanctions waiver expires — no renewal. Paris summit: 49-nation defensive naval mission announced. UNIFIL peacekeeper killed in Lebanon. Brent $95.86, WTI $90.79. 23 vessels intercepted total. Ceasefire expires April 22 — 3 days.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -574,8 +580,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran officially reversed Hormuz opening — Ghalibaf scrapped deal.",
-      "priceImpact": "+22.3% Brent ($97.68), +24.1% WTI ($93.74); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 47 of blockade. Ghalibaf reversed Hormuz opening citing US 'untrustworthiness.' IRGC gunboats fired on tanker. Insurance 5x normal. Traffic ~6 vessels/day (zero oil tankers). CENTCOM blockade continues. Sanctions waiver expires April 19. Ceasefire expires April 22."
+      "priceImpact": "+20.1% Brent ($95.86), +20.2% WTI ($90.79); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 48 of blockade. IRGC fired on Indian tankers Sanmar Herald + Jag Arnav. India summons ambassador. Sanctions waiver expired April 19 — no renewal. Paris summit: 49-nation defensive naval mission. Insurance 5x normal. Traffic ~6 vessels/day. CENTCOM blockade continues. Ceasefire expires April 22 — 3 days."
     },
     {
       "commodity": "LNG",

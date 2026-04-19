@@ -34522,5 +34522,129 @@
       "injured": 0
     },
     "tags": ["sanctions", "iraq", "militia", "treasury", "day50"]
+  },
+  {
+    "id": "evt-new-1016",
+    "title": "French UNIFIL peacekeeper killed in southern Lebanon ambush",
+    "description": "A UNIFIL patrol clearing explosive ordnance near Ghandouriyeh was ambushed with small-arms fire. French Sergeant Major Florian Montorio of the 17th Parachute Engineer Regiment was killed and three soldiers wounded (two seriously). France blamed Hezbollah; Hezbollah denied involvement. Macron demanded Lebanese authorities 'immediately arrest the perpetrators.'",
+    "type": "movement",
+    "lat": 33.12,
+    "lng": 35.40,
+    "location": "Ghandouriyeh, southern Lebanon",
+    "timestamp": "2026-04-19T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "UN News — UN peacekeeper killed in Lebanon",
+        "url": "https://news.un.org/en/story/2026/04/1167332"
+      },
+      {
+        "name": "Al Jazeera — French soldier serving with UNIFIL killed",
+        "url": "https://www.aljazeera.com/news/2026/4/18/french-soldier-serving-with-unifil-killed-in-lebanon-attack"
+      },
+      {
+        "name": "PBS News — French soldier killed in attack on UN peacekeepers",
+        "url": "https://www.pbs.org/newshour/world/french-soldier-killed-in-attack-on-u-n-peacekeepers-in-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 3
+    },
+    "tags": ["unifil", "france", "lebanon", "peacekeeper", "hezbollah", "day51"]
+  },
+  {
+    "id": "evt-new-1017",
+    "title": "IRGC fires on two Indian-flagged tankers in Strait of Hormuz — India summons ambassador",
+    "description": "IRGC gunboats fired on Indian-flagged tankers Sanmar Herald (carrying ~2M barrels Iraqi crude) and Jag Arnav despite prior clearance. Audio captured crew pleading: 'You gave me clearance to go! You are firing now!' Both vessels forced to retreat. India summoned Iranian Ambassador Mohammad Fathali over the incident.",
+    "type": "naval",
+    "lat": 26.30,
+    "lng": 56.50,
+    "location": "Strait of Hormuz, near Oman",
+    "timestamp": "2026-04-18T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NBC News — Two Indian ships come under fire in Hormuz",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-says-strait-hormuz-reverted-strict-control-blames-us-rcna340767"
+      },
+      {
+        "name": "Newsweek — Audio of Indian oil tanker under Iranian fire",
+        "url": "https://www.newsweek.com/audio-of-indian-oil-tanker-under-iranian-fire-in-hormuz-let-me-turn-back-11849661"
+      },
+      {
+        "name": "Tribune India — Indian vessels shot at in Hormuz",
+        "url": "https://www.tribuneindia.com/news/india/indian-vessels-shot-at-forced-out-of-strait-of-hormuz-by-iranian-navy/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["india", "hormuz", "irgc", "tanker", "naval", "day51"]
+  },
+  {
+    "id": "evt-new-1018",
+    "title": "Mojtaba Khamenei issues first Army Day message — 'strike like lightning'",
+    "description": "Iran's Supreme Leader Mojtaba Khamenei issued his first Army Day (Farvardin 29) message, declaring Iran was 'courageously defending the land, water, and flag.' Said Iran's drones 'strike the US and the Zionist murderers like lightning' and the navy is 'ready to inflict new bitter defeats.' Marked the birth anniversary of his father Ali Khamenei (killed Feb 28).",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-18T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Iran International — Iran navy ready to inflict new defeats",
+        "url": "https://www.iranintl.com/en/202604184116"
+      },
+      {
+        "name": "ANI News — Strike like lightning",
+        "url": "https://www.aninews.in/news/world/middle-east/strike-like-lightning-irans-supreme-leader-mojtaba-khamenei-hails-army-on-farvardin-2920260418182808/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["khamenei", "army-day", "iran", "threat", "day51"]
+  },
+  {
+    "id": "evt-new-1019",
+    "title": "US Iran oil sanctions waiver expires — Treasury confirms no renewal",
+    "description": "The 30-day US Treasury sanctions waiver on Iranian-origin oil (issued March 20) expired April 19. Treasury Secretary Bessent confirmed it will NOT be renewed. The waiver had allowed ~140M barrels to reach global markets. Russia oil waiver also expired. Part of broader 'Economic Fury' strategy.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "Washington, DC, USA",
+    "timestamp": "2026-04-19T00:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Times of Israel — US won't renew Iran oil sanctions ease",
+        "url": "https://www.timesofisrael.com/us-says-it-wont-renew-temporary-ease-on-iran-oil-sanctions-that-expires-sunday/"
+      },
+      {
+        "name": "Argus Media — US will not renew Iran crude sanctions waiver",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2814097-us-will-not-renew-iran-crude-sanctions-waiver"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["sanctions", "waiver", "oil", "treasury", "day51"]
   }
 ]
