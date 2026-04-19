@@ -34729,5 +34729,171 @@
       "injured": 9
     },
     "tags": ["idf", "casualty", "lebanon", "ceasefire", "combat", "day51"]
+  },
+  {
+    "id": "evt-new-1023",
+    "title": "IDF confirms first strikes on Hezbollah since Lebanon ceasefire — tunnel shaft destroyed",
+    "description": "IDF carried out first strikes on Hezbollah since ceasefire took effect April 16-17. Struck a Hezbollah tunnel shaft after identifying operatives entering it south of the Yellow Line. Found cache of explosive devices, rockets, RPGs, and grenades inside. Also struck Hezbollah fighters approaching IDF positions. Hezbollah MP contacted Iran about violations. Trump had said Israel 'prohibited' from bombing, but US clarified defensive strikes allowed.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.40,
+    "location": "Southern Lebanon (south of Yellow Line)",
+    "timestamp": "2026-04-19T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF confirms strikes on Hezbollah operatives",
+        "url": "https://www.timesofisrael.com/idf-confirms-strikes-on-hezbollah-operatives-in-lebanon-in-first-since-ceasefire/"
+      },
+      {
+        "name": "Jerusalem Post — IDF strikes Hezbollah terrorists",
+        "url": "https://www.jpost.com/middle-east/article-893405"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["idf", "hezbollah", "ceasefire-violation", "tunnel", "lebanon", "day51"]
+  },
+  {
+    "id": "evt-new-1024",
+    "title": "Iran Deputy FM Khatibzadeh: no date for US-Iran talks, uranium handover 'nonstarter'",
+    "description": "Iranian Deputy FM Saeed Khatibzadeh stated no date has been set for new face-to-face talks with the US until a framework is agreed. Slammed Washington's 'maximalist' demands and called Iran handing over 440kg enriched uranium stockpile 'a nonstarter.' Spoke at Antalya Diplomacy Forum, Turkey.",
+    "type": "diplomatic",
+    "lat": 36.89,
+    "lng": 30.71,
+    "location": "Antalya, Turkey (Diplomacy Forum)",
+    "timestamp": "2026-04-19T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PBS — Iranian official says excessive US demands are barrier to talks",
+        "url": "https://www.pbs.org/newshour/world/iranian-official-says-excessive-demands-made-by-u-s-are-barrier-to-in-person-talks"
+      },
+      {
+        "name": "Washington Times — Khatibzadeh says US maximalist demands stall talks",
+        "url": "https://www.washingtontimes.com/news/2026/apr/18/iranian-deputy-fm-saeed-khatibzadeh-says-us-maximalist-demands-stall/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["diplomacy", "iran", "talks", "khatibzadeh", "uranium", "day51"]
+  },
+  {
+    "id": "evt-new-1025",
+    "title": "Ghalibaf televised address: 'far from final agreement' with US",
+    "description": "Iranian Parliament Speaker and chief negotiator Mohammad Bagher Ghalibaf said in televised address that there had been 'progress' with Washington but 'many gaps and fundamental points remain' and 'we are still far from the final discussion.' Called Trump's 7 deal claims 'seven lies in one hour.' Specifically denied Iran agreed to return enriched uranium.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-19T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "RFE/RL — Ghalibaf says far from deal",
+        "url": "https://www.rferl.org/a/iran-qalibaf-negotiations-trump-blackmail-hormuz/33735255.html"
+      },
+      {
+        "name": "Euronews — Iran says deal still far off",
+        "url": "https://www.euronews.com/2026/04/19/iran-says-deal-still-far-off-as-hormuz-strait-remains-shut"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["diplomacy", "ghalibaf", "iran", "negotiations", "ceasefire", "day51"]
+  },
+  {
+    "id": "evt-new-1026",
+    "title": "Kiryat Shmona municipality strike — protest convoy to Jerusalem over Lebanon ceasefire",
+    "description": "Kiryat Shmona municipality held a strike to protest the Lebanon ceasefire. Education system shut down. Convoy of vehicles departed the northern border town headed to Jerusalem to demonstrate. Bereaved families and October Council members also protested near Education Minister Kisch's home.",
+    "type": "protest",
+    "lat": 33.208,
+    "lng": 35.571,
+    "location": "Kiryat Shmona, Israel",
+    "timestamp": "2026-04-19T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Kiryat Shmona ceasefire protest liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-april-19-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["protest", "ceasefire", "kiryat-shmona", "israel", "day51"]
+  },
+  {
+    "id": "evt-new-1027",
+    "title": "Iran-linked HAYI group claims arson attack on London building tied to Jewish organization",
+    "description": "Harakat Ashab al-Yamin al-Islamiya (HAYI), a group with ties to Iran, claimed responsibility for arson attack on a building in Hendon, London, formerly used by Jewish Futures educational organization. A man left a bag with incendiary material that failed to fully ignite. No injuries. Part of broader pattern of Iran-linked attacks on Jewish targets in London including synagogue in Finchley and ambulances in Golders Green.",
+    "type": "infrastructure",
+    "lat": 51.588,
+    "lng": -0.229,
+    "location": "Hendon, London, UK",
+    "timestamp": "2026-04-18T22:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — Iran-linked group claims arson in London",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-linked-group-says-it-carried-out-arson-attack-on-london-building-tied-to-jewish-organization/"
+      },
+      {
+        "name": "RFE/RL — What Is HAYI",
+        "url": "https://www.rferl.org/a/hayi-iran-attacks-europe-jewish-centers/33734573.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["terrorism", "iran-proxy", "hayi", "london", "arson", "day51"]
+  },
+  {
+    "id": "evt-new-1028",
+    "title": "IDF continues demolitions in Bint Jbeil during Lebanon ceasefire",
+    "description": "Israeli forces carried out demolitions in Bint Jbeil, southern Lebanon on Saturday. Lebanese National News Agency reported 'The Israeli enemy is repeating its house detonating operations in the town of Bint Jbeil.' Continued destruction of infrastructure despite ceasefire in effect since April 16-17.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.43,
+    "location": "Bint Jbeil, Lebanon",
+    "timestamp": "2026-04-19T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Displaced Lebanese return as Israeli shelling violates ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/18/displaced-lebanese-return-as-israeli-shelling-violates-ceasefire-in-south"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["idf", "demolition", "bint-jbeil", "ceasefire", "lebanon", "day51"]
   }
 ]

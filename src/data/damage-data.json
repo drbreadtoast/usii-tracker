@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-19T06:14:00Z",
+    "lastUpdated": "2026-04-19T12:07:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 385
+    "totalSites": 387
   },
   "summary": {
-    "totalSites": 387,
-    "confirmed": 313,
+    "totalSites": 389,
+    "confirmed": 315,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6067,6 +6067,36 @@
       "sourceUrl": "https://www.voiceofemirates.com/en/news/2026/04/18/breaking-britain-container-ship-hit-by-unidentified-projectile-off-the-coast-of-oman/",
       "severity": "medium",
       "attributedTo": "unknown"
+    },
+    {
+      "id": "dmg-392",
+      "name": "Hezbollah tunnel shaft — IDF strike south of Yellow Line",
+      "country": "Lebanon",
+      "lat": 33.12,
+      "lng": 35.40,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-19",
+      "description": "IDF struck Hezbollah tunnel shaft in southern Lebanon south of Yellow Line — first Israeli strikes since ceasefire. Found cache of explosive devices, rockets, RPGs, grenades inside tunnel. Also struck Hezbollah operatives approaching IDF positions.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/idf-confirms-strikes-on-hezbollah-operatives-in-lebanon-in-first-since-ceasefire/",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-393",
+      "name": "Bint Jbeil — IDF demolitions during ceasefire",
+      "country": "Lebanon",
+      "lat": 33.12,
+      "lng": 35.43,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-19",
+      "description": "Israeli forces carried out demolitions in Bint Jbeil, southern Lebanon during ceasefire. Lebanese NNA reported continued house detonation operations. Part of ongoing IDF infrastructure clearing in southern Lebanon despite truce.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/18/displaced-lebanese-return-as-israeli-shelling-violates-ceasefire-in-south",
+      "severity": "medium",
+      "attributedTo": "israel"
     }
   ]
 }

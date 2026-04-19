@@ -1,43 +1,5 @@
 [
   {
-    "id": "social-847",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender \u2014 OSINT Analyst",
-    "text": "HORMUZ CHAOS: Iran reverses Strait of Hormuz opening within hours. Ghalibaf scrapped reopening deal citing US 'untrustworthiness.' IRGC gunboats fired on tanker 20 miles NE of Oman \u2014 UKMTO confirmed, no injuries. Two more merchant vessels hit. Armed Forces accuses US of 'piracy and maritime robbery.' Oil surging on renewed uncertainty.",
-    "timestamp": "2026-04-18T10:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NBC News, CBS News, Irish Times, The National confirmed reversal and gunboat incident.",
-    "keywords": [
-      "hormuz",
-      "gunboat",
-      "tanker",
-      "reversal",
-      "blockade",
-      "irgc",
-      "day50"
-    ]
-  },
-  {
-    "id": "social-848",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab \u2014 OSINT Analyst",
-    "text": "TRUMP SIGNALS: At Arizona Turning Point rally Trump announced Hormuz 'fully open' (already reversed by Iran). On Air Force One said 'some pretty good news 20 minutes ago' but declined to elaborate. Warned ceasefire may end without deal by Wednesday. Blockade 'remains in full force.' Next talks expected Monday Islamabad.",
-    "timestamp": "2026-04-18T12:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al-Monitor, Jerusalem Post confirmed.",
-    "keywords": [
-      "trump",
-      "good-news",
-      "hormuz",
-      "ceasefire",
-      "deal",
-      "arizona",
-      "day50"
-    ]
-  },
-  {
     "id": "social-849",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel \u2014 OSINT Aggregator",
@@ -53,24 +15,6 @@
       "enrichment",
       "ceasefire",
       "sanctions"
-    ]
-  },
-  {
-    "id": "social-850",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender \u2014 OSINT Analyst",
-    "text": "NUCLEAR STALEMATE: Iran FM rejects Trump's enriched uranium handover claim \u2014 'will not be transferred anywhere.' US demanded 20-year moratorium, Iran countered with 5 years. ~450kg at 60% purity at issue. $20B cash-for-uranium framework still under discussion. Next talks expected Monday Islamabad. Ceasefire expires April 22.",
-    "timestamp": "2026-04-18T11:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Tribune India, Bloomberg confirmed.",
-    "keywords": [
-      "enrichment",
-      "moratorium",
-      "uranium",
-      "deal",
-      "20-billion",
-      "islamabad"
     ]
   },
   {
@@ -318,6 +262,101 @@
       "oman",
       "ghalibaf",
       "pope-leo"
+    ]
+  },
+  {
+    "id": "social-864",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "BREAKING: IDF confirms FIRST strikes on Hezbollah since Lebanon ceasefire. Struck tunnel shaft south of Yellow Line — found explosive devices, rockets, RPGs, grenades inside. Also struck operatives approaching IDF positions. Hezbollah MP contacted Iran about 'violations.' Trump had said Israel 'prohibited' from bombing, but US clarified defensive strikes allowed.",
+    "timestamp": "2026-04-19T12:07:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, Jerusalem Post confirmed IDF strikes on Hezbollah operatives.",
+    "keywords": [
+      "idf",
+      "hezbollah",
+      "ceasefire-violation",
+      "tunnel",
+      "lebanon",
+      "day51"
+    ]
+  },
+  {
+    "id": "social-865",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "DIPLOMACY STALL: Iran Deputy FM Khatibzadeh at Antalya Forum — 'no date set' for Round 2 until framework agreed. Calls uranium handover 'a nonstarter,' accuses US of 'maximalist' demands. Ghalibaf in separate televised address: 'far from final agreement.' Ceasefire expires April 22 — 3 days and counting.",
+    "timestamp": "2026-04-19T12:07:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PBS, Washington Times, RFE/RL, Euronews, CNBC confirmed.",
+    "keywords": [
+      "khatibzadeh",
+      "ghalibaf",
+      "talks",
+      "uranium",
+      "antalya",
+      "ceasefire",
+      "day51"
+    ]
+  },
+  {
+    "id": "social-866",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT Aggregator",
+    "text": "SANCTIONS UPDATE: Iran oil sanctions waiver officially EXPIRED April 19 — US Treasury will NOT renew. Russian oil waiver RENEWED to May 16 (surprise reversal by Bessent under Asian pressure). Brent surges to $97.68 (+22.4%). US blockade tally: 23 vessels intercepted since April 13. HAYI (Iran-linked) arson attack on Jewish building in London — failed ignition, no injuries.",
+    "timestamp": "2026-04-19T12:07:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Moscow Times, Manila Times, RFE/RL, CNN confirmed.",
+    "keywords": [
+      "sanctions",
+      "waiver",
+      "blockade",
+      "oil",
+      "hayi",
+      "london",
+      "day51"
+    ]
+  },
+  {
+    "id": "social-867",
+    "handle": "@Global_Fedia",
+    "displayName": "GlobalFedia — OSINT Analyst",
+    "text": "CEASEFIRE FRAYING: IDF demolitions continue in Bint Jbeil. Kiryat Shmona municipality strikes — education shutdown, protest convoy to Jerusalem. Kallas accuses Russia of providing intelligence and drones to Iran. 49-nation Paris summit: UK-France-led defensive naval mission for Hormuz. EU Council Monday to discuss Israel + Iran sanctions.",
+    "timestamp": "2026-04-19T12:07:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Times of Israel, Euronews, RBC-Ukraine confirmed.",
+    "keywords": [
+      "ceasefire",
+      "bint-jbeil",
+      "kiryat-shmona",
+      "kallas",
+      "russia",
+      "naval-mission",
+      "day51"
+    ]
+  },
+  {
+    "id": "social-868",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News — Lead Source",
+    "text": "Day 51 AM roundup: IDF FIRST strikes on Hezbollah since ceasefire — tunnel destroyed. Khatibzadeh: 'no date for talks.' Ghalibaf: 'far from deal.' Trump: 'can't blackmail us.' Iran sanctions waiver EXPIRED. Russian waiver renewed May 16. HAYI arson London. Brent $97.68 (+22.4%). Gas $4.076. Ceasefire April 22 — 3 days.",
+    "timestamp": "2026-04-19T12:07:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from Times of Israel, Jerusalem Post, RFE/RL, Euronews, PBS, Washington Times, CNN, Moscow Times, RFE/RL.",
+    "keywords": [
+      "summary",
+      "roundup",
+      "day51",
+      "am",
+      "idf-strikes",
+      "khatibzadeh",
+      "ghalibaf",
+      "sanctions"
     ]
   }
 ]
