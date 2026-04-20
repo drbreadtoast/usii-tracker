@@ -8381,5 +8381,41 @@
       "killed": 74,
       "injured": 150
     }
+  },
+  {
+    "id": "ms-497",
+    "city": "Gulf of Oman",
+    "country": "International Waters",
+    "lat": 25.3,
+    "lng": 57.5,
+    "strikeType": "drone_strike",
+    "attributedTo": "iran",
+    "date": "2026-04-19",
+    "description": "IRGC launched drone strikes on US military vessels in Gulf of Oman in retaliation for USS Spruance seizing Iranian cargo ship Touska. Tasnim: 'targeted some American military ships with drones.' No confirmed damage or casualties. First direct Iran-US military engagement since ceasefire.",
+    "source": "Iran International",
+    "sourceUrl": "https://www.iranintl.com/en/202604191629",
+    "weaponType": "Shahed-series drones (unconfirmed type)",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-498",
+    "city": "Kfar Kila",
+    "country": "Lebanon",
+    "lat": 33.11,
+    "lng": 35.55,
+    "strikeType": "ied",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-19",
+    "description": "Hezbollah IED struck an IDF D-9 bulldozer from the 769th Brigade near Kfar Kila in southern Lebanon. Sgt. First Class (Res.) Lidor Porat, 31, killed. Nine soldiers wounded (1 serious, 4 moderate, 4 light). Second IDF death since Lebanon ceasefire.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/idf-reservist-killed-nine-wounded-by-explosive-in-southern-lebanon-amid-truce/",
+    "weaponType": "pre-planted IED",
+    "casualties": {
+      "killed": 1,
+      "injured": 9
+    }
   }
 ]
