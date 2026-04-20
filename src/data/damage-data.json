@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 387
+    "totalSites": 388
   },
   "summary": {
-    "totalSites": 389,
-    "confirmed": 315,
+    "totalSites": 390,
+    "confirmed": 316,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6097,6 +6097,21 @@
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/18/displaced-lebanese-return-as-israeli-shelling-violates-ceasefire-in-south",
       "severity": "medium",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-394",
+      "name": "Iranian cargo ship Touska — disabled by USS Spruance",
+      "country": "Iran",
+      "lat": 25.30,
+      "lng": 57.00,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-19",
+      "description": "US Navy destroyer USS Spruance (DDG-111) fired rounds into engine room of Iranian-flagged cargo ship Touska (~900 ft) in Gulf of Oman after 6-hour standoff. Propulsion disabled. Marines from 31st MEU boarded and seized vessel. First ship physically taken under US naval blockade. 29th vessel damaged since blockade began.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/04/19/trump-navy-iran-ship-gulf-of-oman.html",
+      "severity": "high",
+      "attributedTo": "us"
     }
   ]
 }

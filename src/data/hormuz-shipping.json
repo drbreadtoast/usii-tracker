@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 48,
+  "blockadeDay": 49,
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-19T12:07:00Z",
+  "lastUpdated": "2026-04-20T00:34:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -573,6 +573,12 @@
       "event": "Day 51 (Blockade Day 48 / CENTCOM Blockade Day 7): IRGC fires on Indian tankers Sanmar Herald (~2M bbl) and Jag Arnav despite prior clearance — dramatic audio captured. India summons Iranian ambassador. SNSC: 'determined to enforce monitoring until end of war.' Iran oil sanctions waiver expires — no renewal. Paris summit: 49-nation defensive naval mission announced. UNIFIL peacekeeper killed in Lebanon. Brent $95.86, WTI $90.79. 23 vessels intercepted total. Ceasefire expires April 22 — 3 days.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-20",
+      "event": "Day 52 (Blockade Day 49 / CENTCOM Blockade Day 8): USS Spruance (DDG-111) fires on and seizes Iranian cargo ship Touska (~900 ft) in Gulf of Oman after 6-hour standoff — first ship physically taken under US blockade. Marines from 31st MEU boarded. 25 vessels total intercepted. Iran Armed Forces (Khatam al-Anbiya) confirms seizure, calls it 'armed piracy,' vows retaliation. IRNA declines Pakistan Round 2 talks. Zero tanker crossings. Brent ~$97.68, WTI ~$93. Ceasefire expires April 22 — 2 days.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -580,8 +586,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran officially reversed Hormuz opening — Ghalibaf scrapped deal.",
-      "priceImpact": "+20.1% Brent ($95.86), +20.2% WTI ($90.79); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 48 of blockade. IRGC fired on Indian tankers Sanmar Herald + Jag Arnav. India summons ambassador. Sanctions waiver expired April 19 — no renewal. Paris summit: 49-nation defensive naval mission. Insurance 5x normal. Traffic ~6 vessels/day. CENTCOM blockade continues. Ceasefire expires April 22 — 3 days."
+      "priceImpact": "+22.4% Brent (~$97.68), +23.2% WTI (~$93.00); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 49 of blockade. USS Spruance seized Iranian ship Touska — first boarding under blockade. 25 vessels intercepted total. Iran vows retaliation. Zero tanker crossings. Insurance 5x normal. Traffic ~6 vessels/day. CENTCOM blockade Day 8. Ceasefire expires April 22 — 2 days."
     },
     {
       "commodity": "LNG",
