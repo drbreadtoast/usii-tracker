@@ -1,100 +1,5 @@
 [
   {
-    "id": "social-864",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "BREAKING: IDF confirms FIRST strikes on Hezbollah since Lebanon ceasefire. Struck tunnel shaft south of Yellow Line — found explosive devices, rockets, RPGs, grenades inside. Also struck operatives approaching IDF positions. Hezbollah MP contacted Iran about 'violations.' Trump had said Israel 'prohibited' from bombing, but US clarified defensive strikes allowed.",
-    "timestamp": "2026-04-19T12:07:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel, Jerusalem Post confirmed IDF strikes on Hezbollah operatives.",
-    "keywords": [
-      "idf",
-      "hezbollah",
-      "ceasefire-violation",
-      "tunnel",
-      "lebanon",
-      "day51"
-    ]
-  },
-  {
-    "id": "social-865",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "DIPLOMACY STALL: Iran Deputy FM Khatibzadeh at Antalya Forum — 'no date set' for Round 2 until framework agreed. Calls uranium handover 'a nonstarter,' accuses US of 'maximalist' demands. Ghalibaf in separate televised address: 'far from final agreement.' Ceasefire expires April 22 — 3 days and counting.",
-    "timestamp": "2026-04-19T12:07:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PBS, Washington Times, RFE/RL, Euronews, CNBC confirmed.",
-    "keywords": [
-      "khatibzadeh",
-      "ghalibaf",
-      "talks",
-      "uranium",
-      "antalya",
-      "ceasefire",
-      "day51"
-    ]
-  },
-  {
-    "id": "social-866",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel — OSINT Aggregator",
-    "text": "SANCTIONS UPDATE: Iran oil sanctions waiver officially EXPIRED April 19 — US Treasury will NOT renew. Russian oil waiver RENEWED to May 16 (surprise reversal by Bessent under Asian pressure). Brent surges to $97.68 (+22.4%). US blockade tally: 23 vessels intercepted since April 13. HAYI (Iran-linked) arson attack on Jewish building in London — failed ignition, no injuries.",
-    "timestamp": "2026-04-19T12:07:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Moscow Times, Manila Times, RFE/RL, CNN confirmed.",
-    "keywords": [
-      "sanctions",
-      "waiver",
-      "blockade",
-      "oil",
-      "hayi",
-      "london",
-      "day51"
-    ]
-  },
-  {
-    "id": "social-867",
-    "handle": "@Global_Fedia",
-    "displayName": "GlobalFedia — OSINT Analyst",
-    "text": "CEASEFIRE FRAYING: IDF demolitions continue in Bint Jbeil. Kiryat Shmona municipality strikes — education shutdown, protest convoy to Jerusalem. Kallas accuses Russia of providing intelligence and drones to Iran. 49-nation Paris summit: UK-France-led defensive naval mission for Hormuz. EU Council Monday to discuss Israel + Iran sanctions.",
-    "timestamp": "2026-04-19T12:07:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, Times of Israel, Euronews, RBC-Ukraine confirmed.",
-    "keywords": [
-      "ceasefire",
-      "bint-jbeil",
-      "kiryat-shmona",
-      "kallas",
-      "russia",
-      "naval-mission",
-      "day51"
-    ]
-  },
-  {
-    "id": "social-868",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News — Lead Source",
-    "text": "Day 51 AM roundup: IDF FIRST strikes on Hezbollah since ceasefire — tunnel destroyed. Khatibzadeh: 'no date for talks.' Ghalibaf: 'far from deal.' Trump: 'can't blackmail us.' Iran sanctions waiver EXPIRED. Russian waiver renewed May 16. HAYI arson London. Brent $97.68 (+22.4%). Gas $4.076. Ceasefire April 22 — 3 days.",
-    "timestamp": "2026-04-19T12:07:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from Times of Israel, Jerusalem Post, RFE/RL, Euronews, PBS, Washington Times, CNN, Moscow Times, RFE/RL.",
-    "keywords": [
-      "summary",
-      "roundup",
-      "day51",
-      "am",
-      "idf-strikes",
-      "khatibzadeh",
-      "ghalibaf",
-      "sanctions"
-    ]
-  },
-  {
     "id": "social-869",
     "handle": "@Osinttechnical",
     "displayName": "OSINTtechnical — Lead Source",
@@ -521,6 +426,119 @@
       "turkey",
       "ceasefire",
       "day52"
+    ]
+  },
+  {
+    "id": "social-892",
+    "handle": "@Janes_OSINT",
+    "displayName": "Janes OSINT — Maritime Analyst",
+    "text": "BLOCKADE HOLDS: CENTCOM Day 8. First 48 hours of US blockade saw zero vessels make it past US forces. 25 commercial vessels redirected since blockade began April 13. Tanker-transit count for Strait of Hormuz stands at zero for Monday April 20. Iran charging over $1M/ship tolls for vessels it permits.",
+    "timestamp": "2026-04-20T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Janes, Insurance Journal, Claims Journal maritime reporting confirmed.",
+    "keywords": [
+      "blockade",
+      "centcom",
+      "hormuz",
+      "tankers",
+      "standstill",
+      "day52"
+    ]
+  },
+  {
+    "id": "social-893",
+    "handle": "@diplomat_so",
+    "displayName": "Diplomat.so — Geopolitical Analyst",
+    "text": "IRAN COMMAND DIVIDE: Araghchi's April 17 Hormuz reopening announcement was contradicted within hours by IRGC Navy reclosure. Parallel signaling suggests internal command-authority fractures — moderates sidelined by IRGC. Iran parliament now drafting bill to formally ban hostile ships and codify Hormuz tolls.",
+    "timestamp": "2026-04-20T17:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Diplomat.so analysis, Al Jazeera liveblog confirmed parliament bill.",
+    "keywords": [
+      "irgc",
+      "araghchi",
+      "command-divide",
+      "hormuz",
+      "parliament",
+      "tolls",
+      "day52"
+    ]
+  },
+  {
+    "id": "social-894",
+    "handle": "@LongWarJournal",
+    "displayName": "FDD Long War Journal — Analyst",
+    "text": "LEBANON PIVOT: IDF goals in Lebanon have shifted from immediate Hezbollah disarmament to reestablishing a South Lebanon Security Zone. Litani River now viewed as new security line. IDF committed to indefinite presence. Analysis: strategic posture shift, not tactical retreat — indicates Israel expects protracted occupation.",
+    "timestamp": "2026-04-20T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "FDD Long War Journal analysis April 2026 confirmed.",
+    "keywords": [
+      "idf",
+      "lebanon",
+      "security-zone",
+      "litani",
+      "occupation",
+      "hezbollah",
+      "day52"
+    ]
+  },
+  {
+    "id": "social-895",
+    "handle": "@iranwire",
+    "displayName": "Iran International OSINT",
+    "text": "MOJTABA HARDLINE: Mojtaba Khamenei's first Telegram message since taking Supreme Leader role signals hardline shift. 'Brave navy stands ready to make enemies taste the bitterness of new defeats.' Uses 'new phase' language for Hormuz — suggesting protracted naval posture. No moderation expected on blockade/tolls.",
+    "timestamp": "2026-04-20T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "IranWire, The Week India confirmed Mojtaba Telegram post.",
+    "keywords": [
+      "mojtaba",
+      "supreme-leader",
+      "hormuz",
+      "hardline",
+      "navy",
+      "telegram",
+      "day52"
+    ]
+  },
+  {
+    "id": "social-896",
+    "handle": "@InsuranceJournal",
+    "displayName": "Insurance Journal — Maritime Monitors",
+    "text": "SHIPPING HALT: 13 vessels turned around in 24 hours after IRGC reversed Araghchi's April 18 reopening declaration. Gunfire from Iranian forces on ships attempting transit after US blockade reaffirmation. War-risk insurance premiums jump 200% for Gulf transits. Hundreds of tankers stranded both sides of strait.",
+    "timestamp": "2026-04-20T17:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Insurance Journal, Claims Journal confirmed vessel turnaround data.",
+    "keywords": [
+      "shipping",
+      "insurance",
+      "premiums",
+      "hormuz",
+      "turnarounds",
+      "day52"
+    ]
+  },
+  {
+    "id": "social-897",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks — Conflict Monitor",
+    "text": "Day 52 PM roundup: Trump pushes Macron on French Navy for Hormuz. Iran FM: 'US not serious' — NO Round 2 talks. Iran parliament drafting Hormuz tolls/ban bill. IDF near Bint Jbeil (Hezbollah stronghold). Oil $95.42 Brent (+19.6%), WTI $89.04. Gas $4.04. Ceasefire expires April 22 — 48h.",
+    "timestamp": "2026-04-20T19:20:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from The Week, Asharq Al-Awsat, Times of Israel, Al Jazeera, The National, Middle East Monitor.",
+    "keywords": [
+      "summary",
+      "roundup",
+      "day52",
+      "pm",
+      "macron",
+      "bint-jbeil",
+      "talks-dead",
+      "oil"
     ]
   }
 ]
