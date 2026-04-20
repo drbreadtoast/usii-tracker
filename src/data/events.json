@@ -35127,5 +35127,204 @@
       "injured": 0
     },
     "tags": ["netanyahu", "enrichment", "ultimatum", "israel", "diplomacy", "day52"]
+  },
+  {
+    "id": "evt-new-1037",
+    "title": "US strikes Ras Issa fuel port in Yemen — deadliest strike of Operation Rough Rider kills 74-84",
+    "description": "US military struck the Ras Issa fuel port in western Yemen on April 17, killing at least 74 (some sources report 80-84) and injuring 150-171. The strike targeted Houthi-controlled fuel infrastructure and was the deadliest known US attack on Houthis since Operation Rough Rider began March 15. Human Rights Watch and PBS confirmed casualty figures.",
+    "type": "strike",
+    "lat": 15.1833,
+    "lng": 42.7667,
+    "location": "Ras Issa, Hodeidah, Yemen",
+    "timestamp": "2026-04-17T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS News — US strikes Yemen oil port in deadly escalation",
+        "url": "https://www.pbs.org/newshour/world/u-s-strikes-yemen-oil-port-in-deadly-escalation-of-trumps-campaign-against-the-houthis"
+      },
+      {
+        "name": "Foreign Policy — Yemen Houthi Ras Isa port US airstrikes",
+        "url": "https://foreignpolicy.com/2025/04/18/yemen-houthi-ras-isa-port-us-airstrikes-oil-military/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 74,
+      "injured": 150
+    },
+    "tags": ["yemen", "houthis", "ras-issa", "strike", "operation-rough-rider", "day50"]
+  },
+  {
+    "id": "evt-new-1038",
+    "title": "IRGC gunboats fire on Indian tankers Sanmar Herald and Jag Arnav in Strait of Hormuz",
+    "description": "Two Indian-flagged vessels — VLCC Sanmar Herald (carrying crude from Iraq) and Jag Arnav (from Saudi al-Jubail) — came under fire from IRGC gunboats in the Strait of Hormuz despite receiving prior clearance to pass. Audio captured crew shouting: 'You gave me clearance to go! You are firing now!' Both ships forced to turn back. India summoned Iran's ambassador, expressing 'deep concern.'",
+    "type": "naval",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-18T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NBC News — Iran fires at Indian tanker in Hormuz",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-says-strait-hormuz-reverted-strict-control-blames-us-rcna340767"
+      },
+      {
+        "name": "Seatrade Maritime — Tanker fired on by Iran in Strait of Hormuz",
+        "url": "https://www.seatrade-maritime.com/security/tanker-fired-on-by-iran-in-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["irgc", "india", "hormuz", "tanker", "naval", "day51"]
+  },
+  {
+    "id": "evt-new-1039",
+    "title": "French UNIFIL peacekeeper SGM Florian Montorio killed in Ghandouriyeh ambush — 3 wounded",
+    "description": "Sergeant Major Florian Montorio of France's 17th Parachute Engineer Regiment was killed and 3 other peacekeepers wounded when their UNIFIL ordnance-clearing patrol came under small-arms fire in the village of Ghandouriyeh, southern Lebanon. UN attributed the attack to 'non-state actors' (presumed Hezbollah). Hezbollah denied responsibility. Second European military death in the conflict.",
+    "type": "strike",
+    "lat": 33.1833,
+    "lng": 35.3667,
+    "location": "Ghandouriyeh, southern Lebanon",
+    "timestamp": "2026-04-18T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "UN News — Peacekeeper killed in Lebanon",
+        "url": "https://news.un.org/en/story/2026/04/1167332"
+      },
+      {
+        "name": "Deccan Herald — UN peacekeeper killed in south Lebanon",
+        "url": "https://www.deccanherald.com/world/middle-east/un-peacekeeper-killed-three-wounded-in-south-lebanon-shooting-unifil-3972691"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 3
+    },
+    "tags": ["unifil", "france", "lebanon", "peacekeeper", "ghandouriyeh", "day51"]
+  },
+  {
+    "id": "evt-new-1040",
+    "title": "IDF establishes 'Yellow Line' in Lebanon — 55 villages blocked, 1,400+ buildings demolished during ceasefire",
+    "description": "IDF is systematically demolishing civilian homes, public buildings, and schools in southern Lebanon despite the 10-day ceasefire (started April 16). The IDF established a 'Yellow Line' — a 10km military zone stretching north of the border inside Lebanon, modeled on Gaza operations. Paid contractors with heavy equipment are demolishing structures. Residents blocked from returning to at least 55 towns/villages. BBC confirmed 1,400+ buildings destroyed via satellite imagery.",
+    "type": "infrastructure",
+    "lat": 33.15,
+    "lng": 35.35,
+    "location": "Southern Lebanon, south of Litani River",
+    "timestamp": "2026-04-19T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Haaretz — Like Gaza: IDF razes south Lebanon villages during ceasefire",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-19/ty-article/.premium/like-gaza-idf-razes-south-lebanon-villages-during-cease-fire-sources-say/0000019d-a43d-d31c-a1df-ae3f8a660000"
+      },
+      {
+        "name": "Al Jazeera — Does Israel's Yellow Line violate the Lebanon ceasefire?",
+        "url": "https://www.aljazeera.com/news/2026/4/19/does-israels-yellow-line-violate-the-lebanon-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["idf", "lebanon", "yellow-line", "demolition", "ceasefire", "day52"]
+  },
+  {
+    "id": "evt-new-1041",
+    "title": "IDF soldier destroys Jesus statue in Christian village of Debel, Lebanon — IDF confirms photo authentic",
+    "description": "IDF confirmed authenticity of a viral photo showing an Israeli soldier smashing a statue of Jesus Christ with a sledgehammer in the Christian village of Debel, southern Lebanon. IDF says it views the incident with 'great severity,' launched Northern Command investigation, and will assist in restoring the statue. Widespread international outrage followed.",
+    "type": "humanitarian",
+    "lat": 33.25,
+    "lng": 35.45,
+    "location": "Debel, southern Lebanon",
+    "timestamp": "2026-04-19T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says image of soldier destroying Jesus statue is real",
+        "url": "https://www.timesofisrael.com/idf-says-image-of-soldier-destroying-jesus-statue-in-lebanon-is-real-vows-action/"
+      },
+      {
+        "name": "Al Jazeera — Outrage after Israeli soldier smashes Jesus statue",
+        "url": "https://www.aljazeera.com/news/2026/4/19/outrage-after-photo-shows-israeli-soldier-smashing-jesus-statue-in-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["idf", "lebanon", "debel", "jesus-statue", "outrage", "day52"]
+  },
+  {
+    "id": "evt-new-1042",
+    "title": "Strait of Hormuz at complete standstill — zero tankers transit on April 20",
+    "description": "No tankers passed through the Strait of Hormuz on Sunday April 20, according to ship tracking data. One of the quietest days in the channel since the conflict began. The combination of the US CENTCOM blockade (Day 8) and Iran's re-closure has brought traffic to a near-complete halt. Only ~6 non-tanker vessels transited. Day 49 of overall Hormuz disruption.",
+    "type": "naval",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-20T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNN Live Updates — April 20 Hormuz standstill",
+        "url": "https://www.cnn.com/2026/04/20/world/live-news/iran-war-us-trump-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "standstill", "blockade", "shipping", "naval", "day52"]
+  },
+  {
+    "id": "evt-new-1043",
+    "title": "Pezeshkian calls Pakistan PM Sharif — 45-min call condemns US 'bullying and unreasonable behaviour'",
+    "description": "Iranian President Pezeshkian held a 45-minute phone call with Pakistan PM Shehbaz Sharif, condemning US actions including 'bullying and unreasonable behaviour' that have led to increased suspicion the US will 'betray diplomacy.' Discussed the Touska seizure. Sharif reaffirmed Pakistan's commitment to 'honest and sincere efforts' for regional peace. Hours later, IRNA announced Iran would not attend Round 2 talks.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran (via phone)",
+    "timestamp": "2026-04-20T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Pakistan Today — PM reaffirms commitment to regional peace",
+        "url": "https://www.pakistantoday.com.pk/2026/04/20/in-45-min-call-with-pezeshkian-pm-reaffirms-commitment-to-regional-peace"
+      },
+      {
+        "name": "Free Press Journal — Pezeshkian calls Pakistan PM Sharif",
+        "url": "https://www.freepressjournal.in/world/bullying-unreasonable-behaviour-iranian-president-masoud-pezeshkian-calls-pakistan-pm-shehbaz-sharif-after-us-seizes-cargo-ship-near-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["pezeshkian", "sharif", "pakistan", "diplomacy", "phone-call", "day52"]
   }
 ]

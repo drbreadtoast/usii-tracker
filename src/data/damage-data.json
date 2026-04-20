@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-19T12:07:00Z",
+    "lastUpdated": "2026-04-20T06:19:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 388
+    "totalSites": 390
   },
   "summary": {
-    "totalSites": 390,
-    "confirmed": 316,
+    "totalSites": 392,
+    "confirmed": 318,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6112,6 +6112,36 @@
       "sourceUrl": "https://www.cnbc.com/2026/04/19/trump-navy-iran-ship-gulf-of-oman.html",
       "severity": "high",
       "attributedTo": "us"
+    },
+    {
+      "id": "dmg-395",
+      "name": "Ras Issa fuel port — US airstrike",
+      "country": "Yemen",
+      "lat": 15.1833,
+      "lng": 42.7667,
+      "type": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-17",
+      "description": "US military struck the Ras Issa fuel port in western Yemen. Deadliest known US attack on Houthis since Operation Rough Rider began March 15. 74-84 killed, 150-171 injured. Significant damage to fuel storage infrastructure.",
+      "source": "PBS News",
+      "sourceUrl": "https://www.pbs.org/newshour/world/u-s-strikes-yemen-oil-port-in-deadly-escalation-of-trumps-campaign-against-the-houthis",
+      "severity": "critical",
+      "attributedTo": "us"
+    },
+    {
+      "id": "dmg-396",
+      "name": "IDF 'Yellow Line' demolitions — 1,400+ buildings in southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.15,
+      "lng": 35.35,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-19",
+      "description": "IDF systematically demolishing civilian homes, schools, and public buildings across 55 villages within a 10km military zone ('Yellow Line') in southern Lebanon during ceasefire. BBC satellite imagery confirmed 1,400+ buildings destroyed. Paid contractors using heavy equipment. Haaretz compared to Gaza operations.",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-19/ty-article/.premium/like-gaza-idf-razes-south-lebanon-villages-during-cease-fire-sources-say/0000019d-a43d-d31c-a1df-ae3f8a660000",
+      "severity": "critical",
+      "attributedTo": "israel"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "dailyTransits": 6,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-20T00:34:00Z",
+  "lastUpdated": "2026-04-20T06:19:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
     "vesselsAnchored": 400,
-    "vesselsTransitLast24h": 8,
+    "vesselsTransitLast24h": 0,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
@@ -579,6 +579,12 @@
       "event": "Day 52 (Blockade Day 49 / CENTCOM Blockade Day 8): USS Spruance (DDG-111) fires on and seizes Iranian cargo ship Touska (~900 ft) in Gulf of Oman after 6-hour standoff — first ship physically taken under US blockade. Marines from 31st MEU boarded. 25 vessels total intercepted. Iran Armed Forces (Khatam al-Anbiya) confirms seizure, calls it 'armed piracy,' vows retaliation. IRNA declines Pakistan Round 2 talks. Zero tanker crossings. Brent ~$97.68, WTI ~$93. Ceasefire expires April 22 — 2 days.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-20",
+      "event": "Day 52 Late (Blockade Day 49 / CENTCOM Day 8): ZERO tankers transit Hormuz — one of the quietest days since conflict began. Complete standstill. Pezeshkian condemns US 'bullying' in 45-min call with Pakistan PM. ISW confirms IRGC Commander Vahidi has seized control of Iran's diplomatic posture — moderates sidelined. IDF 'Yellow Line' in Lebanon: 55 villages blocked, 1,400+ buildings demolished during ceasefire. Brent $95.42, WTI $89.04. Gold $4,879.60. Ceasefire expires April 22 — 2 days.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -586,8 +592,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran officially reversed Hormuz opening — Ghalibaf scrapped deal.",
-      "priceImpact": "+22.4% Brent (~$97.68), +23.2% WTI (~$93.00); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 49 of blockade. USS Spruance seized Iranian ship Touska — first boarding under blockade. 25 vessels intercepted total. Iran vows retaliation. Zero tanker crossings. Insurance 5x normal. Traffic ~6 vessels/day. CENTCOM blockade Day 8. Ceasefire expires April 22 — 2 days."
+      "priceImpact": "+19.5% Brent ($95.42), +17.9% WTI ($89.04); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 49 of blockade. Zero tankers transited April 20 — complete standstill. 25 vessels intercepted total. Iran vows retaliation for Touska seizure. IRGC seizes control of diplomacy. CENTCOM blockade Day 8. Ceasefire expires April 22 — 2 days."
     },
     {
       "commodity": "LNG",
