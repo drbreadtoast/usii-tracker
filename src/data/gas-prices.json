@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-18T00:31:00Z",
-  "currentAverage": 4.076,
-  "preWarAverage": 3.14,
-  "changePercent": 29.8,
+  "lastUpdated": "2026-04-21T19:08:00Z",
+  "currentAverage": 4.022,
+  "preWarAverage": 3.15,
+  "changePercent": 27.68,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -423,6 +423,24 @@
       "price": 4.076,
       "label": "Day 50 PM — $4.076 (AAA, -1.7¢). Oil rebounds: Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). Ras Issa strike 74 killed. House vote 213-214. Gold $4,867. Sanctions waiver expires April 19.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-19",
+      "price": 4.058,
+      "label": "Day 51 — $4.058 (AAA). USS Spruance seizes Iranian ship Touska in Gulf of Oman — first kinetic blockade enforcement. Oil +6% on news; zero tanker transits through Hormuz.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-20",
+      "price": 4.038,
+      "label": "Day 52 — $4.038 (AAA). Iran toll 3,375 (forensic chief). Lebanon 2,387 killed. Trump says ceasefire extension 'highly unlikely'; IDF strikes Qalawiyah. Small softening as ceasefire-talk hopes partially offset Touska tension.",
+      "isEvent": false
+    },
+    {
+      "date": "2026-04-21",
+      "price": 4.022,
+      "label": "Day 53 — $4.022 (AAA, -1.6¢). Trump 'ready to go' back to war on CNBC. EU adopts new Iran sanctions. Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). Ceasefire expires April 22 evening ET.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -472,35 +490,35 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 14)",
-      "crudePerBarrel": 90.38,
+      "label": "Current (Apr 21)",
+      "crudePerBarrel": 95.75,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$90.38 ÷ 42 gal (Brent settlement)",
-          "value": 2.152,
-          "percent": 53,
-          "change": "+$0.532"
+          "formula": "$95.75 ÷ 42 gal (Brent settlement)",
+          "value": 2.28,
+          "percent": 57,
+          "change": "+$0.66"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.887,
-          "percent": 22,
-          "change": "+$0.487"
+          "value": 0.828,
+          "percent": 21,
+          "change": "+$0.428"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
-          "value": 0.3,
-          "percent": 7,
-          "change": "+$0.15"
+          "value": 0.26,
+          "percent": 6,
+          "change": "+$0.11"
         },
         {
           "name": "Federal Excise Tax",
           "formula": "Fixed rate",
           "value": 0.184,
-          "percent": 4,
+          "percent": 5,
           "change": "$0.00"
         },
         {
@@ -518,18 +536,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.076,
-      "note": "National average $4.076/gal (AAA April 18). Oil rebounded — Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). Gas ticking down as April 17 crash filters through. CA $5.864. Diesel $5.593. EIA forecasts peak $4.30 in April.",
-      "crude": 2.152,
-      "taxes": 0.86,
-      "refining": 0.877,
-      "distribution": 0.3,
-      "regularGasoline": 4.076,
-      "changeFromPreWar": "+$0.936",
-      "changePercent": "+29.8%",
-      "lastUpdated": "2026-04-18T00:31:00Z",
-      "date": "2026-04-18"
+      "total": 4.022,
+      "note": "National average $4.022/gal (AAA April 21). Oil Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). Slight softening on ceasefire-talk hopes. CA $5.864. Diesel $5.593. First time national avg exceeded $4/gal in early April since August 2022.",
+      "crude": 2.28,
+      "taxes": 0.534,
+      "refining": 0.828,
+      "distribution": 0.26,
+      "regularGasoline": 4.022,
+      "changeFromPreWar": "+$0.872",
+      "changePercent": "+27.68%",
+      "lastUpdated": "2026-04-21T19:08:00Z",
+      "date": "2026-04-21"
     }
   },
-  "context": "Day 50 PM: Gas $4.076/gal (AAA). Oil rebounds — Brent $95.86 (+20.1%), WTI $90.79 (+20.2%) after April 17 crash. US blockade continues despite Hormuz opening. Iran walks back Araghchi. US strikes Ras Issa Yemen 74 killed. House vote fails 213-214. Gold $4,867. EIA forecasts $4.30 peak. Sanctions waiver expires April 19. Ceasefire expires April 22. CA $5.864; Diesel $5.593."
+  "context": "Day 53: Gas $4.022/gal (AAA). Oil Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). USS Spruance seized Iranian ship Touska April 19; Iran re-closed Hormuz April 18 over US port blockade. Trump 'ready to go' back to war on CNBC. Ceasefire expires April 22 evening ET. CA $5.864; Diesel $5.593."
 }

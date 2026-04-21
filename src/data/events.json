@@ -34377,5 +34377,225 @@
       "injured": 0
     },
     "tags": ["pezeshkian", "letter", "diplomacy", "iran", "day50"]
+  },
+  {
+    "id": "evt-new-1011",
+    "title": "USS Spruance disables Iranian cargo ship Touska in Gulf of Oman",
+    "description": "The Arleigh Burke-class destroyer USS Spruance (DDG-111) fired rounds into the engine room of the Iranian-flagged container ship Touska (294m) after a six-hour standoff, disabling its propulsion. Marines from the 31st Marine Expeditionary Unit rappelled from a helicopter to board the vessel, which was heading to Bandar Abbas in violation of the US naval blockade. First kinetic enforcement action under Operation Epic Fury's blockade posture.",
+    "type": "naval",
+    "lat": 25.5,
+    "lng": 57.0,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-04-19T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US CENTCOM press release",
+        "url": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/4464037/us-forces-disable-vessel-attempting-to-enter-iranian-port-violate-blockade/"
+      },
+      {
+        "name": "USNI News — US seizes Touska",
+        "url": "https://news.usni.org/2026/04/19/u-s-disables-seizes-iranian-container-ship-attempting-to-run-strait-of-hormuz-blockade"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["touska", "uss-spruance", "blockade", "seizure", "marines", "gulf-of-oman", "day51"]
+  },
+  {
+    "id": "evt-new-1012",
+    "title": "Iran launches drone strikes at US Navy vessels in Gulf of Oman",
+    "description": "Iranian forces (per Tasnim/IRGC) launched drone strikes against multiple US military vessels in the Gulf of Oman in retaliation for the Touska seizure. No US damage was reported. Drones not independently confirmed by US; Pentagon did not publicly acknowledge interceptions.",
+    "type": "strike",
+    "lat": 25.5,
+    "lng": 57.0,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-04-19T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The National — Iran drone strikes on US vessels",
+        "url": "https://www.thenationalnews.com/news/mena/2026/04/20/iran-launches-drone-strikes-on-us-military-vessels-after-cargo-ship-seized-near-hormuz/"
+      },
+      {
+        "name": "Iran International — Tasnim drone report",
+        "url": "https://www.iranintl.com/en/202604191629"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["drone", "retaliation", "touska", "gulf-of-oman", "day51"]
+  },
+  {
+    "id": "evt-new-1013",
+    "title": "IDF destroys ready-to-fire Hezbollah launcher in Qalawiyah",
+    "description": "Overnight April 19-20, Israeli aircraft struck a loaded, ready-to-fire Hezbollah launcher in Qalawiyah, north of the IDF Forward Defense Line in southern Lebanon. IDF characterized it as a ceasefire violation. UN experts report Israel has committed over 10,000 ceasefire violations since the April 16 truce.",
+    "type": "strike",
+    "lat": 33.195,
+    "lng": 35.382,
+    "location": "Qalawiyah, southern Lebanon",
+    "timestamp": "2026-04-20T02:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — IDF strikes Hezbollah launcher",
+        "url": "https://www.jpost.com/middle-east/article-893567"
+      },
+      {
+        "name": "OHCHR — UN experts condemn Lebanon strikes",
+        "url": "https://www.ohchr.org/en/press-releases/2026/04/un-experts-condemn-israels-unprecedented-bombing-lebanon-after-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "launcher", "qalawiyah", "ceasefire-violation", "day52"]
+  },
+  {
+    "id": "evt-new-1014",
+    "title": "Iraqi militia drone attacks on Pakshar Camp and PDKI civilian camp",
+    "description": "April 16 missile strike on Komala HQ in Sulaymaniyah Governorate; drone strike on Pakshar Camp in Erbil. April 17 drone attack on PDKI civilian camp in Erbil Governorate. Attributed to Iraqi Shiite militia fronts under the Islamic Resistance in Iraq umbrella.",
+    "type": "strike",
+    "lat": 36.19,
+    "lng": 44.01,
+    "location": "Erbil/Sulaymaniyah, Iraqi Kurdistan",
+    "timestamp": "2026-04-17T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "FDD Long War Journal — Iraqi Kurdistan under fire",
+        "url": "https://www.longwarjournal.org/archives/2026/04/irans-war-against-regional-states-uae-bore-the-brunt-iraqi-kurdistan-still-under-fire.php"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iraqi-militia", "drone", "erbil", "sulaymaniyah", "pdki", "day49"]
+  },
+  {
+    "id": "evt-new-1015",
+    "title": "US Embassy Baghdad issues security alert on Iraqi militia threats",
+    "description": "US Embassy Baghdad issued a security alert warning of potential Iraqi Shiite militia attacks on US facilities. Alert came amid heightened tensions following Touska seizure and ceasefire expiry approaching.",
+    "type": "diplomatic",
+    "lat": 33.315,
+    "lng": 44.366,
+    "location": "Baghdad, Iraq",
+    "timestamp": "2026-04-20T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US Embassy Iraq — Security Alert April 20",
+        "url": "https://iq.usembassy.gov/security-alert-u-s-embassy-baghdad-iraq-april-20-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["baghdad", "security-alert", "iraq", "militia-threat", "day52"]
+  },
+  {
+    "id": "evt-new-1016",
+    "title": "Trump says 'ready to go' back to war as ceasefire expiry looms",
+    "description": "In a CNBC Squawk Box interview on April 21, President Trump said he would not extend the April 8 ceasefire, telling the host 'Well, I don't want to do that' and predicting he expects 'to be bombing' if no deal is reached by the April 22 evening expiry. Oval Office remarks April 20: extension is 'highly unlikely.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC, USA",
+    "timestamp": "2026-04-21T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNBC — Trump says ready to bomb Iran",
+        "url": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire-peace-talks.html"
+      },
+      {
+        "name": "Al Jazeera — Trump ready to go back to war",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/21/iran-war-live-tehran-shuns-talks-trump-says-us-blockade-to-remain"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "ceasefire", "ultimatum", "cnbc", "day53"]
+  },
+  {
+    "id": "evt-new-1017",
+    "title": "Iran re-closes Strait of Hormuz over US port blockade",
+    "description": "Iran's IRGC announced the Strait of Hormuz closed to hostile-flagged shipping until the US lifts its naval blockade of Iranian ports. April 19 parliament proposed law banning hostile-nation vessels and imposing tolls on others. Ship-tracking data showed zero tanker transits on April 19. Iran had briefly declared Hormuz open on April 17 before reversing.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-18T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran closes Strait of Hormuz",
+        "url": "https://www.aljazeera.com/news/2026/4/18/iran-closes-strait-of-hormuz-again-over-us-blockade-of-its-ports"
+      },
+      {
+        "name": "NPR — US-Iran Hormuz impossible",
+        "url": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "blockade", "irgc", "shipping", "day50"]
+  },
+  {
+    "id": "evt-new-1018",
+    "title": "EU adopts new sanctions on Iranian officials obstructing Hormuz navigation",
+    "description": "At the Luxembourg Foreign Affairs Council on April 21, EU foreign policy chief Kaja Kallas announced unanimous agreement on new sanctions against Iranian officials responsible for obstructing freedom of navigation in the Persian Gulf. Kallas warned that if fighting resumes, 'it will come at a very large cost for all.'",
+    "type": "diplomatic",
+    "lat": 49.61,
+    "lng": 6.13,
+    "location": "Luxembourg City, Luxembourg",
+    "timestamp": "2026-04-21T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CP24/AP — EU Mideast crises divisions",
+        "url": "https://www.cp24.com/news/world/2026/04/21/mideast-crises-divide-europe-as-it-grapples-with-rising-fuel-costs-and-policy-toward-israel/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["eu", "sanctions", "kallas", "hormuz", "diplomacy", "day53"]
   }
 ]

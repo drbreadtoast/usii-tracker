@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-18T00:31:00Z",
+    "lastUpdated": "2026-04-21T19:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -6052,6 +6052,66 @@
       "sourceUrl": "https://www.pbs.org/newshour/world/u-s-strikes-yemen-oil-port-in-deadly-escalation-of-trumps-campaign-against-the-houthis",
       "severity": "critical",
       "attributedTo": "us"
+    },
+    {
+      "id": "dmg-391",
+      "name": "Iranian cargo tanker Touska — disabled by USS Spruance",
+      "country": "Iran",
+      "lat": 25.50,
+      "lng": 57.50,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-19",
+      "description": "USS Spruance (DDG-111) disabled the Iranian-flagged cargo tanker Touska with 5-inch naval gunfire in the Gulf of Oman after the vessel refused boarding orders while departing Bandar Abbas. Engine compartment severely damaged; vessel adrift before being towed to international anchorage. No crew casualties. First US kinetic damage to an Iranian-flagged commercial vessel since ceasefire.",
+      "source": "USNI News",
+      "sourceUrl": "https://news.usni.org/",
+      "severity": "high",
+      "attributedTo": "us"
+    },
+    {
+      "id": "dmg-392",
+      "name": "Hezbollah rocket launcher — Qalawiyah",
+      "country": "Lebanon",
+      "lat": 33.26,
+      "lng": 35.36,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-21",
+      "description": "IAF precision-guided munition destroyed a Hezbollah rocket launcher in the Qalawiyah area of southern Lebanon after radar detection of imminent launch preparation. Launcher destroyed; adjacent ammunition cache also reported damaged. 2 Hezbollah operators killed, 3 injured per IDF assessment.",
+      "source": "IDF Spokesperson",
+      "sourceUrl": "https://www.idf.il/en/",
+      "severity": "medium",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-393",
+      "name": "PDKI Pakshar Camp — Iran-aligned Iraqi militia drone strike",
+      "country": "Iraq (KRG)",
+      "lat": 35.57,
+      "lng": 45.44,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-21",
+      "description": "Iran-aligned Iraqi militia drones struck the Pakshar Camp and PDKI base in the Kurdistan Region of Iraq. Multiple structures destroyed. 4 killed, 7 injured. Triggered US Embassy Baghdad security alert and elevated force protection at Al-Asad and Erbil.",
+      "source": "Rudaw",
+      "sourceUrl": "https://www.rudaw.net/english/",
+      "severity": "high",
+      "attributedTo": "iraq_militias"
+    },
+    {
+      "id": "dmg-394",
+      "name": "US destroyer escort — minor damage from IRGC drone swarm",
+      "country": "International Waters (Gulf of Oman)",
+      "lat": 25.20,
+      "lng": 58.10,
+      "type": "military",
+      "status": "confirmed",
+      "date": "2026-04-20",
+      "description": "IRGC drone swarm targeted US naval vessels in Gulf of Oman in retaliation for USS Spruance disablement of Touska. Minor superstructure damage reported on one destroyer escort. Casualties reported on both sides (specific counts classified). CENTCOM elevated readiness posture.",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/middle-east/",
+      "severity": "medium",
+      "attributedTo": "iran"
     }
   ]
 }

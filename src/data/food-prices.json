@@ -1,35 +1,35 @@
 {
-  "lastUpdated": "2026-04-18T00:31:00Z",
+  "lastUpdated": "2026-04-21T19:08:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 5.87,
-      "change": "+4.4%",
-      "detail": "Wheat $5.87/bu (Apr 17). USDA raised season-average price estimates. Iran Hormuz opening may ease shipping pressure. Fertilizer crisis persists ($650+/MT urea). US wheat acreage projected at lowest since records began in 1919.",
-      "source": "TradingEconomics / USDA April 16",
+      "current": 5.94,
+      "change": "+5.7%",
+      "detail": "Wheat $5.94/bu (Apr 21). USDA raised season-average price estimates. Iran re-closed Hormuz after ceasefire expired — shipping pressure intensifies. Fertilizer crisis persists ($665+/MT urea). US wheat acreage at lowest since records began in 1919.",
+      "source": "TradingEconomics / USDA April 21",
       "sourceUrl": "https://tradingeconomics.com/commodity/wheat"
     },
     {
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.14,
-      "change": "-3.9%",
-      "detail": "Corn $4.14/bu (Apr 17). USDA raised price estimates. Corn futures saw 4.75-8.25 cent gains on the day. Hormuz opening could ease fertilizer supply pressure.",
-      "source": "TradingEconomics / CME April 16",
+      "current": 4.22,
+      "change": "-2.1%",
+      "detail": "Corn $4.22/bu (Apr 21). USDA raised price estimates. Corn futures ticked up on Hormuz re-closure after ceasefire expiry. Fertilizer supply pressure re-escalating.",
+      "source": "TradingEconomics / CME April 21",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
     {
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": 11.60,
-      "change": "+14.6%",
-      "detail": "Soybeans ~$11.60/bu (Apr 17, 4-week high). Supported by firm biofuel-linked demand as crude oil disruptions boost biodiesel. Soybean oil $0.669/lb. USDA raised price estimates.",
-      "source": "Brownfield Ag News / CME March 20 closing",
-      "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-march-20-2026/"
+      "current": 11.72,
+      "change": "+15.8%",
+      "detail": "Soybeans ~$11.72/bu (Apr 21, 5-week high). Biofuel-linked demand firm with Brent $95.75 (+19.93%). Soybean oil $0.681/lb. USDA raised price estimates. Hormuz re-closure supports biodiesel premium.",
+      "source": "Brownfield Ag News / CME April 21",
+      "sourceUrl": "https://www.brownfieldagnews.com/market-news/"
     },
     {
       "name": "Rice",
@@ -83,20 +83,20 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": 13,
+    "averageWeeklyIncrease": 14,
     "preWarWeekly": 168,
-    "currentWeekly": 181,
-    "changePercent": 7.7,
-    "usdaForecast2026": "3.6% food price rise",
-    "note": "USDA projects 3.6% overall food price increase in 2026 (food-at-home +2.5%, food-away-from-home +3.7%). Sugar/sweets +6.7%. Wolfe Research estimates war could add ~2 additional percentage points. Fertilizer crisis (urea +40%, ammonia +41%) threatening Northern Hemisphere planting season."
+    "currentWeekly": 182,
+    "changePercent": 8.3,
+    "usdaForecast2026": "3.7% food price rise",
+    "note": "USDA projects 3.7% overall food price increase in 2026 (food-at-home +2.6%, food-away-from-home +3.8%). Sugar/sweets +6.9%. Wolfe Research estimates war could add ~2 additional percentage points. Fertilizer crisis (urea +40%, ammonia +41%) threatening Northern Hemisphere planting season. Hormuz re-closed Day 53 after ceasefire expiry."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
-    "ureaCurrent": "$650+/tonne",
-    "ureaChange": "+37%",
-    "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea surged to $650+/MT (+~50% in 3 weeks, some spot markets $800+). Ammonia prices up 41% YoY. 25% of US farmers have NOT purchased fertilizer for planting season. USDA projects 3.1% food price rise in 2026. Wolfe Research estimates war could add ~2 additional percentage points. Critical Northern Hemisphere spring planting season underway.",
+    "ureaCurrent": "$665+/tonne",
+    "ureaChange": "+40%",
+    "detail": "Approximately one-third of globally traded fertilizer transits the Strait of Hormuz. Urea $665+/MT after Iran re-closed Hormuz on Day 53 (some spot markets $810+). Ammonia prices up 41% YoY. 25% of US farmers have NOT purchased fertilizer for planting season. USDA projects 3.7% food price rise in 2026. Wolfe Research estimates war could add ~2 additional percentage points. Critical Northern Hemisphere spring planting season under pressure.",
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 50 PM: Oil rebounds $95.86 Brent (+20.1%). Iran walks back Hormuz opening — 'misspoke.' Blockade continues. USDA raised wheat, corn, soy price estimates. Wheat $5.87. Fertilizer crisis persists (urea $650+/MT, nitrogen +30-40%). US wheat acreage at record low since 1919. USDA projects food-at-home +3.6% for 2026. Food inflation 105% in Iran (Feb data). Sanctions waiver expires April 19. Ceasefire expires April 22."
+  "context": "Day 53 PM: Oil Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). Iran re-closed Strait of Hormuz after ceasefire expired. USS Spruance disabled tanker Touska (Day 51). Trump ultimatum: 'ready to go'. USDA raised wheat, corn, soy price estimates. Wheat $5.94. Fertilizer crisis (urea $665+/MT, nitrogen +30-40%). US wheat acreage at record low since 1919. USDA projects food-at-home +3.7% for 2026. Food inflation 110%+ in Iran (Mar data). EU adopted new Luxembourg FAC sanctions on Iranian officials."
 }

@@ -1,10 +1,10 @@
 {
-  "straitStatus": "partially_blocked",
-  "blockadeDay": 47,
-  "dailyTransits": 6,
+  "straitStatus": "blocked",
+  "blockadeDay": 50,
+  "dailyTransits": 3,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-18T00:31:00Z",
+  "lastUpdated": "2026-04-21T19:08:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,16 +24,16 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 49 Late: CENTCOM blockade DAY 4. Hormuz summit outcomes: 40 nations plan defensive multinational naval mission — military planning meeting next week. France-UK explicitly reject joining US blockade. Iran Deputy FM at Antalya rejects temporary ceasefire. Ship spoofing detected — Iran-linked tanker 'Alicia' used false AIS. 13-14 ships turned back. 10,000+ US troops, 12+ warships enforcing. USS George H.W. Bush CSG en route as third carrier. Oil surges: Brent $99.39 (+24.5%), WTI $93.74. Gas $4.09. Blockade Day 46.",
+    "tankerTraffic": "Day 53: Iran RE-CLOSED Strait of Hormuz after ceasefire expired. USS Spruance disabled Iranian cargo tanker Touska in Gulf of Oman (Day 51, fleeing Bandar Abbas). Iran retaliatory drone strikes against US vessels — casualties reported. Trump ultimatum: 'ready to go' back to war (CNBC interview). CENTCOM blockade continues DAY 10. EU Luxembourg FAC adopted new sanctions on Iranian officials. Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). Gas $4.022. UK-France-led ~30-country naval mission planning continues.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
-    "lastUpdated": "2026-04-10T06:09:00Z",
-    "tankersTransitedSinceStart": 21,
-    "dailyAverageAIS": 13,
+    "lastUpdated": "2026-04-21T19:08:00Z",
+    "tankersTransitedSinceStart": 24,
+    "dailyAverageAIS": 6,
     "vesselsAtAnchor": 400,
     "sailorsStranded": 40000,
-    "countriesApprovedForTransit": 8,
-    "note": "Day 46 PM (Ceasefire Day 7): CENTCOM BLOCKADE DAY 1 COMPLETE. 6 ships U-turned. No vessels reached Iranian ports. 3 vessels (incl. Chinese-owned Rich Starry, 2 sanctioned tankers) transited strait but NOT to Iranian ports. China: 'Strait is open to us.' 157.7M bbl Iranian oil on water (97.6% China-bound). Saudi + 5 Gulf states demand US end blockade. Houthi counter-blockade threat at Bab al-Mandeb. Oil plunges: Brent $94.87, WTI $91.42 on talk hopes. IEA: March 10.1M bpd lost. Pakistan pushing Islamabad Round 2. Ceasefire expires April 22. Blockade Day 43.",
+    "countriesApprovedForTransit": 0,
+    "note": "Day 53 PM (Post-Ceasefire): CEASEFIRE EXPIRED. Iran RE-CLOSED Strait of Hormuz. CENTCOM BLOCKADE DAY 10. USS Spruance disabled Iranian cargo tanker Touska fleeing Bandar Abbas (Day 51) — 5-inch rounds disabled engine. Iran drone swarm retaliation against US vessels — casualties reported. Trump CNBC: 'ready to go' back to war. 0 ships U-turned past blockade. IDF destroyed Hezbollah launcher at Qalawiyah, Lebanon. Iraqi militia drone attacks on Pakshar Camp / PDKI camp. US Embassy Baghdad security alert. Oil Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). Gas $4.022 (+27.68%). EU Luxembourg FAC sanctions adopted.",
     "iranNewDemand": "Iran Parliament approved Hormuz toll plan (March 31): rial-denominated tolls, bans US/Israeli vessels + ships from sanctioning countries. Revenue potential ~$600-800M/month. Speaker Ghalibaf warns of US plan to seize Iranian island. Rubio calls toll plan 'illegal, unacceptable, dangerous.'",
     "totalCrossings": 207,
     "weeklyTransits": 53,
@@ -561,15 +561,33 @@
       "event": "Day 50 (Blockade Day 47 / CENTCOM Blockade Day 6): Iran state media walks back Araghchi's Hormuz opening — says he 'misspoke,' only IRGC-authorized civilian vessels on designated routes permitted. US CENTCOM blockade of Iranian ports continues — Trump: blockade 'remains in full force.' 8 tankers raced toward Hormuz on April 17 but most turned back. Macron-Starmer Paris summit: ~30 countries plan UK-France-led 'strictly defensive' multinational naval mission for mine clearance. Sanctions waiver expires April 19. Oil rebounds to $95.86 Brent. US strikes Ras Issa port Yemen (74 killed). Traffic still minimal. Next talks Monday Islamabad.",
       "status": "partially_blocked",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-19",
+      "event": "Day 51 (Blockade Day 48 / CENTCOM Blockade Day 7): USS Spruance (DDG-111) disables Iranian cargo tanker Touska in Gulf of Oman — 5-inch rounds on engine compartment after Touska refused boarding order while fleeing Bandar Abbas. First US kinetic action on Iranian-flagged commercial vessel since ceasefire. Iran condemns as 'armed piracy' (Araghchi). Sanctions waiver expires — Treasury lets it lapse as planned. Oil Brent $94.80, WTI $85.12. 3 tankers U-turned from blockade cordon. Weekly transits back down to ~20.",
+      "status": "effectively_closed",
+      "barrels": 200000
+    },
+    {
+      "date": "2026-04-20",
+      "event": "Day 52 (Blockade Day 49 / CENTCOM Blockade Day 8): Iran retaliation — IRGC drone swarm targets US vessels in Gulf of Oman, minor damage reported on destroyer escort. Casualties confirmed on both sides. Netanyahu: ground component required for regime change. Trump Oval Office: ceasefire extension 'highly unlikely.' Brent $95.22, WTI $85.78. 800+ vessels remain stranded. CENTCOM intensifies mine-sweeping with 3 additional MCM platforms arriving.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-21",
+      "event": "Day 53 (Blockade Day 50 / CENTCOM Blockade Day 9): CEASEFIRE EXPIRES. Iran RE-CLOSES Strait of Hormuz — Ghalibaf: 'strait remains closed to all hostile vessels.' Trump CNBC: 'ready to go' back to full war. IDF destroys Hezbollah launcher at Qalawiyah, Lebanon. Iraqi militia drones attack Pakshar Camp / PDKI camp in KRG. US Embassy Baghdad security alert issued. EU Luxembourg FAC adopts new sanctions against Iranian officials. Pope Leo warns of 'delusion of omnipotence.' Brent $95.75 (+19.93%), WTI $86.27 (+14.25%). Gas $4.022/gal (+27.68%). Only 3 ships transited. 800+ vessels trapped. UN SG Guterres call to preserve peace.",
+      "status": "blocked",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
     {
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
-      "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran walked back Hormuz opening — 'misspoke.'",
-      "priceImpact": "+20.1% Brent ($95.86), +20.2% WTI ($90.79); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 47 of blockade. Iran walked back Araghchi's opening — 'misspoke.' 8 tankers raced toward Hormuz then most turned back. Insurance 5x normal. Traffic ~6 vessels/day (zero oil tankers). CENTCOM blockade continues. Sanctions waiver expires April 19. ~30 countries planning European naval mission."
+      "currentFlow": "~1.8M bbl/day (down 88%+ from pre-war 20M+). Iran RE-CLOSED Hormuz after ceasefire expired.",
+      "priceImpact": "+19.93% Brent ($95.75), +14.25% WTI ($86.27); physical Brent peaked $144.42",
+      "detail": "20% of global supply cut off — Day 50 of blockade. Iran RE-CLOSED strait after ceasefire expiry (Day 53). USS Spruance disabled Iranian tanker Touska (Day 51). Iran drone retaliation Day 52 — casualties. Insurance 5x normal. Traffic ~3 vessels/day (zero oil tankers). CENTCOM blockade DAY 10. Sanctions waiver lapsed April 19. ~30 countries planning European naval mission."
     },
     {
       "commodity": "LNG",
@@ -582,8 +600,8 @@
       "commodity": "Refined Products",
       "normalFlow": "2M bbl/day",
       "currentFlow": "0",
-      "priceImpact": "+25%",
-      "detail": "Jet fuel, diesel, gasoline exports halted. US gas $4.166/gal (AAA Day 44 PM) — above $4 since March 31. California: ~$5.93/gal. Diesel: $5.643/gal. Iraq exemption active. OPEC+ +206k bpd for May. March CPI: gasoline +21.2% MoM (largest since 1967). Consumer sentiment 47.6 (record low). Islamabad talks collapsed — no deal path."
+      "priceImpact": "+27.68%",
+      "detail": "Jet fuel, diesel, gasoline exports halted. US gas $4.022/gal (AAA Day 53 PM) — above $4 since March 31. California: ~$5.88/gal. Diesel: $5.612/gal. Iraq exemption active. OPEC+ +206k bpd for May. March CPI: gasoline +21.2% MoM (largest since 1967). Consumer sentiment 46.8 (record low). Ceasefire expired Day 53 — no deal path."
     },
     {
       "commodity": "Petrochemicals",

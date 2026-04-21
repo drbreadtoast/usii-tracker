@@ -8327,5 +8327,77 @@
       "killed": 74,
       "injured": 171
     }
+  },
+  {
+    "id": "ms-494",
+    "city": "Gulf of Oman (Iranian tanker Touska)",
+    "country": "Iran",
+    "lat": 25.50,
+    "lng": 57.50,
+    "strikeType": "naval",
+    "attributedTo": "us",
+    "date": "2026-04-19",
+    "description": "USS Spruance (DDG-111) disabled the Iranian-flagged cargo tanker Touska with 5-inch naval gunfire targeting the engine compartment after the vessel refused multiple boarding orders while departing Bandar Abbas in violation of the CENTCOM maritime cordon. First US kinetic action against an Iranian-flagged commercial vessel since the ceasefire period began. No crew casualties reported.",
+    "source": "USNI News",
+    "sourceUrl": "https://news.usni.org/",
+    "weaponType": "5-inch naval gun",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-495",
+    "city": "Gulf of Oman (US destroyer escort)",
+    "country": "International Waters",
+    "lat": 25.20,
+    "lng": 58.10,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-04-20",
+    "description": "IRGC drone swarm targeted US naval vessels in Gulf of Oman in retaliation for the USS Spruance disablement of tanker Touska. Minor damage reported on one destroyer escort. Casualties confirmed on both sides. CENTCOM elevated readiness; USS George H.W. Bush CSG now third carrier group on station.",
+    "source": "Reuters",
+    "sourceUrl": "https://www.reuters.com/world/middle-east/",
+    "weaponType": "Shahed-136 / Mohajer-10 drone swarm",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-496",
+    "city": "Qalawiyah",
+    "country": "Lebanon",
+    "lat": 33.26,
+    "lng": 35.36,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-21",
+    "description": "IAF aircraft destroyed a Hezbollah rocket launcher in the Qalawiyah area of southern Lebanon after radar detection of imminent launch preparation. Confirmed by IDF Spokesperson. No Israeli casualties. Part of sustained IDF operations against Hezbollah cross-border threat.",
+    "source": "IDF Spokesperson",
+    "sourceUrl": "https://www.idf.il/en/",
+    "weaponType": "precision-guided munition",
+    "casualties": {
+      "killed": 2,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-497",
+    "city": "Pakshar Camp / PDKI base",
+    "country": "Iraq (KRG)",
+    "lat": 35.57,
+    "lng": 45.44,
+    "strikeType": "drone",
+    "attributedTo": "iraq_militias",
+    "date": "2026-04-21",
+    "description": "Iran-aligned Iraqi militia drones struck the Pakshar Camp and PDKI (Kurdish Democratic Party of Iran) base in the Kurdistan Region of Iraq. US Embassy Baghdad issued a security alert and advised non-essential personnel to shelter. Force protection at Al-Asad and Erbil bases elevated.",
+    "source": "Rudaw",
+    "sourceUrl": "https://www.rudaw.net/english/",
+    "weaponType": "loitering munition drone",
+    "casualties": {
+      "killed": 4,
+      "injured": 7
+    }
   }
 ]
