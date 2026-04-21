@@ -35,18 +35,18 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-21T00:33:00Z",
+    "lastUpdated": "2026-04-21T06:28:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 52,
+    "daysOfConflict": 53,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 52
+    "conflictDay": 53
   },
   "countryCosts": {
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
       "directMilitaryCosts": {
-        "total": 43000000000,
+        "total": 46000000000,
         "currency": "USD",
         "breakdown": {
           "munitionsExpended": {
@@ -56,8 +56,8 @@
             "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
           },
           "navalOperations": {
-            "amount": 8800000000,
-            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU, destroyer/submarine operations. Day 43: sustained Hormuz patrol. Ceasefire Day 4 — no change in naval posture.",
+            "amount": 9500000000,
+            "description": "3 carrier strike groups (Lincoln, Ford, Bush), 2,500+ Marines + USS Tripoli deployed, USS Boxer ARG + 11th MEU, destroyer/submarine operations. Day 53: CENTCOM blockade Day 8 — 27 vessels redirected, Touska seized. Sustained Hormuz patrol.",
             "source": "Navy Budget Office / USNI News Fleet Tracker",
             "sourceUrl": "https://news.usni.org/category/fleet-tracker"
           },
@@ -68,19 +68,19 @@
             "sourceUrl": "https://comptroller.defense.gov/Budget-Materials/"
           },
           "personnelDeployment": {
-            "amount": 3000000000,
-            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 399 WIA (354 returned to duty). No new KIA since ceasefire. CENTCOM blockade Day 2.",
+            "amount": 3500000000,
+            "description": "~57,000 personnel deployed to CENTCOM AOR including 5,000 Marines (31st MEU + 2,500 additional), combat pay, hostile fire pay. 13 US service members KIA + 2 non-combat deaths. 399 WIA (354 returned to duty). No new KIA since ceasefire. CENTCOM blockade Day 8. Vance delegation en route Pakistan.",
             "source": "DoD Personnel & Readiness",
             "sourceUrl": "https://prhome.defense.gov/"
           },
           "logistics": {
-            "amount": 8800000000,
-            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Day 45: Elevated fuel costs from $100+ crude after blockade surge. CENTCOM blockade enforcement logistics. Ceasefire sustainment ops, Hormuz patrol logistics, SPR management. Includes Isfahan rescue op logistics.",
+            "amount": 10600000000,
+            "description": "Strategic logistics, forward basing, fuel, maintenance, sustainment. Day 53: Elevated fuel costs from Brent $96.26 crude. CENTCOM blockade enforcement logistics — Touska tow to Fujairah. Ceasefire sustainment ops, Hormuz patrol logistics, SPR management. Includes Isfahan rescue op logistics.",
             "source": "USTRANSCOM / Defense Logistics Agency",
             "sourceUrl": "https://www.dla.mil/"
           }
         },
-        "totalFormatted": "$43B",
+        "totalFormatted": "$46B",
         "source": "DoD Comptroller / CRS estimates. Pentagon told Congress first 6 days cost $11.3B. Pentagon supplemental slashed from $200B+ to $80-100B (WaPo April 7). 250+ groups oppose additional funding. Penn Wharton: $40B-$95B total direct costs.",
         "sourceUrl": "https://www.aljazeera.com/news/2026/3/15/top-trump-advisor-says-iran-war-price-tag-at-approximately-12bn-so-far"
       },
@@ -96,17 +96,17 @@
       },
       "dailyBurnRate": 1000000000,
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
-      "totalEstimate": "~$43B direct military + ~$37.6B indirect through Day 47",
+      "totalEstimate": "~$46B direct military + ~$37.6B indirect through Day 53",
       "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
-      "totalCost": 80600000000,
-      "totalFormatted": "$80.6B",
-      "total": 80600000000,
-      "lastUpdated": "2026-04-15T11:58:00Z",
-      "note": "Day 47 PM: $43B direct + $37.6B indirect = ~$80.6B total through Day 47. CENTCOM blockade 'fully implemented' — 8 tankers intercepted. Harvard: $1T long-term cost. Burn rate ~$1B/day. Pentagon supplemental $80-100B. Oil Brent $96.80. IMF recession warning. EIA: Q2 peak $115/bbl. Iran threatens Red Sea blockade. Sanctions waiver expires April 19. 13 KIA, 399 WIA.",
+      "totalCost": 83600000000,
+      "totalFormatted": "$83.6B",
+      "total": 83600000000,
+      "lastUpdated": "2026-04-21T06:28:00Z",
+      "note": "Day 53: $46B direct + $37.6B indirect = ~$83.6B total through Day 53. CENTCOM blockade Day 8 — 27 vessels redirected, Touska seized. Harvard: $1T long-term cost. Burn rate ~$1B/day. Pentagon supplemental $80-100B. Oil Brent $96.26. Sanctions waiver expired. Ceasefire expires April 22. 13 KIA, 399 WIA.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin now seeking $80-100B supplemental (down from $200B+).",
-      "directMilitary": 43000000000,
-      "description": "US direct military costs ~$43B (Day 47 PM). Indirect costs ~$37.6B. Total ~$80.6B. Daily burn rate ~$1B/day. CENTCOM blockade 'fully implemented' — 8 tankers. Harvard: $1T long-term. 57,000+ troops. 950+ Tomahawks (~$1.9B). Pentagon supplemental $80-100B. Oil Brent $96.80. IMF recession warning. 13 KIA, 399 WIA.",
-      "totalDirect": 43000000000,
+      "directMilitary": 46000000000,
+      "description": "US direct military costs ~$46B (Day 53). Indirect costs ~$37.6B. Total ~$83.6B. Daily burn rate ~$1B/day. CENTCOM blockade Day 8 — 27 vessels, Touska seized. Harvard: $1T long-term. 57,000+ troops. 950+ Tomahawks (~$1.9B). Pentagon supplemental $80-100B. Oil Brent $96.26. Sanctions waiver expired. Ceasefire expires April 22. 13 KIA, 399 WIA.",
+      "totalDirect": 46000000000,
       "dailyBurnRateFormatted": "$1B/day"
     },
     "israel": {
@@ -817,27 +817,27 @@
     }
   ],
   "totals": {
-    "allCountriesDirectMilitary": 64570000000,
+    "allCountriesDirectMilitary": 67570000000,
     "allCountriesIndirectCosts": 109490000000,
-    "combinedTotalCosts": 174060000000,
+    "combinedTotalCosts": 177060000000,
     "globalEconomicImpact": 880000000000,
-    "description": "Combined direct military + indirect economic costs through Day 52 Evening. Oil Brent $95.42 (+19.5%), WTI $89.81 (+18.9%). Israel Memorial Day — 174 IDF + 79 civilians killed in past year. Jesus statue controversy. Syria foils Hezbollah cell. Milei-Netanyahu Isaac Accords. Lebanon talks Round 2 Thursday. Gas $4.076. Ceasefire expires April 22.",
-    "lastCalculated": "2026-04-20T19:20:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 53. Ceasefire expiry eve. Brent $96.26 (+20.6%), WTI $86.27 (+14.3%). Iran refuses talks, Vance heads to Pakistan. CENTCOM blockade Day 8 — Touska seized. Iran death toll 3,375. Gas $4.04. Ceasefire expires April 22.",
+    "lastCalculated": "2026-04-21T06:28:00Z",
     "allCountriesIndirect": 109490000000,
-    "combinedTotalFormatted": "$174.06B",
-    "lastUpdated": "2026-04-21T00:33:00Z",
-    "directCosts": 64570000000,
+    "combinedTotalFormatted": "$177.06B",
+    "lastUpdated": "2026-04-21T06:28:00Z",
+    "directCosts": 67570000000,
     "indirectCosts": 109490000000,
-    "combinedCosts": 174060000000,
-    "combinedCost": 174060000000,
-    "combinedCostTotal": 174060000000,
-    "allCountriesDirect": 64570000000,
-    "allCountriesDirectFormatted": "$64.57B",
+    "combinedCosts": 177060000000,
+    "combinedCost": 177060000000,
+    "combinedCostTotal": 177060000000,
+    "allCountriesDirect": 67570000000,
+    "allCountriesDirectFormatted": "$67.57B",
     "globalEconomicImpactFormatted": "$880B+"
   },
-  "daysOfConflict": 52,
-  "lastUpdated": "2026-04-21T00:33:00Z",
+  "daysOfConflict": 53,
+  "lastUpdated": "2026-04-21T06:28:00Z",
   "dailyBurnRate": 1478000000,
-  "totalCost": 66048000000,
-  "totalFormatted": "$66.05B (direct military, all countries, Day 52)"
+  "totalCost": 67570000000,
+  "totalFormatted": "$67.57B (direct military, all countries, Day 53)"
 }
