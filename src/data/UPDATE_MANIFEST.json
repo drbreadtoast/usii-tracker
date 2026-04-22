@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-04-22T00:29:00Z",
+  "lastFullUpdate": "2026-04-22T06:03:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -24,9 +24,9 @@
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-941",
-          "totalEntries": 214,
-          "lastUpdated": "2026-04-22T00:29:00Z"
+          "lastId": "brk-943",
+          "totalEntries": 216,
+          "lastUpdated": "2026-04-22T06:03:00Z"
         },
         {
           "file": "death-toll.json",
@@ -64,9 +64,9 @@
         {
           "file": "social-posts.json",
           "structure": "top-level-array",
-          "lastId": "social-923",
-          "totalEntries": 6,
-          "lastUpdated": "2026-04-22T00:29:00Z"
+          "lastId": "social-925",
+          "totalEntries": 8,
+          "lastUpdated": "2026-04-22T06:03:00Z"
         },
         {
           "file": "government-statements.json",
