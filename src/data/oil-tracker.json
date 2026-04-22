@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 53
+    "conflictDay": 54
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-21",
-      "label": "Day 54 — Trump extends ceasefire INDEFINITELY. Brent spiked to $101.15, settled $98.48 (+23.3%). WTI $92.13 (+22.0%). Tifani seized in Bay of Bengal (2M bbl). Hezbollah fires at IDF. Vance trip postponed. OFAC sanctions 14 targets. Gas $4.022.",
+      "date": "2026-04-22",
+      "label": "Day 54 AM — IRGC fires on 3 ships, seizes 2 in Hormuz. Brent $99.81 (+25.0%). WTI $90.86 (+20.3%). Iran boycotts talks. Bessent: Kharg 'full in days.' Hezbollah rockets Day 2. Gas $4.022. Gold $4,769.93.",
       "brent": {
-        "price": 98.48,
-        "change": "+23.4%",
-        "changeDollars": 18.64
+        "price": 99.81,
+        "change": "+25.1%",
+        "changeDollars": 20.01
       },
       "wti": {
-        "price": 92.13,
-        "change": "+22.0%",
-        "changeDollars": 16.62
+        "price": 90.86,
+        "change": "+20.3%",
+        "changeDollars": 15.36
       },
       "changePercent": "+22.7%",
-      "lastUpdated": "2026-04-21"
+      "lastUpdated": "2026-04-22"
     },
     "priceHistory": [
       {
@@ -625,8 +625,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-22T00:29:00Z",
-    "note": "Day 54: Ceasefire EXTENDED INDEFINITELY by Trump. Brent settled $98.48 (+23.3%), spiked $101.15 intraday. WTI $92.13 (+22.0%). AAA avg $4.022/gal (+28.1%). Tifani seized. Hezbollah fires at IDF.",
+    "lastUpdated": "2026-04-22T12:06:00Z",
+    "note": "Day 54 AM: IRGC fires on 3 ships, seizes 2 in Hormuz. Brent $99.81 (+25.0%). WTI $90.86 (+20.3%). AAA avg $4.022/gal (+28.1%). Iran boycotts talks. Bessent: Kharg 'full in days.' Gold $4,769.93.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -639,11 +639,11 @@
           "price": 4.022,
           "change": "+28.1%",
           "changeDollars": "+$0.88",
-          "date": "2026-04-21"
+          "date": "2026-04-22"
         },
         "change": "+$0.88",
         "changePercent": "+28.1%",
-        "detail": "Gas $4.022/gal (AAA, Day 54). Brent $98.48 (+23.3%), WTI $92.13 (+22.0%). Ceasefire extended indefinitely. Pre-war $3.14.",
+        "detail": "Gas $4.022/gal (AAA, Day 54). Brent $99.81 (+25.0%), WTI $90.86 (+20.3%). IRGC attacks 3 ships in Hormuz. Iran boycotts talks. Pre-war $3.14.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -721,8 +721,8 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.09,
-    "gasPriceRegular": 4.09,
+    "regularGasoline": 4.022,
+    "gasPriceRegular": 4.022,
     "gasPriceDiesel": "$5.643/gal",
     "changeFromPreWar": "+$0.95",
     "changePercent": "+30.3%"
@@ -822,7 +822,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-21T12:11:00Z",
+  "lastUpdated": "2026-04-22T12:06:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1075,6 +1075,13 @@
       "brent": 98.48,
       "wti": 92.13,
       "label": "Day 54 — Ceasefire EXTENDED INDEFINITELY. Brent spiked to $101.15 intraday, settled $98.48 (+23.3%). WTI $92.13 (+22.0%). Tifani seized (2M bbl). Hezbollah fires at IDF. Vance postponed. OFAC sanctions 14. Gas $4.022.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-22",
+      "brent": 99.81,
+      "wti": 90.86,
+      "label": "Day 54 AM — IRGC fires on 3 ships, seizes 2 in Hormuz. Brent $99.81 (+25.0%). WTI $90.86 (+20.3%). Iran boycotts talks. Bessent: Kharg 'full in days.' Pentagon FY2027 $1.5T. EU Hormuz sanctions. Gas $4.022. Gold $4,769.93.",
       "isEvent": true
     }
   ]

@@ -36412,5 +36412,341 @@
       "injured": 0
     },
     "tags": ["sanctions", "economic-fury", "shahed", "mahan-air", "treasury", "day53"]
+  },
+  {
+    "id": "evt-new-1082",
+    "title": "IRGC fires on three container ships in Strait of Hormuz — Epaminondas, MSC Francesca, Eurphoria attacked",
+    "description": "IRGC gunboats fired on three container ships within hours of each other in the Strait of Hormuz, despite the ceasefire extension. Epaminondas (Greek-owned, Gujarat-bound) sustained 'heavy damage to the bridge' from gunfire and RPGs ~15nm NE of Oman at ~03:55 UTC. MSC Francesca (Panama-flagged) was fired upon ~6nm off Iran coast and ordered to drop anchor — damage to hull and accommodation. Eurphoria (Panama-flagged, UAE-owned) was fired upon ~8nm west of Iran at 06:38 UTC. UKMTO confirmed IRGC fired without VHF challenge on first vessel.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-22T03:55:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Seatrade Maritime — Three container ships come under fire from Iran in Hormuz",
+        "url": "https://www.seatrade-maritime.com/containers/three-container-ships-come-under-fire-from-iran-in-hormuz"
+      },
+      {
+        "name": "CNBC — Strait of Hormuz ships attacked",
+        "url": "https://www.cnbc.com/2026/04/22/strait-of-hormuz-ships-attacked-iran-war.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "irgc", "naval", "ship-attack", "escalation", "day54"]
+  },
+  {
+    "id": "evt-new-1083",
+    "title": "IRGC seizes MSC Francesca and Epaminondas — vessels towed to Iranian territorial waters",
+    "description": "IRGC Navy confirmed seizure of two of the three vessels attacked earlier — MSC Francesca and Epaminondas — transferring them to Iranian territorial waters 'to examine cargo and documents.' IRGC claimed ships were 'attempting to secretly exit the Strait of Hormuz' and were 'operating without necessary authorisation and manipulating navigation systems.' Major escalation despite indefinite ceasefire extension.",
+    "type": "naval",
+    "lat": 26.62,
+    "lng": 56.40,
+    "location": "Strait of Hormuz, Iranian territorial waters",
+    "timestamp": "2026-04-22T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "ABC News — IRGC seizes vessels in Hormuz",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-marines-uss-tripoli-seized-iranian/?id=132196152"
+      },
+      {
+        "name": "The Week India — Gujarat-bound Epaminondas among ships seized",
+        "url": "https://www.theweek.in/news/middle-east/2026/04/22/gujarat-bound-epaminondas-among-3-ships-seized-by-irgc-in-hormuz-despite-extended-ceasefire.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "irgc", "naval", "ship-seizure", "escalation", "day54"]
+  },
+  {
+    "id": "evt-new-1084",
+    "title": "Hezbollah fires rockets and drone at IDF in southern Lebanon — ceasefire violations continue",
+    "description": "Hezbollah fired rockets at IDF troops in Rab al-Thalathine area (Israeli-held security zone in south Lebanon) for a second consecutive day. A drone launched from Lebanon toward northern Israel triggered sirens in Kfar Yuval and Ma'ayan Baruch — intercepted before crossing border. IDF struck the rocket launcher within minutes. Hezbollah claimed responsibility citing 'over 200 Israeli violations' of the ceasefire.",
+    "type": "strike",
+    "lat": 33.28,
+    "lng": 35.55,
+    "location": "Rab al-Thalathine, southern Lebanon",
+    "timestamp": "2026-04-22T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah breached truce launching rockets",
+        "url": "https://www.timesofisrael.com/idf-says-hezbollah-breached-truce-launching-rockets-at-troops-drone-at-israel/"
+      },
+      {
+        "name": "Jerusalem Post — Hezbollah ceasefire violations",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-893767"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "lebanon", "ceasefire-violation", "rockets", "drone", "day54"]
+  },
+  {
+    "id": "evt-new-1085",
+    "title": "Iranian drones strike Kurdish opposition bases in Erbil province, Iraq",
+    "description": "Tehran launched four drones targeting Kurdistan Freedom Party (PAK) bases in the Khabat district of Erbil province. Three PAK fighters sustained minor injuries. Continued Iranian strikes on Kurdish opposition despite the US-Iran ceasefire.",
+    "type": "strike",
+    "lat": 36.27,
+    "lng": 43.99,
+    "location": "Khabat, Erbil province, Iraq",
+    "timestamp": "2026-04-22T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gulan Media — Iran targets PAK bases in Kurdistan Region",
+        "url": "https://www.gulanmedia.com/en/story/356353/iran-targets-pak-bases-in-kurdistan-region-with-drone-strikes"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["iran", "iraq", "kurdistan", "drone-strike", "pak", "day54"]
+  },
+  {
+    "id": "evt-new-1086",
+    "title": "Trump claims Iran 'collapsing financially,' losing $500M/day from blockade",
+    "description": "Trump posted on Truth Social claiming Iran is 'collapsing financially' and 'starving for cash,' losing $500 million per day due to the Strait of Hormuz closure. Claimed Iranian 'Military and Police complaining that they are not getting paid.' Gave Iran '3-5 days' to unify behind a counter-offer per Axios reporting.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-04-22T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "ANI News — Trump claims Iran collapsing financially",
+        "url": "https://aninews.in/news/world/us/trump-claims-iran-collapsing-financially-losing-usd-500-million-daily-amid-naval-blockade20260422094036/"
+      },
+      {
+        "name": "Axios — Trump gives Iran 3-5 days",
+        "url": "https://www.axios.com/2026/04/22/trump-iran-war-power-struggle-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "diplomacy", "blockade", "financial-pressure", "day54"]
+  },
+  {
+    "id": "evt-new-1087",
+    "title": "Israeli settlers set Palestinian home on fire in Beit Imrin — 8 injured including 1-year-old",
+    "description": "Dozens of Israeli settlers set a Palestinian home on fire in Beit Imrin near Nablus, surrounding the house to prevent the family from escaping, then hurling rocks. 8 Palestinians injured including a 1-year-old baby. Seven treated for smoke inhalation, one man in his 20s suffered facial burns. Turkey condemned the attacks.",
+    "type": "humanitarian",
+    "lat": 32.28,
+    "lng": 35.26,
+    "location": "Beit Imrin, Nablus, West Bank",
+    "timestamp": "2026-04-22T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Washington Post — Israel settler attack West Bank",
+        "url": "https://www.washingtonpost.com/world/2026/04/21/israel-settler-attack-west-bank-palestinians/2eeadb28-3d8a-11f1-bb46-ed564688d953_story.html"
+      },
+      {
+        "name": "CNN — West Bank settler attack school",
+        "url": "https://www.cnn.com/2026/04/22/middleeast/west-bank-settler-attack-school-intl"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 8
+    },
+    "tags": ["settlers", "west-bank", "arson", "humanitarian", "day54"]
+  },
+  {
+    "id": "evt-new-1088",
+    "title": "EU agrees new Hormuz navigation sanctions — Kallas says 'freedom of navigation non-negotiable'",
+    "description": "EU foreign ministers meeting in Luxembourg agreed to a new sanctions framework targeting individuals and entities blocking freedom of navigation in the Strait of Hormuz. EU foreign policy chief Kaja Kallas stated: 'Freedom of navigation is non-negotiable. Daily U-turns where the Strait of Hormuz is open or closed, are reckless.' Formal adoption expected in May.",
+    "type": "diplomatic",
+    "lat": 49.61,
+    "lng": 6.13,
+    "location": "Luxembourg",
+    "timestamp": "2026-04-22T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "GV Wire — EU to widen Iran sanctions to those who block Hormuz",
+        "url": "https://gvwire.com/2026/04/20/eu-to-widen-iran-sanctions-to-those-who-block-hormuz/"
+      },
+      {
+        "name": "Marine Insight — EU expands Iran sanctions",
+        "url": "https://www.marineinsight.com/eu-expands-iran-sanctions-to-target-those-blocking-strait-of-hormuz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["eu", "sanctions", "hormuz", "kallas", "diplomacy", "day54"]
+  },
+  {
+    "id": "evt-new-1089",
+    "title": "Macron-Salam Paris meeting — Lebanon requests 500M euros for humanitarian crisis",
+    "description": "French President Macron met Lebanese PM Nawaf Salam in Paris. Salam said Lebanon needs 500 million euros to tackle the humanitarian crisis over the next six months. Macron urged Israel to 'renounce its territorial ambitions' in Lebanon and said Hezbollah must 'cease' firing and be disarmed 'by the Lebanese themselves.' Meeting held ahead of planned Israel-Lebanon talks in Washington.",
+    "type": "diplomatic",
+    "lat": 48.86,
+    "lng": 2.35,
+    "location": "Paris, France",
+    "timestamp": "2026-04-22T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "France24 — Macron to meet Lebanon PM in Paris",
+        "url": "https://www.france24.com/en/france/20260421-macron-to-meet-lebanon-s-pm-in-paris-to-reaffirm-commitment-for-israel-truce"
+      },
+      {
+        "name": "Diplomat.so — Lebanon urges 500M",
+        "url": "https://diplomat.so/articles/1182/Lebanon-Urges-500M-as-Fragile-Ceasefire-Nears-End"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["france", "lebanon", "macron", "diplomacy", "humanitarian-aid", "day54"]
+  },
+  {
+    "id": "evt-new-1090",
+    "title": "IDF Chief of Staff Zamir places military on high alert for possible return to war with Iran",
+    "description": "IDF Chief of Staff Lt. Gen. Eyal Zamir said the military remains on high alert and is ready to return to fighting on all fronts, amid fragile truces with Iran and in Lebanon. Statement came during Israel's Independence Day events.",
+    "type": "movement",
+    "lat": 32.07,
+    "lng": 34.77,
+    "location": "Tel Aviv, Israel",
+    "timestamp": "2026-04-22T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Ynet News — IDF Chief of Staff places army on high alert",
+        "url": "https://www.ynetnews.com/article/bjky1by2wg"
+      },
+      {
+        "name": "Yeshiva World — IDF high alert for possible return to war",
+        "url": "https://www.theyeshivaworld.com/news/israel-news/2534415/idf-chief-of-staff-places-army-on-high-alert-for-possible-return-to-war-with-iran.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "idf", "military-readiness", "ceasefire", "day54"]
+  },
+  {
+    "id": "evt-new-1091",
+    "title": "Bessent warns Kharg Island storage will be full 'in days' — Iranian oil wells face shutdown",
+    "description": "US Treasury Secretary Scott Bessent stated that 'in a matter of days, Kharg Island storage will be full and the fragile Iranian oil wells will be shut in.' Kharg Island capacity is ~31 million barrels, was at 58% in early March. Iran has ~190 million barrels in floating storage on water. Key pressure point of the US blockade strategy.",
+    "type": "infrastructure",
+    "lat": 29.23,
+    "lng": 50.33,
+    "location": "Kharg Island, Iran",
+    "timestamp": "2026-04-22T01:44:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "FXStreet — Bessent says Kharg Island will be full of oil in days",
+        "url": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-says-blockaded-kharg-island-will-be-full-of-oil-in-days-202604220144"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["bessent", "kharg-island", "blockade", "oil", "economic-pressure", "day54"]
+  },
+  {
+    "id": "evt-new-1092",
+    "title": "Lebanon raises war death toll to 2,454 killed and 7,658 wounded",
+    "description": "Lebanon's disaster risk management unit raised the official death toll from the Israel-Hezbollah war to 2,454 killed and 7,658 wounded since March 2. Authorities and rescuers have been recovering bodies from areas subjected to heavy Israeli strikes.",
+    "type": "humanitarian",
+    "lat": 33.89,
+    "lng": 35.50,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-04-22T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Asharq Al-Awsat — Lebanon raises death toll to 2,454",
+        "url": "https://english.aawsat.com/arab-world/5265042-lebanon-raises-israel-hezbollah-war-death-toll-2454"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2454,
+      "injured": 7658
+    },
+    "tags": ["lebanon", "death-toll", "humanitarian", "day54"]
+  },
+  {
+    "id": "evt-new-1093",
+    "title": "Pentagon FY2027 budget proposes $1.5T — drone spending tripled, Tomahawk orders 14x, Iran war-driven",
+    "description": "Pentagon released FY2027 budget request totaling $1.5 trillion. Drone spending tripled to $74 billion. Tomahawk missile purchases increased 14x from 55 to 785. $55 billion for new Defense Autonomous Warfare Group (DAWG) — 24,000% YoY increase. $30+ billion in munitions systems. 44,500 new troops (+2%). Largest shipbuilding request since 1962. Driven by lessons and expenditures from Iran war.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.06,
+    "location": "Pentagon, Arlington, VA",
+    "timestamp": "2026-04-21T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Military.com — US military pushes boost 2027 spending on drones",
+        "url": "https://www.military.com/daily-news/2026/04/21/us-military-pushes-boost-2027-spending-drones-and-air-defenses-used-iran-war.html"
+      },
+      {
+        "name": "Scripps News — Pentagon 2027 budget munitions for Iran conflict",
+        "url": "https://www.scrippsnews.com/us-news/iran-war/pentagons-2027-budget-proposes-big-spending-on-munitions-for-iran-conflict-but-officials-mum-on-cost-of-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["pentagon", "budget", "fy2027", "drones", "tomahawk", "military-spending", "day54"]
   }
 ]

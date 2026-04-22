@@ -8453,5 +8453,77 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-501",
+    "city": "Strait of Hormuz (Epaminondas)",
+    "country": "Iran",
+    "lat": 26.56,
+    "lng": 56.40,
+    "strikeType": "naval_attack",
+    "attributedTo": "iran",
+    "date": "2026-04-22",
+    "description": "IRGC gunboats fired on Greek-owned container ship Epaminondas ~15nm NE of Oman at ~03:55 UTC. Hit with gunfire and RPGs, causing 'heavy damage to the bridge.' Crew safe. Vessel subsequently seized and towed to Iranian territorial waters.",
+    "source": "Seatrade Maritime",
+    "sourceUrl": "https://www.seatrade-maritime.com/containers/three-container-ships-come-under-fire-from-iran-in-hormuz",
+    "weaponType": "gunfire + RPG",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-502",
+    "city": "Strait of Hormuz (MSC Francesca)",
+    "country": "Iran",
+    "lat": 26.60,
+    "lng": 56.25,
+    "strikeType": "naval_attack",
+    "attributedTo": "iran",
+    "date": "2026-04-22",
+    "description": "IRGC gunboats fired on Panama-flagged MSC Francesca ~6nm off Iran coast while transiting southbound. Damage to hull and accommodation. Ship ordered to drop anchor. Subsequently seized and towed to Iranian waters.",
+    "source": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/04/22/strait-of-hormuz-ships-attacked-iran-war.html",
+    "weaponType": "gunfire",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-503",
+    "city": "Strait of Hormuz (Eurphoria)",
+    "country": "Iran",
+    "lat": 26.50,
+    "lng": 56.30,
+    "strikeType": "naval_attack",
+    "attributedTo": "iran",
+    "date": "2026-04-22",
+    "description": "IRGC gunboats fired on Panama-flagged, UAE-owned Eurphoria ~8nm west of Iran at 06:38 UTC. Ship stranded on Iranian coast per Iranian media. Tasnim said vessel 'ignored warnings.'",
+    "source": "BNO News",
+    "sourceUrl": "https://bnonews.com/index.php/2026/04/container-ship-damaged-in-reported-attack-by-iranian-gunboat-near-strait-of-hormuz/",
+    "weaponType": "gunfire",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-504",
+    "city": "Khabat, Erbil",
+    "country": "Iraq",
+    "lat": 36.27,
+    "lng": 43.99,
+    "strikeType": "drone_strike",
+    "attributedTo": "iran",
+    "date": "2026-04-22",
+    "description": "Iran launched four drones targeting Kurdistan Freedom Party (PAK) bases in Khabat district, Erbil province. Three PAK fighters sustained minor injuries.",
+    "source": "Gulan Media",
+    "sourceUrl": "https://www.gulanmedia.com/en/story/356353/iran-targets-pak-bases-in-kurdistan-region-with-drone-strikes",
+    "weaponType": "drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]
