@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-21T12:11:00Z",
+    "lastUpdated": "2026-04-22T00:29:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-21",
-      "label": "Day 53 — Ceasefire expiry eve. Iran refuses talks, Vance heads to Pakistan. Brent $96.26 (+20.6%), WTI $86.27 (+14.3%). Markets pricing in hostilities resumption. Iran blockade costing $400-435M/day, approaching storage deadline April 26. Gas $4.04 (AAA).",
+      "label": "Day 54 — Trump extends ceasefire INDEFINITELY. Brent spiked to $101.15, settled $98.48 (+23.3%). WTI $92.13 (+22.0%). Tifani seized in Bay of Bengal (2M bbl). Hezbollah fires at IDF. Vance trip postponed. OFAC sanctions 14 targets. Gas $4.022.",
       "brent": {
-        "price": 95.17,
-        "change": "+19.3%",
-        "changeDollars": 15.33
+        "price": 98.48,
+        "change": "+23.4%",
+        "changeDollars": 18.64
       },
       "wti": {
-        "price": 86.27,
-        "change": "+14.3%",
-        "changeDollars": 10.76
+        "price": 92.13,
+        "change": "+22.0%",
+        "changeDollars": 16.62
       },
-      "changePercent": "+16.7%",
+      "changePercent": "+22.7%",
       "lastUpdated": "2026-04-21"
     },
     "priceHistory": [
@@ -625,8 +625,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-21T12:11:00Z",
-    "note": "Day 53: Ceasefire expiry eve. Iran supreme leader approves Islamabad delegation. IEA: 'biggest energy crisis in history.' Brent $95.17 (+19.3%), WTI $86.27 (+14.3%). AAA avg $4.022/gal (+28.1%). Ceasefire expires April 22.",
+    "lastUpdated": "2026-04-22T00:29:00Z",
+    "note": "Day 54: Ceasefire EXTENDED INDEFINITELY by Trump. Brent settled $98.48 (+23.3%), spiked $101.15 intraday. WTI $92.13 (+22.0%). AAA avg $4.022/gal (+28.1%). Tifani seized. Hezbollah fires at IDF.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -643,7 +643,7 @@
         },
         "change": "+$0.88",
         "changePercent": "+28.1%",
-        "detail": "Gas $4.022/gal (AAA, Day 53). Brent $95.17 (+19.3%), WTI $86.27 (+14.3%). Ceasefire expiry eve. Pre-war $3.14.",
+        "detail": "Gas $4.022/gal (AAA, Day 54). Brent $98.48 (+23.3%), WTI $92.13 (+22.0%). Ceasefire extended indefinitely. Pre-war $3.14.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1068,6 +1068,13 @@
       "brent": 96.26,
       "wti": 86.27,
       "label": "Day 53 — Ceasefire expiry eve. Brent $96.26 (+20.6%), WTI $86.27 (+14.3%). Iran refuses talks. Vance heads to Pakistan. Oil surging on war resumption fears. Gas $4.04.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-21",
+      "brent": 98.48,
+      "wti": 92.13,
+      "label": "Day 54 — Ceasefire EXTENDED INDEFINITELY. Brent spiked to $101.15 intraday, settled $98.48 (+23.3%). WTI $92.13 (+22.0%). Tifani seized (2M bbl). Hezbollah fires at IDF. Vance postponed. OFAC sanctions 14. Gas $4.022.",
       "isEvent": true
     }
   ]

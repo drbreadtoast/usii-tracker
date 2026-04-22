@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 50,
+  "blockadeDay": 51,
   "dailyTransits": 16,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-21T12:11:00Z",
+  "lastUpdated": "2026-04-22T00:29:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -591,6 +591,12 @@
       "event": "Day 52 Late PM (Blockade Day 49 / CENTCOM Day 8): Trump publicly pushes Macron to deploy French Navy to Hormuz after CMA CGM Everglade warning-shot incident. Iran FM calls US 'not serious' — no Round 2 talks. Iran parliament drafting bill to formalize Hormuz tolls and ban hostile vessels outright. Commercial traffic at near-total standstill. Hundreds of tankers stranded, thousands of sailors trapped per Claims Journal. Oil closed higher: Brent $95.42 (+19.6%), WTI $89.04 (+17.9%) — largest supply disruption since 1970s energy crisis per The National. Ceasefire expires April 22 — 48h.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-21",
+      "event": "Day 54 (Blockade Day 51 / CENTCOM Day 9): Trump extends ceasefire INDEFINITELY but blockade continues. Only 16 ships transited Hormuz (9 entering, 7 exiting, including 2 Iranian-flagged). Near-total standstill. US seized M/T Tifani in Bay of Bengal — 2M barrels Iranian crude loaded at Kharg Island April 5. Second interdiction in 2 days (after Touska). Enforcement extends to Indo-Pacific/INDOPACOM. Brent spiked to $101.15, settled $98.48 (+23.3%). WTI $92.13. ~2,163 vessels stranded, ~40,000 seafarers trapped. War-risk premiums at 2.5% hull value (60x pre-crisis). Iran floating storage ~190M barrels.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -598,8 +604,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran officially reversed Hormuz opening — Ghalibaf scrapped deal.",
-      "priceImpact": "+19.5% Brent ($95.42), +17.9% WTI ($89.04); physical Brent peaked $144.42",
-      "detail": "20% of global supply cut off — Day 49 of blockade. Zero tankers transited April 20 — complete standstill. 25 vessels intercepted total. Iran vows retaliation for Touska seizure. IRGC seizes control of diplomacy. CENTCOM blockade Day 8. Ceasefire expires April 22 — 2 days."
+      "priceImpact": "+23.3% Brent ($98.48), +22.0% WTI ($92.13); physical Brent peaked $144.42; intraday $101.15",
+      "detail": "20% of global supply cut off — Day 51 of blockade. 16 ships transited April 21 (9 in, 7 out). M/T Tifani seized in Bay of Bengal (2M bbl). CENTCOM blockade Day 9. Ceasefire extended indefinitely. Blockade continues. ~2,163 vessels stranded."
     },
     {
       "commodity": "LNG",
