@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-22T00:29:00Z",
+    "lastUpdated": "2026-04-22T19:06:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-22",
-      "label": "Day 54 AM — IRGC fires on 3 ships, seizes 2 in Hormuz. Brent $99.81 (+25.0%). WTI $90.86 (+20.3%). Iran boycotts talks. Bessent: Kharg 'full in days.' Hezbollah rockets Day 2. Gas $4.022. Gold $4,769.93.",
+      "label": "Day 54 Midday PT — Brent breaks $101.14 (+26.7%) after IRGC seizes 2 ships in Hormuz. WTI $91.81 (+21.6%). Brent intraday peak $101.86. Araghchi: blockade is 'act of war.' Demand destruction est 4–5M bpd. Gas $4.022.",
       "brent": {
-        "price": 99.81,
-        "change": "+25.1%",
-        "changeDollars": 20.01
+        "price": 101.14,
+        "change": "+26.7%",
+        "changeDollars": 21.30
       },
       "wti": {
-        "price": 90.86,
-        "change": "+20.3%",
-        "changeDollars": 15.36
+        "price": 91.81,
+        "change": "+21.6%",
+        "changeDollars": 16.30
       },
-      "changePercent": "+22.7%",
+      "changePercent": "+24.2%",
       "lastUpdated": "2026-04-22"
     },
     "priceHistory": [
@@ -625,8 +625,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-22T12:06:00Z",
-    "note": "Day 54 AM: IRGC fires on 3 ships, seizes 2 in Hormuz. Brent $99.81 (+25.0%). WTI $90.86 (+20.3%). AAA avg $4.022/gal (+28.1%). Iran boycotts talks. Bessent: Kharg 'full in days.' Gold $4,769.93.",
+    "lastUpdated": "2026-04-22T19:06:00Z",
+    "note": "Day 54 Midday PT: Brent breaks $101.14 (+26.7%), WTI $91.81 (+21.6%). AAA avg $4.022/gal (+28.1%). Oil surge follows IRGC seizure of MSC Francesca and Epaminondas in Hormuz; Araghchi calls blockade 'act of war.' EU designates IRGC terrorist org.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -643,7 +643,7 @@
         },
         "change": "+$0.88",
         "changePercent": "+28.1%",
-        "detail": "Gas $4.022/gal (AAA, Day 54). Brent $99.81 (+25.0%), WTI $90.86 (+20.3%). IRGC attacks 3 ships in Hormuz. Iran boycotts talks. Pre-war $3.14.",
+        "detail": "Gas $4.022/gal (AAA, Day 54). Brent $101.14 (+26.7%), WTI $91.81 (+21.6%). IRGC seized 2 ships in Hormuz. Araghchi: blockade is 'act of war.' Pre-war $3.14.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

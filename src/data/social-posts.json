@@ -148,5 +148,98 @@
       "violence",
       "day54"
     ]
+  },
+  {
+    "id": "social-934",
+    "handle": "@LloydsList",
+    "displayName": "Lloyd's List — Maritime Intel",
+    "text": "HORMUZ UPDATE: Both seized vessels (MSC Francesca, Epaminondas) remain stationary west of Iranian port Sirik per AIS. Epaminondas sustained heavy bridge damage from IRGC gunfire at 03:55 UTC 15nm NE of Oman; later resumed AIS transmission. Greek Shipping Ministry disputes full seizure — claims ship damaged but not boarded. US-chartered VLCC Hormuz insurance: $10–14M per transit. War-risk premium 1.5–3% of hull value.",
+    "timestamp": "2026-04-22T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Lloyd's List (LL1156987, LL1156586, LL1156502), NPR. AIS tracking independent confirmation.",
+    "keywords": [
+      "hormuz",
+      "msc-francesca",
+      "epaminondas",
+      "insurance",
+      "lloyds",
+      "day54"
+    ]
+  },
+  {
+    "id": "social-935",
+    "handle": "@OilBrief",
+    "displayName": "OilBrief — Energy Analyst",
+    "text": "OIL: Brent surges past $101.14 (+26.7%) on IRGC ship seizures; intraday peak $101.86. WTI $91.81 (+21.6%). Demand destruction estimate 4–5M bpd (~5% of global supply) — Asia absorbing most. Kpler: Iran exported 1.71M bpd in April pre-blockade; earned $4.97B March 15–April 14. Iran losing ~$150M/day from oil exports under US blockade. ~190M barrels floating at sea, mostly China-bound.",
+    "timestamp": "2026-04-22T13:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Fortune, CNBC, BNN Bloomberg, Kpler, Al Jazeera, The National. All verified.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "iran",
+      "kpler",
+      "demand-destruction",
+      "day54"
+    ]
+  },
+  {
+    "id": "social-936",
+    "handle": "@NetBlocks",
+    "displayName": "NetBlocks — Internet Monitoring",
+    "text": "IRAN INTERNET: Nationwide blackout has now entered Day 54 — connectivity cut since war began Feb 28. Prevents independent verification of casualties and strike damage. HRANA and Al-Monitor warn 'true casualty figures unknown.' Iranian forensics chief Masjedi April 20: 3,375 killed (2,875 men, 496 women, 383 children under 18, 4 unidentified) since Feb 28.",
+    "timestamp": "2026-04-22T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NetBlocks monitoring (via Al Jazeera liveblog), Washington Times/AP, Al-Monitor. HRANA tracker.",
+    "keywords": [
+      "netblocks",
+      "internet-blackout",
+      "iran",
+      "casualties",
+      "hrana",
+      "day54"
+    ]
+  },
+  {
+    "id": "social-937",
+    "handle": "@CENTCOM_Watch",
+    "displayName": "CENTCOM Watch — Defense Analyst",
+    "text": "JORDAN: Chinese HD satellite imagery (April 19) reveals US has used the ceasefire to reposition THAAD launchers and AN/TPY-2 radars, plus Patriot PAC-3 batteries and AN/MPQ-65 radars across Jordan. Recall: a THAAD radar (~$300M) was destroyed at Muwaffaq Salti Air Base earlier in the war. Jerusalem Post reports interceptor stockpiles 'critically low.'",
+    "timestamp": "2026-04-22T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Defence Security Asia (Chinese satellite imagery analysis), Jerusalem Post stockpile reporting.",
+    "keywords": [
+      "us",
+      "thaad",
+      "patriot",
+      "jordan",
+      "air-defense",
+      "satellite",
+      "day54"
+    ]
+  },
+  {
+    "id": "social-938",
+    "handle": "@GlobalAffairs",
+    "displayName": "Global Affairs Monitor",
+    "text": "DAY 54 MIDDAY: Brent $101.14 (+26.7%) — intraday peak $101.86. WTI $91.81. EU formally widens sanctions — Kallas announces IRGC terrorist designation. Araghchi: US blockade 'act of war' — ceasefire violated. Netanyahu Independence Day address: Iran axis 'fighting for survival.' Pope Leo continues criticism of 'handful of tyrants' spending billions on war. Lebanon death toll 2,454; Iran 3,375 confirmed.",
+    "timestamp": "2026-04-22T18:30:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Compiled from Fortune, CNBC, Al Arabiya, Al Jazeera, Times of Israel, NPR. All sources verified.",
+    "keywords": [
+      "roundup",
+      "day54",
+      "brent",
+      "eu",
+      "araghchi",
+      "netanyahu",
+      "pope-leo"
+    ]
   }
 ]
