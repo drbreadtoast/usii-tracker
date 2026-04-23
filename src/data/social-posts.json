@@ -1,98 +1,5 @@
 [
   {
-    "id": "social-934",
-    "handle": "@LloydsList",
-    "displayName": "Lloyd's List — Maritime Intel",
-    "text": "HORMUZ UPDATE: Both seized vessels (MSC Francesca, Epaminondas) remain stationary west of Iranian port Sirik per AIS. Epaminondas sustained heavy bridge damage from IRGC gunfire at 03:55 UTC 15nm NE of Oman; later resumed AIS transmission. Greek Shipping Ministry disputes full seizure — claims ship damaged but not boarded. US-chartered VLCC Hormuz insurance: $10–14M per transit. War-risk premium 1.5–3% of hull value.",
-    "timestamp": "2026-04-22T15:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Lloyd's List (LL1156987, LL1156586, LL1156502), NPR. AIS tracking independent confirmation.",
-    "keywords": [
-      "hormuz",
-      "msc-francesca",
-      "epaminondas",
-      "insurance",
-      "lloyds",
-      "day54"
-    ]
-  },
-  {
-    "id": "social-935",
-    "handle": "@OilBrief",
-    "displayName": "OilBrief — Energy Analyst",
-    "text": "OIL: Brent surges past $101.14 (+26.7%) on IRGC ship seizures; intraday peak $101.86. WTI $91.81 (+21.6%). Demand destruction estimate 4–5M bpd (~5% of global supply) — Asia absorbing most. Kpler: Iran exported 1.71M bpd in April pre-blockade; earned $4.97B March 15–April 14. Iran losing ~$150M/day from oil exports under US blockade. ~190M barrels floating at sea, mostly China-bound.",
-    "timestamp": "2026-04-22T13:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Fortune, CNBC, BNN Bloomberg, Kpler, Al Jazeera, The National. All verified.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "iran",
-      "kpler",
-      "demand-destruction",
-      "day54"
-    ]
-  },
-  {
-    "id": "social-936",
-    "handle": "@NetBlocks",
-    "displayName": "NetBlocks — Internet Monitoring",
-    "text": "IRAN INTERNET: Nationwide blackout has now entered Day 54 — connectivity cut since war began Feb 28. Prevents independent verification of casualties and strike damage. HRANA and Al-Monitor warn 'true casualty figures unknown.' Iranian forensics chief Masjedi April 20: 3,375 killed (2,875 men, 496 women, 383 children under 18, 4 unidentified) since Feb 28.",
-    "timestamp": "2026-04-22T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NetBlocks monitoring (via Al Jazeera liveblog), Washington Times/AP, Al-Monitor. HRANA tracker.",
-    "keywords": [
-      "netblocks",
-      "internet-blackout",
-      "iran",
-      "casualties",
-      "hrana",
-      "day54"
-    ]
-  },
-  {
-    "id": "social-937",
-    "handle": "@CENTCOM_Watch",
-    "displayName": "CENTCOM Watch — Defense Analyst",
-    "text": "JORDAN: Chinese HD satellite imagery (April 19) reveals US has used the ceasefire to reposition THAAD launchers and AN/TPY-2 radars, plus Patriot PAC-3 batteries and AN/MPQ-65 radars across Jordan. Recall: a THAAD radar (~$300M) was destroyed at Muwaffaq Salti Air Base earlier in the war. Jerusalem Post reports interceptor stockpiles 'critically low.'",
-    "timestamp": "2026-04-22T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Defence Security Asia (Chinese satellite imagery analysis), Jerusalem Post stockpile reporting.",
-    "keywords": [
-      "us",
-      "thaad",
-      "patriot",
-      "jordan",
-      "air-defense",
-      "satellite",
-      "day54"
-    ]
-  },
-  {
-    "id": "social-938",
-    "handle": "@GlobalAffairs",
-    "displayName": "Global Affairs Monitor",
-    "text": "DAY 54 MIDDAY: Brent $101.14 (+26.7%) — intraday peak $101.86. WTI $91.81. EU formally widens sanctions — Kallas announces IRGC terrorist designation. Araghchi: US blockade 'act of war' — ceasefire violated. Netanyahu Independence Day address: Iran axis 'fighting for survival.' Pope Leo continues criticism of 'handful of tyrants' spending billions on war. Lebanon death toll 2,454; Iran 3,375 confirmed.",
-    "timestamp": "2026-04-22T18:30:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from Fortune, CNBC, Al Arabiya, Al Jazeera, Times of Israel, NPR. All sources verified.",
-    "keywords": [
-      "roundup",
-      "day54",
-      "brent",
-      "eu",
-      "araghchi",
-      "netanyahu",
-      "pope-leo"
-    ]
-  },
-  {
     "id": "social-939",
     "handle": "@sentdefender",
     "displayName": "sentdefender — OSINT Analyst",
@@ -296,6 +203,115 @@
       "lebanon",
       "pezeshkian",
       "trump"
+    ]
+  },
+  {
+    "id": "social-950",
+    "handle": "@MaritimeOptima",
+    "displayName": "Maritime Optima — Shipping Intel",
+    "text": "HORMUZ ESCALATION: Trump ordered US Navy to 'shoot and kill' any Iranian boat laying mines in Strait of Hormuz — 'We have total control... Sealed up Tight, until Iran is able to make a DEAL!!!' Pentagon told Congress clearing strait of mines could take up to 6 months if extensively laid. IRGC seized MSC Francesca escorted into Iranian waters by IRGC speedboats.",
+    "timestamp": "2026-04-23T17:40:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, CNN, Washington Post, Maritime Optima. All verified.",
+    "keywords": [
+      "hormuz",
+      "mines",
+      "trump",
+      "navy",
+      "day55"
+    ]
+  },
+  {
+    "id": "social-951",
+    "handle": "@JanesOSINT",
+    "displayName": "Janes OSINT Insights",
+    "text": "CARRIER STRIKE: USS George H.W. Bush (CVN-77) entered CENTCOM AOR April 23 — 3rd US aircraft carrier in theater. Joins USS Gerald R. Ford (Red Sea) and USS Abraham Lincoln (Arabian Sea). Bush transited via Cape of Good Hope — 6,000-mile detour around Africa to avoid Houthi threats at Bab el-Mandeb. Unprecedented Navy posture.",
+    "timestamp": "2026-04-23T14:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel liveblog, Stars and Stripes. Confirmed.",
+    "keywords": [
+      "carrier",
+      "us-navy",
+      "bush",
+      "centcom",
+      "deployment",
+      "day55"
+    ]
+  },
+  {
+    "id": "social-952",
+    "handle": "@CSIS_Analysis",
+    "displayName": "CSIS — Missile Defense Tracker",
+    "text": "MUNITIONS: CSIS analysis finds US has expended roughly HALF of its Patriot interceptor inventory during the Iran war. Rebuilding stockpiles will take YEARS. Pentagon supplemental request: $50B for Tomahawks, Patriots, THAAD replenishment. 850+ Tomahawks fired in 4 weeks (~$3.6M each = $3.06B+).",
+    "timestamp": "2026-04-23T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Fox News reporting on CSIS analysis. Washington Post on Tomahawk burn rate. TRT World on Pentagon $50B supplemental.",
+    "keywords": [
+      "csis",
+      "patriot",
+      "tomahawks",
+      "munitions",
+      "pentagon",
+      "supplemental",
+      "day55"
+    ]
+  },
+  {
+    "id": "social-953",
+    "handle": "@UANI_watch",
+    "displayName": "United Against Nuclear Iran",
+    "text": "IRAN SHIPPING: 31 vessels now turned around by US CENTCOM blockade (up from 29 earlier April 22). Operation involves 10,000+ troops, 17 warships, 100+ aircraft. US seized 4th Iranian-linked tanker M/T Majestic X in Indian Ocean between Sri Lanka and Indonesia — blockade enforcement now extending beyond Hormuz.",
+    "timestamp": "2026-04-23T16:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CENTCOM press release, Business Standard, Seatrade Maritime, Washington Post. All verified.",
+    "keywords": [
+      "uani",
+      "blockade",
+      "centcom",
+      "tanker",
+      "majestic-x",
+      "day55"
+    ]
+  },
+  {
+    "id": "social-954",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "TEHRAN AIR DEFENSE: Iran's Mehr News reported air defense batteries engaged 'hostile targets' over parts of Tehran April 23 — reason unclear. Israeli security official denied Israel was conducting strikes. First reported air defense activity since ceasefire took effect. Could indicate drone incursion, false alarm, or internal dissent.",
+    "timestamp": "2026-04-23T18:25:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Al Arabiya (citing Mehr News), Haaretz liveblog. Israeli denial reported.",
+    "keywords": [
+      "tehran",
+      "air-defense",
+      "mehr",
+      "iran",
+      "day55"
+    ]
+  },
+  {
+    "id": "social-955",
+    "handle": "@GlobalAffairs",
+    "displayName": "Global Affairs Monitor",
+    "text": "DAY 55 MIDDAY ROUNDUP: Trump orders 'shoot and kill' mine-layers. USS George H.W. Bush = 3rd US carrier. Navy Sec Phelan ousted by Hegseth. Tehran air defenses engage 'hostile targets.' Pope Leo XIV aboard plane calls for peace. 2nd French UNIFIL peacekeeper dies. Senate defeats Baldwin war powers 46-51. Gaza strike kills 5 (3 children). Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Gas $4.03.",
+    "timestamp": "2026-04-23T19:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, CNN, NPR, Times of Israel, The Hill, Al Arabiya, America Magazine, Euronews. All verified.",
+    "keywords": [
+      "roundup",
+      "day55-midday",
+      "trump",
+      "hormuz",
+      "navy",
+      "tehran",
+      "pope",
+      "baldwin"
     ]
   }
 ]

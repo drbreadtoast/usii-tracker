@@ -8579,5 +8579,59 @@
       "killed": 5,
       "injured": 2
     }
+  },
+  {
+    "id": "ms-508",
+    "city": "Yohmor al-Shaqif",
+    "country": "Lebanon",
+    "lat": 33.3000,
+    "lng": 35.5667,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-22",
+    "description": "Israeli strike on Yohmor al-Shaqif in southern Lebanon killed 2 and wounded multiple civilians. White phosphorus reportedly used; several homes caught fire. Part of broader Israeli operations across southern Lebanon buffer zone.",
+    "source": "Al Mayadeen",
+    "sourceUrl": "https://english.almayadeen.net/news/politics/martyrs-reported-in-israeli-aggression-on-yohmor-al-shaqif",
+    "weaponType": "guided_munition",
+    "casualties": {
+      "killed": 2,
+      "injured": 4
+    }
+  },
+  {
+    "id": "ms-509",
+    "city": "Beit Lahia",
+    "country": "Gaza",
+    "lat": 31.5500,
+    "lng": 34.5022,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-23",
+    "description": "Israeli airstrike on Beit Lahia in northern Gaza killed 5 people including 3 children. Strike targeted civilians near Al-Qassam mosque. Latest in escalating Israeli strikes on Gaza during Iran war.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/amp/news/2026/4/23/israeli-strike-kills-five-in-gaza-including-three-children",
+    "weaponType": "guided_munition",
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-510",
+    "city": "al-Bayada",
+    "country": "Lebanon",
+    "lat": 33.2167,
+    "lng": 35.3167,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-22",
+    "description": "Hezbollah drone attack on al-Bayada IDF artillery position at 11:00 local (0800 GMT). Hezbollah claims drone hit fire-control facility; IDF says drone intercepted. Targeted newly established IDF artillery site used to shell southern Lebanon villages.",
+    "source": "Xinhua",
+    "sourceUrl": "https://english.news.cn/20260422/59bf0f06e5c8468884e91a1e43fe3001/c.html",
+    "weaponType": "drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]

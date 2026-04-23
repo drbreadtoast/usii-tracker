@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-23",
-      "label": "Day 55 Early AM PT — Brent $103.38 (+29.5%), WTI $93.09 (+23.3%). IRGC releases ship seizure video. 33 fast-attack boats near Kargan (satellite). Iran banks first Hormuz toll revenue. S&P 500 above 7,000 first time. CENTCOM: 31 vessels turned back. Gas $4.04.",
+      "label": "Day 55 Midday PT — Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Trump orders 'shoot and kill' Iranian mine-layers. USS George H.W. Bush = 3rd US carrier in theater. Navy Sec Phelan ousted. Tehran air defenses engaged 'hostile targets.' CENTCOM: 31 vessels turned back. Gas $4.03.",
       "brent": {
         "price": 103.38,
         "change": "+29.5%",
         "changeDollars": 23.54
       },
       "wti": {
-        "price": 93.09,
-        "change": "+23.3%",
-        "changeDollars": 17.58
+        "price": 94.46,
+        "change": "+25.1%",
+        "changeDollars": 18.95
       },
-      "changePercent": "+26.4%",
+      "changePercent": "+27.3%",
       "lastUpdated": "2026-04-23"
     },
     "priceHistory": [
@@ -625,8 +625,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-23T12:18:00Z",
-    "note": "Day 55 Early AM PT: Brent $103.38 (+29.5%), WTI $93.09 (+23.3%). AAA avg $4.04/gal (+28.7%). IRGC releases ship seizure video. 33 fast-attack boats near Kargan coast. First Hormuz toll revenue banked. S&P 500 above 7,000. CENTCOM: 31 vessels turned back.",
+    "lastUpdated": "2026-04-23T19:05:00Z",
+    "note": "Day 55 Midday PT: Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). AAA avg $4.03/gal (+28.3%, -6¢ from week ago). Trump orders Navy to 'shoot and kill' Iranian mine-layers. USS George H.W. Bush = 3rd US carrier in theater. Navy Sec Phelan ousted. CENTCOM: 31 vessels turned back.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -636,15 +636,15 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.04,
-          "change": "+28.7%",
-          "changeDollars": "+$0.90",
+          "price": 4.03,
+          "change": "+28.3%",
+          "changeDollars": "+$0.89",
           "date": "2026-04-23"
         },
-        "change": "+$0.90",
-        "changePercent": "+28.7%",
-        "detail": "Gas $4.04/gal (AAA, Day 55). Brent $103.38 (+29.5%), WTI $93.09 (+23.3%). 4th straight gain after IRGC ship seizures. Pre-war $3.14.",
-        "sourceUrl": "https://gasprices.aaa.com/"
+        "change": "+$0.89",
+        "changePercent": "+28.3%",
+        "detail": "Gas $4.03/gal (AAA, Day 55 midday, down 6¢ from week ago). Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Pre-war $3.14.",
+        "sourceUrl": "https://newsroom.aaa.com/2026/04/bit-of-relief-at-the-pump-as-national-average-goes-down/"
       },
       {
         "type": "Diesel",
@@ -1089,6 +1089,13 @@
       "brent": 103.38,
       "wti": 93.09,
       "label": "Day 55 AM — Brent $103.38 (+29.5%), WTI $93.09 (+23.3%). IRGC releases ship seizure video. 33 fast-attack boats near Kargan. First Hormuz toll revenue banked. S&P 500 above 7K. CENTCOM: 31 ships turned back. Iran Air resumes flights. Gas $4.04.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-23",
+      "brent": 103.38,
+      "wti": 94.46,
+      "label": "Day 55 PM — Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Trump orders Navy to 'shoot and kill' Iranian mine-layers in Hormuz. USS George H.W. Bush = 3rd US carrier in theater. Navy Sec Phelan ousted by Hegseth. Tehran air defenses engaged. Pope calls for peace. Gas $4.03.",
       "isEvent": true
     }
   ]
