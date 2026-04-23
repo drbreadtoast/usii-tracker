@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 51,
-  "dailyTransits": 3,
+  "blockadeDay": 52,
+  "dailyTransits": 8,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-22T19:06:00Z",
+  "lastUpdated": "2026-04-23T06:08:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -14,7 +14,7 @@
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
-    "vesselsDamaged": 28,
+    "vesselsDamaged": 31,
     "vesselsSunk": 3,
     "insuranceStatus": "withdrawn",
     "naviesPresent": [
@@ -40,15 +40,15 @@
     "peacetimeDailyTransits": 120,
     "reductionPercent": 95,
     "vesselsStranded": 800,
-    "commercialAttacks": 27,
+    "commercialAttacks": 30,
     "seafarersKilled": 8,
     "seafarersAffected": 40000,
-    "dailyTransits": 6,
-    "commercialShipsAttacked": 27,
+    "dailyTransits": 8,
+    "commercialShipsAttacked": 30,
     "totalTransitsSinceBlockade": 302,
     "strangedVessels": 2163,
     "shipsTrapped": 800,
-    "currentTraffic": "6 vessels/day (bulk only, zero oil tankers)",
+    "currentTraffic": "8 vessels/day (incl 3 oil tankers, bulk cargo)",
     "preWarTraffic": "135 vessels/day",
     "barrelsBlockedDaily": 15000000
   },
@@ -607,6 +607,12 @@
     {
       "date": "2026-04-22",
       "event": "Day 54 Midday (Blockade Day 51 / CENTCOM Day 9): Brent broke $101.14 (+26.7%) — intraday peak $101.86. WTI $91.81 (+21.6%). Araghchi declared blockade 'act of war' and ceasefire violated; called Touska seizure 'piracy.' Said normalization of Hormuz traffic 'not possible.' EU Foreign Affairs Council formally widened Iran sanctions to target 'those responsible for blocking Strait of Hormuz' and designated IRGC a terrorist organization. AIS confirms both seized vessels stationary west of Sirik; Greek Shipping Ministry disputes Epaminondas boarding. Lloyd's List: US-chartered VLCC Hormuz insurance $10–14M per transit.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-23",
+      "event": "Day 55 Late PM (Blockade Day 52 / CENTCOM Day 10): Brent surges to $103.38 (+29.5%), WTI $93.09 (+23.3%) — 4th consecutive gain. 8 ships including 3 tankers transited despite closure, up from 3 on Monday. Vitol CEO: 600-700M bbl oil supply lost, 1B expected. IMO: 20,000 mariners, 2,000 ships stranded. Pentagon briefed Congress: 6 months to clear Hormuz mines post-war. IRGC power consolidation exposed — Ahmad Vahidi making decisions with Mojtaba Khamenei, civilian leaders sidelined. Israel estimates blockade will slash Iran oil exports 80%. Trump: 'no time frame' on war.",
       "status": "effectively_closed",
       "barrels": 0
     }

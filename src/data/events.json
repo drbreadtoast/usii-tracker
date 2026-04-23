@@ -36926,5 +36926,308 @@
       "injured": 0
     },
     "tags": ["us", "thaad", "patriot", "jordan", "air-defense", "day51"]
+  },
+  {
+    "id": "evt-new-1100",
+    "title": "IRGC seizes MSC Francesca and Epaminondas in Strait of Hormuz, fires on Euphoria",
+    "description": "Iran's IRGC Navy seized two container ships — Panama-flagged MSC Francesca and Liberia-flagged Epaminondas — in the Strait of Hormuz, claiming they operated without authorization and tampered with navigation systems. A third vessel, Euphoria, was also fired upon. UKMTO reports contradict Iran's claims, stating the Epaminondas had received transit permission before being attacked with gunfire and RPGs. Heavy damage reported to Epaminondas navigation bridge.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-22T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNBC — Strait of Hormuz ships attacked Iran war",
+        "url": "https://www.cnbc.com/2026/04/22/iran-war-strait-hormuz-tanker-ship-trump-blockade.html"
+      },
+      {
+        "name": "Washington Post — Iran seizes 2 ships in Strait of Hormuz",
+        "url": "https://www.washingtonpost.com/world/2026/04/22/hormuz-strait-us-iran-talks-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "hormuz", "naval", "ship-seizure", "day54"]
+  },
+  {
+    "id": "evt-new-1101",
+    "title": "Israeli airstrike kills journalist Amal Khalil in al-Tiri, southern Lebanon",
+    "description": "Al Akhbar journalist Amal Khalil was killed in an Israeli airstrike on al-Tiri village in southern Lebanon. She took shelter in a house after an earlier strike hit near her vehicle. Colleague Zeinab Faraj was critically injured and required surgery. Rescue teams were unable to reach the scene for hours due to continued Israeli attacks. Her death brings to nine the number of journalists killed in Lebanon this year. Lebanese PM Nawaf Salam called the targeting of journalists a war crime.",
+    "type": "strike",
+    "lat": 33.22,
+    "lng": 35.39,
+    "location": "al-Tiri, southern Lebanon",
+    "timestamp": "2026-04-22T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli attacks kill five including journalist",
+        "url": "https://www.aljazeera.com/news/2026/4/22/at-least-four-killed-in-israeli-strikes-on-lebanon-journalists-wounded"
+      },
+      {
+        "name": "Naharnet — Lebanese journalist killed in Israeli strike",
+        "url": "https://www.naharnet.com/stories/en/319720-lebanese-journalist-killed-in-israeli-strike-on-southern-town"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 2
+    },
+    "tags": ["israel", "lebanon", "journalist", "strike", "al-tiri", "day54"]
+  },
+  {
+    "id": "evt-new-1102",
+    "title": "Hezbollah fires rockets and drones at Israeli forces — first attacks since April 16 truce",
+    "description": "Hezbollah launched rockets and drones at Israeli military positions in southern Lebanon, marking the first attacks since the April 16 truce between Israel and Hezbollah. Israel responded by striking a mosque in southern Lebanon. The exchange further frays the fragile ceasefire between Israel and Lebanon.",
+    "type": "strike",
+    "lat": 33.10,
+    "lng": 35.50,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-22T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Democracy Now — Israel Lebanon ceasefire frays Hezbollah fires",
+        "url": "https://www.democracynow.org/2026/4/22/headlines/israel_lebanon_ceasefire_frays_as_hezbollah_fires_on_israeli_forces"
+      },
+      {
+        "name": "Al Jazeera — Israel attacks mosque in Lebanon ceasefire violation",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/22/israel-attacks-mosque-in-lebanon-in-another-ceasefire-violation"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "israel", "lebanon", "ceasefire-violation", "rockets", "day54"]
+  },
+  {
+    "id": "evt-new-1103",
+    "title": "Pentagon briefing: 6 months needed to clear Strait of Hormuz mines post-war",
+    "description": "Pentagon briefed Congressional lawmakers that clearing the Strait of Hormuz of mines after the war could take up to six months. The assessment underscores the long-term economic impact of the conflict on global shipping even after hostilities cease.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.01,
+    "location": "Pentagon, Washington DC",
+    "timestamp": "2026-04-22T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — Pentagon Hormuz mine clearing briefing",
+        "url": "https://www.cnn.com/2026/04/22/world/live-news/iran-war-us-trump-blockade-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "pentagon", "hormuz", "mines", "briefing", "day54"]
+  },
+  {
+    "id": "evt-new-1104",
+    "title": "Hegseth fires Navy Secretary Phelan during active naval blockade; Hung Cao installed as Acting",
+    "description": "Defense Secretary Pete Hegseth ousted Navy Secretary John Phelan effective immediately over tensions regarding shipbuilding reform pace. Undersecretary Hung Cao, a 25-year Navy combat veteran, was installed as Acting Navy Secretary. The firing occurred during an active US naval blockade of Iranian ports in the Strait of Hormuz.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.01,
+    "location": "Pentagon, Washington DC",
+    "timestamp": "2026-04-22T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — Navy Secretary Phelan fired",
+        "url": "https://www.cnn.com/2026/04/22/politics/john-phelan-navy-secretary-leaving"
+      },
+      {
+        "name": "Fox News — Navy Secretary departs, Hung Cao takes over",
+        "url": "https://www.foxnews.com/politics/navy-secretary-departs-immediately-undersecretary-takes-over-acting-role"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "navy", "phelan", "hegseth", "hung-cao", "day54"]
+  },
+  {
+    "id": "evt-new-1105",
+    "title": "Senate defeats 5th war powers vote on Iran war 46-51",
+    "description": "Democrats' fifth attempt to invoke the War Powers Resolution to limit Trump's Iran war authority failed 46-51 in the Senate. Sen. Tammy Baldwin (D-WI) forced the vote. Rand Paul (R-KY) was the only Republican to vote with Democrats; John Fetterman (D-PA) was the only Democrat to vote with Republicans. Senate Minority Leader Schumer pledged Democrats will force weekly war powers votes until the war ends.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "US Senate, Washington DC",
+    "timestamp": "2026-04-22T21:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News — Senate defeats war powers vote on Iran",
+        "url": "https://www.cbsnews.com/news/senate-trump-war-powers-iran/"
+      },
+      {
+        "name": "Stars and Stripes — Senate fifth vote Iran war",
+        "url": "https://www.stripes.com/theaters/middle_east/2026-04-22/senate-fifth-vote-iran-war-21456611.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "senate", "war-powers", "diplomatic", "day54"]
+  },
+  {
+    "id": "evt-new-1106",
+    "title": "Two IAF technicians charged with spying for Iran during Operation Roaring Lion",
+    "description": "Two Israeli Air Force technicians from Tel Nof Airbase were charged with espionage for Iran during Operation Roaring Lion. They allegedly passed F-15 engine diagrams and pilot photographs to Iranian handlers. Eight additional soldiers are suspected of knowing about the espionage without reporting it. The case is part of what Israeli intelligence calls a 400% increase in Iranian recruitment attempts since October 2023.",
+    "type": "cyber",
+    "lat": 31.84,
+    "lng": 34.82,
+    "location": "Tel Nof Airbase, Israel",
+    "timestamp": "2026-04-22T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Jerusalem Post — IAF technicians charged with spying for Iran",
+        "url": "https://www.jpost.com/middle-east/iran-news/2026-04-22/live-updates-893795"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "iran", "espionage", "iaf", "tel-nof", "day54"]
+  },
+  {
+    "id": "evt-new-1107",
+    "title": "Iran Air resumes domestic flights after 50-day suspension",
+    "description": "Iran Air resumed domestic flights after a 50-day suspension, starting with the Tehran-Mashhad corridor. The resumption of domestic air services is a sign of partial normalization in Iran despite the ongoing conflict.",
+    "type": "infrastructure",
+    "lat": 35.69,
+    "lng": 51.31,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-22T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Xinhua — Iran Air resumes domestic flights",
+        "url": "https://english.news.cn/20260421/4f3a0f5aed9b4959adbaf29cfd0c5d09/c.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "aviation", "infrastructure", "day54"]
+  },
+  {
+    "id": "evt-new-1108",
+    "title": "Pentagon removes 15 wounded troops from Iran war casualty list without explanation",
+    "description": "The Pentagon's Defense Casualty Analysis System dropped 15 wounded-in-action troops from its casualty rolls on Tuesday without public comment, reducing the total from 428 to 413. Two Pentagon spokespeople were unable to explain the removal. The Intercept reported this as part of a broader pattern of casualty underreporting.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.01,
+    "location": "Pentagon, Washington DC",
+    "timestamp": "2026-04-22T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Intercept — Pentagon erases wounded troops from Iran war casualty list",
+        "url": "https://theintercept.com/2026/04/22/iran-war-military-casualties-wounded/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "pentagon", "casualties", "transparency", "day54"]
+  },
+  {
+    "id": "evt-new-1109",
+    "title": "Lebanon to request one-month ceasefire extension at Thursday Washington talks",
+    "description": "Lebanon will request a one-month extension of the Israel-Lebanon ceasefire at Thursday talks at the State Department. Israeli Ambassador Yechiel Leiter and Lebanese Ambassador Nada Hamadeh Mouawad will meet with Secretary of State Marco Rubio. Lebanon demands: end of Israeli bombing in occupied areas, commitment to ceasefire terms. Current 10-day ceasefire set to expire Sunday April 26.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.04,
+    "location": "State Department, Washington DC",
+    "timestamp": "2026-04-23T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Lebanon to propose extending ceasefire during Washington talks",
+        "url": "https://www.jpost.com/middle-east/article-893855"
+      },
+      {
+        "name": "Times of Israel — Beirut to request one-month ceasefire extension",
+        "url": "https://www.timesofisrael.com/liveblog_entry/beirut-to-request-one-month-ceasefire-extension-at-dc-talks-says-lebanese-official/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["lebanon", "israel", "us", "ceasefire", "diplomatic", "rubio", "day55"]
+  },
+  {
+    "id": "evt-new-1110",
+    "title": "Trump says 'no time frame' on Iran war, denies midterm politics driving decisions",
+    "description": "President Trump stated there is 'no time frame' for the conflict with Iran and rejected suggestions that the 2026 midterm elections are influencing his approach. Separately, Trump posted on Truth Social that 'Iran is collapsing financially' and 'losing 500 Million Dollars a day.' White House Press Secretary Leavitt stated Iran must hand over its enriched uranium as part of negotiations.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "White House, Washington DC",
+    "timestamp": "2026-04-22T22:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — Trump no time frame Iran war",
+        "url": "https://www.cnn.com/2026/04/22/world/live-news/iran-war-us-trump-blockade-ceasefire"
+      },
+      {
+        "name": "PBS — Timeline of Trump's shifting statements on Iran war",
+        "url": "https://www.pbs.org/newshour/politics/a-timeline-of-trumps-shifting-statements-about-how-long-the-iran-war-will-last"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "trump", "diplomatic", "midterms", "day54"]
   }
 ]

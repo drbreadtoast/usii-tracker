@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-22T19:06:00Z",
-  "currentAverage": 4.022,
+  "lastUpdated": "2026-04-23T06:08:00Z",
+  "currentAverage": 4.04,
   "preWarAverage": 3.14,
-  "changePercent": 28.09,
+  "changePercent": 28.66,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -447,6 +447,12 @@
       "price": 4.022,
       "label": "Day 54 AM — $4.022 (flat). IRGC fires on 3 ships, seizes 2 in Hormuz. Brent $99.81. Iran boycotts talks. Bessent: Kharg full in days. CA $5.86. Diesel record $7.559 CA.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-23",
+      "price": 4.04,
+      "label": "Day 55 — $4.04 (+$0.018). Brent $103.38 (+29.5%), WTI $93.09. 4th straight gain. Vitol: 600-700M bbl lost. IRGC power grab. Journalist killed Lebanon. Pentagon FY27 $1.5T.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -496,15 +502,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 14)",
-      "crudePerBarrel": 90.38,
+      "label": "Current (Apr 23)",
+      "crudePerBarrel": 103.38,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$90.38 ÷ 42 gal (Brent settlement)",
-          "value": 2.152,
-          "percent": 53,
-          "change": "+$0.532"
+          "formula": "$103.38 ÷ 42 gal (Brent settlement)",
+          "value": 2.461,
+          "percent": 56,
+          "change": "+$0.841"
         },
         {
           "name": "Refining",
