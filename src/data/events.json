@@ -37229,5 +37229,324 @@
       "injured": 0
     },
     "tags": ["us", "trump", "diplomatic", "midterms", "day54"]
+  },
+  {
+    "id": "evt-new-1111",
+    "title": "Iran releases video of IRGC seizing MSC Francesca and Epaminondas in Strait of Hormuz",
+    "description": "Iran released footage of IRGC Navy seizing two container ships — the MSC Francesca (Panama-flagged, Italian-owned, 11,312 TEU) and the Epaminondas (Liberian-flagged) — accusing them of tampering with navigation systems and transiting without authorization. A third vessel (Euphoria) was fired upon but not seized. Both ships now stationary off Iranian coast. Panama condemned the seizure as 'illegal' and 'a grave attack against maritime security.' RPG damage to Epaminondas bridge.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-23T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran releases video of IRGC seizing ship",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/23/iran-releases-video-of-irgc-seizing-ship-in-the-strait-of-hormuz"
+      },
+      {
+        "name": "CNN — Video shows Iranian soldiers seizing ships",
+        "url": "https://www.cnn.com/2026/04/23/world/video/iran-strait-of-hormuz-cargo-ships-vrtc"
+      },
+      {
+        "name": "Times of Israel — Iran seizes pair of container ships",
+        "url": "https://www.timesofisrael.com/iran-seizes-pair-of-container-ships-in-first-since-start-of-war-with-us-and-israel/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "hormuz", "naval", "ship-seizure", "panama", "day55"]
+  },
+  {
+    "id": "evt-new-1112",
+    "title": "Satellite imagery reveals 33 IRGC fast-attack boats near Kargan coast",
+    "description": "Sentinel-2 satellite imagery captured by OSINT investigator Mehdi H. shows at least 33 IRGC 'mosquito fleet' fast-attack craft returning to bases north of the Strait of Hormuz after conducting patrols. Vessels likely armed with short-range anti-ship missiles and artillery rockets. Analysts warn IRGC boats could be exploring possibility of destroying undersea cables.",
+    "type": "naval",
+    "lat": 26.80,
+    "lng": 56.30,
+    "location": "Near Kargan coast, north of Strait of Hormuz",
+    "timestamp": "2026-04-23T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The Week — Satellite image captures 33 IRGC fast-attack fleet near Kargan coast",
+        "url": "https://www.theweek.in/news/middle-east/2026/04/23/satellite-image-captures-unusual-activity-in-strait-of-hormuz-33-irgc-fast-attack-fleet-near-kargan-coast.html"
+      },
+      {
+        "name": "The War Zone — Iran ramps up attacks on ships",
+        "url": "https://www.twz.com/news-features/iran-ramps-up-attacks-on-ships-in-the-strait-of-hormuz-after-trump-ceasefire-extension"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "hormuz", "naval", "satellite", "osint", "day55"]
+  },
+  {
+    "id": "evt-new-1113",
+    "title": "Iran banks first Strait of Hormuz toll revenue",
+    "description": "Deputy parliament speaker Hamidreza Hajibabaei announced the first revenue from Iran's Strait of Hormuz shipping toll system has been deposited into the Central Bank account. No details on amount collected or who paid. Iran charges tolls based on cargo type and risk level.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz / Tehran",
+    "timestamp": "2026-04-23T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Free Malaysia Today — Iran receives first revenue from Strait of Hormuz tolls",
+        "url": "https://www.freemalaysiatoday.com/category/business/2026/04/23/iran-receives-first-revenue-from-strait-of-hormuz-tolls"
+      },
+      {
+        "name": "Free Press Journal — Iran receives first Strait of Hormuz toll revenue",
+        "url": "https://www.freepressjournal.in/world/iran-receives-first-strait-of-hormuz-toll-revenue-amid-us-blockade-oil-prices-surge"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "hormuz", "toll", "revenue", "naval", "day55"]
+  },
+  {
+    "id": "evt-new-1114",
+    "title": "IRGC-linked media maps 7 undersea internet cables in Hormuz — implicit threat to Gulf infrastructure",
+    "description": "IRGC-linked Tasnim news agency published detailed mapping of 7 undersea internet cables running through the Strait of Hormuz. Gulf states (UAE, Qatar, Bahrain, Kuwait, Saudi Arabia) rely on these cables for 90%+ of internet, banking, and cloud services. Iran relies on them for less than 40%. Analysts describe it as a thinly veiled threat. Cutting cables could affect Gulf states, India, and Europe.",
+    "type": "cyber",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-23T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Iran International — IRGC-linked media hints at threat to undersea cables",
+        "url": "https://www.iranintl.com/en/202604225913"
+      },
+      {
+        "name": "Stimson Center — Beneath the Strait: Iran Could Threaten Gulf Data Centers",
+        "url": "https://www.stimson.org/2026/beneath-the-strait-iran-could-threaten-gulf-data-centers-undersea-cables/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "cyber", "undersea-cables", "hormuz", "infrastructure", "day55"]
+  },
+  {
+    "id": "evt-new-1115",
+    "title": "Israel demolishes homes across occupied southern Lebanon buffer zone",
+    "description": "Israel conducting large-scale home demolitions across 10km buffer zone in occupied southern Lebanon, claiming homes used as Hezbollah outposts. Village of Beit Lif 'almost entirely flattened' per AP journalists on scene. UNIFIL warns displaced populations will have nowhere to return. Israel established 'Yellow Line' military zone ~10km north of border. Demolitions form major agenda item for Washington talks. Lebanon calls demolitions ceasefire violations.",
+    "type": "infrastructure",
+    "lat": 33.12,
+    "lng": 35.52,
+    "location": "Beit Lif, Khiam, Bint Jbeil — southern Lebanon",
+    "timestamp": "2026-04-23T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Washington Post — Lebanon decries Israeli demolition of homes",
+        "url": "https://www.washingtonpost.com/world/2026/04/23/lebanon-israel-hezbollah-home-demolitions/a8347570-3eca-11f1-bb46-ed564688d953_story.html"
+      },
+      {
+        "name": "Common Dreams — Israel continues 'Gaza tactics' in Lebanon",
+        "url": "https://www.commondreams.org/news/lebanon-ceasefire-israel-demolitions"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "demolitions", "ceasefire", "infrastructure", "day55"]
+  },
+  {
+    "id": "evt-new-1116",
+    "title": "US seizes M/T Majestic X tanker carrying sanctioned Iranian oil in Indian Ocean",
+    "description": "Pentagon announced US military seized another tanker (M/T Majestic X) carrying sanctioned Iranian oil in the Indian Ocean. Statement: 'We will continue global maritime enforcement to disrupt illicit networks.' Second seizure outside Middle East theater, expanding enforcement beyond Hormuz.",
+    "type": "naval",
+    "lat": 5.00,
+    "lng": 65.00,
+    "location": "Indian Ocean",
+    "timestamp": "2026-04-23T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — US-Iran peace talks in limbo, Majestic X seized",
+        "url": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "naval", "sanctions", "oil", "seizure", "indian-ocean", "day55"]
+  },
+  {
+    "id": "evt-new-1117",
+    "title": "Pezeshkian accuses US of 'hypocritical rhetoric,' blames blockade for stalled talks",
+    "description": "Iranian President Pezeshkian posted on X that Tehran 'seeks dialogue and agreement' but accused the US of 'breach of commitments, blockade and threats' as main obstacles. Stated: 'the world sees your endless hypocritical rhetoric and contradiction between claims and actions.' Parliament speaker Ghalibaf reiterated Hormuz will not reopen while US naval blockade remains.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-23T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Business Standard — Iranian Prez slams US for 'hypocritical' stance",
+        "url": "https://www.business-standard.com/world-news/iranian-prez-slams-us-for-hypocritical-stance-amid-ceasefire-extension-126042300065_1.html"
+      },
+      {
+        "name": "Express Tribune — Pezeshkian blames US blockade for impasse",
+        "url": "https://tribune.com.pk/story/2604309/pezeshkian-blames-us-blockade-for-impasse"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "pezeshkian", "diplomatic", "blockade", "day55"]
+  },
+  {
+    "id": "evt-new-1118",
+    "title": "Iran Air resumes domestic flights after 50-day suspension — Tehran to Mashhad",
+    "description": "Iran Air resumed domestic flights on the Tehran-Mashhad corridor after a 50-day suspension since Feb 28 airspace closure. First flight departed Mehrabad at 10 AM local, return at 12:30 PM. Tehran Imam Khomeini and Mehrabad airports reopened April 20. Additional airports (Urmia, Kermanshah, Abadan, Shiraz, Kerman, Rasht, Yazd, Zahedan, Gorgan, Birjand) expected to resume from April 25. Mashhad Airport also resumed international flights via Varesh Airlines.",
+    "type": "infrastructure",
+    "lat": 36.24,
+    "lng": 59.64,
+    "location": "Tehran Mehrabad Airport to Mashhad, Iran",
+    "timestamp": "2026-04-23T06:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Xinhua — Iran's national carrier to resume domestic flights",
+        "url": "https://english.news.cn/20260421/4f3a0f5aed9b4959adbaf29cfd0c5d09/c.html"
+      },
+      {
+        "name": "RusTourismNews — Iran Air to resume domestic flights",
+        "url": "https://www.rustourismnews.com/2026/04/21/iran-air-to-resume-domestic-flights-after-50-day-suspension/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "aviation", "infrastructure", "ceasefire", "day55"]
+  },
+  {
+    "id": "evt-new-1119",
+    "title": "Lebanon-Israel Round 2 talks begin at State Department — Lebanon demands full withdrawal",
+    "description": "Lebanese Ambassador Nada Hamadeh Moawad and Israeli Ambassador Yechiel Leiter hold second session of direct talks — only second such direct meeting in three decades. Led by Secretary of State Rubio and envoy Huckabee. Lebanon demands: full ceasefire, Israeli troop withdrawal from southern Lebanon, prisoner releases, Lebanese army border deployment, reconstruction. Lebanon PM: 'no talks without Israeli withdrawal.'",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.05,
+    "location": "State Department, Washington DC",
+    "timestamp": "2026-04-23T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Washington Post — Lebanon and Israel resume rare direct talks",
+        "url": "https://www.washingtonpost.com/world/2026/04/23/lebanon-israel-hezbollah-us-talks-ceasefire-washington/bfb7d7ac-3ef0-11f1-bb46-ed564688d953_story.html"
+      },
+      {
+        "name": "PBS News — What to know about new direct talks",
+        "url": "https://www.pbs.org/newshour/world/what-to-know-about-new-direct-talks-between-lebanon-and-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["lebanon", "israel", "us", "diplomatic", "rubio", "ceasefire", "day55"]
+  },
+  {
+    "id": "evt-new-1120",
+    "title": "S&P 500 closes above 7,000 for first time — markets erase all Iran war losses",
+    "description": "S&P 500 closed at 7,137.90 (+1.05%) above 7,000 for the first time ever. Nasdaq hit record at 24,657.57 (+1.64%) with a 13-session winning streak — longest since 1992. Markets have fully erased all Iran war losses. Rally driven by Trump extending ceasefire indefinitely and strong earnings season (75% beat rate). Analysts warn optimism may be misplaced while Hormuz remains closed.",
+    "type": "infrastructure",
+    "lat": 40.71,
+    "lng": -74.01,
+    "location": "New York Stock Exchange / NASDAQ",
+    "timestamp": "2026-04-22T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNN — Stocks at record highs shrugging off war",
+        "url": "https://us.cnn.com/2026/04/23/investing/stocks-record-high-iran-war"
+      },
+      {
+        "name": "Yahoo Finance — S&P 500 closes above 7,000 first time",
+        "url": "https://finance.yahoo.com/markets/article/stock-market-today-sp-500-closes-above-7000-for-first-time-nasdaq-hits-record-as-stocks-erase-iran-war-losses-231104330.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["markets", "economy", "stocks", "sp500", "nasdaq", "day55"]
+  },
+  {
+    "id": "evt-new-1121",
+    "title": "CENTCOM reports 31 vessels turned back in Iran naval blockade — up from 29",
+    "description": "CENTCOM announced it has directed 31 vessels, mostly oil tankers, to turn around or return to port as part of the US naval blockade of Iranian ports. Up from 29 reported earlier. Blockade operation involves 10,000+ troops, 17 warships, and 100+ aircraft. Day 10 of CENTCOM blockade (started April 13).",
+    "type": "naval",
+    "lat": 26.00,
+    "lng": 56.00,
+    "location": "Persian Gulf / Gulf of Oman",
+    "timestamp": "2026-04-23T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Free Malaysia Today — US turns back 31 vessels since start of Iran naval blockade",
+        "url": "https://www.freemalaysiatoday.com/category/world/2026/04/23/us-turns-back-31-vessels-since-start-of-iran-naval-blockade"
+      },
+      {
+        "name": "Business Standard — 31 ships turned back as US enforces blockade",
+        "url": "https://www.business-standard.com/world-news/31-ships-turned-back-as-us-enforces-blockade-against-iran-centcom-126042300118_1.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "centcom", "blockade", "naval", "hormuz", "day55"]
   }
 ]

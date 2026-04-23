@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-23T06:08:00Z",
+    "lastUpdated": "2026-04-23T12:18:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 390
   },
   "summary": {
-    "totalSites": 396,
-    "confirmed": 322,
+    "totalSites": 397,
+    "confirmed": 323,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6201,6 +6201,21 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/4/22/israel-attacks-mosque-in-lebanon-in-another-ceasefire-violation",
       "severity": "medium",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-401",
+      "name": "Israel demolishes homes across Beit Lif and southern Lebanon buffer zone",
+      "country": "Lebanon",
+      "lat": 33.12,
+      "lng": 35.52,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-23",
+      "description": "Israel conducted large-scale home demolitions across 10km buffer zone in occupied southern Lebanon. AP journalists: Beit Lif 'almost entirely flattened.' Also affecting Khiam, Bint Jbeil. Israel claims homes used as Hezbollah outposts. UNIFIL warns displaced have nowhere to return.",
+      "source": "Washington Post",
+      "sourceUrl": "https://www.washingtonpost.com/world/2026/04/23/lebanon-israel-hezbollah-home-demolitions/a8347570-3eca-11f1-bb46-ed564688d953_story.html",
+      "severity": "high",
       "attributedTo": "israel"
     }
   ]

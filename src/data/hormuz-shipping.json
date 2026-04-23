@@ -4,7 +4,7 @@
   "dailyTransits": 8,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-23T06:08:00Z",
+  "lastUpdated": "2026-04-23T12:18:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -615,6 +615,12 @@
       "event": "Day 55 Late PM (Blockade Day 52 / CENTCOM Day 10): Brent surges to $103.38 (+29.5%), WTI $93.09 (+23.3%) — 4th consecutive gain. 8 ships including 3 tankers transited despite closure, up from 3 on Monday. Vitol CEO: 600-700M bbl oil supply lost, 1B expected. IMO: 20,000 mariners, 2,000 ships stranded. Pentagon briefed Congress: 6 months to clear Hormuz mines post-war. IRGC power consolidation exposed — Ahmad Vahidi making decisions with Mojtaba Khamenei, civilian leaders sidelined. Israel estimates blockade will slash Iran oil exports 80%. Trump: 'no time frame' on war.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-23",
+      "event": "Day 55 Early AM (Blockade Day 52 / CENTCOM Day 10): IRGC releases video of seizing MSC Francesca and Epaminondas. Panama condemns as 'illegal.' Sentinel-2: 33 IRGC fast-attack boats near Kargan coast. Deputy speaker Hajibabaei: first Hormuz toll revenue deposited into Central Bank. CENTCOM count rises to 31 vessels turned back. Tasnim maps 7 undersea internet cables — implicit threat. US seizes M/T Majestic X carrying sanctioned Iranian oil in Indian Ocean. Ghalibaf: 'Reopening Hormuz impossible' while US blockade continues.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -622,8 +628,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran officially reversed Hormuz opening — Ghalibaf scrapped deal.",
-      "priceImpact": "+25.0% Brent ($99.81), +20.3% WTI ($90.86); physical Brent peaked $144.42; approaching $100 again",
-      "detail": "20% of global supply cut off — Day 51 of blockade. IRGC fired on 3 ships, seized 2 on April 22. Only 3 vessels crossed Monday. CENTCOM blockade Day 9. Bessent: Kharg full in days. ~190M bbl floating storage. ~2,163 vessels stranded."
+      "priceImpact": "+29.5% Brent ($103.38), +23.3% WTI ($93.09); physical Brent peaked $144.42; above $100 again",
+      "detail": "20% of global supply cut off — Day 52 of blockade. IRGC released seizure video. 33 fast-attack boats near Kargan. First toll revenue banked. CENTCOM blockade Day 10: 31 vessels turned back. ~190M bbl floating storage. ~2,000+ vessels stranded."
     },
     {
       "commodity": "LNG",
