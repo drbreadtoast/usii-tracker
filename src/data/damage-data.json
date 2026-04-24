@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-24T12:16:00Z",
+    "lastUpdated": "2026-04-24T19:15:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 401
+    "totalSites": 402
   },
   "summary": {
-    "totalSites": 401,
+    "totalSites": 402,
     "confirmed": 325,
     "reported": 1,
     "rumored": 0,
@@ -6276,6 +6276,21 @@
       "source": "WAFA",
       "sourceUrl": "https://english.wafa.ps/Pages/Details/169773",
       "severity": "medium",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-406",
+      "name": "Touline house destroyed by Israeli airstrike during ceasefire — 2 killed",
+      "country": "Lebanon",
+      "lat": 33.2472,
+      "lng": 35.4486,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-24",
+      "description": "Israeli warplanes struck a house in Touline (Marjayoun district) at dawn April 24. 2 killed per Lebanese Health Ministry. Artillery shelling followed. Strike came hours after Trump announced the 3-week Lebanon ceasefire extension at the White House. UN OHCHR warned Israel's attacks may breach international humanitarian law.",
+      "source": "CBC News",
+      "sourceUrl": "https://www.cbc.ca/news/world/south-lebanon-fighting-strike-israel-hezbollah-9.7175997",
+      "severity": "high",
       "attributedTo": "israel"
     }
   ]

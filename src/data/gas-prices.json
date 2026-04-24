@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-24T12:16:00Z",
-  "currentAverage": 4.031,
+  "lastUpdated": "2026-04-24T19:15:00Z",
+  "currentAverage": 4.05,
   "preWarAverage": 3.14,
-  "changePercent": 28.37,
+  "changePercent": 28.98,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -456,8 +456,8 @@
     },
     {
       "date": "2026-04-24",
-      "price": 4.031,
-      "label": "Day 56 AM — $4.031 (flat). Brent $107.14 (+34.3%), WTI $97.40 (+29.0%). Only 5 ships transit Hormuz in 24h. Araghchi heading to Islamabad. Netanyahu cancer-free. Hegseth: blockade 'going global.' CA $5.884. OK $3.38.",
+      "price": 4.05,
+      "label": "Day 56 MIDDAY — $4.05 AAA (-6¢ WoW from $4.11). Brent pulls back to $104.63 (+31.0%), WTI $93.90 (+24.4%). Witkoff/Kushner fly to Pakistan Saturday for Round 2. Touline airstrike kills 2. Hegseth: Iran war 'gift to world.' Pope Leo won't endorse war. Kallas warns deal without experts = more dangerous Iran.",
       "isEvent": true
     }
   ],
@@ -508,29 +508,29 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 24)",
-      "crudePerBarrel": 107.14,
+      "label": "Current (Apr 24 midday)",
+      "crudePerBarrel": 104.63,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$107.14 ÷ 42 gal (Brent settlement)",
-          "value": 2.551,
+          "formula": "$104.63 ÷ 42 gal (Brent settlement)",
+          "value": 2.491,
           "percent": 57,
-          "change": "+$0.931"
+          "change": "+$0.871"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.887,
+          "value": 0.897,
           "percent": 22,
-          "change": "+$0.487"
+          "change": "+$0.497"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
-          "value": 0.3,
+          "value": 0.308,
           "percent": 7,
-          "change": "+$0.15"
+          "change": "+$0.158"
         },
         {
           "name": "Federal Excise Tax",
@@ -554,16 +554,16 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.092,
-      "note": "National average $4.031/gal (AAA April 23). Oil: Brent $107.14 (+34.3%), WTI $97.40 (+29.0%). Only 5 ships transit Hormuz. CA $5.884. HI $5.65. WA $5.39. OK $3.38 (low). USDA: 3.1% food price rise.",
-      "crude": 2.551,
-      "taxes": 0.86,
-      "refining": 0.887,
-      "distribution": 0.3,
-      "regularGasoline": 4.031,
-      "changeFromPreWar": "+$0.891",
-      "changePercent": "+28.4%",
-      "lastUpdated": "2026-04-24T12:16:00Z",
+      "total": 4.05,
+      "note": "National average $4.05/gal (AAA April 24 — down 6¢ WoW from $4.11). Oil pullback: Brent $104.63 (+31.0%), WTI $93.90 (+24.4%). Markets pricing in Witkoff/Kushner Saturday Pakistan talks. CA $5.884. HI $5.65. WA $5.39. OK $3.38 (low). USDA: 3.1% food price rise.",
+      "crude": 2.491,
+      "taxes": 0.534,
+      "refining": 0.897,
+      "distribution": 0.308,
+      "regularGasoline": 4.05,
+      "changeFromPreWar": "+$0.91",
+      "changePercent": "+29.0%",
+      "lastUpdated": "2026-04-24T19:15:00Z",
       "date": "2026-04-24"
     }
   },
