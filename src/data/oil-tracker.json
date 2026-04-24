@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-24T00:07:00Z",
+    "lastUpdated": "2026-04-24T06:30:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-24",
-      "label": "Day 56 Afternoon PT — Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Lebanon ceasefire extended 3 weeks. Hezbollah rockets at Shtula intercepted. 30+ nations plan Hormuz reopening. CSIS: 50% Patriot interceptors used. EU widens sanctions. CENTCOM: 33 vessels redirected. Gas $4.03.",
+      "label": "Day 56 Late Night PT — Brent $105.73 (+32.5%), WTI $96.17 (+27.4%). Brent breaches $105 for first time since ceasefire. USS Bush = 3rd carrier. Katz: 'Stone Age.' Pentagon NATO memo. Senate War Powers defeated 46-51. IEA: 'biggest energy threat.' M/T Majestic X seized. Gas $4.03.",
       "brent": {
-        "price": 103.38,
-        "change": "+29.5%",
-        "changeDollars": 23.54
+        "price": 105.73,
+        "change": "+32.5%",
+        "changeDollars": 25.93
       },
       "wti": {
-        "price": 94.46,
-        "change": "+25.1%",
-        "changeDollars": 18.95
+        "price": 96.17,
+        "change": "+27.4%",
+        "changeDollars": 20.67
       },
-      "changePercent": "+27.3%",
+      "changePercent": "+29.9%",
       "lastUpdated": "2026-04-24"
     },
     "priceHistory": [
@@ -625,8 +625,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-23T19:05:00Z",
-    "note": "Day 55 Midday PT: Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). AAA avg $4.03/gal (+28.3%, -6¢ from week ago). Trump orders Navy to 'shoot and kill' Iranian mine-layers. USS George H.W. Bush = 3rd US carrier in theater. Navy Sec Phelan ousted. CENTCOM: 31 vessels turned back.",
+    "lastUpdated": "2026-04-24T06:30:00Z",
+    "note": "Day 56 Late Night PT: Brent $105.73 (+32.5%), WTI $96.17 (+27.4%). AAA avg $4.03/gal (+28.3%). Brent breaks $105 for first time since ceasefire. USS Bush 3rd carrier. Katz 'Stone Age.' IEA 'biggest energy crisis.' 33+ vessels redirected. Gas stable $4.03.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -822,7 +822,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-22T12:06:00Z",
+  "lastUpdated": "2026-04-24T06:30:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1096,6 +1096,13 @@
       "brent": 103.38,
       "wti": 94.46,
       "label": "Day 55 PM — Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Trump orders Navy to 'shoot and kill' Iranian mine-layers in Hormuz. USS George H.W. Bush = 3rd US carrier in theater. Navy Sec Phelan ousted by Hegseth. Tehran air defenses engaged. Pope calls for peace. Gas $4.03.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-24",
+      "brent": 105.73,
+      "wti": 96.17,
+      "label": "Day 56 PM — Brent $105.73 (+32.5%), WTI $96.17 (+27.4%). Brent breaches $105 for first time since ceasefire. Katz: 'return Iran to Stone Age.' Pentagon NATO memo targets Spain. Senate War Powers defeated 46-51. M/T Majestic X seized (3rd tanker). IEA: 'biggest energy crisis in history.' UNDP: 30M+ into poverty. Trump: Iran must cut Hezbollah. Gas $4.03.",
       "isEvent": true
     }
   ]

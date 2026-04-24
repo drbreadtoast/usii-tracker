@@ -4,7 +4,7 @@
   "dailyTransits": 7,
   "preWarDailyTransits": 138,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-24T00:07:00Z",
+  "lastUpdated": "2026-04-24T06:30:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,7 +24,7 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 54 AM: CENTCOM blockade DAY 9. 27+ vessels redirected. IRGC fired on 3 container ships (Epaminondas, MSC Francesca, Eurphoria) — seized 2 (MSC Francesca, Epaminondas). Only 3 vessels crossed Monday April 21. Bessent: Kharg Island storage 'full in days.' ~190M bbl Iranian floating storage. War-risk premiums 2.5% hull (60x pre-crisis). Brent $99.81. Oil rising on ship attacks.",
+    "tankerTraffic": "Day 56 Late Night: CENTCOM blockade DAY 12. 33+ vessels redirected. 3 tankers seized (Touska, Tifani, Majestic X). Trump: 'shoot and kill' mine-layers. USS Bush = 3rd carrier. Mine clearing could take 6 months (20+ Iranian mines). Kharg Island near storage capacity. Pentagon developing new Hormuz strike plans. Brent $105.73. IEA: 'biggest energy crisis in history.' War-risk premiums 2-6% hull.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
     "lastUpdated": "2026-04-22T12:06:00Z",
@@ -44,7 +44,7 @@
     "seafarersKilled": 8,
     "seafarersAffected": 40000,
     "dailyTransits": 8,
-    "commercialShipsAttacked": 30,
+    "commercialShipsAttacked": 33,
     "totalTransitsSinceBlockade": 302,
     "strangedVessels": 2163,
     "shipsTrapped": 800,
@@ -633,6 +633,12 @@
       "event": "Day 56 Afternoon PT (Blockade Day 53 / CENTCOM Day 11): 30+ nations held 2-day military planning conference at UK Permanent Joint HQ in Northwood to plan multinational Hormuz reopening — led by UK and France. 7 tankers/cargo ships transited Hormuz in 12 hours early April 24. CENTCOM blockade count: 33 vessels redirected. EU widened sanctions on 19 Iranian officials/entities for Hormuz blocking (Kallas). US sanctioned 14 individuals/entities for drone procurement. Ghalibaf: Hormuz will not reopen while US blockade remains. Coordinated Iran unity statement. Lebanon ceasefire extended 3 weeks. Brent $103.38 (+29.5%), WTI $94.46 (+25.1%). Gas $4.03.",
       "status": "effectively_closed",
       "barrels": 0
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Day 56 Late Night PT (Blockade Day 53 / CENTCOM Day 12): Brent surges past $105 ($105.73, +32.5%) for first time since ceasefire. USS George H.W. Bush (CVN-77) = 3rd US carrier in CENTCOM. M/T Majestic X seized in Indian Ocean (3rd tanker). 33+ vessels redirected. Trump: 'shoot and kill' mine-layers. Pentagon: mine clearing could take 6 months (20+ Iranian mines). Katz: 'return Iran to Stone Age.' Pentagon NATO memo targets Spain. IEA Birol: 'biggest energy security threat in history' — 13M bbl/day lost. Vitol: 600-700M barrels lost. UNDP: 30M+ into poverty. Pentagon developing new Hormuz strike plans. Senate War Powers defeated 46-51. WTI $96.17. Gas $4.03.",
+      "status": "effectively_closed",
+      "barrels": 0
     }
   ],
   "impactedGoods": [
@@ -640,8 +646,8 @@
       "commodity": "Crude Oil",
       "normalFlow": "15M bbl/day",
       "currentFlow": "~3.8M bbl/day (down 80%+ from pre-war 20M+). Iran officially reversed Hormuz opening — Ghalibaf scrapped deal.",
-      "priceImpact": "+29.5% Brent ($103.38), +23.3% WTI ($93.09); physical Brent peaked $144.42; above $100 again",
-      "detail": "20% of global supply cut off — Day 52 of blockade. IRGC released seizure video. 33 fast-attack boats near Kargan. First toll revenue banked. CENTCOM blockade Day 10: 31 vessels turned back. ~190M bbl floating storage. ~2,000+ vessels stranded."
+      "priceImpact": "+32.5% Brent ($105.73), +27.4% WTI ($96.17); physical Brent peaked $144.42; above $105 for first time since ceasefire",
+      "detail": "20% of global supply cut off — Day 53 of blockade. CENTCOM blockade Day 12: 33+ vessels redirected, 3 tankers seized. USS Bush = 3rd carrier. Mine clearing 6 months. IEA: 'biggest energy crisis in history.' Vitol: 600-700M barrels lost. ~2,000+ vessels stranded."
     },
     {
       "commodity": "LNG",

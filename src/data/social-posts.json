@@ -1,78 +1,5 @@
 [
   {
-    "id": "social-940",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "ESPIONAGE: Two Israeli Air Force technicians from Tel Nof Airbase charged with spying for Iran during Operation Roaring Lion. Passed F-15 engine diagrams and pilot photographs. 8 more soldiers suspected of knowing without reporting. Part of '400% increase in Iranian recruitment attempts since Oct 2023.' 50+ espionage indictments total.",
-    "timestamp": "2026-04-23T01:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Jerusalem Post liveblog April 22.",
-    "keywords": [
-      "espionage",
-      "iaf",
-      "tel-nof",
-      "iran",
-      "f-15",
-      "day55"
-    ]
-  },
-  {
-    "id": "social-941",
-    "handle": "@GeoConfirmed",
-    "displayName": "GeoConfirmed — OSINT Analyst",
-    "text": "JOURNALIST KILLED: Al Akhbar reporter Amal Khalil (43) confirmed dead in Israeli airstrike on al-Tiri village, southern Lebanon. Colleague Zeinab Faraj critically injured. CPJ called for rescue — Israeli drone dropped sound grenade on rescue teams, blocking access ~4 hours. 9th journalist killed in Lebanon this year. Lebanese PM Salam: 'war crime.'",
-    "timestamp": "2026-04-23T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Al Jazeera, WaPo, CPJ, Xinhua, Naharnet. Al Akhbar confirmed employment.",
-    "keywords": [
-      "journalist",
-      "amal-khalil",
-      "al-tiri",
-      "lebanon",
-      "strike",
-      "day55"
-    ]
-  },
-  {
-    "id": "social-942",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender — OSINT Analyst",
-    "text": "PENTAGON: FY2027 budget request at $1.5 TRILLION — 42% increase, biggest since WWII. $74B for drones (3x), $30B for munitions, 785 Tomahawk missiles (up from 55 = 14x increase). Separately, Pentagon removed 15 wounded from casualty rolls without explanation — dropped from 428 to 413. Navy Secretary Phelan fired during active blockade; Hung Cao installed.",
-    "timestamp": "2026-04-23T03:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Budget from The Hill, Military.com. Casualty removal from The Intercept. Navy Sec from CNN.",
-    "keywords": [
-      "pentagon",
-      "budget",
-      "casualties",
-      "navy-secretary",
-      "tomahawk",
-      "day55"
-    ]
-  },
-  {
-    "id": "social-943",
-    "handle": "@GlobalAffairs",
-    "displayName": "Global Affairs Monitor",
-    "text": "DAY 55 ROUNDUP: Brent $103.38 (+29.5%), WTI $93.09 (+23.3%) — 4th straight gain. Gas $4.04. Vitol CEO: 600-700M bbl lost. IRGC power grab exposed. Journalist Amal Khalil killed in Lebanon. Hezbollah fires first time since Apr 16. Senate war powers vote #5 fails 46-51. Lebanon to request 1-month ceasefire extension at Thursday DC talks. New US sanctions: 22 targets. Iran Air resumes domestic flights. Trump: 'no time frame.'",
-    "timestamp": "2026-04-23T06:00:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compiled from CNBC, CNN, Al Jazeera, Times of Israel, CBS News, Democracy Now, Xinhua. All verified.",
-    "keywords": [
-      "roundup",
-      "day55",
-      "brent",
-      "irgc",
-      "journalist",
-      "hezbollah",
-      "senate"
-    ]
-  },
-  {
     "id": "social-944",
     "handle": "@sentdefender",
     "displayName": "sentdefender — OSINT Analyst",
@@ -404,5 +331,71 @@
       "munitions",
       "sanctions"
     ]
+  },
+  {
+    "id": "social-962",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "OIL BREAKING: Brent crude breaches $105 ($105.73) for first time since April 8 ceasefire. 32.5% above pre-war baseline. WTI $96.17 (+27.4%). Driven by Iran ship seizures, Trump 'shoot and kill' order, Kharg Island near storage capacity (Bessent: 'full in days'). IEA Birol: 'biggest energy security threat in history' — 13M bbl/day lost.",
+    "timestamp": "2026-04-24T06:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Oneindia, CNBC, Fortune, IEA confirmed. Brent $105.73 verified across multiple exchanges.",
+    "keywords": ["oil", "brent", "wti", "iea", "energy", "crisis", "day56"]
+  },
+  {
+    "id": "social-963",
+    "handle": "@WarshipCam",
+    "displayName": "Naval Intelligence Monitor",
+    "text": "CARRIER UPDATE: USS George H.W. Bush (CVN-77) confirmed in CENTCOM AOR — 3rd US carrier alongside Ford and Lincoln. Largest US naval aviation concentration in the region in decades. CENTCOM blockade: 10,000+ troops, 17 warships, 100+ aircraft. 33+ vessels redirected. M/T Majestic X seized in Indian Ocean = 3rd tanker captured.",
+    "timestamp": "2026-04-24T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WaPo, India TV News, Military.com, Stars and Stripes. All confirmed.",
+    "keywords": ["carrier", "bush", "navy", "centcom", "blockade", "majestic", "tanker", "day56"]
+  },
+  {
+    "id": "social-964",
+    "handle": "@MidEastStream",
+    "displayName": "Middle East Analysis",
+    "text": "KATZ ESCALATION: Israeli Defence Min declares IDF 'ready to return Iran to the Stone Age' — awaiting US green light. Targets: energy grid, Khamenei dynasty, electricity infrastructure. Comes same day Brent crosses $105 and Senate defeats 5th War Powers vote 46-51. Only Rand Paul (R) crossed. May 1 deadline looms.",
+    "timestamp": "2026-04-24T04:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Euronews, Antiwar.com, NBC, WION. Democracy Now, Foreign Policy on Senate vote.",
+    "keywords": ["katz", "israel", "stone-age", "war-powers", "senate", "day56"]
+  },
+  {
+    "id": "social-965",
+    "handle": "@DiplomaticPulse",
+    "displayName": "Diplomatic Pulse",
+    "text": "NATO CRISIS: Pentagon memo floats suspending Spain from NATO over Iran war refusal, reviewing UK Falklands position. 'They were not there for us.' Meanwhile Trump demands Iran cut Hezbollah funding: 'That is a must.' Rubio says Iranian officials 'saying the right things in private.' Pope Leo: 'I cannot be in favor of war.'",
+    "timestamp": "2026-04-24T05:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al-Monitor/ToI on NATO memo. ToI/CNN on Trump Hezbollah. The Hill on Rubio. America Magazine on Pope.",
+    "keywords": ["nato", "spain", "pentagon", "trump", "hezbollah", "rubio", "pope", "day56"]
+  },
+  {
+    "id": "social-966",
+    "handle": "@EconWarfare",
+    "displayName": "Economic Warfare Analyst",
+    "text": "HUMANITARIAN IMPACT: UNDP warns 30M+ pushed back into poverty across 162 countries from Iran war energy/food shocks. FDD estimates $91B replacement cost to Iran from Operation Epic Fury (Iran self-assesses $300B-$1T). IMF cuts global growth to 3.1%. Iran GDP -6.1%. Rebuilding could take 'more than a decade.'",
+    "timestamp": "2026-04-24T04:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "UNDP.org, Al Jazeera, FDD.org, IMF WEO April 2026. All verified.",
+    "keywords": ["undp", "poverty", "fdd", "damage", "imf", "economic", "day56"]
+  },
+  {
+    "id": "social-967",
+    "handle": "@Global_Flttrckr",
+    "displayName": "Global Fleet Tracker",
+    "text": "DAY 56 LATE ROUNDUP: Brent $105.73 (+32.5%). USS Bush = 3rd carrier. Katz: 'Stone Age.' Pentagon NATO memo targets Spain. Senate War Powers defeated 46-51. M/T Majestic X seized (3rd tanker). IEA: 'biggest energy crisis in history.' UNDP: 30M+ into poverty. Trump: Iran must cut Hezbollah. FDD: $91B damage. Navy Sec fired. Gas $4.03.",
+    "timestamp": "2026-04-24T06:30:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, WaPo, Euronews, Al-Monitor, Democracy Now, Fortune, UNDP.org, ToI, FDD, CNN, AAA. All verified.",
+    "keywords": ["roundup", "day56", "oil", "carrier", "katz", "nato", "senate", "iea", "undp"]
   }
 ]
