@@ -8633,5 +8633,59 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-511",
+    "city": "Shoukine",
+    "country": "Lebanon",
+    "lat": 33.3778,
+    "lng": 35.4844,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-23",
+    "description": "Israeli airstrike on Shoukine road in Nabatieh district killed 3 people despite ceasefire. Strike hit a vehicle on the road. Prompted Hezbollah retaliatory rockets at Shtula.",
+    "source": "Naharnet",
+    "sourceUrl": "https://www.naharnet.com/stories/en/319754-3-killed-in-israeli-strike-on-car-in-nabatieh-district",
+    "weaponType": "guided_munition",
+    "casualties": {
+      "killed": 3,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-512",
+    "city": "Yater",
+    "country": "Lebanon",
+    "lat": 33.1153,
+    "lng": 35.4139,
+    "strikeType": "artillery",
+    "attributedTo": "israel",
+    "date": "2026-04-23",
+    "description": "Israeli artillery shelled the town of Yater in the Bint Jbeil district, wounding 2 civilians including a child despite ceasefire. Hezbollah cited this shelling as reason for retaliatory rockets at Shtula.",
+    "source": "WAFA",
+    "sourceUrl": "https://english.wafa.ps/Pages/Details/169773",
+    "weaponType": "artillery",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
+  },
+  {
+    "id": "ms-513",
+    "city": "Shtula",
+    "country": "Israel",
+    "lat": 33.0886,
+    "lng": 35.2667,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-23",
+    "description": "Hezbollah fired approximately 4 rockets at Shtula in northern Israel — first rocket attack on Israeli territory during ceasefire. All intercepted by air defense. No casualties. IDF destroyed the launcher and called it a 'blatant violation.'",
+    "source": "Israel National News",
+    "sourceUrl": "https://www.israelnationalnews.com/news/426004",
+    "weaponType": "rocket",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]

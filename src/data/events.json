@@ -37664,5 +37664,266 @@
       "injured": 0
     },
     "tags": ["vatican", "pope", "diplomatic", "peace", "day55"]
+  },
+  {
+    "id": "evt-new-1126",
+    "title": "Trump announces 3-week extension of Israel-Lebanon ceasefire after White House talks",
+    "description": "Trump announced a 3-week extension of the Israel-Lebanon ceasefire following the 2nd round of direct talks at the White House between Israeli Ambassador Danny Danon and Lebanese Ambassador. Original 10-day truce was set to expire Sunday April 26; now extended through mid-May. Trump said Netanyahu and Lebanese President Aoun will come to Washington 'over the next couple of weeks.' VP Vance, Rubio, and Ambassadors Huckabee and Issa participated.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "White House, Washington DC",
+    "timestamp": "2026-04-23T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post — Lebanon ceasefire extended",
+        "url": "https://www.washingtonpost.com/national-security/2026/04/23/us-israel-lebanon-ceasefire-talks/"
+      },
+      {
+        "name": "CNBC — Trump Israel Lebanon ceasefire",
+        "url": "https://www.cnbc.com/2026/04/23/trump-israel-lebanon-ceasefire-iran-war.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "israel", "lebanon", "ceasefire", "diplomatic", "day55"]
+  },
+  {
+    "id": "evt-new-1127",
+    "title": "Hezbollah fires ~4 rockets at Shtula — all intercepted, ceasefire violation",
+    "description": "Hezbollah fired approximately 4 rockets at the northern Israeli border community of Shtula, the first rocket attack on Israeli territory during the ceasefire. All rockets were intercepted by air defense systems. No casualties. Hezbollah said it was in response to Israeli artillery shelling of Yater in southern Lebanon. IDF destroyed the launcher used and called it a 'blatant violation of the ceasefire agreement.'",
+    "type": "strike",
+    "lat": 33.0886,
+    "lng": 35.2667,
+    "location": "Shtula, northern Israel",
+    "timestamp": "2026-04-23T19:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Haaretz — Hezbollah rockets at Shtula",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-23/ty-article-live/reports-five-killed-including-three-children-in-israeli-strike-in-north-gaza/0000019d-b7ef-db3c-a1ff-f7efd6dc0000"
+      },
+      {
+        "name": "Israel National News — Hezbollah rockets",
+        "url": "https://www.israelnationalnews.com/news/426004"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "israel", "rockets", "ceasefire-violation", "shtula", "day55"]
+  },
+  {
+    "id": "evt-new-1128",
+    "title": "Israeli shelling of Yater and airstrike on Shoukine road kill 3, wound 2",
+    "description": "Israeli artillery shelled the town of Yater in the Bint Jbeil district, wounding 2 civilians including a child. Separately, an Israeli airstrike on the Shoukine road in the Nabatieh district killed 3 people. Strikes occurred despite the ceasefire and prompted Hezbollah's retaliatory rocket salvo at Shtula.",
+    "type": "strike",
+    "lat": 33.1153,
+    "lng": 35.4139,
+    "location": "Yater and Shoukine, southern Lebanon",
+    "timestamp": "2026-04-23T17:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Naharnet — 3 killed in Israeli strike Nabatieh",
+        "url": "https://www.naharnet.com/stories/en/319754-3-killed-in-israeli-strike-on-car-in-nabatieh-district"
+      },
+      {
+        "name": "Middle East Eye — Israeli air strikes kill three",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-kill-three-south-lebanon-despite-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 3,
+      "injured": 2
+    },
+    "tags": ["israel", "lebanon", "strike", "yater", "shoukine", "ceasefire-violation", "day55"]
+  },
+  {
+    "id": "evt-new-1129",
+    "title": "Two IDF Air Force soldiers indicted for spying for Iran",
+    "description": "Two IDF Air Force soldiers, Asaf Shitrit and Sagi Haik, mechanics/avionics specialists in the 133rd 'Knights of the Twin Tail' Squadron at Tel Nof Airbase, were indicted for espionage. They allegedly passed F-15 technical data (avionics, self-protection systems, engine schematics) to Iranian handlers. Also tasked with gathering intelligence on former IDF Chief Halevi and Minister Ben-Gvir. Arrested in March 2026.",
+    "type": "cyber",
+    "lat": 31.8389,
+    "lng": 34.8222,
+    "location": "Tel Nof Airbase, Israel",
+    "timestamp": "2026-04-23T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Haaretz — Two Air Force soldiers charged with spying for Iran",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-23/ty-article/.premium/two-air-force-soldiers-charged-with-spying-for-iran-idf-says/0000019d-bac8-deab-ab9d-bbff4e4e0000"
+      },
+      {
+        "name": "Times of Israel — IDF mechanics charged with spying",
+        "url": "https://www.timesofisrael.com/two-idf-aircraft-mechanics-to-be-charged-with-spying-on-ben-gvir-ex-idf-chief-report/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "iran", "espionage", "idf", "f-15", "day55"]
+  },
+  {
+    "id": "evt-new-1130",
+    "title": "Pentagon removes 15 wounded from Iran war casualty count without explanation",
+    "description": "The Intercept reported the Pentagon quietly removed 15 wounded-in-action troops from the Iran war casualty count. Official total dropped from 428 on Monday to 413 on Tuesday with no explanation. Pentagon spokespersons unable to account for the change. A US government official called it 'the definition of a cover-up.'",
+    "type": "diplomatic",
+    "lat": 38.8719,
+    "lng": -77.0563,
+    "location": "Pentagon, Arlington VA",
+    "timestamp": "2026-04-22T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Intercept — Pentagon removes 15 wounded from casualty count",
+        "url": "https://theintercept.com/2026/04/22/iran-war-military-casualties-wounded/"
+      },
+      {
+        "name": "Military Times — Pentagon casualty data",
+        "url": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "pentagon", "casualties", "cover-up", "day55"]
+  },
+  {
+    "id": "evt-new-1131",
+    "title": "30+ nations hold multinational Hormuz military planning conference in London",
+    "description": "Military planners from 30+ nations held a 2-day conference at the UK's Permanent Joint Headquarters in Northwood, London, to plan a multinational mission to reopen the Strait of Hormuz. Led by UK and France. Discussed military capabilities, command and control, mine clearance operations, and deployment planning.",
+    "type": "naval",
+    "lat": 51.6083,
+    "lng": -0.4217,
+    "location": "Permanent Joint Headquarters, Northwood, London",
+    "timestamp": "2026-04-23T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "GOV.UK — UK and France lead Hormuz planning conference",
+        "url": "https://www.gov.uk/government/news/uk-and-france-to-lead-multinational-strait-of-hormuz-military-planning-conference"
+      },
+      {
+        "name": "Jerusalem Post — Multinational Hormuz conference",
+        "url": "https://www.jpost.com/international/article-893784"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["uk", "france", "hormuz", "multinational", "mine-clearing", "naval", "day55"]
+  },
+  {
+    "id": "evt-new-1132",
+    "title": "Iran issues coordinated unity statement — all senior officials reject 'fracture' claims",
+    "description": "In response to Trump's claims of Iranian leadership 'fractures,' virtually all senior Iranian officials issued joint statements within 30 minutes. President Pezeshkian, FM Araghchi, Parliament Speaker Qalibaf, VP Aref, and Chief Justice Eje'i declared: 'In Iran, there are no radicals or moderates; we are all Iranian and revolutionary, and with complete obedience to the Supreme Leader, we will make the aggressor regret his actions.'",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-23T14:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran dismisses Trump's claim of leadership rift",
+        "url": "https://www.aljazeera.com/news/2026/4/23/iran-dismisses-trumps-claim-of-leadership-rift-says-nation-is-one-soul"
+      },
+      {
+        "name": "Bloom Pakistan — Pezeshkian declares national unity",
+        "url": "https://bloompakistan.com/iran-president-pezeshkian-declares-national-unity-warns-aggressors/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "pezeshkian", "araghchi", "qalibaf", "unity", "diplomatic", "day55"]
+  },
+  {
+    "id": "evt-new-1133",
+    "title": "EU widens sanctions on Iran — 19 officials and entities targeted for Hormuz actions",
+    "description": "EU foreign policy chief Kaja Kallas announced EU countries agreed to widen sanctions against Iran to include those responsible for blocking the Strait of Hormuz. New sanctions target 19 regime officials and entities. Kallas also asked foreign ministers to bolster the EU's naval mission in the Middle East.",
+    "type": "diplomatic",
+    "lat": 49.6117,
+    "lng": 6.1319,
+    "location": "Luxembourg (Foreign Affairs Council)",
+    "timestamp": "2026-04-21T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Arabiya — EU agrees to widen sanctions against Iran",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/04/21/eu-agrees-to-widen-sanctions-against-iran-to-include-hormuz-kallas-says"
+      },
+      {
+        "name": "Iran International — EU sanctions",
+        "url": "https://www.iranintl.com/en/202604216560"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["eu", "kallas", "sanctions", "iran", "hormuz", "diplomatic", "day55"]
+  },
+  {
+    "id": "evt-new-1134",
+    "title": "CSIS report: US expended ~50% of Patriot interceptors and 850+ Tomahawks in Iran war",
+    "description": "CSIS analysis found the US has expended roughly half of its Patriot interceptor stockpile, over 50% of THAAD interceptors, 45%+ of PrSM stockpiles, and 850+ Tomahawk cruise missiles during the Iran campaign. Warns rebuilding will take 1-4 years and creates a 'window of vulnerability' for a potential conflict with China.",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "CSIS, Washington DC",
+    "timestamp": "2026-04-22T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CSIS — Last Rounds: Status of Key Munitions",
+        "url": "https://www.csis.org/analysis/last-rounds-status-key-munitions-iran-war-ceasefire"
+      },
+      {
+        "name": "Fox News — US drains critical missile stockpiles",
+        "url": "https://www.foxnews.com/politics/us-drains-critical-missile-stockpiles-iran-war-yearslong-rebuild-looms"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "csis", "munitions", "patriot", "tomahawk", "stockpile", "day55"]
   }
 ]

@@ -1,23 +1,5 @@
 [
   {
-    "id": "social-939",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "IRGC POWER CONSOLIDATION: Euronews/Time/CNN all reporting IRGC commander Ahmad Vahidi now making military/political decisions alongside Mojtaba Khamenei. Pezeshkian blocked from appointments. AI-generated videos of absent Supreme Leader. US officials confirm 'absolute fracture' between negotiators and military. Iran has become 'a powerful militia with a state.'",
-    "timestamp": "2026-04-23T00:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Euronews, Time, CNN, Axios. IRGC power structure analysis from ISW and US intelligence.",
-    "keywords": [
-      "irgc",
-      "mojtaba-khamenei",
-      "vahidi",
-      "power-struggle",
-      "iran",
-      "day55"
-    ]
-  },
-  {
     "id": "social-940",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab — OSINT Analyst",
@@ -312,6 +294,115 @@
       "tehran",
       "pope",
       "baldwin"
+    ]
+  },
+  {
+    "id": "social-956",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "CEASEFIRE EXTENDED: Trump announced 3-week extension of Israel-Lebanon ceasefire after 2nd round of White House talks. Original truce set to expire Sunday April 26 — now extended through mid-May. Netanyahu and Lebanese President Aoun invited to Washington. Rubio credits Trump personally for making it possible.",
+    "timestamp": "2026-04-23T22:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Washington Post, CNBC, CBS News. All confirmed.",
+    "keywords": [
+      "ceasefire",
+      "lebanon",
+      "israel",
+      "trump",
+      "white-house",
+      "day56"
+    ]
+  },
+  {
+    "id": "social-957",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab — OSINT Analyst",
+    "text": "HEZBOLLAH ROCKETS: ~4 rockets fired at Shtula, northern Israel — first rocket attack on Israeli territory during the ceasefire. All intercepted. Hezbollah says response to Israeli shelling of Yater. IDF destroyed launcher. Separately, Israeli airstrike on Shoukine road killed 3, Yater shelling wounded 2 incl. child.",
+    "timestamp": "2026-04-23T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz, Israel National News, Naharnet, Middle East Eye. All confirmed.",
+    "keywords": [
+      "hezbollah",
+      "shtula",
+      "rockets",
+      "ceasefire-violation",
+      "yater",
+      "day56"
+    ]
+  },
+  {
+    "id": "social-958",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "PENTAGON COVER-UP: Intercept reports 15 wounded-in-action troops quietly erased from Iran war casualty count — total dropped from 428 to 413 overnight with zero explanation. Pentagon spokespersons can't account for the change. US gov official: 'the definition of a cover-up.' True WIA figure likely 428+.",
+    "timestamp": "2026-04-23T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "The Intercept investigative report confirmed. Military Times data discrepancy tracked.",
+    "keywords": [
+      "pentagon",
+      "casualties",
+      "cover-up",
+      "wounded",
+      "intercept",
+      "day56"
+    ]
+  },
+  {
+    "id": "social-959",
+    "handle": "@War_Mapper",
+    "displayName": "War Mapper — OSINT Analyst",
+    "text": "HORMUZ MULTINATIONAL: 30+ nations held 2-day conference at UK Permanent Joint HQ, Northwood to plan multinational Strait of Hormuz reopening. Led by UK and France. Mine clearance, command structure, deployment planning discussed. This is the most concrete multinational military response to the blockade yet.",
+    "timestamp": "2026-04-23T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "GOV.UK official announcement, Jerusalem Post, Washington Examiner. All confirmed.",
+    "keywords": [
+      "hormuz",
+      "uk",
+      "france",
+      "multinational",
+      "mine-clearing",
+      "day56"
+    ]
+  },
+  {
+    "id": "social-960",
+    "handle": "@GlobalAffairs",
+    "displayName": "Global Affairs Monitor",
+    "text": "IRAN UNITY: Coordinated statement from Pezeshkian, Araghchi, Qalibaf, Aref, Eje'i — all within 30 minutes: 'there are no radicals or moderates; we are all Iranian and revolutionary.' Rejects Trump's claims of leadership fractures. Meanwhile Mojtaba Khamenei reported 'injured and isolated' — ruling through tight inner circle (Israel Hayom).",
+    "timestamp": "2026-04-23T15:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Bloom Pakistan, Express Tribune, Press TV. Israel Hayom on Mojtaba Khamenei.",
+    "keywords": [
+      "iran",
+      "unity",
+      "pezeshkian",
+      "araghchi",
+      "qalibaf",
+      "mojtaba",
+      "day56"
+    ]
+  },
+  {
+    "id": "social-961",
+    "handle": "@Global_Flttrckr",
+    "displayName": "Global Fleet Tracker",
+    "text": "DAY 56 ROUNDUP: Lebanon ceasefire extended 3 weeks. Hezbollah rockets at Shtula intercepted. Israeli strikes kill 3 in Shoukine. Two IDF soldiers indicted for Iran espionage. Pentagon removes 15 wounded. 30+ nations plan Hormuz reopening. EU widens sanctions on 19 officials. CSIS: 50% Patriot interceptors expended. Brent $103.38. Gas $4.03.",
+    "timestamp": "2026-04-24T00:05:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WaPo, Haaretz, Intercept, GOV.UK, Al Jazeera, CSIS, Al Arabiya, Fortune, AAA. All verified.",
+    "keywords": [
+      "roundup",
+      "day56",
+      "ceasefire",
+      "hormuz",
+      "munitions",
+      "sanctions"
     ]
   }
 ]

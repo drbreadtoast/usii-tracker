@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-23T12:18:00Z",
+    "lastUpdated": "2026-04-24T00:07:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 390
+    "totalSites": 401
   },
   "summary": {
-    "totalSites": 397,
-    "confirmed": 323,
+    "totalSites": 401,
+    "confirmed": 325,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6148,7 +6148,7 @@
       "name": "IRGC attacks container ship Epaminondas — heavy bridge damage",
       "country": "Iran",
       "lat": 26.56,
-      "lng": 56.40,
+      "lng": 56.4,
       "type": "maritime",
       "status": "confirmed",
       "date": "2026-04-22",
@@ -6162,7 +6162,7 @@
       "id": "dmg-398",
       "name": "IRGC attacks MSC Francesca — hull and accommodation damage",
       "country": "Iran",
-      "lat": 26.60,
+      "lat": 26.6,
       "lng": 56.25,
       "type": "maritime",
       "status": "confirmed",
@@ -6222,7 +6222,7 @@
       "id": "dmg-402",
       "name": "Yohmor al-Shaqif homes damaged — white phosphorus fires",
       "country": "Lebanon",
-      "lat": 33.3000,
+      "lat": 33.3,
       "lng": 35.5667,
       "type": "civilian",
       "status": "confirmed",
@@ -6246,6 +6246,36 @@
       "source": "CNN",
       "sourceUrl": "https://www.cnn.com/2026/04/22/middleeast/lebanon-israel-journalist-killed-amal-khalil-latam-intl",
       "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-404",
+      "name": "Shoukine road vehicle destroyed by Israeli airstrike — 3 killed",
+      "country": "Lebanon",
+      "lat": 33.3778,
+      "lng": 35.4844,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-23",
+      "description": "Israeli airstrike hit a vehicle on the Shoukine road in Nabatieh district, killing 3 people. Strike occurred despite ceasefire and prompted Hezbollah retaliatory rockets at Shtula.",
+      "source": "Naharnet",
+      "sourceUrl": "https://www.naharnet.com/stories/en/319754-3-killed-in-israeli-strike-on-car-in-nabatieh-district",
+      "severity": "high",
+      "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-405",
+      "name": "Yater buildings damaged by Israeli artillery — 2 civilians wounded",
+      "country": "Lebanon",
+      "lat": 33.1153,
+      "lng": 35.4139,
+      "type": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-23",
+      "description": "Israeli artillery shelled the town of Yater in Bint Jbeil district, damaging buildings and wounding 2 civilians including a child. Shelling cited by Hezbollah as reason for retaliatory rockets.",
+      "source": "WAFA",
+      "sourceUrl": "https://english.wafa.ps/Pages/Details/169773",
+      "severity": "medium",
       "attributedTo": "israel"
     }
   ]
