@@ -38233,5 +38233,161 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["fdd", "damage", "iran", "epic-fury", "assessment", "economic", "day56"]
+  },
+  {
+    "id": "evt-new-1147",
+    "title": "IDF drone shot down over Tyre by Hezbollah anti-aircraft missile",
+    "description": "Hezbollah shot down an Israeli military drone over the southern Lebanon coastal city of Tyre using an anti-aircraft missile. The IDF confirmed the shootdown and stated there was 'no fear of information leak.' First confirmed Hezbollah anti-aircraft kill during the ceasefire period.",
+    "type": "movement",
+    "lat": 33.27,
+    "lng": 35.20,
+    "location": "Tyre, southern Lebanon",
+    "timestamp": "2026-04-24T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF drone shot down by Hezbollah over southern Lebanon",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-israeli-drone-shot-down-by-hezbollah-over-southern-lebanon-no-fear-of-information-leak/"
+      },
+      {
+        "name": "Times of Israel Liveblog April 24",
+        "url": "https://www.timesofisrael.com/liveblog-april-24-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hezbollah", "drone", "tyre", "lebanon", "air-defense", "ceasefire", "day56"]
+  },
+  {
+    "id": "evt-new-1148",
+    "title": "IDF kills Hezbollah operative in drone strike between Kounine and Beit Yahoun",
+    "description": "A Hezbollah operative traveling on a motorcycle between the southern Lebanon towns of Kounine and Beit Yahoun was killed in an IDF drone strike. Among the first strikes explicitly targeting Hezbollah operatives since the ceasefire took effect.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.44,
+    "location": "Between Kounine and Beit Yahoun, southern Lebanon",
+    "timestamp": "2026-04-24T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF confirms strikes on Hezbollah operatives in Lebanon",
+        "url": "https://www.timesofisrael.com/idf-confirms-strikes-on-hezbollah-operatives-in-lebanon-in-first-since-ceasefire/"
+      },
+      {
+        "name": "Times of Israel Liveblog April 24",
+        "url": "https://www.timesofisrael.com/liveblog-april-24-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 1, "injured": 0 },
+    "tags": ["israel", "hezbollah", "drone-strike", "lebanon", "ceasefire-violation", "day56"]
+  },
+  {
+    "id": "evt-new-1149",
+    "title": "Netanyahu reveals secret prostate cancer treatment — declared cancer-free",
+    "description": "Israeli PM Netanyahu disclosed he was diagnosed with a malignant prostate tumor (<1cm) discovered during routine MRI follow-up after December 2024 surgery. He underwent targeted radiation therapy ~2.5 months ago. Subsequent tests show 'disease has disappeared.' He delayed disclosure to prevent Iranian propaganda during the war.",
+    "type": "diplomatic",
+    "lat": 31.77,
+    "lng": 35.22,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-04-24T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CNN — Netanyahu reveals prostate cancer treatment",
+        "url": "https://www.cnn.com/2026/04/24/middleeast/netanyahu-prostate-cancer-treatment-intl"
+      },
+      {
+        "name": "Haaretz — Netanyahu diagnosed with prostate cancer",
+        "url": "https://www.haaretz.com/science-and-health/2026-04-24/ty-article/netanyahu-diagnosed-with-prostate-cancer-without-informing-israeli-public/0000019d-bf3e-dbb2-a19d-bf7eed9f0000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["netanyahu", "cancer", "israel", "leadership", "health", "day56"]
+  },
+  {
+    "id": "evt-new-1150",
+    "title": "Araghchi heading to Islamabad for potential Round 2 US-Iran peace talks",
+    "description": "Iran Foreign Minister Abbas Araghchi expected to arrive in Islamabad Friday night for a possible second round of peace talks with the US. A US logistics and security team was already in place. Pakistan acting as mediator. Follow-up to the first Islamabad Talks (April 11-12) that ended without a deal.",
+    "type": "diplomatic",
+    "lat": 33.69,
+    "lng": 73.04,
+    "location": "Islamabad, Pakistan",
+    "timestamp": "2026-04-24T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Bloomberg — Iran FM to visit Islamabad Friday",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-24/pakistan-says-iran-foreign-minister-to-visit-islamabad-friday"
+      },
+      {
+        "name": "Gulf News — Iranian FM Araghchi expected in Islamabad",
+        "url": "https://gulfnews.com/world/mena/iranian-foreign-minister-abbas-araghchi-expected-to-travel-to-islamabad-soon-1.500518002"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["araghchi", "iran", "pakistan", "diplomacy", "peace-talks", "islamabad", "day56"]
+  },
+  {
+    "id": "evt-new-1151",
+    "title": "Brent crude surges to $107.14 as Hormuz closes to just 5 ships in 24 hours",
+    "description": "Brent crude surged to $107.14/barrel (+34.3% from pre-war $79.84) as only 5 ships transited the Strait of Hormuz in 24 hours — including just 1 Iranian oil tanker. WTI climbed to $97.40 (+29.0%). Iran parliament speaker resigned from negotiating team, raising fears IRGC taking full control. Oil markets pricing in extended blockade.",
+    "type": "infrastructure",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz / Global oil markets",
+    "timestamp": "2026-04-24T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Oil rises above $106 as US-Iran deadlocked",
+        "url": "https://www.aljazeera.com/economy/2026/4/24/oil-rises-above-106-per-barrel-as-us-iran-deadlocked-in-strait-of-hormuz"
+      },
+      {
+        "name": "US News — Only five ships pass through Strait of Hormuz in 24 hours",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-24/only-five-ships-pass-through-strait-of-hormuz-in-24-hours"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["oil", "brent", "wti", "hormuz", "blockade", "energy", "day56"]
+  },
+  {
+    "id": "evt-new-1152",
+    "title": "Hegseth: US blockade 'growing and going global' — 9th Pentagon briefing",
+    "description": "Defense Secretary Pete Hegseth and Gen. Dan Caine held 9th Pentagon briefing since war began. Hegseth: 'No one sails from the Strait of Hormuz to anywhere in the world without the permission of the United States Navy.' Stated Iran must 'abandon a nuclear weapon in meaningful and verifiable ways.' Announced 34 non-Iranian vessels allowed through, 31 turned back.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.06,
+    "location": "Pentagon, Arlington, VA",
+    "timestamp": "2026-04-24T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "ABC News — Hegseth blockade growing and going global",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-marines-uss-tripoli-seized-iranian/?id=132196152"
+      },
+      {
+        "name": "C-SPAN — Secretary Hegseth and Joint Chiefs Chair press conference",
+        "url": "https://www.c-span.org/program/news-conference/secretary-hegseth-and-joint-chiefs-chair-hold-news-conference-on-iran-conflict/677536"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hegseth", "pentagon", "blockade", "navy", "us", "hormuz", "day56"]
   }
 ]

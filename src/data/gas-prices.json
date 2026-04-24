@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-24T06:30:00Z",
-  "currentAverage": 4.03,
+  "lastUpdated": "2026-04-24T12:16:00Z",
+  "currentAverage": 4.031,
   "preWarAverage": 3.14,
-  "changePercent": 28.34,
+  "changePercent": 28.37,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -453,6 +453,12 @@
       "price": 4.04,
       "label": "Day 55 — $4.04 (+$0.018). Brent $103.38 (+29.5%), WTI $93.09. 4th straight gain. Vitol: 600-700M bbl lost. IRGC power grab. Journalist killed Lebanon. Pentagon FY27 $1.5T.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-24",
+      "price": 4.031,
+      "label": "Day 56 AM — $4.031 (flat). Brent $107.14 (+34.3%), WTI $97.40 (+29.0%). Only 5 ships transit Hormuz in 24h. Araghchi heading to Islamabad. Netanyahu cancer-free. Hegseth: blockade 'going global.' CA $5.884. OK $3.38.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -502,15 +508,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 23)",
-      "crudePerBarrel": 103.38,
+      "label": "Current (Apr 24)",
+      "crudePerBarrel": 107.14,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$103.38 ÷ 42 gal (Brent settlement)",
-          "value": 2.461,
-          "percent": 56,
-          "change": "+$0.841"
+          "formula": "$107.14 ÷ 42 gal (Brent settlement)",
+          "value": 2.551,
+          "percent": 57,
+          "change": "+$0.931"
         },
         {
           "name": "Refining",
@@ -548,18 +554,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.022,
-      "note": "National average $4.076/gal (AAA April 18). Oil settled: Brent $95.86 (+20.1%), WTI $90.79 (+20.2%). IRGC fired on Indian tankers. Sanctions waiver expired. Gas ticking down as April 17 crash filters through. CA $5.864. Diesel $5.593. EIA forecasts peak $4.30 in April.",
-      "crude": 2.152,
+      "total": 4.092,
+      "note": "National average $4.031/gal (AAA April 23). Oil: Brent $107.14 (+34.3%), WTI $97.40 (+29.0%). Only 5 ships transit Hormuz. CA $5.884. HI $5.65. WA $5.39. OK $3.38 (low). USDA: 3.1% food price rise.",
+      "crude": 2.551,
       "taxes": 0.86,
-      "refining": 0.877,
+      "refining": 0.887,
       "distribution": 0.3,
-      "regularGasoline": 4.076,
-      "changeFromPreWar": "+$0.936",
-      "changePercent": "+29.8%",
-      "lastUpdated": "2026-04-18T00:31:00Z",
-      "date": "2026-04-18"
+      "regularGasoline": 4.031,
+      "changeFromPreWar": "+$0.891",
+      "changePercent": "+28.4%",
+      "lastUpdated": "2026-04-24T12:16:00Z",
+      "date": "2026-04-24"
     }
   },
-  "context": "Day 55 Midday: Gas $4.03/gal (AAA, down 6¢ week-over-week). Brent $103.38 (+29.5%). WTI $94.46 (+25.1%). Trump orders Navy to 'shoot and kill' Iranian mine-layers in Hormuz. Bush = 3rd US carrier in theater. EIA weekly $4.178. EIA forecasts peak $4.30 in April. CA $5.88. OK $3.44 (low). Regional highs: CA $5.88, HI $5.65, WA $5.39."
+  "context": "Day 56 Morning: Gas $4.031/gal (AAA April 23, essentially flat). Brent $107.14 (+34.3%). WTI $97.40 (+29.0%). Only 5 ships transit Hormuz in 24h. Araghchi heading to Islamabad for Round 2 talks. Hegseth: blockade 'going global.' CA $5.884. HI $5.65. WA $5.39. OK $3.38 (low). USDA forecasts 3.1% food price rise in 2026."
 }
