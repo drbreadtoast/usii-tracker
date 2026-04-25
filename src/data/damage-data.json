@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-24T19:15:00Z",
+    "lastUpdated": "2026-04-25T00:01:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 402
   },
   "summary": {
-    "totalSites": 402,
-    "confirmed": 325,
+    "totalSites": 404,
+    "confirmed": 327,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6292,6 +6292,32 @@
       "sourceUrl": "https://www.cbc.ca/news/world/south-lebanon-fighting-strike-israel-hezbollah-9.7175997",
       "severity": "high",
       "attributedTo": "israel"
+    },
+    {
+      "id": "dmg-407",
+      "name": "Yater/Kafra Hezbollah Launcher Sites",
+      "country": "Lebanon",
+      "lat": 33.19,
+      "lng": 35.4,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-24",
+      "description": "IDF struck Hezbollah rocket launchers in Yater and Kafra plus buildings in Deir Aames, Khirbet Selm, and Touline in retaliation for Shtula rocket barrage.",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-884520"
+    },
+    {
+      "id": "dmg-408",
+      "name": "Bint Jbeil Fortified Quarter Building",
+      "country": "Lebanon",
+      "lat": 33.12,
+      "lng": 35.43,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-25",
+      "description": "IDF Paratroopers engaged 6 Hezbollah gunmen in Bint Jbeil fortified quarter. Building hit by tank shelling and explosive drone after K9 unit ambush.",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/amid-truce-hezbollah-attacks-idf-in-south-lebanon-troops-kill-6-gunmen-in-bint-jbeil/"
     }
   ]
 }

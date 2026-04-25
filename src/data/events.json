@@ -38545,5 +38545,305 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["uk", "starmer", "irgc", "terrorism", "diplomatic", "day56"]
+  },
+  {
+    "id": "evt-new-1159",
+    "title": "Hezbollah fires 4 rockets at Shtula — first rocket barrage since ceasefire",
+    "description": "Hezbollah fired 4 rockets at the northern Israeli border community of Shtula around 11:30 PM local time, the first rocket barrage since the ceasefire. All rockets that crossed the border were intercepted. Hezbollah said it targeted Shtula 'in response to Israeli violations of the ceasefire and Israel's targeting of the town of Yater.'",
+    "type": "strike",
+    "lat": 33.09,
+    "lng": 35.27,
+    "location": "Shtula, northern Israel",
+    "timestamp": "2026-04-23T20:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah fires rocket salvo at northern Israel shortly before ceasefire extended",
+        "url": "https://www.timesofisrael.com/hezbollah-fires-rocket-salvo-at-northern-israel-shortly-before-ceasefire-extended/"
+      },
+      {
+        "name": "Ya Libnan — Hezbollah fires rockets at northern Israel",
+        "url": "https://yalibnan.com/2026/04/24/hezbollah-fires-rockets-at-northern-israel/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hezbollah", "shtula", "rockets", "ceasefire-violation", "day56"]
+  },
+  {
+    "id": "evt-new-1160",
+    "title": "IDF retaliatory strikes on Hezbollah launchers in Yater, Kafra, and 3 other towns",
+    "description": "IDF struck Hezbollah rocket launchers in Yater and Kafra (north of the Israeli-held security zone), plus buildings in Deir Aames, Khirbet Selm, and Touline from which Hezbollah had fired. Launchers struck 'within several minutes' of Hezbollah use. Part of 6 killed per Lebanese Health Ministry across southern Lebanon on April 24-25.",
+    "type": "strike",
+    "lat": 33.19,
+    "lng": 35.40,
+    "location": "Yater, Kafra, Deir Aames, Khirbet Selm, Touline — southern Lebanon",
+    "timestamp": "2026-04-24T21:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — IDF strikes targets in Lebanon in response to Hezbollah ceasefire violations",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-884520"
+      },
+      {
+        "name": "Israel National News — IDF strikes Hezbollah rocket launchers in southern Lebanon",
+        "url": "https://www.israelnationalnews.com/flashes/684040"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 6, "injured": 2 },
+    "tags": ["idf", "yater", "kafra", "hezbollah", "retaliation", "day56"]
+  },
+  {
+    "id": "evt-new-1161",
+    "title": "IDF kills 6 Hezbollah gunmen in Bint Jbeil firefight after K9 ambush",
+    "description": "IDF Paratroopers Brigade spotted fresh food and military equipment at a building in Bint Jbeil's fortified quarter. An Oketz K9 unit dog was sent in and was shot dead by 6 Hezbollah gunmen. Within 90 minutes, all 6 gunmen were killed by light arms, tank shelling, and an explosive drone. No IDF casualties.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.43,
+    "location": "Bint Jbeil, southern Lebanon",
+    "timestamp": "2026-04-25T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Amid truce, Hezbollah attacks IDF in south Lebanon; troops kill 6 gunmen in Bint Jbeil",
+        "url": "https://www.timesofisrael.com/amid-truce-hezbollah-attacks-idf-in-south-lebanon-troops-kill-6-gunmen-in-bint-jbeil/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 6, "injured": 0 },
+    "tags": ["idf", "bint-jbeil", "hezbollah", "firefight", "k9", "day57"]
+  },
+  {
+    "id": "evt-new-1162",
+    "title": "Hezbollah targets Israeli APC in Ramyah, southern Lebanon",
+    "description": "Hezbollah said it targeted an Israeli armored personnel carrier in Ramyah, southern Lebanon, 'in response' to Israel's destruction of homes in southern Lebanon. IDF did not confirm the attack.",
+    "type": "strike",
+    "lat": 33.10,
+    "lng": 35.41,
+    "location": "Ramyah, southern Lebanon",
+    "timestamp": "2026-04-24T22:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "likely",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israel continues attacks on Lebanon despite extension of ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hezbollah", "ramyah", "anti-armor", "ceasefire-violation", "day56"]
+  },
+  {
+    "id": "evt-new-1163",
+    "title": "Trump rules out nuclear weapons against Iran; says Iran to 'make an offer'",
+    "description": "Trump emphatically stated the US will not use nuclear weapons against Iran: 'Why would I use a nuclear weapon? We've totally, in a very conventional way, decimated them without it. A nuclear weapon should never be allowed to be used by anybody.' Separately told Reuters Iran plans to 'make an offer' aimed at satisfying US demands: 'They're making an offer and we'll have to see.'",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "White House, Washington DC",
+    "timestamp": "2026-04-24T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS — Trump says he won't use nuclear weapons in Iran",
+        "url": "https://www.pbs.org/newshour/politics/watch-trump-says-he-wont-use-nuclear-weapons-in-iran"
+      },
+      {
+        "name": "US News — Iran to make offer aimed at satisfying US demands, Trump tells Reuters",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-24/iran-to-make-offer-aimed-at-satisfying-us-demands-trump-tells-reuters"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["trump", "nuclear", "diplomacy", "iran-offer", "day56"]
+  },
+  {
+    "id": "evt-new-1164",
+    "title": "Araghchi arrives in Islamabad; Iran FM spokesperson denies US talks planned",
+    "description": "Iran FM Abbas Araghchi arrived in Islamabad Friday evening with a small delegation for regional tour (Pakistan, Oman, Moscow). Received by Pakistan Deputy PM Ishaq Dar and Army Chief Field Marshal Asim Munir. However, Iran FM spokesperson Baghaei said: 'No meeting is planned to take place between Iran and the US.' Iran framed visit as bilateral consultations. Witkoff and Kushner confirmed departing Saturday for Islamabad for direct talks.",
+    "type": "diplomatic",
+    "lat": 33.6844,
+    "lng": 73.0479,
+    "location": "Islamabad, Pakistan",
+    "timestamp": "2026-04-24T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Dawn — Iranian delegation led by FM Araghchi lands in Islamabad",
+        "url": "https://www.dawn.com/news/1994680/iranian-delegation-led-by-fm-araghchi-lands-in-islamabad-us-officials-to-also-arrive-in-pakistan"
+      },
+      {
+        "name": "PressTV — Iran FM to embark on regional tour to Pakistan, Oman, Russia",
+        "url": "https://www.presstv.ir/Detail/2026/04/24/767460/Araghchi-Islamabad-Muscat-Moscow-tour"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["araghchi", "islamabad", "pakistan", "diplomacy", "talks", "day56"]
+  },
+  {
+    "id": "evt-new-1165",
+    "title": "IRGC issues 'eye for head' threat — 'fingers on trigger, target bank ready'",
+    "description": "IRGC Aerospace and Navy commanders issued a joint message: 'The bank of targets is specified, fingers are on the trigger, and our backing is the unity of the streets and the cohesion of officials.' Vowed 'eye for head' reprisal if US resumes aggression after ceasefire.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-24T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PressTV — Tehran warns US of 'eye for head' reprisal",
+        "url": "https://www.presstv.ir/Detail/2026/04/24/767455/Tehran-warns-US-of-eye-for-head-reprisal"
+      },
+      {
+        "name": "Kurdistan24 — IRGC signals end of restraint, threatens US interests",
+        "url": "https://www.kurdistan24.net/en/story/906350/irgc-signals-end-of-restraint-threatens-us-interests-and-regional-infrastructure"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["irgc", "threat", "target-bank", "iran", "day56"]
+  },
+  {
+    "id": "evt-new-1166",
+    "title": "Netanyahu accuses Hezbollah of trying to 'sabotage historic peace' with Lebanon",
+    "description": "Netanyahu released video statement accusing Hezbollah of trying to sabotage historic peace between Israel and Lebanon. Said: 'We maintain full freedom of action against any threat, including emerging ones. We attacked yesterday and we attacked today.' Stated the process to achieve 'historic peace between Israel and Lebanon' has begun. Said he had an 'excellent conversation' with Trump.",
+    "type": "diplomatic",
+    "lat": 31.7683,
+    "lng": 35.2137,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-04-25T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Netanyahu accuses Hezbollah of trying to sabotage truce",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-finally-comments-on-lebanon-ceasefire-extension-accuses-hezbollah-of-trying-to-sabotage-truce/"
+      },
+      {
+        "name": "Haaretz — Netanyahu: Hezbollah trying to derail historic peace",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-24/ty-article-live/trump-says-wont-be-rushed-to-end-iran-war-tehran-must-stop-funding-hezbollah/0000019d-bd3a-ded5-abdd-bd3ada0e0000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["netanyahu", "hezbollah", "lebanon", "peace", "ceasefire", "day57"]
+  },
+  {
+    "id": "evt-new-1167",
+    "title": "Hezbollah MP Fayyad: ceasefire is 'meaningless' — Hezbollah not party to negotiations",
+    "description": "Hezbollah MP Ali Fayyad 'firmly rejects' the Lebanon ceasefire, calling it 'meaningless in light of Israel's continued escalation of hostile actions — assassinations, bombardment, and opening fire — as well as its ongoing destructive annihilation of Lebanese border villages.' Hezbollah was not party to the ceasefire negotiations in Washington.",
+    "type": "diplomatic",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "location": "Beirut, Lebanon",
+    "timestamp": "2026-04-24T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Washington Examiner — Hezbollah lawmaker firmly rejects Israel-Lebanon ceasefire",
+        "url": "https://www.washingtonexaminer.com/news/world/4541843/hezbollah-reject-israel-lebanon-ceasefire-meaningless-ali-fayyad/"
+      },
+      {
+        "name": "Al-Monitor — Hezbollah MP ceasefire meaningless in light of Israeli attacks",
+        "url": "https://www.al-monitor.com/originals/2026/04/hezbollah-mp-ceasefire-meaningless-light-israeli-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hezbollah", "fayyad", "ceasefire", "rejected", "diplomatic", "day56"]
+  },
+  {
+    "id": "evt-new-1168",
+    "title": "China rejects Trump's 'gift from China' claim about seized Iranian ship Touska",
+    "description": "Chinese FM Guo Jiakun rejected Trump's claim that the seized M/V Touska ship was carrying a 'gift from China': 'China opposes any accusations and associations that lack a factual basis.' Stated 'Normal international trade relations between countries should not be subject to interference.' Iran's Red Crescent separately claimed the Touska carried vital kidney dialysis supplies.",
+    "type": "diplomatic",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "location": "Beijing, China",
+    "timestamp": "2026-04-24T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al-Monitor — China rejects Trump accusation intercepted Iran ship was gift from China",
+        "url": "https://www.al-monitor.com/originals/2026/04/china-rejects-trump-accusation-intercepted-iran-ship-was-gift-china"
+      },
+      {
+        "name": "US News — China rejects Trump accusation",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-24/china-rejects-trump-accusation-that-intercepted-iran-ship-was-gift-from-china"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["china", "trump", "touska", "diplomatic", "day56"]
+  },
+  {
+    "id": "evt-new-1169",
+    "title": "Wizz Air cancels planned April 25 resumption of Israel flights — extends suspension to May 4",
+    "description": "Wizz Air cancelled its planned April 25 resumption of Tel Aviv flights, extending the suspension through May 4 citing security concerns and possibility of ceasefire collapse. The airline had been one of few carriers planning to restart Israel service.",
+    "type": "infrastructure",
+    "lat": 32.0055,
+    "lng": 34.8854,
+    "location": "Ben Gurion Airport, Tel Aviv, Israel",
+    "timestamp": "2026-04-25T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Globes — Wizz Air cancels restoration of Israel flights",
+        "url": "https://en.globes.co.il/en/article-wizz-air-cancels-restoration-of-israel-flights-1001540044"
+      },
+      {
+        "name": "Ynet — Wizz Air walks back plan to resume Israel flights",
+        "url": "https://www.ynetnews.com/travel/article/hjikwpinzl"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["wizz-air", "aviation", "tel-aviv", "infrastructure", "day57"]
+  },
+  {
+    "id": "evt-new-1170",
+    "title": "6 killed in Israeli strikes across southern Lebanon on Day 57 — ceasefire violations continue",
+    "description": "Israeli strikes across southern Lebanon killed at least 6 people and injured 2 more on April 25 (Day 57), per Lebanese Health Ministry. This is in addition to the 2 killed in Touline the previous day. Over 30 Hezbollah operatives killed and hundreds of Hezbollah sites destroyed since ceasefire took effect April 17, per IDF cumulative statement.",
+    "type": "strike",
+    "lat": 33.20,
+    "lng": 35.42,
+    "location": "Southern Lebanon — multiple locations",
+    "timestamp": "2026-04-25T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israel continues attacks on Lebanon despite extension of ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 6, "injured": 2 },
+    "tags": ["lebanon", "strikes", "casualties", "ceasefire-violation", "day57"]
   }
 ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-24T19:15:00Z",
+    "lastUpdated": "2026-04-25T00:01:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 56
+    "conflictDay": 57
   },
   "oilPrices": {
     "preWar": {
@@ -76,16 +76,16 @@
       "date": "2026-04-24",
       "label": "Day 56 Midday PT — Brent $104.63 (+31.1% from pre-war $79.80), WTI $93.90 (+24.4% from $75.50). Pullback from morning high $107.14 as Witkoff/Kushner confirmed for Saturday Pakistan talks with Araghchi. WTI lost ~2% on session. Intraday Brent high: $106.80. Gas $4.05 AAA (-6¢ WoW).",
       "brent": {
-        "price": 104.63,
-        "change": "+31.1%",
-        "changeDollars": 24.83
+        "price": 104.5,
+        "change": "+31.0%",
+        "changeDollars": "+$24.70"
       },
       "wti": {
-        "price": 93.90,
-        "change": "+24.4%",
-        "changeDollars": 18.40
+        "price": 94.65,
+        "change": "+25.4%",
+        "changeDollars": "+$19.15"
       },
-      "changePercent": "+27.8%",
+      "changePercent": 31.0,
       "lastUpdated": "2026-04-24"
     },
     "priceHistory": [
@@ -440,6 +440,13 @@
         "wti": 92.5,
         "label": "Day 51 AM — Brent surges $97.68 (+22.4%), WTI ~$92.50. Iran sanctions waiver EXPIRED. Russian waiver renewed to May 16. Ghalibaf: 'far from deal.' IDF first strikes on Hezbollah since ceasefire. Gas $4.076.",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-25",
+        "brent": 104.5,
+        "wti": 94.65,
+        "label": "Day 57 PM — Brent $104.50 (+30.9%), WTI $94.65 (+25.4%). Friday pullback on Iran Hormuz 'open' signal ahead of Pakistan talks. Hezbollah fires rockets at Shtula. IDF kills 6 in Bint Jbeil. Trump rules out nukes. IRGC 'eye for head' threat. Araghchi in Islamabad. Gas $4.03 AAA. 34 ships redirected by CENTCOM.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -636,14 +643,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.05,
-          "change": "+29.0%",
-          "changeDollars": "+$0.91",
+          "price": 4.03,
+          "change": "+28.3%",
+          "changeDollars": "+$0.89",
           "date": "2026-04-24"
         },
-        "change": "+$0.91",
-        "changePercent": "+29.0%",
-        "detail": "Gas $4.05/gal (AAA, April 24 — down 6¢ WoW from $4.11). Brent $104.63 (+31.0%), WTI $93.90 (+24.4%). Pre-war $3.14. CA $5.884. OK $3.38 (low).",
+        "change": "+$0.89",
+        "changePercent": "+28.3%",
+        "detail": "Gas $4.03/gal (AAA, April 25 — down 6¢ WoW from $4.09). Brent $104.50 (+31.0%), WTI $94.65 (+25.4%). Pre-war $3.14. CA $5.83. OK $3.38 (low).",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -721,11 +728,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.05,
-    "gasPriceRegular": 4.05,
+    "regularGasoline": 4.03,
+    "gasPriceRegular": 4.03,
     "gasPriceDiesel": "$5.643/gal",
-    "changeFromPreWar": "+$0.91",
-    "changePercent": "+29.0%"
+    "changeFromPreWar": "+$0.89",
+    "changePercent": "+28.3%"
   },
   "keyFacts": [
     {
@@ -1108,7 +1115,7 @@
     {
       "date": "2026-04-24",
       "brent": 107.14,
-      "wti": 97.40,
+      "wti": 97.4,
       "label": "Day 56 AM — Brent $107.14 (+34.3%), WTI $97.40 (+29.0%). Only 5 ships transit Hormuz in 24h. Iran parliament speaker resigns from negotiating team. Araghchi heading to Islamabad for Round 2 talks. Netanyahu reveals cancer — declared cancer-free. Hegseth: blockade 'going global.' IDF drone shot down over Tyre. IDF kills Hezbollah operative. Gas $4.031.",
       "isEvent": true
     }

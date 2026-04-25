@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-24T19:15:00Z",
-  "currentAverage": 4.05,
+  "lastUpdated": "2026-04-25T00:01:00Z",
+  "currentAverage": 4.03,
   "preWarAverage": 3.14,
-  "changePercent": 28.98,
+  "changePercent": 28.34,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -459,6 +459,12 @@
       "price": 4.05,
       "label": "Day 56 MIDDAY — $4.05 AAA (-6¢ WoW from $4.11). Brent pulls back to $104.63 (+31.0%), WTI $93.90 (+24.4%). Witkoff/Kushner fly to Pakistan Saturday for Round 2. Touline airstrike kills 2. Hegseth: Iran war 'gift to world.' Pope Leo won't endorse war. Kallas warns deal without experts = more dangerous Iran.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-25",
+      "price": 4.03,
+      "label": "Day 57 — Gas $4.03 AAA (down 6¢ WoW from $4.09). Brent $104.50 (+30.9%). WTI $94.65 (+25.4%). CA $5.83. OK $3.38.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -554,18 +560,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.05,
-      "note": "National average $4.05/gal (AAA April 24 — down 6¢ WoW from $4.11). Oil pullback: Brent $104.63 (+31.0%), WTI $93.90 (+24.4%). Markets pricing in Witkoff/Kushner Saturday Pakistan talks. CA $5.884. HI $5.65. WA $5.39. OK $3.38 (low). USDA: 3.1% food price rise.",
-      "crude": 2.491,
+      "total": 4.03,
+      "note": "National average $4.03/gal (AAA April 25 — down 6¢ WoW from $4.09). Oil pullback: Brent $104.50 (+30.9%), WTI $94.65 (+25.4%). Friday pullback on Iran Hormuz 'open' signal. CA $5.83. HI $5.65. WA $5.39. OK $3.38 (low). USDA: 3.1% food price rise.",
+      "crude": 2.471,
       "taxes": 0.534,
-      "refining": 0.897,
+      "refining": 0.887,
       "distribution": 0.308,
-      "regularGasoline": 4.05,
-      "changeFromPreWar": "+$0.91",
-      "changePercent": "+29.0%",
-      "lastUpdated": "2026-04-24T19:15:00Z",
-      "date": "2026-04-24"
+      "regularGasoline": 4.03,
+      "changeFromPreWar": "+$0.89",
+      "changePercent": "+28.3%",
+      "lastUpdated": "2026-04-25T00:01:00Z",
+      "date": "2026-04-25"
     }
   },
-  "context": "Day 56 Morning: Gas $4.031/gal (AAA April 23, essentially flat). Brent $107.14 (+34.3%). WTI $97.40 (+29.0%). Only 5 ships transit Hormuz in 24h. Araghchi heading to Islamabad for Round 2 talks. Hegseth: blockade 'going global.' CA $5.884. HI $5.65. WA $5.39. OK $3.38 (low). USDA forecasts 3.1% food price rise in 2026."
+  "context": "Day 57 PM: Gas $4.03/gal (AAA April 25, -6¢ WoW). Brent $104.50 (+30.9%). WTI $94.65 (+25.4%). Friday pullback on Iran Hormuz 'open' signal. Witkoff/Kushner depart Saturday for Islamabad. Hezbollah fires rockets at Shtula. IDF kills 6 in Bint Jbeil. Trump rules out nukes. CA $5.83. HI $5.65. WA $5.39. OK $3.38 (low). USDA forecasts 3.1% food price rise in 2026."
 }
