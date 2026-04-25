@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T00:01:00Z",
+  "lastUpdated": "2026-04-25T06:15:00Z",
   "currentAverage": 4.03,
   "preWarAverage": 3.14,
   "changePercent": 28.34,
@@ -514,15 +514,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 24 midday)",
-      "crudePerBarrel": 104.63,
+      "label": "Current (Apr 25 settlement)",
+      "crudePerBarrel": 105.33,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$104.63 ÷ 42 gal (Brent settlement)",
-          "value": 2.491,
+          "formula": "$105.33 ÷ 42 gal (Brent settlement)",
+          "value": 2.508,
           "percent": 57,
-          "change": "+$0.871"
+          "change": "+$0.888"
         },
         {
           "name": "Refining",
@@ -561,17 +561,17 @@
         }
       ],
       "total": 4.03,
-      "note": "National average $4.03/gal (AAA April 25 — down 6¢ WoW from $4.09). Oil pullback: Brent $104.50 (+30.9%), WTI $94.65 (+25.4%). Friday pullback on Iran Hormuz 'open' signal. CA $5.83. HI $5.65. WA $5.39. OK $3.38 (low). USDA: 3.1% food price rise.",
-      "crude": 2.471,
+      "note": "National average $4.031/gal (AAA April 25 — down 6¢ WoW from $4.09). Oil: Brent settles $105.33 (+31.9%), WTI $94.40 (+25.0%). Best week since early March (~14% gain). OFAC $344M crypto freeze. Hengli + 40 ships sanctioned. CA $5.83. HI $5.65. WA $5.39. OK $3.38 (low).",
+      "crude": 2.508,
       "taxes": 0.534,
       "refining": 0.887,
       "distribution": 0.308,
       "regularGasoline": 4.03,
       "changeFromPreWar": "+$0.89",
       "changePercent": "+28.3%",
-      "lastUpdated": "2026-04-25T00:01:00Z",
+      "lastUpdated": "2026-04-25T06:15:00Z",
       "date": "2026-04-25"
     }
   },
-  "context": "Day 57 PM: Gas $4.03/gal (AAA April 25, -6¢ WoW). Brent $104.50 (+30.9%). WTI $94.65 (+25.4%). Friday pullback on Iran Hormuz 'open' signal. Witkoff/Kushner depart Saturday for Islamabad. Hezbollah fires rockets at Shtula. IDF kills 6 in Bint Jbeil. Trump rules out nukes. CA $5.83. HI $5.65. WA $5.39. OK $3.38 (low). USDA forecasts 3.1% food price rise in 2026."
+  "context": "Day 57 Late: Gas $4.031/gal (AAA April 25, -6¢ WoW). Brent settles $105.33 (+31.9%). WTI $94.40 (+25.0%). Best week (~14% gain) since early March. OFAC freezes $344M IRGC/Hezbollah crypto. Hengli Petrochemical + 40 ships sanctioned. Bessent: no oil waivers, Iran 'shuttering in days.' Iran resumes flights. CSIS: 50% Patriot interceptors used. CA $5.83. OK $3.38 (low). USDA: 3.1% food price rise."
 }

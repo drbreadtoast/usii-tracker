@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-25T00:01:00Z",
+    "lastUpdated": "2026-04-25T06:15:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-24",
-      "label": "Day 56 Midday PT — Brent $104.63 (+31.1% from pre-war $79.80), WTI $93.90 (+24.4% from $75.50). Pullback from morning high $107.14 as Witkoff/Kushner confirmed for Saturday Pakistan talks with Araghchi. WTI lost ~2% on session. Intraday Brent high: $106.80. Gas $4.05 AAA (-6¢ WoW).",
+      "date": "2026-04-25",
+      "label": "Day 57 Late PT — Brent settles $105.33 (+31.9% from pre-war $79.84), WTI $94.40 (+25.0% from $75.51). Best weekly gain (~14%) since early March. WTI down >1% on session as Pakistan Round 2 optimism grows. OFAC froze $344M IRGC/Hezbollah crypto. Hengli Petrochemical + 40 ships sanctioned. Bessent: no oil waivers, Iran 'shuttering production in days.' Gas $4.031 AAA (-6¢ WoW).",
       "brent": {
-        "price": 104.5,
-        "change": "+31.0%",
-        "changeDollars": "+$24.70"
+        "price": 105.33,
+        "change": "+32.0%",
+        "changeDollars": "+$25.53"
       },
       "wti": {
-        "price": 94.65,
-        "change": "+25.4%",
-        "changeDollars": "+$19.15"
+        "price": 94.40,
+        "change": "+25.0%",
+        "changeDollars": "+$18.89"
       },
-      "changePercent": 31.0,
-      "lastUpdated": "2026-04-24"
+      "changePercent": 32.0,
+      "lastUpdated": "2026-04-25"
     },
     "priceHistory": [
       {
@@ -1117,6 +1117,13 @@
       "brent": 107.14,
       "wti": 97.4,
       "label": "Day 56 AM — Brent $107.14 (+34.3%), WTI $97.40 (+29.0%). Only 5 ships transit Hormuz in 24h. Iran parliament speaker resigns from negotiating team. Araghchi heading to Islamabad for Round 2 talks. Netanyahu reveals cancer — declared cancer-free. Hegseth: blockade 'going global.' IDF drone shot down over Tyre. IDF kills Hezbollah operative. Gas $4.031.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-25",
+      "brent": 105.33,
+      "wti": 94.4,
+      "label": "Day 57 Late — Brent settles $105.33 (+31.9%), WTI $94.40 (+25.0%). Best weekly gain (~14%) since early March. OFAC freezes $344M IRGC/Hezbollah crypto. Hengli Petrochemical + 40 ships sanctioned. Bessent: no oil waivers, Iran 'shuttering in days.' Iran resumes international flights. CSIS: $24B munitions, 50% Patriot interceptors used. Baker Hughes: Hormuz not open until H2 2026. Gas $4.031.",
       "isEvent": true
     }
   ]

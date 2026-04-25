@@ -35,11 +35,11 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-04-25T00:01:00Z",
+    "lastUpdated": "2026-04-25T06:15:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 57,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 56
+    "conflictDay": 57
   },
   "countryCosts": {
     "us": {
@@ -51,9 +51,9 @@
         "breakdown": {
           "munitionsExpended": {
             "amount": 14200000000,
-            "description": "Tomahawk cruise missiles (950+ used at $2M each = $1.9B — approaching Winchester), JASSM-ER, GBU-57 MOPs, precision-guided munitions, Merops interceptor drones. Day 43: DOE 30M barrel SPR exchange. Pentagon supplemental slashed to $80-100B. $22B munitions procurement requested (+387%).",
-            "source": "DoD Comptroller / CRS Precision-Guided Munitions Report",
-            "sourceUrl": "https://crsreports.congress.gov/product/pdf/IF/IF11658"
+            "description": "CSIS April 24: $24B in munitions expended in 7 weeks. 45% Precision Strike Missiles used. 50% THAAD interceptors depleted. ~50% Patriot interceptors fired (1,060-1,430 of 2,330). 1,000+ JASSM-ER. 1,000+ Tomahawks ($2M each). Restocking: 1-4 years. Pentagon FY27 $1.5T (war costs NOT included). $22B munitions procurement requested (+387%).",
+            "source": "CSIS — Last Rounds: Status of Key Munitions in Iran War (April 24)",
+            "sourceUrl": "https://www.csis.org/analysis/last-rounds-status-key-munitions-iran-war-ceasefire"
           },
           "navalOperations": {
             "amount": 9500000000,
@@ -102,10 +102,10 @@
       "totalFormatted": "$84.6B",
       "total": 84600000000,
       "lastUpdated": "2026-04-24T12:16:00Z",
-      "note": "Day 56: $47B direct + $37.6B indirect = ~$84.6B total. CENTCOM blockade Day 12 — 33+ vessels redirected. M/T Majestic X seized (3rd tanker). USS Bush = 3rd carrier. Katz: 'return Iran to Stone Age.' Senate War Powers defeated 46-51. IEA: 'biggest energy crisis.' UNDP: 30M+ into poverty. Pentagon NATO memo targets Spain. Brent $105.73 (+32.5%). Gas $4.03. 13 KIA, 413 WIA.",
+      "note": "Day 57 Late: $47B direct + $37.6B indirect = ~$84.6B total. CSIS: $24B munitions in 7 weeks, 50% Patriot interceptors used. OFAC froze $344M IRGC/Hezbollah crypto. Hengli + 40 ships sanctioned. Bessent: no oil waivers. Blockade Day 13 — 34 vessels redirected. 3 carriers. Brent $105.33 (+31.9%). Gas $4.031. 13 KIA, 413 WIA.",
       "totalNote": "CSIS estimate through Day 12: $16.5B. CAP estimate through Day 26: ~$25B. Penn Wharton: $40B-$95B total (likely ~$65B for under 2 months). Trump admin now seeking $80-100B supplemental (down from $200B+).",
       "directMilitary": 47000000000,
-      "description": "US direct military costs ~$47B (Day 56). Indirect costs ~$37.6B. Total ~$84.6B. Daily burn rate ~$1B/day. CENTCOM blockade Day 12 — 33+ vessels redirected, 3 tankers seized. USS Bush 3rd carrier. FDD: $91B damage to Iran. Pentagon FY27 $1.5T. War costs NOT in FY27 budget. Brent $105.73. Gas $4.03. 13 KIA, 413 WIA.",
+      "description": "US direct military costs ~$47B (Day 57). Indirect costs ~$37.6B. Total ~$84.6B. CSIS: $24B munitions in 7 weeks, 50% Patriot/THAAD depleted. OFAC: $344M crypto freeze. Hengli + 40 ships sanctioned. Bessent: no oil waivers. Blockade Day 13. Brent $105.33. Gas $4.031. 13 KIA, 413 WIA.",
       "totalDirect": 47000000000,
       "dailyBurnRateFormatted": "$1B/day"
     },
