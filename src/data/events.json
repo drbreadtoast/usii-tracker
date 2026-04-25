@@ -38949,5 +38949,83 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["iran", "aviation", "flights", "deescalation", "ceasefire", "day57"]
+  },
+  {
+    "id": "evt-new-1175",
+    "title": "USS Rafael Peralta intercepts Iranian-flagged vessel attempting to reach Iranian port",
+    "description": "US guided-missile destroyer USS Rafael Peralta (DDG-115) intercepted and blocked an Iranian-flagged vessel attempting to sail to an Iranian port, as part of the ongoing US naval blockade. CENTCOM published photos of the interception. Total blockade redirections now stand at 34 vessels since April 13.",
+    "type": "naval",
+    "lat": 26.50,
+    "lng": 56.30,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-04-25T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "ANI News — USS Rafael Peralta intercepts Iranian-flagged ship",
+        "url": "https://aninews.in/news/world/us/us-guided-missile-destroyer-uss-rafael-peralta-intercepts-iranian-flagged-ship-centcom20260425081522/"
+      },
+      {
+        "name": "Xinhua — US destroyer intercepts Iranian-flagged vessel in Hormuz",
+        "url": "https://english.news.cn/northamerica/20260425/2b8d16c9899445558510e073e98ea701/c.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["naval", "blockade", "hormuz", "centcom", "rafael-peralta", "day57"]
+  },
+  {
+    "id": "evt-new-1176",
+    "title": "US-sanctioned supertanker 'Yuri' halts Hormuz transit near Larak Island",
+    "description": "A US-sanctioned supertanker 'Yuri' carrying 2 million barrels of Iranian crude loaded from Kharg Island halted its transit through the Strait of Hormuz near Larak Island on Friday, apparently deterred by the US naval blockade. The halt underscores the near-total standstill in Hormuz shipping traffic.",
+    "type": "naval",
+    "lat": 26.87,
+    "lng": 56.35,
+    "location": "Larak Island, Strait of Hormuz",
+    "timestamp": "2026-04-25T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Bloomberg — US-sanctioned supertanker with Iranian oil tries Hormuz transit",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-24/us-sanctioned-supertanker-with-iranian-oil-tries-hormuz-transit"
+      },
+      {
+        "name": "World Oil — Iran-linked supertanker halts in Hormuz as US blockade tightens",
+        "url": "https://worldoil.com/news/2026/4/24/iran-linked-supertanker-halts-in-hormuz-as-u-s-blockade-tightens/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["naval", "blockade", "hormuz", "supertanker", "yuri", "oil", "day57"]
+  },
+  {
+    "id": "evt-new-1177",
+    "title": "CISA/FBI/NSA joint advisory: Iranian APT attacking US water, energy, and government sectors",
+    "description": "Joint CISA/FBI/NSA advisory warns that an Iranian-affiliated APT group has been exploiting programmable logic controllers (PLCs) across US Water/Wastewater, Energy, and Government sectors since March 2026. Some victims experienced operational disruption and financial loss. Pro-Iranian group Ababil of Minab also claimed hack on LA Metro.",
+    "type": "cyber",
+    "lat": 38.88,
+    "lng": -77.02,
+    "location": "Washington, D.C., United States",
+    "timestamp": "2026-04-25T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CISA — Advisory on Iranian APT exploiting PLCs",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a"
+      },
+      {
+        "name": "Defense One — Iran hackers increasing cyberattacks on infrastructure",
+        "url": "https://www.defenseone.com/threats/2026/04/iran-hackers-infrastructure-cyberattacks/412941/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["cyber", "iran", "cisa", "infrastructure", "hacking", "plc", "day57"]
   }
 ]
