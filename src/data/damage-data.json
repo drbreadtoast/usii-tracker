@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-26T00:06:00Z",
+    "lastUpdated": "2026-04-26T06:02:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 404
+    "totalSites": 406
   },
   "summary": {
-    "totalSites": 406,
+    "totalSites": 408,
     "confirmed": 329,
     "reported": 1,
     "rumored": 0,
@@ -6344,6 +6344,32 @@
       "description": "Two Kuwaiti northern border posts struck by fiber-optic-guided explosive drones launched from Iraq. Material damage reported. First attack on Kuwait since war began. No casualties.",
       "source": "Al Arabiya",
       "sourceUrl": "https://english.alarabiya.net/News/gulf/2026/04/25/kuwait-says-drones-coming-from-iraq-target-border-posts"
+    },
+    {
+      "id": "dmg-411",
+      "name": "Yahmar al-Shaqif, Nabatieh district",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.52,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-25",
+      "description": "Israeli airstrike killed 4 in Yahmar al-Shaqif (Nabatieh district). Part of Netanyahu-ordered escalation after Hezbollah ceasefire violations.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/25/israeli-strikes-kill-four-in-southern-lebanon"
+    },
+    {
+      "id": "dmg-412",
+      "name": "Safad al-Batikh, Bint Jbeil district",
+      "country": "Lebanon",
+      "lat": 33.15,
+      "lng": 35.45,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-25",
+      "description": "Israeli airstrike killed 2 and wounded 17 in Safad al-Batikh (Bint Jbeil district). Deadliest strike since ceasefire extension.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/25/israeli-strikes-kill-four-in-southern-lebanon"
     }
   ]
 }
