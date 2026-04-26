@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-26T06:02:00Z",
+    "lastUpdated": "2026-04-26T12:03:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 406
+    "totalSites": 408
   },
   "summary": {
-    "totalSites": 408,
-    "confirmed": 329,
+    "totalSites": 410,
+    "confirmed": 331,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6370,6 +6370,32 @@
       "description": "Israeli airstrike killed 2 and wounded 17 in Safad al-Batikh (Bint Jbeil district). Deadliest strike since ceasefire extension.",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/4/25/israeli-strikes-kill-four-in-southern-lebanon"
+    },
+    {
+      "id": "dmg-413",
+      "name": "Yohmor al-Shaqif Saturday strikes",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.55,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-26",
+      "description": "Two IDF air raids struck a truck and motorbike in Yohmor al-Shaqif, killing 4. Saturday strikes continued despite ceasefire extension.",
+      "source": "The New Arab",
+      "sourceUrl": "https://www.newarab.com/news/six-killed-israeli-strikes-south-lebanon"
+    },
+    {
+      "id": "dmg-414",
+      "name": "Khiam controlled explosion / Debel infrastructure",
+      "country": "Lebanon",
+      "lat": 33.29,
+      "lng": 35.59,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-04-26",
+      "description": "IDF carried out controlled explosion in Khiam. Also dismantled solar panels and damaged municipal vehicles in border town of Debel.",
+      "source": "ANI News",
+      "sourceUrl": "https://aninews.in/news/world/middle-east/israel-launches-new-strike-in-lebanons-khiam-yohmor-al-shaqif-amid-ceasefire-extension20260426042853/"
     }
   ]
 }

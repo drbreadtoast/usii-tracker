@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-26T00:06:00Z",
-  "currentAverage": 4.03,
+  "lastUpdated": "2026-04-26T12:03:00Z",
+  "currentAverage": 4.099,
   "preWarAverage": 3.14,
-  "changePercent": 28.34,
+  "changePercent": 30.54,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -471,6 +471,12 @@
       "price": 4.03,
       "label": "Day 57 PM — Gas $4.03 AAA flat midday. Brent ~$105.50 (+32.1%), WTI ~$94.50 (+25.1%). Trump cancels Witkoff/Kushner Pakistan trip on Truth Social: 'we have all the cards.' Iran sent revised paper but 'still not adequate.'",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-26",
+      "price": 4.099,
+      "label": "Day 58 AM — Gas $4.099 AAA (+30.5% from pre-war $3.14). Markets closed (Saturday). Brent $104.40 (+30.8%), WTI $94.70 (+25.4%) Friday close. Araghchi meets Sultan Haitham in Oman. IDF kills 6 in Lebanon Saturday. Houthis hit Andromeda Star. Kharg storage critical. US crude arrives Japan (910K bbl). War Powers May 1 (5 days).",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -520,29 +526,29 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 25 midday)",
-      "crudePerBarrel": 105.50,
+      "label": "Current (Apr 26 AM)",
+      "crudePerBarrel": 104.40,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$105.50 ÷ 42 gal (Brent settlement)",
-          "value": 2.512,
-          "percent": 57,
-          "change": "+$0.892"
+          "formula": "$104.40 ÷ 42 gal (Brent Fri close)",
+          "value": 2.486,
+          "percent": 56,
+          "change": "+$0.866"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.897,
-          "percent": 22,
-          "change": "+$0.497"
+          "value": 0.672,
+          "percent": 16,
+          "change": "+$0.272"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
-          "value": 0.308,
+          "value": 0.288,
           "percent": 7,
-          "change": "+$0.158"
+          "change": "+$0.138"
         },
         {
           "name": "Federal Excise Tax",
@@ -566,18 +572,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.03,
-      "note": "National average $4.03/gal (AAA April 25 — down 6¢ WoW from $4.09). Oil Friday close: Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). Best week ~14%. Araghchi left Pakistan for Oman. NBC: Iran base damage far worse than admitted. Kuwait border drones from Iraq. Hengli + 40 ships sanctioned. War Powers May 1 deadline. CA $5.83. HI $5.65. WA $5.39. OK $3.38 (low).",
-      "crude": 2.512,
+      "total": 4.099,
+      "note": "National average $4.099/gal (AAA April 26). Oil Friday close: Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). Markets closed (Saturday). Araghchi meets Sultan Haitham in Oman. Trump: revised proposal 'not enough.' IDF kills 6 in Lebanon. Houthis hit Andromeda Star. Kharg storage critical. US crude arrives Japan. War Powers May 1 (5 days). CA $5.85. OK $3.40 (low).",
+      "crude": 2.486,
       "taxes": 0.534,
-      "refining": 0.887,
-      "distribution": 0.308,
-      "regularGasoline": 4.03,
-      "changeFromPreWar": "+$0.89",
-      "changePercent": "+28.3%",
-      "lastUpdated": "2026-04-25T19:12:00Z",
-      "date": "2026-04-25"
+      "refining": 0.672,
+      "distribution": 0.288,
+      "regularGasoline": 4.099,
+      "changeFromPreWar": "+$0.959",
+      "changePercent": "+30.5%",
+      "lastUpdated": "2026-04-26T12:03:00Z",
+      "date": "2026-04-26"
     }
   },
-  "context": "Day 58 Late (weekend): Gas $4.03/gal (AAA April 25, flat). Brent $104.40 (+30.8%). WTI $94.70 (+25.4%). Markets closed. S&P 7,165.8 + Nasdaq 24,837 records. Gold $4,741. Pezeshkian rejects talks under pressure. IDF kills 9 in Lebanon overnight. HMS Diamond intercepts Houthi ASBM. USS Pinckney intercepts M/V Sevan — 37 ships redirected. Hegseth: war 'gift to the world.' War Powers May 1. CA $5.83. OK $3.38."
+  "context": "Day 58 AM PT (Saturday): Gas $4.099/gal (AAA April 26, +30.5%). Brent $104.40 (+30.8%). WTI $94.70 (+25.4%). Markets closed. Araghchi meets Sultan Haitham in Oman — first Gulf visit since war. Trump: revised proposal 'not enough,' talks by phone. IDF kills 6 more in Lebanon. Houthis hit Andromeda Star oil tanker. Kharg Island storage at critical capacity. First US crude arrives Japan (910K bbl). War Powers May 1 (5 days). CA $5.85. OK $3.40."
 }
