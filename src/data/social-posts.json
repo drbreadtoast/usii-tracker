@@ -8,7 +8,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "The National, PressTV, Muscat Daily. Confirmed.",
-    "keywords": ["araghchi", "oman", "sultan-haitham", "diplomacy", "mediation", "day58"]
+    "keywords": [
+      "araghchi",
+      "oman",
+      "sultan-haitham",
+      "diplomacy",
+      "mediation",
+      "day58"
+    ]
   },
   {
     "id": "social-1017",
@@ -19,7 +26,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "UKMTO via gCaptain, Frontier Post. Confirmed.",
-    "keywords": ["houthi", "red-sea", "andromeda-star", "asbm", "maritime", "day58"]
+    "keywords": [
+      "houthi",
+      "red-sea",
+      "andromeda-star",
+      "asbm",
+      "maritime",
+      "day58"
+    ]
   },
   {
     "id": "social-1018",
@@ -30,7 +44,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "likely",
     "verificationNote": "Gulf News, Yahoo/Benzinga, FDD analysis. Timing disputed by MEES.",
-    "keywords": ["kharg-island", "oil-storage", "blockade", "nasha", "vlcc", "day58"]
+    "keywords": [
+      "kharg-island",
+      "oil-storage",
+      "blockade",
+      "nasha",
+      "vlcc",
+      "day58"
+    ]
   },
   {
     "id": "social-1019",
@@ -41,7 +62,14 @@
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
     "verificationNote": "Nippon.com, Japan Times. Confirmed.",
-    "keywords": ["japan", "us-crude", "oil", "panama-canal", "reserves", "day58"]
+    "keywords": [
+      "japan",
+      "us-crude",
+      "oil",
+      "panama-canal",
+      "reserves",
+      "day58"
+    ]
   },
   {
     "id": "social-1020",
@@ -52,7 +80,14 @@
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
     "verificationNote": "The Hill, CNBC, Just Security. Confirmed.",
-    "keywords": ["trump", "diplomacy", "proposal", "war-powers", "legal-memo", "day58"]
+    "keywords": [
+      "trump",
+      "diplomacy",
+      "proposal",
+      "war-powers",
+      "legal-memo",
+      "day58"
+    ]
   },
   {
     "id": "social-1021",
@@ -63,7 +98,16 @@
     "sourceCategory": "lead",
     "verificationStatus": "confirmed",
     "verificationNote": "AAA, TradingEconomics, New Arab, gCaptain, The National, Al Jazeera. All verified.",
-    "keywords": ["roundup", "day58-am", "oil", "gas", "lebanon", "houthi", "araghchi", "kharg"]
+    "keywords": [
+      "roundup",
+      "day58-am",
+      "oil",
+      "gas",
+      "lebanon",
+      "houthi",
+      "araghchi",
+      "kharg"
+    ]
   },
   {
     "id": "social-1010",
@@ -181,255 +225,6 @@
     ]
   },
   {
-    "id": "social-991",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender — OSINT Analyst",
-    "text": "NAVAL UPDATE: USS Rafael Peralta (DDG-115) intercepted Iranian-flagged vessel — CENTCOM now at 34 redirections since April 13 blockade. US-sanctioned supertanker 'Yuri' carrying 2M barrels of Iranian crude from Kharg halted near Larak Island — deterred by blockade. 3 carriers in theater: Ford (Red Sea), Lincoln (Arabian Sea), Bush (Indian Ocean). First 3-carrier Middle East deployment since 2003.",
-    "timestamp": "2026-04-25T12:20:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ANI News, Xinhua, CENTCOM photos. Bloomberg/World Oil (Yuri). Breaking Defense (3 carriers).",
-    "keywords": [
-      "naval",
-      "blockade",
-      "rafael-peralta",
-      "yuri",
-      "supertanker",
-      "hormuz",
-      "carriers",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-992",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "CYBER FRONT OPENS: Joint CISA/FBI/NSA advisory confirms Iranian APT exploiting PLCs across US water, energy, and government sectors since March. Pro-Iran Ababil of Minab claimed LA Metro hack. This is the first systematic Iranian cyber campaign against US homeland infrastructure since the war began. 60+ hacktivist groups now active.",
-    "timestamp": "2026-04-25T12:22:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CISA advisory AA26-097a. Defense One confirmed. LA Metro hack from multiple sources.",
-    "keywords": [
-      "cyber",
-      "cisa",
-      "iran",
-      "infrastructure",
-      "hacking",
-      "plc",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-993",
-    "handle": "@DiplomaticPulse",
-    "displayName": "Diplomatic Pulse",
-    "text": "ISLAMABAD ROUND 2 STALLING: Araghchi meeting Pakistani PM Sharif, Army Chief Munir, FM Dar but EXPLICITLY ruling out any direct talks with US. Iran FM spokesperson: 'No meeting planned with US.' Iran Defense Ministry: US 'looking for face-saving exit.' Witkoff/Kushner departure reportedly pushed to Sunday. Gap between sides widening, not narrowing.",
-    "timestamp": "2026-04-25T12:24:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Euronews, Al Jazeera liveblog, CNBC, NPR, Times of Israel liveblog. All confirmed.",
-    "keywords": [
-      "diplomacy",
-      "araghchi",
-      "islamabad",
-      "witkoff",
-      "kushner",
-      "indirect-talks",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-994",
-    "handle": "@EconWarfare",
-    "displayName": "Economic Warfare Analyst",
-    "text": "IRAN ECONOMY COLLAPSING: IMF projects -6.1% GDP contraction, 68.9% inflation, 2M jobs lost since February. Bessent: Iran must 'shutter production in 2-3 days' as Kharg Island storage nears capacity. $344M crypto frozen. Hengli (China's biggest Iran customer) sanctioned. Combined all-countries war cost: $177B. Harvard: 'certain' to hit $1T over decade.",
-    "timestamp": "2026-04-25T12:26:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC (Iran economy charts), The National (IMF data), CNN (crypto), Treasury.gov (Hengli), CNBC (Harvard $1T).",
-    "keywords": [
-      "iran",
-      "economy",
-      "imf",
-      "inflation",
-      "gdp",
-      "sanctions",
-      "costs",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-995",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News — OSINT",
-    "text": "AI DISINFORMATION CRISIS: NewsGuard tracked fabricated war visuals with 21.9M+ views on X alone. Pro-Iran AI video of 'Iranian plane confronting US ship' got 7M+ views. AI verification tools mislabeling real videos as fake AND fake as real. Called 'the first AI war.' Meanwhile Mojtaba Khamenei still unseen — ruling via handwritten notes passed by motorcycle couriers per NYT.",
-    "timestamp": "2026-04-25T12:28:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Poynter (AI disinformation), Israel Hayom/NYT (Mojtaba injuries), TIME (power structure).",
-    "keywords": [
-      "ai",
-      "disinformation",
-      "mojtaba",
-      "khamenei",
-      "injuries",
-      "propaganda",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-996",
-    "handle": "@Global_Flttrckr",
-    "displayName": "Global Fleet Tracker",
-    "text": "DAY 57 AM REFRESH: USS Rafael Peralta intercepts Iranian vessel — 34 redirected. Supertanker Yuri (2M bbl) halts at Larak. CISA: Iranian APT hitting US water/energy. Araghchi in Islamabad — no direct US talks. Witkoff/Kushner delayed to Sunday. Hegseth: NATO 'free-riding over.' Gold $4,710-4,741. Brent $105.33. S&P 7,165 record. Gas $4.031.",
-    "timestamp": "2026-04-25T12:30:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ANI/CENTCOM, Bloomberg, CISA, Euronews, Washington Times, Sunday Guardian, AAA. All verified.",
-    "keywords": [
-      "roundup",
-      "day57-am",
-      "naval",
-      "cyber",
-      "diplomacy",
-      "gold",
-      "oil"
-    ]
-  },
-  {
-    "id": "social-997",
-    "handle": "@DiplomaticPulse",
-    "displayName": "Diplomatic Pulse",
-    "text": "TRUMP CANCELS PAKISTAN TRIP: Truth Social — 'I just cancelled the trip of my representatives going to Islamabad. We have all the cards, they have none. If they want to talk, all they have to do is call!' Reverses Karoline Leavitt's Friday Fox News announcement. Iran subsequently sent 'much better' paper but 'still not adequate.' Marks second collapse of Islamabad track after April 12.",
-    "timestamp": "2026-04-25T17:35:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CBS News, NPR, Times of Israel liveblog. All verified — direct Truth Social quote.",
-    "keywords": [
-      "trump",
-      "diplomacy",
-      "witkoff",
-      "kushner",
-      "pakistan",
-      "cancelled",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-998",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab — OSINT Analyst",
-    "text": "LEBANON CEASEFIRE BREACH: Hezbollah fires 2 rockets + multiple drones at northern Israel — sirens at Manara, Margaliot, Misgav Am. First rocket barrage since April 16 ceasefire. Drone triggers Malkia sirens, IDF loses contact (UAV crashed). Netanyahu's office orders IDF to 'vigorously strike' Hezbollah. IDF targets Radwan Force facilities + locates anti-tank missile cache. Haaretz tally: 15+ killed in Lebanon since ceasefire began.",
-    "timestamp": "2026-04-25T13:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog, Haaretz, Al Jazeera. All verified.",
-    "keywords": [
-      "lebanon",
-      "hezbollah",
-      "rockets",
-      "ceasefire-breach",
-      "netanyahu",
-      "radwan",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-999",
-    "handle": "@CriticalThreats",
-    "displayName": "ISW Critical Threats Project",
-    "text": "IRAN POWER STRUGGLE: ISW assesses IRGC Cmdr Maj. Gen. Ahmad Vahidi has 'upper hand' over Parliament Speaker Ghalibaf in intra-regime power struggle. Vahidi may be deliberately introducing preconditions to derail US talks. IRGC Navy's redirection of two vessels in Hormuz (April 22) reads as enforcement of sovereignty claims and signal Vahidi prepared to resume war.",
-    "timestamp": "2026-04-25T15:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Critical Threats Project — Iran Update April 22, 2026 Special Report.",
-    "keywords": [
-      "isw",
-      "vahidi",
-      "ghalibaf",
-      "irgc",
-      "power-struggle",
-      "iran",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-1000",
-    "handle": "@TheSoufanCenter",
-    "displayName": "Soufan Center IntelBrief",
-    "text": "IRAN AUTHORITY VACUUM: Pragmatic Iranian leaders argue resumption of hostilities would be catastrophic, while IRGC hardliners view compromise with Washington as 'sellout of Iran's Islamic revolution.' Soufan: 'There is no clearly identifiable overarching authority in Iran capable of resolving the internal debate.' Mojtaba Khamenei communicating only via handwritten notes by motorcycle courier.",
-    "timestamp": "2026-04-25T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Soufan Center IntelBrief April 24. NYT/Israel Hayom on Mojtaba.",
-    "keywords": [
-      "soufan",
-      "iran",
-      "authority",
-      "mojtaba",
-      "khamenei",
-      "irgc",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-1001",
-    "handle": "@bellingcat",
-    "displayName": "Bellingcat — Open Source Intel",
-    "text": "POLICE INFRASTRUCTURE TRACKED: Bellingcat documents at least 30 strikes on Iranian police stations and 29 on command centers/HQs, plus 9 Basij sites, 3 special forces, 2 traffic, 2 diplomatic police compounds. Identified using Sentinel-1 SAR satellite data. Frames campaign as effort to 'make Iran ungovernable.' Adds new dimension to coalition strike target set beyond military/nuclear sites.",
-    "timestamp": "2026-04-25T16:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Bellingcat report April 24, 2026. Sentinel-1 SAR data verified.",
-    "keywords": [
-      "bellingcat",
-      "iran",
-      "police",
-      "infrastructure",
-      "satellite",
-      "sar",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-1002",
-    "handle": "@EconWarfare",
-    "displayName": "Economic Warfare Analyst",
-    "text": "MARKETS HOLDING: Brent ~$105.50 (+32.1%), WTI ~$94.50 (+25.1%) — modest gains continuing on Trump cancellation. Gas $4.03 AAA (flat WoW). VLCC charter rates ~$148K/day (+362% from $32K pre-war). Lloyd's war risk premium 3.85% of hull value (~77x pre-war). ~340 tankers rerouted via Cape of Good Hope adding 21 days transit. TEDPIX (Tehran) suspended since March 5.",
-    "timestamp": "2026-04-25T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, Lloyd's List, Baltic Exchange, Clarksons, Iran International. All verified.",
-    "keywords": [
-      "oil",
-      "shipping",
-      "lloyds",
-      "vlcc",
-      "tedpix",
-      "markets",
-      "day57"
-    ]
-  },
-  {
-    "id": "social-1003",
-    "handle": "@Global_Flttrckr",
-    "displayName": "Global Fleet Tracker",
-    "text": "DAY 57 PM ROUNDUP: Trump CANCELS Witkoff/Kushner Pakistan trip — 'we have all the cards.' Hezbollah fires 2 rockets + drones at northern Israel; Netanyahu orders IDF 'vigorously strike.' IDF strikes Radwan facilities, finds anti-tank cache. EU's Costa demands Hormuz reopen. Kallas: nuclear experts needed. ISW: Vahidi has 'upper hand' in Iran. Brent ~$105.50. Gas $4.03 AAA. Hormuz Day 54 closed.",
-    "timestamp": "2026-04-25T18:30:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CBS, NPR, Times of Israel, Haaretz, EU Council, The National, ISW. All verified.",
-    "keywords": [
-      "roundup",
-      "day57-pm",
-      "trump-cancel",
-      "lebanon",
-      "eu",
-      "isw",
-      "markets"
-    ]
-  },
-  {
     "id": "social-1004",
     "handle": "@Aurora_Intel",
     "displayName": "Aurora Intel — OSINT",
@@ -539,6 +334,115 @@
       "kuwait",
       "sanctions",
       "markets"
+    ]
+  },
+  {
+    "id": "social-1022",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT",
+    "text": "DAY 58 NOON UPDATE: Lebanese Health Ministry raises death toll to 2,491 killed (7,719 injured) since March 2 strikes resumed. IDF acknowledges striking Hezbollah Radwan force facilities + 3 rocket launcher sites overnight. EASA extends Israeli airspace warning to May 1. Three US carriers in theater first time since 2003 with George H.W. Bush arrival.",
+    "timestamp": "2026-04-26T18:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Naharnet, Times of Israel liveblog, Haaretz. All verified.",
+    "keywords": [
+      "lebanon",
+      "death-toll",
+      "radwan",
+      "easa",
+      "carriers",
+      "day58"
+    ]
+  },
+  {
+    "id": "social-1023",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "USS PINCKNEY INTERDICTION: Arleigh Burke destroyer's helicopter forced LPG tanker M/V SEVAN (Panama-flagged, OFAC-designated April 24, IMO 9177806) carrying ~200,600 barrels LPG/olefins to turn back to Iran in central Arabian Sea. No shots fired (unlike April 19 USS Spruance Touska seizure). Blockade enforcement now extending well beyond Gulf.",
+    "timestamp": "2026-04-26T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Epoch Times, Windward Maritime Intelligence. Confirmed.",
+    "keywords": [
+      "uss-pinckney",
+      "tanker",
+      "arabian-sea",
+      "blockade",
+      "lpg-sevan",
+      "day58"
+    ]
+  },
+  {
+    "id": "social-1024",
+    "handle": "@WindwardMaritime",
+    "displayName": "Windward Maritime Intelligence",
+    "text": "HORMUZ TRANSITS RECOVER: 19 vessels crossed strait April 25 — 5 inbound, 14 outbound (first significant rebound). Total Gulf vessel presence rose to 892 (+126 from prior day). Sentinel-1 imagery shows 2 tankers loading at Kharg Island with 8+ VLCCs anchored south/east in waiting queue. Constrained throughput continues.",
+    "timestamp": "2026-04-26T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Windward.ai daily maritime intelligence. Confirmed.",
+    "keywords": [
+      "hormuz",
+      "transits",
+      "kharg-island",
+      "satellite",
+      "vlcc",
+      "day58"
+    ]
+  },
+  {
+    "id": "social-1025",
+    "handle": "@DiploPulse",
+    "displayName": "Diplomatic Pulse",
+    "text": "ARAGHCHI POST-OMAN: 'Very fruitful visit to Pakistan, whose good offices we very much value. Have yet to see if the US is truly serious about diplomacy.' Pezeshkian to Sharif: 'Iran will not enter imposed negotiations under pressure, threats, or blockade.' Trump on Truth Social: 'We have all the cards; they have none. If they want to talk, all they have to do is call.'",
+    "timestamp": "2026-04-26T15:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Press TV, Time, Truth Social via CNBC. All verified.",
+    "keywords": [
+      "araghchi",
+      "pezeshkian",
+      "trump",
+      "diplomacy",
+      "blockade",
+      "day58"
+    ]
+  },
+  {
+    "id": "social-1026",
+    "handle": "@JPMorganOil",
+    "displayName": "Energy Markets Analyst",
+    "text": "JP MORGAN WARNING: Brent could overshoot toward $150/bbl if Hormuz remains effectively closed into mid-May. Goldman Sachs frames situation as 'maritime trench warfare' potentially heading to 'sloppy peace.' FDD: blockade costs Iran ~$400M/day in lost revenue. Risk of permanent oil-well damage from overflow if not eased. Bessent: 'no oil waivers, Iran shuttering in days.'",
+    "timestamp": "2026-04-26T14:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "TheStreet, Fortune, Al Jazeera. All verified.",
+    "keywords": [
+      "jpmorgan",
+      "goldman",
+      "brent",
+      "hormuz",
+      "fdd",
+      "bessent",
+      "day58"
+    ]
+  },
+  {
+    "id": "social-1027",
+    "handle": "@Global_Flttrckr",
+    "displayName": "Global Fleet Tracker",
+    "text": "DAY 58 NOON ROUNDUP: Markets closed. Brent $104.40 / WTI $94.70 (Fri close). Gas $4.099 AAA. Lebanon DT 2,491 (Health Ministry). USS Pinckney turns back tanker SEVAN. 19 vessels transited Hormuz April 25 (recovery). Pezeshkian rejects talks under blockade. Trump: 'all the cards.' WHCD shooting suspect Cole Allen charged. War Powers May 1 — 5 days.",
+    "timestamp": "2026-04-26T19:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "AAA, Naharnet, CNN, Press TV, CNBC, Time. All verified.",
+    "keywords": [
+      "roundup",
+      "day58-noon",
+      "lebanon",
+      "hormuz",
+      "diplomacy",
+      "war-powers"
     ]
   }
 ]

@@ -8885,5 +8885,59 @@
       "killed": 2,
       "injured": 17
     }
+  },
+  {
+    "id": "ms-525",
+    "city": "Ramyah",
+    "country": "Lebanon",
+    "lat": 33.0833,
+    "lng": 35.3833,
+    "strikeType": "ATGM",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-25",
+    "description": "Hezbollah claimed targeting an Israeli armored personnel carrier in Ramyah, southern Lebanon, in retaliation for IDF destruction of homes. Coupled with same-day rocket+drone attack on northern Israel (one rocket and drone intercepted; second rocket fell in open area).",
+    "source": "Al-Monitor",
+    "sourceUrl": "https://www.al-monitor.com/originals/2026/04/israel-says-it-will-attack-hezbollah-forcefully-four-killed-strikes-southern",
+    "weaponType": "ATGM",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-526",
+    "city": "Northern Kuwait Border",
+    "country": "Kuwait",
+    "lat": 30.0833,
+    "lng": 47.6833,
+    "strikeType": "drone",
+    "attributedTo": "iraq_militias",
+    "date": "2026-04-24",
+    "description": "Two explosive-laden, fiber-optic-guided drones launched from Iraq struck two northern Kuwait border posts. Material damage but no casualties. No group claimed responsibility — suspected Iran-backed Iraqi militia. OIC condemned. Iraq Interior Minister al-Shammari announced investigation.",
+    "source": "Al Arabiya",
+    "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/04/24/kuwait-says-two-drones-from-iraq-hit-northern-border-posts-no-casualties",
+    "weaponType": "fiber-optic guided explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-527",
+    "city": "Central Arabian Sea (M/V SEVAN intercept)",
+    "country": "International Waters",
+    "lat": 17.5,
+    "lng": 64.5,
+    "strikeType": "naval interdiction",
+    "attributedTo": "us",
+    "date": "2026-04-25",
+    "description": "USS Pinckney (Arleigh Burke destroyer) helicopter forced OFAC-sanctioned LPG tanker M/V SEVAN (Panama-flagged, IMO 9177806, ~200,600 bbl LPG/olefins) to turn back to Iran in central Arabian Sea. No shots fired (in contrast to April 19 USS Spruance Touska seizure). Designated as part of Iran's dark fleet April 24.",
+    "source": "Epoch Times",
+    "sourceUrl": "https://www.theepochtimes.com/world/us-forces-intercept-turn-back-iran-linked-tanker-in-arabian-sea-6017180",
+    "weaponType": "naval boarding (no kinetic)",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
