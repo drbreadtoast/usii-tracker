@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-25",
-      "label": "Day 57 Midday PT — Brent ~$105.50 (+32.1% from pre-war $79.84), WTI ~$94.50 (+25.1% from $75.51). Markets edged up after Trump CANCELS Witkoff/Kushner Pakistan trip on Truth Social: 'we have all the cards.' Iran sent 'much better' paper but 'still not adequate.' Hezbollah fires 2 rockets + drones at northern Israel — Netanyahu orders 'vigorous' IDF strikes. EU's Costa demands Hormuz reopen. Best weekly gain ~14% since early March. Gas $4.03 AAA flat.",
+      "label": "Day 58 PM PT (Friday close) — Brent $104.40 (+30.8% from pre-war $79.84), WTI $94.70 (+25.4% from $75.51). Pulled back from midday highs on Pakistan-mediated diplomacy hopes — best weekly gain ~14% since early March. US Treasury sanctioned Hengli Petrochemical (China) + 40 vessels. Araghchi left Pakistan for Oman. NBC: Iran base damage far worse than admitted. Kuwait border hit by Iraqi drones. War Powers deadline May 1. Gas $4.03 AAA flat.",
       "brent": {
-        "price": 105.50,
-        "change": "+32.2%",
-        "changeDollars": "+$25.70"
+        "price": 104.40,
+        "change": "+30.8%",
+        "changeDollars": "+$24.56"
       },
       "wti": {
-        "price": 94.50,
-        "change": "+25.2%",
-        "changeDollars": "+$19.00"
+        "price": 94.70,
+        "change": "+25.4%",
+        "changeDollars": "+$19.19"
       },
-      "changePercent": 32.2,
+      "changePercent": 30.8,
       "lastUpdated": "2026-04-25"
     },
     "priceHistory": [
@@ -632,8 +632,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-25T19:12:00Z",
-    "note": "Day 57 Midday PT: Brent ~$105.50 (+32.2%), WTI ~$94.50 (+25.2%). AAA avg $4.03/gal (flat day, +28.3% from pre-war $3.14). Trump CANCELS Witkoff/Kushner Pakistan trip on Truth Social — 'we have all the cards.' Iran sent revised paper but 'not adequate.' Hezbollah fires 2 rockets + drones at northern Israel.",
+    "lastUpdated": "2026-04-26T00:06:00Z",
+    "note": "Day 58 PM PT (Friday close): Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). AAA avg $4.03/gal (flat, +28.3% from pre-war $3.14). Araghchi leaves Pakistan for Oman. NBC: Iran base damage far worse than admitted. Kuwait hit by Iraqi drones. Hengli + 40 ships sanctioned. War Powers deadline May 1.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -1124,6 +1124,13 @@
       "brent": 105.33,
       "wti": 94.4,
       "label": "Day 57 Late — Brent settles $105.33 (+31.9%), WTI $94.40 (+25.0%). Best weekly gain (~14%) since early March. OFAC freezes $344M IRGC/Hezbollah crypto. Hengli Petrochemical + 40 ships sanctioned. Bessent: no oil waivers, Iran 'shuttering in days.' Iran resumes international flights. CSIS: $24B munitions, 50% Patriot interceptors used. Baker Hughes: Hormuz not open until H2 2026. Gas $4.031.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-25",
+      "brent": 104.40,
+      "wti": 94.70,
+      "label": "Day 58 PM (Friday close) — Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). Pulled back $0.93 from midday highs on Pakistan diplomacy hopes. Best weekly gain ~14%. Araghchi leaves Pakistan for Oman. NBC: Iran base damage far worse than admitted — E-3 Sentry destroyed. Kuwait hit by Iraqi drones. Hengli + 40 ships sanctioned. War Powers deadline May 1 (5 days). Gas $4.03.",
       "isEvent": true
     }
   ]

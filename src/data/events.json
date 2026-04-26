@@ -39127,5 +39127,109 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["eu", "diplomatic", "costa", "kallas", "hormuz", "nuclear", "summit", "day56"]
+  },
+  {
+    "id": "evt-new-1182",
+    "title": "Two explosive drones from Iraq strike Kuwaiti northern border posts — first attack on Kuwait since war began",
+    "description": "Two fiber-optic-guided explosive drones launched from Iraqi territory struck two Kuwaiti northern border posts. Material damage reported but no casualties. No group claimed responsibility. Iraq's interior minister denounced the attack and pledged investigation. Kuwait raised alert level along the border. Qatar condemned the attack.",
+    "type": "strike",
+    "lat": 29.95,
+    "lng": 47.50,
+    "location": "Northern Kuwait border, near Iraq",
+    "timestamp": "2026-04-24T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Al Arabiya — Kuwait says drones from Iraq target border posts",
+        "url": "https://english.alarabiya.net/News/gulf/2026/04/25/kuwait-says-drones-coming-from-iraq-target-border-posts"
+      },
+      {
+        "name": "Times of Israel — Kuwait border posts targeted by drone attack",
+        "url": "https://www.timesofisrael.com/liveblog_entry/kuwait-military-says-border-posts-targeted-by-drone-attack-launched-from-iraq/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["kuwait", "iraq", "drones", "fiber-optic", "border", "day57"]
+  },
+  {
+    "id": "evt-new-1183",
+    "title": "NBC News: Iran caused extensive damage to US bases across 7 countries — far worse than publicly known",
+    "description": "NBC News reported Iranian strikes caused extensive damage to US military bases across 7 Middle Eastern countries, far worse than publicly acknowledged. Damage includes warehouses, command HQs, aircraft hangars, satellite communications, runways, and high-end radar systems. A Boeing E-3 Sentry AWACS destroyed at Prince Sultan Air Base, Saudi Arabia. Two radar systems in Jordan and Qatar among most important assets damaged. 12-15 US service members wounded in Prince Sultan strike alone. Repair costs expected to reach billions.",
+    "type": "infrastructure",
+    "lat": 23.94,
+    "lng": 45.58,
+    "location": "Prince Sultan Air Base, Saudi Arabia (primary)",
+    "timestamp": "2026-04-25T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NBC News — Iran caused extensive damage to US military bases",
+        "url": "https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853"
+      },
+      {
+        "name": "Israel Hayom — Probe reveals far more damage to US bases",
+        "url": "https://www.israelhayom.com/2026/04/25/probe-reveals-iran-caused-far-more-damage-to-us-military-than-reported/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 15 },
+    "tags": ["iran", "us-bases", "damage", "nbc-report", "prince-sultan", "saudi", "day57"]
+  },
+  {
+    "id": "evt-new-1184",
+    "title": "Araghchi leaves Pakistan for Oman — delegation splits; plans Russia trip then return to Islamabad",
+    "description": "Iran FM Abbas Araghchi departed Islamabad for Muscat, Oman after meeting PM Sharif and Army Chief Munir but refusing direct talks with US negotiators. Part of his delegation returned to Tehran 'to consult and obtain necessary instructions.' IRNA reported Araghchi plans to travel to Oman, then Russia, then return to Pakistan for potential further talks. Trump had already cancelled the Witkoff/Kushner trip hours earlier.",
+    "type": "diplomatic",
+    "lat": 23.58,
+    "lng": 58.38,
+    "location": "Muscat, Oman",
+    "timestamp": "2026-04-25T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Iran International — Araghchi leaves for Oman and Russia",
+        "url": "https://www.iranintl.com/en/202604251877"
+      },
+      {
+        "name": "Dawn — Iranian delegation leaves after meeting PM, Army Chief",
+        "url": "https://www.dawn.com/news/1994958/iranian-delegation-led-by-araghchi-leaves-after-meeting-pm-cdf-munir-trump-cancels-us-envoys-visit"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["diplomatic", "araghchi", "oman", "pakistan", "iran", "shuttle-diplomacy", "day57"]
+  },
+  {
+    "id": "evt-new-1185",
+    "title": "US Treasury sanctions Hengli Petrochemical (China) + ~40 vessels for transporting Iranian oil",
+    "description": "US Treasury sanctioned Hengli Petrochemical (Dalian), China's 2nd-largest teapot refinery with 400K bbl/day capacity, plus approximately 40 vessels and their owners for transporting Iranian oil. Treasury Secretary Bessent stated US will continue targeting networks supporting Iran's oil exports. Chinese embassy called sanctions 'undermining international trade order.' Hengli has generated hundreds of millions for Iran's military since 2023.",
+    "type": "diplomatic",
+    "lat": 39.05,
+    "lng": 121.76,
+    "location": "Dalian, China (Hengli Petrochemical)",
+    "timestamp": "2026-04-25T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — US sanctions China's teapot refinery for buying Iranian oil",
+        "url": "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil"
+      },
+      {
+        "name": "US Treasury — Sanctions press release",
+        "url": "https://home.treasury.gov/news/press-releases/sb0472"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["sanctions", "china", "hengli", "oil", "us-treasury", "iran", "day57"]
   }
 ]
