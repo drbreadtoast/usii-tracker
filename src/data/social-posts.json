@@ -1,96 +1,5 @@
 [
   {
-    "id": "social-1022",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel \u2014 OSINT",
-    "text": "DAY 58 NOON UPDATE: Lebanese Health Ministry raises death toll to 2,491 killed (7,719 injured) since March 2 strikes resumed. IDF acknowledges striking Hezbollah Radwan force facilities + 3 rocket launcher sites overnight. EASA extends Israeli airspace warning to May 1. Three US carriers in theater first time since 2003 with George H.W. Bush arrival.",
-    "timestamp": "2026-04-26T18:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Naharnet, Times of Israel liveblog, Haaretz. All verified.",
-    "keywords": [
-      "lebanon",
-      "death-toll",
-      "radwan",
-      "easa",
-      "carriers",
-      "day58"
-    ]
-  },
-  {
-    "id": "social-1023",
-    "handle": "@sentdefender",
-    "displayName": "sentdefender \u2014 OSINT Analyst",
-    "text": "USS PINCKNEY INTERDICTION: Arleigh Burke destroyer's helicopter forced LPG tanker M/V SEVAN (Panama-flagged, OFAC-designated April 24, IMO 9177806) carrying ~200,600 barrels LPG/olefins to turn back to Iran in central Arabian Sea. No shots fired (unlike April 19 USS Spruance Touska seizure). Blockade enforcement now extending well beyond Gulf.",
-    "timestamp": "2026-04-26T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Epoch Times, Windward Maritime Intelligence. Confirmed.",
-    "keywords": [
-      "uss-pinckney",
-      "tanker",
-      "arabian-sea",
-      "blockade",
-      "lpg-sevan",
-      "day58"
-    ]
-  },
-  {
-    "id": "social-1024",
-    "handle": "@WindwardMaritime",
-    "displayName": "Windward Maritime Intelligence",
-    "text": "HORMUZ TRANSITS RECOVER: 19 vessels crossed strait April 25 \u2014 5 inbound, 14 outbound (first significant rebound). Total Gulf vessel presence rose to 892 (+126 from prior day). Sentinel-1 imagery shows 2 tankers loading at Kharg Island with 8+ VLCCs anchored south/east in waiting queue. Constrained throughput continues.",
-    "timestamp": "2026-04-26T16:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Windward.ai daily maritime intelligence. Confirmed.",
-    "keywords": [
-      "hormuz",
-      "transits",
-      "kharg-island",
-      "satellite",
-      "vlcc",
-      "day58"
-    ]
-  },
-  {
-    "id": "social-1025",
-    "handle": "@DiploPulse",
-    "displayName": "Diplomatic Pulse",
-    "text": "ARAGHCHI POST-OMAN: 'Very fruitful visit to Pakistan, whose good offices we very much value. Have yet to see if the US is truly serious about diplomacy.' Pezeshkian to Sharif: 'Iran will not enter imposed negotiations under pressure, threats, or blockade.' Trump on Truth Social: 'We have all the cards; they have none. If they want to talk, all they have to do is call.'",
-    "timestamp": "2026-04-26T15:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, Press TV, Time, Truth Social via CNBC. All verified.",
-    "keywords": [
-      "araghchi",
-      "pezeshkian",
-      "trump",
-      "diplomacy",
-      "blockade",
-      "day58"
-    ]
-  },
-  {
-    "id": "social-1026",
-    "handle": "@JPMorganOil",
-    "displayName": "Energy Markets Analyst",
-    "text": "JP MORGAN WARNING: Brent could overshoot toward $150/bbl if Hormuz remains effectively closed into mid-May. Goldman Sachs frames situation as 'maritime trench warfare' potentially heading to 'sloppy peace.' FDD: blockade costs Iran ~$400M/day in lost revenue. Risk of permanent oil-well damage from overflow if not eased. Bessent: 'no oil waivers, Iran shuttering in days.'",
-    "timestamp": "2026-04-26T14:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "TheStreet, Fortune, Al Jazeera. All verified.",
-    "keywords": [
-      "jpmorgan",
-      "goldman",
-      "brent",
-      "hormuz",
-      "fdd",
-      "bessent",
-      "day58"
-    ]
-  },
-  {
     "id": "social-1027",
     "handle": "@Global_Flttrckr",
     "displayName": "Global Fleet Tracker",
@@ -438,6 +347,117 @@
       "khamenei",
       "goldman",
       "oil"
+    ]
+  },
+  {
+    "id": "social-1046",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel — OSINT",
+    "text": "LEBANON ESCALATION: IDF strike package on 7 southern Lebanon towns Apr 27 killed 14 (incl. 2 women, 2 children) and wounded 37 per Lebanese Health Ministry. Open-source SAR imagery confirms strike geolocation across Kfar Tebnit, Zawtar al-Sharqiya, Nabatieh al-Fawqa, Arnoun, Meidoun. Secondary explosions consistent with rocket-propellant cook-off — IDF used precision SDB-class munitions. Calibrated signal rather than full re-entry into kinetic phase.",
+    "timestamp": "2026-04-27T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Times of Israel, Lebanese Health Ministry. Confirmed.",
+    "keywords": [
+      "lebanon",
+      "idf",
+      "litani",
+      "evacuation",
+      "sdb",
+      "day59"
+    ]
+  },
+  {
+    "id": "social-1047",
+    "handle": "@WindwardMaritime",
+    "displayName": "Windward Maritime Intelligence",
+    "text": "HORMUZ TRACKER UPDATE: Bloomberg's tracker shows ship transits down to ~7 in past 24h vs 140/day pre-war (95% reduction). 38 vessels now redirected by US Navy since blockade Apr 13. ~4M barrels Iranian oil cleared US blockade Apr 24 via shadow fleet; 6 Iranian tankers (10.5M bbl) returned to port. MSC Francesca and Epaminondas remain in IRGC custody — Day 5.",
+    "timestamp": "2026-04-27T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg, Insurance Journal, Al Jazeera. Confirmed.",
+    "keywords": [
+      "hormuz",
+      "transits",
+      "shadow-fleet",
+      "blockade",
+      "irgc",
+      "day59"
+    ]
+  },
+  {
+    "id": "social-1048",
+    "handle": "@DiploPulse",
+    "displayName": "Diplomatic Pulse",
+    "text": "ARAGHCHI-PUTIN ST PETERSBURG: Iranian FM Araghchi met Putin and Lavrov in St. Petersburg Apr 27 — diplomatic pivot to Russian mediation following Trump's cancellation of US envoy trip Apr 26. Araghchi denies Pakistan-mediated Hormuz-for-nuclear-delay arrangement reported by Axios. Diplomatic source familiar with Bern channel says US-Iran message via Switzerland focused narrowly on mine-sweeping deconfliction, NOT broader nuclear talks.",
+    "timestamp": "2026-04-27T17:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera liveblog, Tasnim, Moscow Times. Confirmed.",
+    "keywords": [
+      "araghchi",
+      "putin",
+      "st-petersburg",
+      "russia",
+      "mediation",
+      "switzerland",
+      "day59"
+    ]
+  },
+  {
+    "id": "social-1049",
+    "handle": "@sentdefender",
+    "displayName": "sentdefender — OSINT Analyst",
+    "text": "TRIPLE-CARRIER CENTCOM: 3 US carriers operating concurrently in CENTCOM AOR Apr 27 — USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Red Sea), USS George H.W. Bush (Indian Ocean, arrived Apr 23 from Norfolk). 200+ aircraft, 15,000 personnel, 12 supporting ships — first such concentration since 2003 Iraq invasion. Hegseth (X): 38 ships redirected, Avenger-class minesweepers operating around the clock.",
+    "timestamp": "2026-04-27T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Breaking Defense, Stars and Stripes, Bloomberg. Confirmed.",
+    "keywords": [
+      "carriers",
+      "centcom",
+      "lincoln",
+      "ford",
+      "bush",
+      "deployment",
+      "day59"
+    ]
+  },
+  {
+    "id": "social-1050",
+    "handle": "@JPMorganOil",
+    "displayName": "Energy Markets Analyst",
+    "text": "GOLDMAN Q4 FORECAST: Goldman Sachs Q4 Brent forecast at $90 (raised from $80) implies Hormuz disruption persists at least 4-5 more months. Brent $108.11 (+35.4%) sustains plateau on Iranian deputy speaker Nikzad's declaration. Soybeans the standout grain mover (+14.6% vs pre-war) on supply-chain risk; sugar/coffee bearish despite war on Brazil/Argentina output. Pezeshkian called Goldman forecasts 'psychological warfare.'",
+    "timestamp": "2026-04-27T18:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trading Economics, Fortune, IRNA. Confirmed.",
+    "keywords": [
+      "goldman",
+      "brent",
+      "soybeans",
+      "pezeshkian",
+      "forecast",
+      "day59"
+    ]
+  },
+  {
+    "id": "social-1051",
+    "handle": "@Global_Flttrckr",
+    "displayName": "Global Fleet Tracker",
+    "text": "DAY 59 MIDDAY PT ROUNDUP: IDF strikes 7 southern Lebanon towns kill 14, wound 37 — forced evacuations. 3 US carriers concurrent in CENTCOM (first since 2003). Bloomberg Hormuz: transits down 95% (~7/24h vs 140 pre-war). Araghchi meets Putin in St. Petersburg — Russian mediation pivot. Trump 4-day Iran ultimatum on Truth Social. Khamenei written statement reaffirms Hormuz 'closed by sovereign right.' Brent $108.11. WTI $96.49. Gas $4.09 AAA. Hormuz Day 56. War Powers May 1 — 4 days.",
+    "timestamp": "2026-04-27T19:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Times of Israel, Bloomberg, Breaking Defense, Tasnim. All verified.",
+    "keywords": [
+      "roundup",
+      "day59-midday",
+      "lebanon",
+      "carriers",
+      "araghchi",
+      "trump",
+      "khamenei"
     ]
   }
 ]
