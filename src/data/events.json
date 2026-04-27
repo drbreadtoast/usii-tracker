@@ -42284,5 +42284,289 @@
       "homeland",
       "day58"
     ]
+  },
+  {
+    "id": "evt-new-1201",
+    "title": "Israeli airstrikes kill 14, wound 37 across southern Lebanon — mosques destroyed",
+    "description": "Israeli airstrikes and artillery struck multiple locations in southern Lebanon throughout April 26, killing at least 14 people (including 2 children and 2 women) and wounding 37. Targets included Kfar Tebnit (roundabout struck at 3 AM, 5 killed, mosque destroyed), Zawtar Al Sharqiya (mosque and religious building destroyed), Nabatieh al-Fawqa, Arnoun, Meidoun, Shoukin, and Yahmar. The strikes came after Netanyahu ordered the IDF to 'forcefully attack Hezbollah targets.'",
+    "type": "strike",
+    "lat": 33.35,
+    "lng": 35.51,
+    "location": "Kfar Tebnit / Nabatieh district, southern Lebanon",
+    "timestamp": "2026-04-26T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Rappler — Strikes kill 14 in Lebanon; Israel warns towns beyond buffer zone",
+        "url": "https://www.rappler.com/world/middle-east/israel-strikes-lebanon-warning-buffer-zone-april-26-2026/"
+      },
+      {
+        "name": "L'Orient Today — Violent strikes on south Lebanon, five dead and mosque destroyed in Kfar Tibnit",
+        "url": "https://today.lorientlejour.com/article/1431085/violent-strikes-on-south-lebanon-five-dead-and-mosque-destroyed-in-kfar-tibnit.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 14,
+      "injured": 37
+    },
+    "tags": [
+      "israel",
+      "lebanon",
+      "airstrike",
+      "kfar-tebnit",
+      "nabatieh",
+      "ceasefire-violation",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1202",
+    "title": "Hezbollah drone kills IDF Sgt. Idan Fooks in Taybeh, southern Lebanon",
+    "description": "Hezbollah launched an explosive-laden drone at Israeli troops in Taybeh, killing Sgt. Idan Fooks (19, Petah Tikva) of the 7th Armored Brigade's 77th Battalion and wounding 6 soldiers (4 seriously). A tank had gotten stuck and troops were repairing it when the drone struck. During evacuation, Hezbollah fired 2 more drones — one intercepted, one struck nearby without further casualties. Fooks is the 3rd Israeli soldier killed during the ceasefire and the first in a direct Hezbollah attack.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.41,
+    "location": "Taybeh, southern Lebanon",
+    "timestamp": "2026-04-26T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF soldier killed in south Lebanon drone attack",
+        "url": "https://www.timesofisrael.com/idf-soldier-killed-in-south-lebanon-drone-attack-as-israel-hezbollah-trade-blame/"
+      },
+      {
+        "name": "Jerusalem Post — Sgt. Idan Fooks, 19, killed in southern Lebanon",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-894212"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 6
+    },
+    "tags": [
+      "hezbollah",
+      "idf",
+      "drone",
+      "taybeh",
+      "lebanon",
+      "ceasefire-violation",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1203",
+    "title": "Hezbollah fires rockets and drone at northern Israel — sirens activated",
+    "description": "Two rockets and a drone were launched from Lebanon at northern Israel, activating sirens in several towns including Shtula. The IDF intercepted the drone and one rocket; the second rocket struck an open area with no injuries. IDF says Hezbollah 'blatantly violating' ceasefire. Hezbollah claims over 200 Israeli ceasefire violations.",
+    "type": "strike",
+    "lat": 33.09,
+    "lng": 35.28,
+    "location": "Shtula area, northern Israel",
+    "timestamp": "2026-04-26T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says Hezbollah breached truce by launching rockets at troops, drone at Israel",
+        "url": "https://www.timesofisrael.com/idf-says-hezbollah-breached-truce-launching-rockets-at-troops-drone-at-israel/"
+      },
+      {
+        "name": "i24NEWS — Fragile truce in northern Israel further tested by Hezbollah rocket fire",
+        "url": "https://www.i24news.tv/en/news/israel/artc-fragile-truce-in-northern-israel-further-tested-by-hezbollah-rocket-fire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "hezbollah",
+      "rockets",
+      "drone",
+      "northern-israel",
+      "ceasefire-violation",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1204",
+    "title": "Israel issues evacuation orders for 7 Lebanese towns north of buffer zone",
+    "description": "Lt Col Avichay Adraee ordered residents to leave 7 villages north of Israel's occupied 'forward defense zone' in southern Lebanon: Meidoun, Shoukin, Yahmar, Arnoun, Zawtar Al Sharqiya, Zawtar Al Gharbiyeh, and Kfar Tebnit. This represents a significant expansion of Israeli military operations beyond the existing occupied zone and ceasefire lines.",
+    "type": "movement",
+    "lat": 33.38,
+    "lng": 35.48,
+    "location": "Nabatieh district, southern Lebanon",
+    "timestamp": "2026-04-26T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Arabiya — Israel issues evacuation warning for seven Lebanese towns beyond buffer zone",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/04/26/israel-issues-evacuation-warning-for-seven-lebanese-towns-north-of-litani-river"
+      },
+      {
+        "name": "The New Arab — Israel gives warning to seven towns beyond Lebanon buffer zone",
+        "url": "https://www.newarab.com/news/israel-gives-warning-seven-towns-beyond-lebanon-buffer-zone"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "israel",
+      "evacuation",
+      "buffer-zone",
+      "lebanon",
+      "escalation",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1205",
+    "title": "Araghchi meets Putin in Moscow — Iran briefs Russia on ceasefire and negotiations",
+    "description": "Iranian FM Abbas Araghchi met President Putin, FM Lavrov, and NSA Ushakov at the Kremlin to brief Russia on the status of ceasefire negotiations and Iran's red lines including nuclear program and Hormuz. Meeting confirmed by Kremlin readout. Came after Araghchi's multi-stop tour through Pakistan and Oman, and after Trump canceled the Witkoff/Kushner Round 2 trip to Pakistan.",
+    "type": "diplomatic",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "location": "Kremlin, Moscow, Russia",
+    "timestamp": "2026-04-27T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Kremlin — Putin meets with Iranian FM Araghchi",
+        "url": "http://en.kremlin.ru/events/president/news/77237"
+      },
+      {
+        "name": "Euronews — Iran foreign minister heads to Moscow for meeting with Putin",
+        "url": "https://www.euronews.com/2026/04/26/iranian-foreign-minister-returns-to-pakistan-before-heading-to-moscow-for-meeting-with-put"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "araghchi",
+      "putin",
+      "russia",
+      "diplomacy",
+      "iran",
+      "ceasefire",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1206",
+    "title": "Netanyahu accuses Hezbollah of 'dismantling' ceasefire — orders forceful response",
+    "description": "After the drone strike killing Sgt. Fooks, PM Netanyahu accused Hezbollah of undermining the ceasefire: 'Hezbollah's violations are, in practice, dismantling the ceasefire.' He ordered the military to 'operate with force' in Lebanon. Israel subsequently issued evacuation orders for 7 towns beyond the buffer zone. Hezbollah counter-claimed over 500 Israeli violations.",
+    "type": "diplomatic",
+    "lat": 31.7683,
+    "lng": 35.2137,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-04-26T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Netanyahu says Hezbollah dismantling ceasefire with Lebanon",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-says-hezbollah-dismantling-ceasefire-with-lebanon/"
+      },
+      {
+        "name": "Washington Post — Netanyahu faces unhappy public as elections loom",
+        "url": "https://www.washingtonpost.com/politics/2026/04/26/netanyahu-trump-elections-ben-gvir-israel-iran/e5ac7028-418c-11f1-b19d-32431046b5b4_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "netanyahu",
+      "hezbollah",
+      "ceasefire",
+      "escalation",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1207",
+    "title": "Trump cancels envoy trip: 'If Iran wants to talk, they can call'",
+    "description": "On Fox News 'The Sunday Briefing,' Trump reiterated his cancellation of the Witkoff/Kushner trip to Pakistan: 'If they want to talk, they can come to us, or they can call us. There is a telephone.' Also said the war could 'come to an end very soon' and the US would be 'very victorious.' Regarding the WHCD shooting, Trump doubted any Iran war connection.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington DC",
+    "timestamp": "2026-04-26T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US News — Trump tells Fox News Iran can call if it wants to negotiate",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-26/trump-tells-fox-news-iran-can-call-us-if-it-wants-to-negotiate"
+      },
+      {
+        "name": "NPR — Iran talks on hold after shooting",
+        "url": "https://www.npr.org/2026/04/26/nx-s1-5800054/iran-talks-on-hold-shooting-talks-pakistan"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "trump",
+      "diplomacy",
+      "iran",
+      "talks",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1208",
+    "title": "Brent crude spikes to $107.97 in Sunday electronic trading on stalled talks and Trump shooting",
+    "description": "Brent crude surged 2.5% from Friday's $104.40 close to $107.97 in early Sunday electronic trading, driven by the combination of stalled US-Iran peace talks, the Trump assassination attempt at the WHCD, and continued Hormuz closure. WTI traded near $96. Analysts warned Monday's full trading session could see further volatility.",
+    "type": "infrastructure",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "location": "Global oil markets",
+    "timestamp": "2026-04-27T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC — Brent oil tops $107 per barrel after Iran peace talks stall",
+        "url": "https://www.cnbc.com/2026/04/26/oil-price-iran-war-strait-hormuz.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "oil",
+      "brent",
+      "markets",
+      "hormuz",
+      "day59"
+    ]
   }
 ]

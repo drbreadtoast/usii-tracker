@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-25",
-      "label": "Day 58 PM PT (Friday close) — Brent $104.40 (+30.8% from pre-war $79.84), WTI $94.70 (+25.4% from $75.51). Pulled back from midday highs on Pakistan-mediated diplomacy hopes — best weekly gain ~14% since early March. US Treasury sanctioned Hengli Petrochemical (China) + 40 vessels. Araghchi left Pakistan for Oman. NBC: Iran base damage far worse than admitted. Kuwait border hit by Iraqi drones. War Powers deadline May 1. Gas $4.03 AAA flat.",
+      "date": "2026-04-27",
+      "label": "Day 59 PM PT (Sunday electronic) — Brent $107.97 (+35.2% from pre-war $79.84), WTI $96.00 (+27.1% from $75.51). Surged 2.5% from Friday close on WHCD shooting aftermath + stalled peace talks. Araghchi met Putin in Moscow. Trump: 'they can call.' Pezeshkian rejects 'forced negotiations.' Lebanon ceasefire near collapse — 14 killed, IDF soldier Fooks KIA. War Powers deadline May 1 (4 days). Monday open expected volatile.",
       "brent": {
-        "price": 104.40,
-        "change": "+30.8%",
-        "changeDollars": "+$24.56"
+        "price": 107.97,
+        "change": "+35.3%",
+        "changeDollars": "+$28.13"
       },
       "wti": {
-        "price": 94.70,
-        "change": "+25.4%",
-        "changeDollars": "+$19.19"
+        "price": 96.00,
+        "change": "+27.2%",
+        "changeDollars": "+$20.49"
       },
-      "changePercent": 30.8,
-      "lastUpdated": "2026-04-25"
+      "changePercent": 35.3,
+      "lastUpdated": "2026-04-27"
     },
     "priceHistory": [
       {
@@ -447,6 +447,13 @@
         "wti": 94.65,
         "label": "Day 57 PM — Brent $104.50 (+30.9%), WTI $94.65 (+25.4%). Friday pullback on Iran Hormuz 'open' signal ahead of Pakistan talks. Hezbollah fires rockets at Shtula. IDF kills 6 in Bint Jbeil. Trump rules out nukes. IRGC 'eye for head' threat. Araghchi in Islamabad. Gas $4.03 AAA. 34 ships redirected by CENTCOM.",
         "isEvent": true
+      },
+      {
+        "date": "2026-04-27",
+        "brent": 107.97,
+        "wti": 96.00,
+        "label": "Day 59 PM PT (Sunday electronic) — Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Surged 2.5% from Friday close on WHCD shooting + stalled talks. Araghchi meets Putin in Moscow. Trump: 'they can call.' IDF soldier Fooks KIA by Hezbollah drone. 14 killed in Lebanon. Israel evacuates 7 towns. Hormuz: 37 ships redirected. OFAC froze $344M crypto. War Powers May 1 (4 days). Gas $4.031 AAA.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -632,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-26T12:03:00Z",
-    "note": "Day 58 AM PT (Saturday): Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). AAA avg $4.099/gal (+30.5%). Markets closed (weekend). Araghchi meets Sultan Haitham in Oman. Trump: revised Iran proposal 'not enough.' Houthis hit Andromeda Star. IDF kills 6 in Lebanon Saturday. Kharg Island storage critical. First US crude arrives Japan. War Powers May 1 (5 days).",
+    "lastUpdated": "2026-04-27T00:25:00Z",
+    "note": "Day 59 PM PT (Sunday): Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Surged 2.5% in electronic trading on WHCD shooting + stalled talks. AAA avg $4.031/gal (+28.0%). Araghchi meets Putin in Moscow. Trump: 'they can call.' Lebanon ceasefire near collapse — 14 killed, Fooks KIA. Hormuz: 37 ships redirected. OFAC froze $344M crypto. War Powers May 1 (4 days). Monday open expected volatile.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -643,14 +650,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.099,
-          "change": "+30.5%",
-          "changeDollars": "+$0.96",
-          "date": "2026-04-26"
+          "price": 4.031,
+          "change": "+28.4%",
+          "changeDollars": "+$0.89",
+          "date": "2026-04-27"
         },
-        "change": "+$0.96",
-        "changePercent": "+30.5%",
-        "detail": "Gas $4.099/gal (AAA, April 26). Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). Pre-war $3.14. CA $5.85. OK $3.40 (low). Markets closed Saturday.",
+        "change": "+$0.89",
+        "changePercent": "+28.4%",
+        "detail": "Gas $4.031/gal (AAA, April 27). Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Pre-war $3.14. CA $5.84. OK $3.40 (low). Jones Act waiver extended 90 days.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -829,7 +836,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-25T12:30:00Z",
+  "lastUpdated": "2026-04-27T00:25:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

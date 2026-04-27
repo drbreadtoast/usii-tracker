@@ -8939,5 +8939,59 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-528",
+    "city": "Kfar Tebnit",
+    "country": "Lebanon",
+    "lat": 33.35,
+    "lng": 35.51,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-26",
+    "description": "Israeli airstrike at 3 AM hit roundabout in Kfar Tebnit, Nabatieh district, killing 5 people. Village mosque and several homes also destroyed. Part of broader IDF strikes that killed 14 and wounded 37 across southern Lebanon on April 26.",
+    "source": "L'Orient Today",
+    "sourceUrl": "https://today.lorientlejour.com/article/1431085/violent-strikes-on-south-lebanon-five-dead-and-mosque-destroyed-in-kfar-tibnit.html",
+    "weaponType": "Air-launched precision munition",
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-529",
+    "city": "Zawtar Al Sharqiya",
+    "country": "Lebanon",
+    "lat": 33.34,
+    "lng": 35.42,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-26",
+    "description": "Israeli airstrikes destroyed a mosque and another religious building in Zawtar Al Sharqiya, Nabatieh district. Part of the broader April 26 IDF strikes across 7+ locations in southern Lebanon that killed 14 and wounded 37.",
+    "source": "The National",
+    "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/26/israel-bombs-lebanon-north-of-occupied-zone/",
+    "weaponType": "Air-launched precision munition",
+    "casualties": {
+      "killed": 3,
+      "injured": 10
+    }
+  },
+  {
+    "id": "ms-530",
+    "city": "Taybeh (Hezbollah drone)",
+    "country": "Lebanon",
+    "lat": 33.27,
+    "lng": 35.41,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-26",
+    "description": "Hezbollah launched 3 explosive-laden drones at IDF troops in Taybeh. First drone killed Sgt. Idan Fooks (19, 7th Armored Brigade 77th Bn). Second drone was intercepted by soldiers. Third struck nearby without further casualties. 6 soldiers wounded (4 seriously). First direct Hezbollah kill during the ceasefire.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/idf-soldier-killed-in-south-lebanon-drone-attack-as-israel-hezbollah-trade-blame/",
+    "weaponType": "Explosive-laden FPV drone",
+    "casualties": {
+      "killed": 1,
+      "injured": 6
+    }
   }
 ]

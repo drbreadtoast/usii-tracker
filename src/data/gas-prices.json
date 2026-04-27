@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-26T19:00:00Z",
-  "currentAverage": 4.099,
+  "lastUpdated": "2026-04-27T00:25:00Z",
+  "currentAverage": 4.031,
   "preWarAverage": 3.14,
-  "changePercent": 30.54,
+  "changePercent": 28.38,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -477,6 +477,12 @@
       "price": 4.099,
       "label": "Day 58 AM — Gas $4.099 AAA (+30.5% from pre-war $3.14). Markets closed (Saturday). Brent $104.40 (+30.8%), WTI $94.70 (+25.4%) Friday close. Araghchi meets Sultan Haitham in Oman. IDF kills 6 in Lebanon Saturday. Houthis hit Andromeda Star. Kharg storage critical. US crude arrives Japan (910K bbl). War Powers May 1 (5 days).",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-27",
+      "price": 4.031,
+      "label": "Day 59 PM PT — Gas $4.031 AAA (+28.4% from pre-war $3.14). Down ~7¢ from Day 58. Brent surges to $107.97 (+35.2%) in Sunday electronic on WHCD shooting + stalled talks. WTI ~$96. Araghchi meets Putin in Moscow. IDF Sgt. Fooks KIA. 14 killed in Lebanon. Israel evacuates 7 towns. Hormuz: 37 ships redirected. War Powers May 1 (4 days). CA $5.84. OK $3.40.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -572,18 +578,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.099,
-      "note": "National average $4.099/gal (AAA April 26). Oil Friday close: Brent $104.40 (+30.8%), WTI $94.70 (+25.4%). Markets closed (Saturday). Araghchi meets Sultan Haitham in Oman. Trump: revised proposal 'not enough.' IDF kills 6 in Lebanon. Houthis hit Andromeda Star. Kharg storage critical. US crude arrives Japan. War Powers May 1 (5 days). CA $5.85. OK $3.40 (low).",
-      "crude": 2.486,
+      "total": 4.031,
+      "note": "National average $4.031/gal (AAA April 27). Brent $107.97 (+35.2%), WTI $96.00 (+27.1%) Sunday electronic — surged on stalled talks + WHCD shooting. Araghchi meets Putin in Moscow. IDF Sgt. Fooks KIA by Hezbollah drone. 14 killed in Lebanon. Israel evacuates 7 towns. Hormuz: 37 ships redirected. OFAC froze $344M crypto. Jones Act waiver extended 90 days. War Powers May 1 (4 days). CA $5.84. OK $3.40.",
+      "crude": 2.571,
       "taxes": 0.534,
       "refining": 0.672,
       "distribution": 0.288,
-      "regularGasoline": 4.099,
-      "changeFromPreWar": "+$0.959",
-      "changePercent": "+30.5%",
-      "lastUpdated": "2026-04-26T12:03:00Z",
-      "date": "2026-04-26"
+      "regularGasoline": 4.031,
+      "changeFromPreWar": "+$0.891",
+      "changePercent": "+28.4%",
+      "lastUpdated": "2026-04-27T00:25:00Z",
+      "date": "2026-04-27"
     }
   },
-  "context": "Day 58 AM PT (Saturday): Gas $4.099/gal (AAA April 26, +30.5%). Brent $104.40 (+30.8%). WTI $94.70 (+25.4%). Markets closed. Araghchi meets Sultan Haitham in Oman — first Gulf visit since war. Trump: revised proposal 'not enough,' talks by phone. IDF kills 6 more in Lebanon. Houthis hit Andromeda Star oil tanker. Kharg Island storage at critical capacity. First US crude arrives Japan (910K bbl). War Powers May 1 (5 days). CA $5.85. OK $3.40."
+  "context": "Day 59 PM PT (Sunday): Gas $4.031/gal (AAA April 27, +28.4%). Brent $107.97 (+35.2%). WTI $96.00 (+27.1%). Sunday electronic trading — surged on WHCD shooting + stalled talks. Araghchi meets Putin in Moscow. Trump: 'they can call.' IDF Sgt. Fooks KIA by Hezbollah drone in Taybeh. 14 killed in Lebanon. Israel evacuates 7 towns beyond buffer zone. Hormuz: 37 ships redirected. OFAC froze $344M crypto. Jones Act waiver extended 90 days. War Powers May 1 (4 days). CA $5.84. OK $3.40."
 }

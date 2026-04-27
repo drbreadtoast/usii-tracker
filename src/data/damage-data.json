@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-26T12:03:00Z",
+    "lastUpdated": "2026-04-27T00:25:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 408
+    "totalSites": 410
   },
   "summary": {
-    "totalSites": 413,
-    "confirmed": 334,
+    "totalSites": 415,
+    "confirmed": 336,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6452,6 +6452,44 @@
       "casualties": "0 killed, 0 injured",
       "source": "Al Arabiya",
       "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/04/24/kuwait-says-two-drones-from-iraq-hit-northern-border-posts-no-casualties",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-418",
+      "name": "Kfar Tebnit Mosque and Roundabout (airstrike)",
+      "city": "Kfar Tebnit",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.51,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-26",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike at 3 AM destroyed the Kfar Tebnit village mosque, struck a roundabout killing 5 people, and damaged several homes. Part of broader IDF strikes across 7+ locations in Nabatieh district that killed 14 and wounded 37 on April 26.",
+      "weaponUsed": "Air-launched precision munition",
+      "casualties": "5 killed",
+      "source": "L'Orient Today",
+      "sourceUrl": "https://today.lorientlejour.com/article/1431085/violent-strikes-on-south-lebanon-five-dead-and-mosque-destroyed-in-kfar-tibnit.html",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-419",
+      "name": "Zawtar Al Sharqiya Mosque and Religious Building (airstrike)",
+      "city": "Zawtar Al Sharqiya",
+      "country": "Lebanon",
+      "lat": 33.34,
+      "lng": 35.42,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-26",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrikes destroyed a mosque and another religious building in Zawtar Al Sharqiya, Nabatieh district. Part of April 26 broader strikes across southern Lebanon.",
+      "weaponUsed": "Air-launched precision munition",
+      "casualties": "Multiple (part of 14 killed, 37 wounded total)",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/26/israel-bombs-lebanon-north-of-occupied-zone/",
       "satelliteImagery": false
     }
   ]
