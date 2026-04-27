@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-27T06:07:00Z",
+    "lastUpdated": "2026-04-27T12:32:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 58
+    "conflictDay": 59
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-27",
-      "label": "Day 59 PM PT (Sunday electronic) — Brent $107.97 (+35.2% from pre-war $79.84), WTI $96.00 (+27.1% from $75.51). Surged 2.5% from Friday close on WHCD shooting aftermath + stalled peace talks. Araghchi met Putin in Moscow. Trump: 'they can call.' Pezeshkian rejects 'forced negotiations.' Lebanon ceasefire near collapse — 14 killed, IDF soldier Fooks KIA. War Powers deadline May 1 (4 days). Monday open expected volatile.",
+      "label": "Day 59 Early AM PT — Brent $108.11 (+35.4% from pre-war $79.84), WTI $96.50 (+27.8% from $75.51). Firmed on Iran Deputy Speaker Nikzad declaring Hormuz 'under no circumstances' returns to pre-war state. Goldman Sachs raised Q4 Brent forecast to $90. IDF strikes Beqaa Valley first time in 3 weeks. Houthis fire 3 ASBMs in Red Sea — hit Andromeda Star. Khamenei 'martyr' mural deepens leadership mystery. Iran Hormuz proposal via Pakistan awaiting WH response. Gas $4.09 AAA. War Powers May 1 — 4 days.",
       "brent": {
-        "price": 107.97,
-        "change": "+35.3%",
-        "changeDollars": "+$28.13"
+        "price": 108.11,
+        "change": "+35.5%",
+        "changeDollars": "+$28.31"
       },
       "wti": {
-        "price": 96.00,
-        "change": "+27.2%",
-        "changeDollars": "+$20.49"
+        "price": 96.50,
+        "change": "+27.8%",
+        "changeDollars": "+$20.99"
       },
-      "changePercent": 35.3,
+      "changePercent": 35.5,
       "lastUpdated": "2026-04-27"
     },
     "priceHistory": [
@@ -640,7 +640,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-04-27T00:25:00Z",
-    "note": "Day 59 PM PT (Sunday): Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Surged 2.5% in electronic trading on WHCD shooting + stalled talks. AAA avg $4.031/gal (+28.0%). Araghchi meets Putin in Moscow. Trump: 'they can call.' Lebanon ceasefire near collapse — 14 killed, Fooks KIA. Hormuz: 37 ships redirected. OFAC froze $344M crypto. War Powers May 1 (4 days). Monday open expected volatile.",
+    "note": "Day 59 Early AM PT: Brent $108.11 (+35.5%), WTI $96.50 (+27.8%). Firmed on Nikzad Hormuz statement. AAA avg $4.09/gal (+30.3%). Goldman raises Q4 Brent to $90. IDF Beqaa Valley strikes. Houthis hit Andromeda Star. Khamenei mural. War Powers May 1 (4 days).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,14 +650,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.031,
-          "change": "+28.4%",
-          "changeDollars": "+$0.89",
+          "price": 4.09,
+          "change": "+30.3%",
+          "changeDollars": "+$0.95",
           "date": "2026-04-27"
         },
-        "change": "+$0.89",
-        "changePercent": "+28.4%",
-        "detail": "Gas $4.031/gal (AAA, April 27). Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Pre-war $3.14. CA $5.84. OK $3.40 (low). Jones Act waiver extended 90 days.",
+        "change": "+$0.95",
+        "changePercent": "+30.3%",
+        "detail": "Gas $4.09/gal (AAA weekly, April 27). Brent $108.11 (+35.5%), WTI $96.50 (+27.8%). Pre-war $3.14. CA $5.84. OK $3.40 (low). Jones Act waiver extended 90 days.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1145,6 +1145,13 @@
       "brent": 107.97,
       "wti": 96.00,
       "label": "Day 59 PM (Sunday electronic) — Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Surged 2.5% on stalled peace talks + WHCD shooting aftermath. Iran sends new Hormuz proposal via Pakistan (Axios). Iron Dome in UAE revealed. King Charles arrives Washington. CENTCOM: 38 ships redirected. Lebanon DT 2,509. US mine-sweeping operations in Hormuz. Trump plans Situation Room meeting Monday. War Powers May 1 (3 days). Gas $4.031.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-27",
+      "brent": 108.11,
+      "wti": 96.50,
+      "label": "Day 59 Early AM PT — Brent $108.11 (+35.5%), WTI $96.50 (+27.8%). Firmed on Nikzad: Hormuz 'under no circumstances' returns. Goldman raises Q4 Brent forecast to $90 (from $80). IDF strikes Beqaa Valley. Houthis hit Andromeda Star. Khamenei 'martyr' mural. Gas $4.09 AAA weekly. War Powers May 1 (4 days).",
       "isEvent": true
     }
   ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-27T06:07:00Z",
+    "lastUpdated": "2026-04-27T12:32:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,13 +28,13 @@
     "totalSites": 410
   },
   "summary": {
-    "totalSites": 415,
-    "confirmed": 336,
+    "totalSites": 416,
+    "confirmed": 337,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
-      "military": 59,
+      "military": 60,
       "nuclear": 8,
       "infrastructure": 12,
       "civilian": 35,
@@ -6490,6 +6490,25 @@
       "casualties": "Multiple (part of 14 killed, 37 wounded total)",
       "source": "The National",
       "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/04/26/israel-bombs-lebanon-north-of-occupied-zone/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-420",
+      "name": "Beqaa Valley Hezbollah Weapons Depot (airstrike)",
+      "city": "Beqaa Valley",
+      "country": "Lebanon",
+      "lat": 33.85,
+      "lng": 35.90,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-27",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF Air Force struck Hezbollah weapons depots and rocket launch sites in the Beqaa Valley — first strikes there in approximately 3 weeks. Site was used for strategic weapons storage and manufacture.",
+      "weaponUsed": "Air-launched precision munition",
+      "casualties": "Unknown",
+      "source": "Times of Israel Liveblog / JNS",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-27-2026/",
       "satelliteImagery": false
     }
   ]
