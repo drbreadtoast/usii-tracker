@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-27T19:10:00Z",
-  "currentAverage": 4.09,
+  "lastUpdated": "2026-04-28T06:16:00Z",
+  "currentAverage": 4.06,
   "preWarAverage": 3.14,
-  "changePercent": 30.25,
+  "changePercent": 29.30,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -489,6 +489,12 @@
       "price": 4.09,
       "label": "Day 59 Midday PT — Gas $4.09 AAA weekly (+30.3% from pre-war $3.14). Brent $108.11 (+35.4%). WTI $96.49. IDF strikes 7 southern Lebanon towns kill 14. Araghchi meets Putin/Lavrov in St. Petersburg — Russian mediation pivot. Trump Truth Social 4-day Iran ultimatum: 'May 1 means nothing.' 3 US carriers concurrent in CENTCOM. Bloomberg Hormuz Tracker: ship transits down 95% (~7/24h vs 140 pre-war). War Powers May 1 (4 days). CA $5.84. OK $3.40.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-28",
+      "price": 4.06,
+      "label": "Day 60 Late PM PT — Gas ~$4.06 AAA (+29.3% from pre-war $3.14). Brent $110.44 (+38.3%). WTI $97.32 (+28.9%). Iran's Hormuz proposal rejected by Rubio. Guterres warns of food emergency. 2nd Hezbollah drone wounds IDF. Merz: US 'being humiliated.' Goldman Q4 Brent at $90. IEA: 'largest supply disruption in history.' War Powers May 1 (3 days). Hormuz Day 57.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -538,29 +544,29 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 26 AM)",
-      "crudePerBarrel": 104.40,
+      "label": "Current (Apr 28 Late PM PT)",
+      "crudePerBarrel": 110.44,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$104.40 ÷ 42 gal (Brent Fri close)",
-          "value": 2.486,
-          "percent": 56,
-          "change": "+$0.866"
+          "formula": "$110.44 ÷ 42 gal (Brent Apr 28)",
+          "value": 2.630,
+          "percent": 57,
+          "change": "+$1.010"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.672,
+          "value": 0.666,
           "percent": 16,
-          "change": "+$0.272"
+          "change": "+$0.266"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
-          "value": 0.288,
+          "value": 0.290,
           "percent": 7,
-          "change": "+$0.138"
+          "change": "+$0.140"
         },
         {
           "name": "Federal Excise Tax",
@@ -584,18 +590,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.09,
-      "note": "National average $4.09/gal (AAA weekly April 27, up $0.06 from prior week). Brent $108.11 (+35.4%), WTI $96.49 (+27.8%). IDF strikes 7 southern Lebanon towns. Araghchi pivots to Russian mediation. Trump Truth Social 4-day Iran ultimatum dismisses May 1 War Powers vote. 3 US carriers in CENTCOM concurrently. Bloomberg Hormuz Tracker: 95% reduction in transits. War Powers May 1 (4 days). CA $5.84. OK $3.40.",
+      "total": 4.06,
+      "note": "National average ~$4.06/gal (AAA, April 28). Brent $110.44 (+38.3%), WTI $97.32 (+28.9%). Iran Hormuz proposal rejected by Rubio. Guterres warns of food emergency. 2nd Hezbollah drone wounds IDF. Merz: US 'being humiliated.' Goldman Q4 Brent at $90. IEA: 'largest supply disruption in history.' Hormuz Day 57. War Powers May 1 (3 days).",
       "crude": 2.63,
       "taxes": 0.534,
-      "refining": 0.685,
-      "distribution": 0.288,
-      "regularGasoline": 4.09,
-      "changeFromPreWar": "+$0.95",
-      "changePercent": "+30.3%",
-      "lastUpdated": "2026-04-27T19:10:00Z",
-      "date": "2026-04-27"
+      "refining": 0.666,
+      "distribution": 0.290,
+      "regularGasoline": 4.06,
+      "changeFromPreWar": "+$0.92",
+      "changePercent": "+29.3%",
+      "lastUpdated": "2026-04-28T06:16:00Z",
+      "date": "2026-04-28"
     }
   },
-  "context": "Day 59 Midday PT: Gas $4.09/gal (AAA weekly April 27, +30.3% from pre-war $3.14). Brent $108.11 (+35.4%). WTI $96.49 (+27.8%). IDF strikes 7 southern Lebanon towns kill 14. Araghchi meets Putin and Lavrov in St. Petersburg signaling pivot to Russian mediation. Trump Truth Social 4-day Iran ultimatum: 'May 1 means nothing... we will keep the Strait OPEN.' 3 US carriers operating concurrently in CENTCOM (first since 2003). Bloomberg Hormuz Tracker: ship transits ~7/24h vs 140 pre-war (95% reduction); CENTCOM redirected 38 ships. Goldman Sachs Q4 Brent forecast at $90. War Powers May 1 (4 days). CA $5.84. OK $3.40."
+  "context": "Day 60 Late PM PT: Gas ~$4.06/gal (AAA, April 28, +29.3% from pre-war $3.14). Brent $110.44 (+38.3%). WTI $97.32 (+28.9%). Iran's Hormuz reopening proposal rejected by Rubio — Trump 'unhappy.' Guterres warns Hormuz blockade risks global food emergency. 2nd Hezbollah drone attack wounds IDF soldiers. German Chancellor Merz: US 'being humiliated' by Iran. Goldman Q4 Brent at $90. IEA: 'largest energy supply disruption in history' — 10.1 mb/d plunge. Senate defeated War Powers for 5th time. Veterans anti-war protest — 62 arrested. Hormuz Day 57. War Powers May 1 (3 days)."
 }

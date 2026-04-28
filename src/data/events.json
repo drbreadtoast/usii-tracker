@@ -43336,5 +43336,225 @@
       "centcom",
       "day59"
     ]
+  },
+  {
+    "id": "evt-new-1231",
+    "title": "IDF Sgt. Idan Fooks killed by Hezbollah explosive drone in Taybeh, Lebanon",
+    "description": "Sgt. Idan Fooks, 19, of the 7th Armored Brigade's 77th Battalion, was killed by a Hezbollah explosive-laden drone while troops repaired a stuck tank in Taybeh, southern Lebanon. Six others wounded (3 severely, 1 moderately, 2 lightly). Third IDF soldier killed during the ceasefire and first in a direct Hezbollah attack.",
+    "type": "strike",
+    "lat": 33.2100,
+    "lng": 35.4400,
+    "location": "Taybeh, Southern Lebanon",
+    "timestamp": "2026-04-26T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF soldier killed in drone attack",
+        "url": "https://www.timesofisrael.com/idf-soldier-killed-in-south-lebanon-drone-attack-as-israel-hezbollah-trade-blame/"
+      },
+      {
+        "name": "Haaretz — IDF soldier killed in Hezbollah drone strike",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-26/ty-article/.premium/idf-soldier-killed-in-hezbollah-drone-strike-in-southern-lebanon-military-says/0000019d-caad-d11b-a7df-efff5ea50000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 6
+    },
+    "tags": [
+      "hezbollah",
+      "drone",
+      "idf",
+      "lebanon",
+      "ceasefire-violation",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1232",
+    "title": "Second Hezbollah explosive drone attack wounds IDF soldiers in southern Lebanon",
+    "description": "A second Hezbollah explosive drone struck IDF troops in the Israeli buffer zone in southern Lebanon. One soldier severely wounded, another lightly hurt. Marks continued Hezbollah drone warfare against IDF positions during the ceasefire.",
+    "type": "strike",
+    "lat": 33.1800,
+    "lng": 35.4000,
+    "location": "Southern Lebanon (buffer zone)",
+    "timestamp": "2026-04-28T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF soldier severely wounded in Hezbollah drone attack",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-soldier-severely-wounded-another-lightly-hurt-in-hezbollah-explosive-drone-attack-in-southern-lebanon/"
+      },
+      {
+        "name": "Haaretz — Israeli soldier seriously wounded in drone attack",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-28/ty-article-live/trump-unhappy-with-iranian-proposal-u-s-official-says/0000019d-d1cd-dc2f-addf-ffdf5da30000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": [
+      "hezbollah",
+      "drone",
+      "idf",
+      "lebanon",
+      "ceasefire-violation",
+      "day60"
+    ]
+  },
+  {
+    "id": "evt-new-1233",
+    "title": "Iran offers to reopen Strait of Hormuz, defer nuclear talks — Rubio rejects",
+    "description": "Iran proposed reopening the Strait of Hormuz and ending the war while postponing nuclear negotiations to a separate track. Secretary of State Rubio rejected the proposal, stating any agreement must 'definitively prevent them from sprinting towards a nuclear weapon.' Trump reviewed the proposal with his national security team but is reportedly 'unhappy' with it.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington, D.C.",
+    "timestamp": "2026-04-27T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC — Trump discusses Iran's Hormuz proposal",
+        "url": "https://www.cnbc.com/2026/04/27/trump-iran-war-strait-of-hormuz-rubio.html"
+      },
+      {
+        "name": "Foreign Policy — Iran offers to reopen Hormuz, postpone nuclear talks",
+        "url": "https://foreignpolicy.com/2026/04/27/iran-reopen-strait-hormuz-postpone-nuclear-talks-us-blockade/"
+      },
+      {
+        "name": "Times of Israel — Rubio rejects Iranian proposal",
+        "url": "https://www.timesofisrael.com/rubio-rejects-new-iranian-proposal-to-reopen-strait-of-hormuz-which-tehran-says-it-still-controls/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "diplomacy",
+      "hormuz",
+      "rubio",
+      "trump",
+      "iran",
+      "nuclear",
+      "day60"
+    ]
+  },
+  {
+    "id": "evt-new-1234",
+    "title": "German Chancellor Merz says US 'being humiliated' by Iran in war",
+    "description": "German Chancellor Friedrich Merz publicly criticized US strategy, saying Iran is 'humiliating' the US and that Iranian officials are 'obviously negotiating very skilfully' and appear 'clearly stronger than one thought.' Said he cannot see what the US exit strategy is, marking a major rift between Washington and European NATO allies.",
+    "type": "diplomatic",
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "location": "Berlin, Germany",
+    "timestamp": "2026-04-27T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Germany's Merz says Iran 'humiliated' US",
+        "url": "https://www.aljazeera.com/news/2026/4/27/iran-very-skilful-as-us-humiliated-says-german-chancellor"
+      },
+      {
+        "name": "The Hill — Germany's Merz says US being humiliated",
+        "url": "https://thehill.com/policy/international/5850794-germany-chancellor-merz-iran-us/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "germany",
+      "merz",
+      "diplomacy",
+      "nato",
+      "criticism",
+      "day59"
+    ]
+  },
+  {
+    "id": "evt-new-1235",
+    "title": "UN Guterres warns Hormuz blockade risks global food emergency",
+    "description": "UN Secretary-General Guterres called for immediate reopening of the Strait of Hormuz: 'Let ships pass. No tolls. No discrimination. Let the global economy breathe.' Warned a third of global maritime fertilizer trade passes through Hormuz and the blockade risks triggering a global food crisis as planting season begins in vulnerable countries (Sudan, Somalia).",
+    "type": "diplomatic",
+    "lat": 40.7489,
+    "lng": -73.9680,
+    "location": "United Nations, New York",
+    "timestamp": "2026-04-28T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "UN News — Clock is ticking on Hormuz/food crisis",
+        "url": "https://news.un.org/en/story/2026/04/1167289"
+      },
+      {
+        "name": "Deccan Chronicle — UN chief urges opening of Hormuz",
+        "url": "https://www.deccanchronicle.com/west-asia/un-chief-urges-opening-of-hormuz-no-tolls-or-discrimination-1953232"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "un",
+      "guterres",
+      "hormuz",
+      "food-crisis",
+      "humanitarian",
+      "day60"
+    ]
+  },
+  {
+    "id": "evt-new-1236",
+    "title": "Veterans anti-war protest on Capitol Hill — 62 arrested at Cannon House Office Building",
+    "description": "Dozens of military veterans and family members from Veterans for Peace, About Face, Common Defense, and Military Families Speak Out occupied the Cannon House Office Building to demand a meeting with House Speaker Mike Johnson and protest the Iran war. At least 62 people arrested including elderly and disabled activists.",
+    "type": "protest",
+    "lat": 38.8870,
+    "lng": -77.0086,
+    "location": "Cannon House Office Building, Washington, D.C.",
+    "timestamp": "2026-04-27T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Democracy Now — Military veterans arrested in Capitol Hill protest",
+        "url": "https://www.democracynow.org/2026/4/21/headlines/military_veterans_and_family_members_arrested_in_capitol_hill_protest_against_iran_war"
+      },
+      {
+        "name": "OPB — Veteran-led protest against Iran war",
+        "url": "https://www.opb.org/article/2026/04/25/veteran-led-protest-against-iran-war-strikes-a-chord-across-the-nation/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": [
+      "protest",
+      "veterans",
+      "antiwar",
+      "congress",
+      "day59"
+    ]
   }
 ]
