@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-28T12:32:00Z",
-  "currentAverage": 4.031,
-  "preWarAverage": 3.14,
-  "changePercent": 28.38,
+  "lastUpdated": "2026-04-28T19:01:00Z",
+  "currentAverage": 4.176,
+  "preWarAverage": 3.13,
+  "changePercent": 33.42,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -495,6 +495,12 @@
       "price": 4.06,
       "label": "Day 60 Late PM PT — Gas ~$4.06 AAA (+29.3% from pre-war $3.14). Brent $110.44 (+38.3%). WTI $97.32 (+28.9%). Iran's Hormuz proposal rejected by Rubio. Guterres warns of food emergency. 2nd Hezbollah drone wounds IDF. Merz: US 'being humiliated.' Goldman Q4 Brent at $90. IEA: 'largest supply disruption in history.' War Powers May 1 (3 days). Hormuz Day 57.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-28",
+      "price": 4.176,
+      "label": "Day 60 Afternoon PT — Gas $4.176 AAA national avg (+33.4% from pre-war $3.13). Brent $111.16 (+39.23%). WTI $99.62 (+31.93%). Trump Truth Social: Iran 'state of collapse,' attacks Merz. Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo: 'delusion of omnipotence.' War Powers May 1 (3 days). Hormuz Day 57.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -544,22 +550,22 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 28 Late PM PT)",
+      "label": "Current (Apr 28 Afternoon PT)",
       "crudePerBarrel": 111.16,
       "components": [
         {
           "name": "Crude Oil Cost",
           "formula": "$111.16 ÷ 42 gal (Brent Apr 28)",
           "value": 2.647,
-          "percent": 57,
+          "percent": 63,
           "change": "+$1.027"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.666,
-          "percent": 16,
-          "change": "+$0.266"
+          "value": 0.585,
+          "percent": 14,
+          "change": "+$0.185"
         },
         {
           "name": "Distribution & Marketing",
@@ -590,18 +596,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.031,
-      "note": "National average $4.031/gal (AAA, April 28). Brent $111.16 (+39.3%), WTI $99.43 (+31.7%). GCC emergency summit demands Hormuz reopening. Kallas: 'dangerous precedence.' Zelensky threatens Israel. US $10M bounty on 3rd militia leader. Hormuz Day 57. War Powers May 1 (3 days).",
+      "total": 4.176,
+      "note": "National average $4.176/gal (AAA, April 28). Brent $111.16 (+39.23%), WTI $99.62 (+31.93%). Trump Truth Social: Iran 'state of collapse,' attacks Merz. Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo: 'delusion of omnipotence.' Hormuz Day 57. War Powers May 1 (3 days).",
       "crude": 2.647,
       "taxes": 0.534,
-      "refining": 0.666,
+      "refining": 0.585,
       "distribution": 0.290,
-      "regularGasoline": 4.031,
-      "changeFromPreWar": "+$0.89",
-      "changePercent": "+28.4%",
-      "lastUpdated": "2026-04-28T12:32:00Z",
+      "regularGasoline": 4.176,
+      "changeFromPreWar": "+$1.046",
+      "changePercent": "+33.4%",
+      "lastUpdated": "2026-04-28T19:01:00Z",
       "date": "2026-04-28"
     }
   },
-  "context": "Day 60 Midday PT: Gas $4.031/gal (AAA, April 28, +28.4% from pre-war $3.14). Brent $111.16 (+39.3%). WTI $99.43 (+31.7%). Oil rallies +2.71% on stalemate. GCC emergency summit in Jeddah demands 'urgent and unimpeded' Hormuz reopening. Kallas warns of 'dangerous precedence.' Zelensky threatens Israel sanctions over Russian grain. US $10M bounty on 3rd Iraqi militia leader. Hormuz Day 57. War Powers May 1 (3 days)."
+  "context": "Day 60 Afternoon PT: Gas $4.176/gal (AAA, April 28, +33.4% from pre-war $3.13). Brent $111.16 (+39.23%). WTI $99.62 (+31.93%). 7th straight up day for WTI. Trump Truth Social: Iran 'state of collapse'; attacks Merz. Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo at St. Peter's: 'delusion of omnipotence.' Hormuz Day 57. War Powers May 1 (3 days)."
 }
