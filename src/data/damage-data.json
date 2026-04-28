@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-27T12:32:00Z",
+    "lastUpdated": "2026-04-28T12:32:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 410
   },
   "summary": {
-    "totalSites": 416,
-    "confirmed": 337,
+    "totalSites": 418,
+    "confirmed": 339,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6509,6 +6509,44 @@
       "casualties": "Unknown",
       "source": "Times of Israel Liveblog / JNS",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-april-27-2026/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-421",
+      "name": "Kfar Tebnit Mosque and Military Positions (airstrike)",
+      "city": "Kfar Tebnit",
+      "country": "Lebanon",
+      "lat": 33.2028,
+      "lng": 35.4492,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-27",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF struck Kfar Tebnit killing 5, destroying mosque. Part of 20+ target strike package across 7 southern Lebanon towns on April 27.",
+      "weaponUsed": "Precision-guided munition",
+      "casualties": "5 killed",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/27/hezbollah-and-israel-swap-threats-and-strikes-across-lebanons-border",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-422",
+      "name": "Zawtar Al Sharqiya Mosque (airstrike)",
+      "city": "Zawtar Al Sharqiya",
+      "country": "Lebanon",
+      "lat": 33.2375,
+      "lng": 35.4333,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-27",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF airstrike destroyed a mosque in Zawtar Al Sharqiya. Part of IDF strike operations during April 27 targeting Hezbollah positions in southern Lebanon despite ceasefire.",
+      "weaponUsed": "Air-launched munition",
+      "casualties": "Unknown",
+      "source": "Democracy Now",
+      "sourceUrl": "https://www.democracynow.org/2026/4/27/headlines/israeli_strikes_kill_14_people_in_lebanon_despite_us_brokered_ceasefire",
       "satelliteImagery": false
     }
   ]
