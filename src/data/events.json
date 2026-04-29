@@ -44210,5 +44210,258 @@
       "injured": 0
     },
     "tags": ["eu", "kallas", "sanctions", "iran", "human-rights", "day61"]
+  },
+  {
+    "id": "evt-new-1258",
+    "title": "Israeli strikes kill 8 in 3 southern Lebanon towns — 3 rescue workers killed, 2 Lebanese Army soldiers wounded",
+    "description": "Israeli airstrikes hit three towns in southern Lebanon on April 29. In Majdal Zoun, 5 people were killed including 3 Lebanese Civil Defence paramedics trapped under rubble during a rescue mission; 2 Lebanese Army soldiers were wounded — the first time the Lebanese army says its troops were targeted since the ceasefire. In Jebchit, 2 killed and 13 wounded. In Jwaya, 1 killed and 15 wounded including 5 children. Total: 8 killed, 28+ wounded.",
+    "type": "strike",
+    "lat": 33.22,
+    "lng": 35.27,
+    "location": "Majdal Zoun, Jebchit, Jwaya — Southern Lebanon",
+    "timestamp": "2026-04-29T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews — Israeli strikes kill eight in southern Lebanon including three rescue workers",
+        "url": "https://www.euronews.com/2026/04/29/israeli-strikes-kill-eight-in-southern-lebanon-including-three-rescue-workers"
+      },
+      {
+        "name": "Al-Monitor — Israeli strike on Lebanese troops wounds two soldiers",
+        "url": "https://www.al-monitor.com/originals/2026/04/israeli-strike-lebanese-troops-rescuers-wounds-two-soldiers-lebanon-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 8,
+      "injured": 28
+    },
+    "tags": ["israel", "lebanon", "strikes", "medics", "lebanese-army", "ceasefire", "day61"]
+  },
+  {
+    "id": "evt-new-1259",
+    "title": "IDF orders evacuation of 16 southern Lebanon towns ahead of strikes on Hezbollah",
+    "description": "The IDF ordered residents of 16 villages and towns in southern Lebanon to evacuate and move northward, ahead of planned strikes on Hezbollah targets. Towns include Mayfadoun, Shoukine, Yohmar, Arnoun, Zawtar al-Sharqiyah, and Kfar Tebnit. The IDF cited Hezbollah's 'violation of the ceasefire understandings.'",
+    "type": "movement",
+    "lat": 33.30,
+    "lng": 35.40,
+    "location": "Southern Lebanon (Bint Jbeil, Tyre, Nabatieh districts)",
+    "timestamp": "2026-04-29T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF warns 16 southern Lebanon villages to evacuate",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-warns-16-southern-lebanon-villages-towns-to-evacuate-ahead-of-strikes-on-hezbollah/"
+      },
+      {
+        "name": "Manila Times — Israeli army warns residents in south Lebanon to evacuate",
+        "url": "https://www.manilatimes.net/2026/04/29/world/americas-emea/israeli-army-warns-residents-in-south-lebanon-to-evacuate/2330720"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "idf", "lebanon", "evacuation", "hezbollah", "ceasefire", "day61"]
+  },
+  {
+    "id": "evt-new-1260",
+    "title": "GCC 'Decisiveness' Summit concludes in Jeddah — collective defense, 'Maximum Readiness'",
+    "description": "The 19th GCC Consultative Meeting in Jeddah, chaired by Saudi Crown Prince Mohammed bin Salman, concluded with a shift from de-escalation to 'Maximum Readiness.' Key outcomes: 'Our security is a red line — any attack on one is an attack on all'; categorical rejection of Iran's Hormuz closure; directives to fast-track the Gulf Railway, cross-border oil/gas pipelines, and a 'Gulf Strategic Reserve' for commodities.",
+    "type": "diplomatic",
+    "lat": 21.4858,
+    "lng": 39.1925,
+    "location": "Jeddah, Saudi Arabia",
+    "timestamp": "2026-04-29T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Voice of Emirates — GCC Decisiveness Summit: 'Our security is a red line'",
+        "url": "https://www.voiceofemirates.com/en/news/2026/04/29/decisiveness-summit-in-jeddah-gcc-leaders-warn-our-security-is-a-red-line-any-attack-on-one-is-an-attack-on-all/"
+      },
+      {
+        "name": "Al Jazeera — Gulf leaders meet for first time since start of war",
+        "url": "https://www.aljazeera.com/news/2026/4/28/gulf-leaders-meet-in-saudi-arabia-for-first-time-since-start-of-war-on-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["gcc", "saudi-arabia", "jeddah", "collective-defense", "hormuz", "diplomacy", "day61"]
+  },
+  {
+    "id": "evt-new-1261",
+    "title": "Tehran-Moscow flights resume after 2-month suspension — Mahan Air operates first flight",
+    "description": "The first Tehran-Moscow commercial flight since the war began was operated by Mahan Air on April 29 (Tuesday). Regular service now runs Sun/Tue/Thu. The resumption follows Iran FM Araghchi's meeting with Putin in St. Petersburg on April 27.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran → Moscow, Russia",
+    "timestamp": "2026-04-29T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Middle East Eye — Tehran-Moscow flights resume after two-month suspension",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-moscow-flights-resume-after-two-month-suspension"
+      },
+      {
+        "name": "Mehr News — First Tehran-Moscow flight carried out after 60-day hiatus",
+        "url": "https://en.mehrnews.com/news/244065/First-Tehran-Moscow-flight-carried-out-after-60-day-hiatus"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "russia", "flights", "mahan-air", "diplomacy", "day61"]
+  },
+  {
+    "id": "evt-new-1262",
+    "title": "Bennett and Lapid merge into 'Together' party to challenge Netanyahu",
+    "description": "Former Israeli PMs Naftali Bennett and Yair Lapid announced a merger into a new party called 'Together' with Bennett as leader, to challenge Netanyahu in upcoming elections. Polls (April 28) show the anti-Netanyahu bloc still falls short of Knesset majority without Arab parties — Bennett projected 21 seats vs. Likud 25.",
+    "type": "diplomatic",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Tel Aviv, Israel",
+    "timestamp": "2026-04-28T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Former Israeli PMs Bennett, Lapid unite to challenge Netanyahu",
+        "url": "https://www.aljazeera.com/news/2026/4/26/former-israeli-pms-bennett-lapid-unite-to-challenge-netanyahu-in-elections"
+      },
+      {
+        "name": "Haaretz — First polls after merger show no majority for anti-Netanyahu bloc",
+        "url": "https://www.haaretz.com/israel-news/israel-politics/2026-04-28/ty-article/.premium/first-polls-after-lapid-bennett-merger-show-no-majority-for-anti-netanyahu-bloc/0000019d-d02e-d942-a5bf-f76e475b0000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "bennett", "lapid", "together", "elections", "domestic", "day61"]
+  },
+  {
+    "id": "evt-new-1263",
+    "title": "Netanyahu corruption trial resumes — 80th session after 2-month war break",
+    "description": "PM Netanyahu returned to cross-examination in his corruption trial (Case 4000/Bezeq-Walla affair) after a 2-month break due to the Iran war. This was the 80th testimony session. Judges rejected the defense's request to cut the session short for 'security-related schedule.'",
+    "type": "diplomatic",
+    "lat": 31.7767,
+    "lng": 35.2345,
+    "location": "Jerusalem District Court, Israel",
+    "timestamp": "2026-04-29T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Netanyahu returns to trial",
+        "url": "https://www.jpost.com/israel-news/article-894423"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "netanyahu", "trial", "corruption", "domestic", "day61"]
+  },
+  {
+    "id": "evt-new-1264",
+    "title": "Bessent: Iran oil industry 'creaking' under blockade — projects $170M/day revenue loss",
+    "description": "US Treasury Secretary Scott Bessent stated that Iran's oil industry is 'creaking' under the US-led blockade, with Kharg Island nearing maximum storage capacity. He projected $170M/day in revenue losses for Iran and warned that production shutdowns are beginning.",
+    "type": "infrastructure",
+    "lat": 29.2333,
+    "lng": 50.3167,
+    "location": "Kharg Island, Iran (referenced)",
+    "timestamp": "2026-04-29T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Benzinga — Bessent: Iran oil industry 'creaking' under blockade",
+        "url": "https://www.benzinga.com/news/politics/26/04/52083907/scott-bessent-iran-oil-industry-shutdown-us-blockade-production-collapse-warning"
+      },
+      {
+        "name": "ANI News — Bessent projects $170M daily loss",
+        "url": "https://aninews.in/news/world/us/us-treasury-secretary-says-iran-oil-industry-creaking-under-blockade-projects-usd-170-million-daily-loss20260429085851/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "bessent", "treasury", "iran", "oil", "blockade", "kharg-island", "day61"]
+  },
+  {
+    "id": "evt-new-1265",
+    "title": "Hegseth to face Congress for first time since Iran war began — April 30-May 1 hearings",
+    "description": "Defense Secretary Pete Hegseth will appear before the House Armed Services Committee (April 30) and Senate Armed Services Committee (May 1) for the first time since the Iran war began. He will present the proposed $1.5T FY2027 defense budget. Democrats expected to grill him on war costs, munitions drawdown, and the school bombing that killed children. The May 1 hearing coincides with the War Powers Act 60-day deadline.",
+    "type": "diplomatic",
+    "lat": 38.8899,
+    "lng": -77.0091,
+    "location": "US Capitol, Washington DC",
+    "timestamp": "2026-04-29T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Boston Globe — Hegseth to face Congress for first time since Iran war",
+        "url": "https://www.bostonglobe.com/2026/04/29/nation/pete-hegseth-congress-hearing/"
+      },
+      {
+        "name": "AP/ClickOrlando — Hegseth grilled by Congress",
+        "url": "https://www.clickorlando.com/news/politics/2026/04/29/hegseth-will-be-grilled-by-congress-for-the-first-time-since-the-iran-war-began/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "hegseth", "congress", "defense-budget", "war-powers", "hearing", "day61"]
+  },
+  {
+    "id": "evt-new-1266",
+    "title": "Von der Leyen: 'Too early to consider removing sanctions on Iran'",
+    "description": "European Commission President Ursula von der Leyen said it is 'too early to consider removing sanctions on Iran' even if Tehran agrees to reopen the Strait of Hormuz. She stated Iran must 'show capacity to change before Europe considers sanctions relief,' rebuking German Chancellor Merz who earlier proposed easing sanctions in exchange for Hormuz reopening.",
+    "type": "diplomatic",
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "location": "Berlin, Germany",
+    "timestamp": "2026-04-27T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Washington Times — Von der Leyen: too early to remove Iran sanctions",
+        "url": "https://www.washingtontimes.com/news/2026/apr/27/european-commission-president-ursula-von-der-leyen-soon-remove/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["eu", "von-der-leyen", "sanctions", "iran", "hormuz", "diplomacy", "day61"]
   }
 ]

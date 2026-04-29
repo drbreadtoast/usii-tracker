@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-29T00:38:00Z",
+    "lastUpdated": "2026-04-29T06:28:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 414
   },
   "summary": {
-    "totalSites": 422,
-    "confirmed": 341,
+    "totalSites": 425,
+    "confirmed": 344,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -43,7 +43,7 @@
       "energy": 5,
       "diplomatic": 1
     },
-    "lastUpdated": "2026-04-29T00:38:00Z",
+    "lastUpdated": "2026-04-29T06:28:00Z",
     "military": 58,
     "energy": 7,
     "infrastructure": 13
@@ -6623,6 +6623,63 @@
       "casualties": "None reported",
       "source": "Seatrade Maritime",
       "sourceUrl": "https://www.seatrade-maritime.com/dry-bulk/houthi-missile-hits-bulker-in-the-red-sea",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-427",
+      "name": "Majdal Zoun airstrike — 5 killed incl. 3 medics (Apr 29)",
+      "city": "Majdal Zoun",
+      "country": "Lebanon",
+      "lat": 33.22,
+      "lng": 35.27,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-29",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike killed 5 people including 3 Lebanese Civil Defence paramedics trapped under rubble during rescue. 2 Lebanese Army soldiers wounded — first army targeting since ceasefire.",
+      "weaponUsed": "Air-to-ground munition",
+      "casualties": "5 killed, 2 wounded",
+      "source": "Euronews",
+      "sourceUrl": "https://www.euronews.com/2026/04/29/israeli-strikes-kill-eight-in-southern-lebanon-including-three-rescue-workers",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-428",
+      "name": "Jebchit airstrike — 2 killed, 13 wounded (Apr 29)",
+      "city": "Jebchit",
+      "country": "Lebanon",
+      "lat": 33.37,
+      "lng": 35.50,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-29",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "Israeli airstrike killed 2 people and wounded 13 in Jebchit, southern Lebanon.",
+      "weaponUsed": "Air-to-ground munition",
+      "casualties": "2 killed, 13 wounded",
+      "source": "Al-Monitor",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/04/israeli-strike-lebanese-troops-rescuers-wounds-two-soldiers-lebanon-says",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-429",
+      "name": "Jwaya airstrike — 1 killed, 15 wounded incl. children (Apr 29)",
+      "city": "Jwaya",
+      "country": "Lebanon",
+      "lat": 33.28,
+      "lng": 35.28,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-29",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "Israeli airstrike killed 1 person and wounded 15 including 5 children and 5 women in Jwaya, southern Lebanon.",
+      "weaponUsed": "Air-to-ground munition",
+      "casualties": "1 killed, 15 wounded",
+      "source": "Daily Sabah",
+      "sourceUrl": "https://www.dailysabah.com/world/mid-east/8-killed-in-israeli-strikes-southern-lebanon-despite-cease-fire",
       "satelliteImagery": false
     }
   ]

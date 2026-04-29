@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-29T00:38:00Z",
+    "lastUpdated": "2026-04-29T06:28:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-29",
-      "label": "Day 61 PM PT — Brent $111.57 (+39.7% from pre-war $79.84), WTI $100.16 (+32.6% from $75.51). WTI tops $100 for first time since Apr 10 — 8th straight up day. UAE quits OPEC effective May 1. Hezbollah drone kills Israeli contractor in Aitaroun. Houthis hit MSC Orion at record 600km range. World Bank warns of 24% energy price surge. Hormuz Day 58 effectively closed. AAA gas $4.18 (+33.5%). War Powers May 1 (2 days).",
+      "label": "Day 61 Late PT — Brent $111.12 (+39.2% from pre-war $79.84), WTI $99.32 (+31.5% from $75.51). Slight pullback from yesterday's highs — WTI slips below $100. Bessent: Iran oil industry 'creaking,' Kharg Island near max storage, $170M/day revenue loss. GCC 'Decisiveness' summit: collective defense, Maximum Readiness. Israeli strikes kill 8 in Lebanon (3 medics). Hegseth faces Congress Apr 30-May 1. Hormuz Day 58. War Powers May 1 (2 days).",
       "brent": {
-        "price": 111.57,
-        "change": "+39.8%",
-        "changeDollars": "+$31.77"
+        "price": 111.12,
+        "change": "+39.2%",
+        "changeDollars": "+$31.28"
       },
       "wti": {
-        "price": 100.16,
-        "change": "+32.7%",
-        "changeDollars": "+$24.66"
+        "price": 99.32,
+        "change": "+31.5%",
+        "changeDollars": "+$23.81"
       },
-      "changePercent": 39.8,
+      "changePercent": 39.2,
       "lastUpdated": "2026-04-29"
     },
     "priceHistory": [
@@ -1180,6 +1180,13 @@
       "brent": 111.57,
       "wti": 100.16,
       "label": "Day 61 PM PT — Brent $111.57 (+39.7%), WTI $100.16 (+32.6%) — tops $100 first time since Apr 10, 8th straight up day. UAE quits OPEC/OPEC+ effective May 1. Hezbollah drone kills contractor in Aitaroun. Houthis hit MSC Orion at record 600km. World Bank: 24% energy price surge forecast. US Treasury sanctions 35 entities. EU sanctions 19 Iranian officials. Guterres: 'Open the Strait.' Iran steel export ban. AAA gas $4.18 (+33.5%). Hormuz Day 58. War Powers May 1 (2 days).",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-29",
+      "brent": 111.12,
+      "wti": 99.32,
+      "label": "Day 61 Late PT — Brent $111.12 (+39.2%), WTI $99.32 (+31.5%). Slight pullback — WTI slips below $100. Bessent: Iran oil 'creaking,' $170M/day loss. GCC 'Decisiveness' summit: Maximum Readiness. Israeli strikes kill 8 in Lebanon (3 medics). Tehran-Moscow flights resume. Bennett-Lapid merger. Hegseth faces Congress Apr 30. AAA gas $4.18. Hormuz Day 58. War Powers May 1 (2 days).",
       "isEvent": true
     }
   ]
