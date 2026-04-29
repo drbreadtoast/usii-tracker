@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-28T19:01:00Z",
+    "lastUpdated": "2026-04-29T00:38:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,10 +25,10 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 412
+    "totalSites": 414
   },
   "summary": {
-    "totalSites": 420,
+    "totalSites": 422,
     "confirmed": 341,
     "reported": 1,
     "rumored": 0,
@@ -43,7 +43,7 @@
       "energy": 5,
       "diplomatic": 1
     },
-    "lastUpdated": "2026-04-28T19:01:00Z",
+    "lastUpdated": "2026-04-29T00:38:00Z",
     "military": 58,
     "energy": 7,
     "infrastructure": 13
@@ -6585,6 +6585,44 @@
       "casualties": "None reported",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/idf-blows-up-2-vast-hezbollah-attack-tunnels-built-with-direct-guidance-from-iran/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-425",
+      "name": "Aitaroun engineering site — Hezbollah drone kills contractor (Apr 29)",
+      "city": "Aitaroun",
+      "country": "Lebanon",
+      "lat": 33.12,
+      "lng": 35.45,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-29",
+      "attributedTo": "hezbollah",
+      "damageLevel": "moderate",
+      "description": "Hezbollah explosive drone struck an engineering bulldozer at an IDF-operated site in Aitaroun, killing Israeli Defense Ministry contractor Amer Hujairat (44) and lightly wounding his 19-year-old son. Hezbollah claimed responsibility.",
+      "weaponUsed": "Explosive drone (fiber-optic guided)",
+      "casualties": "1 killed, 1 wounded",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-28/ty-article/civilian-contractor-working-for-defense-ministry-killed-in-southern-lebanon/0000019d-d5ca-d9f6-a1dd-ddca943a0000",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-426",
+      "name": "MV Cyclades — Houthi 7-hour assault in Red Sea (Apr 29)",
+      "city": "Red Sea",
+      "country": "International Waters",
+      "lat": 15.50,
+      "lng": 42.00,
+      "category": "maritime",
+      "status": "confirmed",
+      "date": "2026-04-29",
+      "attributedTo": "houthis",
+      "damageLevel": "minor",
+      "description": "Houthis attacked the Malta-flagged MV Cyclades with 3 ASBMs and multiple UAVs over 7 hours. A Samad-1 loitering munition scored a hit causing minor damage to the bulk carrier.",
+      "weaponUsed": "ASBM + Samad-1 loitering munition",
+      "casualties": "None reported",
+      "source": "Seatrade Maritime",
+      "sourceUrl": "https://www.seatrade-maritime.com/dry-bulk/houthi-missile-hits-bulker-in-the-red-sea",
       "satelliteImagery": false
     }
   ]

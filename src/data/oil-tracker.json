@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-04-28T19:01:00Z",
+    "lastUpdated": "2026-04-29T00:38:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 60
+    "conflictDay": 61
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-28",
-      "label": "Day 60 Afternoon PT — Brent $111.16 (+39.23% from pre-war $79.84), WTI $99.62 (+31.93% from $75.51). 7th straight up day for WTI; Trump's 'state of collapse' Truth Social post and Rubio's 'economic nuclear weapon' framing add diplomatic risk premium. IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo: 'delusion of omnipotence.' Hormuz Day 57 effectively closed. AAA gas $4.176 (+33.4%). War Powers May 1 (3 days).",
+      "date": "2026-04-29",
+      "label": "Day 61 PM PT — Brent $111.57 (+39.7% from pre-war $79.84), WTI $100.16 (+32.6% from $75.51). WTI tops $100 for first time since Apr 10 — 8th straight up day. UAE quits OPEC effective May 1. Hezbollah drone kills Israeli contractor in Aitaroun. Houthis hit MSC Orion at record 600km range. World Bank warns of 24% energy price surge. Hormuz Day 58 effectively closed. AAA gas $4.18 (+33.5%). War Powers May 1 (2 days).",
       "brent": {
-        "price": 111.16,
-        "change": "+39.3%",
-        "changeDollars": "+$31.32"
+        "price": 111.57,
+        "change": "+39.8%",
+        "changeDollars": "+$31.77"
       },
       "wti": {
-        "price": 99.62,
-        "change": "+31.9%",
-        "changeDollars": "+$24.11"
+        "price": 100.16,
+        "change": "+32.7%",
+        "changeDollars": "+$24.66"
       },
-      "changePercent": 39.3,
-      "lastUpdated": "2026-04-28"
+      "changePercent": 39.8,
+      "lastUpdated": "2026-04-29"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-28T19:01:00Z",
-    "note": "Day 60 Afternoon PT: Brent $111.16 (+39.23%), WTI $99.62 (+31.93%). AAA avg $4.176/gal (+33.4%). Trump Truth Social: Iran 'state of collapse,' attacks Merz; Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Beqaa/Qantara targets. Pope Leo: 'delusion of omnipotence.' Hormuz Day 57. War Powers May 1 (3 days).",
+    "lastUpdated": "2026-04-29T00:38:00Z",
+    "note": "Day 61 PM PT: Brent $111.57 (+39.7%), WTI $100.16 (+32.6%) — tops $100 first time since Apr 10. AAA avg $4.18/gal (+33.5%). UAE quits OPEC effective May 1. World Bank warns of 24% energy price surge. Hormuz Day 58. War Powers May 1 (2 days).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,14 +650,14 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.176,
-          "change": "+33.4%",
-          "changeDollars": "+$1.046",
-          "date": "2026-04-28"
+          "price": 4.18,
+          "change": "+33.5%",
+          "changeDollars": "+$1.05",
+          "date": "2026-04-29"
         },
         "change": "+$1.05",
-        "changePercent": "+33.4%",
-        "detail": "Gas $4.176/gal (AAA, April 28). Brent $111.16 (+39.23%), WTI $99.62 (+31.93%). Pre-war $3.13. Trump 'state of collapse' post; Rubio 'economic nuclear weapon.' Goldman Q4 $90.",
+        "changePercent": "+33.5%",
+        "detail": "Gas $4.18/gal (AAA, April 29). Brent $111.57 (+39.7%), WTI $100.16 (+32.6%). Pre-war $3.13. UAE exits OPEC. World Bank: 24% energy surge forecast.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1173,6 +1173,13 @@
       "brent": 111.16,
       "wti": 99.62,
       "label": "Day 60 Afternoon PT — Brent $111.16 (+39.23%), WTI $99.62 (+31.93%). 7th straight up day for WTI. Trump Truth Social: Iran 'state of collapse,' attacks Merz; Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo at St. Peter's: 'delusion of omnipotence.' AAA gas $4.176 (+33.4%). War Powers May 1 (3 days).",
+      "isEvent": true
+    },
+    {
+      "date": "2026-04-29",
+      "brent": 111.57,
+      "wti": 100.16,
+      "label": "Day 61 PM PT — Brent $111.57 (+39.7%), WTI $100.16 (+32.6%) — tops $100 first time since Apr 10, 8th straight up day. UAE quits OPEC/OPEC+ effective May 1. Hezbollah drone kills contractor in Aitaroun. Houthis hit MSC Orion at record 600km. World Bank: 24% energy price surge forecast. US Treasury sanctions 35 entities. EU sanctions 19 Iranian officials. Guterres: 'Open the Strait.' Iran steel export ban. AAA gas $4.18 (+33.5%). Hormuz Day 58. War Powers May 1 (2 days).",
       "isEvent": true
     }
   ]

@@ -9155,5 +9155,77 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-540",
+    "city": "Aitaroun",
+    "country": "Lebanon",
+    "lat": 33.12,
+    "lng": 35.45,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-29",
+    "description": "Hezbollah explosive drone struck an engineering bulldozer operated by Israeli Defense Ministry contractor Amer Hujairat (44) in Aitaroun, killing him. His 19-year-old son was lightly wounded. Hezbollah claimed targeting a bulldozer demolishing homes.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-28/ty-article/civilian-contractor-working-for-defense-ministry-killed-in-southern-lebanon/0000019d-d5ca-d9f6-a1dd-ddca943a0000",
+    "weaponType": "Explosive drone (fiber-optic guided)",
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-541",
+    "city": "Southern Lebanon",
+    "country": "Lebanon",
+    "lat": 33.20,
+    "lng": 35.40,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-28",
+    "description": "Hezbollah explosive drone wounded 2 IDF soldiers (1 seriously, 1 lightly) in southern Lebanon. Announced April 29. IDF stated this constituted a ceasefire violation.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/idf-soldier-severely-wounded-as-hezbollah-drones-target-troops-in-southern-lebanon/",
+    "weaponType": "Explosive drone (fiber-optic guided)",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
+  },
+  {
+    "id": "ms-542",
+    "city": "Red Sea (MV Cyclades)",
+    "country": "International Waters",
+    "lat": 15.50,
+    "lng": 42.00,
+    "strikeType": "missile_and_drone",
+    "attributedTo": "houthis",
+    "date": "2026-04-29",
+    "description": "Houthis attacked MV Cyclades with 3 ASBMs and multiple UAVs over 7 hours. Samad-1 loitering munition scored a hit causing minor damage.",
+    "source": "Seatrade Maritime",
+    "sourceUrl": "https://www.seatrade-maritime.com/dry-bulk/houthi-missile-hits-bulker-in-the-red-sea",
+    "weaponType": "ASBM + Samad-1 loitering munition",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-543",
+    "city": "Arabian Sea (MSC Orion)",
+    "country": "International Waters",
+    "lat": 13.00,
+    "lng": 52.00,
+    "strikeType": "drone",
+    "attributedTo": "houthis",
+    "date": "2026-04-29",
+    "description": "Houthis attacked MSC Orion ~600km off Yemen — furthest Houthi attack ever. EU Operation Atalanta advised 150nm reroute east.",
+    "source": "Maritime Executive",
+    "sourceUrl": "https://maritime-executive.com/article/houthi-attack-on-msc-ship-in-indian-ocean-indicates-further-range",
+    "weaponType": "Long-range UAV",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]

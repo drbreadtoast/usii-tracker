@@ -43907,5 +43907,308 @@
       "diplomacy",
       "day60"
     ]
+  },
+  {
+    "id": "evt-new-1247",
+    "title": "UAE announces exit from OPEC and OPEC+ effective May 1",
+    "description": "The United Arab Emirates announced withdrawal from OPEC and OPEC+ effective May 1, 2026, citing 'national interests' and frustration with production caps at ~3.2M bpd. The UAE criticized fellow Arab states for insufficient protection from Iranian attacks during the war. The exit strips OPEC of its third-largest producer after ~60 years of membership and is expected to weaken the cartel's influence long-term. Decision was not coordinated with Saudi Arabia.",
+    "type": "diplomatic",
+    "lat": 24.4539,
+    "lng": 54.6533,
+    "location": "Abu Dhabi, UAE",
+    "timestamp": "2026-04-28T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "CNN — UAE to quit OPEC",
+        "url": "https://www.cnn.com/2026/04/28/world/live-news/iran-war-trump-israel"
+      },
+      {
+        "name": "Washington Post — UAE to leave OPEC amid Hormuz crisis",
+        "url": "https://www.washingtonpost.com/world/2026/04/28/uae-opec-iran-hormuz-trump-saudi/"
+      },
+      {
+        "name": "Al Jazeera — What are OPEC and OPEC+, and why has the UAE quit?",
+        "url": "https://www.aljazeera.com/news/2026/4/28/what-are-opec-and-opec-and-why-has-the-uae-quit"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["uae", "opec", "oil", "economic", "day61"]
+  },
+  {
+    "id": "evt-new-1248",
+    "title": "Israeli defense contractor killed by Hezbollah explosive drone in Aitaroun, S. Lebanon",
+    "description": "Amer Hujairat, 44, from Shfaram — a civilian contractor working for Israel's Defense Ministry — was killed when a Hezbollah explosive drone struck his engineering bulldozer in Aitaroun village near Bint Jbeil, southern Lebanon. His 19-year-old son, also working at the site, was lightly wounded by shrapnel. Hezbollah claimed responsibility, saying it targeted an Israeli bulldozer demolishing homes.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.45,
+    "location": "Aitaroun, southern Lebanon",
+    "timestamp": "2026-04-29T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Haaretz — Civilian contractor killed in southern Lebanon",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-28/ty-article/civilian-contractor-working-for-defense-ministry-killed-in-southern-lebanon/0000019d-d5ca-d9f6-a1dd-ddca943a0000"
+      },
+      {
+        "name": "Jerusalem Post — Amer Hujirat killed in Hezbollah drone attack",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-894514"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    },
+    "tags": ["hezbollah", "drone", "lebanon", "contractor", "day61"]
+  },
+  {
+    "id": "evt-new-1249",
+    "title": "Two IDF soldiers wounded by Hezbollah explosive drone in southern Lebanon",
+    "description": "Two IDF soldiers were wounded — one seriously and one lightly — by an explosive Hezbollah drone in southern Lebanon on April 28. The military announced the incident on April 29 and stated it constituted a ceasefire violation. Hezbollah continues to employ fiber-optic 'wire' drones that are immune to electronic jamming.",
+    "type": "strike",
+    "lat": 33.20,
+    "lng": 35.40,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-04-28T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF soldier severely wounded as Hezbollah drones target troops",
+        "url": "https://www.timesofisrael.com/idf-soldier-severely-wounded-as-hezbollah-drones-target-troops-in-southern-lebanon/"
+      },
+      {
+        "name": "JNS — Hezbollah drone strike wounds two IDF soldiers",
+        "url": "https://www.jns.org/news/israel-news/hezbollah-drone-strike-wounds-two-idf-soldiers-one-seriously"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": ["hezbollah", "drone", "idf", "ceasefire-violation", "day61"]
+  },
+  {
+    "id": "evt-new-1250",
+    "title": "Hezbollah drone intercepted over Western Galilee before crossing into Israel",
+    "description": "A suspected Hezbollah drone triggered air raid sirens in the Western Galilee and was intercepted by the Israeli Air Force before crossing from Lebanon into Israeli territory. A second 'suspicious aerial target' was lost from radar, suggesting it crashed.",
+    "type": "strike",
+    "lat": 33.00,
+    "lng": 35.10,
+    "location": "Western Galilee, northern Israel",
+    "timestamp": "2026-04-29T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says it shot down suspected Hezbollah drone",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-shot-down-suspected-hezbollah-drone-that-triggered-sirens-in-galilee/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "drone", "galilee", "interception", "day61"]
+  },
+  {
+    "id": "evt-new-1251",
+    "title": "Houthis attack MV Cyclades in Red Sea with missiles and drones over 7-hour assault",
+    "description": "Houthis attacked the Malta-flagged, Greece-owned bulk carrier MV Cyclades with three anti-ship ballistic missiles and multiple UAVs/loitering munitions over a 7-hour period. A Samad-1 loitering munition scored a hit causing minor damage. Houthis released footage of the attack.",
+    "type": "naval",
+    "lat": 15.50,
+    "lng": 42.00,
+    "location": "Red Sea",
+    "timestamp": "2026-04-29T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Seatrade Maritime — Houthi missile hits bulker in Red Sea",
+        "url": "https://www.seatrade-maritime.com/dry-bulk/houthi-missile-hits-bulker-in-the-red-sea"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["houthis", "red-sea", "naval", "shipping", "day61"]
+  },
+  {
+    "id": "evt-new-1252",
+    "title": "Houthis attack MSC Orion in Arabian Sea at record 600km range",
+    "description": "Houthis claimed a drone attack on the Portugal-flagged MSC Orion approximately 600km off the coast of Yemen in the Arabian Sea — the furthest Houthi attack on a vessel to date. The EU's Operation Atalanta subsequently advised rerouting ships at least 150 nautical miles east of the current route.",
+    "type": "naval",
+    "lat": 13.00,
+    "lng": 52.00,
+    "location": "Arabian Sea, ~600km off Yemen",
+    "timestamp": "2026-04-29T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Maritime Executive — Houthi attack on MSC ship indicates further range",
+        "url": "https://maritime-executive.com/article/houthi-attack-on-msc-ship-in-indian-ocean-indicates-further-range"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["houthis", "arabian-sea", "record-range", "naval", "day61"]
+  },
+  {
+    "id": "evt-new-1253",
+    "title": "Iran bans all steel exports after war damage destroys 70% of production capacity",
+    "description": "Iran banned all steel exports effective April 26 until May 30, after US-Israeli airstrikes in late March destroyed the Khuzestan Steel Company and Mobarakeh Steel Company in Isfahan — eliminating approximately 70% of steel production capacity (10M metric tons/year offline). Steel was Iran's largest non-oil export. Customs authorities issued a formal directive prohibiting steel product exports.",
+    "type": "infrastructure",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "location": "Tehran, Iran (nationwide ban)",
+    "timestamp": "2026-04-29T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — Iran bans steel exports",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iran-bans-steel-exports-after-industry-heavily-damaged-in-war/"
+      },
+      {
+        "name": "Washington Post — Iran's economy battered",
+        "url": "https://www.washingtonpost.com/business/2026/04/28/iran-us-israel-war-economy-blockade-steel-exports/34ca90e2-42c1-11f1-b19d-32431046b5b4_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "steel", "economy", "infrastructure", "day61"]
+  },
+  {
+    "id": "evt-new-1254",
+    "title": "US Treasury sanctions 35 entities in Iran's shadow banking architecture",
+    "description": "The US Treasury Department imposed sanctions on 35 entities and individuals for their role in Iran's shadow banking architecture. Treasury also issued guidance warning about sanctions exposure for making 'toll' payments to Iran/IRGC for Strait of Hormuz passage.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington, D.C. (US Treasury)",
+    "timestamp": "2026-04-28T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US Treasury Press Release",
+        "url": "https://home.treasury.gov/news/press-releases/sb0477"
+      },
+      {
+        "name": "Townhall — Trump launches crackdown on Iran banking",
+        "url": "https://townhall.com/tipsheet/josephchalfant/2026/04/28/trump-just-launched-a-new-crackdown-on-irans-banking-network-n2675200"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "treasury", "sanctions", "iran", "banking", "day61"]
+  },
+  {
+    "id": "evt-new-1255",
+    "title": "Guterres appeals at UNSC: 'Open the Strait — let trade resume, let the global economy breathe'",
+    "description": "UN Secretary-General Antonio Guterres addressed the UN Security Council debate on maritime security, appealing: 'Open the Strait. Let ships pass. No tolls. No discrimination. Let trade resume. Let the global economy breathe.' He warned of a global food emergency, noted 20,000+ seafarers stranded at sea, and called the Hormuz closure the worst supply chain disruption since COVID-19.",
+    "type": "diplomatic",
+    "lat": 40.7489,
+    "lng": -73.9680,
+    "location": "United Nations, New York City",
+    "timestamp": "2026-04-28T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "UN News — Everyone's paying the price for Hormuz closure",
+        "url": "https://news.un.org/en/story/2026/04/1167384"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["un", "guterres", "hormuz", "diplomacy", "maritime", "day61"]
+  },
+  {
+    "id": "evt-new-1256",
+    "title": "Haredi rioters storm Military Police chief's home in Ashkelon amid anti-draft protests",
+    "description": "Ultra-Orthodox (Haredi) extremists from the Jerusalem Faction broke into the home of IDF Military Police commander Brig. Gen. Yuval Yamin in Ashkelon while his family was inside, protesting the arrest of yeshiva students evading military conscription. 25 suspects were arrested. PM Netanyahu and Defense Minister Katz condemned the attack. Route 4 near Bnei Brak was blocked.",
+    "type": "protest",
+    "lat": 31.6693,
+    "lng": 34.5715,
+    "location": "Ashkelon, Israel",
+    "timestamp": "2026-04-29T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Haredi rioters break into Military Police chief's home",
+        "url": "https://www.timesofisrael.com/haredi-anti-draft-rioters-break-into-military-police-chiefs-home-with-family-inside/"
+      },
+      {
+        "name": "Haaretz — Haredi demonstrators storm yard",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-29/ty-article/.premium/haredim-storm-yard-of-military-police-chiefs-home-during-anti-draft-protests/0000019d-d573-d712-a5bf-d5f3020d0000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "haredi", "draft", "protest", "domestic", "day61"]
+  },
+  {
+    "id": "evt-new-1257",
+    "title": "EU sanctions 19 Iranian officials and entities for human rights violations",
+    "description": "EU foreign policy chief Kaja Kallas announced that EU ambassadors approved new sanctions targeting 19 Iranian regime officials and entities responsible for serious human rights violations. The EU also widened sanctions to include those blocking the Strait of Hormuz. The EU has spent an extra 25 billion euros on energy since the war started.",
+    "type": "diplomatic",
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "location": "Brussels, Belgium (EU HQ)",
+    "timestamp": "2026-04-29T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Kallas on X — EU sanctions announcement",
+        "url": "https://x.com/kajakallas/status/2031690454027080082"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["eu", "kallas", "sanctions", "iran", "human-rights", "day61"]
   }
 ]

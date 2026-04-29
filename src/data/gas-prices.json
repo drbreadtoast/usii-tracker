@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-28T19:01:00Z",
-  "currentAverage": 4.176,
+  "lastUpdated": "2026-04-29T00:38:00Z",
+  "currentAverage": 4.18,
   "preWarAverage": 3.13,
-  "changePercent": 33.42,
+  "changePercent": 33.55,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -501,6 +501,12 @@
       "price": 4.176,
       "label": "Day 60 Afternoon PT — Gas $4.176 AAA national avg (+33.4% from pre-war $3.13). Brent $111.16 (+39.23%). WTI $99.62 (+31.93%). Trump Truth Social: Iran 'state of collapse,' attacks Merz. Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo: 'delusion of omnipotence.' War Powers May 1 (3 days). Hormuz Day 57.",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-29",
+      "price": 4.18,
+      "label": "Day 61 PM PT — Gas $4.18 AAA (+33.5% from pre-war $3.13). Brent $111.57 (+39.7%). WTI $100.16 (+32.6%) — tops $100. UAE quits OPEC effective May 1. Hezbollah drone kills contractor in Aitaroun. Houthis hit MSC Orion at record 600km. World Bank: 24% energy surge. Hormuz Day 58. War Powers May 1 (2 days).",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -551,14 +557,14 @@
     },
     "current": {
       "label": "Current (Apr 28 Afternoon PT)",
-      "crudePerBarrel": 111.16,
+      "crudePerBarrel": 111.57,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$111.16 ÷ 42 gal (Brent Apr 28)",
-          "value": 2.647,
-          "percent": 63,
-          "change": "+$1.027"
+          "formula": "$111.57 ÷ 42 gal (Brent Apr 29)",
+          "value": 2.656,
+          "percent": 64,
+          "change": "+$1.036"
         },
         {
           "name": "Refining",
@@ -585,7 +591,7 @@
           "name": "Average State Tax",
           "formula": "50-state average",
           "value": 0.35,
-          "percent": 9,
+          "percent": 8,
           "change": "$0.00"
         },
         {
@@ -596,18 +602,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.176,
-      "note": "National average $4.176/gal (AAA, April 28). Brent $111.16 (+39.23%), WTI $99.62 (+31.93%). Trump Truth Social: Iran 'state of collapse,' attacks Merz. Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo: 'delusion of omnipotence.' Hormuz Day 57. War Powers May 1 (3 days).",
-      "crude": 2.647,
+      "total": 4.185,
+      "note": "National average $4.18/gal (AAA, April 29). Brent $111.57 (+39.7%), WTI $100.16 (+32.6%). UAE quits OPEC. World Bank: 24% energy surge forecast. Hormuz Day 58. War Powers May 1 (2 days).",
+      "crude": 2.656,
       "taxes": 0.534,
       "refining": 0.585,
       "distribution": 0.290,
-      "regularGasoline": 4.176,
-      "changeFromPreWar": "+$1.046",
-      "changePercent": "+33.4%",
-      "lastUpdated": "2026-04-28T19:01:00Z",
-      "date": "2026-04-28"
+      "regularGasoline": 4.18,
+      "changeFromPreWar": "+$1.05",
+      "changePercent": "+33.5%",
+      "lastUpdated": "2026-04-29T00:38:00Z",
+      "date": "2026-04-29"
     }
   },
-  "context": "Day 60 Afternoon PT: Gas $4.176/gal (AAA, April 28, +33.4% from pre-war $3.13). Brent $111.16 (+39.23%). WTI $99.62 (+31.93%). 7th straight up day for WTI. Trump Truth Social: Iran 'state of collapse'; attacks Merz. Rubio: Hormuz an 'economic nuclear weapon.' IDF strikes ~20 Hezbollah Beqaa/Qantara targets. Pope Leo at St. Peter's: 'delusion of omnipotence.' Hormuz Day 57. War Powers May 1 (3 days)."
+  "context": "Day 61 PM PT: Gas $4.18/gal (AAA, April 29, +33.5% from pre-war $3.13). Brent $111.57 (+39.7%). WTI $100.16 (+32.6%) — tops $100 first time since Apr 10, 8th straight up day. UAE quits OPEC effective May 1. Hezbollah drone kills contractor in Aitaroun. Houthis hit MSC Orion at record 600km. World Bank: 24% energy price surge. US Treasury sanctions 35 entities. EU sanctions 19. Guterres: 'Open the Strait.' Iran steel export ban. Hormuz Day 58. War Powers May 1 (2 days)."
 }
