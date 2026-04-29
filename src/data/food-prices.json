@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-04-29T06:28:00Z",
+  "lastUpdated": "2026-04-29T12:11:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": "$6.25",
-      "change": "+11.2%",
-      "detail": "Wheat futures $6.25/bu (April 29 late, near 11-month high). USDA: only 30% winter wheat rated good/excellent (down from 45% YoY). US Great Plains drought and fertilizer constraints from Hormuz support prices. World Bank: fertilizer prices to increase 31% in 2026 (urea +60%).",
-      "source": "TradingEconomics — Wheat April 29",
+      "current": 6.34,
+      "change": "+23.4%",
+      "detail": "11-month high due to drought + war fuel costs. $6.25-6.43/bushel range.",
+      "source": "TradingEconomics \u2014 Wheat April 29",
       "sourceUrl": "https://tradingeconomics.com/commodity/wheat"
     },
     {
@@ -18,7 +18,7 @@
       "current": "$4.615",
       "change": "+7.1%",
       "detail": "Corn $4.615/bu (April 29, four-week high). Acreage down to 95.3M from 99M due to fertilizer costs. Elevated diesel and transportation costs.",
-      "source": "TradingEconomics — Corn April 29",
+      "source": "TradingEconomics \u2014 Corn April 29",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
     {
@@ -27,7 +27,7 @@
       "preWar": "$10.12",
       "current": "$11.75",
       "change": "+16.1%",
-      "detail": "Soybeans $11.75/bu (April 28-29, down 0.18% daily). Soybean oil at historic highs — supported by biofuel demand as crude disruptions boost biodiesel. Cooking oil index at highest since June 2022.",
+      "detail": "Soybeans $11.75/bu (April 28-29, down 0.18% daily). Soybean oil at historic highs \u2014 supported by biofuel demand as crude disruptions boost biodiesel. Cooking oil index at highest since June 2022.",
       "source": "TradingEconomics April 29",
       "sourceUrl": "https://tradingeconomics.com/commodity/soybeans"
     },
@@ -57,7 +57,7 @@
       "preWar": "$3.49",
       "current": 6.14,
       "change": "+75.9%",
-      "detail": "Vegetable oil price index at highest since June 2022. Palm oil (CPO June) RM 4,535/tonne (April 11, down 2.33% — five-week rally snapped). Indonesia CPO IDR 16,049/kg.",
+      "detail": "Vegetable oil price index at highest since June 2022. Palm oil (CPO June) RM 4,535/tonne (April 11, down 2.33% \u2014 five-week rally snapped). Indonesia CPO IDR 16,049/kg.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
     },
@@ -68,7 +68,7 @@
       "current": "$2.94",
       "change": "+61.5%",
       "detail": "Arabica $2.94/lb (Apr 10). Down from 2025 peak of $4.41 but still elevated. Global shipping costs and fuel surcharges rising sharply. Container rates up 85% on key routes.",
-      "source": "Trading Economics — Coffee",
+      "source": "Trading Economics \u2014 Coffee",
       "sourceUrl": "https://tradingeconomics.com/commodity/coffee"
     },
     {
@@ -88,7 +88,7 @@
     "currentWeekly": 181,
     "changePercent": 7.7,
     "usdaForecast2026": "3.6% food price rise",
-    "note": "USDA projects food-at-home prices to increase 3.6% in 2026 — up from 3.1% in March forecast, nearly double original projection. Consumer sentiment dropped sharply in April; 12-month inflation expectations jumped to 4.7% from 3.8%. 45% of Americans cutting non-essential spending. 1/3 of globally traded fertilizer flows through Hormuz. 318M people face hunger globally (FAO)."
+    "note": "USDA projects food-at-home prices to increase 3.6% in 2026 \u2014 up from 3.1% in March forecast, nearly double original projection. Consumer sentiment dropped sharply in April; 12-month inflation expectations jumped to 4.7% from 3.8%. 45% of Americans cutting non-essential spending. 1/3 of globally traded fertilizer flows through Hormuz. 318M people face hunger globally (FAO)."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -98,5 +98,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 61 Late PT — Brent $111.12 (+39.2%). WTI $99.32 (+31.5%). Wheat $6.25 (+11.2%, near 11-month high). Corn $4.615 (+7.1%). Soybeans $11.75 (+16.1%). USDA: food-at-home prices to rise 3.1-3.6% in 2026. Consumer inflation expectations 4.7%. Fertilizer crisis: urea $640/MT (+35%); World Bank: fertilizer +31% in 2026, urea +60%. WFP: 45M more at risk of hunger if war extends past June. Gas $4.18 AAA (+33.5%). Bessent: Iran oil 'creaking.' GCC summit: Maximum Readiness. Hormuz Day 58. War Powers May 1 (2 days)."
+  "context": "Day 61 Midday PT: USDA forecasts overall food prices +2.9% in 2026, food-at-home +2.4%. Fuel/fertilizer costs up 20-40% since war began (CoBank). Beef/veal +12.1% YoY. Wheat at 11-month high ($6.25-6.43/bu) on drought + war fuel costs. UK food inflation expected to reach 9% by year-end due to Hormuz closure. Gold $4,596/oz on safe-haven demand. Brent $114.64 driving transport cost inflation."
 }
