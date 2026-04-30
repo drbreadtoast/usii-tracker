@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-04-30T00:06:00Z",
+    "lastUpdated": "2026-04-30T06:34:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 414
+    "totalSites": 416
   },
   "summary": {
-    "totalSites": 426,
-    "confirmed": 344,
+    "totalSites": 428,
+    "confirmed": 346,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6696,6 +6696,42 @@
       "sourceUrl": "https://www.jpost.com/middle-east/article-894497",
       "damageLevel": "destroyed",
       "estimatedCost": "Unknown"
+    },
+    {
+      "id": "dmg-431",
+      "name": "Building \u2014 Majdal Zoun double-tap strike",
+      "country": "Lebanon",
+      "lat": 33.28,
+      "lng": 35.30,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-29",
+      "attributedTo": "israel",
+      "damageLevel": "destroyed",
+      "description": "Israeli double-tap airstrike destroyed building in Majdal Zoun, Tyre district. Second strike targeted rescue workers arriving at first strike site. 5 killed (3 Civil Defense paramedics), 2 Lebanese Army soldiers wounded.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "5 killed, 2 wounded",
+      "source": "Euronews",
+      "sourceUrl": "https://www.euronews.com/2026/04/29/israeli-strikes-kill-eight-in-southern-lebanon-including-three-rescue-workers",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-432",
+      "name": "Vehicle fire \u2014 Shomera drone impact",
+      "country": "Israel",
+      "lat": 33.08,
+      "lng": 35.27,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-04-30",
+      "attributedTo": "hezbollah",
+      "damageLevel": "minor",
+      "description": "Hezbollah explosive drone struck near Shomera in Western Galilee. Vehicle set ablaze, fire sparked. No casualties reported.",
+      "weaponUsed": "Explosive drone",
+      "casualties": "0",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-april-30-2026/",
+      "satelliteImagery": false
     }
   ]
 }

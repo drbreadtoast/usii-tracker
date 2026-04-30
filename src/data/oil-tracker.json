@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-29T12:11:00Z",
+    "lastUpdated": "2026-04-30T06:34:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 61
+    "conflictDay": 62
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-30",
-      "label": "Day 62 PM PT \u2014 Brent $118.03 (+47.8% from pre-war $79.84), WTI $106.88 (+41.5% from $75.51). Highest close since June 2022. Trump rejects Iran proposal ('cry uncle'), orders prolonged blockade. UAE exits OPEC effective May 1. Fed holds 3.5-3.75% (8-4 dissent). IEA: 13M bpd supply disruption. Iran rial record low 1.81M/USD. Kharg Island storage nearing capacity. Pentagon: war cost $25B. Hormuz Day 58. War Powers deadline May 1 (tomorrow).",
+      "label": "Day 62 Late PT \u2014 Brent $126.10 (+58.0% from pre-war $79.80), WTI $108.51 (+43.7% from $75.51). NEW WARTIME HIGH. CENTCOM briefs Trump on 3 military options (strikes, Hormuz seizure, HEU op). Goldman Sachs: Hormuz exports at 4% of normal. Gas $4.23 (wartime high). Treasury: 35 entities sanctioned. Hengli Petrochemical (China) sanctioned. $344M Tether frozen. War Powers deadline May 1 (TOMORROW).",
       "brent": {
-        "price": 118.03,
-        "change": "+47.9%",
-        "changeDollars": "+$38.19"
+        "price": 126.10,
+        "change": "+58.0%",
+        "changeDollars": "+$46.30"
       },
       "wti": {
-        "price": 106.88,
-        "change": "+41.6%",
-        "changeDollars": "+$31.37"
+        "price": 108.51,
+        "change": "+43.7%",
+        "changeDollars": "+$33.00"
       },
-      "changePercent": 47.9,
+      "changePercent": 58.0,
       "lastUpdated": "2026-04-30"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-30T00:06:00Z",
-    "note": "Day 62 PM PT: Brent $118.03 (+47.8%), WTI $106.88 (+41.5%). AAA avg $4.031/gal (+28.8%). Trump 'cry uncle' + prolonged blockade order. UAE exits OPEC May 1. Fed holds 3.5-3.75%. Iran rial record low. IEA: 13M bpd disruption. Pentagon: $25B cost. Hormuz Day 58. War Powers May 1 (tomorrow).",
+    "lastUpdated": "2026-04-30T06:34:00Z",
+    "note": "Day 62 Late PT: Brent $126.10 (+57.9%), WTI $108.51 (+43.7%). AAA avg $4.23/gal (+35.1%). NEW WARTIME HIGHS \u2014 oil and gas. CENTCOM briefs Trump on 3 military options. Goldman Sachs: Hormuz at 4% of normal. Treasury sanctions 35 entities. $344M Tether frozen. War Powers deadline May 1 (TOMORROW).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.031,
+          "price": 4.23,
           "date": "2026-04-30"
         },
-        "change": "+$0.90",
-        "changePercent": "+28.8%",
-        "detail": "Gas $4.031/gal (AAA, April 30). Brent $118.03 (+47.8%), WTI $106.88 (+41.5%). Pre-war $3.13. Down from $4.18 peak but Brent surge to $118 signals another leg up ahead.",
+        "change": "+$1.10",
+        "changePercent": "+35.1%",
+        "detail": "Gas $4.23/gal (AAA, April 30). New wartime high and 4-year high. Brent $126.10 (+57.9%), WTI $108.51 (+43.7%). Pre-war $3.13. CA $5.85, OK $3.40. South FL reporting shortages.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
