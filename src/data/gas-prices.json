@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-30T06:34:00Z",
-  "currentAverage": 4.23,
+  "lastUpdated": "2026-04-30T19:07:00Z",
+  "currentAverage": 4.30,
   "preWarAverage": 3.13,
-  "changePercent": 35.14,
+  "changePercent": 37.38,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -524,6 +524,12 @@
       "price": 4.23,
       "label": "Day 62 Late PT \u2014 AAA $4.23 (+35.1%) \u2014 NEW WARTIME HIGH. Brent $126.10 (+57.9%) wartime high. CENTCOM briefs Trump on 3 military options. CA $5.85, OK $3.40. South FL shortages. War Powers May 1 (TOMORROW).",
       "isEvent": true
+    },
+    {
+      "date": "2026-04-30",
+      "price": 4.30,
+      "label": "Day 63 Midday PT \u2014 AAA $4.30 (+37.4%) \u2014 NEW WARTIME HIGH; up nearly 30\u00a2 in one week (Michigan +33\u00a2 in single day). Brent retreats to $114.66 after $126 intraday spike. WTI $105.38. CENTCOM briefs Trump on 3 military options. War Powers May 1 (TOMORROW).",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -573,29 +579,29 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (Apr 30 Late PT)",
-      "crudePerBarrel": 126.10,
+      "label": "Current (Apr 30 Midday PT)",
+      "crudePerBarrel": 114.66,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$126.10 \u00f7 42 gal (Brent Apr 30 wartime high)",
-          "value": 3.00,
-          "percent": 67,
-          "change": "+$1.38"
+          "formula": "$114.66 \u00f7 42 gal (Brent Apr 30 midday)",
+          "value": 2.73,
+          "percent": 63,
+          "change": "+$1.11"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.585,
-          "percent": 13,
-          "change": "+$0.185"
+          "value": 0.62,
+          "percent": 14,
+          "change": "+$0.22"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
-          "value": 0.29,
-          "percent": 6,
-          "change": "+$0.140"
+          "value": 0.30,
+          "percent": 7,
+          "change": "+$0.15"
         },
         {
           "name": "Federal Excise Tax",
@@ -619,18 +625,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.529,
-      "note": "National average $4.23/gal (AAA, April 30). NEW WARTIME HIGH. Brent $126.10 (+57.9%), WTI $108.51 (+43.7%). CENTCOM briefs Trump on 3 military options. Goldman: Hormuz at 4% of normal. CA $5.85, OK $3.40. South FL shortages. War Powers May 1 (TOMORROW).",
-      "crude": 3.00,
+      "total": 4.304,
+      "note": "National average $4.30/gal (AAA, April 30). NEW WARTIME HIGH \u2014 up nearly 30\u00a2 in one week. Brent $114.66 (+43.7% after $126 intraday spike), WTI $105.38 (+39.6%). CENTCOM briefs Trump on 3 military options. War Powers May 1 (TOMORROW).",
+      "crude": 2.73,
       "taxes": 0.534,
-      "refining": 0.585,
-      "distribution": 0.29,
-      "regularGasoline": 4.23,
-      "changeFromPreWar": "+$1.10",
-      "changePercent": "+35.1%",
-      "lastUpdated": "2026-04-30T06:34:00Z",
+      "refining": 0.62,
+      "distribution": 0.30,
+      "regularGasoline": 4.30,
+      "changeFromPreWar": "+$1.17",
+      "changePercent": "+37.4%",
+      "lastUpdated": "2026-04-30T19:07:00Z",
       "date": "2026-04-30"
     }
   },
-  "context": "Day 62 Late PT: National average $4.23/gal per AAA (April 30 data) \u2014 NEW WARTIME HIGH and 4-year high. Brent crude surges to $126.10 (+57.9% from pre-war) on CENTCOM briefing Trump on 3 new military options. WTI $108.51. CA highest at $5.85/gal, OK lowest $3.40. South Florida gas shortages. Hormuz Day 58. War Powers deadline May 1 (TOMORROW)."
+  "context": "Day 63 Midday PT: National average $4.30/gal per AAA (April 30 data) \u2014 NEW WARTIME HIGH and 4-year high; up nearly 30\u00a2 in one week (Michigan +33\u00a2 in a single day). Brent crude $114.66 (+43.7% from pre-war) after touching intraday $126 wartime high. WTI $105.38. UAE OPEC exit effective May 1. Hormuz Day 59. War Powers deadline May 1 (TOMORROW)."
 }

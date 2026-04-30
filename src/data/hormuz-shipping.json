@@ -1,16 +1,16 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 58,
-  "dailyTransits": 5,
+  "blockadeDay": 59,
+  "dailyTransits": 7,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-04-30T06:34:00Z",
+  "lastUpdated": "2026-04-30T19:07:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
     "vesselsAnchored": 400,
-    "vesselsTransitLast24h": 0,
+    "vesselsTransitLast24h": 7,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
@@ -24,10 +24,10 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 62 Late PT (April 30): CENTCOM blockade DAY 17. Brent surges to $126.10 wartime high (+57.9%) on CENTCOM briefing Trump on 3 military options (strikes, Hormuz seizure, HEU op). Goldman Sachs: Hormuz exports at 4% of normal. Only 13 AIS crossings. Japanese tanker Idemitsu Maru completed rare transit (2M barrels Saudi crude). ~2,000 ships stranded in Gulf. Insurance premiums at 3% of hull value. $344M Tether frozen (Iran Central Bank). Gas $4.23 wartime high. War Powers deadline May 1 (TOMORROW).",
+    "tankerTraffic": "Day 63 Midday PT (April 30): Hormuz BLOCKADE DAY 59 / CENTCOM blockade DAY 18. Only 7 vessels crossed in past 24 hours vs ~60/day pre-crisis (5–8% of normal). ~2,000 ships stranded in Gulf. ~20M bpd of oil and refined products disrupted. Brent retreated to $114.66 after intraday $126 wartime high; CENTCOM briefing Trump on 3 military options (strikes, Hormuz seizure, HEU op) plus Dark Eagle hypersonic deployment request. UAE OPEC exit takes effect TOMORROW (May 1). 41 tankers carrying 69M bbl Iranian oil ($6B+) blocked from sale. War Powers deadline May 1 (TOMORROW).",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
-    "lastUpdated": "2026-04-30T06:34:00Z",
+    "lastUpdated": "2026-04-30T19:07:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
@@ -709,6 +709,12 @@
     {
       "date": "2026-04-30",
       "event": "Trump: 'cry uncle' — orders prolonged blockade. Brent surges to $118.03. USS Ford departing (carriers → 2). CENTCOM: 42 vessels redirected. Marines board M/V Blue Star III (released). UAE exits OPEC May 1. IEA: 13M bpd disrupted. Iran Kharg Island storage nearing capacity. War Powers deadline May 1.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-04-30",
+      "event": "Day 63 Midday: Blockade Day 59. Only 7 vessels crossed in 24h (vs ~60 normal). ~2,000 ships stranded in Gulf. CENTCOM briefs Trump on 3 military options including Hormuz seizure with ground forces. Pezeshkian: blockade 'doomed to fail.' Mojtaba Khamenei (Persian Gulf Day): 'new chapter,' Iran sets 'new legal rules' in Hormuz. UAE OPEC exit effective TOMORROW. Brent retreats to $114.66 after $126 intraday spike.",
       "status": "effectively_closed",
       "barrels": 0
     }

@@ -45459,5 +45459,344 @@
       "injured": 0
     },
     "tags": ["iaea", "nuclear", "iran", "jcpoa", "grossi", "day62"]
+  },
+  {
+    "id": "evt-new-1293",
+    "title": "Israeli airstrikes kill 28 across southern Lebanon ('Black Wednesday')",
+    "description": "Israeli airstrikes across at least 23 villages in southern Lebanon killed at least 28 people on what Lebanese media dubbed 'Black Wednesday.' Strikes targeted Sultanieh (Nabatieh), Qalaouiyeh (Bint Jbeil), with artillery shelling on Yohmor, Zawtar al-Sharqiya, Meifdoun, Biyyout al-Saiyad (Tyre district), and Kunin. IDF Arabic spokesman issued urgent evacuation orders telling residents to stay 1,000m from any Hezbollah personnel. 9 killed including 2 children at one site.",
+    "type": "strike",
+    "lat": 33.3567,
+    "lng": 35.5083,
+    "location": "Southern Lebanon (multi-village)",
+    "timestamp": "2026-04-30T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Civilians or Hezbollah, who did Israel hit on Black Wednesday",
+        "url": "https://www.aljazeera.com/news/2026/4/30/civilians-or-hezbollah-who-did-israel-hit-on-lebanons-black-wednesday"
+      },
+      {
+        "name": "Al Jazeera — Iran war live (April 30)",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 28,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "strike", "hezbollah", "civilians", "day63"]
+  },
+  {
+    "id": "evt-new-1294",
+    "title": "Hezbollah suicide drone wounds 12 IDF soldiers at Shomera",
+    "description": "A Hezbollah explosive UAV scored a direct hit on an IDF M548 armored cargo carrier at an artillery site near Shomera (Western Galilee). 2 soldiers moderately wounded, 10 lightly wounded (12 total). The vehicle caught fire. IDF labeled the strike 'another violation of ceasefire understandings.' Fiber-optic FPV drones immune to Israeli electronic-warfare jamming were used.",
+    "type": "strike",
+    "lat": 33.0833,
+    "lng": 35.2667,
+    "location": "Shomera, Western Galilee, Israel",
+    "timestamp": "2026-04-30T07:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — 12 soldiers injured by Hezbollah drone",
+        "url": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/"
+      },
+      {
+        "name": "Jerusalem Post — Hezbollah drone strike Shomera",
+        "url": "https://www.jpost.com/israel-news/article-894709"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 12
+    },
+    "tags": ["hezbollah", "drone", "israel", "idf", "shomera", "day63"]
+  },
+  {
+    "id": "evt-new-1295",
+    "title": "CENTCOM briefs Trump on three military options against Iran",
+    "description": "CENTCOM Commander Adm. Brad Cooper, SecDef Hegseth, and Gen. Dan Caine briefed Trump on three new military options: (1) a 'short and powerful' wave of strikes on Iranian infrastructure to break diplomatic deadlock; (2) a ground/naval seizure of parts of the Strait of Hormuz to reopen shipping; (3) a special-forces mission to secure Iran's ~200 kg HEU stockpile at Isfahan. Briefing timed on the eve of the May 1 War Powers deadline.",
+    "type": "movement",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "White House, Washington DC, USA",
+    "timestamp": "2026-04-30T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Axios — CENTCOM to brief Trump on Iran military options",
+        "url": "https://www.axios.com/2026/04/30/trump-military-plans-iran-briefing-centcom"
+      },
+      {
+        "name": "Military Times — Commanders to brief Trump on Iran options",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/04/30/us-military-commanders-to-brief-trump-on-military-options-against-iran/"
+      },
+      {
+        "name": "NBC News — Trump Iran military options Hormuz",
+        "url": "https://www.nbcnews.com/world/iran/iran-trump-blockade-doomed-fail-oil-price-high-military-options-hormuz-rcna342831"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "centcom", "trump", "military-options", "hormuz", "isfahan", "day63"]
+  },
+  {
+    "id": "evt-new-1296",
+    "title": "Brent crude pulls back to $114.66 after intraday $126 wartime high",
+    "description": "Brent crude oil reversed sharply after touching a 4-year intraday high above $126/barrel overnight. By 9:53 AM ET it had pulled back to $114.66/barrel (-$11.44 / -9.1% from prior close) on profit-taking and reports the CENTCOM briefing was preliminary. WTI eased to $105.38 after touching $110.90. Volatility reflected dueling fears over US strike risk vs. brief diplomatic hopes.",
+    "type": "infrastructure",
+    "lat": 39.8283,
+    "lng": -98.5795,
+    "location": "Global oil markets",
+    "timestamp": "2026-04-30T13:53:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC — Oil prices today Brent WTI US-Iran war Trump",
+        "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html"
+      },
+      {
+        "name": "CNN Business — Oil prices Iran war wartime high",
+        "url": "https://edition.cnn.com/2026/04/30/energy/oil-prices-iran-war-wartime-high-blockade-hnk"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["oil", "brent", "wti", "markets", "volatility", "day63"]
+  },
+  {
+    "id": "evt-new-1297",
+    "title": "Hegseth grilled for 6 hours in Senate; $25B war cost confirmed",
+    "description": "Secretary of Defense Pete Hegseth, Joint Chiefs Chair Gen. Dan Caine, and Pentagon Comptroller Jules Hurst III faced a ~6-hour Senate Armed Services hearing. Hegseth claimed admin doesn't need congressional authorization because the 60-day War Powers clock pauses during the current ceasefire. Pentagon disclosed war cost so far: $25 billion (mostly munitions). White House requesting $1.5 trillion defense budget — largest since WWII. Rep. Garamendi (D-CA): 'You have been lying to the American public about this war from day one.'",
+    "type": "diplomatic",
+    "lat": 38.8899,
+    "lng": -77.0091,
+    "location": "US Capitol, Washington DC",
+    "timestamp": "2026-04-30T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post — Hegseth Senate hearing",
+        "url": "https://www.washingtonpost.com/national-security/2026/04/30/hegseth-senate-hearing/"
+      },
+      {
+        "name": "PBS NewsHour — Hegseth contentious hearing",
+        "url": "https://www.pbs.org/newshour/show/hegseths-contentious-hearing-in-congress-reveals-partisan-divide-over-iran-war"
+      },
+      {
+        "name": "Euronews — Hegseth quizzed for nearly six hours",
+        "url": "https://www.euronews.com/2026/04/30/hegseth-quizzed-for-nearly-six-hours-on-iran-in-first-congressional-appearance-since-war-b"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "hegseth", "congress", "senate", "war-powers", "day63"]
+  },
+  {
+    "id": "evt-new-1298",
+    "title": "USS Gerald R. Ford carrier strike group departing Middle East",
+    "description": "USS Gerald R. Ford (CVN-78) and its strike group are departing the Middle East after a record-setting 311-day deployment (longest post-Vietnam), en route to Norfolk arrival ~mid-May. The departure reduces US carrier presence in the region from 3 to 2 strike groups; USS Abraham Lincoln and USS George H.W. Bush remain in the Arabian Sea. Move comes despite ongoing tensions and CENTCOM strike planning.",
+    "type": "naval",
+    "lat": 26.5,
+    "lng": 56.5,
+    "location": "Arabian Sea / outbound to Norfolk",
+    "timestamp": "2026-04-30T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post — USS Gerald Ford carrier Iran war",
+        "url": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/"
+      },
+      {
+        "name": "Stars and Stripes — Gerald R. Ford epic fury Newport News",
+        "url": "https://www.stripes.com/branches/navy/2026-04-30/gerald-r-ford-epic-fury-newport-news-21533354.html"
+      },
+      {
+        "name": "The Hill — USS Gerald Ford repairs",
+        "url": "https://thehill.com/policy/defense/5796478-uss-gerald-ford-repairs/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "navy", "carrier", "uss-gerald-ford", "deployment", "day63"]
+  },
+  {
+    "id": "evt-new-1299",
+    "title": "UAE formally exits OPEC effective May 1",
+    "description": "The United Arab Emirates' departure from OPEC and OPEC+ takes effect May 1, 2026, ending nearly 60 years of membership. UAE represents ~12% of OPEC's total output and is pursuing 5M bpd capacity by 2027. Announced April 28 amid Hormuz crisis and Iran war pressure. Saudi Arabia retains spare capacity but loses a key Gulf ally; the move could accelerate Gulf realignment as Trump-Iran standoff deepens.",
+    "type": "diplomatic",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "location": "Abu Dhabi, UAE",
+    "timestamp": "2026-04-30T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "NPR — UAE leaves OPEC oil",
+        "url": "https://www.npr.org/2026/04/28/nx-s1-5802735/uae-leaves-opec-oil"
+      },
+      {
+        "name": "Al Jazeera — UAE leaves OPEC and OPEC+",
+        "url": "https://www.aljazeera.com/news/2026/4/28/uae-leaves-opec-and-opec"
+      },
+      {
+        "name": "Washington Post — UAE OPEC Iran Hormuz Trump Saudi",
+        "url": "https://www.washingtonpost.com/world/2026/04/28/uae-opec-iran-hormuz-trump-saudi/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["uae", "opec", "oil", "diplomatic", "saudi", "day63"]
+  },
+  {
+    "id": "evt-new-1300",
+    "title": "Mojtaba Khamenei: 'New chapter' for Hormuz, 'future without America'",
+    "description": "On Persian Gulf Day, Mojtaba Khamenei (son of Supreme Leader and potential successor) declared a 'new chapter' with Iran setting 'new legal rules' in the Strait of Hormuz. 'By God's help and power, the bright future of the Persian Gulf region will be a future without America,' he said. Vowed Iran will 'protect nuclear, missile capabilities' as 'national assets.' Comes hours after Rubio said the US has 'indications' Mojtaba is alive.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-30T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Press TV — Leader Persian Gulf Day Message",
+        "url": "https://www.presstv.ir/Detail/2026/04/30/767799/Leader-Persian-Gulf-Day-Message"
+      },
+      {
+        "name": "The Week — Mojtaba Khamenei new management Hormuz",
+        "url": "https://www.theweek.in/news/middle-east/2026/04/30/mojtaba-khamenei-says-new-management-in-strait-of-hormuz-will-benefit-gulf-nations-economically-promises-bright-future-without-us-presence.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "mojtaba-khamenei", "hormuz", "succession", "day63"]
+  },
+  {
+    "id": "evt-new-1301",
+    "title": "Pezeshkian: US naval blockade 'doomed to fail,' violates international law",
+    "description": "Iranian President Masoud Pezeshkian, marking Persian Gulf Day, said: 'What is being done under the guise of a naval blockade is an extension of military operations… Continuation of this oppressive approach is intolerable.' He called the US blockade 'doomed to fail' and 'contrary to international law,' saying Iran 'will respond' if the blockade continues. Posted on X.",
+    "type": "diplomatic",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-30T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Gulf Today — America's naval blockade doomed to fail says Pezeshkian",
+        "url": "https://www.gulftoday.ae/news/2026/04/30/americas-naval-blockade-doomed-to-fail-says-iran-president-pezeshkian"
+      },
+      {
+        "name": "ANI News — Persian Gulf not theater for foreign will",
+        "url": "https://www.aninews.in/news/world/middle-east/persian-gulf-not-theater-to-impose-foreign-will-iranian-president20260430140845/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "pezeshkian", "blockade", "hormuz", "international-law", "day63"]
+  },
+  {
+    "id": "evt-new-1302",
+    "title": "CENTCOM requests Dark Eagle hypersonic missile deployment to region",
+    "description": "US CENTCOM formally requested deployment of the Army's Long-Range Hypersonic Weapon (Dark Eagle / LRHW) to the Middle East for possible use against Iran. The request came after Iran moved missile launchers out of range (~300mi) of US Precision Strike Missiles. Dark Eagle range: ~1,725mi, Mach 5. Only ~8 missiles available; not formally combat-certified. If approved, would be the first hypersonic combat use globally.",
+    "type": "movement",
+    "lat": 25.0,
+    "lng": 51.5,
+    "location": "US CENTCOM AOR (Middle East)",
+    "timestamp": "2026-04-30T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Bloomberg — US seeks to deploy hypersonic for first time against Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/us-seeks-to-deploy-hypersonic-for-the-first-time-against-iran"
+      },
+      {
+        "name": "Times of Israel — CENTCOM hypersonic missile possible use Iran",
+        "url": "https://www.timesofisrael.com/liveblog_entry/us-centcom-asks-for-long-delayed-hypersonic-missile-to-be-deployed-for-possible-use-against-iran-report/"
+      },
+      {
+        "name": "Army Recognition — Dark Eagle hypersonic Iran",
+        "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-considers-deploying-dark-eagle-hypersonic-missile-to-strike-iranian-ballistic-launchers"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "centcom", "hypersonic", "dark-eagle", "lrhw", "munitions", "day63"]
+  },
+  {
+    "id": "evt-new-1303",
+    "title": "IDF kills 5 Hezbollah operatives, destroys 140m tunnel near Tyre",
+    "description": "IDF 146th Division and Israeli Air Force killed 5 Hezbollah operatives identified near Israeli forces in southern Lebanon. IDF combat engineers (Yahalom unit) razed a 140-meter Hezbollah tunnel in Ras al-Bayada south of Tyre using 24 tons of explosives. Hezbollah claimed downing of an Israeli Hermes 450 UAV via surface-to-air missile over southern Lebanon (IDF confirmed loss).",
+    "type": "strike",
+    "lat": 33.2,
+    "lng": 35.2,
+    "location": "Ras al-Bayada / southern Lebanon",
+    "timestamp": "2026-04-30T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — April 30 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-april-30-2026/"
+      },
+      {
+        "name": "Al Jazeera — Iran war live April 30",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "hezbollah", "idf", "tunnel", "tyre", "day63"]
   }
 ]

@@ -9425,5 +9425,77 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-555",
+    "city": "Shomera (M548 carrier strike)",
+    "country": "Israel",
+    "lat": 33.0833,
+    "lng": 35.2667,
+    "strikeType": "drone attack",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-30",
+    "description": "Hezbollah fiber-optic FPV suicide drone scored a direct hit on an IDF M548 armored cargo carrier at an artillery site near Shomera. 12 IDF soldiers wounded (2 moderately, 10 lightly). Vehicle caught fire. Drone immune to Israeli electronic warfare jamming.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/",
+    "weaponType": "fiber-optic FPV suicide drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 12
+    }
+  },
+  {
+    "id": "ms-556",
+    "city": "Sultanieh",
+    "country": "Lebanon",
+    "lat": 33.3614,
+    "lng": 35.4633,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-30",
+    "description": "Israeli airstrike on Sultanieh (Nabatieh district), part of 'Black Wednesday' barrage. IDF Arabic spokesman ordered evacuations within 1km of any Hezbollah personnel. Lebanese Health Ministry recorded multiple casualties.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/30/civilians-or-hezbollah-who-did-israel-hit-on-lebanons-black-wednesday",
+    "weaponType": "air-to-ground munitions",
+    "casualties": {
+      "killed": 9,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-557",
+    "city": "Qalaouiyeh",
+    "country": "Lebanon",
+    "lat": 33.1208,
+    "lng": 35.4283,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-04-30",
+    "description": "Israeli airstrike on Qalaouiyeh (Bint Jbeil district), part of 'Black Wednesday' barrage across 23 villages. Multiple killed including 2 children at one site.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/4/30/civilians-or-hezbollah-who-did-israel-hit-on-lebanons-black-wednesday",
+    "weaponType": "air-to-ground munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-558",
+    "city": "Ras al-Bayada (south of Tyre)",
+    "country": "Lebanon",
+    "lat": 33.2,
+    "lng": 35.2,
+    "strikeType": "demolition",
+    "attributedTo": "israel",
+    "date": "2026-04-30",
+    "description": "IDF combat engineers (Yahalom unit) destroyed a 140-meter Hezbollah tunnel at Ras al-Bayada south of Tyre using 24 tons of explosives. Part of broader Black Wednesday operation. IDF 146th Division killed 5 Hezbollah operatives during sweep.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-april-30-2026/",
+    "weaponType": "demolition explosives (24 tons)",
+    "casualties": {
+      "killed": 5,
+      "injured": 0
+    }
   }
 ]

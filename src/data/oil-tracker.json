@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-04-30T06:34:00Z",
+    "lastUpdated": "2026-04-30T19:07:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-04-30",
-      "label": "Day 62 Late PT \u2014 Brent $126.10 (+58.0% from pre-war $79.80), WTI $108.51 (+43.7% from $75.51). NEW WARTIME HIGH. CENTCOM briefs Trump on 3 military options (strikes, Hormuz seizure, HEU op). Goldman Sachs: Hormuz exports at 4% of normal. Gas $4.23 (wartime high). Treasury: 35 entities sanctioned. Hengli Petrochemical (China) sanctioned. $344M Tether frozen. War Powers deadline May 1 (TOMORROW).",
+      "label": "Day 63 Midday PT \u2014 Brent $114.66 (+43.7% from pre-war $79.80) after intraday $126 wartime high. WTI $105.38 (+39.6% from $75.51) after $110.90 peak. PULLBACK from highs on profit-taking + reports CENTCOM brief preliminary. AAA gas $4.30/gallon (+37.8% from $3.12). Hormuz Day 59: only 7 vessels in 24h vs ~60 normal (5\u20138%). UAE OPEC exit effective May 1. Iranian rial 1.787M/USD record-low. CENTCOM briefs Trump on 3 military options. War Powers deadline May 1 (TOMORROW).",
       "brent": {
-        "price": 126.10,
-        "change": "+58.0%",
-        "changeDollars": "+$46.30"
+        "price": 114.66,
+        "change": "+43.7%",
+        "changeDollars": "+$34.86"
       },
       "wti": {
-        "price": 108.51,
-        "change": "+43.7%",
-        "changeDollars": "+$33.00"
+        "price": 105.38,
+        "change": "+39.6%",
+        "changeDollars": "+$29.87"
       },
-      "changePercent": 58.0,
+      "changePercent": 43.7,
       "lastUpdated": "2026-04-30"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-30T06:34:00Z",
-    "note": "Day 62 Late PT: Brent $126.10 (+57.9%), WTI $108.51 (+43.7%). AAA avg $4.23/gal (+35.1%). NEW WARTIME HIGHS \u2014 oil and gas. CENTCOM briefs Trump on 3 military options. Goldman Sachs: Hormuz at 4% of normal. Treasury sanctions 35 entities. $344M Tether frozen. War Powers deadline May 1 (TOMORROW).",
+    "lastUpdated": "2026-04-30T19:07:00Z",
+    "note": "Day 63 Midday PT: Brent $114.66 (+43.7% after $126 intraday spike). WTI $105.38 (+39.6%). AAA avg $4.30/gal (+37.8%). NEW WARTIME HIGH on gas (up 30\u00a2 in one week). Hormuz Day 59 \u2014 only 7 vessels in 24h vs ~60 normal (5\u20138%). UAE OPEC exit effective May 1. Iranian rial 1.787M/USD record-low. CENTCOM briefs Trump on 3 military options. War Powers deadline May 1 (TOMORROW).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.23,
+          "price": 4.30,
           "date": "2026-04-30"
         },
-        "change": "+$1.10",
-        "changePercent": "+35.1%",
-        "detail": "Gas $4.23/gal (AAA, April 30). New wartime high and 4-year high. Brent $126.10 (+57.9%), WTI $108.51 (+43.7%). Pre-war $3.13. CA $5.85, OK $3.40. South FL reporting shortages.",
+        "change": "+$1.17",
+        "changePercent": "+37.4%",
+        "detail": "Gas $4.30/gal (AAA, April 30). New wartime high. Up nearly 30¢ in one week (Michigan +33¢ in single day). Brent $114.66 (+43.7% after $126 spike), WTI $105.38 (+39.6%). Pre-war $3.13. CA leading high prices.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-30T00:06:00Z",
+  "lastUpdated": "2026-04-30T19:07:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
