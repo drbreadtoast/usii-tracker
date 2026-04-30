@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-29T12:11:00Z",
-  "currentAverage": 4.12,
+  "lastUpdated": "2026-04-30T00:06:00Z",
+  "currentAverage": 4.031,
   "preWarAverage": 3.13,
-  "changePercent": 31.63,
+  "changePercent": 28.75,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -512,6 +512,12 @@
       "date": "2026-04-29",
       "price": 4.12,
       "label": "Day 61 Midday \u2014 AAA $4.12 (+31.6%). Slight dip from $4.18 peak but Brent surging to $114.64 signals next leg up. Trump 'No More Mr Nice Guy' post."
+    },
+    {
+      "date": "2026-04-30",
+      "price": 4.031,
+      "label": "Day 62 PM PT \u2014 AAA $4.031 (+28.3%). Down from $4.18 peak but Brent surge to $118.03 (+47.8%) signals another leg up. Trump 'cry uncle' rhetoric + UAE OPEC exit. Fed holds 3.5-3.75%. Pentagon: $25B cost. Hormuz Day 58. War Powers May 1 (tomorrow).",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -566,10 +572,10 @@
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$111.57 \u00f7 42 gal (Brent Apr 29)",
-          "value": 2.656,
-          "percent": 64,
-          "change": "+$1.036"
+          "formula": "$118.03 \u00f7 42 gal (Brent Apr 29 close)",
+          "value": 2.81,
+          "percent": 66,
+          "change": "+$1.19"
         },
         {
           "name": "Refining",
@@ -607,18 +613,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.12,
-      "note": "National average $4.18/gal (AAA, April 29). Brent $111.12 (+39.2%), WTI $99.32 (+31.5%). Bessent: Iran oil 'creaking.' GCC summit: Maximum Readiness. Hormuz Day 58. War Powers May 1 (2 days).",
-      "crude": 2.52,
+      "total": 4.031,
+      "note": "National average $4.031/gal (AAA, April 30). Brent $118.03 (+47.8%), WTI $106.88 (+41.5%). Trump 'cry uncle' rhetoric. UAE exits OPEC. Fed holds 3.5-3.75%. Pentagon: $25B cost. Hormuz Day 58. War Powers May 1 (tomorrow).",
+      "crude": 2.81,
       "taxes": 0.534,
       "refining": 0.585,
       "distribution": 0.29,
-      "regularGasoline": 4.18,
-      "changeFromPreWar": "+$1.05",
-      "changePercent": "+33.5%",
-      "lastUpdated": "2026-04-29T00:38:00Z",
-      "date": "2026-04-29"
+      "regularGasoline": 4.031,
+      "changeFromPreWar": "+$0.89",
+      "changePercent": "+28.3%",
+      "lastUpdated": "2026-04-30T00:06:00Z",
+      "date": "2026-04-30"
     }
   },
-  "context": "Day 61 Midday PT: National average $4.12/gal per AAA (April 28 data), down 6 cents from mid-April peak of $4.18 but up 8 cents week-over-week. Brent crude surging to $114.64 (+43.6% from pre-war) suggests further gas price increases ahead. Diesel $5.35/gal. Hormuz Day 58 closure continues to pressure supply. Trump escalatory rhetoric driving oil higher."
+  "context": "Day 62 PM PT: National average $4.031/gal per AAA (April 30 data), down from mid-April peak of $4.18. Brent crude surging to $118.03 (+47.8% from pre-war) on Trump 'cry uncle' blockade rhetoric + UAE OPEC exit signals further gas price increases ahead. Diesel $5.351/gal. Hormuz Day 58 closure continues. War Powers deadline May 1 (tomorrow)."
 }

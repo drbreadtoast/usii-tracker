@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-04-29",
-      "label": "Day 61 Midday PT \u2014 Brent $114.64 (+43.6% from pre-war $79.84), WTI $99.58 (+31.9% from $75.51). 8th straight session of gains \u2014 highest since June 2022. Trump 'No More Mr. Nice Guy' AI gun post spikes oil. Treasury sanctions 35 Iran shadow banking entities. Bessent: Kharg Island 'days' from full storage. Iran bans steel exports. IEA: 10.1M bpd supply lost (largest disruption in history). UAE quits OPEC effective May 1. Hormuz Day 58. War Powers May 1.",
+      "date": "2026-04-30",
+      "label": "Day 62 PM PT \u2014 Brent $118.03 (+47.8% from pre-war $79.84), WTI $106.88 (+41.5% from $75.51). Highest close since June 2022. Trump rejects Iran proposal ('cry uncle'), orders prolonged blockade. UAE exits OPEC effective May 1. Fed holds 3.5-3.75% (8-4 dissent). IEA: 13M bpd supply disruption. Iran rial record low 1.81M/USD. Kharg Island storage nearing capacity. Pentagon: war cost $25B. Hormuz Day 58. War Powers deadline May 1 (tomorrow).",
       "brent": {
-        "price": 114.64,
-        "change": "+43.7%",
-        "changeDollars": "+$34.84"
+        "price": 118.03,
+        "change": "+47.9%",
+        "changeDollars": "+$38.19"
       },
       "wti": {
-        "price": 99.58,
-        "change": "+31.9%",
-        "changeDollars": "+$24.07"
+        "price": 106.88,
+        "change": "+41.6%",
+        "changeDollars": "+$31.37"
       },
-      "changePercent": 43.7,
-      "lastUpdated": "2026-04-29"
+      "changePercent": 47.9,
+      "lastUpdated": "2026-04-30"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-04-29T12:11:00Z",
-    "note": "Day 61 Midday PT: Brent $114.64 (+43.6%), WTI $99.58 (+31.9%). AAA avg $4.12/gal (+31.6%). Trump 'No More Mr Nice Guy' post spikes oil. Treasury sanctions 35 Iran shadow banks. UAE quits OPEC May 1. Hormuz Day 58. War Powers May 1.",
+    "lastUpdated": "2026-04-30T00:06:00Z",
+    "note": "Day 62 PM PT: Brent $118.03 (+47.8%), WTI $106.88 (+41.5%). AAA avg $4.031/gal (+28.8%). Trump 'cry uncle' + prolonged blockade order. UAE exits OPEC May 1. Fed holds 3.5-3.75%. Iran rial record low. IEA: 13M bpd disruption. Pentagon: $25B cost. Hormuz Day 58. War Powers May 1 (tomorrow).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.12,
-          "date": "2026-04-29"
+          "price": 4.031,
+          "date": "2026-04-30"
         },
-        "change": "+$0.99",
-        "changePercent": "+31.6%",
-        "detail": "Gas $4.12/gal (AAA, April 28). Brent $114.64 (+43.7%), WTI $99.58 (+31.9%). Pre-war $3.13. Down from $4.18 peak but Brent surge signals next leg up.",
+        "change": "+$0.90",
+        "changePercent": "+28.8%",
+        "detail": "Gas $4.031/gal (AAA, April 30). Brent $118.03 (+47.8%), WTI $106.88 (+41.5%). Pre-war $3.13. Down from $4.18 peak but Brent surge to $118 signals another leg up ahead.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -666,12 +666,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 5.35,
-          "date": "2026-04-29"
+          "price": 5.351,
+          "date": "2026-04-30"
         },
         "change": "+$1.55",
         "changePercent": "+40.8%",
-        "detail": "Diesel $5.35/gal EIA (April 27). Up 40.8% from pre-war $3.80. CA diesel ~$7.50.",
+        "detail": "Diesel $5.351/gal EIA (April 27). Up 40.8% from pre-war $3.80. CA diesel ~$7.50.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-04-28T06:16:00Z",
+  "lastUpdated": "2026-04-30T00:06:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
