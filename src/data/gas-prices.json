@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-01T06:26:00Z",
-  "currentAverage": 4.30,
+  "lastUpdated": "2026-05-01T12:09:00Z",
+  "currentAverage": 4.39,
   "preWarAverage": 3.13,
-  "changePercent": 37.38,
+  "changePercent": 40.26,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -536,6 +536,12 @@
       "price": 4.30,
       "label": "Day 63 Late PT \u2014 AAA $4.30 (+37.4%) holds at wartime high. CA $6.01. Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). Trump declares war 'terminated' for War Powers. Murkowski AUMF plan May 11. Iran excavating buried missiles. UAE OPEC exit IN EFFECT. Hormuz Day 60.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-01",
+      "price": 4.39,
+      "label": "Day 63 AM PT \u2014 AAA $4.39 (+40.3%) NEW WARTIME HIGH. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). Hezbollah record 105 attack waves. Katz warns 'act again.' Trump briefed on new options. WaPo poll: Iraq-era disapproval. Hormuz Day 60.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -631,18 +637,18 @@
           "change": "$0.00"
         }
       ],
-      "total": 4.234,
-      "note": "National average $4.30/gal (AAA, April 30 data). Wartime high. Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). Trump declares war 'terminated' for War Powers. Murkowski plans AUMF. California $6.01. UAE OPEC exit effective.",
-      "crude": 2.66,
+      "total": 4.324,
+      "note": "National average $4.39/gal (AAA, May 1 data). New wartime high. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). Hezbollah record 105 attack waves. Katz warns 'act again.' California $6.01+. UAE OPEC exit effective.",
+      "crude": 2.71,
       "taxes": 0.534,
-      "refining": 0.62,
+      "refining": 0.66,
       "distribution": 0.30,
-      "regularGasoline": 4.30,
-      "changeFromPreWar": "+$1.17",
-      "changePercent": "+37.4%",
-      "lastUpdated": "2026-05-01T06:26:00Z",
-      "date": "2026-04-30"
+      "regularGasoline": 4.39,
+      "changeFromPreWar": "+$1.26",
+      "changePercent": "+40.3%",
+      "lastUpdated": "2026-05-01T12:09:00Z",
+      "date": "2026-05-01"
     }
   },
-  "context": "Day 63 Late PT: National average $4.30/gal per AAA (April 30 data) \u2014 wartime high and 4-year high. Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). California topped $6.01. Oil stabilizing above $110 after $126 wartime high. Trump declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. UAE OPEC exit IN EFFECT. Hormuz Day 60."
+  "context": "Day 63 AM PT: National average $4.39/gal per AAA (May 1 data) \u2014 new wartime high and 4-year high. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). California $6.01+. Hezbollah record 105 attack waves. Katz warns Israel may 'act again.' Trump briefed on new military options. WaPo poll: Iraq-era disapproval. UAE OPEC exit IN EFFECT. Hormuz Day 60."
 }

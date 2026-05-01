@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-01T06:26:00Z",
+    "lastUpdated": "2026-05-01T12:09:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 62
+    "conflictDay": 63
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-01",
-      "label": "Day 63 Late PT \u2014 Brent July $111.63 (+39.9% from pre-war $79.80), WTI $105.54 (+39.8% from $75.50). Continued pullback from $126 wartime high but stabilizing above $110. Trump admin declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. Iran excavating buried missiles. AAA gas $4.30/gallon (+37.4%). Hormuz Day 60. UAE OPEC exit NOW IN EFFECT.",
+      "label": "Day 63 AM PT \u2014 Brent June settled $114.01 (+42.9% from pre-war $79.80), WTI ~$106.00 (+40.4% from $75.50). Rebounded from pullback \u2014 Brent spiked to $126.41 wartime high April 30. Hezbollah record 105 attack waves. Katz warns Israel may 'act again.' Trump briefed on new military options. WaPo poll: Iraq-era disapproval. AAA gas $4.39/gallon (+40.3%). Hormuz Day 60. UAE OPEC exit IN EFFECT.",
       "brent": {
-        "price": 111.63,
-        "change": "+39.9%",
-        "changeDollars": "+$31.83"
+        "price": 114.01,
+        "change": "+42.9%",
+        "changeDollars": "+$34.21"
       },
       "wti": {
-        "price": 105.54,
-        "change": "+39.8%",
-        "changeDollars": "+$30.04"
+        "price": 106.00,
+        "change": "+40.4%",
+        "changeDollars": "+$30.50"
       },
-      "changePercent": 39.9,
+      "changePercent": 42.9,
       "lastUpdated": "2026-05-01"
     },
     "priceHistory": [
@@ -640,7 +640,7 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-05-01T06:26:00Z",
-    "note": "Day 63 Late PT: Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). Pullback from $126 wartime high stabilizing above $110. AAA avg $4.30/gal (+37.4%). Trump admin declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. Iran excavating buried missiles. Hormuz Day 60. UAE OPEC exit IN EFFECT.",
+    "note": "Day 63 AM PT: Brent June settled $114.01 (+42.9%), WTI ~$106.00 (+40.4%). AAA avg $4.39/gal (+40.3%). Hezbollah record 105 attack waves. Katz warns Israel may 'act again.' Trump briefed on new military options. WaPo poll: Iraq-era disapproval. Hormuz Day 60. UAE OPEC exit IN EFFECT.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.30,
-          "date": "2026-04-30"
+          "price": 4.39,
+          "date": "2026-05-01"
         },
-        "change": "+$1.17",
-        "changePercent": "+37.4%",
-        "detail": "Gas $4.30/gal (AAA, April 30). New wartime high. Up nearly 30¢ in one week (Michigan +33¢ in single day). Brent $114.66 (+43.7% after $126 spike), WTI $105.38 (+39.6%). Pre-war $3.13. CA leading high prices.",
+        "change": "+$1.26",
+        "changePercent": "+40.3%",
+        "detail": "Gas $4.39/gal (AAA, May 1). New wartime high. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). Pre-war $3.13. CA $6.01+.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

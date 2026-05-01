@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-01T06:26:00Z",
+    "lastUpdated": "2026-05-01T12:09:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 416
+    "totalSites": 417
   },
   "summary": {
-    "totalSites": 432,
-    "confirmed": 350,
+    "totalSites": 433,
+    "confirmed": 351,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6785,6 +6785,24 @@
       "casualties": "5 Hezbollah killed",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog-april-30-2026/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-436",
+      "name": "Nabatieh district \u2014 multiple residential sites",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.48,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli strikes on 4 locations in Nabatieh district despite ceasefire. 4 from same family killed at one site; 6 killed near village cemetery; Lebanese army soldier and family members killed in Kfar Rumman. 15-16 total dead.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "16 killed",
+      "source": "Manila Times",
+      "sourceUrl": "https://www.manilatimes.net/2026/05/01/world/lebanon-says-israeli-strikes-kill-at-least-15/2333248",
       "satelliteImagery": false
     }
   ]
