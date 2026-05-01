@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-01T12:09:00Z",
+    "lastUpdated": "2026-05-01T19:05:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 417
   },
   "summary": {
-    "totalSites": 433,
+    "totalSites": 436,
     "confirmed": 351,
     "reported": 1,
     "rumored": 0,
@@ -6803,6 +6803,60 @@
       "casualties": "16 killed",
       "source": "Manila Times",
       "sourceUrl": "https://www.manilatimes.net/2026/05/01/world/lebanon-says-israeli-strikes-kill-at-least-15/2333248",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-437",
+      "name": "Habboush near Nabatiyeh \u2014 vehicle strike",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.49,
+      "category": "residential",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrikes on multiple villages near Nabatiyeh killed at least 10. 4 killed in single vehicle strike. IDF issued evacuation order for Habboush, warning of imminent strikes on Hezbollah facilities.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "10 killed",
+      "source": "Press Democrat / AP",
+      "sourceUrl": "https://www.pressdemocrat.com/2026/05/01/israel-strikes-in-lebanon/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-438",
+      "name": "Southern Lebanon \u2014 40+ Hezbollah sites destroyed (24h)",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.49,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF announced it dismantled more than 40 Hezbollah infrastructure sites across southern Lebanon over 24 hours, including command centers, weapons caches, and military structures. Troops seized 7,500+ weapons.",
+      "weaponUsed": "Mixed air + ground operations",
+      "casualties": "Unknown",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-detroyed-over-40-hezbollah-sites-in-southern-lebanon-in-past-day/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-439",
+      "name": "Zanjan UXO demining accident site",
+      "country": "Iran",
+      "lat": 36.68,
+      "lng": 48.49,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "us",
+      "damageLevel": "severe",
+      "description": "Detonation of unexploded US ordnance \u2014 cluster bombs and air mines from Operation Epic Fury \u2014 killed 14 IRGC personnel and wounded 2 during a demining operation in Zanjan province. Largest IRGC death toll since the April 7 ceasefire.",
+      "weaponUsed": "Residual US cluster bombs / air mines",
+      "casualties": "14 killed, 2 wounded",
+      "source": "Al Arabiya",
+      "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/05/01/fourteen-irgc-members-killed-in-demining-operation-local-media",
       "satelliteImagery": false
     }
   ]

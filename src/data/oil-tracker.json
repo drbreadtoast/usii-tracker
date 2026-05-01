@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-01T12:09:00Z",
+    "lastUpdated": "2026-05-01T19:05:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-01",
-      "label": "Day 63 AM PT \u2014 Brent June settled $114.01 (+42.9% from pre-war $79.80), WTI ~$106.00 (+40.4% from $75.50). Rebounded from pullback \u2014 Brent spiked to $126.41 wartime high April 30. Hezbollah record 105 attack waves. Katz warns Israel may 'act again.' Trump briefed on new military options. WaPo poll: Iraq-era disapproval. AAA gas $4.39/gallon (+40.3%). Hormuz Day 60. UAE OPEC exit IN EFFECT.",
+      "label": "Day 63 Noon PT \u2014 Brent retreats to $108.10/bbl (+35.5% from pre-war $79.80, -$5.91 from $114.01 morning) on Pakistan-mediated Iran proposal news. WTI $101.05/bbl (+33.8% from $75.50). Earlier intraday Brent print at 8:45 AM ET reached $116.10. War Powers 60-day deadline expires; Trump declares 'hostilities terminated.' Trump rejects Iran proposal: 'blast the hell out of them or make a deal.' CENTCOM directs 44 vessels to turn around. UAE exits OPEC effective today. AAA gas $4.392/gallon (+43.1% from $3.07). Hormuz Day 60.",
       "brent": {
-        "price": 114.01,
-        "change": "+42.9%",
-        "changeDollars": "+$34.21"
+        "price": 108.10,
+        "change": "+35.5%",
+        "changeDollars": "+$28.30"
       },
       "wti": {
-        "price": 106.00,
-        "change": "+40.4%",
-        "changeDollars": "+$30.50"
+        "price": 101.05,
+        "change": "+33.8%",
+        "changeDollars": "+$25.55"
       },
-      "changePercent": 42.9,
+      "changePercent": 35.5,
       "lastUpdated": "2026-05-01"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-01T06:26:00Z",
-    "note": "Day 63 AM PT: Brent June settled $114.01 (+42.9%), WTI ~$106.00 (+40.4%). AAA avg $4.39/gal (+40.3%). Hezbollah record 105 attack waves. Katz warns Israel may 'act again.' Trump briefed on new military options. WaPo poll: Iraq-era disapproval. Hormuz Day 60. UAE OPEC exit IN EFFECT.",
+    "lastUpdated": "2026-05-01T19:05:00Z",
+    "note": "Day 63 Noon PT: Brent retreats to $108.10 (+35.4%) on Pakistan-mediated Iran proposal news; WTI $101.05 (+33.8%). AAA gas $4.39/gal stabilizing near wartime high. War Powers deadline expires; Trump declares 'hostilities terminated.' CENTCOM 44 vessels turned around. UAE OPEC exit IN EFFECT.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -655,7 +655,7 @@
         },
         "change": "+$1.26",
         "changePercent": "+40.3%",
-        "detail": "Gas $4.39/gal (AAA, May 1). New wartime high. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). Pre-war $3.13. CA $6.01+.",
+        "detail": "Gas $4.392/gal (AAA, May 1). Stabilizing near wartime high. Brent retreated to $108.10 (+35.4%), WTI $101.05 (+33.8%) on Pakistan-mediated talks. Pre-war $3.13. CA $6.01+.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1206,6 +1206,13 @@
       "brent": 111.63,
       "wti": 105.54,
       "label": "Day 63 Late PT \u2014 Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). Stabilizing above $110 after $126 wartime high pullback. Trump admin declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. Iran excavating buried missiles. Gas $4.30 (CA $6.01). UAE OPEC exit IN EFFECT. Hormuz Day 60.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-01",
+      "brent": 108.10,
+      "wti": 101.05,
+      "label": "Day 63 Noon PT \u2014 Brent retreats to $108.10 (+35.4%, -$5.91 from morning $114.01), WTI $101.05 (+33.8%) on Pakistan-mediated Iran proposal news. Trump 'not satisfied,' rejects proposal: 'blast the hell out of them or make a deal.' War Powers 60-day deadline expires; Trump declares 'hostilities terminated.' 14 IRGC killed Zanjan UXO blast. CENTCOM 44 vessels turned around. UAE OPEC exit IN EFFECT. AAA gas $4.39. Hormuz Day 60.",
       "isEvent": true
     }
   ]

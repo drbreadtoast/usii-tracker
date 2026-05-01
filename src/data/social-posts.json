@@ -1,94 +1,5 @@
 [
   {
-    "id": "social-1098",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "BLACK WEDNESDAY: At least 28 killed across 23 villages in southern Lebanon — Sultanieh, Qalaouiyeh, Yohmor, Zawtar al-Sharqiya, Meifdoun, Biyyout al-Saiyad, Kunin all hit. IDF Arabic spokesman ordered evacuations within 1km of any Hezbollah personnel. Lebanese health min: 9 killed at one site incl. 2 children.",
-    "timestamp": "2026-04-30T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera 'Black Wednesday' analysis confirmed scale and locations. Cross-verified by Times of Israel liveblog and L'Orient Today.",
-    "keywords": [
-      "black-wednesday",
-      "lebanon",
-      "israel",
-      "strikes",
-      "civilians",
-      "hezbollah"
-    ]
-  },
-  {
-    "id": "social-1099",
-    "handle": "@michaelh992",
-    "displayName": "Michael Horowitz",
-    "text": "OIL SHARP REVERSAL: Brent crashed from intraday $126 to $114.66 — a -$11.44 / -9.1% pullback in hours. WTI eased to $105.38 from $110.90 peak. Profit-taking + reports CENTCOM brief is preliminary, not strike-imminent. Volatility extreme. Range trading $100-$120 likely until War Powers May 1 resolved.",
-    "timestamp": "2026-04-30T15:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC, CNN Business, TradingEconomics confirmed pullback. Babypips charted intraday range.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "pullback",
-      "volatility",
-      "war-powers"
-    ]
-  },
-  {
-    "id": "social-1100",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "DARK EAGLE REQUEST: CENTCOM has formally requested deployment of Army's Long-Range Hypersonic Weapon (Dark Eagle) to the Middle East — first potential combat use of US hypersonic missile globally. Range ~1,725mi, Mach 5, ~$15M each. Only ~8 in inventory; never officially combat-certified. Iran moved launchers out of PrSM range.",
-    "timestamp": "2026-04-30T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Bloomberg scoop. Times of Israel + Army Recognition cited same. Pentagon has not officially confirmed deployment.",
-    "keywords": [
-      "centcom",
-      "hypersonic",
-      "dark-eagle",
-      "lrhw",
-      "munitions",
-      "iran"
-    ]
-  },
-  {
-    "id": "social-1101",
-    "handle": "@FarhadRes",
-    "displayName": "Farhad Rezaei",
-    "text": "MOJTABA SURFACES: Mojtaba Khamenei issues Persian Gulf Day message — 'new chapter,' 'future without America' in Hormuz, vows to protect nuclear/missile capabilities as 'national assets.' Hours after Rubio confirmed US has 'indications' Mojtaba is alive. Succession messaging unmistakable.",
-    "timestamp": "2026-04-30T16:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PressTV (official), The Week India, ANI News confirmed statement. Rubio's Hill comments separately confirmed.",
-    "keywords": [
-      "mojtaba-khamenei",
-      "iran",
-      "succession",
-      "hormuz",
-      "rubio"
-    ]
-  },
-  {
-    "id": "social-1102",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks OSINT",
-    "text": "HEGSETH SENATE GRILLING: ~6 hours of testimony. Pentagon comptroller Jules Hurst confirms $25B war cost (CNN: actual $40-50B with base repairs). White House requesting $1.5T defense budget — biggest since WWII. Hegseth's claim that 60-day War Powers clock 'pauses' during ceasefire is contested by most legal scholars.",
-    "timestamp": "2026-04-30T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "WaPo, PBS NewsHour, Euronews, CSMonitor confirmed hearing details. Defense Post & NBC confirmed $25B figure.",
-    "keywords": [
-      "hegseth",
-      "senate",
-      "war-powers",
-      "war-costs",
-      "pentagon",
-      "1.5T"
-    ]
-  },
-  {
     "id": "social-1103",
     "handle": "@Global_Flttrckr",
     "displayName": "Global Fleet Tracker",
@@ -447,6 +358,137 @@
       "poll",
       "dhs",
       "hormuz"
+    ]
+  },
+  {
+    "id": "social-1121",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "PAKISTAN MEDIATION: Per Barak Ravid (Axios), Iran has sent an unspecified counter-proposal through Pakistani mediators to the US in response to recent US changes to the past ceasefire framework. Trump publicly 'not satisfied' but says talks continue. Markets reading bullishly — Brent off $5.91 to $108.10.",
+    "timestamp": "2026-05-01T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios (Barak Ravid scoop). Cross-verified by Times of Israel liveblog and CNN reporting.",
+    "keywords": [
+      "iran",
+      "pakistan",
+      "mediation",
+      "trump",
+      "negotiation",
+      "oil"
+    ]
+  },
+  {
+    "id": "social-1122",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "ZANJAN UXO: 14 IRGC personnel killed and 2 wounded clearing unexploded US ordnance — cluster bombs and air mines from initial Operation Epic Fury — in Zanjan province, NW Iran. Largest IRGC death toll since the April 7 ceasefire. Demonstrates the long tail of US strikes: cluster munitions and minefields will produce casualties for years.",
+    "timestamp": "2026-05-01T13:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Arabiya, Times of Israel, Dawn (Iran state media originated). Independent confirmation pending site access.",
+    "keywords": [
+      "iran",
+      "irgc",
+      "uxo",
+      "demining",
+      "zanjan",
+      "cluster-munitions"
+    ]
+  },
+  {
+    "id": "social-1123",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks OSINT",
+    "text": "WAR POWERS LEGAL FIGHT: Trump's letter to Congress declaring 'hostilities have terminated' is the legal hook. Sen. Kaine: 'A ceasefire means bombs aren't dropping. It doesn't mean there are no hostilities.' Sen. Susan Collins to introduce AUMF May 11 if no plan presented. Most legal scholars dispute Hegseth's claim that ceasefire pauses the 60-day clock. Constitutional clash now teed up.",
+    "timestamp": "2026-05-01T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WaPo, NPR, CNN Politics — all confirmed Trump letter and Kaine/Collins statements. ABC News confirmed Rubio interview.",
+    "keywords": [
+      "war-powers",
+      "congress",
+      "trump",
+      "kaine",
+      "collins",
+      "aumf",
+      "hegseth"
+    ]
+  },
+  {
+    "id": "social-1124",
+    "handle": "@Global_Flttrckr",
+    "displayName": "Global Fleet Tracker",
+    "text": "BLOCKADE TIGHTENS: CENTCOM confirms 44 commercial vessels now directed to turn around or return to port (up from 42 yesterday). USS Gerald R. Ford departing Mideast — longest carrier deployment since Vietnam. USS Lincoln + USS Bush remain enforcing blockade. Treasury threatens shippers with sanctions if they pay Iran any tolls. Iran's exports collapsed to 567K bpd from 1.85M bpd — costing Iran ~$500M/day per White House.",
+    "timestamp": "2026-05-01T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Tribune India (CENTCOM official), Stars and Stripes (Ford departure), 1News analysis (Iran exports). All cross-verified.",
+    "keywords": [
+      "blockade",
+      "centcom",
+      "uss-ford",
+      "navy",
+      "treasury",
+      "iran-exports"
+    ]
+  },
+  {
+    "id": "social-1125",
+    "handle": "@FarhadRes",
+    "displayName": "Farhad Rezaei",
+    "text": "MOJTABA NEW WRITTEN STATEMENT: Iranian Supreme Leader's son Mojtaba Khamenei issued a sharp written message — foreigners 'have no place [in the Gulf] except at the bottom of its waters' — claiming all Iran's nuclear, missile, and tech capabilities as 'national assets.' Notably: NO public appearance. Continued indication he was wounded in earlier strikes; succession messaging dialed up under blockade pressure.",
+    "timestamp": "2026-05-01T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz, Townhall, Iran International confirmed text. Time Magazine prior reporting (April 21) suggested Mojtaba was wounded.",
+    "keywords": [
+      "mojtaba-khamenei",
+      "iran",
+      "succession",
+      "hormuz",
+      "blockade"
+    ]
+  },
+  {
+    "id": "social-1126",
+    "handle": "@michaelh992",
+    "displayName": "Michael Horowitz",
+    "text": "OIL UNUSUAL: Brent retreated to $108.10 (-$5.91 from morning $114.01) on Pakistan-mediated talks news, but US Treasury and CENTCOM measures (44 vessels turned, Qingdao sanctions, shipper toll warnings) all bullish for crude. Disconnect suggests market betting on quick diplomatic breakthrough. Risk skewed to upside if Trump's 'blast the hell out of them' option crystallizes.",
+    "timestamp": "2026-05-01T17:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "TradingEconomics, FXLeaders confirmed price action. State Dept release on Qingdao sanctions independently confirmed.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "blockade",
+      "treasury",
+      "qingdao"
+    ]
+  },
+  {
+    "id": "social-1127",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitor",
+    "text": "DAY 63 NOON ROUNDUP: War Powers 60-day deadline expires; Trump declares 'hostilities terminated.' Trump rejects Iran's Pakistan-mediated proposal: 'blast the hell out of them or make a deal.' 14 IRGC killed in Zanjan UXO blast (largest since ceasefire). IDF destroys 40+ Hezbollah sites in 24h, seized 7,500 weapons. 10+ killed in S. Lebanon strikes May 1. CENTCOM 44 vessels turned around. UAE OPEC exit IN EFFECT. Brent retreats to $108.10 on Pakistan talks. Gas $4.39 holds.",
+    "timestamp": "2026-05-01T18:30:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "WaPo, CNN, NPR, Times of Israel, Al Arabiya, Tribune India, TradingEconomics, AAA — all cross-verified.",
+    "keywords": [
+      "roundup",
+      "day63",
+      "war-powers",
+      "trump",
+      "iran",
+      "irgc",
+      "hezbollah",
+      "centcom",
+      "uae-opec",
+      "oil",
+      "gas"
     ]
   }
 ]

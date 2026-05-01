@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T12:09:00Z",
+  "lastUpdated": "2026-05-01T19:05:00Z",
   "currentAverage": 4.39,
   "preWarAverage": 3.13,
   "changePercent": 40.26,
@@ -542,6 +542,12 @@
       "price": 4.39,
       "label": "Day 63 AM PT \u2014 AAA $4.39 (+40.3%) NEW WARTIME HIGH. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). Hezbollah record 105 attack waves. Katz warns 'act again.' Trump briefed on new options. WaPo poll: Iraq-era disapproval. Hormuz Day 60.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-01",
+      "price": 4.39,
+      "label": "Day 63 Noon PT \u2014 AAA $4.39 holds (+40.3%) at wartime high. Brent retreats to $108.10 (+35.4%, -$5.91 from morning $114.01) on Pakistan-mediated Iran proposal news. WTI $101.05 (+33.8%). War Powers 60-day deadline expires; Trump declares 'hostilities terminated.' Trump rejects Iran proposal: 'blast the hell out of them or make a deal.' 14 IRGC killed Zanjan UXO blast. CENTCOM 44 vessels turned around. UAE OPEC exit IN EFFECT.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -591,22 +597,22 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 1 Late PT)",
-      "crudePerBarrel": 111.63,
+      "label": "Current (May 1 Noon PT)",
+      "crudePerBarrel": 108.10,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$111.63 \u00f7 42 gal (Brent July, May 1)",
-          "value": 2.66,
-          "percent": 62,
-          "change": "+$1.04"
+          "formula": "$108.10 \u00f7 42 gal (Brent, May 1 noon)",
+          "value": 2.574,
+          "percent": 59,
+          "change": "+$0.95"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.62,
-          "percent": 14,
-          "change": "+$0.22"
+          "value": 0.66,
+          "percent": 15,
+          "change": "+$0.26"
         },
         {
           "name": "Distribution & Marketing",
@@ -632,21 +638,21 @@
         {
           "name": "Retail Margin",
           "formula": "Station profit",
-          "value": 0.12,
-          "percent": 3,
-          "change": "$0.00"
+          "value": 0.32,
+          "percent": 7,
+          "change": "+$0.20"
         }
       ],
-      "total": 4.324,
-      "note": "National average $4.39/gal (AAA, May 1 data). New wartime high. Brent $114.01 (+42.9%), WTI $106.00 (+40.4%). Hezbollah record 105 attack waves. Katz warns 'act again.' California $6.01+. UAE OPEC exit effective.",
-      "crude": 2.71,
+      "total": 4.388,
+      "note": "National average $4.39/gal (AAA, May 1). Near wartime high. Brent retreated to $108.10 (+35.4%, -$5.91 from morning $114.01) on Pakistan-mediated Iran proposal. WTI $101.05 (+33.8%). War Powers 60-day deadline expires; Trump declares 'hostilities terminated.' California $6.01+. UAE OPEC exit IN EFFECT.",
+      "crude": 2.574,
       "taxes": 0.534,
       "refining": 0.66,
       "distribution": 0.30,
       "regularGasoline": 4.39,
       "changeFromPreWar": "+$1.26",
       "changePercent": "+40.3%",
-      "lastUpdated": "2026-05-01T12:09:00Z",
+      "lastUpdated": "2026-05-01T19:05:00Z",
       "date": "2026-05-01"
     }
   },
