@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-01T00:10:00Z",
+    "lastUpdated": "2026-05-01T06:26:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-01",
-      "label": "Day 63 Evening PT \u2014 Brent $108.82 (+36.4% from pre-war $79.80), retreating from $114.01 close and $126 wartime high. WTI $104.84 (+38.9% from $75.50). Significant pullback on profit-taking + diplomatic overtures. AAA gas $4.30/gallon (+37.4% from $3.13). Hormuz Day 60. UAE OPEC exit NOW IN EFFECT. Maritime Freedom Construct launched. Senate rejects War Powers 47-50. War Powers deadline May 1 (TODAY). IDF soldier killed Qantara.",
+      "label": "Day 63 Late PT \u2014 Brent July $111.63 (+39.9% from pre-war $79.80), WTI $105.54 (+39.8% from $75.50). Continued pullback from $126 wartime high but stabilizing above $110. Trump admin declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. Iran excavating buried missiles. AAA gas $4.30/gallon (+37.4%). Hormuz Day 60. UAE OPEC exit NOW IN EFFECT.",
       "brent": {
-        "price": 108.82,
-        "change": "+36.4%",
-        "changeDollars": "+$29.02"
+        "price": 111.63,
+        "change": "+39.9%",
+        "changeDollars": "+$31.83"
       },
       "wti": {
-        "price": 104.84,
-        "change": "+38.9%",
-        "changeDollars": "+$29.34"
+        "price": 105.54,
+        "change": "+39.8%",
+        "changeDollars": "+$30.04"
       },
-      "changePercent": 36.4,
+      "changePercent": 39.9,
       "lastUpdated": "2026-05-01"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-01T00:10:00Z",
-    "note": "Day 63 Evening PT: Brent $108.82 (+36.3%), retreating from $114.01 close and $126 wartime high. WTI $104.84 (+38.8%). AAA avg $4.30/gal (+37.4%). Hormuz Day 60. UAE OPEC exit NOW IN EFFECT. Maritime Freedom Construct launched. Senate rejects War Powers 47-50. War Powers May 1 (TODAY). IDF soldier killed in Qantara.",
+    "lastUpdated": "2026-05-01T06:26:00Z",
+    "note": "Day 63 Late PT: Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). Pullback from $126 wartime high stabilizing above $110. AAA avg $4.30/gal (+37.4%). Trump admin declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. Iran excavating buried missiles. Hormuz Day 60. UAE OPEC exit IN EFFECT.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -1199,6 +1199,13 @@
       "brent": 108.82,
       "wti": 104.84,
       "label": "Day 63 Evening PT \u2014 Brent $108.82 (+36.4%), WTI $104.84 (+38.9%). Continued pullback from $126 wartime high. Senate rejects War Powers 47-50 (Collins breaks). IDF soldier killed Qantara. Maritime Freedom Construct launched. IRGC threatens US warships. IAEA Grossi: old deal 'no basis.' UAE OPEC exit now effective. Gas $4.30. Hormuz Day 60. War Powers May 1 (TODAY).",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-01",
+      "brent": 111.63,
+      "wti": 105.54,
+      "label": "Day 63 Late PT \u2014 Brent July $111.63 (+39.9%), WTI $105.54 (+39.8%). Stabilizing above $110 after $126 wartime high pullback. Trump admin declares war 'terminated' for War Powers. Murkowski plans AUMF May 11. Iran excavating buried missiles. Gas $4.30 (CA $6.01). UAE OPEC exit IN EFFECT. Hormuz Day 60.",
       "isEvent": true
     }
   ]

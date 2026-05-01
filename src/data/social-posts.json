@@ -1,93 +1,5 @@
 [
   {
-    "id": "social-1092",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "CENTCOM BRIEFING: Axios reports Adm. Brad Cooper briefing Trump TODAY on 3 military options: (1) 'short and powerful' wave of strikes on Iranian infrastructure, (2) plan to seize part of Hormuz potentially with ground forces, (3) special forces raid to grab Iran's HEU at Isfahan. This is why Brent just hit $126.",
-    "timestamp": "2026-04-30T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Axios scoop confirmed. JPost, CNBC citing same report. Oil price spike correlates.",
-    "keywords": [
-      "centcom",
-      "trump",
-      "military-options",
-      "hormuz",
-      "heu",
-      "isfahan"
-    ]
-  },
-  {
-    "id": "social-1093",
-    "handle": "@michaelh992",
-    "displayName": "Michael Horowitz",
-    "text": "BRENT $126.10 — NEW WARTIME HIGH. Blew through $125 resistance on CENTCOM briefing report. +57.9% from pre-war $79.84. WTI $108.51. Goldman says Hormuz exports at 4% of normal. If Trump greenlights any of the 3 CENTCOM options, we're looking at $140+ easily.",
-    "timestamp": "2026-04-30T03:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC confirmed $126.10. Goldman Sachs 4% figure from their energy desk note.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "wartime-high",
-      "goldman",
-      "hormuz"
-    ]
-  },
-  {
-    "id": "social-1094",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "HEZBOLLAH DRONE ATTACK: Explosive drone from Lebanon strikes near Shomera in Western Galilee. Vehicle ablaze, fire department responding. Interceptor fired at 2nd suspicious aerial target — results under review. Fiber-optic FPV drones immune to Israeli EW jamming confirmed as major capability gap.",
-    "timestamp": "2026-04-30T05:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog April 30. Al Jazeera fiber-optic drone analysis.",
-    "keywords": [
-      "hezbollah",
-      "drone",
-      "shomera",
-      "galilee",
-      "fiber-optic"
-    ]
-  },
-  {
-    "id": "social-1095",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "IRAN WEAPON THREAT: Navy commander Rear Adm. Shahram Irani says Iran will confront enemies 'very soon' with weapon they're 'deeply afraid of' — 'could give them a heart attack.' No specifics. Could be bluff, could be anti-ship ballistic missile, could be nuclear. Timing with CENTCOM briefing is notable.",
-    "timestamp": "2026-04-30T04:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Press TV, India TV News confirmed statement. Interpretation speculative.",
-    "keywords": [
-      "iran",
-      "navy",
-      "weapon",
-      "threat",
-      "irani"
-    ]
-  },
-  {
-    "id": "social-1096",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks OSINT",
-    "text": "IAEA: Grossi says JCPOA 'cannot constitute a basis' for new Iran nuclear deal. Estimates ~200kg HEU still at Isfahan in tunnels. IAEA cannot verify — inspections ended after June 2025 attack. This is exactly what the CENTCOM HEU seizure option is targeting.",
-    "timestamp": "2026-04-30T04:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UN News, Foreign Policy confirmed Grossi statements at NPT review.",
-    "keywords": [
-      "iaea",
-      "grossi",
-      "nuclear",
-      "jcpoa",
-      "heu",
-      "isfahan"
-    ]
-  },
-  {
     "id": "social-1097",
     "handle": "@Global_Flttrckr",
     "displayName": "Global Fleet Tracker",
@@ -337,6 +249,124 @@
       "grossi",
       "putin",
       "uae",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-1110",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "WAR 'TERMINATED': Trump admin declares Iran war 'terminated' for War Powers purposes as 60-day deadline hits May 1. Senior official: 'hostilities that began on Saturday, February 28, have terminated.' Legal scholars call it 'sizeable extension of previous legal gamesmanship.' Blockade continues, troops remain deployed.",
+    "timestamp": "2026-05-01T04:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "KSAT, Business Standard, The Week confirmed. Multiple legal experts quoted disputing interpretation.",
+    "keywords": [
+      "war-powers",
+      "terminated",
+      "trump",
+      "legal",
+      "blockade",
+      "60-day"
+    ]
+  },
+  {
+    "id": "social-1111",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "IRAN MISSILE RECOVERY: Kurdistan24 reports Iran intensifying excavation of buried missiles and launchers during ceasefire. Heavy equipment at multiple sites. US intel estimates 30-40% of buried stock may be recoverable. This is exactly why CENTCOM is briefing Trump on new strike options — ceasefire is allowing Iran to rearm.",
+    "timestamp": "2026-05-01T04:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Kurdistan24 report confirmed. Iran International liveblog cited same. US official estimates of recovery rate unverified independently.",
+    "keywords": [
+      "iran",
+      "missiles",
+      "excavation",
+      "ceasefire",
+      "rearmament",
+      "centcom"
+    ]
+  },
+  {
+    "id": "social-1112",
+    "handle": "@michaelh992",
+    "displayName": "Michael Horowitz",
+    "text": "OIL STABILIZING: Brent July contract $111.63 (+39.9%), WTI $105.54 (+39.8%) in May 1 trading. Finding floor above $110 after -$14.78 pullback from $126 wartime high. Market digesting 'terminated' war declaration + UAE OPEC exit. Gas holding at $4.30 (CA $6.01). Key level: Brent $108 support.",
+    "timestamp": "2026-05-01T05:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC May 1 oil prices confirmed. AAA gas prices confirmed. TradingEconomics Brent July contract verified.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "stabilizing",
+      "gas",
+      "uae",
+      "opec"
+    ]
+  },
+  {
+    "id": "social-1113",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks OSINT",
+    "text": "SHADOW FLEET: Al Jazeera investigation identifies 26+ Iranian shadow fleet vessels bypassing US naval blockade using fake flags, shell companies, AIS spoofing, and disabled tracking. Transit activity up to 20 crossings on April 29 (6 inbound, 14 outbound). Sanctions evasion is accelerating — Tehran losing ~$500M/day from blockade but finding workarounds.",
+    "timestamp": "2026-05-01T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera shadow fleet investigation published April 30. Lloyd's List confirms 26+ vessels identified. Revenue loss figure from US Treasury.",
+    "keywords": [
+      "shadow-fleet",
+      "iran",
+      "blockade",
+      "sanctions-evasion",
+      "ais-spoofing",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-1114",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "HEZBOLLAH DRONE WARFARE EVOLUTION: WaPo deep-dive on fiber-optic FPV drones — physical cable connects operator to drone, making them totally immune to electronic jamming. Adapted from Ukraine tactics. IDF now wrapping vehicles in netting as counter. 1 KIA + 15 wounded in single day shows IDF vulnerability.",
+    "timestamp": "2026-05-01T05:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Washington Post published April 30. The War Zone confirmed IDF netting counter-measure. Al Jazeera fiber-optic analysis cross-referenced.",
+    "keywords": [
+      "hezbollah",
+      "fiber-optic",
+      "fpv-drone",
+      "ukraine",
+      "idf",
+      "electronic-warfare",
+      "netting"
+    ]
+  },
+  {
+    "id": "social-1115",
+    "handle": "@Global_Flttrckr",
+    "displayName": "Global Fleet Tracker",
+    "text": "DAY 63 LATE PT ROUNDUP: Trump admin declares war 'TERMINATED' for War Powers — blockade continues. Brent July $111.63 (+39.9%), WTI $105.54. Gas $4.30 (CA $6.01). Murkowski plans AUMF May 11. Iran excavating buried missiles. 26+ shadow fleet vessels bypass blockade. Hezbollah fiber-optic drones evolving. UAE OPEC exit IN EFFECT. Hormuz Day 60.",
+    "timestamp": "2026-05-01T06:26:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "KSAT, CNBC, AAA, Alaska Public, Kurdistan24, Al Jazeera, WaPo. All cross-verified.",
+    "keywords": [
+      "roundup",
+      "day63",
+      "terminated",
+      "war-powers",
+      "oil",
+      "gas",
+      "murkowski",
+      "aumf",
+      "iran",
+      "missiles",
+      "shadow-fleet",
+      "hezbollah",
+      "drones",
       "hormuz"
     ]
   }
