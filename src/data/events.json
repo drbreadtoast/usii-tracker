@@ -45798,5 +45798,121 @@
       "injured": 0
     },
     "tags": ["israel", "lebanon", "hezbollah", "idf", "tunnel", "tyre", "day63"]
+  },
+  {
+    "id": "evt-new-1304",
+    "title": "IDF Sgt. Liem Ben Hamo (19) killed by Hezbollah drone strike in Qantara, southern Lebanon",
+    "description": "Hezbollah launched two explosive-laden drones toward IDF forces in the village of Qantara in southern Lebanon. One drone was intercepted; the second struck a force from Golani Brigade Battalion 13, killing Sgt. Liem Ben Hamo (19, from Herzliya) and moderately wounding another soldier. This brings total IDF fatalities in the 2026 Iran War to 19.",
+    "type": "strike",
+    "lat": 33.12,
+    "lng": 35.43,
+    "location": "Qantara, southern Lebanon",
+    "timestamp": "2026-04-30T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Sgt. Liem Ben-Hamo killed in southern Lebanon",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-894753"
+      },
+      {
+        "name": "Haaretz — IDF Soldier Killed by Drone Blast in South Lebanon",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-30/ty-article/.premium/idf-soldier-killed-by-drone-blast-in-south-lebanon-as-12-troops-wounded/0000019d-de7e-d456-a39f-defe0a4f0000"
+      },
+      {
+        "name": "JNS — IDF releases name of soldier KIA in Lebanon",
+        "url": "https://www.jns.org/news/israel-news/idf-releases-name-of-soldier-kia-in-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    },
+    "tags": ["hezbollah", "israel", "idf", "drone", "qantara", "lebanon", "kia", "day63"]
+  },
+  {
+    "id": "evt-new-1305",
+    "title": "Senate rejects War Powers Resolution 47-50 — Collins breaks with GOP for first time",
+    "description": "The US Senate rejected a Democratic-led War Powers Resolution 47-50, hours before the 60-day deadline on May 1. Sen. Susan Collins (R-ME) broke with Republicans for the first time, joining Rand Paul (R-KY) as the only GOP senators voting to advance the measure. Collins stated: 'The President's authority as Commander-in-Chief is not without limits.' This is the 6th failed War Powers vote since the war began Feb 28.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "Washington, DC — US Senate",
+    "timestamp": "2026-04-30T21:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Time — Senate Rejects Measure to Curb Iran War",
+        "url": "https://time.com/article/2026/04/30/senate-rejects-measure-to-curb-iran-war-hours-before-key-legal-deadline/"
+      },
+      {
+        "name": "Maine Public — Collins breaks with Republicans",
+        "url": "https://www.mainepublic.org/politics/2026-04-30/susan-collins-breaks-with-republicans-votes-to-halt-military-actions-against-iran"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "congress", "senate", "war-powers", "collins", "paul", "diplomatic", "day63"]
+  },
+  {
+    "id": "evt-new-1306",
+    "title": "US launches Maritime Freedom Construct (MFC) — new coalition to reopen Strait of Hormuz",
+    "description": "The Trump administration launched the 'Maritime Freedom Construct' (MFC), a joint State Department-CENTCOM initiative to build an international coalition for reopening the Strait of Hormuz. US embassies were instructed to approach partner nations by May 1. UK and France are leading a parallel 30-nation multilateral effort to secure the strait.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz / Washington, DC",
+    "timestamp": "2026-04-30T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Euronews — US seeks maritime freedom coalition to restart Hormuz shipping",
+        "url": "https://www.euronews.com/2026/04/30/us-seeks-maritime-freedom-coalition-to-restart-strait-of-hormuz-shipping"
+      },
+      {
+        "name": "ABC News — Trump admin pitches new coalition to reopen strait",
+        "url": "https://abcnews.com/Politics/trump-administration-pitches-join-new-coalition-reopen-strait/story?id=132545994"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "hormuz", "maritime", "coalition", "naval", "diplomacy", "day63"]
+  },
+  {
+    "id": "evt-new-1307",
+    "title": "IRGC Aerospace Commander Mousavi threatens strikes on US bases and warships",
+    "description": "IRGC Aerospace Force Commander Majid Mousavi threatened strikes on US military bases and warships if hostilities resume: 'We've seen what happened to your regional bases, we will see the same thing happen to your warships.' The threat came as CENTCOM briefed Trump on 3 new military options against Iran.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-04-30T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Siasat — Iran threatens strikes on US bases, warships",
+        "url": "https://www.siasat.com/iran-threatens-strikes-on-us-bases-warships-amid-attack-fears-3463011/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "threat", "military", "us", "day63"]
   }
 ]
