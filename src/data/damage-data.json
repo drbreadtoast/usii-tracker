@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-01T19:05:00Z",
+    "lastUpdated": "2026-05-02T00:01:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 417
   },
   "summary": {
-    "totalSites": 436,
-    "confirmed": 351,
+    "totalSites": 438,
+    "confirmed": 353,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6857,6 +6857,42 @@
       "casualties": "14 killed, 2 wounded",
       "source": "Al Arabiya",
       "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/05/01/fourteen-irgc-members-killed-in-demining-operation-local-media",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-440",
+      "name": "Habboush — residential building, supermarket, homes destroyed",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.48,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli warplanes struck a residential building, a supermarket, and several homes in Habboush near Nabatiyeh less than an hour after issuing evacuation warnings. 6-8 killed including a woman and child, 8-21 wounded.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "6-8 killed, 8-21 wounded",
+      "source": "Washington Post",
+      "sourceUrl": "https://www.washingtonpost.com/world/2026/05/01/lebanon-israel-airstrikes-drones-tyre-hezbollah-ceasefire/6d6296cc-4571-11f1-b19d-32431046b5b4_story.html",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-441",
+      "name": "Shomera artillery position — M548 cargo carrier destroyed by drone",
+      "country": "Israel",
+      "lat": 33.08,
+      "lng": 35.27,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-04-30",
+      "attributedTo": "hezbollah",
+      "damageLevel": "moderate",
+      "description": "Hezbollah drone struck M548 cargo carrier at IDF artillery position near Shomera on northern border. Carrier caught fire and artillery shells exploded. 12 soldiers wounded (2 moderately).",
+      "weaponUsed": "Explosive drone",
+      "casualties": "12 wounded",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/",
       "satelliteImagery": false
     }
   ]

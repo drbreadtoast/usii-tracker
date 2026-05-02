@@ -9605,5 +9605,59 @@
       "killed": 0,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-565",
+    "city": "Habboush",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-01",
+    "description": "Israeli warplanes struck a residential building, supermarket, and several homes in Habboush near Nabatiyeh less than an hour after issuing evacuation warnings. 6-8 killed including a woman and child, 8-21 wounded.",
+    "source": "Washington Post",
+    "sourceUrl": "https://www.washingtonpost.com/world/2026/05/01/lebanon-israel-airstrikes-drones-tyre-hezbollah-ceasefire/6d6296cc-4571-11f1-b19d-32431046b5b4_story.html",
+    "weaponType": "air-to-ground munitions",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-566",
+    "city": "Qantara",
+    "country": "Lebanon",
+    "lat": 33.12,
+    "lng": 35.41,
+    "strikeType": "drone-strike",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-30",
+    "description": "Hezbollah explosive FPV drone killed IDF Sgt. Liem Ben Hamo (19, Golani Brigade, 13th Battalion) and moderately wounded another soldier in Qantara village, southern Lebanon.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-04-30/ty-article/.premium/idf-soldier-killed-by-drone-blast-in-south-lebanon-as-12-troops-wounded/0000019d-de7e-d456-a39f-defe0a4f0000",
+    "weaponType": "explosive FPV drone",
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-567",
+    "city": "Shomera",
+    "country": "Israel",
+    "lat": 33.08,
+    "lng": 35.27,
+    "strikeType": "drone-strike",
+    "attributedTo": "hezbollah",
+    "date": "2026-04-30",
+    "description": "Hezbollah drone struck M548 cargo carrier at IDF artillery position near Shomera on northern border. Carrier caught fire, artillery shells exploded. 12 soldiers wounded (2 moderately, 10 lightly).",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/",
+    "weaponType": "explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 12
+    }
   }
 ]
