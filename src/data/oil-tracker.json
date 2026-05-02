@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-02T12:35:00Z",
+    "lastUpdated": "2026-05-02T19:15:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-02",
-      "label": "Day 64 PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.94/bbl (+35.0% from $75.51). ~50 IDF airstrikes S. Lebanon. Ford departs. Dark Eagle hypersonic requested. Khamenei: 'disgraceful defeat.' Senate rejects war powers 50-47. Gas $4.433. NASDAQ 25,114. Hormuz Day 61.",
+      "label": "Day 64 Late PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.69/bbl (+34.7% from $75.51, -3.2% intraday). Trump 'pirates' Florida rally. Israeli strikes near Damascus presidential palace (3 killed). PressTV: 16 US bases damaged $800M+. Maritime Freedom Construct launched. Gas $4.433. Hormuz Day 61 (5% pre-war traffic, 2,000 ships stranded).",
       "brent": {
         "price": 108.17,
-        "change": "+35.5%",
-        "changeDollars": "+$28.33"
+        "change": "+35.6%",
+        "changeDollars": "+$28.37"
       },
       "wti": {
-        "price": 101.94,
-        "change": "+35.0%",
-        "changeDollars": "+$26.43"
+        "price": 101.69,
+        "change": "+34.7%",
+        "changeDollars": "+$26.19"
       },
-      "changePercent": 35.5,
+      "changePercent": 35.6,
       "lastUpdated": "2026-05-02"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-02T12:35:00Z",
-    "note": "Day 64 PM PT: Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). AAA gas $4.433/gal \u2014 new wartime high. ~50 IDF airstrikes S. Lebanon. Ford carrier departs. CENTCOM requests Dark Eagle hypersonic. Khamenei: 'disgraceful defeat.' Senate rejects war powers 50-47. US sanctions Qingdao Haiye. DOE 92.5M barrel SPR exchange. Hormuz Day 61.",
+    "lastUpdated": "2026-05-02T19:15:00Z",
+    "note": "Day 64 Late PM PT: Brent $108.17 (+35.6%), WTI $101.69 (-3.2% intraday, +34.7%). AAA gas $4.433/gal \u2014 wartime high holds. Trump 'pirates' Florida rally. Israeli strikes near Damascus presidential palace (3 killed/34 injured). Catholic convent demolished Majdal Selm. PressTV: 16 US bases damaged $800M+. Maritime Freedom Construct launched. Pezeshkian: blockade 'intolerable.' Hormuz Day 61.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -1234,6 +1234,13 @@
       "brent": 108.17,
       "wti": 101.94,
       "label": "Day 64 PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). ~50 IDF airstrikes S. Lebanon (7+ killed). IDF soldier killed by Hezbollah drone (Apr 30). Ford carrier departs \u2014 2 carriers remain. CENTCOM requests Dark Eagle hypersonic. Khamenei: US 'disgraceful defeat.' Senate rejects war powers 50-47. US sanctions Qingdao Haiye. DOE 92.5M barrel SPR exchange. AAA gas $4.433. NASDAQ 25,114 record. Rial 1,776,000/USD. Hormuz Day 61.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-02",
+      "brent": 108.17,
+      "wti": 101.69,
+      "label": "Day 64 Late PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.69 (-3.2% intraday, +34.7% vs $75.51). Trump 'pirates' Florida rally. Israeli strikes near Damascus presidential palace; Syrian MoH 3 killed/34 injured. IDF demolishes Catholic convent Majdal Selm. PressTV: 16 US bases damaged $800M+ across 8 countries. Maritime Freedom Construct coalition launched. Pezeshkian: blockade 'intolerable' on Persian Gulf Day. Lebanon DT 2,659/8,183. Iran MoH 3,375 killed/26,500+ injured. Hormuz traffic 5% pre-war (2,000 ships stranded). Gas $4.433.",
       "isEvent": true
     }
   ]

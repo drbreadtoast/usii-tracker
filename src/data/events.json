@@ -47281,5 +47281,138 @@
       "injured": 0
     },
     "tags": ["us", "hegseth", "war-powers", "ceasefire", "senate", "day64"]
+  },
+  {
+    "id": "evt-new-1355",
+    "title": "Trump tells Florida rally US Navy acting 'like pirates' to enforce Iran blockade",
+    "description": "At a Florida campaign-style rally, Trump described the US Navy's seizure of Iranian-linked vessels enforcing the Hormuz blockade: 'We land on top of it and we took over the ship. We took over the cargo, took over the oil. It's a very profitable business... We're like pirates.' Remarks contradict the administration's official line that operations are routine maritime enforcement and complicate Trump's War Powers letter that hostilities have 'terminated.'",
+    "type": "diplomatic",
+    "lat": 25.77,
+    "lng": -80.19,
+    "location": "Florida, USA",
+    "timestamp": "2026-05-02T15:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — Trump says US Navy acting 'like pirates'",
+        "url": "https://www.aljazeera.com/news/2026/5/2/trump-says-us-navy-acting-like-pirates-to-enforce-iran-blockade"
+      },
+      {
+        "name": "TIME — Trump 'pirates' enforcing sea blockade",
+        "url": "https://time.com/article/2026/05/02/trump-pirates-US-navy-iran-blockade/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "trump", "blockade", "florida", "rally", "pirates", "day64"]
+  },
+  {
+    "id": "evt-new-1356",
+    "title": "Israeli airstrikes near Syrian Presidential Palace in Damascus — 3 killed, 34 injured",
+    "description": "In the early hours of May 2, Israeli aircraft struck near the Syrian Presidential Palace in Damascus and across Suwayda and Daraa governorates. Syrian Health Ministry reported 3 killed and 34 injured. Netanyahu and Defense Minister Katz issued joint statement warning the Syrian regime against threats to the Druze community. SOHR later reported 20+ Israeli strikes on military sites including al-Tha'lah Military Airbase in Suwayda.",
+    "type": "strike",
+    "lat": 33.5138,
+    "lng": 36.2765,
+    "location": "Damascus area, Syria",
+    "timestamp": "2026-05-02T03:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "TIME — Israel bombs Syria over Druze",
+        "url": "https://time.com/7302711/syria-israel-bomb-damascus-druze-suwayda/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 3,
+      "injured": 34
+    },
+    "tags": ["israel", "syria", "damascus", "druze", "presidential-palace", "katz", "day64"]
+  },
+  {
+    "id": "evt-new-1357",
+    "title": "PressTV report: 16 US bases damaged across 8 countries in Iran retaliation, $800M+ damage",
+    "description": "PressTV/independent assessment published May 2 reports majority of US bases in West Asia damaged by Iran/proxy retaliatory strikes during the war. At least 16 US sites in 8 countries targeted with some 'virtually inoperable.' Estimated $800M+ in damage in first two weeks alone. Affected bases include Al Udeid (Qatar), Ali Al Salem (Kuwait), Al Dhafra (UAE), 5th Fleet HQ (Bahrain), Prince Sultan (Saudi Arabia), Erbil (Iraq).",
+    "type": "infrastructure",
+    "lat": 25.12,
+    "lng": 51.32,
+    "location": "Multiple US bases across West Asia",
+    "timestamp": "2026-05-02T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The Hill — Iran damage to US bases",
+        "url": "https://thehill.com/policy/international/5849646-iran-damage-us-military-bases/"
+      },
+      {
+        "name": "PressTV — US military damaged by Iran retaliation",
+        "url": "https://www.presstv.ir/Detail/2026/05/02/767880/United-States-military-damaged-Iran-retaliation"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us-bases", "iran", "damage-assessment", "al-udeid", "presstv", "day64"]
+  },
+  {
+    "id": "evt-new-1358",
+    "title": "IDF demolishes Catholic convent in Majdal Selm village, southern Lebanon",
+    "description": "Israeli forces demolished parts of a Catholic convent in the Lebanese border village of Majdal Selm on May 2, drawing international criticism. The strike on the religious site is part of the day's broader 50-strike campaign across southern Lebanon and is likely to draw condemnation from the Vatican and Christian organizations.",
+    "type": "strike",
+    "lat": 33.2467,
+    "lng": 35.4308,
+    "location": "Majdal Selm, southern Lebanon",
+    "timestamp": "2026-05-02T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Voice of Emirates — Majdal Selm Israeli strike",
+        "url": "https://www.voiceofemirates.com/en/news/2026/05/02/south-lebanon-ablaze-israeli-strike-on-majdal-selm-as-hezbollah-unleashes-suicide-drones/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "convent", "religious-site", "majdal-selm", "day64"]
+  },
+  {
+    "id": "evt-new-1359",
+    "title": "Pezeshkian declares US naval blockade 'intolerable' on Persian Gulf National Day",
+    "description": "Iranian President Masoud Pezeshkian posted on X marking Persian Gulf National Day: 'The world has witnessed Iran's tolerance and conciliation. The US naval blockade is an extension of military operations against a nation paying the price for its resistance and independence. Continuation of this oppressive approach is intolerable.'",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-02T08:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Pajhwok — Pezeshkian calls US naval blockade intolerable",
+        "url": "https://pajhwok.com/2026/05/01/pezeshkian-calls-us-naval-blockade-intolerable/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "pezeshkian", "blockade", "persian-gulf-day", "day64"]
   }
 ]

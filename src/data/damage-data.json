@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-02T12:35:00Z",
+    "lastUpdated": "2026-05-02T19:15:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,26 +25,28 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 417
+    "totalSites": 420
   },
   "summary": {
-    "totalSites": 442,
-    "confirmed": 354,
+    "totalSites": 445,
+    "confirmed": 357,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
-      "military": 64,
+      "military": 66,
       "nuclear": 8,
       "infrastructure": 12,
       "civilian": 36,
       "media_civilian": 2,
       "residential": 1,
       "energy": 5,
-      "diplomatic": 1
+      "diplomatic": 1,
+      "religious": 1,
+      "government": 1
     },
-    "lastUpdated": "2026-05-01T06:26:00Z",
-    "military": 58,
+    "lastUpdated": "2026-05-02T19:15:00Z",
+    "military": 60,
     "energy": 7,
     "infrastructure": 13
   },
@@ -6983,6 +6985,60 @@
       "casualties": "Not specified",
       "source": "The National",
       "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/02/a-new-wave-of-israeli-strikes-hit-south-lebanon-despite-continuing-ceasefire/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-447",
+      "name": "Catholic convent — Majdal Selm, southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.2467,
+      "lng": 35.4308,
+      "category": "religious",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF demolished parts of a Catholic convent in the Lebanese border village of Majdal Selm. Strike on a religious site is part of the May 2 ~50-strike campaign across southern Lebanon and is expected to draw Vatican condemnation given Pope Leo's prior 'delusion of omnipotence' remarks.",
+      "weaponUsed": "Air-to-ground munitions / engineering demolition",
+      "casualties": "Not specified",
+      "source": "Voice of Emirates",
+      "sourceUrl": "https://www.voiceofemirates.com/en/news/2026/05/02/south-lebanon-ablaze-israeli-strike-on-majdal-selm-as-hezbollah-unleashes-suicide-drones/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-448",
+      "name": "Damascus — Presidential Palace area",
+      "country": "Syria",
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "category": "government",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "Israeli aircraft struck near the Syrian Presidential Palace in Damascus in the early hours of May 2. Joint Netanyahu-Katz statement framed the strike as a warning against Syrian regime threats to Druze community. First major Israeli strike on Damascus since the war began. 3 killed, 34 injured per Syrian Health Ministry.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "3 killed, 34 wounded (Syrian MoH)",
+      "source": "TIME",
+      "sourceUrl": "https://time.com/7302711/syria-israel-bomb-damascus-druze-suwayda/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-449",
+      "name": "al-Tha'lah Military Airbase — Suwayda governorate",
+      "country": "Syria",
+      "lat": 32.7094,
+      "lng": 36.5694,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "Israeli airstrikes on al-Tha'lah Military Airbase and other military targets in Suwayda governorate as part of broader May 2 campaign across southern Syria. SOHR documented 20+ strikes total.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "Not specified",
+      "source": "TIME",
+      "sourceUrl": "https://time.com/7302711/syria-israel-bomb-damascus-druze-suwayda/",
       "satelliteImagery": false
     }
   ]
