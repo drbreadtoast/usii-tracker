@@ -46949,5 +46949,337 @@
       "injured": 0
     },
     "tags": ["iran", "pezeshkian", "araghchi", "irgc", "internal-rift", "day64"]
+  },
+  {
+    "id": "evt-new-1343",
+    "title": "IDF soldier killed, 15 wounded in Hezbollah drone strikes",
+    "description": "IDF Sergeant Liem Ben Hamo (19, Golani Brigade, Herzliya) killed by Hezbollah explosive drone in southern Lebanon. Separately, a Hezbollah drone struck an M548 cargo carrier at an Israeli artillery position near Shomera, wounding 12 soldiers. 3 more wounded in other incidents. 17th IDF soldier and 21st Israeli killed since fighting began.",
+    "type": "strike",
+    "lat": 33.08,
+    "lng": 35.27,
+    "location": "Shomera, northern Israel / southern Lebanon",
+    "timestamp": "2026-04-30T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — 12 soldiers injured by Hezbollah drone",
+        "url": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 15
+    },
+    "tags": ["hezbollah", "idf", "drone", "shomera", "casualties", "day63"]
+  },
+  {
+    "id": "evt-new-1344",
+    "title": "Senate rejects war powers resolution 50-47, Collins breaks with GOP",
+    "description": "Senate Republicans defeated a Democratic-led War Powers resolution 50-47. Sen. Collins (R-ME) voted for the measure for the first time, joining only Sen. Paul (R-KY) among Republicans. Sen. Fetterman (D-PA) was the lone Democrat voting against. 6th time Republicans blocked such a resolution.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-04-30T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Time — Senate rejects measure to curb Iran war",
+        "url": "https://time.com/article/2026/04/30/senate-rejects-measure-to-curb-iran-war-hours-before-key-legal-deadline/"
+      },
+      {
+        "name": "Democracy Now — Senate blocks war powers for 6th time",
+        "url": "https://www.democracynow.org/2026/5/1/headlines/senate_republicans_block_iran_war_powers_resolution_for_sixth_time_ahead_of_60_day_deadline"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "senate", "war-powers", "collins", "paul", "fetterman", "day63"]
+  },
+  {
+    "id": "evt-new-1345",
+    "title": "Mojtaba Khamenei: US suffered 'disgraceful defeat', calls for 'economic jihad'",
+    "description": "Iran's Supreme Leader declared the US has suffered a 'disgraceful defeat' in its military campaign, saying 'a new chapter is unfolding for the Persian Gulf and the Strait of Hormuz.' In a May 2 follow-up, called for 'economic and cultural jihad,' urging domestic production and warning businesses against layoffs.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-01T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Middle East Eye — Khamenei: US 'disgraceful defeat'",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-suffered-disgraceful-defeat-irans-supreme-leader-says"
+      },
+      {
+        "name": "Middle East Eye — Khamenei calls for economic jihad",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/khamenei-urges-focus-domestic-production-calls-economic-jihad"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "mojtaba-khamenei", "statement", "economic-jihad", "day64"]
+  },
+  {
+    "id": "evt-new-1346",
+    "title": "Rubio rejects Iran proposal, demands nuclear concessions first",
+    "description": "Secretary of State Rubio rejected Iran's latest peace proposal, saying: 'What they mean by opening the straits is, yes, the straits are open, as long as you coordinate with Iran, get our permission, or we'll blow you up, and you pay us.' Added: 'The nuclear question is the reason why we're in this in the first place.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-05-01T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Hill — Rubio rejects Iran offer on Strait and nuclear",
+        "url": "https://thehill.com/policy/international/5852376-marco-rubio-iran-offer-nuclear-strait-of-hormuz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "rubio", "iran-proposal", "nuclear", "hormuz", "diplomacy", "day64"]
+  },
+  {
+    "id": "evt-new-1347",
+    "title": "USS Gerald R. Ford departs Middle East after record 10-month deployment",
+    "description": "The USS Gerald R. Ford (CVN-78) departed the Middle East after a record 10+ month deployment during Operation Epic Fury, heading to homeport Norfolk, VA. US carrier presence drops from 3 to 2 strike groups. USS Abraham Lincoln and USS George H.W. Bush remain on station enforcing the maritime blockade.",
+    "type": "naval",
+    "lat": 24.50,
+    "lng": 58.00,
+    "location": "Arabian Sea / Persian Gulf",
+    "timestamp": "2026-05-01T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Stars and Stripes — Ford departs after record deployment",
+        "url": "https://www.stripes.com/branches/navy/2026-04-30/gerald-r-ford-epic-fury-newport-news-21533354.html"
+      },
+      {
+        "name": "Washington Post — US aircraft carrier leaves Iran war",
+        "url": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "navy", "ford", "carrier", "departure", "epic-fury", "day64"]
+  },
+  {
+    "id": "evt-new-1348",
+    "title": "CENTCOM requests Dark Eagle hypersonic missile deployment to Middle East",
+    "description": "US Central Command formally requested deployment of the Army's Long-Range Hypersonic Weapon (LRHW) 'Dark Eagle' — would be the first-ever US hypersonic weapon deployment. Iran has moved missile launchers beyond the 300-mile range of current US precision strike systems. Dark Eagle has 1,725-mile range, Mach 5+ speed, ~$15M per missile.",
+    "type": "movement",
+    "lat": 25.00,
+    "lng": 55.00,
+    "location": "Middle East (deployment location classified)",
+    "timestamp": "2026-04-30T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Bloomberg — US seeks to deploy hypersonic for first time against Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/us-seeks-to-deploy-hypersonic-for-the-first-time-against-iran"
+      },
+      {
+        "name": "Newsweek — What is the Dark Eagle hypersonic missile",
+        "url": "https://www.newsweek.com/what-is-the-dark-eagle-hypersonic-missile-u-s-wants-for-iran-war-11902699"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "centcom", "dark-eagle", "hypersonic", "escalation", "day63"]
+  },
+  {
+    "id": "evt-new-1349",
+    "title": "US sanctions Qingdao Haiye oil terminal and Iranian exchange houses",
+    "description": "State Dept sanctioned China-based Qingdao Haiye Oil Terminal Co. (processed tens of millions of barrels of Iranian crude) and its president Xinchun Li. Treasury sanctioned 3 Iranian currency exchange houses processing billions annually. OFAC issued alert on sanctions risks of paying Iran tolls for Hormuz passage. 6 individuals and 21 entities across China, Iran, UAE, and UK designated.",
+    "type": "diplomatic",
+    "lat": 36.07,
+    "lng": 120.38,
+    "location": "Qingdao, China / Washington DC",
+    "timestamp": "2026-05-01T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "State Dept — US sanctions Iran-China oil trade network",
+        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade/"
+      },
+      {
+        "name": "Treasury — Press release sb0472",
+        "url": "https://home.treasury.gov/news/press-releases/sb0472"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "sanctions", "china", "qingdao", "iran", "oil", "day64"]
+  },
+  {
+    "id": "evt-new-1350",
+    "title": "DOE issues 92.5M barrel SPR exchange RFP — largest in history",
+    "description": "Department of Energy issued RFP for 92.5M barrels from Strategic Petroleum Reserve (Bayou Choctaw, Bryan Mound, Big Hill, West Hackberry). Part of 172M barrel US release under 400M barrel IEA coordinated action. Bids due May 4. ~80M barrels already allocated in prior rounds. Largest SPR exchange in 50-year history.",
+    "type": "infrastructure",
+    "lat": 30.00,
+    "lng": -93.50,
+    "location": "US Gulf Coast SPR sites",
+    "timestamp": "2026-05-01T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Rigzone — DOE continues 172M barrel SPR exchange",
+        "url": "https://www.rigzone.com/news/doe_continues_swift_execution_of_172mm_barrel_spr_exchange-01-may-2026-183592-article/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "spr", "oil", "doe", "strategic-reserve", "day64"]
+  },
+  {
+    "id": "evt-new-1351",
+    "title": "~50 Israeli airstrikes across south Lebanon, 7+ killed",
+    "description": "Israeli air force carried out approximately 50 airstrikes over 24 hours targeting Hezbollah infrastructure across southern Lebanon. At least 7 killed, 10+ injured. Strikes hit Mayfadoun, Siddiqine, Kafra-Yater, Al Smaaiyah, Shaaitiyeh. IDF issued evacuation warnings for 9 villages. Alleged white phosphorus use reported near Seriane and Taybeh in Marjayoun district.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.40,
+    "location": "Multiple villages, southern Lebanon (Nabatieh/Tyre districts)",
+    "timestamp": "2026-05-02T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "The National — New wave of Israeli strikes hit south Lebanon",
+        "url": "https://www.thenationalnews.com/news/mena/2026/05/02/a-new-wave-of-israeli-strikes-hit-south-lebanon-despite-continuing-ceasefire/"
+      },
+      {
+        "name": "WSLS — Israeli airstrikes on S. Lebanon kill 7",
+        "url": "https://www.wsls.com/news/world/2026/05/02/israeli-airstrikes-on-southern-lebanon-kill-7-despite-ceasefire/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 7,
+      "injured": 10
+    },
+    "tags": ["israel", "lebanon", "airstrike", "hezbollah", "white-phosphorus", "day64"]
+  },
+  {
+    "id": "evt-new-1352",
+    "title": "Iranian military official warns renewed conflict with US 'likely'",
+    "description": "Senior Iranian military official Mohammad Jafar Asadi stated: 'A renewed conflict between Iran and the United States is likely. Evidence has shown that the United States is not committed to any promises or agreements.' Iran says it is 'fully prepared for any new adventures or foolishness from the Americans.'",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-02T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "RTE — Iran military says renewed conflict 'likely'",
+        "url": "https://www.rte.ie/news/2026/0502/1571420-iran-war/"
+      },
+      {
+        "name": "Al Jazeera — Iran war live: Trump says no early end",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/2/iran-war-live-trump-says-no-early-end-to-war-unhappy-with-tehran-offer"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "military", "escalation", "asadi", "war-warning", "day64"]
+  },
+  {
+    "id": "evt-new-1353",
+    "title": "Araghchi: Iran open to diplomacy if US drops 'excessive demands'",
+    "description": "Iranian FM Araghchi stated Iran is open to diplomacy if the US drops 'excessive demands' and stops using 'the language of threats.' Held calls with counterparts from Turkey, Egypt, Qatar, Saudi Arabia, Iraq, Azerbaijan, and EU's Kallas on regional security and Hormuz.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-01T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PressTV — Iran opens to diplomacy if US drops excessive demands",
+        "url": "https://www.presstv.ir/Detail/2026/05/01/767872/Iran-opens-to-diplomacy-if-US-drops-its-excessive-demands--FM"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "araghchi", "diplomacy", "kallas", "day64"]
+  },
+  {
+    "id": "evt-new-1354",
+    "title": "Hegseth claims ceasefire 'pauses' War Powers clock — legally disputed",
+    "description": "Defense Secretary Hegseth asserted during Senate Armed Services Committee testimony that the ceasefire 'pauses or stops' the 60-day War Powers clock. Legal experts and Democrats dispute this — the statute contains no provision for pausing. Also called congressional critics 'the biggest adversary we face.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-05-01T17:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Axios — Hegseth War Powers Senate hearing",
+        "url": "https://www.axios.com/2026/05/01/iran-pentagon-hegseth-war-powers-senate-hearing-republicans"
+      },
+      {
+        "name": "Al Jazeera — Has ceasefire reset War Powers clock?",
+        "url": "https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "hegseth", "war-powers", "ceasefire", "senate", "day64"]
   }
 ]

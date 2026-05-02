@@ -215,5 +215,60 @@
       "hezbollah",
       "iran-rift"
     ]
+  },
+  {
+    "id": "social-1140",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "BREAKING: IDF confirms Sgt. Liem Ben Hamo (19, Golani Brigade) killed by Hezbollah explosive drone in S. Lebanon Apr 30. Separately, 12 soldiers wounded when drone struck M548 cargo carrier at Shomera artillery position. 17th IDF soldier killed. Hezbollah fiber-optic FPV drones proving highly effective — 27+ attacks since Feb.",
+    "timestamp": "2026-05-02T08:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel confirmed IDF casualty and Shomera drone strike.",
+    "keywords": ["idf", "hezbollah", "drone", "casualty", "shomera", "fiber-optic"]
+  },
+  {
+    "id": "social-1141",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "MAJOR: ~50 Israeli airstrikes across S. Lebanon over 24h. 7+ killed in Mayfadoun, Siddiqine, Kafra-Yater, Al Smaaiyah, Shaaitiyeh. IDF evacuation warnings for 9 villages. Reports of white phosphorus near Seriane/Taybeh (Marjayoun). Hezbollah issues 6+ attack statements — rockets and drones.",
+    "timestamp": "2026-05-02T09:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "The National, WSLS, RTE confirmed strikes and casualties.",
+    "keywords": ["israel", "lebanon", "airstrikes", "white-phosphorus", "hezbollah"]
+  },
+  {
+    "id": "social-1142",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "USS Gerald R. Ford (CVN-78) confirmed departed Middle East after record 10+ month deployment. Carrier presence drops from 3 to 2. Lincoln and Bush remain. Meanwhile, CENTCOM has formally requested Dark Eagle hypersonic missile deployment — would be first-ever US hypersonic weapon use in combat theater.",
+    "timestamp": "2026-05-02T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Stars and Stripes confirmed Ford departure. Bloomberg confirmed Dark Eagle request.",
+    "keywords": ["ford", "carrier", "dark-eagle", "hypersonic", "centcom", "naval"]
+  },
+  {
+    "id": "social-1143",
+    "handle": "@idaborovich1",
+    "displayName": "Ida Bae Wells (OSINT)",
+    "text": "Senate rejected War Powers resolution 50-47 on Apr 30 — 6th time blocked. But Collins (R-ME) voted FOR it for first time, joining only Paul. Murkowski drafting AUMF for May 11. Hegseth claims ceasefire 'pauses' War Powers clock — legal experts say no such provision exists.",
+    "timestamp": "2026-05-02T10:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Time, Democracy Now, Axios, CNN confirmed vote, Collins break, Murkowski AUMF.",
+    "keywords": ["war-powers", "senate", "collins", "murkowski", "aumf", "hegseth"]
+  },
+  {
+    "id": "social-1144",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitor",
+    "text": "DAY 64 PM UPDATE: IDF soldier killed + 15 wounded by Hezbollah drones. ~50 IDF airstrikes S. Lebanon (7+ killed). Ford carrier departs. Dark Eagle hypersonic requested. Khamenei: US 'disgraceful defeat.' Iran military: war 'likely' to restart. Senate rejects war powers 50-47. Gas $4.433. NASDAQ 25,114 record. Rial 1.776M/USD. 61% say war was mistake.",
+    "timestamp": "2026-05-02T12:35:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, The National, Bloomberg, Middle East Eye, Time, AAA, WaPo — all cross-verified.",
+    "keywords": ["roundup", "day64", "idf-casualty", "lebanon-strikes", "ford", "dark-eagle", "khamenei", "war-powers"]
   }
 ]

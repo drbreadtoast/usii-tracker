@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-02T06:10:00Z",
+    "lastUpdated": "2026-05-02T12:35:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 417
   },
   "summary": {
-    "totalSites": 439,
+    "totalSites": 442,
     "confirmed": 354,
     "reported": 1,
     "rumored": 0,
@@ -6929,6 +6929,60 @@
       "casualties": "1 killed, 7 wounded",
       "source": "NBC News",
       "sourceUrl": "https://www.nbcnews.com/world/lebanon/israel-strikes-southern-lebanon-kill-10-people-hezbollah-drone-wounds-rcna343170",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-444",
+      "name": "Mayfadoun village — airstrike on Hezbollah infrastructure",
+      "country": "Lebanon",
+      "lat": 33.39,
+      "lng": 35.40,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Mayfadoun in Nabatieh district as part of ~50 strikes across S. Lebanon on May 2. Multiple casualties reported.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "2 killed, 3 wounded",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/02/a-new-wave-of-israeli-strikes-hit-south-lebanon-despite-continuing-ceasefire/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-445",
+      "name": "Siddiqine village — airstrike (Tyre district)",
+      "country": "Lebanon",
+      "lat": 33.29,
+      "lng": 35.31,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "Israeli airstrike on Siddiqine in Tyre district. Part of ~50 airstrikes across S. Lebanon on May 2.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "2 killed, 3 wounded",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/02/a-new-wave-of-israeli-strikes-hit-south-lebanon-despite-continuing-ceasefire/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-446",
+      "name": "Seriane/Taybeh — alleged white phosphorus (Marjayoun district)",
+      "country": "Lebanon",
+      "lat": 33.36,
+      "lng": 35.62,
+      "category": "civilian",
+      "status": "reported",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Alleged Israeli use of white phosphorus munitions around Seriane and Taybeh in Marjayoun district. White phosphorus banned in civilian areas under international humanitarian law. HRW previously confirmed Israeli white phosphorus use in Lebanon (March 9 report).",
+      "weaponUsed": "White phosphorus (alleged)",
+      "casualties": "Not specified",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/02/a-new-wave-of-israeli-strikes-hit-south-lebanon-despite-continuing-ceasefire/",
       "satelliteImagery": false
     }
   ]
