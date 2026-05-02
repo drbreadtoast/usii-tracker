@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-02T00:01:00Z",
+    "lastUpdated": "2026-05-02T06:10:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 417
   },
   "summary": {
-    "totalSites": 438,
-    "confirmed": 353,
+    "totalSites": 439,
+    "confirmed": 354,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -6893,6 +6893,42 @@
       "casualties": "12 wounded",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-442",
+      "name": "Zrariyeh village — residential area struck by Israeli warplanes",
+      "country": "Lebanon",
+      "lat": 33.33,
+      "lng": 35.38,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli warplanes struck Zrariyeh village in southern Lebanon, killing 4 people including two women and wounding 4 others. Part of May 1 strikes across S. Lebanon that killed at least 13.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "4 killed (inc. 2 women), 4 wounded",
+      "source": "Al-Monitor",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/05/lebanon-says-13-killed-israeli-strikes-south",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-443",
+      "name": "Ain Baal near Tyre — airstrike on residential area",
+      "country": "Lebanon",
+      "lat": 33.24,
+      "lng": 35.22,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-01",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "Israeli airstrike on Ain Baal near Tyre killed 1 person and wounded 7. Part of May 1 strikes across S. Lebanon.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "1 killed, 7 wounded",
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/world/lebanon/israel-strikes-southern-lebanon-kill-10-people-hezbollah-drone-wounds-rcna343170",
       "satelliteImagery": false
     }
   ]
