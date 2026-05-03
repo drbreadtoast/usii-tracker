@@ -47814,5 +47814,101 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["hezbollah", "lebanon", "ceasefire", "conditions", "day64"]
+  },
+  {
+    "id": "evt-new-1376",
+    "title": "IDF issues evacuation orders for ~12 towns in southern Lebanon — signals imminent operations",
+    "description": "IDF spokesman Col. Avichay Adraee issued evacuation warnings for close to a dozen towns and villages in southern Lebanon including Jibchit, Sarafand, Kafra, and Al-Sharqiyah. Civilians instructed to evacuate at least 1km. Signals imminent large-scale strikes or ground operations in Nabatieh and Bint Jbeil districts.",
+    "type": "movement",
+    "lat": 33.38,
+    "lng": 35.40,
+    "location": "Jibchit / Southern Lebanon",
+    "timestamp": "2026-05-03T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF evacuation orders for dozen towns",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-issues-evacuation-orders-for-a-dozen-towns-in-southern-lebanon/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["israel", "idf", "lebanon", "evacuation", "escalation", "day65"]
+  },
+  {
+    "id": "evt-new-1377",
+    "title": "Hezbollah fires rockets and explosive drones at IDF troops in southern Lebanon — no injuries",
+    "description": "Hezbollah launched rockets and explosive-laden drones at IDF soldiers operating in southern Lebanon. One rocket was intercepted; several more rockets and drones exploded near forces but caused no injuries. IDF responded with strikes on Hezbollah launch sites.",
+    "type": "strike",
+    "lat": 33.15,
+    "lng": 35.35,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-03T10:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah fires rockets at troops in Lebanon",
+        "url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-troops-in-lebanon-no-injuries-idf-strikes-terror-sites/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hezbollah", "idf", "rockets", "drones", "lebanon", "day65"]
+  },
+  {
+    "id": "evt-new-1378",
+    "title": "Trump warns US could restart strikes on Iran — 'if they misbehave'",
+    "description": "President Trump warned the US could restart military strikes on Iran, stating 'If they misbehave, if they do something bad — but right now, we'll see. It's a possibility that could happen, certainly.' Comes after rejecting Iran's 14-point peace proposal submitted via Pakistani mediators.",
+    "type": "diplomatic",
+    "lat": 25.77,
+    "lng": -80.19,
+    "location": "Mar-a-Lago / Washington, DC",
+    "timestamp": "2026-05-03T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — Trump reviews Iran peace proposal, warns strikes could resume",
+        "url": "https://www.aljazeera.com/news/2026/5/3/trump-reviews-iranian-peace-proposal-warns-strikes-could-resume"
+      },
+      {
+        "name": "Times of Israel — liveblog May 3",
+        "url": "https://www.timesofisrael.com/liveblog-may-3-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "trump", "iran", "strikes", "threat", "diplomacy", "day65"]
+  },
+  {
+    "id": "evt-new-1379",
+    "title": "Rubio dismisses Iran's 14-point proposal — 'nuclear question is the reason we're in this'",
+    "description": "Secretary of State Rubio rejected Iran's 14-point peace proposal, emphasizing the nuclear issue is paramount. Questioned whether the person submitting the offer had authority. Dismissed Iran's Hormuz proposal: 'Yes, the straits are open, as long as you coordinate with Iran, get our permission, or we'll blow you up, and you pay us.'",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.05,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-03T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Hill — Rubio rejects Iran offer on nuclear, Hormuz",
+        "url": "https://thehill.com/policy/international/5852376-marco-rubio-iran-offer-nuclear-strait-of-hormuz/"
+      },
+      {
+        "name": "Times of Israel — Rubio rejects new Iranian proposal",
+        "url": "https://www.timesofisrael.com/rubio-rejects-new-iranian-proposal-to-reopen-strait-of-hormuz-which-tehran-says-it-still-controls/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "rubio", "iran", "proposal", "nuclear", "hormuz", "diplomacy", "day65"]
   }
 ]

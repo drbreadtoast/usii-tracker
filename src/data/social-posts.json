@@ -1,92 +1,113 @@
 [
   {
-    "id": "social-1135",
+    "id": "social-1157",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab",
-    "text": "ARMS BYPASS: State Dept bypasses Congress to approve $8.6B in emergency military sales — Israel ($992.4M APKWS), Qatar ($4.01B Patriot + $992.4M APKWS), Kuwait ($2.5B battle command), UAE ($147.6M APKWS). Emergency authority invoked to skip 30-day review.",
-    "timestamp": "2026-05-02T04:00:00Z",
+    "text": "IDF EVACUATION ORDERS: Col. Adraee issued evac warnings for ~12 southern Lebanon towns — Jibchit, Sarafand, Kafra, Al-Sharqiyah and more. Civilians ordered 1km+ evacuation. Signals imminent large-scale IDF operations. IDF Chief Zamir: 'there is no ceasefire' in south Lebanon.",
+    "timestamp": "2026-05-03T02:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Al-Monitor, AP/KFGO, Free Malaysia Today confirmed $8.6B emergency military sales bypassing Congress.",
+    "verificationNote": "Times of Israel confirmed IDF spokesman Col. Avichay Adraee issued evacuation warnings for ~12 towns.",
     "keywords": [
-      "arms-sales",
-      "congress-bypass",
-      "israel",
-      "qatar",
-      "patriot",
-      "apkws"
+      "idf",
+      "evacuation",
+      "lebanon",
+      "escalation",
+      "jibchit",
+      "sarafand"
     ]
   },
   {
-    "id": "social-1136",
+    "id": "social-1158",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
-    "text": "BLOCKADE IMPACT: Pentagon estimates US naval blockade has cost Iran $4.8B in oil revenue since April 13. 31 tankers carrying 53M barrels stuck in the Gulf. Iran using older tankers as floating storage — on-land capacity filling up. 40+ vessels redirected since blockade began.",
-    "timestamp": "2026-05-02T03:00:00Z",
+    "text": "RUBIO REJECTS IRAN PROPOSAL: 'Nuclear question is the reason we're in this.' Questions whether submitter had authority. Mocks Hormuz terms: 'Yes, the straits are open, as long as you coordinate with Iran, get our permission, or we'll blow you up, and you pay us.' No diplomatic off-ramp visible.",
+    "timestamp": "2026-05-03T03:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Axios, Business Standard confirmed Pentagon's $4.8B estimate and 31 tanker count.",
+    "verificationNote": "The Hill, Times of Israel, ABC News confirmed Rubio's detailed rejection.",
     "keywords": [
-      "blockade",
+      "rubio",
       "iran",
-      "oil-revenue",
-      "tankers",
-      "pentagon"
+      "proposal",
+      "nuclear",
+      "hormuz",
+      "rejection"
     ]
   },
   {
-    "id": "social-1137",
+    "id": "social-1159",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel",
-    "text": "HEZBOLLAH DRONES: At least 4 drones fired at northern Israel morning of May 2 — IAF shot down all. Sirens in Galilee Panhandle and Golan Heights. Drones did not cross into Israeli territory. Hezbollah fiber-optic drone campaign continues unabated despite ceasefire.",
-    "timestamp": "2026-05-02T05:30:00Z",
+    "text": "HEZBOLLAH vs IDF: Rockets and explosive drones fired at IDF troops in S. Lebanon May 3 — 1 rocket intercepted, no Israeli injuries. IDF responded with counter-strikes on Hezbollah launch sites. Despite 'ceasefire,' fighting continues daily. CNN publishes major analysis on Hezbollah fiber-optic FPV drones — 15km cable, undetectable.",
+    "timestamp": "2026-05-03T04:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog May 2 confirmed 4 drones shot down by IAF.",
+    "verificationNote": "Times of Israel and CNN confirmed rocket/drone attacks and fiber-optic drone capability report.",
     "keywords": [
       "hezbollah",
+      "idf",
+      "rockets",
       "drones",
-      "galilee",
-      "golan",
-      "iaf",
-      "interception"
+      "fiber-optic",
+      "lebanon"
     ]
   },
   {
-    "id": "social-1138",
+    "id": "social-1160",
     "handle": "@michaelh992",
     "displayName": "Michael Horowitz",
-    "text": "IRAN INTERNAL RIFT: Pezeshkian and Speaker Ghalibaf seeking to fire FM Araghchi for taking orders from IRGC commander Ahmad Vahidi without informing the president. Power struggle between civilian govt and IRGC over nuclear negotiations deepens. Could reshape Iran's negotiating position.",
-    "timestamp": "2026-05-02T04:30:00Z",
+    "text": "IRAN RESPONSE: Deputy FM Gharibabadi says 'ball is in US court — prepared for both paths.' Netanyahu convenes security cabinet to discuss Iran + potential Gaza return. Hundreds protest in Tel Aviv against 'government of debacle and disaster.' Lavrov-Araghchi call discussed war prospects and Hormuz.",
+    "timestamp": "2026-05-03T04:30:00Z",
     "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Iran International, Jerusalem Post report Pezeshkian-Araghchi rift. The Week India confirmed Speaker Ghalibaf's involvement.",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Manila Times, PressTV, Times of Israel confirmed Gharibabadi statement, Netanyahu cabinet, and Tel Aviv protests.",
     "keywords": [
       "iran",
-      "pezeshkian",
-      "araghchi",
-      "irgc",
-      "power-struggle",
-      "ghalibaf"
+      "gharibabadi",
+      "netanyahu",
+      "cabinet",
+      "tel-aviv",
+      "protests",
+      "lavrov"
     ]
   },
   {
-    "id": "social-1139",
+    "id": "social-1161",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "GLOBAL MOVES: Jordan strikes drug/weapons storage in Syria's Sweida province. Von der Leyen warns Iran war consequences 'may echo for years.' China's Xi calls for Hormuz reopening and ceasefire. Russia benefits from oil prices — KSE estimates $45-151B extra Russian revenue in 2026.",
+    "timestamp": "2026-05-03T05:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Arab News, Bloomberg, The Hill, PIIE confirmed Jordan strikes, EU warning, China diplomacy, Russia oil windfall.",
+    "keywords": [
+      "jordan",
+      "syria",
+      "eu",
+      "china",
+      "russia",
+      "oil",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-1162",
     "handle": "@WarMonitors",
     "displayName": "War Monitor",
-    "text": "DAY 64 AM UPDATE: Trump 'better off not making a deal.' $8.6B arms bypass Congress. Blockade cost Iran $4.8B. 4 Hezbollah drones at Galilee/Golan — all shot down. Pezeshkian vs Araghchi rift deepens. S&P 500 all-time high 7,230. Brent $108. Gas $4.39. Hormuz Day 61.",
-    "timestamp": "2026-05-02T06:10:00Z",
+    "text": "DAY 65 LATE PM ROUNDUP: IDF evacuation orders ~12 Lebanon towns. Rubio rejects Iran proposal — 'nuclear question.' Trump: 'if they misbehave.' Gharibabadi: 'ball in US court.' Hezbollah rockets at IDF (no injuries). CNN: fiber-optic drones. Netanyahu security cabinet. Jordan strikes Syria. Brent $111.25 (+39.3%). Gas $4.433. Hormuz Day 62.",
+    "timestamp": "2026-05-03T06:15:00Z",
     "sourceCategory": "lead",
     "verificationStatus": "confirmed",
-    "verificationNote": "CNN, Al-Monitor, Axios, Times of Israel, Iran International, CNBC — all cross-verified.",
+    "verificationNote": "Times of Israel, The Hill, Al Jazeera, CNN, Manila Times, Arab News — all cross-verified.",
     "keywords": [
       "roundup",
-      "day64",
+      "day65",
+      "evacuation",
+      "rubio",
       "trump",
-      "arms-sales",
-      "blockade",
-      "hezbollah",
-      "iran-rift"
+      "fiber-optic",
+      "jordan"
     ]
   },
   {
