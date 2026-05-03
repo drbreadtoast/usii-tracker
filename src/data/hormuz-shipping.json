@@ -4,7 +4,7 @@
   "dailyTransits": 7,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-03T06:17:00Z",
+  "lastUpdated": "2026-05-03T12:34:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -27,7 +27,7 @@
     "tankerTraffic": "Day 65 PM PT (May 3): Hormuz BLOCKADE DAY 62 / CENTCOM blockade DAY 21. IRGC announces new management rules for Persian Gulf under Mojtaba Khamenei directive — 2,000 km coastline control. Parliament advancing 12-article Hormuz sovereignty law. OFAC warns shipping firms against paying Iran's $1M+ tolls. Blockade cost Iran $4.8B — 31 tankers/53M barrels stuck. Iran exports -70% to 567K bpd; 12-24 days storage left. OPEC+ approves 206K bpd increase (symbolic — can't export). ~2,000 ships stranded, 40,000+ seafarers. Brent $111.25 (+39.3%), WTI $103.82 (+37.5%).",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
-    "lastUpdated": "2026-05-03T06:17:00Z",
+    "lastUpdated": "2026-05-03T12:34:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
@@ -733,6 +733,12 @@
     {
       "date": "2026-05-02",
       "event": "Day 64 AM PT: Blockade Day 62. Pentagon estimates blockade has cost Iran $4.8B in oil revenue since April 13. 31 tankers with 53M barrels stuck in Gulf. 40+ vessels redirected. Iran using older tankers as floating storage. Trump says 'better off not making a deal.' $8.6B emergency arms sales bypass Congress. Brent $108.17, WTI $101.05.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-03",
+      "event": "Day 65 Early AM PT: Blockade Day 62. IRGC intelligence sends Pentagon deadline to lift blockade — 'impossible war or bad deal.' Iran parliament advances 12-article Hormuz sovereignty law (tolls, ban US/Israeli vessels). OFAC warns shippers on Iran tolls. ~2,000 ships stranded. CENTCOM: 45 vessels intercepted. Insurance 3-8% vessel value. Brent $111.25, WTI $103.82. Gas $4.446.",
       "status": "effectively_closed",
       "barrels": 0
     }

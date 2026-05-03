@@ -111,77 +111,6 @@
     ]
   },
   {
-    "id": "social-1140",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "BREAKING: IDF confirms Sgt. Liem Ben Hamo (19, Golani Brigade) killed by Hezbollah explosive drone in S. Lebanon Apr 30. Separately, 12 soldiers wounded when drone struck M548 cargo carrier at Shomera artillery position. 17th IDF soldier killed. Hezbollah fiber-optic FPV drones proving highly effective — 27+ attacks since Feb.",
-    "timestamp": "2026-05-02T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel confirmed IDF casualty and Shomera drone strike.",
-    "keywords": [
-      "idf",
-      "hezbollah",
-      "drone",
-      "casualty",
-      "shomera",
-      "fiber-optic"
-    ]
-  },
-  {
-    "id": "social-1141",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "MAJOR: ~50 Israeli airstrikes across S. Lebanon over 24h. 7+ killed in Mayfadoun, Siddiqine, Kafra-Yater, Al Smaaiyah, Shaaitiyeh. IDF evacuation warnings for 9 villages. Reports of white phosphorus near Seriane/Taybeh (Marjayoun). Hezbollah issues 6+ attack statements — rockets and drones.",
-    "timestamp": "2026-05-02T09:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "The National, WSLS, RTE confirmed strikes and casualties.",
-    "keywords": [
-      "israel",
-      "lebanon",
-      "airstrikes",
-      "white-phosphorus",
-      "hezbollah"
-    ]
-  },
-  {
-    "id": "social-1142",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "USS Gerald R. Ford (CVN-78) confirmed departed Middle East after record 10+ month deployment. Carrier presence drops from 3 to 2. Lincoln and Bush remain. Meanwhile, CENTCOM has formally requested Dark Eagle hypersonic missile deployment — would be first-ever US hypersonic weapon use in combat theater.",
-    "timestamp": "2026-05-02T10:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Stars and Stripes confirmed Ford departure. Bloomberg confirmed Dark Eagle request.",
-    "keywords": [
-      "ford",
-      "carrier",
-      "dark-eagle",
-      "hypersonic",
-      "centcom",
-      "naval"
-    ]
-  },
-  {
-    "id": "social-1143",
-    "handle": "@idaborovich1",
-    "displayName": "Ida Bae Wells (OSINT)",
-    "text": "Senate rejected War Powers resolution 50-47 on Apr 30 — 6th time blocked. But Collins (R-ME) voted FOR it for first time, joining only Paul. Murkowski drafting AUMF for May 11. Hegseth claims ceasefire 'pauses' War Powers clock — legal experts say no such provision exists.",
-    "timestamp": "2026-05-02T10:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Time, Democracy Now, Axios, CNN confirmed vote, Collins break, Murkowski AUMF.",
-    "keywords": [
-      "war-powers",
-      "senate",
-      "collins",
-      "murkowski",
-      "aumf",
-      "hegseth"
-    ]
-  },
-  {
     "id": "social-1144",
     "handle": "@WarMonitors",
     "displayName": "War Monitor",
@@ -416,6 +345,97 @@
       "arms-bypass",
       "spirit-airlines",
       "blockade"
+    ]
+  },
+  {
+    "id": "social-1163",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "NETANYAHU FIGHTER JETS: Israel to purchase 2 new squadrons — F-35 fleet doubles 50→100, F-15IA 25→50. Also orders 'special project' to counter Hezbollah fiber-optic drones that killed Sgt. Fooks. Pledges NIS 350B (~$118B) defense independence plan. 'Our pilots can reach anywhere in Iranian airspace.'",
+    "timestamp": "2026-05-03T08:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Israel Hayom and Jerusalem Post confirmed fighter jet purchase announcement and counter-drone project.",
+    "keywords": [
+      "netanyahu",
+      "f-35",
+      "f-15",
+      "fighter-jets",
+      "counter-drone",
+      "defense"
+    ]
+  },
+  {
+    "id": "social-1164",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "IRGC ULTIMATUM: Intelligence department sends Pentagon deadline to lift naval blockade. 'Trump must choose between impossible military operation or bad deal with Islamic Republic.' Brig. Gen. Mousavi: 'Your warships will face same fate' as US bases. Forces on 'full standby' for war resumption.",
+    "timestamp": "2026-05-03T09:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Middle East Monitor and Al Jazeera confirmed IRGC ultimatum and Mousavi warning.",
+    "keywords": [
+      "irgc",
+      "blockade",
+      "ultimatum",
+      "mousavi",
+      "navy",
+      "war-resumption"
+    ]
+  },
+  {
+    "id": "social-1165",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "CEASEFIRE MONITORING CRISIS: Lebanon army chief Gen. Haykal holds emergency meeting with US Gen. Clearfield in Beirut. Israel issued new evacuation orders for 11 villages beyond occupied areas. IDF expanding operations into Nabatieh district despite declared ceasefire. CNN: 'Two months in, almost everybody is a loser.'",
+    "timestamp": "2026-05-03T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "The National, Al Jazeera, Free Malaysia Today confirmed generals meeting and evacuation orders.",
+    "keywords": [
+      "ceasefire",
+      "lebanon",
+      "generals",
+      "evacuation",
+      "nabatieh",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "social-1166",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "text": "FERTILIZER CRISIS: Euronews reports urea at $698/tonne (+47% from pre-war). Half of global urea transits Hormuz. 25% of US farmers haven't purchased fertilizer for planting. USDA food-at-home +3.6% forecast. WFP: 45M additional food-insecure by year-end if conflict continues.",
+    "timestamp": "2026-05-03T10:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Euronews fertilizer report, USDA food price outlook, and IFPRI food security analysis all confirmed.",
+    "keywords": [
+      "fertilizer",
+      "urea",
+      "food-prices",
+      "farmers",
+      "hormuz",
+      "food-security"
+    ]
+  },
+  {
+    "id": "social-1167",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitor",
+    "text": "DAY 65 AM PT UPDATE: Netanyahu 2 fighter squadrons (F-35→100, F-15IA→50) + counter-drone. IRGC blockade deadline. Lebanon generals emergency meet. WaPo poll: Iraq/Vietnam disapproval. Gas $4.446 new wartime high. Fertilizer crisis: urea +47%. Iran rial 1.81M/USD. Hormuz Day 62. Blockade Day 21.",
+    "timestamp": "2026-05-03T12:30:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Israel Hayom, Middle East Monitor, The National, AAA, Euronews, WaPo — all cross-verified.",
+    "keywords": [
+      "roundup",
+      "day65",
+      "netanyahu",
+      "irgc",
+      "fertilizer",
+      "gas-prices",
+      "poll"
     ]
   }
 ]
