@@ -111,115 +111,6 @@
     ]
   },
   {
-    "id": "social-1144",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 64 PM UPDATE: IDF soldier killed + 15 wounded by Hezbollah drones. ~50 IDF airstrikes S. Lebanon (7+ killed). Ford carrier departs. Dark Eagle hypersonic requested. Khamenei: US 'disgraceful defeat.' Iran military: war 'likely' to restart. Senate rejects war powers 50-47. Gas $4.433. NASDAQ 25,114 record. Rial 1.776M/USD. 61% say war was mistake.",
-    "timestamp": "2026-05-02T12:35:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel, The National, Bloomberg, Middle East Eye, Time, AAA, WaPo — all cross-verified.",
-    "keywords": [
-      "roundup",
-      "day64",
-      "idf-casualty",
-      "lebanon-strikes",
-      "ford",
-      "dark-eagle",
-      "khamenei",
-      "war-powers"
-    ]
-  },
-  {
-    "id": "social-1145",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "TRUMP PIRATES: Florida rally — Trump openly describes US Navy seizing Iranian vessels as piracy: 'We took over the ship, took over the cargo, took over the oil. It's a very profitable business... We're like pirates.' Direct contradiction of War Powers letter that hostilities have 'terminated.' Adds legal exposure to ongoing blockade.",
-    "timestamp": "2026-05-02T15:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and TIME confirmed Trump's 'pirates' remarks at Florida rally May 2.",
-    "keywords": [
-      "trump",
-      "pirates",
-      "rally",
-      "blockade",
-      "war-powers",
-      "navy"
-    ]
-  },
-  {
-    "id": "social-1146",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "DAMASCUS HIT: Israeli aircraft struck near Syrian Presidential Palace and across Suwayda/Daraa governorates early May 2. Syrian MoH: 3 killed, 34 injured. Netanyahu and Katz issued joint statement warning Syrian regime against threats to Druze community. SOHR later reported 20+ strikes including al-Tha'lah Military Airbase in Suwayda.",
-    "timestamp": "2026-05-02T13:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "TIME confirmed Damascus area strikes and Druze warning. SOHR cited via multiple outlets.",
-    "keywords": [
-      "israel",
-      "syria",
-      "damascus",
-      "druze",
-      "katz",
-      "presidential-palace"
-    ]
-  },
-  {
-    "id": "social-1147",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "DAMAGE ASSESSMENT: PressTV report — 16 US military sites in 8 countries damaged by Iranian/proxy strikes; some 'virtually inoperable.' Estimated $800M+ damage in first 2 weeks alone. Affected: Al Udeid (Qatar), Ali Al Salem (Kuwait), Al Dhafra (UAE), 5th Fleet HQ (Bahrain), Prince Sultan (Saudi Arabia), Erbil (Iraq). Corroborates earlier CNN/NBC investigations.",
-    "timestamp": "2026-05-02T14:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "The Hill, GlobalSecurity, PressTV all reported assessment. Iranian state-source so 'likely' rather than 'confirmed.'",
-    "keywords": [
-      "us-bases",
-      "damage",
-      "presstv",
-      "al-udeid",
-      "iran-retaliation"
-    ]
-  },
-  {
-    "id": "social-1148",
-    "handle": "@Global_Flttrckr",
-    "displayName": "Global Fleet Tracker",
-    "text": "MARITIME FREEDOM CONSTRUCT: State Dept and Pentagon launch new coalition to coordinate partner nation action and information-sharing for safe Hormuz transit. Counter to Iran's 'toll' demands. CENTCOM total: 48 Iranian vessels turned around in 20 days. Hormuz traffic at ~5% of pre-war (2,000 ships stranded).",
-    "timestamp": "2026-05-02T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and CBS News liveblog confirmed Maritime Freedom Construct and 48-vessel CENTCOM tally.",
-    "keywords": [
-      "maritime-freedom-construct",
-      "centcom",
-      "hormuz",
-      "blockade",
-      "coalition"
-    ]
-  },
-  {
-    "id": "social-1149",
-    "handle": "@michaelh992",
-    "displayName": "Michael Horowitz",
-    "text": "CONVENT STRIKE: IDF demolishes Catholic convent in Majdal Selm, S. Lebanon. Likely to draw Vatican condemnation given Pope Leo's prior 'delusion of omnipotence' remarks. Lebanon DT updated by Health Ministry to 2,659 killed/8,183 injured. Hezbollah suicide drones near Bint Jbeil (Moussa Abbas complex), Hula village, Biyyada.",
-    "timestamp": "2026-05-02T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Voice of Emirates, Washington Post, Al Jazeera confirmed Majdal Selm convent demolition and Lebanon DT update.",
-    "keywords": [
-      "israel",
-      "lebanon",
-      "convent",
-      "majdal-selm",
-      "hezbollah",
-      "death-toll",
-      "vatican"
-    ]
-  },
-  {
     "id": "social-1150",
     "handle": "@WarMonitors",
     "displayName": "War Monitor",
@@ -436,6 +327,115 @@
       "fertilizer",
       "gas-prices",
       "poll"
+    ]
+  },
+  {
+    "id": "social-1168",
+    "handle": "@UKMTO_ops",
+    "displayName": "UKMTO",
+    "text": "ATTACK ALERT: Bulk carrier (likely Liberian-flagged Minoan Falcon per AIS) attacked by multiple small craft 11nm west of Sirik, Iran at 11:30 UTC. All crew safe. First such attack since April 22. Coincides with Iran 14-point peace proposal review and continued US blockade enforcement.",
+    "timestamp": "2026-05-03T13:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, PBS NewsHour, Ship & Bunker confirmed UKMTO advisory and AIS data.",
+    "keywords": [
+      "ukmto",
+      "hormuz",
+      "shipping-attack",
+      "sirik",
+      "minoan-falcon",
+      "small-craft"
+    ]
+  },
+  {
+    "id": "social-1169",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats / ISW",
+    "text": "ISW IRAN UPDATE May 2: 31 tankers carrying ~53M barrels worth $4.8B+ stranded in Persian Gulf due to US blockade (Pentagon to Axios). Iran reducing oil production as storage limits hit (Bloomberg). Iranian rial weakened to 1,840,000 to USD May 2. IRGC-run Defa Press: war shifted to 'imposition of costs.' Iran parliament moving 12-article Hormuz sovereignty law (bans Israeli, demands US war reparations).",
+    "timestamp": "2026-05-03T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Critical Threats Project / ISW Iran Update May 2 cross-verified with Bloomberg, Axios, Press TV.",
+    "keywords": [
+      "isw",
+      "iran",
+      "tankers",
+      "rial",
+      "hormuz-sovereignty",
+      "blockade-cost"
+    ]
+  },
+  {
+    "id": "social-1170",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "BESSENT: Treasury Sec. tells reporters US is 'suffocating' Iran's leadership through economic blockade alongside military offensive. 'Real economic blockade — all hands on deck.' Said Iran may shut oil wells as storage fills. CENTCOM Adm. Cooper visits USS Milius — 49 commercial vessels redirected (up from 33 last week).",
+    "timestamp": "2026-05-03T14:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel May 3 liveblog and Al Jazeera May 3 liveblog confirmed Bessent statement and CENTCOM update.",
+    "keywords": [
+      "bessent",
+      "treasury",
+      "blockade",
+      "centcom",
+      "uss-milius",
+      "iran-oil"
+    ]
+  },
+  {
+    "id": "social-1171",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "text": "OFAC ECONOMIC FURY: Treasury sanctions 6 individuals + 21 entities + 1 Panama-flagged vessel ('New Fusion') in Iran shadow banking network. Geographic breakdown: 12 China, 5 UAE, 3 Iran, 1 UK. Targets 3 Iranian foreign currency exchange houses converting yuan-to-USD for IRGC. 12th round since Feb 2025. OFAC issued separate alert on 'Sanctions Risks of Iranian Demands for Strait of Hormuz Passage.'",
+    "timestamp": "2026-05-03T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "US State Department release and Al-Monitor coverage confirmed sanctions package.",
+    "keywords": [
+      "ofac",
+      "sanctions",
+      "iran",
+      "shadow-banking",
+      "china",
+      "operation-economic-fury"
+    ]
+  },
+  {
+    "id": "social-1172",
+    "handle": "@HRANA",
+    "displayName": "HRANA / Hengaw",
+    "text": "EXECUTIONS: Iran secretly hanged Nasser Bakerzadeh (Kurdish Sunni) and Yaghoub Karimpour (Azerbaijani Turkic Yarsan, disabled) at Orumiyeh Central Prison May 2 for alleged espionage. Bodies withheld from families. Hengaw documented at least 26 executions across Iranian prisons in April — sharp acceleration tied to wartime crackdown.",
+    "timestamp": "2026-05-03T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Kurdistan Human Rights Network and Euronews confirmed double execution.",
+    "keywords": [
+      "iran",
+      "executions",
+      "kurdish",
+      "orumiyeh",
+      "human-rights",
+      "hengaw"
+    ]
+  },
+  {
+    "id": "social-1173",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitor",
+    "text": "DAY 65 MID-DAY UPDATE: Bulk carrier attacked off Sirik (first since Apr 22). Bessent 'suffocating' Iran. CENTCOM Cooper visits USS Milius — 49 vessels redirected. Mojtaba Khamenei calls 'economic jihad' + new Hormuz 'management.' OFAC Operation Economic Fury (6 indiv + 21 entities). Brent eases $108.17 (-2.02%, +35.5%). Iran rial 1.84M/USD. 31 tankers / 53M barrels stranded. Hormuz Day 62.",
+    "timestamp": "2026-05-03T19:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Times of Israel, Critical Threats, OFAC/State Dept, TradingEconomics, CNBC — all cross-verified.",
+    "keywords": [
+      "roundup",
+      "day65-pm",
+      "bulk-carrier",
+      "bessent",
+      "ofac",
+      "khamenei",
+      "brent"
     ]
   }
 ]

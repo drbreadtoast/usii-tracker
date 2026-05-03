@@ -47988,5 +47988,321 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["lebanon", "us", "ceasefire", "monitoring", "military", "day65"]
+  },
+  {
+    "id": "evt-new-1383",
+    "title": "Cargo ship attacked by multiple small craft 11nm off Sirik, Iran — first Hormuz attack since April 22",
+    "description": "UKMTO reported a northbound bulk carrier (likely Liberian-flagged Minoan Falcon per AIS data) attacked by multiple small craft 11 nautical miles west of Sirik, Iran, at 11:30 UTC. All crew safe. First confirmed attack in this area since April 22. Coincides with Iran's 14-point peace proposal and US blockade enforcement.",
+    "type": "naval",
+    "lat": 26.52,
+    "lng": 57.07,
+    "location": "11nm west of Sirik, Iran (Strait of Hormuz approach)",
+    "timestamp": "2026-05-03T11:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Bulk carrier attacked by multiple small craft off Iran",
+        "url": "https://www.aljazeera.com/news/2026/5/3/bulk-carrier-attacked-by-multiple-small-craft-off-iran-ukmto-says"
+      },
+      {
+        "name": "PBS NewsHour — Cargo ship near Strait of Hormuz reports attack",
+        "url": "https://www.pbs.org/newshour/world/cargo-ship-near-strait-of-hormuz-reports-attack-as-iran-makes-new-peace-proposal"
+      },
+      {
+        "name": "Ship & Bunker — Bulker comes under attack in Strait of Hormuz",
+        "url": "https://shipandbunker.com/news/emea/974117-bulker-comes-under-attack-in-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["iran", "hormuz", "shipping", "attack", "naval", "ukmto", "day65"]
+  },
+  {
+    "id": "evt-new-1384",
+    "title": "Bessent: US 'suffocating' Iran via economic blockade — Iran may shut oil wells",
+    "description": "US Treasury Secretary Scott Bessent told reporters Washington is 'suffocating' Iran's leadership through economic blockade alongside military offensive: 'real economic blockade, and it is in all parts of government — all hands on deck.' Said Iran may have to start shutting down oil wells as storage capacity reaches limits with 31+ tankers stranded carrying ~53M barrels worth $4.8B+.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-03T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog May 3 — Bessent on suffocating Iran",
+        "url": "https://www.timesofisrael.com/liveblog-may-3-2026/"
+      },
+      {
+        "name": "CNBC — Trump Iran Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/05/02/trump-iran-strait-of-hormuz.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "treasury", "bessent", "blockade", "sanctions", "iran", "economy", "day65"]
+  },
+  {
+    "id": "evt-new-1385",
+    "title": "CENTCOM Adm. Cooper visits USS Milius enforcing Iran blockade — 49 vessels redirected",
+    "description": "CENTCOM Commander Admiral Brad Cooper visited the USS Milius (DDG-69) patrolling regional waters in support of the Iran blockade. Cooper announced 49 commercial vessels redirected to comply with blockade as of May 3, up from 33 a week earlier. 10,000+ US personnel, 12+ warships, 100+ aircraft enforcing the dual blockade. USS Abraham Lincoln remains flagship in Arabian Sea.",
+    "type": "naval",
+    "lat": 26.50,
+    "lng": 56.50,
+    "location": "Persian Gulf (USS Milius patrol area)",
+    "timestamp": "2026-05-03T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera liveblog May 3 — Cooper visits USS Milius",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon"
+      },
+      {
+        "name": "Army Recognition — US tightens Iran blockade as 23 ships turn back",
+        "url": "https://www.armyrecognition.com/news/navy-news/2026/u-s-tightens-iran-blockade-as-23-ships-turn-back-expanding-control-of-key-sea-lanes"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "centcom", "blockade", "navy", "uss-milius", "iran", "day65"]
+  },
+  {
+    "id": "evt-new-1386",
+    "title": "IDF strikes ~120 Hezbollah sites across south Lebanon over weekend; 41 killed in 24h",
+    "description": "Israeli air force struck approximately 120 Hezbollah-linked sites across southern Lebanon over the weekend (May 2-3) — 70 military structures and 50 infrastructure sites per IDF. Lebanon Health Ministry reports 41 killed in 24 hours. Locations hit include Shoukine (3 killed, Nabatieh), Kfar Dajjal car strike (2), Lwaizeh home strike (3), Siddiqine (Tyre district), Kafra-Yater (Bint Jbeil), Al Smaaiyah, al-Quds roundabout in Nabatieh city.",
+    "type": "strike",
+    "lat": 33.40,
+    "lng": 35.45,
+    "location": "Southern Lebanon (multiple sites)",
+    "timestamp": "2026-05-02T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli air strikes kill 10 in southern Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/5/2/israeli-air-strikes-kill-10-people-in-southern-lebanon"
+      },
+      {
+        "name": "The National — A new wave of Israeli strikes hit south Lebanon",
+        "url": "https://www.thenationalnews.com/news/mena/2026/05/02/a-new-wave-of-israeli-strikes-hit-south-lebanon-despite-continuing-ceasefire/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 41, "injured": 0 },
+    "tags": ["israel", "lebanon", "hezbollah", "airstrikes", "ceasefire", "day64"]
+  },
+  {
+    "id": "evt-new-1387",
+    "title": "IDF demolishes parts of Catholic convent in Yaroun, southern Lebanon",
+    "description": "IDF bulldozers demolished parts of the Convent of the Sisters of the Holy Saviour, a Catholic convent in border village Yaroun. The IDF admitted damaging the site but disputes 'demolition' claim, saying Hezbollah used the compound to launch rockets multiple times. Incident drew condemnation from Vatican-aligned officials.",
+    "type": "infrastructure",
+    "lat": 33.10,
+    "lng": 35.42,
+    "location": "Yaroun, southern Lebanon (border village)",
+    "timestamp": "2026-05-02T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF admits damaging Catholic convent",
+        "url": "https://www.timesofisrael.com/idf-admits-damaging-catholic-convent-in-southern-lebanon-denies-site-demolished/"
+      },
+      {
+        "name": "Washington Post — Lebanon Israel Hezbollah airstrikes ceasefire",
+        "url": "https://www.washingtonpost.com/world/2026/05/02/lebanon-israel-hezbollah-airstrikes-ceasefire/ef879a30-4611-11f1-b19d-32431046b5b4_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["israel", "lebanon", "yaroun", "convent", "infrastructure", "vatican", "day64"]
+  },
+  {
+    "id": "evt-new-1388",
+    "title": "Hezbollah explosive drone wounds 2 IDF soldiers near Margaliot, northern Israel",
+    "description": "A Hezbollah explosive drone landed in northern Israel near Margaliot causing fire; two Israeli soldiers lightly wounded in separate drone impact. Hezbollah also fired rockets at IDF positions. IDF intercepted one rocket; no other Israeli injuries. Hezbollah subsequently posted footage of fighters domestically producing FPV (fiber-optic guided) drones, confirming April 30 Israeli intel assessment.",
+    "type": "strike",
+    "lat": 33.20,
+    "lng": 35.55,
+    "location": "Margaliot, northern Israel",
+    "timestamp": "2026-05-01T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "NBC News — Israel strikes southern Lebanon, Hezbollah drone wounds",
+        "url": "https://www.nbcnews.com/world/lebanon/israel-strikes-southern-lebanon-kill-10-people-hezbollah-drone-wounds-rcna343170"
+      },
+      {
+        "name": "Washington Post — Lebanon Israel airstrikes drones Tyre Hezbollah",
+        "url": "https://www.washingtonpost.com/world/2026/05/01/lebanon-israel-airstrikes-drones-tyre-hezbollah-ceasefire/6d6296cc-4571-11f1-b19d-32431046b5b4_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 2 },
+    "tags": ["hezbollah", "israel", "drone", "fpv", "margaliot", "day63"]
+  },
+  {
+    "id": "evt-new-1389",
+    "title": "Iran parliament advances 12-article Hormuz sovereignty law: bans Israeli vessels, demands US war reparations",
+    "description": "Iran's parliament moved to approve 12-point law restricting Strait of Hormuz transit: Israeli vessels banned permanently; 'hostile country' (US) ships must pay 'war reparations' for transit permit; all others must seek Iran authorization. VP Ali Nikzad and Press TV confirmed framework. IRGC-run Defa Press argued the war has shifted from direct conflict to one of 'imposition of costs.'",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran (Majlis)",
+    "timestamp": "2026-05-02T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Critical Threats — Iran Update Evening Special Report May 2",
+        "url": "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-may-2-2026"
+      },
+      {
+        "name": "Al Jazeera liveblog May 3 — Iran says reviewing US response",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["iran", "parliament", "hormuz", "sovereignty", "law", "reparations", "day64"]
+  },
+  {
+    "id": "evt-new-1390",
+    "title": "Iran executes 2 men at Orumiyeh Prison for alleged espionage — Hengaw counts 26+ executions in April",
+    "description": "Iran secretly hanged Nasser Bakerzadeh (Kurdish Sunni) and Yaghoub Karimpour (Azerbaijani Turkic Yarsan, disabled) at Orumiyeh Central Prison on May 2 for alleged espionage. Bodies withheld from families. Hengaw human rights group reports at least 26 prisoners executed in Iranian prisons in April 2026 alone — sharp acceleration tied to wartime crackdown.",
+    "type": "humanitarian",
+    "lat": 37.55,
+    "lng": 45.07,
+    "location": "Orumiyeh Central Prison, Iran",
+    "timestamp": "2026-05-02T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Kurdistan Human Rights Network — Iran secretly executes two men",
+        "url": "https://kurdistanhumanrights.org/en/news/2026/05/02/iran-secretly-executes-two-men-accused-of-espionage-in-orumiyeh"
+      },
+      {
+        "name": "Euronews — Iran executes two more over spying for Israel",
+        "url": "https://www.euronews.com/2026/05/02/iran-executes-two-more-over-spying-for-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 2, "injured": 0 },
+    "tags": ["iran", "executions", "human-rights", "kurdish", "orumiyeh", "hengaw", "day64"]
+  },
+  {
+    "id": "evt-new-1391",
+    "title": "USS Gerald R. Ford departs Middle East after record 309-day deployment — US down to 2 carriers in region",
+    "description": "USS Gerald R. Ford (CVN-78), the largest US carrier, departed the Middle East after a record 309-day deployment forced by need for repairs (March 12 laundry-room fire took 30+ hours to extinguish). 4,500 sailors heading to Norfolk, Virginia, arriving mid-May. US presence in region now down to 2 carriers: USS Abraham Lincoln (CVN-72, Arabian Sea/blockade flagship) and USS George H.W. Bush (CVN-77).",
+    "type": "movement",
+    "lat": 36.85,
+    "lng": -76.30,
+    "location": "Naval Station Norfolk, Virginia (return) / Middle East departure",
+    "timestamp": "2026-05-02T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Stars and Stripes — Gerald R. Ford epic fury Newport News",
+        "url": "https://www.stripes.com/branches/navy/2026-04-30/gerald-r-ford-epic-fury-newport-news-21533354.html"
+      },
+      {
+        "name": "Washington Post — US aircraft carrier Iran war",
+        "url": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "navy", "carrier", "uss-gerald-r-ford", "norfolk", "deployment", "day64"]
+  },
+  {
+    "id": "evt-new-1392",
+    "title": "Mojtaba Khamenei: 'disgraceful US defeat' — calls for economic jihad, new Hormuz management",
+    "description": "Iran Supreme Leader Mojtaba Khamenei broadcast a written message via state TV declaring US suffered a 'disgraceful defeat' in its military campaign and that the region is entering a 'new chapter' for Persian Gulf and Strait of Hormuz. Said new Hormuz 'management' will bring 'calm, stability, and economic benefits' and a 'bright future without US presence.' Called for economic jihad: 'must also disappoint and defeat enemies in the stage of economic and cultural jihad.'",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran (state TV)",
+    "timestamp": "2026-05-02T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The Week — Mojtaba Khamenei on Hormuz new management",
+        "url": "https://www.theweek.in/news/middle-east/2026/04/30/mojtaba-khamenei-says-new-management-in-strait-of-hormuz-will-benefit-gulf-nations-economically-promises-bright-future-without-us-presence.html"
+      },
+      {
+        "name": "BSS News — Khamenei calls for economic jihad",
+        "url": "https://www.bssnews.net/business/383365"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["iran", "mojtaba-khamenei", "hormuz", "economic-jihad", "supreme-leader", "day64"]
+  },
+  {
+    "id": "evt-new-1393",
+    "title": "OFAC May 1 'Operation Economic Fury' — sanctions 6 individuals + 21 entities + 1 vessel in Iran shadow banking network",
+    "description": "OFAC announced sanctions targeting 6 individuals, 21 entities, and 1 Panama-flagged vessel ('New Fusion') in Iran's shadow banking network. Entity breakdown: 12 China, 5 UAE, 3 Iran, 1 UK. Includes 3 Iranian foreign currency exchange houses converting yuan-to-USD for IRGC. Targets 1 Chinese national + 3 dual-citizenship individuals (Dominica/St. Kitts). OFAC also issued separate alert: 'Sanctions Risks of Iranian Demands for Strait of Hormuz Passage.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC (OFAC announcement)",
+    "timestamp": "2026-05-01T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US State Dept — Sanctions network facilitating Iran's illicit oil trade",
+        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade/"
+      },
+      {
+        "name": "Al-Monitor — US sanctions Iran's shadow banking channels",
+        "url": "https://www.al-monitor.com/originals/2026/05/us-sanctions-irans-shadow-banking-channels-moving-oil-proceeds-china"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "ofac", "sanctions", "iran", "shadow-banking", "china", "uae", "day63"]
+  },
+  {
+    "id": "evt-new-1394",
+    "title": "31 tankers, 53M barrels, $4.8B+ Iranian oil stranded in Persian Gulf — Iran rial hits 1.84M/USD",
+    "description": "Pentagon to Axios (May 1): 31 tankers carrying ~53M barrels worth $4.8B+ stuck in Persian Gulf due to US blockade enforcement. Iran reducing oil production as storage reaches limits per Bloomberg. Iranian rial weakened to 1,840,000 to USD on May 2. Bessent said Iran may have to start shutting down oil wells. IMF forecast Iran economy to shrink 6.1% in 2026 with 68.9% inflation.",
+    "type": "naval",
+    "lat": 26.50,
+    "lng": 56.25,
+    "location": "Persian Gulf (stranded tankers)",
+    "timestamp": "2026-05-02T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Critical Threats — Iran Update Evening Special Report May 2",
+        "url": "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-may-2-2026"
+      },
+      {
+        "name": "CNBC — Iran economy war charts rial oil Strait Hormuz blockade",
+        "url": "https://www.cnbc.com/2026/04/23/iran-economy-war-charts-rial-oil-strait-hormuz-blockade.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "iran", "blockade", "tankers", "oil", "rial", "economy", "day64"]
   }
 ]

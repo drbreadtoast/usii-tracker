@@ -9881,5 +9881,50 @@
     "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/jordan-carries-out-strikes-on-drug-weapons-storage-in-southern-syria/",
     "weaponType": "air-to-ground munitions",
     "casualties": { "killed": 0, "injured": 0 }
+  },
+  {
+    "id": "ms-581",
+    "city": "Sirik (offshore)",
+    "country": "Iran",
+    "lat": 26.52,
+    "lng": 57.07,
+    "strikeType": "naval",
+    "attributedTo": "iran",
+    "date": "2026-05-03",
+    "description": "Northbound bulk carrier (likely Liberian-flagged Minoan Falcon per AIS) attacked by multiple small craft 11 nautical miles west of Sirik, Iran at 11:30 UTC. UKMTO confirmed advisory. All crew safe. First confirmed attack in this area since April 22.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/3/bulk-carrier-attacked-by-multiple-small-craft-off-iran-ukmto-says",
+    "weaponType": "small craft / small arms",
+    "casualties": { "killed": 0, "injured": 0 }
+  },
+  {
+    "id": "ms-582",
+    "city": "Margaliot",
+    "country": "Israel",
+    "lat": 33.20,
+    "lng": 35.55,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-01",
+    "description": "Hezbollah explosive drone landed in northern Israel near Margaliot causing fire. Two Israeli soldiers lightly wounded in a separate drone impact. Hezbollah also fired rockets at IDF positions; one was intercepted with no other Israeli injuries.",
+    "source": "NBC News",
+    "sourceUrl": "https://www.nbcnews.com/world/lebanon/israel-strikes-southern-lebanon-kill-10-people-hezbollah-drone-wounds-rcna343170",
+    "weaponType": "explosive drone (FPV)",
+    "casualties": { "killed": 0, "injured": 2 }
+  },
+  {
+    "id": "ms-583",
+    "city": "Yaroun",
+    "country": "Lebanon",
+    "lat": 33.10,
+    "lng": 35.42,
+    "strikeType": "ground operation",
+    "attributedTo": "israel",
+    "date": "2026-05-02",
+    "description": "IDF bulldozers demolished parts of the Convent of the Sisters of the Holy Saviour, a Catholic convent in border village Yaroun. The IDF admitted damaging the site but disputes 'demolition' claim.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/idf-admits-damaging-catholic-convent-in-southern-lebanon-denies-site-demolished/",
+    "weaponType": "bulldozer / engineering equipment",
+    "casualties": { "killed": 0, "injured": 0 }
   }
 ]

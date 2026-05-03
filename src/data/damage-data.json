@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-03T12:34:00Z",
+    "lastUpdated": "2026-05-03T19:13:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -7075,6 +7075,42 @@
       "casualties": "Not specified",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/jordan-carries-out-strikes-on-drug-weapons-storage-in-southern-syria/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-452",
+      "name": "Convent of the Sisters of the Holy Saviour — Yaroun",
+      "country": "Lebanon",
+      "lat": 33.10,
+      "lng": 35.42,
+      "category": "religious",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF bulldozers demolished parts of the Catholic Convent of the Sisters of the Holy Saviour in border village Yaroun. IDF admitted damaging the site but disputes 'demolition' claim, alleging Hezbollah used the compound to launch rockets multiple times. Vatican condemnation expected.",
+      "weaponUsed": "Bulldozer / engineering equipment",
+      "casualties": "None reported",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/idf-admits-damaging-catholic-convent-in-southern-lebanon-denies-site-demolished/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-453",
+      "name": "Bulk carrier (likely Liberian-flagged Minoan Falcon) — Sirik approach",
+      "country": "Iran",
+      "lat": 26.52,
+      "lng": 57.07,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-03",
+      "attributedTo": "iran",
+      "damageLevel": "minor",
+      "description": "Northbound bulk carrier attacked by multiple small craft 11nm west of Sirik at 11:30 UTC. UKMTO advisory. All crew safe. First confirmed attack in this area since April 22.",
+      "weaponUsed": "Small craft / small arms",
+      "casualties": "None reported",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/3/bulk-carrier-attacked-by-multiple-small-craft-off-iran-ukmto-says",
       "satelliteImagery": false
     }
   ]
