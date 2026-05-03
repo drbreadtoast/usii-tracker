@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-02T19:15:00Z",
+    "lastUpdated": "2026-05-03T00:30:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 63
+    "conflictDay": 65
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-02",
-      "label": "Day 64 Late PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.69/bbl (+34.7% from $75.51, -3.2% intraday). Trump 'pirates' Florida rally. Israeli strikes near Damascus presidential palace (3 killed). PressTV: 16 US bases damaged $800M+. Maritime Freedom Construct launched. Gas $4.433. Hormuz Day 61 (5% pre-war traffic, 2,000 ships stranded).",
+      "date": "2026-05-03",
+      "label": "Day 65 PM PT \u2014 Brent $111.25/bbl (+39.3% from pre-war $79.84). WTI $103.82/bbl (+37.5% from $75.51). Second weekly gain on fading peace deal hopes. IRGC warns war 'likely' to resume. $8.6B arms bypass. Spirit Airlines folds. Blockade cost Iran $4.8B. Gas $4.433. Hormuz Day 62.",
       "brent": {
-        "price": 108.17,
-        "change": "+35.6%",
-        "changeDollars": "+$28.37"
+        "price": 111.25,
+        "change": "+39.4%",
+        "changeDollars": "+$31.45"
       },
       "wti": {
-        "price": 101.69,
-        "change": "+34.7%",
-        "changeDollars": "+$26.19"
+        "price": 103.82,
+        "change": "+37.5%",
+        "changeDollars": "+$28.32"
       },
-      "changePercent": 35.6,
-      "lastUpdated": "2026-05-02"
+      "changePercent": 39.4,
+      "lastUpdated": "2026-05-03"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-02T19:15:00Z",
-    "note": "Day 64 Late PM PT: Brent $108.17 (+35.6%), WTI $101.69 (-3.2% intraday, +34.7%). AAA gas $4.433/gal \u2014 wartime high holds. Trump 'pirates' Florida rally. Israeli strikes near Damascus presidential palace (3 killed/34 injured). Catholic convent demolished Majdal Selm. PressTV: 16 US bases damaged $800M+. Maritime Freedom Construct launched. Pezeshkian: blockade 'intolerable.' Hormuz Day 61.",
+    "lastUpdated": "2026-05-03T00:30:00Z",
+    "note": "Day 65 PM PT: Brent $111.25 (+39.3%), WTI $103.82 (+37.5%). AAA gas $4.433/gal \u2014 wartime high holds. IRGC warns war 'likely' to resume. $8.6B arms bypass. Spirit Airlines folds. Blockade cost Iran $4.8B. Hormuz Day 62.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -651,11 +651,11 @@
         },
         "current": {
           "price": 4.433,
-          "date": "2026-05-02"
+          "date": "2026-05-03"
         },
         "change": "+$1.30",
         "changePercent": "+41.6%",
-        "detail": "Gas $4.392/gal (AAA, May 1). Stabilizing near wartime high. Brent retreated to $108.10 (+35.4%), WTI $101.05 (+33.8%) on Pakistan-mediated talks. Pre-war $3.13. CA $6.01+.",
+        "detail": "Gas $4.433/gal (AAA, May 2-3). Wartime high holds. Brent rebounds to $111.25 (+39.3%). Spirit Airlines folds \u2014 first US corporate casualty (jet fuel doubled). Pre-war $3.13. CA $6.06.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1241,6 +1241,13 @@
       "brent": 108.17,
       "wti": 101.69,
       "label": "Day 64 Late PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.69 (-3.2% intraday, +34.7% vs $75.51). Trump 'pirates' Florida rally. Israeli strikes near Damascus presidential palace; Syrian MoH 3 killed/34 injured. IDF demolishes Catholic convent Majdal Selm. PressTV: 16 US bases damaged $800M+ across 8 countries. Maritime Freedom Construct coalition launched. Pezeshkian: blockade 'intolerable' on Persian Gulf Day. Lebanon DT 2,659/8,183. Iran MoH 3,375 killed/26,500+ injured. Hormuz traffic 5% pre-war (2,000 ships stranded). Gas $4.433.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-03",
+      "brent": 111.25,
+      "wti": 103.82,
+      "label": "Day 65 PM PT \u2014 Brent $111.25 (+39.3%), WTI $103.82 (+37.5%). Second weekly gain on fading peace deal hopes. IRGC warns war 'likely' to resume. Trump 'hostilities terminated' letter skirts War Powers. $8.6B arms bypass Congress. Iran 14-point proposal rejected. Treasury sanctions Hengli Petrochemical + 40 ships. OFAC warns on Iran tolls. Blockade cost Iran $4.8B; exports -70% to 567K bpd; 12-24 days storage left. Spirit Airlines folds. OPEC+ 206K bpd increase (symbolic). 41 killed in 24h Lebanon strikes. IDF destroys 120 Hezbollah sites. Gas $4.433. Hormuz Day 62.",
       "isEvent": true
     }
   ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-02T19:15:00Z",
+    "lastUpdated": "2026-05-03T00:30:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 420
   },
   "summary": {
-    "totalSites": 445,
-    "confirmed": 357,
+    "totalSites": 447,
+    "confirmed": 359,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7039,6 +7039,42 @@
       "casualties": "Not specified",
       "source": "TIME",
       "sourceUrl": "https://time.com/7302711/syria-israel-bomb-damascus-druze-suwayda/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-450",
+      "name": "Hezbollah military structures — Shoukine, Nabatieh district",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.39,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF destroyed ~120 Hezbollah sites over the May 2-3 weekend — 70 military structures and 50 infrastructure sites. 41 killed in 24 hours of strikes across Tyre, Bint Jbeil, and Marjayoun districts. White phosphorus reported near Seriane/Taybeh.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "41 killed in 24h across southern Lebanon",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/2/israeli-air-strikes-kill-10-people-in-southern-lebanon",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-451",
+      "name": "Drug/weapons warehouses — Shahba, Sweida province",
+      "country": "Syria",
+      "lat": 32.85,
+      "lng": 36.57,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-02",
+      "attributedTo": "unknown",
+      "damageLevel": "moderate",
+      "description": "Jordanian military struck drugs and weapons storage in Sweida province. HQ in Shahba village targeted plus at least five additional locations in Arman area.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "Not specified",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/jordan-carries-out-strikes-on-drug-weapons-storage-in-southern-syria/",
       "satelliteImagery": false
     }
   ]

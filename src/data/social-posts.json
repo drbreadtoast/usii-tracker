@@ -1,132 +1,5 @@
 [
   {
-    "id": "social-1128",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "TEHRAN AIR DEFENSES: Multiple air defense activations heard across Tehran's western, central, and southeastern districts for ~20 minutes. Tasnim/Fars say military engaging 'small aircraft and reconnaissance drones.' No attribution confirmed. Israel not commenting. Situation returned to normal.",
-    "timestamp": "2026-05-01T20:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Newsmax, Arab News, Times of Israel liveblog all confirmed Tehran air defense activation May 1 evening.",
-    "keywords": [
-      "tehran",
-      "air-defense",
-      "drones",
-      "iran"
-    ]
-  },
-  {
-    "id": "social-1129",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "CNN INVESTIGATION: At least 16 American military sites in 8 Middle Eastern countries 'destroyed and unusable' from Iranian strikes. Al-Udeid (Qatar) aviation control center hit twice. E-3 Sentry AWACS specifically targeted. Critical radar/comms beyond repair. This represents majority of US positions in region.",
-    "timestamp": "2026-05-01T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN exclusive investigation with satellite imagery. Corroborates earlier NBC News reporting on base damage across 7 countries.",
-    "keywords": [
-      "cnn",
-      "us-bases",
-      "damage",
-      "al-udeid",
-      "iran-strikes"
-    ]
-  },
-  {
-    "id": "social-1130",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "GERMANY WITHDRAWAL: Pentagon formally orders 5,000 US troops withdrawn from Germany over 6-12 months. Hegseth signed the order. Direct retaliation for Chancellor Merz calling Iran 'humiliating' the US. Major NATO rift deepening over the war.",
-    "timestamp": "2026-05-01T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Breaking Defense, Washington Post confirmed withdrawal order signed by Hegseth.",
-    "keywords": [
-      "germany",
-      "troops",
-      "withdrawal",
-      "nato",
-      "merz",
-      "hegseth"
-    ]
-  },
-  {
-    "id": "social-1131",
-    "handle": "@StratSentinel",
-    "displayName": "Strategic Sentinel",
-    "text": "FIBER-OPTIC DRONE THREAT: Hezbollah's fiber-optic guided FPV drones now a daily occurrence. 27+ attacks since February. IDF confirms no effective countermeasure — drones invisible to radar and EW. Cable costs ~$30/km, launches from 15km. 16+ IDF killed by drones since March.",
-    "timestamp": "2026-05-01T19:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, NBC News, Washington Post, Press TV all confirmed fiber-optic drone campaign details.",
-    "keywords": [
-      "hezbollah",
-      "fiber-optic",
-      "drones",
-      "fpv",
-      "idf",
-      "lebanon"
-    ]
-  },
-  {
-    "id": "social-1132",
-    "handle": "@michaelh992",
-    "displayName": "Michael Horowitz",
-    "text": "WAR POWERS ANALYSIS: Trump simultaneously declares hostilities 'terminated' (War Powers letter) and calls it 'treasonous' to say US isn't winning the war. Hegseth argues WPR clock 'pauses' during ceasefire — legal experts unanimously reject this. Collins first GOP crossover. Murkowski threatens AUMF.",
-    "timestamp": "2026-05-01T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PBS, NPR, Axios, Time, Democracy Now confirmed War Powers developments. Brennan Center's Ebright rejected Hegseth's legal argument.",
-    "keywords": [
-      "war-powers",
-      "trump",
-      "hegseth",
-      "collins",
-      "murkowski",
-      "treasonous"
-    ]
-  },
-  {
-    "id": "social-1133",
-    "handle": "@Global_Flttrckr",
-    "displayName": "Global Fleet Tracker",
-    "text": "OIL MARKET: Brent $108.10 (+35.4%), WTI $101.05 (+33.8%). Oil down from $126 wartime high — holding near week lows on Iran peace proposal. AAA gas $4.39 at wartime high. Iran crude exports collapsed to 567K bpd. CENTCOM 44 vessels turned. Exxon: 'market hasn't seen full impact yet.'",
-    "timestamp": "2026-05-01T23:00:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "TradingEconomics, CNBC, AAA confirmed price data. CNBC confirmed Exxon CEO warning.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "gas",
-      "exxon",
-      "blockade"
-    ]
-  },
-  {
-    "id": "social-1134",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 64 ROUNDUP: Trump 'treasonous' remark at Florida rally. Pentagon 5K troops out of Germany. Tehran air defenses activated vs drones. CNN: 16 US bases damaged/unusable. Habboush airstrike kills 6-8. Kfar Rumman: 5 bodies recovered. Sgt. Ben Hamo (19) killed by Hezbollah drone. Brent $108. Gas $4.39. Hormuz Day 61.",
-    "timestamp": "2026-05-02T00:01:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN, Breaking Defense, Newsmax, WaPo, CBC, Times of Israel, CNBC, AAA — all cross-verified.",
-    "keywords": [
-      "roundup",
-      "day64",
-      "trump",
-      "germany",
-      "tehran",
-      "cnn",
-      "habboush",
-      "hezbollah",
-      "oil",
-      "gas"
-    ]
-  },
-  {
     "id": "social-1135",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab",
@@ -225,7 +98,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Times of Israel confirmed IDF casualty and Shomera drone strike.",
-    "keywords": ["idf", "hezbollah", "drone", "casualty", "shomera", "fiber-optic"]
+    "keywords": [
+      "idf",
+      "hezbollah",
+      "drone",
+      "casualty",
+      "shomera",
+      "fiber-optic"
+    ]
   },
   {
     "id": "social-1141",
@@ -236,7 +116,13 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "The National, WSLS, RTE confirmed strikes and casualties.",
-    "keywords": ["israel", "lebanon", "airstrikes", "white-phosphorus", "hezbollah"]
+    "keywords": [
+      "israel",
+      "lebanon",
+      "airstrikes",
+      "white-phosphorus",
+      "hezbollah"
+    ]
   },
   {
     "id": "social-1142",
@@ -247,7 +133,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Stars and Stripes confirmed Ford departure. Bloomberg confirmed Dark Eagle request.",
-    "keywords": ["ford", "carrier", "dark-eagle", "hypersonic", "centcom", "naval"]
+    "keywords": [
+      "ford",
+      "carrier",
+      "dark-eagle",
+      "hypersonic",
+      "centcom",
+      "naval"
+    ]
   },
   {
     "id": "social-1143",
@@ -258,7 +151,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Time, Democracy Now, Axios, CNN confirmed vote, Collins break, Murkowski AUMF.",
-    "keywords": ["war-powers", "senate", "collins", "murkowski", "aumf", "hegseth"]
+    "keywords": [
+      "war-powers",
+      "senate",
+      "collins",
+      "murkowski",
+      "aumf",
+      "hegseth"
+    ]
   },
   {
     "id": "social-1144",
@@ -269,7 +169,16 @@
     "sourceCategory": "lead",
     "verificationStatus": "confirmed",
     "verificationNote": "Times of Israel, The National, Bloomberg, Middle East Eye, Time, AAA, WaPo — all cross-verified.",
-    "keywords": ["roundup", "day64", "idf-casualty", "lebanon-strikes", "ford", "dark-eagle", "khamenei", "war-powers"]
+    "keywords": [
+      "roundup",
+      "day64",
+      "idf-casualty",
+      "lebanon-strikes",
+      "ford",
+      "dark-eagle",
+      "khamenei",
+      "war-powers"
+    ]
   },
   {
     "id": "social-1145",
@@ -280,7 +189,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Al Jazeera and TIME confirmed Trump's 'pirates' remarks at Florida rally May 2.",
-    "keywords": ["trump", "pirates", "rally", "blockade", "war-powers", "navy"]
+    "keywords": [
+      "trump",
+      "pirates",
+      "rally",
+      "blockade",
+      "war-powers",
+      "navy"
+    ]
   },
   {
     "id": "social-1146",
@@ -291,7 +207,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "TIME confirmed Damascus area strikes and Druze warning. SOHR cited via multiple outlets.",
-    "keywords": ["israel", "syria", "damascus", "druze", "katz", "presidential-palace"]
+    "keywords": [
+      "israel",
+      "syria",
+      "damascus",
+      "druze",
+      "katz",
+      "presidential-palace"
+    ]
   },
   {
     "id": "social-1147",
@@ -302,7 +225,13 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "likely",
     "verificationNote": "The Hill, GlobalSecurity, PressTV all reported assessment. Iranian state-source so 'likely' rather than 'confirmed.'",
-    "keywords": ["us-bases", "damage", "presstv", "al-udeid", "iran-retaliation"]
+    "keywords": [
+      "us-bases",
+      "damage",
+      "presstv",
+      "al-udeid",
+      "iran-retaliation"
+    ]
   },
   {
     "id": "social-1148",
@@ -313,7 +242,13 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Al Jazeera and CBS News liveblog confirmed Maritime Freedom Construct and 48-vessel CENTCOM tally.",
-    "keywords": ["maritime-freedom-construct", "centcom", "hormuz", "blockade", "coalition"]
+    "keywords": [
+      "maritime-freedom-construct",
+      "centcom",
+      "hormuz",
+      "blockade",
+      "coalition"
+    ]
   },
   {
     "id": "social-1149",
@@ -324,7 +259,15 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Voice of Emirates, Washington Post, Al Jazeera confirmed Majdal Selm convent demolition and Lebanon DT update.",
-    "keywords": ["israel", "lebanon", "convent", "majdal-selm", "hezbollah", "death-toll", "vatican"]
+    "keywords": [
+      "israel",
+      "lebanon",
+      "convent",
+      "majdal-selm",
+      "hezbollah",
+      "death-toll",
+      "vatican"
+    ]
   },
   {
     "id": "social-1150",
@@ -335,6 +278,123 @@
     "sourceCategory": "lead",
     "verificationStatus": "confirmed",
     "verificationNote": "Al Jazeera, TIME, The Hill, Voice of Emirates, Pajhwok, BSS News, AAA — all cross-verified.",
-    "keywords": ["roundup", "day64", "trump-pirates", "syria", "convent", "us-bases", "pezeshkian"]
+    "keywords": [
+      "roundup",
+      "day64",
+      "trump-pirates",
+      "syria",
+      "convent",
+      "us-bases",
+      "pezeshkian"
+    ]
+  },
+  {
+    "id": "social-1151",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "IRGC WARNING: Deputy commander Asadi says war with US \"likely\" to resume ��� \"evidence shows US not committed to agreements.\" Aerospace Mousavi warns: \"We will see the same thing happen to your warships.\" Significant escalatory rhetoric after ceasefire period.",
+    "timestamp": "2026-05-02T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera liveblog, Express Tribune, Jerusalem Post all confirmed IRGC statements May 2.",
+    "keywords": [
+      "irgc",
+      "war-resumption",
+      "asadi",
+      "mousavi",
+      "iran"
+    ]
+  },
+  {
+    "id": "social-1152",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "ARMS BYPASS: Rubio invokes emergency under Arms Export Control Act for $8.6B in sales — Qatar $4.01B Patriot, Kuwait $2.5B battle command, Israel/UAE APKWS. Third congressional bypass of conflict. Senate rejected War Powers Resolution 50-47 (Collins broke from GOP).",
+    "timestamp": "2026-05-02T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel, Bloomberg, The Hill all confirmed emergency arms sales May 1-2.",
+    "keywords": [
+      "rubio",
+      "arms-sales",
+      "qatar",
+      "kuwait",
+      "israel",
+      "war-powers"
+    ]
+  },
+  {
+    "id": "social-1153",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "LEBANON UPDATE: 41 killed in 24h of Israeli airstrikes May 2. IDF claims destruction of ~120 Hezbollah sites over weekend (70 military, 50 infrastructure). White phosphorus allegations near Seriane/Taybeh, Marjayoun district. Hezbollah issues 5 ceasefire conditions.",
+    "timestamp": "2026-05-02T22:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, NBC News, The National, Times of Israel confirmed Lebanon casualties and IDF operations.",
+    "keywords": [
+      "israel",
+      "lebanon",
+      "hezbollah",
+      "airstrikes",
+      "white-phosphorus",
+      "ceasefire"
+    ]
+  },
+  {
+    "id": "social-1154",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "text": "BLOCKADE ECONOMICS: Pentagon says blockade cost Iran $4.8B — 31 tankers/53M barrels stuck in Gulf. Iran oil exports collapsed 70% from 1.85M to 567K bpd. Only 12-24 days onshore storage left. OFAC warns shipping firms against paying Iran Hormuz tolls ($1M+/ship). Treasury sanctions Hengli Petrochemical + 40 ships.",
+    "timestamp": "2026-05-02T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Gulf News, Fortune/Bloomberg, US News, Treasury press release confirmed blockade economics.",
+    "keywords": [
+      "blockade",
+      "iran",
+      "oil",
+      "hormuz",
+      "sanctions",
+      "hengli",
+      "ofac"
+    ]
+  },
+  {
+    "id": "social-1155",
+    "handle": "@michaelh992",
+    "displayName": "Michael Horowitz",
+    "text": "CORPORATE CASUALTY: Spirit Airlines ceases operations — first US corporate casualty of Iran war. Jet fuel doubled from $2.24 to $4.51/gal. Failed $500M federal bailout bid. Pentagon withdrawing 5,000 troops from Germany over Merz \"humiliated\" comments. Trump threatens Italy/Spain troop cuts too.",
+    "timestamp": "2026-05-02T23:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Time, NPR, Washington Post, Military Times confirmed Spirit shutdown and Germany troop withdrawal.",
+    "keywords": [
+      "spirit-airlines",
+      "corporate",
+      "fuel",
+      "germany",
+      "troops",
+      "merz"
+    ]
+  },
+  {
+    "id": "social-1156",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitor",
+    "text": "DAY 65 ROUNDUP: IRGC warns war \"likely\" to resume. IDF destroys 120 Hezbollah sites; 41 killed 24h Lebanon. Trump \"hostilities terminated\" letter. $8.6B arms bypass. Iran 14-point proposal rejected. Blockade cost Iran $4.8B. Spirit Airlines folds. Hengli sanctions. Jordan strikes Syria. Netanyahu security cabinet. Brent $111.25 (+39.3%). Gas $4.433. Hormuz Day 62.",
+    "timestamp": "2026-05-03T00:15:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, NPR, PBS, Times of Israel, CNN, Fortune, Gulf News, PressTV, Time, Military Times — all cross-verified.",
+    "keywords": [
+      "roundup",
+      "day65",
+      "irgc",
+      "lebanon",
+      "arms-bypass",
+      "spirit-airlines",
+      "blockade"
+    ]
   }
 ]
