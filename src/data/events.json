@@ -48586,5 +48586,95 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["iran", "irgc", "project-freedom", "ceasefire", "hormuz", "threat", "day66"]
+  },
+  {
+    "id": "evt-new-1406",
+    "title": "Iran's Fars News claims two missiles struck US Navy frigate near Jask — CENTCOM denies",
+    "description": "Iran's IRGC-affiliated Fars News Agency reported that two missiles struck a US Navy frigate near Jask island after it allegedly ignored IRGC Navy warnings to halt while heading toward the Strait of Hormuz. CENTCOM immediately denied the claim, stating 'No US Navy ships have been struck.' US officials said forces are supporting Project Freedom operations. No independent confirmation of any hit.",
+    "type": "naval",
+    "lat": 25.64,
+    "lng": 57.77,
+    "location": "Near Jask Island, Strait of Hormuz",
+    "timestamp": "2026-05-04T07:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "rumored",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war live May 4",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire"
+      },
+      {
+        "name": "Jerusalem Post — US denies frigate hit",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-895064"
+      },
+      {
+        "name": "NBC News — US denies Iranian claim of striking Navy ship",
+        "url": "https://www.nbcnews.com/world/iran/iran-war-trump-mission-guide-ships-strait-hormuz-attack-energy-prices-rcna343406"
+      },
+      {
+        "name": "Al Arabiya — Fars News reports incident with US warship",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/05/04/iran-s-fars-news-agency-reports-incident-with-us-warship-in-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["iran", "irgc", "us-navy", "frigate", "jask", "hormuz", "disputed", "project-freedom", "day66"]
+  },
+  {
+    "id": "evt-new-1407",
+    "title": "Israel issues first evacuation orders north of Litani River — expands beyond security zone",
+    "description": "IDF issued new evacuation orders for 15+ villages and towns in Nabatieh district NORTH of the Litani River, marking the first time Israel expanded operations beyond its declared security zone in southern Lebanon. Arab Salim confirmed as a strike location. 1 killed and 8 wounded including 4 rescue workers in strikes on May 3-4.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.48,
+    "location": "Nabatieh District, Lebanon",
+    "timestamp": "2026-05-04T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israel issues new forced displacement orders",
+        "url": "https://www.aljazeera.com/news/2026/5/3/israel-issues-new-forced-displacement-orders-in-southern-lebanon"
+      },
+      {
+        "name": "France 24 — Middle East war live",
+        "url": "https://www.france24.com/en/middle-east/20260503-middle-east-war-live-trump-says-he-can-t-imagine-iran-s-latest-peace-plan-is-acceptable"
+      },
+      {
+        "name": "Manila Times — Israel evacuation warnings beyond occupied area",
+        "url": "https://www.manilatimes.net/2026/05/04/world/americas-emea/israel-issues-new-evacuation-warnings-in-south-lebanon-beyond-occupied-area/2334446"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 1, "injured": 8 },
+    "tags": ["israel", "idf", "lebanon", "nabatieh", "litani", "evacuation", "expansion", "day66"]
+  },
+  {
+    "id": "evt-new-1408",
+    "title": "CENTCOM confirms 48 Iranian ships redirected in 22-day blockade — denies any vessel struck",
+    "description": "US Central Command confirmed 48 Iranian ships redirected during 22 days of counter-blockade operations, with 3 redirected in the last 20 hours. CENTCOM categorically denied Fars News reports that a US frigate was struck by missiles near Jask: 'No US Navy ships have been struck. US forces are supporting Project Freedom and enforcing the naval blockade on Iranian ports.'",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-04T09:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CNN — Day 66 live updates",
+        "url": "https://www.cnn.com/2026/05/04/world/live-news/iran-war-hormuz-trump"
+      },
+      {
+        "name": "Jerusalem Post — US denies frigate hit",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-895064"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "centcom", "blockade", "project-freedom", "hormuz", "denial", "day66"]
   }
 ]

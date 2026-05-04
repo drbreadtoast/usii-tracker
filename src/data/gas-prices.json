@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-04T06:27:00Z",
-  "currentAverage": 4.446,
+  "lastUpdated": "2026-05-04T12:07:00Z",
+  "currentAverage": 4.45,
   "preWarAverage": 3.13,
-  "changePercent": 42.01,
+  "changePercent": 42.17,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -572,6 +572,12 @@
       "price": 4.446,
       "label": "Day 65 Mid-Day PT \u2014 AAA $4.446 holds wartime high (+42.0%). Brent eases to $108.17 (-2.02% on ceasefire optimism, +35.5%), WTI $101.94 (+35.0%). Bulk carrier attacked off Sirik (first since Apr 22). Bessent: US 'suffocating' Iran via blockade. CENTCOM Cooper visits USS Milius \u2014 49 vessels redirected (up from 33). OFAC Operation Economic Fury: 6 indiv + 21 entities + 1 vessel. Mojtaba Khamenei: 'economic jihad,' new Hormuz 'management.' 31 tankers / 53M barrels stranded. Iran rial 1,840,000/USD. Hormuz Day 62.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-04",
+      "price": 4.45,
+      "label": "Day 66 AM PT \u2014 AAA $4.45 (+42.2%). Brent $107.38 (+34.6%), WTI $101.62 (+34.6%) \u2014 slight decline in Sunday electronic trading. Iran's Fars News claims frigate struck near Jask (CENTCOM denies). Project Freedom underway. Israel expands north of Litani. 48 ships redirected in 22-day blockade. CA $6.10. 6 states above $5.00. Hormuz Day 63. Blockade Day 22.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -621,15 +627,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 1 Noon PT)",
-      "crudePerBarrel": 108.10,
+      "label": "Current (May 4 AM PT)",
+      "crudePerBarrel": 107.38,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$108.10 \u00f7 42 gal (Brent, May 1 noon)",
-          "value": 2.574,
-          "percent": 59,
-          "change": "+$0.95"
+          "formula": "$107.38 \u00f7 42 gal (Brent, May 4 AM)",
+          "value": 2.557,
+          "percent": 58,
+          "change": "+$0.94"
         },
         {
           "name": "Refining",
@@ -667,18 +673,18 @@
           "change": "+$0.20"
         }
       ],
-      "total": 4.446,
-      "note": "National average $4.446/gal (AAA, May 4). Wartime high holds. Brent $108.17 (+35.5%). WTI $101.94 (+35.0%). Weekend/no settlement. CENTCOM launches Project Freedom. Iran warns ceasefire violation. Hormuz Day 63.",
-      "crude": 2.60,
+      "total": 4.45,
+      "note": "National average $4.45/gal (AAA, May 4). Wartime high holds. Brent $107.38 (+34.6%). WTI $101.62 (+34.6%). Sunday electronic trading. Iran claims frigate strike (CENTCOM denies). Project Freedom underway. Hormuz Day 63.",
+      "crude": 2.557,
       "taxes": 0.534,
       "refining": 0.66,
       "distribution": 0.30,
-      "regularGasoline": 4.446,
+      "regularGasoline": 4.45,
       "changeFromPreWar": "+$1.32",
-      "changePercent": "+42.0%",
-      "lastUpdated": "2026-05-04T06:27:00Z",
+      "changePercent": "+42.2%",
+      "lastUpdated": "2026-05-04T12:07:00Z",
       "date": "2026-05-04"
     }
   },
-  "context": "Day 66 PM PT: National average $4.446/gal per AAA \u2014 wartime high holds (+42.0% from $3.13). Brent $108.17 (+35.5%). WTI $101.94 (+35.0%). Weekend/no new settlement. CENTCOM launches Project Freedom \u2014 US Navy begins escorting ships through Hormuz. Iran warns ceasefire violation. Tehran reviewing US counter-response to 14-point plan. EU expanding sanctions. Guterres: 45M face hunger. 61% say war a 'mistake.' Hormuz Day 63. Blockade Day 22."
+  "context": "Day 66 AM PT: National average $4.45/gal per AAA \u2014 wartime high holds (+42.2% from $3.13). Brent $107.38 (+34.6%). WTI $101.62 (+34.6%). Sunday electronic trading \u2014 slight decline. Iran's Fars News claims frigate struck near Jask (CENTCOM denies). Project Freedom underway. Israel expands evacuation north of Litani (first time). 48 ships redirected in 22-day blockade. CA $6.10. 6 states above $5.00. Hormuz Day 63. Blockade Day 22."
 }

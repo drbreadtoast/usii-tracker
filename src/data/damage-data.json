@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-04T06:27:00Z",
+    "lastUpdated": "2026-05-04T12:07:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 422
   },
   "summary": {
-    "totalSites": 449,
-    "confirmed": 361,
+    "totalSites": 452,
+    "confirmed": 362,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7147,6 +7147,24 @@
       "casualties": "8 killed including child and 2 women",
       "source": "Haaretz",
       "sourceUrl": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-05-03/ty-article/.premium/child-medics-among-20-killed-by-israel-in-lebanon-beirut-health-ministry-says/0000019d-ee64-de36-abfd-fe6e4cae0000",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-456",
+      "name": "Arab Salim — Nabatieh district (north of Litani)",
+      "country": "Lebanon",
+      "lat": 33.36,
+      "lng": 35.40,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-04",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "IDF airstrike on Arab Salim in Nabatieh district — first Israeli strikes NORTH of the Litani River, expanding beyond declared security zone. 1 killed, 8 wounded including 4 rescue workers. IDF issued evacuation orders for 15+ villages in the area.",
+      "weaponUsed": "Precision munitions (airstrike)",
+      "casualties": "1 killed, 8 wounded (4 rescue workers)",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/3/israel-issues-new-forced-displacement-orders-in-southern-lebanon",
       "satelliteImagery": false
     }
   ]

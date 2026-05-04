@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-04T06:27:00Z",
+    "lastUpdated": "2026-05-04T12:07:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 65
+    "conflictDay": 66
   },
   "oilPrices": {
     "preWar": {
@@ -74,19 +74,19 @@
     },
     "current": {
       "date": "2026-05-04",
-      "label": "Day 66 PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.94/bbl (+35.0% from $75.51). Weekend/no settlement. CENTCOM launches Project Freedom \u2014 US Navy begins escorting ships through Hormuz. Iran warns ceasefire violation. AAA gas $4.446 (+42.0%). Hormuz Day 63.",
+      "label": "Day 66 AM PT \u2014 Brent $107.38/bbl (+34.6% from pre-war $79.84). WTI $101.62/bbl (+34.6% from $75.51). Sunday electronic trading \u2014 slight decline. Iran claims frigate strike near Jask (CENTCOM denies). Project Freedom underway. AAA gas $4.45 (+42.2%). Hormuz Day 63.",
       "brent": {
-        "price": 108.17,
-        "change": "+35.6%",
-        "changeDollars": "+$28.37"
+        "price": 107.38,
+        "change": "+34.6%",
+        "changeDollars": "+$27.58"
       },
       "wti": {
-        "price": 101.94,
-        "change": "+35.0%",
-        "changeDollars": "+$26.44"
+        "price": 101.62,
+        "change": "+34.6%",
+        "changeDollars": "+$26.11"
       },
-      "changePercent": 35.6,
-      "lastUpdated": "2026-05-03"
+      "changePercent": 34.6,
+      "lastUpdated": "2026-05-04"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-04T00:02:00Z",
-    "note": "Day 65 PM PT: Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). AAA gas $4.446/gal \u2014 wartime high holds (+42.0%). Trump Project Freedom \u2014 Hormuz escort from Monday. Trump rejects Iran 14-point plan. Supertanker HUGE bypasses blockade. Hormuz Day 62.",
+    "lastUpdated": "2026-05-04T12:07:00Z",
+    "note": "Day 66 AM PT: Brent $107.38 (+34.6%), WTI $101.62 (+34.6%). AAA gas $4.45/gal (+42.2%). Iran claims frigate strike near Jask \u2014 CENTCOM denies. Project Freedom underway. Israel expands north of Litani. 48 ships redirected. Hormuz Day 63.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.446,
-          "date": "2026-05-03"
+          "price": 4.45,
+          "date": "2026-05-04"
         },
         "change": "+$1.32",
-        "changePercent": "+42.0%",
-        "detail": "Gas $4.446/gal (AAA, May 3). New wartime high (+42.0%). Brent $108.17 (+35.5%, -2.02% on ceasefire optimism). CA $6.06. Fertilizer crisis: urea +47%. Spirit Airlines folded (jet fuel doubled). Pre-war $3.13.",
+        "changePercent": "+42.2%",
+        "detail": "Gas $4.45/gal (AAA, May 4). Wartime high holds (+42.2%). Brent $107.38 (+34.6%). CA $6.10. Six states at/above $5.00. Iran claims frigate hit near Jask (denied). Project Freedom underway. Pre-war $3.13.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -733,11 +733,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.446,
-    "gasPriceRegular": 4.446,
+    "regularGasoline": 4.45,
+    "gasPriceRegular": 4.45,
     "gasPriceDiesel": "$5.643/gal",
     "changeFromPreWar": "+$1.32",
-    "changePercent": "+42.0%"
+    "changePercent": "+42.2%"
   },
   "keyFacts": [
     {
@@ -1276,6 +1276,13 @@
       "brent": 108.17,
       "wti": 101.94,
       "label": "Day 66 PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). Weekend/no new settlement. CENTCOM launches Project Freedom \u2014 US Navy begins Hormuz escort. Iran warns ceasefire violation; Mousavi threatens 'painful, prolonged strikes.' Tehran reviewing US counter-response to 14-point plan. EU expanding sanctions. 61% say war a 'mistake.' Gas $4.446 (+42.0%). Hormuz Day 63. Blockade Day 22.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-04",
+      "brent": 107.38,
+      "wti": 101.62,
+      "label": "Day 66 AM PT \u2014 Brent $107.38 (+34.6%), WTI $101.62 (+34.6%). Sunday electronic trading \u2014 slight decline. Iran's Fars News claims two missiles struck US frigate near Jask (CENTCOM denies). Project Freedom underway. Israel expands evacuation north of Litani (first time). CENTCOM: 48 ships redirected in 22-day blockade. Rubio: 'international waterways.' Hegseth: 'dominant control of airspace.' Gas $4.45 (+42.2%). Hormuz Day 63. Blockade Day 22.",
       "isEvent": true
     }
   ]
