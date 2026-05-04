@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-03T19:13:00Z",
+    "lastUpdated": "2026-05-04T00:02:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,19 +25,19 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 420
+    "totalSites": 422
   },
   "summary": {
-    "totalSites": 447,
-    "confirmed": 359,
+    "totalSites": 449,
+    "confirmed": 361,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
-      "military": 66,
+      "military": 67,
       "nuclear": 8,
       "infrastructure": 12,
-      "civilian": 36,
+      "civilian": 37,
       "media_civilian": 2,
       "residential": 1,
       "energy": 5,
@@ -7111,6 +7111,42 @@
       "casualties": "None reported",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/3/bulk-carrier-attacked-by-multiple-small-craft-off-iran-ukmto-says",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-454",
+      "name": "Hezbollah 80-meter tunnel — eastern southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.30,
+      "lng": 35.60,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-03",
+      "attributedTo": "israel",
+      "damageLevel": "destroyed",
+      "description": "IDF combat engineers discovered and demolished an 80-meter (260-foot) Hezbollah tunnel in eastern southern Lebanon. Tunnel contained several hideouts/rooms used as living quarters. IDF released demolition video.",
+      "weaponUsed": "Engineering explosives",
+      "casualties": "None reported",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-razed-80-meter-hezbollah-tunnel-in-south-lebanon/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-455",
+      "name": "Habboush — Nabatieh district residential area",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.49,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-03",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF airstrike on Habboush killed 8 people including a child and two women. Part of IDF strikes on 70 military structures and 50 infrastructure sites across southern Lebanon on May 3.",
+      "weaponUsed": "Precision munitions (airstrike)",
+      "casualties": "8 killed including child and 2 women",
+      "source": "Haaretz",
+      "sourceUrl": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-05-03/ty-article/.premium/child-medics-among-20-killed-by-israel-in-lebanon-beirut-health-ministry-says/0000019d-ee64-de36-abfd-fe6e4cae0000",
       "satelliteImagery": false
     }
   ]

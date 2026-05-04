@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-03T19:13:00Z",
+    "lastUpdated": "2026-05-04T00:02:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,7 +74,7 @@
     },
     "current": {
       "date": "2026-05-03",
-      "label": "Day 65 Mid-Day PT \u2014 Brent eases to $108.17/bbl (-2.02% on ceasefire optimism, +35.5% from pre-war $79.84). WTI $101.94/bbl (+35.0% from $75.51). Bulk carrier attacked off Sirik (first since Apr 22). Bessent: US 'suffocating' Iran. CENTCOM Cooper visits USS Milius \u2014 49 vessels redirected. OFAC Operation Economic Fury (6 indiv + 21 entities). Mojtaba Khamenei: 'economic jihad.' AAA gas $4.446 (+42.0%). Hormuz Day 62.",
+      "label": "Day 65 PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.94/bbl (+35.0% from $75.51). Trump announces 'Project Freedom' \u2014 US Navy to escort ~2,000 stranded ships through Hormuz from Monday May 5. CENTCOM: destroyers, 100+ aircraft, 15,000 service members. Trump rejects Iran 14-point plan: 'not paid big enough price.' Supertanker HUGE bypasses blockade ($220M). AAA gas $4.446 (+42.0%). Hormuz Day 62.",
       "brent": {
         "price": 108.17,
         "change": "+35.6%",
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-03T19:13:00Z",
-    "note": "Day 65 Mid-Day PT: Brent eases to $108.17 (-2.02% on ceasefire optimism, +35.5%), WTI $101.94 (+35.0%). AAA gas $4.446/gal \u2014 new wartime high (+42.0%). Bulk carrier attacked off Sirik. Bessent: US 'suffocating' Iran. CENTCOM Cooper visits USS Milius \u2014 49 vessels redirected. OFAC Operation Economic Fury. Hormuz Day 62.",
+    "lastUpdated": "2026-05-04T00:02:00Z",
+    "note": "Day 65 PM PT: Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). AAA gas $4.446/gal \u2014 wartime high holds (+42.0%). Trump Project Freedom \u2014 Hormuz escort from Monday. Trump rejects Iran 14-point plan. Supertanker HUGE bypasses blockade. Hormuz Day 62.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-02T06:10:00Z",
+  "lastUpdated": "2026-05-04T00:02:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1262,6 +1262,13 @@
       "brent": 108.17,
       "wti": 101.94,
       "label": "Day 65 Mid-Day PT \u2014 Brent eases to $108.17 (-2.02% on ceasefire optimism, +35.5%), WTI $101.94 (+35.0%). Bulk carrier attacked off Sirik (first since Apr 22). Bessent: US 'suffocating' Iran via blockade. CENTCOM Cooper visits USS Milius (49 vessels redirected). OFAC Operation Economic Fury (6 indiv + 21 entities + 1 vessel). Mojtaba Khamenei calls 'economic jihad.' Iran rial 1,840,000/USD. 31 tankers / 53M barrels / $4.8B+ stranded. Hormuz Day 62.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-03",
+      "brent": 108.17,
+      "wti": 101.94,
+      "label": "Day 65 PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). Prices stable. Trump announces 'Project Freedom' \u2014 US Navy to escort ~2,000 stranded ships through Hormuz from Monday. Rejects Iran 14-point plan: 'not paid big enough price.' Supertanker HUGE bypasses blockade ($220M). Rezaee threatens warship 'graveyard.' Lebanon DT 2,679. Gas $4.446 (+42.0%). Hormuz Day 62.",
       "isEvent": true
     }
   ]
