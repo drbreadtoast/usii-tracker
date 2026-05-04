@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-04T00:02:00Z",
+    "lastUpdated": "2026-05-04T06:27:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,8 +73,8 @@
       }
     },
     "current": {
-      "date": "2026-05-03",
-      "label": "Day 65 PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.94/bbl (+35.0% from $75.51). Trump announces 'Project Freedom' \u2014 US Navy to escort ~2,000 stranded ships through Hormuz from Monday May 5. CENTCOM: destroyers, 100+ aircraft, 15,000 service members. Trump rejects Iran 14-point plan: 'not paid big enough price.' Supertanker HUGE bypasses blockade ($220M). AAA gas $4.446 (+42.0%). Hormuz Day 62.",
+      "date": "2026-05-04",
+      "label": "Day 66 PM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.84). WTI $101.94/bbl (+35.0% from $75.51). Weekend/no settlement. CENTCOM launches Project Freedom \u2014 US Navy begins escorting ships through Hormuz. Iran warns ceasefire violation. AAA gas $4.446 (+42.0%). Hormuz Day 63.",
       "brent": {
         "price": 108.17,
         "change": "+35.6%",
@@ -733,11 +733,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.30,
-    "gasPriceRegular": 4.30,
+    "regularGasoline": 4.446,
+    "gasPriceRegular": 4.446,
     "gasPriceDiesel": "$5.643/gal",
-    "changeFromPreWar": "+$1.17",
-    "changePercent": "+37.4%"
+    "changeFromPreWar": "+$1.32",
+    "changePercent": "+42.0%"
   },
   "keyFacts": [
     {
@@ -1269,6 +1269,13 @@
       "brent": 108.17,
       "wti": 101.94,
       "label": "Day 65 PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). Prices stable. Trump announces 'Project Freedom' \u2014 US Navy to escort ~2,000 stranded ships through Hormuz from Monday. Rejects Iran 14-point plan: 'not paid big enough price.' Supertanker HUGE bypasses blockade ($220M). Rezaee threatens warship 'graveyard.' Lebanon DT 2,679. Gas $4.446 (+42.0%). Hormuz Day 62.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-04",
+      "brent": 108.17,
+      "wti": 101.94,
+      "label": "Day 66 PM PT \u2014 Brent $108.17 (+35.5%), WTI $101.94 (+35.0%). Weekend/no new settlement. CENTCOM launches Project Freedom \u2014 US Navy begins Hormuz escort. Iran warns ceasefire violation; Mousavi threatens 'painful, prolonged strikes.' Tehran reviewing US counter-response to 14-point plan. EU expanding sanctions. 61% say war a 'mistake.' Gas $4.446 (+42.0%). Hormuz Day 63. Blockade Day 22.",
       "isEvent": true
     }
   ]
