@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-04T12:07:00Z",
+    "lastUpdated": "2026-05-04T19:19:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 422
+    "totalSites": 425
   },
   "summary": {
-    "totalSites": 452,
-    "confirmed": 362,
+    "totalSites": 455,
+    "confirmed": 365,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7165,6 +7165,42 @@
       "casualties": "1 killed, 8 wounded (4 rescue workers)",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/3/israel-issues-new-forced-displacement-orders-in-southern-lebanon",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-457",
+      "name": "VTTI Fujairah Oil Industry Zone — oil terminal",
+      "country": "UAE",
+      "lat": 25.18,
+      "lng": 56.34,
+      "category": "energy infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-04",
+      "attributedTo": "iran",
+      "damageLevel": "moderate",
+      "description": "Iranian drone strike ignited a fire at the VTTI oil facility (jointly owned by IFM Global Infrastructure Fund, Vitol Group, and Abu Dhabi National Energy Co.) at the Fujairah Oil Industry Zone. Three Indian workers hospitalized with moderate injuries. Fire contained, no environmental impact reported.",
+      "weaponUsed": "Iranian drones (Shahed-class)",
+      "casualties": "0 killed, 3 wounded (Indian workers)",
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-04/vtti-oil-facility-in-fujairah-struck-in-aerial-attack",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-458",
+      "name": "ADNOC tanker BARAKAH — Strait of Hormuz",
+      "country": "UAE",
+      "lat": 26.5,
+      "lng": 56.5,
+      "category": "shipping/energy",
+      "status": "confirmed",
+      "date": "2026-05-04",
+      "attributedTo": "iran",
+      "damageLevel": "moderate",
+      "description": "Two Iranian drones struck the BARAKAH, an empty ADNOC-affiliated crude oil tanker, while transiting the Strait of Hormuz. UAE Foreign Ministry condemned as 'terrorist attack' violating UN Security Council Resolution 2817. No injuries reported. First confirmed direct attack on a UAE-flagged vessel during the conflict.",
+      "weaponUsed": "Iranian drones (Shahed-class)",
+      "casualties": "0 killed, 0 wounded",
+      "source": "The National",
+      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/04/uae-condemns-targeting-of-adnoc-affiliated-tanker-in-hormuz/",
       "satelliteImagery": false
     }
   ]

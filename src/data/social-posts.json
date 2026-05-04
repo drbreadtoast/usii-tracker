@@ -1,114 +1,5 @@
 [
   {
-    "id": "social-1167",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 65 AM PT UPDATE: Netanyahu 2 fighter squadrons (F-35→100, F-15IA→50) + counter-drone. IRGC blockade deadline. Lebanon generals emergency meet. WaPo poll: Iraq/Vietnam disapproval. Gas $4.446 new wartime high. Fertilizer crisis: urea +47%. Iran rial 1.81M/USD. Hormuz Day 62. Blockade Day 21.",
-    "timestamp": "2026-05-03T12:30:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Israel Hayom, Middle East Monitor, The National, AAA, Euronews, WaPo — all cross-verified.",
-    "keywords": [
-      "roundup",
-      "day65",
-      "netanyahu",
-      "irgc",
-      "fertilizer",
-      "gas-prices",
-      "poll"
-    ]
-  },
-  {
-    "id": "social-1168",
-    "handle": "@UKMTO_ops",
-    "displayName": "UKMTO",
-    "text": "ATTACK ALERT: Bulk carrier (likely Liberian-flagged Minoan Falcon per AIS) attacked by multiple small craft 11nm west of Sirik, Iran at 11:30 UTC. All crew safe. First such attack since April 22. Coincides with Iran 14-point peace proposal review and continued US blockade enforcement.",
-    "timestamp": "2026-05-03T13:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, PBS NewsHour, Ship & Bunker confirmed UKMTO advisory and AIS data.",
-    "keywords": [
-      "ukmto",
-      "hormuz",
-      "shipping-attack",
-      "sirik",
-      "minoan-falcon",
-      "small-craft"
-    ]
-  },
-  {
-    "id": "social-1169",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats / ISW",
-    "text": "ISW IRAN UPDATE May 2: 31 tankers carrying ~53M barrels worth $4.8B+ stranded in Persian Gulf due to US blockade (Pentagon to Axios). Iran reducing oil production as storage limits hit (Bloomberg). Iranian rial weakened to 1,840,000 to USD May 2. IRGC-run Defa Press: war shifted to 'imposition of costs.' Iran parliament moving 12-article Hormuz sovereignty law (bans Israeli, demands US war reparations).",
-    "timestamp": "2026-05-03T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Critical Threats Project / ISW Iran Update May 2 cross-verified with Bloomberg, Axios, Press TV.",
-    "keywords": [
-      "isw",
-      "iran",
-      "tankers",
-      "rial",
-      "hormuz-sovereignty",
-      "blockade-cost"
-    ]
-  },
-  {
-    "id": "social-1170",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "BESSENT: Treasury Sec. tells reporters US is 'suffocating' Iran's leadership through economic blockade alongside military offensive. 'Real economic blockade — all hands on deck.' Said Iran may shut oil wells as storage fills. CENTCOM Adm. Cooper visits USS Milius — 49 commercial vessels redirected (up from 33 last week).",
-    "timestamp": "2026-05-03T14:45:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel May 3 liveblog and Al Jazeera May 3 liveblog confirmed Bessent statement and CENTCOM update.",
-    "keywords": [
-      "bessent",
-      "treasury",
-      "blockade",
-      "centcom",
-      "uss-milius",
-      "iran-oil"
-    ]
-  },
-  {
-    "id": "social-1171",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "text": "OFAC ECONOMIC FURY: Treasury sanctions 6 individuals + 21 entities + 1 Panama-flagged vessel ('New Fusion') in Iran shadow banking network. Geographic breakdown: 12 China, 5 UAE, 3 Iran, 1 UK. Targets 3 Iranian foreign currency exchange houses converting yuan-to-USD for IRGC. 12th round since Feb 2025. OFAC issued separate alert on 'Sanctions Risks of Iranian Demands for Strait of Hormuz Passage.'",
-    "timestamp": "2026-05-03T15:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "US State Department release and Al-Monitor coverage confirmed sanctions package.",
-    "keywords": [
-      "ofac",
-      "sanctions",
-      "iran",
-      "shadow-banking",
-      "china",
-      "operation-economic-fury"
-    ]
-  },
-  {
-    "id": "social-1172",
-    "handle": "@HRANA",
-    "displayName": "HRANA / Hengaw",
-    "text": "EXECUTIONS: Iran secretly hanged Nasser Bakerzadeh (Kurdish Sunni) and Yaghoub Karimpour (Azerbaijani Turkic Yarsan, disabled) at Orumiyeh Central Prison May 2 for alleged espionage. Bodies withheld from families. Hengaw documented at least 26 executions across Iranian prisons in April — sharp acceleration tied to wartime crackdown.",
-    "timestamp": "2026-05-03T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Kurdistan Human Rights Network and Euronews confirmed double execution.",
-    "keywords": [
-      "iran",
-      "executions",
-      "kurdish",
-      "orumiyeh",
-      "human-rights",
-      "hengaw"
-    ]
-  },
-  {
     "id": "social-1173",
     "handle": "@WarMonitors",
     "displayName": "War Monitor",
@@ -431,6 +322,115 @@
       "litani-expansion",
       "blockade-day22",
       "hormuz-day63"
+    ]
+  },
+  {
+    "id": "social-1191",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "MASSIVE ESCALATION: Iran launches FIRST attack on UAE since April 8 ceasefire — 12 ballistic missiles, 3 cruise missiles, 4 drones. UAE air defenses (incl. Israeli Iron Dome battery) intercept; one cruise missile fell into sea. Iranian drones strike ADNOC tanker BARAKAH in Hormuz. Drone ignites fire at VTTI Fujairah oil terminal — 3 Indian workers injured. UAE schools nationwide to remote learning May 5-8.",
+    "timestamp": "2026-05-04T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, The National, Bloomberg, Al Arabiya, Gulf News all cross-verified UAE attacks and ADNOC tanker strike.",
+    "keywords": [
+      "uae",
+      "iran",
+      "ballistic-missiles",
+      "cruise-missiles",
+      "drones",
+      "adnoc",
+      "fujairah"
+    ]
+  },
+  {
+    "id": "social-1192",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "PROJECT FREEDOM ENGAGES: US Apache + SH-60 Seahawk helicopters destroy 6 Iranian fast boats threatening commercial shipping. CENTCOM Adm. Cooper: Iran launched 'multiple cruise missiles, drones and small boats' at US Navy. CENTCOM confirms 2 US-flagged merchant vessels + 2 US guided-missile destroyers transit Hormuz under escort — first since blockade. IRGC denies as 'baseless lies.'",
+    "timestamp": "2026-05-04T14:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Defense News, CENTCOM, CNBC, CBS News confirmed boat destruction and US-flagged transit.",
+    "keywords": [
+      "project-freedom",
+      "centcom",
+      "apache",
+      "seahawk",
+      "iranian-boats",
+      "us-flagged-transit"
+    ]
+  },
+  {
+    "id": "social-1193",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "TRUMP THREAT: 'Iran will be blown off the face of the Earth if they attack our vessels.' Said negotiators are 'far more malleable.' Pope Leo XIV called Trump's destruction threat 'truly unacceptable.' Netanyahu cancelled Jerusalem corruption-trial testimony citing 'political and security meetings.' IDF placed at 'high readiness.'",
+    "timestamp": "2026-05-04T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Newsweek, Mediaite, Fox News, CBS News confirmed Trump statement. NPR, CNN confirmed Pope Leo response. Times of Israel confirmed Netanyahu/IDF.",
+    "keywords": [
+      "trump",
+      "threat",
+      "iran",
+      "pope-leo",
+      "netanyahu",
+      "idf-readiness"
+    ]
+  },
+  {
+    "id": "social-1194",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "text": "OIL SPIKE: Brent surges to $114.06 (+5.45% intraday, +42.9% vs $79.84) — 4-year high during session before paring gains. WTI $106.00 (+40.4%). Direct response to Iran-UAE escalation. UKMTO reports SECOND tanker attack 78nm north of Fujairah within 8 hours. ~2,000 ships still stranded. 31 tankers / 53M barrels worth $4.8B+ stuck per Pentagon.",
+    "timestamp": "2026-05-04T15:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trading Economics, Fortune, CNBC, Yahoo Finance, UPI, UKMTO confirmed prices and tanker attack.",
+    "keywords": [
+      "brent",
+      "wti",
+      "oil-spike",
+      "ukmto",
+      "fujairah",
+      "tanker-attack"
+    ]
+  },
+  {
+    "id": "social-1195",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats (AEI)",
+    "text": "ESCALATION ASSESSMENT: Iran-UAE attacks + US-Iran kinetic exchange in Hormuz mark sharpest deterioration since ceasefire. IRGC Navy expands declared maritime control zone east of original lines, encompassing UAE Fujairah and Khorfakkan ports — implies coercion pressure on Gulf states. Araghchi cancelled May 4 Oman-mediated US-Iran talks citing 'technical reason.' US transferred 22 Touska crew via Pakistan in 'confidence-building' counterpoint. Two-track posture: kinetic + diplomatic.",
+    "timestamp": "2026-05-04T16:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "ISW/Critical Threats May 3 Iran Update Special Report, Al Jazeera, GlobalSecurity, PressTV cross-verified.",
+    "keywords": [
+      "irgc-control-zone",
+      "uae-pressure",
+      "araghchi",
+      "touska",
+      "two-track",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "social-1196",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitor",
+    "text": "DAY 66 PM PT ROUNDUP: Iran first attack on UAE since ceasefire — ADNOC tanker hit, VTTI Fujairah struck (3 Indians injured), 12 BMs+3 CMs+4 drones intercepted. US helos destroy 6 Iranian fast boats. 2 US-flagged ships transit Hormuz. Trump: Iran 'blown off face of Earth.' Pope Leo: 'truly unacceptable.' Netanyahu IDF on 'high readiness.' Brent $114.06 (+42.9%, +5.45%). WTI $106.00. Gas $4.46. Hormuz Day 63.",
+    "timestamp": "2026-05-04T19:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Bloomberg, Defense News, CNBC, CBS, Newsweek, NPR, CNN, AAA, Trading Economics, Fortune — all cross-verified.",
+    "keywords": [
+      "roundup",
+      "day66-pm",
+      "uae-attack",
+      "boats-destroyed",
+      "us-flagged-transit",
+      "trump-threat"
     ]
   }
 ]
