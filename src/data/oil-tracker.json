@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-02T06:10:00Z",
+    "lastUpdated": "2026-05-05T12:03:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 63
+    "conflictDay": 67
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-02",
-      "label": "Day 64 AM PT \u2014 Brent $108.17/bbl (+35.5% from pre-war $79.80). WTI $101.05/bbl (+33.8% from $75.50). Oil steady on stalled diplomacy. Trump: 'better off not making a deal.' $8.6B arms bypass Congress. Blockade cost Iran $4.8B. Hezbollah fires 4 drones at Galilee/Golan. Pezeshkian seeks to oust Araghchi. AAA gas $4.39. Hormuz Day 61.",
+      "date": "2026-05-05",
+      "label": "Day 67 AM PT \u2014 Brent $113.24/bbl (+41.9% from pre-war $79.84). WTI $104.57/bbl (+38.5% from $75.51). Oil surged May 4 to $114.44 after Project Freedom/Hormuz clashes and Iran UAE strikes, eased slightly May 5. AAA gas $4.48. Ceasefire near collapse. Hormuz Day 63.",
       "brent": {
-        "price": 108.10,
-        "change": "+35.5%",
-        "changeDollars": "+$28.30"
+        "price": 113.24,
+        "change": "+41.9%",
+        "changeDollars": "+$33.44"
       },
       "wti": {
-        "price": 101.05,
-        "change": "+33.8%",
-        "changeDollars": "+$25.55"
+        "price": 104.57,
+        "change": "+38.5%",
+        "changeDollars": "+$29.07"
       },
-      "changePercent": 35.5,
-      "lastUpdated": "2026-05-02"
+      "changePercent": 41.9,
+      "lastUpdated": "2026-05-05"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-02T06:10:00Z",
-    "note": "Day 64 AM PT: Brent $108.17 (+35.5%), WTI $101.05 (+33.8%). AAA gas $4.39/gal at wartime high. $8.6B arms bypass Congress. Blockade cost Iran $4.8B. Trump: 'better off not making deal.' Hezbollah 4 drones at Galilee/Golan. Hormuz Day 61.",
+    "lastUpdated": "2026-05-05T12:03:00Z",
+    "note": "Day 67 AM PT: Brent $113.24 (+41.9%), WTI $104.57 (+38.5%). AAA gas $4.48/gal \u2014 new wartime high. Oil surged to $114 May 4 after Project Freedom/Hormuz clashes. Iran fires missiles at UAE. Ceasefire near collapse. Hormuz Day 63.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.39,
-          "date": "2026-05-01"
+          "price": 4.48,
+          "date": "2026-05-05"
         },
-        "change": "+$1.26",
-        "changePercent": "+40.3%",
-        "detail": "Gas $4.392/gal (AAA, May 1). Stabilizing near wartime high. Brent retreated to $108.10 (+35.4%), WTI $101.05 (+33.8%) on Pakistan-mediated talks. Pre-war $3.13. CA $6.01+.",
+        "change": "+$1.35",
+        "changePercent": "+43.1%",
+        "detail": "Gas $4.483/gal (AAA, May 5). New wartime high after Hormuz clashes. Brent $113.24 (+41.9%), WTI $104.57 (+38.5%). Pre-war $3.13. CA $6.11+.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

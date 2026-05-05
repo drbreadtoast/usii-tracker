@@ -1,219 +1,148 @@
 [
   {
-    "id": "social-1128",
+    "id": "social-1140",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab",
-    "text": "TEHRAN AIR DEFENSES: Multiple air defense activations heard across Tehran's western, central, and southeastern districts for ~20 minutes. Tasnim/Fars say military engaging 'small aircraft and reconnaissance drones.' No attribution confirmed. Israel not commenting. Situation returned to normal.",
-    "timestamp": "2026-05-01T20:45:00Z",
+    "text": "PROJECT FREEDOM DAY 1: Only 4 commercial ships crossed the Strait of Hormuz today under US Navy escort — vs 120+/day pre-war. Iran fired cruise missiles and drones at the convoy; all intercepted. US Apache helicopters sank 6 Iranian fast boats. 15,000 US service members deployed for the operation.",
+    "timestamp": "2026-05-05T05:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Newsmax, Arab News, Times of Israel liveblog all confirmed Tehran air defense activation May 1 evening.",
+    "verificationNote": "PBS, NPR, Navy Times, CENTCOM all confirmed 2 US-flagged ships transited. IranWarLive tracked only 4 total ships.",
     "keywords": [
-      "tehran",
-      "air-defense",
-      "drones",
+      "project-freedom",
+      "hormuz",
+      "us-navy",
+      "escort",
       "iran"
     ]
   },
   {
-    "id": "social-1129",
+    "id": "social-1141",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel",
-    "text": "CNN INVESTIGATION: At least 16 American military sites in 8 Middle Eastern countries 'destroyed and unusable' from Iranian strikes. Al-Udeid (Qatar) aviation control center hit twice. E-3 Sentry AWACS specifically targeted. Critical radar/comms beyond repair. This represents majority of US positions in region.",
-    "timestamp": "2026-05-01T21:00:00Z",
+    "text": "FUJAIRAH STRIKE: Iran launched 12 ballistic missiles, 3 cruise missiles, 4 drones at UAE. One drone penetrated UAE THAAD/Patriot layered defense, struck Fujairah Oil Industry Zone (FOIZ). Major petroleum fire. First UAE attack since April 8 ceasefire. 3 Indian nationals injured. Satellite imagery shows smoke plume visible 50km away.",
+    "timestamp": "2026-05-05T06:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "CNN exclusive investigation with satellite imagery. Corroborates earlier NBC News reporting on base damage across 7 countries.",
+    "verificationNote": "Al Jazeera, Bloomberg, Khaleej Times, Gulf News all confirmed. VTTI oil facility named by Bloomberg.",
     "keywords": [
-      "cnn",
-      "us-bases",
-      "damage",
-      "al-udeid",
-      "iran-strikes"
-    ]
-  },
-  {
-    "id": "social-1130",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "GERMANY WITHDRAWAL: Pentagon formally orders 5,000 US troops withdrawn from Germany over 6-12 months. Hegseth signed the order. Direct retaliation for Chancellor Merz calling Iran 'humiliating' the US. Major NATO rift deepening over the war.",
-    "timestamp": "2026-05-01T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Breaking Defense, Washington Post confirmed withdrawal order signed by Hegseth.",
-    "keywords": [
-      "germany",
-      "troops",
-      "withdrawal",
-      "nato",
-      "merz",
-      "hegseth"
-    ]
-  },
-  {
-    "id": "social-1131",
-    "handle": "@StratSentinel",
-    "displayName": "Strategic Sentinel",
-    "text": "FIBER-OPTIC DRONE THREAT: Hezbollah's fiber-optic guided FPV drones now a daily occurrence. 27+ attacks since February. IDF confirms no effective countermeasure — drones invisible to radar and EW. Cable costs ~$30/km, launches from 15km. 16+ IDF killed by drones since March.",
-    "timestamp": "2026-05-01T19:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, NBC News, Washington Post, Press TV all confirmed fiber-optic drone campaign details.",
-    "keywords": [
-      "hezbollah",
-      "fiber-optic",
-      "drones",
-      "fpv",
-      "idf",
-      "lebanon"
-    ]
-  },
-  {
-    "id": "social-1132",
-    "handle": "@michaelh992",
-    "displayName": "Michael Horowitz",
-    "text": "WAR POWERS ANALYSIS: Trump simultaneously declares hostilities 'terminated' (War Powers letter) and calls it 'treasonous' to say US isn't winning the war. Hegseth argues WPR clock 'pauses' during ceasefire — legal experts unanimously reject this. Collins first GOP crossover. Murkowski threatens AUMF.",
-    "timestamp": "2026-05-01T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PBS, NPR, Axios, Time, Democracy Now confirmed War Powers developments. Brennan Center's Ebright rejected Hegseth's legal argument.",
-    "keywords": [
-      "war-powers",
-      "trump",
-      "hegseth",
-      "collins",
-      "murkowski",
-      "treasonous"
-    ]
-  },
-  {
-    "id": "social-1133",
-    "handle": "@Global_Flttrckr",
-    "displayName": "Global Fleet Tracker",
-    "text": "OIL MARKET: Brent $108.10 (+35.4%), WTI $101.05 (+33.8%). Oil down from $126 wartime high — holding near week lows on Iran peace proposal. AAA gas $4.39 at wartime high. Iran crude exports collapsed to 567K bpd. CENTCOM 44 vessels turned. Exxon: 'market hasn't seen full impact yet.'",
-    "timestamp": "2026-05-01T23:00:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "TradingEconomics, CNBC, AAA confirmed price data. CNBC confirmed Exxon CEO warning.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "gas",
-      "exxon",
-      "blockade"
-    ]
-  },
-  {
-    "id": "social-1134",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 64 ROUNDUP: Trump 'treasonous' remark at Florida rally. Pentagon 5K troops out of Germany. Tehran air defenses activated vs drones. CNN: 16 US bases damaged/unusable. Habboush airstrike kills 6-8. Kfar Rumman: 5 bodies recovered. Sgt. Ben Hamo (19) killed by Hezbollah drone. Brent $108. Gas $4.39. Hormuz Day 61.",
-    "timestamp": "2026-05-02T00:01:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN, Breaking Defense, Newsmax, WaPo, CBC, Times of Israel, CNBC, AAA — all cross-verified.",
-    "keywords": [
-      "roundup",
-      "day64",
-      "trump",
-      "germany",
-      "tehran",
-      "cnn",
-      "habboush",
-      "hezbollah",
-      "oil",
-      "gas"
-    ]
-  },
-  {
-    "id": "social-1135",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "ARMS BYPASS: State Dept bypasses Congress to approve $8.6B in emergency military sales — Israel ($992.4M APKWS), Qatar ($4.01B Patriot + $992.4M APKWS), Kuwait ($2.5B battle command), UAE ($147.6M APKWS). Emergency authority invoked to skip 30-day review.",
-    "timestamp": "2026-05-02T04:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al-Monitor, AP/KFGO, Free Malaysia Today confirmed $8.6B emergency military sales bypassing Congress.",
-    "keywords": [
-      "arms-sales",
-      "congress-bypass",
-      "israel",
-      "qatar",
-      "patriot",
-      "apkws"
-    ]
-  },
-  {
-    "id": "social-1136",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "BLOCKADE IMPACT: Pentagon estimates US naval blockade has cost Iran $4.8B in oil revenue since April 13. 31 tankers carrying 53M barrels stuck in the Gulf. Iran using older tankers as floating storage — on-land capacity filling up. 40+ vessels redirected since blockade began.",
-    "timestamp": "2026-05-02T03:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Axios, Business Standard confirmed Pentagon's $4.8B estimate and 31 tanker count.",
-    "keywords": [
-      "blockade",
+      "fujairah",
+      "uae",
       "iran",
-      "oil-revenue",
-      "tankers",
-      "pentagon"
+      "missiles",
+      "oil-fire",
+      "irgc"
     ]
   },
   {
-    "id": "social-1137",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "HEZBOLLAH DRONES: At least 4 drones fired at northern Israel morning of May 2 — IAF shot down all. Sirens in Galilee Panhandle and Golan Heights. Drones did not cross into Israeli territory. Hezbollah fiber-optic drone campaign continues unabated despite ceasefire.",
-    "timestamp": "2026-05-02T05:30:00Z",
+    "id": "social-1142",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "IRAN INTERNAL RIFT: President Pezeshkian publicly called IRGC strikes on UAE 'madness' and 'completely irresponsible' — done without civilian government knowledge. Requested emergency meeting with Supreme Leader Mojtaba Khamenei to halt IRGC Gulf attacks. Parliament Speaker Ghalibaf taking opposite stance: 'We have not even begun yet.'",
+    "timestamp": "2026-05-05T07:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog May 2 confirmed 4 drones shot down by IAF.",
+    "verificationNote": "Iran International confirmed Pezeshkian statement. CNN confirmed Ghalibaf quote.",
     "keywords": [
-      "hezbollah",
-      "drones",
-      "galilee",
-      "golan",
-      "iaf",
-      "interception"
+      "pezeshkian",
+      "irgc",
+      "iran-rift",
+      "ghalibaf",
+      "uae",
+      "khamenei"
     ]
   },
   {
-    "id": "social-1138",
-    "handle": "@michaelh992",
-    "displayName": "Michael Horowitz",
-    "text": "IRAN INTERNAL RIFT: Pezeshkian and Speaker Ghalibaf seeking to fire FM Araghchi for taking orders from IRGC commander Ahmad Vahidi without informing the president. Power struggle between civilian govt and IRGC over nuclear negotiations deepens. Could reshape Iran's negotiating position.",
-    "timestamp": "2026-05-02T04:30:00Z",
+    "id": "social-1143",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "COMPETING NARRATIVES: CENTCOM says 6 IRGC fast boats sunk targeting civilian ships. Iran claims US attacked civilian passenger boats from Khasab (Oman) to Bandar Abbas, killing 5 civilians including women. Neither claim independently verified. Business Standard reporting both versions. Key question: where did the boats come from?",
+    "timestamp": "2026-05-05T08:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "likely",
-    "verificationNote": "Iran International, Jerusalem Post report Pezeshkian-Araghchi rift. The Week India confirmed Speaker Ghalibaf's involvement.",
+    "verificationNote": "Al Jazeera reported Iran's claim of 5 civilian deaths. CENTCOM confirmed 6 boats destroyed. Truth disputed.",
     "keywords": [
+      "hormuz",
+      "civilian-claims",
+      "centcom",
       "iran",
-      "pezeshkian",
-      "araghchi",
-      "irgc",
-      "power-struggle",
-      "ghalibaf"
+      "boats",
+      "disinformation"
     ]
   },
   {
-    "id": "social-1139",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 64 AM UPDATE: Trump 'better off not making a deal.' $8.6B arms bypass Congress. Blockade cost Iran $4.8B. 4 Hezbollah drones at Galilee/Golan — all shot down. Pezeshkian vs Araghchi rift deepens. S&P 500 all-time high 7,230. Brent $108. Gas $4.39. Hormuz Day 61.",
-    "timestamp": "2026-05-02T06:10:00Z",
-    "sourceCategory": "lead",
+    "id": "social-1144",
+    "handle": "@intel_sky",
+    "displayName": "Intel Sky",
+    "text": "SOUTH KOREAN SHIP: HMM Namu explosion in engine room near Hormuz. 24 crew safe. South Korea investigating — could be sea drone or mine. Seoul REBUFFS Trump's call to join Project Freedom, demands UN mandate. This mirrors Japan and EU's reluctance to participate. Coalition of the unwilling forming.",
+    "timestamp": "2026-05-05T09:00:00Z",
+    "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "CNN, Al-Monitor, Axios, Times of Israel, Iran International, CNBC — all cross-verified.",
+    "verificationNote": "Jerusalem Post, Al Arabiya, SCMP confirmed attack and Seoul's rejection of Project Freedom.",
     "keywords": [
-      "roundup",
-      "day64",
+      "south-korea",
+      "hmm-namu",
+      "hormuz",
+      "project-freedom",
+      "mine",
+      "coalition"
+    ]
+  },
+  {
+    "id": "social-1145",
+    "handle": "@GeoConfirmed",
+    "displayName": "GeoConfirmed",
+    "text": "CEASEFIRE STATUS: Effectively collapsed. Trump declines to confirm it exists. Both sides fired live rounds in Hormuz. Iran attacked a non-combatant (UAE) for first time since April 8. Araghchi heading to China for diplomatic backup. Israel-US reportedly planning new strike campaign to 'pressure' Iran. Oil at $113/bbl.",
+    "timestamp": "2026-05-05T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNN, NPR, Bloomberg, Times of Israel — multiple sources confirm ceasefire near collapse.",
+    "keywords": [
+      "ceasefire",
+      "collapse",
+      "hormuz",
       "trump",
-      "arms-sales",
-      "blockade",
-      "hezbollah",
-      "iran-rift"
+      "araghchi",
+      "china",
+      "oil"
+    ]
+  },
+  {
+    "id": "social-1146",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "WORLD CONDEMNS: G7, EU (Kallas), UK (Starmer), France (Macron), Germany (Merz), Canada (Carney) all issue statements condemning Iran's attacks on UAE as 'unjustifiable,' 'reckless,' 'unacceptable.' EU approving new sanctions on 19 Iranian officials. Saudi Arabia condemns 'in strongest terms.' Most unified Western response since war began.",
+    "timestamp": "2026-05-05T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, Gulf News, The National all collected world leader condemnations.",
+    "keywords": [
+      "condemnation",
+      "g7",
+      "eu",
+      "sanctions",
+      "uae",
+      "iran",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "social-1147",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "MARKET IMPACT: Oil surged to $114.44/bbl May 4 (Brent) after Hormuz clashes — highest since war began. Eased to $113.24 today. WTI $104.57. AAA gas national avg now $4.48/gal (+36% from pre-war). California at $6.11/gal. IMF had already cut global growth to 3.1%. Goldman: 30% recession probability.",
+    "timestamp": "2026-05-05T12:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed oil prices. AAA confirmed gas prices. IMF and Goldman estimates from prior reporting.",
+    "keywords": [
+      "oil",
+      "gas-prices",
+      "markets",
+      "brent",
+      "wti",
+      "recession",
+      "imf"
     ]
   }
 ]

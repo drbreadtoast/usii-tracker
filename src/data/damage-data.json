@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-02T06:10:00Z",
+    "lastUpdated": "2026-05-05T12:03:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -6929,6 +6929,42 @@
       "casualties": "1 killed, 7 wounded",
       "source": "NBC News",
       "sourceUrl": "https://www.nbcnews.com/world/lebanon/israel-strikes-southern-lebanon-kill-10-people-hezbollah-drone-wounds-rcna343170",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-444",
+      "name": "Fujairah Oil Industry Zone (FOIZ) — drone strike and fire",
+      "country": "UAE",
+      "lat": 25.162,
+      "lng": 56.346,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-04",
+      "attributedTo": "iran",
+      "damageLevel": "severe",
+      "description": "Iranian drone penetrated UAE air defenses and struck the Fujairah Oil Industry Zone (FOIZ/VTTI petroleum complex), causing a major fire. Smoke plume visible for kilometers. 3 Indian nationals moderately injured. First attack on UAE since April 8 ceasefire. UAE intercepted 12 ballistic missiles, 3 cruise missiles, and 3 other drones.",
+      "weaponUsed": "Attack drone (Shahed-type)",
+      "casualties": "0 killed, 3 injured (Indian nationals)",
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-04/vtti-oil-facility-in-fujairah-struck-in-aerial-attack",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-445",
+      "name": "Meiss Ej Jabal — Israeli airstrike on residential house",
+      "country": "Lebanon",
+      "lat": 33.28,
+      "lng": 35.57,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-05",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike hit a house in Meiss Ej Jabal village, killing 4 civilians. 2 Hezbollah members also killed in separate strikes in the area. Continued operations despite April 16 Lebanon ceasefire.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "6 killed (4 civilians + 2 Hezbollah), 0 wounded",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/2/israeli-air-strikes-kill-10-people-in-southern-lebanon",
       "satelliteImagery": false
     }
   ]
