@@ -48910,5 +48910,153 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["trump", "iran", "threat", "hormuz", "project-freedom", "fox-news", "day66"]
+  },
+  {
+    "id": "evt-new-1418",
+    "title": "Houthi ballistic missile strikes near Ben Gurion Airport — flights halted, 6 injured",
+    "description": "A Houthi ballistic missile struck near an access road at Terminal 3 of Ben Gurion Airport after Israel's Arrow interceptor failed to fully neutralize it. Flights were halted for approximately 30 minutes. The Houthis claimed it was a 'hypersonic ballistic missile.' Six people were physically injured. Israel's air defense system failure prompted immediate security review.",
+    "type": "strike",
+    "lat": 32.01,
+    "lng": 34.89,
+    "location": "Ben Gurion Airport, Tel Aviv, Israel",
+    "timestamp": "2026-05-04T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Times of Israel — Daily Briefing May 4: Houthi missile hits Ben Gurion Airport",
+        "url": "https://www.timesofisrael.com/daily-briefing-may-4-day-576-houthi-missile-hits-ben-gurion-airport/"
+      },
+      {
+        "name": "Times of Israel — Houthis claim missile attack on Israel",
+        "url": "https://www.timesofisrael.com/liveblog_entry/houthis-claim-missile-attack-on-israel-and-to-have-targeted-ben-gurion-airport/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 6 },
+    "tags": ["houthis", "ben-gurion", "airport", "missile", "arrow-failure", "israel", "day67"]
+  },
+  {
+    "id": "evt-new-1419",
+    "title": "South Korean cargo ship HMM Namu hit by explosion in Strait of Hormuz",
+    "description": "An explosion and fire broke out in the engine room of the South Korean-operated cargo ship HMM Namu (Panama-flagged, ~180m) anchored near UAE waters inside the Strait of Hormuz. South Korean government investigating whether it was an Iranian attack. All 24 crew (6 Korean, 18 foreign nationals) evacuated safely with no casualties. Vessel later towed to Dubai.",
+    "type": "naval",
+    "lat": 26.2,
+    "lng": 56.4,
+    "location": "Strait of Hormuz, near UAE waters",
+    "timestamp": "2026-05-04T11:40:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Korea Herald — Korean-operated vessel reports damage in Hormuz",
+        "url": "https://www.koreaherald.com/article/10731161"
+      },
+      {
+        "name": "Al Arabiya — Seoul says explosion and fire struck South Korean ship",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/05/04/seoul-says-explosion-and-fire-struck-south-korean-ship-in-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["south-korea", "hmm-namu", "explosion", "hormuz", "commercial-shipping", "day67"]
+  },
+  {
+    "id": "evt-new-1420",
+    "title": "Israel retaliates with 20-30 jets striking 9 Houthi targets in Hodeidah, Yemen",
+    "description": "Approximately 20-30 IAF fighter jets struck 9 Houthi targets in Hodeidah, Yemen using ~50 munitions in retaliation for the Ben Gurion Airport missile strike. Targets included Hodeidah seaport and al-Imran/Bajil cement factory (used for weapons manufacturing and tunnel construction). The US denied involvement despite Houthi claims of a 'joint raid.' At least 4 killed and 39-42 injured.",
+    "type": "strike",
+    "lat": 14.80,
+    "lng": 42.95,
+    "location": "Hodeidah Port, Yemen",
+    "timestamp": "2026-05-05T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — 20 Israeli fighter jets strike in Yemen",
+        "url": "https://www.timesofisrael.com/20-israeli-fighter-jets-strike-in-yemen-after-houthi-missile-hits-ben-gurion-airport/"
+      },
+      {
+        "name": "Al Jazeera — Israel bombs Yemen's Hodeidah port",
+        "url": "https://www.aljazeera.com/news/2025/5/5/israel-bombs-yemens-hodeidah-port-after-attack-near-tel-aviv"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 4, "injured": 42 },
+    "tags": ["israel", "iaf", "yemen", "hodeidah", "houthis", "retaliation", "day67"]
+  },
+  {
+    "id": "evt-new-1421",
+    "title": "Israeli airstrike kills 4 civilians in Meiss Ej Jabal, southern Lebanon",
+    "description": "An Israeli airstrike hit a house in the village of Meiss Ej Jabal in southern Lebanon, killing 4 civilians. Part of continued Israeli strikes violating the April 17 ceasefire extension. Over 50 Israeli airstrikes on southern Lebanon in the previous 24 hours, killing at least 41 people total.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.55,
+    "location": "Meiss Ej Jabal, southern Lebanon",
+    "timestamp": "2026-05-05T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli air strikes on Lebanon kill 41 in 24 hours",
+        "url": "https://www.aljazeera.com/news/2026/5/2/israeli-air-strikes-kill-10-people-in-southern-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 4, "injured": 0 },
+    "tags": ["israel", "lebanon", "airstrike", "civilians", "ceasefire-violation", "day67"]
+  },
+  {
+    "id": "evt-new-1422",
+    "title": "Hezbollah deploys new fiber-optic guided drones to evade Israeli detection",
+    "description": "Hezbollah has deployed a new type of fiber-optic guided drone specifically designed to evade Israeli detection systems. On May 4, Hezbollah claimed 11 separate drone and missile operations against Israeli military targets. The fiber-optic guidance allows the drones to operate without emitting radio signals, making them invisible to Israeli electronic warfare systems.",
+    "type": "strike",
+    "lat": 33.1,
+    "lng": 35.3,
+    "location": "Israel-Lebanon border region",
+    "timestamp": "2026-05-04T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "CNN — Hezbollah deploys potent new weapon designed to evade Israeli detection",
+        "url": "https://www.cnn.com/2026/05/03/middleeast/hezbollah-fiber-optic-drones-israel-intl-cmd"
+      },
+      {
+        "name": "Global Security — Hezbollah hits Israeli targets in 11 operations",
+        "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260504-presstv01.htm"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 2 },
+    "tags": ["hezbollah", "drones", "fiber-optic", "israel", "new-weapon", "day67"]
+  },
+  {
+    "id": "evt-new-1423",
+    "title": "US and Israel weigh retaliatory strikes on Iranian missile launchers and energy sites",
+    "description": "US and Israel holding intensive consultations on response to Iran's attack on UAE. Options include targeted strikes on Iranian missile launchers threatening the Strait of Hormuz, or a parallel strike on an Iranian energy facility. Israel not expected to act unilaterally unless explicitly asked by the US. Three officials familiar with the matter confirmed the planning discussions.",
+    "type": "diplomatic",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "location": "Washington, DC / Tel Aviv",
+    "timestamp": "2026-05-05T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Israel Hayom — US, Israel weigh strikes on Iranian missile launchers",
+        "url": "https://www.israelhayom.com/2026/05/05/us-israel-weigh-strikes-on-iranian-missile-launchers-and-energy-sites-after-uae-attack"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "israel", "iran", "retaliation", "planning", "energy", "missiles", "day67"]
   }
 ]

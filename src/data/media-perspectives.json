@@ -1,113 +1,113 @@
 {
-  "lastUpdated": "2026-05-04T19:19:00Z",
+  "lastUpdated": "2026-05-05T00:02:00Z",
   "categories": [
     {
       "id": "us-left",
-      "label": "US Left-Leaning Media",
+      "label": "US Left-Leaning",
       "color": "#3b82f6",
-      "icon": "📰",
+      "icon": "newspaper",
       "outlets": [
+        {
+          "name": "CNN",
+          "headline": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate",
+          "timestamp": "2026-05-04T18:00:00Z",
+          "url": "https://www.cnn.com/2026/05/04/world/live-news/iran-war-hormuz-trump",
+          "summary": "CNN reports US and Iran exchanged fire during Project Freedom Hormuz escort operation. 6 Iranian boats destroyed. Both sides deny being struck."
+        },
         {
           "name": "Washington Post",
           "headline": "Iran fires on U.S. ships in Strait of Hormuz, in threat to ceasefire",
-          "timestamp": "2026-05-04T18:00:00Z",
+          "timestamp": "2026-05-04T17:00:00Z",
           "url": "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/",
-          "summary": "WaPo leads with Iran firing on US ships in the Strait of Hormuz as the most serious threat yet to the April 8 ceasefire. CENTCOM confirms 6 Iranian fast boats destroyed by US helicopters; CENTCOM denies any US Navy ship was struck."
-        },
-        {
-          "name": "NPR",
-          "headline": "The UAE says Iran resumes attacks as the U.S. moves to reopen the Strait of Hormuz",
-          "timestamp": "2026-05-04T16:00:00Z",
-          "url": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates",
-          "summary": "NPR covers UAE's first Iranian-attack interceptions since the April 8 ceasefire, ADNOC tanker drone strike, and VTTI Fujairah oil terminal fire. Pope Leo XIV calls Trump's destruction threat 'truly unacceptable.'"
+          "summary": "WaPo frames Iran as aggressor threatening fragile ceasefire. Notes both sides blame each other for Hormuz escalation."
         }
       ]
     },
     {
       "id": "us-right",
-      "label": "US Right-Leaning Media",
+      "label": "US Right-Leaning",
       "color": "#ef4444",
-      "icon": "📺",
+      "icon": "newspaper",
       "outlets": [
         {
           "name": "Fox News",
-          "headline": "Trump warns Iran will be 'blown off face of earth' if Iran attacks US vessels",
-          "timestamp": "2026-05-04T17:00:00Z",
+          "headline": "Trump announces 'Project Freedom' to guide ships through Strait of Hormuz",
+          "timestamp": "2026-05-04T16:00:00Z",
           "url": "https://www.foxnews.com/live-news/trump-iran-war-hormuz-strait-may-4",
-          "summary": "Fox leads with Trump's annihilation warning during Project Freedom operations. Covers US Apache and Seahawk helicopters destroying 6 Iranian fast boats. Hegseth: 'dominant control of airspace.'"
+          "summary": "Fox frames Project Freedom as Trump decisive leadership. Emphasizes US military strength and Iran backing down."
         },
         {
-          "name": "Newsweek",
-          "headline": "Donald Trump Says Iran to Be Blown Off 'Face of Earth' as Tehran Fires at US Ships",
-          "timestamp": "2026-05-04T16:30:00Z",
-          "url": "https://www.newsweek.com/iran-war-us-ships-cross-strait-of-hormuz-11910025",
-          "summary": "Newsweek frames Trump's threat as direct response to alleged Iranian fire on US Navy. Quotes CENTCOM Adm. Cooper denying US ships were struck. Two US-flagged merchant vessels successfully transit Hormuz."
+          "name": "The Hill",
+          "headline": "Pete Hegseth defends Army chief firing, Iran military actions in hot House hearing",
+          "timestamp": "2026-04-29T20:00:00Z",
+          "url": "https://thehill.com/policy/defense/5855477-hegseth-house-hearing-iran-war-dod-pentagon-firings/",
+          "summary": "The Hill covers contentious Hegseth testimony. War Powers Act dispute and cost of war dominate hearing."
         }
       ]
     },
     {
       "id": "international",
-      "label": "International Media",
-      "color": "#8b5cf6",
-      "icon": "🌍",
+      "label": "International",
+      "color": "#10b981",
+      "icon": "globe",
       "outlets": [
         {
           "name": "Al Jazeera",
-          "headline": "Iran war live: UAE says intercepted missiles, drone sparks fire at oil site",
-          "timestamp": "2026-05-04T16:00:00Z",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire",
-          "summary": "Al Jazeera liveblog leads with UAE intercepting 12 ballistic missiles, 3 cruise missiles, 4 drones from Iran. ADNOC tanker BARAKAH drone strike. UAE schools to remote learning May 5-8. Iran calls Project Freedom a 'ceasefire violation.'"
+          "headline": "War preparations under way in Iran as Hormuz tensions with US escalate",
+          "timestamp": "2026-05-04T19:00:00Z",
+          "url": "https://www.aljazeera.com/news/2026/5/4/war-preparations-under-way-in-iran-as-hormuz-tensions-with-us-escalate",
+          "summary": "AJ reports Iran mobilizing for potentially lengthy conflict. Maj. Gen. Abdollahi warns all foreign forces in Hormuz will be targeted."
         },
         {
-          "name": "Bloomberg",
-          "headline": "Fujairah Oil Terminal Hit by Drone Strike in UAE, Fire Reported at Facility",
-          "timestamp": "2026-05-04T14:30:00Z",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-04/vtti-oil-facility-in-fujairah-struck-in-aerial-attack",
-          "summary": "Bloomberg covers VTTI Fujairah oil terminal drone fire (3 Indian workers injured). Brent surges to $114.06 (+5.45% intraday) — 4-year high during session before paring gains. WTI tops $106."
+          "name": "NPR",
+          "headline": "The U.S. fights to reopen the Strait of Hormuz as UAE says it's attacked by Iran",
+          "timestamp": "2026-05-04T18:00:00Z",
+          "url": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates",
+          "summary": "NPR provides balanced coverage of multi-front escalation: Hormuz naval clash, UAE missile attacks, and Project Freedom operations."
         }
       ]
     },
     {
       "id": "israeli",
-      "label": "Israeli Media",
-      "color": "#f59e0b",
-      "icon": "✡️",
+      "label": "Israeli",
+      "color": "#6366f1",
+      "icon": "flag",
       "outlets": [
         {
           "name": "Times of Israel",
-          "headline": "IDF at 'high readiness' as Trump says Iran to be 'blown off face of the earth' if it hits US ships",
-          "timestamp": "2026-05-04T17:30:00Z",
-          "url": "https://www.timesofisrael.com/liveblog-may-4-2026/",
-          "summary": "ToI liveblog leads with IDF placed at 'high readiness' for possible Iran war resumption. Netanyahu cancelled corruption-trial testimony citing 'political and security meetings.' Covers UAE attacks and Trump's threat."
+          "headline": "20 Israeli fighter jets strike in Yemen after Houthi missile hits Ben Gurion Airport",
+          "timestamp": "2026-05-05T06:00:00Z",
+          "url": "https://www.timesofisrael.com/20-israeli-fighter-jets-strike-in-yemen-after-houthi-missile-hits-ben-gurion-airport/",
+          "summary": "ToI covers IAF massive retaliation against Yemen. 9 targets struck with 50 munitions after Houthi missile penetrated Arrow defense."
         },
         {
           "name": "Haaretz",
           "headline": "Trump Says Iran Will Be 'Blown Off the Face of the Earth' if They Attack U.S. Navy Vessels",
           "timestamp": "2026-05-04T17:00:00Z",
           "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-04/ty-article-live/trump-announces-effort-to-free-up-ships-stuck-in-strait-of-hormuz/0000019d-efc2-dd9a-a79d-efebc5ca0000",
-          "summary": "Haaretz live tracker: Trump's annihilation threat, Project Freedom underway, Iran first attack on UAE since ceasefire, Israeli Iron Dome battery in UAE intercepts at least one Iranian missile."
+          "summary": "Haaretz covers Trump escalation rhetoric alongside IDF high readiness posture and Netanyahu security consultations."
         }
       ]
     },
     {
       "id": "iranian",
-      "label": "Iranian State Media",
-      "color": "#10b981",
-      "icon": "🇮🇷",
+      "label": "Iranian",
+      "color": "#f59e0b",
+      "icon": "flag",
       "outlets": [
         {
           "name": "PressTV",
-          "headline": "Iran's military vows to target any foreign forces approaching Strait of Hormuz",
-          "timestamp": "2026-05-04T15:30:00Z",
-          "url": "https://www.presstv.ir/Detail/2026/05/04/768008/Iran-s-military-vows-to-target-any-foreign-forces-approaching-Strait-of-Hormuz",
-          "summary": "PressTV leads with Maj. Gen. Ali Abdollahi (Khatam al-Anbiya HQ) warning that 'any foreign military force...that intends to approach or enter the Strait of Hormuz will be targeted.' Frames US Project Freedom as illegal interference."
+          "headline": "Iran open to diplomacy if US drops its excessive demands: FM",
+          "timestamp": "2026-05-01T12:00:00Z",
+          "url": "https://www.presstv.ir/Detail/2026/05/01/767872/Iran-opens-to-diplomacy-if-US-drops-its-excessive-demands--FM",
+          "summary": "PressTV frames Iran as willing peace partner blocked by unreasonable US demands. Emphasizes Pakistan mediation progress."
         },
         {
           "name": "PressTV",
-          "headline": "IRGC vows to 'forcefully stop' ships violating Strait of Hormuz regulations",
-          "timestamp": "2026-05-04T15:00:00Z",
-          "url": "https://www.presstv.ir/Detail/2026/05/04/768022/Iran-Hormuz-IRGC-warning-international-transit-Persian-Gulf",
-          "summary": "PressTV: IRGC issues new map expanding Hormuz control zone east to include UAE Fujairah and Khorfakkan. Warns commercial ships and oil tankers must coordinate with IRGC Navy. Iranian Parliament: any US interference is 'ceasefire violation.'"
+          "headline": "Iran's resilience pays off with major strategic gains as US pressure tactics fail",
+          "timestamp": "2026-05-01T10:00:00Z",
+          "url": "https://www.presstv.ir/Detail/2026/05/01/767876/may1-iran-resilience-pays-off-strategic-gains-us-pressure-tactics-fail",
+          "summary": "Iranian state media claims strategic victory narrative. Frames Hormuz blockade as successful leverage against US aggression."
         }
       ]
     }
