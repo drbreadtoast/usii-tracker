@@ -9749,5 +9749,59 @@
       "killed": 6,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-573",
+    "city": "United Arab Emirates",
+    "country": "UAE",
+    "lat": 25.10,
+    "lng": 55.30,
+    "strikeType": "missile-drone",
+    "attributedTo": "iran",
+    "date": "2026-05-05",
+    "description": "UAE air defenses engaged a second day of incoming Iranian missiles and drones; new safety alerts issued. Iran's Khatam al-Anbiya HQ denied the attacks despite UAE/US/witness evidence and threatened a 'crushing response' if UAE retaliates.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/5/uae-intercepts-missiles-and-drones-for-second-day",
+    "weaponType": "ballistic and cruise missiles + drones",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-574",
+    "city": "Strait of Hormuz",
+    "country": "Iran",
+    "lat": 26.57,
+    "lng": 56.25,
+    "strikeType": "naval",
+    "attributedTo": "us",
+    "date": "2026-05-04",
+    "description": "US AH-64 Apache and MH-60 Seahawk helicopters destroyed 6 Iranian fast-attack boats in the Strait of Hormuz after the boats threatened commercial shipping under Project Freedom escort. CBS reported 7 boats sunk; CENTCOM confirmed 6.",
+    "source": "Army Recognition",
+    "sourceUrl": "https://www.armyrecognition.com/news/navy-news/2026/us-apache-and-seahawk-helicopters-destroy-6-iranian-fast-boats-to-protect-shipping-in-strait-of-hormuz",
+    "weaponType": "Hellfire missiles / 30mm cannon",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-575",
+    "city": "Oman",
+    "country": "Oman",
+    "lat": 23.59,
+    "lng": 58.41,
+    "strikeType": "missile",
+    "attributedTo": "iran",
+    "date": "2026-05-05",
+    "description": "Iranian missile strike injured two foreign nationals in Oman, per Oman News Agency. Separate from Day-2 UAE attacks but part of wider regional escalation.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/5/uae-intercepts-missiles-and-drones-for-second-day",
+    "weaponType": "ballistic missile",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
   }
 ]
