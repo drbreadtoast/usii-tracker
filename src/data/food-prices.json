@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-05-05T06:11:00Z",
+  "lastUpdated": "2026-05-05T12:03:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.53,
-      "change": "+16.2%",
-      "detail": "11-month high. $6.53/bu (May 1 CBOT). Severe drought in US Great Plains (90% of NE/OK affected) compounds war supply chain disruption. 10B meals/week at risk from fertilizer disruption.",
-      "source": "Investing.com \u2014 Wheat May 1",
-      "sourceUrl": "https://www.investing.com/commodities/us-wheat"
+      "current": 6.35,
+      "change": "+13.0%",
+      "detail": "$6.35/bu (May 5 CBOT, up 0.92% on day). Near 2-year high of $6.50 hit April 28. Severe drought in US Great Plains compounds war supply chain disruption. Fertilizer prices up 30-40% in 4 weeks. YoY +22.4%.",
+      "source": "TradingEconomics \u2014 Wheat May 5",
+      "sourceUrl": "https://tradingeconomics.com/commodity/wheat"
     },
     {
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": "$4.66",
-      "change": "+8.1%",
-      "detail": "Corn $4.66/bu (May 1, 4-week high). Acreage down to 95.3M from 99M due to fertilizer costs. Nitrogen fertilizers up 30-40%. Half of global urea from Middle East.",
-      "source": "TradingEconomics \u2014 Corn May 1",
+      "current": "$4.75",
+      "change": "+10.2%",
+      "detail": "Corn $4.75/bu (May 5, highest since April 2025). Driven by strong export demand + drought in Nebraska/Oklahoma. Fertilizer costs forcing acreage reductions. July futures at $4.80.",
+      "source": "TradingEconomics \u2014 Corn May 5",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
     {
@@ -83,12 +83,12 @@
     }
   ],
   "groceryImpact": {
-    "averageWeeklyIncrease": 13,
+    "averageWeeklyIncrease": 14,
     "preWarWeekly": 168,
-    "currentWeekly": 181,
-    "changePercent": 7.7,
-    "usdaForecast2026": "3.6% food price rise",
-    "note": "USDA projects food-at-home prices to increase 3.6% in 2026 \u2014 up from 3.1% in March forecast, nearly double original projection. Consumer sentiment dropped sharply in April; 12-month inflation expectations jumped to 4.7% from 3.8%. 45% of Americans cutting non-essential spending. 1/3 of globally traded fertilizer flows through Hormuz. 318M people face hunger globally (FAO)."
+    "currentWeekly": 182,
+    "changePercent": 8.3,
+    "usdaForecast2026": "3.1% food price rise (may worsen if blockade persists)",
+    "note": "USDA projects food-at-home prices +3.1% in 2026 \u2014 nearly double start-of-year projection. If Hormuz blockade persists through summer, could add 5-7 percentage points (Deseret News). Consumer sentiment at multi-year low. 45% of Americans cutting non-essential spending. Sugar +8.1%, coffee +5.2% projected for 2026 (ERS/USDA). 318M face hunger globally (FAO)."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",

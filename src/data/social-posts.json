@@ -1,506 +1,148 @@
 [
   {
-    "id": "social-1180",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "PROJECT FREEDOM GO: CENTCOM officially confirms US Navy has begun 'Project Freedom' operations to escort ~2,000 stranded commercial ships through Hormuz. Admiral Cooper: 'essential to regional security and the global economy.' Guided-missile destroyers, 100+ aircraft, 15,000 troops. Iran parliament immediately declares it a ceasefire violation.",
-    "timestamp": "2026-05-04T06:00:00Z",
+    "id": "social-1140",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "PROJECT FREEDOM DAY 1: Only 4 commercial ships crossed the Strait of Hormuz today under US Navy escort — vs 120+/day pre-war. Iran fired cruise missiles and drones at the convoy; all intercepted. US Apache helicopters sank 6 Iranian fast boats. 15,000 US service members deployed for the operation.",
+    "timestamp": "2026-05-05T05:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "CENTCOM official press release, Stars and Stripes, The National, Anadolu Agency confirmed launch.",
+    "verificationNote": "PBS, NPR, Navy Times, CENTCOM all confirmed 2 US-flagged ships transited. IranWarLive tracked only 4 total ships.",
     "keywords": [
       "project-freedom",
-      "centcom",
       "hormuz",
+      "us-navy",
       "escort",
-      "navy",
-      "day66"
+      "iran"
     ]
   },
   {
-    "id": "social-1181",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "IRAN RESPONSE TO PROJECT FREEDOM: Parliament security chief Azizi says any US interference in Hormuz 'will be considered a ceasefire violation.' IRGC aerospace commander Mousavi: even 'short and tactical' operation would be met with 'painful, prolonged, and extensive strikes.' Highest escalation risk since April 7 ceasefire began.",
-    "timestamp": "2026-05-04T06:15:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Free Malaysia Today, Al Jazeera May 4 liveblog confirmed Azizi and Mousavi statements.",
-    "keywords": [
-      "iran",
-      "irgc",
-      "project-freedom",
-      "ceasefire-violation",
-      "mousavi",
-      "azizi"
-    ]
-  },
-  {
-    "id": "social-1182",
+    "id": "social-1141",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel",
-    "text": "POLL SHOCK: WaPo-ABC-Ipsos finds 61% of Americans say attacking Iran was a 'mistake' \u2014 reaching Iraq/Vietnam-era disapproval. Trump overall approval 37%, disapproval 62%. Yet Senate rejected 6th War Powers Resolution 50-47. Collins (R-ME) first GOP defection. Murkowski plans AUMF with exit criteria when Senate returns May 11.",
-    "timestamp": "2026-05-04T06:20:00Z",
+    "text": "FUJAIRAH STRIKE: Iran launched 12 ballistic missiles, 3 cruise missiles, 4 drones at UAE. One drone penetrated UAE THAAD/Patriot layered defense, struck Fujairah Oil Industry Zone (FOIZ). Major petroleum fire. First UAE attack since April 8 ceasefire. 3 Indian nationals injured. Satellite imagery shows smoke plume visible 50km away.",
+    "timestamp": "2026-05-05T06:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Washington Post poll, Time, Murkowski Senate statement confirmed.",
+    "verificationNote": "Al Jazeera, Bloomberg, Khaleej Times, Gulf News all confirmed. VTTI oil facility named by Bloomberg.",
     "keywords": [
-      "poll",
-      "war-approval",
-      "war-powers",
-      "collins",
-      "murkowski",
-      "aumf"
-    ]
-  },
-  {
-    "id": "social-1183",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats (AEI)",
-    "text": "DAY 66 ASSESSMENT: Project Freedom represents most dangerous phase since ceasefire. US Navy in contested waters Iran views as sovereign. IRGC has mines, fast-attack boats, shore-based anti-ship missiles. Any incident (accidental or intentional) could restart full-scale hostilities. Meanwhile diplomacy stalled \u2014 14-point plan rejected, no counter-proposal timeline.",
-    "timestamp": "2026-05-04T06:25:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Analysis based on CENTCOM press release, Al Jazeera liveblog, and Axios reporting.",
-    "keywords": [
-      "assessment",
-      "project-freedom",
-      "escalation-risk",
-      "ceasefire",
-      "irgc",
-      "mines"
-    ]
-  },
-  {
-    "id": "social-1184",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 66 PM PT ROUNDUP: CENTCOM launches Project Freedom \u2014 US Navy escorting ships through Hormuz. Iran warns ceasefire violation, threatens 'painful strikes.' Tehran reviewing US counter-response to 14-point plan. EU expanding sanctions. Guterres: 45M face hunger. 61% say war a 'mistake.' Brent $108.17, gas $4.446. Hormuz Day 63.",
-    "timestamp": "2026-05-04T06:27:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CENTCOM, Al Jazeera, Free Malaysia Today, WaPo, CGTN, Stars and Stripes \u2014 cross-verified.",
-    "keywords": [
-      "roundup",
-      "day66",
-      "project-freedom",
-      "iran-warning",
-      "ceasefire",
-      "hormuz-day63"
-    ]
-  },
-  {
-    "id": "social-1185",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "BREAKING \u2014 DISPUTED: Iran's Fars News (IRGC-affiliated) claims two missiles struck US Navy frigate near Jask island in Strait of Hormuz after it ignored IRGC warnings. CENTCOM categorically denied: 'No US Navy ships have been struck.' No independent confirmation. First alleged direct fire on US vessel since ceasefire.",
-    "timestamp": "2026-05-04T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "rumored",
-    "verificationNote": "Fars News claim ONLY. CENTCOM denial via CNN, Jerusalem Post, NBC News, Al Arabiya. No independent evidence.",
-    "keywords": [
-      "frigate",
-      "jask",
-      "hormuz",
-      "missile",
-      "disputed",
-      "centcom-denial"
-    ]
-  },
-  {
-    "id": "social-1186",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "CENTCOM UPDATE: 48 Iranian ships redirected in 22-day counter-blockade (3 in last 20 hours). Denied frigate hit. Project Freedom continues \u2014 destroyers + 100+ aircraft + 15,000 troops escorting stranded ships. Rubio: 'Those are international waterways.' Hegseth: US has 'dominant control of the airspace above the Gulf.'",
-    "timestamp": "2026-05-04T09:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CENTCOM via CNN Day 66 live updates, Times of Israel, ABC News confirmed statements.",
-    "keywords": [
-      "centcom",
-      "blockade",
-      "project-freedom",
-      "rubio",
-      "hegseth",
-      "48-ships"
-    ]
-  },
-  {
-    "id": "social-1187",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "LEBANON ESCALATION: IDF issues FIRST evacuation orders NORTH of Litani River \u2014 15+ villages in Nabatieh district. Expands beyond declared security zone. Arab Salim struck. 1 killed, 8 wounded incl. 4 rescue workers. Hezbollah claims 500+ Israeli ceasefire violations. Al Jazeera: 41 killed in single 24h period May 1-2.",
-    "timestamp": "2026-05-04T10:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, France 24, Manila Times confirmed evacuation expansion. Lebanese Health Ministry confirmed casualties.",
-    "keywords": [
-      "lebanon",
-      "litani",
-      "evacuation",
-      "nabatieh",
-      "expansion",
-      "ceasefire-violations"
-    ]
-  },
-  {
-    "id": "social-1188",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "text": "OIL UPDATE: Brent $107.38 (+34.6%), WTI $101.62 (+34.6%) \u2014 slight decline in Sunday electronic trading. Prices pulled back from $116+ earlier in week as ceasefire talks progressed. Kalshi traders: >50% chance prices hit $127/bbl this year. Gas $4.45 (+42.2%). Iran claims frigate hit could spike prices Monday if confirmed.",
-    "timestamp": "2026-05-04T10:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trading Economics, CNBC, KWTX, FX Daily Report confirmed prices. AAA confirmed gas price.",
-    "keywords": [
-      "brent",
-      "wti",
-      "oil-prices",
-      "gas-prices",
-      "electronic-trading",
-      "kalshi"
-    ]
-  },
-  {
-    "id": "social-1189",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats (AEI)",
-    "text": "ANALYSIS: Araghchi-Lavrov call on peace prospects. Iran reviewing US counter-response to 14-point plan via Pakistan. Kallas: EU approves new sanctions on 19 Iranian officials/entities. Mojtaba Khamenei calls 'economic jihad.' Netanyahu: 'Our pilots can reach anywhere in Iran.' Diplomacy stalling as Project Freedom raises confrontation risk.",
-    "timestamp": "2026-05-04T11:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Critical Threats evening report, GlobalSecurity (Lavrov-Araghchi call), Kallas X post, BSS News (Khamenei).",
-    "keywords": [
-      "diplomacy",
-      "14-point-plan",
-      "lavrov",
-      "araghchi",
-      "sanctions",
-      "kallas"
-    ]
-  },
-  {
-    "id": "social-1190",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 66 AM PT ROUNDUP: Iran claims frigate struck near Jask (CENTCOM denies). 48 ships redirected in 22-day blockade. Israel expands evacuation north of Litani (first time). Rubio: 'international waterways.' Hegseth: 'dominant control.' Brent $107.38, WTI $101.62. Gas $4.45. Hormuz Day 63. Blockade Day 22.",
-    "timestamp": "2026-05-04T12:07:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN, Jerusalem Post, NBC News, Al Jazeera, CNBC, AAA, Times of Israel \u2014 cross-verified.",
-    "keywords": [
-      "roundup",
-      "day66",
-      "frigate-disputed",
-      "litani-expansion",
-      "blockade-day22",
-      "hormuz-day63"
-    ]
-  },
-  {
-    "id": "social-1191",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "MASSIVE ESCALATION: Iran launches FIRST attack on UAE since April 8 ceasefire \u2014 12 ballistic missiles, 3 cruise missiles, 4 drones. UAE air defenses (incl. Israeli Iron Dome battery) intercept; one cruise missile fell into sea. Iranian drones strike ADNOC tanker BARAKAH in Hormuz. Drone ignites fire at VTTI Fujairah oil terminal \u2014 3 Indian workers injured. UAE schools nationwide to remote learning May 5-8.",
-    "timestamp": "2026-05-04T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, The National, Bloomberg, Al Arabiya, Gulf News all cross-verified UAE attacks and ADNOC tanker strike.",
-    "keywords": [
+      "fujairah",
       "uae",
       "iran",
-      "ballistic-missiles",
-      "cruise-missiles",
-      "drones",
-      "adnoc",
-      "fujairah"
+      "missiles",
+      "oil-fire",
+      "irgc"
     ]
   },
   {
-    "id": "social-1192",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "PROJECT FREEDOM ENGAGES: US Apache + SH-60 Seahawk helicopters destroy 6 Iranian fast boats threatening commercial shipping. CENTCOM Adm. Cooper: Iran launched 'multiple cruise missiles, drones and small boats' at US Navy. CENTCOM confirms 2 US-flagged merchant vessels + 2 US guided-missile destroyers transit Hormuz under escort \u2014 first since blockade. IRGC denies as 'baseless lies.'",
-    "timestamp": "2026-05-04T14:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Defense News, CENTCOM, CNBC, CBS News confirmed boat destruction and US-flagged transit.",
-    "keywords": [
-      "project-freedom",
-      "centcom",
-      "apache",
-      "seahawk",
-      "iranian-boats",
-      "us-flagged-transit"
-    ]
-  },
-  {
-    "id": "social-1193",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "TRUMP THREAT: 'Iran will be blown off the face of the Earth if they attack our vessels.' Said negotiators are 'far more malleable.' Pope Leo XIV called Trump's destruction threat 'truly unacceptable.' Netanyahu cancelled Jerusalem corruption-trial testimony citing 'political and security meetings.' IDF placed at 'high readiness.'",
-    "timestamp": "2026-05-04T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Newsweek, Mediaite, Fox News, CBS News confirmed Trump statement. NPR, CNN confirmed Pope Leo response. Times of Israel confirmed Netanyahu/IDF.",
-    "keywords": [
-      "trump",
-      "threat",
-      "iran",
-      "pope-leo",
-      "netanyahu",
-      "idf-readiness"
-    ]
-  },
-  {
-    "id": "social-1194",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "text": "OIL SPIKE: Brent surges to $114.06 (+5.45% intraday, +42.9% vs $79.84) \u2014 4-year high during session before paring gains. WTI $106.00 (+40.4%). Direct response to Iran-UAE escalation. UKMTO reports SECOND tanker attack 78nm north of Fujairah within 8 hours. ~2,000 ships still stranded. 31 tankers / 53M barrels worth $4.8B+ stuck per Pentagon.",
-    "timestamp": "2026-05-04T15:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trading Economics, Fortune, CNBC, Yahoo Finance, UPI, UKMTO confirmed prices and tanker attack.",
-    "keywords": [
-      "brent",
-      "wti",
-      "oil-spike",
-      "ukmto",
-      "fujairah",
-      "tanker-attack"
-    ]
-  },
-  {
-    "id": "social-1195",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats (AEI)",
-    "text": "ESCALATION ASSESSMENT: Iran-UAE attacks + US-Iran kinetic exchange in Hormuz mark sharpest deterioration since ceasefire. IRGC Navy expands declared maritime control zone east of original lines, encompassing UAE Fujairah and Khorfakkan ports \u2014 implies coercion pressure on Gulf states. Araghchi cancelled May 4 Oman-mediated US-Iran talks citing 'technical reason.' US transferred 22 Touska crew via Pakistan in 'confidence-building' counterpoint. Two-track posture: kinetic + diplomatic.",
-    "timestamp": "2026-05-04T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ISW/Critical Threats May 3 Iran Update Special Report, Al Jazeera, GlobalSecurity, PressTV cross-verified.",
-    "keywords": [
-      "irgc-control-zone",
-      "uae-pressure",
-      "araghchi",
-      "touska",
-      "two-track",
-      "diplomacy"
-    ]
-  },
-  {
-    "id": "social-1196",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "DAY 66 PM PT ROUNDUP: Iran first attack on UAE since ceasefire \u2014 ADNOC tanker hit, VTTI Fujairah struck (3 Indians injured), 12 BMs+3 CMs+4 drones intercepted. US helos destroy 6 Iranian fast boats. 2 US-flagged ships transit Hormuz. Trump: Iran 'blown off face of Earth.' Pope Leo: 'truly unacceptable.' Netanyahu IDF on 'high readiness.' Brent $114.06 (+42.9%, +5.45%). WTI $106.00. Gas $4.46. Hormuz Day 63.",
-    "timestamp": "2026-05-04T19:00:00Z",
-    "sourceCategory": "lead",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, Bloomberg, Defense News, CNBC, CBS, Newsweek, NPR, CNN, AAA, Trading Economics, Fortune \u2014 all cross-verified.",
-    "keywords": [
-      "roundup",
-      "day66-pm",
-      "uae-attack",
-      "boats-destroyed",
-      "us-flagged-transit",
-      "trump-threat"
-    ]
-  },
-  {
-    "id": "social-1197",
+    "id": "social-1142",
     "handle": "@sentdefender",
     "displayName": "OSINTdefender",
-    "text": "CONFIRMED: Houthi ballistic missile struck near Ben Gurion Airport Terminal 3 access road. Israel Arrow interceptor FAILED to fully neutralize. 6 injured. Flights halted 30 min. Houthis claim hypersonic missile. First successful Houthi hit on Israeli civil aviation infrastructure. Major air defense failure.",
-    "timestamp": "2026-05-04T20:00:00Z",
+    "text": "IRAN INTERNAL RIFT: President Pezeshkian publicly called IRGC strikes on UAE 'madness' and 'completely irresponsible' — done without civilian government knowledge. Requested emergency meeting with Supreme Leader Mojtaba Khamenei to halt IRGC Gulf attacks. Parliament Speaker Ghalibaf taking opposite stance: 'We have not even begun yet.'",
+    "timestamp": "2026-05-05T07:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel daily briefing + liveblog confirmed. IDF acknowledged interceptor performance issue.",
+    "verificationNote": "Iran International confirmed Pezeshkian statement. CNN confirmed Ghalibaf quote.",
     "keywords": [
-      "houthi",
-      "ben-gurion",
-      "arrow",
-      "missile",
-      "air-defense-failure"
+      "pezeshkian",
+      "irgc",
+      "iran-rift",
+      "ghalibaf",
+      "uae",
+      "khamenei"
     ]
   },
   {
-    "id": "social-1198",
-    "handle": "@Aurora_Intel",
-    "displayName": "Aurora Intel",
-    "text": "IAF RETALIATION: 20-30 fighter jets struck 9 Houthi targets in Hodeidah with ~50 munitions. Hodeidah seaport and al-Imran/Bajil cement factory (weapons mfg + tunnel construction) hit. 4 killed, 39-42 injured. US denies involvement despite Houthi joint raid claim. Largest Israeli strike on Yemen this war.",
-    "timestamp": "2026-05-05T04:30:00Z",
+    "id": "social-1143",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "COMPETING NARRATIVES: CENTCOM says 6 IRGC fast boats sunk targeting civilian ships. Iran claims US attacked civilian passenger boats from Khasab (Oman) to Bandar Abbas, killing 5 civilians including women. Neither claim independently verified. Business Standard reporting both versions. Key question: where did the boats come from?",
+    "timestamp": "2026-05-05T08:00:00Z",
     "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel + Al Jazeera confirmed. IDF official statement issued.",
+    "verificationStatus": "likely",
+    "verificationNote": "Al Jazeera reported Iran's claim of 5 civilian deaths. CENTCOM confirmed 6 boats destroyed. Truth disputed.",
     "keywords": [
-      "israel",
-      "iaf",
-      "yemen",
-      "hodeidah",
-      "retaliation",
-      "houthis"
+      "hormuz",
+      "civilian-claims",
+      "centcom",
+      "iran",
+      "boats",
+      "disinformation"
     ]
   },
   {
-    "id": "social-1199",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitor",
-    "text": "SOUTH KOREA SHIP ATTACKED: Cargo ship HMM Namu (Panama-flagged, ~180m) explosion/fire in engine room near UAE waters in Strait of Hormuz. 24 crew (6 Korean, 18 foreign) evacuated safely. Vessel towed to Dubai. Seoul investigating possible Iranian attack. Second commercial vessel targeted in strait in 24h.",
-    "timestamp": "2026-05-04T21:00:00Z",
-    "sourceCategory": "lead",
+    "id": "social-1144",
+    "handle": "@intel_sky",
+    "displayName": "Intel Sky",
+    "text": "SOUTH KOREAN SHIP: HMM Namu explosion in engine room near Hormuz. 24 crew safe. South Korea investigating — could be sea drone or mine. Seoul REBUFFS Trump's call to join Project Freedom, demands UN mandate. This mirrors Japan and EU's reluctance to participate. Coalition of the unwilling forming.",
+    "timestamp": "2026-05-05T09:00:00Z",
+    "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Korea Herald, Al Arabiya, Xinhua confirmed. South Korean Foreign Ministry statement issued.",
+    "verificationNote": "Jerusalem Post, Al Arabiya, SCMP confirmed attack and Seoul's rejection of Project Freedom.",
     "keywords": [
       "south-korea",
       "hmm-namu",
       "hormuz",
-      "explosion",
-      "commercial-shipping"
+      "project-freedom",
+      "mine",
+      "coalition"
     ]
   },
   {
-    "id": "social-1200",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "DEVELOPING: US and Israel holding intensive consultations on retaliatory strikes against Iranian missile launchers threatening Hormuz AND/OR Iranian energy facility. Israel not expected to act unless explicitly asked by US. 3 officials familiar with planning confirmed to Israel Hayom. Ceasefire status: deeply uncertain.",
-    "timestamp": "2026-05-05T10:30:00Z",
+    "id": "social-1145",
+    "handle": "@GeoConfirmed",
+    "displayName": "GeoConfirmed",
+    "text": "CEASEFIRE STATUS: Effectively collapsed. Trump declines to confirm it exists. Both sides fired live rounds in Hormuz. Iran attacked a non-combatant (UAE) for first time since April 8. Araghchi heading to China for diplomatic backup. Israel-US reportedly planning new strike campaign to 'pressure' Iran. Oil at $113/bbl.",
+    "timestamp": "2026-05-05T10:00:00Z",
     "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Israel Hayom citing 3 officials. Not independently confirmed but consistent with IDF high readiness posture.",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNN, NPR, Bloomberg, Times of Israel — multiple sources confirm ceasefire near collapse.",
     "keywords": [
-      "us-israel",
-      "retaliation",
-      "iran",
-      "launchers",
-      "energy",
-      "planning"
+      "ceasefire",
+      "collapse",
+      "hormuz",
+      "trump",
+      "araghchi",
+      "china",
+      "oil"
     ]
   },
   {
-    "id": "social-1201",
+    "id": "social-1146",
     "handle": "@Faytuks",
     "displayName": "Faytuks News",
-    "text": "HEZBOLLAH NEW CAPABILITY: CNN reports Hezbollah deploying fiber-optic guided drones designed to evade Israeli detection. No radio signals = invisible to electronic warfare. 11 separate drone/missile operations claimed May 4 alone. IDF admits no effective countermeasure. 2 Israeli soldiers lightly wounded at Margaliot.",
-    "timestamp": "2026-05-04T22:00:00Z",
+    "text": "WORLD CONDEMNS: G7, EU (Kallas), UK (Starmer), France (Macron), Germany (Merz), Canada (Carney) all issue statements condemning Iran's attacks on UAE as 'unjustifiable,' 'reckless,' 'unacceptable.' EU approving new sanctions on 19 Iranian officials. Saudi Arabia condemns 'in strongest terms.' Most unified Western response since war began.",
+    "timestamp": "2026-05-05T11:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "CNN exclusive report + Global Security + Peoples Dispatch confirmed. IDF acknowledged drone threat.",
+    "verificationNote": "Al Jazeera, Gulf News, The National all collected world leader condemnations.",
     "keywords": [
-      "hezbollah",
-      "fiber-optic",
-      "drones",
-      "israel",
-      "new-capability",
-      "evasion"
-    ]
-  },
-  {
-    "id": "social-1202",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "DAY 67 SITUATION: Ceasefire in tatters. Project Freedom triggered first US-Iran kinetic exchange since April. Now Houthi missile penetrates Israeli air defense. Israel retaliates on Yemen. SK ship attacked. US-Israel planning Iran strikes. Araghchi: Project Freedom is Project Deadlock. Brent $114.44. All parties escalating.",
-    "timestamp": "2026-05-05T12:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Compilation of verified events from multiple sources. All individual claims cross-referenced.",
-    "keywords": [
-      "roundup",
-      "day67",
-      "escalation",
-      "ceasefire",
-      "project-freedom",
-      "all-fronts"
-    ]
-  },
-  {
-    "id": "social-1203",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "HEZBOLLAH-IDF CLASH: Hezbollah fighters engaged Israeli troops at Deir Seryan, S. Lebanon overnight — 2 IDF soldiers moderately wounded. IAF struck back. Separately, Hezbollah fired mortars twice at IDF positions with no IDF injuries. Ground resistance intensifying despite ceasefire.",
-    "timestamp": "2026-05-05T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog May 5, Al Arabiya, Antiwar.com confirmed engagement. Both sides acknowledged clash.",
-    "keywords": [
-      "hezbollah",
-      "idf",
-      "deir-seryan",
-      "lebanon",
-      "ground-clash",
-      "mortars"
-    ]
-  },
-  {
-    "id": "social-1204",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "BESSENT-CHINA DEMAND: Treasury Sec tells Fox News China must 'step up with diplomacy' to open Hormuz. Claims China buys 90% of Iran's energy — 'funding the largest state sponsor of terrorism.' Topic for Trump-Xi summit May 14-15. Calls on allies to join Project Freedom escort. Significant diplomatic escalation.",
-    "timestamp": "2026-05-05T14:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera, Bloomberg, Al-Monitor confirmed Bessent interview and China demand.",
-    "keywords": [
-      "bessent",
-      "china",
+      "condemnation",
+      "g7",
+      "eu",
+      "sanctions",
+      "uae",
       "iran",
-      "hormuz",
-      "trump-xi",
       "diplomacy"
     ]
   },
   {
-    "id": "social-1205",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News",
-    "text": "CEASEFIRE STATUS: Trump tells ABC News Iran's UAE attack was 'not heavy firing' — refuses to say ceasefire violated. Meanwhile Iran denies EVERYTHING: denies attacking UAE ('no pre-planned programme'), denies boats sunk ('a lie'), claims it hit US warship (CENTCOM denies). Both sides in complete contradiction.",
-    "timestamp": "2026-05-05T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ABC News confirmed Trump interview. Press TV/IRIB confirmed Iran denials. CENTCOM denied Iranian warship claim.",
-    "keywords": [
-      "ceasefire",
-      "trump",
-      "iran-denials",
-      "uae-attack",
-      "credibility",
-      "contradictions"
-    ]
-  },
-  {
-    "id": "social-1206",
-    "handle": "@sentdefender",
-    "displayName": "OSINTdefender",
-    "text": "OIL PULLBACK: Brent retreats to $113.00 (-1.26%) after surging 5.45% Monday. WTI $104.16 (-2.12%). Markets reassessing — but still +41.5% above pre-war. Goldman Sachs: 30% recession probability. Dow -557. Chevron CEO says months to normalize Hormuz. Temporary dip or trend?",
-    "timestamp": "2026-05-05T15:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC oil prices confirmed. Goldman Sachs forecast per CNBC. Dow drop per Fortune/CNBC.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "pullback",
-      "recession",
-      "goldman-sachs",
-      "markets"
-    ]
-  },
-  {
-    "id": "social-1207",
+    "id": "social-1147",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab",
-    "text": "HAARETZ ANALYSIS: 'Don't downplay the risk — Iran and Trump are one step away from all-out regional war.' Notes: Project Freedom triggered kinetic exchange. Iran attacking UAE = new front. IRGC reserves mobilizing. Israel at high readiness. No diplomatic off-ramps visible. Most dangerous moment since April 7 ceasefire.",
-    "timestamp": "2026-05-05T16:00:00Z",
+    "text": "MARKET IMPACT: Oil surged to $114.44/bbl May 4 (Brent) after Hormuz clashes — highest since war began. Eased to $113.24 today. WTI $104.57. AAA gas national avg now $4.48/gal (+36% from pre-war). California at $6.11/gal. IMF had already cut global growth to 3.1%. Goldman: 30% recession probability.",
+    "timestamp": "2026-05-05T12:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Haaretz premium analysis confirmed published May 5. Assessment consistent with Irish Times, CNN analyses.",
+    "verificationNote": "CNBC confirmed oil prices. AAA confirmed gas prices. IMF and Goldman estimates from prior reporting.",
     "keywords": [
-      "analysis",
-      "haaretz",
-      "escalation-risk",
-      "regional-war",
-      "ceasefire-collapse",
-      "day67"
+      "oil",
+      "gas-prices",
+      "markets",
+      "brent",
+      "wti",
+      "recession",
+      "imf"
     ]
   }
 ]

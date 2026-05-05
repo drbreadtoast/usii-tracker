@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-05T06:11:00Z",
+    "lastUpdated": "2026-05-05T12:03:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-05",
-      "label": "Day 67 Late PM PT \u2014 Brent $113.00/bbl (+41.5% from pre-war $79.84, -1.26% intraday). WTI $104.16/bbl (+37.9% from $75.51, -2.12% intraday). Prices pull back after Monday surge. Ceasefire status uncertain \u2014 Trump won't confirm. Hezbollah clashes with IDF at Deir Seryan. Bessent urges China to pressure Iran. Goldman Sachs: 30% recession risk. AAA gas $4.46 (+42.5%). Hormuz Day 64.",
+      "label": "Day 67 AM PT \u2014 Brent $113.24/bbl (+41.9% from pre-war $79.84). WTI $104.57/bbl (+38.5% from $75.51). Oil surged May 4 to $114.44 after Project Freedom/Hormuz clashes and Iran UAE strikes, eased slightly May 5. AAA gas $4.48. Ceasefire near collapse. Hormuz Day 63.",
       "brent": {
-        "price": 113.00,
-        "change": "+41.6%",
-        "changeDollars": "+$33.20"
+        "price": 113.24,
+        "change": "+41.9%",
+        "changeDollars": "+$33.44"
       },
       "wti": {
-        "price": 104.16,
-        "change": "+38.0%",
-        "changeDollars": "+$28.66"
+        "price": 104.57,
+        "change": "+38.5%",
+        "changeDollars": "+$29.07"
       },
-      "changePercent": 41.6,
+      "changePercent": 41.9,
       "lastUpdated": "2026-05-05"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-05T06:11:00Z",
-    "note": "Day 67 Late PM PT: Brent $113.00 (+41.5%, -1.26% intraday pullback), WTI $104.16 (+37.9%, -2.12%). AAA gas $4.46/gal (+42.5%). Oil retreats from Monday highs as traders reassess. Ceasefire status uncertain. Bessent urges China to help open Hormuz. Goldman Sachs: 30% recession risk. Hormuz Day 64.",
+    "lastUpdated": "2026-05-05T12:03:00Z",
+    "note": "Day 67 AM PT: Brent $113.24 (+41.9%), WTI $104.57 (+38.5%). AAA gas $4.48/gal \u2014 new wartime high. Oil surged to $114 May 4 after Project Freedom/Hormuz clashes. Iran fires missiles at UAE. Ceasefire near collapse. Hormuz Day 63.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.46,
-          "date": "2026-05-04"
+          "price": 4.48,
+          "date": "2026-05-05"
         },
-        "change": "+$1.33",
-        "changePercent": "+42.5%",
-        "detail": "Gas $4.46/gal (AAA, May 4). Wartime high (+42.5%). Brent $114.06 (+42.9%, +5.45% intraday). CA $6.11. Six states at/above $5.00. UAE attacked by Iran \u2014 ADNOC tanker hit, oil terminal struck. Pre-war $3.13.",
+        "change": "+$1.35",
+        "changePercent": "+43.1%",
+        "detail": "Gas $4.483/gal (AAA, May 5). New wartime high after Hormuz clashes. Brent $113.24 (+41.9%), WTI $104.57 (+38.5%). Pre-war $3.13. CA $6.11+.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
