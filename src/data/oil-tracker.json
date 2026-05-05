@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-05T00:02:00Z",
+    "lastUpdated": "2026-05-05T06:11:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 66
+    "conflictDay": 67
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-05",
-      "label": "Day 67 PM PT \u2014 Brent $114.44/bbl (+43.3% from pre-war $79.84). WTI $106.42/bbl (+40.9% from $75.51). Prices steady after May 4 surge. Houthi missile hits Ben Gurion Airport (Arrow fails). Israel retaliates with 20-30 jets on Hodeidah. South Korean ship HMM Namu explosion in Hormuz. US-Israel weigh strikes on Iranian launchers. AAA gas $4.46 (+42.5%). Hormuz Day 64.",
+      "label": "Day 67 Late PM PT \u2014 Brent $113.00/bbl (+41.5% from pre-war $79.84, -1.26% intraday). WTI $104.16/bbl (+37.9% from $75.51, -2.12% intraday). Prices pull back after Monday surge. Ceasefire status uncertain \u2014 Trump won't confirm. Hezbollah clashes with IDF at Deir Seryan. Bessent urges China to pressure Iran. Goldman Sachs: 30% recession risk. AAA gas $4.46 (+42.5%). Hormuz Day 64.",
       "brent": {
-        "price": 114.44,
-        "change": "+43.4%",
-        "changeDollars": "+$34.64"
+        "price": 113.00,
+        "change": "+41.6%",
+        "changeDollars": "+$33.20"
       },
       "wti": {
-        "price": 106.42,
-        "change": "+41.0%",
-        "changeDollars": "+$30.92"
+        "price": 104.16,
+        "change": "+38.0%",
+        "changeDollars": "+$28.66"
       },
-      "changePercent": 43.4,
+      "changePercent": 41.6,
       "lastUpdated": "2026-05-05"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-04T19:19:00Z",
-    "note": "Day 66 PM PT: Brent $114.06 (+42.9%, +5.45% intraday), WTI $106.00 (+40.4%). AAA gas $4.46/gal (+42.5%). Iran first attack on UAE since ceasefire \u2014 ADNOC tanker BARAKAH hit, VTTI Fujairah oil terminal struck. US helos destroy 6 Iranian boats. 2 US-flagged ships transit Hormuz under Project Freedom. Hormuz Day 63.",
+    "lastUpdated": "2026-05-05T06:11:00Z",
+    "note": "Day 67 Late PM PT: Brent $113.00 (+41.5%, -1.26% intraday pullback), WTI $104.16 (+37.9%, -2.12%). AAA gas $4.46/gal (+42.5%). Oil retreats from Monday highs as traders reassess. Ceasefire status uncertain. Bessent urges China to help open Hormuz. Goldman Sachs: 30% recession risk. Hormuz Day 64.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -733,8 +733,8 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.45,
-    "gasPriceRegular": 4.45,
+    "regularGasoline": 4.46,
+    "gasPriceRegular": 4.46,
     "gasPriceDiesel": "$5.643/gal",
     "changeFromPreWar": "+$1.32",
     "changePercent": "+42.2%"
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-04T00:02:00Z",
+  "lastUpdated": "2026-05-05T06:11:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

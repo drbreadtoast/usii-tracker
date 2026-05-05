@@ -49058,5 +49058,79 @@
     "socialRefs": [],
     "casualties": { "killed": 0, "injured": 0 },
     "tags": ["us", "israel", "iran", "retaliation", "planning", "energy", "missiles", "day67"]
+  },
+  {
+    "id": "evt-new-1424",
+    "title": "Hezbollah fighters clash with Israeli troops at Deir Seryan, southern Lebanon",
+    "description": "Hezbollah fighters opened fire on Israeli troops attempting to advance near Deir Seryan in southern Lebanon. Heavy clashes reported overnight. 2 IDF soldiers moderately wounded. IAF struck Hezbollah positions in the area in response. Both IDF and Hezbollah confirmed the engagement.",
+    "type": "strike",
+    "lat": 33.2,
+    "lng": 35.4,
+    "location": "Deir Seryan, southern Lebanon",
+    "timestamp": "2026-05-05T02:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah confirms fighters clashed with Israeli troops",
+        "url": "https://www.timesofisrael.com/liveblog_entry/hezbollah-confirms-its-fighters-clashed-with-israeli-troops-in-south-lebanon/"
+      },
+      {
+        "name": "Al Arabiya — Hezbollah says fighters clashed with Israeli troops",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/05/04/hezbollah-says-fighters-clashed-with-israeli-troops-in-south-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 2 },
+    "tags": ["hezbollah", "idf", "lebanon", "deir-seryan", "ground-clash", "day67"]
+  },
+  {
+    "id": "evt-new-1425",
+    "title": "Hezbollah launches mortar barrages at IDF positions in southern Lebanon overnight",
+    "description": "Hezbollah fired mortar rounds at Israeli troop positions in southern Lebanon in two separate incidents overnight. No IDF injuries reported. IDF confirmed the attacks. Part of escalating Hezbollah ground resistance to Israeli presence in southern Lebanon.",
+    "type": "strike",
+    "lat": 33.15,
+    "lng": 35.35,
+    "location": "Southern Lebanon (IDF positions)",
+    "timestamp": "2026-05-05T04:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog May 5, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-5-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["hezbollah", "mortars", "idf", "lebanon", "day67"]
+  },
+  {
+    "id": "evt-new-1426",
+    "title": "US Treasury Secretary Bessent urges China to pressure Iran on Hormuz opening",
+    "description": "Treasury Secretary Scott Bessent on Fox News urged China to 'step up with some diplomacy and get the Iranians to open the strait.' Noted China buys 90% of Iran's energy exports, calling them funders of 'the largest state sponsor of terrorism.' Said topic will be discussed at the upcoming Trump-Xi summit May 14-15. Called on China and allies to join US-led Hormuz escort operation.",
+    "type": "diplomatic",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "location": "Washington, DC (Fox News)",
+    "timestamp": "2026-05-04T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — US official says China is funding Iran, urges Beijing to help open Hormuz",
+        "url": "https://www.aljazeera.com/news/2026/5/4/us-official-says-china-is-funding-iran-urges-beijing-to-help-open-hormuz"
+      },
+      {
+        "name": "Bloomberg — Bessent calls on China, allies to join US operation in Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/bessent-calls-on-china-allies-to-join-us-operation-in-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["us", "china", "iran", "hormuz", "diplomacy", "bessent", "trump-xi", "day67"]
   }
 ]
