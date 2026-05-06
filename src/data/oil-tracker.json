@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-06T06:12:00Z",
+    "lastUpdated": "2026-05-06T12:13:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-06",
-      "label": "Day 68 11:12 PM PT \u2014 Brent $109.87/bbl (+37.7% from pre-war $79.80). WTI $102.27/bbl (+35.5% from $75.50). Oil fell on de-escalation hopes: Epic Fury over, Project Freedom paused, Araghchi in Beijing. Pezeshkian rejects US terms as 'impossible.' EU sanctions 19 Iran officials. AAA gas $4.48. Hormuz Day 65.",
+      "label": "Day 68 5:13 AM PT \u2014 OIL CRASH: Brent $99.79/bbl (-9.2% intraday, +25.1% from pre-war $79.80). WTI $91.10/bbl (-10.9% intraday, +20.7% from $75.50). Massive plunge on Axios exclusive: US-Iran 14-point MOU imminent. Brent below $100 for first time since April 22. Biggest single-day drop since ceasefire. Pezeshkian calls IRGC UAE attacks 'madness.' CMA CGM San Antonio attacked in Hormuz. Gas $4.48. Hormuz Day 65.",
       "brent": {
-        "price": 109.87,
-        "change": "+37.7%",
-        "changeDollars": "+$30.07"
+        "price": 99.79,
+        "change": "+25.1%",
+        "changeDollars": "+$19.99"
       },
       "wti": {
-        "price": 102.27,
-        "change": "+35.5%",
-        "changeDollars": "+$26.77"
+        "price": 91.10,
+        "change": "+20.7%",
+        "changeDollars": "+$15.60"
       },
-      "changePercent": 37.7,
+      "changePercent": 25.1,
       "lastUpdated": "2026-05-06"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-06T06:12:00Z",
-    "note": "Day 68 PM PT: Brent $109.87 (+37.7%), WTI $102.27 (+35.5%). AAA gas $4.48/gal \u2014 4-year high (+43.1% vs $3.13 pre-war). Oil fell on de-escalation: Epic Fury over, Project Freedom paused, Araghchi-Wang Yi talks. Pezeshkian rejects US terms. Hormuz Day 65.",
+    "lastUpdated": "2026-05-06T12:13:00Z",
+    "note": "Day 68 5:13 AM PT: OIL CRASH \u2014 Brent $99.79 (+25.1%, -9.2% intraday), WTI $91.10 (+20.7%, -10.9%). Axios: US-Iran MOU imminent. AAA gas $4.48/gal \u2014 4-year high (+43.1% vs $3.13 pre-war). Gas lags oil crash \u2014 expect decline in 1-2 weeks if oil stays low. Hormuz Day 65.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -651,11 +651,11 @@
         },
         "current": {
           "price": 4.48,
-          "date": "2026-05-05"
+          "date": "2026-05-06"
         },
         "change": "+$1.35",
         "changePercent": "+43.1%",
-        "detail": "Gas $4.48/gal (AAA, May 5 PM). 4-year high — highest since July 2022. Brent $111.45 (+39.6%), WTI $102.65 (+35.9%). Pre-war $3.13. CA $6.11+. Tennessee crossed $4.00/gal May 4.",
+        "detail": "Gas $4.48/gal (AAA, May 6). 4-year high — highest since July 2022. Oil crashing: Brent $99.79 (+25.1%), WTI $91.10 (+20.7%) on MOU news. Gas prices lag oil. Pre-war $3.13. CA $6.11+.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-05T06:11:00Z",
+  "lastUpdated": "2026-05-06T12:13:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1304,6 +1304,13 @@
       "brent": 109.87,
       "wti": 102.27,
       "label": "Day 68 11:12 PM PT \u2014 Brent $109.87 (+37.6%, -$1.58 settle), WTI $102.27 (+35.4%, -$0.38). De-escalation trade: Epic Fury over, Project Freedom paused. Pezeshkian rejects US demands as 'impossible.' Araghchi meets Wang Yi in Beijing. EU sanctions 19 Iranian officials. Pope Leo rejects Trump nuclear claim. Gas $4.48. Hormuz Day 65. Blockade Day 24.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-06",
+      "brent": 99.79,
+      "wti": 91.10,
+      "label": "Day 68 5:13 AM PT \u2014 OIL CRASH: Brent $99.79 (+25.1%, -9.2% intraday), WTI $91.10 (+20.7%, -10.9%). Axios exclusive: US-Iran 14-point MOU imminent \u2014 30-day nuclear talks, enrichment moratorium, Hormuz reopening. Brent below $100 first time since Apr 22. Biggest single-day drop since ceasefire. Pezeshkian brands IRGC UAE attacks 'madness.' CMA CGM ship struck in Hormuz. 2 IDF wounded by drone. Gas $4.48. Hormuz Day 65.",
       "isEvent": true
     }
   ]
