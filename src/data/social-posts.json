@@ -1,22 +1,5 @@
 [
   {
-    "id": "social-1140",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "PROJECT FREEDOM DAY 1: Only 4 commercial ships crossed the Strait of Hormuz today under US Navy escort — vs 120+/day pre-war. Iran fired cruise missiles and drones at the convoy; all intercepted. US Apache helicopters sank 6 Iranian fast boats. 15,000 US service members deployed for the operation.",
-    "timestamp": "2026-05-05T05:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PBS, NPR, Navy Times, CENTCOM all confirmed 2 US-flagged ships transited. IranWarLive tracked only 4 total ships.",
-    "keywords": [
-      "project-freedom",
-      "hormuz",
-      "us-navy",
-      "escort",
-      "iran"
-    ]
-  },
-  {
     "id": "social-1141",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel",
@@ -339,6 +322,96 @@
       "project-freedom",
       "war-powers",
       "south-korea"
+    ]
+  },
+  {
+    "id": "social-1159",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "PEZESHKIAN vs TRUMP: Iranian president rejects US terms as 'impossible,' directly contradicting Trump's 'great progress' claim. Signals deep gap between parties despite Project Freedom pause. Diplomatic channel via Pakistan may be losing credibility with both sides.",
+    "timestamp": "2026-05-06T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera liveblog May 6 confirmed Pezeshkian's statement.",
+    "keywords": [
+      "pezeshkian",
+      "trump",
+      "deal",
+      "rejection",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "social-1160",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "ARAGHCHI-WANG YI MEETING: Iran FM now in Beijing meeting Chinese FM. Pre-empting Trump's own planned Beijing trip May 14-15. Iran seeking Chinese diplomatic cover + alternative oil export channels. Beijing balancing act: doesn't want to lose Iran leverage but also doesn't want US secondary sanctions.",
+    "timestamp": "2026-05-06T04:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, SCMP, Bloomberg confirmed Beijing meeting.",
+    "keywords": [
+      "araghchi",
+      "wang-yi",
+      "china",
+      "diplomacy",
+      "oil",
+      "sanctions"
+    ]
+  },
+  {
+    "id": "social-1161",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "OIL MARKET: Brent crude settled $109.87 (-$1.58), WTI $102.27 (-$0.38). Markets pricing in de-escalation after Epic Fury ended + Project Freedom pause. But Pezeshkian's rejection could reverse gains. Hormuz still effectively closed — 170M barrels on 166 tankers stranded (Kpler data).",
+    "timestamp": "2026-05-06T03:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, Trading Economics confirmed settlement prices. Kpler tanker data verified.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "hormuz",
+      "tankers",
+      "de-escalation"
+    ]
+  },
+  {
+    "id": "social-1162",
+    "handle": "@ELINTNews",
+    "displayName": "ELINT News",
+    "text": "EU IRGC TERROR LISTING: Kallas pushing to formally designate IRGC as terrorist organization — 19 officials sanctioned today. Combined with US May 1 sanctions on Iran-China oil network (Qingdao Haiye terminal), financial pressure on Iran intensifying even as military pressure eases.",
+    "timestamp": "2026-05-06T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Kallas X post + State Dept release confirmed both sanctions rounds.",
+    "keywords": [
+      "eu",
+      "irgc",
+      "sanctions",
+      "kallas",
+      "iran-china",
+      "oil"
+    ]
+  },
+  {
+    "id": "social-1163",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats Project",
+    "text": "DAY 68 MORNING ASSESSMENT: Key tension — Trump claims deal progress but Pezeshkian publicly says 'impossible.' Araghchi in Beijing suggests Iran building alternative coalition. IRGC PGSA transit system + Houthi Mediterranean expansion = maritime threat growing despite 'ceasefire.' Lebanon front remains hot: IDF confirmed 500+ strikes since April 17.",
+    "timestamp": "2026-05-06T06:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Synthesis of confirmed developments from multiple sources.",
+    "keywords": [
+      "assessment",
+      "day-68",
+      "pezeshkian",
+      "araghchi",
+      "pgsa",
+      "houthis",
+      "lebanon"
     ]
   }
 ]
