@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-06T12:13:00Z",
+    "lastUpdated": "2026-05-06T19:01:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-06",
-      "label": "Day 68 5:13 AM PT \u2014 OIL CRASH: Brent $99.79/bbl (-9.2% intraday, +25.1% from pre-war $79.80). WTI $91.10/bbl (-10.9% intraday, +20.7% from $75.50). Massive plunge on Axios exclusive: US-Iran 14-point MOU imminent. Brent below $100 for first time since April 22. Biggest single-day drop since ceasefire. Pezeshkian calls IRGC UAE attacks 'madness.' CMA CGM San Antonio attacked in Hormuz. Gas $4.48. Hormuz Day 65.",
+      "label": "Day 68 12:01 PM PT \u2014 Brent $102.22/bbl (+28.1% from pre-war $79.80). WTI $100.28/bbl (+32.8% from $75.50). Modest rebound from morning lows on continued uncertainty over US-Iran 14-point MOU. Israel struck Beirut killing Hezbollah Radwan commander Malek Ballout (first Beirut strike since April 16 ceasefire). US F/A-18 disabled Iranian tanker M/T Hasna in Gulf of Oman. Trump threatens 'much higher level' bombing if Iran rejects deal. Hormuz Day 65 effectively closed.",
       "brent": {
-        "price": 99.79,
-        "change": "+25.1%",
-        "changeDollars": "+$19.99"
+        "price": 102.22,
+        "change": "+28.1%",
+        "changeDollars": "+$22.42"
       },
       "wti": {
-        "price": 91.10,
-        "change": "+20.7%",
-        "changeDollars": "+$15.60"
+        "price": 100.28,
+        "change": "+32.8%",
+        "changeDollars": "+$24.78"
       },
-      "changePercent": 25.1,
+      "changePercent": 28.1,
       "lastUpdated": "2026-05-06"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-06T12:13:00Z",
-    "note": "Day 68 5:13 AM PT: OIL CRASH \u2014 Brent $99.79 (+25.1%, -9.2% intraday), WTI $91.10 (+20.7%, -10.9%). Axios: US-Iran MOU imminent. AAA gas $4.48/gal \u2014 4-year high (+43.1% vs $3.13 pre-war). Gas lags oil crash \u2014 expect decline in 1-2 weeks if oil stays low. Hormuz Day 65.",
+    "lastUpdated": "2026-05-06T19:01:00Z",
+    "note": "Day 68 12:01 PM PT: Brent $102.22 (+28.1%), WTI $100.28 (+32.8%) \u2014 modest rebound from morning lows on continued uncertainty over US-Iran MOU. AAA gas $4.536/gal \u2014 4-year high (+44.9% vs $3.13 pre-war). Gas lags oil price moves. Israeli strike on Beirut, US F/A-18 disables Iranian tanker. Hormuz Day 65 effectively closed.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.48,
+          "price": 4.536,
           "date": "2026-05-06"
         },
-        "change": "+$1.35",
-        "changePercent": "+43.1%",
-        "detail": "Gas $4.48/gal (AAA, May 6). 4-year high — highest since July 2022. Oil crashing: Brent $99.79 (+25.1%), WTI $91.10 (+20.7%) on MOU news. Gas prices lag oil. Pre-war $3.13. CA $6.11+.",
+        "change": "+$1.41",
+        "changePercent": "+44.9%",
+        "detail": "Gas $4.536/gal (AAA, May 6). 4-year high — highest since 2022 record. Oil rebounded: Brent $102.22 (+28.1%), WTI $100.28 (+32.8%). Pre-war $3.13. CA $6.20+.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-06T12:13:00Z",
+  "lastUpdated": "2026-05-06T19:01:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1311,6 +1311,13 @@
       "brent": 99.79,
       "wti": 91.10,
       "label": "Day 68 5:13 AM PT \u2014 OIL CRASH: Brent $99.79 (+25.1%, -9.2% intraday), WTI $91.10 (+20.7%, -10.9%). Axios exclusive: US-Iran 14-point MOU imminent \u2014 30-day nuclear talks, enrichment moratorium, Hormuz reopening. Brent below $100 first time since Apr 22. Biggest single-day drop since ceasefire. Pezeshkian brands IRGC UAE attacks 'madness.' CMA CGM ship struck in Hormuz. 2 IDF wounded by drone. Gas $4.48. Hormuz Day 65.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-06",
+      "brent": 102.22,
+      "wti": 100.28,
+      "label": "Day 68 12:01 PM PT \u2014 Brent $102.22 (+28.1%, +$2.43 rebound from morning lows), WTI $100.28 (+32.8%, +$9.18). Modest rebound on continued uncertainty over US-Iran 14-point MOU. Israel struck Beirut Dahieh killing Hezbollah Radwan commander Malek Ballout (first Beirut strike since April 16 ceasefire). US F/A-18 disabled Iranian tanker M/T Hasna in Gulf of Oman. Trump ultimatum: 'much higher level' bombing if Iran rejects. WaPo: 228 structures damaged at US bases. RUSI: Israel may exhaust Arrow-3 within days. Gas $4.536. Hormuz Day 65.",
       "isEvent": true
     }
   ]

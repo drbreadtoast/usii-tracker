@@ -9839,5 +9839,59 @@
       "killed": 0,
       "injured": 2
     }
+  },
+  {
+    "id": "ms-578",
+    "city": "Beirut (Haret Hreik, Dahieh)",
+    "country": "Lebanon",
+    "lat": 33.86,
+    "lng": 35.50,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-06",
+    "description": "Israeli airstrike on a building in Haret Hreik, Beirut's southern Dahieh suburb, killed Malek Ballout, operations commander of Hezbollah's elite Radwan Force. First Israeli strike on Beirut since the April 16 Lebanon ceasefire. Multi-story building partially collapsed.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+    "weaponType": "Air-to-ground munitions",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-579",
+    "city": "Gulf of Oman (international waters)",
+    "country": "International Waters",
+    "lat": 24.5,
+    "lng": 58.5,
+    "strikeType": "naval attack",
+    "attributedTo": "us",
+    "date": "2026-05-06",
+    "description": "US Navy F/A-18 Super Hornet from USS Abraham Lincoln (CVN-72) used M61 Vulcan 20mm cannon to disable the rudder of the 333m Iranian-flagged tanker M/T Hasna, which was attempting to violate the US blockade. First aircraft-disabled vessel in the blockade. Tanker dead in water; tow operation underway.",
+    "source": "US CENTCOM",
+    "sourceUrl": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/4479004/us-forces-disable-vessel-in-gulf-of-oman-attempting-to-violate-blockade/",
+    "weaponType": "M61 Vulcan 20mm cannon",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-580",
+    "city": "Southern Lebanon",
+    "country": "Lebanon",
+    "lat": 33.15,
+    "lng": 35.30,
+    "strikeType": "drone strike",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-06",
+    "description": "Hezbollah suicide drone exploded near IDF soldiers operating in southern Lebanon, wounding two (one moderately, one lightly). Continued Hezbollah drone attacks despite April 17 ceasefire.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/iran-news/2026-05-06/live-updates-895243",
+    "weaponType": "Suicide drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
   }
 ]

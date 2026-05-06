@@ -4,7 +4,7 @@
   "dailyTransits": 4,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-06T12:13:00Z",
+  "lastUpdated": "2026-05-06T19:01:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,7 +24,7 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 68 PM PT (May 5-6): Hormuz BLOCKADE DAY 65. PROJECT FREEDOM PAUSED by Trump after 1 day — citing 'great progress' on Iran deal. Iran launched 'Persian Gulf Strait Authority' (PGSA) transit control system. IRGC warns ships outside Iranian corridor face 'decisive action.' Pezeshkian rejects US terms as 'impossible.' Araghchi in Beijing seeking Chinese support. 170M barrels on 166 tankers stranded (Kpler). Dual blockade: Iran blocks Hormuz to West, US blocks Iranian ports. Brent $109.87 (+37.6%), WTI $102.27 (+35.4%). Gas $4.48. Only 191 vessels crossed all of April.",
+    "tankerTraffic": "Day 68 12:01 PM PT (May 6): Hormuz BLOCKADE DAY 65 effectively closed. Project Freedom paused by Trump May 5 to give US-Iran 14-point MOU negotiation room. US F/A-18 from USS Lincoln disabled Iranian-flagged tanker M/T Hasna in Gulf of Oman (May 6) — first aircraft-disabled vessel under US blockade. Israel struck Beirut killing Hezbollah Radwan commander. Trump threatens 'much higher level' bombing if Iran rejects deal. ~14 mbpd disrupted of 15 mbpd capacity (~93%); 170M barrels stranded on 166 tankers (Kpler). Dual blockade continues: Iran blocks Hormuz to West, US blocks Iranian ports. CENTCOM: 52+ vessels turned around since blockade began. Brent $102.22 (+28.1%), WTI $100.28 (+32.8%). Gas $4.536.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
     "lastUpdated": "2026-05-04T00:02:00Z",
@@ -799,6 +799,12 @@
     {
       "date": "2026-05-06",
       "event": "Day 68 5:13 AM PT: CMA CGM San Antonio struck by projectile in Hormuz at 18:30 GMT May 5 — crew injured, evacuated. Attack came hours after Trump paused Project Freedom. Axios: US-Iran 14-point MOU imminent — both sides would reopen Hormuz. Oil crashes: Brent $99.79 (-9.2%), WTI $91.10 (-10.9%). 170M barrels on 166 tankers stranded (Kpler). Araghchi-Wang Yi meeting in Beijing. Pezeshkian brands IRGC UAE attacks 'madness.' Hormuz Day 65.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-06",
+      "event": "Day 68 12:01 PM PT: US F/A-18 Super Hornet from USS Abraham Lincoln disabled 333m Iranian-flagged tanker M/T Hasna in Gulf of Oman with M61 Vulcan cannon fire at the rudder — first aircraft-disabled vessel under US blockade. CENTCOM: vessel was attempting to violate blockade. Iran calls it 'piracy.' Wang Yi calls for 'swift reopening' in Beijing meeting with Araghchi. Trump issues 'much higher level' bombing ultimatum if Iran rejects 14-point MOU. Oil rebounds: Brent $102.22 (+28.1%), WTI $100.28 (+32.8%). Gas $4.536. Hormuz Day 65 effectively closed.",
       "status": "effectively_closed",
       "barrels": 0
     }

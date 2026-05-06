@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-06T12:13:00Z",
-  "currentAverage": 4.48,
+  "lastUpdated": "2026-05-06T19:01:00Z",
+  "currentAverage": 4.536,
   "preWarAverage": 3.13,
-  "changePercent": 43.13,
+  "changePercent": 44.92,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -572,6 +572,12 @@
       "price": 4.48,
       "label": "Day 68 5:13 AM PT \u2014 AAA $4.48 (+43.1%) holds. OIL CRASH: Brent $99.79 (-9.2%), WTI $91.10 (-10.9%) on Axios MOU report. Brent below $100 first time since Apr 22. Gas lags oil \u2014 if sustained, pump prices could decline 20-30\u00a2 in 1-2 weeks. CMA CGM ship struck in Hormuz. Pezeshkian brands IRGC attacks 'madness.' Hormuz Day 65.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-06",
+      "price": 4.536,
+      "label": "Day 68 12:01 PM PT \u2014 AAA $4.536 (+44.9%) NEW WARTIME HIGH. Oil rebounded: Brent $102.22 (+28.1%), WTI $100.28 (+32.8%). Pump prices catching up to weeks-old oil surge. Israel struck Beirut killing Hezbollah Radwan commander. US F/A-18 disabled Iranian tanker M/T Hasna. Trump threatens 'much higher level' bombing if Iran rejects 14-point MOU. Hormuz Day 65 effectively closed. Diesel $5.57.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -621,15 +627,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 5 PM PT)",
-      "crudePerBarrel": 111.45,
+      "label": "Current (May 6 12:01 PM PT)",
+      "crudePerBarrel": 102.22,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$111.45 \u00f7 42 gal (Brent, May 5 PM)",
-          "value": 2.654,
-          "percent": 59,
-          "change": "+$1.04"
+          "formula": "$102.22 \u00f7 42 gal (Brent, May 6 PM)",
+          "value": 2.434,
+          "percent": 54,
+          "change": "+$0.81"
         },
         {
           "name": "Refining",
@@ -667,18 +673,18 @@
           "change": "+$0.182"
         }
       ],
-      "total": 4.48,
-      "note": "National average $4.48/gal (AAA, May 6). 4-year high — highest since July 2022. OIL CRASHING: Brent $99.79 (-9.2%, +25.1% pre-war), WTI $91.10 (-10.9%, +20.7%) on Axios MOU report. Gas lags oil — if sustained, pump prices could decline 20-30¢ in 1-2 weeks. California $6.01+. Hormuz Day 65.",
-      "crude": 2.616,
+      "total": 4.536,
+      "note": "National average $4.536/gal (AAA, May 6 PM). 4-year high — highest since July 2022. Oil rebounded: Brent $102.22 (+28.1%), WTI $100.28 (+32.8%). Israeli strike on Beirut, US F/A-18 disables Iranian tanker, Trump 'higher level bombing' ultimatum. Pump prices catching up to oil surge. California $6.20+. Hormuz Day 65 effectively closed.",
+      "crude": 2.434,
       "taxes": 0.534,
-      "refining": 0.68,
-      "distribution": 0.31,
-      "regularGasoline": 4.48,
-      "changeFromPreWar": "+$1.35",
-      "changePercent": "+43.1%",
-      "lastUpdated": "2026-05-06T06:12:00Z",
+      "refining": 0.71,
+      "distribution": 0.34,
+      "regularGasoline": 4.536,
+      "changeFromPreWar": "+$1.41",
+      "changePercent": "+44.9%",
+      "lastUpdated": "2026-05-06T19:01:00Z",
       "date": "2026-05-06"
     }
   },
-  "context": "Day 68 5:13 AM PT: National average $4.48/gal per AAA (+43.1% from $3.13) — 4-year high since July 2022. OIL CRASH: Brent $99.79 (+25.1%, -9.2%), WTI $91.10 (+20.7%, -10.9%) on Axios MOU report. Gas lags oil — expect decline if oil stays below $100. Pezeshkian brands IRGC UAE attacks 'madness.' CMA CGM ship attacked in Hormuz. Hormuz Day 65."
+  "context": "Day 68 12:01 PM PT: National average $4.536/gal per AAA (+44.9% from $3.13) — 4-year high since July 2022. Oil rebounded: Brent $102.22 (+28.1%), WTI $100.28 (+32.8%). Israeli strike on Beirut Dahieh kills Hezbollah Radwan commander Malek Ballout. US F/A-18 disables Iranian tanker M/T Hasna in Gulf of Oman. Trump threatens 'much higher level' bombing if Iran rejects 14-point MOU. WaPo: 228 structures damaged at US bases. Hormuz Day 65 effectively closed."
 }
