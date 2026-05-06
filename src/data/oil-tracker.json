@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-05T19:07:00Z",
+    "lastUpdated": "2026-05-06T00:07:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 67
+    "conflictDay": 68
   },
   "oilPrices": {
     "preWar": {
@@ -74,7 +74,7 @@
     },
     "current": {
       "date": "2026-05-05",
-      "label": "Day 67 PM PT \u2014 Brent $111.45/bbl (+39.6% from pre-war $79.84). WTI $102.65/bbl (+35.9% from $75.51). Oil eased May 5 (-$2.99/-$3.77) after US confirmed ceasefire holds despite Hormuz clashes and second-day UAE attacks. AAA gas $4.48 \u2014 4-year high. Hormuz Day 64. CENTCOM destroyed 6 Iranian fast-attack boats.",
+      "label": "Day 68 5:07 PM PT \u2014 Brent $111.45/bbl (+39.6% from pre-war $79.84). WTI $102.65/bbl (+35.9% from $75.51). Oil eased after Rubio declared Epic Fury 'over' and Trump paused Project Freedom. Iran launched Persian Gulf Strait Authority. Araghchi in Beijing. AAA gas $4.48 \u2014 4-year high. Hormuz Day 65.",
       "brent": {
         "price": 111.45,
         "change": "+39.7%",
@@ -1290,6 +1290,13 @@
       "brent": 114.06,
       "wti": 106.00,
       "label": "Day 66 PM PT \u2014 Brent $114.06 (+42.9%, +5.45% intraday \u2014 4-year high during session), WTI $106.00 (+40.4%). MASSIVE ESCALATION: Iran first attack on UAE since ceasefire \u2014 12 ballistic + 3 cruise + 4 drones intercepted. ADNOC tanker BARAKAH hit by drones in Hormuz. VTTI Fujairah oil terminal struck (3 Indians injured). US Apache/Seahawk helos destroy 6 Iranian fast boats. 2 US-flagged ships transit Hormuz. Trump: Iran 'blown off face of Earth' if attacks US. Gas $4.46 (+42.5%). Hormuz Day 63.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-05",
+      "brent": 111.45,
+      "wti": 102.65,
+      "label": "Day 67 5:07 PM PT \u2014 Brent $111.45 (+39.6%, -$2.99 on ceasefire holds), WTI $102.65 (+35.9%, -$3.77). Rubio declares Operation Epic Fury 'over.' Trump pauses Project Freedom citing 'great progress.' Iran launches Persian Gulf Strait Authority \u2014 IRGC warns 'decisive action.' US proposes UN Security Council Resolution on Hormuz. Araghchi arrives in Beijing. Iran threatens European bases. Gas $4.483 \u2014 4-year high. Hormuz Day 65.",
       "isEvent": true
     }
   ]

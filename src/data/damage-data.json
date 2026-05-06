@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-05T12:03:00Z",
+    "lastUpdated": "2026-05-06T00:07:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 458,
+    "totalSites": 459,
     "confirmed": 369,
     "reported": 1,
     "rumored": 0,
@@ -7003,6 +7003,24 @@
       "casualties": "0 killed, 0 injured (intercepted)",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/5/uae-intercepts-missiles-and-drones-for-second-day",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-448",
+      "name": "Shhour — Israeli airstrike, Tyre district",
+      "country": "Lebanon",
+      "lat": 33.31,
+      "lng": 35.38,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-05",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrikes struck Shhour in Tyre district, killing 2. Additional IDF strikes targeted Debaal, Qana, Deir Kifa (1 killed, 1 wounded), Harouf, Qaqaiyat al-Jisr, and Shoukin.",
+      "weaponUsed": "Air-to-ground munitions",
+      "casualties": "3 killed, 1 wounded",
+      "source": "Radio Pakistan",
+      "sourceUrl": "https://www.radio.gov.pk/05-05-2026/israeli-strikes-kill-2-in-s-lebanon",
       "satelliteImagery": false
     }
   ]
