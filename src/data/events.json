@@ -48006,5 +48006,88 @@
       "injured": 0
     },
     "tags": ["munitions", "thaad", "arrow-3", "patriot", "depletion", "rusi", "day67"]
+  },
+  {
+    "id": "evt-new-1380",
+    "title": "Iran submits 35 war crimes dossiers against US and Israel to international bodies",
+    "description": "Iran submitted 35 detailed dossiers documenting alleged US and Israeli war crimes to the International Criminal Court, International Court of Justice, and other international forums. Dossiers cover strikes on civilian infrastructure, use of cluster munitions, targeting of healthcare facilities, and civilian casualties since February 28.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-06T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PressTV — Iran sends 35 documents on US-Israeli war crimes to international forums",
+        "url": "https://www.presstv.ir/Detail/2026/05/06/768142/Iran-sends-35-documents-on-US-Israeli-war-crimes-to-international-forums"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "war-crimes", "icc", "icj", "international-law", "day68"]
+  },
+  {
+    "id": "evt-new-1381",
+    "title": "Oil crashes 7-11% intraday on Axios exclusive: US-Iran 14-point MOU imminent",
+    "description": "Oil prices plunged 7-11% intraday after Axios reported the US and Iran are closing in on a one-page 14-point memorandum of understanding to end the war. Brent fell below $100 (to $99.79) for the first time since April 22 before rebounding to $102.22. WTI fell to $91.10 before recovering. Key terms include nuclear enrichment moratorium, sanctions relief, and Hormuz reopening. Iran expected to reply Thursday May 8 via Pakistan.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC / Global markets",
+    "timestamp": "2026-05-06T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Axios — US-Iran deal one-page memo",
+        "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo"
+      },
+      {
+        "name": "CNBC — Oil prices fall more than 7%",
+        "url": "https://www.cnbc.com/2026/05/06/oil-prices-trump-pauses-strait-of-hormuz-escort-effort.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["oil", "mou", "deal", "diplomacy", "axios", "brent", "wti", "day68"]
+  },
+  {
+    "id": "evt-new-1382",
+    "title": "US gas prices hit $4.54/gal — highest since July 2022, up 51% from pre-war",
+    "description": "AAA national average gas price reached $4.54/gallon on May 7, the highest since July 2022. Up $0.05 from previous day and $0.30 from one week ago. Change from pre-war average ($3.01): +$1.53 (+50.8%). Gas prices have not yet reflected the May 6 oil price drop as pump prices lag oil by days to weeks. California averaging above $6.20.",
+    "type": "infrastructure",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "United States (national)",
+    "timestamp": "2026-05-07T00:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "AAA Gas Prices",
+        "url": "https://gasprices.aaa.com/"
+      },
+      {
+        "name": "CBS News — Gas prices top $4.50",
+        "url": "https://www.cbsnews.com/news/gas-prices-450-when-will-gas-prices-go-down/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["gas-prices", "aaa", "oil", "consumer-impact", "day68"]
   }
 ]

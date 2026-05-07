@@ -19638,5 +19638,76 @@
       }
     ],
     "significance": "high"
+  },
+  {
+    "id": "tl-746",
+    "date": "2026-05-06",
+    "time": "17:00",
+    "day": 68,
+    "dayLabel": "Day 68",
+    "title": "Oil crashes 7-11% on Axios MOU exclusive — Brent dips below $100 before rebounding",
+    "description": "Oil prices plunged after Axios reported US and Iran closing in on a 14-point memorandum of understanding. WTI fell to $91.10 (-10.9%), Brent to $99.79 (-9.2%) — below $100 for first time since April 22. Prices rebounded to Brent $102.22, WTI $95.08 by settlement. Biggest single-day volatility since the April 8 ceasefire. Framework includes nuclear enrichment moratorium, sanctions relief, Hormuz reopening, 30-day negotiation period.",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": true,
+    "factCheckNote": "Axios exclusive confirmed; CNBC and NBC corroborated oil price movements. Iran has not confirmed acceptance.",
+    "sources": [
+      {
+        "name": "Axios — US-Iran deal one-page memo",
+        "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo"
+      },
+      {
+        "name": "CNBC — Oil prices fall more than 7%",
+        "url": "https://www.cnbc.com/2026/05/06/oil-prices-trump-pauses-strait-of-hormuz-escort-effort.html"
+      }
+    ],
+    "significance": "critical"
+  },
+  {
+    "id": "tl-747",
+    "date": "2026-05-06",
+    "time": "18:00",
+    "day": 68,
+    "dayLabel": "Day 68",
+    "title": "Iran submits 35 war crimes dossiers to ICC, ICJ, and international forums",
+    "description": "Iran submitted 35 detailed dossiers documenting alleged US and Israeli war crimes since February 28 to the International Criminal Court, International Court of Justice, and other international bodies. Documents cover strikes on civilian infrastructure, cluster munitions use, healthcare facility damage, and civilian casualties.",
+    "actor": "iran",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": true,
+    "factCheckNote": "Confirmed by PressTV and Iran's Foreign Ministry.",
+    "sources": [
+      {
+        "name": "PressTV — Iran war crimes dossiers",
+        "url": "https://www.presstv.ir/Detail/2026/05/06/768142/Iran-sends-35-documents-on-US-Israeli-war-crimes-to-international-forums"
+      }
+    ],
+    "significance": "medium"
+  },
+  {
+    "id": "tl-748",
+    "date": "2026-05-06",
+    "time": "22:00",
+    "day": 68,
+    "dayLabel": "Day 68",
+    "title": "Gas prices hit $4.54/gal — highest since July 2022 — as Iran expected to reply Thursday",
+    "description": "AAA national average reached $4.54/gal (+50.8% from pre-war $3.01), highest since July 2022. Pump prices lag oil. Iran expected to deliver formal reply to US 14-point MOU on Thursday May 8 via Pakistan mediator. Israeli security chiefs reportedly called potential deal a 'disaster for Israel.'",
+    "actor": "multiple",
+    "type": "diplomatic",
+    "verificationStatus": "confirmed",
+    "factCheck": true,
+    "factCheckNote": "AAA confirmed $4.54; Haaretz reported Israeli security chiefs' concerns.",
+    "sources": [
+      {
+        "name": "AAA Gas Prices",
+        "url": "https://gasprices.aaa.com/"
+      },
+      {
+        "name": "Haaretz — Security chiefs say deal disaster for Israel",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-06/ty-article-live/trump-pauses-effort-to-escort-ships-in-strait-of-hormuz-citing-talks-progress/0000019d-faf0-d22e-a9ff-fafe353c0000"
+      }
+    ],
+    "significance": "high"
   }
 ]
