@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-07T00:05:00Z",
+    "lastUpdated": "2026-05-07T12:12:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-06",
-      "label": "Day 68 5:05 PM PT \u2014 Brent $102.22/bbl (+28.1% from pre-war $79.80). WTI $95.08/bbl (+25.9% from $75.50). Oil crashed 7-11% intraday on Axios exclusive: US-Iran 14-point MOU imminent. Brent briefly below $100. WTI fell to $91.10 before partial recovery. Iran expected to reply Thursday May 8. Gas $4.54 \u2014 4-year high (+45.0%). Hormuz Day 65 effectively closed.",
+      "date": "2026-05-07",
+      "label": "Day 69 5:12 AM PT \u2014 Brent $101.96/bbl (+27.8% from pre-war $79.80). WTI $95.66/bbl (+26.7% from $75.50). Partial recovery from May 6 crash. Pezeshkian confirms meeting with Mojtaba Khamenei. Trump: deal 'very possible.' S&P 500 rallies to 7,365 (+1.46%). WaPo: 228 US base structures damaged. Iran nuclear breakout unchanged at 9-12 months. Gas $4.54. Hormuz Day 66 effectively closed.",
       "brent": {
-        "price": 102.22,
-        "change": "+28.1%",
-        "changeDollars": "+$22.42"
+        "price": 101.96,
+        "change": "+27.8%",
+        "changeDollars": "+$22.16"
       },
       "wti": {
-        "price": 95.08,
-        "change": "+25.9%",
-        "changeDollars": "+$19.58"
+        "price": 95.66,
+        "change": "+26.7%",
+        "changeDollars": "+$20.16"
       },
-      "changePercent": 28.1,
-      "lastUpdated": "2026-05-06"
+      "changePercent": 27.8,
+      "lastUpdated": "2026-05-07"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-07T00:05:00Z",
-    "note": "Day 68 5:05 PM PT: Brent $102.22 (+28.1%), WTI $95.08 (+25.9%). Oil crashed 7-11% intraday on Axios US-Iran MOU exclusive. AAA gas $4.54/gal \u2014 4-year high (+45.0% vs $3.13 pre-war). Gas has NOT yet reflected oil crash \u2014 lag expected days to weeks. Hormuz Day 65 effectively closed.",
+    "lastUpdated": "2026-05-07T12:12:00Z",
+    "note": "Day 69 5:12 AM PT: Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. AAA gas $4.54/gal \u2014 4-year high (+45.0% vs $3.13 pre-war). Gas has NOT yet reflected oil price drop \u2014 pump prices lag oil by days to weeks. Hormuz Day 66 effectively closed.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-07T00:05:00Z",
+  "lastUpdated": "2026-05-07T12:12:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1325,6 +1325,13 @@
       "brent": 102.22,
       "wti": 95.08,
       "label": "Day 68 5:05 PM PT \u2014 Brent $102.22 (+28.1%), WTI $95.08 (+25.9%, NYMEX settlement). Oil crashed 7-11% intraday on Axios exclusive: US-Iran 14-point MOU imminent. Brent briefly below $100 ($99.79). WTI fell to $91.10 before partial recovery to $95.08 settlement. Iran submits 35 war crimes dossiers. Gas $4.54 \u2014 highest since July 2022 (+45.0%). Iran expected to reply to deal Thursday May 8. Israeli security chiefs call deal 'disaster for Israel.' Hormuz Day 65.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-07",
+      "brent": 101.96,
+      "wti": 95.66,
+      "label": "Day 69 5:12 AM PT \u2014 Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. Pezeshkian confirms 2.5-hour meeting with Mojtaba Khamenei \u2014 first proof of life. Trump: deal 'very possible.' Qatar PM: 'high probability.' S&P 500 rallies to 7,365 (+1.46%). WaPo: Iran damaged 228 structures at US bases. US intel: nuclear breakout unchanged at 9-12 months. Saeed Jalili may replace Ghalibaf. Gas $4.54. Hormuz Day 66.",
       "isEvent": true
     }
   ]
