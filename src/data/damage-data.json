@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-07T12:12:00Z",
+    "lastUpdated": "2026-05-07T19:10:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 459,
-    "confirmed": 369,
+    "totalSites": 464,
+    "confirmed": 374,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7057,6 +7057,78 @@
       "casualties": "0 killed, 0 injured",
       "source": "US CENTCOM",
       "sourceUrl": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/4479004/us-forces-disable-vessel-in-gulf-of-oman-attempting-to-violate-blockade/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-451",
+      "name": "Sanaa International Airport — Yemenia Airbus aircraft destroyed",
+      "country": "Yemen",
+      "lat": 15.4763,
+      "lng": 44.2197,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-06",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Sanaa International Airport destroyed 3 Yemenia Airbus aircraft on the ground and killed 3 people. Defense Minister Katz claimed Israel 'destroyed the Houthis' remaining plane.' Strike came in retaliation for Houthi missile attacks on Israel.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "3 killed",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/israel-strikes-houthi-held-sanaa-airport-after-repeated-missile-attacks-by-yemeni-group/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-452",
+      "name": "Ben Gurion Airport — terminal area damaged by Houthi missile",
+      "country": "Israel",
+      "lat": 32.0114,
+      "lng": 34.8867,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-04",
+      "attributedTo": "houthis",
+      "damageLevel": "moderate",
+      "description": "Houthi ballistic missile evaded Israeli air defenses and struck near a terminal at Ben Gurion Airport — first direct missile impact near the airport since the war began. Six lightly to moderately injured.",
+      "weaponUsed": "Ballistic missile",
+      "casualties": "6 injured",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/houthi-missile-attack-on-israel-stokes-fears-of-renewed-strikes-on-red-sea-shipping/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-453",
+      "name": "al-Imran cement factory (east of Hodeidah)",
+      "country": "Yemen",
+      "lat": 14.79,
+      "lng": 42.95,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-05",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli air operation hit 9 Houthi targets with ~50 munitions including the al-Imran cement factory east of Hodeidah. Houthi-controlled media reported 4 killed at the cement factory.",
+      "weaponUsed": "Aerial munitions (multiple)",
+      "casualties": "4 killed",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/israel-strikes-houthi-held-sanaa-airport-after-repeated-missile-attacks-by-yemeni-group/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-454",
+      "name": "Fujairah Petroleum Industries Zone — drone strike",
+      "country": "United Arab Emirates",
+      "lat": 25.12,
+      "lng": 56.34,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-04",
+      "attributedTo": "iran",
+      "damageLevel": "moderate",
+      "description": "Iran fired 12 ballistic missiles, 3 cruise missiles, and 4 drones at UAE — first attack on UAE since April 8 ceasefire. A drone struck the Fujairah Petroleum Industries Zone causing a 'large fire.' Three Indian citizens were moderately injured. UAE air defenses intercepted most projectiles.",
+      "weaponUsed": "Drones, ballistic missiles, cruise missiles",
+      "casualties": "3 injured (Indian nationals)",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/4/uae-reports-missile-and-drone-strikes-incoming-from-iran",
       "satelliteImagery": false
     }
   ]

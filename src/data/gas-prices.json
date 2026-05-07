@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-07T12:12:00Z",
-  "currentAverage": 4.54,
-  "preWarAverage": 3.13,
-  "changePercent": 45.05,
+  "lastUpdated": "2026-05-07T19:10:00Z",
+  "currentAverage": 4.558,
+  "preWarAverage": 3.05,
+  "changePercent": 49.44,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -584,6 +584,12 @@
       "price": 4.54,
       "label": "Day 68 5:05 PM PT \u2014 AAA $4.54/gal (+45.0% from $3.13 pre-war) \u2014 highest since July 2022. Up $0.05 from yesterday, $0.30 from a week ago. Oil settled: Brent $102.22 (+28.1%), WTI $95.08 (+25.9%) after massive intraday crash on Axios MOU report. Gas has NOT yet reflected oil drop \u2014 lag expected. Iran to reply to deal Thursday. Hormuz Day 65.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-07",
+      "price": 4.558,
+      "label": "Day 69 12:10 PM PT \u2014 AAA $4.558/gal (+49.4% from $3.05 pre-war) \u2014 4-year high. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) \u2014 partial recovery. Trump: deal 'very possible'; Qatar PM 'high probability.' Hardliner Jalili expected to take over Iran nuclear talks. Israeli strikes intensify on S. Lebanon. Treasury May 1: 6+21+1 sanctions. Hormuz Day 66.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -679,18 +685,18 @@
           "change": "+$0.182"
         }
       ],
-      "total": 4.54,
-      "note": "National average $4.54/gal (AAA, May 7). 4-year high — highest since July 2022. Up $0.30/week. Oil settled: Brent $102.22 (+28.1%), WTI $95.08 (+25.9%) after massive intraday crash on Axios MOU report. Gas has NOT yet reflected oil drop — lag expected days to weeks. California $6.20+. Hormuz Day 65 effectively closed.",
-      "crude": 2.434,
+      "total": 4.558,
+      "note": "National average $4.558/gal (AAA, May 7). 4-year high — highest since July 2022. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) — partial recovery from May 6 crash. CA >$8/gal record; MI >$6 record; IL & WI record highs. Diesel ~$5.65/gal. Hormuz Day 66 effectively closed.",
+      "crude": 2.428,
       "taxes": 0.534,
       "refining": 0.71,
-      "distribution": 0.34,
-      "regularGasoline": 4.54,
-      "changeFromPreWar": "+$1.41",
-      "changePercent": "+45.0%",
-      "lastUpdated": "2026-05-07T12:12:00Z",
+      "distribution": 0.40,
+      "regularGasoline": 4.558,
+      "changeFromPreWar": "+$1.51",
+      "changePercent": "+49.4%",
+      "lastUpdated": "2026-05-07T19:10:00Z",
       "date": "2026-05-07"
     }
   },
-  "context": "Day 69 5:12 AM PT: National average $4.54/gal per AAA (+45.0% from $3.13) — highest since July 2022. Up $0.30/week. Oil recovering: Brent $101.96 (+27.7%), WTI $95.66 (+26.7%) after May 6 crash. Gas has NOT yet reflected oil drop — pump prices lag oil by days to weeks. Pezeshkian confirms meeting with Mojtaba Khamenei. Trump: deal 'very possible.' WaPo: 228 US base structures damaged by Iran. Nuclear breakout unchanged at 9-12 months. Hormuz Day 66 effectively closed."
+  "context": "Day 69 12:10 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil partial recovery: Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) after May 6 crash. Trump: deal 'very possible'; Qatar PM 'high probability.' Hardliner Saeed Jalili expected to replace Ghalibaf as Iran nuclear negotiator. Israeli strikes intensify on S. Lebanon. Treasury sanctions 6 individuals/21 entities/1 vessel May 1. Hormuz Day 66 effectively closed; ~1,600 ships stranded."
 }

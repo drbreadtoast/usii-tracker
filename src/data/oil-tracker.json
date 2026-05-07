@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-07T12:12:00Z",
+    "lastUpdated": "2026-05-07T19:10:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,16 +74,16 @@
     },
     "current": {
       "date": "2026-05-07",
-      "label": "Day 69 5:12 AM PT \u2014 Brent $101.96/bbl (+27.8% from pre-war $79.80). WTI $95.66/bbl (+26.7% from $75.50). Partial recovery from May 6 crash. Pezeshkian confirms meeting with Mojtaba Khamenei. Trump: deal 'very possible.' S&P 500 rallies to 7,365 (+1.46%). WaPo: 228 US base structures damaged. Iran nuclear breakout unchanged at 9-12 months. Gas $4.54. Hormuz Day 66 effectively closed.",
+      "label": "Day 69 12:10 PM PT \u2014 Brent $101.96/bbl (+27.7% from pre-war $79.84). WTI $93.46/bbl (+23.8% from $75.51). Partial recovery from May 6 crash (-$8.66 Brent, -$7.07 WTI). Trump: deal 'very possible'; Qatar PM 'high probability.' Hardliner Saeed Jalili expected to replace Ghalibaf as Iran nuclear negotiator. Israeli strikes intensify in S. Lebanon (Zelaya, Nabatieh). S&P 500 record 7,365 (+1.46%). Gas $4.558. Hormuz Day 66 effectively closed.",
       "brent": {
         "price": 101.96,
         "change": "+27.8%",
         "changeDollars": "+$22.16"
       },
       "wti": {
-        "price": 95.66,
-        "change": "+26.7%",
-        "changeDollars": "+$20.16"
+        "price": 93.46,
+        "change": "+23.8%",
+        "changeDollars": "+$17.96"
       },
       "changePercent": 27.8,
       "lastUpdated": "2026-05-07"
@@ -639,23 +639,23 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-07T12:12:00Z",
-    "note": "Day 69 5:12 AM PT: Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. AAA gas $4.54/gal \u2014 4-year high (+45.0% vs $3.13 pre-war). Gas has NOT yet reflected oil price drop \u2014 pump prices lag oil by days to weeks. Hormuz Day 66 effectively closed.",
+    "lastUpdated": "2026-05-07T19:10:00Z",
+    "note": "Day 69 12:10 PM PT: Brent $101.96 (+27.7%), WTI $93.46 (+23.8%). Partial recovery from May 6 crash. AAA gas $4.558/gal \u2014 4-year high (+49.4% vs $3.05 pre-war). Hormuz Day 66 effectively closed; ~1,600 ships stranded. CA >$8/gal, MI >$6 records.",
     "fuels": [
       {
         "type": "Regular Gasoline",
         "icon": "\u26fd",
         "preWar": {
-          "price": 3.13,
+          "price": 3.05,
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.54,
+          "price": 4.558,
           "date": "2026-05-07"
         },
-        "change": "+$1.41",
-        "changePercent": "+45.0%",
-        "detail": "Gas $4.54/gal (AAA, May 7). 4-year high — highest since July 2022. Up $0.30/week. Oil crashed to Brent $102.22 (+28.1%), WTI $95.08 (+25.9%) but gas lags oil. Pre-war $3.13. CA $6.20+.",
+        "change": "+$1.51",
+        "changePercent": "+49.4%",
+        "detail": "Gas $4.558/gal (AAA, May 7). 4-year high. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) partial recovery from May 6 crash. Pre-war $3.05. CA >$8/gal record; MI >$6 record; IL & WI record highs. Diesel ~$5.65/gal.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-07T12:12:00Z",
+  "lastUpdated": "2026-05-07T19:10:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
