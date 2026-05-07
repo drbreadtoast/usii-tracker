@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-07T00:05:00Z",
+    "lastUpdated": "2026-05-07T06:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 459,
-    "confirmed": 369,
+    "totalSites": 461,
+    "confirmed": 371,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7057,6 +7057,42 @@
       "casualties": "0 killed, 0 injured",
       "source": "US CENTCOM",
       "sourceUrl": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/4479004/us-forces-disable-vessel-in-gulf-of-oman-attempting-to-violate-blockade/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-451",
+      "name": "Zellaya — residential building struck in West Bekaa",
+      "country": "Lebanon",
+      "lat": 33.75,
+      "lng": 35.85,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-06",
+      "attributedTo": "israel",
+      "damageLevel": "destroyed",
+      "description": "Israeli airstrike destroyed a residential building in Zellaya, West Bekaa, killing 4 people including the town mayor and 3 family members (two women, one elderly man). Strike hit before any evacuation warning was issued. Part of broader May 6 strikes across Lebanon that killed 13+.",
+      "weaponUsed": "Guided munition",
+      "casualties": "4 killed, 3 injured",
+      "source": "Kurdistan24",
+      "sourceUrl": "https://www.kurdistan24.net/en/story/912457/israeli-strike-kills-four-in-eastern-lebanon-as-ceasefire-violations-mount",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-452",
+      "name": "CMA CGM San Antonio — container ship struck in Strait of Hormuz",
+      "country": "International Waters",
+      "lat": 26.5,
+      "lng": 56.3,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-05",
+      "attributedTo": "iran",
+      "damageLevel": "moderate",
+      "description": "Maltese-flagged CMA CGM San Antonio container ship hit by missile/projectile while transiting the Strait of Hormuz. Crew members injured and evacuated for medical care. Ship damaged. Second CMA CGM vessel attacked since war began.",
+      "weaponUsed": "Missile/projectile",
+      "casualties": "Multiple crew injured",
+      "source": "Seatrade Maritime",
+      "sourceUrl": "https://www.seatrade-maritime.com/security/cma-cgm-container-ship-attacked-in-strait-of-hormuz",
       "satelliteImagery": false
     }
   ]

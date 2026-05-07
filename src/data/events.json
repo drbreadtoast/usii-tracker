@@ -48089,5 +48089,121 @@
       "injured": 0
     },
     "tags": ["gas-prices", "aaa", "oil", "consumer-impact", "day68"]
+  },
+  {
+    "id": "evt-new-1383",
+    "title": "Israeli strikes kill 13+ across southern and eastern Lebanon on May 6",
+    "description": "Israeli airstrikes and artillery killed at least 13 people across southern and eastern Lebanon on May 6. In Zellaya (West Bekaa), a strike killed 4 including the town mayor and 3 family members (two women, one elderly man) — strike hit before evacuation warning issued. In Mayfadoun, 2 killed by artillery shelling. Additional strikes across southern Lebanon brought the toll to 13+. Lebanon Health Ministry total: 2,700+ killed since March 2.",
+    "type": "strike",
+    "lat": 33.75,
+    "lng": 35.85,
+    "location": "Zellaya, West Bekaa / Southern Lebanon",
+    "timestamp": "2026-05-06T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli attacks in southern, eastern Lebanon kill at least 13",
+        "url": "https://www.aljazeera.com/news/2026/5/6/israeli-attacks-on-southern-eastern-lebanon-kill-at-least-six-people"
+      },
+      {
+        "name": "Kurdistan24 — Israeli strike kills four in eastern Lebanon",
+        "url": "https://www.kurdistan24.net/en/story/912457/israeli-strike-kills-four-in-eastern-lebanon-as-ceasefire-violations-mount"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 13,
+      "injured": 3
+    },
+    "tags": ["lebanon", "strike", "zellaya", "bekaa", "ceasefire-violation", "day68"]
+  },
+  {
+    "id": "evt-new-1384",
+    "title": "7 IDF soldiers wounded by Hezbollah fiber-optic drones in southern Lebanon",
+    "description": "Seven IDF soldiers were wounded in multiple Hezbollah explosive drone attacks in southern Lebanon on May 6-7. One soldier seriously wounded, another severely wounded in separate incidents. Hezbollah continues using fiber-optic guided FPV drones that are immune to electronic warfare jamming — IDF still lacks effective counter.",
+    "type": "strike",
+    "lat": 33.15,
+    "lng": 35.30,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-07T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Soldiers hurt in Hezbollah drone attack",
+        "url": "https://www.timesofisrael.com/two-soldiers-hurt-in-hezbollah-drone-attack-in-south-lebanon-idf-hits-terror-sites/"
+      },
+      {
+        "name": "CNN — Hezbollah deploys potent new fiber-optic weapon",
+        "url": "https://us.cnn.com/2026/05/03/middleeast/hezbollah-fiber-optic-drones-israel-intl-cmd"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 7
+    },
+    "tags": ["hezbollah", "drone", "fiber-optic", "idf", "lebanon", "ceasefire-violation", "day69"]
+  },
+  {
+    "id": "evt-new-1385",
+    "title": "Trump says deal with Iran 'possible,' warns of bombing 'at much higher level' if rejected",
+    "description": "President Trump told reporters Iran wants to 'make a deal badly' and that a deal is 'possible.' Said the war will be 'over quickly.' Simultaneously warned: 'If they don't agree, the bombing starts, and it will be, sadly, at a much higher level and intensity than it was before.' Iran expected to deliver formal response to 14-point MOU on Thursday May 8 via Pakistan mediator.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "White House, Washington DC",
+    "timestamp": "2026-05-07T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — Trump says deal with Tehran possible",
+        "url": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal"
+      },
+      {
+        "name": "CNBC — Trump says Iran will be bombed at much higher level",
+        "url": "https://www.cnbc.com/2026/05/06/us-iran-peace-deal-nuclear-moratorium.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "diplomacy", "deal", "mou", "threat", "day69"]
+  },
+  {
+    "id": "evt-new-1386",
+    "title": "Qatar PM says 'high probability' of US-Iran deal as oil partially recovers",
+    "description": "Qatari PM Al Thani said there is a 'high probability' the US and Iran will reach a deal. Oil partially recovered from May 6 crash — Brent rose to $101.96 (+27.7% from pre-war), WTI to $95.66 (+26.7%). Markets pricing in significant probability of war ending but hedging on Trump's bombing threat if deal rejected.",
+    "type": "diplomatic",
+    "lat": 25.29,
+    "lng": 51.53,
+    "location": "Doha, Qatar / Global markets",
+    "timestamp": "2026-05-07T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Times of Israel — Qatar PM: high probability of deal",
+        "url": "https://www.timesofisrael.com/liveblog-may-06-2026/"
+      },
+      {
+        "name": "TradingEconomics — Brent Crude Oil",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["qatar", "diplomacy", "deal", "oil", "brent", "wti", "day69"]
   }
 ]

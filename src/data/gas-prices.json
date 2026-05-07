@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-07T00:05:00Z",
-  "currentAverage": 4.54,
+  "lastUpdated": "2026-05-07T06:08:00Z",
+  "currentAverage": 4.536,
   "preWarAverage": 3.13,
-  "changePercent": 45.05,
+  "changePercent": 44.92,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -633,15 +633,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 6 12:01 PM PT)",
-      "crudePerBarrel": 102.22,
+      "label": "Current (May 7 11:08 PM PT)",
+      "crudePerBarrel": 101.96,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$102.22 \u00f7 42 gal (Brent, May 6 PM)",
-          "value": 2.434,
-          "percent": 54,
-          "change": "+$0.81"
+          "formula": "$101.96 \u00f7 42 gal + crack spread (Brent, May 7)",
+          "value": 2.71,
+          "percent": 60,
+          "change": "+$1.09"
         },
         {
           "name": "Refining",
@@ -679,18 +679,18 @@
           "change": "+$0.182"
         }
       ],
-      "total": 4.54,
-      "note": "National average $4.54/gal (AAA, May 7). 4-year high — highest since July 2022. Up $0.30/week. Oil settled: Brent $102.22 (+28.1%), WTI $95.08 (+25.9%) after massive intraday crash on Axios MOU report. Gas has NOT yet reflected oil drop — lag expected days to weeks. California $6.20+. Hormuz Day 65 effectively closed.",
-      "crude": 2.434,
+      "total": 4.536,
+      "note": "National average $4.536/gal (AAA, May 7). 4-year high — highest since July 2022. Up $0.30/week. Oil: Brent $101.96 (+27.8%), WTI $95.66 (+26.7%) — partial recovery from May 6 crash. Gas has NOT yet reflected oil drop — lag expected days to weeks. California $5.50+. Circle K offering 40c/gal discount. Hormuz Day 66 effectively closed.",
+      "crude": 2.71,
       "taxes": 0.534,
-      "refining": 0.71,
-      "distribution": 0.34,
-      "regularGasoline": 4.54,
+      "refining": 0.68,
+      "distribution": 0.31,
+      "regularGasoline": 4.536,
       "changeFromPreWar": "+$1.41",
-      "changePercent": "+45.0%",
-      "lastUpdated": "2026-05-07T00:05:00Z",
+      "changePercent": "+44.9%",
+      "lastUpdated": "2026-05-07T06:08:00Z",
       "date": "2026-05-07"
     }
   },
-  "context": "Day 68 5:05 PM PT: National average $4.54/gal per AAA (+45.0% from $3.13) — highest since July 2022. Up $0.30/week. Oil crashed 7-11% intraday on Axios US-Iran 14-point MOU exclusive, settled Brent $102.22 (+28.1%), WTI $95.08 (+25.9%). Gas has NOT yet reflected oil drop — lag expected. Iran submits 35 war crimes dossiers. Iran to reply to deal Thursday May 8. Israeli security chiefs call deal 'disaster for Israel.' Hormuz Day 65 effectively closed."
+  "context": "Day 69 11:08 PM PT: National average $4.536/gal per AAA (+44.9% from $3.13) — highest since July 2022. Up $0.30/week. Oil partially recovered from May 6 crash: Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Gas has NOT yet reflected oil drop — lag expected days to weeks. Trump: deal 'possible,' war 'over quickly.' Qatar PM: 'high probability' of deal. Iran to reply Thursday May 8. Hormuz Day 66 effectively closed."
 }

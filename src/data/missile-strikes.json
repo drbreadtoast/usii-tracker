@@ -9893,5 +9893,41 @@
       "killed": 0,
       "injured": 2
     }
+  },
+  {
+    "id": "ms-581",
+    "city": "Zellaya, West Bekaa",
+    "country": "Lebanon",
+    "lat": 33.75,
+    "lng": 35.85,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-06",
+    "description": "Israeli airstrike hit Zellaya in the West Bekaa region, killing 4 people including the town mayor and 3 family members (two women and an elderly man). Strike hit before any evacuation warning was issued.",
+    "source": "Kurdistan24",
+    "sourceUrl": "https://www.kurdistan24.net/en/story/912457/israeli-strike-kills-four-in-eastern-lebanon-as-ceasefire-violations-mount",
+    "weaponType": "Guided munition",
+    "casualties": {
+      "killed": 4,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-582",
+    "city": "Southern Lebanon",
+    "country": "Lebanon",
+    "lat": 33.12,
+    "lng": 35.28,
+    "strikeType": "drone strike",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-07",
+    "description": "Multiple Hezbollah fiber-optic guided FPV drone attacks on IDF positions in southern Lebanon on May 6-7. Five additional IDF soldiers wounded (one seriously, one severely) in separate incidents from ms-580. Drones are immune to electronic warfare jamming.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/two-soldiers-hurt-in-hezbollah-drone-attack-in-south-lebanon-idf-hits-terror-sites/",
+    "weaponType": "Fiber-optic guided FPV drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 5
+    }
   }
 ]
