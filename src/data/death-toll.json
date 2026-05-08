@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-08T06:11:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,7 +77,7 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 69, 12:10 PM PDT May 7 \u2014 Trump says deal 'very possible'; Qatar PM says 'high probability.' Iran reviewing 14-point MOU. Hardliner Saeed Jalili expected to replace Ghalibaf as nuclear negotiator. Israeli strikes on Lebanon continue: Zelaya kills 4 incl. women & elderly; new evac orders for Bekaa Valley. Brent $101.96 (+27.8%), WTI $95.66 (+26.7%) \u2014 partial recovery from May 6 crash. Gas $4.558/gal \u2014 49.4% above pre-war. S&P 500 record 7,365 (+1.46%). Hormuz Day 66 effectively closed; ~1,600 ships stranded. WaPo satellite imagery: 228 US base structures damaged.)",
+      "period": "February 28, 2026 - Ongoing (Day 70, 11:11 PM PDT May 7 \u2014 US-Iran naval clash in Hormuz: IRGC attacks 3 US destroyers, CENTCOM strikes back at Qeshm/Bandar Abbas/Sirik. Trump calls it 'love tap,' gives Iran 1-week ultimatum. Hezbollah record 105 attack waves on Day 70: 1 killed, 14 wounded in Nahariya. IDF confirms killing Radwan commander Ballout in Beirut. Iran creates PGSA to control Hormuz shipping. UAE intercepts fresh attacks May 8. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%). Gas $4.558/gal \u2014 49.4% above pre-war. Hormuz Day 67 blockade, effectively closed.)",
       "parties": [
         {
           "name": "Iran",
@@ -173,20 +173,20 @@
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
             "military": 21,
-            "civilian": 30,
-            "total": 51,
-            "source": "Israeli government + IDF (Day 64, May 2). 25 IDF soldiers killed \u2014 latest: Sgt. Liem Ben Hamo (19, Golani Brigade) killed by Hezbollah drone at Qantara, S. Lebanon (Apr 30). 2 wounded by drone at Margaliot (May 1). 12 wounded at Shomera artillery position (Apr 30).",
-            "sourceUrl": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/"
+            "civilian": 31,
+            "total": 52,
+            "source": "Israeli government + IDF (Day 70, May 8). 25 IDF soldiers killed. May 8: 1 civilian killed in Nahariya by Hezbollah rocket (105 attack waves \u2014 most intense day since war began). May 7: 7 IDF soldiers wounded by Hezbollah drones in S. Lebanon (2 seriously, 1 moderately, 4 lightly). May 6: IDF strikes Beirut killing Radwan commander Ballout.",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/six-people-reported-lightly-hurt-after-hezbollah-rocket-strike-on-nahariya-home/"
           },
           "estimated": {
             "military": 25,
-            "civilian": 32,
-            "total": 57,
-            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 64, May 2)",
-            "sourceUrl": "https://www.timesofisrael.com/liveblog-may-01-2026/",
-            "note": "Updated Day 64: 25 IDF soldiers killed (Sgt. Ben Hamo Apr 30 = 17th IDF, 21st Israeli killed in north). 32 civilians estimated. Hezbollah FPV fiber-optic drones a growing threat \u2014 IDF admits no effective countermeasure.",
-            "minTotal": 51,
-            "maxTotal": 63
+            "civilian": 33,
+            "total": 58,
+            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 70, May 8)",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-may-08-2026/",
+            "note": "Updated Day 70: 25 IDF soldiers killed. +1 civilian killed Nahariya May 8. Hezbollah launched record 105 attack waves, 14 wounded in Nahariya + 2 seriously injured near Karmiel. 7 IDF soldiers wounded by drones May 7.",
+            "minTotal": 52,
+            "maxTotal": 64
           },
           "rumored": {
             "total": 50,
@@ -226,8 +226,8 @@
               }
             ]
           },
-          "injured": 7577,
-          "injuredNote": "7,577+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 69, May 7). May 4: 6 lightly-to-moderately injured when Houthi ballistic missile evaded air defenses and struck near Ben Gurion Airport terminal — first direct hit. May 6: 2 IDF soldiers wounded by Hezbollah suicide drone in S. Lebanon. May 2: 2 IDF reservists wounded by drone at Misgav Am. Apr 30: 12 IDF wounded at Shomera. May 1: 2 wounded at Margaliot.",
+          "injured": 7598,
+          "injuredNote": "7,598+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 70, May 8). May 8: 14 wounded in Nahariya rocket strike, 2 seriously injured near Karmiel during record 105 Hezbollah attack waves. May 7: 7 IDF soldiers wounded by Hezbollah drones in S. Lebanon (2 seriously). May 6: 2 IDF wounded by Hezbollah drone. May 4: 6 injured near Ben Gurion Airport from Houthi missile.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
         },
@@ -287,21 +287,21 @@
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 660,
-            "civilian": 2057,
-            "total": 2717,
-            "source": "Lebanese Public Health Ministry (Day 69, May 7). 2,700+ killed since March 2 per The National. May 7: 4 killed in Zelaya (incl. 2 women, elderly man) + strikes on Ain Baal, Dibbin, Nabatieh. May 6: Israeli strike kills Hezbollah Radwan commander Ahmad Ballout in Beirut southern suburb (first Beirut strike since April 17 ceasefire) + 6 killed in Saksakiyeh/Khirbet Selm + 5 killed in Zellaya, Bekaa (incl. mayor Ali Ahmad's family). May 5: 4 civilians + 2 Hezbollah killed in Meiss Ej Jabal. Apr 30 'Black Wednesday': 28 killed.",
-            "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israeli-attacks-on-southern-eastern-lebanon-kill-at-least-six-people"
+            "military": 665,
+            "civilian": 2060,
+            "total": 2725,
+            "source": "Lebanese Public Health Ministry (Day 70, May 8). 2,725+ killed since March 2. May 8: IDF strikes kill 2 Hezbollah + 3 PIJ in S. Lebanon; IDF says 85+ Hezbollah fighters killed over past week. May 7: 4 killed in Zelaya + strikes on Ain Baal, Dibbin, Nabatieh. Ambulance destroyed. May 6: Radwan commander Ballout + 2 more commanders killed in Beirut (first strike since April 16 ceasefire) + 6 killed in Saksakiyeh/Khirbet Selm.",
+            "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/8/iran-war-live-trump-says-ceasefire-still-in-effect-as-iran-us-clash"
           },
           "estimated": {
-            "military": 1320,
-            "civilian": 1500,
-            "total": 2820,
-            "source": "Lebanese Civil Defence + Alma Center + IDF estimates (Day 69, May 7). Official 2,717 + estimated Hezbollah undercount (~100) = ~2,820. Beirut suburb strike May 6 killed Radwan Force commander Ballout. May 7: at least 4 killed Zelaya + multi-front strikes Ain Baal, Dibbin (3), Nabatieh (3). New evac orders for Deir al-Zahrani, Bafroa, Habush.",
-            "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/7/iran-war-live-trump-says-deal-with-tehran-possible-israel-bombs-beirut",
-            "note": "Day 69: Official 2,717 + undercount = ~2,820. Lebanon ceasefire collapsing. First Beirut strike since April 17 ceasefire (May 6, Haret Hreik). 12 towns under expanded displacement orders incl. Bekaa Valley.",
-            "minTotal": 2717,
-            "maxTotal": 2870
+            "military": 1325,
+            "civilian": 1503,
+            "total": 2828,
+            "source": "Lebanese Civil Defence + Alma Center + IDF estimates (Day 70, May 8). Official 2,725 + estimated Hezbollah undercount (~100) = ~2,828. IDF says 85+ Hezbollah killed in past week. May 8: 2 Hezbollah + 3 PIJ killed in IDF strikes. Lebanon ceasefire effectively collapsed.",
+            "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/8/iran-war-live-trump-says-ceasefire-still-in-effect-as-iran-us-clash",
+            "note": "Day 70: Official 2,725 + undercount = ~2,828. Ceasefire fully collapsed — Hezbollah launched 105 attack waves on Israel (retaliation for Ballout). IDF strikes continuing across S. Lebanon.",
+            "minTotal": 2725,
+            "maxTotal": 2880
           },
           "rumored": {
             "total": 1400,

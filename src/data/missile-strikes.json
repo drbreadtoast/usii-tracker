@@ -10019,5 +10019,95 @@
       "killed": 0,
       "injured": 6
     }
+  },
+  {
+    "id": "ms-588",
+    "city": "Qeshm Island",
+    "country": "Iran",
+    "lat": 26.95,
+    "lng": 56.27,
+    "strikeType": "air strike",
+    "attributedTo": "us",
+    "date": "2026-05-07",
+    "description": "CENTCOM self-defense strikes on Iranian missile/drone launch sites and C2 nodes on Qeshm Island after IRGC attacked 3 US destroyers in Hormuz.",
+    "source": "CNN",
+    "sourceUrl": "https://www.cnn.com/2026/05/07/politics/us-forces-strike-military-facilities-in-iran",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-589",
+    "city": "Bandar Khamir",
+    "country": "Iran",
+    "lat": 26.95,
+    "lng": 55.58,
+    "strikeType": "air strike",
+    "attributedTo": "us",
+    "date": "2026-05-07",
+    "description": "CENTCOM strikes on IRGC military facilities at Bandar Khamir, targeting ISR nodes and missile launch sites.",
+    "source": "The Hill",
+    "sourceUrl": "https://thehill.com/policy/defense/5862483-iran-us-warships-middle-east/",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-590",
+    "city": "Sirik",
+    "country": "Iran",
+    "lat": 26.53,
+    "lng": 57.10,
+    "strikeType": "air strike",
+    "attributedTo": "us",
+    "date": "2026-05-07",
+    "description": "CENTCOM strikes on Iranian military facilities at Sirik, targeting drone launch sites and C2 locations.",
+    "source": "CBS News",
+    "sourceUrl": "https://www.cbsnews.com/live-updates/trump-iran-war-peace-deal-strait-of-hormuz/",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-591",
+    "city": "Dahieh (Beirut)",
+    "country": "Lebanon",
+    "lat": 33.85,
+    "lng": 35.49,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-06",
+    "description": "IDF airstrike on Beirut's Dahieh killed Hezbollah Radwan Force commander Ballout plus 2 commanders. First Beirut strike since April 16 ceasefire.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-confirms-killing-commander-of-hezbollahs-radwan-force-in-beirut-strike/",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 3,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-592",
+    "city": "Nahariya",
+    "country": "Israel",
+    "lat": 33.01,
+    "lng": 35.10,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-08",
+    "description": "Hezbollah rockets struck Nahariya during record 105 attack waves. 1 killed, 14 wounded. Retaliation for Ballout killing.",
+    "source": "Media Line",
+    "sourceUrl": "https://themedialine.org/headlines/hezbollah-rocket-hits-nahariya-residential-area-injuring-6-as-northern-front-escalates/",
+    "weaponType": "Rockets",
+    "casualties": {
+      "killed": 1,
+      "injured": 14
+    }
   }
 ]

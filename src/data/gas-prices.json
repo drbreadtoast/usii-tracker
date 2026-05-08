@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-08T06:11:00Z",
   "currentAverage": 4.558,
   "preWarAverage": 3.05,
   "changePercent": 49.44,
@@ -590,6 +590,13 @@
       "price": 4.558,
       "label": "Day 69 12:10 PM PT \u2014 AAA $4.558/gal (+49.4% from $3.05 pre-war) \u2014 4-year high. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) \u2014 partial recovery. Trump: deal 'very possible'; Qatar PM 'high probability.' Hardliner Jalili expected to take over Iran nuclear talks. Israeli strikes intensify on S. Lebanon. Treasury May 1: 6+21+1 sanctions. Hormuz Day 66.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-08",
+      "brent": 101.26,
+      "wti": 95.64,
+      "label": "Day 70 11:11 PM PT \u2014 Brent $101.26 (+26.9%), WTI $95.64 (+26.7%). Rebounding on US-Iran Hormuz fire exchange: IRGC attacked 3 destroyers, CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'just a love tap,' gives Iran 1-week ultimatum. Hezbollah record 105 attack waves \u2014 1 killed, 14 wounded Nahariya. IDF kills Radwan commander Ballout. Iran creates PGSA. UAE intercepts fresh attacks. Gas $4.558. Hormuz Day 67.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -639,15 +646,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 6 12:01 PM PT)",
-      "crudePerBarrel": 102.22,
+      "label": "Current (May 8 11:11 PM PT)",
+      "crudePerBarrel": 101.26,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$102.22 \u00f7 42 gal (Brent, May 6 PM)",
-          "value": 2.434,
-          "percent": 54,
-          "change": "+$0.81"
+          "formula": "$101.26 \u00f7 42 gal (Brent, May 8)",
+          "value": 2.411,
+          "percent": 53,
+          "change": "+$0.79"
         },
         {
           "name": "Refining",
@@ -686,17 +693,17 @@
         }
       ],
       "total": 4.558,
-      "note": "National average $4.558/gal (AAA, May 7). 4-year high — highest since July 2022. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) — partial recovery from May 6 crash. CA >$8/gal record; MI >$6 record; IL & WI record highs. Diesel ~$5.65/gal. Hormuz Day 66 effectively closed.",
-      "crude": 2.428,
+      "note": "National average $4.558/gal (AAA, May 8). 4-year high — highest since July 2022. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) — rebounding on US-Iran Hormuz fire exchange. CA $6.17/gal; MI ~$4.78. Diesel ~$5.65/gal. Hormuz Day 67 blockade, effectively closed.",
+      "crude": 2.411,
       "taxes": 0.534,
-      "refining": 0.71,
+      "refining": 0.714,
       "distribution": 0.40,
       "regularGasoline": 4.558,
       "changeFromPreWar": "+$1.51",
       "changePercent": "+49.4%",
-      "lastUpdated": "2026-05-07T19:10:00Z",
-      "date": "2026-05-07"
+      "lastUpdated": "2026-05-08T06:11:00Z",
+      "date": "2026-05-08"
     }
   },
-  "context": "Day 69 12:10 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil partial recovery: Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) after May 6 crash. Trump: deal 'very possible'; Qatar PM 'high probability.' Hardliner Saeed Jalili expected to replace Ghalibaf as Iran nuclear negotiator. Israeli strikes intensify on S. Lebanon. Treasury sanctions 6 individuals/21 entities/1 vessel May 1. Hormuz Day 66 effectively closed; ~1,600 ships stranded."
+  "context": "Day 70 11:11 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil rebounding: Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) on US-Iran Hormuz fire exchange. IRGC attacked 3 US destroyers; CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'love tap,' 1-week ultimatum. Hezbollah record 105 attacks on Israel. Iran creates PGSA. UAE intercepts attacks. Hormuz Day 67 blockade."
 }

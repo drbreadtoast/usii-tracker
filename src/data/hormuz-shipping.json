@@ -1,16 +1,16 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 66,
-  "dailyTransits": 4,
+  "blockadeDay": 67,
+  "dailyTransits": 0,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-08T06:11:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
     "globalOilSharePercent": 20,
     "vesselsAnchored": 400,
-    "vesselsTransitLast24h": 4,
+    "vesselsTransitLast24h": 0,
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
@@ -24,7 +24,7 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 69 12:10 PM PT (May 7): Hormuz BLOCKADE DAY 66 effectively closed. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%) — partial recovery from May 6 crash. Trump: deal 'very possible'; Qatar PM 'high probability.' Project Freedom paused May 5 after CMA CGM San Antonio strike. Only 191 ships transited all of April (vs 3,000+ pre-war). May 3: 6 transits; May 4: 5 transits. 1,600+ ships stranded. 40,000+ seafarers trapped. UN SG Guterres: 'Open the Strait.' Pope Leo: 'Eucharistic truce.' US blockade Day 31. Gas $4.558.",
+    "tankerTraffic": "Day 70 11:11 PM PT (May 8): Hormuz BLOCKADE DAY 67 effectively closed. No commercial transits since May 4. US-Iran naval clash May 7: IRGC attacked 3 destroyers, CENTCOM struck Qeshm/Bandar Abbas/Sirik. Iran created PGSA to vet/tax all ships. Trump: 'love tap,' 1-week ultimatum. UAE intercepted fresh attacks May 8. 22,500 mariners on 1,550+ vessels trapped. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%). Gas $4.558. Only 40 ships in past week vs. 120/day pre-war.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
     "lastUpdated": "2026-05-04T00:02:00Z",
@@ -816,7 +816,19 @@
     },
     {
       "date": "2026-05-07",
-      "event": "Day 69 12:10 PM PT: Hormuz Day 66 — partial recovery in oil markets. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%). Trump: deal 'very possible'; Qatar PM 'high probability.' Pezeshkian conditions negotiations on lifting US naval blockade FIRST. Iran reviewing 14-point MOU; FM Araghchi says Iran will respond 'when finalised.' Hardliner Saeed Jalili expected to replace Ghalibaf as Iran nuclear negotiator. French Charles de Gaulle CSG transited Suez en route to potential Hormuz mission. Project Freedom still paused. Israeli strikes intensify on S. Lebanon (Zelaya kills 4). Gas $4.558. ~1,600 ships stranded; no transits since May 4.",
+      "event": "Day 69 12:10 PM PT: Hormuz Day 66 — partial recovery in oil markets. Brent $101.96 (+27.7%), WTI $93.46 (+23.8%). Trump: deal 'very possible'; Qatar PM 'high probability.' Pezeshkian conditions negotiations on lifting US naval blockade FIRST. Iran reviewing 14-point MOU. Gas $4.558. ~1,600 ships stranded; no transits since May 4.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-07",
+      "event": "US-IRAN NAVAL CLASH: IRGC attacked 3 US destroyers (Truxtun, Rafael Peralta, Mason) with missiles, drones, small boats. CENTCOM struck back at Qeshm Island, Bandar Khamir, Sirik. 6 IRGC boats destroyed. No US casualties. Trump: 'just a love tap.' Iran created PGSA to control Hormuz transit. No commercial transits since May 4.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-08",
+      "event": "Day 70: Hormuz BLOCKADE DAY 67. UAE intercepted fresh Iranian missile/drone attacks. 22,500 mariners on 1,550+ commercial vessels trapped. Only 40 ships crossed strait in past week vs. 120/day pre-war. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on Hormuz tensions. Iran reviewing 14-point MOU. Gas $4.558.",
       "status": "effectively_closed",
       "barrels": 0
     }
