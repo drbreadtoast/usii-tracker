@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-08T19:01:30Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,13 +28,13 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
+    "totalSites": 472,
+    "confirmed": 382,
     "reported": 1,
     "rumored": 0,
-    "countriesAffected": 15,
+    "countriesAffected": 16,
     "categories": {
-      "military": 67,
+      "military": 68,
       "nuclear": 8,
       "infrastructure": 12,
       "civilian": 37,
@@ -43,12 +43,14 @@
       "energy": 5,
       "diplomatic": 1,
       "religious": 1,
-      "government": 1
+      "government": 1,
+      "naval": 2
     },
-    "lastUpdated": "2026-05-02T19:15:00Z",
-    "military": 60,
+    "lastUpdated": "2026-05-08T19:01:30Z",
+    "military": 61,
     "energy": 7,
-    "infrastructure": 13
+    "infrastructure": 13,
+    "naval": 2
   },
   "damageLocations": [
     {
@@ -7219,6 +7221,60 @@
       "casualties": "1+ killed, several injured",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "M/T Sea Star III (Iranian-flagged tanker)",
+      "country": "International Waters",
+      "lat": 24.5,
+      "lng": 58.5,
+      "category": "naval",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "us",
+      "damageLevel": "severe",
+      "description": "US Navy fired on and disabled the Iranian-flagged oil tanker M/T Sea Star III in the Gulf of Oman as part of intensified maritime blockade enforcement. Vessel rendered inoperable; no casualties reported.",
+      "weaponUsed": "Naval gunfire / strike",
+      "casualties": "0 killed",
+      "source": "gCaptain",
+      "sourceUrl": "https://gcaptain.com/u-s-navy-disables-two-more-iranian-tankers-as-hormuz-blockade-enforcement-intensifies/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "M/T Sevda (Iranian-flagged tanker)",
+      "country": "International Waters",
+      "lat": 24.5,
+      "lng": 58.5,
+      "category": "naval",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "us",
+      "damageLevel": "severe",
+      "description": "US Navy disabled the Iranian-flagged oil tanker M/T Sevda in the Gulf of Oman, second tanker hit in the same operation as Sea Star III. Action was direct retaliation for Iran's seizure of the Ocean Koi tanker hours earlier.",
+      "weaponUsed": "Naval gunfire / strike",
+      "casualties": "0 killed",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-462",
+      "name": "Bandar Abbas — IRGC missile and drone launch sites",
+      "country": "Iran",
+      "lat": 27.1865,
+      "lng": 56.2808,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-07",
+      "attributedTo": "us",
+      "damageLevel": "severe",
+      "description": "US strikes hit Iranian missile/drone launch sites and command and control nodes at Bandar Abbas in retaliation for combined IRGC missile, drone, and small boat attacks on USS Truxtun, USS Mason, and USS Rafael Peralta transiting the Strait of Hormuz. CENTCOM said all attacks were intercepted; no US assets struck.",
+      "weaponUsed": "Aerial munitions / strike package",
+      "casualties": "Not disclosed",
+      "source": "CNN",
+      "sourceUrl": "https://www.cnn.com/2026/05/07/politics/us-forces-strike-military-facilities-in-iran",
       "satelliteImagery": false
     }
   ]

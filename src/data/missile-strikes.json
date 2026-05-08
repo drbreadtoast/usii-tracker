@@ -10145,5 +10145,59 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Gulf of Oman",
+    "country": "International Waters",
+    "lat": 24.5,
+    "lng": 58.5,
+    "strikeType": "naval",
+    "attributedTo": "us",
+    "date": "2026-05-08",
+    "description": "US Navy fired on and disabled two Iranian-flagged oil tankers (M/T Sea Star III and M/T Sevda) in the Gulf of Oman. Action followed Iran's seizure of the Barbados-flagged Ocean Koi tanker hours earlier. CENTCOM said no US assets were damaged.",
+    "source": "NPR",
+    "sourceUrl": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates",
+    "weaponType": "Naval gunfire / strike",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Nahariya",
+    "country": "Israel",
+    "lat": 33.0058,
+    "lng": 35.0944,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-08",
+    "description": "Hezbollah fired barrage of rockets at Nahariya, Acre, and Haifa Bay area around 2 PM local time, claiming to have targeted an Israeli military base south of Nahariya. 14 wounded in Nahariya rocket strike, 2 seriously injured near Karmiel during record 105 attack waves.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/hezbollah-says-it-launched-missiles-at-military-base-in-north-israel/",
+    "weaponType": "Multiple-launch rocket",
+    "casualties": {
+      "killed": 1,
+      "injured": 16
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Israel-Lebanon border",
+    "country": "Israel",
+    "lat": 33.10,
+    "lng": 35.40,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-08",
+    "description": "Hezbollah explosive drone penetrated IDF defenses near the Lebanon border, wounding two Israeli soldiers — one severely, one moderately. Followed earlier wave of FPV drone attacks the same day.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/hezbollah-says-it-launched-missiles-at-military-base-in-north-israel/",
+    "weaponType": "Explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "straitStatus": "effectively_closed",
+  "straitStatus": "partially_blocked",
   "blockadeDay": 67,
-  "dailyTransits": 0,
+  "dailyTransits": 6,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-08T12:13:00Z",
+  "lastUpdated": "2026-05-08T19:01:30Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,7 +24,7 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 70 5:13 AM PT (May 8): Hormuz BLOCKADE DAY 67 effectively closed. Lloyd's confirms zero transits since May 4. 22,500 mariners on 1,550+ vessels trapped. 147 containerships (470K TEU) stuck. CMA CGM San Antonio attacked May 5 with crew injuries. Chinese tanker JV Innovation attacked May 4 (first Chinese vessel). S. Korea routing 4th tanker via Red Sea. CIA: Iran survives blockade 3-4 months. Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Gas $4.55.",
+    "tankerTraffic": "Day 70 12:01 PM PT (May 8): Hormuz BLOCKADE DAY 67 partially blocked. ~5% of pre-war traffic — May 3 saw 6 transits, May 4 saw 5. US Navy disabled 2 Iranian tankers (Sea Star III, Sevda) in Gulf of Oman May 8 after Iran seized Barbados-flagged Ocean Koi tanker. 22,500 mariners on 1,550+ vessels trapped. 147 containerships (470K TEU) stuck. CMA CGM San Antonio attacked May 5 with crew injuries. Chinese tanker JV Innovation attacked May 4 (first Chinese vessel). CIA: Iran survives blockade 3-4 months. Brent $100.54 (+26.0%), WTI $94.35 (+25.0%). Gas $4.55.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
     "lastUpdated": "2026-05-04T00:02:00Z",
@@ -828,9 +828,9 @@
     },
     {
       "date": "2026-05-08",
-      "event": "Day 70: Hormuz BLOCKADE DAY 67. UAE intercepted fresh Iranian missile/drone attacks. 22,500 mariners on 1,550+ commercial vessels trapped. Only 40 ships crossed strait in past week vs. 120/day pre-war. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on Hormuz tensions. Iran reviewing 14-point MOU. Gas $4.558.",
-      "status": "effectively_closed",
-      "barrels": 0
+      "event": "Day 70: Hormuz BLOCKADE DAY 67. US Navy disabled 2 Iranian tankers (Sea Star III, Sevda) in Gulf of Oman after Iran seized Barbados-flagged Ocean Koi tanker (under US sanctions since Feb). UAE intercepted fresh Iranian missile/drone attacks (12 BMs, 3 CMs, 4 drones, 3 wounded). Status: partially blocked — ~5% of pre-war traffic. Brent $100.54 (+26.0%), WTI $94.35 (+25.0%). Gas $4.55. Rubio in Rome — US expects Iran response Friday on MOU.",
+      "status": "partially_blocked",
+      "barrels": 750000
     }
   ],
   "impactedGoods": [
