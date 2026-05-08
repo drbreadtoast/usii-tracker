@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T06:11:00Z",
+    "lastUpdated": "2026-05-08T12:13:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 468,
-    "confirmed": 378,
+    "totalSites": 469,
+    "confirmed": 379,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7201,6 +7201,24 @@
       "casualties": "1 killed, 14 wounded",
       "source": "Media Line",
       "sourceUrl": "https://themedialine.org/headlines/hezbollah-rocket-hits-nahariya-residential-area-injuring-6-as-northern-front-escalates/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-459",
+      "name": "Nabatieh — weapons manufacturing infrastructure",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.48,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF struck Hezbollah weapons manufacturing infrastructure in Nabatieh during overnight campaign targeting ~20 sites across southern Lebanon. Also hit drone launch sites in Ain Baal and operatives cell in Dibbin. At least 1 killed, several injured.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "1+ killed, several injured",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
       "satelliteImagery": false
     }
   ]

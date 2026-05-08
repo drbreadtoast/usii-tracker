@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T06:11:00Z",
+    "lastUpdated": "2026-05-08T12:13:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-08",
-      "label": "Day 70 11:11 PM PT \u2014 Brent $101.26/bbl (+26.9% from pre-war $79.80). WTI $95.64/bbl (+26.7% from $75.51). Rebounding on US-Iran Hormuz fire exchange. IRGC attacked 3 US destroyers; CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'love tap,' 1-week ultimatum. Hezbollah record 105 attack waves on Israel. Iran creates PGSA. UAE intercepts attacks. Gas $4.558. Hormuz Day 67 blockade.",
+      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
       "brent": {
-        "price": 101.26,
-        "change": "+26.9%",
-        "changeDollars": "+$21.46"
+        "price": 100.54,
+        "change": "+26.0%",
+        "changeDollars": "+$20.74"
       },
       "wti": {
-        "price": 95.64,
-        "change": "+26.7%",
-        "changeDollars": "+$20.13"
+        "price": 95.46,
+        "change": "+26.4%",
+        "changeDollars": "+$19.96"
       },
-      "changePercent": 26.9,
+      "changePercent": 26.0,
       "lastUpdated": "2026-05-08"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T06:11:00Z",
-    "note": "Day 70 11:11 PM PT: Brent $101.26 (+26.9%), WTI $95.64 (+26.7%). Rebounding on US-Iran Hormuz fire exchange. AAA gas $4.558/gal \u2014 4-year high (+49.4% vs $3.05 pre-war). Hormuz Day 67 blockade, effectively closed. PGSA created. CA >$8/gal, MI >$6 records.",
+    "lastUpdated": "2026-05-08T12:13:00Z",
+    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.558,
+          "price": 4.55,
           "date": "2026-05-07"
         },
-        "change": "+$1.51",
-        "changePercent": "+49.4%",
-        "detail": "Gas $4.558/gal (AAA, May 8). 4-year high. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on US-Iran Hormuz clash. Pre-war $3.05. CA >$6.17/gal; MI ~$4.78. Diesel ~$5.65/gal.",
+        "change": "+$1.50",
+        "changePercent": "+49.2%",
+        "detail": "Gas $4.55/gal (AAA, May 7). Up 25 cents 2nd straight week. Brent $100.54 (+26.0%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

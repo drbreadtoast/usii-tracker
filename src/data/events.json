@@ -48968,5 +48968,159 @@
       "injured": 0
     },
     "tags": ["netanyahu", "red-lines", "deal", "nuclear", "enrichment", "day69"]
+  },
+  {
+    "id": "evt-new-1414",
+    "title": "3 IDF soldiers wounded by Hezbollah FPV drone attacks in southern Lebanon",
+    "description": "Three IDF soldiers were wounded, one seriously, by Hezbollah explosive FPV drone attacks in southern Lebanon. A separate drone exploded near the Lebanon border. IDF responded with strikes on ~20 Hezbollah targets overnight including weapon depots in Nabatieh, drone launch sites in Ain Baal, and operatives in Dibbin.",
+    "type": "strike",
+    "lat": 33.10,
+    "lng": 35.40,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-08T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF soldier severely wounded by Hezbollah drones",
+        "url": "https://www.timesofisrael.com/idf-soldier-severely-wounded-as-hezbollah-drones-target-troops-in-southern-lebanon/"
+      },
+      {
+        "name": "Al Jazeera — Israel bombs Beirut suburb, targets Radwan commander",
+        "url": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["hezbollah", "fpv-drone", "idf", "lebanon", "day70"]
+  },
+  {
+    "id": "evt-new-1415",
+    "title": "CIA assessment leaked: Iran can survive US blockade for 3-4 months",
+    "description": "A confidential CIA analysis obtained by the Washington Post concludes Iran can survive the US naval blockade for 3-4 months before facing severe economic hardship. Iran retains about 75% of prewar mobile launchers and 70% of missile stockpiles. Iran is using overland smuggling routes, floating oil storage on tankers, and slowing oil field production to preserve long-term operations.",
+    "type": "diplomatic",
+    "lat": 32.43,
+    "lng": 53.69,
+    "location": "Iran (nationwide assessment)",
+    "timestamp": "2026-05-07T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post — CIA intelligence Iran blockade missiles",
+        "url": "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["cia", "intelligence", "blockade", "iran", "missiles", "day69"]
+  },
+  {
+    "id": "evt-new-1416",
+    "title": "WaPo satellite analysis: 228 structures damaged at US military bases across Middle East",
+    "description": "Washington Post investigative team used satellite imagery to identify at least 228 structures or pieces of equipment damaged at US military bases across the Middle East — far more than officially acknowledged. Damage includes hangars, barracks, fuel depots, aircraft, radar, communications and air defense equipment. Seven US service members killed, 400+ injured by late April.",
+    "type": "infrastructure",
+    "lat": 29.00,
+    "lng": 47.50,
+    "location": "US military bases across Middle East",
+    "timestamp": "2026-05-06T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Washington Post — Iran US bases satellite images investigation",
+        "url": "https://www.washingtonpost.com/investigations/2026/05/06/iran-us-bases-satellite-images/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 7,
+      "injured": 400
+    },
+    "tags": ["satellite", "bases", "damage", "investigation", "wapo", "day68"]
+  },
+  {
+    "id": "evt-new-1417",
+    "title": "Wang Yi meets Araghchi in Beijing — China endorses 4-point Middle East peace plan",
+    "description": "Chinese Foreign Minister Wang Yi met Iranian FM Araghchi in Beijing, calling for an end to the Iran war and urging Hormuz to reopen. China proposed a 'four shared homelands' concept for Middle East peace. Araghchi endorsed the plan, saying 'We only accept a fair and comprehensive agreement.' Meeting comes one week before Trump-Xi summit May 14-15.",
+    "type": "diplomatic",
+    "lat": 39.90,
+    "lng": 116.40,
+    "location": "Beijing, China",
+    "timestamp": "2026-05-06T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran Araghchi holds talks with China Wang Yi",
+        "url": "https://www.aljazeera.com/news/2026/5/6/irans-araghchi-holds-talks-with-chinas-wang-yi-in-beijing"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["china", "wang-yi", "araghchi", "diplomacy", "peace-plan", "day68"]
+  },
+  {
+    "id": "evt-new-1418",
+    "title": "S&P 500 hits record 7,365 on Iran peace deal optimism",
+    "description": "S&P 500 hit a record 7,365.12 on May 7 (+1.46%) on Iran peace deal hopes. Dow surged 600 points. Markets rallied on reports that US and Iran are closing in on a one-page, 14-point MOU to end the war. Oil prices pulled between peace optimism and continued Hormuz disruption.",
+    "type": "infrastructure",
+    "lat": 40.71,
+    "lng": -74.01,
+    "location": "New York Stock Exchange",
+    "timestamp": "2026-05-07T20:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC — Stock market live updates",
+        "url": "https://www.cnbc.com/2026/05/05/stock-market-today-live-updates.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["stocks", "sp500", "record", "peace-deal", "markets", "day69"]
+  },
+  {
+    "id": "evt-new-1419",
+    "title": "Lebanon-Israel peace talks round 3 announced for Washington May 14-15",
+    "description": "Lebanon and Israel will hold a third round of peace talks in Washington on May 14-15. The US is pushing Israeli de-escalation ahead of the talks despite Israel's Beirut strike that killed Radwan Force commander Ballout. Talks aim to establish a durable ceasefire framework for the Lebanon front.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-07T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Arab News — Lebanon Israel peace talks Washington",
+        "url": "https://www.arabnews.com/node/2642714/middle-east"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["lebanon", "israel", "peace-talks", "washington", "day69"]
   }
 ]

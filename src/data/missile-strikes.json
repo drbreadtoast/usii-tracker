@@ -10109,5 +10109,41 @@
       "killed": 1,
       "injured": 14
     }
+  },
+  {
+    "id": "ms-593",
+    "city": "Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-08",
+    "description": "IDF struck weapons manufacturing infrastructure in Nabatieh as part of overnight campaign hitting ~20 Hezbollah targets across southern Lebanon. At least 1 killed.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-594",
+    "city": "Southern Lebanon (FPV drone zone)",
+    "country": "Lebanon",
+    "lat": 33.10,
+    "lng": 35.40,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-08",
+    "description": "Hezbollah FPV explosive drones struck IDF positions in southern Lebanon, wounding 3 soldiers (1 seriously, 1 moderately, 1 lightly). Separate drone exploded near border.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/idf-soldier-severely-wounded-as-hezbollah-drones-target-troops-in-southern-lebanon/",
+    "weaponType": "FPV explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]
