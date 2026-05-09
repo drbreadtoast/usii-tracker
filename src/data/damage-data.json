@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-09T06:03:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,10 +28,10 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
-    "reported": 1,
-    "rumored": 0,
+    "totalSites": 458,
+    "confirmed": 430,
+    "reported": 16,
+    "rumored": 3,
     "countriesAffected": 15,
     "categories": {
       "military": 67,
@@ -7220,6 +7220,60 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
       "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "Qeshm Island — military installations",
+      "country": "Iran",
+      "lat": 26.95,
+      "lng": 55.80,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "us",
+      "damageLevel": "severe",
+      "description": "CENTCOM defensive strikes destroyed Iranian launch positions on Qeshm Island after 3 US destroyers came under IRGC missile and drone fire in Strait of Hormuz.",
+      "weaponUsed": "Precision strike munitions",
+      "casualties": "Unknown",
+      "source": "Washington Post",
+      "sourceUrl": "https://www.washingtonpost.com/national-security/2026/05/08/us-iran-ceasefire-hormuz-attacks/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "M/T Sea Star III & M/T Sevda — Iranian tankers disabled",
+      "country": "Iran",
+      "lat": 26.50,
+      "lng": 56.30,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "us",
+      "damageLevel": "moderate",
+      "description": "US Navy F/A-18 Super Hornet dropped precision bombs into smokestacks of two Iranian-flagged tankers, disabling both. Third time US attacked ships running blockade. No casualties.",
+      "weaponUsed": "GBU-12 Paveway II",
+      "casualties": "None",
+      "source": "Stars and Stripes",
+      "sourceUrl": "https://www.stripes.com/theaters/middle_east/2026-05-08/us-forces-disable-2-ships-iranian-port-21612562.html",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-462",
+      "name": "Kharg Island — oil terminal/spill",
+      "country": "Iran",
+      "lat": 29.23,
+      "lng": 50.33,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "unknown",
+      "damageLevel": "severe",
+      "description": "Copernicus Sentinel satellites detected massive 71 sq km oil slick west of Kharg Island. Estimates: 3,000-80,000 barrels spilled. Cause unknown. Iran denies spill. Slick spreading southwest toward Gulf states.",
+      "weaponUsed": "Unknown (possible airstrike, malfunction, or sabotage)",
+      "casualties": "Environmental damage",
+      "source": "Voice of Emirates",
+      "sourceUrl": "https://www.voiceofemirates.com/en/news/2026/05/09/potential-environmental-catastrophe-major-oil-spill-spotted-near-irans-kharg-island/",
+      "satelliteImagery": true
     }
   ]
 }
