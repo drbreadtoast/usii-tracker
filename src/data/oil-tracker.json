@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-09T12:06:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 70
+    "conflictDay": 71
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-08",
-      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
+      "date": "2026-05-09",
+      "label": "Day 71 5:06 AM PT \u2014 Brent $101.29/bbl (+26.9% from pre-war $79.84). WTI $95.42/bbl (+26.4% from $75.51). Sporadic Hormuz clashes. US disabled tankers Sea Star III/Sevda. IRGC seized Ocean Koi. Kharg Island 45km\u00b2 oil spill. Trump threatens Project Freedom Plus. Vance meets Qatar PM. Gas $4.53. Hormuz Day 68.",
       "brent": {
-        "price": 100.54,
-        "change": "+26.0%",
-        "changeDollars": "+$20.74"
+        "price": 101.29,
+        "change": "+26.9%",
+        "changeDollars": "+$21.49"
       },
       "wti": {
-        "price": 95.46,
+        "price": 95.42,
         "change": "+26.4%",
-        "changeDollars": "+$19.96"
+        "changeDollars": "+$19.92"
       },
-      "changePercent": 26.0,
-      "lastUpdated": "2026-05-08"
+      "changePercent": 26.9,
+      "lastUpdated": "2026-05-09"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-09T12:06:00Z",
+    "note": "Day 71 5:06 AM PT: Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). AAA gas $4.53/gal \u2014 up 25 cents for 2nd straight week (+48.5% vs $3.05 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 68 blockade. Sporadic clashes.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.55,
-          "date": "2026-05-07"
+          "price": 4.53,
+          "date": "2026-05-09"
         },
-        "change": "+$1.50",
-        "changePercent": "+49.2%",
-        "detail": "Gas $4.55/gal (AAA, May 7). Up 25 cents 2nd straight week. Brent $100.54 (+26.0%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
+        "change": "+$1.48",
+        "changePercent": "+48.5%",
+        "detail": "Gas $4.53/gal (AAA, May 9). Up 25 cents 2nd straight week. Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. Hormuz Day 68.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -733,11 +733,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.558,
-    "gasPriceRegular": 4.558,
+    "regularGasoline": 4.53,
+    "gasPriceRegular": 4.53,
     "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.51",
-    "changePercent": "+49.4%"
+    "changeFromPreWar": "+$1.48",
+    "changePercent": "+48.5%"
   },
   "keyFacts": [
     {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-09T12:06:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-09T12:06:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,9 +28,9 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
-    "reported": 1,
+    "totalSites": 462,
+    "confirmed": 381,
+    "reported": 2,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
@@ -7220,6 +7220,60 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
       "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "Toura village — residential area near Tyre",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.20,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Toura village killed 4 (including 2 women) and wounded 8. Search and rescue continued for a missing girl. Multiple buildings destroyed.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "4 killed, 8 wounded",
+      "source": "PBS News",
+      "sourceUrl": "https://www.pbs.org/newshour/world/israeli-airstrikes-kill-5-in-southern-lebanon-as-hezbollah-rockets-hit-open-areas-in-israel",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "Anqoun — Sidon district",
+      "country": "Lebanon",
+      "lat": 33.53,
+      "lng": 35.38,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Heavy Israeli airstrikes on Tuffahta, Chabriha, and Anqoun in Sidon district. 2 killed, 1 injured per Lebanese Health Ministry.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "2 killed, 1 injured",
+      "source": "Palestine Chronicle",
+      "sourceUrl": "https://www.palestinechronicle.com/live-blog-southern-lebanon-under-fire-as-hezbollah-expands-operations-day-70/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-462",
+      "name": "Kharg Island — oil spill (environmental)",
+      "country": "Iran",
+      "lat": 29.24,
+      "lng": 50.30,
+      "category": "infrastructure",
+      "status": "reported",
+      "date": "2026-05-09",
+      "attributedTo": "unknown",
+      "damageLevel": "severe",
+      "description": "Copernicus Sentinel satellite images detected ~45 sq km oil slick west of Kharg Island, Iran's main oil export hub. Iran denies, calls it 'psychological warfare.' Environmental catastrophe risk.",
+      "weaponUsed": "Unknown — possible infrastructure damage or tanker waste",
+      "casualties": "None reported",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-895580",
+      "satelliteImagery": true
     }
   ]
 }
