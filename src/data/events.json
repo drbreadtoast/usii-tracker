@@ -49122,5 +49122,204 @@
       "injured": 0
     },
     "tags": ["lebanon", "israel", "peace-talks", "washington", "day69"]
+  },
+  {
+    "id": "evt-new-1420",
+    "title": "US fires on and disables 2 Iranian oil tankers in Gulf of Oman",
+    "description": "US forces fired on and disabled two Iranian-flagged oil tankers (M/T Sea Star III and M/T Sevda) attempting to dock at a port in the Gulf of Oman, evading the US naval blockade. Fighter jets struck the tankers' smokestacks. A cargo vessel caught fire — 1 Iranian sailor killed, 4 missing, 10 injured.",
+    "type": "naval",
+    "lat": 25.50,
+    "lng": 57.00,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-05-08T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS — US fires on and disables 2 Iranian tankers",
+        "url": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz"
+      },
+      {
+        "name": "NPR — Iran war updates May 8",
+        "url": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 10
+    },
+    "tags": ["tanker", "naval", "blockade", "gulf-of-oman", "day70"]
+  },
+  {
+    "id": "evt-new-1421",
+    "title": "Iran attacks UAE with 2 ballistic missiles and 3 drones",
+    "description": "UAE Defense Ministry reported air defenses engaged 2 ballistic missiles and 3 drones launched by Iran. Three people wounded. No significant structural damage reported. First Iranian attack on UAE since the May 4 escalation.",
+    "type": "strike",
+    "lat": 24.45,
+    "lng": 54.65,
+    "location": "United Arab Emirates",
+    "timestamp": "2026-05-08T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PBS — UAE reports Iranian drone and missile attack",
+        "url": "https://www.pbs.org/newshour/world/uae-reports-iranian-drone-and-missile-attack-after-u-s-says-it-traded-fire-with-tehran"
+      },
+      {
+        "name": "HuffPost — UAE drone and missile attack",
+        "url": "https://www.huffpost.com/entry/uae-drone-missile-attack-iran-ceasefire_n_69fdc035e4b065a1677da970"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["uae", "iran", "ballistic-missile", "drone", "day70"]
+  },
+  {
+    "id": "evt-new-1422",
+    "title": "Iran seizes oil tanker 'Ocean Koi' in Gulf of Oman",
+    "description": "Iran's Navy seized the Barbados-flagged oil tanker Ocean Koi in the Gulf of Oman, claiming it was attempting to 'disrupt and harm' Iran's oil exports. The US-sanctioned tanker was carrying Iranian crude. Vessel escorted to Iran's southern coast.",
+    "type": "naval",
+    "lat": 25.30,
+    "lng": 57.50,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-05-08T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran seizes oil tanker",
+        "url": "https://www.aljazeera.com/news/2026/5/8/iran-says-it-has-seized-oil-tanker-over-attempts-to-disrupt-its-oil-exports"
+      },
+      {
+        "name": "PressTV — Iran Navy seizes Ocean Koi",
+        "url": "https://www.presstv.ir/Detail/2026/05/08/768264/Iran-Navy-seizes-oil-tanker-Ocean-Koi-off-Oman-over-violations"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["tanker", "seizure", "iran-navy", "gulf-of-oman", "day70"]
+  },
+  {
+    "id": "evt-new-1423",
+    "title": "Israeli airstrikes kill 5 in southern Lebanon — Toura, Kfar Chouba",
+    "description": "Israeli airstrikes on southern Lebanon killed at least 5. A strike on Toura village near Tyre killed 4 and wounded 8. Another near Kfar Chouba killed a Lebanese Civil Defense paramedic. IDF also struck targets in Dibbin and Nabatieh.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.20,
+    "location": "Toura, southern Lebanon",
+    "timestamp": "2026-05-08T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "NBC News — Israeli airstrikes kill 5 in southern Lebanon",
+        "url": "https://www.nbcnews.com/world/lebanon/israeli-airstrikes-kill-5-southern-lebanon-hezbollah-rockets-hit-open-rcna344301"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 5,
+      "injured": 8
+    },
+    "tags": ["lebanon", "airstrike", "toura", "tyre", "day70"]
+  },
+  {
+    "id": "evt-new-1424",
+    "title": "Hezbollah fires rockets at Haifa and Western Galilee — retaliating for Beirut strike",
+    "description": "Hezbollah launched rockets and drones at northern Israel targeting Haifa Bay and Western Galilee, retaliating for the May 6 Beirut strike that killed Radwan Force commander Ballout. Rockets hit open areas. 2 IDF troops wounded by drones near Lebanon border. IDF destroyed a Hezbollah rocket launching platform.",
+    "type": "strike",
+    "lat": 32.82,
+    "lng": 35.00,
+    "location": "Western Galilee / Haifa Bay, Israel",
+    "timestamp": "2026-05-08T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah fires rockets at Haifa area",
+        "url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-haifa-area-drones-wound-2-troops-in-north-israel-1-in-lebanon/"
+      },
+      {
+        "name": "PBS — Israeli airstrikes kill 5 as Hezbollah rockets hit open areas",
+        "url": "https://www.pbs.org/newshour/world/israeli-airstrikes-kill-5-in-southern-lebanon-as-hezbollah-rockets-hit-open-areas-in-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": ["hezbollah", "rockets", "haifa", "galilee", "retaliation", "day70"]
+  },
+  {
+    "id": "evt-new-1425",
+    "title": "Trump warns Iran of 'one big glow' — widely interpreted as nuclear threat",
+    "description": "President Trump called US strikes on Iran 'just a love tap' and warned: 'If there's no ceasefire, you're just going to have to look at one big glow coming out of Iran.' Widely interpreted as an implicit nuclear threat. Despite active clashes in Hormuz, Trump insisted the ceasefire remains in effect.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.05,
+    "location": "Lincoln Memorial, Washington DC",
+    "timestamp": "2026-05-08T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Responsible Statecraft — Did Trump threaten to hit Iran with nukes?",
+        "url": "https://responsiblestatecraft.org/iran-trump-nuclear-weapons/"
+      },
+      {
+        "name": "ABC7 — Trump Iran war updates",
+        "url": "https://abc7.com/live-updates/iran-war-news-trump-project-freedom-strait-of-hormuz/19037371/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "nuclear", "threat", "love-tap", "day70"]
+  },
+  {
+    "id": "evt-new-1426",
+    "title": "Rubio meets Pope Leo XIV at Vatican — 2.5-hour discussion on Iran peace",
+    "description": "Secretary of State Rubio met Pope Leo XIV for 2.5 hours at the Vatican. Discussed 'efforts to achieve a durable peace in the Middle East.' Rubio gifted a crystal football; Pope gifted an olive wood pen ('the plant of peace'). Rubio then met Italian PM Meloni, urging Europe to 'share the Iran burden.'",
+    "type": "diplomatic",
+    "lat": 41.90,
+    "lng": 12.45,
+    "location": "Vatican City / Rome, Italy",
+    "timestamp": "2026-05-07T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NBC News — Rubio meets Pope Leo",
+        "url": "https://www.nbcnews.com/world/pope-leo-xiv/marco-rubio-meets-pope-leo-trump-criticism-iran-war-vatican-rcna343991"
+      },
+      {
+        "name": "Vatican News — Pope Leo Rubio meeting",
+        "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-marco-rubio-usa-secretary-state.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["rubio", "pope-leo", "vatican", "diplomacy", "peace", "day69"]
   }
 ]

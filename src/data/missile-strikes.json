@@ -10145,5 +10145,77 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Toura (near Tyre)",
+    "country": "Lebanon",
+    "lat": 33.27,
+    "lng": 35.20,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-08",
+    "description": "Israeli airstrike on Toura village near Tyre killed 4 and wounded 8.",
+    "source": "NBC News",
+    "sourceUrl": "https://www.nbcnews.com/world/lebanon/israeli-airstrikes-kill-5-southern-lebanon-hezbollah-rockets-hit-open-rcna344301",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 4,
+      "injured": 8
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Kfar Chouba",
+    "country": "Lebanon",
+    "lat": 33.50,
+    "lng": 35.68,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-08",
+    "description": "Israeli airstrike near Kfar Chouba killed a Lebanese Civil Defense paramedic.",
+    "source": "NBC News",
+    "sourceUrl": "https://www.nbcnews.com/world/lebanon/israeli-airstrikes-kill-5-southern-lebanon-hezbollah-rockets-hit-open-rcna344301",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Western Galilee / Haifa Bay",
+    "country": "Israel",
+    "lat": 32.82,
+    "lng": 35.00,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-08",
+    "description": "Hezbollah rockets and drones targeted Haifa Bay and Western Galilee, retaliating for May 6 Beirut strike. Rockets hit open areas. 2 IDF troops wounded.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-haifa-area-drones-wound-2-troops-in-north-israel-1-in-lebanon/",
+    "weaponType": "Rockets and drones",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
+  },
+  {
+    "id": "ms-598",
+    "city": "UAE (Abu Dhabi area)",
+    "country": "UAE",
+    "lat": 24.45,
+    "lng": 54.65,
+    "strikeType": "ballistic missile",
+    "attributedTo": "iran",
+    "date": "2026-05-08",
+    "description": "Iran launched 2 ballistic missiles and 3 drones at UAE. All intercepted by air defenses. 3 wounded.",
+    "source": "PBS",
+    "sourceUrl": "https://www.pbs.org/newshour/world/uae-reports-iranian-drone-and-missile-attack-after-u-s-says-it-traded-fire-with-tehran",
+    "weaponType": "Ballistic missiles + drones",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]

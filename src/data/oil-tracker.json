@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-09T00:13:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 70
+    "conflictDay": 71
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-08",
-      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
+      "label": "Day 71 5:13 PM PT \u2014 Brent $101.73/bbl (+27.5% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). US disabled 2 Iranian tankers. Iran attacks UAE. Iran seizes Ocean Koi. Trump 'one big glow' threat. Rubio expects Iran response by Friday. Consumer sentiment record low 48.2. Gas $4.55. Hormuz Day 68.",
       "brent": {
-        "price": 100.54,
-        "change": "+26.0%",
-        "changeDollars": "+$20.74"
+        "price": 101.73,
+        "change": "+27.5%",
+        "changeDollars": "+$21.93"
       },
       "wti": {
         "price": 95.46,
         "change": "+26.4%",
         "changeDollars": "+$19.96"
       },
-      "changePercent": 26.0,
+      "changePercent": 27.5,
       "lastUpdated": "2026-05-08"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-09T00:13:00Z",
+    "note": "Day 71 5:13 PM PT: Brent $101.73 (+27.5%), WTI $95.46 (+26.4%). US disabled 2 Iranian tankers. Iran attacks UAE. Gas $4.55/gal (AAA). Consumer sentiment record low 48.2. Hormuz Day 68 blockade.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-09T00:13:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1332,6 +1332,13 @@
       "brent": 101.96,
       "wti": 95.66,
       "label": "Day 69 5:12 AM PT \u2014 Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. Pezeshkian confirms 2.5-hour meeting with Mojtaba Khamenei \u2014 first proof of life. Trump: deal 'very possible.' Qatar PM: 'high probability.' S&P 500 rallies to 7,365 (+1.46%). WaPo: Iran damaged 228 structures at US bases. US intel: nuclear breakout unchanged at 9-12 months. Saeed Jalili may replace Ghalibaf. Gas $4.54. Hormuz Day 66.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-08",
+      "brent": 101.73,
+      "wti": 95.46,
+      "label": "Day 71 5:13 PM PT \u2014 Brent $101.73 (+27.5%), WTI $95.46 (+26.4%). US disabled 2 Iranian tankers (Sea Star III, Sevda). Iran attacks UAE (2 BMs + 3 drones, 3 wounded). Iran seizes tanker Ocean Koi. Trump: 'one big glow' nuclear threat. Rubio expects Iran deal response by Friday. Consumer sentiment record low 48.2. 5 killed in Israeli strikes on S. Lebanon. Gas $4.55. Hormuz Day 68.",
       "isEvent": true
     }
   ]

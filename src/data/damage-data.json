@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-09T00:13:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 425
+    "totalSites": 457
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
+    "totalSites": 457,
+    "confirmed": 382,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7219,6 +7219,42 @@
       "casualties": "1+ killed, several injured",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "Toura village — residential area near Tyre",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.20,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Toura village near Tyre killed 4 and wounded 8. Residential area struck.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "4 killed, 8 wounded",
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/world/lebanon/israeli-airstrikes-kill-5-southern-lebanon-hezbollah-rockets-hit-open-rcna344301",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "M/T Sea Star III — Iranian oil tanker disabled",
+      "country": "Iran",
+      "lat": 25.50,
+      "lng": 57.00,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-08",
+      "attributedTo": "us",
+      "damageLevel": "severe",
+      "description": "US fighter jets struck smokestacks of Iranian tanker M/T Sea Star III in Gulf of Oman, disabling it. Cargo vessel caught fire — 1 sailor killed, 4 missing, 10 injured.",
+      "weaponUsed": "Fighter jet munitions",
+      "casualties": "1 killed, 4 missing, 10 injured",
+      "source": "PBS",
+      "sourceUrl": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz",
       "satelliteImagery": false
     }
   ]

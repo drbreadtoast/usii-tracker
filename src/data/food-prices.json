@@ -1,35 +1,35 @@
 {
-  "lastUpdated": "2026-05-08T12:13:00Z",
+  "lastUpdated": "2026-05-09T00:13:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 5.95,
-      "change": "+5.9%",
-      "detail": "$5.95/bu (May 7 CBOT, down 1.77% on day). Off 2-year high of $6.50 (April 28). YoY +16%. Fertilizer prices up 30-40% from pre-war. USDA forecasts food-at-home up 3.1% in 2026.",
-      "source": "TradingEconomics \u2014 Wheat May 5",
-      "sourceUrl": "https://tradingeconomics.com/commodity/wheat"
+      "current": 6.12,
+      "change": "+8.9%",
+      "detail": "$6.12/bu (May 8 CBOT July). Bloomberg: food prices at 3-year high. Below farmer break-even (~$7.96/bu). Fertilizer up 20-40% since war began. USDA forecasts food-at-home up 3.1% in 2026.",
+      "source": "Capital Press \u2014 May 8",
+      "sourceUrl": "https://capitalpress.com/2026/05/08/wheat-corn-soybean-prices-are-below-breakeven-signaling-fourth-year-of-losses/"
     },
     {
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": "$4.75",
-      "change": "+10.2%",
-      "detail": "Corn $4.75/bu (May 5, highest since April 2025). Driven by strong export demand + drought in Nebraska/Oklahoma. Fertilizer costs forcing acreage reductions. July futures at $4.80.",
-      "source": "TradingEconomics \u2014 Corn May 5",
-      "sourceUrl": "https://tradingeconomics.com/commodity/corn"
+      "current": "$4.68",
+      "change": "+8.6%",
+      "detail": "Corn $4.68/bu (May 8 CBOT July). Below farmer break-even (~$5/bu). Driven by fertilizer/transport costs from Hormuz disruption. Bloomberg: food prices at highest in 3+ years.",
+      "source": "Capital Press \u2014 May 8",
+      "sourceUrl": "https://capitalpress.com/2026/05/08/wheat-corn-soybean-prices-are-below-breakeven-signaling-fourth-year-of-losses/"
     },
     {
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": "$11.86",
-      "change": "+17.2%",
-      "detail": "Soybeans $11.86/bu (May 1 CBOT). Soybean oil at historic highs \u2014 supported by biofuel demand as crude disruptions boost biodiesel.",
-      "source": "TradingEconomics \u2014 Soybeans May 1",
-      "sourceUrl": "https://tradingeconomics.com/commodity/soybeans"
+      "current": "$11.84",
+      "change": "+17.0%",
+      "detail": "Soybeans $11.84/bu (May 8 CBOT, +0.58% on day). Below break-even (~$12.27/bu). Soybean oil at historic highs on biofuel demand. Hormuz disruptions boosting biodiesel.",
+      "source": "Capital Press \u2014 May 8",
+      "sourceUrl": "https://capitalpress.com/2026/05/08/wheat-corn-soybean-prices-are-below-breakeven-signaling-fourth-year-of-losses/"
     },
     {
       "name": "Rice",
@@ -87,8 +87,8 @@
     "preWarWeekly": 168,
     "currentWeekly": 182,
     "changePercent": 8.3,
-    "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "USDA forecasts food-at-home +2.5% for full year 2026. Farm wheat up 8.4%. Palm/soybean oil each +8%. Tehran wheat flour up 120% in one month, nearly 200% YoY. IRC operational costs spiked 50% due to war disruptions. If Hormuz persists through summer, could add 5-7 percentage points. Consumer sentiment at multi-year low. 318M face hunger globally (FAO)."
+    "usdaForecast2026": "3.1% food-at-home (USDA update, nearly double Jan projection), rising energy costs may push higher",
+    "note": "USDA forecasts food-at-home up 3.1% in 2026 (nearly double Jan projection). Bloomberg: food prices at highest in 3+ years. Beef/veal +12.1% YoY. 80%+ consumers shifting shopping behavior. Tehran wheat flour up 120% in one month. If Hormuz persists through summer, could add 5-7 more percentage points."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -98,5 +98,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 70 11:11 PM PT: USDA forecasts food-at-home up 3.1% in 2026 (nearly double Jan projection). Beef/veal +12.1% YoY. Ground beef $6.68/lb record. Wheat $5.95/bu (-1.77% on day, +16% YoY). Corn $4.52/bu (flat, near 1-yr highs). Soybeans +15.94% YoY. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on Hormuz clash. Gas $4.558 (+49.4%). Hormuz Day 67 blockade. Food inflation lag: commodity/energy shocks take 3-6 months to fully reach shelves."
+  "context": "Day 71 5:13 PM PT: Bloomberg: food prices at highest in 3+ years. USDA forecasts food-at-home up 3.1% in 2026. Wheat $6.12/bu (+8.9%). Corn $4.68/bu (+8.6%). Soybeans $11.84/bu (+17%). Brent $101.73 (+27.5%), WTI $95.46 (+26.4%). Gas $4.55 (+49.2%). Consumer sentiment record low 48.2. Hormuz Day 68 blockade."
 }
