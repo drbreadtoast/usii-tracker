@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 67,
+  "blockadeDay": 68,
   "dailyTransits": 0,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-08T12:13:00Z",
+  "lastUpdated": "2026-05-09T19:04:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -14,7 +14,7 @@
     "containershipsTrapped": 180,
     "tankersAtAnchor": 160,
     "vlccDailyRate": 800000,
-    "vesselsDamaged": 32,
+    "vesselsDamaged": 36,
     "vesselsSunk": 3,
     "insuranceStatus": "withdrawn",
     "naviesPresent": [
@@ -24,10 +24,10 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 70 5:13 AM PT (May 8): Hormuz BLOCKADE DAY 67 effectively closed. Lloyd's confirms zero transits since May 4. 22,500 mariners on 1,550+ vessels trapped. 147 containerships (470K TEU) stuck. CMA CGM San Antonio attacked May 5 with crew injuries. Chinese tanker JV Innovation attacked May 4 (first Chinese vessel). S. Korea routing 4th tanker via Red Sea. CIA: Iran survives blockade 3-4 months. Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Gas $4.55.",
+    "tankerTraffic": "Day 71 12:04 PM PT (May 9): Hormuz BLOCKADE DAY 68 effectively closed. May 8: US F/A-18s from USS George H.W. Bush disable 2 Iranian tankers (M/T Sea Star III, M/T Sevda) by dropping bombs down smokestacks; Iran claims 10 wounded, 5 missing. Iran missile-drone-small-boat attack on US destroyers Truxtun/Mason/Rafael Peralta — all transited safely; CENTCOM struck Bandar Abbas/Qeshm/Bandar Kargan ports. CENTCOM total: 58 commercial vessels turned around to date. ~1,500+ ships stranded, 22,500+ mariners trapped. 31 Iranian tankers (53M bbl) stuck in Gulf. April total: 191 vessels (5% of pre-war monthly). Brent $101.29 (+26.9%), WTI $95.60 (+26.6%). Gas $4.530.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
-    "lastUpdated": "2026-05-04T00:02:00Z",
+    "lastUpdated": "2026-05-09T19:04:00Z",
     "tankersTransitedSinceStart": 21,
     "dailyAverageAIS": 13,
     "vesselsAtAnchor": 400,
@@ -40,11 +40,11 @@
     "peacetimeDailyTransits": 120,
     "reductionPercent": 95,
     "vesselsStranded": 800,
-    "commercialAttacks": 30,
+    "commercialAttacks": 32,
     "seafarersKilled": 8,
     "seafarersAffected": 40000,
     "dailyTransits": 8,
-    "commercialShipsAttacked": 33,
+    "commercialShipsAttacked": 35,
     "totalTransitsSinceBlockade": 302,
     "strangedVessels": 2163,
     "shipsTrapped": 800,
@@ -829,6 +829,18 @@
     {
       "date": "2026-05-08",
       "event": "Day 70: Hormuz BLOCKADE DAY 67. UAE intercepted fresh Iranian missile/drone attacks. 22,500 mariners on 1,550+ commercial vessels trapped. Only 40 ships crossed strait in past week vs. 120/day pre-war. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on Hormuz tensions. Iran reviewing 14-point MOU. Gas $4.558.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-08",
+      "event": "Day 70: US F/A-18s from USS George H.W. Bush disable 2 Iranian tankers (M/T Sea Star III, M/T Sevda) by dropping precision munitions down smokestacks in Gulf of Oman. Iran claims 10 wounded, 5 missing. Iran missile-drone-small-boat attack on US destroyers Truxtun, Mason, Rafael Peralta — all transited safely; CENTCOM retaliated strikes on Bandar Abbas, Qeshm, Bandar Kargan ports. CENTCOM total: 58 commercial vessels turned around to date. UAE intercepts 2 BMs + 3 drones — 3 injured.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-09",
+      "event": "Day 71: BLOCKADE DAY 68. Trump describes US-Iran fire exchange as 'just a love tap,' insists ceasefire holds, threatens 'Project Freedom Plus' escalated naval escort if Iran talks fail. Brent $101.29 (+26.9%), WTI $95.60 (+26.6%) reversed week's ~7% sell-off after May 8 clash. Hezbollah claims Mt. Meron drone swarm — first cross-border strike since April truce. IDF 85+ Hezbollah strikes May 9. Iran 14-point MOU response expected.",
       "status": "effectively_closed",
       "barrels": 0
     }

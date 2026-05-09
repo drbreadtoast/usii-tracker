@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-08T12:13:00Z",
-  "currentAverage": 4.55,
+  "lastUpdated": "2026-05-09T19:04:00Z",
+  "currentAverage": 4.530,
   "preWarAverage": 3.05,
-  "changePercent": 49.18,
+  "changePercent": 48.52,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -593,9 +593,18 @@
     },
     {
       "date": "2026-05-08",
+      "price": 4.55,
       "brent": 100.54,
       "wti": 95.46,
       "label": "Day 70 5:13 AM PT \u2014 Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. CIA leaked: Iran survives blockade 3-4 months. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55 (+49.2%). Hormuz Day 67.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-09",
+      "price": 4.530,
+      "brent": 101.29,
+      "wti": 95.60,
+      "label": "Day 71 12:04 PM PT \u2014 AAA $4.530/gal (+48.5% from $3.05) \u2014 slight pullback from $4.55 mid-week. Brent $101.29 (+26.9%), WTI $95.60 (+26.6%) reversed week's ceasefire-hope sell-off after May 8 US-Iran clash. US F/A-18s disable 2 Iranian tankers (Sea Star III, Sevda). Iran missile-drone-small-boat attack on US destroyers. CENTCOM strikes 3 Iranian ports. UAE intercepts 2 BMs + 3 drones. IDF 85+ Hezbollah strikes. S&P 500 record 7,398.93. Hormuz Day 68.",
       "isEvent": true
     }
   ],
@@ -646,29 +655,29 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 8 5:13 AM PT)",
-      "crudePerBarrel": 100.54,
+      "label": "Current (May 9 12:04 PM PT)",
+      "crudePerBarrel": 101.29,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$100.54 \u00f7 42 gal (Brent, May 8)",
-          "value": 2.394,
+          "formula": "$101.29 \u00f7 42 gal (Brent, May 9)",
+          "value": 2.412,
           "percent": 53,
-          "change": "+$0.77"
+          "change": "+$0.79"
         },
         {
           "name": "Refining",
           "formula": "+war-risk premium",
-          "value": 0.68,
+          "value": 0.66,
           "percent": 15,
-          "change": "+$0.28"
+          "change": "+$0.26"
         },
         {
           "name": "Distribution & Marketing",
           "formula": "+supply chain disruption",
-          "value": 0.31,
+          "value": 0.30,
           "percent": 7,
-          "change": "+$0.16"
+          "change": "+$0.15"
         },
         {
           "name": "Federal Excise Tax",
@@ -687,23 +696,23 @@
         {
           "name": "Retail Margin",
           "formula": "Station profit",
-          "value": 0.302,
-          "percent": 7,
-          "change": "+$0.182"
+          "value": 0.624,
+          "percent": 14,
+          "change": "+$0.504"
         }
       ],
-      "total": 4.55,
-      "note": "National average $4.55/gal (AAA, May 7). Up 25 cents for 2nd straight week. Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal. Hormuz Day 67 blockade.",
-      "crude": 2.394,
+      "total": 4.530,
+      "note": "National average $4.530/gal (AAA, May 9). Slight pullback from $4.55 mid-week. Brent $101.29 (+26.9%), WTI $95.60 (+26.6%). GasBuddy still warns $5/gal by Memorial Day. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal. Hormuz Day 68 blockade.",
+      "crude": 2.412,
       "taxes": 0.534,
-      "refining": 0.714,
-      "distribution": 0.40,
-      "regularGasoline": 4.558,
-      "changeFromPreWar": "+$1.51",
-      "changePercent": "+49.4%",
-      "lastUpdated": "2026-05-08T06:11:00Z",
-      "date": "2026-05-08"
+      "refining": 0.66,
+      "distribution": 0.30,
+      "regularGasoline": 4.530,
+      "changeFromPreWar": "+$1.48",
+      "changePercent": "+48.5%",
+      "lastUpdated": "2026-05-09T19:04:00Z",
+      "date": "2026-05-09"
     }
   },
-  "context": "Day 70 11:11 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil rebounding: Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) on US-Iran Hormuz fire exchange. IRGC attacked 3 US destroyers; CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'love tap,' 1-week ultimatum. Hezbollah record 105 attacks on Israel. Iran creates PGSA. UAE intercepts attacks. Hormuz Day 67 blockade."
+  "context": "Day 71 12:04 PM PT: National average $4.530/gal per AAA (+48.5% from $3.05) — slight pullback from $4.55 mid-week. Brent $101.29 (+26.9%), WTI $95.60 (+26.6%) reversed week's ceasefire-hope sell-off after May 8 US-Iran Hormuz fire exchange. US F/A-18s disable 2 Iranian tankers (Sea Star III, Sevda). CENTCOM strikes 3 Iranian ports. UAE intercepts 2 BMs + 3 drones. Hezbollah claims Mt. Meron drone swarm — first since April truce. Trump 'love tap,' threatens Project Freedom Plus. Hormuz Day 68 blockade."
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-09T19:04:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 70
+    "conflictDay": 71
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-08",
-      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
+      "date": "2026-05-09",
+      "label": "Day 71 12:04 PM PT \u2014 Brent $101.29/bbl (+26.9% from pre-war $79.80). WTI $95.60/bbl (+26.6% from $75.50). Reversed week's ceasefire-hope sell-off (~7% loss earlier) after May 8 US-Iran clash in Hormuz. US F/A-18s disable 2 Iranian tankers (Sea Star III, Sevda) \u2014 Iran claims 10 wounded, 5 missing. CENTCOM strikes 3 Iranian ports. UAE intercepts 2 BMs + 3 drones. IDF 85+ Hezbollah strikes May 9. S&P 500 record 7,398.93. Gas $4.530. Hormuz Day 68 effectively closed.",
       "brent": {
-        "price": 100.54,
-        "change": "+26.0%",
-        "changeDollars": "+$20.74"
+        "price": 101.29,
+        "change": "+26.9%",
+        "changeDollars": "+$21.49"
       },
       "wti": {
-        "price": 95.46,
-        "change": "+26.4%",
-        "changeDollars": "+$19.96"
+        "price": 95.60,
+        "change": "+26.6%",
+        "changeDollars": "+$20.10"
       },
-      "changePercent": 26.0,
-      "lastUpdated": "2026-05-08"
+      "changePercent": 26.9,
+      "lastUpdated": "2026-05-09"
     },
     "priceHistory": [
       {
@@ -454,6 +454,13 @@
         "wti": 96.0,
         "label": "Day 59 PM PT (Sunday electronic) \u2014 Brent $107.97 (+35.2%), WTI $96.00 (+27.1%). Surged 2.5% from Friday close on WHCD shooting + stalled talks. Araghchi meets Putin in Moscow. Trump: 'they can call.' IDF soldier Fooks KIA by Hezbollah drone. 14 killed in Lebanon. Israel evacuates 7 towns. Hormuz: 37 ships redirected. OFAC froze $344M crypto. War Powers May 1 (4 days). Gas $4.031 AAA.",
         "isEvent": true
+      },
+      {
+        "date": "2026-05-08",
+        "brent": 101.29,
+        "wti": 95.60,
+        "label": "Day 70 PM \u2014 Brent $101.29 (+26.9%); WTI $95.60 (+26.6%). Week posted ~7% loss on ceasefire hopes BEFORE Friday's tanker clash reversed sentiment. US F/A-18s disable 2 Iranian tankers (Sea Star III, Sevda) in Gulf of Oman. CENTCOM strikes Iranian ports Bandar Abbas/Qeshm/Bandar Kargan. Iran missile-drone-small-boat attack on US destroyers. UAE intercepts. Trump 'love tap.' Gas $4.530.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -639,8 +646,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-09T19:04:00Z",
+    "note": "Day 71 12:04 PM PT: Brent $101.29 (+26.9%), WTI $95.60 (+26.6%). Reversed week's ~7% sell-off after May 8 US-Iran clash in Hormuz. AAA gas $4.530/gal \u2014 slight pullback from $4.55 mid-week (+48.5% vs $3.05 pre-war). Hormuz Day 68 blockade. US disabled 2 Iranian tankers May 8.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,13 +657,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.55,
-          "date": "2026-05-07"
+          "price": 4.530,
+          "date": "2026-05-09"
         },
-        "change": "+$1.50",
-        "changePercent": "+49.2%",
-        "detail": "Gas $4.55/gal (AAA, May 7). Up 25 cents 2nd straight week. Brent $100.54 (+26.0%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
-        "sourceUrl": "https://gasprices.aaa.com/"
+        "change": "+$1.48",
+        "changePercent": "+48.5%",
+        "detail": "Gas $4.530/gal (AAA, May 9). Slight pullback from $4.55 mid-week. Brent $101.29 (+26.9%), WTI $95.60 (+26.6%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
+        "sourceUrl": "https://newsroom.aaa.com/2026/05/national-average-rises-25-cents-for-second-straight-week/"
       },
       {
         "type": "Diesel",
@@ -733,11 +740,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.558,
-    "gasPriceRegular": 4.558,
+    "regularGasoline": 4.530,
+    "gasPriceRegular": 4.530,
     "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.51",
-    "changePercent": "+49.4%"
+    "changeFromPreWar": "+$1.48",
+    "changePercent": "+48.5%"
   },
   "keyFacts": [
     {
@@ -834,7 +841,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-09T19:04:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
