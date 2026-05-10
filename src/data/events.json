@@ -49122,5 +49122,279 @@
       "injured": 0
     },
     "tags": ["lebanon", "israel", "peace-talks", "washington", "day69"]
+  },
+  {
+    "id": "evt-new-1420",
+    "title": "IDF strikes 85+ Hezbollah targets across Lebanon in 24 hours",
+    "description": "IDF carried out heaviest strike campaign on Lebanon in months, hitting more than 85 Hezbollah infrastructure sites including weapon storage facilities, launchers, and production sites. Targets struck across south Lebanon (Saksakiyeh, Toura, Bourj Rahhal, Maifadoun, Bint Jbeil district) and Bekaa Valley (Nabi Sheit). UN called it the most intense escalation since the truce started.",
+    "type": "strike",
+    "lat": 33.41,
+    "lng": 35.30,
+    "location": "Southern Lebanon and Bekaa Valley",
+    "timestamp": "2026-05-09T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF strikes targeted Hezbollah weapons manufacturing",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-south-lebanon-strikes-targeted-hezbollah-weapons-manufacturing/"
+      },
+      {
+        "name": "Al Jazeera — Israeli attacks across Lebanon kill at least 19",
+        "url": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 39,
+      "injured": 60
+    },
+    "tags": ["lebanon", "israel", "hezbollah", "strike", "escalation", "day71"]
+  },
+  {
+    "id": "evt-new-1421",
+    "title": "Saksakiyeh strike kills 7 including child, wounds 15",
+    "description": "Israeli airstrike hit a multi-story building in Saksakiyeh village in southern Lebanon. Lebanese Health Ministry confirmed 7 killed including a child, and 15 wounded including 3 children. IDF said it targeted 'Hezbollah terrorists operating from within a structure used for military purposes.' One of the deadliest single strikes since April ceasefire.",
+    "type": "strike",
+    "lat": 33.4128,
+    "lng": 35.3044,
+    "location": "Saksakiyeh, Lebanon",
+    "timestamp": "2026-05-09T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli attacks across Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    },
+    "tags": ["lebanon", "saksakiyeh", "civilians", "strike", "day71"]
+  },
+  {
+    "id": "evt-new-1422",
+    "title": "Hezbollah drone wounds 3 IDF reservists at Misgav Am",
+    "description": "Hezbollah-launched explosive drone struck IDF reservists near Misgav Am in northern Israel, wounding 3 — one seriously, two moderately. Hezbollah also launched second drone at IDF helicopter landing pad in Shlomi. Both drones penetrated Israeli air defenses using fiber-optic guidance to evade detection. Confirmed Hezbollah strike inside Israeli territory ahead of May 14 Washington talks.",
+    "type": "strike",
+    "lat": 33.234,
+    "lng": 35.557,
+    "location": "Misgav Am, northern Israel",
+    "timestamp": "2026-05-09T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post — IDF reservists wounded by Hezbollah drone",
+        "url": "https://www.jpost.com/middle-east/article-895604"
+      },
+      {
+        "name": "Free Malaysia Today — Hezbollah targets troops with drones",
+        "url": "https://www.freemalaysiatoday.com/category/highlight/2026/05/10/hezbollah-says-it-targeted-troops-in-northern-israel-with-drones"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["hezbollah", "drone", "misgav-am", "idf", "fpv", "day71"]
+  },
+  {
+    "id": "evt-new-1423",
+    "title": "WSJ reveals Israel built secret base in Iraq's western desert",
+    "description": "Wall Street Journal published exclusive that Israel built and operated a secret military base in Iraq's western desert to support the Iran air campaign, including search-and-rescue teams for downed pilots. WSJ revealed Israeli airstrikes earlier in war (March 2026) killed 1 Iraqi soldier and wounded 2 when Iraqi forces approached the base after a shepherd reported helicopter activity. Iraq had filed UN complaint blaming US, which had denied involvement.",
+    "type": "infrastructure",
+    "lat": 33.30,
+    "lng": 39.50,
+    "location": "Western Iraqi desert",
+    "timestamp": "2026-05-09T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Iran International — Israel built secret Iraq base for Iran war",
+        "url": "https://www.iranintl.com/en/202605094378"
+      },
+      {
+        "name": "US News — Israel built and defended secret base in Iraq",
+        "url": "https://www.usnews.com/news/world/articles/2026-05-09/israel-built-and-defended-a-secret-base-in-iraq-for-iran-war-wsj-reports"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["israel", "iraq", "secret-base", "wsj", "day71"]
+  },
+  {
+    "id": "evt-new-1424",
+    "title": "Iran formally responds to US 14-point peace proposal via Pakistan",
+    "description": "Iran formally delivered its response to the US 14-point peace proposal through Pakistani mediation. Key Iranian conditions: no nuclear weapon, halt enrichment for 12 years, maritime security in Hormuz. FM spokesman Esmaeil Baghaei said Iran 'would not respond to deadlines or ultimatums.' Comes after Russia and Saudi Arabia jointly called for 'sustainable, long-term agreement.' Trump warned bombing would resume 'at much higher level' if no deal.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran (via Islamabad)",
+    "timestamp": "2026-05-10T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran sends response to US proposal via Pakistan",
+        "url": "https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan"
+      },
+      {
+        "name": "Times of Israel — Iran keeps US waiting for response",
+        "url": "https://www.timesofisrael.com/iran-keeps-us-waiting-for-its-response-to-latest-proposal-after-flareups-in-fighting/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "diplomacy", "peace-proposal", "pakistan", "mediation", "day72"]
+  },
+  {
+    "id": "evt-new-1425",
+    "title": "IRGC warns 'missiles locked' on US targets in Persian Gulf",
+    "description": "IRGC Aerospace Force commander Brig. Gen. Sayyed Majid Mousavi: 'missiles and drones are locked on American targets in the region and the aggressor enemy ships and are awaiting the command to fire.' IRGC Navy Command added: 'Any attack on Iranian oil tankers and commercial vessels will result in a heavy attack on one of the American centres in the region and enemy ships.' Most direct Iranian military threat against US assets in weeks.",
+    "type": "diplomatic",
+    "lat": 27.15,
+    "lng": 56.00,
+    "location": "Persian Gulf",
+    "timestamp": "2026-05-10T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — IRGC warns US against attacks on ships",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/10/iran-war-live-irgc-warns-us-against-attacks-on-ships-israel-bombs-lebanon"
+      },
+      {
+        "name": "Tribune India — IRGC warns US assets, missiles locked",
+        "url": "https://www.tribuneindia.com/news/american-centers/irans-irgc-warns-us-assets-against-strikes-on-its-vessels-in-persian-gulf-says-missiles-locked-onto-targets"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "irgc", "threat", "us-navy", "hormuz", "day72"]
+  },
+  {
+    "id": "evt-new-1426",
+    "title": "Netanyahu on 60 Minutes: enriched uranium must be physically removed",
+    "description": "PM Benjamin Netanyahu told CBS 60 Minutes the war 'accomplished a great deal but it's not over because there's still nuclear material, enriched uranium that need to be taken out and there are still enrichment sites that need to be dismantled.' Netanyahu quoted Trump: 'I want to go in there and I think it can be done physically.' Strongest signal of Israeli intent to continue military pressure on Iran's nuclear program.",
+    "type": "diplomatic",
+    "lat": 31.78,
+    "lng": 35.22,
+    "location": "Jerusalem",
+    "timestamp": "2026-05-10T13:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "The National — Netanyahu 60 Minutes Iran uranium",
+        "url": "https://www.thenationalnews.com/news/us/2026/05/10/netanyahu-60-minutes-iran-uranium-chris-wright/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["netanyahu", "60-minutes", "uranium", "nuclear", "israel", "day72"]
+  },
+  {
+    "id": "evt-new-1427",
+    "title": "UK announces destroyer deployment to Persian Gulf",
+    "description": "UK government announced it will send a destroyer to the Middle East ahead of any international (UK-France-led) mission to protect shipping in the Strait of Hormuz, separate from US deployment. Move signals European-led maritime mission to address vessel stranding crisis (1,550+ ships, 22,500 mariners trapped) without merging with US 'Project Freedom.'",
+    "type": "naval",
+    "lat": 26.58,
+    "lng": 56.26,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-10T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Al Jazeera — UK destroyer Hormuz mission",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/10/iran-war-live-irgc-warns-us-against-attacks-on-ships-israel-bombs-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["uk", "destroyer", "hormuz", "naval", "europe", "day72"]
+  },
+  {
+    "id": "evt-new-1428",
+    "title": "Tanker crosses Hormuz amid stalled Project Freedom",
+    "description": "Lloyd's List confirmed a tanker successfully transited the Strait of Hormuz on May 10, the first crossing in days after Project Freedom was paused May 6. Approximately 2,000 commercial ships remain stranded. Crossing came amid CMA CGM San Antonio (May 5) and JV Innovation Chinese tanker (May 7) attacks, and US F/A-18 disabling 2 Iranian-linked tankers May 8.",
+    "type": "naval",
+    "lat": 26.58,
+    "lng": 56.26,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-10T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "CNBC — Tanker crosses Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "tanker", "shipping", "naval", "day72"]
+  },
+  {
+    "id": "evt-new-1429",
+    "title": "OFAC 'Economic Fury' designations target Shahed UAV, missile material flows",
+    "description": "OFAC announced new sanctions designating 10 individuals and companies enabling Iranian Shahed drone production and ballistic missile material flows. Comes one week after May 1 designations of 6 individuals + 21 entities + 1 vessel including 3 Iranian forex houses. New General License W issued for humanitarian carve-outs; FAQ 1250 covers Hormuz passage demands. Treasury characterizes campaign as 'Economic Fury.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-08T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "OFAC — Recent actions May 1 2026",
+        "url": "https://ofac.treasury.gov/recent-actions/20260501"
+      },
+      {
+        "name": "GlobalSecurity — Treasury Iran Shahed sanctions",
+        "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260508-treasury01.htm"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["sanctions", "ofac", "shahed", "missiles", "economic-fury", "day70"]
   }
 ]

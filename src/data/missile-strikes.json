@@ -10145,5 +10145,95 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.4128,
+    "lng": 35.3044,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike hit a multi-story building in Saksakiyeh village, southern Lebanon. 7 killed including a child; 15 wounded including 3 children per Lebanese Health Ministry. IDF said it targeted 'Hezbollah terrorists operating from within a structure used for military purposes.'",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Bourj Rahhal",
+    "country": "Lebanon",
+    "lat": 33.27,
+    "lng": 35.27,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on Bourj Rahhal village in southern Lebanon killed 3 people. Part of broader IDF campaign hitting 85+ Hezbollah targets across Lebanon in 24 hours.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/five-reported-killed-including-girl-in-israeli-airstrikes-in-southern-lebanon/",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 3,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Beirut suburbs (Beirut-Sidon highway)",
+    "country": "Lebanon",
+    "lat": 33.70,
+    "lng": 35.50,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Three Israeli drone strikes on vehicles south of Beirut — on the Beirut-Sidon highway and road to the Chouf region. 4 people killed.",
+    "source": "Washington Post (AP)",
+    "sourceUrl": "https://www.washingtonpost.com/world/2026/05/09/lebanon-israel-hezbollah-airstrikes-nabatiyeh/cbb737ee-4bbd-11f1-a119-857cd2bf4fd4_story.html",
+    "weaponType": "Drone-launched munition",
+    "casualties": {
+      "killed": 4,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-598",
+    "city": "Misgav Am",
+    "country": "Israel",
+    "lat": 33.234,
+    "lng": 35.557,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-09",
+    "description": "Hezbollah explosive drone struck IDF reservists at Misgav Am in northern Israel — 1 seriously wounded, 2 moderately. Used fiber-optic guidance to evade defenses. Confirmed Hezbollah strike inside Israeli territory.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/article-895604",
+    "weaponType": "FPV explosive drone (fiber-optic)",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-599",
+    "city": "Shlomi",
+    "country": "Israel",
+    "lat": 33.073,
+    "lng": 35.143,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-09",
+    "description": "Hezbollah-launched drone struck IDF helicopter landing pad in Shlomi along Israel-Lebanon border. Same day as Misgav Am drone strike. No reported casualties.",
+    "source": "Free Malaysia Today (AFP)",
+    "sourceUrl": "https://www.freemalaysiatoday.com/category/highlight/2026/05/10/hezbollah-says-it-targeted-troops-in-northern-israel-with-drones",
+    "weaponType": "Explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]

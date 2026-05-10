@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-10T19:03:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,40 +53,40 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 70
+    "conflictDay": 72
   },
   "oilPrices": {
     "preWar": {
       "date": "2026-02-27",
       "label": "Pre-Conflict Baseline",
       "wti": {
-        "price": 75.5,
+        "price": 75.51,
         "unit": "$/barrel",
         "source": "NYMEX front-month settlement",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_fut_s1_d.htm"
       },
       "brent": {
-        "price": 79.8,
+        "price": 79.84,
         "unit": "$/barrel",
         "source": "ICE front-month settlement",
         "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm"
       }
     },
     "current": {
-      "date": "2026-05-08",
-      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
+      "date": "2026-05-10",
+      "label": "Day 72 12:03 PM PT \u2014 Brent $101.26/bbl (+26.8% from pre-war $79.84). WTI $95.42/bbl (+26.4% from $75.51). Markets closed for weekend; May 8 settle carries through. Friday intraday spiked to $104.07 on US-Iran clashes before easing. Weekly losses: Brent -6%, WTI -7% on hopes of US-Iran deal. Iran formally responded to US 14-point peace proposal via Pakistan May 10. IRGC: 'missiles locked' on US Persian Gulf targets. Netanyahu 60 Minutes: enriched uranium 'must be physically removed.' IDF struck 85+ Hezbollah targets May 9 (39 killed). Tanker crosses Hormuz first time in days; Project Freedom paused. UK announces destroyer for separate UK-France-led mission. AAA gas $4.522/gal. Hormuz Day 69.",
       "brent": {
-        "price": 100.54,
-        "change": "+26.0%",
-        "changeDollars": "+$20.74"
+        "price": 101.26,
+        "change": "+26.8%",
+        "changeDollars": "+$21.42"
       },
       "wti": {
-        "price": 95.46,
+        "price": 95.42,
         "change": "+26.4%",
-        "changeDollars": "+$19.96"
+        "changeDollars": "+$19.91"
       },
-      "changePercent": 26.0,
-      "lastUpdated": "2026-05-08"
+      "changePercent": 26.8,
+      "lastUpdated": "2026-05-10"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-10T19:03:00Z",
+    "note": "Day 72 12:03 PM PT: Brent $101.26 (+26.8%), WTI $95.42 (+26.4%). AAA gas $4.522/gal \u2014 peaked $4.55 May 7, slight ease. +48.3% vs pre-war $3.05. Diesel $5.64/gal. Hormuz Day 69 blockade. Iran formally responds via Pakistan; IRGC threatens US assets. UK announces destroyer for separate maritime mission.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.55,
-          "date": "2026-05-07"
+          "price": 4.522,
+          "date": "2026-05-10"
         },
-        "change": "+$1.50",
-        "changePercent": "+49.2%",
-        "detail": "Gas $4.55/gal (AAA, May 7). Up 25 cents 2nd straight week. Brent $100.54 (+26.0%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
+        "change": "+$1.47",
+        "changePercent": "+48.3%",
+        "detail": "Gas $4.522/gal (AAA, May 10). Peaked $4.55 May 7, slight ease. Brent $101.26 (+26.8%), WTI $95.42 (+26.4%). Pre-war $3.05. CA highest, OK cheapest. Diesel ~$5.64/gal national.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -666,12 +666,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 5.351,
-          "date": "2026-04-30"
+          "price": 5.64,
+          "date": "2026-05-04"
         },
-        "change": "+$1.55",
-        "changePercent": "+40.8%",
-        "detail": "Diesel $5.351/gal EIA (April 27). Up 40.8% from pre-war $3.80. CA diesel ~$7.50.",
+        "change": "+$1.84",
+        "changePercent": "+48.4%",
+        "detail": "Diesel $5.64/gal EIA (week ending May 4) — +28.9¢ on the week. Up 48.4% from pre-war $3.80. CA $7.36; West Coast ex-CA $6.00; Gulf Coast $5.18.",
         "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/"
       },
       {
@@ -733,9 +733,9 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.558,
-    "gasPriceRegular": 4.558,
-    "gasPriceDiesel": "$5.65/gal",
+    "regularGasoline": 4.522,
+    "gasPriceRegular": 4.522,
+    "gasPriceDiesel": "$5.64/gal",
     "changeFromPreWar": "+$1.51",
     "changePercent": "+49.4%"
   },
