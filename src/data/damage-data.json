@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-10T00:16:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
+    "totalSites": 462,
+    "confirmed": 382,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7219,6 +7219,60 @@
       "casualties": "1+ killed, several injured",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "Saksakiyeh — residential area",
+      "country": "Lebanon",
+      "lat": 33.50,
+      "lng": 35.40,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Saksakiyeh killed 7 people (including a girl), wounded 15 (including 3 children). Part of massive May 9 Israeli escalation across Lebanon — 23 killed total.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "7 killed, 15 wounded",
+      "source": "Al-Monitor",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/05/israeli-strike-kills-seven-south-lebanon-lebanese-health-ministry-says",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "Beirut-Sidon highway — vehicle strikes",
+      "country": "Lebanon",
+      "lat": 33.82,
+      "lng": 35.49,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "moderate",
+      "description": "3 Israeli drone strikes on vehicles along Beirut-Sidon highway and Chouf region road. 4 killed, several wounded.",
+      "weaponUsed": "Drone strike",
+      "casualties": "4 killed, several wounded",
+      "source": "PBS",
+      "sourceUrl": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-462",
+      "name": "Mt. Meron air traffic control base",
+      "country": "Israel",
+      "lat": 33.00,
+      "lng": 35.41,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "hezbollah",
+      "damageLevel": "moderate",
+      "description": "Hezbollah explosive drone swarm struck Mt. Meron air traffic control base (~8 km from Lebanon border). 3 IDF reservists wounded (1 seriously, 2 moderately). First cross-border attack since April 17 ceasefire.",
+      "weaponUsed": "Explosive drones",
+      "casualties": "3 IDF wounded",
+      "source": "Times of Israel",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-3-reservists-wounded-1-seriously-in-hezbollah-explosive-drone-attack-on-northern-israel/",
       "satelliteImagery": false
     }
   ]

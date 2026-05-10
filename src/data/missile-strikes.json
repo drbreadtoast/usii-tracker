@@ -10145,5 +10145,113 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Gulf of Oman (M/T Sea Star III)",
+    "country": "Iran",
+    "lat": 25.50,
+    "lng": 57.00,
+    "strikeType": "naval strike",
+    "attributedTo": "us",
+    "date": "2026-05-08",
+    "description": "US Navy F/A-18 Super Hornet dropped precision munitions into smokestack of Iranian tanker M/T Sea Star III attempting to breach blockade.",
+    "source": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/05/08/iran-war-oil-trump-blockade-ceasefire.html",
+    "weaponType": "Precision munition (F/A-18)",
+    "casualties": {
+      "killed": 0,
+      "injured": 5
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Gulf of Oman (M/T Sevda)",
+    "country": "Iran",
+    "lat": 25.45,
+    "lng": 57.05,
+    "strikeType": "naval strike",
+    "attributedTo": "us",
+    "date": "2026-05-08",
+    "description": "US Navy F/A-18 disabled Iranian tanker M/T Sevda by bombing its smokestack. 1 sailor killed, 5 injured across both tanker strikes.",
+    "source": "NPR",
+    "sourceUrl": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates",
+    "weaponType": "Precision munition (F/A-18)",
+    "casualties": {
+      "killed": 1,
+      "injured": 5
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.50,
+    "lng": 35.40,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on Saksakiyeh killed 7 people including a girl, wounded 15 including 3 children.",
+    "source": "Al-Monitor",
+    "sourceUrl": "https://www.al-monitor.com/originals/2026/05/israeli-strike-kills-seven-south-lebanon-lebanese-health-ministry-says",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-598",
+    "city": "Beirut-Sidon highway",
+    "country": "Lebanon",
+    "lat": 33.82,
+    "lng": 35.49,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "3 Israeli drone strikes on vehicles south of Beirut along the Beirut-Sidon highway and Chouf region. 4 killed, several wounded.",
+    "source": "PBS",
+    "sourceUrl": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13",
+    "weaponType": "Drone strike",
+    "casualties": {
+      "killed": 4,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-599",
+    "city": "Bourj Rahhal",
+    "country": "Lebanon",
+    "lat": 33.35,
+    "lng": 35.42,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on Bourj Rahhal in southern Lebanon killed 3.",
+    "source": "PBS",
+    "sourceUrl": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 3,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-600",
+    "city": "Mt. Meron",
+    "country": "Israel",
+    "lat": 33.00,
+    "lng": 35.41,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-09",
+    "description": "Hezbollah explosive drone swarm struck Mt. Meron air traffic control base. 3 IDF reservists wounded (1 seriously, 2 moderately). First cross-border attack since April 17 ceasefire.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-3-reservists-wounded-1-seriously-in-hezbollah-explosive-drone-attack-on-northern-israel/",
+    "weaponType": "Explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]
