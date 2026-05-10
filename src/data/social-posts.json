@@ -127,5 +127,71 @@
       "spill",
       "fao"
     ]
+  },
+  {
+    "id": "social-1212",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "DANGER: IRGC Aerospace Force commander Mousavi declares Iranian missiles and drones 'already locked onto enemy targets in the region, awaiting the order to fire.' Iran parliament security commissioner: 'Our restraint is over as of today.' Most explicit targeting declaration since ceasefire April 8.",
+    "timestamp": "2026-05-10T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Tribune India and Al Jazeera confirmed IRGC commander statement. Times of Israel confirmed parliament commissioner quote.",
+    "keywords": ["irgc", "missiles", "locked", "warning", "ceasefire", "iran", "day72"]
+  },
+  {
+    "id": "social-1213",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitors",
+    "text": "NETANYAHU CBS: Israeli PM says war 'not over' because Iran still holds ~440kg 60%-enriched uranium. Quote: 'You go in, and you take it out.' Sets maximum Israeli demand for any peace deal — physical removal of uranium, not just monitoring. Potential US-Israel tension on this demand.",
+    "timestamp": "2026-05-10T21:10:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News and Bloomberg confirmed Netanyahu 60 Minutes interview quotes.",
+    "keywords": ["netanyahu", "60-minutes", "uranium", "nuclear", "israel", "peace-deal", "day72"]
+  },
+  {
+    "id": "social-1214",
+    "handle": "@TheIntelLab",
+    "displayName": "The Intel Lab",
+    "text": "DIPLOMATIC COLLAPSE: Trump posted on Truth Social 'TOTALLY UNACCEPTABLE' rejecting Iran's counter-proposal. Iran offered to transfer some HEU to a third country but refused to dismantle enrichment facilities. Core sticking point: Iran's 440kg 60%-enriched uranium stockpile and continued enrichment rights.",
+    "timestamp": "2026-05-10T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios, CNN, and Al Jazeera confirmed Trump Truth Social post and Iran's counter-proposal content.",
+    "keywords": ["trump", "iran", "peace-plan", "unacceptable", "uranium", "negotiations", "day72"]
+  },
+  {
+    "id": "social-1215",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats Project",
+    "text": "IRAN LEADERSHIP: Pezeshkian declared 'We will never bow our heads before the enemy.' Araghchi simultaneously in Beijing meeting China FM Wang Yi for back-channel diplomacy. Mojtaba Khamenei health reports conflicted — Waltz says 'severely injured, in hiding' while Iran state media published photos of him meeting generals same day.",
+    "timestamp": "2026-05-10T20:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Al Jazeera confirmed Pezeshkian statement. CNN confirmed Araghchi-Wang Yi meeting. The National confirmed conflicting Khamenei health reports.",
+    "keywords": ["pezeshkian", "iran", "araghchi", "china", "khamenei", "health", "day72"]
+  },
+  {
+    "id": "social-1216",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINTdefender",
+    "text": "SANCTIONS ROUND: US Treasury and State Dept sanctioned 10 entities in Middle East, China, Hong Kong for supplying UAV components and weapons to Iran. State Dept separately targeting Iran-China illicit oil trade networks. Part of 'Economic Fury' campaign coordinated with military operations.",
+    "timestamp": "2026-05-10T21:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed 10-entity sanctions. US Treasury press release sb0496. State Dept spokesperson releases confirmed Iran-China oil network sanctions.",
+    "keywords": ["sanctions", "iran", "china", "treasury", "uav", "oil-trade", "day72"]
+  },
+  {
+    "id": "social-1217",
+    "handle": "@IntelDoge",
+    "displayName": "Intel Doge",
+    "text": "GULF CRACKDOWN: Bahrain arrests 41 for IRGC espionage, stripped 69 of citizenship. UAE intercepted 2 Iranian drones May 10. Kuwait repelled hostile drone airspace incursion. Gulf states in coordinated crackdown on Iranian influence networks — largest such arrests since war began.",
+    "timestamp": "2026-05-10T21:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera and Gulf News confirmed Bahrain arrests. Times of Israel confirmed UAE and Kuwait drone incidents.",
+    "keywords": ["bahrain", "irgc", "arrests", "uae", "kuwait", "drones", "gulf", "day72"]
   }
 ]

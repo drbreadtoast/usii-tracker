@@ -10253,5 +10253,95 @@
       "killed": 39,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-601",
+    "city": "Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.56,
+    "lng": 35.38,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-10",
+    "description": "Israeli airstrike on Saksakiyeh in the Sidon district killed 7 people including a child and wounded 15. IDF said it targeted Hezbollah operatives leaving a known military building. The deadliest single strike in Lebanon on May 10.",
+    "source": "Euronews",
+    "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-602",
+    "city": "Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.37,
+    "lng": 35.48,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-10",
+    "description": "Israeli drone strike in Nabatieh killed a Syrian man and his 12-year-old daughter who were riding a motorcycle. IDF was aware of 'reports regarding harm to uninvolved civilians.' Part of the 39 killed across Lebanon on May 10.",
+    "source": "The National",
+    "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/10/israeli-air-strikes-kill-39-in-lebanon-despite-ceasefire/",
+    "weaponType": "Drone-launched munition",
+    "casualties": {
+      "killed": 2,
+      "injured": 1
+    }
+  },
+  {
+    "id": "ms-603",
+    "city": "Doha (offshore)",
+    "country": "Qatar",
+    "lat": 25.42,
+    "lng": 51.85,
+    "strikeType": "drone",
+    "attributedTo": "iran",
+    "date": "2026-05-10",
+    "description": "Two Iranian drones launched at Marshall Islands-flagged bulk carrier Safesea Neha (US-owned), 23nm northeast of Doha, Qatar. One drone hit the vessel causing a fire onboard. Fire extinguished; ship continued to Mesaieed Port. No injuries among 23 crew. Attack reported at 03:01 UTC by UKMTO.",
+    "source": "NPR",
+    "sourceUrl": "https://www.npr.org/2026/05/10/nx-s1-5817437/iran-cargo-ship-hit-off-qatar",
+    "weaponType": "Shahed-type drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-604",
+    "city": "Qeshm Island",
+    "country": "Iran",
+    "lat": 26.95,
+    "lng": 56.27,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-05-07",
+    "description": "US forces struck Iranian military facilities at Qeshm Island after three US destroyers (USS Truxtun, USS Rafael Peralta, USS Mason) were attacked by Iran in the Strait of Hormuz. CENTCOM targeted missile/drone launch sites, C2 nodes, and ISR nodes. Iran claimed civilian areas struck.",
+    "source": "CNN",
+    "sourceUrl": "https://www.cnn.com/2026/05/07/politics/us-forces-strike-military-facilities-in-iran",
+    "weaponType": "Precision-guided munitions / Naval air strike",
+    "casualties": {
+      "killed": null,
+      "injured": null
+    }
+  },
+  {
+    "id": "ms-605",
+    "city": "Bandar Abbas",
+    "country": "Iran",
+    "lat": 27.19,
+    "lng": 56.27,
+    "strikeType": "airstrike",
+    "attributedTo": "us",
+    "date": "2026-05-07",
+    "description": "US forces struck Iranian military facilities at Bandar Abbas alongside simultaneous Qeshm Island strikes, following IRGC attacks on three US destroyers. CENTCOM targeted command-and-control and missile infrastructure. Iran claimed the strike hit civilian areas near the port.",
+    "source": "UPI",
+    "sourceUrl": "https://www.upi.com/Top_News/World-News/2026/05/07/us-strikes-iran-sites/8481778199768/",
+    "weaponType": "Precision-guided munitions / Naval air strike",
+    "casualties": {
+      "killed": null,
+      "injured": null
+    }
   }
 ]
