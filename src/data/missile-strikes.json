@@ -10145,5 +10145,95 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Bandar Abbas / Qeshm Island",
+    "country": "Iran",
+    "lat": 27.19,
+    "lng": 56.27,
+    "strikeType": "air strike",
+    "attributedTo": "us",
+    "date": "2026-05-08",
+    "description": "CENTCOM retaliatory strikes on Iranian military facilities at Bandar Abbas and Qeshm Island after IRGC attacked 3 US destroyers. Targeted missile/drone launch sites, C2 locations, ISR nodes.",
+    "source": "CNN",
+    "sourceUrl": "https://www.cnn.com/2026/05/07/politics/us-forces-strike-military-facilities-in-iran",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Toura (near Tyre)",
+    "country": "Lebanon",
+    "lat": 33.27,
+    "lng": 35.20,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-08",
+    "description": "Israeli airstrike on village of Toura near Tyre killed 4 and wounded 8. Part of broader campaign killing 13+ across southern Lebanon.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/8/more-than-a-dozen-reported-killed-in-israeli-attacks-on-south-lebanon",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 4,
+      "injured": 8
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Saadiyat (south of Beirut)",
+    "country": "Lebanon",
+    "lat": 33.82,
+    "lng": 35.48,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Three Israeli drone strikes on vehicles on highway linking Beirut to Sidon killed 4 people.",
+    "source": "Washington Times",
+    "sourceUrl": "https://www.washingtontimes.com/news/2026/may/9/israeli-drone-strikes-near-beirut-kill-4-southern-airstrikes-kill/",
+    "weaponType": "Drone-launched munition",
+    "casualties": {
+      "killed": 4,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-598",
+    "city": "Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.40,
+    "lng": 35.38,
+    "strikeType": "air strike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on Saksakiyeh killed 7 including a child, wounded 15. IDF struck 85+ Hezbollah targets in 24 hours including underground weapons facility in Beqaa Valley.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/five-reported-killed-including-girl-in-israeli-airstrikes-in-southern-lebanon/",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-599",
+    "city": "Misgav Am / Shlomi",
+    "country": "Israel",
+    "lat": 33.28,
+    "lng": 35.57,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-09",
+    "description": "Hezbollah explosive drones targeted IDF positions near Misgav Am and helicopter landing pad in Shlomi. 3 IDF reservists wounded (1 severely, 2 moderately).",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/article-895604",
+    "weaponType": "Explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-08T12:13:00Z",
+  "lastUpdated": "2026-05-10T06:01:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 5.95,
-      "change": "+5.9%",
-      "detail": "$5.95/bu (May 7 CBOT, down 1.77% on day). Off 2-year high of $6.50 (April 28). YoY +16%. Fertilizer prices up 30-40% from pre-war. USDA forecasts food-at-home up 3.1% in 2026.",
+      "current": 6.065,
+      "change": "+7.9%",
+      "detail": "$6.065/bu (May 8 CBOT, up 0.79%). MoM +5.57%, YoY +16.24%. Severe drought across US Great Plains (90% of Nebraska/Oklahoma affected). Fertilizer prices up 30-40%. USDA forecasts food-at-home up 3.1% in 2026.",
       "source": "TradingEconomics \u2014 Wheat May 5",
       "sourceUrl": "https://tradingeconomics.com/commodity/wheat"
     },
@@ -15,10 +15,10 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": "$4.75",
-      "change": "+10.2%",
-      "detail": "Corn $4.75/bu (May 5, highest since April 2025). Driven by strong export demand + drought in Nebraska/Oklahoma. Fertilizer costs forcing acreage reductions. July futures at $4.80.",
-      "source": "TradingEconomics \u2014 Corn May 5",
+      "current": "$4.56",
+      "change": "+5.8%",
+      "detail": "Corn $4.56/bu (May 8, up 0.82%). MoM +2.81%, YoY +1.50%. Drought in Nebraska/Oklahoma driving supply concerns. Fertilizer costs forcing acreage reductions.",
+      "source": "TradingEconomics \u2014 Corn May 8",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
     {
@@ -87,8 +87,8 @@
     "preWarWeekly": 168,
     "currentWeekly": 182,
     "changePercent": 8.3,
-    "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "USDA forecasts food-at-home +2.5% for full year 2026. Farm wheat up 8.4%. Palm/soybean oil each +8%. Tehran wheat flour up 120% in one month, nearly 200% YoY. IRC operational costs spiked 50% due to war disruptions. If Hormuz persists through summer, could add 5-7 percentage points. Consumer sentiment at multi-year low. 318M face hunger globally (FAO)."
+    "usdaForecast2026": "3.1% food-at-home (USDA May update), nearly double Jan projection",
+    "note": "USDA forecasts food-at-home +3.1% in 2026 (nearly double start-of-year forecast). FAO global food price index 130.7 in April — highest since Feb 2023. Fertilizer projected +31% (1/3 global trade through Hormuz). Wheat $6.065/bu (+16.2% YoY). Iran inflation surpassed 100%. Bread/cereals up 140%, meat +135%, oils +219% in Iran."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -98,5 +98,5 @@
     "source": "Bloomberg / CBC News",
     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
   },
-  "context": "Day 70 11:11 PM PT: USDA forecasts food-at-home up 3.1% in 2026 (nearly double Jan projection). Beef/veal +12.1% YoY. Ground beef $6.68/lb record. Wheat $5.95/bu (-1.77% on day, +16% YoY). Corn $4.52/bu (flat, near 1-yr highs). Soybeans +15.94% YoY. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on Hormuz clash. Gas $4.558 (+49.4%). Hormuz Day 67 blockade. Food inflation lag: commodity/energy shocks take 3-6 months to fully reach shelves."
+  "context": "Day 72 11:01 PM PT: FAO food index 130.7 — highest since Feb 2023. USDA food-at-home +3.1% (nearly double Jan forecast). Wheat $6.065/bu (+16.2% YoY). Corn $4.56/bu (+5.8%). Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Gas $4.53 (+48.5%). Hormuz Day 69 blockade. Iran inflation 100%+: bread/cereals +140%, oils/fats +219%. Fertilizer +31% projected. 1/3 global fertilizer through Hormuz."
 }
