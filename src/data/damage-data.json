@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-10T16:54:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
+    "totalSites": 473,
+    "confirmed": 383,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7219,6 +7219,78 @@
       "casualties": "1+ killed, several injured",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "Saksakiyeh — residential area",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.35,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Saksakiyeh killed 7 including a child and wounded 15. Part of IDF campaign that struck 85+ Hezbollah targets in 24 hours across southern Lebanon.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "7 killed (incl. child), 15 injured",
+      "source": "Washington Times",
+      "sourceUrl": "https://www.washingtontimes.com/news/2026/may/9/israeli-drone-strikes-near-beirut-kill-4-southern-airstrikes-kill/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "Al-Sarirah, Jezzine district — multiple structures",
+      "country": "Lebanon",
+      "lat": 33.55,
+      "lng": 35.57,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-10",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli strikes killed 39 across southern Lebanon on May 10 — most intense since ceasefire. Struck Al-Sarirah (Jezzine), Al-Sama'iyah and Bedyas (Tyre district), and Saadiyat highway near Beirut.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "39 killed",
+      "source": "Euronews",
+      "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-462",
+      "name": "Cargo ship — 23nm NE of Doha",
+      "country": "Qatar",
+      "lat": 25.50,
+      "lng": 51.75,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-10",
+      "attributedTo": "iran",
+      "damageLevel": "minor",
+      "description": "Iranian drone hit cargo ship 23 nautical miles northeast of Doha en route from Abu Dhabi. Small fire extinguished, no casualties. First maritime attack near Qatar since war began.",
+      "weaponUsed": "Drone",
+      "casualties": "None",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/05/10/iran-war-ceasefire-drone-cargo-ship-qatar-kuwait-uae-attacks/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-463",
+      "name": "Beqaa Valley — underground weapons site",
+      "country": "Lebanon",
+      "lat": 33.85,
+      "lng": 36.00,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF struck underground Hezbollah weapons site in the Beqaa Valley as part of 85+ target campaign on May 9. Part of broader operations that also hit weapons depots, rocket launchers, and drone launch sites.",
+      "weaponUsed": "Aerial munitions / bunker busters",
+      "casualties": "Unknown",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-895604",
       "satelliteImagery": false
     }
   ]

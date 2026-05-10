@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-10T16:54:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 70
+    "conflictDay": 72
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-08",
-      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
+      "date": "2026-05-10",
+      "label": "Day 72 9:54 AM PT \u2014 Brent $101.00/bbl (+26.6% from pre-war $79.84). WTI $95.42/bbl (+26.4% from $75.51). Iran sends response to US 14-point proposal via Pakistan. Qatari LNG tanker Al Kharaitiyat crosses Hormuz \u2014 first since war. Israel kills 39 in Lebanon. UAE/Kuwait/Qatar drone attacks. Mojtaba Khamenei meets military chief. Netanyahu on CBS: war 'not over.' S&P 500 7,399 (new ATH). Gas $4.52. Hormuz Day 69.",
       "brent": {
-        "price": 100.54,
-        "change": "+26.0%",
-        "changeDollars": "+$20.74"
+        "price": 101.00,
+        "change": "+26.6%",
+        "changeDollars": "+$21.20"
       },
       "wti": {
-        "price": 95.46,
+        "price": 95.42,
         "change": "+26.4%",
-        "changeDollars": "+$19.96"
+        "changeDollars": "+$19.92"
       },
-      "changePercent": 26.0,
-      "lastUpdated": "2026-05-08"
+      "changePercent": 26.6,
+      "lastUpdated": "2026-05-10"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-10T16:54:00Z",
+    "note": "Day 72 9:54 AM PT: Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). Iran responds to US proposal via Pakistan. Qatari LNG tanker crosses Hormuz (first since war). AAA gas $4.52/gal \u2014 up 48.2% from pre-war $3.05. GasBuddy warns $5/gal by Memorial Day. Hormuz Day 69 blockade. S&P 500 7,399 (new ATH).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.55,
-          "date": "2026-05-07"
+          "price": 4.52,
+          "date": "2026-05-10"
         },
-        "change": "+$1.50",
-        "changePercent": "+49.2%",
-        "detail": "Gas $4.55/gal (AAA, May 7). Up 25 cents 2nd straight week. Brent $100.54 (+26.0%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
+        "change": "+$1.47",
+        "changePercent": "+48.2%",
+        "detail": "Gas $4.52/gal (AAA, May 10). Slight decline from $4.55 peak. Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. Highest since July 2022. Rose 25 cents for 2nd straight week per AAA.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

@@ -49122,5 +49122,362 @@
       "injured": 0
     },
     "tags": ["lebanon", "israel", "peace-talks", "washington", "day69"]
+  },
+  {
+    "id": "evt-new-1420",
+    "title": "Iran seizes tanker 'Ocean Koi' in Gulf of Oman",
+    "description": "Iran's IRGC Navy seized the Barbados-flagged tanker Ocean Koi in the Gulf of Oman, accusing it of attempting to disrupt Iranian oil exports. The US separately disabled two Iranian-flagged tankers trying to breach the US naval blockade. The seizure came amid heightened naval tensions following the May 7 fire exchange between US and Iranian forces in Hormuz.",
+    "type": "naval",
+    "lat": 25.50,
+    "lng": 57.50,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-05-08T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran says it has seized oil tanker",
+        "url": "https://www.aljazeera.com/news/2026/5/8/iran-says-it-has-seized-oil-tanker-over-attempts-to-disrupt-its-oil-exports"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "tanker", "seizure", "gulf-of-oman", "naval", "day70"]
+  },
+  {
+    "id": "evt-new-1421",
+    "title": "Khamenei adviser Mokhber: Hormuz 'equivalent to atomic bomb'",
+    "description": "Mohammad Mokhber, adviser to Supreme Leader Mojtaba Khamenei, declared the Strait of Hormuz is 'a capability equivalent to an atomic bomb' and vowed Iran will never surrender control. He called for changing the legal regime of the strait. The inflammatory rhetoric came as Iran reviewed the US 14-point MOU proposal.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-08T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran highlights Hormuz importance amid US talks",
+        "url": "https://www.aljazeera.com/news/2026/5/9/on-level-of-atomic-bomb-iran-highlights-hormuz-importance-amid-us-talks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "hormuz", "mokhber", "rhetoric", "nuclear", "day70"]
+  },
+  {
+    "id": "evt-new-1422",
+    "title": "VP Vance meets Qatari PM at White House — 'high probability' of deal",
+    "description": "Vice President JD Vance met Qatari Prime Minister Mohammed bin Abdulrahman al-Thani at the White House to discuss Iran mediation. The Qatari PM said there is a 'high probability' the US and Iran will reach a deal. Qatar is emerging as a second key mediator alongside official mediator Pakistan, using IRGC back channels.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-08T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Axios — Vance meets Qatar mediator on Iran war",
+        "url": "https://www.axios.com/2026/05/08/vance-qatar-mediator-iran-war"
+      },
+      {
+        "name": "CBS News — Vance Qatari PM Iran deal high probability",
+        "url": "https://www.cbsnews.com/news/jd-vance-qatari-prime-minister-iran-deal-high-probability/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["vance", "qatar", "diplomacy", "deal", "mediation", "day70"]
+  },
+  {
+    "id": "evt-new-1423",
+    "title": "Israeli strikes kill 17+ across southern Lebanon — Saksakiyeh, Nabatieh hit",
+    "description": "Israeli airstrikes killed at least 17 people across southern Lebanon including 7 killed (1 child) in Saksakiyeh and a Syrian man and 12-year-old daughter killed by drone in Nabatieh. Three drone strikes south of Beirut killed 4 more. The IDF struck 85+ Hezbollah targets in 24 hours including weapons depots, rocket launchers, and an underground weapons site in the Beqaa Valley.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.35,
+    "location": "Saksakiyeh, Lebanon",
+    "timestamp": "2026-05-09T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Washington Times — Israeli drone strikes near Beirut kill 4",
+        "url": "https://www.washingtontimes.com/news/2026/may/9/israeli-drone-strikes-near-beirut-kill-4-southern-airstrikes-kill/"
+      },
+      {
+        "name": "PBS — Israeli drone strikes kill 4 near Beirut",
+        "url": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 17,
+      "injured": 15
+    },
+    "tags": ["israel", "lebanon", "strikes", "saksakiyeh", "nabatieh", "day71"]
+  },
+  {
+    "id": "evt-new-1424",
+    "title": "Hezbollah drones wound 3 IDF troops in northern Israel",
+    "description": "Hezbollah launched explosive drones into Israeli territory near the Lebanese border. One IDF reservist was severely wounded and two were moderately wounded. Several additional drones were intercepted over northern Israel. The attack came as Israel escalated strikes across southern Lebanon.",
+    "type": "strike",
+    "lat": 33.10,
+    "lng": 35.50,
+    "location": "Northern Israel",
+    "timestamp": "2026-05-09T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Israel-Hezbollah exchanges May 9",
+        "url": "https://www.jpost.com/middle-east/article-895604"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["hezbollah", "israel", "drones", "northern-israel", "day71"]
+  },
+  {
+    "id": "evt-new-1425",
+    "title": "Rubio and Witkoff meet Qatari PM in Miami on Iran deal",
+    "description": "Secretary of State Marco Rubio and special envoy Steve Witkoff met Qatari PM Mohammed bin Abdulrahman al-Thani in Miami to discuss the Iran deal. Qatar is working as a second mediator alongside Pakistan using IRGC back channels. The meeting followed Qatari PM's White House meeting with VP Vance the previous day.",
+    "type": "diplomatic",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "Miami, FL",
+    "timestamp": "2026-05-09T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Axios — Witkoff Rubio Qatar Iran deal",
+        "url": "https://www.axios.com/2026/05/09/witkoff-rubio-qatar-iran-deal"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["rubio", "witkoff", "qatar", "diplomacy", "deal", "day71"]
+  },
+  {
+    "id": "evt-new-1426",
+    "title": "US Treasury sanctions 10 entities for supplying Iran's Shahed drone program",
+    "description": "The US Treasury sanctioned 10 individuals and companies in China, Hong Kong, and Belarus for aiding Iran's Shahed drone program. Sanctioned entities include Yushita Shanghai International Trade Co Ltd and HK Hesin Industry Co Ltd. The sanctions target the supply chain enabling Iran's drone warfare capabilities used in attacks on Gulf states and Hormuz.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-09T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "SCMP — US sanctions mainland China and HK entities over Iran military links",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3352980/us-sanctions-9-mainland-china-and-hong-kong-entities-over-alleged-iran-military-links"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["sanctions", "drones", "shahed", "china", "treasury", "day71"]
+  },
+  {
+    "id": "evt-new-1427",
+    "title": "Israeli strikes kill 39 across southern Lebanon — most intense since ceasefire",
+    "description": "Israeli airstrikes killed at least 39 people across southern Lebanon in the most intense bombardment since the April 17 ceasefire began. Strikes hit Al-Sarirah (Jezzine district), Al-Sama'iyah and Bedyas (Tyre district), and a car on the Saadiyat highway near Beirut. The strikes came despite ongoing Lebanon-Israel peace talks scheduled for May 14-15 in Washington.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.20,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-10T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews — At least 39 killed in fresh Israeli strikes on Lebanon",
+        "url": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon"
+      },
+      {
+        "name": "The National — Israeli air strikes kill 39 in Lebanon despite ceasefire",
+        "url": "https://www.thenationalnews.com/news/mena/2026/05/10/israeli-air-strikes-kill-39-in-lebanon-despite-ceasefire/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 39,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "strikes", "ceasefire", "jezzine", "tyre", "day72"]
+  },
+  {
+    "id": "evt-new-1428",
+    "title": "Iran sends response to US 14-point proposal via Pakistan",
+    "description": "Iran transmitted its response to the US ceasefire proposal through Pakistani mediators. State TV reported Iran seeks to end the war on all fronts including Lebanon and ensure shipping security through Hormuz. Iran insists on a 'fair and comprehensive agreement' and rejects US 'deadlines or ultimatums.' No immediate White House comment on the response.",
+    "type": "diplomatic",
+    "lat": 33.69,
+    "lng": 73.04,
+    "location": "Islamabad, Pakistan",
+    "timestamp": "2026-05-10T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran sends response to US proposal to end war via Pakistan",
+        "url": "https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan"
+      },
+      {
+        "name": "CNBC — Iran sends response as tanker crosses Hormuz",
+        "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "deal", "pakistan", "mediation", "proposal", "day72"]
+  },
+  {
+    "id": "evt-new-1429",
+    "title": "Qatari LNG tanker 'Al Kharaitiyat' crosses Hormuz — first since war began",
+    "description": "The Qatari LNG tanker Al Kharaitiyat crossed the Strait of Hormuz heading to Pakistan's Port Qasim — the first Qatari vessel to transit the strait since the war began. Iran approved the passage as a confidence-building measure amid deal negotiations. The transit signals a potential opening of the 69-day blockade.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-10T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "qatar",
+    "sources": [
+      {
+        "name": "CNBC — Tanker crosses Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html"
+      },
+      {
+        "name": "Bloomberg — Qatar sends first LNG shipment through Hormuz since war",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/qatar-sends-first-lng-shipment-through-hormuz-since-war-started"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["qatar", "hormuz", "lng", "shipping", "confidence-building", "day72"]
+  },
+  {
+    "id": "evt-new-1430",
+    "title": "UAE, Kuwait, and Qatar all report drone attacks from Iran",
+    "description": "UAE air defenses intercepted 2 drones launched from Iran (no casualties). Kuwait detected and neutralized hostile drones at dawn. A drone hit a cargo ship 23 nautical miles northeast of Doha en route from Abu Dhabi, causing a small fire that was extinguished with no casualties. The coordinated attacks came as Iran ratcheted up pressure on Gulf states enforcing sanctions.",
+    "type": "strike",
+    "lat": 24.45,
+    "lng": 54.65,
+    "location": "UAE / Kuwait / Qatar",
+    "timestamp": "2026-05-10T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Fortune — Iran war ceasefire drone attacks on Gulf states",
+        "url": "https://fortune.com/2026/05/10/iran-war-ceasefire-drone-cargo-ship-qatar-kuwait-uae-attacks/"
+      },
+      {
+        "name": "Gulf News — UAE air defences intercept two drones",
+        "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-two-drones-launched-from-iran-today-1.500535577"
+      },
+      {
+        "name": "Times of Israel — UAE Kuwait Qatar drone attacks",
+        "url": "https://www.timesofisrael.com/uae-kuwait-and-qatar-all-report-drone-attacks-as-iran-ramps-up-its-threats/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "uae", "kuwait", "qatar", "drones", "gulf", "day72"]
+  },
+  {
+    "id": "evt-new-1431",
+    "title": "Mojtaba Khamenei meets military chief — issues 'guiding measures' for operations",
+    "description": "Supreme Leader Mojtaba Khamenei met head of Iran's armed forces Ali Abdollahi and provided 'new guiding measures to pursue military operations and firmly confront adversaries.' Abdollahi told Khamenei the armed forces are 'ready to confront any action by the American-Zionist enemies' and that Iran's response to any error 'will be swift, severe, and decisive.' Khamenei has still not appeared in public since taking power.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-10T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Press TV — Top general tells Leader Armed Forces ready",
+        "url": "https://www.presstv.ir/Detail/2026/05/10/768370/Top-general-tells-Leader-Iranian-Armed-Forces-ready-crush-any-aggression"
+      },
+      {
+        "name": "Times of Israel — Khamenei briefs army chief",
+        "url": "https://www.timesofisrael.com/liveblog_entry/khamenei-briefs-army-chief-on-guiding-measures-to-pursue-military-operations-iranian-media/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["khamenei", "iran", "military", "directive", "day72"]
+  },
+  {
+    "id": "evt-new-1432",
+    "title": "Netanyahu on CBS 60 Minutes: war 'not over' until uranium removed from Iran",
+    "description": "Israeli PM Benjamin Netanyahu told CBS 60 Minutes the war is 'not over' until highly enriched uranium is removed from Iran. He said 'You go in, and you take it out.' International monitors estimate Iran still has approximately 970 lbs of near-bomb-grade uranium. Netanyahu rejected the emerging US-Iran deal framework as insufficient.",
+    "type": "diplomatic",
+    "lat": 31.77,
+    "lng": 35.23,
+    "location": "Jerusalem, Israel",
+    "timestamp": "2026-05-10T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CBS News — Netanyahu Israel Iran war not over 60 Minutes",
+        "url": "https://www.cbsnews.com/news/netanyahu-israel-iran-war-not-over-60-minutes/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["netanyahu", "israel", "uranium", "deal", "cbs", "day72"]
   }
 ]

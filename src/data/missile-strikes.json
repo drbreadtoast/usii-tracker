@@ -10145,5 +10145,77 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.35,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on Saksakiyeh killed 7 including a child and wounded 15. Part of broader IDF campaign that hit 85+ Hezbollah targets in 24 hours.",
+    "source": "Washington Times",
+    "sourceUrl": "https://www.washingtontimes.com/news/2026/may/9/israeli-drone-strikes-near-beirut-kill-4-southern-airstrikes-kill/",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli drone strike killed Syrian man and his 12-year-old daughter on a motorcycle in Nabatieh, southern Lebanon.",
+    "source": "PBS",
+    "sourceUrl": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13",
+    "weaponType": "Drone-launched munition",
+    "casualties": {
+      "killed": 2,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Al-Sarirah (Jezzine)",
+    "country": "Lebanon",
+    "lat": 33.55,
+    "lng": 35.57,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-10",
+    "description": "Israeli airstrike on Al-Sarirah in Jezzine district as part of deadliest day since ceasefire — 39 killed across southern Lebanon. Also hit Al-Sama'iyah, Bedyas (Tyre district), and Saadiyat highway.",
+    "source": "Euronews",
+    "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
+    "weaponType": "Aerial munition",
+    "casualties": {
+      "killed": 39,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-598",
+    "city": "Northern Israel (border area)",
+    "country": "Israel",
+    "lat": 33.10,
+    "lng": 35.50,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-09",
+    "description": "Hezbollah launched explosive drones into Israeli territory near the Lebanese border. 1 IDF reservist severely wounded, 2 moderately wounded. Several additional drones intercepted.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/article-895604",
+    "weaponType": "Explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]
