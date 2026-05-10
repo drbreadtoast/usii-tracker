@@ -49122,5 +49122,324 @@
       "injured": 0
     },
     "tags": ["lebanon", "israel", "peace-talks", "washington", "day69"]
+  },
+  {
+    "id": "evt-new-1420",
+    "title": "US fires on and disables two Iranian tankers in Strait of Hormuz",
+    "description": "US warships fired on and disabled two Iranian-flagged oil tankers (including M/T Sevda) attempting to evade the US naval blockade. Precision strikes hit smokestacks to cripple without sinking. Both sides traded live fire overnight in the most serious Hormuz confrontation since the ceasefire.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz, Persian Gulf",
+    "timestamp": "2026-05-08T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — US fires on Iranian tankers evading blockade",
+        "url": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates"
+      },
+      {
+        "name": "PBS — US fires on and disables 2 more Iranian tankers",
+        "url": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "tankers", "blockade", "us-navy", "day70"]
+  },
+  {
+    "id": "evt-new-1421",
+    "title": "UAE reports Iranian missile and drone attack — air defenses intercept",
+    "description": "UAE Defense Ministry reported another Iranian missile and drone attack following the Hormuz naval clashes. Air defenses successfully intercepted incoming projectiles. First attack on UAE since the April 8 ceasefire.",
+    "type": "strike",
+    "lat": 24.45,
+    "lng": 54.65,
+    "location": "United Arab Emirates",
+    "timestamp": "2026-05-08T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "NPR — UAE reports drone and missile attack",
+        "url": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates"
+      },
+      {
+        "name": "Al Jazeera — Tehran slams US reckless military adventure",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/8/iran-war-live-trump-says-ceasefire-still-in-effect-as-iran-us-clash"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["uae", "iran", "drones", "missiles", "interception", "day70"]
+  },
+  {
+    "id": "evt-new-1422",
+    "title": "Hegseth Congressional hearing — $25B official war cost revealed",
+    "description": "Defense Secretary Pete Hegseth faced his first Congressional hearing since the Iran war began. Pentagon acting comptroller officially put the war cost at $25 billion (mostly munitions). Hegseth opened calling Democratic critics 'reckless, feckless and defeatist.' Independent estimates range to $72 billion.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.01,
+    "location": "US Capitol, Washington DC",
+    "timestamp": "2026-05-08T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "The Hill — Hegseth hearing takeaways",
+        "url": "https://thehill.com/policy/defense/5856223-hegseth-house-hearing-takeaways-iran-war/"
+      },
+      {
+        "name": "PBS — Hegseth contentious hearing reveals partisan divide",
+        "url": "https://www.pbs.org/newshour/show/hegseths-contentious-hearing-in-congress-reveals-partisan-divide-over-iran-war"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hegseth", "congress", "war-cost", "hearing", "day70"]
+  },
+  {
+    "id": "evt-new-1423",
+    "title": "Israeli drone strikes near Beirut kill 4 on highway to Sidon",
+    "description": "Three Israeli drone strikes on vehicles on the highway linking Beirut to Sidon and a road to the Chouf region killed four people and wounded several more. Part of Israel's heaviest bombing campaign in Lebanon since the April 17 ceasefire.",
+    "type": "strike",
+    "lat": 33.80,
+    "lng": 35.50,
+    "location": "Beirut-Sidon Highway, Lebanon",
+    "timestamp": "2026-05-09T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Washington Post — Israeli drone strikes near Beirut kill 4",
+        "url": "https://www.washingtonpost.com/world/2026/05/09/lebanon-israel-hezbollah-airstrikes-nabatiyeh/cbb737ee-4bbd-11f1-a119-857cd2bf4fd4_story.html"
+      },
+      {
+        "name": "PBS — Israeli drone strikes kill 4 near Beirut",
+        "url": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 4,
+      "injured": 5
+    },
+    "tags": ["israel", "lebanon", "beirut", "drone-strike", "day71"]
+  },
+  {
+    "id": "evt-new-1424",
+    "title": "Israeli airstrikes kill 13+ across southern Lebanon villages",
+    "description": "Israeli airstrikes on al-Saksakiyeh (7 killed including a child, 15 wounded), Bourj Rahhal (3 killed), Maifadoun (1 killed), and a drone strike in Nabatieh (Syrian man and 12-year-old daughter killed). Part of the deadliest day in Lebanon since the ceasefire.",
+    "type": "strike",
+    "lat": 33.40,
+    "lng": 35.40,
+    "location": "Southern Lebanon (multiple villages)",
+    "timestamp": "2026-05-09T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli attacks across Lebanon kill at least 24",
+        "url": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19"
+      },
+      {
+        "name": "Washington Times — Israeli strikes kill at least 13",
+        "url": "https://www.washingtontimes.com/news/2026/may/9/israeli-drone-strikes-near-beirut-kill-4-southern-airstrikes-kill/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 13,
+      "injured": 15
+    },
+    "tags": ["israel", "lebanon", "airstrikes", "civilians", "day71"]
+  },
+  {
+    "id": "evt-new-1425",
+    "title": "Hezbollah launches missiles and drones at Israeli base near Nahariya",
+    "description": "Hezbollah launched a salvo of missiles at an Israeli military base south of Nahariya in retaliation for Israel's Beirut strikes and attacks on southern Lebanese civilians. Hours later fired a swarm of drones at another base in northern Israel. IDF said rockets were intercepted or struck open areas.",
+    "type": "strike",
+    "lat": 33.00,
+    "lng": 35.10,
+    "location": "Near Nahariya, northern Israel",
+    "timestamp": "2026-05-09T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah launches missiles at military base",
+        "url": "https://www.timesofisrael.com/liveblog_entry/hezbollah-says-it-launched-missiles-at-military-base-in-north-israel/"
+      },
+      {
+        "name": "Asharq Al-Awsat — Hezbollah missiles at Israeli base",
+        "url": "https://english.aawsat.com/arab-world/5270912-hezbollah-says-launched-missiles-military-base-north-israel"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["hezbollah", "israel", "nahariya", "missiles", "drones", "day71"]
+  },
+  {
+    "id": "evt-new-1426",
+    "title": "Israel kills 39 in heaviest Lebanon strikes since ceasefire — IDF claims 100+ militants killed",
+    "description": "Israel carried out its most intense strikes since the April 17 ceasefire, killing at least 39 people across southern Lebanon. IDF claimed it struck 40+ Hezbollah infrastructure sites and killed 100+ Hezbollah militants over the weekend. Raids also targeted a highway near Beirut outside Hezbollah's traditional strongholds.",
+    "type": "strike",
+    "lat": 33.50,
+    "lng": 35.40,
+    "location": "Southern Lebanon (multiple locations)",
+    "timestamp": "2026-05-10T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews — At least 39 killed in fresh Israeli strikes on Lebanon",
+        "url": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon"
+      },
+      {
+        "name": "JPost — IDF kills Hezbollah terrorists in southern Lebanon",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-894870"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 39,
+      "injured": 0
+    },
+    "tags": ["israel", "lebanon", "airstrikes", "hezbollah", "ceasefire", "day72"]
+  },
+  {
+    "id": "evt-new-1427",
+    "title": "IRGC warns US — missiles and drones 'locked' on American targets",
+    "description": "IRGC Navy Brigadier General Seyyed Majid Mousavi warned the US: 'IRGC Aerospace Force missiles and drones are locked on American targets in the region and aggressor enemy ships, awaiting the command to fire.' Threatened retaliation if Iranian tankers come under further fire.",
+    "type": "naval",
+    "lat": 27.15,
+    "lng": 56.17,
+    "location": "Persian Gulf",
+    "timestamp": "2026-05-10T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Xinhua — IRGC warns US against attacks on its vessels",
+        "url": "https://english.news.cn/20260510/c223986fd40e4750b8e4f1aac38dd5d5/c.html"
+      },
+      {
+        "name": "Express Tribune — IRGC warns US of retaliation",
+        "url": "https://tribune.com.pk/story/2607301/irgc-warns-us-of-retaliation-over-further-attacks-on-iranian-vessels"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["irgc", "iran", "us-navy", "hormuz", "threat", "day72"]
+  },
+  {
+    "id": "evt-new-1428",
+    "title": "Bulk carrier struck by unknown projectile 23nm off Qatar coast",
+    "description": "A bulk carrier was hit by an unknown projectile 23 nautical miles northeast of Doha. Fire broke out onboard but was quickly controlled. No claim of responsibility. UK Maritime Trade Operations (UKMTO) reported the incident. Suspected Iran-linked attack.",
+    "type": "naval",
+    "lat": 25.50,
+    "lng": 51.70,
+    "location": "23 NM northeast of Doha, Qatar",
+    "timestamp": "2026-05-10T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "US News — UKMTO bulk carrier hit near Qatar",
+        "url": "https://www.usnews.com/news/world/articles/2026-05-10/ukmto-says-bulk-carrier-hit-by-unknown-projectile-near-qatar"
+      },
+      {
+        "name": "Times of Israel — Bulk carrier hit near Qatar",
+        "url": "https://www.timesofisrael.com/liveblog_entry/bulk-carrier-hit-by-unknown-projectile-near-qatar-uk-maritime-organization-says/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["qatar", "shipping", "attack", "hormuz", "day72"]
+  },
+  {
+    "id": "evt-new-1429",
+    "title": "Kuwait and UAE shoot down Iranian drones on Saturday morning",
+    "description": "Defence ministries of Kuwait and UAE announced their air defenses shot down a number of drones coming from Iran on Saturday morning. Marks continued Iranian aggression against Gulf states despite the ceasefire.",
+    "type": "strike",
+    "lat": 29.30,
+    "lng": 47.90,
+    "location": "Kuwait and UAE airspace",
+    "timestamp": "2026-05-10T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — IRGC warns US; Israel bombs Lebanon",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/10/iran-war-live-irgc-warns-us-against-attacks-on-ships-israel-bombs-lebanon"
+      },
+      {
+        "name": "ABC News — UAE, Kuwait report new drone interceptions",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["kuwait", "uae", "iran", "drones", "interception", "day72"]
+  },
+  {
+    "id": "evt-new-1430",
+    "title": "Israel secret military base in Iraq's Anbar province revealed by WSJ",
+    "description": "Wall Street Journal reported Israel set up a secret military outpost in Iraq's Anbar province before the war. Housed special forces and served as IAF logistics hub for Iran strikes. IDF attacked Iraqi troops who nearly discovered it, killing one Iraqi soldier.",
+    "type": "movement",
+    "lat": 33.40,
+    "lng": 43.30,
+    "location": "Anbar Province, Iraq",
+    "timestamp": "2026-05-09T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Haaretz — Israel set up secret military outpost in Iraq",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-10/ty-article/israel-reportedly-set-up-secret-military-outpost-in-iraq-to-aid-in-iran-strikes/0000019e-1065-db10-a3bf-f067a1710000"
+      },
+      {
+        "name": "Israel Hayom — Israel built secret base deep inside Iraq",
+        "url": "https://www.israelhayom.com/2026/05/09/report-israel-built-secret-base-deep-inside-iraq-before-iran-war/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": ["israel", "iraq", "secret-base", "anbar", "day71"]
   }
 ]

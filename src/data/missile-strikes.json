@@ -10145,5 +10145,95 @@
       "killed": 0,
       "injured": 3
     }
+  },
+  {
+    "id": "ms-595",
+    "city": "Beirut-Sidon Highway",
+    "country": "Lebanon",
+    "lat": 33.80,
+    "lng": 35.50,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Three Israeli drone strikes on vehicles on the highway linking Beirut to Sidon killed 4 and wounded several.",
+    "source": "Washington Post",
+    "sourceUrl": "https://www.washingtonpost.com/world/2026/05/09/lebanon-israel-hezbollah-airstrikes-nabatiyeh/cbb737ee-4bbd-11f1-a119-857cd2bf4fd4_story.html",
+    "weaponType": "Drone-launched munition",
+    "casualties": {
+      "killed": 4,
+      "injured": 5
+    }
+  },
+  {
+    "id": "ms-596",
+    "city": "Al-Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.42,
+    "lng": 35.35,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on al-Saksakiyeh village killed 7 including a child and wounded 15. Part of deadliest day in Lebanon since ceasefire.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19",
+    "weaponType": "Aerial bomb",
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    }
+  },
+  {
+    "id": "ms-597",
+    "city": "Near Nahariya (Israeli base)",
+    "country": "Israel",
+    "lat": 33.00,
+    "lng": 35.10,
+    "strikeType": "missile",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-09",
+    "description": "Hezbollah launched missile salvo at Israeli military base south of Nahariya in retaliation for Lebanon strikes. IDF said rockets intercepted or hit open areas.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/hezbollah-says-it-launched-missiles-at-military-base-in-north-israel/",
+    "weaponType": "Rockets/missiles",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-598",
+    "city": "Southern Lebanon (multiple)",
+    "country": "Lebanon",
+    "lat": 33.35,
+    "lng": 35.40,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-10",
+    "description": "Israel's most intense strikes since ceasefire killed at least 39 across multiple locations in southern Lebanon. IDF claims 40+ Hezbollah infrastructure sites struck.",
+    "source": "Euronews",
+    "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
+    "weaponType": "Aerial munitions",
+    "casualties": {
+      "killed": 39,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-599",
+    "city": "Northern Israel (IDF positions)",
+    "country": "Israel",
+    "lat": 33.05,
+    "lng": 35.15,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-10",
+    "description": "Hezbollah explosive drones targeted IDF troops in northern Israel, wounding 3 reservists (1 seriously).",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/middle-east/article-895604",
+    "weaponType": "FPV explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
   }
 ]

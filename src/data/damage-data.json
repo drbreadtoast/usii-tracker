@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-10T12:03:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
+    "totalSites": 472,
+    "confirmed": 382,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7219,6 +7219,60 @@
       "casualties": "1+ killed, several injured",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-460",
+      "name": "Al-Saksakiyeh village — residential area",
+      "country": "Lebanon",
+      "lat": 33.42,
+      "lng": 35.35,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-09",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike destroyed residential structures in al-Saksakiyeh village, killing 7 including a child and wounding 15. Part of heaviest bombing since April 17 ceasefire.",
+      "weaponUsed": "Aerial bomb",
+      "casualties": "7 killed (including child), 15 wounded",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-461",
+      "name": "Southern Lebanon — 40+ Hezbollah infrastructure sites",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.40,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-10",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF struck 40+ Hezbollah infrastructure sites across southern Lebanon on May 10 in heaviest strikes since ceasefire. 39 killed. IDF claims 100+ militants eliminated over the weekend.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "39 killed",
+      "source": "Euronews",
+      "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-462",
+      "name": "Bulk carrier — 23nm NE of Doha, Qatar",
+      "country": "Qatar",
+      "lat": 25.50,
+      "lng": 51.70,
+      "category": "infrastructure",
+      "status": "confirmed",
+      "date": "2026-05-10",
+      "attributedTo": "unknown",
+      "damageLevel": "moderate",
+      "description": "Bulk carrier hit by unknown projectile 23 nautical miles northeast of Doha. Fire broke out onboard but was quickly controlled. No casualties. No claim of responsibility. UKMTO reported incident.",
+      "weaponUsed": "Unknown projectile",
+      "casualties": "No casualties",
+      "source": "US News",
+      "sourceUrl": "https://www.usnews.com/news/world/articles/2026-05-10/ukmto-says-bulk-carrier-hit-by-unknown-projectile-near-qatar",
       "satelliteImagery": false
     }
   ]

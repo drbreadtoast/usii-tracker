@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-08T12:13:00Z",
+    "lastUpdated": "2026-05-10T12:03:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 70
+    "conflictDay": 72
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-08",
-      "label": "Day 70 5:13 AM PT \u2014 Brent $100.54/bbl (+25.9% from pre-war $79.80). WTI $95.46/bbl (+26.4% from $75.50). Off overnight highs. CIA leaked: Iran can survive blockade 3-4 months, retains 75% launchers. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55. Hormuz Day 67.",
+      "date": "2026-05-10",
+      "label": "Day 72 5:03 AM PT \u2014 Brent $101.00/bbl (+26.6% from pre-war $79.80). WTI $95.42/bbl (+26.4% from $75.50). IRGC warns missiles locked on US targets. Israel kills 39 in Lebanon. Kuwait/UAE intercept drones. Bulk carrier hit off Qatar. Iran still reviewing 14-point MOU. Gas $4.52. Hormuz Day 69.",
       "brent": {
-        "price": 100.54,
-        "change": "+26.0%",
-        "changeDollars": "+$20.74"
+        "price": 101.00,
+        "change": "+26.6%",
+        "changeDollars": "+$21.20"
       },
       "wti": {
-        "price": 95.46,
+        "price": 95.42,
         "change": "+26.4%",
-        "changeDollars": "+$19.96"
+        "changeDollars": "+$19.92"
       },
-      "changePercent": 26.0,
-      "lastUpdated": "2026-05-08"
+      "changePercent": 26.5,
+      "lastUpdated": "2026-05-10"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-10T12:03:00Z",
+    "note": "Day 72 5:03 AM PT: Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). AAA gas $4.52/gal \u2014 up 53% vs pre-war $2.95. IRGC warns missiles locked on US. Israel kills 39 in Lebanon. Bulk carrier hit off Qatar. Iran reviewing MOU. Hormuz Day 69 blockade.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.55,
-          "date": "2026-05-07"
+          "price": 4.52,
+          "date": "2026-05-10"
         },
-        "change": "+$1.50",
-        "changePercent": "+49.2%",
-        "detail": "Gas $4.55/gal (AAA, May 7). Up 25 cents 2nd straight week. Brent $100.54 (+26.0%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
+        "change": "+$1.47",
+        "changePercent": "+48.2%",
+        "detail": "Gas $4.52/gal (AAA, May 10). Second-straight week with 25-cent increase (from $4.27 April 30). Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). Highest since 2022 peak of $5.01. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1332,6 +1332,20 @@
       "brent": 101.96,
       "wti": 95.66,
       "label": "Day 69 5:12 AM PT \u2014 Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. Pezeshkian confirms 2.5-hour meeting with Mojtaba Khamenei \u2014 first proof of life. Trump: deal 'very possible.' Qatar PM: 'high probability.' S&P 500 rallies to 7,365 (+1.46%). WaPo: Iran damaged 228 structures at US bases. US intel: nuclear breakout unchanged at 9-12 months. Saeed Jalili may replace Ghalibaf. Gas $4.54. Hormuz Day 66.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-08",
+      "brent": 100.54,
+      "wti": 95.46,
+      "label": "Day 70 \u2014 Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). US fires on 2 Iranian tankers in Hormuz. UAE intercepts Iranian missiles/drones (first since ceasefire). Hegseth hearing: $25B war cost. Iran seizes tanker Ocean Koi. Trump: 'love tap.' Gas $4.55. Hormuz Day 67.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-10",
+      "brent": 101.00,
+      "wti": 95.42,
+      "label": "Day 72 5:03 AM PT \u2014 Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). IRGC warns missiles 'locked' on US targets. Israel kills 39 in Lebanon (heaviest since ceasefire). Kuwait/UAE intercept Iranian drones. Bulk carrier hit off Qatar. Rubio-Witkoff-Qatar PM meet in Miami. WSJ: Israel secret Iraq base. Iran reviewing 14-point MOU. Gas $4.52. Hormuz Day 69.",
       "isEvent": true
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-08T12:13:00Z",
-  "currentAverage": 4.55,
+  "lastUpdated": "2026-05-10T12:03:00Z",
+  "currentAverage": 4.52,
   "preWarAverage": 3.05,
-  "changePercent": 49.18,
+  "changePercent": 48.20,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -597,6 +597,14 @@
       "wti": 95.46,
       "label": "Day 70 5:13 AM PT \u2014 Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. CIA leaked: Iran survives blockade 3-4 months. WaPo: 228 structures at US bases damaged. 3 IDF soldiers wounded by Hezbollah FPV drones. Wang Yi-Araghchi Beijing meeting. S&P 500 record 7,365. Gas $4.55 (+49.2%). Hormuz Day 67.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-10",
+      "price": 4.52,
+      "brent": 101.00,
+      "wti": 95.42,
+      "label": "Day 72 5:03 AM PT \u2014 AAA $4.52/gal (+48.2% from $3.05 pre-war). Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). IRGC warns missiles locked on US targets. Israel kills 39 in Lebanon. Kuwait/UAE intercept Iranian drones. Bulk carrier hit off Qatar. Iran reviewing MOU. Hormuz Day 69.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -646,13 +654,13 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 8 5:13 AM PT)",
-      "crudePerBarrel": 100.54,
+      "label": "Current (May 10 5:03 AM PT)",
+      "crudePerBarrel": 101.00,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$100.54 \u00f7 42 gal (Brent, May 8)",
-          "value": 2.394,
+          "formula": "$101.00 \u00f7 42 gal (Brent, May 10)",
+          "value": 2.405,
           "percent": 53,
           "change": "+$0.77"
         },
@@ -692,18 +700,18 @@
           "change": "+$0.182"
         }
       ],
-      "total": 4.55,
-      "note": "National average $4.55/gal (AAA, May 7). Up 25 cents for 2nd straight week. Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). GasBuddy warns $5/gal by Memorial Day. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal. Hormuz Day 67 blockade.",
-      "crude": 2.394,
+      "total": 4.52,
+      "note": "National average $4.52/gal (AAA, May 10). Up 25 cents for 2nd straight week. Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). Highest since 2022 peak of $5.01. CA $6.01; OK $3.70 cheapest. Diesel ~$5.65/gal. Hormuz Day 69 blockade.",
+      "crude": 2.405,
       "taxes": 0.534,
-      "refining": 0.714,
-      "distribution": 0.40,
-      "regularGasoline": 4.558,
-      "changeFromPreWar": "+$1.51",
-      "changePercent": "+49.4%",
-      "lastUpdated": "2026-05-08T06:11:00Z",
-      "date": "2026-05-08"
+      "refining": 0.704,
+      "distribution": 0.39,
+      "regularGasoline": 4.52,
+      "changeFromPreWar": "+$1.47",
+      "changePercent": "+48.2%",
+      "lastUpdated": "2026-05-10T12:03:00Z",
+      "date": "2026-05-10"
     }
   },
-  "context": "Day 70 11:11 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil rebounding: Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) on US-Iran Hormuz fire exchange. IRGC attacked 3 US destroyers; CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'love tap,' 1-week ultimatum. Hezbollah record 105 attacks on Israel. Iran creates PGSA. UAE intercepts attacks. Hormuz Day 67 blockade."
+  "context": "Day 72 5:03 AM PT: National average $4.52/gal per AAA (+48.2% from $3.05) — near 4-year high. Brent $101.00 (+26.6%), WTI $95.42 (+26.4%). IRGC warns missiles locked on US targets. Israel kills 39 in Lebanon (heaviest since ceasefire). Kuwait/UAE intercept Iranian drones. Bulk carrier hit off Qatar. Iran reviewing 14-point MOU. Hormuz Day 69 blockade."
 }
