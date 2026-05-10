@@ -49122,5 +49122,467 @@
       "injured": 0
     },
     "tags": ["lebanon", "israel", "peace-talks", "washington", "day69"]
+  },
+  {
+    "id": "evt-new-1420",
+    "title": "US strikes three Iranian ports in retaliation for Hormuz attacks",
+    "description": "US struck Bandar Abbas, Qeshm, and Bandar Kargan in retaliation for IRGC attacks on USS Truxtun, USS Mason, and USS Rafael Peralta. Targets included missile/drone launch sites, C2 locations, and ISR nodes. CENTCOM confirmed the strikes as self-defense.",
+    "type": "strike",
+    "lat": 27.19,
+    "lng": 56.28,
+    "location": "Bandar Abbas, Iran",
+    "timestamp": "2026-05-08T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News — US destroyers face Iranian attacks",
+        "url": "https://www.cbsnews.com/news/u-s-destroyers-face-second-round-of-iranian-attacks/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "us-strikes", "bandar-abbas", "iran", "retaliation", "day70"]
+  },
+  {
+    "id": "evt-new-1421",
+    "title": "US fires on and disables two Iranian oil tankers breaching blockade",
+    "description": "US forces fired on and disabled two Iranian oil tankers — M/T Sea Star III and M/T Sevda — attempting to breach the American blockade of Iran's ports. A Navy warplane fired into the ships' smokestacks, disabling them. CENTCOM confirmed the tankers were empty.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-08T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS News — US fires on Iranian tankers",
+        "url": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "blockade", "tankers", "us-navy", "iran", "day70"]
+  },
+  {
+    "id": "evt-new-1422",
+    "title": "Iran Navy seizes tanker Ocean Koi in Gulf of Oman",
+    "description": "Iran Navy seized Barbados-flagged tanker Ocean Koi in the Gulf of Oman, claiming it was attempting to disrupt oil exports. The vessel was managed by a Chinese company and had been under US sanctions since February. Iran called it a counter-blockade measure.",
+    "type": "naval",
+    "lat": 25.50,
+    "lng": 57.00,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-05-08T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran seizes oil tanker",
+        "url": "https://www.aljazeera.com/news/2026/5/8/iran-says-it-has-seized-oil-tanker-over-attempts-to-disrupt-its-oil-exports"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran-navy", "tanker-seizure", "gulf-of-oman", "blockade", "day70"]
+  },
+  {
+    "id": "evt-new-1423",
+    "title": "Israeli strikes kill 12 in Lebanon including paramedic and two children",
+    "description": "Israeli attacks killed at least 12 in Lebanon, including a paramedic and two children. Multiple strikes across southern Lebanon throughout the day targeted alleged Hezbollah positions in residential areas.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.20,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-08T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Democracy Now — Israeli attacks kill 12 in Lebanon",
+        "url": "https://www.democracynow.org/2026/5/8/headlines/israeli_attacks_kill_12_in_lebanon_including_paramedic_and_two_children"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 12,
+      "injured": 0
+    },
+    "tags": ["lebanon", "israel-strikes", "civilians", "children", "day70"]
+  },
+  {
+    "id": "evt-new-1424",
+    "title": "IDF strikes 85+ Hezbollah targets including Beqaa Valley weapons factory",
+    "description": "The IDF struck over 85 Hezbollah targets from the air and on the ground, including an underground weapons production site in the Beqaa Valley in eastern Lebanon. Targets included weapons storage facilities, launchers, and military structures.",
+    "type": "strike",
+    "lat": 33.85,
+    "lng": 36.00,
+    "location": "Beqaa Valley, Lebanon",
+    "timestamp": "2026-05-09T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "JNS — IDF hits 85+ targets across Lebanon",
+        "url": "https://www.jns.org/news/israel-news/idf-hits-more-than-85-targets-across-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["lebanon", "idf", "beqaa-valley", "weapons-factory", "day71"]
+  },
+  {
+    "id": "evt-new-1425",
+    "title": "Israeli strike on Saksakieh kills 7 including child",
+    "description": "An Israeli airstrike on the southern village of Saksakieh killed at least 7 people, including a child, and injured around 15 others. The IDF said it struck Hezbollah operatives in a structure used for military purposes.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.38,
+    "location": "Saksakieh, Lebanon",
+    "timestamp": "2026-05-09T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al-Monitor — Israeli strike kills seven in south Lebanon",
+        "url": "https://www.al-monitor.com/originals/2026/05/israeli-strike-kills-seven-south-lebanon-lebanese-health-ministry-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 7,
+      "injured": 15
+    },
+    "tags": ["lebanon", "saksakieh", "israel-strikes", "civilians", "day71"]
+  },
+  {
+    "id": "evt-new-1426",
+    "title": "Israeli drone strikes kill Syrian father and daughter in Nabatieh",
+    "description": "Three Israeli drone strikes targeted a Syrian man riding a motorcycle with his 12-year-old daughter in Nabatieh. After the initial strike both managed to move away but were struck again. The father was killed in the second strike; the daughter died in hospital after a third strike.",
+    "type": "strike",
+    "lat": 33.38,
+    "lng": 35.48,
+    "location": "Nabatieh, Lebanon",
+    "timestamp": "2026-05-09T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Arab News — Israeli drone kills father and daughter",
+        "url": "https://www.arabnews.com/node/2642939/middle-east"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 2,
+      "injured": 0
+    },
+    "tags": ["lebanon", "nabatieh", "drone-strike", "civilians", "day71"]
+  },
+  {
+    "id": "evt-new-1427",
+    "title": "WSJ reveals Israel built secret military base in western Iraq",
+    "description": "Wall Street Journal reported Israel built a clandestine military outpost in the western Iraqi desert before the war, housing special forces and serving as an IAF logistical hub. When Iraqi troops investigated helicopter activity, Israel launched airstrikes killing 1 Iraqi soldier and wounding 2 to protect the base.",
+    "type": "movement",
+    "lat": 33.50,
+    "lng": 41.50,
+    "location": "Western Iraq",
+    "timestamp": "2026-05-09T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "US News — Israel built secret base in Iraq (WSJ report)",
+        "url": "https://www.usnews.com/news/world/articles/2026-05-09/israel-built-and-defended-a-secret-base-in-iraq-for-iran-war-wsj-reports"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 2
+    },
+    "tags": ["israel", "iraq", "secret-base", "wsj", "intelligence", "day71"]
+  },
+  {
+    "id": "evt-new-1428",
+    "title": "Qatar PM meets Rubio and Witkoff in Miami on Iran deal",
+    "description": "Qatari PM Mohammed bin Abdulrahman al-Thani met with Secretary of State Rubio and special envoy Witkoff in Miami. Qatar is quietly mediating alongside Pakistan's official mediator role. The meeting followed the Qatari PM's meeting with VP Vance at the White House on Friday.",
+    "type": "diplomatic",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "Miami, Florida",
+    "timestamp": "2026-05-09T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Axios — Witkoff Rubio Qatar Iran deal",
+        "url": "https://www.axios.com/2026/05/09/witkoff-rubio-qatar-iran-deal"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["diplomacy", "qatar", "rubio", "witkoff", "iran-deal", "day71"]
+  },
+  {
+    "id": "evt-new-1429",
+    "title": "IRGC warns of heavy assault on US bases if Iranian vessels attacked again",
+    "description": "IRGC Navy warned of a heavy assault on US bases and ships if Iranian vessels face further attacks. Gen. Mousavi (IRGC Aerospace) stated missiles and drones are aimed at US facilities in the region, awaiting launch order.",
+    "type": "diplomatic",
+    "lat": 35.70,
+    "lng": 51.42,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-09T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Press TV — IRGC heavy strike warning",
+        "url": "https://www.presstv.ir/Detail/2026/05/09/768342/IRGC-Navy--Any-attack-on-Iranian-vessels-will-trigger-heavy-strike-on-US-bases-in-region"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["irgc", "threat", "us-bases", "iran", "escalation", "day71"]
+  },
+  {
+    "id": "evt-new-1430",
+    "title": "Israel strikes kill 39 across Lebanon — most intense day since ceasefire",
+    "description": "Israel carried out strikes across Lebanon killing at least 39 people, the most intense day of strikes since the ceasefire. Raids targeted the Saadiyat highway near Beirut, the Beirut-Sidon highway, and a road to Lebanon's Chouf region. Three killed on the Chouf road alone.",
+    "type": "strike",
+    "lat": 33.70,
+    "lng": 35.50,
+    "location": "Multiple locations, Lebanon",
+    "timestamp": "2026-05-10T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Euronews — 39 killed in fresh Israeli strikes on Lebanon",
+        "url": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 39,
+      "injured": 0
+    },
+    "tags": ["lebanon", "israel-strikes", "deadliest-day", "ceasefire", "day72"]
+  },
+  {
+    "id": "evt-new-1431",
+    "title": "Drone attacks hit Qatar, UAE, and Kuwait — Gulf states under fire",
+    "description": "Drone struck a cargo vessel in Qatari waters near Mesaieed Port causing limited fire. UAE shot down two drones blamed on Iran. Kuwait repelled hostile drone incursion. South Korea confirmed drone attack on HMM NAMU in Hormuz. Iran denied responsibility.",
+    "type": "strike",
+    "lat": 25.30,
+    "lng": 51.60,
+    "location": "Gulf States (Qatar, UAE, Kuwait)",
+    "timestamp": "2026-05-10T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Fortune — Iran war drone attacks Gulf states",
+        "url": "https://fortune.com/2026/05/10/iran-war-ceasefire-drone-cargo-ship-qatar-kuwait-uae-attacks/"
+      },
+      {
+        "name": "Al Jazeera — US-Iran ceasefire drone attacks",
+        "url": "https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["gulf-states", "drone-attacks", "qatar", "uae", "kuwait", "iran", "day72"]
+  },
+  {
+    "id": "evt-new-1432",
+    "title": "Iran sends 10-point counter-proposal to US via Pakistan",
+    "description": "Iran delivered its formal response to the US ceasefire proposal via mediator Pakistan. The 10-point plan includes ending war on all fronts including Lebanon, Hormuz shipping safety, lifting sanctions, unfreezing assets, and compensation. Iran rejected the US demand for an immediate nuclear enrichment moratorium.",
+    "type": "diplomatic",
+    "lat": 33.69,
+    "lng": 73.04,
+    "location": "Islamabad, Pakistan (via mediator)",
+    "timestamp": "2026-05-10T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran sends response via Pakistan",
+        "url": "https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan"
+      },
+      {
+        "name": "NBC News — Iran responded to US proposal",
+        "url": "https://www.nbcnews.com/world/iran/iran-responded-us-proposal-peace-talks-state-media-reports-rcna344404"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "diplomacy", "counter-proposal", "pakistan", "ceasefire", "day72"]
+  },
+  {
+    "id": "evt-new-1433",
+    "title": "Netanyahu urges Trump against ceasefire after Iran's response",
+    "description": "Netanyahu left an event at the Dead Sea to call Trump after Iran's response. He urged Trump not to pursue a ceasefire at the moment, expressing concern about the risks. Trump reportedly told Netanyahu that if Iran agrees to US demands, a ceasefire could proceed.",
+    "type": "diplomatic",
+    "lat": 31.50,
+    "lng": 35.48,
+    "location": "Dead Sea, Israel",
+    "timestamp": "2026-05-10T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — May 10 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-may-10-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["netanyahu", "trump", "ceasefire", "diplomacy", "israel", "day72"]
+  },
+  {
+    "id": "evt-new-1434",
+    "title": "Mojtaba Khamenei meets top general, issues new military directives",
+    "description": "Supreme Leader Mojtaba Khamenei met with Maj. Gen. Ali Abdollahi (Khatam al-Anbiya HQ commander) and issued new guiding measures to pursue military operations. Meanwhile, US Ambassador Waltz claimed Khamenei has been severely injured and is in hiding.",
+    "type": "diplomatic",
+    "lat": 35.70,
+    "lng": 51.42,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-10T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Press TV — Top general meets Khamenei",
+        "url": "https://www.presstv.ir/Detail/2026/05/10/768370/Top-general-tells-Leader-Iranian-Armed-Forces-ready-crush-any-aggression"
+      },
+      {
+        "name": "The National — Waltz says Khamenei injured",
+        "url": "https://www.thenationalnews.com/news/us/2026/05/10/iran-ayatollah-alive-mojtaba-khamenei-waltz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["khamenei", "iran", "military", "waltz", "health", "day72"]
+  },
+  {
+    "id": "evt-new-1435",
+    "title": "First Qatari LNG tanker transits Hormuz since war began",
+    "description": "QatarEnergy-operated carrier Al Kharaitiyat successfully passed through the Strait of Hormuz bound for Pakistan's Port Qasim — the first Qatari LNG shipment since the war began. Transit approved by Iran as a confidence-building measure with mediators Qatar and Pakistan.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-10T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "qatar",
+    "sources": [
+      {
+        "name": "CNBC — Tanker crosses Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hormuz", "qatar", "lng", "transit", "confidence-building", "day72"]
+  },
+  {
+    "id": "evt-new-1436",
+    "title": "Satellite images show 80,000-barrel oil spill off Iran's Kharg Island",
+    "description": "Copernicus satellite imagery revealed approximately 80,000 barrels of crude oil leaked from Kharg Island since May 5, covering 71 square kilometers. Cause unknown — experts suggest the US blockade may be forcing Iran to dump crude. Iran claims it originated from a European tanker.",
+    "type": "infrastructure",
+    "lat": 29.23,
+    "lng": 50.33,
+    "location": "Kharg Island, Iran",
+    "timestamp": "2026-05-10T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Al Jazeera — Satellite images oil slick Kharg Island",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/10/satellite-images-show-likely-oil-slick-off-irans-kharg-island"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["kharg-island", "oil-spill", "environment", "blockade", "iran", "day72"]
+  },
+  {
+    "id": "evt-new-1437",
+    "title": "Treasury sanctions 10 entities supplying weapons and UAV components to Iran",
+    "description": "US Treasury OFAC sanctioned 10 entities across Middle East, Asia, and Europe for supplying weapons and UAV components to Iran. Targets include Chinese firm Hitex Insulation Ningbo (carbon fiber) and Hong Kong firm Mustad Limited (IRGC procurement). Part of Economic Fury campaign.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-08T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US Treasury — Press release sb0496",
+        "url": "https://home.treasury.gov/news/press-releases/sb0496"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["sanctions", "treasury", "iran", "uav", "china", "day70"]
   }
 ]
