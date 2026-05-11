@@ -10253,5 +10253,95 @@
       "killed": 39,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-601",
+    "city": "Qalawiya",
+    "country": "Lebanon",
+    "lat": 33.21,
+    "lng": 35.36,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-11",
+    "description": "IDF airstrike killed 2 Lebanese Health Authority workers in Qalawiya during active medical operation. IDF claims medics were facilitating Hezbollah logistics. Lebanon Health Ministry condemns targeting of medical personnel.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/11/iran-war-live-trump-slams-tehrans-reply-israel-kills-2-medics-in-lebanon",
+    "weaponType": "Precision-guided munitions",
+    "casualties": {
+      "killed": 2,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-602",
+    "city": "Tibnin",
+    "country": "Lebanon",
+    "lat": 33.20,
+    "lng": 35.40,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-11",
+    "description": "IDF airstrike on Tibnin — one of multiple strikes in south Lebanon on Day 73. Part of 51 killed in 24-hour period. IDF struck 20+ Hezbollah targets across southern Lebanon.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-05-10/ty-article-live/36-killed-in-lebanon-by-israeli-airstrikes-over-past-day-health-ministry-says/0000019e-0fd8-db10-a3bf-ffdb07a80004",
+    "weaponType": "Aerial munitions",
+    "casualties": {
+      "killed": 8,
+      "injured": 12
+    }
+  },
+  {
+    "id": "ms-603",
+    "city": "Nahariya",
+    "country": "Israel",
+    "lat": 33.00,
+    "lng": 35.10,
+    "strikeType": "rocket",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-11",
+    "description": "Hezbollah rocket barrage struck Nahariya — 1 civilian killed, 14 injured. Part of record 105 attack waves launched by Hezbollah in single day. Netanyahu emergency security cabinet convened in response.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/israel-news/article-890098",
+    "weaponType": "Rockets",
+    "casualties": {
+      "killed": 1,
+      "injured": 14
+    }
+  },
+  {
+    "id": "ms-604",
+    "city": "Metula area (Iron Dome battery)",
+    "country": "Israel",
+    "lat": 33.28,
+    "lng": 35.57,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-11",
+    "description": "Hezbollah explosive UAV struck Iron Dome air defense battery near Metula. Drone footage released by Hezbollah showing direct hit. IDF confirmed battery damage. First confirmed Iron Dome system hit in current conflict.",
+    "source": "Jerusalem Post",
+    "sourceUrl": "https://www.jpost.com/israel-news/article-890098",
+    "weaponType": "Explosive UAV",
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    }
+  },
+  {
+    "id": "ms-605",
+    "city": "Southern Lebanon (IDF position)",
+    "country": "Lebanon",
+    "lat": 33.15,
+    "lng": 35.38,
+    "strikeType": "anti-tank",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-11",
+    "description": "Hezbollah anti-tank missile struck IDF position in southern Lebanon — 1 Golani Brigade soldier killed. IDF reservist Sgt. Glovanyov also killed in separate drone strike in same area. Total 2 IDF KIA on Day 73.",
+    "source": "Haaretz",
+    "sourceUrl": "https://www.haaretz.com/israel-news/israel-security/2026-05-10/ty-article-live/36-killed-in-lebanon-by-israeli-airstrikes-over-past-day-health-ministry-says/0000019e-0fd8-db10-a3bf-ffdb07a80004",
+    "weaponType": "Anti-tank guided missile",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
   }
 ]

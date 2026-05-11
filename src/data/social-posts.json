@@ -38,24 +38,6 @@
     ]
   },
   {
-    "id": "social-1207",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "INTEL: WSJ reveals Israel built secret military outpost in western Iraq desert for Iran air campaign — housing special forces and IAF logistical hub. When Iraqi shepherd spotted helicopter activity and troops investigated, Israel launched airstrikes killing 1 Iraqi soldier, wounding 2. Iraq filed UN complaint attributing attack to US.",
-    "timestamp": "2026-05-10T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Wall Street Journal investigative report confirmed by Haaretz and US News.",
-    "keywords": [
-      "israel",
-      "iraq",
-      "secret-base",
-      "wsj",
-      "iaf",
-      "special-forces"
-    ]
-  },
-  {
     "id": "social-1208",
     "handle": "@TheIntelLab",
     "displayName": "The Intel Lab",
@@ -126,6 +108,114 @@
       "kharg-island",
       "spill",
       "fao"
+    ]
+  },
+  {
+    "id": "social-1212",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "NEGOTIATIONS: Iran submitted its counter-proposal to the US via Pakistan on May 10. The response included demands for Hormuz sovereignty recognition, war reparations, sanctions relief, and frozen asset release — while refusing to place its nuclear program on the negotiating table at this stage. Trump declared it 'TOTALLY UNACCEPTABLE.'",
+    "timestamp": "2026-05-11T08:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera, CNN, Times of Israel confirmed Iran's counter-proposal via Pakistan. CNBC confirmed Trump's rejection.",
+    "keywords": [
+      "iran",
+      "negotiations",
+      "trump",
+      "counter-proposal",
+      "hormuz",
+      "nuclear"
+    ]
+  },
+  {
+    "id": "social-1213",
+    "handle": "@IranWarLive",
+    "displayName": "IranWarLive",
+    "text": "CEASEFIRE COLLAPSE: IDF struck over 20 Hezbollah targets in Lebanon on May 11 killing at least 51 including 2 medical workers. IDF Chief Zamir stated 'there is no ceasefire in Lebanon.' Hezbollah launched record 105 attack waves — killed IDF reservist Alexander Glovanyov (47) and one Golani Brigade soldier. Nahariya civilian also killed.",
+    "timestamp": "2026-05-11T06:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera confirmed 51 killed including 2 medics. Times of Israel confirmed Glovanyov and Golani soldier KIA. Alma Research Center confirmed 105 attack waves.",
+    "keywords": [
+      "lebanon",
+      "israel",
+      "idf",
+      "hezbollah",
+      "ceasefire",
+      "nahariya"
+    ]
+  },
+  {
+    "id": "social-1214",
+    "handle": "@warwavetracker",
+    "displayName": "War Wave Tracker",
+    "text": "OIL SPIKE: Brent crude jumped to $103.93/bbl (+30.2% from pre-war), WTI $97.88 (+29.6%) as Trump rejected Iran's counter-proposal and Tehran vowed it would 'never bow.' Markets pricing in renewed escalation risk. Oil up ~2% on the day.",
+    "timestamp": "2026-05-11T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed oil price data in same article reporting Trump's rejection of Iran counter-proposal.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "trump",
+      "escalation",
+      "markets"
+    ]
+  },
+  {
+    "id": "social-1215",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats Project (AEI)",
+    "text": "INTELLIGENCE: US intel assesses Mojtaba Khamenei is helping direct war strategy and negotiations from isolation — communicates only in person or via courier, using no electronics. CNN reported he has burn injuries on face, arm, torso, and leg from the Feb 28 attack on the Khamenei compound.",
+    "timestamp": "2026-05-11T12:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "likely",
+    "verificationNote": "CNN confirmed US intel assessment on Khamenei's condition and communications method (May 8 report). Iran state media counters with meeting photos.",
+    "keywords": [
+      "khamenei",
+      "intel",
+      "injuries",
+      "iran",
+      "negotiations",
+      "isolation"
+    ]
+  },
+  {
+    "id": "social-1216",
+    "handle": "@netanyahu",
+    "displayName": "Benjamin Netanyahu (PM Israel)",
+    "text": "NETANYAHU/60 MINUTES: Netanyahu told CBS 60 Minutes the Iran war is 'not over' despite ceasefire — Iran still holds highly enriched uranium and active enrichment sites. Said Israel killed 20 top Iranian nuclear scientists. Also called for ending direct US financial aid to Israel over next 10 years to achieve full defense independence.",
+    "timestamp": "2026-05-11T14:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News and Times of Israel confirmed the full 60 Minutes interview. IDF confirmed killing of Iranian nuclear scientists during Operation Epic Fury.",
+    "keywords": [
+      "netanyahu",
+      "60-minutes",
+      "iran",
+      "nuclear",
+      "war",
+      "ceasefire"
+    ]
+  },
+  {
+    "id": "social-1217",
+    "handle": "@Araghchi_FM",
+    "displayName": "Abbas Araghchi (Iranian Foreign Minister)",
+    "text": "IRAN FOREIGN MIN: Araghchi wrapped Beijing visit (May 5-6) where China's Wang Yi pressed Iran not to resume the war and urged Hormuz reopening ahead of Trump-Xi summit (May 14-15). Araghchi said Iran 'only accepts a fair and comprehensive agreement.' Iran's counter-proposal submitted May 10.",
+    "timestamp": "2026-05-11T09:00:00Z",
+    "sourceCategory": "lead",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera and CNBC confirmed Araghchi-Wang Yi meeting and China's position on Hormuz reopening.",
+    "keywords": [
+      "araghchi",
+      "beijing",
+      "china",
+      "wang-yi",
+      "hormuz",
+      "negotiations"
     ]
   }
 ]

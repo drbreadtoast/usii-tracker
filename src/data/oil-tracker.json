@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-10T20:04:00Z",
+    "lastUpdated": "2026-05-11T12:04:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-10",
-      "label": "Day 72 1:04 PM PT \u2014 Brent $101.29/bbl (+26.9% from pre-war $79.84). WTI $95.42/bbl (+26.4% from $75.51). Oil ~6% weekly loss after MOU peace deal hopes. Iran sends 10-point counter-proposal via Pakistan. Drones hit Qatar/UAE/Kuwait. Israel kills 39 in Lebanon. First Qatari LNG transits Hormuz. Kharg Island 80K-barrel spill. Gas $4.52. Hormuz Day 69.",
+      "date": "2026-05-11",
+      "label": "Day 73 5:04 AM PT \u2014 Brent $103.93/bbl (+30.2% from pre-war $79.84). WTI $97.88/bbl (+29.6% from $75.51). Oil jumped ~2% as Trump rejected Iran counter-proposal as 'TOTALLY UNACCEPTABLE.' Hezbollah record 105 attack waves. Lebanon 2,846 killed. Gas $4.52. Hormuz Day 70.",
       "brent": {
-        "price": 101.29,
-        "change": "+26.9%",
-        "changeDollars": "+$21.45"
+        "price": 103.93,
+        "change": "+30.2%",
+        "changeDollars": "+$24.09"
       },
       "wti": {
-        "price": 95.42,
-        "change": "+26.4%",
-        "changeDollars": "+$19.91"
+        "price": 97.88,
+        "change": "+29.6%",
+        "changeDollars": "+$22.37"
       },
-      "changePercent": 26.9,
-      "lastUpdated": "2026-05-10"
+      "changePercent": 30.2,
+      "lastUpdated": "2026-05-11"
     },
     "priceHistory": [
       {
@@ -639,23 +639,23 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-08T12:13:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-11T12:04:00Z",
+    "note": "Day 73 5:04 AM PT: Brent $103.93 (+30.2%), WTI $97.88 (+29.6%). Trump rejects Iran counter-proposal \u2014 oil +2% spike. Gas $4.52/gal (+42.1% vs $3.18 pre-war). Hormuz Day 70 blockade. Trump-Xi summit May 14-15 last diplomatic off-ramp.",
     "fuels": [
       {
         "type": "Regular Gasoline",
         "icon": "\u26fd",
         "preWar": {
-          "price": 3.05,
+          "price": 3.18,
           "date": "2026-02-27"
         },
         "current": {
           "price": 4.52,
-          "date": "2026-05-10"
+          "date": "2026-05-11"
         },
-        "change": "+$1.47",
-        "changePercent": "+48.2%",
-        "detail": "Gas $4.52/gal (AAA, May 10). Slight pullback after MOU peace deal hopes. Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). AAA: rose 25 cents for 2nd straight week. Pre-war $3.05. Highest since 2022's $5.01 peak.",
+        "change": "+$1.34",
+        "changePercent": "+42.1%",
+        "detail": "Gas $4.52/gal (AAA, May 11). Trump rejected Iran counter-proposal — Brent $103.93 (+30.2%), WTI $97.88. Hormuz Day 70. Pre-war $3.18. Highest since 2022's $5.01 peak.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -733,11 +733,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.558,
-    "gasPriceRegular": 4.558,
-    "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.51",
-    "changePercent": "+49.4%"
+    "regularGasoline": 4.52,
+    "gasPriceRegular": 4.52,
+    "gasPriceDiesel": "$5.64/gal",
+    "changeFromPreWar": "+$1.34",
+    "changePercent": "+42.1%"
   },
   "keyFacts": [
     {
@@ -834,7 +834,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-07T19:10:00Z",
+  "lastUpdated": "2026-05-11T12:04:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

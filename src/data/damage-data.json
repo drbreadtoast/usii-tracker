@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-10T20:04:00Z",
+    "lastUpdated": "2026-05-11T12:04:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,16 +28,16 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 379,
+    "totalSites": 471,
+    "confirmed": 381,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
-      "military": 67,
+      "military": 68,
       "nuclear": 8,
       "infrastructure": 12,
-      "civilian": 37,
+      "civilian": 38,
       "media_civilian": 2,
       "residential": 1,
       "energy": 5,
@@ -7310,6 +7310,42 @@
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/5/10/satellite-images-show-likely-oil-slick-off-irans-kharg-island",
       "satelliteImagery": true
+    },
+    {
+      "id": "dmg-465",
+      "name": "Lebanese Health Authority post — Qalawiya",
+      "country": "Lebanon",
+      "lat": 33.21,
+      "lng": 35.36,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-11",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "IDF airstrike destroyed Lebanese Health Authority post in Qalawiya — 2 medical workers killed while conducting active medical operations. Lebanon Health Ministry condemned targeting. IDF claimed post was being used for Hezbollah logistics.",
+      "weaponUsed": "Precision-guided munitions",
+      "casualties": "2 killed (medical workers), 3 injured",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/11/iran-war-live-trump-slams-tehrans-reply-israel-kills-2-medics-in-lebanon",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-466",
+      "name": "Iron Dome battery — Metula area",
+      "country": "Israel",
+      "lat": 33.28,
+      "lng": 35.57,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-11",
+      "attributedTo": "hezbollah",
+      "damageLevel": "moderate",
+      "description": "Hezbollah explosive UAV struck Iron Dome air defense battery near Metula during record 105-wave attack day. Hezbollah released drone footage showing direct hit. First confirmed Iron Dome system struck in current conflict. Battery temporarily disabled.",
+      "weaponUsed": "Explosive UAV (kamikaze drone)",
+      "casualties": "2 injured",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/article-890098",
+      "satelliteImagery": false
     }
   ]
 }
