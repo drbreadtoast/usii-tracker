@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-10T20:04:00Z",
-  "currentAverage": 4.52,
+  "lastUpdated": "2026-05-11T06:01:00Z",
+  "currentAverage": 4.522,
   "preWarAverage": 3.05,
-  "changePercent": 48.20,
+  "changePercent": 48.26,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -604,6 +604,14 @@
       "wti": 95.42,
       "label": "Day 72 1:04 PM PT \u2014 Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Oil ~6% weekly loss on MOU hopes. Iran 10-point counter-proposal via Pakistan. Drones hit Qatar/UAE/Kuwait. Israel kills 39 in Lebanon. First Qatari LNG transits Hormuz. Gas $4.52 (+48.2%). Hormuz Day 69.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-11",
+      "price": 4.522,
+      "brent": 105.82,
+      "wti": 100.18,
+      "label": "Day 73 11:01 PM PDT May 10 \u2014 AAA $4.522/gal (+48.3% from $3.05 pre-war). Oil surge: Brent $105.82 (+32.5%), WTI $100.18 (+32.7%) on ceasefire collapse. Trump: Iran counter-proposal 'TOTALLY UNACCEPTABLE.' Oil spike expected to push gas higher in 2-3 days. Hormuz blockade Day 70.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -712,5 +720,5 @@
       "date": "2026-05-10"
     }
   },
-  "context": "Day 70 11:11 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil rebounding: Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) on US-Iran Hormuz fire exchange. IRGC attacked 3 US destroyers; CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'love tap,' 1-week ultimatum. Hezbollah record 105 attacks on Israel. Iran creates PGSA. UAE intercepts attacks. Hormuz Day 67 blockade."
+  "context": "Day 73 11:01 PM PDT May 10: National average $4.522/gal per AAA (+48.3% from $3.05). Oil surges: Brent $105.82 (+32.5%), WTI $100.18 (+32.7%) on ceasefire collapse — Trump rejects Iran counter-proposal 'TOTALLY UNACCEPTABLE.' Netanyahu: war 'not over.' Iran launched drone attacks on Qatar, UAE, Kuwait. AAA: 2nd straight week of +25-cent rise. Oil spike expected to push gas higher in 2-3 days. Hormuz blockade Day 70."
 }

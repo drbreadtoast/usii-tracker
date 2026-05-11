@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T20:04:00Z",
+  "lastUpdated": "2026-05-11T06:01:00Z",
   "commodities": [
     {
       "name": "Wheat",
@@ -25,10 +25,10 @@
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": "$11.86",
-      "change": "+17.2%",
-      "detail": "Soybeans $11.86/bu (May 1 CBOT). Soybean oil at historic highs \u2014 supported by biofuel demand as crude disruptions boost biodiesel.",
-      "source": "TradingEconomics \u2014 Soybeans May 1",
+      "current": 11.94,
+      "change": "+18.0%",
+      "detail": "Soybeans $11.94/bu (May 8 CBOT). Soybean oil at historic highs \u2014 supported by biofuel demand as crude disruptions boost biodiesel. +$1.82 from pre-war.",
+      "source": "TradingEconomics \u2014 Soybeans May 8",
       "sourceUrl": "https://tradingeconomics.com/commodity/soybeans"
     },
     {
@@ -87,8 +87,8 @@
     "preWarWeekly": 168,
     "currentWeekly": 182,
     "changePercent": 8.3,
-    "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "USDA forecasts food-at-home +2.5% for full year 2026. Farm wheat up 8.4%. Palm/soybean oil each +8%. Tehran wheat flour up 120% in one month, nearly 200% YoY. IRC operational costs spiked 50% due to war disruptions. If Hormuz persists through summer, could add 5-7 percentage points. Consumer sentiment at multi-year low. 318M face hunger globally (FAO)."
+    "usdaForecast2026": "3.6% food-at-home (USDA revised upward, May 11), reflecting energy cost pass-through from Hormuz blockade",
+    "note": "USDA revised food-at-home forecast upward to +3.6% for 2026 (from +2.5%). FAO Food Price Index 130.7 — highest since Feb 2023. Farm wheat up 8.4%. Soybeans up 18% — soy/palm oil at historic highs. Tehran wheat flour up 120% in one month, nearly 200% YoY. IRC operational costs spiked 50% due to war disruptions. Oil surge to $105.82 Brent on May 11 expected to add further food cost pressure in coming weeks. 318M face hunger globally (FAO). Urea fertilizer: $698/tonne (+47% from $475 pre-war)."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",

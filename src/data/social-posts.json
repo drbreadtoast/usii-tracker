@@ -127,5 +127,60 @@
       "spill",
       "fao"
     ]
+  },
+  {
+    "id": "social-1212",
+    "handle": "@Aurora_Intel",
+    "displayName": "Aurora Intel",
+    "text": "DIPLOMATIC COLLAPSE: Trump posted 'TOTALLY UNACCEPTABLE' after reading Iran's counter-proposal via Pakistan. Iran's 10-point response demanded Hormuz sovereignty, war reparations, sanctions lifted, $7B frozen assets released, end to Lebanon fighting — but explicitly refused nuclear enrichment moratorium. No diplomatic off-ramp currently visible.",
+    "timestamp": "2026-05-10T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump Truth Social posts confirmed by Bloomberg and NBC. Iran counter-proposal terms confirmed by Al Jazeera and Times of Israel.",
+    "keywords": ["trump", "iran", "negotiations", "hormuz", "pakistan", "ceasefire"]
+  },
+  {
+    "id": "social-1213",
+    "handle": "@sentdefender",
+    "displayName": "OSINTdefender",
+    "text": "NETANYAHU 60 MINUTES: Netanyahu told CBS war 'is not over' — enriched uranium must be physically removed from Iran and enrichment sites dismantled. Revealed Trump told him physical removal 'can be done.' Also called for phasing out US military aid ($3.8B/yr) over 10 years — massive political bombshell.",
+    "timestamp": "2026-05-10T21:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News published full 60 Minutes transcript and video at cbsnews.com. CNBC and Bloomberg independently confirmed.",
+    "keywords": ["netanyahu", "iran", "nuclear", "uranium", "israel", "us-aid", "60-minutes"]
+  },
+  {
+    "id": "social-1214",
+    "handle": "@IntelLab",
+    "displayName": "The Intel Lab",
+    "text": "THREAT ESCALATION: IRGC Aerospace Force announced missiles and drones are 'locked onto American targets in the region and enemy aggressor ships — awaiting orders to fire.' Iran simultaneously launched drone attacks on Qatar, UAE, and Kuwait cargo ship on May 10 — broadest single-day geographic spread since April 8 ceasefire.",
+    "timestamp": "2026-05-10T22:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IRGC statement confirmed by Tribune India and Times of Israel. Gulf state defense ministries confirmed drone interceptions via Times of Israel.",
+    "keywords": ["irgc", "threat", "iran", "qatar", "uae", "kuwait", "drones", "escalation"]
+  },
+  {
+    "id": "social-1215",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "OIL SURGE DAY 73: Brent $105.82 (+32.5%), WTI $100.18 (+32.7%) — biggest single-day spike in 2 weeks. Saudi Aramco CEO: Hormuz blockade has removed 1 BILLION barrels cumulatively from global supply. Gas $4.522/gal (AAA). Oil markets pricing in ceasefire collapse and continued blockade through June.",
+    "timestamp": "2026-05-11T06:01:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC confirmed oil prices intraday May 11. Bloomberg confirmed Aramco CEO statement. AAA confirmed gas price.",
+    "keywords": ["oil", "brent", "wti", "hormuz", "aramco", "gas", "blockade"]
+  },
+  {
+    "id": "social-1216",
+    "handle": "@CriticalThreats",
+    "displayName": "Critical Threats Project",
+    "text": "ASSESSMENT — Day 73: IDF Chief Zamir publicly declared 'no ceasefire' in southern Lebanon — signaling Israel will not honor the April 17 Lebanon ceasefire for operational purposes. IDF struck 20+ Hezbollah targets on May 10, killing 36 — deadliest day since ceasefire. IRGC issued military directives for 'decisive confrontation.'",
+    "timestamp": "2026-05-11T05:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Euronews confirmed 36/39 killed in Lebanon strikes. Zamir statement confirmed by Times of Israel liveblog.",
+    "keywords": ["idf", "hezbollah", "lebanon", "ceasefire", "zamir", "strikes"]
   }
 ]

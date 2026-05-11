@@ -49584,5 +49584,125 @@
       "injured": 0
     },
     "tags": ["sanctions", "treasury", "iran", "uav", "china", "day70"]
+  },
+  {
+    "id": "evt-new-1438",
+    "title": "Iran fires drone at cargo ship in Qatari waters — vessel catches fire near Mesaieed",
+    "description": "A commercial cargo ship traveling from Abu Dhabi was struck by a drone in Qatari territorial waters approximately 23 nautical miles northeast of Doha near Mesaieed Port. The attack ignited a fire onboard which was contained; the vessel proceeded to port. Qatar's Defense Ministry confirmed the incident. No casualties reported. No group claimed responsibility though the attack aligns with IRGC threat patterns.",
+    "type": "naval",
+    "lat": 25.45,
+    "lng": 51.75,
+    "location": "Qatari Territorial Waters near Mesaieed Port, Qatar",
+    "timestamp": "2026-05-10T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Drone attacks on Gulf states as ceasefire strains",
+        "url": "https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks"
+      },
+      {
+        "name": "Fortune — Iran drone cargo ship Qatar Kuwait UAE attacks",
+        "url": "https://fortune.com/2026/05/10/iran-war-ceasefire-drone-cargo-ship-qatar-kuwait-uae-attacks/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "drone", "qatar", "naval", "shipping", "ceasefire", "day73"]
+  },
+  {
+    "id": "evt-new-1439",
+    "title": "Iran fires two drones at UAE — both intercepted and destroyed",
+    "description": "Iran launched two drones targeting the United Arab Emirates. The UAE Defense Ministry confirmed both were 'successfully engaged' and destroyed before reaching any targets. No damage or casualties reported. The attack is part of a coordinated single-day Iranian drone campaign targeting three Gulf Arab states — the broadest geographic spread since the April 8 ceasefire.",
+    "type": "strike",
+    "lat": 24.47,
+    "lng": 54.37,
+    "location": "United Arab Emirates (Abu Dhabi area)",
+    "timestamp": "2026-05-10T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — UAE Kuwait Qatar all report drone attacks",
+        "url": "https://www.timesofisrael.com/uae-kuwait-and-qatar-all-report-drone-attacks-as-iran-ramps-up-its-threats/"
+      },
+      {
+        "name": "Al Jazeera — Ceasefire under strain as Gulf states report drone attacks",
+        "url": "https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "drone", "uae", "intercepted", "gulf", "day73"]
+  },
+  {
+    "id": "evt-new-1440",
+    "title": "Iran fires drones at Kuwait — intercepted by air defenses at dawn",
+    "description": "Kuwait's Armed Forces General Staff announced hostile drones were detected in Kuwaiti airspace in the early morning hours and were 'dealt with in accordance with established procedures.' Kuwait did not specify the number of drones. The attacks are part of a coordinated Iranian campaign targeting Qatar, UAE, and Kuwait simultaneously — the broadest single-day geographic spread of Iranian drone attacks since the April 8 ceasefire.",
+    "type": "strike",
+    "lat": 29.36,
+    "lng": 47.98,
+    "location": "Kuwait (Kuwait City area)",
+    "timestamp": "2026-05-10T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Times of Israel — UAE Kuwait Qatar all report drone attacks",
+        "url": "https://www.timesofisrael.com/uae-kuwait-and-qatar-all-report-drone-attacks-as-iran-ramps-up-its-threats/"
+      },
+      {
+        "name": "PBS NewsHour — Drones target Gulf nations as Iran responds to ceasefire proposal",
+        "url": "https://www.pbs.org/newshour/world/drones-target-gulf-nations-as-iran-responds-to-ceasefire-proposal"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "drone", "kuwait", "intercepted", "gulf", "day73"]
+  },
+  {
+    "id": "evt-new-1441",
+    "title": "Trump rejects Iran's ceasefire counter-proposal as 'TOTALLY UNACCEPTABLE'",
+    "description": "President Trump declared Iran's formal counter-proposal 'TOTALLY UNACCEPTABLE' on Truth Social, accusing Tehran of 'playing games.' Iran's counter-proposal — submitted via Pakistani mediators — demanded a permanent end to the war on all fronts, lifting of all sanctions, ending the Hormuz blockade, unfreezing of Iranian assets (~$7B), recognition of Iranian sovereignty over the Strait of Hormuz, and war reparations, but did not commit to nuclear rollback. Trump threatened bombing at 'a much higher level and intensity.' Netanyahu had separately told Trump the war 'is not over.'",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington DC",
+    "timestamp": "2026-05-10T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — Trump rejects Iran ceasefire proposal",
+        "url": "https://www.npr.org/2026/05/10/nx-s1-5817605/trump-rejects-iran-ceasefire-proposal"
+      },
+      {
+        "name": "Bloomberg — Trump says Iran peace proposal response totally unacceptable",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/trump-says-iran-peace-proposal-response-totally-unacceptable"
+      },
+      {
+        "name": "Al Jazeera — Iran sends response to US proposal via Pakistan",
+        "url": "https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "iran", "ceasefire", "negotiations", "pakistan", "diplomatic", "day73"]
   }
 ]
