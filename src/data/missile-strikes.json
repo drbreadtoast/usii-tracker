@@ -10249,9 +10249,36 @@
     "source": "Euronews",
     "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
     "weaponType": "Aerial munitions",
-    "casualties": {
-      "killed": 39,
-      "injured": 0
-    }
+    "casualties": { "killed": 39, "injured": 0 }
+  },
+  {
+    "id": "ms-601",
+    "city": "Saksakiyeh",
+    "country": "Lebanon",
+    "lat": 33.24,
+    "lng": 35.30,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Israeli airstrike on Saksakiyeh town killed at least 7 people including a child. At least 15 others wounded. Strike was part of IDF's 85+ target operation across southern Lebanon.",
+    "source": "NBC News — Israel strikes kill 10 in southern Lebanon",
+    "sourceUrl": "https://www.nbcnews.com/world/lebanon/israel-strikes-southern-lebanon-kill-10-people-hezbollah-drone-wounds-rcna343170",
+    "weaponType": "Aerial munitions",
+    "casualties": { "killed": 7, "injured": 15 }
+  },
+  {
+    "id": "ms-602",
+    "city": "Nabatiyeh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-09",
+    "description": "Three Israeli drone strikes near Nabatiyeh city. First strike hit a Syrian father and his 12-year-old daughter on a motorcycle, then struck again as they fled. Third strike killed 3 more on a nearby road. Total killed: 4 near Beirut suburbs.",
+    "source": "PBS NewsHour — Israeli drone strikes kill 4 near Beirut",
+    "sourceUrl": "https://www.pbs.org/newshour/world/israeli-drone-strikes-kill-4-near-beirut-as-southern-airstrikes-kill-at-least-13",
+    "weaponType": "Loitering munition / drone",
+    "casualties": { "killed": 4, "injured": 0 }
   }
 ]
