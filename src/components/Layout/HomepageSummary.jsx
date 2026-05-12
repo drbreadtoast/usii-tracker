@@ -462,20 +462,28 @@ export default function HomepageSummary() {
       {/* Support note + feedback poll — dismissible */}
       {showSupport && (
         <div className="max-w-2xl mx-auto px-4 mb-4">
-          <div className="relative bg-indigo-950/40 border border-indigo-800/50 rounded-lg p-4 text-center">
+          <div className="relative bg-gradient-to-r from-amber-950/50 via-orange-950/40 to-amber-950/50 border border-amber-500/50 rounded-lg p-5 text-center shadow-lg shadow-amber-900/20">
             <button
               onClick={() => setShowSupport(false)}
-              className="absolute top-2 right-2 p-1 text-indigo-400/50 hover:text-gray-300 transition-colors cursor-pointer"
+              className="absolute top-2 right-2 p-1 text-amber-400/50 hover:text-gray-300 transition-colors cursor-pointer"
               aria-label="Dismiss"
             >
               <X size={14} />
             </button>
 
-            <p className="text-xs text-gray-300 leading-relaxed">
-              News updates continue 3-4x daily. When this conflict resolves, this site stays live — pivoting to <span className="text-blue-400 font-semibold">US Local & Foreign Affairs</span> coverage based on your votes.
+            <p className="text-amber-400 font-bold text-sm mb-2 tracking-wide uppercase">Site Update</p>
+
+            <p className="text-sm text-gray-200 leading-relaxed max-w-xl mx-auto">
+              A new version of this site is in the works and will be live before the end of May. The site is expanding into{' '}
+              <span className="text-amber-300 font-semibold">US Local & Foreign Affairs</span> coverage,
+              while continuing to include all relevant updates on the US/Israel/Iran conflict.
             </p>
 
-            <div className="mt-3 flex items-center justify-center gap-2 flex-wrap">
+            <p className="text-xs text-gray-400 mt-2 leading-relaxed max-w-xl mx-auto">
+              There is currently a bug affecting automated updates. Working on a fix to restore 3-4x daily refreshes. Thank you for your patience.
+            </p>
+
+            <div className="mt-4 flex items-center justify-center gap-2 flex-wrap">
               <button
                 type="button"
                 onClick={() => document.querySelector('[title="Contact Us"]')?.click()}
