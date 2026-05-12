@@ -10253,5 +10253,59 @@
       "killed": 39,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-601",
+    "city": "Toul, Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-11",
+    "description": "Israeli airstrike on Toul, Nabatieh Governorate killed 2 medics responding to earlier strike. Part of ongoing IDF operations in southern Lebanon.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/11/live-updates-on-israels-war-on-iran",
+    "weaponType": "Aerial munitions",
+    "casualties": {
+      "killed": 2,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-602",
+    "city": "Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.38,
+    "lng": 35.48,
+    "strikeType": "drone",
+    "attributedTo": "israel",
+    "date": "2026-05-10",
+    "description": "Triple-tap Israeli drone strike in Nabatieh killed a father and his daughter. Initial strike followed by two subsequent strikes on rescuers — deadliest day since ceasefire.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/at-least-51-killed-in-israeli-strikes-in-lebanon/",
+    "weaponType": "Drone-launched munition",
+    "casualties": {
+      "killed": 2,
+      "injured": 0
+    }
+  },
+  {
+    "id": "ms-603",
+    "city": "Northern Israel border",
+    "country": "Israel",
+    "lat": 33.05,
+    "lng": 35.30,
+    "strikeType": "drone",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-10",
+    "description": "Hezbollah fiber-optic guided FPV drone struck IDF position along northern border, killing reservist Mark Glovanyov (38). New drone type evades Israeli electronic warfare systems.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-soldier-killed-in-hezbollah-drone-attack/",
+    "weaponType": "Fiber-optic FPV drone",
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    }
   }
 ]
