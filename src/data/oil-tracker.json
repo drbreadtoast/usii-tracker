@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-12T14:25:00Z",
+    "lastUpdated": "2026-05-12T19:01:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "date": "2026-05-12",
-      "label": "Day 74 7:25 AM PT \u2014 Brent $104.21/bbl (+30.6% from pre-war $79.80). WTI $98.07/bbl (+29.9% from $75.50). Oil surged 2.9% after Trump rejected Iran counter-proposal as 'garbage,' ceasefire on 'massive life support.' Saudi Aramco CEO: recovery will extend into 2027. UK-France 40-nation Hormuz defense summit set. Treasury sanctioned 12 IRGC oil entities. Gas $4.52. Hormuz Day 71.",
+      "label": "Day 74 12:01 PM PT \u2014 Brent $107.46/bbl (+34.7% from pre-war $79.80). WTI $101.65/bbl (+34.6% from $75.50). Oil surged 3.1% on Trump's departure for Beijing with 'win it peacefully or otherwise' warning. Houthi drone intercepted near Eilat. IRGC Kuwait infiltration confirmed. Israel kills 6 in Kfar Dounin. Hormuz Day 71 blockade. Gas $4.504.",
       "brent": {
-        "price": 104.21,
-        "change": "+30.6%",
-        "changeDollars": "+$24.41"
+        "price": 107.46,
+        "change": "+34.7%",
+        "changeDollars": "+$27.66"
       },
       "wti": {
-        "price": 98.07,
-        "change": "+29.9%",
-        "changeDollars": "+$22.57"
+        "price": 101.65,
+        "change": "+34.6%",
+        "changeDollars": "+$26.15"
       },
-      "changePercent": 30.6,
+      "changePercent": 34.7,
       "lastUpdated": "2026-05-12"
     },
     "priceHistory": [
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-12T14:25:00Z",
-    "note": "Day 70 5:13 AM PT: Brent $100.54 (+25.9%), WTI $95.46 (+26.4%). Off highs. AAA gas $4.55/gal \u2014 up 25 cents for 2nd straight week (+42.6% vs $3.19 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 67 blockade. CIA: Iran survives blockade 3-4 months.",
+    "lastUpdated": "2026-05-12T19:01:00Z",
+    "note": "Day 74 12:01 PM PT: Brent $107.46 (+34.7%), WTI $101.65 (+34.6%). AAA gas $4.504/gal (+47.7% from pre-war $3.05). Oil surges on Trump's Beijing departure with war warning. Kuwait confirms IRGC infiltration. Houthi drone near Eilat. Hormuz Day 71 blockade.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -650,13 +650,13 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.52,
+          "price": 4.504,
           "date": "2026-05-12"
         },
-        "change": "+$1.47",
-        "changePercent": "+48.2%",
-        "detail": "Gas $4.52/gal (AAA, May 12). Held steady at $4.52 for second week. Brent $104.21 (+30.6%), WTI $98.07 (+29.9%). Trump eyes gas tax suspension. Oil surged after ceasefire 'life support' comments. Pre-war $3.05. Highest since 2022's $5.01 peak.",
-        "sourceUrl": "https://gasprices.aaa.com/"
+        "change": "+$1.45",
+        "changePercent": "+47.7%",
+        "detail": "Gas $4.504/gal (AAA, May 12). Up again as oil surged on Trump's war warning. Brent $107.46 (+34.6%), WTI $101.65 (+34.6%). Pre-war $3.05. Highest since 2022's $5.01 peak. GasBuddy warns $5/gal possible by Memorial Day.",
+        "sourceUrl": "https://newsroom.aaa.com/2026/05/national-average-rises-25-cents-for-second-straight-week/"
       },
       {
         "type": "Diesel",
@@ -1332,6 +1332,13 @@
       "brent": 101.96,
       "wti": 95.66,
       "label": "Day 69 5:12 AM PT \u2014 Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. Pezeshkian confirms 2.5-hour meeting with Mojtaba Khamenei \u2014 first proof of life. Trump: deal 'very possible.' Qatar PM: 'high probability.' S&P 500 rallies to 7,365 (+1.46%). WaPo: Iran damaged 228 structures at US bases. US intel: nuclear breakout unchanged at 9-12 months. Saeed Jalili may replace Ghalibaf. Gas $4.54. Hormuz Day 66.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-12",
+      "brent": 107.46,
+      "wti": 101.65,
+      "label": "Day 74 12:01 PM PT \u2014 Brent $107.46 (+34.6%), WTI $101.65 (+34.6%). Oil surges 3.1% as Trump departs for Beijing with 'win it peacefully or otherwise' warning. Kuwait confirms IRGC infiltration of Bubiyan Island. Houthi drone intercepted near Eilat \u2014 first since ceasefires. Israeli strike kills 6 in Kfar Dounin. IDF discloses Golani Brigade Litani raid. Hormuz Day 71 blockade. Gas $4.504 (+41.6%).",
       "isEvent": true
     }
   ]
