@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T20:04:00Z",
+  "lastUpdated": "2026-05-12T06:00:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,18 +77,18 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 72, 1:04 PM PDT May 10 \u2014 Iran sends 10-point counter-proposal via Pakistan, rejects nuclear moratorium. Trump accuses Iran of 'playing games.' Netanyahu urges Trump against ceasefire. Drones hit Qatar/UAE/Kuwait. Israel kills 39 across Lebanon \u2014 deadliest day since ceasefire. WSJ reveals secret Israeli base in Iraq. Kharg Island 80K-barrel oil spill. First Qatari LNG tanker transits Hormuz. Waltz claims Khamenei 'severely injured.' Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Gas $4.52/gal. Hormuz Day 69 blockade, effectively closed.)",
+      "period": "February 28, 2026 - Ongoing (Day 74, May 12 \u2014 Ceasefire on 'massive life support': Trump rejected Iran proposal as 'totally unacceptable'; NSC convened on military options. Hezbollah drone hit Iron Dome battery at Jal al-Alam \u2014 IDF admits no countermeasure. IDF reservist Glovanyov killed near Manara \u2014 5th soldier killed during ceasefire. 51 killed in Lebanon in 24 hours (May 10-11). WSJ revealed Israel secret base in Iraq. 4th US-Iran talks in Oman 'difficult but constructive.' EU expands Iran sanctions to Hormuz. US sanctions 12 Iran-China oil entities. Brent $104.97 (+31.5%), WTI $99.99 (+32.4%). Gas $4.52/gal. Hormuz Day 70, effectively closed.)",
       "parties": [
         {
           "name": "Iran",
           "flag": "\ud83c\uddee\ud83c\uddf7",
           "confirmed": {
-            "military": 1434,
-            "civilian": 1320,
-            "total": 2754,
-            "source": "Iran Health Ministry + Legal Medicine Organization (Day 53). Forensic chief: 3,375 dead (2,875 men, 496 women, 383 children) from Feb 28 to April 20. Includes foreigners from Afghanistan, Syria, Pakistan, China, Iraq, Lebanon. HRANA independently counts 3,636 total (1,701 civilians, 1,221 military, 714 unclassified as of April 7). Washington Times confirms 3,375 on April 20. Day 63 May 1: +14 IRGC killed in Zanjan UXO demining accident — largest IRGC death toll since April 7 ceasefire.",
-            "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/05/01/fourteen-irgc-members-killed-in-demining-operation-local-media",
-            "confirmedMilitaryNote": "Iran does not publish military/civilian breakdown. Legal Medicine Org identified 3,375 by forensic methods. Health Ministry confirms 2,740 through official channels; gap suggests delayed identification of remains. 383 children among dead. May 1: +14 IRGC killed clearing unexploded US ordnance (cluster bombs, air mines) in Zanjan."
+            "military": 1701,
+            "civilian": 1767,
+            "total": 3468,
+            "source": "Iran Foundation of Martyrs + HRANA (Day 74). Foundation of Martyrs: 3,468+ confirmed killed. HRANA independently documents 3,636+ (1,701 civilians, 1,221 military, 714 unclassified). Forensic chief: 3,375 dead by April 20 (2,875 men, 496 women, 383 children). May 1: +14 IRGC killed in Zanjan UXO demining. Casualties have continued accumulating post-ceasefire.",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war",
+            "confirmedMilitaryNote": "Iran does not publish military/civilian breakdown. Foundation of Martyrs confirmed 3,468+ as of Day 74. HRANA documents 3,636+ including 714 unclassified. 383 children among dead. Post-ceasefire: +14 IRGC killed clearing unexploded US ordnance (cluster bombs, air mines) in Zanjan (May 1)."
           },
           "estimated": {
             "military": 2018,
@@ -172,21 +172,21 @@
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
-            "military": 21,
+            "military": 22,
             "civilian": 31,
-            "total": 52,
-            "source": "Israeli government + IDF (Day 72, May 10). 25 IDF soldiers killed. May 9: 3 IDF soldiers wounded by Hezbollah drones (1 seriously, 2 moderately). May 8: 1 civilian killed in Nahariya by Hezbollah rocket (105 attack waves). May 7: 7 IDF soldiers wounded by Hezbollah drones. May 6: IDF strikes Beirut killing Radwan commander Ballout.",
-            "sourceUrl": "https://www.jpost.com/middle-east/article-895604"
+            "total": 53,
+            "source": "Israeli government + IDF (Day 74, May 12). May 11: WO Glovanyov killed by Hezbollah explosive drone near Manara — 5th soldier killed during ceasefire period; 3 more wounded. IDF struck 85+ Hezbollah sites in response. Hezbollah released Iron Dome battery strike footage.",
+            "sourceUrl": "https://www.timesofisrael.com/idf-reservist-killed-in-hezbollah-explosive-drone-attack-in-northern-israel/"
           },
           "estimated": {
-            "military": 25,
+            "military": 26,
             "civilian": 33,
-            "total": 58,
-            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 72, May 10)",
-            "sourceUrl": "https://www.timesofisrael.com/liveblog-may-10-2026/",
-            "note": "Updated Day 72: 25 IDF soldiers killed. May 9: 3 IDF wounded by Hezbollah drones (1 seriously). May 8: 1 civilian killed Nahariya, 14 wounded. Hezbollah record 105 attack waves. Israel kills 39 in Lebanon on May 10 — deadliest day since ceasefire.",
-            "minTotal": 52,
-            "maxTotal": 64
+            "total": 59,
+            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 74, May 12)",
+            "sourceUrl": "https://www.timesofisrael.com/liveblog-may-11-2026/",
+            "note": "Day 74: 22 IDF confirmed killed (incl. WO Glovanyov, May 11). 31 civilians. Hezbollah FPV drone struck Iron Dome battery at Jal al-Alam — first confirmed air defense battery destruction. 3 additional IDF wounded May 11.",
+            "minTotal": 53,
+            "maxTotal": 65
           },
           "rumored": {
             "total": 50,
@@ -226,8 +226,8 @@
               }
             ]
           },
-          "injured": 7601,
-          "injuredNote": "7,601+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 72, May 10). May 9: 3 IDF soldiers wounded by Hezbollah drones (1 seriously, 2 moderately). May 8: 14 wounded in Nahariya rocket strike. May 7: 7 IDF soldiers wounded by Hezbollah drones. May 6: 2 IDF wounded by Hezbollah drone. May 4: 6 injured near Ben Gurion Airport from Houthi missile.",
+          "injured": 7608,
+          "injuredNote": "7,608+ injured since Feb. 28 per Alma Center / Israel Health Ministry (Day 74, May 12). May 11: 3 IDF soldiers wounded by Hezbollah explosive drones near Manara (1 seriously, 2 moderately). 85+ Hezbollah sites struck in response. Hezbollah drone struck Iron Dome battery at Jal al-Alam. Ceasefire period casualties: 5 IDF killed, dozens wounded.",
           "displaced": 5000,
           "displacedNote": "~5,000 Israelis displaced from homes due to missile strikes per Israeli media reports."
         },
@@ -287,21 +287,21 @@
           "name": "Lebanon",
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
-            "military": 685,
-            "civilian": 2104,
-            "total": 2789,
-            "source": "Lebanese Public Health Ministry (Day 72, May 10). 2,789+ killed since March 2. May 10: 39 killed — deadliest day since ceasefire — strikes on Saadiyat/Beirut-Sidon/Chouf highways. May 9: 7 killed in Saksakieh (incl. child), father + daughter killed by triple drone strike in Nabatieh, 4 killed near Beirut, IDF hit 85+ targets incl. Beqaa Valley weapons factory. May 8: 12 killed incl. paramedic and 2 children.",
-            "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon"
+            "military": 752,
+            "civilian": 2094,
+            "total": 2846,
+            "source": "Lebanese Public Health Ministry (Day 74, May 12). 2,846+ killed since March 2. May 10-11: 51 killed in 24 hours — including 2 medical workers in Tibnin and Qalawiya. Israel struck 30+ locations across southern/eastern Lebanon. May 11: 7 killed in Saksakiyeh including a child. May 10: 39 killed — deadliest single day since ceasefire.",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/5/10/medics-among-51-killed-in-israeli-attacks-on-lebanon-in-past-24-hours"
           },
           "estimated": {
-            "military": 1345,
-            "civilian": 1547,
-            "total": 2892,
-            "source": "Lebanese Civil Defence + Alma Center + IDF estimates (Day 72, May 10). Official 2,789 + estimated Hezbollah undercount (~100) = ~2,892. May 10: 39 killed — deadliest day since ceasefire. IDF strikes continuing across S. Lebanon. 9 villages issued evacuation warnings.",
-            "sourceUrl": "https://www.euronews.com/2026/05/10/at-least-39-killed-in-fresh-israeli-strikes-on-lebanon",
-            "note": "Day 72: Official 2,789 + undercount = ~2,892. Ceasefire fully collapsed. May 10 was deadliest day since ceasefire with 39 killed. IDF struck 85+ targets on May 9 incl. Beqaa Valley weapons factory.",
-            "minTotal": 2789,
-            "maxTotal": 2950
+            "military": 1400,
+            "civilian": 1610,
+            "total": 3010,
+            "source": "Lebanese Civil Defence + Alma Center + IDF estimates (Day 74, May 12). Official 2,846 + estimated Hezbollah undercount (~164) = ~3,010. Total approaches 3,000. Ceasefire collapsed in practice — both sides conducting daily operations.",
+            "sourceUrl": "https://www.aljazeera.com/news/2026/5/11/israeli-killings-in-lebanon-rise-is-even-the-pretence-of-a-ceasefire-over",
+            "note": "Day 74: Official 2,846 + undercount = ~3,010. Lebanon ceasefire fully collapsed. May 10-11 deadliest 48 hours since ceasefire — 90 killed. IDF struck 30+ locations. Hezbollah 24 attack sorties May 11.",
+            "minTotal": 2846,
+            "maxTotal": 3100
           },
           "rumored": {
             "total": 1400,
@@ -332,8 +332,8 @@
               }
             ]
           },
-          "injured": 8383,
-          "injuredNote": "8,383+ injured per Lebanese Health Ministry (Day 72, May 10). May 10: deadliest day since ceasefire — 39 killed across multiple strikes. May 9: 15 wounded in Saksakieh strike alone. IDF confirmed 500+ strikes since April 17 ceasefire. 490+ killed since ceasefire. 1.2M+ displaced. 40,000+ housing units destroyed/damaged.",
+          "injured": 8503,
+          "injuredNote": "8,503+ injured per Lebanese Health Ministry (Day 74, May 12). May 10-11: 120+ additional wounded in 24-hour Israeli strike campaign — 51 killed, 2 medical workers among dead. IDF struck 30+ sites across S. and E. Lebanon. Hezbollah reported 24 attack sorties. 540+ killed since April 17 ceasefire. 1.2M+ displaced. 40,000+ housing units destroyed/damaged.",
           "displaced": 1200000,
           "displacedNote": "1.2M+ displaced per The National / Lebanese authorities (May 6). Expanded evacuation orders to 12 towns including western Bekaa for first time since April 17 ceasefire."
         },

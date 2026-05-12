@@ -1,10 +1,10 @@
 {
   "straitStatus": "effectively_closed",
-  "blockadeDay": 69,
+  "blockadeDay": 70,
   "dailyTransits": 2,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-10T20:04:00Z",
+  "lastUpdated": "2026-05-12T06:00:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -24,7 +24,7 @@
       "French Navy"
     ],
     "anchoredShips": 400,
-    "tankerTraffic": "Day 72 1:04 PM PT (May 10): Hormuz BLOCKADE DAY 69 effectively closed. First Qatari LNG tanker Al Kharaitiyat transited — bound for Pakistan. Panama-flagged bulk carrier also transited via Iran-designated route. CENTCOM: 61 vessels redirected, 1,550+ stranded, 22,500 mariners trapped. Drone hit cargo ship in Qatari waters. UAE shot down 2 drones. Kuwait repelled drone incursion. S. Korea confirms drone attack on HMM NAMU. 80,000-barrel oil spill at Kharg Island. Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Gas $4.52.",
+    "tankerTraffic": "Day 74 11:06 PM PDT (May 12): Hormuz BLOCKADE DAY 70 effectively closed. Only ~5% of pre-war traffic transiting. 1,550+ vessels stranded, 22,500 mariners trapped. Trump called ceasefire 'on massive life support'; NSC discusses renewed military ops. 4th US-Iran Oman talks 'difficult but constructive.' EU agrees to expand Hormuz navigation sanctions. Saudi Aramco CEO: market losing 100M bbl/week; cumulative loss exceeds 1 billion barrels. Brent $104.97 (+31.5%), WTI $99.99 (+32.4%). Gas $4.52.",
     "strandedSeafarers": "40,000+",
     "trappedVessels": 800,
     "lastUpdated": "2026-05-04T00:02:00Z",
@@ -829,6 +829,18 @@
     {
       "date": "2026-05-08",
       "event": "Day 70: Hormuz BLOCKADE DAY 67. UAE intercepted fresh Iranian missile/drone attacks. 22,500 mariners on 1,550+ commercial vessels trapped. Only 40 ships crossed strait in past week vs. 120/day pre-war. Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) rebounding on Hormuz tensions. Iran reviewing 14-point MOU. Gas $4.558.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-10",
+      "event": "BLOCKADE DAY 69: First Qatari LNG tanker (Al Kharaitiyat) transits Hormuz since war — bound for Pakistan. Transit approved by Iran as confidence-building measure. CENTCOM: 61 vessels redirected, 1,550+ stranded, 22,500 mariners trapped. Drone hit cargo ship in Qatari waters. 80,000-barrel oil spill at Kharg Island. Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Gas $4.52.",
+      "status": "effectively_closed",
+      "barrels": 0
+    },
+    {
+      "date": "2026-05-11",
+      "event": "BLOCKADE DAY 70: Ceasefire on 'massive life support' — Trump rejects Iran counter-proposal; NSC convenes on military options. 4th US-Iran Oman talks 'difficult but constructive.' EU agrees to expand sanctions to cover Hormuz navigation violations. US sanctions 12 entities for IRGC oil sales to China. Saudi Aramco CEO: market losing 100M bbl/week, cumulative loss exceeds 1 billion barrels. Brent $104.97 (+31.5%), WTI $99.99 (+32.4%). Gas $4.52.",
       "status": "effectively_closed",
       "barrels": 0
     }
