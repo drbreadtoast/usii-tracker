@@ -18,10 +18,12 @@
     "name": "USS Gerald R. Ford (CVN-78)",
     "lat": 30.0,
     "lng": 35.0,
-    "status": "Departing",
+    "status": "Returning to Norfolk",
     "description": "Ford-class aircraft carrier departed Middle East May 1 after record 10+ month deployment during Operation Epic Fury. Heading to homeport Norfolk, VA (expected mid-May). US carrier presence drops from 3 to 2 (Lincoln and Bush remain). Approximately 4,500 personnel and 75+ aircraft.",
     "source": "USNI News",
-    "sourceUrl": "https://news.usni.org/category/fleet-tracker"
+    "sourceUrl": "https://news.usni.org/category/fleet-tracker",
+    "location": "Atlantic Ocean — en route Norfolk, VA",
+    "notes": "USS Gerald R. Ford (CVN-78) completing 322-day deployment. Transited Strait of Gibraltar westbound May 11. First full Ford-class carrier rotation of the war. USS George Washington (CVN-73) departed Yokosuka, Japan on May 10 as replacement."
   },
   {
     "id": "asset-ddg-100",
@@ -174,13 +176,13 @@
     "lat": 22.5,
     "lng": 38.5,
     "description": "USS Gerald R. Ford (CVN-78) — DEPARTING Middle East after record 309-day (10-month) deployment. Returning to Naval Station Norfolk for urgent repairs (toilet issues, laundry room fire). Expected mid-May arrival. Carrier Air Wing 8 embarked, ~4,500 personnel. US carrier presence drops from 3 to 2.",
-    "status": "Departing — en route Norfolk",
+    "status": "Returning to Norfolk",
     "assetType": "carrier_strike_group",
     "source": "Washington Post",
     "sourceUrl": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/",
-    "location": "Red Sea — departing for Norfolk",
+    "location": "Atlantic Ocean — en route Norfolk, VA",
     "lastUpdated": "2026-05-01T19:05:00Z",
-    "notes": "Record-breaking 300+ day deployment (longest since Vietnam). Departure officially confirmed May 1. Lincoln and Bush remain on blockade duty enforcing Iranian port closure. Boxer ARG with 4,200 Marines arriving to partially offset departure.",
+    "notes": "USS Gerald R. Ford (CVN-78) completing 322-day deployment. Transited Strait of Gibraltar westbound May 11. First full Ford-class carrier rotation of the war. USS George Washington (CVN-73) departed Yokosuka, Japan on May 10 as replacement.",
     "position": "Red Sea — departing"
   },
   {
@@ -198,5 +200,17 @@
     "lastUpdated": "2026-04-27T06:07:00Z",
     "notes": "Revealed by Axios on April 26. Iran fired ~550 BMs/CMs and ~2,200 drones at UAE during the war. Iron Dome intercepted dozens. Signals unprecedented Israel-Gulf military integration.",
     "position": "United Arab Emirates"
+  },
+  {
+    "id": "asset-us-cvn-73",
+    "name": "USS George Washington (CVN-73)",
+    "type": "carrier",
+    "country": "us",
+    "lat": 35.0,
+    "lng": 139.0,
+    "location": "Pacific Ocean — departed Yokosuka, Japan May 10",
+    "status": "Deploying",
+    "notes": "USS George Washington (CVN-73) departed Yokosuka, Japan on May 10, escorted by USS Robert Smalls. Expected to relieve USS Gerald R. Ford in CENTCOM AOR. Carrier surge continues as Ford returns.",
+    "lastUpdated": "2026-05-11"
   }
 ]

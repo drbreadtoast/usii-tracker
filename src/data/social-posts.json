@@ -1,131 +1,117 @@
 [
   {
-    "id": "social-1205",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "BREAKING: Iran sends 10-point counter-proposal to US via mediator Pakistan. Rejects nuclear moratorium demand. Demands: end war on all fronts incl. Lebanon, Hormuz shipping safety, sanctions lifted, assets unfrozen, compensation. Trump immediately calls it 'playing games.' Netanyahu called Trump urging against ceasefire.",
-    "timestamp": "2026-05-10T14:00:00Z",
+    "id": "social-1212",
+    "handle": "@Intel_Slava",
+    "displayName": "Intel Slava Z",
+    "text": "BREAKING: Trump convened NSC Situation Room meeting May 11 with Vance, Rubio, Hegseth, Ratcliffe, Gen. Caine, and Witkoff. Renewed airstrikes on Iran and restart of Project Freedom Hormuz escort operations were both actively discussed, per multiple US officials. No decision announced yet.",
+    "timestamp": "2026-05-11T19:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and NBC News confirmed Iran's response. Times of Israel confirmed Netanyahu-Trump call.",
+    "verificationNote": "Times of Israel confirmed NSC meeting and multiple US officials cited by Channel 12. CNN, PBS, Bloomberg all confirmed.",
     "keywords": [
-      "iran",
-      "counter-proposal",
-      "pakistan",
-      "nuclear",
       "trump",
-      "netanyahu",
-      "ceasefire"
+      "nsc",
+      "iran",
+      "ceasefire",
+      "project-freedom",
+      "hormuz"
     ]
   },
   {
-    "id": "social-1206",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats Project",
-    "text": "ASSESSMENT: Drone attacks on Qatar, UAE, Kuwait mark significant escalation — Iran expanding target set to Gulf mediators. Qatar cargo ship hit near Mesaieed, UAE intercepted 2 drones, Kuwait repelled airspace incursion. S. Korea confirms drone attack on HMM NAMU in Hormuz. Iran targeting even countries mediating on its behalf.",
-    "timestamp": "2026-05-10T12:00:00Z",
+    "id": "social-1213",
+    "handle": "@Aurora_Intel",
+    "displayName": "Aurora Intel",
+    "text": "LEBANON UPDATE: Israel struck 30+ locations across south Lebanon and Bekaa Valley on Day 73. Lebanese Health Ministry: 51 killed in the past 24 hours including 2 medical workers — the 2nd deadliest single-day toll since ceasefire (after May 10's 39 killed). Drone struck bread distributors in Zebdine. 1.6M now displaced.",
+    "timestamp": "2026-05-11T16:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Fortune, Al Jazeera, and Japan Times confirmed Gulf drone attacks. Qatar Defense Ministry official statement.",
-    "keywords": [
-      "drones",
-      "qatar",
-      "uae",
-      "kuwait",
-      "escalation",
-      "hormuz",
-      "gulf-states"
-    ]
-  },
-  {
-    "id": "social-1207",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "INTEL: WSJ reveals Israel built secret military outpost in western Iraq desert for Iran air campaign — housing special forces and IAF logistical hub. When Iraqi shepherd spotted helicopter activity and troops investigated, Israel launched airstrikes killing 1 Iraqi soldier, wounding 2. Iraq filed UN complaint attributing attack to US.",
-    "timestamp": "2026-05-10T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Wall Street Journal investigative report confirmed by Haaretz and US News.",
-    "keywords": [
-      "israel",
-      "iraq",
-      "secret-base",
-      "wsj",
-      "iaf",
-      "special-forces"
-    ]
-  },
-  {
-    "id": "social-1208",
-    "handle": "@TheIntelLab",
-    "displayName": "The Intel Lab",
-    "text": "LEBANON CRISIS: Israel kills 39 across Lebanon on May 10 — deadliest day since ceasefire. Strikes hit Saadiyat highway near Beirut, Beirut-Sidon highway, Chouf road. IDF struck 85+ targets on May 9 incl. underground Beqaa Valley weapons factory. 9 villages issued evacuation warnings near Tyre. Ceasefire exists in name only.",
-    "timestamp": "2026-05-10T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Euronews and Al Jazeera confirmed 39 killed on May 10. JNS confirmed 85+ targets on May 9.",
+    "verificationNote": "Al Jazeera confirmed 51 killed. Democracy Now confirmed 2 medics. Times of Israel confirmed drone bread strike.",
     "keywords": [
       "lebanon",
       "israel",
-      "strikes",
-      "deadliest-day",
+      "airstrike",
+      "civilians",
+      "medics",
       "ceasefire",
-      "beqaa"
+      "casualties"
     ]
   },
   {
-    "id": "social-1209",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "text": "HEALTH STATUS: US Ambassador Waltz says on ABC's This Week that Mojtaba Khamenei 'has been severely injured, he's in hiding, and incredibly difficult to get a hold of.' Same day, Iran state media published photos of Khamenei meeting Maj. Gen. Abdollahi and issuing new military directives. Conflicting claims — unverifiable.",
-    "timestamp": "2026-05-10T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "The National confirmed Waltz quotes. Press TV published meeting photos. Khamenei has never appeared publicly since becoming Supreme Leader.",
-    "keywords": [
-      "khamenei",
-      "waltz",
-      "health",
-      "injured",
-      "hiding",
-      "iran"
-    ]
-  },
-  {
-    "id": "social-1210",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitors",
-    "text": "HORMUZ UPDATE: First Qatari LNG tanker Al Kharaitiyat transits Hormuz since war began — bound for Pakistan's Port Qasim. Iran approved as confidence-building measure. Panama-flagged bulk carrier also transited using Iran-designated route. CENTCOM: 61 vessels redirected, 1,550+ stranded, 22,500 mariners trapped. Blockade Day 69.",
-    "timestamp": "2026-05-10T13:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Bloomberg confirmed Qatari LNG transit. CENTCOM blockade statistics confirmed.",
-    "keywords": [
-      "hormuz",
-      "qatar",
-      "lng",
-      "blockade",
-      "transit",
-      "centcom"
-    ]
-  },
-  {
-    "id": "social-1211",
+    "id": "social-1214",
     "handle": "@Faytuks",
     "displayName": "Faytuks News",
-    "text": "OIL/ENERGY: Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). ~6% weekly loss after Axios MOU exclusive triggered massive selloff. Suspicious $920M crude short placed 70 min before report dropped, netting ~$125M. Kharg Island: 80,000-barrel oil spill covering 71 sq km. Gas $4.52/gal (AAA). FAO Food Price Index hits 3-yr high 130.7.",
-    "timestamp": "2026-05-10T18:00:00Z",
+    "text": "OIL/ENERGY: Brent $103.98 (+30.2%), WTI $97.50 (+29.1%). Surged 3%+ after Trump rejected Iran ceasefire counterproposal as 'garbage'/'totally unacceptable.' OPEC output hit 36-year low in April: 20.55M bpd (down 420K bpd). UAE withdrawing from OPEC+. Gas $4.52 (stable). Hormuz Day 71 — effectively closed. Saudi Aramco CEO warned normalization may slip to 2027.",
+    "timestamp": "2026-05-11T18:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Trading Economics confirmed oil prices. Seeking Alpha confirmed suspicious short. Al Jazeera confirmed Kharg Island spill via satellite imagery. AAA confirmed gas price.",
+    "verificationNote": "Bloomberg confirmed OPEC 36yr low. Fortune confirmed Brent price. CNBC confirmed WTI. Saudi Aramco CEO quote per Washington Post.",
     "keywords": [
       "oil",
       "brent",
       "wti",
       "gas",
-      "kharg-island",
-      "spill",
-      "fao"
+      "opec",
+      "hormuz",
+      "aramco",
+      "sanctions"
+    ]
+  },
+  {
+    "id": "social-1215",
+    "handle": "@NavalNews_GeoIn",
+    "displayName": "Naval News / GeoInt",
+    "text": "HORMUZ NAVAL: Iran deployed Ghadir-class midget submarines in the Strait of Hormuz per IRGC naval commander — 'fully prepared to deter and destroy any hostile threats.' Iran has 16+ Ghadir vessels; each carries 2 torpedoes or 2 C-704 anti-ship cruise missiles. CENTCOM now has 20+ warships enforcing blockade; 61 Iranian vessels redirected. USS Gerald Ford CSG returning to Norfolk after 322-day deployment.",
+    "timestamp": "2026-05-11T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg confirmed Iran mini-sub deployment. The War Zone/CENTCOM confirmed 61 vessels redirected and 20+ warships. USS Ford departure confirmed.",
+    "keywords": [
+      "iran",
+      "submarines",
+      "ghadir",
+      "hormuz",
+      "centcom",
+      "blockade",
+      "naval"
+    ]
+  },
+  {
+    "id": "social-1216",
+    "handle": "@Liveuamap_ME",
+    "displayName": "LiveUAMap Middle East",
+    "text": "DIPLOMACY: UK-France hosting 40+ nation Hormuz defense ministers summit May 12. HMS Dragon pre-positioning in region. France's Charles de Gaulle carrier already nearby. Iran deputy FM Gharibabadi threatened 'decisive and immediate response' to foreign warships. Araghchi expected at BRICS New Delhi May 14-15. Netanyahu told 60 Minutes: 'Iran war not over — enriched uranium must be taken out.'",
+    "timestamp": "2026-05-11T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "UK Government press release confirmed summit. CBS News confirmed Netanyahu interview. India TV News reported Araghchi BRICS travel.",
+    "keywords": [
+      "uk",
+      "france",
+      "hormuz",
+      "summit",
+      "netanyahu",
+      "araghchi",
+      "brics",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "social-1217",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINTdefender",
+    "text": "TREASURY ALERT May 11: US Treasury issued guidance telling American banks to flag suspected Iranian money-laundering networks using shell companies, multi-layered intermediaries, and crypto firms to smuggle sanctioned oil. Banks told to watch for newly-formed companies moving large amounts, IRGC-linked customers. Part of expanded Economic Fury campaign targeting Iranian oil revenues.",
+    "timestamp": "2026-05-11T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Washington Post confirmed Treasury bank alert on May 11, 2026. Press Democrat corroborated.",
+    "keywords": [
+      "treasury",
+      "sanctions",
+      "iran",
+      "money-laundering",
+      "crypto",
+      "ofac",
+      "banks"
     ]
   }
 ]
