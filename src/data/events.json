@@ -49584,5 +49584,187 @@
       "injured": 0
     },
     "tags": ["sanctions", "treasury", "iran", "uav", "china", "day70"]
+  },
+  {
+    "id": "evt-new-1438",
+    "title": "Trump rejects Iran's 14-point counterproposal — ceasefire on 'massive life support'",
+    "description": "President Trump called Iran's 14-point peace counterproposal 'totally unacceptable' and 'a piece of garbage,' saying the ceasefire is 'on massive life support, where the doctor walks in and says, Sir, your loved one has approximately a 1% chance of living.' Iran demanded US recognition of sovereignty over Hormuz, sanctions lifted, war ended on all fronts, and deferred all nuclear discussions. Trump aides now more seriously considering resumption of major combat operations.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-11T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Washington Post — Trump rejects Iran's response",
+        "url": "https://www.washingtonpost.com/politics/2026/05/10/iran-response-us-proposal-war/"
+      },
+      {
+        "name": "PBS NewsHour — Ceasefire increasingly shaky",
+        "url": "https://www.pbs.org/newshour/world/iran-war-ceasefire-grows-increasingly-shaky-after-trump-calls-tehrans-latest-proposal-totally-unacceptable"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["diplomacy", "ceasefire", "trump", "iran", "negotiations", "day73"]
+  },
+  {
+    "id": "evt-new-1439",
+    "title": "WSJ reveals UAE secretly struck Iran's Lavan Island oil refinery in April",
+    "description": "Wall Street Journal reported the UAE secretly conducted strikes inside Iran including an April 8 attack on Lavan Island's oil refinery using Mirage 2000-9 jets. The strike disabled processing capacity for months and caused a large fire. The UAE has not publicly acknowledged the operation. The attack coincided with the US-announced ceasefire.",
+    "type": "strike",
+    "lat": 26.80,
+    "lng": 53.35,
+    "location": "Lavan Island, Iran",
+    "timestamp": "2026-05-11T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "JFeed — UAE Iran oil refinery strike",
+        "url": "https://www.jfeed.com/middleeast/uae-iran-oil-refinery-strike"
+      },
+      {
+        "name": "RedState — UAE secret war on Iran exposed",
+        "url": "https://redstate.com/wardclark/2026/05/11/reports-uaes-new-secret-war-on-iran-exposed-n2202237"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["strike", "uae", "iran", "oil", "lavan-island", "covert", "day73"]
+  },
+  {
+    "id": "evt-new-1440",
+    "title": "Israel strikes Lebanon, kills 51 including 2 medical workers",
+    "description": "Israeli strikes across Lebanon killed 51 people including 2 medical workers on May 11. Lebanese NNA reported strikes on 30+ locations in southern and eastern Lebanon. Airstrikes hit Zebdine where a drone struck bread distributors. This continues an accelerating pattern following the deadliest day since ceasefire (39 killed May 10). Lebanon total since March 2: 2,869 killed, 8,730 wounded.",
+    "type": "strike",
+    "lat": 33.55,
+    "lng": 35.38,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-11T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli killings in Lebanon rise",
+        "url": "https://www.aljazeera.com/news/2026/5/11/israeli-killings-in-lebanon-rise-is-even-the-pretence-of-a-ceasefire-over"
+      },
+      {
+        "name": "Times of Israel liveblog May 11",
+        "url": "https://www.timesofisrael.com/liveblog-may-11-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 51, "injured": 120 },
+    "tags": ["strike", "lebanon", "israel", "hezbollah", "casualties", "day73"]
+  },
+  {
+    "id": "evt-new-1441",
+    "title": "US sanctions 12 entities for facilitating Iranian oil sales to China",
+    "description": "US Treasury OFAC sanctioned 12 entities and individuals — including firms in Hong Kong, UAE, and Oman — for facilitating Iranian oil sales to China on behalf of IRGC front companies. Additional nuclear-related sanctions also imposed. Action announced days before Trump-Xi summit in Beijing.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-11T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Bloomberg — US sanctions 12 entities for Iran oil sales to China",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/us-sanctions-twelve-entities-for-sales-of-iranian-oil-to-china"
+      },
+      {
+        "name": "The Hill — US imposes Iran sanctions",
+        "url": "https://thehill.com/homenews/administration/5870934-us-imposes-sanctions-iran/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["sanctions", "treasury", "iran", "china", "oil", "irgc", "day73"]
+  },
+  {
+    "id": "evt-new-1442",
+    "title": "US ambassadors confirm Israel deployed Iron Dome batteries to UAE",
+    "description": "US Ambassador to Israel Mike Huckabee and US Ambassador to the UN Mike Waltz both publicly confirmed Israel sent Iron Dome batteries and operating personnel to the UAE during the Iran war — the first publicly acknowledged Israeli military deployment to the UAE. The confirmation came as Lebanon talks are scheduled for May 14-15 in Washington.",
+    "type": "movement",
+    "lat": 24.20,
+    "lng": 55.74,
+    "location": "United Arab Emirates",
+    "timestamp": "2026-05-12T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "KPBS/NPR — US ambassador says Israel sent Iron Dome to UAE",
+        "url": "https://www.kpbs.org/news/international/2026/05/12/u-s-ambassador-to-israel-says-israel-sent-iron-dome-batteries-personnel-to-uae"
+      },
+      {
+        "name": "Washington Times — Huckabee confirms Iron Dome to UAE",
+        "url": "https://www.washingtontimes.com/news/2026/may/12/mike-huckabee-says-israel-sent-iron-dome-batteries-personnel-uae/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["iron-dome", "israel", "uae", "military-cooperation", "air-defense", "day74"]
+  },
+  {
+    "id": "evt-new-1443",
+    "title": "Houthi drone intercepted near Eilat — first attack since ceasefire",
+    "description": "IDF intercepted an apparent Houthi drone near Eilat — the first attack on the Israeli city since the Iran and Lebanon ceasefires took effect. The incident signals potential Houthi resumption of strikes on Israel as the ceasefire hangs by a thread. UN Security Council extended its Houthi Red Sea reporting mandate (Resolution 2812) for 6 months.",
+    "type": "strike",
+    "lat": 29.56,
+    "lng": 34.95,
+    "location": "Eilat, Israel",
+    "timestamp": "2026-05-12T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog May 12",
+        "url": "https://www.timesofisrael.com/liveblog-may-12-2026/"
+      },
+      {
+        "name": "UN Press — UNSC extends Houthi mandate",
+        "url": "https://press.un.org/en/2026/sc16274.doc.htm"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "injured": 0 },
+    "tags": ["houthi", "drone", "eilat", "israel", "ceasefire-breach", "day74"]
+  },
+  {
+    "id": "evt-new-1444",
+    "title": "Israeli strikes kill 6 in Kfar Dounine as Lebanon fighting intensifies",
+    "description": "Israeli strike killed 6 and wounded 7 in Kfar Dounine, approximately 95 km from Beirut in southern Lebanon. Multiple additional strikes hit Zibqin, Jouaya, and towns in Nabatieh district — 13 airstrikes reported since morning. Hezbollah reported 24 attacks over 24 hours against Israeli army positions using explosive drones, rocket barrages, artillery, and guided missiles.",
+    "type": "strike",
+    "lat": 33.48,
+    "lng": 35.37,
+    "location": "Kfar Dounine, Lebanon",
+    "timestamp": "2026-05-12T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Strike kills 6 in Lebanon",
+        "url": "https://www.timesofisrael.com/liveblog_entry/israeli-strike-said-to-kill-6-in-lebanon/"
+      },
+      {
+        "name": "CBC News — Israel south Lebanon Hezbollah",
+        "url": "https://www.cbc.ca/news/world/israel-south-lebanon-hezbollah-9.7192853"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 6, "injured": 7 },
+    "tags": ["strike", "lebanon", "israel", "kfar-dounine", "hezbollah", "day74"]
   }
 ]

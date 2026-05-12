@@ -1,131 +1,134 @@
 [
   {
-    "id": "social-1205",
+    "id": "social-1212",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel",
-    "text": "BREAKING: Iran sends 10-point counter-proposal to US via mediator Pakistan. Rejects nuclear moratorium demand. Demands: end war on all fronts incl. Lebanon, Hormuz shipping safety, sanctions lifted, assets unfrozen, compensation. Trump immediately calls it 'playing games.' Netanyahu called Trump urging against ceasefire.",
-    "timestamp": "2026-05-10T14:00:00Z",
+    "text": "CEASEFIRE STATUS: Trump declares ceasefire on 'massive life support' after rejecting Iran's counter-proposal as a 'piece of garbage.' Some Trump aides now more seriously considering resumption of major combat operations than at any point since April 8 ceasefire. Trump met with senior military advisers Monday. Sanctions on 12 entities facilitating Iranian oil sales to China announced same day.",
+    "timestamp": "2026-05-11T19:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and NBC News confirmed Iran's response. Times of Israel confirmed Netanyahu-Trump call.",
+    "verificationNote": "CNN, Washington Post, Bloomberg confirmed Trump remarks. Bloomberg confirmed sanctions on 12 entities.",
+    "keywords": [
+      "ceasefire",
+      "trump",
+      "sanctions",
+      "iran",
+      "china",
+      "negotiations"
+    ]
+  },
+  {
+    "id": "social-1213",
+    "handle": "@IntelDoge",
+    "displayName": "Intel Doge",
+    "text": "NEGOTIATIONS BREAKDOWN: Iran's counter-proposal demanded war reparations, full Hormuz sovereignty, end to naval blockade, sanctions relief, and deferred nuclear talks. US demands Iran surrender ~440 kg highly enriched uranium and accept 10-20yr enrichment moratorium. Gap enormous: Iran offered 5yr moratorium; US demanded 20. Iran proposed uranium transfer to third country with return clause if US exits deal.",
+    "timestamp": "2026-05-11T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, NBC News, Al Jazeera confirmed details of both proposals.",
     "keywords": [
       "iran",
-      "counter-proposal",
-      "pakistan",
+      "negotiations",
+      "uranium",
+      "hormuz",
       "nuclear",
-      "trump",
-      "netanyahu",
       "ceasefire"
     ]
   },
   {
-    "id": "social-1206",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats Project",
-    "text": "ASSESSMENT: Drone attacks on Qatar, UAE, Kuwait mark significant escalation — Iran expanding target set to Gulf mediators. Qatar cargo ship hit near Mesaieed, UAE intercepted 2 drones, Kuwait repelled airspace incursion. S. Korea confirms drone attack on HMM NAMU in Hormuz. Iran targeting even countries mediating on its behalf.",
-    "timestamp": "2026-05-10T12:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Fortune, Al Jazeera, and Japan Times confirmed Gulf drone attacks. Qatar Defense Ministry official statement.",
-    "keywords": [
-      "drones",
-      "qatar",
-      "uae",
-      "kuwait",
-      "escalation",
-      "hormuz",
-      "gulf-states"
-    ]
-  },
-  {
-    "id": "social-1207",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "INTEL: WSJ reveals Israel built secret military outpost in western Iraq desert for Iran air campaign — housing special forces and IAF logistical hub. When Iraqi shepherd spotted helicopter activity and troops investigated, Israel launched airstrikes killing 1 Iraqi soldier, wounding 2. Iraq filed UN complaint attributing attack to US.",
-    "timestamp": "2026-05-10T08:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Wall Street Journal investigative report confirmed by Haaretz and US News.",
-    "keywords": [
-      "israel",
-      "iraq",
-      "secret-base",
-      "wsj",
-      "iaf",
-      "special-forces"
-    ]
-  },
-  {
-    "id": "social-1208",
-    "handle": "@TheIntelLab",
-    "displayName": "The Intel Lab",
-    "text": "LEBANON CRISIS: Israel kills 39 across Lebanon on May 10 — deadliest day since ceasefire. Strikes hit Saadiyat highway near Beirut, Beirut-Sidon highway, Chouf road. IDF struck 85+ targets on May 9 incl. underground Beqaa Valley weapons factory. 9 villages issued evacuation warnings near Tyre. Ceasefire exists in name only.",
-    "timestamp": "2026-05-10T16:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Euronews and Al Jazeera confirmed 39 killed on May 10. JNS confirmed 85+ targets on May 9.",
-    "keywords": [
-      "lebanon",
-      "israel",
-      "strikes",
-      "deadliest-day",
-      "ceasefire",
-      "beqaa"
-    ]
-  },
-  {
-    "id": "social-1209",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "text": "HEALTH STATUS: US Ambassador Waltz says on ABC's This Week that Mojtaba Khamenei 'has been severely injured, he's in hiding, and incredibly difficult to get a hold of.' Same day, Iran state media published photos of Khamenei meeting Maj. Gen. Abdollahi and issuing new military directives. Conflicting claims — unverifiable.",
-    "timestamp": "2026-05-10T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "The National confirmed Waltz quotes. Press TV published meeting photos. Khamenei has never appeared publicly since becoming Supreme Leader.",
-    "keywords": [
-      "khamenei",
-      "waltz",
-      "health",
-      "injured",
-      "hiding",
-      "iran"
-    ]
-  },
-  {
-    "id": "social-1210",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitors",
-    "text": "HORMUZ UPDATE: First Qatari LNG tanker Al Kharaitiyat transits Hormuz since war began — bound for Pakistan's Port Qasim. Iran approved as confidence-building measure. Panama-flagged bulk carrier also transited using Iran-designated route. CENTCOM: 61 vessels redirected, 1,550+ stranded, 22,500 mariners trapped. Blockade Day 69.",
-    "timestamp": "2026-05-10T13:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Bloomberg confirmed Qatari LNG transit. CENTCOM blockade statistics confirmed.",
-    "keywords": [
-      "hormuz",
-      "qatar",
-      "lng",
-      "blockade",
-      "transit",
-      "centcom"
-    ]
-  },
-  {
-    "id": "social-1211",
+    "id": "social-1214",
     "handle": "@Faytuks",
     "displayName": "Faytuks News",
-    "text": "OIL/ENERGY: Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). ~6% weekly loss after Axios MOU exclusive triggered massive selloff. Suspicious $920M crude short placed 70 min before report dropped, netting ~$125M. Kharg Island: 80,000-barrel oil spill covering 71 sq km. Gas $4.52/gal (AAA). FAO Food Price Index hits 3-yr high 130.7.",
-    "timestamp": "2026-05-10T18:00:00Z",
+    "text": "MILITARY/BUDGET: Defense Secretary Hegseth testifies before Senate Armed Services Committee today (Day 2) on $1.5T defense budget. Sen. Mark Kelly pressed Hegseth on munitions depletion — Hegseth admitted restocking would take 'months and years.' Hegseth called Democratic critics 'defeatists from the cheap seats.' Houthi drone intercepted near Eilat — first attack since ceasefire. Israel bombs Lebanon (24 killed May 9).",
+    "timestamp": "2026-05-12T10:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Trading Economics confirmed oil prices. Seeking Alpha confirmed suspicious short. Al Jazeera confirmed Kharg Island spill via satellite imagery. AAA confirmed gas price.",
+    "verificationNote": "PBS News, Washington Post confirmed Hegseth testimony. Times of Israel confirmed Eilat drone intercept May 12.",
     "keywords": [
+      "hegseth",
+      "munitions",
+      "senate",
+      "houthis",
+      "eilat",
+      "lebanon",
+      "budget"
+    ]
+  },
+  {
+    "id": "social-1215",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitors",
+    "text": "TRUMP-XI SUMMIT: Trump departs for Beijing to meet Xi Jinping — Iran war the dominant agenda item. US expects China to pressure Iran. Beijing publicly supports peace but has privately sent 'subtle message of discontent' to Iran for Hormuz closure and US for shipping blockade. US sanctioned 4 China-based firms for providing satellite imagery enabling Iranian strikes on US forces. China told domestic firms to ignore US sanctions on refiners.",
+    "timestamp": "2026-05-12T06:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNBC, Washington Times, Bloomberg confirmed Trump-Xi summit agenda. Bloomberg confirmed China satellite imagery sanctions.",
+    "keywords": [
+      "trump",
+      "xi",
+      "china",
+      "beijing",
+      "summit",
+      "iran",
+      "sanctions"
+    ]
+  },
+  {
+    "id": "social-1216",
+    "handle": "@ISWResearch",
+    "displayName": "ISW / Critical Threats",
+    "text": "ISW ASSESSMENT (May 8): IRGC Cmdr Vahidi continues to drive Iran's war and negotiating posture. US officials assess Iranian decision-making remains fragmented. Iran's primary positive strategic objective: gain recognition of sovereignty over Strait of Hormuz, which would reshape global maritime norms. Secondary objective: economic relief to fund ballistic missile reconstitution. Both US and Iranian military officials now describe renewed combat as 'likely.'",
+    "timestamp": "2026-05-11T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Based on ISW/Critical Threats Iran Update Special Report May 8, 2026. Published at criticalthreats.org.",
+    "keywords": [
+      "isw",
+      "irgc",
+      "vahidi",
+      "hormuz",
+      "iran",
+      "negotiations",
+      "nuclear"
+    ]
+  },
+  {
+    "id": "social-1217",
+    "handle": "@conflictmonitor",
+    "displayName": "Conflict Monitor",
+    "text": "POLITICAL: Netanyahu in first US broadcast since war began (60 Minutes, May 10) says war 'not over' until enriched uranium 'taken out' of Iran and enrichment sites dismantled. Says regime change 'possible, not guaranteed' — collapse of regime would end Hezbollah, Hamas, Houthis 'scaffolding.' Iran's Pezeshkian confirmed he met Mojtaba Khamenei in person for 2.5 hours — first official confirmation of new Supreme Leader's whereabouts.",
+    "timestamp": "2026-05-11T12:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News confirmed Netanyahu 60 Minutes transcript. Euronews confirmed Pezeshkian-Khamenei meeting.",
+    "keywords": [
+      "netanyahu",
+      "iran",
+      "khamenei",
+      "uranium",
+      "regime-change",
+      "pezeshkian",
+      "hezbollah"
+    ]
+  },
+  {
+    "id": "social-1218",
+    "handle": "@HormuzWatch",
+    "displayName": "Hormuz Watch",
+    "text": "HAARETZ ANALYSIS: Iran's resilience is dragging Israel into a war of attrition on the Lebanese front. Israel lacks 'a clear picture of victory' despite military superiority. IDF killed 24 in Lebanon on May 9. Houthi drone intercepted near Eilat May 12 — first attack since ceasefire. Qatar accuses Iran of 'weaponizing' Hormuz and 'blackmailing' Gulf states. Shipping traffic remains at standstill. Oil up 3% after Trump rejected Iran proposal.",
+    "timestamp": "2026-05-12T04:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Haaretz analysis confirmed. Times of Israel confirmed Eilat interception. CNBC confirmed oil rise.",
+    "keywords": [
+      "haaretz",
+      "lebanon",
+      "hezbollah",
+      "hormuz",
+      "qatar",
       "oil",
-      "brent",
-      "wti",
-      "gas",
-      "kharg-island",
-      "spill",
-      "fao"
+      "houthis",
+      "eilat"
     ]
   }
 ]

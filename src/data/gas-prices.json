@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-10T20:04:00Z",
-  "currentAverage": 4.52,
+  "lastUpdated": "2026-05-12T12:08:00Z",
+  "currentAverage": 4.504,
   "preWarAverage": 3.05,
-  "changePercent": 48.20,
+  "changePercent": 47.67,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -604,6 +604,14 @@
       "wti": 95.42,
       "label": "Day 72 1:04 PM PT \u2014 Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Oil ~6% weekly loss on MOU hopes. Iran 10-point counter-proposal via Pakistan. Drones hit Qatar/UAE/Kuwait. Israel kills 39 in Lebanon. First Qatari LNG transits Hormuz. Gas $4.52 (+48.2%). Hormuz Day 69.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-12",
+      "price": 4.504,
+      "brent": 104.21,
+      "wti": 98.07,
+      "label": "Day 74 5:08 AM PT \u2014 Gas $4.504 (+47.7%). Oil surges: Brent $104.21 (+30.5%), WTI $98.07 (+29.9%) after Trump rejects Iran's 14-point proposal as 'garbage.' Ceasefire on 'massive life support.' Iron Dome to UAE confirmed. Houthi drone hits Eilat. SPR 53.3M barrel release begins. Hormuz Day 71.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -653,15 +661,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 10 1:04 PM PT)",
-      "crudePerBarrel": 101.29,
+      "label": "Current (May 12 5:08 AM PT)",
+      "crudePerBarrel": 104.21,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$101.29 \u00f7 42 gal (Brent, May 10)",
-          "value": 2.412,
-          "percent": 53,
-          "change": "+$0.79"
+          "formula": "$104.21 \u00f7 42 gal (Brent, May 12)",
+          "value": 2.481,
+          "percent": 55,
+          "change": "+$0.86"
         },
         {
           "name": "Refining",
@@ -699,18 +707,18 @@
           "change": "+$0.184"
         }
       ],
-      "total": 4.52,
-      "note": "National average $4.52/gal (AAA, May 10). Slight pullback after MOU peace deal hopes. Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Rose 25 cents 2nd straight week. Highest since 2022's $5.01 peak. Hormuz Day 69 blockade.",
-      "crude": 2.412,
+      "total": 4.504,
+      "note": "National average $4.504/gal (AAA, May 12). Slight decline from $4.52 peak as pump prices lag oil by 2-3 days. Oil surged ~3% May 11: Brent $104.21 (+30.5%), WTI $98.07 (+29.9%) on Trump rejecting Iran's 14-point proposal as 'garbage.' Highest since 2022's $5.01 peak. Hormuz Day 71 blockade.",
+      "crude": 2.481,
       "taxes": 0.534,
       "refining": 0.82,
       "distribution": 0.45,
-      "regularGasoline": 4.52,
-      "changeFromPreWar": "+$1.47",
-      "changePercent": "+48.2%",
-      "lastUpdated": "2026-05-10T20:04:00Z",
-      "date": "2026-05-10"
+      "regularGasoline": 4.504,
+      "changeFromPreWar": "+$1.45",
+      "changePercent": "+47.7%",
+      "lastUpdated": "2026-05-12T12:08:00Z",
+      "date": "2026-05-12"
     }
   },
-  "context": "Day 70 11:11 PM PT: National average $4.558/gal per AAA (+49.4% from $3.05) — 4-year high. Oil rebounding: Brent $101.26 (+26.9%), WTI $95.64 (+26.7%) on US-Iran Hormuz fire exchange. IRGC attacked 3 US destroyers; CENTCOM struck back at Qeshm/Bandar Abbas/Sirik. Trump: 'love tap,' 1-week ultimatum. Hezbollah record 105 attacks on Israel. Iran creates PGSA. UAE intercepts attacks. Hormuz Day 67 blockade."
+  "context": "Day 74 5:08 AM PT: National average $4.504/gal (AAA May 12, +47.7% from $3.05). Slight decline from $4.52 peak as pump prices lag oil by 2-3 days. Oil surged ~3% May 11: Brent $104.21 (+30.5%), WTI $98.07 (+29.9%) after Trump declared ceasefire on 'massive life support' and rejected Iran's 14-point proposal as 'garbage.' UAE secretly struck Iran's Lavan Island refinery (WSJ). Iron Dome deployed to UAE confirmed. SPR 53.3M barrel release begins. Hormuz Day 71 — effectively closed. 1,550+ ships stranded, 22,500 mariners trapped."
 }

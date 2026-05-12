@@ -10253,5 +10253,59 @@
       "killed": 39,
       "injured": 0
     }
+  },
+  {
+    "id": "ms-601",
+    "city": "Multiple locations, southern Lebanon",
+    "country": "Lebanon",
+    "lat": 33.55,
+    "lng": 35.38,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-11",
+    "description": "Israeli strikes across Lebanon killed 51 including 2 medical workers. Strikes on 30+ locations in southern and eastern Lebanon. Drone strike in Zebdine hit bread distributors.",
+    "source": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/5/11/israeli-killings-in-lebanon-rise-is-even-the-pretence-of-a-ceasefire-over",
+    "weaponType": "Aerial munitions, drones",
+    "casualties": {
+      "killed": 51,
+      "injured": 120
+    }
+  },
+  {
+    "id": "ms-602",
+    "city": "Kfar Dounine, Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.48,
+    "lng": 35.37,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-12",
+    "description": "Israeli strike killed 6 and wounded 7 in Kfar Dounine, ~95 km from Beirut in southern Lebanon. Additional 13 airstrikes across Nabatieh district. Hezbollah reported 24 attacks in 24h against IDF positions.",
+    "source": "Times of Israel",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/israeli-strike-said-to-kill-6-in-lebanon/",
+    "weaponType": "Aerial munitions",
+    "casualties": {
+      "killed": 6,
+      "injured": 7
+    }
+  },
+  {
+    "id": "ms-603",
+    "city": "Eilat",
+    "country": "Israel",
+    "lat": 29.56,
+    "lng": 34.95,
+    "strikeType": "drone",
+    "attributedTo": "houthis",
+    "date": "2026-05-12",
+    "description": "IDF intercepted Houthi drone near Eilat — first attack on Israeli city since ceasefire. Signals potential Houthi resumption of strikes on Israel as peace deal collapses.",
+    "source": "Times of Israel liveblog May 12",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-may-12-2026/",
+    "weaponType": "Explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    }
   }
 ]
