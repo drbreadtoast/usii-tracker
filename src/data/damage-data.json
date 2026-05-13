@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 474,
-    "confirmed": 384,
+    "totalSites": 475,
+    "confirmed": 385,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -37,7 +37,7 @@
       "military": 67,
       "nuclear": 8,
       "infrastructure": 12,
-      "civilian": 38,
+      "civilian": 39,
       "media_civilian": 2,
       "residential": 2,
       "energy": 5,
@@ -7399,6 +7399,24 @@
       "casualties": "2 medics killed",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/12/live-iran-war-day-74",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-470",
+      "name": "Southern Lebanon coastal highway — vehicle drone strikes (Shaitiyah, Naqoura, Deir Aames)",
+      "country": "Lebanon",
+      "lat": 33.22,
+      "lng": 35.28,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-13",
+      "attributedTo": "israel",
+      "damageLevel": "destroyed",
+      "description": "Three Israeli drone strikes on vehicles in southern Lebanon — near Shaitiyah, Naqoura, and Deir Aames. 14 killed total including a woman and two children. A 'double-tap' strike in Nabatieh killed 2 Civil Defense rescue workers. Strikes occurred the eve of US-mediated Israel-Lebanon talks in Washington.",
+      "weaponUsed": "Drone-launched munitions",
+      "casualties": "14 killed, 56 wounded",
+      "source": "AP / Detroit News",
+      "sourceUrl": "https://www.detroitnews.com/story/news/world/2026/05/13/israeli-strikes-kill-12-in-lebanon-ahead-of-us-mediated-talks/90058759007/",
       "satelliteImagery": false
     }
   ]

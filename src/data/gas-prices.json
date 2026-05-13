@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-13T00:29:00Z",
-  "currentAverage": 4.50,
+  "lastUpdated": "2026-05-13T19:00:00Z",
+  "currentAverage": 4.511,
   "preWarAverage": 3.05,
-  "changePercent": 47.54,
+  "changePercent": 47.9,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -604,6 +604,18 @@
       "wti": 95.42,
       "label": "Day 72 1:04 PM PT \u2014 Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Oil ~6% weekly loss on MOU hopes. Iran 10-point counter-proposal via Pakistan. Drones hit Qatar/UAE/Kuwait. Israel kills 39 in Lebanon. First Qatari LNG transits Hormuz. Gas $4.52 (+48.2%). Hormuz Day 69.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-12",
+      "price": 4.504,
+      "label": "Day 74 5:29 PM PT \u2014 AAA $4.504/gal (+47.7% from $3.05). Saudi covert Iran strikes revealed. April CPI 3.8%. Consumer sentiment 48.2 record low. IDF Golani Litani raid. Trump departs Beijing.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-13",
+      "price": 4.511,
+      "label": "Day 75 12:03 PM PT \u2014 AAA $4.511/gal (+47.9% from $3.05). Iran retains 70% missiles, 30/33 Hormuz sites. Hezbollah unjammable drone swarm. Trump arrives Beijing. Senate WPR 50-49.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -707,10 +719,10 @@
       "distribution": 0.45,
       "regularGasoline": 4.52,
       "changeFromPreWar": "+$1.47",
-      "changePercent": "+48.2%",
-      "lastUpdated": "2026-05-13T00:29:00Z",
-      "date": "2026-05-12"
+      "changePercent": "+47.9%",
+      "lastUpdated": "2026-05-13T19:00:00Z",
+      "date": "2026-05-13"
     }
   },
-  "context": "Day 74 5:29 PM PT: National average $4.50/gal per AAA (+47.5% from $3.05). Oil surging: Brent $104.97 (+31.5%), WTI $101.63 (+34.6%) — WTI back above $100. April CPI 3.8% (highest since May 2023), gas index +28.4% YoY. Consumer sentiment 48.2 (record low since 1952). Trump proposes gas tax suspension ($0.184/gal). Trump departs Beijing: 'finish the job.' Saudi covert Iran strikes revealed. Kuwait IRGC infiltration. Hormuz Day 71 blockade."
+  "context": "Day 75 12:03 PM PT: National average $4.511/gal per AAA (+47.9% from $3.05). Oil: Brent $107.05 (+34.1%), WTI $102.21 (+35.4%). Iran retains 70% missile arsenal, restores 30/33 Hormuz sites — ISW warns renewed hostilities possible. Hezbollah unjammable fiber-optic drone swarm. Trump-Xi summit in Beijing. Senate WPR fails 50-49. GasBuddy warns $5/gal by Memorial Day. Hormuz Day 72 blockade."
 }
