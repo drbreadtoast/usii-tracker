@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-12",
-      "label": "Day 74 5:29 PM PT \u2014 Brent $104.97/bbl (+31.5% from pre-war $79.80). WTI $101.63/bbl (+34.6% from $75.50). Oil surged after Trump said ceasefire on 'massive life support,' departed for Beijing warning 'finish the job.' April CPI hit 3.8% \u2014 highest since May 2023. Saudi covert strikes on Iran revealed (Reuters). Kuwait IRGC infiltration exposed. WTI recrossed $100 threshold. Gas $4.50. Hormuz Day 71.",
+      "date": "2026-05-13",
+      "label": "Day 75 12:03 PM PT \u2014 Brent $107.05/bbl (+34.1% from pre-war $79.84). WTI $102.21/bbl (+35.4% from $75.51). Iran retains 70% missile arsenal, restores 30/33 Hormuz sites \u2014 ISW warns Iran preparing for renewed hostilities. Hezbollah fiber-optic unjammable drone swarm on northern Israel. Netanyahu reveals secret UAE visit (March 26). Trump arrives Beijing for Xi summit. Senate WPR fails 50-49 (closest yet). Gas $4.511/gal. Hormuz Day 72.",
       "brent": {
-        "price": 104.97,
-        "change": "+31.5%",
-        "changeDollars": "+$25.17"
+        "price": 107.05,
+        "change": "+34.1%",
+        "changeDollars": "+$27.25"
       },
       "wti": {
-        "price": 101.63,
-        "change": "+34.6%",
-        "changeDollars": "+$26.13"
+        "price": 102.21,
+        "change": "+35.4%",
+        "changeDollars": "+$26.70"
       },
-      "changePercent": 31.5,
-      "lastUpdated": "2026-05-12"
+      "changePercent": 34.1,
+      "lastUpdated": "2026-05-13"
     },
     "priceHistory": [
       {
@@ -650,12 +650,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.50,
-          "date": "2026-05-12"
+          "price": 4.511,
+          "date": "2026-05-13"
         },
-        "change": "+$1.45",
-        "changePercent": "+47.5%",
-        "detail": "Gas $4.504/gal (AAA, May 12). Brent $104.97 (+31.5%), WTI $101.63 (+34.6%). April CPI 3.8% — gas index +28.4% YoY. Trump proposes gas tax suspension ($0.184/gal). Consumer sentiment 48.2 (record low). Pre-war $3.05. Highest since 2022.",
+        "change": "+$1.46",
+        "changePercent": "+47.9%",
+        "detail": "Gas $4.511/gal (AAA, May 13). Brent $107.05 (+34.1%), WTI $102.21 (+35.4%). April CPI 3.8% — gas index +28.4% YoY. Iran retains 70% missile arsenal — Hormuz reopening remains distant. GasBuddy warns $5/gal by Memorial Day. Pre-war $3.05. Highest since 2022.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1332,6 +1332,20 @@
       "brent": 101.96,
       "wti": 95.66,
       "label": "Day 69 5:12 AM PT \u2014 Brent $101.96 (+27.8%), WTI $95.66 (+26.7%). Partial recovery from May 6 crash. Pezeshkian confirms 2.5-hour meeting with Mojtaba Khamenei \u2014 first proof of life. Trump: deal 'very possible.' Qatar PM: 'high probability.' S&P 500 rallies to 7,365 (+1.46%). WaPo: Iran damaged 228 structures at US bases. US intel: nuclear breakout unchanged at 9-12 months. Saeed Jalili may replace Ghalibaf. Gas $4.54. Hormuz Day 66.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-12",
+      "brent": 104.97,
+      "wti": 101.63,
+      "label": "Day 74 5:29 PM PT \u2014 Brent $104.97 (+31.5%), WTI $101.63 (+34.6%). Saudi Arabia revealed conducting covert strikes on Iran in late March. April CPI 3.8% \u2014 highest since May 2023. Consumer sentiment 48.2 (record low since 1952). Kuwait IRGC Bubiyan infiltration exposed. IDF Golani raid beyond Litani \u2014 15 Hezbollah killed. Trump departs for Beijing.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-13",
+      "brent": 107.05,
+      "wti": 102.21,
+      "label": "Day 75 12:03 PM PT \u2014 Brent $107.05 (+34.1%), WTI $102.21 (+35.4%). Iran retains 70% missile arsenal, restores 30/33 Hormuz sites (ISW: preparing for renewed war). Hezbollah fiber-optic unjammable drone swarm. Netanyahu reveals secret UAE visit. Senate WPR 50-49 fails. Trump-Xi summit opens in Beijing. Araghchi at BRICS New Delhi. Gas $4.511.",
       "isEvent": true
     }
   ]
