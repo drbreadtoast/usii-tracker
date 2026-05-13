@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-12T14:25:00Z",
+    "lastUpdated": "2026-05-13T00:10:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 472,
-    "confirmed": 382,
+    "totalSites": 474,
+    "confirmed": 384,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7363,6 +7363,42 @@
       "casualties": "1 IDF reservist killed",
       "source": "Times of Israel",
       "sourceUrl": "https://www.timesofisrael.com/liveblog_entry/idf-says-soldier-killed-in-hezbollah-drone-attack/",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-468",
+      "name": "Nabatieh Civil Defense Center — triple-tap drone strike",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.49,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-12",
+      "attributedTo": "israel",
+      "damageLevel": "destroyed",
+      "description": "Three successive Israeli drone strikes hit the entrance to Nabatieh's Civil Defense Center, killing two volunteer rescue workers responding to initial strike. Part of broader IDF strikes that killed 13 in southern Lebanon on May 12. IDF issued displacement orders for 9-12 villages.",
+      "weaponUsed": "IDF drone-launched munition",
+      "casualties": "2 civil defense volunteers killed, ~4 injured",
+      "source": "L'Orient Today",
+      "sourceUrl": "https://today.lorientlejour.com/article/1506654/around-10-killed-by-israeli-strikes-in-south-lebanon-new-expulsion-orders-of-buffer-zone.html",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-469",
+      "name": "Kfar Dounin village — Israeli airstrike",
+      "country": "Lebanon",
+      "lat": 33.22,
+      "lng": 35.30,
+      "category": "civilian",
+      "status": "confirmed",
+      "date": "2026-05-12",
+      "attributedTo": "israel",
+      "damageLevel": "severe",
+      "description": "Israeli airstrike on Kfar Dounin in Bint Jbeil district killed 4 people on May 12 as IDF continued operations in southern Lebanon ahead of May 14-15 Lebanon-Israel peace talks in Washington.",
+      "weaponUsed": "Aerial munitions",
+      "casualties": "4 killed, 2 injured",
+      "source": "CNN live blog — Iran war May 12",
+      "sourceUrl": "https://edition.cnn.com/2026/05/12/world/live-news/trump-iran-war-news",
       "satelliteImagery": false
     }
   ]

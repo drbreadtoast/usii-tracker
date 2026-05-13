@@ -35,11 +35,11 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-05-12T14:25:00Z",
+    "lastUpdated": "2026-05-13T00:10:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 74,
+    "daysOfConflict": 75,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 74
+    "conflictDay": 75
   },
   "countryCosts": {
     "us": {
@@ -97,7 +97,7 @@
       "dailyBurnRate": 1000000000,
       "dailyBurnRateNote": "$800M-$1B/day current average (down from $2B/day initial surge). CSIS: $891M/day first 100h, ~$601M/day Days 7-12. Pentagon officials cite ~$1B/day. Penn Wharton: settling to ~$800M/day sustained. $200B+ supplemental pending.",
       "totalEstimate": "~$47B direct military + ~$37.6B indirect through Day 55",
-      "details": "CSIS: $3.7B first 100 hours, $11.3B first 6 days (Pentagon to Congress), $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
+      "details": "PENTAGON OFFICIAL (May 12): $29B confirmed by acting comptroller Jules Hurst III before Senate Appropriations subcommittee. Sen. Murray called it 'suspiciously low.' Dem estimates: $630B-$1T economic cost. CSIS: $3.7B first 100 hours, $11.3B first 6 days, $16.5B through Day 12. Kevin Hassett confirmed ~$12B figure as of ~Day 16. CAP projects ~$25B through Day 26. Daily costs $601M-$1B+ (settling from early $2B/day surge). Pentagon seeking $200B+ supplemental. USS Boxer + 2,500 Marines deployed (Day 21), USS Tripoli + 31st MEU arrived (Day 28), bringing total ~50,000 personnel in theater. Hegseth: '15,000+ targets struck across Iran.'",
       "totalCost": 84600000000,
       "totalFormatted": "$84.6B",
       "total": 84600000000,
@@ -880,7 +880,7 @@
     "lastCalculated": "2026-05-06T19:01:00Z",
     "allCountriesIndirect": 109490000000,
     "combinedTotalFormatted": "$177.06B",
-    "lastUpdated": "2026-05-12T14:25:00Z",
+    "lastUpdated": "2026-05-13T00:10:00Z",
     "directCosts": 67570000000,
     "indirectCosts": 109490000000,
     "combinedCosts": 177060000000,
@@ -890,9 +890,9 @@
     "allCountriesDirectFormatted": "$67.57B",
     "globalEconomicImpactFormatted": "$900B+"
   },
-  "daysOfConflict": 74,
-  "lastUpdated": "2026-05-12T14:25:00Z",
+  "daysOfConflict": 75,
+  "lastUpdated": "2026-05-13T00:10:00Z",
   "dailyBurnRate": 1478000000,
   "totalCost": 85310000000,
-  "totalFormatted": "$85.31B (direct military, all countries, Day 74 7:25 AM PT — Pentagon: US $29B direct (Hegseth Congressional testimony), Brown U: $37B, independent total: $72B+. Trump rejects Iran counter-proposal as 'garbage,' ceasefire 'massive life support.' IDF strikes 85+ targets in Lebanon, 51 killed in 24h. Hezbollah 24 attacks in 24h. Iran MP threatens 90% enrichment. UK-France 40-nation Hormuz summit set. Trump-Xi Beijing May 14-15. Brent $104.21 (+30.6%), WTI $98.07 (+29.9%). Gas $4.52. Iran $300B+ damage. Israel NIS 35B (~$11.52B). Hormuz Day 71. Long-term US projection: $630B-$1T.)"
+  "totalFormatted": "$85.31B (direct military, all countries, Day 75 5:10 PM PT May 12 — Pentagon official: US $29B direct (acting comptroller Jules Hurst III, Senate Appropriations subcommittee, May 12). Sen. Murray: 'suspiciously low.' Dem estimate: $630B-$1T total economic cost. Brown U: $37B independent. Trump departs Beijing: 'finish the job.' Israel kills 13 in Lebanon. Kuwait reveals IRGC Bubiyan infiltration. Kallas: Aspides to Hormuz. Brent $110.43 (+38.3%), WTI $101.87 (+34.9%). Gas $4.504. Hormuz Day 72. Long-term US projection: $630B-$1T.)"
 }

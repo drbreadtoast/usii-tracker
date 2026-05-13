@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-05-12T14:25:00Z",
+  "lastFullUpdate": "2026-05-13T00:10:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,23 +10,23 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-1451",
-          "totalEntries": 1499,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "evt-new-1455",
+          "totalEntries": 1503,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "war-timeline.json",
           "structure": "top-level-array",
-          "lastId": "tl-779",
-          "totalEntries": 779,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "tl-781",
+          "totalEntries": 781,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-1173",
-          "totalEntries": 446,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "brk-1177",
+          "totalEntries": 450,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "death-toll.json",
@@ -64,23 +64,23 @@
         {
           "file": "social-posts.json",
           "structure": "top-level-array",
-          "lastId": "social-1218",
-          "totalEntries": 7,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "social-1223",
+          "totalEntries": 12,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "government-statements.json",
           "structure": "top-level-array",
-          "lastId": "gov-852",
-          "totalEntries": 852,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "gov-856",
+          "totalEntries": 856,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "escalations.json",
           "structure": "top-level-array",
-          "lastId": "esc-610",
-          "totalEntries": 611,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "esc-612",
+          "totalEntries": 613,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "gas-prices.json",
@@ -132,16 +132,16 @@
         {
           "file": "damage-data.json",
           "structure": "object-with-damageLocations",
-          "lastId": "dmg-467",
-          "totalEntries": 467,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "dmg-469",
+          "totalEntries": 469,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         },
         {
           "file": "missile-strikes.json",
           "structure": "top-level-array",
-          "lastId": "ms-603",
-          "totalEntries": 603,
-          "lastUpdated": "2026-05-12T14:25:00Z"
+          "lastId": "ms-605",
+          "totalEntries": 605,
+          "lastUpdated": "2026-05-13T00:10:00Z"
         }
       ]
     },
