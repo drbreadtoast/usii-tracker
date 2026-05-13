@@ -50264,5 +50264,121 @@
       "injured": 0
     },
     "tags": ["eu", "aspides", "kallas", "hormuz", "naval", "day74"]
+  },
+  {
+    "id": "evt-new-1462",
+    "title": "Hezbollah launches largest fiber-optic drone swarm attack on Israel — two waves",
+    "description": "Hezbollah launched its most significant drone attack on Israel in two waves targeting a single site in northern Israel. The first wave included drones wounding 2 IDF soldiers (1 moderate, 1 light) in southern Lebanon, followed by a heavier second wave of multiple simultaneous drones circling to find the optimal strike point. IDF described the situation as 'deadlocked' due to fiber-optic cable guidance making the drones unjammable.",
+    "type": "strike",
+    "lat": 33.05,
+    "lng": 35.45,
+    "location": "Northern Israel (near Lebanon border)",
+    "timestamp": "2026-05-13T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Naharnet — Hezbollah largest drone attack",
+        "url": "https://www.naharnet.com/stories/en/320102-hezbollah-launches-most-significant-drone-attack-on-israel"
+      },
+      {
+        "name": "Washington Post — fiber-optic drones unjammable",
+        "url": "https://www.washingtonpost.com/world/2026/05/13/hezbollahs-unjammable-drones-pose-new-threat-israel/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 2
+    },
+    "tags": ["hezbollah", "drones", "fpv", "fiber-optic", "northern-israel", "day75"]
+  },
+  {
+    "id": "evt-new-1463",
+    "title": "Iran MP threatens 90% weapons-grade uranium enrichment if US resumes strikes",
+    "description": "Iranian MP Ebrahim Rezaei, spokesperson for parliament's National Security and Foreign Policy Committee, warned Iran could enrich uranium to weapons-grade 90% if the US resumes military strikes. Iran currently holds ~400 kg enriched to 60% — estimated 1-2 weeks from weapons-grade. Parliament said option would be formally discussed, raising nuclear escalation stakes as ceasefire talks stall.",
+    "type": "diplomatic",
+    "lat": 35.68,
+    "lng": 51.38,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-12T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Euronews — Iran threatens 90% enrichment",
+        "url": "https://www.euronews.com/2026/05/12/iran-threatens-weapons-grade-uranium-enrichment-as-peace-talks-falter"
+      },
+      {
+        "name": "Business Standard — Iran 90% enrichment threat",
+        "url": "https://www.business-standard.com/world-news/iran-could-enrich-uranium-to-weapons-grade-if-attacked-again-says-lawmaker-126051201630_1.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "nuclear", "enrichment", "weapons-grade", "escalation", "day75"]
+  },
+  {
+    "id": "evt-new-1464",
+    "title": "Pentagon confirms US Iran war cost reaches $29 billion — munitions critically depleted",
+    "description": "Acting Pentagon comptroller Jules Hurst told Congress the Iran war cost climbed to $29 billion, up $4 billion from two weeks prior. US munitions stockpiles critically depleted — approximately 45-50% of Precision Strike Missiles, THAAD, and Patriot interceptors expended. Rebuilding will take 1-4 years. Defense Secretary Hegseth faced bipartisan grilling from both parties over costs, munitions, and endgame strategy.",
+    "type": "diplomatic",
+    "lat": 38.87,
+    "lng": -77.06,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-05-13T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Euronews — Pentagon $29 billion war cost",
+        "url": "https://www.euronews.com/2026/05/13/pentagon-says-us-has-spent-29-billion-on-iran-war-so-far-amid-concerns-over-weapons-stockp"
+      },
+      {
+        "name": "Defense News — Pentagon seeks additional funding",
+        "url": "https://www.defensenews.com/news/pentagon-congress/2026/05/12/pentagon-seeks-additional-funding-as-cost-of-iran-war-tops-29-billon/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["pentagon", "war-cost", "munitions", "hegseth", "congress", "day75"]
+  },
+  {
+    "id": "evt-new-1465",
+    "title": "Chinese VLCC Yuan Hua Hu makes rare exit from Strait of Hormuz",
+    "description": "Chinese oil supertanker Yuan Hua Hu (COSCO-operated, ~2 million barrel capacity, chartered by Sinopec/Unipec) made a rare exit from Hormuz into the Gulf of Oman — only the third Chinese VLCC transit since the war began. Fully laden with Iraqi crude from Basrah terminal loaded in early March. The transit occurred ahead of the Trump-Xi Beijing summit, signaling possible Chinese coordination.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-13T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Bloomberg — Chinese oil supertanker Hormuz exit",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/chinese-oil-supertanker-seen-attempting-strait-of-hormuz-exit"
+      },
+      {
+        "name": "OilPrice.com — Chinese tanker tests Hormuz passage",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Oil-Tanker-Tests-Safe-Passage-Through-Strait-of-Hormuz.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["china", "hormuz", "tanker", "vlcc", "shipping", "day75"]
   }
 ]

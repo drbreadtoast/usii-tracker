@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-12T14:25:00Z",
+    "lastUpdated": "2026-05-13T12:42:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 474,
-    "confirmed": 384,
+    "totalSites": 475,
+    "confirmed": 385,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7399,6 +7399,24 @@
       "casualties": "2 medics killed",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/12/live-iran-war-day-74",
+      "satelliteImagery": false
+    },
+    {
+      "id": "dmg-470",
+      "name": "Northern Israel IDF position — Hezbollah largest drone swarm",
+      "country": "Israel",
+      "lat": 33.05,
+      "lng": 35.45,
+      "category": "military",
+      "status": "confirmed",
+      "date": "2026-05-13",
+      "attributedTo": "hezbollah",
+      "damageLevel": "moderate",
+      "description": "Hezbollah launched largest-ever fiber-optic FPV drone swarm on Israel in two coordinated waves targeting a single IDF position in northern Israel. First multi-drone simultaneous strike on one target inside Israel. Fiber-optic cable guidance makes drones entirely unjammable. IDF declared situation 'deadlocked.' 2 soldiers wounded.",
+      "weaponUsed": "Fiber-optic FPV drone swarm (multiple simultaneous)",
+      "casualties": "2 IDF soldiers wounded",
+      "source": "Naharnet",
+      "sourceUrl": "https://www.naharnet.com/stories/en/320102-hezbollah-launches-most-significant-drone-attack-on-israel",
       "satelliteImagery": false
     }
   ]

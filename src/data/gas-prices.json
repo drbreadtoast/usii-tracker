@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-13T00:29:00Z",
-  "currentAverage": 4.50,
+  "lastUpdated": "2026-05-13T12:42:00Z",
+  "currentAverage": 4.504,
   "preWarAverage": 3.05,
-  "changePercent": 47.54,
+  "changePercent": 47.67,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -604,6 +604,18 @@
       "wti": 95.42,
       "label": "Day 72 1:04 PM PT \u2014 Brent $101.29 (+26.9%), WTI $95.42 (+26.4%). Oil ~6% weekly loss on MOU hopes. Iran 10-point counter-proposal via Pakistan. Drones hit Qatar/UAE/Kuwait. Israel kills 39 in Lebanon. First Qatari LNG transits Hormuz. Gas $4.52 (+48.2%). Hormuz Day 69.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-12",
+      "price": 4.504,
+      "label": "Day 74 PM \u2014 $4.504 \u2014 AAA national average surpasses $4.50 for first time. Brent $104.97 (+31.5%), WTI $101.63 (+34.6%). Rose 25 cents for second consecutive week. Trump rejects Iran proposal, departs Beijing. April CPI 3.8% highest since May 2023.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-13",
+      "price": 4.504,
+      "label": "Day 75 \u2014 $4.504 \u2014 Hezbollah largest drone swarm, Iran nuclear threat. Brent $107.05 (+34.1%), WTI $102.21 (+35.4%). Trump-Xi summit begins. Pentagon $29B war cost confirmed.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -700,17 +712,17 @@
         }
       ],
       "total": 4.52,
-      "note": "National average $4.52/gal (AAA, May 12). Oil surged after Trump rejected Iran proposal. Brent $104.21 (+30.5%), WTI $98.07 (+29.9%). Trump eyes federal gas tax suspension. Rose 25 cents 2nd straight week. Highest since 2022's $5.01 peak. Hormuz Day 71 blockade.",
+      "note": "National average $4.504/gal (AAA, May 13). Oil: Brent $107.05 (+34.1%), WTI $102.21 (+35.4%). Trump-Xi Beijing summit — Iran war on agenda. Hezbollah launches largest drone swarm ever. Iran MP threatens 90% enrichment. Pentagon $29B war cost. Highest since 2022's $5.01 peak. Hormuz Day 72 blockade.",
       "crude": 2.412,
       "taxes": 0.534,
       "refining": 0.82,
       "distribution": 0.45,
-      "regularGasoline": 4.52,
-      "changeFromPreWar": "+$1.47",
-      "changePercent": "+48.2%",
-      "lastUpdated": "2026-05-13T00:29:00Z",
-      "date": "2026-05-12"
+      "regularGasoline": 4.504,
+      "changeFromPreWar": "+$1.454",
+      "changePercent": "+47.7%",
+      "lastUpdated": "2026-05-13T12:42:00Z",
+      "date": "2026-05-13"
     }
   },
-  "context": "Day 74 5:29 PM PT: National average $4.50/gal per AAA (+47.5% from $3.05). Oil surging: Brent $104.97 (+31.5%), WTI $101.63 (+34.6%) — WTI back above $100. April CPI 3.8% (highest since May 2023), gas index +28.4% YoY. Consumer sentiment 48.2 (record low since 1952). Trump proposes gas tax suspension ($0.184/gal). Trump departs Beijing: 'finish the job.' Saudi covert Iran strikes revealed. Kuwait IRGC infiltration. Hormuz Day 71 blockade."
+  "context": "Day 75 5:42 AM PT: National average $4.504/gal per AAA (+47.7% from $3.05). Oil: Brent $107.05 (+34.1%), WTI $102.21 (+35.4%). Trump arrives Beijing for Xi summit — Iran war dominates agenda. Hezbollah launches largest fiber-optic drone swarm ever on Israel — IDF 'deadlocked.' Iran MP Rezaei threatens 90% weapons-grade uranium enrichment. Chinese VLCC Yuan Hua Hu makes rare Hormuz exit. Pentagon confirms $29B war cost — munitions 45-50% depleted. April CPI 3.8% (highest since May 2023), gas index +28.4% YoY. Consumer sentiment 48.2 (record low since 1952). Trump proposes gas tax suspension ($0.184/gal). Hormuz Day 72 blockade."
 }
