@@ -1,41 +1,5 @@
 [
   {
-    "id": "social-1219",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "BREAKING: Golani Brigade conducts cross-border raid across Litani River in southern Lebanon — first ground incursion since 2006 war. IDF says 'anti-terror operation' neutralized Hezbollah tunnel complex. Lebanese army confirms IDF withdrawal after 6-hour operation. 13 Lebanese killed in associated airstrikes on Kfar Dounine.",
-    "timestamp": "2026-05-12T18:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel and Al Jazeera Day 74 liveblog confirmed Golani operation. Lebanese NNA and UNIFIL confirmed cross-border movement.",
-    "keywords": [
-      "golani",
-      "litani",
-      "lebanon",
-      "ground-incursion",
-      "idf",
-      "kfar-dounine"
-    ]
-  },
-  {
-    "id": "social-1220",
-    "handle": "@CriticalThreats",
-    "displayName": "Critical Threats Project",
-    "text": "ASSESSMENT: Kuwait intercepted IRGC Quds Force infiltration attempt on Bubiyan Island naval station. 4 operatives captured with explosives and reconnaissance equipment. Kuwait summoned Iran ambassador, recalled its own from Tehran. First direct Iran-Kuwait military incident — expands conflict geography significantly.",
-    "timestamp": "2026-05-12T19:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Kuwait News Agency (KUNA) official statement confirmed. Al Arabiya and Reuters reported ambassador recall.",
-    "keywords": [
-      "kuwait",
-      "irgc",
-      "bubiyan",
-      "infiltration",
-      "quds-force",
-      "ambassador"
-    ]
-  },
-  {
     "id": "social-1221",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
@@ -126,6 +90,122 @@
       "lebanon",
       "casualties",
       "fiber-optic"
+    ]
+  },
+  {
+    "id": "social-1226",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINTdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "SENATE: War powers resolution fails 50-49 — closest vote yet. Murkowski (R-AK), Collins (R-ME), Paul (R-KY) break with GOP. Senate has now rejected 7 attempts since March 2. Trump admin argues 60-day WPR clock expired under the ceasefire. Rubio calls WPR '100% unconstitutional.'",
+    "timestamp": "2026-05-13T18:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "TIME, CBS News, The Hill, Newsweek, Fox News confirmed vote tally and defectors. Rubio quote confirmed by The Hill.",
+    "keywords": [
+      "war-powers",
+      "senate",
+      "murkowski",
+      "collins",
+      "paul",
+      "rubio",
+      "constitutional"
+    ]
+  },
+  {
+    "id": "social-1227",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "DIPLOMACY: Netanyahu's PM Office reveals secret March 26 visit to UAE — met MBZ in Al-Ain for several hours. Israeli Iron Dome batteries secretly deployed to UAE during war with IRGC. Haaretz and Times of Israel confirm 'historic breakthrough.' First Israeli PM visit to UAE since Abraham Accords. UAE-Mossad intelligence cooperation confirmed by JPost.",
+    "timestamp": "2026-05-13T09:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg, Washington Post, CBS News, Times of Israel, Haaretz all confirmed PM Office statement and March 26 date. Iron Dome deployment confirmed by US Ambassador Huckabee.",
+    "keywords": [
+      "netanyahu",
+      "uae",
+      "mbz",
+      "iron-dome",
+      "mossad",
+      "secret-visit",
+      "normalization"
+    ]
+  },
+  {
+    "id": "social-1228",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "BRICS/DIPLOMACY: Iran FM Araghchi arrives New Delhi for BRICS FMs meeting — war overshadows entire agenda. Iran demands ceasefire + Hormuz reopening as prerequisites to nuclear talks. India struggling to produce joint statement given UAE-Iran tensions within bloc. 80%+ of Iranian crude exports go to China — Beijing's leverage in Trump-Xi summit is enormous.",
+    "timestamp": "2026-05-13T10:30:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PressTV, BusinessWorld, CNBC Africa confirmed Araghchi's Delhi arrival. PressTV confirmed BRICS speech. Al Jazeera analysis confirmed China's 80%+ Iranian oil share.",
+    "keywords": [
+      "araghchi",
+      "brics",
+      "india",
+      "new-delhi",
+      "nuclear",
+      "hormuz",
+      "china-iran-oil"
+    ]
+  },
+  {
+    "id": "social-1229",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "BEIJING SUMMIT: Trump lands in China for 2-day Xi summit — mixed signals on Iran. Said 'long talk' on Iran, then minutes later 'I wouldn't say Iran is one of them, we have it under control.' CFR analysis: China holds upper hand given Iranian oil leverage. Analysts say Taiwan and trade concessions likely required from US in exchange for Xi pressuring Tehran.",
+    "timestamp": "2026-05-13T14:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera and NPR confirmed Trump's contradictory departure remarks. CFR and Soufan Center analysis confirmed. CNBC confirmed world leaders watching summit from Singapore to Brussels.",
+    "keywords": [
+      "trump",
+      "xi",
+      "beijing",
+      "summit",
+      "iran",
+      "taiwan",
+      "trade",
+      "hormuz",
+      "china"
+    ]
+  },
+  {
+    "id": "social-1230",
+    "handle": "@IntelDoge",
+    "displayName": "Intel Doge",
+    "sourceCategory": "osint_analyst",
+    "text": "IRAN READINESS: Brigadier-General Akrami Nia says Iran military at 'highest level of readiness,' vows 'there is no room for retreat.' Parliament threatens 90% uranium enrichment if attacked again. IRGC executed Israeli spy, sentenced to death by Supreme Court. Hardliners blocking Pezeshkian government from accepting any deal — Iran International reports internal power struggle over negotiations.",
+    "timestamp": "2026-05-13T11:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera liveblog confirmed Akrami Nia quote. Haaretz and Times of Israel confirmed enrichment threat. Iran International confirmed internal power struggle.",
+    "keywords": [
+      "iran",
+      "readiness",
+      "nuclear",
+      "enrichment",
+      "hardliners",
+      "pezeshkian",
+      "irgc"
+    ]
+  },
+  {
+    "id": "social-1231",
+    "handle": "@TheIntelLab",
+    "displayName": "The Intel Lab",
+    "sourceCategory": "osint_analyst",
+    "text": "CONGRESSIONAL PRESSURE: Hegseth faces bipartisan grilling at House Armed Services Committee — WaPo reports 'intense frustration' from both parties over $29B war cost and lack of exit strategy. FDD overnight brief notes Soufan Center analysis: Trump-Xi summit faces high-profile issues including Iran, Taiwan, trade, AI oversight, and strategic minerals. Senate war powers vote 50-49 — unprecedented GOP defection.",
+    "timestamp": "2026-05-13T17:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Washington Post and PBS confirmed Hegseth grilling. Soufan Center intel brief confirmed. TIME and CBS News confirmed final vote count.",
+    "keywords": [
+      "hegseth",
+      "congress",
+      "war-costs",
+      "29-billion",
+      "senate",
+      "trump-xi",
+      "soufan"
     ]
   }
 ]
