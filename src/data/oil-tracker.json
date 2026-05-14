@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-14T02:11:00Z",
+    "lastUpdated": "2026-05-14T06:09:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 75
+    "conflictDay": 76
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-13",
-      "label": "Day 75 7:11 PM PT \u2014 Brent $108.07/bbl (+35.4% from pre-war $79.80). WTI $101.59/bbl (+34.6% from $75.50). Jiyeh highway drone strikes kill 8 incl 2 children. Hezbollah largest-ever drone swarm. Mohammed Sinwar killed in Gaza tunnel. Wright: Iran 'frighteningly close' to nukes. PPI 6.0% YoY. IEA global supply deficit 1.78M bpd. S&P 7,444 record. Gas $4.511/gal. Hormuz Day 72.",
+      "date": "2026-05-14",
+      "label": "Day 76 11:09 PM PDT May 13 \u2014 Brent $105.87/bbl (+32.7% from pre-war $79.80). WTI $101.54/bbl (+34.5% from $75.50). Israel strikes Lebanon killing 22 incl 8 children (40+ sites). Trump-Xi Beijing summit \u2014 Iran war on agenda. Ceasefire '1% chance' per Trump. Treasury sanctions 12 entities for IRGC oil network. Iran retains 70% missile arsenal (US intel). Hormuz blockade Day 73. Gas $4.511/gal.",
       "brent": {
-        "price": 108.07,
-        "change": "+35.4%",
-        "changeDollars": "+$28.27"
+        "price": 105.87,
+        "change": "+32.7%",
+        "changeDollars": "+$26.07"
       },
       "wti": {
-        "price": 101.59,
-        "change": "+34.6%",
-        "changeDollars": "+$26.09"
+        "price": 101.54,
+        "change": "+34.5%",
+        "changeDollars": "+$26.04"
       },
-      "changePercent": 35.4,
-      "lastUpdated": "2026-05-13"
+      "changePercent": 32.7,
+      "lastUpdated": "2026-05-14"
     },
     "priceHistory": [
       {
@@ -639,8 +639,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-14T02:11:00Z",
-    "note": "Day 75 7:11 PM PT: Brent $108.07 (+35.4%), WTI $101.59 (+34.6%). AAA gas $4.511/gal (+47.9% vs $3.05 pre-war). PPI 6.0% YoY. IEA global supply deficit 1.78M bpd. S&P 7,444 record. GasBuddy warns $5/gal by Memorial Day. Hormuz Day 72 blockade.",
+    "lastUpdated": "2026-05-14T06:09:00Z",
+    "note": "Day 76 11:09 PM PDT May 13: Brent $105.87 (+32.7%), WTI $101.54 (+34.5%). AAA gas $4.511/gal (+47.9% vs $3.05 pre-war). Treasury sanctions 12 entities for IRGC oil network/Chinese refinery. Iran retains 70% missile arsenal — Hormuz Day 73. Trump-Xi summit: Iran war on agenda. Saudi Aramco CEO: 1B barrels removed from global supply since blockade.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -1353,6 +1353,13 @@
       "brent": 108.07,
       "wti": 101.59,
       "label": "Day 75 7:11 PM PT \u2014 Brent $108.07 (+35.4%), WTI $101.59 (+34.6%). Jiyeh highway drone strikes kill 8 incl 2 children \u2014 first Beirut-area strikes since ceasefire. Hezbollah largest-ever drone swarm (fiber-optic, unjammable). Mohammed Sinwar killed in Gaza tunnel. Wright: Iran 'frighteningly close' to nukes. PPI 6.0% YoY. IEA global deficit 1.78M bpd. S&P 7,444 record. Knesset dissolution filed. Gas $4.511. Hormuz Day 72.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-14",
+      "brent": 105.87,
+      "wti": 101.54,
+      "label": "Day 76 11:09 PM PDT May 13 \u2014 Brent $105.87 (+32.7%), WTI $101.54 (+34.5%). Israel strikes 40+ Lebanon locations \u2014 22 killed incl 8 children. Trump-Xi Beijing summit \u2014 Iran/Hormuz on agenda; ceasefire '1% chance' per Trump. Treasury sanctions 12 entities for IRGC oil network. Iran retains 70% missile arsenal (US intel). Araghchi at BRICS Delhi. Bipartisan Congress zero-enrichment letter. Gas $4.511. Hormuz Day 73.",
       "isEvent": true
     }
   ]

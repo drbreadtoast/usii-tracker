@@ -50666,5 +50666,233 @@
       "injured": 0
     },
     "tags": ["knesset", "elections", "israel", "coalition", "politics", "day75"]
+  },
+  {
+    "id": "evt-new-1476",
+    "title": "Israel intensifies Lebanon strikes — 22 killed including 8 children across 40+ locations",
+    "description": "Israel launched widespread airstrikes across Lebanon on May 14, hitting approximately 40 locations in south and east Lebanon. Lebanon's health ministry confirmed 22 dead including 8 children, with the heaviest toll in strikes on three south Lebanese villages where 10 people (6 children) were killed. Additional strikes hit vehicles near Sidon and Tyre. The IDF issued forced evacuation orders for six southern Lebanese villages ahead of Washington peace talks.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.20,
+    "location": "South Lebanon (multiple locations)",
+    "timestamp": "2026-05-14T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Free Malaysia Today — Israel hammers Lebanon with strikes killing 22",
+        "url": "https://www.freemalaysiatoday.com/category/world/2026/05/14/israel-hammers-lebanon-with-strikes-killing-22"
+      },
+      {
+        "name": "Al Jazeera — 8 killed in Israeli drone strikes south of Beirut",
+        "url": "https://www.aljazeera.com/news/2026/5/13/at-least-eight-killed-in-israeli-drone-strikes-on-highway-south-of-beirut"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 22,
+      "injured": 8
+    },
+    "tags": ["lebanon", "strikes", "civilians", "children", "day76", "ceasefire-violation"]
+  },
+  {
+    "id": "evt-new-1477",
+    "title": "Houthi drone intercepted near Eilat — first attack on Israeli city since Iran ceasefire",
+    "description": "The IDF intercepted a drone fired from the east (suspected Yemen origin) near the southern Israeli city of Eilat, marking the first Houthi drone attack on the city since the Iran ceasefire took effect in April. The IDF confirmed the intercept and was still probing the exact origin, consistent with a Houthi launch from Yemen.",
+    "type": "strike",
+    "lat": 29.56,
+    "lng": 34.95,
+    "location": "Eilat, Israel",
+    "timestamp": "2026-05-12T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF intercepts apparent Houthi drone near Eilat",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-intercepts-apparent-houthi-drone-near-eilat-in-first-attack-on-city-since-iran-ceasefire/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["houthis", "eilat", "drone", "intercept", "ceasefire", "day74"]
+  },
+  {
+    "id": "evt-new-1478",
+    "title": "Netanyahu reveals secret UAE visit during Iran war — 'historic breakthrough in relations'",
+    "description": "Israel's Prime Minister's Office disclosed that Netanyahu made a secret visit to UAE President Sheikh Mohammed bin Zayed Al Nahyan on March 26, near the Oman border, resulting in what Israel called a 'historic breakthrough in relations.' Israel also reportedly sent Iron Dome batteries and personnel to the UAE. The UAE Foreign Ministry issued a flat denial calling all claims 'baseless.'",
+    "type": "diplomatic",
+    "lat": 23.42,
+    "lng": 53.85,
+    "location": "UAE (undisclosed location near Oman border)",
+    "timestamp": "2026-05-13T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "NBC News — Netanyahu's secret visit to UAE during Iran war",
+        "url": "https://www.nbcnews.com/world/middle-east/netanyahus-secret-visit-uae-iran-war-leads-breakthrough-office-says-rcna345026"
+      },
+      {
+        "name": "Times of Israel — Netanyahu reveals he secretly visited UAE",
+        "url": "https://www.timesofisrael.com/netanyahu-reveals-he-secretly-visited-uae-during-iran-war-hails-historic-breakthrough/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["netanyahu", "uae", "diplomacy", "iron-dome", "secret-visit", "day75"]
+  },
+  {
+    "id": "evt-new-1479",
+    "title": "Trump-Xi Beijing summit — Iran war and Hormuz blockade high on agenda",
+    "description": "President Trump arrived in Beijing on May 13 and held talks with President Xi Jinping on May 14. Trump is seeking Chinese pressure on Iran to reopen the Strait of Hormuz and accept a peace deal. Xi warned Trump about Taiwan, saying mishandling it would cause 'clashes and even conflicts.' Analysts note China will likely demand US concessions on Taiwan in exchange for any Iran mediation.",
+    "type": "diplomatic",
+    "lat": 39.91,
+    "lng": 116.39,
+    "location": "Beijing, China",
+    "timestamp": "2026-05-14T04:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Al Jazeera — Trump-Xi summit live",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/14/trump-xi-summit-live-us-china-leaders-to-hold-talks-on-trade-tech-iran"
+      },
+      {
+        "name": "CNBC — Trump-Xi Beijing summit",
+        "url": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "xi", "china", "beijing", "summit", "diplomacy", "day76"]
+  },
+  {
+    "id": "evt-new-1480",
+    "title": "Israel-Lebanon peace talks open at US State Department — third round of direct negotiations",
+    "description": "The US State Department hosted the third round of direct Israel-Lebanon negotiations on May 14–15. Lebanon's delegation sought 'consolidation of the ceasefire' and Israeli withdrawal from its territory; Israel insisted on Hezbollah disarmament. The talks opened the same day Israel killed 22 people in Lebanon, creating severe diplomatic tension. Over 400 people have been killed in Israeli strikes since the April 17 ceasefire took effect.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.04,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-14T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "RTE News — Lebanon-Israel Hezbollah talks",
+        "url": "https://www.rte.ie/news/middle-east/2026/0514/1573261-lebanon-israel-hezbollah/"
+      },
+      {
+        "name": "Arab News — Israel-Lebanon talks at State Dept",
+        "url": "https://www.arabnews.com/node/2642714/middle-east"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["lebanon", "diplomacy", "talks", "state-dept", "ceasefire", "day76"]
+  },
+  {
+    "id": "evt-new-1481",
+    "title": "US intelligence: Iran retains 70% of pre-war missile arsenal — 30 of 33 Hormuz sites operational",
+    "description": "US intelligence assessments disclosed on May 13 indicate Iran retained roughly 70% of its pre-war missile stockpile despite the US-Israeli campaign. Iran has restored operational access to 30 of its 33 missile sites along the Strait of Hormuz, with approximately 90% of its underground missile storage and launch pads again operational. The ISW assessed Iran is likely preparing for a resumption of hostilities.",
+    "type": "movement",
+    "lat": 32.43,
+    "lng": 53.69,
+    "location": "Iran (nationwide missile infrastructure)",
+    "timestamp": "2026-05-13T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Euronews — Iran preparing for renewed war as military assets remain largely intact",
+        "url": "https://www.euronews.com/2026/05/13/iran-preparing-for-renewed-war-as-military-assets-remain-largely-intact-reports-warn"
+      },
+      {
+        "name": "Jerusalem Post — Iran retains 70% of missile arsenal",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-895973"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["iran", "missiles", "hormuz", "intelligence", "isw", "day75"]
+  },
+  {
+    "id": "evt-new-1482",
+    "title": "Congress bipartisan letter: zero enrichment required in any Iran nuclear deal",
+    "description": "A bipartisan group of 52 US senators and 177 House members sent a letter to President Trump demanding that any nuclear deal with Iran must prohibit all uranium enrichment and close all pathways to nuclear weapons. The letter was led by Reps. Gottheimer and Bacon, stating the scope of Iran's nuclear program makes verification of any enrichment-permitting deal impossible.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.00,
+    "location": "Washington, DC",
+    "timestamp": "2026-05-14T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Gottheimer House — Bipartisan letter demanding zero enrichment for Iran",
+        "url": "https://gottheimer.house.gov/posts/release-gottheimer-bacon-lead-bipartisan-letter-demanding-zero-nuclear-enrichment-for-iran-following-israeli-strikes"
+      },
+      {
+        "name": "JNS — No deal with Iran allowing enrichment",
+        "url": "https://www.jns.org/no-deal-with-iran-allowing-regime-to-enrich-uranium-house-group-tells-trump/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["congress", "nuclear", "iran", "deal", "enrichment", "day76"]
+  },
+  {
+    "id": "evt-new-1483",
+    "title": "BRICS foreign ministers meet in New Delhi — Iran, UAE, Saudi Arabia present alongside India",
+    "description": "Iran's Foreign Minister Araghchi arrived in Delhi for the BRICS foreign ministers' meeting on May 14–15, welcomed by Indian FM Jaishankar. Iran is rallying BRICS support against US demands. The meeting also includes Saudi Arabia and Egypt FMs, making it a uniquely tense gathering as both Iran and UAE — which are BRICS members — attend alongside mediating powers.",
+    "type": "diplomatic",
+    "lat": 28.61,
+    "lng": 77.20,
+    "location": "New Delhi, India",
+    "timestamp": "2026-05-14T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war: Why BRICS meeting in India matters",
+        "url": "https://www.aljazeera.com/news/2026/5/14/iran-war-why-the-brics-foreign-ministers-meeting-in-india-matters"
+      },
+      {
+        "name": "Tribune India — Iran FM Araghchi arrives in New Delhi for BRICS",
+        "url": "https://www.tribuneindia.com/news/brics-cooperation-talks/iran-fm-abbas-araghchi-arrives-in-new-delhi-for-brics-foreign-ministers-meeting"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["brics", "araghchi", "india", "diplomacy", "iran", "day76"]
   }
 ]
