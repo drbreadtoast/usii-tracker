@@ -50811,5 +50811,121 @@
       "injured": 0
     },
     "tags": ["lebanon", "israel", "peace-talks", "washington", "diplomacy", "ceasefire", "day76"]
+  },
+  {
+    "id": "evt-new-1481",
+    "title": "Indian cargo ship 'Haji Ali' sunk off Oman coast — 14 crew rescued",
+    "description": "The Indian-flagged cargo ship 'Haji Ali' was attacked while en route from Somalia to Sharjah, UAE, off the coast of Oman. The attack caused a fire that sank the vessel. All 14 Indian crew members were rescued by Oman's coast guard. No party claimed responsibility. The attack occurred during the ongoing Strait of Hormuz crisis, adding to a pattern of shipping incidents.",
+    "type": "naval",
+    "lat": 22.5,
+    "lng": 59.5,
+    "location": "Off Oman coast",
+    "timestamp": "2026-05-13T22:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Washington Times — Tanker seized, cargo ship sunk off Oman amid Hormuz tension",
+        "url": "https://www.washingtontimes.com/news/2026/may/14/tanker-seized-uae-dock-cargo-ship-sunk-oman-coast-amid-hormuz-tension/"
+      },
+      {
+        "name": "Haaretz — Tensions flare near Strait of Hormuz",
+        "url": "https://www.haaretz.com/middle-east-news/iran/2026-05-14/ty-article/tensions-flare-near-strait-of-hormuz-as-ship-seized-another-stuck/0000019e-26dd-d267-a3be-e6dde9010000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["naval", "ship-attack", "oman", "india", "hormuz", "shipping", "day75"]
+  },
+  {
+    "id": "evt-new-1482",
+    "title": "Houthi drone intercepted near Eilat — first attack since Iran ceasefire",
+    "description": "The IDF intercepted a drone suspected to have been launched from Yemen near the southern Israeli city of Eilat. This was the first Houthi attack on Eilat since the April 8 US-Iran ceasefire. The drone was engaged before reaching populated areas. No sirens sounded per IDF protocol. Houthis continue to threaten Israeli territory despite the ceasefire with Iran.",
+    "type": "strike",
+    "lat": 29.5581,
+    "lng": 34.9482,
+    "location": "Eilat, Israel",
+    "timestamp": "2026-05-12T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF intercepts apparent Houthi drone near Eilat",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-intercepts-apparent-houthi-drone-near-eilat-in-first-attack-on-city-since-iran-ceasefire/"
+      },
+      {
+        "name": "JNS — IDF downs Houthi missile",
+        "url": "https://www.jns.org/idf-downs-houthi-missile-sending-millions-running-to-shelter/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["houthis", "drone", "eilat", "israel", "interception", "ceasefire-violation", "day73"]
+  },
+  {
+    "id": "evt-new-1483",
+    "title": "US CENTCOM destroys 4 Houthi drones in Yemen",
+    "description": "US Central Command forces destroyed four uncrewed aerial systems (UAS) in Houthi-controlled territory in Yemen as part of ongoing operations to counter drone threats to regional shipping and US forces. CENTCOM confirmed the strikes as part of Operation Prosperity Guardian enforcement in the Red Sea and Gulf of Aden.",
+    "type": "strike",
+    "lat": 15.5527,
+    "lng": 48.5164,
+    "location": "Yemen (Houthi-controlled territory)",
+    "timestamp": "2026-05-14T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Times of Israel — CENTCOM destroys drones in Houthi-controlled area",
+        "url": "https://www.timesofisrael.com/liveblog_entry/us-centcom-destroys-three-drones-in-houthi-controlled-area-of-yemen/"
+      },
+      {
+        "name": "Iran International — CENTCOM Yemen operations",
+        "url": "https://www.iranintl.com/en/202405034661"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["us", "centcom", "houthis", "yemen", "drone", "airstrike", "day76"]
+  },
+  {
+    "id": "evt-new-1484",
+    "title": "Netanyahu CBS 60 Minutes: Iran regime change 'possible, not guaranteed'; nuclear facilities must be dismantled",
+    "description": "In a CBS News 60 Minutes interview aired May 14, Israeli Prime Minister Netanyahu said Iran's war is 'not over' until highly enriched uranium is removed. He stated nuclear facilities need to be 'dismantled' and that 'there's work to be done.' When asked about the possibility of Iranian regime change, Netanyahu said it was 'possible, not guaranteed.' The interview aired as Israel-Lebanon Round 3 peace talks opened in Washington DC.",
+    "type": "diplomatic",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "location": "Tel Aviv, Israel",
+    "timestamp": "2026-05-14T17:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "CBS News — Netanyahu 60 Minutes transcript",
+        "url": "https://www.cbsnews.com/news/netanyahu-us-israel-iran-60-minutes-transcript/"
+      },
+      {
+        "name": "Iran International — Netanyahu says Iran regime change possible",
+        "url": "https://www.iranintl.com/en/202605119201"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["netanyahu", "iran", "nuclear", "regime-change", "60-minutes", "cbs", "diplomacy", "day76"]
   }
 ]
