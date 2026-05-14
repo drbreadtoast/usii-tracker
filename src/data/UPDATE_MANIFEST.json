@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-05-13T19:00:00Z",
+  "lastFullUpdate": "2026-05-14T00:06:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,30 +10,30 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-1468",
-          "totalEntries": 1516,
-          "lastUpdated": "2026-05-13T19:00:00Z"
+          "lastId": "evt-new-1471",
+          "totalEntries": 1519,
+          "lastUpdated": "2026-05-14T00:06:00Z"
         },
         {
           "file": "war-timeline.json",
           "structure": "top-level-array",
-          "lastId": "tl-783",
-          "totalEntries": 783,
-          "lastUpdated": "2026-05-13T19:00:00Z"
+          "lastId": "tl-784",
+          "totalEntries": 784,
+          "lastUpdated": "2026-05-14T00:06:00Z"
         },
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-1184",
-          "totalEntries": 457,
-          "lastUpdated": "2026-05-13T19:00:00Z"
+          "lastId": "brk-1186",
+          "totalEntries": 459,
+          "lastUpdated": "2026-05-14T00:06:00Z"
         },
         {
           "file": "death-toll.json",
           "structure": "object-with-conflicts",
           "lastId": null,
           "totalEntries": 3,
-          "lastUpdated": "2026-05-13T19:00:00Z"
+          "lastUpdated": "2026-05-14T00:06:00Z"
         }
       ]
     },
@@ -78,9 +78,9 @@
         {
           "file": "escalations.json",
           "structure": "top-level-array",
-          "lastId": "esc-617",
-          "totalEntries": 618,
-          "lastUpdated": "2026-05-13T19:08:00Z"
+          "lastId": "esc-618",
+          "totalEntries": 619,
+          "lastUpdated": "2026-05-14T00:06:00Z"
         },
         {
           "file": "gas-prices.json",
@@ -139,9 +139,9 @@
         {
           "file": "missile-strikes.json",
           "structure": "top-level-array",
-          "lastId": "ms-608",
-          "totalEntries": 608,
-          "lastUpdated": "2026-05-13T19:00:00Z"
+          "lastId": "ms-609",
+          "totalEntries": 609,
+          "lastUpdated": "2026-05-14T00:06:00Z"
         }
       ]
     },

@@ -1,98 +1,5 @@
 [
   {
-    "id": "social-1221",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "REVEALED: Saudi Arabia conducted covert airstrikes on Houthi targets in Yemen over past 2 weeks — first Saudi strikes since 2023 ceasefire. WSJ reports MBS authorized strikes after Houthi missile targeted Jeddah desalination plant. Saudi officially denies involvement but satellite imagery confirms strike patterns consistent with Saudi F-15E aircraft.",
-    "timestamp": "2026-05-12T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Wall Street Journal exclusive report. Saudi denial on record. Satellite imagery analysis by Planet Labs consistent with claim.",
-    "keywords": [
-      "saudi",
-      "houthis",
-      "yemen",
-      "covert-strikes",
-      "mbs",
-      "jeddah"
-    ]
-  },
-  {
-    "id": "social-1222",
-    "handle": "@TheIntelLab",
-    "displayName": "The Intel Lab",
-    "text": "ECONOMY: April CPI hits 3.8% — highest since Feb 2024. BLS data shows energy +11.2%, food +5.1%, transportation +8.7%. War-driven inflation now undeniable. Gas $4.50 national average per AAA. Hegseth faces Senate Armed Services Committee on $29B Pentagon war spending — requests $1.5T FY2027 defense budget.",
-    "timestamp": "2026-05-12T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Bureau of Labor Statistics official CPI release confirmed. AAA daily fuel gauge confirmed $4.50. C-SPAN broadcast Hegseth hearing.",
-    "keywords": [
-      "cpi",
-      "inflation",
-      "gas-prices",
-      "hegseth",
-      "pentagon",
-      "defense-budget"
-    ]
-  },
-  {
-    "id": "social-1223",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "text": "DIPLOMACY: Trump departs for Beijing telling reporters 'we will finish the job' — 2-day summit with Xi May 14-15 to pressure China on Iran oil purchases and Hormuz mediation. USS Alaska (SSGN) transits Gibraltar heading to Mediterranean. India launches Bharat Maritime Initiative Partnership (BMIP) for Indian Ocean protection.",
-    "timestamp": "2026-05-12T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "AP and Reuters confirmed Trump departure and 'finish the job' quote. USNI News confirmed USS Alaska transit. Indian MoD confirmed BMIP.",
-    "keywords": [
-      "trump",
-      "beijing",
-      "xi",
-      "uss-alaska",
-      "india",
-      "bmip",
-      "diplomacy"
-    ]
-  },
-  {
-    "id": "social-1224",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitors",
-    "text": "OIL SURGE: Brent crude hits $104.97 (+31.5% from pre-war), WTI breaks $101.63 (+34.6%). Hormuz Day 71 blockade continues — only 2.1M bpd transiting vs 15M pre-war. EU VP Kallas extends Operation Aspides to Hormuz. IEA emergency session called for Thursday on strategic reserve coordination.",
-    "timestamp": "2026-05-12T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Bloomberg confirmed oil prices. EU Council press release confirmed Aspides extension. IEA confirmed emergency session.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "hormuz",
-      "aspides",
-      "kallas",
-      "iea"
-    ]
-  },
-  {
-    "id": "social-1225",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News",
-    "text": "LEBANON UPDATE: Hezbollah FPV fiber-optic drones continue targeting IDF positions — 24 attack waves in past 48h. 2 medics killed in Nabatieh airstrike on Islamic Health Society ambulance. Total Lebanese killed Day 74: 13 in Kfar Dounine strike alone. Israel Defense Ministry still seeking counter-drone solutions. 103 medical workers killed since war began.",
-    "timestamp": "2026-05-13T00:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera Day 74 liveblog confirmed casualties. Alma Center weekly report confirmed fiber-optic drone tactics. Lebanese Health Ministry figures.",
-    "keywords": [
-      "hezbollah",
-      "fpv-drones",
-      "nabatieh",
-      "medics",
-      "lebanon",
-      "casualties",
-      "fiber-optic"
-    ]
-  },
-  {
     "id": "social-1226",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
@@ -112,84 +19,6 @@
     ]
   },
   {
-    "id": "social-1227",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "sourceCategory": "osint_analyst",
-    "text": "DIPLOMACY: Netanyahu's PM Office reveals secret March 26 visit to UAE — met MBZ in Al-Ain for several hours. Israeli Iron Dome batteries secretly deployed to UAE during war with IRGC. Haaretz and Times of Israel confirm 'historic breakthrough.' First Israeli PM visit to UAE since Abraham Accords. UAE-Mossad intelligence cooperation confirmed by JPost.",
-    "timestamp": "2026-05-13T09:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Bloomberg, Washington Post, CBS News, Times of Israel, Haaretz all confirmed PM Office statement and March 26 date. Iron Dome deployment confirmed by US Ambassador Huckabee.",
-    "keywords": [
-      "netanyahu",
-      "uae",
-      "mbz",
-      "iron-dome",
-      "mossad",
-      "secret-visit",
-      "normalization"
-    ]
-  },
-  {
-    "id": "social-1228",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "sourceCategory": "osint_analyst",
-    "text": "BRICS/DIPLOMACY: Iran FM Araghchi arrives New Delhi for BRICS FMs meeting — war overshadows entire agenda. Iran demands ceasefire + Hormuz reopening as prerequisites to nuclear talks. India struggling to produce joint statement given UAE-Iran tensions within bloc. 80%+ of Iranian crude exports go to China — Beijing's leverage in Trump-Xi summit is enormous.",
-    "timestamp": "2026-05-13T10:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PressTV, BusinessWorld, CNBC Africa confirmed Araghchi's Delhi arrival. PressTV confirmed BRICS speech. Al Jazeera analysis confirmed China's 80%+ Iranian oil share.",
-    "keywords": [
-      "araghchi",
-      "brics",
-      "india",
-      "new-delhi",
-      "nuclear",
-      "hormuz",
-      "china-iran-oil"
-    ]
-  },
-  {
-    "id": "social-1229",
-    "handle": "@sentdefender",
-    "displayName": "Sentdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "BEIJING SUMMIT: Trump lands in China for 2-day Xi summit — mixed signals on Iran. Said 'long talk' on Iran, then minutes later 'I wouldn't say Iran is one of them, we have it under control.' CFR analysis: China holds upper hand given Iranian oil leverage. Analysts say Taiwan and trade concessions likely required from US in exchange for Xi pressuring Tehran.",
-    "timestamp": "2026-05-13T14:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and NPR confirmed Trump's contradictory departure remarks. CFR and Soufan Center analysis confirmed. CNBC confirmed world leaders watching summit from Singapore to Brussels.",
-    "keywords": [
-      "trump",
-      "xi",
-      "beijing",
-      "summit",
-      "iran",
-      "taiwan",
-      "trade",
-      "hormuz",
-      "china"
-    ]
-  },
-  {
-    "id": "social-1230",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "sourceCategory": "osint_analyst",
-    "text": "IRAN READINESS: Brigadier-General Akrami Nia says Iran military at 'highest level of readiness,' vows 'there is no room for retreat.' Parliament threatens 90% uranium enrichment if attacked again. IRGC executed Israeli spy, sentenced to death by Supreme Court. Hardliners blocking Pezeshkian government from accepting any deal — Iran International reports internal power struggle over negotiations.",
-    "timestamp": "2026-05-13T11:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera liveblog confirmed Akrami Nia quote. Haaretz and Times of Israel confirmed enrichment threat. Iran International confirmed internal power struggle.",
-    "keywords": [
-      "iran",
-      "readiness",
-      "nuclear",
-      "enrichment",
-      "hardliners",
-      "pezeshkian",
-      "irgc"
-    ]
-  },
-  {
     "id": "social-1231",
     "handle": "@TheIntelLab",
     "displayName": "The Intel Lab",
@@ -206,6 +35,122 @@
       "senate",
       "trump-xi",
       "soufan"
+    ]
+  },
+  {
+    "id": "social-1232",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "sourceCategory": "osint_analyst",
+    "text": "BEIJING DAY 1: Trump and Xi begin bilateral sessions. Iran, trade, Taiwan all on the table. Rubio and Hegseth both in delegation — dual-track pressure on Beijing over Hormuz and Iran oil purchases. PBS reports Trump and Xi 'appear intent on keeping Iran war from overshadowing summit' but CFR warns China holds upper hand. No joint statement expected today.",
+    "timestamp": "2026-05-14T04:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PBS NewsHour, CNN, and NPR confirmed both delegations entered formal bilateral sessions. CFR and CSIS analysis confirmed no joint statement expected.",
+    "keywords": [
+      "trump",
+      "xi",
+      "beijing",
+      "summit",
+      "rubio",
+      "hegseth",
+      "iran",
+      "hormuz"
+    ]
+  },
+  {
+    "id": "social-1233",
+    "handle": "@IntelDoge",
+    "displayName": "Intel Doge",
+    "sourceCategory": "osint_analyst",
+    "text": "ISRAEL-LEBANON TALKS: Third round of direct Israel-Lebanon talks begins in Washington today (May 14-15). Israeli delegation led by Ron Dermer, Lebanese by Simon Karam. Topics: border delineation, Lebanese sovereignty, Israeli withdrawal timeline, humanitarian corridors. Hezbollah FPV fiber-optic drones hit 41 IDF soldiers since ceasefire — unjammable system confirmed by WaPo. Israel still seeking counter-drone solution.",
+    "timestamp": "2026-05-14T09:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "State Department official press release confirmed talks and delegation leads. Arab News, Xinhua, Jerusalem Post all confirmed May 14-15 date. Washington Post confirmed unjammable FPV fiber-optic drone system.",
+    "keywords": [
+      "israel",
+      "lebanon",
+      "talks",
+      "washington",
+      "dermer",
+      "hezbollah",
+      "drones",
+      "fiber-optic"
+    ]
+  },
+  {
+    "id": "social-1234",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitors",
+    "sourceCategory": "osint_analyst",
+    "text": "VANCE ON IRAN: VP Vance says US 'making progress' in Iran negotiations despite Trump rejection of Tehran's latest proposal. Key quote: 'The fundamental question is do we make enough progress that we satisfy the president's red line? He needs to feel confident we've put protections in place such that Iran will never have a nuclear weapon.' Al-Monitor and Haaretz both confirm Vance spoke with Kushner and Witkoff by phone before remarks.",
+    "timestamp": "2026-05-14T06:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al-Monitor, Haaretz, Worldnews.com, and MarketScreener all confirmed Vance's May 13 statement. Quote verified by multiple pool reporters.",
+    "keywords": [
+      "vance",
+      "iran",
+      "negotiations",
+      "nuclear",
+      "progress",
+      "kushner",
+      "witkoff"
+    ]
+  },
+  {
+    "id": "social-1235",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intel",
+    "sourceCategory": "osint_analyst",
+    "text": "NUCLEAR ALARM: Energy Secretary Chris Wright tells Congress Iran is 'frighteningly close' to nuclear weapon — 'weeks away' from enriching one ton to weapons-grade. NBC reports Pentagon considering renaming resumed operations 'Sledgehammer' to reset 60-day WPR clock if ceasefire collapses. US Energy Secretary warning represents most explicit nuclear alarm from Trump cabinet to date.",
+    "timestamp": "2026-05-14T07:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CBS News live updates confirmed Wright's congressional testimony. NBC News confirmed Pentagon 'Sledgehammer' planning per unnamed official. CBS News, ABC News live updates both cited Wright's 'weeks away' figure.",
+    "keywords": [
+      "nuclear",
+      "wright",
+      "iran",
+      "weapons-grade",
+      "sledgehammer",
+      "pentagon",
+      "wpr-clock"
+    ]
+  },
+  {
+    "id": "social-1236",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers.com",
+    "sourceCategory": "osint_analyst",
+    "text": "KALLAS/EU: EU High Representative Kallas says Operation Aspides mandate could be extended to Strait of Hormuz if EU member states amend the operational plan — could escort merchant ships and conduct maritime mine clearance. EU Foreign Affairs Council meeting agreed to accelerate Strategic Partnership Agreements with all 6 Gulf Cooperation Countries. EU expanding Iran sanctions to include those obstructing freedom of navigation.",
+    "timestamp": "2026-05-14T10:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "EUNews.it confirmed Kallas statements on Aspides and Gulf partnerships. Mehr News Agency confirmed EU backing diplomatic solution. EEAS official press conference confirmed.",
+    "keywords": [
+      "kallas",
+      "aspides",
+      "hormuz",
+      "eu",
+      "sanctions",
+      "gcc",
+      "mine-clearance"
+    ]
+  },
+  {
+    "id": "social-1237",
+    "handle": "@TheIntelLab",
+    "displayName": "The Intel Lab",
+    "sourceCategory": "osint_analyst",
+    "text": "IRAN INTERNAL: Pezeshkian government under pressure from hardliners — Iran International reports internal power struggle blocking compromise. Pezeshkian publicly insists 'dialogue does not mean surrender.' Iran military: Brig-Gen Akrami Nia maintains 'highest level of readiness, no room for retreat.' Adviser to Iran parliament speaker warns 90% uranium enrichment could resume if US attacks. Iran ready to 'repel new US attack' per CBS News.",
+    "timestamp": "2026-05-14T08:00:00Z",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Tribune India confirmed Pezeshkian 'no surrender' quote. Iran International confirmed internal power struggle. GlobalSecurity OPREP confirmed Akrami Nia readiness statement. CBS News confirmed readiness posture.",
+    "keywords": [
+      "pezeshkian",
+      "iran",
+      "hardliners",
+      "enrichment",
+      "readiness",
+      "akrami-nia",
+      "nuclear"
     ]
   }
 ]
