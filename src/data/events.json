@@ -50666,5 +50666,150 @@
       "injured": 0
     },
     "tags": ["knesset", "elections", "israel", "coalition", "politics", "day75"]
+  },
+  {
+    "id": "evt-new-1476",
+    "title": "Hezbollah fiber-optic drone hits Rosh Hanikra parking lot — 3 civilians wounded",
+    "description": "A Hezbollah explosive fiber-optic drone struck a parking lot near Rosh Hanikra in northern Israel, wounding 3 civilians (2 seriously, 1 mildly). No sirens sounded before impact — consistent with fiber-optic-tethered drones that evade electronic jamming. The IDF called it 'a blatant violation of ceasefire understandings.' Strike occurred hours before Lebanon-Israel Round 3 peace talks opened in Washington.",
+    "type": "strike",
+    "lat": 33.0762,
+    "lng": 35.1054,
+    "location": "Rosh Hanikra, Northern Israel",
+    "timestamp": "2026-05-14T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Liveblog May 14, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-14-2026/"
+      },
+      {
+        "name": "JNS — Three civilians wounded as Hezbollah drone hits near Rosh Hanikra",
+        "url": "https://www.jns.org/news/israel-news/three-civilians-wounded-as-hezbollah-drone-hits-near-rosh-hanikra-in-the-galilee"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    },
+    "tags": ["hezbollah", "fiber-optic-drone", "rosh-hanikra", "northern-israel", "civilians", "ceasefire-violation", "day76"]
+  },
+  {
+    "id": "evt-new-1477",
+    "title": "Israeli airstrike targets car in Sidon — 1 killed, 1 wounded",
+    "description": "The Lebanese Ministry of Health confirmed one person killed and one wounded when an Israeli airstrike struck a vehicle in Sidon (Saida), southern Lebanon. The strike came the same day Israel and Lebanon were conducting Round 3 peace talks in Washington, underscoring continued military operations alongside active diplomacy.",
+    "type": "strike",
+    "lat": 33.5606,
+    "lng": 35.3713,
+    "location": "Sidon, Lebanon",
+    "timestamp": "2026-05-14T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Liveblog May 14, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-14-2026/"
+      },
+      {
+        "name": "Al Jazeera — Iran War Day 76",
+        "url": "https://www.aljazeera.com/news/2026/5/14/iran-war-day-76-vance-says-progress-made-in-talks-israel-pounds-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    },
+    "tags": ["israel", "airstrike", "sidon", "lebanon", "car-strike", "civilians", "day76"]
+  },
+  {
+    "id": "evt-new-1478",
+    "title": "Vessel seized off Fujairah — taken by unauthorized personnel, headed to Iranian waters",
+    "description": "UK Maritime Trade Operations (UKMTO) reported a vessel was 'taken by unauthorized personnel whilst at anchor' approximately 38 nautical miles northeast of Fujairah, UAE. The ship was subsequently observed heading toward Iranian territorial waters. No vessel or responsible party was identified. The seizure coincided with Trump's ongoing Beijing summit pressuring Xi on Iran.",
+    "type": "naval",
+    "lat": 25.68,
+    "lng": 56.85,
+    "location": "38nm NE of Fujairah, UAE",
+    "timestamp": "2026-05-14T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Euronews — Ship seized near UAE coast headed for Iranian waters",
+        "url": "https://www.euronews.com/2026/05/14/ship-seized-near-uae-coast-headed-for-iranian-waters-uk-maritime-agency-says"
+      },
+      {
+        "name": "Bloomberg — US Efforts to End Iran War Stumble as Ship Seized Near UAE",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/us-efforts-to-end-iran-war-stumble-as-ship-seized-near-uae"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["naval", "ship-seizure", "fujairah", "uae", "iran", "ukmto", "hormuz", "day76"]
+  },
+  {
+    "id": "evt-new-1479",
+    "title": "Trump-Xi Beijing summit — joint statement: Hormuz 'must remain open,' Iran cannot have nuclear weapon",
+    "description": "Trump and Xi Jinping met in Beijing and issued a joint position: the Strait of Hormuz 'must remain open' and Iran 'can never have a nuclear weapon.' Xi expressed opposition to 'militarization of the Strait.' Secretary Rubio said the US and China agree Hormuz must not be 'militarized.' Analysts noted limited concrete results beyond joint language. Trump separately agreed to purchase more American oil for China to reduce Strait dependence.",
+    "type": "diplomatic",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "location": "Beijing, China",
+    "timestamp": "2026-05-14T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Washington Times — Trump, Xi concur on need to reopen Strait of Hormuz",
+        "url": "https://www.washingtontimes.com/news/2026/may/14/trump-xi-concur-need-reopen-strait-hormuz-white-house-says/"
+      },
+      {
+        "name": "NBC News — Rubio: US-China agree Hormuz, Iran nuclear",
+        "url": "https://www.nbcnews.com/world/asia/rubio-trump-xi-china-us-agree-hormuz-iran-nuclear-rcna345079"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["trump", "xi", "beijing", "summit", "hormuz", "nuclear", "diplomacy", "china", "day76"]
+  },
+  {
+    "id": "evt-new-1480",
+    "title": "Lebanon-Israel Round 3 peace talks open in Washington DC",
+    "description": "Lebanon's Presidential Special Envoy Simon Karam and Israeli Deputy National Security Adviser Yossi Draznin met in Washington DC for the third round of direct US-facilitated talks. Lebanon demanded a full ceasefire and Israeli withdrawal; Israel pressed for Hezbollah disarmament. The Lebanon-Israel ceasefire is due to expire May 17. Talks are the highest-level direct Israel-Lebanon contact in decades.",
+    "type": "diplomatic",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "location": "Washington DC, USA",
+    "timestamp": "2026-05-14T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "NPR — Israel and Lebanon meet in DC again for peace talks",
+        "url": "https://www.npr.org/2026/05/14/nx-s1-5821274/israel-and-lebanon-meet-in-d-c-again-for-peace-talks"
+      },
+      {
+        "name": "France 24 — Lebanon, Israel to hold new talks in US as ceasefire nears end",
+        "url": "https://www.france24.com/en/live-news/20260514-lebanon-israel-to-hold-new-talks-in-us-as-ceasefire-nears-end"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["lebanon", "israel", "peace-talks", "washington", "diplomacy", "ceasefire", "day76"]
   }
 ]
