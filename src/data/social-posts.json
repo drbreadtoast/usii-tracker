@@ -1,211 +1,138 @@
 [
   {
-    "id": "social-1221",
+    "id": "social-1232",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
-    "text": "REVEALED: Saudi Arabia conducted covert airstrikes on Houthi targets in Yemen over past 2 weeks — first Saudi strikes since 2023 ceasefire. WSJ reports MBS authorized strikes after Houthi missile targeted Jeddah desalination plant. Saudi officially denies involvement but satellite imagery confirms strike patterns consistent with Saudi F-15E aircraft.",
-    "timestamp": "2026-05-12T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Wall Street Journal exclusive report. Saudi denial on record. Satellite imagery analysis by Planet Labs consistent with claim.",
-    "keywords": [
-      "saudi",
-      "houthis",
-      "yemen",
-      "covert-strikes",
-      "mbs",
-      "jeddah"
-    ]
-  },
-  {
-    "id": "social-1222",
-    "handle": "@TheIntelLab",
-    "displayName": "The Intel Lab",
-    "text": "ECONOMY: April CPI hits 3.8% — highest since Feb 2024. BLS data shows energy +11.2%, food +5.1%, transportation +8.7%. War-driven inflation now undeniable. Gas $4.50 national average per AAA. Hegseth faces Senate Armed Services Committee on $29B Pentagon war spending — requests $1.5T FY2027 defense budget.",
-    "timestamp": "2026-05-12T21:00:00Z",
+    "text": "BREAKING — LEBANON: Israeli drone strikes hit convoy on Jiyeh coastal highway south of Beirut, killing 8 including 2 children. First strikes in Beirut area since April 16 ceasefire. Lebanon ceasefire expires May 17 — 4 days away. Lebanese Health Ministry confirms 2,897 killed since Feb 28. Hezbollah vows 'proportional response.'",
+    "timestamp": "2026-05-14T00:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Bureau of Labor Statistics official CPI release confirmed. AAA daily fuel gauge confirmed $4.50. C-SPAN broadcast Hegseth hearing.",
+    "verificationNote": "Al Jazeera liveblog and Reuters confirmed Jiyeh highway strikes and casualty count. Lebanese Health Ministry official figures.",
     "keywords": [
-      "cpi",
-      "inflation",
-      "gas-prices",
-      "hegseth",
-      "pentagon",
-      "defense-budget"
-    ]
-  },
-  {
-    "id": "social-1223",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "text": "DIPLOMACY: Trump departs for Beijing telling reporters 'we will finish the job' — 2-day summit with Xi May 14-15 to pressure China on Iran oil purchases and Hormuz mediation. USS Alaska (SSGN) transits Gibraltar heading to Mediterranean. India launches Bharat Maritime Initiative Partnership (BMIP) for Indian Ocean protection.",
-    "timestamp": "2026-05-12T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "AP and Reuters confirmed Trump departure and 'finish the job' quote. USNI News confirmed USS Alaska transit. Indian MoD confirmed BMIP.",
-    "keywords": [
-      "trump",
-      "beijing",
-      "xi",
-      "uss-alaska",
-      "india",
-      "bmip",
-      "diplomacy"
-    ]
-  },
-  {
-    "id": "social-1224",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitors",
-    "text": "OIL SURGE: Brent crude hits $104.97 (+31.5% from pre-war), WTI breaks $101.63 (+34.6%). Hormuz Day 71 blockade continues — only 2.1M bpd transiting vs 15M pre-war. EU VP Kallas extends Operation Aspides to Hormuz. IEA emergency session called for Thursday on strategic reserve coordination.",
-    "timestamp": "2026-05-12T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNBC and Bloomberg confirmed oil prices. EU Council press release confirmed Aspides extension. IEA confirmed emergency session.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "hormuz",
-      "aspides",
-      "kallas",
-      "iea"
-    ]
-  },
-  {
-    "id": "social-1225",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News",
-    "text": "LEBANON UPDATE: Hezbollah FPV fiber-optic drones continue targeting IDF positions — 24 attack waves in past 48h. 2 medics killed in Nabatieh airstrike on Islamic Health Society ambulance. Total Lebanese killed Day 74: 13 in Kfar Dounine strike alone. Israel Defense Ministry still seeking counter-drone solutions. 103 medical workers killed since war began.",
-    "timestamp": "2026-05-13T00:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera Day 74 liveblog confirmed casualties. Alma Center weekly report confirmed fiber-optic drone tactics. Lebanese Health Ministry figures.",
-    "keywords": [
-      "hezbollah",
-      "fpv-drones",
-      "nabatieh",
-      "medics",
+      "jiyeh",
+      "beirut",
+      "drone-strikes",
+      "civilians",
+      "ceasefire",
       "lebanon",
-      "casualties",
-      "fiber-optic"
+      "casualties"
     ]
   },
   {
-    "id": "social-1226",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "SENATE: War powers resolution fails 50-49 — closest vote yet. Murkowski (R-AK), Collins (R-ME), Paul (R-KY) break with GOP. Senate has now rejected 7 attempts since March 2. Trump admin argues 60-day WPR clock expired under the ceasefire. Rubio calls WPR '100% unconstitutional.'",
-    "timestamp": "2026-05-13T18:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "TIME, CBS News, The Hill, Newsweek, Fox News confirmed vote tally and defectors. Rubio quote confirmed by The Hill.",
-    "keywords": [
-      "war-powers",
-      "senate",
-      "murkowski",
-      "collins",
-      "paul",
-      "rubio",
-      "constitutional"
-    ]
-  },
-  {
-    "id": "social-1227",
+    "id": "social-1233",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intel",
+    "text": "HEZBOLLAH: Largest-ever drone swarm launched against northern Israel — hundreds of fiber-optic FPV drones in coordinated waves. IDF confirms 2 soldiers wounded. Drones are unjammable due to fiber-optic guidance (no RF signal to intercept). IDF still has no counter-drone solution. Alma Center confirms new tactic represents 'paradigm shift' in asymmetric warfare.",
+    "timestamp": "2026-05-14T00:30:00Z",
     "sourceCategory": "osint_analyst",
-    "text": "DIPLOMACY: Netanyahu's PM Office reveals secret March 26 visit to UAE — met MBZ in Al-Ain for several hours. Israeli Iron Dome batteries secretly deployed to UAE during war with IRGC. Haaretz and Times of Israel confirm 'historic breakthrough.' First Israeli PM visit to UAE since Abraham Accords. UAE-Mossad intelligence cooperation confirmed by JPost.",
-    "timestamp": "2026-05-13T09:30:00Z",
     "verificationStatus": "confirmed",
-    "verificationNote": "Bloomberg, Washington Post, CBS News, Times of Israel, Haaretz all confirmed PM Office statement and March 26 date. Iron Dome deployment confirmed by US Ambassador Huckabee.",
+    "verificationNote": "Times of Israel, Jerusalem Post, and Alma Center weekly report confirmed drone swarm details. IDF spokesperson confirmed 2 wounded.",
     "keywords": [
-      "netanyahu",
-      "uae",
-      "mbz",
-      "iron-dome",
-      "mossad",
-      "secret-visit",
-      "normalization"
+      "hezbollah",
+      "drone-swarm",
+      "fiber-optic",
+      "northern-israel",
+      "asymmetric",
+      "idf",
+      "unjammable"
     ]
   },
   {
-    "id": "social-1228",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers.com",
-    "sourceCategory": "osint_analyst",
-    "text": "BRICS/DIPLOMACY: Iran FM Araghchi arrives New Delhi for BRICS FMs meeting — war overshadows entire agenda. Iran demands ceasefire + Hormuz reopening as prerequisites to nuclear talks. India struggling to produce joint statement given UAE-Iran tensions within bloc. 80%+ of Iranian crude exports go to China — Beijing's leverage in Trump-Xi summit is enormous.",
-    "timestamp": "2026-05-13T10:30:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PressTV, BusinessWorld, CNBC Africa confirmed Araghchi's Delhi arrival. PressTV confirmed BRICS speech. Al Jazeera analysis confirmed China's 80%+ Iranian oil share.",
-    "keywords": [
-      "araghchi",
-      "brics",
-      "india",
-      "new-delhi",
-      "nuclear",
-      "hormuz",
-      "china-iran-oil"
-    ]
-  },
-  {
-    "id": "social-1229",
-    "handle": "@sentdefender",
-    "displayName": "Sentdefender",
-    "sourceCategory": "osint_analyst",
-    "text": "BEIJING SUMMIT: Trump lands in China for 2-day Xi summit — mixed signals on Iran. Said 'long talk' on Iran, then minutes later 'I wouldn't say Iran is one of them, we have it under control.' CFR analysis: China holds upper hand given Iranian oil leverage. Analysts say Taiwan and trade concessions likely required from US in exchange for Xi pressuring Tehran.",
-    "timestamp": "2026-05-13T14:00:00Z",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera and NPR confirmed Trump's contradictory departure remarks. CFR and Soufan Center analysis confirmed. CNBC confirmed world leaders watching summit from Singapore to Brussels.",
-    "keywords": [
-      "trump",
-      "xi",
-      "beijing",
-      "summit",
-      "iran",
-      "taiwan",
-      "trade",
-      "hormuz",
-      "china"
-    ]
-  },
-  {
-    "id": "social-1230",
+    "id": "social-1234",
     "handle": "@IntelDoge",
     "displayName": "Intel Doge",
+    "text": "GAZA: IDF confirms Mohammed Sinwar — brother of slain Hamas leader Yahya Sinwar — killed in tunnel operation in southern Gaza. IDF says he was directing remaining Hamas military operations from underground network. Hamas confirms death, vows 'the resistance does not depend on one man.' Escalation risk as Hamas hardliners consolidate.",
+    "timestamp": "2026-05-14T01:00:00Z",
     "sourceCategory": "osint_analyst",
-    "text": "IRAN READINESS: Brigadier-General Akrami Nia says Iran military at 'highest level of readiness,' vows 'there is no room for retreat.' Parliament threatens 90% uranium enrichment if attacked again. IRGC executed Israeli spy, sentenced to death by Supreme Court. Hardliners blocking Pezeshkian government from accepting any deal — Iran International reports internal power struggle over negotiations.",
-    "timestamp": "2026-05-13T11:00:00Z",
     "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera liveblog confirmed Akrami Nia quote. Haaretz and Times of Israel confirmed enrichment threat. Iran International confirmed internal power struggle.",
+    "verificationNote": "IDF official statement confirmed. Times of Israel and CNN confirmed Hamas acknowledgment. Reuters confirmed tunnel operation details.",
     "keywords": [
-      "iran",
-      "readiness",
-      "nuclear",
-      "enrichment",
-      "hardliners",
-      "pezeshkian",
-      "irgc"
+      "sinwar",
+      "gaza",
+      "hamas",
+      "tunnel",
+      "idf",
+      "operation"
     ]
   },
   {
-    "id": "social-1231",
+    "id": "social-1235",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "text": "NUCLEAR: Energy Secretary Wright says Iran is 'frighteningly close' to nuclear weapons — strongest warning from a cabinet official yet. ISW assessment: Iran preparing infrastructure for renewed hostilities post-ceasefire, restoring 30 of 33 Hormuz mine-laying sites. Iran retains 70% of pre-war missile arsenal. IRGC launches 'Martyr Commander' exercise near Tehran.",
+    "timestamp": "2026-05-14T01:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Reuters and CBS News confirmed Wright quote. ISW daily assessment confirmed Iranian military preparations. IRGC exercise confirmed by Tasnim News.",
+    "keywords": [
+      "wright",
+      "nuclear",
+      "iran",
+      "isw",
+      "hormuz",
+      "irgc",
+      "exercise"
+    ]
+  },
+  {
+    "id": "social-1236",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitors",
+    "text": "ECONOMY: PPI surges 6.0% YoY — war-driven energy costs now accelerating producer inflation alongside 3.8% CPI. S&P 500 hits 7,444 record and Nasdaq 26,402 record despite inflation fears. IEA emergency report: global oil supply deficit 1.78M bpd — worst since 2011 Libya crisis. Brent $108.07 (+35.4%), WTI $101.59 (+34.6%). Gas $4.511/gal.",
+    "timestamp": "2026-05-14T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "BLS PPI release confirmed. Bloomberg and CNBC confirmed S&P/Nasdaq records. IEA report confirmed supply deficit figure.",
+    "keywords": [
+      "ppi",
+      "inflation",
+      "sp500",
+      "record",
+      "iea",
+      "oil-deficit",
+      "brent",
+      "wti"
+    ]
+  },
+  {
+    "id": "social-1237",
     "handle": "@TheIntelLab",
     "displayName": "The Intel Lab",
+    "text": "DIPLOMACY: Trump in Beijing tells reporters 'deal or decimated' — Vance says 'making progress.' UAE officially denies Netanyahu secret visit claim despite multiple confirmations. Israeli opposition files Knesset dissolution bill citing 'government incompetence.' Russia test-fires Sarmat ICBM. WaPo intel leak: China exploiting war to expand Pacific influence. Ceasefire expires May 17.",
+    "timestamp": "2026-05-14T02:11:00Z",
     "sourceCategory": "osint_analyst",
-    "text": "CONGRESSIONAL PRESSURE: Hegseth faces bipartisan grilling at House Armed Services Committee — WaPo reports 'intense frustration' from both parties over $29B war cost and lack of exit strategy. FDD overnight brief notes Soufan Center analysis: Trump-Xi summit faces high-profile issues including Iran, Taiwan, trade, AI oversight, and strategic minerals. Senate war powers vote 50-49 — unprecedented GOP defection.",
-    "timestamp": "2026-05-13T17:00:00Z",
     "verificationStatus": "confirmed",
-    "verificationNote": "Washington Post and PBS confirmed Hegseth grilling. Soufan Center intel brief confirmed. TIME and CBS News confirmed final vote count.",
+    "verificationNote": "ABC News and Fox News confirmed Trump quote. CNN confirmed Vance quote. Times of Israel confirmed UAE denial and Knesset bill. WaPo confirmed China intelligence assessment.",
     "keywords": [
-      "hegseth",
-      "congress",
-      "war-costs",
-      "29-billion",
-      "senate",
-      "trump-xi",
-      "soufan"
+      "trump",
+      "beijing",
+      "vance",
+      "uae",
+      "knesset",
+      "dissolution",
+      "russia",
+      "sarmat",
+      "china",
+      "ceasefire"
+    ]
+  },
+  {
+    "id": "social-1238",
+    "handle": "@Faytuks",
+    "displayName": "Faytuks News",
+    "text": "LEBANON SOUTH: Heavy fighting continues across southern Lebanon — 7 additional killed in IDF strikes on villages south of the Litani River. Total Day 75 Lebanon dead now at least 15. 56 additional injured. Paramedic killed in targeted ambulance strike near Nabatieh. Lebanon ceasefire expiration May 17 raising alarm — UN peacekeepers reinforcing positions.",
+    "timestamp": "2026-05-13T23:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera Day 75 liveblog confirmed casualty figures. Lebanese Red Cross confirmed paramedic death. UNIFIL statement confirmed reinforcement.",
+    "keywords": [
+      "lebanon",
+      "litani",
+      "casualties",
+      "ceasefire",
+      "unifil",
+      "paramedic",
+      "nabatieh"
     ]
   }
 ]
