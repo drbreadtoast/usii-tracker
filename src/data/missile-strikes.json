@@ -10415,5 +10415,41 @@
       "killed": 8,
       "injured": 12
     }
+  },
+  {
+    "id": "ms-610",
+    "city": "Rosh Hanikra",
+    "country": "Israel",
+    "lat": 33.0762,
+    "lng": 35.1054,
+    "strikeType": "drone_strike",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-14",
+    "description": "Hezbollah fiber-optic explosive drone struck a parking lot at Rosh Hanikra in northern Israel, wounding 3 civilians (2 seriously, 1 mildly). No air raid sirens activated before impact — consistent with fiber-optic-tethered drones that defeat electronic jamming. IDF called the attack 'a blatant violation of ceasefire understandings.' Strike occurred hours before Lebanon-Israel Round 3 peace talks opened in Washington DC.",
+    "source": "JNS — Three civilians wounded as Hezbollah drone hits near Rosh Hanikra",
+    "sourceUrl": "https://www.jns.org/news/israel-news/three-civilians-wounded-as-hezbollah-drone-hits-near-rosh-hanikra-in-the-galilee",
+    "weaponType": "Fiber-optic FPV explosive drone",
+    "casualties": {
+      "killed": 0,
+      "injured": 3
+    }
+  },
+  {
+    "id": "ms-611",
+    "city": "Sidon",
+    "country": "Lebanon",
+    "lat": 33.5606,
+    "lng": 35.3713,
+    "strikeType": "airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-14",
+    "description": "Israeli airstrike targeted a vehicle in Sidon (Saida), southern Lebanon, killing 1 person and wounding 1. The Lebanese Ministry of Health confirmed the casualties. The strike came on the same day Lebanon and Israel were holding Round 3 peace talks in Washington DC.",
+    "source": "Times of Israel — Liveblog May 14, 2026",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-may-14-2026/",
+    "weaponType": "Air-to-ground missile",
+    "casualties": {
+      "killed": 1,
+      "injured": 1
+    }
   }
 ]
