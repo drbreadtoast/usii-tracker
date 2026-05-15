@@ -1,141 +1,5 @@
 [
   {
-    "id": "social-1232",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "BREAKING — LEBANON: Israeli drone strikes hit convoy on Jiyeh coastal highway south of Beirut, killing 8 including 2 children. First strikes in Beirut area since April 16 ceasefire. Lebanon ceasefire expires May 17 — 4 days away. Lebanese Health Ministry confirms 2,897 killed since Feb 28. Hezbollah vows 'proportional response.'",
-    "timestamp": "2026-05-14T00:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera liveblog and Reuters confirmed Jiyeh highway strikes and casualty count. Lebanese Health Ministry official figures.",
-    "keywords": [
-      "jiyeh",
-      "beirut",
-      "drone-strikes",
-      "civilians",
-      "ceasefire",
-      "lebanon",
-      "casualties"
-    ]
-  },
-  {
-    "id": "social-1233",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "HEZBOLLAH: Largest-ever drone swarm launched against northern Israel — hundreds of fiber-optic FPV drones in coordinated waves. IDF confirms 2 soldiers wounded. Drones are unjammable due to fiber-optic guidance (no RF signal to intercept). IDF still has no counter-drone solution. Alma Center confirms new tactic represents 'paradigm shift' in asymmetric warfare.",
-    "timestamp": "2026-05-14T00:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel, Jerusalem Post, and Alma Center weekly report confirmed drone swarm details. IDF spokesperson confirmed 2 wounded.",
-    "keywords": [
-      "hezbollah",
-      "drone-swarm",
-      "fiber-optic",
-      "northern-israel",
-      "asymmetric",
-      "idf",
-      "unjammable"
-    ]
-  },
-  {
-    "id": "social-1234",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "text": "GAZA: IDF confirms Mohammed Sinwar — brother of slain Hamas leader Yahya Sinwar — killed in tunnel operation in southern Gaza. IDF says he was directing remaining Hamas military operations from underground network. Hamas confirms death, vows 'the resistance does not depend on one man.' Escalation risk as Hamas hardliners consolidate.",
-    "timestamp": "2026-05-14T01:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF official statement confirmed. Times of Israel and CNN confirmed Hamas acknowledgment. Reuters confirmed tunnel operation details.",
-    "keywords": [
-      "sinwar",
-      "gaza",
-      "hamas",
-      "tunnel",
-      "idf",
-      "operation"
-    ]
-  },
-  {
-    "id": "social-1235",
-    "handle": "@sentdefender",
-    "displayName": "Sentdefender",
-    "text": "NUCLEAR: Energy Secretary Wright says Iran is 'frighteningly close' to nuclear weapons — strongest warning from a cabinet official yet. ISW assessment: Iran preparing infrastructure for renewed hostilities post-ceasefire, restoring 30 of 33 Hormuz mine-laying sites. Iran retains 70% of pre-war missile arsenal. IRGC launches 'Martyr Commander' exercise near Tehran.",
-    "timestamp": "2026-05-14T01:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Reuters and CBS News confirmed Wright quote. ISW daily assessment confirmed Iranian military preparations. IRGC exercise confirmed by Tasnim News.",
-    "keywords": [
-      "wright",
-      "nuclear",
-      "iran",
-      "isw",
-      "hormuz",
-      "irgc",
-      "exercise"
-    ]
-  },
-  {
-    "id": "social-1236",
-    "handle": "@WarMonitors",
-    "displayName": "War Monitors",
-    "text": "ECONOMY: PPI surges 6.0% YoY — war-driven energy costs now accelerating producer inflation alongside 3.8% CPI. S&P 500 hits 7,444 record and Nasdaq 26,402 record despite inflation fears. IEA emergency report: global oil supply deficit 1.78M bpd — worst since 2011 Libya crisis. Brent $108.07 (+35.4%), WTI $101.59 (+34.6%). Gas $4.511/gal.",
-    "timestamp": "2026-05-14T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "BLS PPI release confirmed. Bloomberg and CNBC confirmed S&P/Nasdaq records. IEA report confirmed supply deficit figure.",
-    "keywords": [
-      "ppi",
-      "inflation",
-      "sp500",
-      "record",
-      "iea",
-      "oil-deficit",
-      "brent",
-      "wti"
-    ]
-  },
-  {
-    "id": "social-1237",
-    "handle": "@TheIntelLab",
-    "displayName": "The Intel Lab",
-    "text": "DIPLOMACY: Trump in Beijing tells reporters 'deal or decimated' — Vance says 'making progress.' UAE officially denies Netanyahu secret visit claim despite multiple confirmations. Israeli opposition files Knesset dissolution bill citing 'government incompetence.' Russia test-fires Sarmat ICBM. WaPo intel leak: China exploiting war to expand Pacific influence. Ceasefire expires May 17.",
-    "timestamp": "2026-05-14T02:11:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ABC News and Fox News confirmed Trump quote. CNN confirmed Vance quote. Times of Israel confirmed UAE denial and Knesset bill. WaPo confirmed China intelligence assessment.",
-    "keywords": [
-      "trump",
-      "beijing",
-      "vance",
-      "uae",
-      "knesset",
-      "dissolution",
-      "russia",
-      "sarmat",
-      "china",
-      "ceasefire"
-    ]
-  },
-  {
-    "id": "social-1238",
-    "handle": "@Faytuks",
-    "displayName": "Faytuks News",
-    "text": "LEBANON SOUTH: Heavy fighting continues across southern Lebanon — 7 additional killed in IDF strikes on villages south of the Litani River. Total Day 75 Lebanon dead now at least 15. 56 additional injured. Paramedic killed in targeted ambulance strike near Nabatieh. Lebanon ceasefire expiration May 17 raising alarm — UN peacekeepers reinforcing positions.",
-    "timestamp": "2026-05-13T23:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera Day 75 liveblog confirmed casualty figures. Lebanese Red Cross confirmed paramedic death. UNIFIL statement confirmed reinforcement.",
-    "keywords": [
-      "lebanon",
-      "litani",
-      "casualties",
-      "ceasefire",
-      "unifil",
-      "paramedic",
-      "nabatieh"
-    ]
-  },
-  {
     "id": "social-1239",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
@@ -468,7 +332,17 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "NBC News confirmed Rubio post-summit statement. Time confirmed Trump-Xi details. CNBC confirmed joint statement elements.",
-    "keywords": ["trump", "xi", "china", "hormuz", "beijing", "summit", "rubio", "nuclear", "day77"]
+    "keywords": [
+      "trump",
+      "xi",
+      "china",
+      "hormuz",
+      "beijing",
+      "summit",
+      "rubio",
+      "nuclear",
+      "day77"
+    ]
   },
   {
     "id": "social-1256",
@@ -479,7 +353,17 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Euronews confirmed Hui Chuan seizure via UKMTO. Bloomberg confirmed. Washington Times confirmed Haji Ali sinking.",
-    "keywords": ["iran", "naval", "ship-seizure", "uae", "hormuz", "fujairah", "haji-ali", "oman", "day77"]
+    "keywords": [
+      "iran",
+      "naval",
+      "ship-seizure",
+      "uae",
+      "hormuz",
+      "fujairah",
+      "haji-ali",
+      "oman",
+      "day77"
+    ]
   },
   {
     "id": "social-1257",
@@ -490,7 +374,17 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Times of Israel confirmed Hezbollah ceasefire breach. IDF confirmed 65+ sites struck. NPR confirmed Round 3 talks in Washington.",
-    "keywords": ["idf", "hezbollah", "lebanon", "ceasefire", "south-lebanon", "rockets", "drone", "peace-talks", "day77"]
+    "keywords": [
+      "idf",
+      "hezbollah",
+      "lebanon",
+      "ceasefire",
+      "south-lebanon",
+      "rockets",
+      "drone",
+      "peace-talks",
+      "day77"
+    ]
   },
   {
     "id": "social-1258",
@@ -501,7 +395,17 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "NBC News confirmed Iran's 5 preconditions. Al Jazeera confirmed Trump rejection of Iranian counter-proposal. CBS News confirmed ceasefire characterization.",
-    "keywords": ["iran", "nuclear", "peace-talks", "preconditions", "sanctions", "hormuz", "trump", "ceasefire", "day77"]
+    "keywords": [
+      "iran",
+      "nuclear",
+      "peace-talks",
+      "preconditions",
+      "sanctions",
+      "hormuz",
+      "trump",
+      "ceasefire",
+      "day77"
+    ]
   },
   {
     "id": "social-1259",
@@ -512,7 +416,16 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "WaPo and PBS confirmed Hegseth congressional testimony. Defense News confirmed $29B figure. Breaking Defense confirmed not including base damage costs. CNN confirmed intelligence assessment discrepancy.",
-    "keywords": ["hegseth", "congress", "war-costs", "munitions", "pentagon", "intelligence", "iran", "day77"]
+    "keywords": [
+      "hegseth",
+      "congress",
+      "war-costs",
+      "munitions",
+      "pentagon",
+      "intelligence",
+      "iran",
+      "day77"
+    ]
   },
   {
     "id": "social-1260",
@@ -523,6 +436,119 @@
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
     "verificationNote": "ISW daily Iran update. MadaMasr confirmed ceasefire extension without strike halt. WSJ confirmed Mojtaba Khamenei absence. Times of Israel confirmed Netanyahu UAE revelation and UAE denial.",
-    "keywords": ["isw", "lebanon", "ceasefire", "iran", "nuclear", "netanyahu", "uae", "khamenei", "day77"]
+    "keywords": [
+      "isw",
+      "lebanon",
+      "ceasefire",
+      "iran",
+      "nuclear",
+      "netanyahu",
+      "uae",
+      "khamenei",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1261",
+    "handle": "@sentdefender",
+    "displayName": "Sentdefender",
+    "text": "HEZBOLLAH CEASEFIRE BREAKDOWN: IDF reports Hezbollah mortar fire killed Staff Sgt. Negev Dagan (20, Golani Brigade) in south Lebanon — 6th IDF death since ceasefire, 19th since war escalation. IDF intercepted Hezbollah rocket targeting Lower Galilee (sirens in Masad/Eilabun). IDF issued urgent evacuation warning for 8 villages near Tyre ahead of retaliatory strikes on Hezbollah infrastructure.",
+    "timestamp": "2026-05-15T08:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel liveblog May 15 confirmed all three incidents — IDF soldier death, rocket interception, and evacuation warnings for Tyre-area villages.",
+    "keywords": [
+      "hezbollah",
+      "idf",
+      "lebanon",
+      "ceasefire",
+      "tyre",
+      "golani",
+      "rocket",
+      "south-lebanon",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1262",
+    "handle": "@Intel_Sky",
+    "displayName": "Intel Sky",
+    "text": "TRUMP-XI SUMMIT DAY 2: Key outcomes — (1) Xi pledged no military equipment to Iran; (2) Both agreed Strait of Hormuz cannot be militarized or tolled; (3) China confirmed it will continue buying Iranian oil regardless; (4) US and China agreed Iran cannot have a nuclear weapon. Rubio: 'He didn't ask them for anything.' Xi offered to help broker peace — but Foreign Policy notes China summit produced 'few wins' for Trump on concrete Iran commitments.",
+    "timestamp": "2026-05-15T07:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Time, CBS News, NBC News, CNBC, and Al Jazeera confirmed all four Trump-Xi summit outcomes. Foreign Policy analysis confirmed limited concrete wins.",
+    "keywords": [
+      "trump",
+      "xi",
+      "china",
+      "beijing",
+      "hormuz",
+      "iran",
+      "nuclear",
+      "summit",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1263",
+    "handle": "@AraghchiAbas",
+    "displayName": "FM Araghchi — BRICS Summary",
+    "text": "BRICS NEW DELHI UPDATE: Iran FM Araghchi addressed Day 2 of BRICS Foreign Ministers' Meeting (May 14-15), calling on members to 'unequivocally condemn' US-Israeli 'illegal aggression.' Said Iranians 'never bow to any pressure' and accused UAE of direct military involvement. BRICS failed to reach unified condemnation — UAE pushed back. Russia's Lavrov, Brazil, South Africa attended; China sent ambassador instead of Wang Yi.",
+    "timestamp": "2026-05-15T09:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PressTV, Al Jazeera, The Tribune India, ABC News, and Modern Diplomacy confirmed Araghchi's statements and the BRICS internal division over Iran-UAE dispute.",
+    "keywords": [
+      "araghchi",
+      "brics",
+      "india",
+      "new-delhi",
+      "iran",
+      "uae",
+      "diplomacy",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1264",
+    "handle": "@MiddleEastEye",
+    "displayName": "Middle East Eye OSINT Desk",
+    "text": "NETANYAHU JERUSALEM DAY (May 15): Netanyahu declared at Ammunition Hill ceremony: 'Iran is weaker than ever, Israel is stronger than ever.' Claimed Israeli preemptive strikes prevented Iran from obtaining a nuclear bomb. Also announced (with FM Sa'ar) that Israel will sue the New York Times over Nick Kristof column alleging systematic sexual abuse of Palestinian detainees. Israel calls the piece 'one of the most hideous and distorted lies ever published.'",
+    "timestamp": "2026-05-15T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Times of Israel liveblog May 15 confirmed Netanyahu Jerusalem Day speech and the NYT lawsuit announcement. Both quotes attributed to Netanyahu at the Ammunition Hill ceremony.",
+    "keywords": [
+      "netanyahu",
+      "jerusalem-day",
+      "iran",
+      "israel",
+      "nyt",
+      "lawsuit",
+      "ammunition-hill",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1265",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "DIPLOMATIC ROUNDUP DAY 77: (1) Ceasefire technically holds but Lebanon front is active — IDF striking near Tyre after Hezbollah mortar/rocket attacks; (2) Pakistan mediating US-Iran talks — ceasefire expires May 17; (3) Iran at BRICS pushing non-Western coalition condemnation of US/Israel; (4) Pezeshkian praised 'Third Imposed War' resistance in national unity video; (5) Iran VP Aref: 'We will not give up the Strait of Hormuz at any cost. The matter is closed.'",
+    "timestamp": "2026-05-15T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Jazeera Day 77 liveblog, PressTV (Aref quote), Times of Israel (Lebanon front), and PressTV (Pezeshkian video) confirm all five items.",
+    "keywords": [
+      "ceasefire",
+      "lebanon",
+      "hormuz",
+      "iran",
+      "pezeshkian",
+      "aref",
+      "pakistan",
+      "diplomacy",
+      "day77"
+    ]
   }
 ]

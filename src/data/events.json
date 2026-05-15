@@ -51105,5 +51105,81 @@
       "injured": 3
     },
     "tags": ["hezbollah", "rocket", "drone", "northern-israel", "ceasefire", "idf", "fiber-optic", "day77"]
+  },
+  {
+    "id": "evt-new-1491",
+    "title": "IDF Soldier Staff Sgt. Negev Dagan Killed by Hezbollah Mortar Fire in South Lebanon",
+    "description": "Staff Sgt. Negev Dagan, 20, of the Golani Brigade's 12th Battalion (from Moshav Dekel), was killed by Hezbollah mortar fire near the Litani River in southern Lebanon. Combat medics were unable to save him. He is the 6th IDF soldier killed in Lebanon since the April 23 ceasefire began and the 19th since hostilities escalated in March 2026.",
+    "type": "strike",
+    "lat": 33.35,
+    "lng": 35.37,
+    "location": "Near Litani River, South Lebanon",
+    "timestamp": "2026-05-15T01:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog May 15, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-15-2026/"
+      },
+      {
+        "name": "i24NEWS — IDF soldier killed by Hezbollah mortar shell in south Lebanon",
+        "url": "https://www.i24news.tv/en/news/israel/artc-idf-soldier-killed-by-hezbollah-mortar-shell-in-south-lebanon-live-blog"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 1,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "mortar", "idf", "south-lebanon", "ceasefire-violation", "golani", "day77"]
+  },
+  {
+    "id": "evt-new-1492",
+    "title": "Hezbollah Rocket Intercepted Over Lower Galilee — Air Raid Sirens in Masad and Eilabun",
+    "description": "Hezbollah fired a rocket from Lebanon targeting northern Israel. The IDF intercepted the projectile. Air raid sirens were activated in the communities of Masad and Eilabun in the Lower Galilee region. No injuries were reported. The attack came hours after Hezbollah mortar fire killed IDF Staff Sgt. Negev Dagan.",
+    "type": "strike",
+    "lat": 32.83,
+    "lng": 35.37,
+    "location": "Lower Galilee, Northern Israel",
+    "timestamp": "2026-05-15T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog May 15, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-15-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {
+      "killed": 0,
+      "injured": 0
+    },
+    "tags": ["hezbollah", "rocket", "lower-galilee", "interception", "ceasefire-violation", "day77"]
+  },
+  {
+    "id": "evt-new-1493",
+    "title": "Netanyahu Jerusalem Day Speech: 'Iran Is Weaker Than Ever, Israel Stronger Than Ever'",
+    "description": "Prime Minister Netanyahu delivered the annual Jerusalem Day address at the Ammunition Hill ceremony marking the 59th anniversary of Israeli reunification of the city. He declared 'The regime of terror in Iran is weaker than ever, and the State of Israel is stronger than ever,' and claimed Israeli preemptive strikes prevented Iran from obtaining a nuclear bomb. He also announced Israel would sue the New York Times over a column alleging systematic abuse of Palestinian detainees.",
+    "type": "diplomatic",
+    "lat": 31.8128,
+    "lng": 35.2354,
+    "location": "Ammunition Hill, Jerusalem, Israel",
+    "timestamp": "2026-05-15T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel liveblog May 15, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-15-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["netanyahu", "jerusalem-day", "iran", "israel", "speech", "day77"]
   }
 ]
