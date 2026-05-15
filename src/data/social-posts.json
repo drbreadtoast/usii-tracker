@@ -1,84 +1,5 @@
 [
   {
-    "id": "social-1239",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "BREAKING — HORMUZ: UKMTO reports vessel seized ~38nm NE of Fujairah, UAE by 'unauthorized personnel while at anchor' — now heading toward Iranian waters. Bloomberg calls it a setback for US diplomatic efforts. Coincides with Trump-Xi summit in Beijing. No vessel ID or responsible party confirmed yet.",
-    "timestamp": "2026-05-14T09:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UKMTO advisory confirmed by Euronews and Al Arabiya. Bloomberg independently confirmed vessel heading toward Iranian waters.",
-    "keywords": [
-      "ukmto",
-      "fujairah",
-      "uae",
-      "ship-seizure",
-      "iran",
-      "hormuz",
-      "day76"
-    ]
-  },
-  {
-    "id": "social-1240",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intel",
-    "text": "CEASEFIRE VIOLATION: Hezbollah fiber-optic unjammable drone strikes Rosh Hanikra parking lot in northern Israel — 3 civilians wounded (2 seriously). No air raid sirens before impact, consistent with fiber-optic guidance defeating electronic jamming. IDF calls it 'blatant ceasefire violation' — timed hours before Lebanon-Israel Round 3 talks opened in Washington DC.",
-    "timestamp": "2026-05-14T07:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel liveblog and JNS confirmed strike details. IDF spokesperson confirmed the violation designation. NPR confirmed timing relative to peace talks.",
-    "keywords": [
-      "hezbollah",
-      "rosh-hanikra",
-      "fiber-optic-drone",
-      "ceasefire-violation",
-      "northern-israel",
-      "civilians",
-      "day76"
-    ]
-  },
-  {
-    "id": "social-1241",
-    "handle": "@sentdefender",
-    "displayName": "Sentdefender",
-    "text": "DIPLOMACY: Trump-Xi Beijing summit produces joint Hormuz statement — both agree strait 'must remain open' and Iran 'can never have nuclear weapon.' Rubio: US-China agree Hormuz must not be 'militarized.' Analysis: largely symbolic — no enforcement mechanism, no new commitments. Chinese VLCC Yuan Hua Hu completed Hormuz transit, suggesting Iran allows Chinese ships selectively.",
-    "timestamp": "2026-05-14T11:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Washington Times confirmed joint statement. NBC News confirmed Rubio quote. Bloomberg confirmed VLCC transit details. Multiple analysts confirmed limited concrete outcomes.",
-    "keywords": [
-      "trump",
-      "xi",
-      "beijing",
-      "hormuz",
-      "joint-statement",
-      "nuclear",
-      "china",
-      "vlcc",
-      "day76"
-    ]
-  },
-  {
-    "id": "social-1242",
-    "handle": "@IntelDoge",
-    "displayName": "Intel Doge",
-    "text": "IRAN: FM Araghchi posts: US-Israel pursuing 'expansionism and warmongering — instability is lose-lose for aggressors too.' Warns UAE over alleged Netanyahu collusion. Vance: 'further gains made since Islamabad' on Iran deal. Congressional letter: 52 senators + 177 reps tell Trump to reject any enrichment deal. Lebanon-Israel ceasefire expires May 17 — talks in Washington ongoing.",
-    "timestamp": "2026-05-14T12:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Al Jazeera Day 76 liveblog confirmed Araghchi statement. Haaretz confirmed Vance quote. Castro House link confirmed congressional letter. NPR confirmed Lebanon-Israel talks.",
-    "keywords": [
-      "araghchi",
-      "iran",
-      "vance",
-      "congress",
-      "enrichment",
-      "lebanon",
-      "ceasefire",
-      "day76"
-    ]
-  },
-  {
     "id": "social-1243",
     "handle": "@WarMonitors",
     "displayName": "War Monitors",
@@ -548,6 +469,131 @@
       "aref",
       "pakistan",
       "diplomacy",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1266",
+    "handle": "@WarMonitors",
+    "displayName": "War Monitors",
+    "text": "TRUMP POLICY SHIFT DAY 77: Departing Beijing Air Force One, Trump signals he's now open to 20-YEAR Iranian nuclear suspension (previously demanded permanent ban) 'if it's real.' Also weighing lifting sanctions on Chinese companies buying Iranian oil — decision 'in next few days.' Al Jazeera analysis: Xi-Trump summit yielded no binding commitments; Euronews: 'underwhelming outcome brings Trump back to reality.' Iran ceasefire expires May 17.",
+    "timestamp": "2026-05-15T12:05:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump Air Force One remarks confirmed by CNBC and Times of Israel. Al Jazeera and Euronews confirmed summit analysis. No binding Iran agreement from Trump-Xi meeting.",
+    "keywords": [
+      "trump",
+      "beijing",
+      "nuclear",
+      "20-year",
+      "china",
+      "sanctions",
+      "iran",
+      "ceasefire",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1267",
+    "handle": "@IntelDoge",
+    "displayName": "Intel Doge",
+    "text": "ARAGHCHI URANIUM DEADLOCK (Day 77 AM): Iranian FM confirms US-Iran nuclear talks in 'deadlock' over enriched uranium — issue 'postponed, not under discussion.' Iran has 'no trust' in US; 'contradictory messages from Washington' make Tehran doubt seriousness. Russia's offer to store enriched uranium 'appreciated but not on agenda.' Araghchi met India FM Jaishankar bilaterally at BRICS New Delhi — Iran diversifying diplomatic options.",
+    "timestamp": "2026-05-15T12:10:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Araghchi uranium deadlock and 'no trust' quote confirmed by WION and Al Jazeera. Jaishankar bilateral meeting confirmed by Republic World and Times of Israel.",
+    "keywords": [
+      "araghchi",
+      "iran",
+      "nuclear",
+      "deadlock",
+      "uranium",
+      "jaishankar",
+      "india",
+      "brics",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1268",
+    "handle": "@ISWonline",
+    "displayName": "ISW (Institute for the Study of War)",
+    "text": "IRGC 'MARTYRED LEADER' EXERCISE: IRGC Mohammad Rasulullah Division launched 5-day war game near Tehran (began May 12-13) simulating US GROUND INVASION — RPGs, mortars, snipers, armed drones, motorcycle assault tactics. Gen. Akrami Nia: 'highest level of readiness, no room for retreat.' Context: CIA assessed Iran can withstand blockade for months, has 70% of pre-war missiles. This exercise is not symbolic — it's preparing for resumed warfare.",
+    "timestamp": "2026-05-15T12:15:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IRGC exercise confirmed by Tasnim News Agency and Israel Hayom. CIA/DIA missile assessment confirmed by Middle East Eye, i24NEWS, and Irish Times. ISW assessment context.",
+    "keywords": [
+      "irgc",
+      "exercise",
+      "tehran",
+      "iran",
+      "war-drill",
+      "missiles",
+      "cia",
+      "intelligence",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1269",
+    "handle": "@TheIntelLab",
+    "displayName": "The Intel Lab",
+    "text": "KHAMENEI ABSENCE: Mojtaba Khamenei has NOT made a verified public appearance in 60+ days since March 30 airstrike killed his father, wife, and son. Iran claims 'just a fracture.' Independent reports say severe burns, possible incapacitation. AI-generated images and ghostwritten statements substituting for real appearances. US intel (CNN, May 8): 'mentally sharp but isolated, ruling through tight inner circle.' Iran running on autopilot.",
+    "timestamp": "2026-05-15T12:20:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Khamenei absence and AI images confirmed by The National, Voice of Emirates, and WSJ. CNN confirmed US intelligence assessment of 'mentally sharp but isolated.' Iran officially denies serious injury.",
+    "keywords": [
+      "khamenei",
+      "mojtaba",
+      "iran",
+      "ai-generated",
+      "leadership",
+      "intelligence",
+      "isolation",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1270",
+    "handle": "@WarIntelHub",
+    "displayName": "War Intel Hub",
+    "text": "ECONOMICS DAY 77 AM: Brent crude $106.89/bbl (+33.9% from pre-war), WTI $101.17/bbl (+34.0%). Slight morning pullback from Day 76 close ($107.30/$102.74). IEA warns global oil market will remain 'materially undersupplied' through OCTOBER even if conflict resolves next month. OPEC+ June increase: +188K bpd (symbolic — can't compensate for Hormuz closure). Gas: $4.534/gal. GasBuddy: $5/gal by Memorial Day if Hormuz stays closed.",
+    "timestamp": "2026-05-15T12:25:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Brent/WTI prices confirmed by TradingEconomics and CNBC. IEA undersupply warning confirmed by IEA Oil Market Report. OPEC+ increase confirmed by Al Jazeera. AAA confirmed gas price. GasBuddy forecast confirmed.",
+    "keywords": [
+      "brent",
+      "wti",
+      "oil",
+      "gas",
+      "iea",
+      "opec",
+      "hormuz",
+      "economics",
+      "day77"
+    ]
+  },
+  {
+    "id": "social-1271",
+    "handle": "@ElintNews",
+    "displayName": "Elint News",
+    "text": "12TH ROUND ECONOMIC FURY SANCTIONS (May 11): OFAC designated 12 individuals/entities for enabling IRGC oil sales to China. Separately, US sanctioned Chinese petroleum terminal Qingdao Haiye Oil Terminal Co. for importing tens of millions of barrels of Iranian crude. EU separately sanctioned 19 Iranian officials (May 6). Economic Fury = US campaign to cut off Iran's oil revenue while blockade forces Hormuz closure. China continues buying regardless.",
+    "timestamp": "2026-05-15T12:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "OFAC 12th round confirmed by Treasury press release (home.treasury.gov/news/press-releases/sb0498). Qingdao terminal sanctions confirmed by State Department. EU sanctions confirmed by Reuters.",
+    "keywords": [
+      "sanctions",
+      "ofac",
+      "economic-fury",
+      "irgc",
+      "china",
+      "oil",
+      "qingdao",
+      "iran",
       "day77"
     ]
   }
