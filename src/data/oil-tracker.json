@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-15T06:15:00Z",
+    "lastUpdated": "2026-05-15T19:09:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,16 +74,16 @@
     },
     "current": {
       "date": "2026-05-15",
-      "label": "Day 77 05:05 AM PDT — Brent $106.89/bbl (+33.9% from pre-war $79.84) — slight morning pullback from Day 76/77 overnight close of $107.30. WTI $101.17/bbl (+34.0% from $75.51). Trump departing Beijing: open to 20-year Iran nuclear suspension; weighing China oil sanctions relief. Araghchi: uranium talks in 'deadlock,' Iran has 'no trust' in US. IRGC 5-day war exercise near Tehran. CIA: Iran retains 70% missiles. Hormuz Day 74. Gas $4.534/gal. IEA: market 'materially undersupplied' through October.",
+      "label": "Day 77 12:09 PM PDT — Brent $106.89/bbl (+33.9% from pre-war $79.84) — steady from earlier session. WTI $101.86/bbl (+34.9% from $75.51). Israel-Lebanon ceasefire extended 45 days. IRGC seized Hui Chan floating armory near Fujairah. IDF soldier Negev Dagan (20, Golani) killed by Hezbollah mortar. Trump: decimation of Iran to be continued. House WPA 212-212 fails. BRICS ends without joint statement. Hormuz Day 74. Gas $4.53/gal.",
       "brent": {
         "price": 106.89,
         "change": "+33.9%",
         "changeDollars": "+$27.05"
       },
       "wti": {
-        "price": 101.17,
-        "change": "+34.0%",
-        "changeDollars": "+$25.66"
+        "price": 101.86,
+        "change": "+34.9%",
+        "changeDollars": "+$26.35"
       },
       "changePercent": 33.9,
       "lastUpdated": "2026-05-15"
@@ -460,6 +460,13 @@
         "wti": 102.74,
         "brent": 107.3,
         "label": "Day 77 11:15 PM PDT — Brent $107.30 (+34.4%), WTI $102.74 (+36.1%). China agrees to buy US crude at Trump-Xi summit — oil surges. IDF soldier killed by Hezbollah mortar in south Lebanon. Lebanon ceasefire expiring May 17. Gas $4.534. Hormuz Day 74."
+      },
+      {
+        "date": "2026-05-15",
+        "wti": 101.86,
+        "brent": 106.89,
+        "label": "Day 77 PM — Brent $106.89 (+33.9%); WTI $101.86 (+34.9%). Ceasefire extended 45 days. IRGC seizes Hui Chan near Fujairah. IDF strikes 40+ Hezbollah sites. Trump: decimation to be continued. House WPA 212-212. BRICS collapses. Gas $4.53.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -645,8 +652,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-15T06:15:00Z",
-    "note": "Day 77 11:15 PM PDT: Brent $107.30 (+34.4%), WTI $102.74 (+36.1%) on China-US crude purchase deal at Trump-Xi summit. AAA gas $4.534/gal (+48.7% vs $3.05 pre-war). GasBuddy warns $5/gal by Memorial Day. Hormuz Day 74 blockade.",
+    "lastUpdated": "2026-05-15T19:09:00Z",
+    "note": "Day 77 PM (12:09 PM PDT): Brent $106.89 (+33.9%), WTI $101.86 (+34.9%). Israel-Lebanon ceasefire extended 45 days. IRGC seizes Hui Chan near Fujairah. IDF soldier Dagan (20, Golani) killed. Trump: decimation to be continued. House WPA 212-212. BRICS collapses. Gas $4.53/gal. Hormuz Blockade Day 74.",
     "fuels": [
       {
         "type": "Regular Gasoline",

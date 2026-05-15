@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-15T06:15:00Z",
+  "lastUpdated": "2026-05-15T19:09:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.79,
-      "change": "+20.8%",
-      "detail": "$6.79/bu (May 15, Chicago SRW July futures). Up from $6.70 Day 76. Kansas City HRW July $7.3125/bu. USDA rated only 28% of winter wheat good-to-excellent. Food at home CPI +0.7% in April — biggest one-month jump in nearly 4 years.",
+      "current": 6.55,
+      "change": "+16.5%",
+      "detail": "Wheat futures $6.55/bushel (down from $6.79 peak on May 12 as market stabilizes). USDA projects lowest US wheat production since 1972. War contributing to risk premium. Pre-war: $5.62/bushel.",
       "source": "TradingEconomics — Wheat May 14",
       "sourceUrl": "https://tradingeconomics.com/commodity/wheat"
     },
@@ -15,9 +15,9 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.7,
-      "change": "+9.0%",
-      "detail": "Corn $4.6903/bu (May 15 CBOT futures, down 2.44% on profit-taking). Strong export demand + drought in Nebraska/Oklahoma. USDA WASDE May report cut stocks below estimates. Fertilizer costs forcing acreage reductions.",
+      "current": 4.51,
+      "change": "+4.6%",
+      "detail": "Corn futures ~$4.51/bushel. Disrupted fertilizer supply (nitrogen/urea up 35%+) hurting corn economics. USDA projects corn acreage down ~3% in 2026 vs 2025. Pre-war: $4.31/bushel.",
       "source": "TradingEconomics — Corn May 14",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
@@ -88,7 +88,7 @@
     "currentWeekly": 182,
     "changePercent": 8.3,
     "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "USDA forecasts food-at-home +2.5% for full year 2026. Farm wheat up 8.4%. Palm/soybean oil each +8%. Tehran wheat flour up 120% in one month, nearly 200% YoY. IRC operational costs spiked 50% due to war disruptions. If Hormuz persists through summer, could add 5-7 percentage points. Consumer sentiment at multi-year low. 318M face hunger globally (FAO)."
+    "note": "BLS April 2026: food-at-home prices +2.4% YoY, +0.7% MoM. USDA forecasts food-at-home +2.5% for full year 2026. Wheat $6.55/bushel (pulling back from May 12 $6.79 peak). Farm wheat up 8.4%. Urea fertilizer +35%+ from pre-war levels. Tehran wheat flour up 120% in one month, nearly 200% YoY. IRC operational costs spiked 50% due to war disruptions. If Hormuz persists through summer, could add 5-7 percentage points. Consumer sentiment at multi-year low. 318M face hunger globally (FAO)."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
