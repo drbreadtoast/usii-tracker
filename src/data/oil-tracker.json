@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-14T19:08:00Z",
+    "lastUpdated": "2026-05-15T00:02:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 76
+    "conflictDay": 77
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-14",
-      "label": "Day 76 12:08 PM PT \u2014 Brent $105.87/bbl (+32.7% from pre-war $79.80). WTI $101.42/bbl (+34.3% from $75.50). Prices slightly off morning highs as ceasefire talks continue. Bloomberg: Hormuz oil flows 'creeping higher' as ~4 supertankers exited since May 10. IDF strikes 65 Hezbollah sites in 24h. Haji Ali cargo ship sunk off Oman. Netanyahu CBS 60 Min: war 'not over.' Gas $4.534/gal. Hormuz Day 73.",
+      "date": "2026-05-15",
+      "label": "Day 77 5:02 PM PT \u2014 Brent $105.72/bbl (+32.5% from pre-war $79.80). WTI $101.17/bbl (+34.0% from $75.50). Markets stable on Trump-Xi summit Hormuz agreement. Iran VP Aref: 'We will not give up Hormuz at any cost.' Hui Chuan vessel seized near Fujairah. IDF strikes 65+ Hezbollah sites. Lebanon ceasefire expires May 18. Gas $4.534/gal. Hormuz Day 74.",
       "brent": {
-        "price": 105.87,
-        "change": "+32.7%",
-        "changeDollars": "+$26.07"
-      },
-      "wti": {
-        "price": 101.42,
-        "change": "+34.3%",
+        "price": 105.72,
+        "change": "+32.5%",
         "changeDollars": "+$25.92"
       },
-      "changePercent": 32.7,
-      "lastUpdated": "2026-05-14"
+      "wti": {
+        "price": 101.17,
+        "change": "+34.0%",
+        "changeDollars": "+$25.67"
+      },
+      "changePercent": 32.5,
+      "lastUpdated": "2026-05-15"
     },
     "priceHistory": [
       {
@@ -1360,6 +1360,13 @@
       "brent": 106.07,
       "wti": 101.54,
       "label": "Day 76 5:15 AM PT \u2014 Brent $106.07 (+32.9%), WTI $101.54 (+34.5%). Brent pulled back ~$2 on diplomacy optimism from Trump-Xi joint statement ('Hormuz must remain open'). Lebanon-Israel Round 3 peace talks open in Washington DC. Hezbollah fiber-optic drone hits Rosh Hanikra \u2014 3 civilians wounded. Ship seized 38nm NE Fujairah heading to Iranian waters. Gas $4.511. Hormuz Day 73.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-15",
+      "brent": 105.72,
+      "wti": 101.17,
+      "label": "Day 77 5:02 PM PT \u2014 Brent $105.72 (+32.4%), WTI $101.17 (+33.9%). Markets stable on Trump-Xi Beijing summit agreement: Hormuz 'must remain open,' China pledges no arms to Iran. Iran VP Aref: 'We will not give up Hormuz at any cost.' Honduras-flagged Hui Chuan seized 38nm NE Fujairah, taken toward Iranian waters (UKMTO). IDF strikes 65+ Hezbollah sites, 20+ killed. Lebanon ceasefire expires May 18. Gas $4.534. Hormuz Day 74.",
       "isEvent": true
     }
   ]
