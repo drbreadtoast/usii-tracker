@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-14T12:15:00Z",
+    "lastUpdated": "2026-05-16T12:12:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -7470,6 +7470,40 @@
       "severity": "high",
       "source": "Washington Times — Tanker seized, cargo ship sunk off Oman coast",
       "sourceUrl": "https://www.washingtontimes.com/news/2026/may/14/tanker-seized-uae-dock-cargo-ship-sunk-oman-coast-amid-hormuz-tension/"
+    },
+    {
+      "id": "dmg-474",
+      "name": "Hamas Military HQ Building — Gaza City Rimal (Hamas Chief Haddad killed)",
+      "location": "Rimal neighborhood, Gaza City",
+      "country": "Palestinian Territories",
+      "lat": 31.52,
+      "lng": 34.45,
+      "date": "2026-05-15",
+      "type": "building",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli airstrike using 13 munitions destroyed a residential building in Gaza City's Rimal neighborhood used by Hamas military wing head Izz al-Din al-Haddad. The strike killed Haddad — confirmed by IDF on May 16 and by Haddad's family to AP. Netanyahu and Defense Minister Katz stated they personally ordered the strike. The building was targeted after an 'operational opportunity' arose following approval the previous week.",
+      "severity": "high",
+      "source": "Times of Israel — Hamas military leader Haddad killed in Gaza airstrike",
+      "sourceUrl": "https://www.timesofisrael.com/israeli-airstrike-targets-hamas-military-leader-izz-al-din-al-haddad-the-last-architect-of-oct-7/"
+    },
+    {
+      "id": "dmg-475",
+      "name": "Hezbollah Infrastructure — Tyre District, Southern Lebanon (37 wounded)",
+      "location": "Tyre district, southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.2,
+      "date": "2026-05-15",
+      "type": "infrastructure",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "IDF launched a wave of airstrikes on Hezbollah infrastructure in the Tyre district, southern Lebanon, issuing urgent evacuation warnings for 5 towns. Lebanese health ministry reported 37 wounded including 6 hospital personnel, 9 women, 4 children. One building struck housed displaced people; another strike targeted a center near a hospital, injuring 7 including 2 nurses. Strikes occurred as Israel-Lebanon ceasefire talks were underway in Washington.",
+      "severity": "medium",
+      "source": "Al Arabiya — Israel army says striking Hezbollah sites in Tyre area",
+      "sourceUrl": "https://english.alarabiya.net/News/middle-east/2026/05/15/israel-army-says-striking-hezbollah-sites-in-tyre-area-of-south-lebanon"
     }
   ]
 }

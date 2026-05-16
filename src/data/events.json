@@ -51671,5 +51671,161 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iran", "us", "diplomacy", "ceasefire", "nuclear", "araghchi", "trump", "negotiations", "deadlock", "day77", "day78"]
+  },
+  {
+    "id": "evt-new-1511",
+    "title": "Hamas Military Chief Izz al-Din al-Haddad Killed in Israeli Airstrike on Gaza City",
+    "description": "Israel launched a precision airstrike on a residential building in Gaza City's Rimal neighborhood targeting Hamas's Gaza chief and head of its military wing, Izz al-Din al-Haddad — described by Israeli officials as 'the last architect of October 7.' The strike occurred May 15 using 13 munitions; IDF confirmed the kill on May 16 after initial indications of his death. Netanyahu and Defense Minister Katz both stated they ordered the killing. Haddad's family confirmed his death to AP. Israeli officials said the strike threw into question the future of the Gaza ceasefire.",
+    "type": "strike",
+    "lat": 31.52,
+    "lng": 34.45,
+    "location": "Gaza City, Rimal neighborhood",
+    "timestamp": "2026-05-15T18:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Israeli airstrike targets Hamas military leader Izz al-Din al-Haddad",
+        "url": "https://www.timesofisrael.com/israeli-airstrike-targets-hamas-military-leader-izz-al-din-al-haddad-the-last-architect-of-oct-7/"
+      },
+      {
+        "name": "Times of Israel liveblog May 16, 2026",
+        "url": "https://www.timesofisrael.com/liveblog-may-16-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 1, "wounded": 0 },
+    "tags": ["hamas", "strike", "gaza", "israel", "haddad", "military-chief", "day78"]
+  },
+  {
+    "id": "evt-new-1512",
+    "title": "IDF Strikes Hezbollah Infrastructure in Tyre — 37 Wounded Including Hospital Staff",
+    "description": "The IDF launched a wave of airstrikes on Hezbollah infrastructure in the Tyre district of southern Lebanon after issuing 'urgent' evacuation warnings for five towns and villages. Lebanese health ministry reported 37 people wounded, including 6 hospital personnel, 9 women, and 4 children. One struck building housed displaced people; a third strike targeted a center near a hospital, injuring 7 including 2 nurses. The strikes occurred while Israeli-Lebanese ceasefire talks were underway in Washington on their second day.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.2,
+    "location": "Tyre district, southern Lebanon",
+    "timestamp": "2026-05-15T14:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Arabiya — Israel army strikes Hezbollah sites in Tyre area",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/05/15/israel-army-says-striking-hezbollah-sites-in-tyre-area-of-south-lebanon"
+      },
+      {
+        "name": "RNZ — Israeli strikes wound dozens in Lebanon as talks enter second day",
+        "url": "https://www.rnz.co.nz/news/political/595389/israeli-strikes-wound-dozens-in-lebanon-as-talks-in-us-enter-second-day"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 0, "wounded": 37 },
+    "tags": ["hezbollah", "strike", "lebanon", "tyre", "israel", "day78"]
+  },
+  {
+    "id": "evt-new-1513",
+    "title": "Ship Seized Near Fujairah, Indian-Flagged Cargo Vessel Sunk Off Oman",
+    "description": "Two maritime incidents near the Strait of Hormuz on May 15. A ship anchored 38 nautical miles northeast of UAE port of Fujairah was seized by unauthorized personnel and diverted toward Iran — UKMTO confirmed the vessel was heading toward Iranian waters. Separately, an Indian-flagged cargo ship, the Haji Ali, was attacked and sunk off the coast of Oman while en route from Somalia to Sharjah; all 14 Indian crew members were rescued by Oman's coast guard. Attackers were not officially attributed. A senior Iranian official had reiterated Iran's right to seize tankers connected to the US.",
+    "type": "naval",
+    "lat": 24.5,
+    "lng": 56.5,
+    "location": "Northeast of Fujairah, UAE / off Oman coast",
+    "timestamp": "2026-05-15T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "PBS NewsHour — Tensions flare near Strait of Hormuz as one ship seized and another sunk",
+        "url": "https://www.pbs.org/newshour/world/tensions-flare-near-strait-of-hormuz-as-one-ship-is-seized-and-another-is-sunk"
+      },
+      {
+        "name": "NBC News — Ship reported seized, another attacked near Strait of Hormuz",
+        "url": "https://www.nbcnews.com/world/iran/ship-reported-seized-another-attacked-strait-hormuz-rcna345086"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["naval", "hormuz", "seizure", "iran", "shipping", "uae", "oman", "day78"]
+  },
+  {
+    "id": "evt-new-1514",
+    "title": "UAE Accelerates West-East Oil Pipeline to Bypass Strait of Hormuz — Operational by 2027",
+    "description": "UAE Crown Prince Sheikh Khaled bin Mohamed bin Zayed announced the acceleration of the West-East Pipeline project at an ADNOC executive meeting. The new pipeline will double export capacity through Fujairah port. The UAE already operates the ADCOP pipeline (380 km, 1.5M bpd capacity). The new pipeline is expected to be fully operational by 2027. The announcement was driven by the ongoing Hormuz blockade and Iranian maritime protocols forcing Gulf nations to find alternative export routes.",
+    "type": "infrastructure",
+    "lat": 25.1,
+    "lng": 56.3,
+    "location": "Abu Dhabi / Fujairah, UAE",
+    "timestamp": "2026-05-15T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "CNBC — UAE West-East oil pipeline Strait Hormuz Iran war",
+        "url": "https://www.cnbc.com/2026/05/15/uae-west-east-oil-pipeline-strait-hormuz-iran-war.html"
+      },
+      {
+        "name": "Al Jazeera — UAE to accelerate oil pipeline project to bypass Hormuz",
+        "url": "https://www.aljazeera.com/news/2026/5/15/uae-to-accelerate-oil-pipeline-project-to-bypass-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["uae", "pipeline", "hormuz", "energy", "infrastructure", "day78"]
+  },
+  {
+    "id": "evt-new-1515",
+    "title": "Araghchi at BRICS: 'We Cannot Trust the Americans at All' — Enriched Uranium in Deadlock",
+    "description": "Iranian Foreign Minister Abbas Araghchi, speaking at the BRICS summit in New Delhi, stated Iran is 'in doubt about [US] seriousness' and that 'we cannot trust the Americans at all.' He called lack of US trust 'the main obstacle to any diplomatic effort,' citing contradictory daily messages from Washington that 'deepen mistrust.' Araghchi confirmed the enriched uranium issue remains a 'deadlock' and will likely be 'postponed' in future talks. He also warned the US of rising economic costs, saying 'Americans are told that they must absorb rocketing costs of war of choice on Iran.'",
+    "type": "diplomatic",
+    "lat": 28.614,
+    "lng": 77.209,
+    "location": "New Delhi, India (BRICS Summit)",
+    "timestamp": "2026-05-15T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Araghchi: Iran doubts US seriousness about talks amid nuclear deadlock",
+        "url": "https://www.aljazeera.com/news/2026/5/15/araghchi_iran_doubts_us_seriousness_about_talks_amid_nuclear_deadlock"
+      },
+      {
+        "name": "Washington Post — Iran-US war diplomacy",
+        "url": "https://www.washingtonpost.com/world/2026/05/15/iran-us-israel-war-trump-oil-hormuz/17ad56ca-5068-11f1-97e7-22c6c29ff0d8_story.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "araghchi", "brics", "diplomacy", "nuclear", "deadlock", "day78"]
+  },
+  {
+    "id": "evt-new-1516",
+    "title": "Trump Says He Would Accept 20-Year Iranian Uranium Enrichment Suspension — Policy Shift",
+    "description": "President Trump, departing China aboard Air Force One, said he would accept a 20-year suspension of Iran's uranium enrichment if Tehran gave a 'real' guarantee — a notable shift from his previous demand for a permanent halt. Trump and Xi also agreed in a joint statement that the Strait of Hormuz 'must remain open' and that Iran 'can never have a nuclear weapon,' though Bloomberg and MSNBC noted the two sides 'disagree on what they agreed on.' Trump said Xi would help with Iran but added 'we don't need favors.'",
+    "type": "diplomatic",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "location": "Beijing, China (Trump departing)",
+    "timestamp": "2026-05-15T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Times of Israel — Trump says he's OK with Iran suspending nuke program for 20 years",
+        "url": "https://www.timesofisrael.com/trump-says-hes-ok-with-iran-suspending-nuke-program-for-20-years-if-theres-a-real-commitment/"
+      },
+      {
+        "name": "CNBC — Trump-Xi US-China Iran war deal",
+        "url": "https://www.cnbc.com/2026/05/15/trump-xi-us-china-iran-war-deal.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "iran", "nuclear", "china", "xi", "diplomacy", "enrichment", "day78"]
   }
 ]
