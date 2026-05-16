@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 77
+    "conflictDay": 78
   },
   "oilPrices": {
     "preWar": {
@@ -73,20 +73,20 @@
       }
     },
     "current": {
-      "date": "2026-05-15",
-      "label": "Day 77 12:09 PM PDT — Brent $106.89/bbl (+33.9% from pre-war $79.84) — steady from earlier session. WTI $101.86/bbl (+34.9% from $75.51). Israel-Lebanon ceasefire extended 45 days. IRGC seized Hui Chan floating armory near Fujairah. IDF soldier Negev Dagan (20, Golani) killed by Hezbollah mortar. Trump: decimation of Iran to be continued. House WPA 212-212 fails. BRICS ends without joint statement. Hormuz Day 74. Gas $4.53/gal.",
+      "date": "2026-05-16",
+      "label": "Day 78 — Brent $111.04/bbl (+39.1% from pre-war $79.84) — WTI $104.42/bbl (+38.3% from $75.51). Weekly gain ~10% on persistent Hormuz risks and stalled US-Iran talks. OPEC production fell 30% (9.7M bpd) since war began. IEA: 10.8M bpd shut-in at peak May. Saudi production down 23% to 7.8M bpd. Bloomberg: 4 supertankers (~2M bbl/day Iraqi crude) trickling through Hormuz since May 10. Gas $4.534/gal. Hormuz Day 75. Hormuz effectively closed.",
       "brent": {
-        "price": 106.89,
-        "change": "+33.9%",
-        "changeDollars": "+$27.05"
+        "price": 111.04,
+        "change": "+39.1%",
+        "changeDollars": "+$31.20"
       },
       "wti": {
-        "price": 101.86,
-        "change": "+34.9%",
-        "changeDollars": "+$26.35"
+        "price": 104.42,
+        "change": "+38.3%",
+        "changeDollars": "+$28.91"
       },
-      "changePercent": 33.9,
-      "lastUpdated": "2026-05-15"
+      "changePercent": 39.1,
+      "lastUpdated": "2026-05-16"
     },
     "priceHistory": [
       {
@@ -1380,6 +1380,13 @@
       "brent": 105.72,
       "wti": 101.17,
       "label": "Day 77 5:02 PM PT — Brent $105.72 (+32.4%), WTI $101.17 (+33.9%). Markets stable on Trump-Xi Beijing summit agreement: Hormuz 'must remain open,' China pledges no arms to Iran. Iran VP Aref: 'We will not give up Hormuz at any cost.' Honduras-flagged Hui Chuan seized 38nm NE Fujairah, taken toward Iranian waters (UKMTO). IDF strikes 65+ Hezbollah sites, 20+ killed. Lebanon ceasefire expires May 18. Gas $4.534. Hormuz Day 74.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-16",
+      "brent": 111.04,
+      "wti": 104.42,
+      "label": "Day 78 — Brent $111.04 (+39.1%), WTI $104.42 (+38.3%). Oil surges ~10% WoW on persistent Hormuz risks and stalled US-Iran talks. OPEC production down 30% (9.7M bpd) since war began. Saudi output 7.8M bpd (-23%). IEA: 10.8M bpd shut-in peak in May. Only ~2M bbl/day trickling through Hormuz via Iraqi supertankers since May 10. LNG spot Asia +140%. Natural gas US producers selling LNG at ~$20/MMBtu vs $3/MMBtu production cost. Gas $4.534. Hormuz Day 75.",
       "isEvent": true
     }
   ]
