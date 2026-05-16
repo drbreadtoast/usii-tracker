@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-05-16T19:05:00Z",
+  "lastFullUpdate": "2026-05-16T19:40:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,9 +10,9 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-1519",
-          "totalEntries": 1568,
-          "lastUpdated": "2026-05-16T19:05:00Z"
+          "lastId": "evt-new-1522",
+          "totalEntries": 1570,
+          "lastUpdated": "2026-05-16T19:40:00Z"
         },
         {
           "file": "war-timeline.json",
@@ -24,9 +24,9 @@
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-1233",
-          "totalEntries": 25,
-          "lastUpdated": "2026-05-16T19:05:00Z"
+          "lastId": "brk-1237",
+          "totalEntries": 29,
+          "lastUpdated": "2026-05-16T19:40:00Z"
         },
         {
           "file": "death-toll.json",
@@ -44,8 +44,8 @@
           "file": "statements-timeline.json",
           "structure": "object-with-speakers",
           "lastId": null,
-          "totalEntries": 917,
-          "lastUpdated": "2026-05-16T19:05:00Z"
+          "totalEntries": 910,
+          "lastUpdated": "2026-05-16T19:40:00Z"
         },
         {
           "file": "war-costs.json",
@@ -64,23 +64,23 @@
         {
           "file": "social-posts.json",
           "structure": "top-level-array",
-          "lastId": "social-1295",
-          "totalEntries": 17,
-          "lastUpdated": "2026-05-16T19:05:00Z"
+          "lastId": "social-1300",
+          "totalEntries": 22,
+          "lastUpdated": "2026-05-16T19:40:00Z"
         },
         {
           "file": "government-statements.json",
           "structure": "top-level-array",
-          "lastId": "gov-901",
-          "totalEntries": 901,
-          "lastUpdated": "2026-05-16T19:05:00Z"
+          "lastId": "gov-904",
+          "totalEntries": 904,
+          "lastUpdated": "2026-05-16T19:40:00Z"
         },
         {
           "file": "escalations.json",
           "structure": "top-level-array",
-          "lastId": "esc-637",
-          "totalEntries": 638,
-          "lastUpdated": "2026-05-16T19:05:00Z"
+          "lastId": "esc-639",
+          "totalEntries": 640,
+          "lastUpdated": "2026-05-16T19:40:00Z"
         },
         {
           "file": "gas-prices.json",
