@@ -1,0 +1,99 @@
+{
+  "sectionId": "markets",
+  "lastUpdated": "2026-05-17T14:00:00Z",
+  "stories": [
+    {
+      "id": "example-fed-minutes-2026-05",
+      "headline": "Fed minutes signal split on timing of next rate move",
+      "summary": "Minutes from the May FOMC meeting showed members 'broadly agreed' inflation progress had slowed but disagreed on when to next adjust the policy rate. Traders moved expectations to September.",
+      "category": "markets",
+      "importance": 4,
+      "tags": ["seed", "example", "fed", "rates"],
+      "firstSeenAt": "2026-05-17T08:00:00Z",
+      "updatedAt": "2026-05-17T13:00:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Centers on what the minutes actually said and how rates markets repriced.",
+          "summary": "Wire and market-focused coverage notes that fed funds futures shifted to imply a September cut at roughly 55% probability, up from 40% before the release. Several outlets quote economists saying the minutes 'lean dovish on the margin.'",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "Fed minutes show divided committee on rate path",
+              "publishedAt": "2026-05-17T11:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com",
+              "title": "Traders bring forward Fed cut bets after minutes release",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Frames the minutes as evidence the Fed is behind the curve on inflation persistence.",
+          "summary": "Right-leaning financial coverage emphasizes commentary from members concerned that services inflation remains sticky, and argues that any near-term cut would be premature given housing and wage data.",
+          "sources": [
+            {
+              "outlet": "The Wall Street Journal",
+              "url": "https://www.wsj.com",
+              "title": "Fed minutes spotlight sticky services inflation",
+              "publishedAt": "2026-05-17T12:00:00Z",
+              "allSidesRating": "lean-right"
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "Official Fed communication preserves optionality and emphasizes data dependence.",
+          "summary": "The Federal Reserve's published minutes reiterate the committee's commitment to its 2% inflation target and note continued data dependence. No forward guidance on timing of the next move was offered.",
+          "sources": [
+            {
+              "outlet": "Federal Reserve",
+              "url": "https://www.federalreserve.gov",
+              "title": "Minutes of the Federal Open Market Committee, May 2026",
+              "publishedAt": "2026-05-17T10:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example-oil-supply-2026-05",
+      "headline": "Brent slips below $82 as OPEC+ signals possible output increase",
+      "summary": "Brent crude fell more than 2% intraday after delegates indicated a working group is studying a modest output increase for Q3. WTI followed, dipping below $78.",
+      "category": "markets",
+      "importance": 3,
+      "tags": ["seed", "example", "oil", "opec"],
+      "firstSeenAt": "2026-05-17T07:00:00Z",
+      "updatedAt": "2026-05-17T13:15:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Wire reporting treats the slip as a supply-driven reaction to OPEC+ signaling.",
+          "summary": "Mainstream wires note Brent traded as low as $81.40 in London hours after delegates told reporters a working group is studying production increases. Analysts surveyed expect no formal decision before the June meeting.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "Brent slips as OPEC+ delegates discuss possible Q3 output rise",
+              "publishedAt": "2026-05-17T10:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com",
+              "title": "Oil drops as OPEC+ weighs adding barrels",
+              "publishedAt": "2026-05-17T11:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

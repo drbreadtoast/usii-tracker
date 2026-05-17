@@ -1,0 +1,59 @@
+{
+  "sectionId": "ai-tech",
+  "lastUpdated": "2026-05-17T14:00:00Z",
+  "stories": [
+    {
+      "id": "example-ai-export-rules-2026-05",
+      "headline": "Commerce Department finalizes new AI chip export rules",
+      "summary": "The Department of Commerce released final rules expanding restrictions on the export of advanced AI accelerators to a broader list of countries. Industry groups raised concerns about implementation timing.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": ["seed", "example", "ai", "export-controls"],
+      "firstSeenAt": "2026-05-17T08:00:00Z",
+      "updatedAt": "2026-05-17T13:30:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Centers on the technical scope of the rules and the industry reaction.",
+          "summary": "Mainstream tech coverage details the new license thresholds, the country tiering, and the 60-day implementation window. Industry trade groups have called for guidance on the 'unrestricted research collaboration' carve-out.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "US finalizes broader AI chip export controls",
+              "publishedAt": "2026-05-17T10:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Chinese state media frames the rules as US economic containment.",
+          "summary": "Chinese state outlets describe the rules as the latest in a multi-year US effort to constrain China's AI development. Coverage highlights commentary from Chinese officials calling the measures unilateral and damaging to global supply chains.",
+          "sources": [
+            {
+              "outlet": "Global Times",
+              "url": "https://www.globaltimes.cn",
+              "title": "US escalates chip-war with new export controls",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "isStateMedia": true
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "Official statement emphasizes national security framing.",
+          "summary": "The Department of Commerce statement says the rules 'protect critical US technology from being used to advance the military capabilities of adversaries' while preserving commercial relationships with allies.",
+          "sources": [
+            {
+              "outlet": "US Department of Defense",
+              "url": "https://www.defense.gov",
+              "title": "Commerce-DoD joint statement on AI export rule update",
+              "publishedAt": "2026-05-17T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

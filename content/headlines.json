@@ -1,0 +1,154 @@
+{
+  "sectionId": "headlines",
+  "lastUpdated": "2026-05-17T14:00:00Z",
+  "stories": [
+    {
+      "id": "example-ukraine-front-2026-05",
+      "headline": "Heavy fighting reported along eastern Ukraine front; civilian evacuations continue",
+      "summary": "Ukrainian and Russian forces exchanged artillery fire along multiple points of the eastern front. Regional officials reported continued civilian evacuations from frontline towns.",
+      "category": "war",
+      "importance": 5,
+      "tags": ["seed", "example", "ukraine", "russia"],
+      "firstSeenAt": "2026-05-17T06:00:00Z",
+      "updatedAt": "2026-05-17T13:45:00Z",
+      "perspectives": [
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Western European coverage emphasizes Russian advances and the strain on Ukrainian defenses.",
+          "summary": "Western outlets cite Ukrainian general staff briefings reporting incremental Russian gains. Coverage notes ammunition shortages and European officials saying additional aid is being expedited.",
+          "sources": [
+            {
+              "outlet": "BBC",
+              "url": "https://www.bbc.com",
+              "title": "Ukraine reports heavy fighting along eastern front",
+              "publishedAt": "2026-05-17T09:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Russian state media frames operations as steady advances against fortified positions.",
+          "summary": "Russian state outlets describe the operations as planned advances and report destruction of Ukrainian equipment. Independent verification is not available.",
+          "sources": [
+            {
+              "outlet": "TASS",
+              "url": "https://tass.com",
+              "title": "Russian defense ministry reports advances on eastern front",
+              "publishedAt": "2026-05-17T10:00:00Z",
+              "isStateMedia": true
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Wire coverage focuses on what is independently verifiable and the human cost.",
+          "summary": "Wires note battlefield claims from both sides cannot be independently verified and focus on confirmed civilian casualty figures and evacuation operations.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "Fighting intensifies in eastern Ukraine; civilians flee frontline towns",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example-budget-deal-2026-05",
+      "headline": "Congress reaches tentative deal on FY2027 budget framework",
+      "summary": "House and Senate leadership announced a tentative top-line agreement on the FY2027 budget framework, opening a path to avoid a partial government shutdown when current funding expires May 31.",
+      "category": "us-politics",
+      "importance": 5,
+      "tags": ["seed", "example", "congress", "budget"],
+      "firstSeenAt": "2026-05-17T08:00:00Z",
+      "updatedAt": "2026-05-17T13:45:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Frames the deal as Democrats forcing the GOP to back off proposed cuts to social programs.",
+          "summary": "Left-leaning coverage emphasizes that Democratic negotiators preserved Medicaid expansion and rental-assistance funding, and that the deal walks back deeper non-defense discretionary cuts.",
+          "sources": [
+            {
+              "outlet": "MSNBC",
+              "url": "https://www.msnbc.com",
+              "title": "Democrats hold line on social spending in budget framework deal",
+              "publishedAt": "2026-05-17T11:00:00Z",
+              "allSidesRating": "left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Reports the deal as a procedural off-ramp rather than a policy victory for either side.",
+          "summary": "Wires describe the agreement as a top-line number with policy fights deferred. Appropriators have eleven legislative days to draft text and the deal is contingent on no new riders.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "US lawmakers strike tentative FY2027 budget framework, details pending",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Frames the deal as House Republicans giving up on the spending cuts they campaigned on.",
+          "summary": "Right-leaning outlets argue the framework abandons deeper non-defense cuts conservatives demanded, and highlight Freedom Caucus members who say they'll vote against any package built on this top-line.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com",
+              "title": "Conservatives revolt as GOP leadership accepts higher spending baseline",
+              "publishedAt": "2026-05-17T12:00:00Z",
+              "allSidesRating": "right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example-ai-export-rules-2026-05",
+      "headline": "Commerce Department finalizes new AI chip export rules",
+      "summary": "The Department of Commerce released final rules expanding restrictions on advanced AI accelerator exports to a broader list of countries. Industry groups raised concerns about implementation timing.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": ["seed", "example", "ai", "export-controls"],
+      "firstSeenAt": "2026-05-17T08:00:00Z",
+      "updatedAt": "2026-05-17T13:30:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Centers on the technical scope of the rules and the industry reaction.",
+          "summary": "Tech coverage details new license thresholds, country tiering, and a 60-day implementation window. Industry trade groups have asked for guidance on the 'unrestricted research collaboration' carve-out.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "US finalizes broader AI chip export controls",
+              "publishedAt": "2026-05-17T10:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Chinese state media frames the rules as US economic containment.",
+          "summary": "Chinese state outlets describe the rules as the latest in a multi-year US containment effort. Coverage highlights commentary calling the measures unilateral and damaging to global supply chains.",
+          "sources": [
+            {
+              "outlet": "Global Times",
+              "url": "https://www.globaltimes.cn",
+              "title": "US escalates chip-war with new export controls",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "isStateMedia": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

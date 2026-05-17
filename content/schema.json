@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theossreport.dev/content/schema.json",
+  "title": "TheOSSreport Content Schema",
+  "description": "Schema for all content files in /content/. Source of truth for the validator and the scheduled agent prompt.",
+  "type": "object",
+  "definitions": {
+    "isoDateTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp, e.g. 2026-05-17T16:00:00Z"
+    },
+    "allSidesRating": {
+      "type": ["string", "null"],
+      "enum": ["left", "lean-left", "center", "lean-right", "right", "mixed", null]
+    },
+    "lean": {
+      "type": "string",
+      "enum": [
+        "left",
+        "center",
+        "right",
+        "foreign-western",
+        "foreign-eastern",
+        "foreign-global-south",
+        "government",
+        "social"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "headlines",
+        "us-politics",
+        "foreign",
+        "markets",
+        "ai-tech",
+        "war",
+        "underreported"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["outlet", "url", "title", "publishedAt"],
+      "properties": {
+        "outlet": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "url": { "type": "string", "format": "uri", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "publishedAt": { "$ref": "#/definitions/isoDateTime" },
+        "allSidesRating": { "$ref": "#/definitions/allSidesRating" },
+        "isStateMedia": { "type": "boolean" }
+      }
+    },
+    "perspective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lean", "summary", "keyFraming", "sources"],
+      "properties": {
+        "lean": { "$ref": "#/definitions/lean" },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600,
+          "description": "2-4 sentences describing how this lean covers the story"
+        },
+        "keyFraming": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 220,
+          "description": "One-sentence summary of how this lean frames the story"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": { "$ref": "#/definitions/source" }
+        }
+      }
+    },
+    "story": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "headline",
+        "summary",
+        "category",
+        "importance",
+        "perspectives",
+        "firstSeenAt",
+        "updatedAt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]{4,80}$",
+          "description": "Slug-style stable ID. Reuse across runs for continuing stories."
+        },
+        "headline": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 140,
+          "description": "Neutral phrasing, ≤140 chars"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "description": "Neutral 2-3 sentence TL;DR"
+        },
+        "category": { "$ref": "#/definitions/category" },
+        "importance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1 = minor, 5 = top story of the day"
+        },
+        "perspectives": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": { "$ref": "#/definitions/perspective" }
+        },
+        "firstSeenAt": { "$ref": "#/definitions/isoDateTime" },
+        "updatedAt": { "$ref": "#/definitions/isoDateTime" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 40 }
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sectionId", "lastUpdated", "stories"],
+      "properties": {
+        "sectionId": { "$ref": "#/definitions/category" },
+        "lastUpdated": { "$ref": "#/definitions/isoDateTime" },
+        "stories": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 30,
+          "items": { "$ref": "#/definitions/story" }
+        }
+      }
+    },
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lastUpdated", "sections"],
+      "properties": {
+        "lastUpdated": { "$ref": "#/definitions/isoDateTime" },
+        "buildId": { "type": "string" },
+        "sections": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "headlines": { "$ref": "#/definitions/sectionMeta" },
+            "us-politics": { "$ref": "#/definitions/sectionMeta" },
+            "foreign": { "$ref": "#/definitions/sectionMeta" },
+            "markets": { "$ref": "#/definitions/sectionMeta" },
+            "ai-tech": { "$ref": "#/definitions/sectionMeta" },
+            "war": { "$ref": "#/definitions/sectionMeta" },
+            "underreported": { "$ref": "#/definitions/sectionMeta" }
+          },
+          "required": [
+            "headlines",
+            "us-politics",
+            "foreign",
+            "markets",
+            "ai-tech",
+            "war",
+            "underreported"
+          ]
+        }
+      }
+    },
+    "sectionMeta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lastUpdated", "storyCount"],
+      "properties": {
+        "lastUpdated": { "$ref": "#/definitions/isoDateTime" },
+        "storyCount": { "type": "integer", "minimum": 0 }
+      }
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/section" },
+    { "$ref": "#/definitions/manifest" }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "sectionId": "us-politics",
+  "lastUpdated": "2026-05-17T14:00:00Z",
+  "stories": [
+    {
+      "id": "example-budget-deal-2026-05",
+      "headline": "Congress reaches tentative deal on FY2027 budget framework",
+      "summary": "House and Senate leadership announced a tentative top-line agreement on the FY2027 budget framework Friday, opening a path to avoid a partial government shutdown when current funding expires May 31.",
+      "category": "us-politics",
+      "importance": 5,
+      "tags": ["seed", "example", "congress", "budget"],
+      "firstSeenAt": "2026-05-17T08:00:00Z",
+      "updatedAt": "2026-05-17T13:45:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Frames the deal as Democrats forcing the GOP to back off proposed cuts to social programs.",
+          "summary": "Left-leaning coverage emphasizes that Democratic negotiators preserved funding levels for Medicaid expansion and rental-assistance programs, and that the deal walks back the deeper non-defense discretionary cuts House Republicans proposed in March.",
+          "sources": [
+            {
+              "outlet": "MSNBC",
+              "url": "https://www.msnbc.com",
+              "title": "Democrats hold line on social spending in budget framework deal",
+              "publishedAt": "2026-05-17T11:00:00Z",
+              "allSidesRating": "left"
+            },
+            {
+              "outlet": "The New York Times",
+              "url": "https://www.nytimes.com",
+              "title": "Tentative budget deal preserves key Democratic priorities",
+              "publishedAt": "2026-05-17T12:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Reports the deal as a procedural off-ramp rather than a policy victory for either side.",
+          "summary": "Centrist wires describe the agreement as a top-line number with substantive policy fights deferred. Appropriators have eleven legislative days to draft text and the deal is contingent on no new policy riders being attached in committee.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "US lawmakers strike tentative FY2027 budget framework, details pending",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Associated Press",
+              "url": "https://apnews.com",
+              "title": "Budget framework deal would avert May 31 shutdown if passed",
+              "publishedAt": "2026-05-17T12:15:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Frames the deal as House Republicans giving up on the spending cuts they campaigned on.",
+          "summary": "Right-leaning outlets argue the framework abandons the deeper non-defense cuts conservative members demanded, and they highlight Freedom Caucus members who say they will vote against any package built on this top-line.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com",
+              "title": "Conservatives revolt as GOP leadership accepts higher spending baseline",
+              "publishedAt": "2026-05-17T12:00:00Z",
+              "allSidesRating": "right"
+            },
+            {
+              "outlet": "The Wall Street Journal",
+              "url": "https://www.wsj.com",
+              "title": "Budget deal abandons promised spending discipline, critics say",
+              "publishedAt": "2026-05-17T12:45:00Z",
+              "allSidesRating": "lean-right"
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "Official statements from White House and congressional leadership characterize the deal as responsible governing.",
+          "summary": "The White House welcomed the framework and urged appropriators to complete text by May 28. The Speaker's office and Senate Majority Leader's office released near-identical statements emphasizing bipartisan cooperation and avoiding a shutdown.",
+          "sources": [
+            {
+              "outlet": "White House",
+              "url": "https://www.whitehouse.gov",
+              "title": "Statement on bipartisan budget framework agreement",
+              "publishedAt": "2026-05-17T13:30:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example-scotus-ruling-2026-05",
+      "headline": "Supreme Court hears oral arguments in landmark Section 230 case",
+      "summary": "Justices heard nearly three hours of argument in a case that could narrow the liability shield that has protected internet platforms for nearly three decades. A decision is expected by late June.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": ["seed", "example", "scotus", "section-230"],
+      "firstSeenAt": "2026-05-17T09:00:00Z",
+      "updatedAt": "2026-05-17T13:50:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Frames narrowing Section 230 as a step toward accountability for platform harms.",
+          "summary": "Left-leaning coverage focuses on plaintiffs' arguments about algorithmic amplification of harmful content and notes that civil rights groups filed amicus briefs supporting a narrower reading of the statute.",
+          "sources": [
+            {
+              "outlet": "Vox",
+              "url": "https://www.vox.com",
+              "title": "The Section 230 case that could remake the internet",
+              "publishedAt": "2026-05-17T10:00:00Z",
+              "allSidesRating": "left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Centers on the procedural questions before the court and the breadth of any ruling.",
+          "summary": "Centrist legal coverage notes the justices appeared divided on whether algorithmic recommendations constitute the kind of 'publishing' Section 230 protects. Several questions focused on how to draw lines without breaking the underlying web.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "US Supreme Court appears split on Section 230 reach",
+              "publishedAt": "2026-05-17T11:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Frames the case as an opportunity to check Big Tech censorship of conservative voices.",
+          "summary": "Right-leaning outlets emphasize arguments from conservative state attorneys general and lawmakers that Section 230 has shielded platforms from accountability for moderation decisions that disproportionately affect conservative users.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com",
+              "title": "Section 230 reform takes center stage at Supreme Court",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "allSidesRating": "right"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

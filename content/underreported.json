@@ -1,0 +1,59 @@
+{
+  "sectionId": "underreported",
+  "lastUpdated": "2026-05-17T14:00:00Z",
+  "stories": [
+    {
+      "id": "example-sahel-conflict-2026-05",
+      "headline": "Ongoing Sahel conflict displaces additional 150,000 in past month",
+      "summary": "UN refugee agency figures show continued displacement across the central Sahel as armed-group activity expands. The story receives minimal coverage in major US outlets.",
+      "category": "underreported",
+      "importance": 4,
+      "tags": ["seed", "example", "sahel", "displacement"],
+      "firstSeenAt": "2026-05-17T07:30:00Z",
+      "updatedAt": "2026-05-17T13:00:00Z",
+      "perspectives": [
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "African outlets cover the regional impact and the failure of regional security arrangements.",
+          "summary": "Regional outlets focus on the breakdown of the Liptako-Gourma security framework and the impact on rural agricultural communities. Coverage emphasizes humanitarian access constraints and the limited international attention to the crisis.",
+          "sources": [
+            {
+              "outlet": "Daily Nation",
+              "url": "https://nation.africa",
+              "title": "Sahel displacement crisis deepens as security framework falters",
+              "publishedAt": "2026-05-17T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "European outlets cover the story primarily through the lens of migration risk to Europe.",
+          "summary": "Coverage in European outlets notes the displacement figures and frames them around concerns about onward migration toward North Africa and Europe. Humanitarian framing varies by outlet.",
+          "sources": [
+            {
+              "outlet": "BBC",
+              "url": "https://www.bbc.com",
+              "title": "Sahel conflict drives record displacement",
+              "publishedAt": "2026-05-17T10:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Wire coverage exists but receives limited US placement.",
+          "summary": "AP and Reuters carried the UN figures with brief dispatches. None of the major US cable or network broadcasts led with the story; coverage was relegated to back-of-segment or wire-service mentions.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "UN: 150,000 displaced in Sahel over past month",
+              "publishedAt": "2026-05-17T11:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

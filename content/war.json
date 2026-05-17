@@ -1,0 +1,73 @@
+{
+  "sectionId": "war",
+  "lastUpdated": "2026-05-17T14:00:00Z",
+  "stories": [
+    {
+      "id": "example-ukraine-front-2026-05",
+      "headline": "Heavy fighting reported along eastern Ukraine front; civilian evacuations continue",
+      "summary": "Ukrainian and Russian forces exchanged artillery fire along multiple points of the eastern front. Regional officials reported continued civilian evacuations from frontline towns.",
+      "category": "war",
+      "importance": 5,
+      "tags": ["seed", "example", "ukraine", "russia"],
+      "firstSeenAt": "2026-05-17T06:00:00Z",
+      "updatedAt": "2026-05-17T13:45:00Z",
+      "perspectives": [
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Western European coverage emphasizes Russian advances and the strain on Ukrainian defenses.",
+          "summary": "Western outlets cite Ukrainian general staff briefings reporting incremental Russian gains in several sectors. Coverage notes ammunition shortages in some units and quotes European officials saying additional aid packages are being expedited.",
+          "sources": [
+            {
+              "outlet": "BBC",
+              "url": "https://www.bbc.com",
+              "title": "Ukraine reports heavy fighting along eastern front",
+              "publishedAt": "2026-05-17T09:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Deutsche Welle",
+              "url": "https://www.dw.com",
+              "title": "Pressure builds on EU to accelerate ammunition deliveries",
+              "publishedAt": "2026-05-17T11:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Russian state media frames the day's fighting as steady advances against fortified positions.",
+          "summary": "Russian state outlets describe the operations as planned advances and report that defense ministry briefings claim destruction of Ukrainian equipment and ammunition depots. Independent verification is not available.",
+          "sources": [
+            {
+              "outlet": "TASS",
+              "url": "https://tass.com",
+              "title": "Russian defense ministry reports advances on eastern front",
+              "publishedAt": "2026-05-17T10:00:00Z",
+              "isStateMedia": true
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Wire coverage focuses on what is independently verifiable and the human cost.",
+          "summary": "Wire services note that battlefield claims from both sides cannot be independently verified and focus on confirmed civilian casualty figures from regional administrations and evacuation operations.",
+          "sources": [
+            {
+              "outlet": "Reuters",
+              "url": "https://www.reuters.com",
+              "title": "Fighting intensifies in eastern Ukraine; civilians flee frontline towns",
+              "publishedAt": "2026-05-17T11:30:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Associated Press",
+              "url": "https://apnews.com",
+              "title": "Civilian evacuations continue as artillery fire reported across eastern Ukraine",
+              "publishedAt": "2026-05-17T12:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
