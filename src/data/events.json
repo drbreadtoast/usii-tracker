@@ -52155,5 +52155,91 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["araghchi", "iran", "trump", "us", "hormuz", "pgsa", "toll", "victor", "day79"]
+  },
+  {
+    "id": "evt-new-1529",
+    "title": "Drone Strike Hits Barakah Nuclear Power Plant Perimeter in Abu Dhabi — First Attack on Facility",
+    "description": "A drone struck an electrical generator on the outer perimeter of the UAE's Barakah Nuclear Energy Plant in the Al Dhafra region of Abu Dhabi on May 17, igniting a fire. The UAE Federal Authority for Nuclear Regulation confirmed no radiological release occurred, no injuries were reported, and all four reactor units continued operating normally, with one temporarily switched to emergency diesel generators. The attack marked the first time the four-reactor facility — which provides approximately 25% of the UAE's electricity — was targeted since the war began on February 28. No group claimed responsibility, but Iran is the presumptive actor given ongoing Iran-UAE hostilities since the ceasefire breakdown on May 4.",
+    "type": "strike",
+    "lat": 23.97,
+    "lng": 52.19,
+    "location": "Barakah Nuclear Energy Plant, Al Dhafra, Abu Dhabi, UAE",
+    "timestamp": "2026-05-17T09:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "The National — Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+        "url": "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+      },
+      {
+        "name": "ABC News — Drone strike sparks fire at perimeter of UAE nuclear power plant",
+        "url": "https://abcnews.com/US/wireStory/drone-strike-sparks-fire-perimeter-uaes-nuclear-power-133046073"
+      },
+      {
+        "name": "Al Jazeera — Iran war live: Tehran eyes tolls in Hormuz, Trump warns of 'very bad time'",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["uae", "iran", "nuclear", "barakah", "drone", "abudhabi", "day79"]
+  },
+  {
+    "id": "evt-new-1530",
+    "title": "IDF Strikes ~100 Hezbollah Targets in Southern Lebanon Over Weekend; Golani Litani Raid",
+    "description": "The IDF struck approximately 100 Hezbollah targets across southern Lebanon over the May 16-17 weekend in response to escalating Hezbollah attacks, including the killing of Captain Maoz Israel Recanati. Targets included observation posts, weapons storage facilities, surveillance infrastructure, and command-and-control positions. Separately, the IDF disclosed a weeklong ground raid by Golani Brigade Reconnaissance Unit beyond the Litani River near Zawtar al-Sharqiyah, uncovering warheads, ammunition, and weapons caches. Lebanon's state news agency NNA reported at least 9 civilians wounded in strikes near Zibqin (Tyre area). The IDF also issued forced evacuation warnings for villages Irzay, Merouaniyeh, Babliyeh, and Baisariyah. Lebanon reported 18 killed and 124 wounded in Israeli strikes over the 24-hour period ending May 17.",
+    "type": "strike",
+    "lat": 33.25,
+    "lng": 35.35,
+    "location": "Southern Lebanon (Tyre district, Litani River area)",
+    "timestamp": "2026-05-17T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says it hit around 100 Hezbollah targets in southern Lebanon this weekend",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-hit-around-100-hezbollah-targets-in-southern-lebanon-this-weekend/"
+      },
+      {
+        "name": "Haaretz — Lebanon says 18 killed, 124 wounded in Israeli strikes over past day",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-17/ty-article-live/lebanon-says-18-killed-124-wounded-in-israeli-strikes-over-past-day/0000019e-33dd-d26f-a39e-b7dd60e00004"
+      },
+      {
+        "name": "Times of Israel — IDF says it carried out weeklong raid on Hezbollah sites beyond Lebanon's Litani River",
+        "url": "https://www.timesofisrael.com/idf-says-it-carried-out-weeklong-raid-on-hezbollah-sites-beyond-lebanons-litani-river/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 18, "wounded": 124 },
+    "tags": ["israel", "hezbollah", "lebanon", "airstrike", "litani", "ceasefire-violation", "day79"]
+  },
+  {
+    "id": "evt-new-1531",
+    "title": "USS Gerald R. Ford Returns to Norfolk After Record 11-Month Deployment",
+    "description": "The USS Gerald R. Ford (CVN-78) carrier strike group returned to Naval Station Norfolk, Virginia on May 17 after an approximately 11-month (326-day) deployment — the longest for a US carrier strike group since the Vietnam War. The Ford brought approximately 4,500–5,000 sailors home. The carrier served as the centerpiece of US strike operations during Operation Epic Fury and the subsequent blockade phase before being relieved by the USS Abraham Lincoln and USS George H.W. Bush. The return represents the end of the Ford's contribution to the Iran war, though two carrier strike groups remain in the Arabian Sea.",
+    "type": "movement",
+    "lat": 36.93,
+    "lng": -76.29,
+    "location": "Naval Station Norfolk, Virginia, United States",
+    "timestamp": "2026-05-17T10:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "US Fleet Forces Command — World's largest aircraft carrier strike group returns from historic 11-month deployment",
+        "url": "https://www.usff.navy.mil/Press-Room/News-Stories/Article/4494275/worlds-largest-aircraft-carrier-strike-group-return-from-historic-11-month-depl/"
+      },
+      {
+        "name": "13NewsNow — USS Gerald R. Ford returns to Norfolk after record deployment",
+        "url": "https://www.13newsnow.com/article/news/national/military-news/uss-gerald-r-ford-strike-group-returns-home-norfolk-record-deployment-naval-station-hegseth/291-13519dce-6ac1-4f29-858a-40d0252adf1f"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "navy", "uss-ford", "norfolk", "deployment", "day79"]
   }
 ]

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-16T12:12:00Z",
+    "lastUpdated": "2026-05-17T12:13:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,14 +28,14 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 468,
-    "confirmed": 387,
+    "totalSites": 469,
+    "confirmed": 388,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
     "categories": {
       "military": 67,
-      "nuclear": 8,
+      "nuclear": 9,
       "infrastructure": 12,
       "civilian": 40,
       "media_civilian": 2,
@@ -7521,6 +7521,23 @@
       "severity": "high",
       "source": "Al Jazeera — Israeli strikes on southern Lebanon continue despite ceasefire extension",
       "sourceUrl": "https://www.aljazeera.com/news/2026/5/16/israeli-strikes-on-southern-lebanon-continue-despite-ceasefire-extension"
+    },
+    {
+      "id": "dmg-477",
+      "name": "Barakah Nuclear Energy Plant Perimeter — Electrical Generator Struck (UAE)",
+      "location": "Barakah Nuclear Energy Plant, Al Dhafra, Abu Dhabi, UAE",
+      "country": "UAE",
+      "lat": 23.97,
+      "lng": 52.19,
+      "date": "2026-05-17",
+      "type": "infrastructure",
+      "category": "nuclear",
+      "verificationStatus": "confirmed",
+      "attributedTo": "iran",
+      "description": "A drone struck an electrical generator on the outer perimeter of the UAE's Barakah Nuclear Energy Plant — the first attack on any nuclear power facility since the war began. The four-reactor plant provides approximately 25% of the UAE's electricity. UAE Federal Authority for Nuclear Regulation confirmed no radiological release, no injuries, all reactors operating normally (one briefly on emergency diesel). No group claimed responsibility; Iran is the presumptive actor given ongoing Iran-UAE hostilities since the May 4 ceasefire breakdown.",
+      "severity": "critical",
+      "source": "The National — Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+      "sourceUrl": "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
     }
   ]
 }
