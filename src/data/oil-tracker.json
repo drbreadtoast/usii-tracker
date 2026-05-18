@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-18T12:00:00Z",
+    "lastUpdated": "2026-05-18T19:07:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 111.27,
-        "change": "+39.4%",
-        "changeDollars": "+$31.43",
-        "dailyChange": "+1.81%",
-        "dailyChangeDollars": "+$1.94"
+        "price": 107.71,
+        "change": "+35.0%",
+        "changeDollars": "+$27.91",
+        "dailyChange": "-1.42%",
+        "dailyChangeDollars": "-$1.55"
       },
       "wti": {
-        "price": 107.69,
-        "change": "+42.6%",
-        "changeDollars": "+$32.18",
-        "dailyChange": "+2.15%",
-        "dailyChangeDollars": "+$2.27"
+        "price": 103.52,
+        "change": "+37.1%",
+        "changeDollars": "+$28.01",
+        "dailyChange": "-1.80%",
+        "dailyChangeDollars": "-$1.90"
       },
-      "changePercent": "+39.4%",
-      "changeNote": "Brent +39.4% vs pre-war $79.84. WTI +42.6% vs pre-war $75.51. Both up on Trump 'Clock is Ticking' Truth Social warning — stocks fell while oil gained. ING analysts: 're-escalation risks are increasing.' PGSA formally operational at $2M/transit in yuan. Trump NSC war meeting May 19. IEA: market materially undersupplied through October.",
-      "lastUpdated": "2026-05-18T12:00:00Z"
+      "changePercent": "+35.0%",
+      "changeNote": "Brent $107.71 (+35.0% vs pre-war), WTI $103.52 (+37.1% vs pre-war). End-of-day May 18: Brent –1.42%, WTI –1.80%. Volatile session spiked to $112 on Iranian state media report of US oil sanctions waiver, then reversed sharply when US denied it. End-of-day pullback despite Trump 'Clock is Ticking' warning. PGSA Hormuz toll operational. Trump NSC Situation Room meeting May 19. IEA: market materially undersupplied through October. Source: Fortune/Reuters/TradingEconomics late-session settled price.",
+      "lastUpdated": "2026-05-18T19:07:00Z"
     },
     "priceHistory": [
       {
@@ -480,9 +480,9 @@
       },
       {
         "date": "2026-05-18",
-        "brent": 111.27,
-        "wti": 107.69,
-        "label": "Day 80 — Brent $111.27 (+39.4%, +1.81%/day), WTI $107.69 (+42.6%, +2.15%/day). Trump 'Clock is Ticking' Truth Social warning; stocks fall, oil gains. ING: 're-escalation risks increasing.' PGSA operational — $2M/transit fees in yuan. Hezbollah wounds 10 IDF. IRGC threatens US Gulf bases. Trump NSC war meeting May 19. Gas $4.513.",
+        "brent": 107.71,
+        "wti": 103.52,
+        "label": "Day 80 EOD — Brent $107.71 (+35.0%, –1.42%/day), WTI $103.52 (+37.1%, –1.80%/day). Volatile session: spiked to $112 on false Iran sanctions waiver report, reversed on US denial. Israeli Navy intercepts Gaza flotilla. Lebanon death toll tops 3,020. PGSA Hormuz toll operational. Pezeshkian 'We will never bow.' Trump NSC meeting May 19. Gas $4.513.",
         "isEvent": true
       }
     ],
@@ -669,7 +669,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-18T12:00:00Z",
+    "lastUpdated": "2026-05-18T19:07:00Z",
     "note": "Day 80 midday: Brent $111.27 (+39.4%, +1.81%/day), WTI $107.69 (+42.6%, +2.15%/day). Trump 'Clock is Ticking' escalation warning — stocks fall, oil surges. ING: 're-escalation risks increasing.' PGSA Hormuz toll operational at $2M/transit in yuan. Hezbollah wounds 10 IDF soldiers. IRGC threatens US Gulf bases. Trump NSC Situation Room meeting May 19. Gas $4.513/gal (AAA May 18). Blockade Day 77.",
     "fuels": [
       {
@@ -685,7 +685,7 @@
         },
         "change": "+$1.33",
         "changePercent": "+41.9%",
-        "detail": "Gas $4.513/gal (AAA, May 18). Brent $111.27 (+39.4%, +1.81%/day), WTI $107.69 (+42.6%, +2.15%/day). Trump 'Clock is Ticking' escalation warning — oil surges, stocks fall. PGSA Hormuz toll operational. Trump NSC meeting May 19. GasBuddy warns $5/gal potential if strikes resume. Pre-war $3.18.",
+        "detail": "Gas $4.513/gal (AAA, May 18). Brent $107.71 (+35.0% vs pre-war, –1.42% daily), WTI $103.52 (+37.1% vs pre-war, –1.80% daily). Volatile session peaked at $112 on false Iran sanctions waiver report, then reversed on US denial. PGSA Hormuz toll operational at $2M/transit in yuan. Trump NSC meeting May 19. GasBuddy warns $5/gal potential if strikes resume. Pre-war $3.18.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
