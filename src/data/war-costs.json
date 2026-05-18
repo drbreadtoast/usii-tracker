@@ -35,11 +35,11 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-05-17T19:00:00Z",
+    "lastUpdated": "2026-05-18T00:14:00Z",
     "conflictStartDate": "2026-02-28",
-    "daysOfConflict": 79,
+    "daysOfConflict": 80,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
-    "conflictDay": 79
+    "conflictDay": 80
   },
   "countryCosts": {
     "us": {
@@ -883,11 +883,11 @@
     "allCountriesIndirectCosts": 109490000000,
     "combinedTotalCosts": 177060000000,
     "globalEconomicImpact": 900000000000,
-    "description": "Combined direct military + indirect economic costs through Day 78 (May 16, 2026). Pentagon confirmed $25B US direct costs through Day 60 (NPR/NBC). Dem Armed Services Committee estimate: $40-50B. IEA 400M barrel reserve release ongoing; US DOE transferring 53.3M barrels. Ceasefire expires May 17 with talks deadlocked. Brent $111.04 (+39.1%), WTI $104.42 (+38.3%). Gas $4.534 (+48.7%). Hormuz Day 75.",
-    "lastCalculated": "2026-05-16T00:15:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 80 (May 18, 2026). Pentagon confirmed $29B US direct costs (May 12 Senate testimony, up $4B). CSIS tracker: ~$31.13B as of Day 74. Brown University: $37B+ including consumer gas cost impact. Congressional supplemental ($80-100B) not yet passed. Ceasefire expired May 17 with talks deadlocked — Trump Situation Room meeting May 19. UAE Barakah nuclear plant drone strike Day 80. Iran PGSA formally operational. Brent $110.63 (+38.6%), WTI $105.42 (+39.6%). Gas $4.513 (+41.9%). Hormuz Day 77.",
+    "lastCalculated": "2026-05-18T00:14:00Z",
     "allCountriesIndirect": 109490000000,
     "combinedTotalFormatted": "$177.06B",
-    "lastUpdated": "2026-05-16T00:15:00Z",
+    "lastUpdated": "2026-05-18T00:14:00Z",
     "directCosts": 67570000000,
     "indirectCosts": 109490000000,
     "combinedCosts": 177060000000,
@@ -897,9 +897,9 @@
     "allCountriesDirectFormatted": "$67.57B",
     "globalEconomicImpactFormatted": "$900B+"
   },
-  "daysOfConflict": 79,
-  "lastUpdated": "2026-05-17T12:13:00Z",
+  "daysOfConflict": 80,
+  "lastUpdated": "2026-05-18T00:14:00Z",
   "dailyBurnRate": 1478000000,
   "totalCost": 87266000000,
-  "totalFormatted": "$87.27B (direct military, all countries, Day 79 — Trump returns from China with no Iran deal. US-Israel in 'intense preparations' for possible renewed strikes next week per NYT/Haaretz. Pentagon confirmed $29B US direct cost (May 12 Senate testimony). DOE SPR release: 53.3M barrels to Trafigura, Marathon, ExxonMobil. Brent $109.26 (+36.9%), WTI $105.42 (+39.6%). Gas $4.52. Hormuz Day 76. Long-term US projection: $630B-$1T.)"
+  "totalFormatted": "$87.27B (direct military, all countries, Day 80 — Drone hits UAE Barakah nuclear plant (first nuclear facility attacked). Iran PGSA formally operational: $2M/transit in yuan. Araghchi at BRICS: 'Iran won.' Trump-Netanyahu call + security cabinet; Situation Room meeting May 19. Pentagon confirmed $29B US cost. Brent $110.63 (+38.6%), WTI $105.42 (+39.6%). Gas $4.513. Hormuz Day 77. Long-term US projection: $630B-$1T.)"
 }

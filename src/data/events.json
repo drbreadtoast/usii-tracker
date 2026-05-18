@@ -52301,5 +52301,113 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["israel", "us", "netanyahu", "trump", "iran", "war-renewal", "idf", "day79"]
+  },
+  {
+    "id": "evt-new-1534",
+    "title": "Drone Strikes UAE Barakah Nuclear Power Plant — First Nuclear Facility Hit in War",
+    "description": "A drone struck an electrical generator on the outer perimeter of the UAE's Barakah Nuclear Energy Plant in Abu Dhabi — the first attack on any nuclear facility since the war began. UAE air defenses intercepted two of three incoming UAVs; the third hit an external generator, sparking a fire. The UAE Federal Authority for Nuclear Regulation confirmed no radiological release and all four reactors continue operating. No group claimed responsibility; western border approach vector points to Iran-linked militia origin. IAEA Director General Grossi condemned the attack as 'unacceptable' and dispatched a monitoring team.",
+    "type": "strike",
+    "lat": 23.97,
+    "lng": 52.23,
+    "location": "Barakah Nuclear Power Plant, Al Dhafra, Abu Dhabi, UAE",
+    "timestamp": "2026-05-17T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Al Jazeera — Drone strike sparks fire at UAE's Barakah Nuclear Power Plant",
+        "url": "https://www.aljazeera.com/news/2026/5/17/drone-strike-sparks-fire-at-uaes-barakah-nuclear-power-plant"
+      },
+      {
+        "name": "CNBC — Abu Dhabi says drone strike caused fire at nuclear power plant",
+        "url": "https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html"
+      },
+      {
+        "name": "The National — Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+        "url": "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["uae", "nuclear", "barakah", "drone", "infrastructure", "iaea", "day80"]
+  },
+  {
+    "id": "evt-new-1535",
+    "title": "Saudi Arabia Intercepts Three Drones Launched from Iraqi Airspace",
+    "description": "Three drones launched from Iraqi airspace were intercepted by Saudi air defenses before reaching targets inside the Kingdom. Saudi Defence Ministry spokesman Maj. Gen. Turki Al-Maliki confirmed the interception and warned of 'necessary operational measures' against sovereignty violations. No casualties or infrastructure damage reported. The incident follows the UAE Barakah nuclear plant drone strike on the same day, suggesting a coordinated Iran-linked proxy escalation against Gulf states.",
+    "type": "strike",
+    "lat": 28.00,
+    "lng": 42.00,
+    "location": "Northern Saudi Arabia",
+    "timestamp": "2026-05-17T10:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Times of Israel — May 17 liveblog: Saudi Arabia intercepts drones from Iraqi airspace",
+        "url": "https://www.timesofisrael.com/liveblog-may-17-2026/"
+      },
+      {
+        "name": "Arab News — Saudi Arabia intercepts three drones entering from Iraq",
+        "url": "https://www.arabnews.com/node/2643955/saudi-arabia"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["saudi-arabia", "iraq_militias", "drone", "gulf", "day80"]
+  },
+  {
+    "id": "evt-new-1536",
+    "title": "Iran Formally Launches Persian Gulf Strait Authority — Mandates $2M Hormuz Transit Tolls in Yuan",
+    "description": "Iran formally unveiled its Persian Gulf Strait Authority (PGSA), institutionalizing control over Strait of Hormuz transit. Vessels from cooperating nations must pay $1–2 million per transit in Chinese yuan and answer 40+ approval questions about ownership, routes, and cargo. US Project Freedom escort vessels are explicitly excluded. International maritime lawyers called the system 'illegal extortion' under UNCLOS. OFAC warned non-US companies that paying Iran's tolls triggers secondary sanctions, creating an impossible bind for international shippers.",
+    "type": "naval",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-17T07:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Maritime Executive — Iran launches Persian Gulf Strait Authority to administer Hormuz tolls",
+        "url": "https://maritime-executive.com/article/iran-launches-persian-gulf-strait-authority-to-administer-hormuz-tolls"
+      },
+      {
+        "name": "NPR — Iran implements new system to collect fees from ships in Strait of Hormuz",
+        "url": "https://www.npr.org/2026/05/14/nx-s1-5819351/iran-implements-new-system-to-collect-fees-from-ships-in-strait-of-hormuz"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "hormuz", "pgsa", "naval", "shipping", "economic", "day80"]
+  },
+  {
+    "id": "evt-new-1537",
+    "title": "Iran Threatens Fees on Hormuz Undersea Internet Cables Carrying $10 Trillion Daily Data",
+    "description": "IRGC-linked media announced Iran plans to impose fees on the Falcon and Gulf Bridge International (GBI) submarine internet cables running through Iranian territorial waters under the Strait of Hormuz. These cables carry an estimated $10 trillion in daily global financial data transactions, affecting companies including Google, Microsoft, Meta, and Amazon. The move is largely unenforceable given US sanctions, but represents a new escalation vector threatening the global digital economy alongside physical commodity flows.",
+    "type": "cyber",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Strait of Hormuz",
+    "timestamp": "2026-05-17T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CNN — Iran threatens fees on Hormuz undersea internet cables",
+        "url": "https://edition.cnn.com/2026/05/17/middleeast/iran-hormuz-undersea-cables-intl"
+      },
+      {
+        "name": "Iran International — Iran eyes Hormuz cable tolls",
+        "url": "https://www.iranintl.com/en/202605091805"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "hormuz", "cyber", "infrastructure", "internet", "escalation", "day80"]
   }
 ]
