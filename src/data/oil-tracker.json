@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-18T00:14:00Z",
+    "lastUpdated": "2026-05-18T06:10:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 110.63,
-        "change": "+38.6%",
-        "changeDollars": "+$30.79",
-        "dailyChange": "+1.25%",
-        "dailyChangeDollars": "+$1.37"
+        "price": 111.19,
+        "change": "+39.3%",
+        "changeDollars": "+$31.35",
+        "dailyChange": "+0.5%",
+        "dailyChangeDollars": "+$0.56"
       },
       "wti": {
         "price": 105.42,
         "change": "+39.6%",
         "changeDollars": "+$29.91",
-        "dailyChange": "+4.2%",
-        "dailyChangeDollars": "+$4.25"
+        "dailyChange": "+0.0%",
+        "dailyChangeDollars": "+$0.00"
       },
-      "changePercent": "+38.6%",
-      "changeNote": "Brent +38.6% vs pre-war $79.84. WTI +39.6% vs pre-war $75.51. Weekly gain: Brent +8.1%, WTI +11% (week ending May 16). Escalation signals — Trump 'clock is ticking' ultimatum, UAE Barakah nuclear plant drone strike, Iran PGSA formalized — maintaining elevated risk premium despite slight session pullback from weekly highs.",
-      "lastUpdated": "2026-05-18T00:14:00Z"
+      "changePercent": "+39.3%",
+      "changeNote": "Brent +39.3% vs pre-war $79.84. WTI +39.6% vs pre-war $75.51. Weekly gain: Brent +8.1%, WTI +11% (week ending May 18). Escalation signals — IRGC threatens US Gulf bases, Hezbollah wounds 10 IDF soldiers, UAE Barakah nuclear plant drone strike — sustaining elevated war risk premium. Trump NSC meeting May 19 on military options adds geopolitical risk floor.",
+      "lastUpdated": "2026-05-18T06:10:00Z"
     },
     "priceHistory": [
       {
@@ -663,22 +663,22 @@
     "currency": "USD",
     "unit": "$/gallon",
     "lastUpdated": "2026-05-18T00:14:00Z",
-    "note": "Day 80: Brent ~$110.63 (+38.6%), WTI ~$105.42 (+39.6%). UAE Barakah nuclear plant drone strike. Iran PGSA formally operational. Trump-Netanyahu coordination on possible resumed strikes; Situation Room meeting May 19. Gas $4.513/gal (AAA May 18). Blockade Day 77.",
+    "note": "Day 80: Brent $111.19 (+39.3%), WTI $105.42 (+39.6%). Hezbollah wounds 10 IDF soldiers. IRGC threatens US Gulf bases. Trump NSC meeting May 19 on military options. Gas $4.513/gal (AAA May 18). Blockade Day 77.",
     "fuels": [
       {
         "type": "Regular Gasoline",
         "icon": "⛽",
         "preWar": {
-          "price": 3.05,
+          "price": 3.18,
           "date": "2026-02-27"
         },
         "current": {
           "price": 4.513,
           "date": "2026-05-18"
         },
-        "change": "+$1.46",
-        "changePercent": "+48.0%",
-        "detail": "Gas $4.513/gal (AAA, May 18). Brent ~$110.63 (+38.6%), WTI ~$105.42 (+39.6%). UAE Barakah nuclear plant drone strike Day 80. GasBuddy warns $5/gal potential if strikes resume. Pre-war $3.05.",
+        "change": "+$1.33",
+        "changePercent": "+41.9%",
+        "detail": "Gas $4.513/gal (AAA, May 18). Brent $111.19 (+39.3%), WTI $105.42 (+39.6%). Hezbollah wounds 10 IDF soldiers. IRGC threatens US Gulf bases. Trump NSC meeting May 19. GasBuddy warns $5/gal potential if strikes resume. Pre-war $3.18.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {

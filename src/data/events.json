@@ -52409,5 +52409,109 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iran", "hormuz", "cyber", "infrastructure", "internet", "escalation", "day80"]
+  },
+  {
+    "id": "evt-new-1538",
+    "title": "IRGC Navy Threatens to 'Deactivate' All US Military Bases in Persian Gulf",
+    "description": "IRGC Navy spokesperson Ebrahim Zolfaghari issued a stark public warning that 'all U.S. military bases in the southern Persian Gulf will be deactivated' in the near future. He also claimed the IRGC Navy had not allowed any vessel to pass through the Strait of Hormuz in the previous 24 hours. The threats coincided with drone strikes on UAE and Saudi Arabia and came as Trump scheduled a May 19 Situation Room meeting on military options.",
+    "type": "diplomatic",
+    "lat": 26.20,
+    "lng": 50.60,
+    "location": "Persian Gulf, Iran",
+    "timestamp": "2026-05-17T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Fox News — Trump Iran war updates: IRGC threats on US Gulf bases, May 17",
+        "url": "https://www.foxnews.com/live-news/trump-iran-war-china-hormuz-may-17"
+      },
+      {
+        "name": "Gulf News — Iran's Guards threaten US Middle East sites as Trump awaits Tehran response",
+        "url": "https://gulfnews.com/amp/story/world/mena/irans-guards-threaten-us-middle-east-sites-as-trump-awaits-tehran-response-1.500535292"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "irgc", "us", "threat", "gulf", "military", "escalation", "day80"]
+  },
+  {
+    "id": "evt-new-1539",
+    "title": "Hezbollah Rockets Wound 8 IDF Soldiers Including Finance Minister's Son; Anti-Tank Missile Hits Second Position",
+    "description": "Hezbollah fired rockets at an IDF position in northern Israel, wounding eight soldiers — including the son of Finance Minister Bezalel Smotrich. In a separate attack, a Hezbollah anti-tank missile struck a second IDF position, wounding two more soldiers. The strikes came despite the Israel-Lebanon 45-day ceasefire extension announced May 15, underscoring the ceasefire is in name only. At least 20 IDF soldiers have been killed in Lebanon fighting since the current phase began.",
+    "type": "strike",
+    "lat": 33.20,
+    "lng": 35.50,
+    "location": "Northern Israel / Southern Lebanon border",
+    "timestamp": "2026-05-18T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — May 17 liveblog: Hezbollah attacks IDF positions in northern Israel",
+        "url": "https://www.timesofisrael.com/liveblog-may-17-2026/"
+      },
+      {
+        "name": "Anadolu Agency — Hezbollah fires rockets into northern Israel",
+        "url": "https://www.aa.com.tr/en/middle-east/hezbollah-fires-25-rockets-into-northern-israel-media/3868639"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"wounded": 10},
+    "tags": ["hezbollah", "israel", "lebanon", "rocket", "strike", "idf", "casualties", "day80"]
+  },
+  {
+    "id": "evt-new-1540",
+    "title": "NYT Reveals Israel Operated Two Secret Military Bases in Iraq to Support Iran Strikes",
+    "description": "The New York Times reported on May 17 that Israeli forces operated at least two covert military bases in the Iraqi desert to support the February 2026 strikes on Iran. The facilities were built with US knowledge beginning in late 2024, serving as logistics hubs for IDF special forces and search-and-rescue teams. Iraqi officials confirmed the bases to the NYT. An Iraqi Bedouin shepherd was killed by an Israeli helicopter in March after inadvertently discovering one site, triggering outrage in Baghdad.",
+    "type": "movement",
+    "lat": 33.00,
+    "lng": 43.00,
+    "location": "Western Iraq desert",
+    "timestamp": "2026-05-17T16:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Israel built two covert military bases in Iraq to support Iran strikes",
+        "url": "https://www.timesofisrael.com/israel-built-two-covert-military-bases-in-iraq-to-support-iran-strikes-report/"
+      },
+      {
+        "name": "Al Jazeera — A secret Israeli base in Iraq: what we know",
+        "url": "https://www.aljazeera.com/news/2026/5/12/a-secret-israeli-base-in-iraq-what-we-know"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"civilian": 1},
+    "tags": ["israel", "iraq", "covert", "intelligence", "basing", "nyt", "day80"]
+  },
+  {
+    "id": "evt-new-1541",
+    "title": "China Pledges No Material Support to Iran After Trump-Xi Beijing Summit",
+    "description": "Following Trump's May 14–15 summit with Xi Jinping in Beijing, US Trade Representative Jamieson Greer confirmed on ABC News that China committed not to 'provide material support to Iran.' Trump stated Xi agreed that Iran must open the Strait of Hormuz and offered diplomatic assistance. Analysts noted the pledge remained vague on enforcement mechanisms. Trump touted the commitment as a diplomatic win that could pressure Tehran while returning from China with no concrete Iran breakthrough.",
+    "type": "diplomatic",
+    "lat": 39.90,
+    "lng": 116.40,
+    "location": "Beijing, China",
+    "timestamp": "2026-05-15T12:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "ABC News — China committed to not provide material support to Iran, US trade rep says",
+        "url": "https://abcnews.com/Politics/china-committed-provide-material-support-iran-us-trade/story?id=133046732"
+      },
+      {
+        "name": "CNBC — Trump says Xi agrees Iran must open strait but no sign China will weigh in",
+        "url": "https://www.cnbc.com/amp/2026/05/16/trump-says-xi-agrees-iran-must-open-strait-but-no-sign-china-will-weigh-in.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["china", "us", "iran", "diplomatic", "xi", "trump", "hormuz", "day79"]
   }
 ]
