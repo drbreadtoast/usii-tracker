@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-18T06:10:00Z",
+    "lastUpdated": "2026-05-18T12:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 469,
-    "confirmed": 388,
+    "totalSites": 475,
+    "confirmed": 394,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7538,6 +7538,40 @@
       "severity": "critical",
       "source": "The National — Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
       "sourceUrl": "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+    },
+    {
+      "id": "dmg-478",
+      "name": "Apartment Building — Baalbek, Lebanon (Islamic Jihad Commander Killed)",
+      "location": "Outskirts of Baalbek, Beqaa Valley, Lebanon",
+      "country": "Lebanon",
+      "lat": 34.00,
+      "lng": 36.22,
+      "date": "2026-05-18",
+      "type": "civilian",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "IDF airstrike on an apartment building on the outskirts of Baalbek in Lebanon's Beqaa Valley killed Wael Abd al-Halim, Palestinian Islamic Jihad military commander for the Beqaa region, and his 17-year-old daughter Rama. The strike occurred around midnight on May 17/18. Part of the broader IDF wave targeting 30+ Hezbollah and militant sites in Lebanon within 24 hours of the May 15-16 ceasefire extension.",
+      "severity": "high",
+      "source": "Haaretz — IDF kills Islamic Jihad commander in Lebanon",
+      "sourceUrl": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-05-18/ty-article/.premium/idf-kills-islamic-jihad-commander-in-lebanon-lebanese-media-says/0000019e-39ef-d104-abde-f9eff4d10000"
+    },
+    {
+      "id": "dmg-479",
+      "name": "Southern Lebanon Villages — IDF Strikes Wave (30+ Hezbollah Sites, 9 Evacuation Zones)",
+      "location": "Southern Lebanon (Qaaqaaiyet al-Snoubar, Merouaniyeh, Ghassaniyeh, Tefahta, Babliyeh and others)",
+      "country": "Lebanon",
+      "lat": 33.20,
+      "lng": 35.40,
+      "date": "2026-05-17",
+      "type": "military",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "IDF struck more than 30 Hezbollah infrastructure sites across southern Lebanon on May 17–18. Evacuation warnings were issued for nine villages: Qaaqaaiyet al-Snoubar, Kaouthariyet El Saiyad, Merouaniyeh, Ghassaniyeh, Tefahta, Irzay, Babliyeh, Insar, and al-Baisariyah. Lebanese Health Ministry: 18 killed and 124 wounded in 24 hours. IDF reported 20+ Hezbollah operatives killed. The wave is the first major IDF offensive within 24 hours of the 45-day ceasefire extension announcement on May 15-16.",
+      "severity": "high",
+      "source": "JNS — IDF strikes 30 Hezbollah terror sites in southern Lebanon",
+      "sourceUrl": "https://www.jns.org/news/israel-news/idf-strikes-30-hezbollah-terror-sites-in-southern-lebanon"
     }
   ]
 }

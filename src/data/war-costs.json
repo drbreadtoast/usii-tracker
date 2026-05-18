@@ -35,7 +35,7 @@
       }
     ],
     "methodology": "Cost estimates are derived from publicly available DoD budget documents, CBO scoring of supplemental appropriations, CRS unit cost analyses for weapon systems, and SIPRI military expenditure databases. Daily operational burn rates are calculated using DoD cost-per-flying-hour data, Navy ship operating cost models, and historical precedent from Operations Inherent Resolve and Prosperity Guardian. Indirect and economic costs are modeled using IMF World Economic Outlook methodologies and historical oil price shock analyses. All figures are in 2026 USD unless otherwise noted. Estimates carry an uncertainty range of approximately +/- 15%.",
-    "lastUpdated": "2026-05-18T06:10:00Z",
+    "lastUpdated": "2026-05-18T12:00:00Z",
     "conflictStartDate": "2026-02-28",
     "daysOfConflict": 80,
     "disclaimer": "These figures are estimates compiled from multiple open-source intelligence and government reporting channels. Actual costs may differ significantly due to classified expenditures, delayed reporting, and the inherent uncertainty of ongoing military operations. This data is presented for informational and educational purposes only. The use of named weapon systems and unit costs reflects publicly available procurement data and does not represent classified operational details.",
@@ -876,6 +876,13 @@
       "source": "Al Jazeera / IEA / TradingEconomics",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/16/iran-war-live-lebanon-israel-extend-truce-tehran-ready-for-more-us-talks",
       "category": "economic_impact"
+    },
+    {
+      "date": "2026-05-18",
+      "fact": "Trump posts 'Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them' on Truth Social — stocks fall, oil surges. Brent rises +1.81% to $111.27, WTI +2.15% to $107.69. ING analysts warn 're-escalation risks are increasing.' Iran PGSA Hormuz toll mechanism fully operational ($2M/transit in yuan). Pentagon war cost confirmed at $29B (May 12 testimony, up $4B from prior disclosure). Trump Situation Room NSC meeting scheduled May 19. Gas $4.513/gal (+41.9% from pre-war).",
+      "source": "CNBC / The National / Bloomberg",
+      "sourceUrl": "https://www.cnbc.com/2026/05/18/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude-.html",
+      "category": "economic_impact"
     }
   ],
   "totals": {
@@ -883,11 +890,11 @@
     "allCountriesIndirectCosts": 109490000000,
     "combinedTotalCosts": 177060000000,
     "globalEconomicImpact": 900000000000,
-    "description": "Combined direct military + indirect economic costs through Day 80 (May 18, 2026). Pentagon confirmed $29B US direct costs (May 12 Senate testimony, up $4B). CSIS tracker: ~$31.13B as of Day 74. Brown University: $37B+ including consumer gas cost impact. Congressional supplemental ($80-100B) not yet passed. Ceasefire expired May 17 with talks deadlocked — Trump Situation Room meeting May 19. UAE Barakah nuclear plant drone strike Day 80. Iran PGSA formally operational. Brent $110.63 (+38.6%), WTI $105.42 (+39.6%). Gas $4.513 (+41.9%). Hormuz Day 77.",
-    "lastCalculated": "2026-05-18T00:14:00Z",
+    "description": "Combined direct military + indirect economic costs through Day 80 (May 18, 2026). Pentagon confirmed $29B US direct costs (May 12 Senate testimony, up $4B). CSIS tracker: ~$31.13B as of Day 74. Brown University: $37B+ including consumer gas cost impact. Congressional supplemental ($80-100B) not yet passed. Ceasefire expired May 17 with talks deadlocked — Trump Situation Room NSC meeting May 19. Iran PGSA toll mechanism fully operational. Trump 'Clock is Ticking' Truth Social post May 18 — oil surges on escalation fears. Brent $111.27 (+39.4%), WTI $107.69 (+42.6%). Gas $4.513 (+41.9%). Hormuz Day 77.",
+    "lastCalculated": "2026-05-18T12:00:00Z",
     "allCountriesIndirect": 109490000000,
     "combinedTotalFormatted": "$177.06B",
-    "lastUpdated": "2026-05-18T00:14:00Z",
+    "lastUpdated": "2026-05-18T12:00:00Z",
     "directCosts": 67570000000,
     "indirectCosts": 109490000000,
     "combinedCosts": 177060000000,
@@ -898,7 +905,7 @@
     "globalEconomicImpactFormatted": "$900B+"
   },
   "daysOfConflict": 80,
-  "lastUpdated": "2026-05-18T00:14:00Z",
+  "lastUpdated": "2026-05-18T12:00:00Z",
   "dailyBurnRate": 1478000000,
   "totalCost": 87266000000,
   "totalFormatted": "$87.27B (direct military, all countries, Day 80 — Drone hits UAE Barakah nuclear plant (first nuclear facility attacked). Iran PGSA formally operational: $2M/transit in yuan. Araghchi at BRICS: 'Iran won.' Trump-Netanyahu call + security cabinet; Situation Room meeting May 19. Pentagon confirmed $29B US cost. Brent $110.63 (+38.6%), WTI $105.42 (+39.6%). Gas $4.513. Hormuz Day 77. Long-term US projection: $630B-$1T.)"
