@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T12:00:00Z",
+  "lastUpdated": "2026-05-19T10:30:00Z",
   "currentAverage": 4.515,
   "preWarAverage": 3.18,
   "changePercent": 42.0,
@@ -666,7 +666,7 @@
     {
       "date": "2026-05-19",
       "price": 4.515,
-      "label": "Day 81 — AAA $4.515/gal (+42.0% from pre-war $3.18). Oil rebounds: Brent $111.19 (+1.77%), WTI $107.35 (+1.52%) after Monday selloff. Trump NSC war meeting held; no new strike orders announced publicly. US-Iran oil sanctions waiver talks ongoing — outcome could swing prices $10-15/bbl. National average gas rises 25 cents for second straight week per AAA. Blockade Day 78.",
+      "label": "Day 81 PM — AAA $4.515/gal (+42.0% from pre-war $3.18). Brent $107.78 (+35.0%), WTI $107.35 (+42.2%). Brent briefly spiked to $112 on false Tasnim Iran sanctions waiver report, dropped to $107.78 after US denial. Hezbollah 200-rocket barrage kills 1 in Nahariya. Trump 'Clock is Ticking + TIME IS OF THE ESSENCE.' Gulf states buy 48-72h pause on US strike. Bessent extends Russia oil waiver 30 days. Lebanon 687 killed in 24h. Blockade Day 78.",
       "isEvent": true
     }
   ],
@@ -717,15 +717,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 19 12:00 PM PT)",
-      "crudePerBarrel": 111.19,
+      "label": "Current (May 19 11:07 PM PT)",
+      "crudePerBarrel": 107.78,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$111.19 ÷ 42 gal (Brent, May 19)",
-          "value": 2.647,
-          "percent": 53,
-          "change": "+$1.03"
+          "formula": "$107.78 ÷ 42 gal (Brent, May 19)",
+          "value": 2.566,
+          "percent": 52,
+          "change": "+$0.95"
         },
         {
           "name": "Refining",
@@ -758,13 +758,13 @@
         {
           "name": "Retail Margin",
           "formula": "Station profit",
-          "value": 0.304,
-          "percent": 7,
-          "change": "+$0.184"
+          "value": 0.145,
+          "percent": 3,
+          "change": "-$0.159"
         }
       ],
       "total": 4.515,
-      "note": "National average $4.515/gal (AAA, May 19). Oil rebounds after Monday selloff: Brent $111.19 (+1.77%), WTI $107.35 (+1.52%). US-Iran oil sanctions waiver talks ongoing — market on edge. National average rose 25 cents for second straight week per AAA. Hormuz blockade Day 78. Trump NSC war meeting held May 19.",
+      "note": "National average $4.515/gal (AAA, May 19). Brent $107.78/bbl (+35.0%): spiked to $112 on false Iran sanctions waiver report, dropped to $107.78 after US denial. Hezbollah 200-rocket barrage at Nahariya — Lebanon front escalating. Trump 'Clock is Ticking — TIME IS OF THE ESSENCE.' Gulf states bought 48-72h diplomatic window. Hormuz Blockade Day 78.",
       "crude": 2.647,
       "taxes": 0.534,
       "refining": 0.82,
@@ -772,9 +772,9 @@
       "regularGasoline": 4.515,
       "changeFromPreWar": "+$1.335",
       "changePercent": "+42.0%",
-      "lastUpdated": "2026-05-19T12:00:00Z",
+      "lastUpdated": "2026-05-19T10:30:00Z",
       "date": "2026-05-19"
     }
   },
-  "context": "Day 81 (May 19, 12:00 PM PDT): Brent $111.19/bbl (+39.3%), WTI $107.35/bbl (+42.2%). Gas $4.515/gal (AAA, May 19). Pre-war: $3.18/gal baseline. +42.0% from pre-war. Oil rebounds after Monday's -1.4% session — US-Iran oil sanctions waiver negotiations ongoing; outcome could swing prices $10-15/bbl. AAA: national average rose 25 cents for second straight week. Hormuz Blockade Day 78. IEA: market 'materially undersupplied' through October."
+  "context": "Day 81 (May 19, 11:07 PM PDT): Brent $107.78/bbl (+35.0%), WTI $107.35/bbl (+42.2%). Gas $4.515/gal (AAA, May 19). Pre-war: $3.18/gal baseline. +42.0% from pre-war. Brent spiked to $112 on false Iran sanctions waiver report (Tasnim), dropped to $107.78 after US denial. Hezbollah 200-rocket barrage at Nahariya (1 killed). Trump 'Clock is Ticking — TIME IS OF THE ESSENCE.' Gulf states bought 2-3 day pause on US strike. Bessent extends Russia oil waiver 30 days. Hormuz Blockade Day 78. IEA: 12.8 mb/d supply loss since February."
 }

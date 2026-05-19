@@ -74,11 +74,11 @@
     },
     "current": {
       "brent": {
-        "price": 111.19,
-        "change": "+39.3%",
-        "changeDollars": "+$31.39",
-        "dailyChange": "+1.77%",
-        "dailyChangeDollars": "+$1.93"
+        "price": 107.78,
+        "change": "+35.1%",
+        "changeDollars": "+$27.98",
+        "dailyChange": "+0.1%",
+        "dailyChangeDollars": "+$0.07"
       },
       "wti": {
         "price": 107.35,
@@ -87,9 +87,9 @@
         "dailyChange": "+1.52%",
         "dailyChangeDollars": "+$1.61"
       },
-      "changePercent": "+39.3%",
-      "changeNote": "Brent $111.19 (+39.3% vs pre-war $79.80), WTI $107.35 (+42.2% vs pre-war $75.50). May 19 morning: both benchmarks rebounded +1.77%/+1.52% after Monday's selloff. US-Iran oil sanctions waiver negotiations remain unresolved — markets pricing in continued Hormuz disruption. Trump NSC war meeting held May 19. IEA: market 'materially undersupplied' through October. PGSA Hormuz toll operational at $2M/transit in yuan. Source: Fortune/Reuters/TradingEconomics May 19.",
-      "lastUpdated": "2026-05-19T12:00:00Z"
+      "changePercent": "+35.1%",
+      "changeNote": "Brent $107.78 (+35.1% vs pre-war $79.80), WTI $107.35 (+42.2% vs pre-war $75.51). Day 81 (May 19): Brent briefly spiked to $112/bbl (2-week high) after Iranian Tasnim News falsely reported US agreed to lift Iran oil sanctions — US official immediately denied as 'completely false,' Brent dropped back to $107.78. WTI steady at $107.35. Treasury Sec. Bessent extended Russia oil sanctions waiver 30 days (May 18). Hormuz Blockade Day 78. Hezbollah 200-rocket barrage at Nahariya keeps Lebanon front in focus. Source: Reuters/Investing.com, Fortune/TradingEconomics May 19.",
+      "lastUpdated": "2026-05-19T10:30:00Z"
     },
     "priceHistory": [
       {
@@ -1411,6 +1411,13 @@
       "brent": 109.26,
       "wti": 105.42,
       "label": "Day 78 PM — Brent $109.26 (+36.8%), WTI $105.42 (+39.6%). Oil pulls back from AM highs as diplomatic signals emerge — Pakistan FM in Tehran, US written nuclear proposal to Iran. IDF Capt. Recanati killed by Hezbollah FPV drone. Iran restores 30/33 Hormuz missile sites per ISW. Hormuz toll mechanism (PGSA) imminent. Gas $4.52. Hormuz Day 75.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-19",
+      "brent": 107.78,
+      "wti": 107.35,
+      "label": "Day 81 — Brent $107.78 (+35.1%), WTI $107.35 (+42.2%). Brent briefly spiked to $112 on false Tasnim report of US Iran oil sanctions waiver, then dropped sharply after US denial. Hezbollah 200-rocket barrage at Nahariya (1 killed). IDF strikes 30+ Hezbollah sites. Trump 'Clock is Ticking + TIME IS OF THE ESSENCE.' NSC Situation Room meeting held. Gulf states bought 2-3 day pause on US strike. Bessent extends Russia oil waiver 30 days. Gas $4.515. Hormuz Day 78.",
       "isEvent": true
     }
   ]

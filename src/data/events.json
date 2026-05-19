@@ -52855,6 +52855,62 @@
     "tags": ["houthis", "naval", "haifa", "israel", "blockade", "red-sea", "day81"]
   },
   {
+    "id": "evt-new-1555",
+    "title": "IDF Strikes 30+ Hezbollah Sites in Southern Lebanon — Several Fighters Killed",
+    "description": "Israeli forces struck more than 30 Hezbollah terrorist infrastructure sites in southern Lebanon over a 24-hour period on May 18, 2026. Targets included weapons storage facilities, observation posts, anti-tank missile positions, and other military infrastructure. Several Hezbollah fighters were killed in the strikes per IDF spokesperson. Hezbollah retaliated by firing projectiles at IDF soldiers in southeastern Lebanon, some of which crossed into Israel and hit open areas near Metula and Kiryat Shmona. No Israeli injuries were reported in the exchange. The strikes came as the 45-day Lebanon ceasefire extension announced May 15 appeared nominal — both sides continued military operations.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.57,
+    "location": "Southern Lebanon",
+    "timestamp": "2026-05-18T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "JNS — IDF strikes 30 Hezbollah terror sites in southern Lebanon",
+        "url": "https://www.jns.org/news/israel-news/idf-strikes-30-hezbollah-terror-sites-in-southern-lebanon"
+      },
+      {
+        "name": "All Israel News — IDF: over 30 Hezbollah targets struck in southern Lebanon",
+        "url": "https://allisraelnews.com/brief/idf-over-30-hezbollah-targets-struck-in-southern-lebanon"
+      },
+      {
+        "name": "Times of Israel liveblog — IDF says it launched wave of strikes on Hezbollah infrastructure in south Lebanon",
+        "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-launched-wave-of-strikes-on-hezbollah-infrastructure-in-south-lebanon/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"note": "Several Hezbollah fighters killed per IDF; no Israeli casualties"},
+    "tags": ["israel", "hezbollah", "lebanon", "strike", "infrastructure", "day81"]
+  },
+  {
+    "id": "evt-new-1556",
+    "title": "Hezbollah Fires ~200 Rockets at Northern Israel — 1 Killed, 14 Injured in Nahariya",
+    "description": "Hezbollah fired approximately 200 rockets at northern Israel on May 19, 2026. The IDF said it prevented the launch of an additional 400 rockets. Of those fired, 80 failed to enter Israeli territory. A man was killed and 14 others were injured (one seriously) in Nahariya. The Lebanese Health Ministry reported cumulative 24-hour casualties from the escalating exchange of 687 killed and 1,774 wounded across Lebanon from Israeli strikes. The attack represents one of the largest single Hezbollah rocket barrages against Israel since the conflict began.",
+    "type": "strike",
+    "lat": 33.00,
+    "lng": 35.10,
+    "location": "Nahariya and northern Israel",
+    "timestamp": "2026-05-19T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "JNS — Hezbollah fires rockets at Haifa area, Nahariya and Acre",
+        "url": "https://www.jns.org/news/israel-news/hezbollah-fires-rockets-at-haifa-area-nahariya-and-acre"
+      },
+      {
+        "name": "Al Jazeera — Israeli attacks across Lebanon kill at least 19",
+        "url": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "injured": 14, "note": "1 killed, 14 injured in Nahariya; 687 killed + 1,774 wounded in Lebanon in past 24h"},
+    "tags": ["hezbollah", "rockets", "nahariya", "israel", "strike", "casualties", "day81"]
+  },
+  {
     "id": "evt-new-1554",
     "title": "Saudi Arabia Intercepts 3 Drones From Iraqi Airspace — Warns of Response",
     "description": "Saudi Arabia's Ministry of Defense announced it intercepted and destroyed three drones that entered its airspace from Iraqi territory on May 17. Major General Turki Al-Malki stated the Kingdom 'reserves the full right to respond.' Iraq's Foreign Ministry denied knowledge of any launches and opened an investigation. Attribution to Iran-backed Iraqi militias including Kata'ib Hezbollah was assessed as likely by analysts. The incident comes days after a US arrest of an alleged Kata'ib Hezbollah member for directing attacks on US and Israeli interests.",
