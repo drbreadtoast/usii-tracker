@@ -52965,5 +52965,109 @@
     "socialRefs": [],
     "casualties": {"note": "No casualties. No radiation release. Auxiliary generator damaged; Unit 3 external power restored May 19."},
     "tags": ["uae", "nuclear", "barakah", "drone", "infrastructure", "iaea", "day81"]
+  },
+  {
+    "id": "evt-new-1558",
+    "title": "US Forces Seize Iran-Linked Oil Tanker Skywave in Indian Ocean",
+    "description": "US military forces boarded and seized the sanctioned oil tanker Skywave overnight May 18-19 in the Indian Ocean, per Pentagon confirmation. The vessel had been sanctioned in March 2026 for transporting Iranian crude oil and was carrying an estimated 1+ million barrels loaded at Iran's Kharg Island. Iranian FM Araghchi called the seizure 'a breach of the ceasefire' and 'tantamount to taking its crew hostage.' The US State Department stated the seizure was a lawful enforcement of existing sanctions.",
+    "type": "naval",
+    "lat": 15.0,
+    "lng": 65.0,
+    "location": "Indian Ocean",
+    "timestamp": "2026-05-19T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS NewsHour — US forces board a sanctioned oil tanker without incident in the Indian Ocean",
+        "url": "https://www.pbs.org/newshour/world/u-s-forces-board-a-sanctioned-oil-tanker-without-incident-in-the-indian-ocean-the-pentagon-says"
+      },
+      {
+        "name": "Times of Israel liveblog May 19",
+        "url": "https://www.timesofisrael.com/liveblog-may-19-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "iran", "naval", "sanctions", "oil-tanker", "indian-ocean", "day81"]
+  },
+  {
+    "id": "evt-new-1559",
+    "title": "Lebanon Death Toll Passes 3,000 — Milestone Since March 2 Fighting",
+    "description": "Lebanon's Health Ministry confirmed the cumulative death toll from Israeli strikes since fighting resumed on March 2, 2026 has surpassed 3,000, reaching at least 3,042 killed. The toll includes 211 children, 292 women, and 116 medics. At least 740 people have been killed since the April 17 ceasefire extension, with 9,273+ wounded and nearly 1 million displaced from southern Lebanon. The milestone drew condemnation from the UN, EU, and human rights organizations.",
+    "type": "humanitarian",
+    "lat": 33.85,
+    "lng": 35.86,
+    "location": "Lebanon",
+    "timestamp": "2026-05-19T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "The National — Death toll from Israeli strikes on Lebanon exceeds 3,000",
+        "url": "https://www.thenationalnews.com/news/mena/2026/05/19/death-toll-from-israeli-strikes-on-lebanon-exceeds-3000/"
+      },
+      {
+        "name": "PBS NewsHour — Lebanon death toll tops 3,000 in latest fighting between Israel and Hezbollah",
+        "url": "https://www.pbs.org/newshour/amp/world/lebanon-death-toll-tops-3000-in-latest-fighting-between-israel-and-hezbollah"
+      },
+      {
+        "name": "NBC News — Lebanon death toll reaches 3,000",
+        "url": "https://www.nbcnews.com/world/lebanon/lebanon-death-toll-reaches-3000-fighting-israel-hezbollah-rcna345780"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 3042, "wounded": 9273, "displaced": 1000000, "note": "3,042+ killed since March 2; includes 211 children, 292 women, 116 medics; 740+ killed since April 17 ceasefire"},
+    "tags": ["lebanon", "casualties", "humanitarian", "israel", "hezbollah", "day81"]
+  },
+  {
+    "id": "evt-new-1560",
+    "title": "VP Vance: US 'Locked and Loaded' to Restart Iran Military Campaign if Talks Fail",
+    "description": "Vice President JD Vance stated May 19 that the United States remains 'locked and loaded' to restart the military campaign against Iran if nuclear negotiations fail. Vance expressed preference for a diplomatic resolution but warned that Iran cannot be allowed to acquire a nuclear weapon, noting it could be used to threaten US cities. The statement reinforced Trump's earlier Truth Social post instructing the military to remain prepared for a 'full, large scale assault of Iran, on a moment's notice.'",
+    "type": "diplomatic",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "Washington, D.C., USA",
+    "timestamp": "2026-05-19T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Fox News — JD Vance says Trump 'locked and loaded' to restart military campaign on Iran if nuclear talks fail",
+        "url": "https://www.foxnews.com/politics/jd-vance-says-trump-locked-loaded-restart-military-campaign-iran-nuclear-talks-fail"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "vance", "diplomatic", "iran", "nuclear", "warning", "day81"]
+  },
+  {
+    "id": "evt-new-1561",
+    "title": "Kataib Hezbollah Commander Appears in NYC Federal Court on Terror Charges",
+    "description": "Mohammad Baqer Saad Dawood Al Saadi, identified by the DOJ as a senior Kataib Hezbollah commander, appeared in a New York federal court on May 19 on six counts of providing material support to designated foreign terrorist organizations. He allegedly orchestrated synagogue bombings, Jewish school attacks, ambulance arsons, and plots targeting New York, Los Angeles, and Scottsdale. Al Saadi was apprehended in Turkey and extradited to US custody — marking the first senior Iran-backed militia commander to face US federal terrorism charges.",
+    "type": "diplomatic",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "New York City, USA",
+    "timestamp": "2026-05-19T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Kataib Hezbollah commander arraigned in New York federal court",
+        "url": "https://www.jpost.com/international/article-896335"
+      },
+      {
+        "name": "Al Jazeera — US charges alleged Iran-backed Kataib Hezbollah suspect",
+        "url": "https://www.aljazeera.com/news/2026/5/16/us-charges-alleged-iran-backed-kataib-hezbollah-suspect-what-we-know"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iraq_militias", "kataib-hezbollah", "terrorism", "us", "court", "day81"]
   }
 ]
