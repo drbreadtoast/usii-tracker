@@ -52771,5 +52771,113 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["hamas", "diplomatic", "gaza", "leadership", "day80"]
+  },
+  {
+    "id": "evt-new-1551",
+    "title": "Trump Calls Off Planned US Strike on Iran — Gulf States Request 2-3 Day Pause",
+    "description": "President Trump announced Monday evening he called off a 'very major' planned US military attack on Iran that had been scheduled for Tuesday May 19. The Emir of Qatar, Crown Prince of Saudi Arabia, and President of UAE contacted Trump requesting a 2-3 day pause, saying they believed a deal was 'very close.' Trump agreed but simultaneously ordered the Pentagon to remain 'prepared to go forward with a full, large scale assault of Iran, on a moment's notice' if negotiations fail. This was the second time the US has stepped back from a strike on Iran during the conflict.",
+    "type": "diplomatic",
+    "lat": 38.90,
+    "lng": -77.04,
+    "location": "Washington D.C. / Gulf region",
+    "timestamp": "2026-05-18T21:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "PBS NewsHour — Trump says he's called off Iran strike planned for Tuesday at request of Gulf allies",
+        "url": "https://www.pbs.org/newshour/politics/trump-says-hes-called-off-iran-strike-planned-for-tuesday-at-request-of-gulf-allies"
+      },
+      {
+        "name": "CNN — Trump calls off Iran strike planned for Tuesday",
+        "url": "https://www.cnn.com/2026/05/18/politics/trump-iran-resumed-attack-plans"
+      },
+      {
+        "name": "CBS News — Trump says called off scheduled Iran attack after Gulf partners intervened",
+        "url": "https://www.cbsnews.com/news/trump-says-called-off-scheduled-iran-attack-gulf-partners/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "diplomatic", "iran", "ceasefire", "gulf-states", "day81"]
+  },
+  {
+    "id": "evt-new-1552",
+    "title": "Iran Fires 4 Missile Salvos at Israel — Early Morning May 19",
+    "description": "The IDF reported four separate missile salvos fired from Iran at Israeli territory in the early morning hours of May 19. The majority were intercepted by Israeli air defense systems; the remainder landed in unpopulated areas causing no casualties. The attack occurred as diplomatic negotiations continue via Pakistani mediators. The IDF's intercept rate for Iranian missiles over the course of the conflict stands above 90%.",
+    "type": "strike",
+    "lat": 31.77,
+    "lng": 35.21,
+    "location": "Israel (multiple impact areas)",
+    "timestamp": "2026-05-19T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Haaretz — Over 90% of Iranian missiles intercepted, IDF data",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-20/ty-article/.premium/idf-data-over-90-of-iranian-missiles-fired-at-israel-have-been-intercepted/0000019d-07f4-da5c-a3bd-0ff67f790000"
+      },
+      {
+        "name": "CBS News — Iran war live updates",
+        "url": "https://www.cbsnews.com/live-updates/trump-iran-war-peace-deal-strait-of-hormuz/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "israel", "missile", "strike", "intercept", "day81"]
+  },
+  {
+    "id": "evt-new-1553",
+    "title": "Houthis Formally Declare Maritime Blockade on Israeli Port of Haifa",
+    "description": "Houthi military spokesman Yahya Saree announced in a televised statement that Haifa port has been formally added to their list of maritime targets. All vessels heading to or from Haifa, or linked to Israel, are declared 'legitimate military targets' whether transiting the Red Sea, Bab al-Mandeb, or any adjacent waters. The declaration came in retaliation for Israeli airstrikes on Houthi-controlled ports of Hudaydah and Salif on May 16.",
+    "type": "naval",
+    "lat": 32.82,
+    "lng": 34.99,
+    "location": "Red Sea / Haifa, Israel",
+    "timestamp": "2026-05-19T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "houthis",
+    "sources": [
+      {
+        "name": "Supply Chain Brain — Houthis declare maritime blockade on Israel's Haifa port",
+        "url": "https://www.supplychainbrain.com/articles/41840-houthis-declare-maritime-blockade-on-israels-haifa-port"
+      },
+      {
+        "name": "Maritime Executive — Houthis reboot Red Sea crisis with remote blockade on Port of Haifa",
+        "url": "https://maritime-executive.com/article/houthis-reboot-red-sea-crisis-with-remote-blockade-on-port-of-haifa"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["houthis", "naval", "haifa", "israel", "blockade", "red-sea", "day81"]
+  },
+  {
+    "id": "evt-new-1554",
+    "title": "Saudi Arabia Intercepts 3 Drones From Iraqi Airspace — Warns of Response",
+    "description": "Saudi Arabia's Ministry of Defense announced it intercepted and destroyed three drones that entered its airspace from Iraqi territory on May 17. Major General Turki Al-Malki stated the Kingdom 'reserves the full right to respond.' Iraq's Foreign Ministry denied knowledge of any launches and opened an investigation. Attribution to Iran-backed Iraqi militias including Kata'ib Hezbollah was assessed as likely by analysts. The incident comes days after a US arrest of an alleged Kata'ib Hezbollah member for directing attacks on US and Israeli interests.",
+    "type": "movement",
+    "lat": 24.68,
+    "lng": 46.72,
+    "location": "Saudi Arabia / Iraq border",
+    "timestamp": "2026-05-17T18:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "US News/UPI — Saudi says it intercepted three drones that entered from Iraqi airspace",
+        "url": "https://www.usnews.com/news/world/articles/2026-05-17/saudi-says-it-intercepted-three-drones-that-entered-from-iraqi-airspace"
+      },
+      {
+        "name": "Times of Israel liveblog May 17",
+        "url": "https://www.timesofisrael.com/liveblog-may-17-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["saudi-arabia", "iraq_militias", "drone", "movement", "day80"]
   }
 ]
