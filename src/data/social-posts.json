@@ -1,44 +1,5 @@
 [
   {
-    "id": "social-1336",
-    "handle": "@RealDonaldTrump",
-    "displayName": "President Donald Trump",
-    "text": "Trump posted on Truth Social May 18: 'Iran has responded to us through Pakistan \u2014 and they still want reparations. TOTALLY UNACCEPTABLE. The Clock is Ticking. I'm meeting with my national security team Tuesday.' Trump confirmed Iran's response arrived through Pakistani mediators but called the demand for war reparations a nonstarter. NSC meeting scheduled for May 19 with Vance, Rubio, Hegseth, Caine, Ratcliffe, Witkoff. Trump's message is the clearest pre-Situation Room signal yet.",
-    "timestamp": "2026-05-18T12:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trump statement confirmed by CNN May 18, NBC News, UPI. Iran response through Pakistan confirmed by Arab News, Al Jazeera liveblog May 18.",
-    "keywords": [
-      "trump",
-      "iran",
-      "reparations",
-      "pakistan",
-      "situationroom",
-      "nsc",
-      "ultimatum",
-      "day80"
-    ]
-  },
-  {
-    "id": "social-1337",
-    "handle": "@IranMFA",
-    "displayName": "Iran Foreign Ministry (Baghaei)",
-    "text": "Iran FM Spokesperson Esmaeil Baghaei confirmed May 18: Iran has submitted a response to the latest US proposal via Pakistani mediators. Iran defended the demand for war reparations \u2014 calling them 'legitimate rights, not maximalism.' Baghaei said Iran's current focus is 'ending the war' not nuclear enrichment status, but Iran will not drop reparations from its proposal. Exchanges 'continuing through the Pakistani mediator.'",
-    "timestamp": "2026-05-18T10:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Baghaei statement confirmed by Arab News, Al Jazeera video report May 18. Reparations framing confirmed by Iran International.",
-    "keywords": [
-      "iran",
-      "baghaei",
-      "reparations",
-      "pakistan",
-      "negotiations",
-      "mfa",
-      "day80"
-    ]
-  },
-  {
     "id": "social-1338",
     "handle": "@netanyahu",
     "displayName": "PM Benjamin Netanyahu",
@@ -54,46 +15,6 @@
       "uranium",
       "idf",
       "navy",
-      "day80"
-    ]
-  },
-  {
-    "id": "social-1339",
-    "handle": "@UN_SG",
-    "displayName": "UN Secretary-General Guterres",
-    "text": "Guterres led global condemnation of the Barakah nuclear plant drone strike May 18, stating: 'There must be no further attacks near civilian infrastructure, including nuclear power plants.' IAEA DG Grossi separately issued 'grave concern,' dispatched a monitoring team, and called for 'maximum military restraint near any nuclear facility.' The first nuclear facility attack of the war prompted condemnation from EU, India, Canada, Pakistan, GCC, and the UN simultaneously.",
-    "timestamp": "2026-05-18T09:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Guterres statement confirmed by The National UAE, Voice of Emirates May 18. IAEA Grossi 'grave concern' confirmed by Times of Israel liveblog, Haaretz. Global condemnation roundup from The National UAE.",
-    "keywords": [
-      "guterres",
-      "iaea",
-      "grossi",
-      "barakah",
-      "uae",
-      "nuclear",
-      "un",
-      "day80"
-    ]
-  },
-  {
-    "id": "social-1340",
-    "handle": "@criticalthreats",
-    "displayName": "Critical Threats / AEI",
-    "text": "CT/ISW Day 80 assessment: The convergence of Trump's May 19 NSC Situation Room meeting + Netanyahu's 'war not over' CBS statement + Iran's rejection of reparations demand + Barakah nuclear plant drone strike + IRGC threat to deactivate US Gulf bases = the highest-stakes political-military moment since the April 8 ceasefire. Pentagon strike packages ready. ISW: Iran has restored 30/33 Hormuz missile sites. Russian drone components flowing via Caspian. Iran stock market reopens May 19 as domestic normalization signal.",
-    "timestamp": "2026-05-18T11:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ISW missile site count per Euronews May 13. Pentagon strike packages per WaPo May 17. Russia Caspian shipments per Critical Threats May 8-16. Iran stock market May 19 per Times of Israel liveblog.",
-    "keywords": [
-      "isw",
-      "iran",
-      "pentagon",
-      "situationroom",
-      "missile-sites",
-      "russia",
-      "hormuz",
       "day80"
     ]
   },
@@ -408,6 +329,100 @@
       "shipping",
       "iea",
       "oil",
+      "day81"
+    ]
+  },
+  {
+    "id": "social-1358",
+    "handle": "IAEAorg",
+    "displayName": "IAEA (Nuclear Monitor)",
+    "text": "IAEA confirmed May 19: External power has been restored to Unit 3 of the UAE's Barakah Nuclear Power Plant following the May 17 drone strike that damaged an auxiliary electrical generator. No radiation release. No damage to reactor containment. Nuclear safety systems functioned as designed. IAEA monitoring team on site. Director General Grossi continues to call for 'no attacks near nuclear infrastructure under any circumstances.'",
+    "timestamp": "2026-05-19T11:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IAEA Barakah power restoration confirmed by Eastern Herald May 19, Eastern Herald citing IAEA official statement. Grossi prior call for restraint confirmed by Times of Israel liveblog, Haaretz May 18.",
+    "keywords": [
+      "iaea",
+      "barakah",
+      "uae",
+      "nuclear",
+      "power-plant",
+      "day81"
+    ]
+  },
+  {
+    "id": "social-1359",
+    "handle": "AuroraIntel",
+    "displayName": "Aurora Intel",
+    "text": "Araghchi admitted at BRICS foreign ministers meeting (New Delhi, May 15) that US-Iran talks have hit a 'deadlock' on enrichment: 'Since it is very difficult, we are almost in a deadlock on this particular question. Let's postpone it to the later stages.' This is a significant signal \u2014 Iran is flagging it will agree to set aside the enrichment question temporarily to make partial progress. Could be the opening for a framework deal within the 48-72h Gulf-state window.",
+    "timestamp": "2026-05-19T11:15:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Araghchi BRICS enrichment deadlock statement confirmed by Al Jazeera May 15, Tribune India, WION, GlobalSecurity.",
+    "keywords": [
+      "araghchi",
+      "iran",
+      "enrichment",
+      "deadlock",
+      "brics",
+      "diplomacy",
+      "day81"
+    ]
+  },
+  {
+    "id": "social-1360",
+    "handle": "QatarGovComm",
+    "displayName": "Qatar Government Communications",
+    "text": "Qatar's Foreign Ministry spokesperson Majed al-Ansari stated May 19 that US-Iran negotiations 'need more time' after Gulf leaders (Qatar Emir, Saudi Crown Prince MBS, UAE President) personally intervened with Trump to delay the planned military strike on Iran. Qatar's diplomatic role is now central \u2014 acting as the critical backchannel bridge between Washington and Tehran. The 48-72 hour pause window Qatar helped secure is described as 'serious' by all parties.",
+    "timestamp": "2026-05-19T11:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al-Ansari statement confirmed by Al Jazeera liveblog May 19. Gulf leaders' role confirmed by Al Arabiya, CNBC May 18-19.",
+    "keywords": [
+      "qatar",
+      "diplomacy",
+      "iran",
+      "trump",
+      "gulf-states",
+      "negotiations",
+      "day81"
+    ]
+  },
+  {
+    "id": "social-1361",
+    "handle": "criticalthreats",
+    "displayName": "Critical Threats / AEI",
+    "text": "Day 81 afternoon status: 48-72h Gulf-mediation window is active. Iran has NOT fired major missile salvos since early AM. Oil stabilizing near $107-108/bbl. Senate rejected war powers limits for the 7th time (50-49 vote, May 13) \u2014 Murkowski, Collins, Rand Paul broke GOP ranks; Fetterman voted against. Trump claims War Powers clock doesn't apply since 'hostilities have terminated' \u2014 while planning new strikes. The legal and diplomatic picture is uniquely contradictory: ceasefire declared, strikes planned, talks ongoing simultaneously.",
+    "timestamp": "2026-05-19T11:45:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Senate vote confirmed by Washington Post May 13, The Hill. Trump war powers claim confirmed by CNBC May 12. Oil prices from Reuters/TradingEconomics May 19.",
+    "keywords": [
+      "senate",
+      "war-powers",
+      "trump",
+      "diplomacy",
+      "iran",
+      "oil",
+      "day81"
+    ]
+  },
+  {
+    "id": "social-1362",
+    "handle": "WarMonitor",
+    "displayName": "War Monitor",
+    "text": "EU's Kallas (May 12): 'After the war in Iran, the region will never be the same.' EU preparing for post-war reconstruction role. Operation Aspides may expand to Persian Gulf. Brussels expanding Iran sanctions to include Hormuz obstruction. Separately: Pope Leo XIV has condemned Trump's threat to 'annihilate Iranian civilization' as 'truly unacceptable' and called for dialogue \u2014 while also condemning Iran's crackdowns. The Vatican position: neither side's escalation is justified. Rubio met with Pope Leo at Vatican May 7.",
+    "timestamp": "2026-05-19T12:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Kallas statements confirmed by EUNews May 12. Pope Leo XIV statements confirmed by NPR Apr 11, CBS News. Rubio Vatican meeting confirmed by PBS NewsHour.",
+    "keywords": [
+      "kallas",
+      "eu",
+      "pope-leo",
+      "rubio",
+      "diplomacy",
+      "sanctions",
       "day81"
     ]
   }

@@ -52935,5 +52935,35 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["saudi-arabia", "iraq_militias", "drone", "movement", "day80"]
+  },
+  {
+    "id": "evt-new-1557",
+    "title": "IAEA Confirms Barakah Nuclear Plant Unit 3 Power Restored After May 17 Drone Strike",
+    "description": "The International Atomic Energy Agency confirmed on May 19, 2026 that external electrical power has been restored to Unit 3 of the UAE's Barakah Nuclear Power Plant following a drone strike on May 17 that damaged an auxiliary generator outside the plant's inner perimeter. The IAEA monitoring team on site confirmed no radiation release, no damage to reactor containment, and nuclear safety systems functioning as designed. IAEA Director General Rafael Grossi continued to call for 'no attacks near nuclear infrastructure under any circumstances.' This is the first confirmed kinetic incident involving a nuclear power facility in the war. Iran-aligned Iraqi militias are the suspected source; attribution remains unconfirmed.",
+    "type": "infrastructure",
+    "lat": 23.94,
+    "lng": 52.22,
+    "location": "Barakah Nuclear Power Plant, Al Dhafra, Abu Dhabi, UAE",
+    "timestamp": "2026-05-19T11:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iraq_militias",
+    "sources": [
+      {
+        "name": "Eastern Herald — UAE Barakah nuclear plant drone strike; IAEA power restored",
+        "url": "https://easternherald.com/2026/05/19/uae-barakah-nuclear-plant-drone-strike-iaea-power-restored/"
+      },
+      {
+        "name": "PBS NewsHour — Drone attack starts fire at UAE nuclear power plant",
+        "url": "https://www.pbs.org/newshour/world/drone-attack-starts-fire-at-uae-nuclear-power-plant"
+      },
+      {
+        "name": "The National UAE — Drone strike causes fire at Barakah nuclear plant perimeter",
+        "url": "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"note": "No casualties. No radiation release. Auxiliary generator damaged; Unit 3 external power restored May 19."},
+    "tags": ["uae", "nuclear", "barakah", "drone", "infrastructure", "iaea", "day81"]
   }
 ]

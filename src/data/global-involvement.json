@@ -2233,6 +2233,11 @@
         "date": "2026-05-18",
         "type": "diplomatic",
         "text": "UAE President Mohamed bin Zayed personally appealed to Trump to delay a planned military strike on Iran, joining Saudi Crown Prince MBS and Qatar's Emir in a joint Gulf states intercession. Trump publicly credited the UAE, Saudi Arabia, and Qatar with halting the May 19 strike, saying he agreed to a 2-3 day pause for 'serious negotiations.' The UAE intercession is the most direct Gulf diplomatic intervention in US military decision-making since the conflict began."
+      },
+      {
+        "date": "2026-05-19",
+        "type": "incident",
+        "text": "IAEA confirmed external power restored to Barakah Nuclear Plant Unit 3 (damaged in May 17 drone strike). No radiation release. Nuclear safety systems functional. UAE demands accountability for attack; IAEA monitoring team on site."
       }
     ],
     "statements": [
@@ -2503,5 +2508,34 @@
       }
     ],
     "lastUpdated": "2026-05-18T06:10:00Z"
+  },
+  {
+    "id": "gi-qatar",
+    "country": "Qatar",
+    "key": "qatar",
+    "flag": "\ud83c\uddf6\ud83c\udde6",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "level": "diplomatic",
+    "summary": "Qatar serves as the primary diplomatic intermediary between the US and Iran, hosting negotiations and delivering communications between parties. Qatari Emir personally intervened with Trump on May 18 to delay a scheduled US strike on Iran, securing a 48\u201372 hour window for negotiations.",
+    "actions": [
+      {
+        "date": "2026-03-01",
+        "type": "diplomatic",
+        "text": "Qatar began serving as a backchannel communications hub between the US and Iran shortly after war began, leveraging existing relationships with both countries."
+      },
+      {
+        "date": "2026-05-18",
+        "type": "diplomatic",
+        "text": "Qatar's Emir personally appealed to Trump to delay the planned May 19 US military strike on Iran, jointly with Saudi Crown Prince MBS and UAE President. Trump honored the request, citing 'serious negotiations.' Qatar FM spokesperson Majed al-Ansari stated negotiations 'need more time.'"
+      }
+    ],
+    "statements": [
+      {
+        "date": "2026-05-19",
+        "speaker": "Majed al-Ansari, Qatar FM Spokesman",
+        "text": "Negotiations need more time."
+      }
+    ]
   }
 ]

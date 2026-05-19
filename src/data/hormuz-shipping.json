@@ -4,7 +4,7 @@
   "dailyTransits": 2,
   "preWarDailyTransits": 140,
   "blockadeStartDate": "2026-03-03",
-  "lastUpdated": "2026-05-19T10:30:00Z",
+  "lastUpdated": "2026-05-19T12:13:00Z",
   "statistics": {
     "normalDailyBarrels": 15000000,
     "currentDailyBarrels": 0,
@@ -50,7 +50,10 @@
     "shipsTrapped": 800,
     "currentTraffic": "8 vessels/day (incl 3 oil tankers, bulk cargo)",
     "preWarTraffic": "135 vessels/day",
-    "barrelsBlockedDaily": 15000000
+    "barrelsBlockedDaily": 15000000,
+    "pgsaStatus": "operational",
+    "pgsaLaunchDate": "2026-05-18",
+    "vesselApplicationsRequired": true
   },
   "timeline": [
     {

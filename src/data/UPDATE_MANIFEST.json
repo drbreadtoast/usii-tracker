@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Master checklist for data updates. Claude reads this at the START of every update session and verifies against it at the END.",
-  "lastFullUpdate": "2026-05-19T10:30:00Z",
+  "lastFullUpdate": "2026-05-19T12:13:00Z",
   "totalFiles": 24,
   "updateGroups": {
     "CRITICAL": {
@@ -10,30 +10,30 @@
         {
           "file": "events.json",
           "structure": "top-level-array",
-          "lastId": "evt-new-1556",
-          "totalEntries": 1604,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastId": "evt-new-1557",
+          "totalEntries": 1605,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "war-timeline.json",
           "structure": "top-level-array",
-          "lastId": "tl-806",
-          "totalEntries": 806,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastId": "tl-807",
+          "totalEntries": 807,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "breaking.json",
           "structure": "top-level-array",
-          "lastId": "brk-1272",
-          "totalEntries": 64,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastId": "brk-1274",
+          "totalEntries": 66,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "death-toll.json",
           "structure": "object-with-conflicts",
           "lastId": null,
           "totalEntries": 3,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         }
       ]
     },
@@ -44,78 +44,78 @@
           "file": "statements-timeline.json",
           "structure": "object-with-speakers",
           "lastId": null,
-          "totalEntries": 941,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "totalEntries": 945,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "war-costs.json",
           "structure": "object-with-metadata",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "oil-tracker.json",
           "structure": "object-with-metadata",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "social-posts.json",
           "structure": "top-level-array",
-          "lastId": "social-1357",
-          "totalEntries": 22,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastId": "social-1362",
+          "totalEntries": 23,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "government-statements.json",
           "structure": "top-level-array",
-          "lastId": "gov-927",
-          "totalEntries": 927,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastId": "gov-928",
+          "totalEntries": 928,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "escalations.json",
           "structure": "top-level-array",
-          "lastId": "esc-652",
-          "totalEntries": 653,
-          "lastUpdated": "2026-05-19T10:30:00Z"
+          "lastId": "esc-653",
+          "totalEntries": 654,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "gas-prices.json",
           "structure": "object-with-lastUpdated",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T12:00:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "media-perspectives.json",
           "structure": "object-with-categories",
           "lastId": null,
           "totalEntries": 15,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "global-involvement.json",
           "structure": "top-level-array",
-          "lastId": "gi-south-korea",
-          "totalEntries": 22,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastId": "gi-qatar",
+          "totalEntries": 23,
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "hormuz-shipping.json",
           "structure": "object-with-timeline",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "food-prices.json",
           "structure": "object-with-lastUpdated",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         }
       ]
     },
@@ -186,14 +186,14 @@
           "structure": "simple-object",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         },
         {
           "file": "site-metadata.json",
           "structure": "simple-object",
           "lastId": null,
           "totalEntries": null,
-          "lastUpdated": "2026-05-19T00:06:00Z"
+          "lastUpdated": "2026-05-19T12:13:00Z"
         }
       ]
     }
