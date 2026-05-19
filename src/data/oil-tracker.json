@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-18T19:07:00Z",
+    "lastUpdated": "2026-05-19T12:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 80
+    "conflictDay": 81
   },
   "oilPrices": {
     "preWar": {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 107.71,
-        "change": "+35.0%",
-        "changeDollars": "+$27.91",
-        "dailyChange": "-1.42%",
-        "dailyChangeDollars": "-$1.55"
+        "price": 111.19,
+        "change": "+39.3%",
+        "changeDollars": "+$31.39",
+        "dailyChange": "+1.77%",
+        "dailyChangeDollars": "+$1.93"
       },
       "wti": {
-        "price": 103.52,
-        "change": "+37.1%",
-        "changeDollars": "+$28.01",
-        "dailyChange": "-1.80%",
-        "dailyChangeDollars": "-$1.90"
+        "price": 107.35,
+        "change": "+42.2%",
+        "changeDollars": "+$31.85",
+        "dailyChange": "+1.52%",
+        "dailyChangeDollars": "+$1.61"
       },
-      "changePercent": "+35.0%",
-      "changeNote": "Brent $107.71 (+35.0% vs pre-war), WTI $103.52 (+37.1% vs pre-war). End-of-day May 18: Brent –1.42%, WTI –1.80%. Volatile session spiked to $112 on Iranian state media report of US oil sanctions waiver, then reversed sharply when US denied it. End-of-day pullback despite Trump 'Clock is Ticking' warning. PGSA Hormuz toll operational. Trump NSC Situation Room meeting May 19. IEA: market materially undersupplied through October. Source: Fortune/Reuters/TradingEconomics late-session settled price.",
-      "lastUpdated": "2026-05-18T19:07:00Z"
+      "changePercent": "+39.3%",
+      "changeNote": "Brent $111.19 (+39.3% vs pre-war $79.80), WTI $107.35 (+42.2% vs pre-war $75.50). May 19 morning: both benchmarks rebounded +1.77%/+1.52% after Monday's selloff. US-Iran oil sanctions waiver negotiations remain unresolved — markets pricing in continued Hormuz disruption. Trump NSC war meeting held May 19. IEA: market 'materially undersupplied' through October. PGSA Hormuz toll operational at $2M/transit in yuan. Source: Fortune/Reuters/TradingEconomics May 19.",
+      "lastUpdated": "2026-05-19T12:00:00Z"
     },
     "priceHistory": [
       {
