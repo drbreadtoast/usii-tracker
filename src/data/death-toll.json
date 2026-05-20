@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T12:13:00Z",
+  "lastUpdated": "2026-05-20T06:06:00Z",
   "conflicts": [
     {
       "name": "Twelve-Day War (June 2025)",
@@ -77,7 +77,7 @@
     },
     {
       "name": "2026 Iran War (Feb 28 - Present)",
-      "period": "February 28, 2026 - Ongoing (Day 81 PM, May 19 \u2014 Lebanon death toll crosses 3,000 milestone: 3,042 killed / 9,273 wounded confirmed per Lebanese Health Ministry (The National, NBC, PBS). US seizes Iranian oil tanker Skywave in Indian Ocean. VP Vance: US 'locked and loaded' to restart Iran strikes if talks fail. IRGC vows to 'resolutely thwart' any US aggression. Oil: Brent $111.05 (-0.93%), WTI $103.54 (-1.10%) on delayed-strike pricing. Gas $4.515. Hormuz Blockade Day 78.)",
+      "period": "February 28, 2026 - Ongoing (Day 82, May 20 \u2014 Trump formally cancels planned Iran strike after Qatar/Saudi/UAE lobbying \u2014 grants 2\u20133 day diplomatic window. Israel strikes kill 19 in southern Lebanon (May 19) incl. 3 children, 4 women. Maj. Itamar Sapir (IDF) KIA in Qouzah \u2014 10th IDF death since Lebanon ceasefire. Hezbollah drone breaches Israeli border; rockets breach truce. CNN: Israel readying nuclear strike plans. Xi-Putin Beijing summit \u2014 Xi calls ceasefire 'top priority.' Oil: Brent $111.15 (+39.2%), WTI $103.58. Gas $4.533. Hormuz Blockade Day 79.)",
       "parties": [
         {
           "name": "Iran",
@@ -172,19 +172,19 @@
           "name": "Israel",
           "flag": "\ud83c\uddee\ud83c\uddf1",
           "confirmed": {
-            "military": 28,
+            "military": 29,
             "civilian": 23,
-            "total": 51,
-            "source": "Wikipedia Casualties of the 2026 Iran war + IDF (Day 81, May 19). 51 Israeli citizens or residents killed. May 19: 1 civilian killed in Nahariya by Hezbollah rocket barrage (~200 rockets). May 16: Capt. Maoz Israel Recanati (24, Golani Brigade 12th Bn, Itamar) killed by Hezbollah fiber-optic FPV drone in S. Lebanon \u2014 7th IDF death since Lebanon ceasefire. May 15: Staff Sgt. Negev Dagan (20, Golani Brigade, Moshav Dekel) KIA by Hezbollah mortar near Litani River.",
-            "sourceUrl": "https://www.jns.org/news/israel-news/hezbollah-fires-rockets-at-haifa-area-nahariya-and-acre"
+            "total": 52,
+            "source": "Wikipedia Casualties of the 2026 Iran war + IDF (Day 82, May 20). 52 Israeli citizens or residents killed. May 20: Maj. (res.) Itamar Sapir (27, 551st Brigade) killed in Qouzah by Hezbollah fire from inside a church \u2014 10th IDF death since Lebanon ceasefire April 16. May 19: 1 civilian killed in Nahariya by Hezbollah rocket barrage. May 16: Capt. Maoz Israel Recanati killed by Hezbollah FPV drone.",
+            "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-896738"
           },
           "estimated": {
-            "military": 30,
+            "military": 31,
             "civilian": 23,
-            "total": 56,
-            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 81, May 19). 51 confirmed + ~5 unconfirmed. May 19: +1 civilian killed in Nahariya Hezbollah 200-rocket barrage. IDF struck 30+ Hezbollah sites in Lebanon (May 18). Lebanon ceasefire nominally extended 45 days but fighting continues.",
+            "total": 57,
+            "source": "INSS / Statista + Alma Center + Israeli emergency services (Day 82, May 20). 52 confirmed + ~5 unconfirmed. May 20: Maj. Itamar Sapir KIA in Qouzah — 10th IDF death since Lebanon ceasefire. Hezbollah drone breaches Israeli border; rocket salvo at IDF troops.",
             "sourceUrl": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war",
-            "note": "Updated Day 81 (May 19): +1 Nahariya civilian killed in Hezbollah ~200-rocket barrage; 14 injured. Wikipedia confirmed 49 Israeli killed as of May 12; +2 since then (Recanati May 16, Nahariya civilian May 19). IDF continues Lebanon strikes despite 45-day ceasefire extension.",
+            "note": "Updated Day 82 (May 20): +1 IDF officer killed in Qouzah, southern Lebanon. 52 total confirmed: 29 military + 23 civilian. Hezbollah fired rockets and sent drone into Israel breaching the ceasefire. IDF continued strikes — 30+ Hezbollah sites hit over 24h ending May 20.",
             "minTotal": 53,
             "maxTotal": 65
           },
@@ -288,10 +288,10 @@
           "flag": "\ud83c\uddf1\ud83c\udde7",
           "confirmed": {
             "military": 750,
-            "civilian": 2292,
-            "total": 3042,
-            "source": "Lebanese Health Ministry (Day 81 PM, May 19). 3,042 confirmed killed since fighting resumed March 2 \u2014 milestone confirmed by The National, NBC News, and PBS NewsHour. Includes 211 children, 292 women, 116 medics. 740+ killed since April 17 ceasefire extension. IDF continues strikes on Hezbollah infrastructure in southern Lebanon.",
-            "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/05/19/death-toll-from-israeli-strikes-on-lebanon-exceeds-3000/"
+            "civilian": 2311,
+            "total": 3061,
+            "source": "Lebanese Health Ministry (Day 82, May 20). 3,061 confirmed killed since fighting resumed March 2 \u2014 3,042 confirmed May 19 (milestone per The National, NBC, PBS); +19 from May 19 strikes on Deir Qanun al-Nahr (10 killed incl. 3 children, 3 women), Nabatieh (4 killed), Kfar Sir (5 killed incl. 1 woman). Includes 211+ children, 292+ women, 116 medics. 740+ killed since April 17 ceasefire; IDF struck 25\u201330+ Hezbollah sites May 19\u201320.",
+            "sourceUrl": "https://www.washingtonpost.com/world/2026/05/19/lebanon-israel-hezbollah-airstrike-deir-qanoun-al-nahr-ceasefire/f12e2e12-53cc-11f1-9c40-7a0a12d9e745_story.html"
           },
           "estimated": {
             "military": 1350,
@@ -332,8 +332,8 @@
               }
             ]
           },
-          "injured": 9273,
-          "injuredNote": "9,273+ wounded per Lebanese Health Ministry (Day 81 PM, May 19). Confirmed by The National, NBC News, PBS NewsHour as of May 19 milestone reporting. 740+ killed and thousands wounded since April 17 ceasefire extension. Nearly 1 million displaced from southern Lebanon.",
+          "injured": 9286,
+          "injuredNote": "9,286+ wounded per Lebanese Health Ministry (Day 82, May 20). +13 wounded in May 19 Israeli strikes: Deir Qanun al-Nahr (+3 wounded), Nabatieh (+10 wounded). 9,273 previously confirmed at 3,000-death milestone (The National, NBC, PBS). 740+ killed and thousands wounded since April 17 ceasefire extension. Nearly 1 million displaced from southern Lebanon.",
           "displaced": 1200000,
           "displacedNote": "1.2M+ displaced per The National / Lebanese authorities (May 6). Expanded evacuation orders to 12 towns including western Bekaa for first time since April 17 ceasefire."
         },

@@ -53069,5 +53069,191 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iraq_militias", "kataib-hezbollah", "terrorism", "us", "court", "day81"]
+  },
+  {
+    "id": "evt-new-1562",
+    "title": "Trump Formally Cancels Planned Iran Strike After Gulf Allies Intervene",
+    "description": "President Trump announced on Truth Social he has called off a 'scheduled attack of Iran' after personal requests from the leaders of Qatar, Saudi Arabia, and the UAE. Trump said he was 'an hour away' from launching what he described as 'a full, large scale assault' and that 'serious negotiations are now taking place.' He instructed the military to remain prepared to strike 'on a moment's notice' if no deal is reached within 2–3 days. Gulf states lobbied against the strike fearing Iranian retaliation against their territory. VP Vance confirmed the military remains 'locked and loaded.'",
+    "type": "diplomatic",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "Washington, D.C., USA",
+    "timestamp": "2026-05-19T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — Trump says he's called off Iran strike",
+        "url": "https://www.npr.org/2026/05/19/g-s1-122762/trump-says-hes-called-off-iran-strike"
+      },
+      {
+        "name": "Time — Trump US Iran war Gulf states attack Hormuz",
+        "url": "https://time.com/article/2026/05/19/trump-us-iran-israel-war-gulf-states-attack-hormuz/"
+      },
+      {
+        "name": "Washington Post — Trump says he's called off attack on Iran",
+        "url": "https://www.washingtonpost.com/politics/2026/05/18/trump-says-hes-called-off-attack-iran/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "trump", "iran", "diplomatic", "ceasefire", "gulf-states", "day82"]
+  },
+  {
+    "id": "evt-new-1563",
+    "title": "Israeli Airstrikes Kill 19 in Southern Lebanon Including Children",
+    "description": "Israeli airstrikes across southern Lebanon killed at least 19 people, including four women and three children, according to Lebanon's Health Ministry. Israel's military said it struck more than 25 Hezbollah infrastructure sites. Key strikes included an attack on Deir Qanun al-Nahr in the Tyre district killing 10 people — including three children and three women — wounding three others; a strike on Nabatieh killing four and wounding 10; and a strike on Kfar Sir killing five, including one woman. The strikes occurred despite the Lebanon ceasefire nominally extended 45 days on May 15.",
+    "type": "strike",
+    "lat": 33.22,
+    "lng": 35.32,
+    "location": "Deir Qanun al-Nahr, Southern Lebanon",
+    "timestamp": "2026-05-19T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Washington Post — Lebanon Israel Hezbollah airstrike Deir Qanoun ceasefire",
+        "url": "https://www.washingtonpost.com/world/2026/05/19/lebanon-israel-hezbollah-airstrike-deir-qanoun-al-nahr-ceasefire/f12e2e12-53cc-11f1-9c40-7a0a12d9e745_story.html"
+      },
+      {
+        "name": "Washington Times — Israeli strikes southern Lebanon kill 19 including children",
+        "url": "https://www.washingtontimes.com/news/2026/may/19/officials-say-israeli-strikes-southern-lebanon-kill-19-including/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 19, "wounded": 13, "note": "Includes 3 children, 4 women; strikes on Deir Qanun al-Nahr (10 killed), Nabatieh (4 killed), Kfar Sir (5 killed)"},
+    "tags": ["israel", "hezbollah", "lebanon", "strike", "civilians", "ceasefire", "day82"]
+  },
+  {
+    "id": "evt-new-1564",
+    "title": "IDF Major Itamar Sapir Killed by Hezbollah Fire in Southern Lebanon",
+    "description": "Major (res.) Itamar Sapir, 27, deputy company commander in Battalion 7008 of the 551st Brigade, was killed in combat in southern Lebanon when Hezbollah fighters fired on IDF soldiers from inside a church in the village of Qouzah, north of Ayta ash-Shab, inside the Yellow Line zone under IDF control. He is the tenth IDF soldier killed in Lebanon since the ceasefire began on April 16. Sapir left behind a wife and a one-and-a-half-year-old son.",
+    "type": "movement",
+    "lat": 33.17,
+    "lng": 35.34,
+    "location": "Qouzah, Southern Lebanon",
+    "timestamp": "2026-05-20T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Jerusalem Post — Israeli reservist killed in Southern Lebanon combat",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-896738"
+      },
+      {
+        "name": "JNS — Israeli reservist officer killed in southern Lebanon combat",
+        "url": "https://www.jns.org/news/israel-news/israeli-reservist-officer-killed-in-southern-lebanon-combat"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "note": "Maj. Itamar Sapir, 27, IDF 551st Brigade — 10th IDF death since Lebanon ceasefire April 16"},
+    "tags": ["hezbollah", "israel", "lebanon", "idf", "casualties", "ceasefire", "day82"]
+  },
+  {
+    "id": "evt-new-1565",
+    "title": "Hezbollah Drone Infiltrates Israeli Airspace; Rockets Breach Lebanon Truce",
+    "description": "An explosive UAV launched from Lebanon crossed into Israeli territory and detonated near the Lebanon border. A second UAV was intercepted by Israeli air defenses after triggering air raid sirens in northern Israeli communities. The IDF said Hezbollah also launched rockets at IDF troops operating in southern Lebanon, breaching the ceasefire terms. Israel's military responded by striking more than 30 Hezbollah sites across southern Lebanon over a 24-hour period.",
+    "type": "strike",
+    "lat": 33.1,
+    "lng": 35.2,
+    "location": "Northern Israel / Southern Lebanon border",
+    "timestamp": "2026-05-20T05:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says Hezbollah breached truce launching rockets at troops drone at Israel",
+        "url": "https://www.timesofisrael.com/idf-says-hezbollah-breached-truce-launching-rockets-at-troops-drone-at-israel/"
+      },
+      {
+        "name": "JNS — IDF strikes 30 Hezbollah terror sites in southern Lebanon",
+        "url": "https://www.jns.org/news/israel-news/idf-strikes-30-hezbollah-terror-sites-in-southern-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["hezbollah", "israel", "lebanon", "strike", "drone", "ceasefire", "day82"]
+  },
+  {
+    "id": "evt-new-1566",
+    "title": "Araghchi Warns Iran Has 'Many More Surprises' if War Resumes",
+    "description": "Iranian Foreign Minister Abbas Araghchi warned that 'a return to war will feature many more surprises,' signaling Tehran's readiness to escalate significantly beyond the February–April conflict phase if US-Iran nuclear negotiations collapse. The warning came as Trump's 2–3 day diplomatic deadline counted down, with Gulf states scrambling to broker a deal before the US resumes strikes on Iran.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-20T04:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera liveblog — Tehran warns of many more surprises if conflict resumes",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/20/iran-war-live-tehran-warns-of-many-more-surprises-if-conflict-resumes"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "araghchi", "diplomatic", "warning", "escalation", "day82"]
+  },
+  {
+    "id": "evt-new-1567",
+    "title": "Xi-Putin Beijing Summit: Xi Calls Comprehensive Ceasefire 'Top Priority'; Trump Says Xi Pledged No Weapons to Iran",
+    "description": "Russian President Putin arrived in Beijing for a summit with Chinese President Xi Jinping, with the Iran war dominating the agenda. Xi stated: 'A comprehensive ceasefire is of utmost urgency; resuming hostilities is even more inadvisable and maintaining negotiations is particularly important.' Separately, Trump confirmed that Xi personally assured him China would not send weapons to Iran. The two leaders also advanced discussions on the Power of Siberia 2 gas pipeline (50 bcm/year from Yamal), which has gained urgency due to Iran-war energy disruptions.",
+    "type": "diplomatic",
+    "lat": 39.91,
+    "lng": 116.39,
+    "location": "Beijing, China",
+    "timestamp": "2026-05-20T06:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Times of Israel — Xi tells Putin Iran-Israel ceasefire is top priority",
+        "url": "https://www.timesofisrael.com/liveblog_entry/xi-tells-putin-iran-israel-ceasefire-is-top-priority/"
+      },
+      {
+        "name": "Al Jazeera — Trump says Xi assured him China would not send weapons to Iran",
+        "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-xi-assured-him-china-would-not-send-weapons-to-iran"
+      },
+      {
+        "name": "Gulf News — Putin meets Xi as Trump delays Iran strike and Gulf tensions deepen",
+        "url": "https://gulfnews.com/world/mena/putin-meets-xi-as-trump-delays-iran-strike-and-gulf-tensions-deepen-1.500546714"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["china", "russia", "diplomatic", "ceasefire", "xi-jinping", "putin", "day82"]
+  },
+  {
+    "id": "evt-new-1568",
+    "title": "CNN: US Intelligence Shows Israel Preparing Strike on Iranian Nuclear Facilities",
+    "description": "CNN reported that US intelligence indicates Israel is preparing for a possible strike on Iranian nuclear facilities, which would potentially break with Trump's ongoing diplomatic efforts. Reports cite intercepted Israeli communications and observed military movements including movement of air munitions and completion of an air exercise targeting simulated hardened underground facilities. US officials cautioned no final decision has been made and that there is disagreement within the US government about whether Israel will act. Natanz, Fordow, and Arak were identified as potential targets.",
+    "type": "movement",
+    "lat": 33.73,
+    "lng": 51.73,
+    "location": "Natanz, Iran (strike preparation reports)",
+    "timestamp": "2026-05-20T05:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Israel said readying to quickly strike Iranian nuclear sites if US-Iran talks fail",
+        "url": "https://www.timesofisrael.com/israel-said-readying-to-quickly-strike-iranian-nuclear-sites-if-us-iran-talks-fail/"
+      },
+      {
+        "name": "Time — Iran Israel strike report nuclear US Trump history context",
+        "url": "https://time.com/7287313/iran-israel-strike-report-nuclear-us-trump-history-context-explaner/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["israel", "iran", "nuclear", "strike", "intelligence", "natanz", "escalation", "day82"]
   }
 ]

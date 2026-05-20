@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-05-19T19:07:00Z",
+  "lastUpdated": "2026-05-20T06:06:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.65,
-      "change": "+18.3%",
-      "detail": "Wheat futures $6.65/bushel (CBOT July SRW, May 19). USDA season-average farm price forecast $6.50/bu (3-year high, +$1.50 YoY). May WASDE bullish estimates \u2014 lowest all-wheat production since 1972/73. Fertilizer crisis and fuel cost passthrough continue adding risk premium. Pre-war: $5.62/bushel.",
-      "source": "DTN/Progressive Farmer \u2014 Bullish Wheat Estimates in May WASDE",
+      "current": 6.57,
+      "change": "+16.9%",
+      "detail": "Wheat futures $6.65/bushel (CBOT July SRW, May 19). USDA season-average farm price forecast $6.50/bu (3-year high, +$1.50 YoY). May WASDE bullish estimates — lowest all-wheat production since 1972/73. Fertilizer crisis and fuel cost passthrough continue adding risk premium. Pre-war: $5.62/bushel.",
+      "source": "DTN/Progressive Farmer — Bullish Wheat Estimates in May WASDE",
       "sourceUrl": "https://www.dtnpf.com/agriculture/web/ag/news/article/2026/05/12/bullish-wheat-estimates-may-wasde"
     },
     {
@@ -18,17 +18,17 @@
       "current": 4.7,
       "change": "+9.0%",
       "detail": "Corn futures ~$4.70/bushel (CBOT July contract, May 19). Rose ~3% on China agricultural purchase announcement. Disrupted fertilizer supply (nitrogen/urea up 21%) continues to hurt corn economics. USDA projects corn acreage down ~3% in 2026 vs 2025. Pre-war: $4.31/bushel.",
-      "source": "TradingEconomics \u2014 Corn May 19",
+      "source": "TradingEconomics — Corn May 19",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
     {
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": 11.99,
-      "change": "+18.5%",
-      "detail": "Soybeans $11.99/bu (May 18 CBOT futures, up +1.90% on day). USDA WASDE May: 2026-27 soybean stocks 310M bushels \u2014 below analyst estimates. EPA biofuel mandate boosting demand. Soybean oil at historic highs.",
-      "source": "TradingEconomics \u2014 Soybeans May 18",
+      "current": 12.16,
+      "change": "+20.2%",
+      "detail": "Soybeans $11.99/bu (May 18 CBOT futures, up +1.90% on day). USDA WASDE May: 2026-27 soybean stocks 310M bushels — below analyst estimates. EPA biofuel mandate boosting demand. Soybean oil at historic highs.",
+      "source": "TradingEconomics — Soybeans May 18",
       "sourceUrl": "https://tradingeconomics.com/commodity/soybeans"
     },
     {
@@ -57,7 +57,7 @@
       "preWar": "$3.49",
       "current": 6.14,
       "change": "+75.9%",
-      "detail": "Vegetable oil price index at highest since June 2022. Palm oil (CPO June) RM 4,535/tonne (April 11, down 2.33% \u2014 five-week rally snapped). Indonesia CPO IDR 16,049/kg.",
+      "detail": "Vegetable oil price index at highest since June 2022. Palm oil (CPO June) RM 4,535/tonne (April 11, down 2.33% — five-week rally snapped). Indonesia CPO IDR 16,049/kg.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/hormuz-disruptions-in-iran-war-will-hit-food-prices-not-just-oil-un"
     },
@@ -67,8 +67,8 @@
       "preWar": "$1.82",
       "current": "$2.83",
       "change": "+55.5%",
-      "detail": "Arabica $2.83/lb (May 1). Down from 2025 peak of $4.41 \u2014 Brazil 2026/27 harvest projected +12% easing pressure. Down 27.5% YoY. Container rates still up 85% on key routes.",
-      "source": "Trading Economics \u2014 Coffee",
+      "detail": "Arabica $2.83/lb (May 1). Down from 2025 peak of $4.41 — Brazil 2026/27 harvest projected +12% easing pressure. Down 27.5% YoY. Container rates still up 85% on key routes.",
+      "source": "Trading Economics — Coffee",
       "sourceUrl": "https://tradingeconomics.com/commodity/coffee"
     },
     {
@@ -88,15 +88,15 @@
     "currentWeekly": 182,
     "changePercent": 8.3,
     "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "Day 80: BLS April 2026: food-at-home prices +0.7% MoM (largest single-month jump in ~4 years), +2.4% YoY. USDA revised 2026 food inflation forecast: +3.6% overall; beef +10.1%. Fresh vegetables: +44% annualized over past 3 months. UN Food Price Index April: +1.6% MoM (3-year high). Wheat $6.65/bushel. Urea fertilizer $577/tonne (+21% vs pre-war $475). Iran PGSA operational \u2014 35% of global urea supply from Middle East remains blocked. Container shipping rates: Shanghai\u2192Rotterdam +11% WoW at $2,413/40ft. If Hormuz persists through summer, could add 5-7 pp to food inflation. 318M face hunger globally (FAO)."
+    "note": "Day 80: BLS April 2026: food-at-home prices +0.7% MoM (largest single-month jump in ~4 years), +2.4% YoY. USDA revised 2026 food inflation forecast: +3.6% overall; beef +10.1%. Fresh vegetables: +44% annualized over past 3 months. UN Food Price Index April: +1.6% MoM (3-year high). Wheat $6.65/bushel. Urea fertilizer $577/tonne (+21% vs pre-war $475). Iran PGSA operational — 35% of global urea supply from Middle East remains blocked. Container shipping rates: Shanghai→Rotterdam +11% WoW at $2,413/40ft. If Hormuz persists through summer, could add 5-7 pp to food inflation. 318M face hunger globally (FAO)."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
     "ureaCurrent": "$577/tonne",
     "ureaChange": "+21%",
-    "detail": "Urea pulled back to $577/tonne by May 15 (down from April peak of $698/tonne). Still up +21% from pre-war $475/tonne. World Bank projects 60% full-year 2026 increase in fertilizer prices. Half a million tonnes of nitrogen fertilizer not being produced. Middle East supplies 35% of global urea exports \u2014 all blocked by Hormuz closure. Ammonia prices up 41% YoY. 25% of US farmers have NOT purchased fertilizer for planting season.",
-    "source": "TradingEconomics \u2014 Urea May 15",
+    "detail": "Urea pulled back to $577/tonne by May 15 (down from April peak of $698/tonne). Still up +21% from pre-war $475/tonne. World Bank projects 60% full-year 2026 increase in fertilizer prices. Half a million tonnes of nitrogen fertilizer not being produced. Middle East supplies 35% of global urea exports — all blocked by Hormuz closure. Ammonia prices up 41% YoY. 25% of US farmers have NOT purchased fertilizer for planting season.",
+    "source": "TradingEconomics — Urea May 15",
     "sourceUrl": "https://tradingeconomics.com/commodity/urea"
   },
-  "context": "Day 81 (May 19 PM): BLS April 2026: food-at-home CPI +0.7% MoM \u2014 biggest single-month jump in nearly 4 years. USDA revised 2026 food inflation forecast to +3.6% overall; beef +10.1%; fresh vegetables +44% annualized. UN Food Price Index April: +1.6% MoM, 3-year high. Wheat $6.65/bu (+18.3% vs pre-war $5.62); Soybeans $11.99/bu (+18.5%); Corn ~$4.70/bu (+9.0%). Urea fertilizer ~$577/tonne (+21%), ammonia +~20%. Container shipping rates: Baltic Dry Index ~3,092-3,151 (down ~1.4-1.9% May 15-18). Iran PGSA formally operational \u2014 Hormuz toll institutionalized at $2M/vessel in yuan. Weekly grocery bill up ~$14/household (+8.3%). Hezbollah 200-rocket barrage at Nahariya; Lebanon 687 killed in 24h \u2014 Lebanon front escalating adds to regional supply chain risk. IEA: 12.8 mb/d global supply loss since February. FoodNavigator projects food inflation could surge to 4-4.5% by year-end."
+  "context": "Day 81 (May 19 PM): BLS April 2026: food-at-home CPI +0.7% MoM — biggest single-month jump in nearly 4 years. USDA revised 2026 food inflation forecast to +3.6% overall; beef +10.1%; fresh vegetables +44% annualized. UN Food Price Index April: +1.6% MoM, 3-year high. Wheat $6.65/bu (+18.3% vs pre-war $5.62); Soybeans $11.99/bu (+18.5%); Corn ~$4.70/bu (+9.0%). Urea fertilizer ~$577/tonne (+21%), ammonia +~20%. Container shipping rates: Baltic Dry Index ~3,092-3,151 (down ~1.4-1.9% May 15-18). Iran PGSA formally operational — Hormuz toll institutionalized at $2M/vessel in yuan. Weekly grocery bill up ~$14/household (+8.3%). Hezbollah 200-rocket barrage at Nahariya; Lebanon 687 killed in 24h — Lebanon front escalating adds to regional supply chain risk. IEA: 12.8 mb/d global supply loss since February. FoodNavigator projects food inflation could surge to 4-4.5% by year-end."
 }
