@@ -53329,5 +53329,169 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["israel", "netanyahu", "iran", "nuclear", "security-cabinet", "strike", "day82"]
+  },
+  {
+    "id": "evt-new-1572",
+    "title": "Israeli Airstrikes Kill 8 in Southern Lebanon — Doueir, Tibnin, Burj Shemali",
+    "description": "Israeli fighter jets struck multiple villages in southern Lebanon on May 20, killing at least 8 people. In the village of Doueir (Nabatieh district), 5 were killed and 2 injured when IDF jets struck the Barakeh neighborhood. In Tibnin, 2 were killed near a hospital. In Burj Shemali (Tyre district), 1 person was killed by an Israeli drone strike. Hezbollah claimed 26 separate attacks against IDF forces in southern Lebanon the same day, including clashes near Haddatha and targeting soldiers in the border towns of Bayyada and Rshaf.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.37,
+    "location": "Southern Lebanon (Doueir, Tibnin, Burj Shemali)",
+    "timestamp": "2026-05-20T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — At least eight killed in Israel's air attacks on southern Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/5/20/at-least-eight-killed-in-israels-air-attacks-on-southern-lebanon"
+      },
+      {
+        "name": "Naharnet — Hezbollah clashes with soldiers near Haddatha as Israel strikes on south persist",
+        "url": "https://www.naharnet.com/stories/en/320234-hezbollah-clashes-with-soldiers-near-haddatha-as-israel-strikes-on-south-persist"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 8, "injured": 2 },
+    "tags": ["israel", "lebanon", "hezbollah", "airstrike", "civilian", "day82"]
+  },
+  {
+    "id": "evt-new-1573",
+    "title": "Senate Advances War Powers Resolution 50-47 — Four Republicans Defect",
+    "description": "The US Senate advanced a war powers resolution 50-47 on May 19, with four Republicans (Senators Collins, Murkowski, Paul, and Cassidy) joining Democrats to advance the resolution — the first successful procedural advance in eight attempts since the war began. The resolution, led by Sen. Tim Kaine (D-VA), would direct the president to remove US armed forces from hostilities against Iran within 30 days unless explicitly authorized by Congress. Cassidy's defection came days after Trump endorsed his primary opponent. The final passage vote has not yet occurred, but the procedural advance is a significant domestic constraint signal on Trump's war authority.",
+    "type": "diplomatic",
+    "lat": 38.89,
+    "lng": -77.00,
+    "location": "US Senate, Washington D.C.",
+    "timestamp": "2026-05-19T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News — Senate advances resolution to end Iran war",
+        "url": "https://www.cbsnews.com/news/senate-iran-war-powers-eighth-vote-trump/"
+      },
+      {
+        "name": "NBC News — Senate advances resolution to end Iran war; Cassidy defects",
+        "url": "https://www.nbcnews.com/politics/congress/senate-advances-resolution-end-iran-war-trump-bill-cassidy-rcna346001"
+      },
+      {
+        "name": "Washington Post — Senate votes to advance resolution blocking further strikes on Iran",
+        "url": "https://www.washingtonpost.com/politics/2026/05/19/senate-votes-advance-resolution-block-further-strikes-iran/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "congress", "senate", "war-powers", "domestic-politics", "day82"]
+  },
+  {
+    "id": "evt-new-1574",
+    "title": "US Military Boards Iranian Oil Tanker M/T Celestial Sea in Gulf of Oman",
+    "description": "US CENTCOM confirmed that American forces boarded the Iranian-flagged commercial oil tanker M/T Celestial Sea in the Gulf of Oman on May 20 after it was suspected of attempting to breach the US blockade. This is at least the fifth vessel boarded by US forces since the blockade began. CENTCOM reported 1,550 vessels from 87 countries remain stranded in the Persian Gulf.",
+    "type": "naval",
+    "lat": 23.50,
+    "lng": 59.00,
+    "location": "Gulf of Oman",
+    "timestamp": "2026-05-20T15:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "WSLS News — US military boards Iranian-flagged oil tanker suspected of trying to breach blockade",
+        "url": "https://www.wsls.com/news/politics/2026/05/20/us-military-boards-iranian-flagged-oil-tanker-suspected-of-trying-to-breach-blockade/"
+      },
+      {
+        "name": "Times of Israel liveblog May 20",
+        "url": "https://www.timesofisrael.com/liveblog-may-20-2026/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["us", "iran", "naval", "blockade", "hormuz", "tanker", "day82"]
+  },
+  {
+    "id": "evt-new-1575",
+    "title": "Iran Army Warns of 'New Fronts' Against US if Attacks Resume",
+    "description": "Iran's Army spokesman Brigadier General Mohammad Akraminia warned that Tehran would 'open new fronts' against the US with 'new equipment and new methods' if attacks resume. He stated Iran had used the ceasefire to 'strengthen its combat capabilities' and reiterated Iranian control over the Strait of Hormuz, saying the waterway 'will never return to its previous state.' The warning came as Trump set a 2–3 day deadline for a deal.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.42,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-20T07:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war Day 82: Tehran warns of new fronts as Trump sets deadline",
+        "url": "https://www.aljazeera.com/news/2026/5/20/iran-war-day-82-tehran-warns-of-new-fronts-as-trump-sets-deadline"
+      },
+      {
+        "name": "Naharnet — Iran army warns will open new fronts against US if attacks resume",
+        "url": "https://www.naharnet.com/stories/en/320225-iran-army-warns-will-open-new-fronts-against-us-if-attacks-resume"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "threat", "military", "hormuz", "day82"]
+  },
+  {
+    "id": "evt-new-1576",
+    "title": "Trump at Coast Guard Commencement: 'Do We Finish It or Are They Signing a Document?'",
+    "description": "President Trump spoke at the US Coast Guard Academy commencement in New London, Connecticut on May 20, telling graduates they would be 'tested' in their military careers and referencing the Iran war. He said: 'The only question is, do we go ahead and finish it up or are they going to be signing a document? Let's see what happens.' Separately, Trump told reporters the US is 'in no hurry' due to political considerations and November midterm elections, even as his 2–3 day deadline formally applies.",
+    "type": "diplomatic",
+    "lat": 41.36,
+    "lng": -72.10,
+    "location": "US Coast Guard Academy, New London, Connecticut",
+    "timestamp": "2026-05-20T16:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "TurnTo10 — Trump delivers Coast Guard Academy commencement address",
+        "url": "https://turnto10.com/news/local/president-donald-trump-keynote-address-commencement-united-states-coast-guard-academy-graduates-tested-military-careers-iran-war-new-london-connecticut-may-20-2026"
+      },
+      {
+        "name": "C-SPAN — President Trump delivers US Coast Guard Academy commencement speech",
+        "url": "https://www.c-span.org/event/white-house-event/president-trump-delivers-us-coast-guard-academy-commencement-speech/443304"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "us", "diplomacy", "iran", "day82"]
+  },
+  {
+    "id": "evt-new-1577",
+    "title": "Brent Crude Falls to $110.34, WTI to $97.33 on Trump Strike Cancellation Optimism",
+    "description": "Oil prices fell sharply on May 20 after Trump formally confirmed cancelling a planned Iran strike at the request of Gulf states, with Brent crude falling to $110.34/barrel (-$2.59) and WTI dropping to $97.33/barrel (-$7.25, -6.55%) as diplomatic optimism spread through markets. Three supertankers carrying crude departed the Strait of Hormuz on May 20 — the first modest sign of oil flows creeping higher. The IEA May 2026 Oil Market Report confirmed the market remains materially undersupplied despite a coordinated 400 million barrel global stock release.",
+    "type": "infrastructure",
+    "lat": 26.56,
+    "lng": 56.25,
+    "location": "Global Oil Markets / Strait of Hormuz",
+    "timestamp": "2026-05-20T17:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "multiple",
+    "sources": [
+      {
+        "name": "Fortune — Price of oil May 20, 2026 — Brent $110.34",
+        "url": "https://fortune.com/article/price-of-oil-05-20-2026/"
+      },
+      {
+        "name": "fxdailyreport — WTI crude oil price analysis for May 20, 2026",
+        "url": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-may-20-2026/"
+      },
+      {
+        "name": "Bloomberg — Oil flows through Hormuz creep higher as more supertankers exit",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/oil-flows-through-hormuz-creep-higher-as-more-supertankers-exit"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["oil", "hormuz", "economic", "iran", "day82"]
   }
 ]

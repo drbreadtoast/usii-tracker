@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-20T12:13:00Z",
+    "lastUpdated": "2026-05-20T19:08:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 81
+    "conflictDay": 82
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "brent": {
-        "price": 111.22,
-        "change": "+39.4%",
-        "changeDollars": "+$31.42",
-        "dailyChange": "+0.06%",
-        "dailyChangeDollars": "+$0.07"
+        "price": 110.34,
+        "change": "+38.3%",
+        "changeDollars": "+$30.54",
+        "dailyChange": "-2.3%",
+        "dailyChangeDollars": "-$2.59"
       },
       "wti": {
-        "price": 103.58,
-        "change": "+37.2%",
-        "changeDollars": "+$28.07",
-        "dailyChange": "+0.00%",
-        "dailyChangeDollars": "+$0.00"
+        "price": 97.33,
+        "change": "+28.9%",
+        "changeDollars": "+$21.83",
+        "dailyChange": "-6.55%",
+        "dailyChangeDollars": "-$7.20"
       },
       "changePercent": "+39.4%",
       "changeNote": "Brent $111.22 (+39.4% vs pre-war $79.80), WTI $103.58 (+37.2% vs pre-war $75.50). Day 82 AM (May 20): Trump says war 'will end very quickly,' Iran 'desperate,' oil will 'plummet' — sets Friday-Sunday deadline. Araghchi counters: 'We cannot trust Americans at all.' Netanyahu security cabinet convened for Iran nuclear strike prep. Iran releases US prisoner Dalili. G7 Bessent pushes allies to disrupt Iran financing. Hormuz Blockade Day 79. Gas $4.555. Source: TradingEconomics, fxdailyreport.com May 20.",
@@ -676,8 +676,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-20T12:13:00Z",
-    "note": "Day 82 AM: Brent $111.22 (+39.4%), WTI $103.58 (+37.2%). Trump says war 'will end very quickly'; sets Friday-Sunday deal deadline. Araghchi: 'Cannot trust Americans at all.' Netanyahu security cabinet for Iran strike prep. Gas $4.555/gal (AAA May 20). Hormuz Blockade Day 79.",
+    "lastUpdated": "2026-05-20T19:08:00Z",
+    "note": "Day 82 PM: Brent $110.34 (+38.3%), WTI $97.33 (+28.9%). Oil fell sharply — Brent –$2.59, WTI –6.55% — on Trump's confirmed strike cancellation and Gulf diplomatic optimism. Three supertankers exited Hormuz on May 20 (first since May 4). Trump at CGA commencement: 'Do we finish it or sign a document?' Senate 50-47 war powers vote advances. Gas $4.555/gal (AAA May 20). Hormuz Blockade Day 79.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -871,7 +871,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-19T12:13:00Z",
+  "lastUpdated": "2026-05-20T19:08:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

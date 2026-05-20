@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-20T06:06:00Z",
+    "lastUpdated": "2026-05-20T19:08:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 479,
-    "confirmed": 398,
+    "totalSites": 482,
+    "confirmed": 401,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -37,15 +37,15 @@
       "military": 67,
       "nuclear": 9,
       "infrastructure": 12,
-      "civilian": 40,
+      "civilian": 41,
       "media_civilian": 2,
-      "residential": 2,
+      "residential": 4,
       "energy": 5,
       "diplomatic": 1,
       "religious": 1,
       "government": 1
     },
-    "lastUpdated": "2026-05-14T02:11:00Z",
+    "lastUpdated": "2026-05-20T19:08:00Z",
     "military": 60,
     "energy": 7,
     "infrastructure": 13
@@ -7647,6 +7647,66 @@
       "sourceUrl": "https://www.washingtonpost.com/world/2026/05/19/lebanon-israel-hezbollah-airstrike-deir-qanoun-al-nahr-ceasefire/f12e2e12-53cc-11f1-9c40-7a0a12d9e745_story.html",
       "casualties": {
         "killed": 5,
+        "injured": 0
+      }
+    },
+    {
+      "id": "dmg-484",
+      "name": "Doueir (Barakeh neighborhood) Airstrike — 5 Killed",
+      "location": "Doueir, Nabatieh District, Southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.35,
+      "lng": 35.42,
+      "date": "2026-05-20",
+      "type": "residential",
+      "category": "residential",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli fighter jets struck the Barakeh neighborhood of Doueir village in the Nabatieh district on May 20, killing 5 people and injuring 2. Part of a wave of Israeli strikes across southern Lebanon villages in the afternoon.",
+      "source": "Al Jazeera — At least eight killed in Israel's air attacks on southern Lebanon",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/20/at-least-eight-killed-in-israels-air-attacks-on-southern-lebanon",
+      "casualties": {
+        "killed": 5,
+        "injured": 2
+      }
+    },
+    {
+      "id": "dmg-485",
+      "name": "Tibnin Hospital Vicinity Airstrike — 2 Killed",
+      "location": "Tibnin, Bint Jbeil District, Southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.20,
+      "lng": 35.40,
+      "date": "2026-05-20",
+      "type": "civilian",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "An Israeli airstrike near a hospital in the town of Tibnin killed 2 people on May 20. Tibnin is a significant town in the Bint Jbeil district that has been repeatedly struck throughout the conflict.",
+      "source": "Al Jazeera — At least eight killed in Israel's air attacks on southern Lebanon",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/20/at-least-eight-killed-in-israels-air-attacks-on-southern-lebanon",
+      "casualties": {
+        "killed": 2,
+        "injured": 0
+      }
+    },
+    {
+      "id": "dmg-486",
+      "name": "Burj Shemali Drone Strike — 1 Killed",
+      "location": "Burj Shemali, Tyre District, Southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.22,
+      "date": "2026-05-20",
+      "type": "residential",
+      "category": "residential",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "An Israeli drone strike in Burj Shemali in the Tyre district killed 1 person — a man on a motorcycle — on May 20. Burj Shemali is a Palestinian refugee camp and surrounding town in the Tyre district.",
+      "source": "Naharnet — Hezbollah clashes with soldiers near Haddatha",
+      "sourceUrl": "https://www.naharnet.com/stories/en/320234-hezbollah-clashes-with-soldiers-near-haddatha-as-israel-strikes-on-south-persist",
+      "casualties": {
+        "killed": 1,
         "injured": 0
       }
     }
