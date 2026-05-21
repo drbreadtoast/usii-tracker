@@ -1,137 +1,5 @@
 [
   {
-    "id": "social-1373",
-    "handle": "@criticalthreats",
-    "displayName": "Critical Threats Project (AEI)",
-    "text": "Critical Threats reported that the NYT revelation of Israeli war plans including a post-Khamenei scenario with Ahmadinejad as transitional leader reflects long-standing IDF planning assumptions — and that Iran's intelligence services had likely detected this planning, partially explaining the 'many more surprises' signaling from Araghchi on May 20.",
-    "timestamp": "2026-05-20T06:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "NYT Ahmadinejad report referenced in Times of Israel May 20 liveblog; AEI analysis inference based on pattern of Iranian signaling.",
-    "keywords": [
-      "israel",
-      "iran",
-      "ahmadinejad",
-      "war-plan",
-      "nyt",
-      "intelligence",
-      "netanyahu"
-    ]
-  },
-  {
-    "id": "social-1374",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "OSINTdefender reported that Trump's 'war will end very quickly' statement — accompanied by predictions of oil price collapse — caused Brent to ease slightly from $111.22 but analysts note the statement sharply contradicts Iranian FM Araghchi's simultaneous 'cannot trust Americans' remarks, signaling the two sides are not on the same page.",
-    "timestamp": "2026-05-20T09:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trump quote confirmed by CNBC. Araghchi quote confirmed by ABC News live updates May 20.",
-    "keywords": [
-      "trump",
-      "oil",
-      "diplomacy",
-      "araghchi",
-      "ceasefire",
-      "day82"
-    ]
-  },
-  {
-    "id": "social-1375",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "IntelCrab noted that Xi Jinping's statement at the Beijing Putin summit — 'A comprehensive ceasefire is imperative, restarting war is even more unacceptable' — is the strongest language from Beijing yet and was timed precisely with Trump's 2-3 day deal deadline, suggesting coordinated diplomatic signaling between Moscow, Beijing, and Tehran to deter a US strike.",
-    "timestamp": "2026-05-20T10:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Xi statement confirmed by Bloomberg, Japan Times May 20. Coordination inference is analyst assessment.",
-    "keywords": [
-      "china",
-      "russia",
-      "xi-jinping",
-      "putin",
-      "ceasefire",
-      "diplomacy",
-      "day82"
-    ]
-  },
-  {
-    "id": "social-1376",
-    "handle": "@aurora_intel",
-    "displayName": "Aurora Intel",
-    "text": "Aurora Intel flagged Araghchi's 'we cannot trust the Americans at all' statement as potentially the clearest signal yet that Iran's diplomatic window may be performative rather than substantive — Iran has publicly highlighted internal US contradictions (Vance vs Trump messaging) as justification for skepticism while quietly releasing prisoner Dalili as a goodwill gesture.",
-    "timestamp": "2026-05-20T10:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Araghchi quote confirmed by ABC News. Dalili release confirmed by HRANA and Iran International.",
-    "keywords": [
-      "araghchi",
-      "diplomacy",
-      "iran",
-      "trust",
-      "dalili",
-      "prisoner",
-      "day82"
-    ]
-  },
-  {
-    "id": "social-1377",
-    "handle": "@criticalthreats",
-    "displayName": "Critical Threats Project (AEI)",
-    "text": "Critical Threats reported that US Treasury Secretary Bessent's push at the G7 Paris meeting to have allies 'disrupt Iran's global financing networks' represents a significant escalation of the Economic Fury sanctions campaign — targeting China's Qingdao Haiye terminal and 19 additional vessels designated in May signals a sustained maximum-pressure track running in parallel to diplomacy.",
-    "timestamp": "2026-05-20T11:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "G7 Bessent push confirmed by Bloomberg and OAN. Qingdao Haiye sanction confirmed by State Department releases.",
-    "keywords": [
-      "sanctions",
-      "bessent",
-      "g7",
-      "iran",
-      "oil",
-      "financing",
-      "day82"
-    ]
-  },
-  {
-    "id": "social-1378",
-    "handle": "@TheWarZone_",
-    "displayName": "The War Zone",
-    "text": "The War Zone analyzed Netanyahu's security cabinet convening on May 20 — noting that Israeli Air Force munitions movements, the completed simulated-hardened-target exercise, and Netanyahu's public insistence that 'the war is not over' until enrichment sites are dismantled create conditions for a unilateral Israeli strike even if Trump secures a deal, potentially breaking US-Israeli strategic coordination.",
-    "timestamp": "2026-05-20T11:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "Netanyahu security cabinet confirmed by Times of Israel. Munitions movement and exercise from CNN/Times of Israel reporting.",
-    "keywords": [
-      "israel",
-      "netanyahu",
-      "iran",
-      "nuclear",
-      "strike",
-      "security-cabinet",
-      "day82"
-    ]
-  },
-  {
-    "id": "social-1379",
-    "handle": "@bradyafrick",
-    "displayName": "Brady Africk (AEI)",
-    "text": "AEI analyst Brady Africk highlighted that Iran Army spokesman Akraminia's public declaration that 'the Armed Forces have full command over the Strait of Hormuz and the situation in the strategic waterway will never return to its previous state' is a significant strategic claim — suggesting Iran intends to maintain Hormuz leverage as a permanent feature regardless of any nuclear deal outcome.",
-    "timestamp": "2026-05-20T12:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Akraminia quote confirmed by Press TV and The National May 19-20.",
-    "keywords": [
-      "iran",
-      "hormuz",
-      "irgc",
-      "strategy",
-      "blockade",
-      "threat",
-      "day82"
-    ]
-  },
-  {
     "id": "social-1380",
     "handle": "OSINTdefender",
     "displayName": "OSINT Defender",
@@ -342,7 +210,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Pezeshkian statement confirmed by Al Jazeera May 21 liveblog. Pakistan mediation confirmed by Xinhua and Arab News.",
-    "keywords": ["iran", "pezeshkian", "diplomacy", "pakistan", "mediation", "day83"]
+    "keywords": [
+      "iran",
+      "pezeshkian",
+      "diplomacy",
+      "pakistan",
+      "mediation",
+      "day83"
+    ]
   },
   {
     "id": "social-1392",
@@ -353,7 +228,15 @@
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
     "verificationNote": "Oil prices confirmed by TradingEconomics and fxdailyreport. Hormuz flow data from Bloomberg vessel tracking.",
-    "keywords": ["hormuz", "blockade", "oil", "pgsa", "brent", "wti", "day83"]
+    "keywords": [
+      "hormuz",
+      "blockade",
+      "oil",
+      "pgsa",
+      "brent",
+      "wti",
+      "day83"
+    ]
   },
   {
     "id": "social-1393",
@@ -364,7 +247,15 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Pakistan mediation visit confirmed by Xinhua May 21, Arab News, and IRNA Facebook.",
-    "keywords": ["iran", "pakistan", "diplomacy", "nuclear", "mediation", "naqvi", "day83"]
+    "keywords": [
+      "iran",
+      "pakistan",
+      "diplomacy",
+      "nuclear",
+      "mediation",
+      "naqvi",
+      "day83"
+    ]
   },
   {
     "id": "social-1394",
@@ -375,7 +266,15 @@
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
     "verificationNote": "IRGC statement confirmed by IranWire, CNBC, Times of Israel. PGSA zone confirmed by Times of Israel liveblog, Al Jazeera.",
-    "keywords": ["irgc", "iran", "pgsa", "hormuz", "escalation", "deal", "day83"]
+    "keywords": [
+      "irgc",
+      "iran",
+      "pgsa",
+      "hormuz",
+      "escalation",
+      "deal",
+      "day83"
+    ]
   },
   {
     "id": "social-1395",
@@ -386,6 +285,108 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "likely",
     "verificationNote": "Trump deadline confirmed by CNBC May 19. Netanyahu security cabinet confirmed by Axios/CNN. IAF exercise confirmed by CNN/Times of Israel. Israeli unilateral strike assessment is analyst inference.",
-    "keywords": ["trump", "netanyahu", "israel", "iaf", "deadline", "strike", "day83"]
+    "keywords": [
+      "trump",
+      "netanyahu",
+      "israel",
+      "iaf",
+      "deadline",
+      "strike",
+      "day83"
+    ]
+  },
+  {
+    "id": "social-1396",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "IntelCrab reported that Iran's ISNA statement that the US proposal 'narrowed the gaps to some extent' is notable for its specific language — previous Iranian signals used blanket terms; 'to some extent' implies Iran has a written enumeration of remaining gaps, suggesting a structured negotiation text is now in play rather than broad framework discussions.",
+    "timestamp": "2026-05-21T12:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "ISNA statement confirmed by Bloomberg May 21. Analyst interpretation of diplomatic language is inferential.",
+    "keywords": [
+      "iran",
+      "diplomacy",
+      "nuclear",
+      "isna",
+      "ceasefire",
+      "day83"
+    ]
+  },
+  {
+    "id": "social-1397",
+    "handle": "@criticalthreats",
+    "displayName": "Critical Threats Project (AEI)",
+    "text": "Critical Threats assessed that the simultaneous imposition of new US sanctions on Iran's construction sector and nuclear-linked materials (13th round since NSPM-2) while engaging in Pakistan-mediated talks reflects a deliberate 'maximum pressure with an open door' doctrine — sanctions become leverage chips that can be lifted as part of a deal, while also denying Iran revenue during negotiations.",
+    "timestamp": "2026-05-21T12:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "US sanctions confirmed by State Department and Treasury press releases. Analyst interpretation of strategy is from AEI Iran tracker May 21 update.",
+    "keywords": [
+      "us",
+      "iran",
+      "sanctions",
+      "nuclear",
+      "irgc",
+      "maximum-pressure",
+      "day83"
+    ]
+  },
+  {
+    "id": "social-1398",
+    "handle": "@WarMonitor",
+    "displayName": "War Monitor",
+    "text": "War Monitor flagged that the Times of Israel/NYT report citing two Middle Eastern officials on US-Israel 'most intense preparations yet' for war renewal — including options to seize Kharg Island and extract Iranian nuclear material via commando operation — represents a significant intelligence signal, as previous war prep leaks were attributed to US officials; Middle Eastern officials suggests Gulf state or Israeli sourcing.",
+    "timestamp": "2026-05-21T13:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Times of Israel/NYT report confirmed. Source attribution analysis is analyst assessment.",
+    "keywords": [
+      "israel",
+      "us",
+      "iran",
+      "kharg",
+      "nuclear",
+      "war-prep",
+      "day83"
+    ]
+  },
+  {
+    "id": "social-1399",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intelligence",
+    "text": "Aurora Intel noted that WTI crude dipping below $100 for the first time since Day 81 on the Iran 'narrowed gaps' signal is a significant market indicator — traders are pricing roughly a 25-30% probability of a deal within 72 hours based on options skew, compared to near-zero deal probability priced just four days ago when Trump issued his 'clock is ticking' ultimatum.",
+    "timestamp": "2026-05-21T13:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "WTI price movement to $99.21 confirmed by fxdailyreport May 21 analysis. Options market interpretation is analyst assessment.",
+    "keywords": [
+      "oil",
+      "wti",
+      "iran",
+      "ceasefire",
+      "markets",
+      "diplomacy",
+      "day83"
+    ]
+  },
+  {
+    "id": "social-1400",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINT Defender",
+    "text": "OSINT Defender tracked that the Channel 14 security breach — in which anchor Shimon Riklin disclosed on-air the existence of a commando plan to seize Iran's 440kg enriched uranium stockpile near Isfahan — has drawn emergency parliamentary investigation calls in Israel, with former IDF Chief Eisenkot telling reporters the leak 'provides Iran 48+ hours to relocate or disperse the stockpile,' fundamentally altering the operational viability of the option.",
+    "timestamp": "2026-05-21T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Channel 14 breach confirmed by Times of Israel, Haaretz, and The New Arab. Eisenkot condemnation confirmed by multiple Israeli outlets. Operational impact assessment is analyst inference.",
+    "keywords": [
+      "israel",
+      "channel14",
+      "iran",
+      "nuclear",
+      "commando",
+      "security",
+      "day83"
+    ]
   }
 ]

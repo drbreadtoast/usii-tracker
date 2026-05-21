@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-21T00:08:00Z",
-  "currentAverage": 4.555,
+  "lastUpdated": "2026-05-21T12:09:00Z",
+  "currentAverage": 4.564,
   "preWarAverage": 3.18,
-  "changePercent": 43.2,
+  "changePercent": 43.5,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -680,6 +680,12 @@
       "price": 4.555,
       "label": "Day 83 AM — AAA $4.555/gal (steady, +43.2% from pre-war $3.18). Brent $105.54 (+32.2%), WTI $101.85 (+34.9%). Oil continues declining on Gulf-mediated diplomatic pause. Trump 'one hour away' from striking Iran before Gulf intervention. IRGC threatens war 'beyond the region.' PGSA 'controlled maritime zone' at Hormuz. Pakistan mediation active. Blockade Day 80.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-21",
+      "price": 4.564,
+      "label": "Day 83 midday — AAA $4.564/gal (+43.5% from pre-war $3.18). Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). WTI dips below $100 on Iran 'narrowed the gaps' diplomatic signal — most positive ceasefire signal since April 8. Trump 'may have to hit Iran even harder' at Coast Guard Academy. US 13th Iran sanctions round. Blockade Day 80.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -729,15 +735,15 @@
       "note": "Actual retail average was $3.18 (includes regional variation)"
     },
     "current": {
-      "label": "Current (May 19 11:07 PM PT)",
-      "crudePerBarrel": 107.78,
+      "label": "Current (May 21 12:09 UTC)",
+      "crudePerBarrel": 105.36,
       "components": [
         {
           "name": "Crude Oil Cost",
-          "formula": "$111.22 ÷ 42 gal (Brent, May 20)",
-          "value": 2.606,
-          "percent": 57,
-          "change": "+$0.99"
+          "formula": "$105.36 ÷ 42 gal (Brent, May 21)",
+          "value": 2.509,
+          "percent": 55,
+          "change": "+$0.89"
         },
         {
           "name": "Refining",
@@ -775,18 +781,18 @@
           "change": "-$0.159"
         }
       ],
-      "total": 4.555,
-      "note": "National average $4.555/gal (AAA, May 20). Brent $111.22 (+39.3%). Trump says war 'will end very quickly' — sets Friday-Sunday deal deadline. Araghchi: 'We cannot trust Americans at all.' Netanyahu security cabinet convened for Iran strike prep. Iran releases US prisoner Dalili as goodwill gesture. Hormuz Blockade Day 79.",
-      "crude": 2.649,
+      "total": 4.564,
+      "note": "National average $4.564/gal (AAA, May 21 midday). Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). Iran's ISNA says latest US proposal 'narrowed the gaps to some extent' — most positive ceasefire signal since April 8. Trump at Coast Guard: 'may have to hit Iran even harder.' US 13th Iran sanctions round. Blockade Day 80.",
+      "crude": 2.509,
       "taxes": 0.534,
-      "refining": 0.822,
-      "distribution": 0.55,
-      "regularGasoline": 4.555,
-      "changeFromPreWar": "+$1.375",
-      "changePercent": "+43.2%",
-      "lastUpdated": "2026-05-20T12:13:00Z",
-      "date": "2026-05-20"
+      "refining": 0.82,
+      "distribution": 0.45,
+      "regularGasoline": 4.564,
+      "changeFromPreWar": "+$1.384",
+      "changePercent": "+43.5%",
+      "lastUpdated": "2026-05-21T12:09:00Z",
+      "date": "2026-05-21"
     }
   },
-  "context": "Day 83 (May 21, 05:08 PM PDT): Brent $105.54/bbl (+32.2%), WTI $101.85/bbl (+34.9%). Gas $4.555/gal (AAA, stable). Pre-war: $3.18/gal baseline. +43.2% from pre-war. Trump reveals he was 'one hour away' from striking Iran before Gulf states intervened — sets 2-3 day deadline. IRGC threatens war 'far beyond the region' and repositioning assets abroad. Iran PGSA declares 'controlled maritime zone' at Hormuz requiring permits and $2M fees. Pakistan mediating US-Iran message exchange. Oil continues declining on diplomatic optimism: Brent down ~$5 from May 20. Hormuz Blockade Day 80."
+  "context": "Day 83 midday (May 21, 05:09 AM PDT): Brent $105.36/bbl (+31.9%), WTI $99.21/bbl (+31.4%). Gas $4.564/gal (AAA, +43.5% from pre-war $3.18). Iran's ISNA says US proposal 'narrowed the gaps to some extent' — most positive diplomatic signal since ceasefire. Trump at Coast Guard Academy: 'We hit them very hard, but we may have to hit them even harder.' US imposes 13th sanctions round on Iran construction/nuclear materials. WTI dips below $100 on diplomatic optimism. Blockade Day 80."
 }

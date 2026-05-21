@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-21T00:08:00Z",
+    "lastUpdated": "2026-05-21T12:09:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 105.54,
-        "change": "+32.3%",
-        "changeDollars": "+$25.74",
-        "dailyChange": "-4.3%",
-        "dailyChangeDollars": "-$4.80"
+        "price": 105.36,
+        "change": "+32.0%",
+        "changeDollars": "+$25.52",
+        "dailyChange": "-0.2%",
+        "dailyChangeDollars": "-$0.18"
       },
       "wti": {
-        "price": 101.85,
-        "change": "+34.9%",
-        "changeDollars": "+$26.34",
-        "dailyChange": "-2.7%",
-        "dailyChangeDollars": "-$2.72"
+        "price": 99.21,
+        "change": "+31.4%",
+        "changeDollars": "+$23.70",
+        "dailyChange": "-2.6%",
+        "dailyChangeDollars": "-$2.64"
       },
-      "changePercent": "+32.2%",
-      "changeNote": "Day 83 AM (May 21): Brent $105.54 (+32.2% vs pre-war $79.84), WTI $101.85 (+34.9% vs pre-war $75.51). Continued slide from May 19 high of $112.93 on Gulf-mediated diplomatic optimism. Trump reveals he was 'one hour away' from striking Iran before Gulf states intervened. IRGC threatens war 'far beyond the region.' Iran PGSA declares 'controlled maritime zone' at Hormuz. Pakistan mediating US-Iran message exchange. Hormuz Blockade Day 80. Gas $4.555/gal. Source: TradingEconomics, fxdailyreport.com May 20-21.",
-      "lastUpdated": "2026-05-21T00:08:00Z"
+      "changePercent": "+32.0%",
+      "changeNote": "Day 83 midday (May 21): Brent $105.36 (+32.0% vs pre-war $79.84), WTI $99.21 (+31.4% vs pre-war $75.51). WTI dips below $100 as Iran's ISNA says latest US proposal 'narrowed the gaps to some extent' — most positive diplomatic signal since April 8 ceasefire. Trump at Coast Guard: 'may have to hit Iran even harder.' US imposes 13th sanctions round (construction/nuclear materials). Gas $4.564/gal. Blockade Day 80. Source: fxdailyreport WTI May 21 analysis, TradingEconomics Brent intraday.",
+      "lastUpdated": "2026-05-21T12:09:00Z"
     },
     "priceHistory": [
       {
@@ -498,6 +498,13 @@
         "wti": 101.85,
         "label": "Day 83 AM — Brent $105.54 (+32.2%), WTI $101.85 (+34.9%). Continued slide from May 19 high of $112.93 on sustained diplomatic optimism. Trump was 'one hour away' from striking Iran before Gulf intervention. IRGC threatens war 'beyond the region'; repositioning assets abroad. Iran PGSA declares 'controlled maritime zone' at Hormuz. Pakistan mediating US-Iran messages. Blockade Day 80.",
         "isEvent": true
+      },
+      {
+        "date": "2026-05-21",
+        "brent": 105.36,
+        "wti": 99.21,
+        "label": "Day 83 midday — Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). WTI dips below $100 on Iran 'narrowed the gaps' diplomatic signal — most positive ceasefire signal since April 8. Trump 'may have to hit Iran even harder' at Coast Guard. US 13th Iran sanctions round. Gas $4.564/gal. Blockade Day 80.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -683,8 +690,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-21T00:08:00Z",
-    "note": "Day 83 AM: Brent $105.54 (+32.3%), WTI $101.85 (+34.9%). Continued decline on Gulf-state diplomatic pause: Trump reveals 'one hour away' from striking Iran before Gulf intervention. IRGC threatens war 'far beyond the region.' PGSA formalizes 'controlled maritime zone' at Hormuz. Pakistan mediating US-Iran message exchange. Gas $4.555/gal (AAA, stable). Hormuz Blockade Day 80.",
+    "lastUpdated": "2026-05-21T12:09:00Z",
+    "note": "Day 83 midday: Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). WTI dips below $100 on Iran 'narrowed the gaps' diplomatic signal. Trump at Coast Guard: 'may have to hit Iran even harder.' US 13th Iran sanctions round. Gas $4.564/gal (AAA, +43.5%). Blockade Day 80.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -694,12 +701,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.555,
-          "date": "2026-05-20"
+          "price": 4.564,
+          "date": "2026-05-21"
         },
-        "change": "+$1.37",
-        "changePercent": "+43.2%",
-        "detail": "Gas $4.555/gal (AAA, May 20). +43.2% from pre-war $3.18. Brent $111.22 (+39.4%), WTI $103.58. National average continues rising. Trump sets Friday-Sunday Iran deal deadline. Hormuz blockade Day 79.",
+        "change": "+$1.38",
+        "changePercent": "+43.5%",
+        "detail": "Gas $4.564/gal (AAA, May 21 midday). +43.5% from pre-war $3.18. Brent $105.36 (+31.9%), WTI $99.21. Oil dips below $100 on Iran diplomatic optimism. Blockade Day 80.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -777,8 +784,8 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.555,
-    "gasPriceRegular": 4.555,
+    "regularGasoline": 4.564,
+    "gasPriceRegular": 4.564,
     "gasPriceDiesel": "$5.65/gal",
     "changeFromPreWar": "+$1.375",
     "changePercent": "+43.2%"
