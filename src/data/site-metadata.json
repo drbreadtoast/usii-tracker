@@ -1,17 +1,23 @@
 {
-  "lastUpdated": "2026-05-21T12:09:00Z",
-  "updateFrequency": "at least 3x daily — morning, afternoon & evening PT",
+  "lastUpdated": "2026-05-21T19:05:00Z",
+  "updateFrequency": "at least 3x daily \u2014 morning, afternoon & evening PT",
   "donationUrl": "https://buymeacoffee.com/theossreport",
   "version": "3.1",
   "conflictDay": 83,
   "totalSocialPosts": 21,
   "dataFiles": {
-    "events": 1634,
+    "events": {
+      "lastId": "evt-new-1591",
+      "totalEntries": 1639
+    },
     "warTimeline": {
       "entries": 815,
       "lastId": "tl-815"
     },
-    "breaking": 91,
+    "breaking": {
+      "lastId": "brk-1303",
+      "totalEntries": 95
+    },
     "deathToll": {
       "conflicts": 3
     },
@@ -34,9 +40,8 @@
       "lastId": "gov-947"
     },
     "escalations": {
-      "totalEntries": 666,
-      "lastId": "esc-665",
-      "lastUpdated": "2026-05-21T12:09:00Z"
+      "lastId": "esc-668",
+      "totalEntries": 669
     },
     "gasPrices": {
       "currentAverage": 4.564
@@ -80,12 +85,12 @@
       "lastUpdated": "2026-05-21T12:09:00Z"
     },
     "government-statements": {
-      "totalEntries": 947,
-      "lastUpdated": "2026-05-21T12:09:00Z"
+      "lastId": "gov-951",
+      "totalEntries": 951
     },
     "social-posts": {
-      "totalEntries": 21,
-      "lastUpdated": "2026-05-21T12:09:00Z"
+      "lastId": "social-1406",
+      "totalEntries": 21
     },
     "media-perspectives": {
       "lastUpdated": "2026-05-21T12:09:00Z"
@@ -95,8 +100,13 @@
       "totalEntries": 23
     },
     "war-timeline": {
-      "totalEntries": 815
+      "lastId": "tl-816",
+      "totalEntries": 816
+    },
+    "missile-strikes": {
+      "lastId": "ms-636",
+      "totalEntries": 636
     }
   },
-  "updateNote": "Day 83 05:09 AM PDT — Iran says US proposal 'narrowed the gaps to some extent' — most positive ceasefire signal since April 8. Trump at Coast Guard: 'may have to hit Iran even harder.' US 13th Iran sanctions round. WTI dips below $100. Brent $105.36, WTI $99.21. Gas $4.564. Blockade Day 80."
+  "updateNote": "Day 83 05:09 AM PDT \u2014 Iran says US proposal 'narrowed the gaps to some extent' \u2014 most positive ceasefire signal since April 8. Trump at Coast Guard: 'may have to hit Iran even harder.' US 13th Iran sanctions round. WTI dips below $100. Brent $105.36, WTI $99.21. Gas $4.564. Blockade Day 80."
 }
