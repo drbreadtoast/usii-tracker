@@ -1,97 +1,5 @@
 [
   {
-    "id": "social-1368",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "OSINTdefender reported that US intelligence intercepted Israeli Air Force communications indicating active preparations for a strike on Iranian nuclear sites — specifically noting movement of specialized bunker-buster munitions and completion of a large-scale air exercise simulating hardened underground target penetration.",
-    "timestamp": "2026-05-20T03:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Consistent with CNN reporting citing US intelligence officials and Times of Israel reporting on same day.",
-    "keywords": [
-      "israel",
-      "nuclear",
-      "natanz",
-      "strike",
-      "intelligence",
-      "iaf"
-    ]
-  },
-  {
-    "id": "social-1369",
-    "handle": "@AuroraIntel",
-    "displayName": "AuroraIntel",
-    "text": "AuroraIntel reported that Israeli strikes on southern Lebanon on May 19 hit three civilian population centers — Deir Qanun al-Nahr, Nabatieh, and Kfar Sir — with 19 confirmed killed including 3 children and 4 women, describing this as the deadliest single day of Israeli strikes in Lebanon since the April 17 ceasefire extension.",
-    "timestamp": "2026-05-20T04:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Confirmed by Washington Post and Washington Times coverage of Lebanese Health Ministry figures.",
-    "keywords": [
-      "lebanon",
-      "israel",
-      "strike",
-      "civilians",
-      "hezbollah",
-      "ceasefire"
-    ]
-  },
-  {
-    "id": "social-1370",
-    "handle": "@WarMonitor",
-    "displayName": "WarMonitor",
-    "text": "WarMonitor analyzed Trump's Iran strike cancellation, noting that the unprecedented public disclosure of a scheduled-and-canceled strike maximized diplomatic leverage while giving Gulf states visible credit — a deliberate signaling strategy that preserved military credibility while allowing the 2–3 day diplomatic window to open without appearing weak.",
-    "timestamp": "2026-05-20T04:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Analysis based on verified Trump Truth Social post and NPR/Time/WaPo reporting.",
-    "keywords": [
-      "trump",
-      "iran",
-      "strike",
-      "diplomacy",
-      "gulf-states",
-      "qatar",
-      "saudi"
-    ]
-  },
-  {
-    "id": "social-1371",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers",
-    "text": "TankerTrackers reported that Hormuz remains at Blockade Day 79 with approximately 2 million barrels per day flowing — roughly 4 Iraqi supertankers exited over the past week — down from 21 million barrels per day pre-blockade, with PGSA toll applications now mandatory for any transit and US/Israeli-flagged ships permanently excluded.",
-    "timestamp": "2026-05-20T05:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Consistent with Bloomberg vessel tracking data and CENTCOM statistics.",
-    "keywords": [
-      "hormuz",
-      "blockade",
-      "oil",
-      "tankers",
-      "pgsa",
-      "iran",
-      "shipping"
-    ]
-  },
-  {
-    "id": "social-1372",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "IntelCrab flagged Araghchi's 'many more surprises' warning as significant escalation language, noting that Iranian state media simultaneously published footage of new hypersonic and anti-ship missile systems — suggesting Tehran is positioning the 2–3 day diplomatic window as a final ultimatum rather than an open-ended negotiating period.",
-    "timestamp": "2026-05-20T05:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Araghchi warning confirmed by Al Jazeera liveblog. Iranian state media footage referenced but not independently verified.",
-    "keywords": [
-      "iran",
-      "araghchi",
-      "escalation",
-      "missiles",
-      "warning",
-      "diplomacy"
-    ]
-  },
-  {
     "id": "social-1373",
     "handle": "@criticalthreats",
     "displayName": "Critical Threats Project (AEI)",
@@ -424,5 +332,60 @@
       "blockade",
       "day83"
     ]
+  },
+  {
+    "id": "social-1391",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINTdefender",
+    "text": "OSINTdefender reported that Pezeshkian's Day 83 statement — 'all diplomatic paths remain open' paired with 'we will never bow our heads' — represents Iran's clearest dual-track signaling to date: maximum defiance for domestic consumption while keeping the Pakistan mediation channel open for a deal framework.",
+    "timestamp": "2026-05-21T06:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Pezeshkian statement confirmed by Al Jazeera May 21 liveblog. Pakistan mediation confirmed by Xinhua and Arab News.",
+    "keywords": ["iran", "pezeshkian", "diplomacy", "pakistan", "mediation", "day83"]
+  },
+  {
+    "id": "social-1392",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers",
+    "text": "TankerTrackers confirmed Hormuz Blockade Day 80 with oil flows still at approximately 2 million barrels per day — roughly 10% of pre-blockade levels — as the PGSA controlled maritime zone decree remains in effect. Brent now at ~$105.54 and WTI at ~$101.85, down significantly from April highs of $117-120/bbl on diplomatic optimism.",
+    "timestamp": "2026-05-21T06:10:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Oil prices confirmed by TradingEconomics and fxdailyreport. Hormuz flow data from Bloomberg vessel tracking.",
+    "keywords": ["hormuz", "blockade", "oil", "pgsa", "brent", "wti", "day83"]
+  },
+  {
+    "id": "social-1393",
+    "handle": "@AuroraIntel",
+    "displayName": "AuroraIntel",
+    "text": "AuroraIntel assessed that Pakistan Interior Minister Naqvi's two-day in-person mediation visit to Tehran — meeting Pezeshkian, Ghalibaf, and Momeni — represents an upgrade from written message exchange to structured face-to-face negotiation, the most substantive diplomatic channel since the failed Islamabad talks in April.",
+    "timestamp": "2026-05-21T06:20:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Pakistan mediation visit confirmed by Xinhua May 21, Arab News, and IRNA Facebook.",
+    "keywords": ["iran", "pakistan", "diplomacy", "nuclear", "mediation", "naqvi", "day83"]
+  },
+  {
+    "id": "social-1394",
+    "handle": "@criticalthreats",
+    "displayName": "Critical Threats Project (AEI)",
+    "text": "Critical Threats noted that the IRGC's 'war far beyond the region' threat combined with Iran's formal PGSA maritime zone declaration suggests Tehran is pursuing a dual-track strategy: creating legal and military facts on the ground while negotiations proceed, making any deal that doesn't address both tracks structurally unstable.",
+    "timestamp": "2026-05-21T06:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IRGC statement confirmed by IranWire, CNBC, Times of Israel. PGSA zone confirmed by Times of Israel liveblog, Al Jazeera.",
+    "keywords": ["irgc", "iran", "pgsa", "hormuz", "escalation", "deal", "day83"]
+  },
+  {
+    "id": "social-1395",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "IntelCrab flagged that with Trump's 2-3 day deal deadline set May 19, Day 83 represents the outer edge of that window — the absence of new strikes overnight and Pezeshkian's 'all paths open' statement suggests both sides are allowing the window to extend, but Netanyahu's security cabinet posture and IAF exercise activity means Israeli unilateral action remains a live risk.",
+    "timestamp": "2026-05-21T06:40:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Trump deadline confirmed by CNBC May 19. Netanyahu security cabinet confirmed by Axios/CNN. IAF exercise confirmed by CNN/Times of Israel. Israeli unilateral strike assessment is analyst inference.",
+    "keywords": ["trump", "netanyahu", "israel", "iaf", "deadline", "strike", "day83"]
   }
 ]
