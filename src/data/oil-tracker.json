@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-20T19:08:00Z",
+    "lastUpdated": "2026-05-21T00:08:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 110.34,
-        "change": "+38.3%",
-        "changeDollars": "+$30.54",
-        "dailyChange": "-2.3%",
-        "dailyChangeDollars": "-$2.59"
+        "price": 105.54,
+        "change": "+32.3%",
+        "changeDollars": "+$25.74",
+        "dailyChange": "-4.3%",
+        "dailyChangeDollars": "-$4.80"
       },
       "wti": {
-        "price": 97.33,
-        "change": "+28.9%",
-        "changeDollars": "+$21.83",
-        "dailyChange": "-6.55%",
-        "dailyChangeDollars": "-$7.20"
+        "price": 101.85,
+        "change": "+34.9%",
+        "changeDollars": "+$26.34",
+        "dailyChange": "-2.7%",
+        "dailyChangeDollars": "-$2.72"
       },
-      "changePercent": "+39.4%",
-      "changeNote": "Brent $111.22 (+39.4% vs pre-war $79.80), WTI $103.58 (+37.2% vs pre-war $75.50). Day 82 AM (May 20): Trump says war 'will end very quickly,' Iran 'desperate,' oil will 'plummet' — sets Friday-Sunday deadline. Araghchi counters: 'We cannot trust Americans at all.' Netanyahu security cabinet convened for Iran nuclear strike prep. Iran releases US prisoner Dalili. G7 Bessent pushes allies to disrupt Iran financing. Hormuz Blockade Day 79. Gas $4.555. Source: TradingEconomics, fxdailyreport.com May 20.",
-      "lastUpdated": "2026-05-20T12:13:00Z"
+      "changePercent": "+32.2%",
+      "changeNote": "Day 83 AM (May 21): Brent $105.54 (+32.2% vs pre-war $79.84), WTI $101.85 (+34.9% vs pre-war $75.51). Continued slide from May 19 high of $112.93 on Gulf-mediated diplomatic optimism. Trump reveals he was 'one hour away' from striking Iran before Gulf states intervened. IRGC threatens war 'far beyond the region.' Iran PGSA declares 'controlled maritime zone' at Hormuz. Pakistan mediating US-Iran message exchange. Hormuz Blockade Day 80. Gas $4.555/gal. Source: TradingEconomics, fxdailyreport.com May 20-21.",
+      "lastUpdated": "2026-05-21T00:08:00Z"
     },
     "priceHistory": [
       {
@@ -491,6 +491,13 @@
         "wti": 103.58,
         "label": "Day 82 AM — Brent $111.15 (+39.2%), WTI $103.58 (+37.2%). Trump formally cancels planned Iran strike — Gulf-mediated 2–3 day window active. CNN: Israel readying nuclear facility strike plans. Xi-Putin Beijing summit calls for comprehensive ceasefire. Gas $4.533. Hormuz Blockade Day 79.",
         "isEvent": true
+      },
+      {
+        "date": "2026-05-21",
+        "brent": 105.54,
+        "wti": 101.85,
+        "label": "Day 83 AM — Brent $105.54 (+32.2%), WTI $101.85 (+34.9%). Continued slide from May 19 high of $112.93 on sustained diplomatic optimism. Trump was 'one hour away' from striking Iran before Gulf intervention. IRGC threatens war 'beyond the region'; repositioning assets abroad. Iran PGSA declares 'controlled maritime zone' at Hormuz. Pakistan mediating US-Iran messages. Blockade Day 80.",
+        "isEvent": true
       }
     ],
     "historicalComparisons": [
@@ -676,8 +683,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-20T19:08:00Z",
-    "note": "Day 82 PM: Brent $110.34 (+38.3%), WTI $97.33 (+28.9%). Oil fell sharply — Brent –$2.59, WTI –6.55% — on Trump's confirmed strike cancellation and Gulf diplomatic optimism. Three supertankers exited Hormuz on May 20 (first since May 4). Trump at CGA commencement: 'Do we finish it or sign a document?' Senate 50-47 war powers vote advances. Gas $4.555/gal (AAA May 20). Hormuz Blockade Day 79.",
+    "lastUpdated": "2026-05-21T00:08:00Z",
+    "note": "Day 83 AM: Brent $105.54 (+32.3%), WTI $101.85 (+34.9%). Continued decline on Gulf-state diplomatic pause: Trump reveals 'one hour away' from striking Iran before Gulf intervention. IRGC threatens war 'far beyond the region.' PGSA formalizes 'controlled maritime zone' at Hormuz. Pakistan mediating US-Iran message exchange. Gas $4.555/gal (AAA, stable). Hormuz Blockade Day 80.",
     "fuels": [
       {
         "type": "Regular Gasoline",
