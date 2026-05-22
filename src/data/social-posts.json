@@ -1,23 +1,5 @@
 [
   {
-    "id": "social-1391",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINTdefender",
-    "text": "OSINTdefender reported that Pezeshkian's Day 83 statement — 'all diplomatic paths remain open' paired with 'we will never bow our heads' — represents Iran's clearest dual-track signaling to date: maximum defiance for domestic consumption while keeping the Pakistan mediation channel open for a deal framework.",
-    "timestamp": "2026-05-21T06:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Pezeshkian statement confirmed by Al Jazeera May 21 liveblog. Pakistan mediation confirmed by Xinhua and Arab News.",
-    "keywords": [
-      "iran",
-      "pezeshkian",
-      "diplomacy",
-      "pakistan",
-      "mediation",
-      "day83"
-    ]
-  },
-  {
     "id": "social-1392",
     "handle": "@TankerTrackers",
     "displayName": "TankerTrackers",
@@ -431,5 +413,60 @@
       "tibnin",
       "day84"
     ]
+  },
+  {
+    "id": "social-1414",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINTdefender",
+    "text": "OSINTdefender reported that US intelligence assessments on Iran's military reconstitution — specifically, that drone production has already restarted and two-thirds of missile launchers may have survived strikes — are driving urgency inside the Pentagon to either close a deal quickly or resume bombing before Iran's military capacity fully rebounds.",
+    "timestamp": "2026-05-22T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "CNN confirmed US intel assessment with two US officials. IranWire and US News corroborated.",
+    "keywords": ["iran", "military", "drones", "reconstruction", "intel", "day84"]
+  },
+  {
+    "id": "social-1415",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers",
+    "text": "TankerTrackers noted that Brent crude briefly spiked above $109/barrel early May 22 before falling 2.3% to settle near $102.58 as Al Jazeera's 'signs of progress' headline circulated — a clear market reaction to diplomatic optimism. With 1,550 vessels still stranded, any formal deal framework would trigger immediate commercial shipping resumption pressure.",
+    "timestamp": "2026-05-22T03:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Oil price movement confirmed by CBS News live updates and Bloomberg. Vessel count per CJCS briefing.",
+    "keywords": ["hormuz", "oil", "brent", "tanker", "blockade", "day84"]
+  },
+  {
+    "id": "social-1416",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "IntelCrab assessed that Pakistan Army Chief Munir's reported cancellation of his Tehran trip — replaced by Interior Minister Naqvi — signals Iran may be pushing back on direct military-to-military talks as a precondition signal, preferring to keep diplomatic channels at the civilian level until the HEU handover impasse is resolved.",
+    "timestamp": "2026-05-22T04:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "likely",
+    "verificationNote": "Munir cancellation confirmed by The Week India. ANI confirmed Naqvi met Araghchi. Assessment of significance is analyst opinion.",
+    "keywords": ["pakistan", "iran", "mediation", "munir", "naqvi", "nuclear", "day84"]
+  },
+  {
+    "id": "social-1417",
+    "handle": "@WarMonitor",
+    "displayName": "War Monitor",
+    "text": "War Monitor reported that the IEA's Fatih Birol warning that oil markets could enter a 'red zone' by July-August if Hormuz remains closed comes just as CNBC reports the UAE bypass pipeline is now nearly 50% complete — but full completion is still 4-6 months away per DHL CEO assessment, meaning Hormuz reopening is the only near-term solution.",
+    "timestamp": "2026-05-22T05:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IEA red zone warning confirmed by CNBC. UAE pipeline progress confirmed by CNBC May 20. DHL CEO timeline confirmed by Al Jazeera.",
+    "keywords": ["hormuz", "oil", "iea", "uae", "pipeline", "day84"]
+  },
+  {
+    "id": "social-1418",
+    "handle": "@CriticalThreats_AEI",
+    "displayName": "Critical Threats Project (AEI)",
+    "text": "Critical Threats Project noted the significance of the new US poll showing 60% of Americans oppose the Iran war: this marks the first time majority opposition has been documented, coinciding with Day 84 of a conflict originally projected to last 5-7 days. Congressional Democrats are now explicitly citing polling data in the war powers debate, though the House failed to hold a floor vote Thursday.",
+    "timestamp": "2026-05-22T06:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Poll confirmed by Al Jazeera May 22 liveblog and Fox News. House vote blocked confirmed by Al Jazeera May 22 liveblog.",
+    "keywords": ["us", "poll", "war powers", "congress", "iran", "public opinion", "day84"]
   }
 ]

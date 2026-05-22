@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker \u2014 Iran-Israel Conflict",
-    "lastUpdated": "2026-05-22T00:08:00Z",
+    "lastUpdated": "2026-05-22T06:04:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 108.76,
-        "change": "+36.3%",
-        "changeDollars": "+$28.96",
-        "dailyChange": "+2.3%",
-        "dailyChangeDollars": "+$2.46"
+        "price": 104.52,
+        "change": "+31.0%",
+        "changeDollars": "+$24.72",
+        "dailyChange": "-3.9%",
+        "dailyChangeDollars": "-$4.24"
       },
       "wti": {
-        "price": 101.07,
-        "change": "+33.9%",
-        "changeDollars": "+$25.57",
-        "dailyChange": "+1.9%",
-        "dailyChangeDollars": "+$1.90"
+        "price": 97.12,
+        "change": "+28.6%",
+        "changeDollars": "+$21.61",
+        "dailyChange": "-3.9%",
+        "dailyChangeDollars": "-$3.95"
       },
-      "changePercent": "+36.3%",
-      "changeNote": "Day 83 midday (May 21): Brent $105.36 (+32.0% vs pre-war $79.84), WTI $99.21 (+31.4% vs pre-war $75.51). WTI dips below $100 as Iran's ISNA says latest US proposal 'narrowed the gaps to some extent' \u2014 most positive diplomatic signal since April 8 ceasefire. Trump at Coast Guard: 'may have to hit Iran even harder.' US imposes 13th sanctions round (construction/nuclear materials). Gas $4.564/gal. Blockade Day 80. Source: fxdailyreport WTI May 21 analysis, TradingEconomics Brent intraday.",
-      "lastUpdated": "2026-05-22T00:08:00Z"
+      "changePercent": "+31.0%",
+      "changeNote": "Day 84 morning (May 22): Brent briefly spiked to $109 on Al Jazeera 'signs of progress' headline, then fell 2.3% to settle $104.52 (+31.0% vs pre-war $79.80). WTI $97.12 (+28.6% vs pre-war $75.51). IEA warns markets could enter 'red zone' by July-August if Hormuz stays closed. Day 83: Brent $108.76 (+36.3%), WTI $101.07 (+33.9%). WTI dips below $100 as Iran's ISNA says latest US proposal 'narrowed the gaps to some extent' \u2014 most positive diplomatic signal since April 8 ceasefire. Trump at Coast Guard: 'may have to hit Iran even harder.' US imposes 13th sanctions round (construction/nuclear materials). Gas $4.564/gal. Blockade Day 80. Source: fxdailyreport WTI May 21 analysis, TradingEconomics Brent intraday.",
+      "lastUpdated": "2026-05-22T06:04:00Z"
     },
     "priceHistory": [
       {
@@ -690,7 +690,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-22T00:08:00Z",
+    "lastUpdated": "2026-05-22T06:04:00Z",
     "note": "Day 83 midday: Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). WTI dips below $100 on Iran 'narrowed the gaps' diplomatic signal. Trump at Coast Guard: 'may have to hit Iran even harder.' US 13th Iran sanctions round. Gas $4.564/gal (AAA, +43.5%). Blockade Day 80.",
     "fuels": [
       {
@@ -701,12 +701,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.56,
+          "price": 4.564,
           "date": "2026-05-22"
         },
         "change": "+$1.38",
-        "changePercent": "+43.4%",
-        "detail": "Gas $4.56/gal (AAA, May 22). +43.4% from pre-war $3.18. Brent $108.76 (+36.2%), WTI $101.07 (+33.9%). Trump deadline window open; Khamenei blocks HEU transfer. Blockade Day 81.",
+        "changePercent": "+43.5%",
+        "detail": "Gas $4.564/gal (AAA, May 22). +43.5% from pre-war $3.18. Brent $104.52 (+31.0%), WTI $97.12 (+28.6%). Signs of progress on US-Iran deal; IEA red zone warning. Blockade Day 81.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -784,8 +784,8 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.56,
-    "gasPriceRegular": 4.56,
+    "regularGasoline": 4.564,
+    "gasPriceRegular": 4.564,
     "gasPriceDiesel": "$5.65/gal",
     "changeFromPreWar": "+$1.375",
     "changePercent": "+43.2%"
@@ -885,7 +885,7 @@
       "category": "economic_impact"
     }
   ],
-  "lastUpdated": "2026-05-22T00:08:00Z",
+  "lastUpdated": "2026-05-22T06:04:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

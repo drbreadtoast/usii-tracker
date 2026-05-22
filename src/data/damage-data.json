@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-22T00:08:00Z",
+    "lastUpdated": "2026-05-22T06:04:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,7 +28,7 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 483,
+    "totalSites": 484,
     "confirmed": 401,
     "reported": 1,
     "rumored": 0,
@@ -7675,8 +7675,8 @@
       "name": "Tibnin Hospital Vicinity Airstrike — 2 Killed",
       "location": "Tibnin, Bint Jbeil District, Southern Lebanon",
       "country": "Lebanon",
-      "lat": 33.20,
-      "lng": 35.40,
+      "lat": 33.2,
+      "lng": 35.4,
       "date": "2026-05-20",
       "type": "civilian",
       "category": "civilian",
@@ -7696,7 +7696,7 @@
       "location": "Tibnin, Bint Jbeil District, Southern Lebanon",
       "country": "Lebanon",
       "lat": 33.2045,
-      "lng": 35.4070,
+      "lng": 35.407,
       "date": "2026-05-21",
       "type": "civilian",
       "category": "civilian",
@@ -7728,6 +7728,26 @@
       "casualties": {
         "killed": 1,
         "injured": 0
+      }
+    },
+    {
+      "id": "dmg-488",
+      "name": "Tyre District Overnight Strikes — 4 Killed, 2 Medics Wounded",
+      "location": "Tyre District, Southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.2705,
+      "lng": 35.2038,
+      "date": "2026-05-22",
+      "type": "residential",
+      "category": "residential",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli air strikes in Lebanon's southern Tyre district overnight into May 22 killed four people and wounded two medical workers, per Lebanon's state-run National News Agency (NNA). The strikes come as Lebanon's death toll since the 2026 Lebanon war front opened surpassed 3,073 confirmed killed. The 45-day ceasefire extension agreed May 15 continues to be violated by both sides.",
+      "source": "CBS News — Iran war live updates",
+      "sourceUrl": "https://www.cbsnews.com/live-updates/iran-war-trump-us-latest-peace-proposal/",
+      "casualties": {
+        "killed": 4,
+        "injured": 2
       }
     }
   ]
