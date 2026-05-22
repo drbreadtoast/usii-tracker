@@ -1,99 +1,5 @@
 [
   {
-    "id": "social-1392",
-    "handle": "@TankerTrackers",
-    "displayName": "TankerTrackers",
-    "text": "TankerTrackers confirmed Hormuz Blockade Day 80 with oil flows still at approximately 2 million barrels per day — roughly 10% of pre-blockade levels — as the PGSA controlled maritime zone decree remains in effect. Brent now at ~$105.54 and WTI at ~$101.85, down significantly from April highs of $117-120/bbl on diplomatic optimism.",
-    "timestamp": "2026-05-21T06:10:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Oil prices confirmed by TradingEconomics and fxdailyreport. Hormuz flow data from Bloomberg vessel tracking.",
-    "keywords": [
-      "hormuz",
-      "blockade",
-      "oil",
-      "pgsa",
-      "brent",
-      "wti",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1393",
-    "handle": "@AuroraIntel",
-    "displayName": "AuroraIntel",
-    "text": "AuroraIntel assessed that Pakistan Interior Minister Naqvi's two-day in-person mediation visit to Tehran — meeting Pezeshkian, Ghalibaf, and Momeni — represents an upgrade from written message exchange to structured face-to-face negotiation, the most substantive diplomatic channel since the failed Islamabad talks in April.",
-    "timestamp": "2026-05-21T06:20:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Pakistan mediation visit confirmed by Xinhua May 21, Arab News, and IRNA Facebook.",
-    "keywords": [
-      "iran",
-      "pakistan",
-      "diplomacy",
-      "nuclear",
-      "mediation",
-      "naqvi",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1394",
-    "handle": "@criticalthreats",
-    "displayName": "Critical Threats Project (AEI)",
-    "text": "Critical Threats noted that the IRGC's 'war far beyond the region' threat combined with Iran's formal PGSA maritime zone declaration suggests Tehran is pursuing a dual-track strategy: creating legal and military facts on the ground while negotiations proceed, making any deal that doesn't address both tracks structurally unstable.",
-    "timestamp": "2026-05-21T06:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IRGC statement confirmed by IranWire, CNBC, Times of Israel. PGSA zone confirmed by Times of Israel liveblog, Al Jazeera.",
-    "keywords": [
-      "irgc",
-      "iran",
-      "pgsa",
-      "hormuz",
-      "escalation",
-      "deal",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1395",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "IntelCrab flagged that with Trump's 2-3 day deal deadline set May 19, Day 83 represents the outer edge of that window — the absence of new strikes overnight and Pezeshkian's 'all paths open' statement suggests both sides are allowing the window to extend, but Netanyahu's security cabinet posture and IAF exercise activity means Israeli unilateral action remains a live risk.",
-    "timestamp": "2026-05-21T06:40:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Trump deadline confirmed by CNBC May 19. Netanyahu security cabinet confirmed by Axios/CNN. IAF exercise confirmed by CNN/Times of Israel. Israeli unilateral strike assessment is analyst inference.",
-    "keywords": [
-      "trump",
-      "netanyahu",
-      "israel",
-      "iaf",
-      "deadline",
-      "strike",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1396",
-    "handle": "@IntelCrab",
-    "displayName": "IntelCrab",
-    "text": "IntelCrab reported that Iran's ISNA statement that the US proposal 'narrowed the gaps to some extent' is notable for its specific language — previous Iranian signals used blanket terms; 'to some extent' implies Iran has a written enumeration of remaining gaps, suggesting a structured negotiation text is now in play rather than broad framework discussions.",
-    "timestamp": "2026-05-21T12:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "ISNA statement confirmed by Bloomberg May 21. Analyst interpretation of diplomatic language is inferential.",
-    "keywords": [
-      "iran",
-      "diplomacy",
-      "nuclear",
-      "isna",
-      "ceasefire",
-      "day83"
-    ]
-  },
-  {
     "id": "social-1397",
     "handle": "@criticalthreats",
     "displayName": "Critical Threats Project (AEI)",
@@ -423,7 +329,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "CNN confirmed US intel assessment with two US officials. IranWire and US News corroborated.",
-    "keywords": ["iran", "military", "drones", "reconstruction", "intel", "day84"]
+    "keywords": [
+      "iran",
+      "military",
+      "drones",
+      "reconstruction",
+      "intel",
+      "day84"
+    ]
   },
   {
     "id": "social-1415",
@@ -434,7 +347,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "Oil price movement confirmed by CBS News live updates and Bloomberg. Vessel count per CJCS briefing.",
-    "keywords": ["hormuz", "oil", "brent", "tanker", "blockade", "day84"]
+    "keywords": [
+      "hormuz",
+      "oil",
+      "brent",
+      "tanker",
+      "blockade",
+      "day84"
+    ]
   },
   {
     "id": "social-1416",
@@ -445,7 +365,15 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "likely",
     "verificationNote": "Munir cancellation confirmed by The Week India. ANI confirmed Naqvi met Araghchi. Assessment of significance is analyst opinion.",
-    "keywords": ["pakistan", "iran", "mediation", "munir", "naqvi", "nuclear", "day84"]
+    "keywords": [
+      "pakistan",
+      "iran",
+      "mediation",
+      "munir",
+      "naqvi",
+      "nuclear",
+      "day84"
+    ]
   },
   {
     "id": "social-1417",
@@ -456,7 +384,14 @@
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
     "verificationNote": "IEA red zone warning confirmed by CNBC. UAE pipeline progress confirmed by CNBC May 20. DHL CEO timeline confirmed by Al Jazeera.",
-    "keywords": ["hormuz", "oil", "iea", "uae", "pipeline", "day84"]
+    "keywords": [
+      "hormuz",
+      "oil",
+      "iea",
+      "uae",
+      "pipeline",
+      "day84"
+    ]
   },
   {
     "id": "social-1418",
@@ -467,6 +402,125 @@
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
     "verificationNote": "Poll confirmed by Al Jazeera May 22 liveblog and Fox News. House vote blocked confirmed by Al Jazeera May 22 liveblog.",
-    "keywords": ["us", "poll", "war powers", "congress", "iran", "public opinion", "day84"]
+    "keywords": [
+      "us",
+      "poll",
+      "war powers",
+      "congress",
+      "iran",
+      "public opinion",
+      "day84"
+    ]
+  },
+  {
+    "id": "social-1419",
+    "handle": "@AuroraIntel",
+    "displayName": "Aurora Intelligence",
+    "text": "Aurora Intel flagged the Al Arabiya-published \"final draft\" US-Iran deal as a potentially historic document — or a diplomatic pressure tactic. The most significant aspect is what the draft omits: nuclear program dismantlement, HEU export, ballistic missiles, proxy networks — every stated US war objective. If accurate, this is a ceasefire deal, not a denuclearization deal, and would face immediate Congressional backlash.",
+    "timestamp": "2026-05-22T10:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al Arabiya deal draft confirmed by Arab News, ANI News, Times of Israel liveblog May 22. Analysis of nuclear omissions is analyst assessment based on reported contents.",
+    "keywords": [
+      "iran",
+      "us",
+      "deal",
+      "nuclear",
+      "alaRabiya",
+      "ceasefire",
+      "day84"
+    ]
+  },
+  {
+    "id": "social-1420",
+    "handle": "@OSINTdefender",
+    "displayName": "OSINTdefender",
+    "text": "OSINTdefender noted that Hezbollah's 105 attack waves on May 22 — the highest single-day count since the war began — occurred simultaneously with the closest moment to a US-Iran deal. This is not coincidence: Hezbollah is escalating to signal to Iran's negotiators that Hezbollah cannot be a concession item in any deal, while also testing whether the US will restart bombing in response. Neither IDF nor CENTCOM has signaled new retaliatory action against Hezbollah beyond existing operations.",
+    "timestamp": "2026-05-22T11:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "105 attack waves confirmed by Alma Research Center and Times of Israel May 22 liveblog. Analyst interpretation of strategic signaling is assessment.",
+    "keywords": [
+      "hezbollah",
+      "israel",
+      "lebanon",
+      "attack",
+      "escalation",
+      "day84"
+    ]
+  },
+  {
+    "id": "social-1421",
+    "handle": "@IntelCrab",
+    "displayName": "IntelCrab",
+    "text": "IntelCrab assessed that the House GOP's cancellation of the Iran war powers vote — after it became clear bipartisan support would have passed it — is politically more significant than the Senate 50-47 vote that passed. The House is the body that controls defense appropriations. The next vote, projected for June after Memorial Day, will come at a point when the US is spending 00M-B/day on the Iran standby. Congressional math is shifting against Trump.",
+    "timestamp": "2026-05-22T09:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "House war powers vote cancellation confirmed by NPR, NBC News May 21. Senate 50-47 vote confirmed by CBS News May 19-20. War cost figures from CSIS tracker.",
+    "keywords": [
+      "us",
+      "congress",
+      "war-powers",
+      "trump",
+      "iran",
+      "day84"
+    ]
+  },
+  {
+    "id": "social-1422",
+    "handle": "@HormuzWatch",
+    "displayName": "Hormuz Watch (Maritime OSINT)",
+    "text": "Hormuz Watch reported that Bloomberg's confirmation of Iran-Oman talks on a permanent Hormuz toll system represents a strategic inflection point: Iran is converting a temporary military blockade into a permanent institutional claim over the strait before any peace deal is signed. With Oman as co-administrator, the US would need to challenge a multilateral maritime authority rather than simply enforce a ceasefire provision — dramatically raising the diplomatic cost of reopening.",
+    "timestamp": "2026-05-22T08:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Bloomberg Iran-Oman Hormuz toll talks confirmed May 21. PGSA toll mechanism operational since May 18 confirmed by Times of Israel liveblog, Al Jazeera.",
+    "keywords": [
+      "hormuz",
+      "iran",
+      "oman",
+      "pgsa",
+      "maritime",
+      "naval",
+      "day84"
+    ]
+  },
+  {
+    "id": "social-1423",
+    "handle": "@criticalthreats",
+    "displayName": "Critical Threats Project (AEI)",
+    "text": "Critical Threats flagged that the Trump-Mojtaba Khamenei HEU deadlock has now been confirmed by at least two independent sources on both sides: Trump (May 21) said the US will \"get it and probably destroy it\"; Mojtaba Khamenei simultaneously issued a directive that uranium must stay in Iran. These are mutually exclusive positions with no obvious diplomatic bridge — suggesting any deal in the next 48 hours either abandons the nuclear dimension entirely, or one side is publicly saying something different from what they have privately agreed.",
+    "timestamp": "2026-05-22T07:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump uranium seizure statement confirmed by Washington Times, CNBC May 21. Mojtaba Khamenei HEU directive confirmed by Reuters (two senior Iranian sources), Times of Israel, CDM Press.",
+    "keywords": [
+      "iran",
+      "trump",
+      "uranium",
+      "nuclear",
+      "heu",
+      "ceasefire",
+      "day84"
+    ]
+  },
+  {
+    "id": "social-1424",
+    "handle": "@TankerTrackers",
+    "displayName": "TankerTrackers",
+    "text": "TankerTrackers confirmed oil flows through Hormuz remain around 2 million barrels per day — approximately 10% of pre-blockade levels — as of Day 84. Bloomberg's May 14 report of 4 Iraqi supertankers exiting via PGSA-authorized routes accounts for most of this flow. The tracker notes the IEA \"red zone\" warning (July-August) coincides precisely with when global inventories would be depleted absent new Hormuz flows or alternative supply increases. Memorial Day weekend begins with US gasoline averaging .55/gal.",
+    "timestamp": "2026-05-22T06:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Hormuz flow rate confirmed by Bloomberg May 14. IEA red zone warning confirmed by CNBC May 21. Gas price confirmed by AAA newsroom.",
+    "keywords": [
+      "hormuz",
+      "oil",
+      "tanker",
+      "pgsa",
+      "iea",
+      "day84"
+    ]
   }
 ]
