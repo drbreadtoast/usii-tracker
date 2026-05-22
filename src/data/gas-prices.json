@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-21T19:05:00Z",
-  "currentAverage": 4.564,
+  "lastUpdated": "2026-05-22T00:08:00Z",
+  "currentAverage": 4.56,
   "preWarAverage": 3.18,
-  "changePercent": 43.5,
+  "changePercent": 43.4,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -686,6 +686,12 @@
       "price": 4.564,
       "label": "Day 83 midday \u2014 AAA $4.564/gal (+43.5% from pre-war $3.18). Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). WTI dips below $100 on Iran 'narrowed the gaps' diplomatic signal \u2014 most positive ceasefire signal since April 8. Trump 'may have to hit Iran even harder' at Coast Guard Academy. US 13th Iran sanctions round. Blockade Day 80.",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-22",
+      "price": 4.56,
+      "label": "Day 84 \u2014 AAA $4.56/gal (+43.4% from pre-war $3.18). Brent $108.76 (+36.2%), WTI $101.07 (+33.9%). Mixed signals: Trump 'an hour away' from new strikes (paused by Gulf allies), Khamenei orders HEU to stay in Iran. Pakistan Army Chief Munir in Tehran. Hormuz Blockade Day 81. All 50 US states above $4.00/gal.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil \u00f7 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -790,7 +796,7 @@
       "regularGasoline": 4.564,
       "changeFromPreWar": "+$1.384",
       "changePercent": "+43.5%",
-      "lastUpdated": "2026-05-21T12:09:00Z",
+      "lastUpdated": "2026-05-22T00:08:00Z",
       "date": "2026-05-21"
     }
   },
