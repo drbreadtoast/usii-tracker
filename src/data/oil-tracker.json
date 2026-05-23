@@ -74,11 +74,11 @@
     },
     "current": {
       "brent": {
-        "price": 104.16,
-        "change": "+30.5%",
-        "changeDollars": "+$24.32",
-        "dailyChange": "+1.89%",
-        "dailyChangeDollars": "+$1.94"
+        "price": 103.94,
+        "change": "+30.3%",
+        "changeDollars": "+$24.14",
+        "dailyChange": "-0.21%",
+        "dailyChangeDollars": "-$0.22"
       },
       "wti": {
         "price": 96.60,
@@ -87,9 +87,9 @@
         "dailyChange": "-0.5%",
         "dailyChangeDollars": "-$0.52"
       },
-      "changePercent": "+30.5%",
-      "changeNote": "Day 85 (May 23): Brent $104.16 (+30.5% vs pre-war $79.84), WTI $96.60 (+27.9% vs pre-war $75.51). Markets eased slightly on 'slight progress' rhetoric from Rubio and Al-Arabiya leaked draft framework. Day 84 (May 22): Brent $104.52 briefly spiked to $109 on Al Jazeera 'signs of progress' headline, then fell 2.3%. Trump cancels Memorial Day plans to prepare for potential new Iran strikes. Pakistan's Munir in Tehran for 3rd mediation; Qatar joins. IEA warns 'red zone' by July-August if Hormuz stays closed. Blockade Day 82. Gas $4.552/gal (+42.7%). Source: TradingEconomics Brent May 23, fxdailyreport WTI May 22 analysis, Investing.com.",
-      "lastUpdated": "2026-05-23T00:00:00Z"
+      "changePercent": "+30.3%",
+      "changeNote": "Day 85 PM (May 23): Brent $103.94 (+30.3% vs pre-war $79.80), WTI $96.60 (+27.9% vs pre-war $75.51). Prices pulled back from intraday high of $106.36 as Trump said talks 'getting a lot closer' and Washington Times reported peace deal expected within 24 hours. Trump 'solid 50/50' deal-or-strike ultimatum keeping floor bid. Day 85 AM: Brent $104.16 high. Gas $4.529/gal (+42.5%). Blockade Day 82. Source: Fortune/TradingEconomics Brent May 22-23 close, FXLeaders WTI May 2026.",
+      "lastUpdated": "2026-05-23T19:03:00Z"
     },
     "priceHistory": [
       {
@@ -690,8 +690,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-23T06:03:00Z",
-    "note": "Day 85 (May 23): Brent $104.16 (+30.5%), WTI $96.60 (+27.9%). 5th Rome talks ended without breakthrough — enrichment remains Iran's red line. Trump NSC war council convened Saturday. Iran reconstituting military faster than expected (CNN). Blockade Day 82. Gas $4.552/gal (+43.1%).",
+    "lastUpdated": "2026-05-23T19:03:00Z",
+    "note": "Day 85 PM (May 23): Brent $103.94 (+30.3%), WTI $96.60 (+27.9%). Trump '50/50' deal-or-strikes ultimatum; decision by Sunday. Washington Times: peace deal within 24 hours. Iran FM confirms 14-clause MOU in final stage. Hezbollah kills IDF Staff Sgt. Hamburger (drone). Blockade Day 82. Gas $4.529/gal (+42.4%).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -701,12 +701,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.552,
-          "date": "2026-05-22"
+          "price": 4.529,
+          "date": "2026-05-23"
         },
-        "change": "+$1.37",
-        "changePercent": "+43.1%",
-        "detail": "Gas $4.552/gal (AAA, May 22). +43.1% from pre-war $3.18. Brent $104.16 (+30.5%), WTI $96.60 (+27.9%). Trump cancels Memorial Day plans for NSC Iran meeting. Pakistan Munir in Tehran; Qatar mediating. Blockade Day 82.",
+        "change": "+$1.35",
+        "changePercent": "+42.4%",
+        "detail": "Gas $4.529/gal (AAA, May 23 PM). +42.4% from pre-war $3.18. Brent $103.94 (+30.3%), WTI $96.60 (+27.9%). Trump '50/50' deal-or-strikes by Sunday. Washington Times: peace deal within 24 hours. Blockade Day 82.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -784,11 +784,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.552,
-    "gasPriceRegular": 4.552,
+    "regularGasoline": 4.529,
+    "gasPriceRegular": 4.529,
     "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.372",
-    "changePercent": "+42.8%"
+    "changeFromPreWar": "+$1.349",
+    "changePercent": "+42.4%"
   },
   "keyFacts": [
     {
@@ -1463,6 +1463,13 @@
       "brent": 104.16,
       "wti": 96.6,
       "label": "Day 85 AM — Brent $104.16 (+30.5%), WTI $96.60 (+27.9%). 5th Rome US-Iran nuclear talks ended without breakthrough — enrichment Iran's firm red line. Trump NSC war council weighing resumed strikes. Mojtaba Khamenei bans HEU export abroad. Iran military reconstituting faster than expected (CNN). Hezbollah wounds 8 IDF soldiers. Gas $4.552 (+43.1%). Hormuz Day 82.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-23",
+      "brent": 103.94,
+      "wti": 96.6,
+      "label": "Day 85 PM — Brent $103.94 (+30.2%), WTI $96.60 (+27.9%). Prices pulled back from intraday high $106.36 on diplomatic signals. Trump 'solid 50/50' deal-or-strikes ultimatum; Washington Times exclusive: peace deal expected within 24 hours. Iran FM confirms 14-clause MOU in final stage. Hezbollah kills IDF Staff Sgt. Hamburger (drone). Rubio from New Delhi: 'chance of deal as soon as Saturday.' Gas $4.529 (+42.5%). Hormuz Day 82.",
       "isEvent": true
     }
   ]

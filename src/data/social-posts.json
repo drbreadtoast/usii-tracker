@@ -56,43 +56,6 @@
     ]
   },
   {
-    "id": "social-1428",
-    "handle": "@PakistanDefense",
-    "displayName": "Pakistan Defense Monitor",
-    "text": "Pakistan Defense Monitor reported that Army Chief Field Marshal Asim Munir arrived in Tehran on May 22 for his third mediation round, received by Iranian Interior Minister Momeni \u2014 Pakistan's third senior-level visit to Tehran in two weeks. Rubio called Pakistan's role 'admirable,' the strongest US public endorsement yet of Islamabad's shuttle diplomacy.",
-    "timestamp": "2026-05-22T19:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Munir Tehran arrival confirmed by Al Jazeera, Axios May 22. Rubio 'admirable' quote confirmed by WaPo, PBS, Al Jazeera.",
-    "keywords": [
-      "pakistan",
-      "iran",
-      "mediation",
-      "munir",
-      "rubio",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1429",
-    "handle": "@WashingtonPostNatSec",
-    "displayName": "WaPo National Security",
-    "text": "The Washington Post reported that Rubio confirmed 'slight progress' in US-Iran talks on May 22, but key sticking points remain: Iran's highly enriched uranium stockpile and Strait of Hormuz control \u2014 both mutually incompatible with the leaked Al-Arabiya interim framework, which defers all nuclear issues. The gap between public 'progress' and structural deadlock appears wider than either side is admitting.",
-    "timestamp": "2026-05-22T18:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Rubio 'slight progress' confirmed by Washington Post, PBS, Al Jazeera, State Dept May 22.",
-    "keywords": [
-      "iran",
-      "us",
-      "rubio",
-      "diplomacy",
-      "nuclear",
-      "hormuz",
-      "day85"
-    ]
-  },
-  {
     "id": "social-1430",
     "handle": "@NATOWatchdog",
     "displayName": "NATO Watch",
@@ -350,6 +313,106 @@
       "strike",
       "weapons",
       "lebanon",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1444",
+    "handle": "@IranWarLive",
+    "displayName": "IranWarLive OSINT Monitor",
+    "text": "IranWarLive confirmed on Day 85 that Pakistan Army Chief Field Marshal Asim Munir completed a marathon 24-hour mediation session in Tehran, meeting separately with FM Araghchi, President Pezeshkian, and Parliament Speaker Ghalibaf. Pakistan described talks as \"highly productive\" but Iran FM said differences remain \"deep and significant.\" Munir departed Tehran Saturday carrying a fresh Iranian counter-proposal to the US.",
+    "timestamp": "2026-05-23T12:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Pakistan ISPR statement on Munir visit confirmed by Tribune India and ARY News. FM Baghaei statement on differences confirmed by Al Jazeera.",
+    "keywords": [
+      "pakistan",
+      "munir",
+      "tehran",
+      "iran",
+      "mediation",
+      "araghchi",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1445",
+    "handle": "@NukeWatchOSINT",
+    "displayName": "Nuclear Watch OSINT",
+    "text": "Nuclear Watch OSINT reported the core US-Iran impasse on Day 85 remains structurally unresolved: Mojtaba Khamenei issued a formal directive that Iran's ~440 kg of 60%-enriched uranium cannot leave the country under any deal, while Trump reiterated the US \"will get the highly enriched uranium.\" These positions are mutually exclusive. A narrower war-ending MOU deferring nuclear issues to a 60-day follow-on period may be the only viable bridging mechanism.",
+    "timestamp": "2026-05-23T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Mojtaba Khamenei uranium directive confirmed by Reuters May 21. Trump HEU demand confirmed by CBS News and Axios May 23. 14-clause MOU framework confirmed by Iran FM Baghaei per Fortune.",
+    "keywords": [
+      "nuclear",
+      "uranium",
+      "iran",
+      "us",
+      "khamenei",
+      "trump",
+      "mou",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1446",
+    "handle": "@CriticalThreatsAEI",
+    "displayName": "Critical Threats / AEI",
+    "text": "Critical Threats assessed that Trump faces a binary decision by Sunday (May 24): accept a Memorandum of Understanding covering war cessation and Hormuz \u2014 deferring nuclear issues for 60 days \u2014 or resume Operation Epic Fury strikes. Trump convened an NSC war council Saturday including Vance, Hegseth, Ratcliffe, and Wiles. White House Deputy Chief Dan Scavino posted a B-2 stealth bomber video with no caption, widely interpreted as an implicit strike signal.",
+    "timestamp": "2026-05-23T14:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "NSC war council confirmed by Axios. Scavino B-2 bomber post confirmed by Fox News live updates. Trump 50/50 quote from Axios exclusive May 23.",
+    "keywords": [
+      "trump",
+      "nsc",
+      "strike",
+      "deal",
+      "50/50",
+      "b2",
+      "scavino",
+      "iran",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1447",
+    "handle": "@UN_WatchOSINT",
+    "displayName": "UN Security Council Watch",
+    "text": "UN Security Council Watch noted two competing Hormuz resolutions are in circulation on Day 85: (1) a US-Bahrain draft demanding Iran halt attacks \u2014 facing likely Russia-China veto; (2) a French-drafted alternative proposing an international maritime mission to restore freedom of navigation. France confirmed it consulted Washington and Tehran before drafting. Neither has come to a vote. The dueling drafts reflect deepening P5 division on how to handle the Hormuz crisis.",
+    "timestamp": "2026-05-23T09:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "France UNSC draft confirmed by US News/Reuters, Arab News, and Times of Israel liveblog. US-Bahrain text stall confirmed by multiple outlets.",
+    "keywords": [
+      "un",
+      "hormuz",
+      "france",
+      "unsc",
+      "russia",
+      "china",
+      "resolution",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1448",
+    "handle": "@IsraelSecurityWatch",
+    "displayName": "Israel Security Watch",
+    "text": "Israel Security Watch noted that Israel has been entirely excluded from US-Iran peace negotiations, alarming Netanyahu's coalition. Reports cite an unnamed Israeli official saying envoy Witkoff is \"placing immense pressure on Trump not to resume the war.\" Netanyahu convened an emergency coalition meeting Saturday describing the emerging MOU as \"very bad\" for Israel \u2014 it omits nuclear dismantlement, HEU export requirements, and proxy rollback. Israel cannot strike Iran unilaterally without US permission and overflight rights.",
+    "timestamp": "2026-05-23T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Netanyahu emergency coalition meeting confirmed by Times of Israel liveblog. \"Very bad\" characterization confirmed by unnamed Israeli official per ToI. Witkoff pressure confirmed by same source. Israeli overflight dependency confirmed by Al Jazeera analysis.",
+    "keywords": [
+      "israel",
+      "netanyahu",
+      "deal",
+      "witkoff",
+      "iran",
+      "excluded",
+      "coalition",
       "day85"
     ]
   }

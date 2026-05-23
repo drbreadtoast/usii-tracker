@@ -54527,5 +54527,57 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["houthis", "naval", "socotra", "ukmto", "shipping", "day85"]
+  },
+  {
+    "id": "evt-new-1617",
+    "title": "Trump Says 'Solid 50/50' on Iran Deal or 'Blow Them to Kingdom Come'; Will Decide by Sunday",
+    "description": "President Trump told Axios in an exclusive interview that the odds were 'a solid 50/50' between reaching a deal with Iran and resuming military strikes, saying he would 'blow them to kingdom come' if no deal was reached. Trump said he was meeting with envoys Steve Witkoff and Jared Kushner Saturday afternoon to review Iran's latest proposal and would likely decide by Sunday. He said the US requires Iran to hand over its highly enriched uranium and open Hormuz 'free, without tolls.' Trump also told reporters talks were 'getting a lot closer.' The White House convened a full national security team session with VP Vance, Hegseth, and intelligence chiefs as a Memorial Day weekend deadline loomed.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington D.C., United States",
+    "timestamp": "2026-05-23T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "Axios — Trump says '50/50' Iran deal or US 'blow them to kingdom come'",
+        "url": "https://www.axios.com/2026/05/23/trump-iran-deal-resume-war-interview"
+      },
+      {
+        "name": "Al Jazeera — Iran war live: Trump says peace talks 'getting a lot closer'",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/23/iran-war-live-tehran-says-diplomacy-continues-but-no-deal-yet-with-us"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "us", "iran", "diplomatic", "50/50", "deal", "strikes", "day85"]
+  },
+  {
+    "id": "evt-new-1618",
+    "title": "Hezbollah Explosive Drone Kills IDF Staff Sgt. Noam Hamburger in Northern Israel — 9th Soldier Since Lebanon Ceasefire",
+    "description": "Staff Sgt. Noam Hamburger, 23, from Atlit, was killed when a Hezbollah explosive drone struck near the Lebanese border in northern Israel while he was on operational activity. One soldier was seriously wounded and an NCO lightly wounded. A second drone struck the same area approximately 25 minutes later with no additional casualties. The IDF identified Hamburger as a soldier in the 9th Battalion of the 401st 'Iron Tracks' Brigade. He was the 9th Israeli soldier killed since the US-brokered Israel-Lebanon ceasefire took effect on April 16, 2026, and the 22nd killed since hostilities with Hezbollah escalated.",
+    "type": "strike",
+    "lat": 33.05,
+    "lng": 35.2,
+    "location": "Northern Israel (near Lebanese border)",
+    "timestamp": "2026-05-23T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF reservist killed in Hezbollah explosive drone attack in northern Israel",
+        "url": "https://www.timesofisrael.com/idf-reservist-killed-in-hezbollah-explosive-drone-attack-in-northern-israel/"
+      },
+      {
+        "name": "JNS — Israeli soldier killed by Hezbollah drone near Lebanon border",
+        "url": "https://www.jns.org/news/israel-news/israeli-soldier-killed-by-hezbollah-drone-near-lebanon-border"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 1, "wounded": 2 },
+    "tags": ["hezbollah", "israel", "drone", "soldier", "killed", "northern-israel", "ceasefire", "day85"]
   }
 ]
