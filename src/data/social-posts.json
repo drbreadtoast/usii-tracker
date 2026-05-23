@@ -1,194 +1,5 @@
 [
   {
-    "id": "social-1397",
-    "handle": "@criticalthreats",
-    "displayName": "Critical Threats Project (AEI)",
-    "text": "Critical Threats assessed that the simultaneous imposition of new US sanctions on Iran's construction sector and nuclear-linked materials (13th round since NSPM-2) while engaging in Pakistan-mediated talks reflects a deliberate 'maximum pressure with an open door' doctrine — sanctions become leverage chips that can be lifted as part of a deal, while also denying Iran revenue during negotiations.",
-    "timestamp": "2026-05-21T12:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "US sanctions confirmed by State Department and Treasury press releases. Analyst interpretation of strategy is from AEI Iran tracker May 21 update.",
-    "keywords": [
-      "us",
-      "iran",
-      "sanctions",
-      "nuclear",
-      "irgc",
-      "maximum-pressure",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1398",
-    "handle": "@WarMonitor",
-    "displayName": "War Monitor",
-    "text": "War Monitor flagged that the Times of Israel/NYT report citing two Middle Eastern officials on US-Israel 'most intense preparations yet' for war renewal — including options to seize Kharg Island and extract Iranian nuclear material via commando operation — represents a significant intelligence signal, as previous war prep leaks were attributed to US officials; Middle Eastern officials suggests Gulf state or Israeli sourcing.",
-    "timestamp": "2026-05-21T13:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Times of Israel/NYT report confirmed. Source attribution analysis is analyst assessment.",
-    "keywords": [
-      "israel",
-      "us",
-      "iran",
-      "kharg",
-      "nuclear",
-      "war-prep",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1399",
-    "handle": "@AuroraIntel",
-    "displayName": "Aurora Intelligence",
-    "text": "Aurora Intel noted that WTI crude dipping below $100 for the first time since Day 81 on the Iran 'narrowed gaps' signal is a significant market indicator — traders are pricing roughly a 25-30% probability of a deal within 72 hours based on options skew, compared to near-zero deal probability priced just four days ago when Trump issued his 'clock is ticking' ultimatum.",
-    "timestamp": "2026-05-21T13:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "WTI price movement to $99.21 confirmed by fxdailyreport May 21 analysis. Options market interpretation is analyst assessment.",
-    "keywords": [
-      "oil",
-      "wti",
-      "iran",
-      "ceasefire",
-      "markets",
-      "diplomacy",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1400",
-    "handle": "@OSINTdefender",
-    "displayName": "OSINT Defender",
-    "text": "OSINT Defender tracked that the Channel 14 security breach — in which anchor Shimon Riklin disclosed on-air the existence of a commando plan to seize Iran's 440kg enriched uranium stockpile near Isfahan — has drawn emergency parliamentary investigation calls in Israel, with former IDF Chief Eisenkot telling reporters the leak 'provides Iran 48+ hours to relocate or disperse the stockpile,' fundamentally altering the operational viability of the option.",
-    "timestamp": "2026-05-21T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Channel 14 breach confirmed by Times of Israel, Haaretz, and The New Arab. Eisenkot condemnation confirmed by multiple Israeli outlets. Operational impact assessment is analyst inference.",
-    "keywords": [
-      "israel",
-      "channel14",
-      "iran",
-      "nuclear",
-      "commando",
-      "security",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1401",
-    "handle": "@Intel_Slava",
-    "displayName": "Intel Slava Z (OSINT)",
-    "text": "Intel Slava reported that the US House War Powers Resolution failed 213-214 — a single-vote margin — meaning Trump retains full unilateral authority to resume Iran strikes with no Congressional constraint. Analysis: the slim margin suggests that Republican defectors exist but are insufficient to override Trump's war authority without Senate coordination.",
-    "timestamp": "2026-05-21T19:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "House vote confirmed by NBC News, Washington Post (rcna332178).",
-    "keywords": [
-      "us",
-      "congress",
-      "war-powers",
-      "trump",
-      "iran",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1402",
-    "handle": "@OSINT_Ukraine",
-    "displayName": "OSINT Ukraine (Conflict Intel)",
-    "text": "OSINT Ukraine flagged the CNN intelligence report that Iran has already restarted drone production during the ceasefire as a major strategic finding: if Iran reconstitutes drone capability in 6 months and the US/Israel do not resume strikes, Iran could restore a meaningful deterrent posture before any deal is finalized — fundamentally shifting the negotiating balance.",
-    "timestamp": "2026-05-21T18:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN report confirmed by two US intelligence officials. Times of Israel independently reported same finding.",
-    "keywords": [
-      "iran",
-      "military",
-      "drones",
-      "intel",
-      "ceasefire",
-      "rebuild",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1403",
-    "handle": "@MikeMartinAuthor",
-    "displayName": "Mike Martin (King's College London)",
-    "text": "Mike Martin assessed that Pakistan Army Chief Munir's arrival in Tehran is the clearest signal yet that a deal framework is close: Islamabad would not risk sending its most senior military official unless both sides had signaled genuine willingness to move. The key question remains whether the uranium disposition gap — downblend vs. export — is bridgeable within Trump's self-imposed deadline of 'a few days.'",
-    "timestamp": "2026-05-21T18:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Munir arrival confirmed by Al Arabiya, Gulf Today, Deccan Herald.",
-    "keywords": [
-      "pakistan",
-      "iran",
-      "diplomacy",
-      "munir",
-      "ceasefire",
-      "nuclear",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1404",
-    "handle": "@HormuzWatch",
-    "displayName": "Hormuz Watch (Maritime OSINT)",
-    "text": "Hormuz Watch noted that Iran's PGSA 'controlled maritime zone' declaration and the reported $2 million permit fee per transit represents a formalization of what has been an ad hoc blockade — institutionalizing it as a quasi-legal regime. This complicates any military operation to reopen the strait, as Iran can now frame forcible transit as an attack on a sovereign maritime authority rather than a response to illegal piracy.",
-    "timestamp": "2026-05-21T17:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PGSA controlled maritime zone confirmed by Al Arabiya, GMA News, Times of Israel liveblog.",
-    "keywords": [
-      "hormuz",
-      "iran",
-      "pgsa",
-      "maritime",
-      "shipping",
-      "naval",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1405",
-    "handle": "@ConflictMonitor_",
-    "displayName": "Conflict Monitor",
-    "text": "Conflict Monitor tracked that the uranium deadlock is now the singular chokepoint in talks: Trump demanding US retrieval and destruction of Iran's ~440kg HEU while Iran insists on domestic downblending. Intelligence sources note the Channel 14 security breach disclosing a commando seizure option may have operationally foreclosed that pathway, increasing pressure on diplomatic resolution — or conventional strikes on Fordow.",
-    "timestamp": "2026-05-21T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "Trump uranium demand confirmed. Iran downblend offer confirmed by Al Jazeera. Channel 14 breach confirmed by Times of Israel. Channel 14 operational impact is analyst inference.",
-    "keywords": [
-      "iran",
-      "uranium",
-      "nuclear",
-      "trump",
-      "commando",
-      "ceasefire",
-      "day83"
-    ]
-  },
-  {
-    "id": "social-1406",
-    "handle": "@RobLee_FDD",
-    "displayName": "Rob Lee (FDD/War Studies)",
-    "text": "Rob Lee noted that Vance's 'locked and loaded' statement combined with JD Vance citing Iran could trigger a global arms race if it gets nuclear weapons signals a hardening US position entering this weekend's deadline window. The 60-minute near-strike on May 19 suggests the trigger is sensitive — any Iranian military activity (Hezbollah rocket, Houthi attack, Iraqi militia strike) during this window carries elevated risk of being used as justification for resumption.",
-    "timestamp": "2026-05-21T16:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "Vance statements confirmed by Fox News. Near-strike on May 19 confirmed by Fox News live coverage. Escalation risk assessment is analyst judgment.",
-    "keywords": [
-      "us",
-      "vance",
-      "iran",
-      "nuclear",
-      "escalation",
-      "ceasefire",
-      "day83"
-    ]
-  },
-  {
     "id": "social-1407",
     "handle": "@ElbridgeColby",
     "displayName": "Elbridge Colby (Former Dep. Asst. SecDef)",
@@ -211,7 +22,7 @@
     "id": "social-1408",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
-    "text": "OSINTdefender reported that Pakistan Army Chief Munir arrived in Tehran on May 22 and is meeting with IRGC Commander Vahidi and President Pezeshkian. Pakistani officials told Reuters the latest US proposal offers 'slightly better incentives' on frozen assets and sanctions but no new concession on nuclear enrichment — meaning the gap remains wide. Munir's visit is Pakistan's most senior-level intervention since the April 8 ceasefire.",
+    "text": "OSINTdefender reported that Pakistan Army Chief Munir arrived in Tehran on May 22 and is meeting with IRGC Commander Vahidi and President Pezeshkian. Pakistani officials told Reuters the latest US proposal offers 'slightly better incentives' on frozen assets and sanctions but no new concession on nuclear enrichment \u2014 meaning the gap remains wide. Munir's visit is Pakistan's most senior-level intervention since the April 8 ceasefire.",
     "timestamp": "2026-05-22T00:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -226,105 +37,10 @@
     ]
   },
   {
-    "id": "social-1409",
-    "handle": "@IntelSlava",
-    "displayName": "IntelSlava Z",
-    "text": "IntelSlava summarized the IRGC's threat to extend war 'far beyond the region' as a credible escalation warning. The threat was issued the same day US intelligence confirmed Iran has reconstituted 90% of its underground launch facilities and restarted drone production. 'Iran's message: if you resume attacks, we have rebuilt our capacity to strike Europe, US regional partners, and potentially further afield,' IntelSlava noted.",
-    "timestamp": "2026-05-21T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "IRGC threat confirmed by CNBC, PressTV May 20. Iran military rebuild confirmed by CNN citing two US intelligence officials.",
-    "keywords": [
-      "iran",
-      "irgc",
-      "threat",
-      "escalation",
-      "military",
-      "rebuild",
-      "day84"
-    ]
-  },
-  {
-    "id": "social-1410",
-    "handle": "@TritaParsi",
-    "displayName": "Trita Parsi (Quincy Institute)",
-    "text": "Trita Parsi analyzed the EU-Israel diplomatic rupture over the Global Sumud flotilla: 'Ben-Gvir posting videos of kneeling EU citizens in zip ties is a gift to every European politician who wants to distance their country from Israel. Italy calling for EU sanctions on an Israeli minister is not symbolic — it's a major diplomatic escalation that will outlast this war.' France summoning the Israeli ambassador over the video marks a new low in relations.",
-    "timestamp": "2026-05-21T22:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Parsi's analysis consistent with published positions. Ben-Gvir videos confirmed by NBC News, Foreign Policy. France ambassador summoning confirmed. Italy sanctions call confirmed by Euronews.",
-    "keywords": [
-      "israel",
-      "flotilla",
-      "eu",
-      "ben-gvir",
-      "diplomatic",
-      "kallas",
-      "day84"
-    ]
-  },
-  {
-    "id": "social-1411",
-    "handle": "@ColinPClarke",
-    "displayName": "Colin P. Clarke (Soufan Centre)",
-    "text": "Colin Clarke noted that Trump's 'an hour away from striking Iran' admission reveals the extreme sensitivity of the trigger during the current deadline window. 'Any Hezbollah rocket, any Iraqi militia attack, any Houthi strike on a US ship could be used as justification to resume the war. The diplomatic window is open, but it's sitting next to a lit fuse,' Clarke warned. He assessed Pakistan's mediation as a 'genuine last chance' before military action resumes.",
-    "timestamp": "2026-05-21T21:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "likely",
-    "verificationNote": "Clarke assessment consistent with Soufan Centre published analysis. Trump 'an hour away' confirmed by CBS News, multiple outlets. Pakistan mediation confirmed by Al Arabiya, Dawn.",
-    "keywords": [
-      "us",
-      "iran",
-      "trump",
-      "pakistan",
-      "mediation",
-      "escalation",
-      "day84"
-    ]
-  },
-  {
-    "id": "social-1412",
-    "handle": "@WarMonitor_OSINT",
-    "displayName": "War Monitor",
-    "text": "War Monitor reported that CENTCOM's latest 24h update confirms 94 commercial vessels have been redirected and 4 disabled under the US naval blockade of Iranian ports (active since April 13). Three US carrier groups, 10+ destroyers remain on station. The naval standoff now features simultaneous Iran blockade of Hormuz AND US blockade of Iranian ports — an unprecedented dual-blockade that affects different sets of vessels.",
-    "timestamp": "2026-05-21T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CENTCOM blockade figures confirmed by Voice of Emirates reporting CENTCOM statement, May 20.",
-    "keywords": [
-      "us",
-      "centcom",
-      "blockade",
-      "iran",
-      "naval",
-      "hormuz",
-      "day84"
-    ]
-  },
-  {
-    "id": "social-1413",
-    "handle": "@MiddleEastEye",
-    "displayName": "Middle East Eye",
-    "text": "Middle East Eye reported that the IDF Chief of Staff told troops in southern Lebanon 'there is no ceasefire' on the combat front, even as the 45-day Lebanon-Israel truce extension remains officially in effect. Israeli strikes wounded 9 at Tibnin hospital on May 21 (7 hospital staff). Lebanon Health Ministry confirmed 3,069+ killed since March 2. The Lebanon front is bleeding under the ceasefire extension.",
-    "timestamp": "2026-05-21T18:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF Zamir statement confirmed by Times of Israel, Jerusalem Post. Tibnin hospital strike confirmed by Arab News, Free Malaysia Today. Lebanese Health Ministry confirmed casualty figures.",
-    "keywords": [
-      "israel",
-      "lebanon",
-      "hezbollah",
-      "ceasefire",
-      "hospital",
-      "tibnin",
-      "day84"
-    ]
-  },
-  {
     "id": "social-1414",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
-    "text": "OSINTdefender reported that US intelligence assessments on Iran's military reconstitution — specifically, that drone production has already restarted and two-thirds of missile launchers may have survived strikes — are driving urgency inside the Pentagon to either close a deal quickly or resume bombing before Iran's military capacity fully rebounds.",
+    "text": "OSINTdefender reported that US intelligence assessments on Iran's military reconstitution \u2014 specifically, that drone production has already restarted and two-thirds of missile launchers may have survived strikes \u2014 are driving urgency inside the Pentagon to either close a deal quickly or resume bombing before Iran's military capacity fully rebounds.",
     "timestamp": "2026-05-22T02:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -342,7 +58,7 @@
     "id": "social-1415",
     "handle": "@TankerTrackers",
     "displayName": "TankerTrackers",
-    "text": "TankerTrackers noted that Brent crude briefly spiked above $109/barrel early May 22 before falling 2.3% to settle near $102.58 as Al Jazeera's 'signs of progress' headline circulated — a clear market reaction to diplomatic optimism. With 1,550 vessels still stranded, any formal deal framework would trigger immediate commercial shipping resumption pressure.",
+    "text": "TankerTrackers noted that Brent crude briefly spiked above $109/barrel early May 22 before falling 2.3% to settle near $102.58 as Al Jazeera's 'signs of progress' headline circulated \u2014 a clear market reaction to diplomatic optimism. With 1,550 vessels still stranded, any formal deal framework would trigger immediate commercial shipping resumption pressure.",
     "timestamp": "2026-05-22T03:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -360,7 +76,7 @@
     "id": "social-1416",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab",
-    "text": "IntelCrab assessed that Pakistan Army Chief Munir's reported cancellation of his Tehran trip — replaced by Interior Minister Naqvi — signals Iran may be pushing back on direct military-to-military talks as a precondition signal, preferring to keep diplomatic channels at the civilian level until the HEU handover impasse is resolved.",
+    "text": "IntelCrab assessed that Pakistan Army Chief Munir's reported cancellation of his Tehran trip \u2014 replaced by Interior Minister Naqvi \u2014 signals Iran may be pushing back on direct military-to-military talks as a precondition signal, preferring to keep diplomatic channels at the civilian level until the HEU handover impasse is resolved.",
     "timestamp": "2026-05-22T04:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "likely",
@@ -379,7 +95,7 @@
     "id": "social-1417",
     "handle": "@WarMonitor",
     "displayName": "War Monitor",
-    "text": "War Monitor reported that the IEA's Fatih Birol warning that oil markets could enter a 'red zone' by July-August if Hormuz remains closed comes just as CNBC reports the UAE bypass pipeline is now nearly 50% complete — but full completion is still 4-6 months away per DHL CEO assessment, meaning Hormuz reopening is the only near-term solution.",
+    "text": "War Monitor reported that the IEA's Fatih Birol warning that oil markets could enter a 'red zone' by July-August if Hormuz remains closed comes just as CNBC reports the UAE bypass pipeline is now nearly 50% complete \u2014 but full completion is still 4-6 months away per DHL CEO assessment, meaning Hormuz reopening is the only near-term solution.",
     "timestamp": "2026-05-22T05:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -416,7 +132,7 @@
     "id": "social-1419",
     "handle": "@AuroraIntel",
     "displayName": "Aurora Intelligence",
-    "text": "Aurora Intel flagged the Al Arabiya-published \"final draft\" US-Iran deal as a potentially historic document — or a diplomatic pressure tactic. The most significant aspect is what the draft omits: nuclear program dismantlement, HEU export, ballistic missiles, proxy networks — every stated US war objective. If accurate, this is a ceasefire deal, not a denuclearization deal, and would face immediate Congressional backlash.",
+    "text": "Aurora Intel flagged the Al Arabiya-published \"final draft\" US-Iran deal as a potentially historic document \u2014 or a diplomatic pressure tactic. The most significant aspect is what the draft omits: nuclear program dismantlement, HEU export, ballistic missiles, proxy networks \u2014 every stated US war objective. If accurate, this is a ceasefire deal, not a denuclearization deal, and would face immediate Congressional backlash.",
     "timestamp": "2026-05-22T10:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -435,7 +151,7 @@
     "id": "social-1420",
     "handle": "@OSINTdefender",
     "displayName": "OSINTdefender",
-    "text": "OSINTdefender noted that Hezbollah's 105 attack waves on May 22 — the highest single-day count since the war began — occurred simultaneously with the closest moment to a US-Iran deal. This is not coincidence: Hezbollah is escalating to signal to Iran's negotiators that Hezbollah cannot be a concession item in any deal, while also testing whether the US will restart bombing in response. Neither IDF nor CENTCOM has signaled new retaliatory action against Hezbollah beyond existing operations.",
+    "text": "OSINTdefender noted that Hezbollah's 105 attack waves on May 22 \u2014 the highest single-day count since the war began \u2014 occurred simultaneously with the closest moment to a US-Iran deal. This is not coincidence: Hezbollah is escalating to signal to Iran's negotiators that Hezbollah cannot be a concession item in any deal, while also testing whether the US will restart bombing in response. Neither IDF nor CENTCOM has signaled new retaliatory action against Hezbollah beyond existing operations.",
     "timestamp": "2026-05-22T11:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -453,7 +169,7 @@
     "id": "social-1421",
     "handle": "@IntelCrab",
     "displayName": "IntelCrab",
-    "text": "IntelCrab assessed that the House GOP's cancellation of the Iran war powers vote — after it became clear bipartisan support would have passed it — is politically more significant than the Senate 50-47 vote that passed. The House is the body that controls defense appropriations. The next vote, projected for June after Memorial Day, will come at a point when the US is spending 00M-B/day on the Iran standby. Congressional math is shifting against Trump.",
+    "text": "IntelCrab assessed that the House GOP's cancellation of the Iran war powers vote \u2014 after it became clear bipartisan support would have passed it \u2014 is politically more significant than the Senate 50-47 vote that passed. The House is the body that controls defense appropriations. The next vote, projected for June after Memorial Day, will come at a point when the US is spending 00M-B/day on the Iran standby. Congressional math is shifting against Trump.",
     "timestamp": "2026-05-22T09:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -471,7 +187,7 @@
     "id": "social-1422",
     "handle": "@HormuzWatch",
     "displayName": "Hormuz Watch (Maritime OSINT)",
-    "text": "Hormuz Watch reported that Bloomberg's confirmation of Iran-Oman talks on a permanent Hormuz toll system represents a strategic inflection point: Iran is converting a temporary military blockade into a permanent institutional claim over the strait before any peace deal is signed. With Oman as co-administrator, the US would need to challenge a multilateral maritime authority rather than simply enforce a ceasefire provision — dramatically raising the diplomatic cost of reopening.",
+    "text": "Hormuz Watch reported that Bloomberg's confirmation of Iran-Oman talks on a permanent Hormuz toll system represents a strategic inflection point: Iran is converting a temporary military blockade into a permanent institutional claim over the strait before any peace deal is signed. With Oman as co-administrator, the US would need to challenge a multilateral maritime authority rather than simply enforce a ceasefire provision \u2014 dramatically raising the diplomatic cost of reopening.",
     "timestamp": "2026-05-22T08:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
@@ -490,7 +206,7 @@
     "id": "social-1423",
     "handle": "@criticalthreats",
     "displayName": "Critical Threats Project (AEI)",
-    "text": "Critical Threats flagged that the Trump-Mojtaba Khamenei HEU deadlock has now been confirmed by at least two independent sources on both sides: Trump (May 21) said the US will \"get it and probably destroy it\"; Mojtaba Khamenei simultaneously issued a directive that uranium must stay in Iran. These are mutually exclusive positions with no obvious diplomatic bridge — suggesting any deal in the next 48 hours either abandons the nuclear dimension entirely, or one side is publicly saying something different from what they have privately agreed.",
+    "text": "Critical Threats flagged that the Trump-Mojtaba Khamenei HEU deadlock has now been confirmed by at least two independent sources on both sides: Trump (May 21) said the US will \"get it and probably destroy it\"; Mojtaba Khamenei simultaneously issued a directive that uranium must stay in Iran. These are mutually exclusive positions with no obvious diplomatic bridge \u2014 suggesting any deal in the next 48 hours either abandons the nuclear dimension entirely, or one side is publicly saying something different from what they have privately agreed.",
     "timestamp": "2026-05-22T07:00:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
@@ -509,7 +225,7 @@
     "id": "social-1424",
     "handle": "@TankerTrackers",
     "displayName": "TankerTrackers",
-    "text": "TankerTrackers confirmed oil flows through Hormuz remain around 2 million barrels per day — approximately 10% of pre-blockade levels — as of Day 84. Bloomberg's May 14 report of 4 Iraqi supertankers exiting via PGSA-authorized routes accounts for most of this flow. The tracker notes the IEA \"red zone\" warning (July-August) coincides precisely with when global inventories would be depleted absent new Hormuz flows or alternative supply increases. Memorial Day weekend begins with US gasoline averaging .55/gal.",
+    "text": "TankerTrackers confirmed oil flows through Hormuz remain around 2 million barrels per day \u2014 approximately 10% of pre-blockade levels \u2014 as of Day 84. Bloomberg's May 14 report of 4 Iraqi supertankers exiting via PGSA-authorized routes accounts for most of this flow. The tracker notes the IEA \"red zone\" warning (July-August) coincides precisely with when global inventories would be depleted absent new Hormuz flows or alternative supply increases. Memorial Day weekend begins with US gasoline averaging .55/gal.",
     "timestamp": "2026-05-22T06:30:00Z",
     "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
@@ -521,6 +237,153 @@
       "pgsa",
       "iea",
       "day84"
+    ]
+  },
+  {
+    "id": "social-1425",
+    "handle": "@IranWarLive",
+    "displayName": "IranWarLive (Conflict Monitor)",
+    "text": "IranWarLive analyzed the Al-Arabiya leaked 8-point US-Iran interim ceasefire framework and found it notable for what it omits: no nuclear provisions, no HEU transfer language, no ballistic missile caps. Analysts assess Iran may be willing to sign a narrow military-economic deal while deferring nuclear issues to a later track \u2014 a position the Trump administration has publicly rejected as insufficient.",
+    "timestamp": "2026-05-22T22:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Al-Arabiya deal draft confirmed by Arab News, ANI News, Times of Israel liveblog May 22. Nuclear omissions confirmed by multiple analysts.",
+    "keywords": [
+      "iran",
+      "us",
+      "ceasefire",
+      "nuclear",
+      "alarabiya",
+      "pakistan",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1426",
+    "handle": "@MEI_Analysis",
+    "displayName": "Middle East Institute Analysis",
+    "text": "MEI Analysis noted that intelligence assessments shared with the White House reportedly warn that Iran's missile stockpiles have survived at ~70% of pre-war numbers, with operational access restored to 30 of 33 Hormuz-coast missile sites \u2014 meaning any resumption of hostilities would face a more intact Iranian military than the initial Feb. 28 campaign.",
+    "timestamp": "2026-05-22T20:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Iran missile reconstitution assessment confirmed by Euronews May 13. The War Zone and TheDefenseNews corroborated the 70% figure.",
+    "keywords": [
+      "iran",
+      "military",
+      "missiles",
+      "intelligence",
+      "hormuz",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1427",
+    "handle": "@criticalthreats",
+    "displayName": "Critical Threats Project (AEI)",
+    "text": "Critical Threats flagged that House Republicans canceling the Iran war powers resolution vote on May 22 \u2014 despite the measure reportedly having enough votes to pass \u2014 signals that GOP leadership is protecting Trump from a bipartisan congressional rebuke that would constrain military options at a critical negotiating juncture with Iran.",
+    "timestamp": "2026-05-22T21:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Confirmed by NPR May 22. House Democratic leadership statement confirmed by Jeffries, Clark, Aguilar.",
+    "keywords": [
+      "us",
+      "congress",
+      "war-powers",
+      "trump",
+      "iran",
+      "republicans",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1428",
+    "handle": "@PakistanDefense",
+    "displayName": "Pakistan Defense Monitor",
+    "text": "Pakistan Defense Monitor reported that Army Chief Field Marshal Asim Munir arrived in Tehran on May 22 for his third mediation round, received by Iranian Interior Minister Momeni \u2014 Pakistan's third senior-level visit to Tehran in two weeks. Rubio called Pakistan's role 'admirable,' the strongest US public endorsement yet of Islamabad's shuttle diplomacy.",
+    "timestamp": "2026-05-22T19:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Munir Tehran arrival confirmed by Al Jazeera, Axios May 22. Rubio 'admirable' quote confirmed by WaPo, PBS, Al Jazeera.",
+    "keywords": [
+      "pakistan",
+      "iran",
+      "mediation",
+      "munir",
+      "rubio",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1429",
+    "handle": "@WashingtonPostNatSec",
+    "displayName": "WaPo National Security",
+    "text": "The Washington Post reported that Rubio confirmed 'slight progress' in US-Iran talks on May 22, but key sticking points remain: Iran's highly enriched uranium stockpile and Strait of Hormuz control \u2014 both mutually incompatible with the leaked Al-Arabiya interim framework, which defers all nuclear issues. The gap between public 'progress' and structural deadlock appears wider than either side is admitting.",
+    "timestamp": "2026-05-22T18:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Rubio 'slight progress' confirmed by Washington Post, PBS, Al Jazeera, State Dept May 22.",
+    "keywords": [
+      "iran",
+      "us",
+      "rubio",
+      "diplomacy",
+      "nuclear",
+      "hormuz",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1430",
+    "handle": "@NATOWatchdog",
+    "displayName": "NATO Watch",
+    "text": "NATO Watch reported that Secretary General Rutte issued the alliance's strongest Hormuz statement yet on May 22, calling Iran's closure a 'direct assault on freedom of navigation' and stating allies are finalizing plans to pre-position maritime assets in the region \u2014 marking a shift from 'informal discussions' to active planning for a potential collective Hormuz mission.",
+    "timestamp": "2026-05-22T23:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Rutte statement confirmed by Stars and Stripes, Bloomberg May 20-22. Rubio Plan B warning confirmed by France 24, The National.",
+    "keywords": [
+      "nato",
+      "hormuz",
+      "iran",
+      "rutte",
+      "maritime",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1431",
+    "handle": "@LebanonMonitor",
+    "displayName": "Lebanon Conflict Monitor",
+    "text": "Lebanon Monitor reported Israeli strikes expanded into eastern Lebanon's Brital/Nabi Sreij area on May 22 \u2014 the first strikes in that zone since the April 17 ceasefire \u2014 alongside south Lebanon strikes killing 2. Hezbollah retaliated with rockets and attack drones toward northern Israel. A Lebanese journalist was also killed. Lebanon's total death toll now exceeds 3,095, with 9,327+ wounded.",
+    "timestamp": "2026-05-22T23:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Strikes confirmed by Times of Israel liveblog May 22, BSS News, Al Jazeera liveblog. Lebanon casualty count per Health Ministry.",
+    "keywords": [
+      "israel",
+      "lebanon",
+      "hezbollah",
+      "strike",
+      "casualties",
+      "day85"
+    ]
+  },
+  {
+    "id": "social-1432",
+    "handle": "@WarAnalytics",
+    "displayName": "War Analytics",
+    "text": "War Analytics flagged that US Treasury OFAC designated 12 new individuals and entities on May 19-20 enabling IRGC oil sales to China \u2014 the 14th sanctions round \u2014 targeting Amin Exchange and front companies in UAE, Turkey, and Hong Kong. Treasury Secretary Bessent specifically threatened 'teapot' Chinese oil refineries with secondary sanctions, escalating economic pressure ahead of any deal.",
+    "timestamp": "2026-05-23T00:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "OFAC designations confirmed by US Treasury press release (sb0498). Bessent statement confirmed by GlobalSecurity/State Dept May 19.",
+    "keywords": [
+      "sanctions",
+      "iran",
+      "ofac",
+      "china",
+      "treasury",
+      "day85"
     ]
   }
 ]

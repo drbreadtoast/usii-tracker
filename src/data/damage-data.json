@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-22T06:04:00Z",
+    "lastUpdated": "2026-05-23T00:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 485,
-    "confirmed": 402,
+    "totalSites": 486,
+    "confirmed": 403,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7762,6 +7762,26 @@
       "date": "2026-05-22",
       "source": "Al Jazeera — Iran war live May 22, 2026",
       "sourceUrl": "https://www.aljazeera.com/news/liveblog/2026/5/22/iran-war-live-signs-of-progress-amid-efforts-to-reach-us-iran-peace-deal"
+    },
+    {
+      "id": "dmg-490",
+      "name": "Brital / Nabi Sreij — Eastern Lebanon Strikes",
+      "location": "Brital, Eastern Lebanon (near Syrian border)",
+      "country": "Lebanon",
+      "lat": 33.7600,
+      "lng": 36.0400,
+      "date": "2026-05-22",
+      "type": "residential",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israel carried out five airstrikes in eastern Lebanon near the Syrian border, targeting the Nabi Sreij area on the outskirts of Brital — an area untouched since the April 17 ceasefire. The strikes expanded the Israeli strike zone into eastern Lebanon for the first time since the ceasefire and raised concerns about further escalation along the Lebanon-Syria border. Hezbollah retaliated with rockets and attack drones toward northern Israel.",
+      "source": "Times of Israel — Liveblog May 22, 2026",
+      "sourceUrl": "https://www.timesofisrael.com/liveblog-may-22-2026/",
+      "casualties": {
+        "killed": 0,
+        "injured": 0
+      }
     }
   ]
 }

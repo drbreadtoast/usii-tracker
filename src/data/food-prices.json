@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T12:12:00Z",
+  "lastUpdated": "2026-05-23T00:00:00Z",
   "commodities": [
     {
       "name": "Wheat",
@@ -7,7 +7,7 @@
       "preWar": "$5.62",
       "current": 6.65,
       "change": "+18.3%",
-      "detail": "Wheat futures $6.65/bushel (Chicago SRW, May 21-22 — up 28.75 cents on session). Kansas City HRW: $7.04/bushel. USDA season-average farm price forecast $6.50/bu (3-year high, +$1.50 YoY). May WASDE bullish estimates — lowest all-wheat production since 1972/73. Fertilizer crisis and fuel cost passthrough continue adding risk premium. Pre-war: $5.62/bushel.",
+      "detail": "Wheat futures $6.605/bushel (CBOT SRW Jul 26, May 20-21 close). Kansas City HRW: $7.04/bushel. USDA WASDE May: lowest all-wheat production since 1972/73. Fertilizer crisis and fuel cost passthrough continue adding risk premium. Pre-war: $5.62/bushel.",
       "source": "AgWeb / Farm Futures — Afternoon market recap May 21",
       "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/afternoon-market-recap"
     },
@@ -88,7 +88,7 @@
     "currentWeekly": 182,
     "changePercent": 8.3,
     "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "Day 80: BLS April 2026: food-at-home prices +0.7% MoM (largest single-month jump in ~4 years), +2.4% YoY. USDA revised 2026 food inflation forecast: +3.6% overall; beef +10.1%. Fresh vegetables: +44% annualized over past 3 months. UN Food Price Index April: +1.6% MoM (3-year high). Wheat $6.65/bushel. Urea fertilizer $577/tonne (+21% vs pre-war $475). Iran PGSA operational — 35% of global urea supply from Middle East remains blocked. Container shipping rates: Shanghai→Rotterdam +11% WoW at $2,413/40ft. If Hormuz persists through summer, could add 5-7 pp to food inflation. 318M face hunger globally (FAO)."
+    "note": "Day 85: BLS April 2026: food-at-home prices +0.7% MoM (largest single-month jump in ~4 years), +2.4% YoY. USDA revised 2026 food inflation forecast: +3.6% overall; beef +10.1%. Wheat $6.605/bushel (CBOT SRW Jul 26). Urea fertilizer $577/tonne (+21% vs pre-war $475). Container shipping rates: Shanghai→Rotterdam +11% WoW at $2,413/40ft (+10 days via Cape of Good Hope). Blockade Day 82. Iran PGSA operational — 35% of global urea supply from Middle East remains blocked. If Hormuz persists through summer, could add 5-7 pp to food inflation. Iran food inflation: 110%+. 318M face hunger globally (FAO)."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
@@ -98,5 +98,5 @@
     "source": "TradingEconomics — Urea May 15",
     "sourceUrl": "https://tradingeconomics.com/commodity/urea"
   },
-  "context": "Hormuz Strait closure (Day 80) continues to severely impact global food supply chains. Fertilizer costs have effectively doubled for US agriculture. Grocery store prices up 0.7% in April — biggest 1-month jump in 4 years. USDA forecasts food-at-home prices +3.6% for full year 2026. Iraq militia drone attacks on UAE Barakah nuclear plant add new regional instability risk."
+  "context": "Hormuz Strait closure (Blockade Day 82) continues to severely impact global food supply chains. Fertilizer costs up 21% from pre-war. Grocery store prices up 0.7% in April — biggest 1-month jump in 4 years. USDA forecasts food-at-home prices +3.6% for full year 2026. Iran food inflation: 110%+ (economy collapsed). Container shipping via Cape of Good Hope adds 10+ days and 11% WoW cost increase. Trump cancels Memorial Day plans for Iran NSC meeting — deal or renewed strikes could both affect commodity markets."
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-22T12:12:00Z",
+    "lastUpdated": "2026-05-23T00:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,22 +74,22 @@
     },
     "current": {
       "brent": {
-        "price": 104.52,
-        "change": "+31.0%",
-        "changeDollars": "+$24.72",
-        "dailyChange": "-3.9%",
-        "dailyChangeDollars": "-$4.24"
+        "price": 104.16,
+        "change": "+30.5%",
+        "changeDollars": "+$24.32",
+        "dailyChange": "+1.89%",
+        "dailyChangeDollars": "+$1.94"
       },
       "wti": {
-        "price": 97.12,
-        "change": "+28.6%",
-        "changeDollars": "+$21.62",
-        "dailyChange": "-3.9%",
-        "dailyChangeDollars": "-$3.95"
+        "price": 96.60,
+        "change": "+27.9%",
+        "changeDollars": "+$21.09",
+        "dailyChange": "-0.5%",
+        "dailyChangeDollars": "-$0.52"
       },
-      "changePercent": "+31.0%",
-      "changeNote": "Day 84 morning (May 22): Brent briefly spiked to $109 on Al Jazeera 'signs of progress' headline, then fell 2.3% to settle $104.52 (+31.0% vs pre-war $79.80). WTI $97.12 (+28.6% vs pre-war $75.51). IEA warns markets could enter 'red zone' by July-August if Hormuz stays closed. Day 83: Brent $108.76 (+36.3%), WTI $101.07 (+33.9%). WTI dips below $100 as Iran's ISNA says latest US proposal 'narrowed the gaps to some extent' — most positive diplomatic signal since April 8 ceasefire. Trump at Coast Guard: 'may have to hit Iran even harder.' US imposes 13th sanctions round (construction/nuclear materials). Gas $4.564/gal. Blockade Day 80. Source: fxdailyreport WTI May 21 analysis, TradingEconomics Brent intraday.",
-      "lastUpdated": "2026-05-22T06:04:00Z"
+      "changePercent": "+30.5%",
+      "changeNote": "Day 85 (May 23): Brent $104.16 (+30.5% vs pre-war $79.84), WTI $96.60 (+27.9% vs pre-war $75.51). Markets eased slightly on 'slight progress' rhetoric from Rubio and Al-Arabiya leaked draft framework. Day 84 (May 22): Brent $104.52 briefly spiked to $109 on Al Jazeera 'signs of progress' headline, then fell 2.3%. Trump cancels Memorial Day plans to prepare for potential new Iran strikes. Pakistan's Munir in Tehran for 3rd mediation; Qatar joins. IEA warns 'red zone' by July-August if Hormuz stays closed. Blockade Day 82. Gas $4.552/gal (+42.7%). Source: TradingEconomics Brent May 23, fxdailyreport WTI May 22 analysis, Investing.com.",
+      "lastUpdated": "2026-05-23T00:00:00Z"
     },
     "priceHistory": [
       {
@@ -701,12 +701,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.564,
+          "price": 4.552,
           "date": "2026-05-22"
         },
-        "change": "+$1.38",
-        "changePercent": "+43.5%",
-        "detail": "Gas $4.564/gal (AAA, May 22). +43.5% from pre-war $3.18. Brent $104.52 (+31.0%), WTI $97.12 (+28.6%). Signs of progress on US-Iran deal; IEA red zone warning. Blockade Day 81.",
+        "change": "+$1.37",
+        "changePercent": "+43.1%",
+        "detail": "Gas $4.552/gal (AAA, May 22). +43.1% from pre-war $3.18. Brent $104.16 (+30.5%), WTI $96.60 (+27.9%). Trump cancels Memorial Day plans for NSC Iran meeting. Pakistan Munir in Tehran; Qatar mediating. Blockade Day 82.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -784,11 +784,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.564,
-    "gasPriceRegular": 4.564,
+    "regularGasoline": 4.552,
+    "gasPriceRegular": 4.552,
     "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.375",
-    "changePercent": "+43.2%"
+    "changeFromPreWar": "+$1.372",
+    "changePercent": "+42.8%"
   },
   "keyFacts": [
     {
@@ -1043,6 +1043,12 @@
       "brent": 104.52,
       "wti": 97.12,
       "label": "Day 84 — Brent $104.52 (+30.9%); WTI $97.12 (+28.6%). Al Arabiya publishes alleged final draft US-Iran deal (omits nuclear demands); WTI briefly falls to $96.23 on ceasefire optimism. Hezbollah 105 attack waves — most intense day since war. IEA red zone warning by July-Aug. Blockade Day 81. Gas $4.55."
+    },
+    {
+      "date": "2026-05-23",
+      "brent": 104.16,
+      "wti": 96.60,
+      "label": "Day 85 — Brent $104.16 (+30.5%); WTI $96.60 (+27.9%). Prices ease on 'slight progress' rhetoric and Al-Arabiya leaked ceasefire draft. Trump cancels Memorial Day plans for Iran NSC meeting. Pakistan's Munir in Tehran for 3rd mediation; Qatar joins. NATO Rutte: Hormuz blockade 'direct assault on freedom of navigation.' OFAC 14th sanctions round (12 entities). Blockade Day 82. Gas $4.552."
     }
   ],
   "oilPriceHistory": [
