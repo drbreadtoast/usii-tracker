@@ -690,8 +690,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-22T06:04:00Z",
-    "note": "Day 83 midday: Brent $105.36 (+31.9%), WTI $99.21 (+31.4%). WTI dips below $100 on Iran 'narrowed the gaps' diplomatic signal. Trump at Coast Guard: 'may have to hit Iran even harder.' US 13th Iran sanctions round. Gas $4.564/gal (AAA, +43.5%). Blockade Day 80.",
+    "lastUpdated": "2026-05-23T06:03:00Z",
+    "note": "Day 85 (May 23): Brent $104.16 (+30.5%), WTI $96.60 (+27.9%). 5th Rome talks ended without breakthrough — enrichment remains Iran's red line. Trump NSC war council convened Saturday. Iran reconstituting military faster than expected (CNN). Blockade Day 82. Gas $4.552/gal (+43.1%).",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -890,7 +890,7 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-21/iran-in-talks-with-oman-over-permanent-toll-system-for-hormuz"
     }
   ],
-  "lastUpdated": "2026-05-22T06:04:00Z",
+  "lastUpdated": "2026-05-23T06:03:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1456,6 +1456,13 @@
       "brent": 107.78,
       "wti": 107.35,
       "label": "Day 81 — Brent $107.78 (+35.1%), WTI $107.35 (+42.2%). Brent briefly spiked to $112 on false Tasnim report of US Iran oil sanctions waiver, then dropped sharply after US denial. Hezbollah 200-rocket barrage at Nahariya (1 killed). IDF strikes 30+ Hezbollah sites. Trump 'Clock is Ticking + TIME IS OF THE ESSENCE.' NSC Situation Room meeting held. Gulf states bought 2-3 day pause on US strike. Bessent extends Russia oil waiver 30 days. Gas $4.515. Hormuz Day 78.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-23",
+      "brent": 104.16,
+      "wti": 96.6,
+      "label": "Day 85 AM — Brent $104.16 (+30.5%), WTI $96.60 (+27.9%). 5th Rome US-Iran nuclear talks ended without breakthrough — enrichment Iran's firm red line. Trump NSC war council weighing resumed strikes. Mojtaba Khamenei bans HEU export abroad. Iran military reconstituting faster than expected (CNN). Hezbollah wounds 8 IDF soldiers. Gas $4.552 (+43.1%). Hormuz Day 82.",
       "isEvent": true
     }
   ]
