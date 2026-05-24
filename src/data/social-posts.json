@@ -1,46 +1,5 @@
 [
   {
-    "id": "social-1446",
-    "handle": "@CriticalThreatsAEI",
-    "displayName": "Critical Threats / AEI",
-    "text": "Critical Threats assessed that Trump faces a binary decision by Sunday (May 24): accept a Memorandum of Understanding covering war cessation and Hormuz — deferring nuclear issues for 60 days — or resume Operation Epic Fury strikes. Trump convened an NSC war council Saturday including Vance, Hegseth, Ratcliffe, and Wiles. White House Deputy Chief Dan Scavino posted a B-2 stealth bomber video with no caption, widely interpreted as an implicit strike signal.",
-    "timestamp": "2026-05-23T14:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "NSC war council confirmed by Axios. Scavino B-2 bomber post confirmed by Fox News live updates. Trump 50/50 quote from Axios exclusive May 23.",
-    "keywords": [
-      "trump",
-      "nsc",
-      "strike",
-      "deal",
-      "50/50",
-      "b2",
-      "scavino",
-      "iran",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1448",
-    "handle": "@IsraelSecurityWatch",
-    "displayName": "Israel Security Watch",
-    "text": "Israel Security Watch noted that Israel has been entirely excluded from US-Iran peace negotiations, alarming Netanyahu's coalition. Reports cite an unnamed Israeli official saying envoy Witkoff is \"placing immense pressure on Trump not to resume the war.\" Netanyahu convened an emergency coalition meeting Saturday describing the emerging MOU as \"very bad\" for Israel — it omits nuclear dismantlement, HEU export requirements, and proxy rollback. Israel cannot strike Iran unilaterally without US permission and overflight rights.",
-    "timestamp": "2026-05-23T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Netanyahu emergency coalition meeting confirmed by Times of Israel liveblog. \"Very bad\" characterization confirmed by unnamed Israeli official per ToI. Witkoff pressure confirmed by same source. Israeli overflight dependency confirmed by Al Jazeera analysis.",
-    "keywords": [
-      "israel",
-      "netanyahu",
-      "deal",
-      "witkoff",
-      "iran",
-      "excluded",
-      "coalition",
-      "day85"
-    ]
-  },
-  {
     "id": "social-1449",
     "handle": "@CriticalThreats_AEI",
     "displayName": "Critical Threats / AEI",
@@ -367,6 +326,102 @@
       "macron",
       "hormuz",
       "maritime",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1466",
+    "handle": "@DealOrWarOSINT",
+    "displayName": "Deal or War OSINT",
+    "text": "Deal or War OSINT reports the dramatic afternoon reversal on Day 86: Trump's morning 'largely negotiated' optimism collapsed by afternoon as he told reporters he's 'not in a rush' and 'time is on our side.' White House confirmed no signing today. Iran state media (Fars News) flatly contradicted Trump — claiming 'wide disagreements' remain and that Hormuz 'will stay under Iran's management.' A top Iranian official denied any agreement on uranium surrender. The deal may now slip to next week at earliest — same pattern as prior 'imminent deal' cycles on Days 36, 52, and 73.",
+    "timestamp": "2026-05-24T14:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump 'not in a rush' confirmed by NBC News, Al Jazeera liveblog May 24. White House 'not signed today' confirmed by CNN. Fars 'wide disagreements' and Hormuz 'under Iran management' confirmed by Times of Israel liveblog. Iranian official uranium denial confirmed by Fox News live.",
+    "keywords": [
+      "trump",
+      "iran",
+      "deal",
+      "walkback",
+      "hormuz",
+      "uranium",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1467",
+    "handle": "@ISWTracker",
+    "displayName": "Institute for the Study of War",
+    "text": "ISW reported that Iranian leaders continue to perceive the upper hand in negotiations — their May 24 state media messaging is calibrated to maximize leverage. Iran insisting on retaining formal Hormuz 'management' rights while the US demands toll-free passage are mutually exclusive positions. ISW assessed that Iran is using the ceasefire period to reconstitute military assets, citing Iran Parliament Speaker Qalibaf's May 22 warning of a 'more devastating' second round if Trump resumes strikes. Every day of delay serves Iran's military reconstitution timeline.",
+    "timestamp": "2026-05-24T15:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "ISW 'upper hand' assessment confirmed by @TheStudyofWar May 11 Special Report. Qalibaf 'more devastating' warning confirmed by GlobalSecurity.org and PressTV May 20-23. Iran reconstitution claim confirmed by CNN reporting.",
+    "keywords": [
+      "isw",
+      "iran",
+      "hormuz",
+      "qalibaf",
+      "reconstitution",
+      "leverage",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1468",
+    "handle": "@PentagonWatch",
+    "displayName": "Pentagon Watch OSINT",
+    "text": "Pentagon Watch notes the significance of Hegseth's West Point speech on Day 86: telling graduating cadets 'We are sending you, perhaps, to war' while Iran deal negotiations stalled suggests US military planning horizons remain calibrated for resumed conflict, not peace. Hegseth's early return from West Point and the Hegseth-Caine Pentagon briefing confirming the ceasefire is 'in effect' were read by analysts as reassurance against deal collapse panic — but the military posture language has not softened.",
+    "timestamp": "2026-05-24T16:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Hegseth West Point speech confirmed by PBS NewsHour and Fox News. Early return to White House confirmed by multiple outlets. Pentagon briefing with Caine confirmed by PBS NewsHour.",
+    "keywords": [
+      "hegseth",
+      "west-point",
+      "pentagon",
+      "war",
+      "ceasefire",
+      "caine",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1469",
+    "handle": "@OFACTracker",
+    "displayName": "OFAC Sanctions Tracker",
+    "text": "OFAC Sanctions Tracker reports three rounds of 'Economic Fury' campaign sanctions in May 19-21 alone: (1) May 19 — 3 Iranian currency exchange houses + front companies; (2) May 20 — 10 individuals/entities enabling Shahed UAV and ballistic missile procurement; (3) May 21 — 12 entities for enabling IRGC oil sales to China including Qingdao Haiye Oil Terminal. Running total since Feb 2025: 1,000+ persons, vessels, aircraft sanctioned. The campaign is the most intensive US sanctions pressure on Iran since 2018, degrading the shadow fleet and financial networks but not halting oil flows entirely (Iran still exporting ~567K bpd).",
+    "timestamp": "2026-05-24T17:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "May 19-21 OFAC rounds confirmed by US Treasury press releases and State Department. Qingdao Haiye sanctioning confirmed by Bloomberg May 11. 1,000+ total figure from Treasury.",
+    "keywords": [
+      "ofac",
+      "sanctions",
+      "iran",
+      "economic-fury",
+      "oil",
+      "china",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1470",
+    "handle": "@NuclearDealWatch",
+    "displayName": "Nuclear Deal Watch OSINT",
+    "text": "Nuclear Deal Watch: The Day 86 Iran deal cycle mirrors the Day 52 and Day 73 cycles — an optimistic Trump statement (overnight), a Rubio upgrade (morning), followed by Iranian state media pushback (afternoon), and White House walk-back ('not signed today'). The core impasse remains unchanged: Trump demands Iran physically surrender its ~440 kg of 60%-enriched uranium; Iran insists it cannot leave Iranian territory. An MOU deferring this issue for 60 days may be the only bridge — but Mojtaba Khamenei's May 21 directive banning HEU export makes even that bridge uncertain.",
+    "timestamp": "2026-05-24T18:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Deal pattern analysis based on cumulative agent tracking. Khamenei HEU export ban confirmed by Reuters May 21. IAEA HEU stockpile figure (~440 kg at 60%) confirmed by IAEA board report. Axios deal framework and uranium impasse confirmed May 24.",
+    "keywords": [
+      "nuclear",
+      "iran",
+      "heu",
+      "uranium",
+      "deal",
+      "khamenei",
+      "iaea",
       "day86"
     ]
   }

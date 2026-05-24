@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-24T12:09:00Z",
+    "lastUpdated": "2026-05-24T19:03:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "brent": {
-        "price": 104.68,
-        "change": "+31.2%",
-        "changeDollars": "+24.84"
+        "price": 103.54,
+        "change": "+29.7%",
+        "changeDollars": "+23.70"
       },
       "wti": {
-        "price": 97.66,
-        "change": "+29.4%",
-        "changeDollars": "+22.15"
+        "price": 96.60,
+        "change": "+27.9%",
+        "changeDollars": "+21.09"
       },
-      "changePercent": "+30.3%",
-      "changeNote": "Day 86 (May 24): Brent $103.94 (+30.2% vs pre-war $79.80), WTI $96.60 (+27.9% vs pre-war $75.51). Trump Truth Social: deal 'largely negotiated,' Hormuz to open 'shortly.' White House security lockdown. Israel strikes 6 Lebanese towns killing 16+. Hezbollah FPV drones hit Iron Dome. Prices held near $104 on diplomacy optimism vs. security uncertainty. Blockade Day 83.",
-      "lastUpdated": "2026-05-24T06:04:00Z"
+      "changePercent": "+28.8%",
+      "changeNote": "Day 86 PM (May 24): Brent $103.54 (+29.7% vs pre-war $79.84), WTI $96.60 (+27.9% vs pre-war $75.51). Weekly settlement figures. Prices fell more than 5% on the week as Rubio's 'significant progress' and Trump's 'largely negotiated' post fueled deal optimism. Trump later walked back urgency, saying 'not in a rush' — Iran disputed uranium surrender terms. Brent down from intraday high of $106.36. Blockade Day 83.",
+      "lastUpdated": "2026-05-24T19:03:00Z"
     },
     "priceHistory": [
       {
@@ -891,9 +891,19 @@
       "fact": "Iran and Oman in talks (May 21) to establish permanent Hormuz toll system — formalizing Iranian control of the strait as a quasi-legal maritime authority before any peace deal. Rubio called tolls \"unacceptable and unfeasible\" as a dealbreaker.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-21/iran-in-talks-with-oman-over-permanent-toll-system-for-hormuz"
+    },
+    {
+      "fact": "US DOE released 53.3 million additional barrels from Strategic Petroleum Reserve in May 2026 — contracts awarded to 9 companies including Trafigura (13M bbl), Marathon Petroleum (12.4M), ExxonMobil (11.4M). Part of IEA coordinated release.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/5/12/us-moves-to-release-more-oil-stockpiles-under-iea-agreement"
+    },
+    {
+      "fact": "OFAC sanctioned 12 entities and individuals (May 21) for enabling IRGC sale/shipment of Iranian oil to China, including Qingdao Haiye Oil Terminal — 14th round under 'Economic Fury' campaign. Running total: 1,000+ Iran-related persons, vessels, aircraft sanctioned since Feb 2025.",
+      "source": "US State Department",
+      "sourceUrl": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade"
     }
   ],
-  "lastUpdated": "2026-05-23T06:03:00Z",
+  "lastUpdated": "2026-05-24T19:03:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1480,6 +1490,13 @@
       "brent": 103.94,
       "wti": 96.6,
       "label": "Day 85 PM — Brent $103.94 (+30.2%), WTI $96.60 (+27.9%). Prices pulled back from intraday high $106.36 on diplomatic signals. Trump 'solid 50/50' deal-or-strikes ultimatum; Washington Times exclusive: peace deal expected within 24 hours. Iran FM confirms 14-clause MOU in final stage. Hezbollah kills IDF Staff Sgt. Hamburger (drone). Rubio from New Delhi: 'chance of deal as soon as Saturday.' Gas $4.529 (+42.5%). Hormuz Day 82.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-24",
+      "brent": 103.54,
+      "wti": 96.6,
+      "label": "Day 86 PM — Brent $103.54 (+29.7%), WTI $96.60 (+27.9%). Weekly settlement. Prices down 5%+ on the week on deal optimism then retreated as Trump walked back urgency: 'not in a rush,' 'time is on our side.' Iran state media disputed uranium terms — 'no agreement' on HEU. Intraday high $106.36 Brent (morning). Pentagon confirms ceasefire in effect. Hegseth West Point speech: 'sending you to war.' Gas $4.56 (+43.4%). Hormuz Day 83.",
       "isEvent": true
     }
   ]
