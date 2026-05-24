@@ -1,117 +1,5 @@
 [
   {
-    "id": "social-1433",
-    "handle": "@IranObserver",
-    "displayName": "Iran Observer",
-    "text": "Iran Observer summarized that the 5th round of US-Iran nuclear talks in Rome on May 23 ended without a deal, with Oman FM al-Busaidi describing \"some but not conclusive progress.\" Iran's Araghchi publicly stated before the talks that zero enrichment means \"we do NOT have a deal\" — making the enrichment issue the core unsolved obstacle entering Trump's NSC deliberations.",
-    "timestamp": "2026-05-23T04:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PBS NewsHour and RFERL confirmed 5th round concluded. Araghchi quote confirmed by Outlook India. Busaidi quote confirmed by PBS.",
-    "keywords": [
-      "iran",
-      "us",
-      "rome",
-      "nuclear",
-      "talks",
-      "enrichment",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1434",
-    "handle": "@AxiosNatSec",
-    "displayName": "Axios National Security",
-    "text": "Axios National Security reported that Trump convened a senior NSC war council on May 23 morning, with Vance, Hegseth, CIA Director Ratcliffe, and Susie Wiles present to weigh whether to resume strikes against Iran. A source told Axios that Trump has raised the possibility of a \"decisive\" major military operation after which he could declare victory — the clearest signal yet of the administration's strike vs. deal calculus.",
-    "timestamp": "2026-05-23T05:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Axios confirmed with sources familiar with the meeting. Times of Israel liveblog May 23 corroborated.",
-    "keywords": [
-      "trump",
-      "nsc",
-      "iran",
-      "strikes",
-      "hegseth",
-      "vance",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1435",
-    "handle": "@LebanonTracker",
-    "displayName": "Lebanon Conflict Tracker",
-    "text": "Lebanon Conflict Tracker reported that Hezbollah fired rockets at an IDF military base in northern Israel on May 23, wounding 8 soldiers including Finance Minister Smotrich's son. In a separate simultaneous attack, a Hezbollah anti-tank missile wounded 2 more IDF soldiers in south Lebanon. Israeli strikes on Tyre earlier May 23 wounded 37 people including 9 women and 4 children, per Lebanon Health Ministry. Lebanon total: 3,095 killed, 9,364 wounded.",
-    "timestamp": "2026-05-23T03:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Times of Israel May 23 liveblog confirmed. Al Jazeera May 23 liveblog confirmed Tyre wounded. Lebanese Health Ministry cited for figures.",
-    "keywords": [
-      "hezbollah",
-      "israel",
-      "lebanon",
-      "strike",
-      "casualties",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1436",
-    "handle": "@IntelCrawler",
-    "displayName": "Intel Crawler",
-    "text": "Intel Crawler flagged that Iran's military reconstitution during the April 8 ceasefire has significantly exceeded US intelligence community timelines — with drone production already restarted and 90% of underground missile facilities operational, per CNN's May 21 report citing two US officials. This assessment is the primary intelligence driver behind Trump's renewed consideration of strikes, creating urgency to either close a deal or act before Iran's capabilities fully rebuild.",
-    "timestamp": "2026-05-23T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "CNN confirmed with two US officials. Antiwar.com corroborated. IRGC publicly acknowledged reconstitution in May 21 Press TV statement.",
-    "keywords": [
-      "iran",
-      "military",
-      "reconstitution",
-      "drones",
-      "missiles",
-      "intelligence",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1437",
-    "handle": "@MideastWatch",
-    "displayName": "MidEast Watch",
-    "text": "MidEast Watch noted that Mojtaba Khamenei — son of Iran's Supreme Leader and increasingly the hardline power behind the throne — issued a directive banning the export of Iran's enriched uranium stockpile abroad. This directly blocks a key US negotiating demand (verified by Reuters May 21-22) and forecloses the option of a deal that leaves Iran with a zero-enrichment status. The directive has been interpreted as an effort to prevent any negotiated outcome that Tehran's hardliners view as surrender.",
-    "timestamp": "2026-05-23T01:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Reuters reported May 21-22. Confirmed by The Researchers, Voice of Emirates, multiple aggregators.",
-    "keywords": [
-      "iran",
-      "khamenei",
-      "uranium",
-      "heu",
-      "nuclear",
-      "hardline",
-      "day85"
-    ]
-  },
-  {
-    "id": "social-1438",
-    "handle": "@HormuzTracker",
-    "displayName": "Hormuz Shipping Tracker",
-    "text": "Hormuz Shipping Tracker noted a UKMTO advisory issued May 23 of an armed small craft with 5 people approaching a product tanker ~200nm west of Socotra Island — the vessel's armed security team was deployed and the craft broke off. Hormuz remains effectively closed at Day 82. Iran's toll system (M/vessel in yuan) is operational. UK has deployed drone assets and a Royal Navy warship to join the US-led Project Freedom escort mission.",
-    "timestamp": "2026-05-23T01:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UKMTO advisory confirmed by Iran International liveblog. UK deployment confirmed by Al Jazeera May 23.",
-    "keywords": [
-      "hormuz",
-      "shipping",
-      "houthis",
-      "socotra",
-      "ukmto",
-      "day85"
-    ]
-  },
-  {
     "id": "social-1439",
     "handle": "@ConflictWatch",
     "displayName": "Conflict Watch OSINT",
@@ -420,6 +308,123 @@
       "uae-pipeline",
       "blockade",
       "shipping",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1455",
+    "handle": "@AxiosDeal",
+    "displayName": "Axios National Security",
+    "text": "Axios National Security published an exclusive revealing the full framework of the emerging US-Iran deal: 60-day truce, Hormuz opens without tolls, Iran clears mines, US lifts port blockade and issues oil sanctions waivers, Iran gives 'general statement' on uranium surrender (nuclear details deferred to follow-on 60-day talks), and Lebanon ceasefire included. The 'relief for performance' sequencing means Hormuz opens first, then sanctions relief follows. Netanyahu, excluded from talks, called the MOU 'very bad.' Iran's Fars disputed Trump's 'largely negotiated' framing.",
+    "timestamp": "2026-05-24T04:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Axios exclusive confirmed by Times of Israel liveblog. Netanyahu 'very bad' confirmed by Times of Israel. Fars dispute confirmed by Al Jazeera. Deal framework corroborated by CBS News May 24.",
+    "keywords": [
+      "iran",
+      "us",
+      "deal",
+      "hormuz",
+      "nuclear",
+      "60-day",
+      "mou",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1456",
+    "handle": "@HawkWatchDC",
+    "displayName": "Congressional Hawks Monitor",
+    "text": "Congressional Hawks Monitor reports three senior Senate Republicans have formally opposed the emerging Iran deal: (1) SASC Chairman Roger Wicker called a 60-day ceasefire 'a disaster' that makes 'everything accomplished by Operation Epic Fury for naught'; (2) Ted Cruz warned the deal with Iran enriching uranium and 'controlling' Hormuz is 'a disastrous mistake'; (3) Lindsey Graham warned the deal would 'pour gasoline' on Lebanon and Iraq conflicts. Their opposition signals potential Republican resistance to any deal that defers the nuclear file.",
+    "timestamp": "2026-05-24T05:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Wicker statement from The Hill and Globalsecurity.org. Cruz quote confirmed by Iran International and Benzinga. Graham quote confirmed by Jewish Insider. All three statements published May 23-24.",
+    "keywords": [
+      "wicker",
+      "cruz",
+      "graham",
+      "senate",
+      "iran",
+      "deal",
+      "opposition",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1457",
+    "handle": "@PakMediaWatch",
+    "displayName": "Pakistan Media Watch",
+    "text": "Pakistan Media Watch reports a significant shift: PM Shehbaz Sharif publicly congratulated Trump for 'extraordinary efforts' toward peace — the first time Pakistan's top leader named Trump by name in a positive context. FM Ishaq Dar said 'meaningful progress' has been achieved. This public signaling, combined with Gen. Munir's 24-hour Tehran marathon (meeting Araghchi, Pezeshkian, and Ghalibaf), suggests Pakistan believes a deal is imminent and is locking in credit for its mediation role.",
+    "timestamp": "2026-05-24T04:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "PM Sharif congratulations and FM Dar statement confirmed by NBC News, ARY News, Tribune India. Pakistan Army confirmed Munir meetings with all three Iranian officials via ISPR statement.",
+    "keywords": [
+      "pakistan",
+      "sharif",
+      "dar",
+      "mediation",
+      "iran",
+      "deal",
+      "munir",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1458",
+    "handle": "@BlockadeWatch",
+    "displayName": "Blockade Operations Watch",
+    "text": "Blockade Operations Watch reports CENTCOM crossed the 100-vessel redirect milestone on Day 86 — more than 100 commercial ships turned back from Iranian ports since the blockade began April 13. Key stats: 4 vessels disabled by F/A-18 cannon fire, 26 humanitarian vessels permitted, 1 Iranian tanker boarded by US Marines (May 20 in Gulf of Oman). Iran counter-claims 35 ships transited Hormuz 'under IRGC permission' in 24h — establishing a dual-authority standoff. The blockade would be lifted under the emerging deal terms per Axios.",
+    "timestamp": "2026-05-24T02:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "100-vessel milestone confirmed by NewsNation/CENTCOM. Marines boarding confirmed by Stars and Stripes May 20. 35-ship IRGC claim confirmed by PressTV May 23. Iran's $4.8B revenue loss confirmed by DoD via Just the News.",
+    "keywords": [
+      "blockade",
+      "centcom",
+      "hormuz",
+      "iran",
+      "naval",
+      "100-ships",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1459",
+    "handle": "@EUWatchDiplomacy",
+    "displayName": "EU Watch Diplomacy",
+    "text": "EU Watch Diplomacy flags two major sanctions developments on Day 86: (1) EU Council May 22 expanded sanctions framework to include entities obstructing freedom of navigation — EU foreign policy chief Kallas confirmed widening sanctions 'to include Hormuz'; (2) US 14th OFAC round (May 21) targeting Iranian financial and shipping networks; (3) US May 11 sanctioned 12 entities in Hong Kong, UAE, and Oman for selling Iranian oil to China on behalf of IRGC. Sanctions pressure is a key US leverage point in current deal negotiations.",
+    "timestamp": "2026-05-24T05:30:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "EU Hormuz sanctions expansion confirmed by EEAS press conference May 22 and Brussels Signal. US 12-entity sanction confirmed by Bloomberg May 11. 14th OFAC round confirmed by Treasury press release.",
+    "keywords": [
+      "eu-sanctions",
+      "kallas",
+      "us-sanctions",
+      "ofac",
+      "iran",
+      "hormuz",
+      "day86"
+    ]
+  },
+  {
+    "id": "social-1460",
+    "handle": "@GasPriceTracker",
+    "displayName": "Gas Price Tracker US",
+    "text": "Gas Price Tracker US reports AAA has confirmed the national average hit $4.56/gallon for the Memorial Day 2026 weekend — a 4-year high and the highest since July 2022. Up 25 cents for the second straight week, +43.4% from the pre-war $3.18 baseline. California: $6.15/gal; Oklahoma: $3.94/gal. If the US-Iran deal closes and Hormuz reopens, analysts project a 30-50 cent drop in national average within 2-3 weeks as Brent crude falls from current $103.94.",
+    "timestamp": "2026-05-24T06:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "AAA $4.56 Memorial Day figure confirmed by AAA Newsroom. Price projection for post-deal drop confirmed by GasBuddy and TradingEconomics analysts cited in Fortune May 20.",
+    "keywords": [
+      "gas-prices",
+      "aaa",
+      "memorial-day",
+      "hormuz",
+      "oil",
+      "consumer",
       "day86"
     ]
   }

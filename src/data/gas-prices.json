@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-24T00:02:43Z",
-  "currentAverage": 4.53,
+  "lastUpdated": "2026-05-24T06:04:00Z",
+  "currentAverage": 4.56,
   "preWarAverage": 3.18,
-  "changePercent": 42.5,
+  "changePercent": 43.4,
   "unit": "$/gallon",
   "priceHistory": [
     {
@@ -716,6 +716,12 @@
       "price": 4.53,
       "label": "Day 86 — Trump: deal 'largely negotiated,' Hormuz to open",
       "isEvent": true
+    },
+    {
+      "date": "2026-05-24",
+      "price": 4.56,
+      "label": "Day 86 Memorial Day — AAA $4.56/gal (+43.4%) — 4-year high. Axios: 60-day deal terms leaked. Brent $103.94. If Hormuz opens, analysts project -30-50¢ drop in 2-3 weeks.",
+      "isEvent": true
     }
   ],
   "formula": "Pump Price = (Crude Oil ÷ 42 gallons) + Refining + Distribution + Federal Tax + State Tax + Retail Margin",
@@ -811,18 +817,18 @@
           "change": "-$0.159"
         }
       ],
-      "total": 4.53,
-      "note": "National average $4.53/gal (AAA, May 24). Brent $103.94 (+30.2%), WTI $96.60 (+27.9%). Trump Truth Social: deal 'largely negotiated,' Hormuz to open 'shortly.' White House security lockdown. Blockade Day 83.",
-      "crude": 2.497,
+      "total": 4.56,
+      "note": "National average $4.56/gal (AAA Memorial Day weekend, May 24). Brent $103.94 (+30.2%), WTI $96.60 (+27.9%). +25 cents second straight week. 4-year high. Axios: 60-day US-Iran deal terms leaked — Hormuz opens, nuclear deferred. Blockade Day 83.",
+      "crude": 2.509,
       "taxes": 0.534,
       "refining": 0.82,
       "distribution": 0.45,
-      "regularGasoline": 4.53,
-      "changeFromPreWar": "+$1.35",
-      "changePercent": "+42.5%",
-      "lastUpdated": "2026-05-24T00:02:43Z",
+      "regularGasoline": 4.56,
+      "changeFromPreWar": "+$1.38",
+      "changePercent": "+43.4%",
+      "lastUpdated": "2026-05-24T06:04:00Z",
       "date": "2026-05-24"
     }
   },
-  "context": "Day 86 (May 24): Brent $103.94/bbl (+30.2% from pre-war $79.84), WTI $96.60/bbl (+27.9%). Gas $4.53/gal (AAA, +42.5% from pre-war $3.18). Trump Truth Social: Iran deal 'largely negotiated,' Strait of Hormuz to open 'shortly.' White House locked down after 20-25 gunshots outside perimeter. Israel strikes 6 Lebanese towns killing 16+. Hezbollah FPV drones destroy Iron Dome launchers at Biranit. Pakistan mediator Munir departed Tehran with fresh counter-proposal. Memorial Day weekend 2026 gas at 4-year highs. California: $6.15/gal, Oklahoma: $3.94/gal. Hormuz Blockade Day 83. AAA source: gasprices.aaa.com"
+  "context": "Day 86 (May 24): Brent $103.94/bbl (+30.2% from pre-war $79.84), WTI $96.60/bbl (+27.9%). Gas $4.56/gal (AAA Memorial Day weekend, +43.4% from pre-war $3.18). Up 25 cents for 2nd straight week — 4-year high. Axios exclusive: 60-day US-Iran deal terms leaked — Hormuz opens without tolls, nuclear file deferred. Senate hawks Cruz, Wicker, Graham warned against deal. Netanyahu called it 'very bad.' CENTCOM: 100+ vessels redirected. California: $6.15/gal, Oklahoma: $3.94/gal. Hormuz Blockade Day 83. If deal closes, analysts project -30-50¢ pump drop within 2-3 weeks. AAA source: gasprices.aaa.com"
 }
