@@ -54579,5 +54579,109 @@
     "socialRefs": [],
     "casualties": { "killed": 1, "wounded": 2 },
     "tags": ["hezbollah", "israel", "drone", "soldier", "killed", "northern-israel", "ceasefire", "day85"]
+  },
+  {
+    "id": "evt-new-1619",
+    "title": "Israeli Airstrikes Kill 16+ in Lebanon Despite Ceasefire — Multiple Towns Struck",
+    "description": "Israel launched a wave of airstrikes across southern Lebanon and near the Syria border on May 23-24 despite the nominally active ceasefire. In Al-Baqbouq (north of Tyre) 5 were killed and 2 wounded; in Seir al-Gharbiya (Nabatieh district) 5 were killed including children when a residential building was struck; in Deir Qanoun en-Nahr (Tyre district) 4 were killed and a house completely destroyed; in Al-Housh (Tyre district) 1 was killed by a drone strike; in Al-Rafid (Rashaya al-Wadi, near Syria border) 1 was killed in a dawn airstrike on a house; Israeli forces also targeted a Lebanese Civil Defence rescue team in Kfar wounding rescue personnel; and an Israeli airstrike struck the Lebanese army barracks in Nabatieh city, wounding one soldier. Lebanon Health Ministry confirmed at least 16 killed and dozens wounded.",
+    "type": "strike",
+    "lat": 33.27,
+    "lng": 35.2,
+    "location": "Southern Lebanon and Rashaya al-Wadi district",
+    "timestamp": "2026-05-23T22:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israel attacks southern Lebanon and near Syrian border despite ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/5/23/israel-attacks-southern-lebanon-and-near-syrian-border-despite-ceasefire"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 16, "wounded": 30 },
+    "tags": ["israel", "lebanon", "strike", "ceasefire-violation", "civilians", "hezbollah", "day86"]
+  },
+  {
+    "id": "evt-new-1620",
+    "title": "Hezbollah FPV Drones Destroy Iron Dome Launchers at Biranit Barracks — Footage Released",
+    "description": "Hezbollah attacked two Iron Dome launcher units at the Biranit barracks (Jal al-Alam military site) in northern Israel using FPV (First-Person View) kamikaze drones. Footage released by Hezbollah shows the drones striking the launchers while maintenance personnel fled seconds before impact. Multiple Iron Dome batteries were hit at the site near the Lebanon-Israel border. The strike marks a significant escalation in Hezbollah's targeting of Israel's air defense infrastructure during the ongoing ceasefire-violation cycle.",
+    "type": "strike",
+    "lat": 33.06,
+    "lng": 35.26,
+    "location": "Biranit barracks / Jal al-Alam, northern Israel",
+    "timestamp": "2026-05-23T20:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Al Mayadeen — Hezbollah attacks Iron Dome batteries, destroys Biranit barracks",
+        "url": "https://english.almayadeen.net/news/politics/hezbollah-attacks-iron-dome-batteries--destroys-biranit-barr"
+      },
+      {
+        "name": "Jerusalem Post — Hezbollah FPV drones target Iron Dome at Jal al-Alam",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-895734"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["hezbollah", "israel", "fpv-drone", "iron-dome", "biranit", "air-defense", "day86"]
+  },
+  {
+    "id": "evt-new-1621",
+    "title": "Trump Posts on Truth Social: Iran Deal 'Largely Negotiated,' Strait of Hormuz to Open",
+    "description": "President Trump posted on Truth Social that an agreement with Iran is 'largely negotiated,' stating: 'An Agreement has been largely negotiated, subject to finalization between the United States of America, the Islamic Republic of Iran, and the various other Countries. In addition to many other elements of the Agreement, the Strait of Hormuz will be opened. Final aspects and details of the Deal are currently being discussed and will be announced shortly.' Trump said he made personal calls to the leaders of Saudi Arabia, UAE, Qatar, Turkey, Egypt, Jordan, Bahrain, and separately to Netanyahu. Pakistan Army Chief Gen. Asim Munir arrived in Tehran completing a 24-hour mediation marathon. NSC war council convened with VP Vance, Hegseth, Ratcliffe, and Wiles.",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "Washington D.C., United States",
+    "timestamp": "2026-05-23T22:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "NPR — Trump says Iran deal including opening Strait of Hormuz is 'largely negotiated'",
+        "url": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz"
+      },
+      {
+        "name": "CNBC — US-Iran war talks: Trump says agreement 'largely negotiated'",
+        "url": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html"
+      },
+      {
+        "name": "PBS NewsHour — Trump says Iran deal is 'largely negotiated'",
+        "url": "https://www.pbs.org/newshour/world/trump-says-deal-with-iran-including-opening-strait-of-hormuz-is-largely-negotiated"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "us", "iran", "deal", "hormuz", "diplomatic", "truth-social", "day86"]
+  },
+  {
+    "id": "evt-new-1622",
+    "title": "White House Security Lockdown — 20-25 Gunshots Reported Outside Perimeter",
+    "description": "Secret Service locked down the White House after 20 to 25 gunshots were reported outside the perimeter. Journalists on the North Lawn were ordered to run to the press briefing room and shelter in place. Police cordoned off the area and National Guard troops blocked access to downtown Washington. Trump was inside the White House at the time, reportedly reviewing final aspects of the Iran peace deal with his national security team. The lockdown temporarily delayed any deal announcement and prompted security reviews. The incident was resolved without reported casualties to White House staff.",
+    "type": "infrastructure",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "location": "White House, Washington D.C., United States",
+    "timestamp": "2026-05-24T00:30:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "Japan Times — Gunshots reported outside White House, Secret Service rushes press to safety",
+        "url": "https://www.japantimes.co.jp/news/2026/05/24/world/politics/gunshots-white-house/"
+      },
+      {
+        "name": "ABC News — White House lawn cleared after apparent gunshots",
+        "url": "https://abcnews.go.com/US/white-house-lawn-cleared-after-apparent-gunshots/story?id=133257965"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["white-house", "security", "lockdown", "us", "trump", "iran-deal", "day86"]
   }
 ]

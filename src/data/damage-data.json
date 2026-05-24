@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-23T00:00:00Z",
+    "lastUpdated": "2026-05-24T00:02:43Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 487,
-    "confirmed": 404,
+    "totalSites": 488,
+    "confirmed": 405,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7768,8 +7768,8 @@
       "name": "Brital / Nabi Sreij — Eastern Lebanon Strikes",
       "location": "Brital, Eastern Lebanon (near Syrian border)",
       "country": "Lebanon",
-      "lat": 33.7600,
-      "lng": 36.0400,
+      "lat": 33.76,
+      "lng": 36.04,
       "date": "2026-05-22",
       "type": "residential",
       "category": "civilian",
@@ -7788,8 +7788,8 @@
       "name": "Hezbollah Underground Weapons Factory — Beqaa Valley",
       "location": "Beqaa Valley, Lebanon",
       "country": "Lebanon",
-      "lat": 33.8500,
-      "lng": 35.9000,
+      "lat": 33.85,
+      "lng": 35.9,
       "date": "2026-05-23",
       "type": "military",
       "category": "military",
@@ -7802,6 +7802,30 @@
         "killed": 0,
         "injured": 0
       }
+    },
+    {
+      "id": "dmg-492",
+      "name": "Iron Dome Launcher Batteries — Biranit Barracks (Jal al-Alam)",
+      "location": "Biranit, Northern Israel",
+      "country": "Israel",
+      "lat": 33.06,
+      "lng": 35.26,
+      "date": "2026-05-23",
+      "type": "military",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "hezbollah",
+      "description": "Hezbollah FPV kamikaze drones struck and destroyed multiple Iron Dome launcher units at the Biranit barracks (Jal al-Alam military site) in northern Israel. Hezbollah released footage confirming the strikes, showing maintenance personnel fleeing before impact. Multiple batteries were hit. Significant damage to Israel's northern air defense layered system.",
+      "sources": [
+        {
+          "name": "Al Mayadeen — Hezbollah attacks Iron Dome batteries",
+          "url": "https://english.almayadeen.net/news/politics/hezbollah-attacks-iron-dome-batteries--destroys-biranit-barr"
+        },
+        {
+          "name": "Jerusalem Post — Hezbollah FPV drones target Iron Dome",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-895734"
+        }
+      ]
     }
   ]
 }
