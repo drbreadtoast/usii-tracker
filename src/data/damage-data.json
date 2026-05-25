@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-25T12:00:00Z",
+    "lastUpdated": "2026-05-25T19:09:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 490,
-    "confirmed": 407,
+    "totalSites": 492,
+    "confirmed": 409,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -37,7 +37,7 @@
       "military": 68,
       "nuclear": 9,
       "infrastructure": 12,
-      "civilian": 42,
+      "civilian": 44,
       "media_civilian": 2,
       "residential": 4,
       "energy": 5,
@@ -7864,6 +7864,46 @@
         {
           "name": "Al Jazeera — Israeli strikes kill six in southern Lebanon",
           "url": "https://www.aljazeera.com/news/2026/5/24/israeli-strikes-kill-six-in-southern-lebanon-amid-fresh-evacuation-orders"
+        }
+      ]
+    },
+    {
+      "id": "dmg-495",
+      "name": "Residential Home — Metula, Northern Israel (Hezbollah Drone)",
+      "location": "Metula, Northern Israel",
+      "country": "Israel",
+      "lat": 33.28,
+      "lng": 35.57,
+      "date": "2026-05-25",
+      "type": "civilian",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "hezbollah",
+      "description": "A Hezbollah explosive UAV struck a residential home in Metula, causing structural damage. One resident treated for shock. The first direct hit on an Israeli home during the current phase of the conflict. Part of an 8-day Hezbollah surge of 1,000+ drones and 700+ rockets at Israel.",
+      "sources": [
+        {
+          "name": "Times of Israel — Hezbollah drone hits Metula home amid wave of attacks",
+          "url": "https://www.timesofisrael.com/hezbollah-drone-hits-metula-home-amid-wave-of-attacks-nobody-hurt-ministers-urge-escalation/"
+        }
+      ]
+    },
+    {
+      "id": "dmg-496",
+      "name": "Civilian and Hezbollah Sites — Kfar Roumman, Kafr Qana, Nabatieh (IDF Strikes)",
+      "location": "Kfar Roumman, Kafr Qana, Nabatieh, South Lebanon",
+      "country": "Lebanon",
+      "lat": 33.30,
+      "lng": 35.46,
+      "date": "2026-05-25",
+      "type": "civilian",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "IDF struck 25+ Hezbollah targets in the Beqaa Valley and southern Lebanon following the killing of Sgt. Leizer. Lebanese media Al-Diyar reported 4 killed and 3 wounded in Kfar Roumman, Kafr Qana, and Nabatieh. Netanyahu ordered IDF to 'intensify blows.' Targets included weapons depots, rocket launch sites, and command centers.",
+      "sources": [
+        {
+          "name": "Times of Israel — Day 87 liveblog",
+          "url": "https://www.timesofisrael.com/liveblog-may-25-2026/"
         }
       ]
     }

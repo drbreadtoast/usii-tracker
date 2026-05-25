@@ -11132,5 +11132,50 @@
     "sourceUrl": "https://www.pbs.org/newshour/world/tensions-flare-near-strait-of-hormuz-as-one-ship-is-seized-and-another-is-sunk",
     "weaponType": "Unknown — attack on commercial vessel",
     "casualties": null
+  },
+  {
+    "id": "ms-652",
+    "city": "Debel, Bint Jbeil District",
+    "country": "Lebanon",
+    "lat": 33.23,
+    "lng": 35.43,
+    "strikeType": "Drone attack",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-25",
+    "description": "Hezbollah explosive drone struck an IDF armored personnel carrier near the village of Debel in Bint Jbeil district, killing Sgt. Nehoray Leizer (19, Eilat, 601st Combat Engineering Battalion) and seriously wounding a second soldier. Strike occurred at approximately 3:30 PM local time. Leizer was the 11th IDF soldier killed since the Lebanon ceasefire began April 16.",
+    "source": "Times of Israel — Soldier killed in south Lebanon by Hezbollah drone",
+    "sourceUrl": "https://www.timesofisrael.com/soldier-killed-in-south-lebanon-by-hezbollah-drone-another-seriously-wounded/",
+    "weaponType": "Explosive UAV",
+    "casualties": {"killed": 1, "wounded": 1}
+  },
+  {
+    "id": "ms-653",
+    "city": "Metula",
+    "country": "Israel",
+    "lat": 33.28,
+    "lng": 35.57,
+    "strikeType": "Drone attack",
+    "attributedTo": "hezbollah",
+    "date": "2026-05-25",
+    "description": "Hezbollah UAV struck a residential home in the border town of Metula, northern Israel, causing structural damage. One resident was treated for shock. The strike was the first direct hit on an Israeli residential structure during the current phase of the conflict. Drone alerts also triggered in Rosh Hanikra and Shlomi.",
+    "source": "Times of Israel — Hezbollah drone hits Metula home amid wave of attacks",
+    "sourceUrl": "https://www.timesofisrael.com/hezbollah-drone-hits-metula-home-amid-wave-of-attacks-nobody-hurt-ministers-urge-escalation/",
+    "weaponType": "Explosive UAV",
+    "casualties": {"killed": 0, "wounded": 0}
+  },
+  {
+    "id": "ms-654",
+    "city": "Kfar Roumman / Kafr Qana / Nabatieh",
+    "country": "Lebanon",
+    "lat": 33.30,
+    "lng": 35.46,
+    "strikeType": "Airstrike",
+    "attributedTo": "israel",
+    "date": "2026-05-25",
+    "description": "IDF launched a major wave of airstrikes on 25+ Hezbollah targets in southern Lebanon and the Beqaa Valley following the death of Sgt. Leizer and drone attacks on northern Israel. Lebanese media reported 4 killed and 3 wounded in strikes on Kfar Roumman, Kafr Qana, and Nabatieh. Netanyahu had ordered the IDF to 'intensify blows.' US officials signaled backing for a broader operation.",
+    "source": "Times of Israel — Day 87 liveblog",
+    "sourceUrl": "https://www.timesofisrael.com/liveblog-may-25-2026/",
+    "weaponType": "Air-launched munitions",
+    "casualties": {"killed": 4, "wounded": 3}
   }
 ]

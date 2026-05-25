@@ -55117,5 +55117,135 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["araghchi", "iran", "doha", "uranium", "nuclear", "diplomacy", "deadlock", "day87"]
+  },
+  {
+    "id": "evt-new-1640",
+    "title": "IDF Soldier Killed by Hezbollah Drone Near Debel, South Lebanon",
+    "description": "Sergeant Nehoray Leizer, 19, from Eilat, a combat engineer in the 601st Battalion, was killed when an explosive Hezbollah drone struck his armored personnel carrier near the Christian village of Debel in the Bint Jbeil district of southern Lebanon at approximately 3:30 PM local time. A second soldier was seriously wounded in the same strike. Leizer was the 11th IDF soldier killed since the Lebanon ceasefire began on April 16. Netanyahu ordered the IDF to 'press the pedal even harder' against Hezbollah following the attack.",
+    "type": "strike",
+    "lat": 33.23,
+    "lng": 35.43,
+    "location": "Debel, Bint Jbeil District, South Lebanon",
+    "timestamp": "2026-05-25T12:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Soldier killed in south Lebanon by Hezbollah drone",
+        "url": "https://www.timesofisrael.com/soldier-killed-in-south-lebanon-by-hezbollah-drone-another-seriously-wounded/"
+      },
+      {
+        "name": "Haaretz — Hezbollah drone kills IDF soldier in southern Lebanon",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-25/ty-article/.premium/hezbollah-drone-kills-idf-soldier-in-southern-lebanon-army-says/0000019e-5d97-db4a-a9bf-fd97ba8f0000"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 1, "wounded": 1},
+    "tags": ["hezbollah", "idf", "drone", "lebanon", "fatality", "ceasefire-violation", "day87"]
+  },
+  {
+    "id": "evt-new-1641",
+    "title": "Hezbollah Drone Strikes Residential Home in Metula, Northern Israel",
+    "description": "A Hezbollah explosive UAV struck a residential home in the border town of Metula, northern Israel, causing structural damage. One resident was treated for shock; no fatalities. The strike was described as the first time during the current phase that an explosive drone directly hit a residential structure on Israeli soil. Separate drone infiltration alerts were triggered in Rosh Hanikra and Shlomi communities. Israeli right-wing ministers called for escalation.",
+    "type": "strike",
+    "lat": 33.28,
+    "lng": 35.57,
+    "location": "Metula, Northern Israel",
+    "timestamp": "2026-05-25T13:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Times of Israel — Hezbollah drone hits Metula home amid wave of attacks",
+        "url": "https://www.timesofisrael.com/hezbollah-drone-hits-metula-home-amid-wave-of-attacks-nobody-hurt-ministers-urge-escalation/"
+      },
+      {
+        "name": "Jerusalem Post — Hezbollah drone hits Metula",
+        "url": "https://www.jpost.com/israel-news/article-897232"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 0, "wounded": 0},
+    "tags": ["hezbollah", "drone", "israel", "metula", "residential", "ceasefire-violation", "day87"]
+  },
+  {
+    "id": "evt-new-1642",
+    "title": "IDF Strikes 25+ Hezbollah Targets Across South Lebanon and Beqaa Valley",
+    "description": "The IDF launched a major wave of airstrikes on over 25 Hezbollah targets in southern Lebanon and the Beqaa Valley, hitting weapons depots, rocket launch sites, command centers, and strategic weapons manufacturing infrastructure. Lebanese newspaper Al-Diyar reported 4 people killed and 3 wounded in strikes in Kfar Roumman, Kafr Qana, and Nabatieh. Netanyahu publicly ordered the military to 'intensify blows' against Hezbollah following the drone surge that killed Sgt. Leizer. A US official had signaled Washington would greenlight a broader IDF operation in Lebanon.",
+    "type": "strike",
+    "lat": 33.85,
+    "lng": 35.90,
+    "location": "South Lebanon and Beqaa Valley, Lebanon",
+    "timestamp": "2026-05-25T14:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Day 87 liveblog",
+        "url": "https://www.timesofisrael.com/liveblog-may-25-2026/"
+      },
+      {
+        "name": "Jerusalem Post — IDF strikes Hezbollah targets",
+        "url": "https://www.jpost.com/middle-east/article-895604"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 4, "wounded": 3},
+    "tags": ["israel", "idf", "hezbollah", "lebanon", "beqaa", "airstrike", "escalation", "day87"]
+  },
+  {
+    "id": "evt-new-1643",
+    "title": "Iran Shoots Down Israeli Surveillance Drone Over Hormozgan Province",
+    "description": "Iranian air defense forces shot down an Israeli 'Orbiter' reconnaissance drone over Hormozgan Province in southern Iran on May 24. Wreckage was recovered by maritime border police near Bandar Abbas. Iran said the air defense system used can target radar-evading drones. The IDF stated it was 'not familiar with the incident' — falling short of an outright denial. The shootdown was confirmed by multiple regional outlets.",
+    "type": "strike",
+    "lat": 27.20,
+    "lng": 56.30,
+    "location": "Hormozgan Province, Southern Iran",
+    "timestamp": "2026-05-24T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Press TV — Iran air defense forces shoot down Israeli reconnaissance drone",
+        "url": "https://www.presstv.ir/Detail/2026/05/24/769213/Iran-air-defense-forces-shoot-down-Israeli-reconnaissance-drone-Hormozgan-province"
+      },
+      {
+        "name": "Al Arabiya — Iran shoots down an Israeli surveillance drone",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/05/24/iran-shoots-down-an-israeli-surveillance-drone-news-agency-says"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "israel", "drone", "air-defense", "hormozgan", "isr", "day86"]
+  },
+  {
+    "id": "evt-new-1644",
+    "title": "Trump Honors Operation Epic Fury Dead at Arlington — Vows Iran Will 'Never' Have Nuclear Weapon",
+    "description": "President Trump paid tribute at Arlington National Cemetery on Memorial Day to the 13 US service members killed during Operation Epic Fury (Feb 28 – May 5, 2026). Trump declared: 'These incredible men and women gave their lives to ensure that the world's number one state sponsor of terror will never have a nuclear weapon. Oh, and they won't.' Trump simultaneously posted to social media that peace negotiations with Iran are 'proceeding nicely' and deal is 'largely negotiated,' while warning he would pursue 'military action bigger and stronger than ever before' if talks fail.",
+    "type": "diplomatic",
+    "lat": 38.88,
+    "lng": -77.07,
+    "location": "Arlington National Cemetery, Virginia, USA",
+    "timestamp": "2026-05-25T15:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "ABC News — Iran live updates peace deal work in progress",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-peace-deal-work-progress-rubio/?id=133278077"
+      },
+      {
+        "name": "Fox News — Iran war news Trump Strait Hormuz ceasefire May 25",
+        "url": "https://www.foxnews.com/live-news/iran-war-news-trump-strait-hormuz-blockade-ceasefire-peace-deal-may-25"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "us", "memorial-day", "arlington", "iran", "nuclear", "epic-fury", "diplomacy", "day87"]
   }
 ]
