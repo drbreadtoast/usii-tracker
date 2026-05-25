@@ -1,428 +1,136 @@
 [
   {
-    "id": "social-1449",
-    "handle": "@CriticalThreats_AEI",
-    "displayName": "Critical Threats / AEI",
-    "text": "Critical Threats/AEI reports Trump posted on Truth Social that the Iran deal is 'largely negotiated' and Hormuz will open 'shortly.' NSC war council convened Saturday with Vance, Hegseth, Ratcliffe, and Wiles. White House Deputy Chief Dan Scavino posted a B-2 stealth bomber video with no caption — analysts interpret it as an implicit military signal while Trump deliberates.",
-    "timestamp": "2026-05-24T00:00:00Z",
+    "id": "social-1471",
+    "handle": "@DealOrWarOSINT",
+    "displayName": "Deal or War OSINT",
+    "text": "Deal or War OSINT: Trump's Day 87 Truth Social post escalates from a walkback to an ultimatum — 'a great and meaningful deal, or there will be no deal.' This framing eliminates the middle-ground MOU-deferral option floated all week. Combined with Rubio's 'another way' threat from New Delhi and Araghchi's uranium 'deadlock' admission in Doha, the pressure cycle has now passed the point of ambiguity. The next 48 hours will determine whether the ceasefire survives its third month.",
+    "timestamp": "2026-05-25T08:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Trump Truth Social post confirmed by NPR, CNBC, PBS May 23. Scavino B-2 post confirmed by Fox News live. NSC war council confirmed by Axios.",
+    "verificationNote": "Trump Truth Social post confirmed by Times of Israel liveblog May 25 and NBC News. Rubio 'another way' quote confirmed by Al Jazeera and US News. Araghchi deadlock admission confirmed by Tribune India and CBS News live updates.",
     "keywords": [
       "trump",
       "deal",
-      "hormuz",
-      "b2-bomber",
-      "nsc",
-      "scavino",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1450",
-    "handle": "@NukeWatchOSINT",
-    "displayName": "NukeWatch OSINT",
-    "text": "NukeWatch OSINT highlights the core US-Iran impasse: Mojtaba Khamenei issued a formal directive that Iran's ~440 kg of 60%-enriched uranium cannot leave the country under any deal, while Trump simultaneously demands the US 'will get the highly enriched uranium.' The two positions are mutually exclusive — an MOU deferring nuclear issues to 60-day follow-on talks may be the only viable bridge.",
-    "timestamp": "2026-05-23T23:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Mojtaba HEU directive confirmed by Reuters May 21 via Jerusalem Post live updates. Trump HEU demand confirmed by CBS News and Axios May 23.",
-    "keywords": [
-      "iran",
-      "heu",
-      "uranium",
-      "mojtaba-khamenei",
-      "nuclear",
-      "red-line",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1451",
-    "handle": "@IsraelSecurityWatch",
-    "displayName": "Israel Security Watch",
-    "text": "Israel Security Watch reports that Israel has been entirely excluded from US-Iran peace deal negotiations. Netanyahu convened an emergency coalition meeting calling the emerging MOU 'very bad' — it omits nuclear dismantlement, HEU export requirements, and proxy rollback. Envoy Witkoff is reportedly placing 'immense pressure on Trump not to resume the war.' Simultaneously, Hezbollah FPV drones struck Iron Dome launchers at Biranit/Jal al-Alam — the 9th IDF soldier has been killed since the Lebanon ceasefire.",
-    "timestamp": "2026-05-23T23:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Netanyahu 'very bad' and exclusion confirmed by Times of Israel liveblog. Witkoff pressure confirmed by same source. Hezbollah FPV Iron Dome strike confirmed by Al Mayadeen and Jerusalem Post.",
-    "keywords": [
-      "israel",
-      "netanyahu",
-      "deal",
-      "witkoff",
-      "iron-dome",
-      "hezbollah",
-      "biranit",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1452",
-    "handle": "@UNSCWatch",
-    "displayName": "UNSC Security Council Watch",
-    "text": "UNSC Watch reports two competing Hormuz resolutions remain in circulation with no vote scheduled: a US-Bahrain draft demanding Iran halt attacks (faces likely Russia-China veto) and a French-drafted alternative proposing an international maritime mission. P5 division deepening. EU on May 22 formally expanded sanctions framework to target Iran's Hormuz blockade actions; Kallas confirmed widening sanctions 'to include Hormuz.'",
-    "timestamp": "2026-05-23T22:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "UNSC resolution standoff confirmed by Arab News, US News/Reuters. EU Hormuz sanctions expansion confirmed by Brussels Signal and EEAS press conference May 22.",
-    "keywords": [
-      "unsc",
-      "hormuz",
-      "eu-sanctions",
-      "kallas",
-      "france",
-      "russia",
-      "china",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1453",
-    "handle": "@WarMonitorOSINT",
-    "displayName": "War Monitor",
-    "text": "War Monitor confirms Hezbollah released footage of FPV kamikaze drones striking Iron Dome launcher batteries at Biranit barracks (Jal al-Alam site), northern Israel. Maintenance personnel filmed fleeing just before impact. Multiple batteries hit. Separately: Israel struck 6 southern Lebanon towns in 24 hours killing 16+ civilians including children — Al-Baqbouq (5), Seir al-Gharbiya (5), Deir Qanoun (4), Al-Housh (1), Al-Rafid (1). Lebanese Army Nabatieh barracks also struck.",
-    "timestamp": "2026-05-23T21:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Hezbollah FPV Iron Dome strike confirmed by Al Mayadeen video, Jerusalem Post, and The Defense News. Lebanon strikes confirmed by Al Jazeera and Lebanon Health Ministry May 23.",
-    "keywords": [
-      "hezbollah",
-      "fpv-drone",
-      "iron-dome",
-      "israel",
-      "lebanon",
-      "strikes",
-      "biranit",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1454",
-    "handle": "@HormuzFleetWatch",
-    "displayName": "Hormuz Fleet Watch",
-    "text": "Hormuz Fleet Watch: IRGC Navy announced 25 commercial vessels transited Strait of Hormuz in the past 24 hours under IRGC coordination and 'security supervision' — continuing the IRGC's de facto tollbooth system. UAE East-West bypass pipeline is now 50% complete (as of May 20). Trump's 'largely negotiated' deal post signals Hormuz reopening may be days away if deal closes, but Iran still insists on controlled-access conditions rather than free passage.",
-    "timestamp": "2026-05-23T20:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "25-ship IRGC transit figure from Press TV May 23. UAE pipeline 50% completion from CNBC May 20. IRGC coordinated access confirmed by Al Jazeera and Safety4Sea.",
-    "keywords": [
-      "hormuz",
-      "irgc",
-      "tankers",
-      "uae-pipeline",
-      "blockade",
-      "shipping",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1455",
-    "handle": "@AxiosDeal",
-    "displayName": "Axios National Security",
-    "text": "Axios National Security published an exclusive revealing the full framework of the emerging US-Iran deal: 60-day truce, Hormuz opens without tolls, Iran clears mines, US lifts port blockade and issues oil sanctions waivers, Iran gives 'general statement' on uranium surrender (nuclear details deferred to follow-on 60-day talks), and Lebanon ceasefire included. The 'relief for performance' sequencing means Hormuz opens first, then sanctions relief follows. Netanyahu, excluded from talks, called the MOU 'very bad.' Iran's Fars disputed Trump's 'largely negotiated' framing.",
-    "timestamp": "2026-05-24T04:30:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Axios exclusive confirmed by Times of Israel liveblog. Netanyahu 'very bad' confirmed by Times of Israel. Fars dispute confirmed by Al Jazeera. Deal framework corroborated by CBS News May 24.",
-    "keywords": [
-      "iran",
-      "us",
-      "deal",
-      "hormuz",
-      "nuclear",
-      "60-day",
-      "mou",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1456",
-    "handle": "@HawkWatchDC",
-    "displayName": "Congressional Hawks Monitor",
-    "text": "Congressional Hawks Monitor reports three senior Senate Republicans have formally opposed the emerging Iran deal: (1) SASC Chairman Roger Wicker called a 60-day ceasefire 'a disaster' that makes 'everything accomplished by Operation Epic Fury for naught'; (2) Ted Cruz warned the deal with Iran enriching uranium and 'controlling' Hormuz is 'a disastrous mistake'; (3) Lindsey Graham warned the deal would 'pour gasoline' on Lebanon and Iraq conflicts. Their opposition signals potential Republican resistance to any deal that defers the nuclear file.",
-    "timestamp": "2026-05-24T05:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Wicker statement from The Hill and Globalsecurity.org. Cruz quote confirmed by Iran International and Benzinga. Graham quote confirmed by Jewish Insider. All three statements published May 23-24.",
-    "keywords": [
-      "wicker",
-      "cruz",
-      "graham",
-      "senate",
-      "iran",
-      "deal",
-      "opposition",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1457",
-    "handle": "@PakMediaWatch",
-    "displayName": "Pakistan Media Watch",
-    "text": "Pakistan Media Watch reports a significant shift: PM Shehbaz Sharif publicly congratulated Trump for 'extraordinary efforts' toward peace — the first time Pakistan's top leader named Trump by name in a positive context. FM Ishaq Dar said 'meaningful progress' has been achieved. This public signaling, combined with Gen. Munir's 24-hour Tehran marathon (meeting Araghchi, Pezeshkian, and Ghalibaf), suggests Pakistan believes a deal is imminent and is locking in credit for its mediation role.",
-    "timestamp": "2026-05-24T04:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "PM Sharif congratulations and FM Dar statement confirmed by NBC News, ARY News, Tribune India. Pakistan Army confirmed Munir meetings with all three Iranian officials via ISPR statement.",
-    "keywords": [
-      "pakistan",
-      "sharif",
-      "dar",
-      "mediation",
-      "iran",
-      "deal",
-      "munir",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1458",
-    "handle": "@BlockadeWatch",
-    "displayName": "Blockade Operations Watch",
-    "text": "Blockade Operations Watch reports CENTCOM crossed the 100-vessel redirect milestone on Day 86 — more than 100 commercial ships turned back from Iranian ports since the blockade began April 13. Key stats: 4 vessels disabled by F/A-18 cannon fire, 26 humanitarian vessels permitted, 1 Iranian tanker boarded by US Marines (May 20 in Gulf of Oman). Iran counter-claims 35 ships transited Hormuz 'under IRGC permission' in 24h — establishing a dual-authority standoff. The blockade would be lifted under the emerging deal terms per Axios.",
-    "timestamp": "2026-05-24T02:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "100-vessel milestone confirmed by NewsNation/CENTCOM. Marines boarding confirmed by Stars and Stripes May 20. 35-ship IRGC claim confirmed by PressTV May 23. Iran's $4.8B revenue loss confirmed by DoD via Just the News.",
-    "keywords": [
-      "blockade",
-      "centcom",
-      "hormuz",
-      "iran",
-      "naval",
-      "100-ships",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1459",
-    "handle": "@EUWatchDiplomacy",
-    "displayName": "EU Watch Diplomacy",
-    "text": "EU Watch Diplomacy flags two major sanctions developments on Day 86: (1) EU Council May 22 expanded sanctions framework to include entities obstructing freedom of navigation — EU foreign policy chief Kallas confirmed widening sanctions 'to include Hormuz'; (2) US 14th OFAC round (May 21) targeting Iranian financial and shipping networks; (3) US May 11 sanctioned 12 entities in Hong Kong, UAE, and Oman for selling Iranian oil to China on behalf of IRGC. Sanctions pressure is a key US leverage point in current deal negotiations.",
-    "timestamp": "2026-05-24T05:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "EU Hormuz sanctions expansion confirmed by EEAS press conference May 22 and Brussels Signal. US 12-entity sanction confirmed by Bloomberg May 11. 14th OFAC round confirmed by Treasury press release.",
-    "keywords": [
-      "eu-sanctions",
-      "kallas",
-      "us-sanctions",
-      "ofac",
       "iran",
       "hormuz",
-      "day86"
+      "ultimatum",
+      "ceasefire",
+      "day87"
     ]
   },
   {
-    "id": "social-1460",
-    "handle": "@GasPriceTracker",
-    "displayName": "Gas Price Tracker US",
-    "text": "Gas Price Tracker US reports AAA has confirmed the national average hit $4.56/gallon for the Memorial Day 2026 weekend — a 4-year high and the highest since July 2022. Up 25 cents for the second straight week, +43.4% from the pre-war $3.18 baseline. California: $6.15/gal; Oklahoma: $3.94/gal. If the US-Iran deal closes and Hormuz reopens, analysts project a 30-50 cent drop in national average within 2-3 weeks as Brent crude falls from current $103.94.",
-    "timestamp": "2026-05-24T06:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "AAA $4.56 Memorial Day figure confirmed by AAA Newsroom. Price projection for post-deal drop confirmed by GasBuddy and TradingEconomics analysts cited in Fortune May 20.",
-    "keywords": [
-      "gas-prices",
-      "aaa",
-      "memorial-day",
-      "hormuz",
-      "oil",
-      "consumer",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1461",
+    "id": "social-1472",
     "handle": "@RubioWatch",
     "displayName": "Rubio Watch OSINT",
-    "text": "Rubio Watch reports Rubio's New Delhi press conference on Day 86 marks a significant upgrade in diplomatic language: from Day 85's 'there is a chance' to Day 86's 'significant progress has been made' and 'the world may get good news in the next few hours.' The shift from possibility to near-certainty signals US confidence a deal is within reach. Key conditions reiterated: no Iranian nuke, Hormuz without tolls, enriched uranium surrendered.",
-    "timestamp": "2026-05-24T08:30:00Z",
+    "text": "Rubio Watch: Rubio's New Delhi statement on Day 87 — 'We're either going to have a good agreement, or we're going to have to deal with it another way' — is the bluntest US military threat since Operation Epic Fury ended May 5. Unlike previous 'concerns' and 'all options on the table' boilerplate, 'another way' from a sitting Secretary of State during active peace negotiations is a significant escalation of rhetoric. Analysts read it as a signal that the White House military strike option is being kept deliberately warm.",
+    "timestamp": "2026-05-25T09:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Rubio statement confirmed by Al Jazeera, ANI News, and IANS Live. Language upgrade from 'chance' to 'significant progress' is verbatim per multiple outlets.",
+    "verificationNote": "Rubio 'another way' quote confirmed verbatim by Al Jazeera, US News, and CNN live updates May 25.",
     "keywords": [
       "rubio",
       "iran",
-      "hormuz",
+      "military",
+      "threat",
       "deal",
       "new-delhi",
-      "progress",
-      "day86"
+      "day87"
     ]
   },
   {
-    "id": "social-1462",
-    "handle": "@IranNukePulse",
-    "displayName": "Iran Nuclear Pulse",
-    "text": "Iran Nuclear Pulse flags a significant signal from Pezeshkian on Day 86: his IRIB statement that Iran is 'ready to assure the world we are not seeking nuclear weapons' is the most direct Iranian presidential statement on nuclear intent since the war began. However, his caveat that any decision requires Supreme Leader Khamenei's approval underscores that Pezeshkian's openness means nothing without Khamenei's sign-off — and Khamenei's May 21 directive to keep enriched uranium inside Iran remains the binding constraint.",
-    "timestamp": "2026-05-24T07:30:00Z",
+    "id": "social-1473",
+    "handle": "@WarMonitorOSINT",
+    "displayName": "War Monitor",
+    "text": "War Monitor Day 87: IDF issued evacuation warning for Tyre district and launched wave of airstrikes on Hezbollah infrastructure after Hezbollah launched attack drones at northern Israel. Lebanese Health Ministry confirmed 37 wounded including 6 hospital personnel, 9 women, 4 children — the highest single-day Lebanon wounded count since May 23. Simultaneously, 6 were killed in May 24 Israeli strikes on motorcyclists and a paramedic in Arab Salim. Lebanon front is most active since early May.",
+    "timestamp": "2026-05-25T10:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Pezeshkian IRIB statement confirmed by Times of Israel liveblog and CNN live updates May 24. Khamenei uranium directive confirmed by Reuters May 21.",
+    "verificationNote": "IDF Tyre strikes and evacuation warning confirmed by Times of Israel liveblog May 25. 37 wounded confirmed by Lebanese Health Ministry per Times of Israel. 6 killed May 24 confirmed by Al Jazeera.",
     "keywords": [
-      "iran",
-      "pezeshkian",
-      "nuclear",
-      "khamenei",
-      "uranium",
-      "deal",
-      "day86"
+      "idf",
+      "tyre",
+      "hezbollah",
+      "drone",
+      "lebanon",
+      "airstrike",
+      "day87"
     ]
   },
   {
-    "id": "social-1463",
-    "handle": "@IsraelDealWatch",
-    "displayName": "Israel Deal Watch",
-    "text": "Israel Deal Watch confirms Netanyahu convened an emergency coalition and security council meeting on Day 86 after Channel 12 reported the emerging MOU terms are 'very bad' for Israel. Four core Israeli objections: (1) nuclear file deferred entirely; (2) ballistic missiles off the table; (3) Lebanon ceasefire bundled in; (4) Iran keeping Hormuz 'management.' Netanyahu reportedly urged Trump to resume strikes. Trump told Netanyahu the final deal will dismantle Iran's nukes — but that promise is not in the current MOU.",
-    "timestamp": "2026-05-24T09:30:00Z",
+    "id": "social-1474",
+    "handle": "@NuclearDealWatch",
+    "displayName": "Nuclear Deal Watch OSINT",
+    "text": "Nuclear Deal Watch: Araghchi's 'deadlock' admission in Doha on Day 87 is a significant acknowledgment. Iran's FM explicitly said the uranium issue is being 'postponed' — confirming both sides have agreed to defer it. This means any deal signed will explicitly NOT address Iran's ~400 kg of 60%-enriched uranium. Khamenei's internal order prohibiting HEU removal from Iran makes even a deferred resolution uncertain. Israel (excluded from talks) views this as existential — a deal without uranium resolution is a deal that leaves a near-weapons-grade stockpile in Iranian hands.",
+    "timestamp": "2026-05-25T11:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Netanyahu emergency meeting and 'very bad' characterization confirmed by Times of Israel liveblog. Israeli official Trump reassurance confirmed by Times of Israel liveblog entry.",
+    "verificationNote": "Araghchi 'deadlock' and 'postponed' language confirmed by Tribune India and CBS News live updates May 25. Khamenei HEU prohibition order confirmed by multiple outlets.",
+    "keywords": [
+      "araghchi",
+      "iran",
+      "uranium",
+      "nuclear",
+      "deadlock",
+      "doha",
+      "day87"
+    ]
+  },
+  {
+    "id": "social-1475",
+    "handle": "@OilMarketPulse",
+    "displayName": "Oil Market Pulse OSINT",
+    "text": "Oil Market Pulse: Brent crude dropped to ~$100.21/bbl on Day 87 from $103.54 at Thursday's close — a 3.2% single-day drop driven by diplomacy optimism as Iran delegation arrived in Doha. WTI fell to ~$92.07 from $96.60. If the US-Iran deal closes and Hormuz reopens, analysts project Brent could fall to $82-90 within 2-3 weeks. Memorial Day gas prices stand at $4.507/gal national average (AAA) — a 4-year high but slightly below last week's $4.56 peak. A deal would trigger the sharpest consumer gas price drop since 2022.",
+    "timestamp": "2026-05-25T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Brent $100.21 confirmed by FX Daily Report May 25 analysis. WTI $92.07 confirmed by Investing.com and TradingEconomics. Gas $4.507 confirmed by AAA newsroom Memorial Day 2026 report.",
+    "keywords": [
+      "oil",
+      "brent",
+      "wti",
+      "gas-prices",
+      "hormuz",
+      "deal",
+      "day87"
+    ]
+  },
+  {
+    "id": "social-1476",
+    "handle": "@IsraelSecurityWatch",
+    "displayName": "Israel Security Watch",
+    "text": "Israel Security Watch: Netanyahu posted an image back-to-back with Trump with the caption 'Iran will never have a bomb' — a clear signal Israel still views nuclear prevention as the bottom line, even as the emerging deal explicitly defers nuclear issues. Senior Israeli officials described the emerging deal as 'bad' because it 'signals Iran possesses a weapon no less effective than a nuclear one' — meaning the Hormuz threat is now institutionalized even if a deal closes. Netanyahu is relying on direct calls to Trump rather than trusting envoy Witkoff.",
+    "timestamp": "2026-05-25T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Netanyahu social media post confirmed by Iran International and Times of Israel. Israeli officials 'bad deal' characterization confirmed by Jerusalem Post and Times of Israel liveblog May 25.",
     "keywords": [
       "netanyahu",
       "israel",
-      "deal",
-      "mou",
+      "iran",
       "nuclear",
-      "emergency",
-      "day86"
+      "bomb",
+      "deal",
+      "witkoff",
+      "day87"
     ]
   },
   {
-    "id": "social-1464",
-    "handle": "@RedSeaOSINT",
-    "displayName": "Red Sea OSINT Tracker",
-    "text": "Red Sea OSINT Tracker reports Houthi forces claimed attacks on three commercial vessels on Day 86: bulk carrier Yannis (Red Sea), gas tanker Essex (Mediterranean), MSC Alexandra (Arabian Sea). CENTCOM confirmed two anti-ship ballistic missiles fired into the Red Sea — no injuries, no confirmed damage. Zodiac Maritime (Essex manager) found no evidence Essex was struck. Houthi maritime operations continue despite the broader Iran-US ceasefire framework under active negotiation.",
-    "timestamp": "2026-05-24T10:30:00Z",
+    "id": "social-1477",
+    "handle": "@HormuzFleetWatch",
+    "displayName": "Hormuz Fleet Watch",
+    "text": "Hormuz Fleet Watch: Day 84 of the Hormuz blockade — still effectively closed with ~2 vessels per day. A ship anchored off UAE was seized and taken toward Iran; a cargo ship near Oman sank after an attack. Iran's VP Aref reiterated Iran will not give up the strait 'at any price.' 1,550+ vessels stranded, 22,500-40,000 mariners trapped, 1 billion+ barrels lost since closure began. The deal framework calls for Iran to clear mines and halt harassment in Phase 1 — but Iran's 'at any price' language suggests the Hormuz concession will be the deal's hardest fought clause.",
+    "timestamp": "2026-05-25T12:00:00Z",
     "sourceCategory": "osint_analyst",
-    "verificationStatus": "likely",
-    "verificationNote": "CENTCOM Red Sea missile confirmation via Wikipedia citing AP/Reuters. Zodiac Maritime Essex denial confirmed same source. Houthi vessel attacks per standard Houthi claim process.",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Hormuz closure statistics confirmed by Wikipedia 2026 Strait of Hormuz crisis and Bloomberg Hormuz Tracker May 17. PBS report confirmed ship seizure near UAE and sinking near Oman. Iran VP Aref statement confirmed by PBS NewsHour.",
     "keywords": [
-      "houthis",
-      "red-sea",
-      "vessel",
-      "attack",
-      "centcom",
+      "hormuz",
+      "blockade",
+      "iran",
       "shipping",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1465",
-    "handle": "@EUDiplomacyWatch",
-    "displayName": "EU Diplomacy Watch",
-    "text": "EU Diplomacy Watch notes a split in Western ally responses to the emerging Iran deal on Day 86: Kallas announced new EU sanctions against 19 Iranian officials simultaneously with Rubio's 'significant progress' remarks — applying pressure while talks advance. UK's Starmer and France's Macron welcomed deal progress but insisted on 'unconditional and unrestricted freedom of navigation' and a permanent — not temporary — Hormuz solution. France and UK are jointly planning an international maritime security mission to deploy 'as soon as conditions allow.'",
-    "timestamp": "2026-05-24T11:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Kallas 19-official sanctions confirmed on X. Starmer/Macron joint statement confirmed by PBS NewsHour. UK-France maritime mission confirmed by CNN live updates.",
-    "keywords": [
-      "eu",
-      "kallas",
-      "sanctions",
-      "starmer",
-      "macron",
-      "hormuz",
-      "maritime",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1466",
-    "handle": "@DealOrWarOSINT",
-    "displayName": "Deal or War OSINT",
-    "text": "Deal or War OSINT reports the dramatic afternoon reversal on Day 86: Trump's morning 'largely negotiated' optimism collapsed by afternoon as he told reporters he's 'not in a rush' and 'time is on our side.' White House confirmed no signing today. Iran state media (Fars News) flatly contradicted Trump — claiming 'wide disagreements' remain and that Hormuz 'will stay under Iran's management.' A top Iranian official denied any agreement on uranium surrender. The deal may now slip to next week at earliest — same pattern as prior 'imminent deal' cycles on Days 36, 52, and 73.",
-    "timestamp": "2026-05-24T14:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trump 'not in a rush' confirmed by NBC News, Al Jazeera liveblog May 24. White House 'not signed today' confirmed by CNN. Fars 'wide disagreements' and Hormuz 'under Iran management' confirmed by Times of Israel liveblog. Iranian official uranium denial confirmed by Fox News live.",
-    "keywords": [
-      "trump",
-      "iran",
-      "deal",
-      "walkback",
-      "hormuz",
-      "uranium",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1467",
-    "handle": "@ISWTracker",
-    "displayName": "Institute for the Study of War",
-    "text": "ISW reported that Iranian leaders continue to perceive the upper hand in negotiations — their May 24 state media messaging is calibrated to maximize leverage. Iran insisting on retaining formal Hormuz 'management' rights while the US demands toll-free passage are mutually exclusive positions. ISW assessed that Iran is using the ceasefire period to reconstitute military assets, citing Iran Parliament Speaker Qalibaf's May 22 warning of a 'more devastating' second round if Trump resumes strikes. Every day of delay serves Iran's military reconstitution timeline.",
-    "timestamp": "2026-05-24T15:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "ISW 'upper hand' assessment confirmed by @TheStudyofWar May 11 Special Report. Qalibaf 'more devastating' warning confirmed by GlobalSecurity.org and PressTV May 20-23. Iran reconstitution claim confirmed by CNN reporting.",
-    "keywords": [
-      "isw",
-      "iran",
-      "hormuz",
-      "qalibaf",
-      "reconstitution",
-      "leverage",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1468",
-    "handle": "@PentagonWatch",
-    "displayName": "Pentagon Watch OSINT",
-    "text": "Pentagon Watch notes the significance of Hegseth's West Point speech on Day 86: telling graduating cadets 'We are sending you, perhaps, to war' while Iran deal negotiations stalled suggests US military planning horizons remain calibrated for resumed conflict, not peace. Hegseth's early return from West Point and the Hegseth-Caine Pentagon briefing confirming the ceasefire is 'in effect' were read by analysts as reassurance against deal collapse panic — but the military posture language has not softened.",
-    "timestamp": "2026-05-24T16:30:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Hegseth West Point speech confirmed by PBS NewsHour and Fox News. Early return to White House confirmed by multiple outlets. Pentagon briefing with Caine confirmed by PBS NewsHour.",
-    "keywords": [
-      "hegseth",
-      "west-point",
-      "pentagon",
-      "war",
-      "ceasefire",
-      "caine",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1469",
-    "handle": "@OFACTracker",
-    "displayName": "OFAC Sanctions Tracker",
-    "text": "OFAC Sanctions Tracker reports three rounds of 'Economic Fury' campaign sanctions in May 19-21 alone: (1) May 19 — 3 Iranian currency exchange houses + front companies; (2) May 20 — 10 individuals/entities enabling Shahed UAV and ballistic missile procurement; (3) May 21 — 12 entities for enabling IRGC oil sales to China including Qingdao Haiye Oil Terminal. Running total since Feb 2025: 1,000+ persons, vessels, aircraft sanctioned. The campaign is the most intensive US sanctions pressure on Iran since 2018, degrading the shadow fleet and financial networks but not halting oil flows entirely (Iran still exporting ~567K bpd).",
-    "timestamp": "2026-05-24T17:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "May 19-21 OFAC rounds confirmed by US Treasury press releases and State Department. Qingdao Haiye sanctioning confirmed by Bloomberg May 11. 1,000+ total figure from Treasury.",
-    "keywords": [
-      "ofac",
-      "sanctions",
-      "iran",
-      "economic-fury",
-      "oil",
-      "china",
-      "day86"
-    ]
-  },
-  {
-    "id": "social-1470",
-    "handle": "@NuclearDealWatch",
-    "displayName": "Nuclear Deal Watch OSINT",
-    "text": "Nuclear Deal Watch: The Day 86 Iran deal cycle mirrors the Day 52 and Day 73 cycles — an optimistic Trump statement (overnight), a Rubio upgrade (morning), followed by Iranian state media pushback (afternoon), and White House walk-back ('not signed today'). The core impasse remains unchanged: Trump demands Iran physically surrender its ~440 kg of 60%-enriched uranium; Iran insists it cannot leave Iranian territory. An MOU deferring this issue for 60 days may be the only bridge — but Mojtaba Khamenei's May 21 directive banning HEU export makes even that bridge uncertain.",
-    "timestamp": "2026-05-24T18:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Deal pattern analysis based on cumulative agent tracking. Khamenei HEU export ban confirmed by Reuters May 21. IAEA HEU stockpile figure (~440 kg at 60%) confirmed by IAEA board report. Axios deal framework and uranium impasse confirmed May 24.",
-    "keywords": [
-      "nuclear",
-      "iran",
-      "heu",
-      "uranium",
-      "deal",
-      "khamenei",
-      "iaea",
-      "day86"
+      "vessel",
+      "seizure",
+      "day87"
     ]
   }
 ]

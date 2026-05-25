@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-24T00:02:43Z",
+    "lastUpdated": "2026-05-25T12:00:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 425
   },
   "summary": {
-    "totalSites": 488,
-    "confirmed": 405,
+    "totalSites": 490,
+    "confirmed": 407,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7824,6 +7824,46 @@
         {
           "name": "Jerusalem Post — Hezbollah FPV drones target Iron Dome",
           "url": "https://www.jpost.com/israel-news/defense-news/article-895734"
+        }
+      ]
+    },
+    {
+      "id": "dmg-493",
+      "name": "Hezbollah Infrastructure — Tyre District",
+      "location": "Tyre district, Southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.20,
+      "date": "2026-05-25",
+      "type": "military",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "IDF launched a wave of airstrikes on Hezbollah military infrastructure in the Tyre district of southern Lebanon on May 25, following Hezbollah drone attacks on northern Israel. Lebanese Health Ministry confirmed 37 wounded including 6 hospital personnel, 9 women, and 4 children. The IDF issued an evacuation warning for the Tyre area before strikes, citing 'Hezbollah's violation of the ceasefire.'",
+      "sources": [
+        {
+          "name": "Times of Israel — IDF launches wave of airstrikes on Hezbollah in Tyre area",
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-launches-wave-of-airstrikes-on-hezbollah-infrastructure-in-tyre-area/"
+        }
+      ]
+    },
+    {
+      "id": "dmg-494",
+      "name": "Civilian Areas — Southern Lebanon (May 24 Strikes)",
+      "location": "al-Namiriya, al-Duweir, Abba, Jebchit, Arab Salim, Southern Lebanon",
+      "country": "Lebanon",
+      "lat": 33.30,
+      "lng": 35.35,
+      "date": "2026-05-24",
+      "type": "civilian",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli airstrikes killed 6 people across southern Lebanese towns on May 24, including a paramedic killed by a drone while inspecting a previous strike site in Arab Salim. Victims included individuals on motorcycles in al-Namiriya, al-Duweir, and Abba (including a Syrian national), and one man in Jebchit. The IDF issued 16 evacuation orders across the region.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Israeli strikes kill six in southern Lebanon",
+          "url": "https://www.aljazeera.com/news/2026/5/24/israeli-strikes-kill-six-in-southern-lebanon-amid-fresh-evacuation-orders"
         }
       ]
     }
