@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-26T00:05:00Z",
+    "lastUpdated": "2026-05-26T06:00:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -74,18 +74,18 @@
     },
     "current": {
       "brent": {
-        "price": 96.31,
-        "change": "+20.7%",
-        "changeDollars": "+16.51"
+        "price": 98.11,
+        "change": "+22.9%",
+        "changeDollars": "+18.31"
       },
       "wti": {
-        "price": 90.69,
-        "change": "+20.1%",
-        "changeDollars": "+15.18"
+        "price": 91.00,
+        "change": "+20.5%",
+        "changeDollars": "+15.49"
       },
-      "changePercent": "+20.4%",
-      "changeNote": "Day 88 (May 26): Brent $96.31 (+20.6% vs pre-war $79.80), WTI $90.69 (+20.1% vs pre-war $75.51). Both fell sharply (~6%) on Memorial Day weekend on renewed optimism that the US and Iran are near a 60-day MOU that would reopen the Strait of Hormuz. Iran's delegation (Araghchi + Ghalibaf + Hemmati) arrived in Doha for Qatar-mediated talks. Down from Brent $100.21/WTI $92.07 (Day 87 close). Lowest Brent since mid-April 2026. Gas $4.507/gal (AAA). Blockade Day 85.",
-      "lastUpdated": "2026-05-26T00:05:00Z"
+      "changePercent": "+21.7%",
+      "changeNote": "Day 88 AM (May 26): Brent $98.11 (+22.9% vs pre-war $79.80), WTI $91.00 (+20.5% vs pre-war $75.51). Prices rebounded from Memorial Day overnight low (Brent $96.31, WTI $90.69) as markets processed CENTCOM self-defense strikes on IRGC mine-laying boats + SAM site near Bandar Abbas — first US action in Iran since April 8 ceasefire. Doha peace talks ongoing. Austria DSN intel report: Iran nuclear program 'well-advanced.' Gas $4.507/gal (AAA). Blockade Day 85.",
+      "lastUpdated": "2026-05-26T06:00:00Z"
     },
     "priceHistory": [
       {
@@ -693,8 +693,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-26T00:05:00Z",
-    "note": "Day 88 (May 26): Brent $96.31 (+20.6%), WTI $90.69 (+20.1%). Oil fell ~6% on Memorial Day weekend on MOU optimism — Iran delegation in Doha, Araghchi + Ghalibaf + Hemmati for 60-day framework talks. Trump: 'blockade stays until certified and signed,' 'time is on our side.' First CENTCOM strikes since ceasefire — IRGC mine-laying boats + missile sites near Bandar Abbas. Lowest Brent since mid-April. Gas $4.507/gal (AAA). Blockade Day 85.",
+    "lastUpdated": "2026-05-26T06:00:00Z",
+    "note": "Day 88 AM (May 26): Brent rebounded to $98.11 (+22.9%), WTI to ~$91.00 (+20.5%) from Memorial Day overnight low ($96.31/$90.69). Oil rallied as CENTCOM self-defense strikes on IRGC mine-laying boats + SAM site near Bandar Abbas added risk premium. Austria DSN: Iran nuclear program 'well-advanced.' Iran delegation still in Doha for MOU talks. Gas $4.507/gal (AAA). Blockade Day 85.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -903,7 +903,7 @@
       "sourceUrl": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade"
     }
   ],
-  "lastUpdated": "2026-05-24T19:03:00Z",
+  "lastUpdated": "2026-05-26T06:00:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",
@@ -1510,7 +1510,14 @@
       "date": "2026-05-26",
       "brent": 96.31,
       "wti": 90.69,
-      "label": "Day 88 — Brent $96.31 (+20.6%), WTI $90.69 (+20.1%). Oil drops ~6% (Brent -$3.90, WTI -$1.38) on MOU optimism — Iran delegation in Doha, CENTCOM struck IRGC mine-laying boats near Bandar Abbas (first strikes since ceasefire). Trump: 'blockade stays until certified and signed, time is on our side.' Lowest Brent since mid-April 2026. Gas $4.507/gal. Hormuz Blockade Day 85.",
+      "label": "Day 88 overnight — Brent $96.31 (+20.6%), WTI $90.69 (+20.1%). Oil drops ~6% (Brent -$3.90, WTI -$1.38) on MOU optimism — Iran delegation in Doha, CENTCOM struck IRGC mine-laying boats near Bandar Abbas (first strikes since ceasefire). Trump: 'blockade stays until certified and signed, time is on our side.' Lowest Brent since mid-April 2026. Gas $4.507/gal. Hormuz Blockade Day 85.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-26",
+      "brent": 98.11,
+      "wti": 91.00,
+      "label": "Day 88 AM — Brent $98.11 (+22.9%), WTI $91.00 (+20.5%). Prices rebound $1.80 from overnight Memorial Day low as CENTCOM strikes on IRGC mine-laying boats/SAM battery near Bandar Abbas add ceasefire-stress premium. Austrian DSN annual report: Iran nuclear weapons program 'well-advanced,' missiles 'ready to carry nuclear warheads' — Iran calls report 'fake.' Doha MOU talks continue. Gas $4.507/gal. Hormuz Blockade Day 85.",
       "isEvent": true
     }
   ]
