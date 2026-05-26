@@ -1,118 +1,58 @@
 [
   {
-    "id": "social-1471",
-    "handle": "@DealOrWarOSINT",
-    "displayName": "Deal or War OSINT",
-    "text": "Deal or War OSINT: Trump's Day 87 Truth Social post escalates from a walkback to an ultimatum — 'a great and meaningful deal, or there will be no deal.' This framing eliminates the middle-ground MOU-deferral option floated all week. Combined with Rubio's 'another way' threat from New Delhi and Araghchi's uranium 'deadlock' admission in Doha, the pressure cycle has now passed the point of ambiguity. The next 48 hours will determine whether the ceasefire survives its third month.",
-    "timestamp": "2026-05-25T08:30:00Z",
+    "id": "social-1494",
+    "handle": "@IRGCClaimWatch",
+    "displayName": "IRGC Claim Watch",
+    "text": "IRGC Claim Watch Day 88: Iran's IRGC announced it shot down a US MQ-9 Reaper drone over the Persian Gulf on May 26, claiming it also detected an RQ-4 Global Hawk and F-35 in Iranian airspace — both reportedly fled. This came ~12 hours after CENTCOM destroyed two IRGC mine-laying boats and a SAM battery near Bandar Abbas. The US has not confirmed the drone loss. If true, this is the first US unmanned aircraft downed since the April 8 ceasefire and significantly escalates the parallel-track crisis: active military exchange + Doha peace talks simultaneously.",
+    "timestamp": "2026-05-26T10:00:00Z",
     "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Trump Truth Social post confirmed by Times of Israel liveblog May 25 and NBC News. Rubio 'another way' quote confirmed by Al Jazeera and US News. Araghchi deadlock admission confirmed by Tribune India and CBS News live updates.",
-    "keywords": [
-      "trump",
-      "deal",
-      "iran",
-      "hormuz",
-      "ultimatum",
-      "ceasefire",
-      "day87"
-    ]
+    "verificationStatus": "likely",
+    "verificationNote": "IRGC drone claim reported by Al Jazeera liveblog May 26 and Al Jazeera explainer on ceasefire status. US has not confirmed or denied. Consistent with IRGC pattern of announcing drone shootdowns with wreckage imagery — no imagery released yet.",
+    "keywords": ["iran", "irgc", "us", "drone", "mq-9", "reaper", "hormuz", "ceasefire", "day88"]
   },
   {
-    "id": "social-1472",
-    "handle": "@RubioWatch",
-    "displayName": "Rubio Watch OSINT",
-    "text": "Rubio Watch: Rubio's New Delhi statement on Day 87 — 'We're either going to have a good agreement, or we're going to have to deal with it another way' — is the bluntest US military threat since Operation Epic Fury ended May 5. Unlike previous 'concerns' and 'all options on the table' boilerplate, 'another way' from a sitting Secretary of State during active peace negotiations is a significant escalation of rhetoric. Analysts read it as a signal that the White House military strike option is being kept deliberately warm.",
-    "timestamp": "2026-05-25T09:30:00Z",
+    "id": "social-1495",
+    "handle": "@LebanonBekaaDesk",
+    "displayName": "Lebanon Bekaa Desk",
+    "text": "Lebanon Bekaa Desk: Israeli airstrike on Mashghara village in eastern Lebanon's Bekaa Valley killed at least 12 people overnight May 25-26, per Lebanon's National News Agency. A second Israeli strike hit near Midoun in the same region. This is the most lethal single Israeli strike in the Bekaa in weeks. It came directly after Netanyahu's May 25 'crush Hezbollah' order. Lebanon's confirmed death toll has risen above 3,197 as of this morning. The Bekaa Valley has become a primary IDF target area as Hezbollah uses it for weapons storage and logistics routes from Iran.",
+    "timestamp": "2026-05-26T10:30:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Rubio 'another way' quote confirmed verbatim by Al Jazeera, US News, and CNN live updates May 25.",
-    "keywords": [
-      "rubio",
-      "iran",
-      "military",
-      "threat",
-      "deal",
-      "new-delhi",
-      "day87"
-    ]
+    "verificationNote": "Mashghara airstrike confirmed by NNA (Lebanon National News Agency) and Al Jazeera May 26. Death toll per Al Jazeera reporting.",
+    "keywords": ["israel", "idf", "hezbollah", "lebanon", "bekaa", "mashghara", "civilians", "day88"]
   },
   {
-    "id": "social-1473",
-    "handle": "@WarMonitorOSINT",
-    "displayName": "War Monitor",
-    "text": "War Monitor Day 87: IDF issued evacuation warning for Tyre district and launched wave of airstrikes on Hezbollah infrastructure after Hezbollah launched attack drones at northern Israel. Lebanese Health Ministry confirmed 37 wounded including 6 hospital personnel, 9 women, 4 children — the highest single-day Lebanon wounded count since May 23. Simultaneously, 6 were killed in May 24 Israeli strikes on motorcyclists and a paramedic in Arab Salim. Lebanon front is most active since early May.",
-    "timestamp": "2026-05-25T10:30:00Z",
+    "id": "social-1496",
+    "handle": "@KhameneiHajjWatch",
+    "displayName": "Khamenei Hajj Watch",
+    "text": "Khamenei Hajj Watch Day 88: Supreme Leader Mojtaba Khamenei's Hajj statement is the most direct threat to Gulf Arab states since the war began — 'if neighboring nations permit US bases to be used against Iran, Iran will show them no mercy.' This is a direct warning to Saudi Arabia, UAE, Qatar, and Kuwait, all of which host large US military installations used during Operation Epic Fury. The timing — during active Doha peace talks — signals Khamenei is not simply waiting for the deal to close: he's continuing to stake out Iran's maximalist position on regional security architecture.",
+    "timestamp": "2026-05-26T11:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "IDF Tyre strikes and evacuation warning confirmed by Times of Israel liveblog May 25. 37 wounded confirmed by Lebanese Health Ministry per Times of Israel. 6 killed May 24 confirmed by Al Jazeera.",
-    "keywords": [
-      "idf",
-      "tyre",
-      "hezbollah",
-      "drone",
-      "lebanon",
-      "airstrike",
-      "day87"
-    ]
+    "verificationNote": "Khamenei Hajj statement confirmed by Bloomberg May 26 and OneNewsPage/News24.",
+    "keywords": ["khamenei", "iran", "hajj", "saudi-arabia", "uae", "qatar", "bases", "threat", "day88"]
   },
   {
-    "id": "social-1474",
-    "handle": "@NuclearDealWatch",
-    "displayName": "Nuclear Deal Watch OSINT",
-    "text": "Nuclear Deal Watch: Araghchi's 'deadlock' admission in Doha on Day 87 is a significant acknowledgment. Iran's FM explicitly said the uranium issue is being 'postponed' — confirming both sides have agreed to defer it. This means any deal signed will explicitly NOT address Iran's ~400 kg of 60%-enriched uranium. Khamenei's internal order prohibiting HEU removal from Iran makes even a deferred resolution uncertain. Israel (excluded from talks) views this as existential — a deal without uranium resolution is a deal that leaves a near-weapons-grade stockpile in Iranian hands.",
-    "timestamp": "2026-05-25T11:30:00Z",
-    "sourceCategory": "osint_analyst",
+    "id": "social-1497",
+    "handle": "@DiplomacyGapTracker",
+    "displayName": "Diplomacy Gap Tracker",
+    "text": "Diplomacy Gap Tracker Day 88: The gap between Trump's public optimism and Iran's public posture has never been wider. Trump says deal 'largely negotiated.' Araghchi says differences 'deep and significant.' Trump says negotiations 'proceeding nicely.' Khamenei says 'clock cannot be turned back.' The White House and Tehran are speaking to different audiences — Trump to domestic investors/markets; Khamenei and Araghchi to Iran's hardliner factions. The real deal progress must be measured by facts on the ground: Hormuz still closed (Day 85), IRGC still laying mines, Israel still striking Lebanon. Actions, not Truth Social posts.",
+    "timestamp": "2026-05-26T11:30:00Z",
+    "sourceCategory": "lead_source",
     "verificationStatus": "confirmed",
-    "verificationNote": "Araghchi 'deadlock' and 'postponed' language confirmed by Tribune India and CBS News live updates May 25. Khamenei HEU prohibition order confirmed by multiple outlets.",
-    "keywords": [
-      "araghchi",
-      "iran",
-      "uranium",
-      "nuclear",
-      "deadlock",
-      "doha",
-      "day87"
-    ]
+    "verificationNote": "Trump Truth Social post confirmed by Rigzone/Reuters May 26. Araghchi statement confirmed by The National. Khamenei statement confirmed by Bloomberg. Hormuz blockade status per Al Jazeera.",
+    "keywords": ["diplomacy", "trump", "araghchi", "khamenei", "deal", "hormuz", "day88"]
   },
   {
-    "id": "social-1475",
-    "handle": "@OilMarketPulse",
-    "displayName": "Oil Market Pulse OSINT",
-    "text": "Oil Market Pulse: Brent crude dropped to ~$100.21/bbl on Day 87 from $103.54 at Thursday's close — a 3.2% single-day drop driven by diplomacy optimism as Iran delegation arrived in Doha. WTI fell to ~$92.07 from $96.60. If the US-Iran deal closes and Hormuz reopens, analysts project Brent could fall to $82-90 within 2-3 weeks. Memorial Day gas prices stand at $4.507/gal national average (AAA) — a 4-year high but slightly below last week's $4.56 peak. A deal would trigger the sharpest consumer gas price drop since 2022.",
-    "timestamp": "2026-05-25T11:00:00Z",
+    "id": "social-1498",
+    "handle": "@IranMilitaryWarning",
+    "displayName": "Iran Military Warning Desk",
+    "text": "Iran Military Warning Desk: IRGC spokesman Shekarchi's statement that any new US or Israeli attack would be 'much more intense, heavier, and stronger than the previous two wars' is the most explicit Iranian retaliation threat since the April 8 ceasefire. He specifically warned attacks would 'extend beyond regional borders.' Combined with the IRGC's continued mine-laying operations at Hormuz (which triggered the May 25 CENTCOM strikes) and the drone shootdown claim, Iran is signaling it will not be passive even during active negotiations. The parallel tracks — diplomacy and military posturing — remain in full operation.",
+    "timestamp": "2026-05-26T12:00:00Z",
     "sourceCategory": "osint_analyst",
     "verificationStatus": "confirmed",
-    "verificationNote": "Brent $100.21 confirmed by FX Daily Report May 25 analysis. WTI $92.07 confirmed by Investing.com and TradingEconomics. Gas $4.507 confirmed by AAA newsroom Memorial Day 2026 report.",
-    "keywords": [
-      "oil",
-      "brent",
-      "wti",
-      "gas-prices",
-      "hormuz",
-      "deal",
-      "day87"
-    ]
-  },
-  {
-    "id": "social-1476",
-    "handle": "@IsraelSecurityWatch",
-    "displayName": "Israel Security Watch",
-    "text": "Israel Security Watch: Netanyahu posted an image back-to-back with Trump with the caption 'Iran will never have a bomb' — a clear signal Israel still views nuclear prevention as the bottom line, even as the emerging deal explicitly defers nuclear issues. Senior Israeli officials described the emerging deal as 'bad' because it 'signals Iran possesses a weapon no less effective than a nuclear one' — meaning the Hormuz threat is now institutionalized even if a deal closes. Netanyahu is relying on direct calls to Trump rather than trusting envoy Witkoff.",
-    "timestamp": "2026-05-25T10:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Netanyahu social media post confirmed by Iran International and Times of Israel. Israeli officials 'bad deal' characterization confirmed by Jerusalem Post and Times of Israel liveblog May 25.",
-    "keywords": [
-      "netanyahu",
-      "israel",
-      "iran",
-      "nuclear",
-      "bomb",
-      "deal",
-      "witkoff",
-      "day87"
-    ]
+    "verificationNote": "Shekarchi statement confirmed by PressTV May 26.",
+    "keywords": ["iran", "irgc", "shekarchi", "retaliation", "warning", "military", "ceasefire", "day88"]
   },
   {
     "id": "social-1477",

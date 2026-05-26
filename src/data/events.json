@@ -55393,5 +55393,53 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iran", "pezeshkian", "internet", "blackout", "humanitarian", "normalization", "day88"]
+  },
+  {
+    "id": "evt-new-1650",
+    "title": "IRGC Claims US MQ-9 Reaper Drone Shot Down Over Persian Gulf Airspace",
+    "description": "Iran's Islamic Revolutionary Guard Corps announced it shot down a US MQ-9 Reaper drone that had entered Iranian sovereign airspace over the Persian Gulf on May 26, hours after US self-defense strikes on IRGC mine-laying vessels and missile sites near Bandar Abbas. The IRGC stated its radar tracked three US aircraft — an MQ-9 Reaper, an RQ-4 Global Hawk, and an F-35 — entering Iranian airspace. The IRGC claimed it destroyed the MQ-9 and forced the other two aircraft to immediately withdraw. The US has not publicly confirmed the loss. The incident occurred while Iran's diplomatic delegation remained in Doha for ongoing MOU peace negotiations.",
+    "type": "strike",
+    "lat": 27.0,
+    "lng": 56.5,
+    "location": "Persian Gulf / southern Iranian airspace",
+    "timestamp": "2026-05-26T08:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war live blog May 26",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/26/iran-war-live-israel-pounds-lebanon-iranian-officials-in-qatar-for-talks"
+      },
+      {
+        "name": "Al Jazeera — US strikes Iran again: what we know and is the ceasefire over",
+        "url": "https://www.aljazeera.com/news/2026/5/26/us-strikes-iran-again-what-we-know-and-is-the-ceasefire-over"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "irgc", "us", "drone", "mq-9", "air-defense", "hormuz", "persian-gulf", "day88"]
+  },
+  {
+    "id": "evt-new-1651",
+    "title": "Israeli Airstrike on Mashghara Village, Bekaa Valley, Kills 12 Civilians",
+    "description": "An Israeli airstrike hit the village of Mashghara in the Bekaa Valley, eastern Lebanon, killing at least 12 people, according to Lebanon's state-run National News Agency. The strike occurred overnight May 25-26, hours after Netanyahu's explicit order for the IDF to 'crush Hezbollah.' Israeli forces also struck the outskirts of Midoun in the same Bekaa region. The Israeli military said it was targeting Hezbollah infrastructure in eastern Lebanon. Lebanon's cumulative death toll continues rising past 3,185 confirmed killed since fighting resumed March 2.",
+    "type": "strike",
+    "lat": 33.57,
+    "lng": 35.74,
+    "location": "Mashghara, Bekaa Valley, Lebanon",
+    "timestamp": "2026-05-26T02:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli attacks on eastern Lebanon village kill at least 12",
+        "url": "https://www.aljazeera.com/news/2026/5/26/israeli-attacks-on-eastern-lebanon-village-kill-at-least-12-people"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 12, "wounded": 0},
+    "tags": ["israel", "idf", "hezbollah", "lebanon", "bekaa", "mashghara", "airstrike", "casualties", "day88"]
   }
 ]
