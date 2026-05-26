@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-25T19:09:00Z",
+    "lastUpdated": "2026-05-26T00:05:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 425
+    "totalSites": 427
   },
   "summary": {
-    "totalSites": 492,
-    "confirmed": 409,
+    "totalSites": 494,
+    "confirmed": 411,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7904,6 +7904,46 @@
         {
           "name": "Times of Israel — Day 87 liveblog",
           "url": "https://www.timesofisrael.com/liveblog-may-25-2026/"
+        }
+      ]
+    },
+    {
+      "id": "dmg-497",
+      "name": "IRGC Mine-Laying Vessels + SAM Battery — Bandar Abbas (CENTCOM Strikes)",
+      "location": "Bandar Abbas, Hormozgan Province, Southern Iran",
+      "country": "Iran",
+      "lat": 27.18,
+      "lng": 56.27,
+      "date": "2026-05-25",
+      "type": "military",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "us",
+      "description": "US CENTCOM destroyed two IRGC vessels caught laying mines near the Strait of Hormuz entrance and a surface-to-air missile battery that had targeted US aircraft. A second missile launch site was also destroyed. First US offensive action in Iran since the April 8 ceasefire (Day 47). CENTCOM confirmed: 'The ceasefire of April 8, 2026 remains in effect.'",
+      "sources": [
+        {
+          "name": "NBC News — US military says conducted self-defense strikes targets Iran",
+          "url": "https://www.nbcnews.com/world/iran/us-military-says-conducted-self-defense-strikes-targets-iran-rcna346839"
+        }
+      ]
+    },
+    {
+      "id": "dmg-498",
+      "name": "Hezbollah Command Centers and Weapons Depots — Tyre District (IDF 70+ Site Expansion)",
+      "location": "Tyre, South Lebanon",
+      "country": "Lebanon",
+      "lat": 33.27,
+      "lng": 35.20,
+      "date": "2026-05-25",
+      "type": "military",
+      "category": "military",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "IDF expanded Lebanon offensive to 70+ Hezbollah sites in 24 hours per Netanyahu's 'crush Hezbollah' Telegram order. Targets in Tyre included ~10 command centers and weapons depots. 85+ munitions deployed. Israel issued evacuation orders for 10 villages. 3 killed on Kafr Rumman–Jarmaq highway.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Israel to intensify Lebanon offensive in bid to crush Hezbollah",
+          "url": "https://www.aljazeera.com/news/2026/5/25/israel-to-intensify-lebanon-offensive-in-bid-to-crush-hezbollah"
         }
       ]
     }

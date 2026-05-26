@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-05-25T12:00:00Z",
+  "lastUpdated": "2026-05-26T00:05:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.47,
-      "change": "+15.1%",
-      "detail": "CBOT SRW wheat Jul futures $6.47/bu (May 24 settlement, prev close $6.475). Down from $6.80 May 12 high — traders took profits after US-China summit. USDA forecasts smallest winter wheat harvest since 1965/66. War-related fertilizer shortage continuing.",
-      "source": "Farm Futures / AgWeb — Afternoon market recap May 22",
-      "sourceUrl": "https://www.farmprogress.com/markets-and-quotes/afternoon-market-recap"
+      "current": 6.60,
+      "change": "+17.4%",
+      "detail": "CBOT SRW wheat Jul futures ~$6.60/bu (May 26). Down from $6.80 May 12 high but above $6.47 settlement. USDA May 2026 forecast: US winter wheat 1.048B bushels — down 25% YoY. Severe drought in Kansas/Colorado/Nebraska. War-related nitrogen fertilizer disruption (36% of global urea from Persian Gulf).",
+      "source": "USDA Wheat Outlook May 2026",
+      "sourceUrl": "https://ers.usda.gov/sites/default/files/_laserfiche/outlooks/114142/WHS-26e.pdf"
     },
     {
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.705,
-      "change": "+9.2%",
-      "detail": "Corn Jul futures $4.705/bu (CBOT, May 22 — fell 4.75 cents on day). Disrupted fertilizer supply (nitrogen/urea up 21%) continues to hurt corn economics. USDA projects corn acreage down ~3% in 2026 vs 2025. Pre-war: $4.31/bushel.",
-      "source": "TradingEconomics / Farm Futures — Corn May 22",
+      "current": 4.41,
+      "change": "+2.3%",
+      "detail": "Corn Jul futures ~$4.41/bu (CBOT May 26 est.). Down from $4.705 recent high. Fertilizer disruption from Persian Gulf affecting nitrogen/urea supply (+21% price). USDA projects corn acreage down ~3% in 2026 vs 2025. Pre-war: $4.31/bushel.",
+      "source": "TradingEconomics — Corn",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
     },
     {
@@ -98,5 +98,5 @@
     "source": "TradingEconomics — Urea May 15",
     "sourceUrl": "https://tradingeconomics.com/commodity/urea"
   },
-  "context": "Day 87 (May 25, 2026): Food prices remain elevated as Hormuz Blockade Day 84 continues. Wheat ~$5.00/bu (USDA 2026 projection; war has pushed +9% Q1 vs. prior quarter). Corn ~$4.20/bu (+5-6%). Soybeans ~$10.30/bu. Fertilizer prices forecast +31% in 2026. US food-at-home inflation: +2.9% YoY April 2026. Beef roasts +18%, beef steaks +16%, ground beef +14.5%. Groceries: avg household ~$170/week vs. ~$120 pre-war. Trump Truth Social ultimatum and Rubio 'another way' threat signals deal could close — which would relieve shipping costs but fertilizer/food inflation has more structural causes."
+  "context": "Day 88 (May 26, 2026): Food prices remain elevated as Hormuz Blockade Day 85 continues. Wheat ~$6.60/bu (CBOT; USDA forecasts US winter wheat 25% below 2025 — severe Kansas/Colorado/Nebraska drought). Corn ~$4.41/bu. FAO released report on global agrifood implications of the 2026 conflict — prices for major commodities starting to rise. Fertilizer prices forecast +31% in 2026. US food-at-home inflation: +2.9% YoY April 2026. Groceries: avg household ~$170/week vs. ~$120 pre-war. Iran delegation in Doha for MOU talks — if Hormuz deal signed, shipping cost relief projected in 2-4 weeks but structural food inflation has more persistent causes."
 }

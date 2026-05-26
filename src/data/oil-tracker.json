@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-25T12:00:00Z",
+    "lastUpdated": "2026-05-26T00:05:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 87
+    "conflictDay": 88
   },
   "oilPrices": {
     "preWar": {
@@ -74,18 +74,18 @@
     },
     "current": {
       "brent": {
-        "price": 100.21,
-        "change": "+25.6%",
-        "changeDollars": "+20.41"
+        "price": 96.31,
+        "change": "+20.7%",
+        "changeDollars": "+16.51"
       },
       "wti": {
-        "price": 92.07,
-        "change": "+21.9%",
-        "changeDollars": "+16.57"
+        "price": 90.69,
+        "change": "+20.1%",
+        "changeDollars": "+15.18"
       },
-      "changePercent": "+23.7%",
-      "changeNote": "Day 87 (May 25): Brent $100.21 (+25.6% vs pre-war $79.80), WTI $92.07 (+21.9% vs pre-war $75.51). Both fell sharply on deal optimism as Iran's delegation arrived in Doha for Qatar-mediated talks. Trump issued deal ultimatum on Truth Social; Rubio threatened 'another way' in New Delhi. Araghchi admitted uranium 'deadlock.' Oil fell from May 24 close of Brent $103.54/WTI $96.60. Memorial Day gas: $4.507/gal. Blockade Day 84.",
-      "lastUpdated": "2026-05-25T12:00:00Z"
+      "changePercent": "+20.4%",
+      "changeNote": "Day 88 (May 26): Brent $96.31 (+20.6% vs pre-war $79.80), WTI $90.69 (+20.1% vs pre-war $75.51). Both fell sharply (~6%) on Memorial Day weekend on renewed optimism that the US and Iran are near a 60-day MOU that would reopen the Strait of Hormuz. Iran's delegation (Araghchi + Ghalibaf + Hemmati) arrived in Doha for Qatar-mediated talks. Down from Brent $100.21/WTI $92.07 (Day 87 close). Lowest Brent since mid-April 2026. Gas $4.507/gal (AAA). Blockade Day 85.",
+      "lastUpdated": "2026-05-26T00:05:00Z"
     },
     "priceHistory": [
       {
@@ -693,8 +693,8 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-25T12:00:00Z",
-    "note": "Day 87 (May 25): Brent $100.21 (+25.5%), WTI $92.07 (+21.9%). Oil fell on deal optimism as Iran delegation arrived in Doha. Trump ultimatum: 'great deal or no deal.' Rubio threatened 'another way.' Araghchi admitted uranium deadlock. Blockade Day 84. Gas $4.507/gal (AAA Memorial Day weekend, +41.7%).",
+    "lastUpdated": "2026-05-26T00:05:00Z",
+    "note": "Day 88 (May 26): Brent $96.31 (+20.6%), WTI $90.69 (+20.1%). Oil fell ~6% on Memorial Day weekend on MOU optimism — Iran delegation in Doha, Araghchi + Ghalibaf + Hemmati for 60-day framework talks. Trump: 'blockade stays until certified and signed,' 'time is on our side.' First CENTCOM strikes since ceasefire — IRGC mine-laying boats + missile sites near Bandar Abbas. Lowest Brent since mid-April. Gas $4.507/gal (AAA). Blockade Day 85.",
     "fuels": [
       {
         "type": "Regular Gasoline",
@@ -709,7 +709,7 @@
         },
         "change": "+$1.33",
         "changePercent": "+41.7%",
-        "detail": "Gas $4.507/gal (AAA, Memorial Day weekend May 25). +41.7% from pre-war $3.18 — 4-year high. Slight dip from $4.56 peak as deal optimism returns. If Hormuz deal signed, analysts project -30-50¢ drop in 2-3 weeks.",
+        "detail": "Gas $4.507/gal (AAA, Memorial Day weekend May 25-26). +41.7% from pre-war $3.18 — 4-year high. Stable on Memorial Day as markets await Hormuz deal. If deal signed, analysts project -30-50¢ drop in 2-3 weeks.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -1504,6 +1504,13 @@
       "brent": 100.21,
       "wti": 92.07,
       "label": "Day 87 — Brent $100.21 (+25.5%), WTI $92.07 (+21.9%). Both fall sharply on deal optimism as Iran delegation arrives in Doha. Trump Truth Social ultimatum: 'great deal or no deal.' Rubio in New Delhi threatens 'another way.' Araghchi admits uranium 'deadlock.' Memorial Day gas $4.507/gal (AAA, +41.7%). Hormuz blockade Day 84.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-26",
+      "brent": 96.31,
+      "wti": 90.69,
+      "label": "Day 88 — Brent $96.31 (+20.6%), WTI $90.69 (+20.1%). Oil drops ~6% (Brent -$3.90, WTI -$1.38) on MOU optimism — Iran delegation in Doha, CENTCOM struck IRGC mine-laying boats near Bandar Abbas (first strikes since ceasefire). Trump: 'blockade stays until certified and signed, time is on our side.' Lowest Brent since mid-April 2026. Gas $4.507/gal. Hormuz Blockade Day 85.",
       "isEvent": true
     }
   ]
