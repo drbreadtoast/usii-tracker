@@ -55393,5 +55393,109 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iran", "pezeshkian", "internet", "blackout", "humanitarian", "normalization", "day88"]
+  },
+  {
+    "id": "evt-new-1650",
+    "title": "Tanker 'Olympic Life' Hit by Explosion Off Oman — Bunker Spill Reported",
+    "description": "The Marshall Islands-flagged VLCC 'Olympic Life' reported an external explosion near the waterline on its port side aft while transiting approximately 60 nautical miles east of Muscat, Oman. A bunker fuel spill resulted from the blast. The crew and vessel were reported safe. UKMTO (UK Maritime Trade Operations) issued a warning to mariners in the area. Attribution was unconfirmed; the incident occurred hours after CENTCOM struck IRGC mine-laying vessels near Bandar Abbas, raising concern the tanker may have been struck by an undetonated mine or retaliatory projectile.",
+    "type": "naval",
+    "lat": 23.6,
+    "lng": 59.8,
+    "location": "Gulf of Oman, ~60nm east of Muscat",
+    "timestamp": "2026-05-26T09:45:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "unknown",
+    "sources": [
+      {
+        "name": "gCaptain — Tanker reports explosion off Oman as UKMTO warns ships",
+        "url": "https://gcaptain.com/tanker-reports-explosion-off-oman-as-ukmto-warns-ships-to-use-caution/"
+      },
+      {
+        "name": "Seatrade Maritime — Bunker spill after tanker hit by explosion off Oman",
+        "url": "https://www.seatrade-maritime.com/security/bunker-spill-after-tanker-hit-by-explosion-off-oman"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["naval", "tanker", "oman", "hormuz", "explosion", "ukmto", "shipping", "day88"]
+  },
+  {
+    "id": "evt-new-1651",
+    "title": "IDF Expands Ground Operations Beyond Yellow Line Into Zawtar al-Sharqiya",
+    "description": "The IDF confirmed expanding ground operations beyond its self-declared security zone ('Yellow Line') north of the Litani River, advancing toward Zawtar al-Sharqiya in southern Lebanon. IDF disclosed a weeklong Golani Brigade reconnaissance raid north of the Litani River destroying Hezbollah tunnels, weapons depots, and rocket launchers — claiming 45 targets struck and 15 Hezbollah fighters killed in the preceding 24 hours. Robotic systems were used for some advances. The expansion was concurrent with Hezbollah fighter resistance at the village outskirts. This is the first time IDF troops crossed the Yellow Line since the zone was established, representing a significant tactical escalation.",
+    "type": "movement",
+    "lat": 33.35,
+    "lng": 35.45,
+    "location": "Zawtar al-Sharqiya, southern Lebanon",
+    "timestamp": "2026-05-26T05:30:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — IDF says it carried out weeklong raid on Hezbollah sites beyond Litani River",
+        "url": "https://www.timesofisrael.com/idf-says-it-carried-out-weeklong-raid-on-hezbollah-sites-beyond-lebanons-litani-river/"
+      },
+      {
+        "name": "Al-Monitor — Israel expands ground operation beyond Yellow Line south Lebanon",
+        "url": "https://www.al-monitor.com/originals/2026/05/israel-expands-ground-operation-beyond-yellow-line-south-lebanon-clashes"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 15, "wounded": 0},
+    "tags": ["israel", "idf", "lebanon", "hezbollah", "ground-operation", "yellow-line", "litani", "day88"]
+  },
+  {
+    "id": "evt-new-1652",
+    "title": "Israel Strikes Road Near Qaraoun Dam — Lebanon's Largest Dam — First Such Attack",
+    "description": "Israeli aircraft fired three missiles at the road adjacent to the Qaraoun Dam in the Bekaa Valley — Lebanon's largest dam — marking the first strike in the area since the March escalation began. Rocks and debris were scattered into the reservoir by the blast. Lebanon's National Litani River Authority dispatched technical teams to assess structural integrity of the dam. No direct damage to the dam structure was confirmed, but major concern arose given Qaraoun's role in Lebanon's electricity generation, irrigation, and water supply for the Bekaa Valley.",
+    "type": "infrastructure",
+    "lat": 33.58,
+    "lng": 35.67,
+    "location": "Qaraoun Dam, Bekaa Valley, Lebanon",
+    "timestamp": "2026-05-26T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Anadolu Agency — Israeli strike hits area near Lebanon's largest dam in 1st such attack",
+        "url": "https://aa.com.tr/en/middle-east/israeli-strike-hits-area-near-lebanon-s-largest-dam-in-1st-such-attack-since-escalation-began/3949162"
+      },
+      {
+        "name": "L'Orient Today — Live updates: Israeli escalation in south Lebanon",
+        "url": "https://today.lorientlejour.com/article/1508029/despite-us-strikes-rubio-says-iran-deal-possible-soon-israeli-escalation-in-south-lebanon-live.html"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["israel", "idf", "lebanon", "infrastructure", "dam", "bekaa", "day88"]
+  },
+  {
+    "id": "evt-new-1653",
+    "title": "Israel Targets New Hamas Military Chief Mohammed Odeh in Gaza Strike",
+    "description": "Israeli PM Netanyahu and Defense Minister Katz announced Israel targeted Mohammed Odeh — Hamas's newly appointed military chief — in a strike on Gaza City's Rimal neighborhood. Odeh had been appointed head of the Ezzedine Al-Qassam Brigades approximately 11 days after Israel killed his predecessor. Odeh served as head of Hamas intelligence during the October 7, 2023 attacks. Confirmation of Odeh's death was pending at time of reporting; the residential building struck saw 2 killed and 10 wounded. Israel has now eliminated three Hamas military chiefs during the conflict.",
+    "type": "strike",
+    "lat": 31.52,
+    "lng": 34.44,
+    "location": "Rimal neighborhood, Gaza City, Gaza",
+    "timestamp": "2026-05-26T10:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "likely",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Times of Israel — Israel targets Hamas's new military chief Mohammed Odeh",
+        "url": "https://www.timesofisrael.com/liveblog_entry/israel-targets-hamass-new-military-chief-say-netanyahu-and-katz-11-days-after-killing-his-predecessor/"
+      },
+      {
+        "name": "Ynet News — Israel targets new Hamas military chief in Gaza",
+        "url": "https://www.ynetnews.com/article/hyih4w7ezx"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": {"killed": 2, "wounded": 10},
+    "tags": ["israel", "idf", "gaza", "hamas", "strike", "targeted-killing", "day88"]
   }
 ]

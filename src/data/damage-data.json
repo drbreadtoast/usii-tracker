@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-26T00:05:00Z",
+    "lastUpdated": "2026-05-26T19:09:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -7944,6 +7944,46 @@
         {
           "name": "Al Jazeera — Israel to intensify Lebanon offensive in bid to crush Hezbollah",
           "url": "https://www.aljazeera.com/news/2026/5/25/israel-to-intensify-lebanon-offensive-in-bid-to-crush-hezbollah"
+        }
+      ]
+    },
+    {
+      "id": "dmg-499",
+      "name": "Mashghara Village — Residential Buildings (IDF Bekaa Airstrike, 12 Killed)",
+      "location": "Mashghara, Bekaa Valley, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.67,
+      "lng": 35.68,
+      "date": "2026-05-26",
+      "type": "civilian",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli airstrikes hit Mashghara village in the Bekaa Valley. Lebanon's health ministry confirmed at least 12 killed and 15 wounded. Part of IDF intensification of Bekaa Valley targeting following Netanyahu's 'crush Hezbollah' order.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Israeli attacks on eastern Lebanon village kill at least 12 people",
+          "url": "https://www.aljazeera.com/news/2026/5/26/israeli-attacks-on-eastern-lebanon-village-kill-at-least-12-people"
+        }
+      ]
+    },
+    {
+      "id": "dmg-500",
+      "name": "Qaraoun Dam Road — Adjacent Infrastructure (First Strike Near Lebanon's Largest Dam)",
+      "location": "Qaraoun Dam, Bekaa Valley, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.58,
+      "lng": 35.67,
+      "date": "2026-05-26",
+      "type": "infrastructure",
+      "category": "infrastructure",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli aircraft fired three missiles at the road adjacent to the Qaraoun Dam — Lebanon's largest dam — in the first strike in the area since March. Rocks and debris scattered into the reservoir. National Litani River Authority dispatched technical teams to inspect dam structural integrity. No direct dam damage confirmed but major concern for water/electricity supply.",
+      "sources": [
+        {
+          "name": "Anadolu Agency — Israeli strike hits area near Lebanon's largest dam in 1st such attack",
+          "url": "https://aa.com.tr/en/middle-east/israeli-strike-hits-area-near-lebanon-s-largest-dam-in-1st-such-attack-since-escalation-began/3949162"
         }
       ]
     }

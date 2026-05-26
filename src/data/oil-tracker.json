@@ -74,18 +74,18 @@
     },
     "current": {
       "brent": {
-        "price": 98.11,
-        "change": "+22.9%",
-        "changeDollars": "+18.31"
+        "price": 99.52,
+        "change": "+24.7%",
+        "changeDollars": "+19.72"
       },
       "wti": {
-        "price": 91.00,
-        "change": "+20.5%",
-        "changeDollars": "+15.49"
+        "price": 93.89,
+        "change": "+24.4%",
+        "changeDollars": "+18.39"
       },
-      "changePercent": "+21.7%",
-      "changeNote": "Day 88 AM (May 26): Brent $98.11 (+22.9% vs pre-war $79.80), WTI $91.00 (+20.5% vs pre-war $75.51). Prices rebounded from Memorial Day overnight low (Brent $96.31, WTI $90.69) as markets processed CENTCOM self-defense strikes on IRGC mine-laying boats + SAM site near Bandar Abbas — first US action in Iran since April 8 ceasefire. Doha peace talks ongoing. Austria DSN intel report: Iran nuclear program 'well-advanced.' Gas $4.507/gal (AAA). Blockade Day 85.",
-      "lastUpdated": "2026-05-26T06:00:00Z"
+      "changePercent": "+24.5%",
+      "changeNote": "Day 88 PM (May 26): Brent $99.52 (+24.7% vs pre-war $79.80), WTI $93.89 (+24.3% vs pre-war $75.51). Volatile session — Brent jumped above $100 intraday after Iran vowed retaliation for CENTCOM self-defense strikes on IRGC mine-laying boats + SAM battery near Bandar Abbas. Trump adds Abraham Accords demand to deal conditions. Mojtaba Khamenei's Hajj statement: 'Death to America/Israel will continue.' IDF crosses Yellow Line into Zawtar al-Sharqiya. Doha MOU talks continue. Gas $4.491/gal (AAA). Blockade Day 85.",
+      "lastUpdated": "2026-05-26T19:09:00Z"
     },
     "priceHistory": [
       {
@@ -704,12 +704,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.507,
-          "date": "2026-05-25"
+          "price": 4.491,
+          "date": "2026-05-26"
         },
-        "change": "+$1.33",
-        "changePercent": "+41.7%",
-        "detail": "Gas $4.507/gal (AAA, Memorial Day weekend May 25-26). +41.7% from pre-war $3.18 — 4-year high. Stable on Memorial Day as markets await Hormuz deal. If deal signed, analysts project -30-50¢ drop in 2-3 weeks.",
+        "change": "+$1.31",
+        "changePercent": "+41.2%",
+        "detail": "Gas $4.491/gal (AAA Memorial Day May 26, 4-year high). +41.2% from pre-war $3.18. Slight dip from $4.507 AM on holiday traffic easing. If Hormuz deal signed, analysts project -30-50¢ drop in 2-3 weeks.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -787,11 +787,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.507,
-    "gasPriceRegular": 4.507,
+    "regularGasoline": 4.491,
+    "gasPriceRegular": 4.491,
     "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.33",
-    "changePercent": "+41.7%"
+    "changeFromPreWar": "+$1.311",
+    "changePercent": "+41.2%"
   },
   "keyFacts": [
     {
@@ -1518,6 +1518,13 @@
       "brent": 98.11,
       "wti": 91.00,
       "label": "Day 88 AM — Brent $98.11 (+22.9%), WTI $91.00 (+20.5%). Prices rebound $1.80 from overnight Memorial Day low as CENTCOM strikes on IRGC mine-laying boats/SAM battery near Bandar Abbas add ceasefire-stress premium. Austrian DSN annual report: Iran nuclear weapons program 'well-advanced,' missiles 'ready to carry nuclear warheads' — Iran calls report 'fake.' Doha MOU talks continue. Gas $4.507/gal. Hormuz Blockade Day 85.",
+      "isEvent": true
+    },
+    {
+      "date": "2026-05-26",
+      "brent": 99.52,
+      "wti": 93.89,
+      "label": "Day 88 PM — Brent $99.52 (+24.7%), WTI $93.89 (+24.3%). Volatile session — Brent briefly crossed $100 intraday as Iran vowed retaliation for CENTCOM strikes and Mojtaba Khamenei's Hajj statement ('Death to America/Israel') rattled markets. Trump adds Abraham Accords condition to deal. Rubio from India: 'takes a few days.' IDF crosses Yellow Line into Zawtar. VLCC Olympic Life hit by explosion off Oman. Gas $4.491/gal (AAA, slightly down from $4.507). Blockade Day 85.",
       "isEvent": true
     }
   ]
