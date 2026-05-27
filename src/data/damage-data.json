@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-26T19:09:00Z",
+    "lastUpdated": "2026-05-27T06:02:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -25,11 +25,11 @@
         "url": "https://www.maxar.com/"
       }
     ],
-    "totalSites": 427
+    "totalSites": 429
   },
   "summary": {
-    "totalSites": 494,
-    "confirmed": 411,
+    "totalSites": 496,
+    "confirmed": 413,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -39,13 +39,13 @@
       "infrastructure": 12,
       "civilian": 44,
       "media_civilian": 2,
-      "residential": 4,
+      "residential": 6,
       "energy": 5,
       "diplomatic": 1,
       "religious": 1,
       "government": 1
     },
-    "lastUpdated": "2026-05-22T12:12:00Z",
+    "lastUpdated": "2026-05-27T06:02:00Z",
     "military": 60,
     "energy": 7,
     "infrastructure": 13
@@ -8008,6 +8008,46 @@
         {
           "name": "Al Jazeera — US strikes Iran again — what we know and is the ceasefire over?",
           "url": "https://www.aljazeera.com/news/2026/5/26/us-strikes-iran-again-what-we-know-and-is-the-ceasefire-over"
+        }
+      ]
+    },
+    {
+      "id": "dmg-502",
+      "name": "Mashghara Village Residential Strike — IDF Bekaa Valley",
+      "location": "Mashghara, Bekaa Valley, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.56,
+      "lng": 35.68,
+      "date": "2026-05-26",
+      "type": "residential",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli airstrike on the village of Mashghara in the Bekaa Valley, Lebanon, killed 12 people including a woman and two children. Lebanon's National News Agency confirmed the strike. The attack was part of the IDF overnight offensive targeting 100+ Hezbollah sites across southern Lebanon and the Bekaa Valley on May 25-26.",
+      "sources": [
+        {
+          "name": "US News/AP — Israeli strike on village in eastern Lebanon kills 12",
+          "url": "https://www.usnews.com/news/world/articles/2026-05-26/israeli-strike-on-village-in-eastern-lebanon-kills-12"
+        }
+      ]
+    },
+    {
+      "id": "dmg-503",
+      "name": "Burj al-Shamali Residential Strike — IDF Tyre District",
+      "location": "Burj al-Shamali, Tyre District, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.26,
+      "lng": 35.34,
+      "date": "2026-05-26",
+      "type": "residential",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli airstrike on the town of Burj al-Shamali in the Tyre District of southern Lebanon killed 14 people including two children and three women. Part of the IDF offensive striking over 100 Hezbollah sites overnight May 25-26.",
+      "sources": [
+        {
+          "name": "NBC News — Israel military says striking Hezbollah sites; Netanyahu orders expansion",
+          "url": "https://www.nbcnews.com/world/israel/israel-military-says-striking-hezbollah-sites-netanyahu-rcna346837"
         }
       ]
     }
