@@ -174,5 +174,71 @@
     "verificationStatus": "confirmed",
     "verificationNote": "Oil prices per CNBC May 26. Gas price per AAA newsroom. All events confirmed by cited news sources.",
     "keywords": ["oil", "brent", "wti", "gas", "hormuz", "iran", "ceasefire", "doha", "day88"]
+  },
+  {
+    "id": "social-1500",
+    "handle": "@IranCeasefireWatch",
+    "displayName": "Iran Ceasefire Watch",
+    "text": "Iran Ceasefire Watch: The Iran FM's 'gross ceasefire violation' declaration marks the most formal protest since the April 8 ceasefire — but it's paired with Iran's delegation remaining in Doha. This is the pattern: Iran issues maximum rhetoric while continuing to negotiate. The IRGC's claimed MQ-9 shootdown fits the same template — maximum information operations pressure while preserving the diplomatic track. Key question: how long can Tehran maintain this dual-track before domestic hardliners force a real response?",
+    "timestamp": "2026-05-27T00:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Iran FM statement confirmed by Newsweek, Press TV, Al Jazeera (May 26). Doha delegation still present confirmed by CBS News. IRGC MQ-9 claim per Jerusalem Post (unconfirmed by CENTCOM).",
+    "keywords": ["iran", "ceasefire", "doha", "foreign-ministry", "irgc", "mq9", "retaliation", "day89"]
+  },
+  {
+    "id": "social-1501",
+    "handle": "@Day89OilDesk",
+    "displayName": "Day 89 Oil Desk",
+    "text": "Day 89 Oil Desk: Brent crude settles at ~$97.80/bbl (-1.7% from Day 88 PM high of $99.52). WTI at $93.96/bbl. The pullback from near-$100 levels reflects two countervailing forces: (1) Iran delegation still in Doha despite ceasefire violation rhetoric — market reads this as deal still alive; (2) But fresh CENTCOM strikes, IRGC MQ-9 claim, and Abraham Accords demand add uncertainty. Goldman Sachs maintains $85 Brent target conditional on Hormuz deal. If deal collapses: $115+ scenario. Gas steady at $4.491/gal. Hormuz Blockade Day 86.",
+    "timestamp": "2026-05-27T00:01:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Brent $97.80 and WTI $93.96 confirmed by CNBC, TradingEconomics (May 26-27). Gas $4.491 per AAA. Blockade Day 86 per calculation from Mar 3 start date.",
+    "keywords": ["oil", "brent", "wti", "gas", "hormuz", "blockade", "day89"]
+  },
+  {
+    "id": "social-1502",
+    "handle": "@NetanyahuDealWatch",
+    "displayName": "Netanyahu Deal Watch",
+    "text": "Netanyahu Deal Watch: Netanyahu's 60 Minutes statement — 'Yes' regime change is possible, 'No' it's not guaranteed — combined with his insistence that any deal must 'eliminate the nuclear danger' including dismantling enrichment sites, sets up a collision with the emerging Trump-Iran framework. The US-Iran MOU draft does NOT include enrichment site dismantling — only a commitment to 'never pursue nuclear weapons.' IDF is simultaneously drawing up contingency plans in case an Iran deal forces it to halt Lebanon operations. This is the most significant US-Israel tension of the war.",
+    "timestamp": "2026-05-27T00:01:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Netanyahu 60 Minutes quote confirmed by Iran International, NPR (May 25). IDF Lebanon contingency plans per Times of Israel. MOU framework from Axios/CNN (May 24).",
+    "keywords": ["netanyahu", "iran", "nuclear", "deal", "idf", "lebanon", "us-israel", "day89"]
+  },
+  {
+    "id": "social-1503",
+    "handle": "@AbrahamAccordsTracker",
+    "displayName": "Abraham Accords Tracker",
+    "text": "Abraham Accords Tracker: Trump's demand that Egypt, Jordan, Pakistan, Qatar, Saudi Arabia, and Bahrain 'simultaneously sign the Abraham Accords' as part of any Iran deal is generating significant backlash. Qatar and Pakistan have zero domestic political space for normalization with Israel right now. Egypt and Jordan already have peace treaties with Israel but normalizing under these conditions would be domestically toxic. Saudi Arabia's Crown Prince MBS has been pursuing his own quiet normalization track for years — but on his timeline, not Trump's. This condition could be Trump's negotiating leverage or a genuine dealbreaker.",
+    "timestamp": "2026-05-27T00:01:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump Truth Social post confirmed by Times of Israel, CNN, Washington Post (May 26). Camp David meeting Wednesday per Fox News. Rubio declining to endorse condition per ABC/NBC reporting.",
+    "keywords": ["trump", "abraham-accords", "iran", "deal", "qatar", "saudi", "pakistan", "day89"]
+  },
+  {
+    "id": "social-1504",
+    "handle": "@LebanonDay89Desk",
+    "displayName": "Lebanon Day 89 Desk",
+    "text": "Lebanon Day 89 Desk: IDF-Hezbollah Litani River clashes continue into Day 89 morning. Hezbollah's fiber-optic guided drone attacks on Israeli forces are the key tactical story — these drones are immune to GPS jamming (fiber-optic cable guided) and difficult to intercept. IDF has 11 soldiers killed since Lebanon ceasefire, mostly from these precision drone strikes. Israel's Yellow Line expansion into Zawtar al-Sharqiya signals intent to push Hezbollah north of the Litani permanently. Lebanon cumulative toll: 3,213 killed, 9,737 wounded. IDF drawing up contingency plans in case Iran deal forces halt to Lebanon operations.",
+    "timestamp": "2026-05-27T00:01:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Litani clashes confirmed by PBS NewsHour, Jerusalem Post (May 26). Fiber-optic drone capability confirmed by Times of Israel. Lebanon toll per Lebanese Health Ministry. IDF contingency plans per Times of Israel.",
+    "keywords": ["lebanon", "hezbollah", "idf", "litani", "drones", "fiber-optic", "yellow-line", "day89"]
+  },
+  {
+    "id": "social-1505",
+    "handle": "@IranReconstitutionAlert",
+    "displayName": "Iran Reconstitution Alert",
+    "text": "Iran Reconstitution Alert: US intelligence has confirmed to CNN that Iran is reconstituting its military capacity faster than projected — including restarting some drone production during the ceasefire. Chinese component transfers and Russian support are primary drivers. A US official: 'The Iranians have exceeded all timelines the IC had for reconstitution.' If accurate, this means any peace deal must account for Iran's ability to re-arm rapidly. The 60-day MOU framework may be too short to prevent a reset of Iran's offensive capacity. Austria's DSN: Iranian ballistic missiles 'ready to carry nuclear warheads.'",
+    "timestamp": "2026-05-27T00:01:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "US intelligence assessment confirmed by CNN (May 21). Austrian DSN annual report confirmed by Iran International, Fox News (May 25-26). DEFCON Warning System assessment May 25.",
+    "keywords": ["iran", "military", "reconstitution", "drone", "nuclear", "intelligence", "ceasefire", "day89"]
   }
 ]
