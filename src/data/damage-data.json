@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Iran-Israel Conflict Damage Tracker",
     "description": "Comprehensive mapping of all confirmed, reported, and rumored damage from the Iran-Israel conflict across all countries, covering civilian, infrastructure, military, and nuclear facility damage.",
-    "lastUpdated": "2026-05-27T06:02:00Z",
+    "lastUpdated": "2026-05-27T12:06:00Z",
     "sources": [
       {
         "name": "CENTCOM",
@@ -28,8 +28,8 @@
     "totalSites": 429
   },
   "summary": {
-    "totalSites": 496,
-    "confirmed": 413,
+    "totalSites": 503,
+    "confirmed": 417,
     "reported": 1,
     "rumored": 0,
     "countriesAffected": 15,
@@ -7833,7 +7833,7 @@
       "location": "Tyre district, Southern Lebanon",
       "country": "Lebanon",
       "lat": 33.27,
-      "lng": 35.20,
+      "lng": 35.2,
       "date": "2026-05-25",
       "type": "military",
       "category": "military",
@@ -7852,7 +7852,7 @@
       "name": "Civilian Areas — Southern Lebanon (May 24 Strikes)",
       "location": "al-Namiriya, al-Duweir, Abba, Jebchit, Arab Salim, Southern Lebanon",
       "country": "Lebanon",
-      "lat": 33.30,
+      "lat": 33.3,
       "lng": 35.35,
       "date": "2026-05-24",
       "type": "civilian",
@@ -7892,7 +7892,7 @@
       "name": "Civilian and Hezbollah Sites — Kfar Roumman, Kafr Qana, Nabatieh (IDF Strikes)",
       "location": "Kfar Roumman, Kafr Qana, Nabatieh, South Lebanon",
       "country": "Lebanon",
-      "lat": 33.30,
+      "lat": 33.3,
       "lng": 35.46,
       "date": "2026-05-25",
       "type": "civilian",
@@ -7933,7 +7933,7 @@
       "location": "Tyre, South Lebanon",
       "country": "Lebanon",
       "lat": 33.27,
-      "lng": 35.20,
+      "lng": 35.2,
       "date": "2026-05-25",
       "type": "military",
       "category": "military",
@@ -8048,6 +8048,90 @@
         {
           "name": "NBC News — Israel military says striking Hezbollah sites; Netanyahu orders expansion",
           "url": "https://www.nbcnews.com/world/israel/israel-military-says-striking-hezbollah-sites-netanyahu-rcna346837"
+        }
+      ]
+    },
+    {
+      "id": "dmg-504",
+      "name": "Nabatieh Public Hospital — Israeli Airstrike Damage",
+      "location": "Nabatieh, South Lebanon, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.38,
+      "lng": 35.484,
+      "date": "2026-05-27",
+      "type": "medical",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "An Israeli airstrike caused significant damage to multiple departments of Nabatieh's public hospital on May 27, 2026. The strike occurred after Israel issued the first-ever evacuation order for Nabatieh. An AFP correspondent on the ground reported plumes of smoke from multiple locations including the hospital vicinity. The UN flagged the hospital strike in its May 27 report.",
+      "sources": [
+        {
+          "name": "UN News — Israeli strikes damage Nabatieh hospital and civil defense center",
+          "url": "https://news.un.org/en/story/2026/05/1167590"
+        },
+        {
+          "name": "Euronews — Israel expands military ground operations in southern Lebanon",
+          "url": "https://www.euronews.com/2026/05/27/israel-expands-military-ground-operations-in-southern-lebanon-as-clashes-with-hezbollah-in"
+        }
+      ]
+    },
+    {
+      "id": "dmg-505",
+      "name": "Nabatieh Civil Defense Center — Destroyed",
+      "location": "Nabatieh, South Lebanon, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.377,
+      "lng": 35.482,
+      "date": "2026-05-27",
+      "type": "infrastructure",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli airstrikes destroyed the Civil Defense Center in Nabatieh on May 27, 2026, incinerating all firefighting and rescue equipment and heavy machinery. The destruction of the Civil Defense Center eliminates emergency response capacity for southern Lebanon's largest city north of the Litani River at a time of intensive military operations.",
+      "sources": [
+        {
+          "name": "UN News — Israeli strikes damage Nabatieh hospital and civil defense center",
+          "url": "https://news.un.org/en/story/2026/05/1167590"
+        }
+      ]
+    },
+    {
+      "id": "dmg-506",
+      "name": "Deir Amas Residential Airstrike — 2 Killed",
+      "location": "Deir Amas, Tyre District, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.2183,
+      "lng": 35.2636,
+      "date": "2026-05-27",
+      "type": "residential",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli warplanes struck the town of Deir Amas in the Tyre district at dawn on May 27, 2026, killing two people and wounding one. A separate Israeli air raid on nearby Braiqaa destroyed two homes. Lebanon's National News Agency confirmed the casualties.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Israeli air attack kills at least two in southern Lebanon",
+          "url": "https://www.aljazeera.com/news/2026/5/27/israeli-air-attack-kills-at-least-two-in-southern-lebanon"
+        }
+      ]
+    },
+    {
+      "id": "dmg-507",
+      "name": "Braiqaa Residential Strikes — Two Homes Destroyed",
+      "location": "Braiqaa, South Lebanon, Lebanon",
+      "country": "Lebanon",
+      "lat": 33.23,
+      "lng": 35.3,
+      "date": "2026-05-27",
+      "type": "residential",
+      "category": "civilian",
+      "verificationStatus": "confirmed",
+      "attributedTo": "israel",
+      "description": "Israeli air raids on the town of Braiqaa in southern Lebanon destroyed two homes on May 27, 2026. The strikes were part of the broader overnight offensive in which Israel struck more than 120 Hezbollah sites across Lebanon.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Israeli air attack kills at least two in southern Lebanon",
+          "url": "https://www.aljazeera.com/news/2026/5/27/israeli-air-attack-kills-at-least-two-in-southern-lebanon"
         }
       ]
     }

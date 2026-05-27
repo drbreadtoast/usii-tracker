@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Global Oil Market Tracker — Iran-Israel Conflict",
-    "lastUpdated": "2026-05-27T06:02:00Z",
+    "lastUpdated": "2026-05-27T12:06:00Z",
     "updateFrequency": "Every 6 hours during active conflict",
     "sources": [
       {
@@ -53,7 +53,7 @@
     ],
     "methodology": "Oil prices reflect front-month futures contract settlements. Production figures use the most recent EIA and OPEC reporting. Consumer fuel prices are national weighted averages from AAA and EIA weekly surveys. All data sourced from official government and international agency publications.",
     "disclaimer": "Oil market data is sourced from the U.S. Energy Information Administration (EIA), OPEC, and the International Energy Agency (IEA). Production figures and reserves data reflect the most recently published official statistics. Prices and consumer impact figures are based on published government data. Click source links to verify all figures independently.",
-    "conflictDay": 88
+    "conflictDay": 89
   },
   "oilPrices": {
     "preWar": {
@@ -84,8 +84,8 @@
         "changeDollars": "+18.49"
       },
       "changePercent": "+24.4%",
-      "changeNote": "Day 89 (May 27): Brent $99.18 (+24.3% vs pre-war $79.80), WTI $94.00 (+24.5% vs pre-war $75.51). Brent rose 3%+ on May 26 after Iran vowed retaliation for CENTCOM strikes on IRGC mine-laying boats. Khamenei Hajj message declared 'US era is over'; Iran Armed Forces threatened attacks 'more severe' than previous wars. IDF expanded Lebanon ground ops north of Litani River. Doha MOU talks fragile but ongoing. Trump walked back 'largely negotiated' claim. IEA 53.3M bbl SPR tranche release underway. Hormuz Blockade Day 86. Gas $4.491/gal (AAA).",
-      "lastUpdated": "2026-05-27T06:02:00Z"
+      "changeNote": "Day 89 AM (May 27): Brent $99.18 (+24.3% vs pre-war $79.80), WTI $94.00 (+24.5% vs pre-war $75.51). Gas updated to $4.56/gal (AAA Memorial Day official 4-year high; all 50 states above $4). Israel orders first-ever evacuation of Nabatieh; strikes hospital and Civil Defense Center. Trump claims deal 'close to finalizing with strong inspections'; Shamkhani calls it 'fantasy.' IRGC warns Iran's south is 'graveyard for aggressors.' Hezbollah claims 32 ops at Zawtar al-Sharqiya. Doha MOU talks fragile. IEA 53.3M bbl SPR tranche release underway. Hormuz Blockade Day 86.",
+      "lastUpdated": "2026-05-27T12:06:00Z"
     },
     "priceHistory": [
       {
@@ -693,7 +693,7 @@
   "consumerImpact": {
     "currency": "USD",
     "unit": "$/gallon",
-    "lastUpdated": "2026-05-26T06:00:00Z",
+    "lastUpdated": "2026-05-27T12:06:00Z",
     "note": "Day 88 AM (May 26): Brent rebounded to $98.11 (+22.9%), WTI to ~$91.00 (+20.5%) from Memorial Day overnight low ($96.31/$90.69). Oil rallied as CENTCOM self-defense strikes on IRGC mine-laying boats + SAM site near Bandar Abbas added risk premium. Austria DSN: Iran nuclear program 'well-advanced.' Iran delegation still in Doha for MOU talks. Gas $4.507/gal (AAA). Blockade Day 85.",
     "fuels": [
       {
@@ -704,12 +704,12 @@
           "date": "2026-02-27"
         },
         "current": {
-          "price": 4.491,
-          "date": "2026-05-26"
+          "price": 4.56,
+          "date": "2026-05-27"
         },
-        "change": "+$1.31",
-        "changePercent": "+41.2%",
-        "detail": "Gas $4.491/gal (AAA Memorial Day May 26, 4-year high). +41.2% from pre-war $3.18. Slight dip from $4.507 AM on holiday traffic easing. If Hormuz deal signed, analysts project -30-50¢ drop in 2-3 weeks.",
+        "change": "+$1.38",
+        "changePercent": "+43.4%",
+        "detail": "Gas $4.56/gal (AAA Memorial Day 2026 official figure, 4-year high). All 50 states above $4.00 for first time since 2022. CA $6.14. MS $4.01. +43.4% from pre-war $3.18. If Hormuz deal signed, analysts project -30-50¢ drop in 2-3 weeks.",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
       {
@@ -787,11 +787,11 @@
       "annualizedCost": 3420,
       "detail": "Average US household of 4 facing an estimated $285/month increase in energy-related costs. Lower-income households (bottom quintile) spending 22% of income on energy, up from 14%."
     },
-    "regularGasoline": 4.491,
-    "gasPriceRegular": 4.491,
+    "regularGasoline": 4.56,
+    "gasPriceRegular": 4.56,
     "gasPriceDiesel": "$5.65/gal",
-    "changeFromPreWar": "+$1.311",
-    "changePercent": "+41.2%"
+    "changeFromPreWar": "+$1.38",
+    "changePercent": "+43.4%"
   },
   "keyFacts": [
     {
@@ -903,7 +903,7 @@
       "sourceUrl": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade"
     }
   ],
-  "lastUpdated": "2026-05-26T06:00:00Z",
+  "lastUpdated": "2026-05-27T12:06:00Z",
   "priceHistory": [
     {
       "date": "2026-03-17",

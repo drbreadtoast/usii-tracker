@@ -38,47 +38,6 @@
     ]
   },
   {
-    "id": "social-1496",
-    "handle": "@IDFGroundOpsTracker",
-    "displayName": "IDF Ground Ops Tracker",
-    "text": "IDF Ground Ops Tracker: The IDF's Yellow Line crossing into Zawtar al-Sharqiya is the first confirmed breach of Israel's self-declared buffer zone in southern Lebanon since it was established. The Golani Brigade's weeklong raid north of the Litani claimed 45 targets and 15 Hezbollah fighters killed. Hezbollah countered with loitering munitions \u2014 claiming a Merkava tank destroyed at 08:45 local time. IDF also hit the road near Qaraoun Dam for the first time. Lebanese Health Ministry updated cumulative toll to 3,213 killed (9,737 wounded).",
-    "timestamp": "2026-05-26T11:00:00Z",
-    "sourceCategory": "osint_analyst",
-    "verificationStatus": "confirmed",
-    "verificationNote": "IDF Yellow Line expansion confirmed by Al-Monitor and Times of Israel. Golani raid per Times of Israel. Qaraoun Dam strike per Anadolu Agency. Lebanon toll per Al Jazeera.",
-    "keywords": [
-      "idf",
-      "israel",
-      "lebanon",
-      "hezbollah",
-      "yellow-line",
-      "zawtar",
-      "litani",
-      "qaraoun",
-      "day88"
-    ]
-  },
-  {
-    "id": "social-1497",
-    "handle": "@MaritimeSecDesk",
-    "displayName": "Maritime Security Desk",
-    "text": "Maritime Security Desk: The explosion aboard VLCC 'Olympic Life' ~60nm off Muscat, Oman raises the threat level in the broader Gulf of Oman maritime corridor. The incident occurred hours after CENTCOM sank IRGC mine-laying vessels near Bandar Abbas \u2014 suggesting either a mine from that operation drifted, or Iran conducted a retaliatory strike. UKMTO advisory is now in effect. Oil traders noted this event contributed to Brent crossing $100 intraday today \u2014 first time since early May.",
-    "timestamp": "2026-05-26T12:00:00Z",
-    "sourceCategory": "lead_source",
-    "verificationStatus": "confirmed",
-    "verificationNote": "Tanker explosion confirmed by gCaptain and Seatrade Maritime. UKMTO advisory confirmed. Brent $100+ intraday per CNBC.",
-    "keywords": [
-      "tanker",
-      "oman",
-      "explosion",
-      "ukmto",
-      "shipping",
-      "hormuz",
-      "oil",
-      "day88"
-    ]
-  },
-  {
     "id": "social-1498",
     "handle": "@GazaOpsWatch",
     "displayName": "Gaza Operations Watch",
@@ -348,6 +307,120 @@
       "military",
       "nuclear",
       "intelligence",
+      "day89"
+    ]
+  },
+  {
+    "id": "social-1512",
+    "handle": "@NabatiyehWatch",
+    "displayName": "Nabatieh Conflict Watch",
+    "text": "Nabatieh Conflict Watch: The Israeli evacuation order for Nabatieh represents a major strategic shift — this is the first time Israel has targeted the largest city in southern Lebanon north of the Litani River. Strikes hit the public hospital (significant structural damage) and destroyed the Civil Defense Center (all firefighting and rescue equipment lost). 50+ towns received evacuation orders. This is the most extensive single-day operation in South Lebanon since IDF crossed the Yellow Line on May 26.",
+    "timestamp": "2026-05-27T08:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Nabatieh evacuation and hospital strike confirmed by UN News (May 27), Euronews (May 27), RTÉ News (May 27). Civil Defense Center destruction per Euronews liveblog.",
+    "keywords": [
+      "israel",
+      "lebanon",
+      "nabatieh",
+      "hospital",
+      "evacuation",
+      "civil-defense",
+      "day89"
+    ]
+  },
+  {
+    "id": "social-1513",
+    "handle": "@TrumpIranInspectDesk",
+    "displayName": "Trump-Iran Inspections Desk",
+    "text": "Trump-Iran Inspections Desk: Trump's claim both sides are 'close to finalizing an agreement involving strong inspections' of Iran's nuclear program immediately drew pushback from Ali Shamkhani — Khamenei's top security advisor — who called the inspection demand a 'fantasy.' This reflects the core gap: the US wants IAEA-plus verification; Iran will not accept unprecedented nuclear access under coercion. The fact that Shamkhani, not Araghchi, responded suggests hardliners are asserting control over the nuclear file.",
+    "timestamp": "2026-05-27T11:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Trump 'close to finalizing' confirmed by CBS News liveblog (May 27). Shamkhani 'fantasy' response confirmed by CBS News. Shamkhani's role as Khamenei advisor confirmed per his official biography.",
+    "keywords": [
+      "trump",
+      "iran",
+      "nuclear",
+      "inspections",
+      "shamkhani",
+      "deal",
+      "day89"
+    ]
+  },
+  {
+    "id": "social-1514",
+    "handle": "@IRGCSignalDesk",
+    "displayName": "IRGC Signal Desk",
+    "text": "IRGC Signal Desk: The IRGC's dual May 27 statement is a calibrated deterrence signal — assessing US attack as 'unlikely' (to prevent market panic and domestic alarm) while warning Iran's south is a 'graveyard for aggressors' (to maintain deterrence). The IRGC Aerospace Force separately stated readiness to 'deliver a decisive and rapid response.' Combined with the May 26 MQ-9 drone shootdown claim, this signals Iran is conducting daily military shows of force during peace talks — a classic coercive negotiation posture.",
+    "timestamp": "2026-05-27T09:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "IRGC 'graveyard' warning confirmed by Al Jazeera liveblog (May 27), Iran International. IRGC Aerospace readiness confirmed by WION News, Iran International (May 26-27).",
+    "keywords": [
+      "irgc",
+      "iran",
+      "deterrence",
+      "graveyard",
+      "aerospace",
+      "ceasefire",
+      "day89"
+    ]
+  },
+  {
+    "id": "social-1515",
+    "handle": "@GasPriceMilestone",
+    "displayName": "Gas Price Milestone Tracker",
+    "text": "Gas Price Milestone Tracker: AAA confirms $4.56/gal national average for Memorial Day 2026 — the first time all 50 US states have exceeded $4.00/gal simultaneously since 2022. California leads at $6.14; Mississippi is lowest at $4.01. Year-over-year: +$1.38 from pre-war $3.18 (+43.4%). The milestone puts Memorial Day 2026 on record as most expensive in 4 years. Analysts: if Hormuz deal reached, gas could fall 30-50¢ within 2-3 weeks.",
+    "timestamp": "2026-05-27T12:00:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "AAA Memorial Day 2026 gas price $4.56 confirmed by AAA newsroom press release and GoodCarBadCar (May 27). All-50-states above $4 milestone confirmed by same sources.",
+    "keywords": [
+      "gas",
+      "aaa",
+      "memorial-day",
+      "energy",
+      "oil",
+      "hormuz",
+      "day89"
+    ]
+  },
+  {
+    "id": "social-1516",
+    "handle": "@HezbollahOpsWatch",
+    "displayName": "Hezbollah Operations Watch",
+    "text": "Hezbollah Operations Watch: Hezbollah's claim of 32 separate military operations at Zawtar al-Sharqiya on May 27 is the highest single-day operational count since IDF expanded north of the Litani. They are using night-vision FPV drones against IDF ground forces — a significant capability upgrade compared to earlier in the conflict. The combination of artillery, rockets, explosive drones, and FPV drones in a single engagement demonstrates sophisticated multi-domain countermeasures against advancing IDF armor.",
+    "timestamp": "2026-05-27T10:00:00Z",
+    "sourceCategory": "osint_analyst",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Hezbollah 32 operations at Zawtar confirmed by Washington Times (May 26), Euronews (May 27). FPV night-vision drone deployment confirmed by Jerusalem Post Israel First summary (May 27).",
+    "keywords": [
+      "hezbollah",
+      "lebanon",
+      "zawtar",
+      "fpv",
+      "drone",
+      "idf",
+      "day89"
+    ]
+  },
+  {
+    "id": "social-1517",
+    "handle": "@DiplomacyDay89Desk",
+    "displayName": "Diplomacy Day 89 Desk",
+    "text": "Diplomacy Day 89 Desk: VP Vance said he is 'extremely hopeful' Iran will commit to no nuclear weapons — more optimistic than Rubio's 'a few more days' framing from Jaipur. Next formal US-Iran direct talks are scheduled June 2-3 in Washington. However: Trump cancelled Camp David Cabinet meeting (weather → moved to White House); Shamkhani rejected 'strong inspections'; internal Iran split between Araghchi (negotiator) and Vahidi/IRGC (hardliners). The negotiation is simultaneously closest to a deal and closest to collapse since April 8.",
+    "timestamp": "2026-05-27T11:30:00Z",
+    "sourceCategory": "lead_source",
+    "verificationStatus": "confirmed",
+    "verificationNote": "Vance 'extremely hopeful' per ABC News liveblog (May 27). June 2-3 talks per Al Jazeera and CBS News. Trump Camp David cancellation per CNBC (May 26). Araghchi-Vahidi split per Israel Hayom (May 26).",
+    "keywords": [
+      "vance",
+      "iran",
+      "deal",
+      "june-talks",
+      "rubio",
+      "camp-david",
       "day89"
     ]
   }

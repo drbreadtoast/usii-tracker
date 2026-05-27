@@ -55675,5 +55675,153 @@
     "socialRefs": [],
     "casualties": null,
     "tags": ["iran", "irgc", "retaliation", "warning", "hormuz", "day89"]
+  },
+  {
+    "id": "evt-new-1661",
+    "title": "Israel Orders First-Ever Evacuation of Nabatieh City, Strikes Hospital and Civil Defense Center",
+    "description": "On May 27, 2026, the Israeli military issued an unprecedented evacuation order for Nabatieh, the largest city in southern Lebanon north of the Litani River. Israeli airstrikes followed, with one strike hitting the vicinity of Nabatieh's public hospital causing significant damage to multiple departments. A second strike destroyed the Civil Defense Center in Nabatieh, incinerating firefighting and rescue equipment. At least 50 towns and villages received evacuation orders during the overnight-into-morning offensive.",
+    "type": "strike",
+    "lat": 33.3783,
+    "lng": 35.4836,
+    "location": "Nabatieh, South Lebanon, Lebanon",
+    "timestamp": "2026-05-27T06:00:00Z",
+    "isMajor": true,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "UN News — Israeli strikes damage Nabatieh hospital and civil defense center",
+        "url": "https://news.un.org/en/story/2026/05/1167590"
+      },
+      {
+        "name": "Euronews — Israel expands military ground operations in southern Lebanon",
+        "url": "https://www.euronews.com/2026/05/27/israel-expands-military-ground-operations-in-southern-lebanon-as-clashes-with-hezbollah-in"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["israel", "lebanon", "nabatieh", "hospital", "civilian", "evacuation", "day89"]
+  },
+  {
+    "id": "evt-new-1662",
+    "title": "Israeli Airstrike on Deir Amas Kills Two People at Dawn",
+    "description": "In the early morning hours of May 27, 2026, Israeli warplanes conducted a dawn airstrike on the town of Deir Amas in the Tyre district of southern Lebanon, killing two people and wounding one, according to Lebanon's National News Agency. Israeli air raids also struck the town of Braiqaa in the south, destroying two homes. The strikes came after a night in which Israel struck more than 120 Hezbollah sites across Lebanon.",
+    "type": "strike",
+    "lat": 33.2183,
+    "lng": 35.2636,
+    "location": "Deir Amas, Tyre District, Lebanon",
+    "timestamp": "2026-05-27T03:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "israel",
+    "sources": [
+      {
+        "name": "Al Jazeera — Israeli air attack kills at least two in southern Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/5/27/israeli-air-attack-kills-at-least-two-in-southern-lebanon"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": { "killed": 2, "wounded": 1 },
+    "tags": ["israel", "lebanon", "airstrike", "civilian", "tyre", "day89"]
+  },
+  {
+    "id": "evt-new-1663",
+    "title": "Hezbollah Claims 32 Operations Against IDF Advancing at Zawtar al-Sharqiya",
+    "description": "On May 27, 2026, Hezbollah announced it carried out 32 separate military operations against Israeli forces and tanks advancing toward the southern Lebanese town of Zawtar al-Sharqiya, deploying explosive drones, rockets, and artillery. Hezbollah also used night-vision-equipped FPV (first-person view) drones against IDF soldiers as Israeli ground forces pushed beyond the 'yellow line' ceasefire boundary. The operations represented Hezbollah's most intensive single-day combat effort since the Lebanon front escalation began.",
+    "type": "strike",
+    "lat": 33.25,
+    "lng": 35.38,
+    "location": "Zawtar al-Sharqiya, South Lebanon, Lebanon",
+    "timestamp": "2026-05-27T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "hezbollah",
+    "sources": [
+      {
+        "name": "Washington Times — Israel, Hezbollah clashing along strategic Lebanese river following Netanyahu orders",
+        "url": "https://www.washingtontimes.com/news/2026/may/26/israel-hezbollah-clashing-along-strategic-lebanese-river-following/"
+      },
+      {
+        "name": "Euronews — Israel expands military ground operations in southern Lebanon",
+        "url": "https://www.euronews.com/2026/05/27/israel-expands-military-ground-operations-in-southern-lebanon-as-clashes-with-hezbollah-in"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["hezbollah", "lebanon", "idf", "drone", "zawtar", "day89"]
+  },
+  {
+    "id": "evt-new-1664",
+    "title": "Trump Says US and Iran 'Close to Finalizing' Deal with 'Strong Inspections'",
+    "description": "US President Donald Trump told reporters on May 27, 2026 that both the United States and Iran were 'close to finalizing an agreement involving strong inspections' of Iran's nuclear program. The statement came ahead of a rescheduled Cabinet meeting moved from Camp David to the White House due to weather. The announcement was quickly countered by Iranian Supreme Leader advisor Ali Shamkhani, who dismissed Trump's desired control over Iran's nuclear program as a 'fantasy.'",
+    "type": "diplomatic",
+    "lat": 38.8977,
+    "lng": -77.0366,
+    "location": "Washington D.C., United States",
+    "timestamp": "2026-05-27T11:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "us",
+    "sources": [
+      {
+        "name": "CBS News — Iran war Trump US strikes peace talks ceasefire liveblog",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strikes-peace-talks-ceasefire/"
+      },
+      {
+        "name": "NBC News — Deal or no deal? Trump's posts add confusion to Iran conflict",
+        "url": "https://www.nbcnews.com/politics/white-house/deal-no-deal-trumps-social-media-posts-add-confusion-iran-conflict-rcna346953"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["trump", "iran", "nuclear", "deal", "inspections", "diplomatic", "day89"]
+  },
+  {
+    "id": "evt-new-1665",
+    "title": "IRGC Warns Southern Iran Would Be 'Graveyard for Aggressors,' Says New US Attack 'Unlikely'",
+    "description": "Iran's Islamic Revolutionary Guard Corps issued a dual-track statement on May 27, 2026: assessing that a renewal of full-scale US military operations was 'unlikely' due to what it called 'the enemy's weakness,' while simultaneously warning that Iran stands 'ready to deliver a decisive and rapid response' and that its southern territory would be 'a graveyard for aggressors.' The IRGC Aerospace Force separately stated it is 'ready to deliver a decisive and rapid response and carry out the orders of the respected commander-in-chief.'",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-27T08:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "Al Jazeera — Iran war live May 27 liveblog",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/27/iran-war-live-israel-kills-31-in-lebanon-tehran-blasts-us-truce-violation"
+      },
+      {
+        "name": "Iran International — IRGC says ready to deliver decisive response",
+        "url": "https://www.iranintl.com/en/202605268024"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "irgc", "warning", "retaliation", "ceasefire", "day89"]
+  },
+  {
+    "id": "evt-new-1666",
+    "title": "Shamkhani Dismisses Trump 'Strong Inspections' Demand as 'Fantasy'",
+    "description": "Ali Shamkhani, senior advisor to Iran's Supreme Leader, dismissed President Trump's claim that the US and Iran were 'close to finalizing' a deal with 'strong inspections' of Iran's nuclear program as a 'fantasy.' Shamkhani's rebuttal reflected hardliner resistance within Iran's leadership to any agreement that would give the United States significant oversight of Iran's nuclear activities, underscoring the internal divide between pragmatic negotiators and IRGC-aligned conservatives.",
+    "type": "diplomatic",
+    "lat": 35.69,
+    "lng": 51.39,
+    "location": "Tehran, Iran",
+    "timestamp": "2026-05-27T12:00:00Z",
+    "isMajor": false,
+    "verificationStatus": "confirmed",
+    "attributedTo": "iran",
+    "sources": [
+      {
+        "name": "CBS News — Iran war Trump US strikes peace talks ceasefire liveblog",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strikes-peace-talks-ceasefire/"
+      }
+    ],
+    "socialRefs": [],
+    "casualties": null,
+    "tags": ["iran", "shamkhani", "nuclear", "inspections", "diplomatic", "day89"]
   }
 ]

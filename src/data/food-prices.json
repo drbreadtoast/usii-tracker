@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-27T06:02:00Z",
+  "lastUpdated": "2026-05-27T12:06:00Z",
   "commodities": [
     {
       "name": "Wheat",
       "unit": "/bushel",
       "preWar": "$5.62",
-      "current": 6.68,
-      "change": "+18.9%",
+      "current": 6.36,
+      "change": "+13.2%",
       "detail": "CBOT SRW wheat Jul futures $6.68/bu (May 27). Up from $6.60 May 26 as war-related fertilizer disruption persists. USDA May 2026 forecast: US winter wheat 1.048B bushels — down 25% YoY. Severe drought in Kansas/Colorado/Nebraska. War-related nitrogen fertilizer disruption (36% of global urea from Persian Gulf).",
       "source": "USDA Wheat Outlook May 2026",
       "sourceUrl": "https://ers.usda.gov/sites/default/files/_laserfiche/outlooks/114142/WHS-26e.pdf"
@@ -15,8 +15,8 @@
       "name": "Corn",
       "unit": "/bushel",
       "preWar": "$4.31",
-      "current": 4.705,
-      "change": "+9.2%",
+      "current": 4.58,
+      "change": "+6.3%",
       "detail": "Corn Jul futures ~$4.705/bu (CBOT May 27). Down slightly overnight on thin volumes. Fertilizer disruption from Persian Gulf affecting nitrogen/urea supply (+21% price). USDA projects corn acreage down ~3% in 2026 vs 2025. Pre-war: $4.31/bushel.",
       "source": "TradingEconomics — Corn",
       "sourceUrl": "https://tradingeconomics.com/commodity/corn"
@@ -25,8 +25,8 @@
       "name": "Soybeans",
       "unit": "/bushel",
       "preWar": "$10.12",
-      "current": 11.93,
-      "change": "+17.9%",
+      "current": 11.86,
+      "change": "+17.2%",
       "detail": "Soybeans $11.93/bushel (TradingEconomics, May 27, -0.30%). USDA WASDE May: 2026-27 soybean stocks 310M bushels — below analyst estimates. Record crush of 2.61B bushels driven by EPA biofuel mandate. Soybean oil at $0.677/lb (CME, up 23% from pre-war).",
       "source": "TradingEconomics — Soybeans May 22",
       "sourceUrl": "https://tradingeconomics.com/commodity/soybeans"
@@ -88,7 +88,7 @@
     "currentWeekly": 182,
     "changePercent": 8.3,
     "usdaForecast2026": "2.5% food-at-home (USDA May update), but rising energy costs may push higher",
-    "note": "Day 85: BLS April 2026: food-at-home prices +0.7% MoM (largest single-month jump in ~4 years), +2.4% YoY. USDA revised 2026 food inflation forecast: +3.6% overall; beef +10.1%. Wheat $6.605/bushel (CBOT SRW Jul 26). Urea fertilizer $577/tonne (+21% vs pre-war $475). Container shipping rates: Shanghai→Rotterdam +11% WoW at $2,413/40ft (+10 days via Cape of Good Hope). Blockade Day 82. Iran PGSA operational — 35% of global urea supply from Middle East remains blocked. If Hormuz persists through summer, could add 5-7 pp to food inflation. Iran food inflation: 110%+. 318M face hunger globally (FAO)."
+    "note": "Day 89 AM: BLS April 2026 food-at-home CPI +2.9% YoY; +0.7% MoM (largest single-month jump in ~4 years). CBOT Jul 26 settlements (May 26): Wheat $6.36/bu (-4.8% from prev week, below $7.96/bu break-even), Corn $4.58/bu (below $5.00 break-even), Soybeans $11.86/bu (below $12.27 break-even). Farmers projecting 4th consecutive year of losses. Urea fertilizer +50% YTD from Hormuz disruption. AAA gas $4.56/gal (+43.4% vs pre-war). If Hormuz persists through summer: 5-7 pp additional food inflation. Iran food inflation: 110%+. 318M face hunger globally (FAO). Hormuz Blockade Day 86."
   },
   "fertilizer": {
     "ureaPreWar": "$475/tonne",
