@@ -8,7 +8,17 @@ import ThemeToggle from "./ThemeToggle";
 const SITE_TITLE = "TheOSSreport";
 const SITE_TAGLINE = "Every side of the story";
 
-const PRIMARY_LINKS = [
+interface NavLink {
+  href: string;
+  label: string;
+  /** Render with an icon glyph on the left. */
+  icon?: string;
+  /** Exact-match active rule (for "/" which would otherwise always match). */
+  exact?: boolean;
+}
+
+const PRIMARY_LINKS: NavLink[] = [
+  { href: "/", label: "Home", icon: "⌂", exact: true },
   { href: "/us-politics", label: "US Politics" },
   { href: "/foreign", label: "Foreign" },
   { href: "/markets", label: "Markets" },
@@ -16,6 +26,12 @@ const PRIMARY_LINKS = [
   { href: "/war", label: "War" },
   { href: "/underreported", label: "Underreported" },
 ];
+
+function isActive(href: string, exact: boolean | undefined, pathname: string | null): boolean {
+  if (!pathname) return false;
+  if (exact) return pathname === href;
+  return pathname.startsWith(href);
+}
 
 const SECONDARY_LINKS = [
   { href: "/about", label: "About" },
@@ -74,18 +90,23 @@ export default function Nav() {
         <nav aria-label="Primary" className="hidden md:block">
           <ul className="flex items-center gap-0.5">
             {PRIMARY_LINKS.map((link) => {
-              const active = pathname?.startsWith(link.href);
+              const active = isActive(link.href, link.exact, pathname);
               return (
                 <li key={link.href}>
                   <Link
                     href={link.href as never}
                     aria-current={active ? "page" : undefined}
-                    className={`rounded-md px-2.5 py-1.5 text-sm font-medium transition hover:bg-surface-muted hover:no-underline ${
+                    className={`inline-flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm font-medium transition hover:bg-surface-muted hover:no-underline ${
                       active
-                        ? "text-foreground"
+                        ? "bg-surface-muted text-foreground"
                         : "text-foreground/70 hover:text-foreground"
                     }`}
                   >
+                    {link.icon && (
+                      <span aria-hidden className="text-base leading-none">
+                        {link.icon}
+                      </span>
+                    )}
                     {link.label}
                   </Link>
                 </li>
@@ -155,7 +176,7 @@ export default function Nav() {
           </p>
           <ul className="mb-6 flex flex-col">
             {PRIMARY_LINKS.map((link) => {
-              const active = pathname?.startsWith(link.href);
+              const active = isActive(link.href, link.exact, pathname);
               return (
                 <li key={link.href}>
                   <Link
@@ -166,7 +187,17 @@ export default function Nav() {
                       active ? "text-foreground" : "text-foreground/80"
                     }`}
                   >
-                    <span className="font-serif">{link.label}</span>
+                    <span className="inline-flex items-center gap-2 font-serif">
+                      {link.icon && (
+                        <span
+                          aria-hidden
+                          className="text-base leading-none text-muted"
+                        >
+                          {link.icon}
+                        </span>
+                      )}
+                      {link.label}
+                    </span>
                     <span aria-hidden className="text-muted">
                       →
                     </span>

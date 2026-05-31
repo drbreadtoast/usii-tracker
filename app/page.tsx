@@ -9,6 +9,7 @@ import SectionCard from "@/components/SectionCard";
 import StaleBanner from "@/components/StaleBanner";
 import MediaCoverageCard from "@/components/MediaCoverageCard";
 import KeyStatementsCard from "@/components/KeyStatementsCard";
+import OilHero from "@/components/OilHero";
 
 const GRID_CATEGORIES = [
   "us-politics",
@@ -30,6 +31,9 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col">
+      {/* Live oil — hero comparison row */}
+      <OilHero />
+
       {/* Masthead / refresh strip */}
       <div className="border-b border-border bg-background">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:px-6 sm:py-5">
