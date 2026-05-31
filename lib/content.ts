@@ -1,6 +1,12 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import type { Category, Manifest, Section, Story } from "./types";
+import type {
+  Category,
+  Manifest,
+  Section,
+  StatementsFile,
+  Story,
+} from "./types";
 import { ALL_CATEGORIES } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -17,6 +23,10 @@ export async function getManifest(): Promise<Manifest> {
 
 export async function getSection(category: Category): Promise<Section> {
   return readJsonFile<Section>(`${category}.json`);
+}
+
+export async function getStatements(): Promise<StatementsFile> {
+  return readJsonFile<StatementsFile>("statements.json");
 }
 
 export async function getAllSections(): Promise<Record<Category, Section>> {

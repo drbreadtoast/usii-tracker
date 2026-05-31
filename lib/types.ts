@@ -60,6 +60,36 @@ export interface Section {
   stories: Story[];
 }
 
+/**
+ * A speaker-attributed statement (quote) for the homepage's
+ * "Key Statements" card. Color-coded by role.
+ */
+export type SpeakerLean =
+  | "red" // Republican / right-leaning US leader, US-skeptical foreign leader, etc.
+  | "blue" // Democrat / center-left US leader, US ally foreign leader
+  | "gold" // Iranian / supreme religious / monarchical
+  | "green" // Islamic / Hamas / Hezbollah-aligned
+  | "purple" // European left / EU
+  | "gray"; // Other / non-aligned
+
+export interface Statement {
+  id: string;
+  speaker: string;        // "Trump", "Xi Jinping", "Netanyahu"
+  speakerRole: string;    // "US President", "Israeli PM"
+  speakerLean: SpeakerLean;
+  quote: string;          // Paraphrased or direct (≤1 sentence direct quote)
+  date: string;           // ISO date
+  context?: string;       // Optional 1-line context
+  sourceUrl?: string;     // Optional link to a published source
+  sourceOutlet?: string;  // Optional outlet name
+}
+
+export interface StatementsFile {
+  sectionId: "statements";
+  lastUpdated: string;
+  statements: Statement[];
+}
+
 export interface SectionMeta {
   lastUpdated: string;
   storyCount: number;

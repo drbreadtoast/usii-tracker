@@ -1,7 +1,14 @@
-import { getHomepageData, formatTimestamp, hoursSince } from "@/lib/content";
+import {
+  getHomepageData,
+  getStatements,
+  formatTimestamp,
+  hoursSince,
+} from "@/lib/content";
 import SectionBlock from "@/components/SectionBlock";
 import SectionCard from "@/components/SectionCard";
 import StaleBanner from "@/components/StaleBanner";
+import MediaCoverageCard from "@/components/MediaCoverageCard";
+import KeyStatementsCard from "@/components/KeyStatementsCard";
 
 const GRID_CATEGORIES = [
   "us-politics",
@@ -13,7 +20,10 @@ const GRID_CATEGORIES = [
 ] as const;
 
 export default async function HomePage() {
-  const { manifest, sections } = await getHomepageData();
+  const [{ manifest, sections }, statementsFile] = await Promise.all([
+    getHomepageData(),
+    getStatements().catch(() => null),
+  ]);
   const headlines = sections.headlines;
   const formattedRefresh = formatTimestamp(manifest.lastUpdated);
   const hoursOld = hoursSince(manifest.lastUpdated).toFixed(1);
@@ -47,13 +57,26 @@ export default async function HomePage() {
         </div>
       </div>
 
-      {/* Top Stories hero */}
+      {/* Top Stories hero + media-coverage sidecar */}
       <div className="mx-auto w-full max-w-6xl px-4 pt-8 sm:px-6">
-        <SectionBlock
-          category="headlines"
-          stories={headlines.stories}
-          limit={3}
-        />
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+          <div className="lg:col-span-2">
+            <SectionBlock
+              category="headlines"
+              stories={headlines.stories}
+              limit={3}
+            />
+          </div>
+          <aside className="lg:col-span-1 flex flex-col gap-6">
+            <MediaCoverageCard stories={headlines.stories} />
+            {statementsFile && statementsFile.statements.length > 0 && (
+              <KeyStatementsCard
+                statements={statementsFile.statements}
+                limit={4}
+              />
+            )}
+          </aside>
+        </div>
       </div>
 
       {/* Equal-weight grid */}
