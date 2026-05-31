@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import AlertTicker from "@/components/AlertTicker";
 import WorldClocks from "@/components/WorldClocks";
 import MarketTicker from "@/components/MarketTicker";
+import FreshBuildBanner from "@/components/FreshBuildBanner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -114,6 +115,7 @@ export default function RootLayout({
         <main className="flex flex-1 flex-col">{children}</main>
         <MarketTicker />
         <Footer />
+        <FreshBuildBanner />
       </body>
     </html>
   );

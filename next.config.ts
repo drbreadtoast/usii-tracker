@@ -1,16 +1,8 @@
 import type { NextConfig } from "next";
 
-const cacheControl = "public, s-maxage=21600, stale-while-revalidate=86400";
-
-const nextConfig: NextConfig = {
-  async headers() {
-    return [
-      {
-        source: "/((?!_next|api).*)",
-        headers: [{ key: "Cache-Control", value: cacheControl }],
-      },
-    ];
-  },
-};
+// Cache headers are owned by /vercel.json so the edge layer can apply them
+// directly without conflict. Keeping this config minimal — add image
+// domains or other framework-level concerns here if needed.
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

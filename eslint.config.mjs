@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Reference materials from prior builds (gitignored). Not part
+    // of our codebase; don't lint them.
+    "INBOX/**",
   ]),
 ]);
 

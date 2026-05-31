@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Reference materials from prior builds — analyze locally, do not commit
+/INBOX

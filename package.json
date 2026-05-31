@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/stamp-version.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "validate": "tsx scripts/validate-content.ts"
+    "validate": "tsx scripts/validate-content.ts",
+    "verify": "tsx scripts/verify-content.ts",
+    "stamp": "tsx scripts/stamp-version.ts",
+    "deploy:check": "npm run verify && npm run validate && npm run build"
   },
   "dependencies": {
     "next": "16.2.6",
