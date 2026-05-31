@@ -1,40 +1,78 @@
-import { getHomepageData } from "@/lib/content";
-import { ALL_CATEGORIES } from "@/lib/types";
+import { getHomepageData, formatTimestamp, hoursSince } from "@/lib/content";
 import SectionBlock from "@/components/SectionBlock";
+import SectionCard from "@/components/SectionCard";
 import StaleBanner from "@/components/StaleBanner";
-import TickerTape from "@/components/TickerTape";
+
+const GRID_CATEGORIES = [
+  "us-politics",
+  "foreign",
+  "markets",
+  "ai-tech",
+  "war",
+  "underreported",
+] as const;
 
 export default async function HomePage() {
   const { manifest, sections } = await getHomepageData();
+  const headlines = sections.headlines;
+  const formattedRefresh = formatTimestamp(manifest.lastUpdated);
+  const hoursOld = hoursSince(manifest.lastUpdated).toFixed(1);
 
   return (
     <div className="flex flex-col">
-      <div className="border-b border-border bg-surface">
-        <TickerTape />
-      </div>
-
-      <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
-        <section className="mb-8 flex flex-col gap-4">
-          <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+      {/* Masthead / refresh strip */}
+      <div className="border-b border-border bg-background">
+        <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:px-6 sm:py-5">
+          <div className="max-w-xl">
+            <h1 className="font-serif text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
               Every side of the story
             </h1>
-            <p className="max-w-2xl text-base text-muted">
-              US local and foreign affairs covered from left, center, right, and
-              international perspectives — with sources cited so you can verify.
-              Refreshed automatically every six hours.
+            <p className="mt-1 text-sm leading-relaxed text-muted sm:text-base">
+              US local and foreign affairs from left, center, right, and
+              international perspectives — sources cited.
             </p>
           </div>
+          <div className="flex flex-col gap-1.5 text-xs sm:text-right sm:text-[13px]">
+            <span className="font-medium uppercase tracking-wider text-muted">
+              Refreshed 4×/day
+            </span>
+            <span className="text-foreground/80">
+              Last refresh {formattedRefresh} ET
+              <span className="text-muted"> · {hoursOld}h ago</span>
+            </span>
+          </div>
+        </div>
+        <div className="mx-auto w-full max-w-6xl px-4 pb-4 sm:px-6">
           <StaleBanner lastUpdated={manifest.lastUpdated} />
-        </section>
+        </div>
+      </div>
 
-        <div className="flex flex-col gap-12">
-          {ALL_CATEGORIES.map((cat) => (
-            <SectionBlock
+      {/* Top Stories hero */}
+      <div className="mx-auto w-full max-w-6xl px-4 pt-8 sm:px-6">
+        <SectionBlock
+          category="headlines"
+          stories={headlines.stories}
+          limit={3}
+        />
+      </div>
+
+      {/* Equal-weight grid */}
+      <div className="mx-auto w-full max-w-6xl px-4 pb-12 pt-10 sm:px-6">
+        <div className="mb-6 flex items-baseline justify-between gap-4 border-t border-border pt-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight sm:text-3xl">
+            Sections
+          </h2>
+          <p className="text-xs text-muted sm:text-sm">
+            Tap any card for full coverage
+          </p>
+        </div>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {GRID_CATEGORIES.map((cat) => (
+            <SectionCard
               key={cat}
               category={cat}
               stories={sections[cat].stories}
-              limit={cat === "headlines" ? 3 : 3}
+              limit={3}
             />
           ))}
         </div>

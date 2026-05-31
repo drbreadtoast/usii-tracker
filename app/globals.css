@@ -2,61 +2,83 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/*
+ * v1-matched palette (slate-tinted dark navy, sampled from
+ * theossreport.com computed styles). Dark is the default brand
+ * face; light mode is a complementary slate-tinted whites theme.
+ */
+
 :root {
-  --background: #fafafa;
-  --foreground: #111827;
+  /* Light mode — cool slate whites that complement the v1 dark brand */
+  --background: #f8fafc;       /* slate-50 */
+  --foreground: #020617;       /* slate-950 */
   --surface: #ffffff;
-  --surface-muted: #f3f4f6;
-  --border: #e5e7eb;
-  --muted: #6b7280;
-  --accent: #1f2937;
+  --surface-muted: #f1f5f9;    /* slate-100 */
+  --border: #e2e8f0;           /* slate-200 */
+  --border-strong: #cbd5e1;    /* slate-300 */
+  --muted: #475569;            /* slate-600 */
+  --accent: #b45309;           /* amber-700 — matches v1 amber accent */
+  --accent-soft: #fef3c7;      /* amber-100 */
 
-  --lean-left: #2563eb;
-  --lean-left-bg: #eff6ff;
-  --lean-center: #6b7280;
-  --lean-center-bg: #f3f4f6;
-  --lean-right: #dc2626;
-  --lean-right-bg: #fef2f2;
-  --lean-foreign-western: #7c3aed;
-  --lean-foreign-western-bg: #f5f3ff;
-  --lean-foreign-eastern: #d97706;
-  --lean-foreign-eastern-bg: #fffbeb;
-  --lean-foreign-global-south: #059669;
-  --lean-foreign-global-south-bg: #ecfdf5;
-  --lean-government: #4b5563;
-  --lean-government-bg: #f9fafb;
-  --lean-social: #db2777;
-  --lean-social-bg: #fdf2f8;
+  --lean-left: #1d4ed8;        /* blue-700 */
+  --lean-left-bg: #dbeafe;     /* blue-100 */
+  --lean-center: #475569;      /* slate-600 */
+  --lean-center-bg: #f1f5f9;
+  --lean-right: #b91c1c;       /* red-700 */
+  --lean-right-bg: #fee2e2;    /* red-100 */
+  --lean-foreign-western: #6d28d9; /* violet-700 */
+  --lean-foreign-western-bg: #ede9fe;
+  --lean-foreign-eastern: #b45309;
+  --lean-foreign-eastern-bg: #fef3c7;
+  --lean-foreign-global-south: #047857;
+  --lean-foreign-global-south-bg: #d1fae5;
+  --lean-government: #334155;
+  --lean-government-bg: #e2e8f0;
+  --lean-social: #be185d;
+  --lean-social-bg: #fce7f3;
 
-  --stale-warn: #f59e0b;
-  --stale-error: #ef4444;
+  --stale-warn: #b45309;
+  --stale-warn-bg: #fef3c7;
+  --stale-error: #b91c1c;
+  --stale-error-bg: #fee2e2;
 }
 
 .dark {
-  --background: #0a0a0a;
-  --foreground: #e5e7eb;
-  --surface: #111111;
-  --surface-muted: #1a1a1a;
-  --border: #262626;
-  --muted: #9ca3af;
-  --accent: #f3f4f6;
+  /* Dark mode — matches v1: oklch(0.13 0.028 261.692) body bg,
+     near-white slate text, amber + red accents for severity. */
+  --background: oklch(0.13 0.028 261.692); /* ~ #0a0d18 */
+  --foreground: oklch(0.967 0.003 264.542); /* ~ slate-50 */
+  --surface: oklch(0.17 0.028 264);         /* slate-900-ish, slightly lifted */
+  --surface-muted: oklch(0.21 0.027 264);   /* slate-800-ish */
+  --border: oklch(0.27 0.027 264);          /* slate-700-ish */
+  --border-strong: oklch(0.37 0.028 264);
+  --muted: oklch(0.62 0.027 264);           /* slate-400 — readable muted */
+  --accent: #fbbf24;                         /* amber-400 (v1 buy-me-coffee / clock accent) */
+  --accent-soft: oklch(0.27 0.05 70);        /* warm dark amber bg */
 
-  --lean-left: #60a5fa;
-  --lean-left-bg: #0c2a4a;
-  --lean-center: #9ca3af;
-  --lean-center-bg: #1f2937;
-  --lean-right: #f87171;
-  --lean-right-bg: #3a0d0d;
-  --lean-foreign-western: #a78bfa;
-  --lean-foreign-western-bg: #2a1a4a;
+  /* v1 severity tag colors (sampled): amber-400 on amber-950, red-300 on red-950 */
+  --stale-warn: #fbbf24;
+  --stale-warn-bg: #422006;
+  --stale-error: #fca5a5;
+  --stale-error-bg: #450a0a;
+
+  /* Lean palette tuned for the new slate-tinted dark surfaces */
+  --lean-left: #93c5fd;        /* blue-300 */
+  --lean-left-bg: #172554;     /* blue-950 */
+  --lean-center: #cbd5e1;      /* slate-300 */
+  --lean-center-bg: oklch(0.24 0.028 264);
+  --lean-right: #fca5a5;       /* red-300 */
+  --lean-right-bg: #450a0a;
+  --lean-foreign-western: #c4b5fd; /* violet-300 */
+  --lean-foreign-western-bg: #2e1065;
   --lean-foreign-eastern: #fbbf24;
-  --lean-foreign-eastern-bg: #3a2a0a;
-  --lean-foreign-global-south: #34d399;
-  --lean-foreign-global-south-bg: #0a2a1a;
-  --lean-government: #d1d5db;
-  --lean-government-bg: #1f2937;
-  --lean-social: #f472b6;
-  --lean-social-bg: #3a0a2a;
+  --lean-foreign-eastern-bg: #422006;
+  --lean-foreign-global-south: #6ee7b7; /* emerald-300 */
+  --lean-foreign-global-south-bg: #064e3b;
+  --lean-government: #e2e8f0;
+  --lean-government-bg: oklch(0.24 0.028 264);
+  --lean-social: #f9a8d4;
+  --lean-social-bg: #500724;
 }
 
 @theme inline {
@@ -65,8 +87,10 @@
   --color-surface: var(--surface);
   --color-surface-muted: var(--surface-muted);
   --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
 
   --color-lean-left: var(--lean-left);
   --color-lean-left-bg: var(--lean-left-bg);
@@ -86,35 +110,94 @@
   --color-lean-social-bg: var(--lean-social-bg);
 
   --color-stale-warn: var(--stale-warn);
+  --color-stale-warn-bg: var(--stale-warn-bg);
   --color-stale-error: var(--stale-error);
+  --color-stale-error-bg: var(--stale-error-bg);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-serif: var(--font-serif), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 html {
   color-scheme: light dark;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+/* Newspaper-style serif headings */
+.font-serif,
+h1.font-serif,
+h2.font-serif,
+h3.font-serif {
+  font-family: var(--font-serif);
+  font-feature-settings: "ss01" on, "ss02" on;
+  letter-spacing: -0.01em;
+}
+
 a {
   color: inherit;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 3px;
 }
 
 a:hover {
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration-color: var(--foreground);
+}
+
+/* Restore "no underline" for explicit nav-style links */
+a.no-underline,
+a.no-underline:hover {
+  text-decoration: none;
 }
 
 ::selection {
-  background: var(--accent);
+  background: var(--foreground);
   color: var(--background);
+}
+
+/* Mobile menu polish */
+@media (max-width: 767px) {
+  body.menu-open {
+    overflow: hidden;
+  }
+}
+
+/* Marquee animation for the breaking-news alert ticker.
+   Doubled content + translateX 0→-50% yields a seamless loop. */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 50s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+    transform: none;
+  }
 }

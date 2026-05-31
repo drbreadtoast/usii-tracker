@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 interface Props {
   symbol: string;
@@ -14,12 +14,15 @@ export default function TradingViewChart({
   height = 320,
 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
-  const [failed, setFailed] = useState(false);
 
   useEffect(() => {
     const node = ref.current;
     if (!node) return;
-    node.innerHTML = "";
+
+    // Skip Strict-Mode re-runs that would create a second widget.
+    if (node.querySelector(".tradingview-widget-container__widget")) {
+      return;
+    }
 
     const widget = document.createElement("div");
     widget.className = "tradingview-widget-container__widget";
@@ -48,30 +51,11 @@ export default function TradingViewChart({
       largeChartUrl: "",
     });
 
-    let timeout: ReturnType<typeof setTimeout> | null = null;
-    script.onerror = () => setFailed(true);
-    timeout = setTimeout(() => {
-      if (!widget.firstChild) setFailed(true);
-    }, 7000);
-
     node.appendChild(script);
     return () => {
-      if (timeout) clearTimeout(timeout);
       node.innerHTML = "";
     };
   }, [symbol, height]);
-
-  if (failed) {
-    return (
-      <div
-        className="flex h-full min-h-[200px] flex-col items-center justify-center rounded-lg border border-border bg-surface-muted p-4 text-center text-sm text-muted"
-        role="status"
-      >
-        <div className="font-medium text-foreground/80">{title}</div>
-        <div className="mt-1">Live chart unavailable</div>
-      </div>
-    );
-  }
 
   return (
     <div className="rounded-lg border border-border bg-surface p-2">

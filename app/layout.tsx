@@ -1,18 +1,30 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import AlertTicker from "@/components/AlertTicker";
+import WorldClocks from "@/components/WorldClocks";
+import MarketTicker from "@/components/MarketTicker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
+});
+
+const sourceSerif = Source_Serif_4({
+  variable: "--font-serif",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "600", "700"],
 });
 
 const SITE_NAME = "TheOSSreport";
@@ -60,19 +72,22 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0d18" },
   ],
 };
 
+// Dark is the v1-matched brand default. We only opt out of dark if the
+// user has explicitly stored 'light' in localStorage.
 const themeBootstrap = `
 (function() {
   try {
     var s = localStorage.getItem('theme');
-    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var theme = s || (prefersDark ? 'dark' : 'light');
+    var theme = s || 'dark';
     if (theme === 'dark') document.documentElement.classList.add('dark');
-  } catch (e) {}
+  } catch (e) {
+    document.documentElement.classList.add('dark');
+  }
 })();
 `;
 
@@ -82,7 +97,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>
@@ -93,8 +108,11 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <AlertTicker />
         <Nav />
+        <WorldClocks />
         <main className="flex flex-1 flex-col">{children}</main>
+        <MarketTicker />
         <Footer />
       </body>
     </html>

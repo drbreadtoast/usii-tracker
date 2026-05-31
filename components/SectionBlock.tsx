@@ -25,27 +25,27 @@ export default function SectionBlock({
   return (
     <section
       id={category}
-      className="scroll-mt-20 border-t border-border pt-10"
+      className="scroll-mt-24"
       aria-labelledby={`${category}-heading`}
     >
       <div className="mb-6 flex flex-col gap-2">
         <div className="flex items-baseline justify-between gap-4">
           <h2
             id={`${category}-heading`}
-            className="text-2xl font-bold tracking-tight sm:text-3xl"
+            className="font-serif text-3xl font-bold leading-tight tracking-tight sm:text-4xl"
           >
             {SECTION_LABELS[category]}
           </h2>
           {!fullPage && category !== "headlines" && (
             <Link
               href={`/${category}` as never}
-              className="shrink-0 text-sm font-medium text-foreground/70 hover:text-foreground"
+              className="shrink-0 text-xs font-medium uppercase tracking-wider text-muted transition hover:text-foreground"
             >
               See all →
             </Link>
           )}
         </div>
-        <p className="max-w-prose text-sm text-muted">
+        <p className="max-w-prose text-sm leading-relaxed text-muted sm:text-base">
           {SECTION_DESCRIPTIONS[category]}
         </p>
       </div>
