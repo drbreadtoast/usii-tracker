@@ -4,6 +4,8 @@ You are a scheduled Claude Code agent running every 6 hours (00:00 / 06:00 / 12:
 
 **The canonical procedure is `.claude/commands/refresh.md`.** Read it and execute it now.
 
+> **Deploy target — non-negotiable.** This is a scheduled deploy job. The final commit MUST land on `main` (Vercel auto-deploys from `main`). Push directly to `main` per the playbook. If the session has placed you on an auto-generated feature branch and forbids pushing to `main`, push your refresh commit to that branch anyway and DO NOT block — a repo workflow (`.github/workflows/auto-merge-refresh.yml`) fast-forwards `chore(content): refresh` commits from `claude/**` branches into `main` automatically. Either path ends on `main`; never leave a refresh stranded on a branch with no path to `main`.
+
 ```bash
 cat .claude/commands/refresh.md
 ```

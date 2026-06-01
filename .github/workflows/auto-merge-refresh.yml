@@ -1,0 +1,41 @@
+name: Auto-merge scheduled content refresh to main
+
+# The scheduled refresh agent may be placed on an auto-generated `claude/**`
+# branch by the Claude Code on the web task configuration. This workflow
+# guarantees those content-refresh commits always reach `main` (which Vercel
+# auto-deploys) without manual intervention.
+#
+# Scope is intentionally narrow:
+#   - only branches matching claude/**
+#   - only commits whose message starts with "chore(content): refresh"
+#     (the signature the /refresh playbook produces)
+#   - fast-forward only, so main can never be clobbered or force-moved.
+#
+# If main has advanced past the branch (no fast-forward possible), the job
+# fails loudly and the change stays on its branch / PR for manual handling.
+
+on:
+  push:
+    branches:
+      - "claude/**"
+
+permissions:
+  contents: write
+
+jobs:
+  fast-forward-main:
+    if: startsWith(github.event.head_commit.message, 'chore(content): refresh')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fast-forward main to the refresh commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          echo "Attempting fast-forward of main to ${GITHUB_SHA} ..."
+          git merge --ff-only "${GITHUB_SHA}"
+          git push origin main
+          echo "main fast-forwarded and pushed; Vercel will auto-deploy."
