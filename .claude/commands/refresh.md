@@ -22,11 +22,27 @@ If the user invoked `/refresh dry`, you do everything except the final `git comm
 echo "=== /refresh start ==="
 date -u +'%Y-%m-%dT%H:%M:%SZ'
 TZ='America/New_York' date +'%Y-%m-%d %H:%M %Z'
+TZ='America/Los_Angeles' date +'%Y-%m-%d %H:%M %Z'
 git log --oneline -3
 git status --short
 ```
 
-You'll quote the start time later in commit messages and log entries.
+**CRITICAL — pin the refresh timestamp NOW.**
+
+The first `date -u` line above is THE canonical timestamp for this run. Copy it verbatim into a variable in your head — call it `REFRESH_TS` — and use that EXACT string for:
+
+- `manifest.lastUpdated`
+- Every `section.lastUpdated` (per-file + per-section-meta)
+- Every NEW story's `updatedAt` (and `firstSeenAt` if the story is brand new in this run)
+- Every UPDATED story's `updatedAt` (continuing stories keep `firstSeenAt` as-is)
+- `statements.lastUpdated`
+- The commit message and post-flight log
+
+It must be valid ISO 8601 UTC with the `Z` suffix (e.g. `2026-06-01T03:51:49Z`). **Do not round to the nearest minute, do not bump it forward to "look fresh," do not invent a different time, and do not pull yesterday's example timestamp from this playbook.** Stale or fabricated timestamps make the "Last news refresh" displays lie to readers, defeating the entire point of refreshing.
+
+If the run spans more than a few minutes between Phase 0 and Phase 2 writes, that's fine — readers see the time research started, which is what they want. The stamp is "when the snapshot was taken," not "when the file was saved."
+
+You'll also quote this same string in commit messages and log entries.
 
 ### 0b. Pull the latest
 
@@ -190,9 +206,11 @@ Tech / AI:
 
 Order matters. Write CRITICAL first. If anything blocks the run, the CRITICAL files at least ship.
 
+**Reminder on timestamps:** every `lastUpdated` / `updatedAt` you write in this phase MUST be the `REFRESH_TS` value you captured at the top of Phase 0. Do not regenerate `date -u` mid-run, do not bump it forward, do not invent a different time per section. One stamp, applied verbatim, across every file you touch this run.
+
 ### 2a. CRITICAL files
 
-**`content/manifest.json`** — write LAST in this phase but plan now. `lastUpdated` = now. Per-section `lastUpdated` + `storyCount` filled in after section files are written.
+**`content/manifest.json`** — write LAST in this phase but plan now. `lastUpdated` = `REFRESH_TS`. Per-section `lastUpdated` + `storyCount` filled in after section files are written.
 
 **`content/headlines.json`** — 3-5 stories curated from all subagents. Each story is a full copy of its origin story (don't reference; the validator checks IDs cross-match section files). Top story is importance 5; the rest importance 4.
 
@@ -208,8 +226,8 @@ Open the file, jump to the end of the `stories` array. Append new stories with f
 - `summary`: 2-3 sentences, ≤500 chars, neutral.
 - `category`: matches file (except `headlines.json` stories which keep their original category).
 - `importance`: 1-5.
-- `firstSeenAt`: preserve for continuing stories; now() for new.
-- `updatedAt`: now().
+- `firstSeenAt`: preserve for continuing stories; `REFRESH_TS` for brand-new ones.
+- `updatedAt`: always `REFRESH_TS` for stories touched this run.
 - `perspectives[]`: 1-8, sorted by canonical lean order. Each has `lean`, `keyFraming` (1 sentence ≤220 chars), `summary` (2-4 sentences ≤600 chars), `sources` (1-3).
 - `sources[].publishedAt` within 72h.
 - Quote ≤1 sentence verbatim per source.
@@ -238,9 +256,11 @@ Sort the array so newest is FIRST (the card already sorts client-side, but match
 ### 2e. Finalize manifest
 
 Update `content/manifest.json`:
-- `lastUpdated` = now (ISO 8601 UTC)
-- `buildId` = `refresh-<YYYY-MM-DD-HH>` (lets you trace which refresh produced which build)
-- For each section, `sections.{name}.lastUpdated` = the section file's lastUpdated, `storyCount` = actual count
+- `lastUpdated` = `REFRESH_TS` (same value as every section file)
+- `buildId` = `refresh-<YYYY-MM-DD-HH>` derived from `REFRESH_TS` in UTC (lets you trace which refresh produced which build)
+- For each section, `sections.{name}.lastUpdated` = `REFRESH_TS`, `storyCount` = actual count
+
+If you ever notice a section file's `lastUpdated` drift away from `REFRESH_TS` while you're writing, stop and fix it before moving on — the front-end "Last news refresh" displays read `manifest.lastUpdated` directly, and if it disagrees with what readers see in story timestamps, trust in the site collapses.
 
 ---
 
@@ -326,7 +346,7 @@ echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') FAIL validate=stale_url:<count>" >> logs/
 - [ ] Every `source.url` is the specific article, not a homepage or section page
 - [ ] State-affiliated outlets (RT, TASS, Xinhua, CGTN, Sputnik, Global Times, Mehr News, IRNA, Press TV, KCNA) have `isStateMedia: true`
 - [ ] Every `publishedAt` is within 72h of now
-- [ ] `manifest.lastUpdated` and every `section.lastUpdated` are now (or within minutes)
+- [ ] `manifest.lastUpdated`, every `section.lastUpdated`, every touched `story.updatedAt`, and `statements.lastUpdated` are all the EXACT `REFRESH_TS` captured in Phase 0a — character-for-character identical
 - [ ] `manifest.sections.{name}.storyCount` matches actual `stories.length` for every section
 - [ ] `npm run verify` exits 0
 - [ ] `npm run validate` exits 0 (or 0 with only known-acceptable warnings like bot-protected URLs)

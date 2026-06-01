@@ -1,4 +1,5 @@
-import { hoursSince, formatTimestamp } from "@/lib/content";
+import { hoursSince } from "@/lib/content";
+import { formatPacificTime } from "@/lib/refresh";
 
 interface Props {
   lastUpdated: string;
@@ -6,7 +7,7 @@ interface Props {
 
 export default function StaleBanner({ lastUpdated }: Props) {
   const hours = hoursSince(lastUpdated);
-  const formatted = formatTimestamp(lastUpdated);
+  const formatted = formatPacificTime(lastUpdated);
 
   if (hours < 12) {
     return (
@@ -15,7 +16,7 @@ export default function StaleBanner({ lastUpdated }: Props) {
         role="status"
       >
         <span className="inline-block h-2 w-2 rounded-full bg-lean-foreign-global-south" />
-        Last refresh: {formatted} ET ({hours.toFixed(1)}h ago)
+        Last refresh: {formatted} ({hours.toFixed(1)}h ago)
       </div>
     );
   }
@@ -27,7 +28,7 @@ export default function StaleBanner({ lastUpdated }: Props) {
         role="status"
       >
         <span className="inline-block h-2 w-2 rounded-full bg-stale-warn" />
-        Content may be stale — last refresh {formatted} ET ({hours.toFixed(1)}h
+        Content may be stale — last refresh {formatted} ({hours.toFixed(1)}h
         ago). Scheduled agent may have failed.
       </div>
     );
@@ -39,8 +40,8 @@ export default function StaleBanner({ lastUpdated }: Props) {
       role="alert"
     >
       <span className="inline-block h-2 w-2 rounded-full bg-stale-error" />
-      Content is over 24h old — last refresh {formatted} ET. The scheduled agent has
-      likely failed; check the run logs.
+      Content is over 24h old — last refresh {formatted}. The scheduled agent
+      has likely failed; check the run logs.
     </div>
   );
 }

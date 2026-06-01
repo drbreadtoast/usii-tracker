@@ -1,11 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import {
-  getHomepageData,
-  getStatements,
-  formatTimestamp,
-  hoursSince,
-} from "@/lib/content";
+import { getHomepageData, getStatements } from "@/lib/content";
 import SectionBlock from "@/components/SectionBlock";
 import SectionCard from "@/components/SectionCard";
 import StaleBanner from "@/components/StaleBanner";
@@ -14,6 +9,7 @@ import KeyStatementsCard from "@/components/KeyStatementsCard";
 import OilHero from "@/components/OilHero";
 import type { OilHeroProps } from "@/components/OilHero";
 import QuickBriefHeader from "@/components/QuickBriefHeader";
+import RefreshSummary from "@/components/RefreshSummary";
 
 interface OilPriceSnapshot {
   fetchedAt: string;
@@ -74,8 +70,6 @@ export default async function HomePage() {
       readOilPriceSnapshot(),
     ]);
   const headlines = sections.headlines;
-  const formattedRefresh = formatTimestamp(manifest.lastUpdated);
-  const hoursOld = hoursSince(manifest.lastUpdated).toFixed(1);
 
   return (
     <div className="flex flex-col">
@@ -96,15 +90,7 @@ export default async function HomePage() {
               international perspectives — sources cited.
             </p>
           </div>
-          <div className="flex flex-col gap-1.5 text-xs sm:text-right sm:text-[13px]">
-            <span className="font-medium uppercase tracking-wider text-muted">
-              Refreshed 4×/day
-            </span>
-            <span className="text-foreground/80">
-              Last refresh {formattedRefresh} ET
-              <span className="text-muted"> · {hoursOld}h ago</span>
-            </span>
-          </div>
+          <RefreshSummary lastUpdated={manifest.lastUpdated} />
         </div>
         <div className="mx-auto w-full max-w-6xl px-4 pb-4 sm:px-6">
           <StaleBanner lastUpdated={manifest.lastUpdated} />
