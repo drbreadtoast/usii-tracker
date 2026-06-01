@@ -1,11 +1,117 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 interface QuoteProps {
   symbol: string;
   /** Override the title shown by the widget. */
   symbolName?: string;
+}
+
+interface OilPriceApiResponse {
+  fetchedAt: string;
+  source: string;
+  quotes: Record<
+    string,
+    {
+      price: number;
+      changeAmount: string;
+      changePct: number;
+      ageLabel: string;
+    }
+  >;
+  error?: string;
+  missing?: string[];
+}
+
+/** Poll /api/oilprice every 60s while the page is open. */
+const POLL_INTERVAL_MS = 60_000;
+
+interface LiveOilPriceState {
+  brent: OilPriceQuote | undefined;
+  wti: OilPriceQuote | undefined;
+  fetchedAt: string | undefined;
+  isLive: boolean;
+}
+
+function useLiveOilPrices(initial?: {
+  brent?: OilPriceQuote;
+  wti?: OilPriceQuote;
+  fetchedAt?: string;
+}): LiveOilPriceState {
+  const [data, setData] = useState<LiveOilPriceState>(() => ({
+    brent: initial?.brent,
+    wti: initial?.wti,
+    fetchedAt: initial?.fetchedAt,
+    isLive: false,
+  }));
+
+  useEffect(() => {
+    let cancelled = false;
+    async function fetchOnce(): Promise<void> {
+      try {
+        const res = await fetch(`/api/oilprice?t=${Date.now()}`, {
+          cache: "no-store",
+        });
+        if (!res.ok) return;
+        const json = (await res.json()) as OilPriceApiResponse;
+        if (cancelled) return;
+        const brent = json.quotes?.brent;
+        const wti = json.quotes?.wti;
+        if (brent || wti) {
+          setData({
+            brent: brent
+              ? {
+                  price: brent.price,
+                  changePct: brent.changePct,
+                  ageLabel: brent.ageLabel,
+                }
+              : data.brent,
+            wti: wti
+              ? {
+                  price: wti.price,
+                  changePct: wti.changePct,
+                  ageLabel: wti.ageLabel,
+                }
+              : data.wti,
+            fetchedAt: json.fetchedAt,
+            isLive: true,
+          });
+        }
+      } catch {
+        // Silent — keep previous data, retry next interval.
+      }
+    }
+    fetchOnce();
+    const id = setInterval(fetchOnce, POLL_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      clearInterval(id);
+    };
+    // We intentionally don't depend on `data` to avoid restart loops —
+    // the closure capture is fine for the silent fallback.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  return data;
+}
+
+/** "Live · 12s ago" indicator that updates every second. */
+function useSecondsSince(fetchedAt: string | undefined): number {
+  const subscribe = (cb: () => void): (() => void) => {
+    if (typeof window === "undefined") return () => {};
+    const id = setInterval(cb, 1000);
+    return () => clearInterval(id);
+  };
+  const getSnapshot = (): number => {
+    if (!fetchedAt) return 0;
+    return Math.max(
+      0,
+      Math.floor((Date.now() - new Date(fetchedAt).getTime()) / 1000),
+    );
+  };
+  const getServerSnapshot = (): number => 0;
+  return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 }
 
 /**
@@ -128,18 +234,16 @@ export default function OilHero({
   oilPriceWti,
   oilPriceFetchedAt,
 }: OilHeroProps = {}) {
-  const brent = oilPriceBrent ?? OILPRICE_FALLBACK.brent;
-  const wti = oilPriceWti ?? OILPRICE_FALLBACK.wti;
-  const fetchedAt = oilPriceFetchedAt
-    ? new Date(oilPriceFetchedAt).toLocaleString("en-US", {
-        timeZone: "America/New_York",
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "2-digit",
-        hour12: true,
-      })
-    : null;
+  // SSR / build-time props feed the initial render. The hook then
+  // polls /api/oilprice every 60s and replaces with live values.
+  const live = useLiveOilPrices({
+    brent: oilPriceBrent,
+    wti: oilPriceWti,
+    fetchedAt: oilPriceFetchedAt,
+  });
+  const brent = live.brent ?? OILPRICE_FALLBACK.brent;
+  const wti = live.wti ?? OILPRICE_FALLBACK.wti;
+  const secondsSinceFetch = useSecondsSince(live.fetchedAt);
   return (
     <section
       aria-label="Live crude oil prices"
@@ -175,8 +279,18 @@ export default function OilHero({
             >
               ⛽ OilPrice.com
             </a>
-            <span className="text-[10px] uppercase tracking-wider text-muted">
-              {fetchedAt ? `Sampled ${fetchedAt} ET` : "Daily"}
+            <span className="inline-flex items-center gap-1 text-[10px] uppercase tracking-wider text-muted">
+              {live.isLive ? (
+                <>
+                  <span
+                    aria-hidden
+                    className="inline-block h-1.5 w-1.5 rounded-full bg-[color:var(--lean-foreign-global-south)] animate-pulse"
+                  />
+                  Live · {secondsSinceFetch}s ago
+                </>
+              ) : (
+                "Snapshot"
+              )}
             </span>
           </div>
           <StaticPriceCell
