@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-01T11:10:01Z",
+  "lastUpdated": "2026-06-01T14:05:35Z",
   "stories": [
     {
       "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
@@ -8,7 +8,12 @@
       "summary": "Friday May 29 capped a strong month: Dow Industrials +0.72% to 51,032.46, S&P 500 +0.22% to 7,580.06 (ninth consecutive weekly gain, longest streak since 2023), and Nasdaq Composite +0.26% to 26,972.62. For the month, Nasdaq jumped roughly 8%, S&P 500 about 5%, and Dow about 3%, driven by Dell's AI-server earnings and growing optimism on the 60-day US-Iran ceasefire framework.",
       "category": "markets",
       "importance": 5,
-      "tags": ["equities", "ai", "dell", "iran"],
+      "tags": [
+        "equities",
+        "ai",
+        "dell",
+        "iran"
+      ],
       "firstSeenAt": "2026-05-29T20:30:00Z",
       "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
@@ -41,9 +46,14 @@
       "summary": "Friday May 29 saw Brent fall about 1.2% to roughly $92.56 and WTI fall about 2% to roughly $87.20, the lowest in about six weeks, with both benchmarks roughly 20% off 2026 highs set during the Strait of Hormuz crisis. The driver is the tentative 60-day MOU between Washington and Tehran to extend the ceasefire and reopen the Strait via demining, though Iranian missile fire toward Kuwait Thursday kept insurance premiums elevated.",
       "category": "markets",
       "importance": 5,
-      "tags": ["oil", "brent", "wti", "iran"],
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "iran"
+      ],
       "firstSeenAt": "2026-05-29T16:45:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
+      "updatedAt": "2026-06-01T14:05:35Z",
       "perspectives": [
         {
           "lean": "center",
@@ -67,9 +77,14 @@
       "summary": "BTC fell to around $73,300 — roughly -4.6% on the week — with ETH near $1,990 and SOL near $82, pressured by a record ~10-session, ~$3 billion outflow streak from US spot bitcoin ETFs and firmer oil on stalled Iran talks. The CFTC has authorized fully regulated US perpetual futures, anchoring the dominant global derivatives format domestically. Crypto's weakness stands in sharp contrast to equities setting records on the AI trade.",
       "category": "markets",
       "importance": 3,
-      "tags": ["crypto", "btc", "cftc", "etf"],
+      "tags": [
+        "crypto",
+        "btc",
+        "cftc",
+        "etf"
+      ],
       "firstSeenAt": "2026-05-29T19:15:00Z",
-      "updatedAt": "2026-06-01T11:10:01Z",
+      "updatedAt": "2026-06-01T14:05:35Z",
       "perspectives": [
         {
           "lean": "center",
@@ -100,9 +115,17 @@
       "summary": "OilPrice.com spot showed Brent near $93.37 (+2.47%) and WTI near $89.85 (+2.85%) in Sunday electronic trade, both well above Friday's New York close of $92.56 and $87.20. The bid reflects uncertainty over Trump's withheld Iran-ceasefire sign-off and Israel's deepening Lebanon operation, with seven OPEC+ producers due to meet June 7 to set July output. Wholesale RBOB gasoline rose ~2.5% to $3.11/gal; heating oil and natural gas each up about 2.4–2.9%.",
       "category": "markets",
       "importance": 3,
-      "tags": ["oil", "brent", "wti", "iran", "lebanon", "opec", "rbob"],
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "iran",
+        "lebanon",
+        "opec",
+        "rbob"
+      ],
       "firstSeenAt": "2026-06-01T04:45:00Z",
-      "updatedAt": "2026-06-01T06:25:46Z",
+      "updatedAt": "2026-06-01T14:05:35Z",
       "perspectives": [
         {
           "lean": "center",
@@ -119,6 +142,106 @@
           ]
         }
       ]
+    },
+    {
+      "id": "oil-spikes-iran-halts-talks-hormuz-2026-06-01",
+      "headline": "Oil jumps and US stocks slip after Iran halts US talks and threatens to fully close the Strait of Hormuz",
+      "summary": "WTI rose more than 5% toward the low-$90s and Brent climbed near $95 on June 1 after Iranian state media said Tehran halted mediated messaging with Washington over Israel's Lebanon operations and threatened to fully block the Strait of Hormuz. US equity futures turned lower, pulling indices back from May's record run, and traders revived bets that energy-driven inflation could force the Fed to hold or even hike.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "oil",
+        "iran",
+        "strait-of-hormuz",
+        "geopolitics",
+        "inflation",
+        "equities"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Supply-shock mechanics: a renewed Hormuz threat puts roughly a fifth of seaborne crude at risk, reviving inflation and rate worries.",
+          "summary": "CNBC and Yahoo Finance report US crude jumped more than 6% intraday on the report that Iran would halt talks and move to close Hormuz, with Brent up around 5%. Coverage frames geopolitics as overriding May's record equity rally; traders re-priced Fed expectations as the conflict's energy-price channel reasserted itself, with safe-haven gold and the dollar firming.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html",
+              "title": "U.S. oil jumps more than 6% on report Iran will halt talks with U.S. and completely block Hormuz",
+              "publishedAt": "2026-06-01T12:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-flat-225422503.html",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges",
+              "publishedAt": "2026-06-01T13:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Markets stay resilient — tech strength from Computex cushions the energy hit, and the administration signals the Iran deal may still hold.",
+          "summary": "TheStreet's market blog notes that after May's record-setting run, US futures wavered rather than tumbled, with Computex-driven tech optimism offsetting energy and small-cap weakness. The lean-right read emphasizes Trump's confidence that the situation 'will all work out' and treats the oil spike as a geopolitical premium rather than a fundamental shift in the disinflation trajectory.",
+          "sources": [
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
+              "title": "Stock Market Today (June 1, 2026): Nasdaq Futures Rise After May's Record-Setting Run",
+              "publishedAt": "2026-06-01T11:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
+    },
+    {
+      "id": "crypto-slides-btc-below-74k-eth-2k-2026-06-01",
+      "headline": "Bitcoin slips below ~$74,000 and Ether tests $2,000 as crypto extends a multi-week decline into June",
+      "summary": "Bitcoin traded below about $74,000, Ether near the $2,000 psychological level and Solana around $81 on June 1 as the oil-and-inflation risk-off and rising rate-hike odds pressured risk assets. The slide extends a roughly three-week decline and follows record US spot-Bitcoin ETF outflows, even as the CFTC's recent green light for perpetual futures expands the regulated US crypto rail.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "crypto",
+        "bitcoin",
+        "ethereum",
+        "solana",
+        "risk-off"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Crypto is trading as a high-beta risk asset, falling alongside equities as the inflation and rate-hike scare deepens.",
+          "summary": "FXStreet's Asian-session wrap reports the three-week decline continued, with Ether's drop toward $2,000 triggering loss realization and Bitcoin and Solana also lower. Analysts frame the move as macro-driven — the oil shock and revived Fed-hike odds sapping appetite for risk — rather than a crypto-specific catalyst.",
+          "sources": [
+            {
+              "outlet": "FXStreet",
+              "url": "https://www.fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-solana-bitcoin-ethereum-asian-wrap-01-june-202606010526",
+              "title": "Cryptocurrencies Price Prediction: Solana, Bitcoin & Ethereum – Asian Wrap 01 June",
+              "publishedAt": "2026-06-01T05:26:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Crypto-native commentary fixates on whether $2,000 ETH and sub-$74K BTC mark capitulation or the start of a deeper leg down.",
+          "summary": "Crypto-native outlets debate whether key support levels will hold, parsing on-chain flows and ETF outflows for signs of a bottom. The community framing centers on positioning and sentiment — liquidations, leverage and the psychological weight of round numbers — against the backdrop of the broader macro risk-off.",
+          "sources": [
+            {
+              "outlet": "Cryptonews",
+              "url": "https://cryptonews.net/news/analytics/32945345/",
+              "title": "Solana Price Prediction June 2026",
+              "publishedAt": "2026-06-01T08:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
     }
   ]
 }

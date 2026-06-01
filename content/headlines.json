@@ -1,292 +1,306 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-01T11:10:01Z",
+  "lastUpdated": "2026-06-01T14:05:35Z",
   "stories": [
     {
-      "id": "israel-beaufort-castle-lebanon-2026-05-31",
-      "headline": "Israel captures Beaufort Castle in deepest Lebanon ground push in 26 years; Hezbollah fires 50+ rockets",
-      "summary": "Israel's Golani Brigade seized the 12th-century Beaufort Castle and its strategic ridge in southern Lebanon on May 31, with Prime Minister Netanyahu calling it a 'dramatic shift' and ordering operations beyond the Litani River. Hezbollah fired 50+ rockets and drones into Galilee; the UN Security Council will hold an emergency session Monday June 1 at France's request, and Egypt condemned a 'blatant aggression' against Lebanese sovereignty.",
+      "id": "israel-beirut-dahiyeh-strikes-lebanon-2026-06-01",
+      "headline": "Netanyahu orders strikes on Beirut's southern suburbs as Israeli troops reach deepest point in Lebanon in 26 years",
+      "summary": "On June 1, Netanyahu and Defense Minister Katz ordered the IDF to strike Hezbollah targets in Dahiyeh, south Beirut, citing repeated ceasefire violations. The order followed a weekend ground advance north of the Litani River and the capture of Beaufort Castle. Residents fled Dahiyeh as Hezbollah fired rockets toward northern Israel; Washington is reportedly pressing a new Lebanon de-escalation roadmap.",
       "category": "war",
       "importance": 5,
-      "tags": ["israel", "lebanon", "hezbollah", "beaufort"],
-      "firstSeenAt": "2026-05-31T13:00:00Z",
-      "updatedAt": "2026-06-01T11:10:01Z",
+      "tags": [
+        "israel",
+        "lebanon",
+        "hezbollah",
+        "beirut",
+        "beaufort-castle",
+        "litani",
+        "ceasefire"
+      ],
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Strategic/military framing: the deepest Israeli ground advance into Lebanon since 2000 and a de-facto rupture of the April ceasefire.",
-          "summary": "AP/Reuters and CNN treat the Beaufort capture as the deepest ground push in 26 years and an open break with April's truce. CNN highlights Netanyahu's order to advance beyond the Litani River and notes 1.2 million Lebanese have been displaced since March.",
+          "keyFraming": "Israel expands its assault into Beirut after the deepest ground push since 2000; civilians flee Dahiyeh as Washington scrambles a ceasefire roadmap.",
+          "summary": "Al Jazeera and UPI report Israel ordered strikes on Dahiyeh after advancing past the Litani and seizing Beaufort Castle, the farthest north Israeli forces have operated in Lebanon in 26 years. Hezbollah fired rockets toward Haifa's outskirts as residents fled the southern suburbs. A US official said Washington was circulating a de-escalation roadmap to both sides.",
           "sources": [
             {
-              "outlet": "CNN",
-              "url": "https://www.cnn.com/2026/05/31/middleeast/israel-captures-beaufort-castle-lebanon-intl-hnk",
-              "title": "Israel seizes Crusader-era castle as Netanyahu orders forces deeper into Lebanon",
-              "publishedAt": "2026-05-31T16:00:00Z",
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/1/washington-proposes-roadmap-for-de-escalation-in-lebanon-us-official",
+              "title": "Lebanese start fleeing south Beirut after Israel says it will target the area",
+              "publishedAt": "2026-06-01T09:00:00Z",
               "allSidesRating": "lean-left"
             },
             {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/05/31/g-s1-125056/israel-seizes-medieval-beaufort-castle-southern-lebanon",
-              "title": "Israel seizes medieval castle as it expands major offensive in southern Lebanon",
-              "publishedAt": "2026-05-31T15:00:00Z",
+              "outlet": "UPI",
+              "url": "https://www.upi.com/Top_News/World-News/2026/06/01/IDF-attacks-Lebanon/1811780299946/",
+              "title": "Netanyahu orders Beirut strikes after Lebanon advance",
+              "publishedAt": "2026-06-01T11:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "foreign-western",
-          "keyFraming": "European framing: Macron's blunt condemnation of the escalation and Paris's push for both an emergency UNSC session and a US-Iran deal.",
-          "summary": "France 24 and Euronews report Macron's statement that 'nothing justifies the major escalation under way in south Lebanon' and his call for an emergency UN Security Council meeting. Paris paired condemnation with renewed pressure for a US-Iran agreement to defuse the wider regional conflict.",
+          "keyFraming": "A brittle truce shatters; Israel signals 'no calm in Beirut' while vowing a military-controlled zone in southern Lebanon.",
+          "summary": "The Washington Post reports Israel's defense minister vowed a controlled zone in southern Lebanon and warned of 'no calm in Beirut' if Hezbollah attacks continue, as rockets struck northern Israel. Coverage notes fears among Lebanese that the 'Gaza model' of sustained operations is being replicated, with displacement spreading from the south to the capital's outskirts.",
           "sources": [
             {
-              "outlet": "France 24",
-              "url": "https://www.france24.com/en/israel-seizes-strategic-beaufort-castle-in-lebanon-issues-new-evacuation-orders",
-              "title": "Israel seizes strategic Beaufort Castle in Lebanon, issues new evacuation orders",
-              "publishedAt": "2026-05-31T17:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "Euronews",
-              "url": "https://www.euronews.com/2026/05/31/israel-retakes-beaufort-castle-in-lebanon-paris-issues-harsh-condemnation",
-              "title": "Israel retakes Beaufort castle in Lebanon, Paris issues strong condemnation",
-              "publishedAt": "2026-05-31T18:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "foreign-global-south",
-          "keyFraming": "Arab/regional framing: emphasizes fresh Israeli displacement orders, civilian impact, and continued ceasefire violations.",
-          "summary": "Al Jazeera centers the displacement orders Israel issued for additional villages, framing the castle's capture as part of an ongoing pattern of ceasefire violations rather than a one-off operational achievement. The piece highlights residents fleeing under evacuation orders across multiple villages.",
-          "sources": [
-            {
-              "outlet": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle",
-              "title": "Israel issues more displacement orders in Lebanon, seizes strategic castle",
-              "publishedAt": "2026-05-31T13:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "iran-deal-trump-delay-2026-05-31",
-      "headline": "Trump withholds final approval on 60-day Iran ceasefire framework as Hegseth signals strike readiness",
-      "summary": "President Trump exited weekend Situation Room meetings without a 'final determination' on a tentative 60-day US-Iran ceasefire extension, saying he is 'in no hurry' and sending the draft back with tougher uranium-enrichment and Strait of Hormuz terms. Defense Secretary Pete Hegseth told the Shangri-La Dialogue the US military remains 'more than capable' of resuming strikes if talks collapse.",
-      "category": "us-politics",
-      "importance": 4,
-      "tags": ["iran", "trump", "hegseth", "diplomacy"],
-      "firstSeenAt": "2026-05-29T00:00:00Z",
-      "updatedAt": "2026-06-01T11:10:01Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "Frames Trump's eleventh-hour demands as risking a tentative deal while gas prices stay elevated and Iran's enrichment stockpile grows.",
-          "summary": "Left-leaning coverage stresses the economic and humanitarian cost of stalling: elevated gas, an IAEA report on Iranian uranium stockpiles, and Sen. Chris Murphy calling the conflict 'an absolute disaster for the United States' on Face the Nation. The frame is that ending the war should be the immediate priority.",
-          "sources": [
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/chris-murphy-connecticut-democrat-face-the-nation-transcript-05-31-2026/",
-              "title": "Transcript: Sen. Chris Murphy on Face the Nation with Margaret Brennan, May 31, 2026",
-              "publishedAt": "2026-05-31T15:30:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Tracks the unsigned memorandum of understanding mechanics: Hormuz passage, mine clearance, sanctions waivers, frozen-asset language.",
-          "summary": "Center outlets report the draft as 'relief for performance' and note Qatar's shuttle diplomacy continues while a US Navy port blockade has stopped 118 vessels. Trump said Saturday he is 'in no hurry' and exited weekend meetings without an announcement.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/05/31/still-no-deal-to-end-us-iran-war-trump-says-hes-not-in-a-hurry.html",
-              "title": "U.S. and Iran still without deal to end war after Trump says he's not in a 'hurry'",
-              "publishedAt": "2026-05-31T17:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNN",
-              "url": "https://www.cnn.com/2026/05/29/world/live-news/iran-trump-war-news",
-              "title": "US military ready to resume combat in Gulf if needed, defense secretary warns",
-              "publishedAt": "2026-05-30T22:00:00Z",
+              "outlet": "The Washington Post",
+              "url": "https://www.washingtonpost.com/world/2026/06/01/lebanon-israel-hezbollah-netanyahu-dahiyeh-rubio-ceasefire-airstrikes/78a49cb2-5d98-11f1-9c46-d6211372eede_story.html",
+              "title": "Israel orders strikes on Beirut's southern suburbs as Hezbollah rockets hit northern Israel",
+              "publishedAt": "2026-06-01T10:30:00Z",
               "allSidesRating": "lean-left"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "Casts Trump as the disciplined negotiator refusing to ease leverage prematurely; warns against an 'economic bailout' of the Iranian regime.",
-          "summary": "Right-leaning outlets emphasize Trump's vow to 'finish the job' if talks fail and a Wall Street Journal editorial warning that lifting the naval blockade before nuclear dismantlement 'would be the real betrayal.' Hegseth's Singapore remarks are framed as restoring deterrence.",
+          "keyFraming": "Netanyahu casts the strikes as a justified response to repeated Hezbollah ceasefire violations and rocket attacks on Israeli cities.",
+          "summary": "The Washington Times reports Netanyahu said the strikes followed 'repeated violations of the cease-fire in Lebanon by the Hezbollah terrorist organization and the attacks against our cities and citizens.' The order, issued jointly with Defense Minister Katz, came after the IDF raised the Israeli flag over Beaufort Castle and pushed north of the Litani River.",
           "sources": [
             {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/media/5894035-wall-street-journal-board-donald-trump-us-iran-deal/",
-              "title": "Wall Street Journal board warns Trump against 'economic bailout' in Iran deal",
-              "publishedAt": "2026-05-31T18:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "louisiana-congressional-map-passed-2026-05-29",
-      "headline": "Louisiana Legislature passes new US House map eliminating a majority-Black district",
-      "summary": "Louisiana Republicans gave final passage Friday to a new congressional map that dismantles one of the state's two majority-Black districts (Rep. Cleo Fields' 6th), likely netting a GOP House seat. The move follows the Supreme Court's April Louisiana v. Callais ruling weakening Section 2 of the Voting Rights Act, with lawmakers acting ahead of a June 1 deadline for the midterms.",
-      "category": "us-politics",
-      "importance": 4,
-      "tags": ["louisiana", "redistricting", "voting-rights-act", "midterms"],
-      "firstSeenAt": "2026-06-01T06:25:46Z",
-      "updatedAt": "2026-06-01T06:25:46Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "A direct assault on Black representation enabled by a Court that gutted the Voting Rights Act; civil-rights groups call it a license to silence communities.",
-          "summary": "NPR and PBS frame the new map as the dismantling of Cleo Fields' majority-Black 6th District, a consequence of the Court weakening Section 2. Coverage emphasizes that legislators limited themselves to eliminating one Black district to avoid endangering GOP incumbents like Speaker Johnson and Leader Scalise, underscoring the partisan calculation behind the lines.",
-          "sources": [
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/05/29/nx-s1-5826956/louisiana-new-congressional-map-redistricting",
-              "title": "Louisiana lawmakers pass a congressional map to dismantle a majority-Black district",
-              "publishedAt": "2026-05-29T22:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "PBS NewsHour",
-              "url": "https://www.pbs.org/newshour/politics/louisiana-passes-new-congressional-map-to-eliminate-majority-black-district-give-gop-another-seat",
-              "title": "Louisiana passes new congressional map to eliminate majority-Black district, give GOP another seat",
-              "publishedAt": "2026-05-29T23:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Republican-controlled legislature redraws lines to net a likely GOP seat after the Supreme Court voided the prior map; an expected 5R-1D delegation.",
-          "summary": "The Hill and NOTUS report the state Senate gave final passage Friday afternoon to a map expected to elect five Republicans and one Democrat, after House tweaks earlier in the week. The reporting situates the move as the direct legislative response to Louisiana v. Callais and notes the elimination of Fields' Shreveport-to-Baton Rouge district.",
-          "sources": [
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/5901463-louisiana-legislature-house-map-black-majority-district/",
-              "title": "Louisiana legislature passes new House map removing Black-majority district",
-              "publishedAt": "2026-05-29T21:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "NOTUS",
-              "url": "https://www.notus.org/congress/louisiana-new-congressional-map-one-majority-black-district-supreme-court",
-              "title": "Louisiana Passes a New Congressional Map Leaving Only One Majority-Black District",
-              "publishedAt": "2026-05-29T22:30:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Lawmakers complied with the Supreme Court's gerrymander ruling and redrew a constitutionally compliant map that improves GOP House prospects.",
-          "summary": "ABC affiliate coverage frames the new map as Louisiana approving lines that 'could allow Republicans to pick up a seat,' emphasizing the map was drawn to satisfy the Supreme Court's finding that the prior plan was an unconstitutional racial gerrymander. The angle stresses legal compliance and the electoral upside for the GOP heading into the midterms.",
-          "sources": [
-            {
-              "outlet": "ABC7 New York",
-              "url": "https://abc7ny.com/post/louisiana-approves-new-congressional-map-could-allow-republicans-pick-seat-eliminates-1-majority-black-district/19194608/",
-              "title": "Louisiana approves new congressional map that could allow Republicans to pick up a seat",
-              "publishedAt": "2026-05-29T23:30:00Z",
+              "outlet": "The Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/jun/1/israeli-pm-benjamin-netanyahu-orders-strikes-hezbollah-beirut/",
+              "title": "Israeli PM Netanyahu orders strikes on Hezbollah in Beirut; IDF captures Beaufort Castle",
+              "publishedAt": "2026-06-01T08:30:00Z",
               "allSidesRating": "lean-right"
             }
           ]
         }
-      ]
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
     },
     {
-      "id": "ukraine-russia-saratov-mass-strike-warning-2026-05-31",
-      "headline": "Ukraine hits Saratov refinery 700km inside Russia overnight; Russia launches 212 drones at Ukraine",
-      "summary": "Overnight May 30-31, Ukrainian long-range drones struck the Rosneft Saratov refinery — one of Russia's largest at ~7 Mt/yr — plus a fuel pipeline pumping station and a depot, while Russia launched 212 Shahed and decoy drones at Ukraine. Saratov Governor Busargin confirmed civil-infrastructure damage with no injuries reported. The strike compounds Zelensky's warning of an imminent 'new massive strike' from Moscow.",
+      "id": "iran-suspends-us-talks-lebanon-ceasefire-2026-06-01",
+      "headline": "Iran halts US-mediated messaging, says Israeli strikes in Lebanon violate the ceasefire 'on all fronts'",
+      "summary": "On June 1, Iranian Foreign Minister Abbas Araghchi declared the Iran-US ceasefire applies 'on all fronts, including in Lebanon,' and that a violation on one front breaks it everywhere, holding the US and Israel responsible for any consequences. Iranian state media said Tehran's negotiators stopped exchanging messages with Washington via mediators over the IDF's Lebanon escalation. The US and Israel maintain the Iran truce does not cover action against Hezbollah.",
       "category": "war",
       "importance": 4,
-      "tags": ["ukraine", "russia", "saratov", "refinery", "drones", "rosneft"],
-      "firstSeenAt": "2026-05-31T05:00:00Z",
-      "updatedAt": "2026-06-01T11:10:01Z",
+      "tags": [
+        "iran",
+        "us-iran",
+        "lebanon",
+        "ceasefire",
+        "araghchi",
+        "hezbollah",
+        "hormuz"
+      ],
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Damage-assessment framing: the Saratov refinery is one of Rosneft's largest; the strike marks one of Ukraine's deepest energy-infrastructure raids.",
-          "summary": "Reuters via US News and Bloomberg confirm the overnight strike on the Rosneft Saratov refinery, which has annual capacity of about 7 million metric tonnes. Saratov Governor Roman Busargin confirmed civil-infrastructure damage without specifying full extent; pipelines and a fuel depot in other regions were also hit. The strike comes amid Russia's heaviest aerial bombardment of Ukrainian cities in weeks.",
+          "keyFraming": "Iran ties the fragile US truce to Lebanon, suspending back-channel talks as escalation risks widening into a regional war.",
+          "summary": "France 24's live coverage reports Iran stopped exchanging mediated messages with the US, citing intensified IDF attacks on Hezbollah, while the US and Israel insist the Iran truce excludes Lebanon operations. The move injects fresh uncertainty into a deal Trump has not signed, with Tehran framing the Lebanon front as a tripwire for the broader ceasefire.",
           "sources": [
             {
-              "outlet": "U.S. News & World Report",
-              "url": "https://www.usnews.com/news/world/articles/2026-05-31/ukrainian-drones-hit-targets-across-several-russian-regions",
-              "title": "Ukrainian Drones Hit Pipeline, Refinery, Fuel Depot in Overnight Strikes on Russia",
+              "outlet": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260601-middle-east-live-us-pushes-lebanon-and-israel-on-new-ceasefire-plan-official-says",
+              "title": "Middle East live: Iran suspends mediated negotiations over Lebanon attacks",
+              "publishedAt": "2026-06-01T12:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Tehran threatens 'consequences,' reframing a bilateral truce as a region-wide tripwire that any Lebanon strike could trigger.",
+          "summary": "The Times of Israel's liveblog records Araghchi's threat that any violation in Lebanon breaches the US-Iran truce and Iran's halt to mediated messaging. Israeli coverage frames the statement as Tehran leveraging the ceasefire to constrain Israeli operations against Hezbollah while preserving its own deterrence posture.",
+          "sources": [
+            {
+              "outlet": "The Times of Israel",
+              "url": "https://www.timesofisrael.com/liveblog-june-01-2026/",
+              "title": "Tehran says Israeli strikes in Lebanon violate US-Iran truce, threatens 'consequences'",
+              "publishedAt": "2026-06-01T11:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Iran's foreign minister directly threatens the US and Israel; pro-Israel outlets cast it as Tehran weaponizing the truce.",
+          "summary": "JNS reports Araghchi holding the US and Israel 'responsible for any violation of truce, including in Lebanon,' underscoring Tehran's 'all-fronts' doctrine. The framing presents Iran as trying to extend its Lebanon proxy's protection through diplomatic leverage even as US forces conducted weekend self-defense strikes on Iranian sites.",
+          "sources": [
+            {
+              "outlet": "JNS",
+              "url": "https://www.jns.org/news/israel-news/iranian-fm-us-israel-responsible-for-any-violation-of-truce-including-in-lebanon",
+              "title": "Iranian FM: US, Israel responsible for 'any violation' of truce, including in Lebanon",
+              "publishedAt": "2026-06-01T10:00:00Z",
+              "allSidesRating": "lean-right"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
+    },
+    {
+      "id": "oil-spikes-iran-halts-talks-hormuz-2026-06-01",
+      "headline": "Oil jumps and US stocks slip after Iran halts US talks and threatens to fully close the Strait of Hormuz",
+      "summary": "WTI rose more than 5% toward the low-$90s and Brent climbed near $95 on June 1 after Iranian state media said Tehran halted mediated messaging with Washington over Israel's Lebanon operations and threatened to fully block the Strait of Hormuz. US equity futures turned lower, pulling indices back from May's record run, and traders revived bets that energy-driven inflation could force the Fed to hold or even hike.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "oil",
+        "iran",
+        "strait-of-hormuz",
+        "geopolitics",
+        "inflation",
+        "equities"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Supply-shock mechanics: a renewed Hormuz threat puts roughly a fifth of seaborne crude at risk, reviving inflation and rate worries.",
+          "summary": "CNBC and Yahoo Finance report US crude jumped more than 6% intraday on the report that Iran would halt talks and move to close Hormuz, with Brent up around 5%. Coverage frames geopolitics as overriding May's record equity rally; traders re-priced Fed expectations as the conflict's energy-price channel reasserted itself, with safe-haven gold and the dollar firming.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html",
+              "title": "U.S. oil jumps more than 6% on report Iran will halt talks with U.S. and completely block Hormuz",
+              "publishedAt": "2026-06-01T12:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-flat-225422503.html",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges",
+              "publishedAt": "2026-06-01T13:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Markets stay resilient — tech strength from Computex cushions the energy hit, and the administration signals the Iran deal may still hold.",
+          "summary": "TheStreet's market blog notes that after May's record-setting run, US futures wavered rather than tumbled, with Computex-driven tech optimism offsetting energy and small-cap weakness. The lean-right read emphasizes Trump's confidence that the situation 'will all work out' and treats the oil spike as a geopolitical premium rather than a fundamental shift in the disinflation trajectory.",
+          "sources": [
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
+              "title": "Stock Market Today (June 1, 2026): Nasdaq Futures Rise After May's Record-Setting Run",
+              "publishedAt": "2026-06-01T11:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
+    },
+    {
+      "id": "ukraine-russia-pokrovsk-illinivka-drone-strikes-2026-06-01",
+      "headline": "Heavy fighting persists around Pokrovsk as Russia claims new gains and Ukraine presses deep drone strikes inside Russia",
+      "summary": "As of June 1, Ukraine's General Staff reported intense fighting around Pokrovsk with dozens of repelled Russian assaults. Russian state media claimed Moscow's forces had taken 63 settlements during the spring campaign, including new villages near Kostiantynivka and in Zaporizhzhia. Ukraine reported continued long-range drone strikes on Russian military-industrial targets, including the Nevinnomyssk Azot chemical plant tied to explosives production.",
+      "category": "war",
+      "importance": 4,
+      "tags": [
+        "ukraine",
+        "russia",
+        "pokrovsk",
+        "zaporizhzhia",
+        "drones",
+        "nevinnomyssk-azot"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Attritional fighting concentrates on Pokrovsk and Kostiantynivka, with incremental, contested territorial claims from both sides.",
+          "summary": "Front-line trackers report Ukraine's General Staff logged hundreds of clashes and dozens of repelled assaults around Pokrovsk as of June 1, while territorial claims from both sides remain unverified. The grind continues with no breakthrough, even as both armies escalate long-range strikes against the other's rear-area infrastructure.",
+          "sources": [
+            {
+              "outlet": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_January_2026_%E2%80%93_present)",
+              "title": "Timeline of the Russo-Ukrainian war (1 January 2026 – present)",
+              "publishedAt": "2026-06-01T12:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Ukraine's deep-strike campaign deliberately targets Russia's explosives and fertilizer supply chain to degrade munitions output.",
+          "summary": "Militarnyi and the Kyiv Independent report Ukrainian drones struck Nevinnomyssk Azot — one of Russia's largest ammonia and ammonium-nitrate producers, feeding explosives manufacturing — in late-May raids. Western-aligned coverage frames the strikes as part of Kyiv's strategy to hit Russia's war economy far behind the front line.",
+          "sources": [
+            {
+              "outlet": "Militarnyi",
+              "url": "https://militarnyi.com/en/news/drones-chemical-plant-nevinnomyssk-azot/",
+              "title": "Drones Strike Largest Chemical Plant Nevinnomyssk Azot in Southern Russia",
               "publishedAt": "2026-05-31T08:00:00Z",
               "allSidesRating": "center"
             },
             {
-              "outlet": "RFE/RL",
-              "url": "https://www.rferl.org/a/ukrainian-drones-strike-saratov-refinery-deep-inside-russia/33769434.html",
-              "title": "Ukrainian Drones Target Russian Refinery In Latest Attack Deep Inside Russia",
-              "publishedAt": "2026-05-31T10:00:00Z",
+              "outlet": "The Kyiv Independent",
+              "url": "https://kyivindependent.com/ukraine-war-latest-drone-strike-reportedly-hits-major-russian-fertilizer-plant-linked-to-explosives-production/",
+              "title": "Drone strike reportedly hits major Russian fertilizer plant linked to explosives production",
+              "publishedAt": "2026-05-31T06:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "foreign-eastern",
-          "keyFraming": "Russian state coverage inverts the framing: portrays Ukrainian deep strikes as terrorism on civilian infrastructure and frames Russia's bombardment as legitimate response.",
-          "summary": "TASS and Pravda-affiliated outlets frame Ukrainian drone raids on the Saratov refinery and other targets as attacks on civilian infrastructure deserving 'systemic strikes' in response. Russian outlets also report a Ukrainian 'deliberate' strike on the Zaporizhzhia nuclear plant engine room May 30 as part of the same campaign.",
+          "keyFraming": "Russian state coverage casts its forces as steadily 'liberating' settlements and repelling Ukrainian assaults along the front.",
+          "summary": "TASS reported Russian troops 'liberated' 63 settlements during the spring 2026 campaign and detailed front-line activity and claimed Ukrainian losses as of June 1. State framing presents the advance as methodical and irreversible, omitting the scale of Russian casualties and the impact of Ukrainian deep strikes on rear-area industry.",
           "sources": [
             {
               "outlet": "TASS",
               "url": "https://tass.com/military-operation-in-ukraine",
               "title": "Military operation in Ukraine",
-              "publishedAt": "2026-05-31T11:00:00Z",
-              "allSidesRating": "right",
-              "isStateMedia": true
-            },
-            {
-              "outlet": "Pravda EU",
-              "url": "https://eu.news-pravda.com/world/2026/05/31/202262.html",
-              "title": "The key for May 31. Summary of the night strikes on Russia and Ukraine",
-              "publishedAt": "2026-05-31T10:00:00Z",
+              "publishedAt": "2026-06-01T11:00:00Z",
               "allSidesRating": "right",
               "isStateMedia": true
             }
           ]
         }
-      ]
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
     },
     {
-      "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
-      "headline": "Dow closes above 51,000, S&P 500 logs ninth straight weekly gain as AI rally + Iran ceasefire optimism cap record May",
-      "summary": "Friday May 29 capped a strong month: Dow Industrials +0.72% to 51,032.46, S&P 500 +0.22% to 7,580.06 (ninth consecutive weekly gain, longest streak since 2023), and Nasdaq Composite +0.26% to 26,972.62. For the month, Nasdaq jumped roughly 8%, S&P 500 about 5%, and Dow about 3%, driven by Dell's AI-server earnings and growing optimism on the 60-day US-Iran ceasefire framework.",
-      "category": "markets",
+      "id": "california-governor-primary-preview-2026-06-01",
+      "headline": "California's top-two gubernatorial primary on June 2 features a crowded field and a possible Democratic lockout",
+      "summary": "California votes June 2 in a top-two primary to succeed term-limited Gov. Gavin Newsom, with dozens of candidates. Polling shows Democrat Xavier Becerra leading and Republican Steve Hilton close behind, with Tom Steyer, Chad Bianco and Katie Porter trailing. A split Democratic vote raises a slim chance two candidates of the same party advance; Trump's endorsement of Hilton reshaped the GOP lane.",
+      "category": "us-politics",
       "importance": 4,
-      "tags": ["equities", "ai", "dell", "iran"],
-      "firstSeenAt": "2026-05-29T20:30:00Z",
-      "updatedAt": "2026-06-01T06:25:46Z",
+      "tags": [
+        "elections",
+        "california",
+        "governor",
+        "primary",
+        "2026-midterms"
+      ],
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Records cap the strongest tech month since the post-pandemic rally, with AI demand and the Iran framework driving simultaneous risk-on bid.",
-          "summary": "Reuters/Yahoo Finance and TheStreet lead the Friday close: Dow above 51,000, S&P 500 7,580.06, Nasdaq 26,972.62; ninth weekly gain for the S&P is the longest streak since 2023. Drivers were Dell's earnings beat (stock surged up to 40%) plus White House signals it would soon endorse the Iran framework. Treasury yields drifted lower (10-year ~4.45%), supportive of multiples.",
+          "keyFraming": "Frames the race around uncertainty over which two candidates advance and worries that a crowded field could depress turnout.",
+          "summary": "ABC7 San Francisco reports Democratic candidates rallying voters in the final stretch, with concerns that the sprawling field could suppress turnout. Coverage lays out the top-two mechanics: only the two highest vote-getters advance regardless of party, making the order of finish in a fragmented field decisive.",
           "sources": [
             {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/dow-nasdaq-sp-gain-stock-market-today-friday-may-29-222720284.html",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision",
-              "publishedAt": "2026-05-29T22:27:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026",
-              "title": "Stock Market Today (May 29, 2026): S&P 500 good for ninth consecutive week of gains",
-              "publishedAt": "2026-05-29T20:30:00Z",
+              "outlet": "ABC7 San Francisco",
+              "url": "https://abc7news.com/post/2026-election-democratic-candidates-rally-voters-california-governors-race-enters-final-stretch-ahead-june-2-primary/19202078/",
+              "title": "Democratic candidates rally voters as California governor's race enters final stretch ahead of June 2 primary",
+              "publishedAt": "2026-05-31T01:00:00Z",
               "allSidesRating": "center"
             }
           ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Emphasizes Becerra's surge and the real danger of Democrats getting locked out of the runoff if their vote fragments.",
+          "summary": "KQED reports Becerra and Hilton leading recent polling and frames the top-two dynamics as high-stakes for Democrats, who could in theory be shut out of November if too many strong Democratic candidates split the vote. The piece situates the contest as the marquee race to define post-Newsom California.",
+          "sources": [
+            {
+              "outlet": "KQED",
+              "url": "https://www.kqed.org/news/12085276/becerra-hilton-lead-in-california-governors-race-poll-ahead-of-june-primary",
+              "title": "Becerra, Hilton Lead in California Governor's Race Poll Ahead of June Primary",
+              "publishedAt": "2026-05-30T12:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
         }
-      ]
+      ],
+      "firstSeenAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T14:05:35Z"
     }
   ]
 }
