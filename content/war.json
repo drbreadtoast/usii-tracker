@@ -1,6 +1,6 @@
 {
   "sectionId": "war",
-  "lastUpdated": "2026-06-01T14:05:35Z",
+  "lastUpdated": "2026-06-01T23:01:53Z",
   "stories": [
     {
       "id": "israel-beaufort-castle-lebanon-2026-05-31",
@@ -166,8 +166,8 @@
     },
     {
       "id": "ukraine-russia-saratov-mass-strike-warning-2026-05-31",
-      "headline": "Ukraine hits Saratov refinery 700km inside Russia overnight; Russia launches 212 drones at Ukraine",
-      "summary": "Overnight May 30-31, Ukrainian long-range drones struck the Rosneft Saratov refinery — one of Russia's largest at ~7 Mt/yr — plus a fuel pipeline pumping station and a depot, while Russia launched 212 Shahed and decoy drones at Ukraine. Saratov Governor Busargin confirmed civil-infrastructure damage with no injuries reported. The strike compounds Zelensky's warning of an imminent 'new massive strike' from Moscow.",
+      "headline": "Russia strikes Odesa and Kharkiv with 265 drones overnight, killing 3; the mass barrage Zelensky warned of has not yet hit at scale",
+      "summary": "Russia launched about 265 Shahed-type drones into June 1; Ukraine downed or jammed 228 while 27 struck 18 locations, killing at least 3 and injuring 60+, hitting an Odesa high-rise and cutting power across eight oblasts. The large combined missile-and-drone barrage President Zelensky warned of had not materialized at scale as of reporting. Ukraine also sustained deep strikes inside Russia, building on its overnight raid days earlier on the Rosneft Saratov refinery, one of the country's largest.",
       "category": "war",
       "importance": 5,
       "tags": [
@@ -179,7 +179,7 @@
         "rosneft"
       ],
       "firstSeenAt": "2026-05-31T05:00:00Z",
-      "updatedAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T23:01:53Z",
       "perspectives": [
         {
           "lean": "center",
@@ -211,9 +211,16 @@
         },
         {
           "lean": "foreign-western",
-          "keyFraming": "Western framing centers Zelensky's pre-warning that Russia is preparing a 'new massive strike,' tying it to last weekend's nuclear-capable Oreshnik salvo.",
-          "summary": "Euronews and other European outlets contextualize the Saratov strike within Zelensky's Sunday warning of an imminent Russian attack using drones, cruise and ballistic missiles. The pieces note Moscow's recent Oreshnik salvo (~90 missiles/600 drones) and tie Ukrainian deep strikes to Kyiv's pre-empt-and-deter strategy.",
+          "keyFraming": "Western coverage tracks the overnight Odesa/Kharkiv drone attack and notes the far larger barrage Zelensky warned of has not yet landed, as Kyiv presses for more Patriot interceptors.",
+          "summary": "The Kyiv Independent reports Russian drones hit an Odesa residential high-rise and Kharkiv overnight, killing 3 and injuring more than 60, with outages across Dnipropetrovsk, Zhytomyr, Zaporizhzhia, Odesa, Sumy, Kherson, Kharkiv and Chernihiv. The ~265-drone strike fell short of the 600-drone, 90-missile class barrage Zelensky warned was imminent, which had not materialized at scale as of reporting.",
           "sources": [
+            {
+              "outlet": "The Kyiv Independent",
+              "url": "https://kyivindependent.com/russian-drones-hit-odesa-residential-area-as-attacks-across-ukraine-kill-3-injure-over-60/",
+              "title": "Russian drones hit Odesa residential area as attacks across Ukraine kill 3, injure over 60",
+              "publishedAt": "2026-06-01T06:00:00Z",
+              "allSidesRating": "center"
+            },
             {
               "outlet": "Euronews",
               "url": "https://www.euronews.com/my-europe/2026/05/30/zelenskyy-warns-russia-may-be-preparing-massive-new-attack",
@@ -251,7 +258,7 @@
     {
       "id": "israel-beirut-dahiyeh-strikes-lebanon-2026-06-01",
       "headline": "Netanyahu orders strikes on Beirut's southern suburbs as Israeli troops reach deepest point in Lebanon in 26 years",
-      "summary": "On June 1, Netanyahu and Defense Minister Katz ordered the IDF to strike Hezbollah targets in Dahiyeh, south Beirut, citing repeated ceasefire violations. The order followed a weekend ground advance north of the Litani River and the capture of Beaufort Castle. Residents fled Dahiyeh as Hezbollah fired rockets toward northern Israel; Washington is reportedly pressing a new Lebanon de-escalation roadmap.",
+      "summary": "On June 1, Netanyahu and Defense Minister Katz ordered IDF strikes on Hezbollah targets in Dahiyeh, south Beirut, after a weekend advance past the Litani and the capture of Beaufort Castle. Thousands fled as Hezbollah fired rockets toward northern Israel. France sought an emergency UN Security Council meeting; Washington floated a de-escalation roadmap ahead of Lebanon-Israel talks June 2-3. Lebanon reports 3,400+ killed since March.",
       "category": "war",
       "importance": 5,
       "tags": [
@@ -312,17 +319,32 @@
               "allSidesRating": "lean-right"
             }
           ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Chinese state media stresses Israel's plan for a military-controlled zone to the Litani and foregrounds the Lebanese casualty toll.",
+          "summary": "Xinhua reports Israel intends to establish a military-controlled zone around Lebanon's Litani River and that Katz warned of 'no peace in Beirut' until Hezbollah halts attacks. State coverage foregrounds the Lebanese Public Health Emergency Operations Center's figure of more than 3,400 killed and 10,200 wounded since early March, framing the offensive as open-ended occupation.",
+          "sources": [
+            {
+              "outlet": "Xinhua",
+              "url": "https://english.news.cn/20260601/b7adc1f14c674004ace3d79808aa0c57/c.html",
+              "title": "Israel vows to create military-controlled zone around Lebanon's Litani River",
+              "publishedAt": "2026-06-01T11:00:00Z",
+              "allSidesRating": "left",
+              "isStateMedia": true
+            }
+          ]
         }
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-01T14:05:35Z"
+      "updatedAt": "2026-06-01T23:01:53Z"
     },
     {
       "id": "iran-suspends-us-talks-lebanon-ceasefire-2026-06-01",
-      "headline": "Iran halts US-mediated messaging, says Israeli strikes in Lebanon violate the ceasefire 'on all fronts'",
-      "summary": "On June 1, Iranian Foreign Minister Abbas Araghchi declared the Iran-US ceasefire applies 'on all fronts, including in Lebanon,' and that a violation on one front breaks it everywhere, holding the US and Israel responsible for any consequences. Iranian state media said Tehran's negotiators stopped exchanging messages with Washington via mediators over the IDF's Lebanon escalation. The US and Israel maintain the Iran truce does not cover action against Hezbollah.",
+      "headline": "Iran halts US talks and threatens Hormuz and Bab al-Mandab over Israel's Lebanon offensive; CENTCOM intercepts missiles aimed at Kuwait",
+      "summary": "On June 1, Iran suspended its US-mediated messaging and FM Araghchi declared the Iran-US ceasefire applies 'on all fronts, including in Lebanon,' holding Washington and Israel responsible for consequences. IRGC figures threatened to disrupt the Strait of Hormuz and Bab al-Mandab, and CENTCOM said it intercepted Iranian missiles aimed at US bases in Kuwait. Trump countered that talks continue 'at a rapid pace' and that he 'couldn't care less' if they end; oil spiked more than 6%.",
       "category": "war",
-      "importance": 4,
+      "importance": 5,
       "tags": [
         "iran",
         "us-iran",
@@ -377,7 +399,7 @@
         }
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-01T14:05:35Z"
+      "updatedAt": "2026-06-01T23:01:53Z"
     },
     {
       "id": "ukraine-russia-pokrovsk-illinivka-drone-strikes-2026-06-01",

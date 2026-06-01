@@ -1,38 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-01T14:05:35Z",
+  "lastUpdated": "2026-06-01T23:01:53Z",
   "stories": [
-    {
-      "id": "anthropic-opus-48-mythos-965b-2026-05-31",
-      "headline": "Anthropic ships Claude Opus 4.8 with Dynamic Workflows; closes $65B round at $965B; promises Mythos-class rollout",
-      "summary": "On May 28-29 Anthropic released Claude Opus 4.8 (with new effort-level controls and a research-preview Dynamic Workflows feature that orchestrates parallel subagents). The company simultaneously closed a $65B round at a $965B valuation and said its Mythos-class models — currently restricted to Project Glasswing partners Amazon, Microsoft, and Apple for cybersecurity use — will be available to all customers in the coming weeks.",
-      "category": "ai-tech",
-      "importance": 5,
-      "tags": [
-        "anthropic",
-        "claude",
-        "opus",
-        "mythos"
-      ],
-      "firstSeenAt": "2026-05-29T09:00:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Anthropic now leads valuation tables and is openly gating its most powerful model behind cybersecurity safety partners — a new tier of frontier rollout.",
-          "summary": "Coverage notes 4.8 ships at unchanged Opus pricing; Dynamic Workflows is a clear step toward agentic 'plan-execute-verify' patterns inside Claude Code. The Mythos disclosure is notable for what it implies: a model class where Anthropic believes wider release requires deliberate staging because of dual-use cybersecurity capability. The $965B valuation now exceeds OpenAI's last reported mark.",
-          "sources": [
-            {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/",
-              "title": "Anthropic leapfrogs OpenAI with a record $965 billion valuation and says its 'Mythos' AI model is coming soon",
-              "publishedAt": "2026-05-29T17:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
       "headline": "Commerce closes Malaysia/SE-Asia loophole that funneled Nvidia Rubin/Blackwell and AMD MI350x to Chinese AI firms abroad",
@@ -47,7 +16,7 @@
         "china"
       ],
       "firstSeenAt": "2026-05-31T01:00:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
+      "updatedAt": "2026-06-01T23:01:53Z",
       "perspectives": [
         {
           "lean": "center",
@@ -62,10 +31,10 @@
               "allSidesRating": "center"
             },
             {
-              "outlet": "Benzinga",
-              "url": "https://www.benzinga.com/markets/tech/26/05/52894631/us-closes-loophole-allowed-nvidia-amd-ai-chip-shipments-chinese-firms-overseas",
-              "title": "US Closes Loophole That Allowed Nvidia, AMD AI Chip Shipments To Chinese Firms Overseas",
-              "publishedAt": "2026-05-31T01:00:00Z",
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
+              "title": "US says ban on AI chip shipments applies to Chinese firms outside China",
+              "publishedAt": "2026-06-01T12:00:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -169,6 +138,52 @@
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
       "updatedAt": "2026-06-01T14:05:35Z"
+    },
+    {
+      "id": "nvidia-rtx-spark-pc-chip-computex-2026-06-01",
+      "headline": "Nvidia unveils RTX Spark Arm 'superchip' at Computex, entering the Windows PC market for the first time in over a decade",
+      "summary": "At his Computex 2026 keynote, Jensen Huang unveiled the RTX Spark Superchip — an Arm-based platform (up to 20 CPU cores, a Blackwell GPU with 6,144 CUDA cores, 128GB unified LPDDR5X memory and ~300 GB/s bandwidth on TSMC 3nm) that Nvidia pitches as turning Windows into an 'agentic AI OS.' It will power laptops from Dell, HP, Lenovo, Asus and MSI plus a Microsoft Surface Ultra, shipping fall 2026, and marks Nvidia's first consumer CPU in over a decade.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "nvidia",
+        "computex",
+        "arm",
+        "ai-pc",
+        "blackwell"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Nvidia's first consumer CPU in over a decade challenges Intel, AMD, Qualcomm and Apple across the emerging AI-PC category.",
+          "summary": "CNBC frames RTX Spark as Nvidia's push into client computing, pairing Arm CPUs with Blackwell graphics to run on-device agentic AI and high-end gaming. Broad OEM backing from Dell, HP and Lenovo plus a Microsoft Surface design signals a serious assault on the Windows-on-Arm market; the launch helped lift Nvidia shares and the broader tech tape to records on June 1.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
+              "title": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP",
+              "publishedAt": "2026-05-31T16:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Enthusiast coverage parses the spec sheet — Blackwell CUDA cores, 128GB unified memory and DLSS 4.5 — and debates real-world performance versus Apple silicon and AMD.",
+          "summary": "Tom's Hardware details the RTX Spark's Arm CPU, Blackwell GPU with 6,144 CUDA cores and 128GB unified memory, framing it as a bid to turn Windows into an 'agentic AI OS.' The enthusiast community focuses on whether on-device AI and gaming performance can justify a platform shift, and how Nvidia's design stacks up against Apple's M-series and AMD's mobile lineup.",
+          "sources": [
+            {
+              "outlet": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+              "title": "Nvidia unveils RTX Spark Superchip for laptops and desktop PCs at Computex 2026",
+              "publishedAt": "2026-06-01T05:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-01T23:01:53Z",
+      "updatedAt": "2026-06-01T23:01:53Z"
     }
   ]
 }

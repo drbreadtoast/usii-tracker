@@ -1,39 +1,46 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-01T14:05:35Z",
+  "lastUpdated": "2026-06-01T23:01:53Z",
   "stories": [
     {
       "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
-      "headline": "Dow closes above 51,000, S&P 500 logs ninth straight weekly gain as AI rally + Iran ceasefire optimism cap record May",
-      "summary": "Friday May 29 capped a strong month: Dow Industrials +0.72% to 51,032.46, S&P 500 +0.22% to 7,580.06 (ninth consecutive weekly gain, longest streak since 2023), and Nasdaq Composite +0.26% to 26,972.62. For the month, Nasdaq jumped roughly 8%, S&P 500 about 5%, and Dow about 3%, driven by Dell's AI-server earnings and growing optimism on the 60-day US-Iran ceasefire framework.",
+      "headline": "US stocks open June at fresh records: Dow tops 51,000, Nasdaq clears 27,000 for the first time as Nvidia leads tech",
+      "summary": "All three major US indexes closed at records to open June on Monday: the S&P 500 rose 0.26% to 7,599.96, the Nasdaq added 0.42% to 27,086.81 — its first close above 27,000 — and the Dow gained 0.09% to 51,078.88. A Nvidia-led tech rally, powered by its Computex chip launch, overpowered a sharp intraday oil spike on Iran/Hormuz fears, with late-session US-Iran optimism helping indexes hold gains.",
       "category": "markets",
-      "importance": 5,
+      "importance": 4,
       "tags": [
         "equities",
         "ai",
-        "dell",
-        "iran"
+        "nvidia",
+        "records"
       ],
       "firstSeenAt": "2026-05-29T20:30:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
+      "updatedAt": "2026-06-01T23:01:53Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Records cap the strongest tech month since the post-pandemic rally, with AI demand and the Iran framework driving simultaneous risk-on bid.",
-          "summary": "Reuters/Yahoo Finance and TheStreet lead the Friday close: Dow above 51,000, S&P 500 7,580.06, Nasdaq 26,972.62; ninth weekly gain for the S&P is the longest streak since 2023. Drivers were Dell's earnings beat (stock surged up to 40%) plus White House signals it would soon endorse the Iran framework. Treasury yields drifted lower (10-year ~4.45%), supportive of multiples.",
+          "keyFraming": "Tech strength and AI optimism outweighed an energy shock, extending the record run despite Middle East risk.",
+          "summary": "Indexes notched fresh highs as Nvidia's RTX Spark chip launch powered tech and investors bet a US-Iran deal could still hold. The Nasdaq cleared 27,000 for the first time and the Dow held above 51,000, weeks after first crossing 50,000. The advance came even as crude jumped sharply intraday, underscoring the dominance of AI-linked megacaps in driving index returns.",
           "sources": [
             {
               "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/dow-nasdaq-sp-gain-stock-market-today-friday-may-29-222720284.html",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision",
-              "publishedAt": "2026-05-29T22:27:00Z",
+              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-flat-225422503.html",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns",
+              "publishedAt": "2026-06-01T22:54:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html",
+              "title": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike: Live updates",
+              "publishedAt": "2026-06-01T20:30:00Z",
               "allSidesRating": "center"
             },
             {
               "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026",
-              "title": "Stock Market Today (May 29, 2026): S&P 500 good for ninth consecutive week of gains",
-              "publishedAt": "2026-05-29T20:30:00Z",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
+              "title": "Stock Market Today (June 1, 2026): Nasdaq, S&P 500 as tech, energy bolster indexes to start June trading",
+              "publishedAt": "2026-06-01T20:45:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -42,10 +49,10 @@
     },
     {
       "id": "brent-19pct-may-drop-iran-ceasefire-2026-05-31",
-      "headline": "Brent posts steepest monthly drop since pandemic, down about 19% in May as Iran truce optimism builds",
-      "summary": "Friday May 29 saw Brent fall about 1.2% to roughly $92.56 and WTI fall about 2% to roughly $87.20, the lowest in about six weeks, with both benchmarks roughly 20% off 2026 highs set during the Strait of Hormuz crisis. The driver is the tentative 60-day MOU between Washington and Tehran to extend the ceasefire and reopen the Strait via demining, though Iranian missile fire toward Kuwait Thursday kept insurance premiums elevated.",
+      "headline": "Oil violently reverses May's ~19% slide as Iran halts US talks; Brent settles near $96, WTI near $90",
+      "summary": "May's roughly 19% drop in Brent — the steepest monthly slide since the pandemic, driven by US-Iran ceasefire optimism — reversed in a single session on June 1. After Iran suspended mediated US talks and threatened to fully close the Strait of Hormuz, Brent surged toward $97 intraday before settling near $96 and WTI jumped above $94 before easing toward $90-92, restoring much of the war premium that had unwound through May.",
       "category": "markets",
-      "importance": 5,
+      "importance": 4,
       "tags": [
         "oil",
         "brent",
@@ -53,18 +60,25 @@
         "iran"
       ],
       "firstSeenAt": "2026-05-29T16:45:00Z",
-      "updatedAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T23:01:53Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Oil's 19% May slump reverses the war premium; reopening of Hormuz could push barrels back below pre-crisis levels.",
-          "summary": "Mainstream wires report Brent's biggest monthly drop since 2020. WTI futures are down about 16.5% month-to-date. The spread above the 2024-06-01 baselines ($81.62 Brent / $76.99 WTI) is still positive because the ceasefire is unsigned and Iranian missile fire toward Kuwait keeps insurance premiums elevated.",
+          "keyFraming": "The round-trip underscores how fully the oil market's direction is hostage to the on-again, off-again US-Iran diplomacy.",
+          "summary": "Crude that had shed nearly a fifth of its value in May on ceasefire hopes roared back as diplomacy collapsed. Reuters and OilPrice.com reported Brent up more than 6% toward $97 and WTI up over 7% above $94 intraday before paring gains. The spread above the 2024-06-01 baseline ($81.62 Brent) widened sharply again as the renewed Hormuz threat reinstated a geopolitical risk premium.",
           "sources": [
             {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/05/29/oil-prices-iran-ceasefire-us-trump-strait-hormuz-energy-costs.html",
-              "title": "Oil drops 20% from 2026 peak on optimism over U.S.-Iran ceasefire talks",
-              "publishedAt": "2026-05-29T16:45:00Z",
+              "outlet": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Up-3-As-Trump-Demands-Changes-To-Iran-Deal.html",
+              "title": "Oil Surges Over 7% as Iran Halts U.S. Talks and Threatens Total Hormuz Closure",
+              "publishedAt": "2026-06-01T17:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Investing.com / Reuters",
+              "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-more-than-2-as-israel-moves-further-into-lebanon-4717951",
+              "title": "Oil jumps over $6 on Iran report of halted U.S.-Tehran exchanges, Hormuz blockade risk",
+              "publishedAt": "2026-06-01T14:30:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -73,8 +87,8 @@
     },
     {
       "id": "btc-six-week-low-cftc-perps-2026-05-31",
-      "headline": "Bitcoin slides to ~$73k as a record spot-ETF outflow streak diverges from the AI-driven stock rally",
-      "summary": "BTC fell to around $73,300 — roughly -4.6% on the week — with ETH near $1,990 and SOL near $82, pressured by a record ~10-session, ~$3 billion outflow streak from US spot bitcoin ETFs and firmer oil on stalled Iran talks. The CFTC has authorized fully regulated US perpetual futures, anchoring the dominant global derivatives format domestically. Crypto's weakness stands in sharp contrast to equities setting records on the AI trade.",
+      "headline": "Bitcoin opens June below $72k as spot-ETF outflows hit a record 10th day, diverging from the AI-driven stock rally",
+      "summary": "BTC opened June around $73,600 and slid toward $71,400, with ETH below $1,970 and SOL near $82, pressured by a record ~10-session, roughly $3 billion outflow streak from US spot bitcoin ETFs and firmer oil on the Iran shock. Even so, derivatives positioning and steady open interest pointed to steadying institutional appetite after the CFTC's late-May green light for regulated US perpetual futures. Crypto's weakness contrasts with equities setting records on the AI trade.",
       "category": "markets",
       "importance": 3,
       "tags": [
@@ -84,18 +98,18 @@
         "etf"
       ],
       "firstSeenAt": "2026-05-29T19:15:00Z",
-      "updatedAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-01T23:01:53Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Crypto's late-May correction is institutional, not retail — and US regulators are simultaneously expanding the regulated rail.",
-          "summary": "CoinDesk reporting notes BTC's two-month winning streak is in jeopardy after the ETF exodus, though cumulative US spot BTC inflows remain near $58.7B. The CFTC's perpetual-futures green light meaningfully changes US market structure by anchoring the dominant global derivatives format domestically.",
+          "keyFraming": "Spot weakness and ETF bleed mask a more constructive futures backdrop as US perps regulation matures the market.",
+          "summary": "CoinDesk reports BTC and ETH starting June in the red as spot-ETF outflows extended to a record 10th straight day, while futures positioning and stable open interest hinted at steadying institutional demand. The CFTC's May 29 approval of perpetual futures is seen as a structural step toward deeper US access, even as cumulative spot-BTC inflows remain elevated; altcoins XLM and HYPE outperformed.",
           "sources": [
             {
               "outlet": "CoinDesk",
-              "url": "https://www.coindesk.com/markets/2026/05/29/live-markets-bitcoin-slides-further-putting-two-month-winning-streak-in-jeopardy",
-              "title": "Bitcoin price news: BTC off the lows on Trump post, but set to close month of May with losses",
-              "publishedAt": "2026-05-29T19:15:00Z",
+              "url": "https://www.coindesk.com/markets/2026/06/01/bitcoin-ether-start-june-in-the-red-while-futures-show-taste-for-risk-xlm-hype-gain",
+              "title": "BTC, ETH prices drop even as futures show growing taste for risk. XLM, HYPE gain: Crypto Markets Today",
+              "publishedAt": "2026-06-01T13:00:00Z",
               "allSidesRating": "center"
             },
             {
@@ -146,7 +160,7 @@
     {
       "id": "oil-spikes-iran-halts-talks-hormuz-2026-06-01",
       "headline": "Oil jumps and US stocks slip after Iran halts US talks and threatens to fully close the Strait of Hormuz",
-      "summary": "WTI rose more than 5% toward the low-$90s and Brent climbed near $95 on June 1 after Iranian state media said Tehran halted mediated messaging with Washington over Israel's Lebanon operations and threatened to fully block the Strait of Hormuz. US equity futures turned lower, pulling indices back from May's record run, and traders revived bets that energy-driven inflation could force the Fed to hold or even hike.",
+      "summary": "Crude surged on June 1 after Iranian state media said Tehran halted mediated messaging with Washington and threatened to fully block the Strait of Hormuz: Brent jumped more than 6% toward $97 and WTI over 7% above $94 intraday. Prices pared gains after Trump told CNBC he 'doesn't care' if talks end but later said Israel and Hezbollah agreed to halt attacks; Brent settled near $96 and WTI near $90-92. Equities shrugged off the shock to close at records on tech strength.",
       "category": "markets",
       "importance": 4,
       "tags": [
@@ -195,7 +209,7 @@
         }
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-01T14:05:35Z"
+      "updatedAt": "2026-06-01T23:01:53Z"
     },
     {
       "id": "crypto-slides-btc-below-74k-eth-2k-2026-06-01",
