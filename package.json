@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/stamp-version.ts",
+    "prebuild": "tsx scripts/fetch-oilprice.ts && tsx scripts/stamp-version.ts",
     "build": "next build",
+    "fetch:oilprice": "tsx scripts/fetch-oilprice.ts",
     "start": "next start",
     "lint": "eslint",
     "validate": "tsx scripts/validate-content.ts",

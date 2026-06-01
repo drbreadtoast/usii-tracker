@@ -1,3 +1,5 @@
+import { promises as fs } from "node:fs";
+import path from "node:path";
 import {
   getHomepageData,
   getStatements,
@@ -10,6 +12,49 @@ import StaleBanner from "@/components/StaleBanner";
 import MediaCoverageCard from "@/components/MediaCoverageCard";
 import KeyStatementsCard from "@/components/KeyStatementsCard";
 import OilHero from "@/components/OilHero";
+import type { OilHeroProps } from "@/components/OilHero";
+
+interface OilPriceSnapshot {
+  fetchedAt: string;
+  source: string;
+  quotes: Record<
+    string,
+    { price: number; changeAmount: string; changePct: number; ageLabel?: string }
+  >;
+}
+
+async function readOilPriceSnapshot(): Promise<
+  Pick<OilHeroProps, "oilPriceBrent" | "oilPriceWti" | "oilPriceFetchedAt">
+> {
+  try {
+    const snapshotPath = path.join(
+      process.cwd(),
+      "public",
+      "oilprice-snapshot.json",
+    );
+    const raw = await fs.readFile(snapshotPath, "utf8");
+    const snap = JSON.parse(raw) as OilPriceSnapshot;
+    return {
+      oilPriceBrent: snap.quotes.brent
+        ? {
+            price: snap.quotes.brent.price,
+            changePct: snap.quotes.brent.changePct,
+            ageLabel: snap.quotes.brent.ageLabel,
+          }
+        : undefined,
+      oilPriceWti: snap.quotes.wti
+        ? {
+            price: snap.quotes.wti.price,
+            changePct: snap.quotes.wti.changePct,
+            ageLabel: snap.quotes.wti.ageLabel,
+          }
+        : undefined,
+      oilPriceFetchedAt: snap.fetchedAt,
+    };
+  } catch {
+    return {};
+  }
+}
 
 const GRID_CATEGORIES = [
   "us-politics",
@@ -21,18 +66,22 @@ const GRID_CATEGORIES = [
 ] as const;
 
 export default async function HomePage() {
-  const [{ manifest, sections }, statementsFile] = await Promise.all([
-    getHomepageData(),
-    getStatements().catch(() => null),
-  ]);
+  const [{ manifest, sections }, statementsFile, oilSnapshot] =
+    await Promise.all([
+      getHomepageData(),
+      getStatements().catch(() => null),
+      readOilPriceSnapshot(),
+    ]);
   const headlines = sections.headlines;
   const formattedRefresh = formatTimestamp(manifest.lastUpdated);
   const hoursOld = hoursSince(manifest.lastUpdated).toFixed(1);
 
   return (
     <div className="flex flex-col">
-      {/* Live oil — hero comparison row */}
-      <OilHero />
+      {/* Live oil — hero comparison row.
+          TradingView columns render their own live widgets;
+          OilPrice.com columns read from the build-time snapshot. */}
+      <OilHero {...oilSnapshot} />
 
       {/* Masthead / refresh strip */}
       <div className="border-b border-border bg-background">

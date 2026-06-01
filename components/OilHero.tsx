@@ -66,29 +66,46 @@ function TradingViewQuote({ symbol, symbolName }: QuoteProps) {
   );
 }
 
-// OilPrice.com placeholder values. Real-time data isn't publicly
-// available without their API; the scheduled agent will sample
-// these from public bulletins and update on each refresh.
+// OilPrice.com quotes are fetched at build time by scripts/fetch-oilprice.ts
+// from oilprice.com's homepage HTML. When that fetch fails (or the page
+// shape changes), we fall back to these "last sane" values so the row
+// still renders. The caller (HomePage) reads the snapshot and passes
+// the actual values in via props; this fallback only fires if the
+// snapshot is missing or empty.
 const OILPRICE_FALLBACK = {
-  brent: { price: 91.12, changePct: -1.7 },
-  wti: { price: 87.36, changePct: -1.7 },
+  brent: { price: 91.12, changePct: -1.7, ageLabel: "stale" },
+  wti: { price: 87.36, changePct: -1.7, ageLabel: "stale" },
 } as const;
+
+export interface OilPriceQuote {
+  price: number;
+  changePct: number;
+  ageLabel?: string;
+}
+
+export interface OilHeroProps {
+  oilPriceBrent?: OilPriceQuote;
+  oilPriceWti?: OilPriceQuote;
+  oilPriceFetchedAt?: string;
+}
 
 function StaticPriceCell({
   label,
   price,
   changePct,
+  ageLabel,
 }: {
   label: string;
   price: number;
   changePct: number;
+  ageLabel?: string;
 }) {
   const positive = changePct >= 0;
   const tone = positive
     ? "text-[color:var(--lean-foreign-global-south)]"
     : "text-[color:var(--stale-error)]";
   return (
-    <div className="flex items-center gap-3 sm:gap-4">
+    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 sm:gap-x-4">
       <span className="inline-flex shrink-0 items-center rounded border border-[color:var(--lean-foreign-global-south)]/40 bg-[color:var(--lean-foreign-global-south-bg)]/50 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-[color:var(--lean-foreign-global-south)]">
         {label}
       </span>
@@ -97,13 +114,32 @@ function StaticPriceCell({
       </span>
       <span className={`font-mono text-sm font-medium tabular-nums ${tone}`}>
         {positive ? "+" : ""}
-        {changePct.toFixed(1)}%
+        {changePct.toFixed(2)}%
       </span>
+      {ageLabel && (
+        <span className="text-[10px] text-muted">{ageLabel} ago</span>
+      )}
     </div>
   );
 }
 
-export default function OilHero() {
+export default function OilHero({
+  oilPriceBrent,
+  oilPriceWti,
+  oilPriceFetchedAt,
+}: OilHeroProps = {}) {
+  const brent = oilPriceBrent ?? OILPRICE_FALLBACK.brent;
+  const wti = oilPriceWti ?? OILPRICE_FALLBACK.wti;
+  const fetchedAt = oilPriceFetchedAt
+    ? new Date(oilPriceFetchedAt).toLocaleString("en-US", {
+        timeZone: "America/New_York",
+        month: "short",
+        day: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true,
+      })
+    : null;
   return (
     <section
       aria-label="Live crude oil prices"
@@ -140,18 +176,20 @@ export default function OilHero() {
               ⛽ OilPrice.com
             </a>
             <span className="text-[10px] uppercase tracking-wider text-muted">
-              Daily
+              {fetchedAt ? `Sampled ${fetchedAt} ET` : "Daily"}
             </span>
           </div>
           <StaticPriceCell
             label="Brent"
-            price={OILPRICE_FALLBACK.brent.price}
-            changePct={OILPRICE_FALLBACK.brent.changePct}
+            price={brent.price}
+            changePct={brent.changePct}
+            ageLabel={brent.ageLabel}
           />
           <StaticPriceCell
             label="WTI"
-            price={OILPRICE_FALLBACK.wti.price}
-            changePct={OILPRICE_FALLBACK.wti.changePct}
+            price={wti.price}
+            changePct={wti.changePct}
+            ageLabel={wti.ageLabel}
           />
         </div>
 
