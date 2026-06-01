@@ -1,32 +1,55 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-01T14:05:35Z",
+  "lastUpdated": "2026-06-01T17:10:37Z",
   "stories": [
     {
-      "id": "anthropic-opus-48-mythos-965b-2026-05-31",
-      "headline": "Anthropic ships Claude Opus 4.8 with Dynamic Workflows; closes $65B round at $965B; promises Mythos-class rollout",
-      "summary": "On May 28-29 Anthropic released Claude Opus 4.8 (with new effort-level controls and a research-preview Dynamic Workflows feature that orchestrates parallel subagents). The company simultaneously closed a $65B round at a $965B valuation and said its Mythos-class models — currently restricted to Project Glasswing partners Amazon, Microsoft, and Apple for cybersecurity use — will be available to all customers in the coming weeks.",
+      "id": "nvidia-rtx-spark-pc-chip-computex-2026-06-01",
+      "headline": "Nvidia enters the PC market with an Arm-based 'RTX Spark' superchip at Computex; rival chipmakers slide",
+      "summary": "At Computex 2026, Nvidia's Jensen Huang unveiled the Arm-based 'RTX Spark' superchip — an Arm CPU paired with a Blackwell GPU and 128GB of unified memory — to power AI-focused Windows PCs from Microsoft, Dell, HP and Lenovo, pushing Nvidia into the client-CPU market. Nvidia rose about 5% and Arm jumped, while Qualcomm, Intel and AMD fell on PC-competition fears.",
       "category": "ai-tech",
       "importance": 5,
       "tags": [
-        "anthropic",
-        "claude",
-        "opus",
-        "mythos"
+        "nvidia",
+        "computex",
+        "rtx-spark",
+        "arm",
+        "ai-pc",
+        "semiconductors"
       ],
-      "firstSeenAt": "2026-05-29T09:00:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
+      "firstSeenAt": "2026-06-01T17:10:37Z",
+      "updatedAt": "2026-06-01T17:10:37Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Anthropic now leads valuation tables and is openly gating its most powerful model behind cybersecurity safety partners — a new tier of frontier rollout.",
-          "summary": "Coverage notes 4.8 ships at unchanged Opus pricing; Dynamic Workflows is a clear step toward agentic 'plan-execute-verify' patterns inside Claude Code. The Mythos disclosure is notable for what it implies: a model class where Anthropic believes wider release requires deliberate staging because of dual-use cybersecurity capability. The $965B valuation now exceeds OpenAI's last reported mark.",
+          "keyFraming": "A structural land-grab: Nvidia muscles into Intel, AMD and Qualcomm's PC turf with an Arm-plus-Blackwell platform.",
+          "summary": "CNBC reported Nvidia jumping into PCs with a new Arm-based chip debuting in laptops from Microsoft, Dell and HP, its first serious push into the client-CPU market. Yahoo Finance reported NVDA rallying about 5% on the launch while Qualcomm fell sharply on AI-PC competition fears, with Arm a major beneficiary.",
           "sources": [
             {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/",
-              "title": "Anthropic leapfrogs OpenAI with a record $965 billion valuation and says its 'Mythos' AI model is coming soon",
-              "publishedAt": "2026-05-29T17:00:00Z",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
+              "title": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP",
+              "publishedAt": "2026-05-31T22:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-rallies-4-rtx-spark-155423133.html",
+              "title": "NVIDIA Rallies 5% on RTX Spark Launch as Qualcomm Falls 7% on AI PC Competition Fears",
+              "publishedAt": "2026-06-01T16:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Options and sentiment angle: the launch supercharged bullish positioning in ecosystem winners like Microsoft.",
+          "summary": "Schaeffer's reported the Nvidia chip reveal triggering a surge in Microsoft call-option activity, reflecting investor bets that AI-PC partners will benefit from the new platform.",
+          "sources": [
+            {
+              "outlet": "Schaeffer's Investment Research",
+              "url": "https://www.schaeffersresearch.com/content/news/2026/06/01/nvidia-chip-reveal-triggers-microsoft-stock-options-surge",
+              "title": "Nvidia Chip Reveal Triggers Microsoft Stock Options Surge",
+              "publishedAt": "2026-06-01T15:00:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -47,7 +70,7 @@
         "china"
       ],
       "firstSeenAt": "2026-05-31T01:00:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
+      "updatedAt": "2026-06-01T17:10:37Z",
       "perspectives": [
         {
           "lean": "center",
@@ -66,6 +89,13 @@
               "url": "https://www.benzinga.com/markets/tech/26/05/52894631/us-closes-loophole-allowed-nvidia-amd-ai-chip-shipments-chinese-firms-overseas",
               "title": "US Closes Loophole That Allowed Nvidia, AMD AI Chip Shipments To Chinese Firms Overseas",
               "publishedAt": "2026-05-31T01:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
+              "title": "US says ban on AI chip shipments applies to Chinese firms outside China",
+              "publishedAt": "2026-06-01T10:00:00Z",
               "allSidesRating": "center"
             }
           ]
