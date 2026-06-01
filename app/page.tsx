@@ -10,6 +10,7 @@ import OilHero from "@/components/OilHero";
 import type { OilHeroProps } from "@/components/OilHero";
 import QuickBriefHeader from "@/components/QuickBriefHeader";
 import RefreshSummary from "@/components/RefreshSummary";
+import WelcomeBanner from "@/components/WelcomeBanner";
 
 interface OilPriceSnapshot {
   fetchedAt: string;
@@ -73,6 +74,9 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col">
+      {/* Top-of-page welcome banner (dismissible, persisted in localStorage). */}
+      <WelcomeBanner />
+
       {/* Live oil — hero comparison row.
           TradingView columns render their own live widgets;
           OilPrice.com columns read from the build-time snapshot. */}

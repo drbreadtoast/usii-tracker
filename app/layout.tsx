@@ -9,6 +9,7 @@ import WorldClocks from "@/components/WorldClocks";
 import RefreshStrip from "@/components/RefreshStrip";
 import MarketTicker from "@/components/MarketTicker";
 import FreshBuildBanner from "@/components/FreshBuildBanner";
+import ContactModal from "@/components/ContactModal";
 import { getManifest } from "@/lib/content";
 
 const geistSans = Geist({
@@ -120,6 +121,7 @@ export default async function RootLayout({
         <MarketTicker />
         <Footer />
         <FreshBuildBanner />
+        <ContactModal />
       </body>
     </html>
   );
