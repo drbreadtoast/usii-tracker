@@ -1,6 +1,6 @@
 {
   "sectionId": "war",
-  "lastUpdated": "2026-05-31T23:55:00Z",
+  "lastUpdated": "2026-06-01T05:00:00Z",
   "stories": [
     {
       "id": "israel-beaufort-castle-lebanon-2026-05-31",
@@ -189,6 +189,76 @@
               "title": "UN: 100% of Gaza should be for Palestinians",
               "publishedAt": "2026-05-29T13:00:00Z",
               "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ukraine-russia-saratov-mass-strike-warning-2026-05-31",
+      "headline": "Ukraine hits Saratov refinery 700km inside Russia overnight; Russia launches 212 drones at Ukraine",
+      "summary": "Overnight May 30-31, Ukrainian long-range drones struck the Rosneft Saratov refinery — one of Russia's largest at ~7 Mt/yr — plus a fuel pipeline pumping station and a depot, while Russia launched 212 Shahed and decoy drones at Ukraine. Saratov Governor Busargin confirmed civil-infrastructure damage with no injuries reported. The strike compounds Zelensky's warning of an imminent 'new massive strike' from Moscow.",
+      "category": "war",
+      "importance": 5,
+      "tags": ["ukraine", "russia", "saratov", "refinery", "drones", "rosneft"],
+      "firstSeenAt": "2026-05-31T05:00:00Z",
+      "updatedAt": "2026-06-01T05:00:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Damage-assessment framing: the Saratov refinery is one of Rosneft's largest; the strike marks one of Ukraine's deepest energy-infrastructure raids.",
+          "summary": "Reuters via US News and Bloomberg confirm the overnight strike on the Rosneft Saratov refinery, which has annual capacity of about 7 million metric tonnes. Saratov Governor Roman Busargin confirmed civil-infrastructure damage without specifying full extent; pipelines and a fuel depot in other regions were also hit. The strike comes amid Russia's heaviest aerial bombardment of Ukrainian cities in weeks.",
+          "sources": [
+            {
+              "outlet": "U.S. News & World Report",
+              "url": "https://www.usnews.com/news/world/articles/2026-05-31/ukrainian-drones-hit-targets-across-several-russian-regions",
+              "title": "Ukrainian Drones Hit Pipeline, Refinery, Fuel Depot in Overnight Strikes on Russia",
+              "publishedAt": "2026-05-31T08:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "RFE/RL",
+              "url": "https://www.rferl.org/a/ukrainian-drones-strike-saratov-refinery-deep-inside-russia/33769434.html",
+              "title": "Ukrainian Drones Target Russian Refinery In Latest Attack Deep Inside Russia",
+              "publishedAt": "2026-05-31T10:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Western framing centers Zelensky's pre-warning that Russia is preparing a 'new massive strike,' tying it to last weekend's nuclear-capable Oreshnik salvo.",
+          "summary": "Euronews and other European outlets contextualize the Saratov strike within Zelensky's Sunday warning of an imminent Russian attack using drones, cruise and ballistic missiles. The pieces note Moscow's recent Oreshnik salvo (~90 missiles/600 drones) and tie Ukrainian deep strikes to Kyiv's pre-empt-and-deter strategy.",
+          "sources": [
+            {
+              "outlet": "Euronews",
+              "url": "https://www.euronews.com/my-europe/2026/05/30/zelenskyy-warns-russia-may-be-preparing-massive-new-attack",
+              "title": "Zelenskyy warns Russia may be preparing 'massive' new attack",
+              "publishedAt": "2026-05-30T16:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Russian state coverage inverts the framing: portrays Ukrainian deep strikes as terrorism on civilian infrastructure and frames Russia's bombardment as legitimate response.",
+          "summary": "TASS and Pravda-affiliated outlets frame Ukrainian drone raids on the Saratov refinery and other targets as attacks on civilian infrastructure deserving 'systemic strikes' in response. Russian outlets also report a Ukrainian 'deliberate' strike on the Zaporizhzhia nuclear plant engine room May 30 as part of the same campaign.",
+          "sources": [
+            {
+              "outlet": "TASS",
+              "url": "https://tass.com/military-operation-in-ukraine",
+              "title": "Military operation in Ukraine",
+              "publishedAt": "2026-05-31T11:00:00Z",
+              "allSidesRating": "right",
+              "isStateMedia": true
+            },
+            {
+              "outlet": "Pravda EU",
+              "url": "https://eu.news-pravda.com/world/2026/05/31/202262.html",
+              "title": "The key for May 31. Summary of the night strikes on Russia and Ukraine",
+              "publishedAt": "2026-05-31T10:00:00Z",
+              "allSidesRating": "right",
+              "isStateMedia": true
             }
           ]
         }

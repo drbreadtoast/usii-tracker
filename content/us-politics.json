@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-05-31T23:55:00Z",
+  "lastUpdated": "2026-06-01T05:00:00Z",
   "stories": [
     {
       "id": "iran-deal-trump-delay-2026-05-31",
@@ -254,12 +254,12 @@
       "importance": 4,
       "tags": ["texas-senate", "paxton", "talarico", "midterms"],
       "firstSeenAt": "2026-05-30T14:00:00Z",
-      "updatedAt": "2026-05-31T23:55:00Z",
+      "updatedAt": "2026-06-01T05:00:00Z",
       "perspectives": [
         {
           "lean": "left",
-          "keyFraming": "Argues Trump's purge of Cornyn for Paxton risks handing Democrats a long-shot Texas pickup with the seat in play.",
-          "summary": "Left-leaning outlets highlight Talarico's 57-point lead among moderates and 38-point lead among Black voters, plus 30% of Cornyn primary voters open to crossing over. Coverage frames the Paxton win as Trump prioritizing MAGA loyalty over electability heading into a difficult map.",
+          "keyFraming": "Argues Trump's purge of Cornyn for Paxton risks handing Democrats a long-shot Texas pickup; Beshear declares 'Texas is in play.'",
+          "summary": "Left-leaning outlets highlight Talarico's 57-point lead among moderates and 38-point lead among Black voters, plus 30% of Cornyn primary voters open to crossing over. Kentucky Gov. Andy Beshear used a Sunday Meet the Press appearance to argue Texas is genuinely competitive, citing Paxton's 2023 state-House impeachment as uniquely disqualifying.",
           "sources": [
             {
               "outlet": "KXAN",
@@ -267,19 +267,190 @@
               "title": "James Talarico leads Ken Paxton in Texas Senate race poll after GOP runoff",
               "publishedAt": "2026-05-30T14:00:00Z",
               "allSidesRating": "center"
+            },
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/2026-election/andy-beshear-texas-in-play-ken-paxton-senate-gop-primary-rcna347751",
+              "title": "Andy Beshear says 'Texas is in play' for Democrats after Ken Paxton's Senate GOP primary win",
+              "publishedAt": "2026-05-31T15:00:00Z",
+              "allSidesRating": "lean-left"
             }
           ]
         },
         {
           "lean": "center",
-          "keyFraming": "Early polling signal that Paxton's corruption baggage and -19 net favorability could put Texas in play.",
-          "summary": "Center coverage notes Latino voters split 46-42 for Paxton (within margin) and treats the poll as one snapshot — meaningful but early. Local Fox-7 coverage emphasizes Paxton must consolidate Republican voters after a bitter runoff to retake his baseline.",
+          "keyFraming": "Cook Political Report shift to Lean R signals real competitiveness, but Texas Republicans have swept every statewide race since 1996.",
+          "summary": "Cook moved the race from Likely R to Lean R after Paxton's 63.8% runoff drubbing of Cornyn. Center analysts describe a populist-vs-populist contest where Paxton must consolidate Republican voters and Talarico must convert moderate Republicans tired of corruption.",
           "sources": [
             {
               "outlet": "FOX 7 Austin",
               "url": "https://www.fox7austin.com/election/talarico-leads-paxton-first-post-runoff-poll-senate-race",
               "title": "Talarico leads Paxton in first post-runoff poll of Senate race",
               "publishedAt": "2026-05-30T16:00:00Z",
+              "allSidesRating": "right"
+            },
+            {
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/05/31/politics/paxton-talarico-texas-senate-race-analysis",
+              "title": "A populist will win the Texas Senate race. The question is, which one?",
+              "publishedAt": "2026-05-31T12:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doj-anti-weaponization-fund-blocked-2026-05-29",
+      "headline": "Federal judge blocks Trump's $1.8B 'anti-weaponization' fund after Jan. 6 prosecutor sues; Pence breaks publicly",
+      "summary": "US District Judge Leonie Brinkema (E.D. Va.) entered a temporary order Friday May 29 freezing all payouts from the DOJ's $1.776B fund to compensate Trump allies who say they were 'weaponized' against, including potentially Jan. 6 defendants. The suit was filed by former assistant US attorney Andrew Floyd. On Sunday, former VP Mike Pence publicly called the fund 'deeply offensive.' A hearing on extending the injunction is set for June 12.",
+      "category": "us-politics",
+      "importance": 5,
+      "tags": ["doj", "courts", "january-6", "trump-administration", "weaponization-fund", "pence"],
+      "firstSeenAt": "2026-05-29T22:00:00Z",
+      "updatedAt": "2026-06-01T05:00:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Judge halts what critics call a 'slush fund' for Trump allies and potentially Jan. 6 rioters; Pence himself calls the fund 'deeply offensive.'",
+          "summary": "Left-leaning outlets center the lawsuit by a former Jan. 6 prosecutor and the fund's potential to compensate violent rioters. NBC News and NPR frame the temporary block as the first major judicial pushback on a DOJ priority program; Pence's Sunday CBS interview opening the door to Republican criticism is treated as politically significant.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/justice-department/judge-halts-trump-anti-weaponization-fund-jan-6-prosecutor-files-suit-rcna347539",
+              "title": "Judge halts Trump 'anti-weaponization' fund after Jan. 6 prosecutor sues",
+              "publishedAt": "2026-05-29T22:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/05/29/g-s1-124865/judge-temporarily-blocks-trumps-1-8-billion-anti-weaponization-fund",
+              "title": "Judge temporarily blocks Trump's $1.8 billion 'anti-weaponization' fund",
+              "publishedAt": "2026-05-29T23:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Judge Brinkema freezes the DOJ fund pending a June 12 hearing; DOJ remains 'extremely confident' in its legality, citing Obama-era settlement precedent.",
+          "summary": "Center coverage tracks the temporary nature of the order and the June 12 hearing schedule. PBS, Axios and CBS document the DOJ's defense — that prior administrations used similar settlement vehicles — alongside the lawsuit's argument that no statute authorizes paying out 'aggrieved' Trump allies from a fund Congress did not appropriate.",
+          "sources": [
+            {
+              "outlet": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/politics/judge-temporarily-blocks-payouts-from-trumps-1-8b-anti-weaponization-settlement-fund",
+              "title": "Judge temporarily blocks payouts from Trump's $1.8B 'anti-weaponization' settlement fund",
+              "publishedAt": "2026-05-29T23:30:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Axios",
+              "url": "https://www.axios.com/2026/05/29/trump-anti-weaponization-fund-blocked",
+              "title": "Trump's $1.77B 'anti-weaponization' fund temporarily blocked by federal judge",
+              "publishedAt": "2026-05-29T22:30:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/judge-temporarily-blocks-justice-department-work-1-7-billion-anti-weaponization-fund/",
+              "title": "Judge temporarily blocks Justice Dept. work on $1.7+ billion 'anti-weaponization' fund",
+              "publishedAt": "2026-05-29T22:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Right-leaning outlets emphasize DOJ's confidence in the fund's legality and Obama-era precedent; Pence's break is treated as a former-VP outlier.",
+          "summary": "Washington Examiner and Washington Times focus on the DOJ's vow to defend the fund and the procedural nature of the block (temporary, hearing in two weeks). Pence's 'deeply offensive' line is reported but framed as Pence rejoining the courthouse-Republican faction at odds with the current administration.",
+          "sources": [
+            {
+              "outlet": "Washington Examiner",
+              "url": "https://www.washingtonexaminer.com/news/justice/4588721/pence-doj-fund-jan-6-police/",
+              "title": "Pence says it's 'deeply offensive' DOJ fund could pay violent Jan. 6 rioters",
+              "publishedAt": "2026-05-31T14:00:00Z",
+              "allSidesRating": "right"
+            },
+            {
+              "outlet": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/may/31/mike-pence-ex-vice-president-calls-anti-weaponization-fund-deeply/",
+              "title": "Former Vice President Mike Pence calls Anti-Weaponization Fund 'deeply offensive'",
+              "publishedAt": "2026-05-31T15:30:00Z",
+              "allSidesRating": "right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delaney-hall-ice-protests-curfew-2026-05-31",
+      "headline": "Newark imposes curfew at Delaney Hall ICE facility after week of clashes; Sherrill restores family visitation",
+      "summary": "Newark Mayor Ras Baraka instituted a mandatory 9 p.m.–6 a.m. curfew within a half-mile of Delaney Hall after a second night of clashes between protesters, ICE agents, and state police. Gov. Mikie Sherrill announced DHS will restart family visitation suspended since May 24, while blaming 'out-of-state' agitators for the violence. Sen. Andy Kim (D-NJ) — pepper-sprayed at the facility earlier in the week — called the situation 'hugely concerning' on CNN.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": ["immigration", "ice", "new-jersey", "protests", "delaney-hall", "sherrill", "kim"],
+      "firstSeenAt": "2026-05-31T04:00:00Z",
+      "updatedAt": "2026-06-01T05:00:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "A week of hunger strikes and protests over 'cruel' conditions at the ICE facility escalates into clashes; Kim says it has been 'one of the most difficult weeks of my entire life.'",
+          "summary": "Left-leaning outlets center detainee conditions and the political fallout. NBC News and The Hill foreground Kim's CNN appearance and his earlier pepper-spraying. Coverage frames the curfew as a response to federal-officer aggression as much as to protester behavior, citing the suspended family visitation as the original trigger.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/news/us-news/delaney-hall-protests-new-jersey-rcna347685",
+              "title": "Protests over 'cruel' conditions at New Jersey ICE facility draw counterprotest and a curfew",
+              "publishedAt": "2026-05-31T18:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "The Hill",
+              "url": "https://thehill.com/homenews/senate/5902970-kim-delaney-hall-protests/",
+              "title": "Andy Kim on clashes outside Newark ICE facility: 'One of the most difficult weeks of my entire life'",
+              "publishedAt": "2026-05-31T19:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Curfew takes effect as state police take crowd-control lead; Gov. Sherrill restores family visitation but warns 'out-of-state' protesters they 'should not be here.'",
+          "summary": "Center reporting tracks the bilateral concession-and-escalation: DHS agreed to resume family visits suspended May 24, while Sherrill blamed 'out-of-state' agitators for violence and authorized state police to take over crowd control. Al Jazeera and ABC News give equal weight to both protester and federal-officer accounts.",
+          "sources": [
+            {
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/05/30/us/delaney-hall-new-jersey-ice-protests",
+              "title": "After weekend clashes, protests continue under curfew near Newark ICE facility",
+              "publishedAt": "2026-05-30T22:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/31/newark-mayor-imposes-curfew-at-delaney-hall-immigration-detention-centre",
+              "title": "Newark mayor imposes curfew at Delaney Hall immigration detention centre",
+              "publishedAt": "2026-05-31T14:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Federal officers face assaults from protesters — including one charged with biting ICE agents; the administration says it will not tolerate demonstrators who 'cross the line.'",
+          "summary": "Right-leaning outlets emphasize attacks on federal officers and the 9-day duration of demonstrations. Fox News reports state police taking over from federal authorities at the scene; Washington Times frames the curfew as overdue enforcement against agitators who escalated a routine deportation-facility staging.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/live-news/anti-ice-delaney-hall-protests-newark-new-jersey-may-30",
+              "title": "Anti-ICE demonstrations at Newark's Delaney Hall enter 9th day as New Jersey state police take over",
+              "publishedAt": "2026-05-30T20:00:00Z",
+              "allSidesRating": "right"
+            },
+            {
+              "outlet": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/may/31/newark-mayor-imposes-curfew-around-delaney-hall-clashes-immigration/",
+              "title": "Newark mayor imposes curfew around Delaney Hall after clashes over immigration detention center",
+              "publishedAt": "2026-05-31T13:00:00Z",
               "allSidesRating": "right"
             }
           ]
