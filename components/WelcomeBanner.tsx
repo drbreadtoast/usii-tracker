@@ -4,32 +4,77 @@ import { useEffect, useState } from "react";
 import { openContact } from "@/lib/contact";
 
 // Bump this key whenever the welcome message materially changes —
-// returning visitors will see the new banner once and can dismiss again.
-const DISMISS_KEY = "welcome-v1-dismissed";
+// returning visitors will see the expanded banner once and can collapse again.
+const COLLAPSE_KEY = "welcome-v2-collapsed";
 
 export default function WelcomeBanner() {
-  const [visible, setVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
 
   useEffect(() => {
     try {
-      const dismissed = localStorage.getItem(DISMISS_KEY);
-      if (!dismissed) setVisible(true);
+      const stored = localStorage.getItem(COLLAPSE_KEY);
+      if (stored === "1") setCollapsed(true);
     } catch {
-      // localStorage unavailable (private mode, etc.) — show by default
-      setVisible(true);
+      /* localStorage unavailable — default to expanded */
     }
+    setMounted(true);
   }, []);
 
-  function dismiss(): void {
-    setVisible(false);
+  function toggle(): void {
+    const next = !collapsed;
+    setCollapsed(next);
     try {
-      localStorage.setItem(DISMISS_KEY, "1");
+      localStorage.setItem(COLLAPSE_KEY, next ? "1" : "0");
     } catch {
       /* no-op */
     }
   }
 
-  if (!visible) return null;
+  // Avoid a flash of the wrong state on first paint before localStorage reads.
+  if (!mounted) return null;
+
+  if (collapsed) {
+    return (
+      <div className="border-b border-[color:var(--accent)]/40 bg-[color:var(--accent)]/10">
+        <div className="mx-auto w-full max-w-6xl px-4 py-2 sm:px-6">
+          <button
+            type="button"
+            onClick={toggle}
+            aria-expanded={false}
+            aria-label="Show note from the developer"
+            className="inline-flex items-center gap-2 rounded-md px-2 py-1 text-xs font-bold uppercase tracking-wider text-[color:var(--accent)] transition hover:bg-[color:var(--accent)]/10"
+          >
+            <svg
+              aria-hidden
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-4 w-4"
+            >
+              <path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
+            </svg>
+            <span>A note from the developer</span>
+            <svg
+              aria-hidden
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-4 w-4"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="border-b border-[color:var(--accent)]/40 bg-[color:var(--accent)]/10">
@@ -64,6 +109,19 @@ export default function WelcomeBanner() {
             be actively fixing, improving, and adding more. Feel free to report
             a bug or send feedback.
           </p>
+          <div className="mt-3 rounded-md border-l-4 border-[color:var(--accent)] bg-[color:var(--accent)]/15 px-3 py-2">
+            <p className="text-xs font-bold uppercase tracking-wider text-[color:var(--accent)]">
+              Heads up — coming soon
+            </p>
+            <p className="mt-1 text-sm leading-relaxed text-foreground">
+              I heard your suggestions and am working on bringing back data from
+              the{" "}
+              <span className="font-semibold">
+                US · Israel · Iran War Tracker
+              </span>{" "}
+              — it will live in a dedicated page/section of the new site.
+            </p>
+          </div>
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <button
               type="button"
@@ -109,8 +167,9 @@ export default function WelcomeBanner() {
 
         <button
           type="button"
-          onClick={dismiss}
-          aria-label="Dismiss welcome message"
+          onClick={toggle}
+          aria-expanded={true}
+          aria-label="Collapse welcome message"
           className="-mr-1 -mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-muted transition hover:bg-background hover:text-foreground"
         >
           <svg
@@ -123,8 +182,7 @@ export default function WelcomeBanner() {
             strokeLinejoin="round"
             className="h-4 w-4"
           >
-            <line x1="18" y1="6" x2="6" y2="18" />
-            <line x1="6" y1="6" x2="18" y2="18" />
+            <polyline points="18 15 12 9 6 15" />
           </svg>
         </button>
       </div>
