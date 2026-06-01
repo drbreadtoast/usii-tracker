@@ -1,105 +1,100 @@
 {
   "sectionId": "foreign",
-  "lastUpdated": "2026-05-17T14:00:00Z",
+  "lastUpdated": "2026-05-31T23:55:00Z",
   "stories": [
     {
-      "id": "example-eu-summit-2026-05",
-      "headline": "EU leaders meet in Brussels to debate next defense-spending package",
-      "summary": "European Council members are weighing a proposal that would expand joint defense procurement and accelerate ammunition production. Germany and France are split on the size of the package.",
+      "id": "iran-us-mou-hormuz-stalled-2026-05-31",
+      "headline": "US-Iran 60-day MOU on Hormuz and nuclear talks awaits Trump sign-off",
+      "summary": "US and Iranian negotiators have reached a draft 60-day memorandum of understanding to pause active operations, reopen the Strait of Hormuz, and launch nuclear-track talks, but President Trump ended a Situation Room meeting on May 29 without giving final approval and remained noncommittal through the weekend. The text reportedly conditions sanctions waivers on Iranian mine-clearance and non-pursuit of weapons-grade enrichment.",
       "category": "foreign",
-      "importance": 4,
-      "tags": ["seed", "example", "eu", "defense"],
-      "firstSeenAt": "2026-05-17T07:00:00Z",
-      "updatedAt": "2026-05-17T13:30:00Z",
+      "importance": 5,
+      "tags": ["iran", "hormuz", "diplomacy", "nuclear"],
+      "firstSeenAt": "2026-05-28T22:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
-          "lean": "foreign-western",
-          "keyFraming": "European outlets frame this as a test of EU strategic autonomy and a response to changing US security guarantees.",
-          "summary": "Western European coverage emphasizes the proposal would mark the bloc's largest joint defense expenditure to date, with most outlets noting that German fiscal hawks and French industrial advocates remain at odds over the structure and the share of contracts reserved for EU-based manufacturers.",
-          "sources": [
-            {
-              "outlet": "Deutsche Welle",
-              "url": "https://www.dw.com",
-              "title": "EU summit debates landmark defense funding plan",
-              "publishedAt": "2026-05-17T10:00:00Z"
-            },
-            {
-              "outlet": "Le Monde",
-              "url": "https://www.lemonde.fr",
-              "title": "Paris pushes for European preference in defense procurement",
-              "publishedAt": "2026-05-17T11:00:00Z"
-            }
-          ]
-        },
-        {
           "lean": "center",
-          "keyFraming": "Wire coverage treats the summit as a procedural milestone with no guaranteed outcome.",
-          "summary": "Centrist wire services report the package is unlikely to be finalized at this meeting, with senior officials describing the day's session as a 'temperature check' before formal drafting begins in June.",
+          "keyFraming": "Pragmatic deal-tracking: the MOU mechanics (mine clearance, sanctions waivers, enrichment caps) and the unresolved question of frozen funds.",
+          "summary": "Center coverage focuses on the operational asks: unrestricted Hormuz passage, 30-day mine clearance, and a 'relief for performance' structure that staggers sanctions waivers against Iranian commitments. Trump's reluctance to sign by Sunday left markets reading the deal as alive but unstable.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "EU leaders divided on size of joint defense package as summit opens",
-              "publishedAt": "2026-05-17T11:30:00Z",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html",
+              "title": "Trump ends Iran meeting without announcing 'final determination' on deal",
+              "publishedAt": "2026-05-29T23:30:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
-          "lean": "foreign-eastern",
-          "keyFraming": "Russian state media frames the meeting as proof of European militarization driven by NATO and US pressure.",
-          "summary": "Russian state outlets describe the package as an escalation that ignores European public sentiment, and they highlight protests in Berlin and Paris against increased defense spending.",
+          "lean": "foreign-western",
+          "keyFraming": "European framing ties deal urgency to the Lebanon spiral; Paris pushes for both a US-Iran agreement and a UNSC session.",
+          "summary": "France 24 and partner European outlets argue Macron is publicly linking the urgency of an Iran agreement to the deepening Lebanon offensive — only a US-Iran arrangement, the argument goes, can break the Hezbollah/Iran-axis spiral. Paris called for an emergency UN Security Council meeting Monday.",
           "sources": [
             {
-              "outlet": "TASS",
-              "url": "https://tass.com",
-              "title": "Brussels accelerates militarization under US pressure, analysts say",
-              "publishedAt": "2026-05-17T12:00:00Z",
-              "isStateMedia": true
+              "outlet": "France 24",
+              "url": "https://www.france24.com/en/israel-seizes-strategic-beaufort-castle-in-lebanon-issues-new-evacuation-orders",
+              "title": "Israel seizes strategic Beaufort Castle in Lebanon, issues new evacuation orders",
+              "publishedAt": "2026-05-31T17:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         }
       ]
     },
     {
-      "id": "example-asia-trade-2026-05",
-      "headline": "ASEAN ministers conclude trade talks with mixed signals on US tariff response",
-      "summary": "Trade ministers from ten Southeast Asian economies wrapped up two days of talks in Kuala Lumpur. The final communique called for 'open and rules-based trade' without naming the United States.",
+      "id": "china-taiwan-pratas-pressure-2026-05-31",
+      "headline": "China expands Coast Guard incursions around Taiwan's Pratas Island",
+      "summary": "China Coast Guard vessels have entered restricted waters around Taiwan-controlled Pratas (Dongsha) Island on six occasions in 2026, with the most recent incursion logged in late May, while Beijing has deployed more than 100 navy and coast-guard vessels across regional waters following Trump-Xi summit comments. A US uncrewed surface vessel transited the Taiwan Strait under Chinese surveillance.",
       "category": "foreign",
-      "importance": 3,
-      "tags": ["seed", "example", "asean", "trade"],
-      "firstSeenAt": "2026-05-17T06:00:00Z",
-      "updatedAt": "2026-05-17T13:00:00Z",
+      "importance": 4,
+      "tags": ["china", "taiwan", "south-china-sea", "pratas"],
+      "firstSeenAt": "2026-05-29T00:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
-          "lean": "foreign-global-south",
-          "keyFraming": "Regional outlets frame the talks as ASEAN navigating between Washington and Beijing without picking sides.",
-          "summary": "Coverage from Southeast Asian outlets emphasizes that smaller member states pushed for stronger language opposing tariffs, while larger economies preferred not to provoke either Washington or Beijing. The communique reflects that compromise.",
+          "lean": "foreign-western",
+          "keyFraming": "Strategic-analysis framing: Beijing is exploiting Taipei's uncertainty by squeezing isolated outposts rather than triggering a strait crisis.",
+          "summary": "Global Taiwan Institute analysts argue Beijing is using Pratas as a pressure point after Trump-Xi summit comments left Taiwan policy ambiguous. Taipei Times notes a US uncrewed surface vessel completed a full Taiwan Strait transit under Chinese surveillance, signaling that allied operations continue around the incursions.",
           "sources": [
             {
-              "outlet": "South China Morning Post",
-              "url": "https://www.scmp.com",
-              "title": "ASEAN treads carefully on tariffs as US-China rivalry deepens",
-              "publishedAt": "2026-05-17T09:00:00Z"
-            },
-            {
-              "outlet": "The Hindu",
-              "url": "https://www.thehindu.com",
-              "title": "Southeast Asian ministers seek united front on trade",
-              "publishedAt": "2026-05-17T10:30:00Z"
+              "outlet": "Global Taiwan Institute",
+              "url": "https://globaltaiwan.org/2026/05/chinas-next-target/",
+              "title": "China's Next Target in the South China Sea: Taiwan?",
+              "publishedAt": "2026-05-29T14:00:00Z",
+              "allSidesRating": "center"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "sudan-drone-shootdown-white-nile-2026-05-30",
+      "headline": "Sudanese army downs long-range RSF drone over White Nile after strikes on hospitals and depots",
+      "summary": "On May 30, Sudanese air defenses intercepted a strategic long-range Rapid Support Forces drone over Kenana in White Nile state carrying roughly eight missiles, after RSF aerial attacks damaged a hospital, the Kenana sugar factory, an airport, and fuel and medicine warehouses in Rabak, Kosti and Kenana.",
+      "category": "foreign",
+      "importance": 4,
+      "tags": ["sudan", "rsf", "drones", "war"],
+      "firstSeenAt": "2026-05-30T18:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "Wire coverage focuses on the diplomatic ambiguity of the final statement.",
-          "summary": "Wire services note that the communique did not name any country and that several delegations briefed reporters separately with conflicting accounts of how aggressively ASEAN would respond to new US tariffs.",
+          "lean": "foreign-western",
+          "keyFraming": "War-monitor framing: drone warfare is now the dominant killer in Sudan; new strikes amplify Sudanese accusations of foreign support to RSF.",
+          "summary": "Sudan Tribune and UN News underline that drones caused more than 80% of civilian deaths in Sudan's war in the first four months of 2026. After the latest strikes, Sudanese authorities again accused Ethiopia and the UAE of providing launchpads and materiel to the RSF, claims both governments deny.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "ASEAN avoids naming US in trade statement after closing summit",
-              "publishedAt": "2026-05-17T12:00:00Z",
+              "outlet": "Sudan Tribune",
+              "url": "https://sudantribune.com/article/314486",
+              "title": "Sudan army shoots down long-range RSF drone carrying eight missiles over White Nile",
+              "publishedAt": "2026-05-30T18:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "UN News",
+              "url": "https://news.un.org/en/story/2026/05/1167479",
+              "title": "Armed drones leading cause of civilian death in Sudan war: UN rights chief",
+              "publishedAt": "2026-05-29T12:00:00Z",
               "allSidesRating": "center"
             }
           ]

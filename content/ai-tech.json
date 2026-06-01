@@ -1,55 +1,82 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-05-17T14:00:00Z",
+  "lastUpdated": "2026-05-31T23:55:00Z",
   "stories": [
     {
-      "id": "example-ai-export-rules-2026-05",
-      "headline": "Commerce Department finalizes new AI chip export rules",
-      "summary": "The Department of Commerce released final rules expanding restrictions on the export of advanced AI accelerators to a broader list of countries. Industry groups raised concerns about implementation timing.",
+      "id": "anthropic-opus-48-mythos-965b-2026-05-31",
+      "headline": "Anthropic ships Claude Opus 4.8 with Dynamic Workflows; closes $65B round at $965B; promises Mythos-class rollout",
+      "summary": "On May 28-29 Anthropic released Claude Opus 4.8 (with new effort-level controls and a research-preview Dynamic Workflows feature that orchestrates parallel subagents). The company simultaneously closed a $65B round at a $965B valuation and said its Mythos-class models — currently restricted to Project Glasswing partners Amazon, Microsoft, and Apple for cybersecurity use — will be available to all customers in the coming weeks.",
       "category": "ai-tech",
-      "importance": 4,
-      "tags": ["seed", "example", "ai", "export-controls"],
-      "firstSeenAt": "2026-05-17T08:00:00Z",
-      "updatedAt": "2026-05-17T13:30:00Z",
+      "importance": 5,
+      "tags": ["anthropic", "claude", "opus", "mythos"],
+      "firstSeenAt": "2026-05-29T09:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Centers on the technical scope of the rules and the industry reaction.",
-          "summary": "Mainstream tech coverage details the new license thresholds, the country tiering, and the 60-day implementation window. Industry trade groups have called for guidance on the 'unrestricted research collaboration' carve-out.",
+          "keyFraming": "Anthropic now leads valuation tables and is openly gating its most powerful model behind cybersecurity safety partners — a new tier of frontier rollout.",
+          "summary": "Coverage notes 4.8 ships at unchanged Opus pricing; Dynamic Workflows is a clear step toward agentic 'plan-execute-verify' patterns inside Claude Code. The Mythos disclosure is notable for what it implies: a model class where Anthropic believes wider release requires deliberate staging because of dual-use cybersecurity capability. The $965B valuation now exceeds OpenAI's last reported mark.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "US finalizes broader AI chip export controls",
-              "publishedAt": "2026-05-17T10:30:00Z",
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/",
+              "title": "Anthropic leapfrogs OpenAI with a record $965 billion valuation and says its 'Mythos' AI model is coming soon",
+              "publishedAt": "2026-05-29T17:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Help Net Security",
+              "url": "https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/",
+              "title": "Anthropic launches Claude Opus 4.8, prepares Mythos-class models for all customers",
+              "publishedAt": "2026-05-29T09:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commerce-china-chip-loophole-2026-05-31",
+      "headline": "Commerce closes Malaysia/SE-Asia loophole that funneled Nvidia Rubin/Blackwell and AMD MI350x to Chinese AI firms abroad",
+      "summary": "On May 30-31 the US Department of Commerce issued guidance closing a loophole that for nearly a year allowed advanced US chips to reach overseas subsidiaries of Chinese AI firms — particularly via Malaysia. Affected silicon includes Nvidia Rubin and Blackwell-class processors and AMD's MI350x. The move comes as the White House prepares a Trump trip to Beijing.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": ["commerce", "export-controls", "nvidia", "amd", "china"],
+      "firstSeenAt": "2026-05-31T01:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Even as headline trade talks warm, Commerce signals the technology cordon around frontier AI is tightening at the enforcement level.",
+          "summary": "CNBC and Benzinga report BIS's new guidance treats Chinese-controlled foreign subsidiaries as covered entities for AI accelerator exports, which would have prevented Nvidia and AMD shipments routed through Malaysia data centers. Analysts expect Monday-open pressure on Nvidia and AMD as the addressable market is re-priced.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/31/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china.html",
+              "title": "U.S. takes step to halt Nvidia AI chip shipments to Chinese firms outside China",
+              "publishedAt": "2026-05-31T13:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Benzinga",
+              "url": "https://www.benzinga.com/markets/tech/26/05/52894631/us-closes-loophole-allowed-nvidia-amd-ai-chip-shipments-chinese-firms-overseas",
+              "title": "US Closes Loophole That Allowed Nvidia, AMD AI Chip Shipments To Chinese Firms Overseas",
+              "publishedAt": "2026-05-31T01:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
-          "lean": "foreign-eastern",
-          "keyFraming": "Chinese state media frames the rules as US economic containment.",
-          "summary": "Chinese state outlets describe the rules as the latest in a multi-year US effort to constrain China's AI development. Coverage highlights commentary from Chinese officials calling the measures unilateral and damaging to global supply chains.",
+          "lean": "right",
+          "keyFraming": "Long-overdue enforcement, but the policy is incoherent if direct mainland exports remain on a case-by-case approval list.",
+          "summary": "CFR analysis argues the January BIS rule that lets some direct exports to mainland Chinese entities proceed under conditions undermines the May 31 closure of the indirect route. Without aligning Netherlands, Japan and Korea on the same enforcement posture, transshipment risk simply migrates.",
           "sources": [
             {
-              "outlet": "Global Times",
-              "url": "https://www.globaltimes.cn",
-              "title": "US escalates chip-war with new export controls",
-              "publishedAt": "2026-05-17T11:30:00Z",
-              "isStateMedia": true
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "Official statement emphasizes national security framing.",
-          "summary": "The Department of Commerce statement says the rules 'protect critical US technology from being used to advance the military capabilities of adversaries' while preserving commercial relationships with allies.",
-          "sources": [
-            {
-              "outlet": "US Department of Defense",
-              "url": "https://www.defense.gov",
-              "title": "Commerce-DoD joint statement on AI export rule update",
-              "publishedAt": "2026-05-17T12:00:00Z"
+              "outlet": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/articles/new-ai-chip-export-policy-china-strategically-incoherent-and-unenforceable",
+              "title": "The New AI Chip Export Policy to China: Strategically Incoherent and Unenforceable",
+              "publishedAt": "2026-05-30T12:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         }

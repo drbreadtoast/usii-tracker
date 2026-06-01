@@ -1,95 +1,87 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-05-17T14:00:00Z",
+  "lastUpdated": "2026-05-31T23:55:00Z",
   "stories": [
     {
-      "id": "example-fed-minutes-2026-05",
-      "headline": "Fed minutes signal split on timing of next rate move",
-      "summary": "Minutes from the May FOMC meeting showed members 'broadly agreed' inflation progress had slowed but disagreed on when to next adjust the policy rate. Traders moved expectations to September.",
+      "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
+      "headline": "Dow closes above 51,000, S&P 500 logs ninth straight weekly gain as AI rally + Iran ceasefire optimism cap record May",
+      "summary": "Friday May 29 capped a strong month: Dow Industrials +0.72% to 51,032.46, S&P 500 +0.22% to 7,580.06 (ninth consecutive weekly gain, longest streak since 2023), and Nasdaq Composite +0.26% to 26,972.62. For the month, Nasdaq jumped roughly 8%, S&P 500 about 5%, and Dow about 3%, driven by Dell's AI-server earnings and growing optimism on the 60-day US-Iran ceasefire framework.",
       "category": "markets",
-      "importance": 4,
-      "tags": ["seed", "example", "fed", "rates"],
-      "firstSeenAt": "2026-05-17T08:00:00Z",
-      "updatedAt": "2026-05-17T13:00:00Z",
+      "importance": 5,
+      "tags": ["equities", "ai", "dell", "iran"],
+      "firstSeenAt": "2026-05-29T20:30:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Centers on what the minutes actually said and how rates markets repriced.",
-          "summary": "Wire and market-focused coverage notes that fed funds futures shifted to imply a September cut at roughly 55% probability, up from 40% before the release. Several outlets quote economists saying the minutes 'lean dovish on the margin.'",
+          "keyFraming": "Records cap the strongest tech month since the post-pandemic rally, with AI demand and the Iran framework driving simultaneous risk-on bid.",
+          "summary": "Reuters/Yahoo Finance and TheStreet lead the Friday close: Dow above 51,000, S&P 500 7,580.06, Nasdaq 26,972.62; ninth weekly gain for the S&P is the longest streak since 2023. Drivers were Dell's earnings beat (stock surged up to 40%) plus White House signals it would soon endorse the Iran framework. Treasury yields drifted lower (10-year ~4.45%), supportive of multiples.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "Fed minutes show divided committee on rate path",
-              "publishedAt": "2026-05-17T11:00:00Z",
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/dow-nasdaq-sp-gain-stock-market-today-friday-may-29-222720284.html",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision",
+              "publishedAt": "2026-05-29T22:27:00Z",
               "allSidesRating": "center"
             },
             {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com",
-              "title": "Traders bring forward Fed cut bets after minutes release",
-              "publishedAt": "2026-05-17T11:30:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Frames the minutes as evidence the Fed is behind the curve on inflation persistence.",
-          "summary": "Right-leaning financial coverage emphasizes commentary from members concerned that services inflation remains sticky, and argues that any near-term cut would be premature given housing and wage data.",
-          "sources": [
-            {
-              "outlet": "The Wall Street Journal",
-              "url": "https://www.wsj.com",
-              "title": "Fed minutes spotlight sticky services inflation",
-              "publishedAt": "2026-05-17T12:00:00Z",
-              "allSidesRating": "lean-right"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "Official Fed communication preserves optionality and emphasizes data dependence.",
-          "summary": "The Federal Reserve's published minutes reiterate the committee's commitment to its 2% inflation target and note continued data dependence. No forward guidance on timing of the next move was offered.",
-          "sources": [
-            {
-              "outlet": "Federal Reserve",
-              "url": "https://www.federalreserve.gov",
-              "title": "Minutes of the Federal Open Market Committee, May 2026",
-              "publishedAt": "2026-05-17T10:00:00Z"
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026",
+              "title": "Stock Market Today (May 29, 2026): S&P 500 good for ninth consecutive week of gains",
+              "publishedAt": "2026-05-29T20:30:00Z",
+              "allSidesRating": "center"
             }
           ]
         }
       ]
     },
     {
-      "id": "example-oil-supply-2026-05",
-      "headline": "Brent slips below $82 as OPEC+ signals possible output increase",
-      "summary": "Brent crude fell more than 2% intraday after delegates indicated a working group is studying a modest output increase for Q3. WTI followed, dipping below $78.",
+      "id": "brent-19pct-may-drop-iran-ceasefire-2026-05-31",
+      "headline": "Brent posts steepest monthly drop since pandemic, down about 19% in May as Iran truce optimism builds",
+      "summary": "Friday May 29 saw Brent fall about 1.2% to roughly $92.56 and WTI fall about 2% to roughly $87.20, the lowest in about six weeks, with both benchmarks roughly 20% off 2026 highs set during the Strait of Hormuz crisis. The driver is the tentative 60-day MOU between Washington and Tehran to extend the ceasefire and reopen the Strait via demining, though Iranian missile fire toward Kuwait Thursday kept insurance premiums elevated.",
       "category": "markets",
-      "importance": 3,
-      "tags": ["seed", "example", "oil", "opec"],
-      "firstSeenAt": "2026-05-17T07:00:00Z",
-      "updatedAt": "2026-05-17T13:15:00Z",
+      "importance": 5,
+      "tags": ["oil", "brent", "wti", "iran"],
+      "firstSeenAt": "2026-05-29T16:45:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Wire reporting treats the slip as a supply-driven reaction to OPEC+ signaling.",
-          "summary": "Mainstream wires note Brent traded as low as $81.40 in London hours after delegates told reporters a working group is studying production increases. Analysts surveyed expect no formal decision before the June meeting.",
+          "keyFraming": "Oil's 19% May slump reverses the war premium; reopening of Hormuz could push barrels back below pre-crisis levels.",
+          "summary": "Mainstream wires report Brent's biggest monthly drop since 2020. WTI futures are down about 16.5% month-to-date. The spread above the 2024-06-01 baselines ($81.62 Brent / $76.99 WTI) is still positive because the ceasefire is unsigned and Iranian missile fire toward Kuwait keeps insurance premiums elevated.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "Brent slips as OPEC+ delegates discuss possible Q3 output rise",
-              "publishedAt": "2026-05-17T10:00:00Z",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/29/oil-prices-iran-ceasefire-us-trump-strait-hormuz-energy-costs.html",
+              "title": "Oil drops 20% from 2026 peak on optimism over U.S.-Iran ceasefire talks",
+              "publishedAt": "2026-05-29T16:45:00Z",
               "allSidesRating": "center"
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btc-six-week-low-cftc-perps-2026-05-31",
+      "headline": "Bitcoin near $73k as spot-ETFs see $2B May outflow; CFTC clears US perpetual futures",
+      "summary": "BTC closed Friday around $73,300 on the CoinDesk index, pinned by failure to retake $74,000 after a six-week support test. Spot BTC and ETH ETFs combined lost roughly $2 billion in inflows May 20-29, the largest sustained drain since Q4 2025. The CFTC simultaneously authorized fully regulated US perpetual futures, and Treasury announced 'Operation Economic Fury' seizing about $1B in Iran-linked crypto.",
+      "category": "markets",
+      "importance": 3,
+      "tags": ["crypto", "btc", "cftc", "etf"],
+      "firstSeenAt": "2026-05-29T19:15:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Crypto's late-May correction is institutional, not retail — and US regulators are simultaneously expanding the regulated rail.",
+          "summary": "CoinDesk reporting notes BTC's two-month winning streak is in jeopardy after the ETF exodus, though cumulative US spot BTC inflows remain near $58.7B. The CFTC's perpetual-futures green light meaningfully changes US market structure by anchoring the dominant global derivatives format domestically.",
+          "sources": [
             {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com",
-              "title": "Oil drops as OPEC+ weighs adding barrels",
-              "publishedAt": "2026-05-17T11:00:00Z",
-              "allSidesRating": "lean-left"
+              "outlet": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/05/29/live-markets-bitcoin-slides-further-putting-two-month-winning-streak-in-jeopardy",
+              "title": "Bitcoin price news: BTC off the lows on Trump post, but set to close month of May with losses",
+              "publishedAt": "2026-05-29T19:15:00Z",
+              "allSidesRating": "center"
             }
           ]
         }

@@ -1,143 +1,285 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-05-17T14:00:00Z",
+  "lastUpdated": "2026-05-31T23:55:00Z",
   "stories": [
     {
-      "id": "example-budget-deal-2026-05",
-      "headline": "Congress reaches tentative deal on FY2027 budget framework",
-      "summary": "House and Senate leadership announced a tentative top-line agreement on the FY2027 budget framework Friday, opening a path to avoid a partial government shutdown when current funding expires May 31.",
+      "id": "iran-deal-trump-delay-2026-05-31",
+      "headline": "Trump withholds final approval on 60-day Iran ceasefire framework as Hegseth signals strike readiness",
+      "summary": "President Trump exited weekend Situation Room meetings without a 'final determination' on a tentative 60-day US-Iran ceasefire extension, saying he is 'in no hurry' and sending the draft back with tougher uranium-enrichment and Strait of Hormuz terms. Defense Secretary Pete Hegseth told the Shangri-La Dialogue the US military remains 'more than capable' of resuming strikes if talks collapse.",
       "category": "us-politics",
       "importance": 5,
-      "tags": ["seed", "example", "congress", "budget"],
-      "firstSeenAt": "2026-05-17T08:00:00Z",
-      "updatedAt": "2026-05-17T13:45:00Z",
+      "tags": ["iran", "trump", "hegseth", "diplomacy"],
+      "firstSeenAt": "2026-05-29T00:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
           "lean": "left",
-          "keyFraming": "Frames the deal as Democrats forcing the GOP to back off proposed cuts to social programs.",
-          "summary": "Left-leaning coverage emphasizes that Democratic negotiators preserved funding levels for Medicaid expansion and rental-assistance programs, and that the deal walks back the deeper non-defense discretionary cuts House Republicans proposed in March.",
+          "keyFraming": "Frames Trump's eleventh-hour demands as risking a tentative deal while gas prices stay elevated and Iran's enrichment stockpile grows.",
+          "summary": "Left-leaning coverage stresses the economic and humanitarian cost of stalling: elevated gas, an IAEA report on Iranian uranium stockpiles, and Sen. Chris Murphy calling the conflict 'an absolute disaster for the United States' on Face the Nation. The frame is that ending the war should be the immediate priority.",
           "sources": [
             {
-              "outlet": "MSNBC",
-              "url": "https://www.msnbc.com",
-              "title": "Democrats hold line on social spending in budget framework deal",
-              "publishedAt": "2026-05-17T11:00:00Z",
-              "allSidesRating": "left"
-            },
-            {
-              "outlet": "The New York Times",
-              "url": "https://www.nytimes.com",
-              "title": "Tentative budget deal preserves key Democratic priorities",
-              "publishedAt": "2026-05-17T12:00:00Z",
-              "allSidesRating": "lean-left"
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/chris-murphy-connecticut-democrat-face-the-nation-transcript-05-31-2026/",
+              "title": "Transcript: Sen. Chris Murphy on Face the Nation with Margaret Brennan, May 31, 2026",
+              "publishedAt": "2026-05-31T15:30:00Z",
+              "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "center",
-          "keyFraming": "Reports the deal as a procedural off-ramp rather than a policy victory for either side.",
-          "summary": "Centrist wires describe the agreement as a top-line number with substantive policy fights deferred. Appropriators have eleven legislative days to draft text and the deal is contingent on no new policy riders being attached in committee.",
+          "keyFraming": "Tracks the unsigned memorandum of understanding mechanics: Hormuz passage, mine clearance, sanctions waivers, frozen-asset language.",
+          "summary": "Center outlets report the draft as 'relief for performance' and note Qatar's shuttle diplomacy continues while a US Navy port blockade has stopped 118 vessels. Trump said Saturday he is 'in no hurry' and exited weekend meetings without an announcement.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "US lawmakers strike tentative FY2027 budget framework, details pending",
-              "publishedAt": "2026-05-17T11:30:00Z",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/31/still-no-deal-to-end-us-iran-war-trump-says-hes-not-in-a-hurry.html",
+              "title": "U.S. and Iran still without deal to end war after Trump says he's not in a 'hurry'",
+              "publishedAt": "2026-05-31T17:00:00Z",
               "allSidesRating": "center"
             },
             {
-              "outlet": "Associated Press",
-              "url": "https://apnews.com",
-              "title": "Budget framework deal would avert May 31 shutdown if passed",
-              "publishedAt": "2026-05-17T12:15:00Z",
-              "allSidesRating": "center"
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/05/29/world/live-news/iran-trump-war-news",
+              "title": "US military ready to resume combat in Gulf if needed, defense secretary warns",
+              "publishedAt": "2026-05-30T22:00:00Z",
+              "allSidesRating": "lean-left"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "Frames the deal as House Republicans giving up on the spending cuts they campaigned on.",
-          "summary": "Right-leaning outlets argue the framework abandons the deeper non-defense cuts conservative members demanded, and they highlight Freedom Caucus members who say they will vote against any package built on this top-line.",
+          "keyFraming": "Casts Trump as the disciplined negotiator refusing to ease leverage prematurely; warns against an 'economic bailout' of the Iranian regime.",
+          "summary": "Right-leaning outlets emphasize Trump's vow to 'finish the job' if talks fail and a Wall Street Journal editorial warning that lifting the naval blockade before nuclear dismantlement 'would be the real betrayal.' Hegseth's Singapore remarks are framed as restoring deterrence.",
           "sources": [
             {
               "outlet": "Fox News",
-              "url": "https://www.foxnews.com",
-              "title": "Conservatives revolt as GOP leadership accepts higher spending baseline",
-              "publishedAt": "2026-05-17T12:00:00Z",
+              "url": "https://www.foxnews.com/live-news/trump-iran-war-peace-talks-hormuz-may-31",
+              "title": "Trump warns Iran US will 'finish the job' if deal collapses as Israel expands Lebanon offensive",
+              "publishedAt": "2026-05-31T16:00:00Z",
               "allSidesRating": "right"
             },
             {
-              "outlet": "The Wall Street Journal",
-              "url": "https://www.wsj.com",
-              "title": "Budget deal abandons promised spending discipline, critics say",
-              "publishedAt": "2026-05-17T12:45:00Z",
-              "allSidesRating": "lean-right"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "Official statements from White House and congressional leadership characterize the deal as responsible governing.",
-          "summary": "The White House welcomed the framework and urged appropriators to complete text by May 28. The Speaker's office and Senate Majority Leader's office released near-identical statements emphasizing bipartisan cooperation and avoiding a shutdown.",
-          "sources": [
-            {
-              "outlet": "White House",
-              "url": "https://www.whitehouse.gov",
-              "title": "Statement on bipartisan budget framework agreement",
-              "publishedAt": "2026-05-17T13:30:00Z"
+              "outlet": "The Hill",
+              "url": "https://thehill.com/homenews/media/5894035-wall-street-journal-board-donald-trump-us-iran-deal/",
+              "title": "Wall Street Journal board warns Trump against 'economic bailout' in Iran deal",
+              "publishedAt": "2026-05-31T18:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         }
       ]
     },
     {
-      "id": "example-scotus-ruling-2026-05",
-      "headline": "Supreme Court hears oral arguments in landmark Section 230 case",
-      "summary": "Justices heard nearly three hours of argument in a case that could narrow the liability shield that has protected internet platforms for nearly three decades. A decision is expected by late June.",
+      "id": "kennedy-center-ruling-trump-2026-05-30",
+      "headline": "Judge orders Trump's name removed from Kennedy Center; Trump says he is walking away",
+      "summary": "US District Judge Christopher Cooper ruled the Kennedy Center board violated federal law by renaming the institution after President Trump, blocked a planned closure for renovations, and ordered signage removed within two weeks. Trump branded the judge an 'anti Trump Hater' and said he is relinquishing control of the Center to Congress.",
       "category": "us-politics",
       "importance": 4,
-      "tags": ["seed", "example", "scotus", "section-230"],
-      "firstSeenAt": "2026-05-17T09:00:00Z",
-      "updatedAt": "2026-05-17T13:50:00Z",
+      "tags": ["courts", "trump", "arts", "kennedy-center"],
+      "firstSeenAt": "2026-05-29T22:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
           "lean": "left",
-          "keyFraming": "Frames narrowing Section 230 as a step toward accountability for platform harms.",
-          "summary": "Left-leaning coverage focuses on plaintiffs' arguments about algorithmic amplification of harmful content and notes that civil rights groups filed amicus briefs supporting a narrower reading of the statute.",
+          "keyFraming": "Frames the ruling as a statutory limit on presidential power and a return to a nonpartisan Kennedy Center.",
+          "summary": "Left-leaning coverage emphasizes Cooper's finding that only Congress can rename the Center. Outlets quote former White House ethics lawyer Norm Eisen and arts groups celebrating 'a return to non-partisan normality' after months of programming controversy.",
           "sources": [
             {
-              "outlet": "Vox",
-              "url": "https://www.vox.com",
-              "title": "The Section 230 case that could remake the internet",
-              "publishedAt": "2026-05-17T10:00:00Z",
-              "allSidesRating": "left"
+              "outlet": "Washington Post",
+              "url": "https://www.washingtonpost.com/style/power/2026/05/29/judge-orders-kennedy-center-remove-trumps-name-building/",
+              "title": "Judge orders Kennedy Center to remove Trump's name from building",
+              "publishedAt": "2026-05-29T22:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/trump-administration/judge-temporarily-halts-kennedy-center-closure-trump-name-removed-rcna347598",
+              "title": "Judge temporarily halts Kennedy Center closure and orders removal of Trump's name from building",
+              "publishedAt": "2026-05-29T21:00:00Z",
+              "allSidesRating": "lean-left"
             }
           ]
         },
         {
           "lean": "center",
-          "keyFraming": "Centers on the procedural questions before the court and the breadth of any ruling.",
-          "summary": "Centrist legal coverage notes the justices appeared divided on whether algorithmic recommendations constitute the kind of 'publishing' Section 230 protects. Several questions focused on how to draw lines without breaking the underlying web.",
+          "keyFraming": "Reports the court found the founding statute makes the Center's name unchangeable absent Congress; Trump's retreat is the unexpected turn.",
+          "summary": "Center outlets cover the procedural specifics: Cooper ordered signage removed within two weeks and blocked the closure on standing grounds. Trump's Saturday statement that he 'has no interest' in continuing was treated as an unexpected concession.",
           "sources": [
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "US Supreme Court appears split on Section 230 reach",
-              "publishedAt": "2026-05-17T11:00:00Z",
+              "outlet": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/politics/judge-says-kennedy-center-board-violated-law-putting-trumps-name-on-building-blocks-closure",
+              "title": "Judge says Kennedy Center board violated law putting Trump's name on building, blocks closure",
+              "publishedAt": "2026-05-29T23:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/05/30/judge-trump-name-removal-kennedy-center-renovation-closure/",
+              "title": "After judge orders Trump's name removed from Kennedy Center, president says it will 'soon be closed, probably never to open again'",
+              "publishedAt": "2026-05-30T20:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "Frames the case as an opportunity to check Big Tech censorship of conservative voices.",
-          "summary": "Right-leaning outlets emphasize arguments from conservative state attorneys general and lawmakers that Section 230 has shielded platforms from accountability for moderation decisions that disproportionately affect conservative users.",
+          "keyFraming": "Casts an activist judge as blocking a popular renovation while Trump argues only he can revive a neglected institution.",
+          "summary": "Right-leaning outlets quote Trump's Truth Social claim that the Center was 'rusted, rotted, and rat and bug infested' and that the board, not he, attached his name. The decision is framed as a separation-of-powers question Congress could settle.",
           "sources": [
             {
               "outlet": "Fox News",
-              "url": "https://www.foxnews.com",
-              "title": "Section 230 reform takes center stage at Supreme Court",
-              "publishedAt": "2026-05-17T11:30:00Z",
+              "url": "https://www.foxnews.com/politics/federal-judge-orders-trumps-name-removed-kennedy-center-says-congress-rename",
+              "title": "Federal judge orders Trump's name removed from Kennedy Center, says only Congress can rename it",
+              "publishedAt": "2026-05-29T22:30:00Z",
+              "allSidesRating": "right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fema-chaos-hurricane-season-2026-05-31",
+      "headline": "FEMA enters hurricane season weakened after year of Noem-Lewandowski rule",
+      "summary": "On the eve of the June 1 start of Atlantic hurricane season, a CNN investigation detailed how Homeland Security Secretary Kristi Noem and adviser Corey Lewandowski paralyzed FEMA over a year, stalling more than $15 billion in disaster funds and driving out roughly 20% of the workforce. Trump has tapped former acting administrator Cameron Hamilton to lead the agency a second time.",
+      "category": "us-politics",
+      "importance": 5,
+      "tags": ["fema", "noem", "hurricane-season", "dhs"],
+      "firstSeenAt": "2026-05-31T10:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Ties FEMA's hollowing-out directly to Noem and Lewandowski as record-warm seas threaten an 'extremely active' season.",
+          "summary": "Left-leaning coverage links the workforce exodus and stalled grants to Noem and Lewandowski's management, citing a DHS Inspector General probe into contract handling. MSNBC and E&E News frame Cameron Hamilton's reinstatement as arriving too late to rescue the season.",
+          "sources": [
+            {
+              "outlet": "MSNBC",
+              "url": "https://www.ms.now/rachel-maddow-show/maddowblog/hurricane-season-begins-trumps-fema-chief-fails-inspire-confidence-rcna210569",
+              "title": "As hurricane season begins, Trump's FEMA chief once again fails to inspire confidence",
+              "publishedAt": "2026-05-31T13:00:00Z",
+              "allSidesRating": "left"
+            },
+            {
+              "outlet": "E&E News",
+              "url": "https://www.eenews.net/articles/holding-our-breath-hurricane-season-is-here-and-fema-is-shorthanded/",
+              "title": "'Holding our breath': Hurricane season is here, and FEMA is shorthanded",
+              "publishedAt": "2026-05-30T15:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "CNN investigation traces FEMA's gutting to a 'shadow administrator' arrangement now under DHS watchdog probe.",
+          "summary": "Center reporting documents $15B in unspent disaster aid and a ~20% workforce decline. CNN highlights Trump's renomination of Cameron Hamilton — the Navy SEAL fired in May 2025 for telling Congress he opposed abolishing FEMA — as a tacit admission the agency had been mismanaged.",
+          "sources": [
+            {
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/05/31/politics/fema-noem-disaster-funds",
+              "title": "The race to fix FEMA after a year of chaos tore it apart",
+              "publishedAt": "2026-05-31T10:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great-american-state-fair-trump-headline-2026-05-30",
+      "headline": "Trump to personally headline Great American State Fair after artists withdraw",
+      "summary": "After Martina McBride, Bret Michaels, The Commodores, Young MC and Morris Day & The Time pulled out of the Freedom 250 concert series tied to America's 250th anniversary, Trump on Saturday said he would 'personally kick off' the Great American State Fair on the National Mall and floated canceling the music slate entirely.",
+      "category": "us-politics",
+      "importance": 3,
+      "tags": ["trump", "america-250", "culture"],
+      "firstSeenAt": "2026-05-30T17:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Frames artists as distancing themselves from a White-House-orchestrated event as Trump pivots to a personal rally format.",
+          "summary": "Left-leaning coverage cites McBride's statement that she had been 'misled' about the event's nonpartisan framing, and notes Freedom 250 was created by executive order to compete with the bipartisan America250 commission. Outlets call Trump's Saturday Truth Social activity a sign of frustration.",
+          "sources": [
+            {
+              "outlet": "Washington Post",
+              "url": "https://www.washingtonpost.com/politics/2026/05/30/trump-headline-great-american-state-fair-after-music-acts-cancel/",
+              "title": "Trump to headline Great American State Fair after music acts cancel",
+              "publishedAt": "2026-05-30T18:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "MSNBC",
+              "url": "https://www.ms.now/opinion/trump-great-american-state-fair-bret-michaels-martina-mcbride-truth-social",
+              "title": "Trump spirals on Truth Social over D.C. music festival artist snubs",
+              "publishedAt": "2026-05-30T20:00:00Z",
+              "allSidesRating": "left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Catalogs the withdrawals and Trump's pivot to a rally-style opening as half the lineup withdraws over politics.",
+          "summary": "Center reporting documents the cancellations and Trump's own headline plan. NBC News and CNN note he suggested 'Cancel it' before settling on his own appearance, with a separate White House ceremony being planned outside the Freedom 250 framework.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/donald-trump/trump-hold-rally-great-america-state-fair-several-artists-back-rcna347689",
+              "title": "Trump suggests canceling music performances at the 'Great American State Fair' after several artists back out",
+              "publishedAt": "2026-05-30T17:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/05/31/nx-s1-5841889/trump-america-250-state-fair-artists-rally",
+              "title": "Trump says he will headline fair on National Mall after artists drop out",
+              "publishedAt": "2026-05-31T11:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/05/29/entertainment/trump-250th-concert-artists-drop-out-cec",
+              "title": "Artists are bailing on a Trump-backed concert series for America's 250th. Now he's hosting his own ceremony",
+              "publishedAt": "2026-05-29T19:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "texas-senate-paxton-talarico-poll-2026-05-30",
+      "headline": "Talarico leads Paxton by 3 in first Texas Senate poll after GOP runoff",
+      "summary": "A Texas Public Opinion Research poll of 1,670 likely voters (May 27-28) shows Democratic state Rep. James Talarico leading Trump-endorsed Republican nominee Ken Paxton 47%-44% in the Texas US Senate general. The poll, the first major survey since Paxton beat incumbent Sen. John Cornyn in the May 26 runoff, shows Paxton with a -19 net favorability.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": ["texas-senate", "paxton", "talarico", "midterms"],
+      "firstSeenAt": "2026-05-30T14:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Argues Trump's purge of Cornyn for Paxton risks handing Democrats a long-shot Texas pickup with the seat in play.",
+          "summary": "Left-leaning outlets highlight Talarico's 57-point lead among moderates and 38-point lead among Black voters, plus 30% of Cornyn primary voters open to crossing over. Coverage frames the Paxton win as Trump prioritizing MAGA loyalty over electability heading into a difficult map.",
+          "sources": [
+            {
+              "outlet": "KXAN",
+              "url": "https://www.kxan.com/news/texas-politics/talarico-leads-paxton-by-3-points-in-texas-senate-race-post-runoff-poll/",
+              "title": "James Talarico leads Ken Paxton in Texas Senate race poll after GOP runoff",
+              "publishedAt": "2026-05-30T14:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Early polling signal that Paxton's corruption baggage and -19 net favorability could put Texas in play.",
+          "summary": "Center coverage notes Latino voters split 46-42 for Paxton (within margin) and treats the poll as one snapshot — meaningful but early. Local Fox-7 coverage emphasizes Paxton must consolidate Republican voters after a bitter runoff to retake his baseline.",
+          "sources": [
+            {
+              "outlet": "FOX 7 Austin",
+              "url": "https://www.fox7austin.com/election/talarico-leads-paxton-first-post-runoff-poll-senate-race",
+              "title": "Talarico leads Paxton in first post-runoff poll of Senate race",
+              "publishedAt": "2026-05-30T16:00:00Z",
               "allSidesRating": "right"
             }
           ]

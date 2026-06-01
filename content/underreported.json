@@ -1,55 +1,108 @@
 {
   "sectionId": "underreported",
-  "lastUpdated": "2026-05-17T14:00:00Z",
+  "lastUpdated": "2026-05-31T23:55:00Z",
   "stories": [
     {
-      "id": "example-sahel-conflict-2026-05",
-      "headline": "Ongoing Sahel conflict displaces additional 150,000 in past month",
-      "summary": "UN refugee agency figures show continued displacement across the central Sahel as armed-group activity expands. The story receives minimal coverage in major US outlets.",
+      "id": "sudan-bara-kordofan-massacre-2026-05-31",
+      "headline": "RSF-linked fighters kill 27 civilians in North Kordofan villages on Eid al-Adha as 19.5M Sudanese face hunger",
+      "summary": "A Rapid Support Forces-affiliated convoy attacked villages near Bara in Sudan's North Kordofan state on Eid al-Adha, killing at least 27 civilians including elderly residents, per the Sudan Doctors Network. Sudan's Foreign Ministry has called for UN Security Council action. The attack coincided with a UN-backed report that 19.5 million Sudanese — over 40% of the population — are facing acute hunger.",
       "category": "underreported",
-      "importance": 4,
-      "tags": ["seed", "example", "sahel", "displacement"],
-      "firstSeenAt": "2026-05-17T07:30:00Z",
-      "updatedAt": "2026-05-17T13:00:00Z",
+      "importance": 3,
+      "tags": ["sudan", "rsf", "kordofan", "humanitarian"],
+      "firstSeenAt": "2026-05-29T12:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
       "perspectives": [
         {
           "lean": "foreign-global-south",
-          "keyFraming": "African outlets cover the regional impact and the failure of regional security arrangements.",
-          "summary": "Regional outlets focus on the breakdown of the Liptako-Gourma security framework and the impact on rural agricultural communities. Coverage emphasizes humanitarian access constraints and the limited international attention to the crisis.",
+          "keyFraming": "Centers Sudanese civilian death tolls and the parallel hunger emergency — US front pages have run zero banner coverage despite UN genocide findings.",
+          "summary": "Al Jazeera frames the Bara attack as the latest documented mass civilian killing in an RSF campaign already labeled genocidal by UN investigators in El Fasher. The Doctors Network and Sudanese Foreign Ministry are demanding international action, but the West remains largely silent. Coverage emphasizes the convergence of mass atrocity with collapsing food security.",
           "sources": [
             {
-              "outlet": "Daily Nation",
-              "url": "https://nation.africa",
-              "title": "Sahel displacement crisis deepens as security framework falters",
-              "publishedAt": "2026-05-17T09:00:00Z"
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/29/sudan-medical-group-says-rsf-affiliated-fighters-kill-27-civilians",
+              "title": "Sudan medical group says RSF-affiliated fighters kill 27 civilians",
+              "publishedAt": "2026-05-29T12:00:00Z"
+            },
+            {
+              "outlet": "Sudan Tribune",
+              "url": "https://sudantribune.com/article/314513",
+              "title": "Sudan calls for international action after RSF massacre kills dozens in North Kordofan",
+              "publishedAt": "2026-05-30T10:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haiti-30k-displaced-msf-evacuation-2026-05-31",
+      "headline": "UN: 30,000 displaced in 10 days as gangs overrun Port-au-Prince and MSF evacuates Cite Soleil hospital",
+      "summary": "OCHA reports approximately 30,000 people displaced from Port-au-Prince and surrounding areas in 10 days as armed gangs intensified attacks on Cite Soleil and Croix des Bouquets. Doctors Without Borders evacuated its Cite Soleil hospital after sheltering 800 civilians under sustained gunfire. National displacement now exceeds 1.4 million; 5.8 million Haitians (52%) face crisis-level food insecurity. Gangs control roughly 90% of the capital.",
+      "category": "underreported",
+      "importance": 3,
+      "tags": ["haiti", "msf", "displacement", "gangs"],
+      "firstSeenAt": "2026-05-29T08:00:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "Frames Haiti's collapse as a humanitarian emergency requiring international protection — not a migration management problem — inverting the US frame.",
+          "summary": "Al Jazeera and UN News stress the rapid collapse of any remaining state authority in Port-au-Prince, with MSF unable to operate even a single hospital amid gang clashes. The Kenya-led mission has failed to dent gang territorial control. Global South coverage frames this as the world's most ignored humanitarian disaster while Western capitals refuse robust intervention and asylum protections.",
+          "sources": [
+            {
+              "outlet": "UN News",
+              "url": "https://news.un.org/en/story/2026/05/1167559",
+              "title": "30,000 people flee fresh violence in Haiti as hunger crisis deepens",
+              "publishedAt": "2026-05-30T11:00:00Z"
+            },
+            {
+              "outlet": "Jamaica Observer",
+              "url": "https://www.jamaicaobserver.com/2026/05/29/un-says-million-people-displaced-haiti/",
+              "title": "UN says more than a million people displaced in Haiti",
+              "publishedAt": "2026-05-29T08:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scarborough-shoal-china-patrol-2026-05-31",
+      "headline": "China patrols Scarborough Shoal as Philippines names Beijing as sole obstacle to South China Sea code of conduct",
+      "summary": "China's PLA Navy and Coast Guard conducted patrols at Scarborough Shoal on May 31, hours after Philippine Defence Secretary Gilberto Teodoro Jnr used the Shangri-La Dialogue in Singapore to brand Beijing the 'counterparty' blocking an ASEAN code of conduct. Manila is investigating reports of new Chinese structures at the shoal, days after the first US Coast Guard vessel joined Philippine forces in a joint patrol.",
+      "category": "underreported",
+      "importance": 2,
+      "tags": ["philippines", "china", "south-china-sea", "scarborough"],
+      "firstSeenAt": "2026-05-31T05:30:00Z",
+      "updatedAt": "2026-05-31T23:55:00Z",
+      "perspectives": [
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "SCMP frames this as an ASEAN diplomatic crisis where Manila publicly cornered Beijing on the world stage — US wires reduce SCS flashpoints to bilateral US-China posturing.",
+          "summary": "South China Morning Post reports Teodoro stunned Shangri-La by openly singling out China as the lone obstacle to an SCS code of conduct ASEAN has chased since 2002. Beijing responded within hours with patrols and an air-defense interception. Manila is also probing reports of new artificial structures at Scarborough.",
+          "sources": [
+            {
+              "outlet": "South China Morning Post",
+              "url": "https://www.scmp.com/week-asia/politics/article/3355456/philippines-says-beijing-main-hurdle-south-china-sea-code-conduct",
+              "title": "Philippines says Beijing main hurdle to South China Sea code of conduct",
+              "publishedAt": "2026-05-31T08:02:00Z"
             }
           ]
         },
         {
-          "lean": "foreign-western",
-          "keyFraming": "European outlets cover the story primarily through the lens of migration risk to Europe.",
-          "summary": "Coverage in European outlets notes the displacement figures and frames them around concerns about onward migration toward North Africa and Europe. Humanitarian framing varies by outlet.",
+          "lean": "foreign-global-south",
+          "keyFraming": "Filipino and Japanese coverage centers Manila's investigation into new Chinese structures at Scarborough and the strategic stakes for ASEAN.",
+          "summary": "GMA News and Japan Times treat the Chinese patrol as a direct response to Teodoro's remarks. The reporting emphasizes that if new artificial structures at Scarborough are confirmed, they would mirror China's island-building in the Spratlys and force ASEAN's hand on enforcement of the SCS Tribunal ruling.",
           "sources": [
             {
-              "outlet": "BBC",
-              "url": "https://www.bbc.com",
-              "title": "Sahel conflict drives record displacement",
-              "publishedAt": "2026-05-17T10:30:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Wire coverage exists but receives limited US placement.",
-          "summary": "AP and Reuters carried the UN figures with brief dispatches. None of the major US cable or network broadcasts led with the story; coverage was relegated to back-of-segment or wire-service mentions.",
-          "sources": [
+              "outlet": "GMA News",
+              "url": "https://www.gmanetwork.com/news/topstories/nation/989639/china-patrols-scarborough-shoal-after-philippines-warns-of-threat/story/",
+              "title": "China patrols Scarborough Shoal after Philippines warns of threat",
+              "publishedAt": "2026-05-31T06:00:00Z"
+            },
             {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com",
-              "title": "UN: 150,000 displaced in Sahel over past month",
-              "publishedAt": "2026-05-17T11:00:00Z",
-              "allSidesRating": "center"
+              "outlet": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/05/31/asia-pacific/politics/china-scarborough-shoal-philippines/",
+              "title": "China patrols Scarborough Shoal after Philippines warns of threat",
+              "publishedAt": "2026-05-31T05:30:00Z"
             }
           ]
         }
