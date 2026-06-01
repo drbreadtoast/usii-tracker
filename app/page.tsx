@@ -13,6 +13,7 @@ import MediaCoverageCard from "@/components/MediaCoverageCard";
 import KeyStatementsCard from "@/components/KeyStatementsCard";
 import OilHero from "@/components/OilHero";
 import type { OilHeroProps } from "@/components/OilHero";
+import QuickBriefHeader from "@/components/QuickBriefHeader";
 
 interface OilPriceSnapshot {
   fetchedAt: string;
@@ -109,6 +110,9 @@ export default async function HomePage() {
           <StaleBanner lastUpdated={manifest.lastUpdated} />
         </div>
       </div>
+
+      {/* Quick Brief — section header that wraps the home grid */}
+      <QuickBriefHeader lastUpdated={manifest.lastUpdated} />
 
       {/* Top Stories hero + media-coverage sidecar */}
       <div className="mx-auto w-full max-w-6xl px-4 pt-8 sm:px-6">

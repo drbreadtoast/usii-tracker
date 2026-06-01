@@ -6,8 +6,10 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import AlertTicker from "@/components/AlertTicker";
 import WorldClocks from "@/components/WorldClocks";
+import RefreshStrip from "@/components/RefreshStrip";
 import MarketTicker from "@/components/MarketTicker";
 import FreshBuildBanner from "@/components/FreshBuildBanner";
+import { getManifest } from "@/lib/content";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -92,9 +94,10 @@ const themeBootstrap = `
 })();
 `;
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const manifest = await getManifest().catch(() => null);
   return (
     <html
       lang="en"
@@ -112,6 +115,7 @@ export default function RootLayout({
         <AlertTicker />
         <Nav />
         <WorldClocks />
+        {manifest && <RefreshStrip lastUpdated={manifest.lastUpdated} />}
         <main className="flex flex-1 flex-col">{children}</main>
         <MarketTicker />
         <Footer />
