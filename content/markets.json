@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-02T17:10:19Z",
+  "lastUpdated": "2026-06-02T23:02:04Z",
   "stories": [
     {
       "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
@@ -213,8 +213,8 @@
     },
     {
       "id": "crypto-slides-btc-below-74k-eth-2k-2026-06-01",
-      "headline": "Bitcoin slips below ~$74,000 and Ether tests $2,000 as crypto extends a multi-week decline into June",
-      "summary": "Bitcoin opened June below about $72,000 — its weakest level of 2026 — and Ether broke under the $2,000 support to roughly $1,970, with Solana near $80, as record spot-ETF outflows and an oil-driven risk-off deepened a multi-week crypto decline. The slide followed May's third straight red monthly candle even as the CFTC's recent green light for perpetual futures expanded the regulated US crypto rail.",
+      "headline": "Bitcoin slides below $70,000 as spot ETFs log a 10th straight day of outflows; Ether tests $2,000",
+      "summary": "Bitcoin fell below $70,000 on June 2, with an intraday low near $69,000, as US spot bitcoin ETFs posted a 10th consecutive day of net outflows — the longest selling streak since their launch. Ether traded under $2,000 and Solana near $79. Strategy's first bitcoin sale in nearly four years and Middle East risk-off added pressure, deepening crypto's divergence from the record-setting stock rally.",
       "category": "markets",
       "importance": 3,
       "tags": [
@@ -226,28 +226,42 @@
       ],
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "Crypto is trading as a high-beta risk asset, falling alongside equities as the inflation and rate-hike scare deepens.",
-          "summary": "Crypto Times reports Bitcoin opening June below $72,000 after sealing its third red monthly candle of 2026, with Ether under $2,000 and Solana near $80. Analysts cite roughly $2.3B of May spot-ETF outflows and the oil-driven macro risk-off, framing the move as macro-driven rather than a crypto-specific catalyst.",
+          "lean": "left",
+          "keyFraming": "Price tracker — Bitcoin's lowest open since April as Ether and Solana also slide.",
+          "summary": "Yahoo Finance reports Bitcoin fell below $70,000 on June 2 with an intraday low near $69,000, its lowest level since April, while Ether traded under $2,000 and Solana near $79. The slide came as spot bitcoin ETFs extended a record run of net outflows and Middle East risk-off weighed on crypto.",
           "sources": [
             {
-              "outlet": "Crypto Times",
-              "url": "https://www.cryptotimes.io/2026/06/01/crypto-market-today-bitcoin-opens-june-below-72k-after-sealing-its-third-red-monthly-candle-of-2026/",
-              "title": "Crypto Market Today: Bitcoin Opens June Below $72K After Sealing Its Third Red Monthly Candle of 2026",
-              "publishedAt": "2026-06-01T08:00:00Z",
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-june-2-2026-bitcoins-lowest-open-since-april-prices-falling-further-132451193.html",
+              "title": "Bitcoin and ethereum prices today, June 2, 2026: Bitcoin slides below $70,000",
+              "publishedAt": "2026-06-02T13:24:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Institutional flows, not retail panic, are now steering Bitcoin's direction.",
+          "summary": "BNN Bloomberg frames the selloff around institutional positioning, noting US spot bitcoin ETFs logged a 10th consecutive day of net outflows — the longest selling streak since their launch — and that Strategy's first bitcoin sale in nearly four years added to the pressure, deepening crypto's divergence from the record-setting stock rally.",
+          "sources": [
+            {
+              "outlet": "BNN Bloomberg",
+              "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/06/02/market-outlook-bitcoin-selloff-puts-focus-on-institutional-crypto-adoption/",
+              "title": "Market Outlook: Bitcoin selloff puts focus on institutional crypto adoption",
+              "publishedAt": "2026-06-02T15:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "social",
-          "keyFraming": "Crypto-native commentary fixates on whether sub-$72K BTC and $2,000 ETH mark capitulation or the start of a deeper leg down.",
-          "summary": "Market-data trackers show Solana near $80 (down on the week) as crypto-native traders parse ETF outflows, long liquidations and a Fear & Greed reading near 23 for signs of a bottom. The community framing centers on positioning and the psychological weight of round-number support against the broader macro risk-off.",
+          "keyFraming": "Crypto-native commentators debate whether deepening ETF outflows signal capitulation or a dip to buy.",
+          "summary": "crypto.news asks whether Bitcoin could slide toward $65,000 as ETF outflows deepen, capturing a crypto-community debate over whether the multi-week decline is nearing exhaustion or has further to run after the break below $70,000.",
           "sources": [
             {
-              "outlet": "CoinGecko",
-              "url": "https://www.coingecko.com/en/coins/solana",
-              "title": "Solana Price: SOL/USD Live Price Chart, Market Cap & News Today",
+              "outlet": "crypto.news",
+              "url": "https://crypto.news/will-bitcoin-price-fall-to-65k-next-as-etf-outflows-deepen/",
+              "title": "Will Bitcoin price fall to $65K next as ETF outflows deepen?",
               "publishedAt": "2026-06-02T10:00:00Z",
               "allSidesRating": "center"
             }
@@ -255,7 +269,7 @@
         }
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-02T11:09:58Z"
+      "updatedAt": "2026-06-02T23:02:04Z"
     },
     {
       "id": "us-stocks-record-june-open-nvidia-vs-oil-2026-06-01",
@@ -309,6 +323,67 @@
       ],
       "firstSeenAt": "2026-06-02T11:09:58Z",
       "updatedAt": "2026-06-02T17:10:19Z"
+    },
+    {
+      "id": "us-stocks-record-close-2026-06-02",
+      "headline": "S&P 500, Nasdaq and Dow all close at records as a chip and AI rally overpowers Iran oil risk",
+      "summary": "US equities notched fresh record closes Tuesday June 2: the S&P 500 rose to about 7,610 for a ninth straight gain, the Nasdaq edged to roughly 27,094 and the Dow added about 0.45% to 51,308. Chipmakers led — Marvell closed up about a third on Nvidia's CEO comments and HPE jumped about 19% on AI-server earnings — while Alphabet fell on an $80B stock-sale plan and Iran-Hormuz tensions capped gains.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "equities",
+        "sp500",
+        "nasdaq",
+        "records",
+        "marvell",
+        "hpe"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Mechanics — a chipmaker-led rally pushed the major indexes to fresh records despite an uneven session.",
+          "summary": "The Motley Fool reports the S&P 500 rose to about 7,610 for a ninth straight gain, the Nasdaq edged to roughly 27,094 and the Dow added about 0.45% to 51,308, all record closes. Marvell finished up about a third after Nvidia's CEO praised it and HPE jumped about 19% on AI-server earnings, while Alphabet slid on an $80B stock-sale plan.",
+          "sources": [
+            {
+              "outlet": "The Motley Fool",
+              "url": "https://www.fool.com/coverage/stock-market-today/2026/06/02/stock-market-today-june-2-chipmakers-drive-s-and-p-500-to-another-record-close/",
+              "title": "Stock Market Today, June 2: Chipmakers Drive S&P 500 to Another Record Close",
+              "publishedAt": "2026-06-02T21:22:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Records mask risk — a narrow AI trade is climbing a wall of US-Iran war worry.",
+          "summary": "Yahoo Finance frames the record run as investors weighing the AI boom against US-Iran tensions and the Hormuz war premium in oil, cautioning that leadership is concentrated in a handful of chip and AI-infrastructure names even as the headline indexes set fresh highs.",
+          "sources": [
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/economy/live/stock-market-today-tuesday-june-2-ai-231755175.html",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq build on records as investors eye AI boom, US-Iran tensions",
+              "publishedAt": "2026-06-02T23:17:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Retail traders cheer the Marvell, HPE and MicroStrategy momentum even as geopolitical risk lingers.",
+          "summary": "Stocktwits highlights the retail enthusiasm behind the record close, with chip and AI-infrastructure names like Marvell and HPE in focus as community sentiment shrugged off US-Iran uncertainty to push the indexes higher.",
+          "sources": [
+            {
+              "outlet": "Stocktwits",
+              "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-rise-to-record-highs-as-strong-tech-gains-outpower-us-iran-war-uncertainty-msft-uber-mrvl-hpe-mstr-stocks-in-focus/cZ00XX8ReDS",
+              "title": "S&P 500, Nasdaq, Dow Rise To Record Highs As Strong Tech Gains Outpower US-Iran War Uncertainty",
+              "publishedAt": "2026-06-02T22:08:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-02T23:02:04Z",
+      "updatedAt": "2026-06-02T23:02:04Z"
     }
   ]
 }

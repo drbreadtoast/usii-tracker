@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-02T17:10:19Z",
+  "lastUpdated": "2026-06-02T23:02:04Z",
   "stories": [
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
@@ -141,8 +141,8 @@
     },
     {
       "id": "nvidia-rtx-spark-pc-chip-computex-2026-06-01",
-      "headline": "Nvidia unveils RTX Spark Arm 'superchip' at Computex, entering the Windows PC market for the first time in over a decade",
-      "summary": "At his Computex 2026 keynote, Jensen Huang unveiled the RTX Spark Superchip — an Arm-based platform (up to 20 CPU cores, a Blackwell GPU with 6,144 CUDA cores, 128GB unified LPDDR5X memory and ~300 GB/s bandwidth on TSMC 3nm) that Nvidia pitches as turning Windows into an 'agentic AI OS.' It will power laptops from Dell, HP, Lenovo, Asus and MSI plus a Microsoft Surface Ultra, shipping fall 2026, and marks Nvidia's first consumer CPU in over a decade.",
+      "headline": "Nvidia's RTX Spark headlines Computex as Intel and AMD answer with new AI chips on day two in Taipei",
+      "summary": "Computex 2026 ran in Taipei with Nvidia's RTX Spark superchip for Windows AI PCs — paired with a Microsoft Surface Laptop Ultra — as the centerpiece of CEO Jensen Huang's bid to own every layer of the AI stack. On day two, Intel unveiled its Crescent Island AI GPU with up to 480GB of memory and new handheld chips, while AMD put its 2nm Venice EPYC into production and launched the Radeon RX 9070 GRE globally at $549.",
       "category": "ai-tech",
       "importance": 4,
       "tags": [
@@ -155,42 +155,49 @@
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Nvidia's first consumer CPU in over a decade is the biggest PC shake-up since Apple Silicon, challenging Intel, AMD, Qualcomm and Apple.",
-          "summary": "Tom's Hardware and TechRadar frame the RTX Spark superchip — an Arm CPU paired with a Blackwell GPU and up to 128GB unified memory — as Nvidia opening a new front against x86 and Apple's M-series, shipping this fall across laptops from Microsoft, Dell, HP, Asus, Lenovo and MSI. Nvidia shares rose about 6% while incumbent CPU makers sold off.",
+          "keyFraming": "Strategy frame — RTX Spark extends Nvidia from the data center into consumer Windows PCs.",
+          "summary": "CNBC reports Nvidia's RTX Spark superchip — paired with a Microsoft Surface Laptop Ultra — is CEO Jensen Huang's bid to own every layer of the AI stack, pushing the company into the Windows PC market for the first time in over a decade as it extends dominance from data-center accelerators to consumer silicon.",
           "sources": [
             {
-              "outlet": "Tom's Hardware",
-              "url": "https://www.tomshardware.com/tech-industry/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-superchip-assault-on-laptop-and-desktop-markets-intel-readies-xeon-6",
-              "title": "Computex 2026 Day Zero Wrap-Up: Nvidia launches RTX Spark Superchip assault on laptop and desktop markets",
-              "publishedAt": "2026-06-01T05:00:00Z",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+              "title": "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
+              "publishedAt": "2026-06-02T12:00:00Z",
               "allSidesRating": "center"
-            },
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Competitive lens — RTX Spark is a direct shot at Apple and Qualcomm AI-PC silicon as rivals counter.",
+          "summary": "TechRadar's keynote coverage frames RTX Spark as Nvidia taking on Apple, Intel and Qualcomm in AI PCs, while day-two announcements saw Intel unveil its Crescent Island AI GPU with up to 480GB of memory and AMD put its 2nm Venice EPYC into production and launch the Radeon RX 9070 GRE globally at $549.",
+          "sources": [
             {
               "outlet": "TechRadar",
-              "url": "https://www.techradar.com/computing/computing-components/watch-out-apple-nvidia-just-unveiled-its-rtx-spark-arm-superchip-to-take-on-the-m5-at-computex-2026",
-              "title": "Nvidia just unveiled its RTX Spark Arm 'superchip' to take on the M5 at Computex 2026",
-              "publishedAt": "2026-06-01T06:00:00Z",
+              "url": "https://www.techradar.com/news/live/nvidia-computex-2026",
+              "title": "Nvidia Computex 2026 keynote: RTX Spark announced to take on Apple, Intel, and Qualcomm",
+              "publishedAt": "2026-06-02T03:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "social",
-          "keyFraming": "Investor and enthusiast commentary parses the spec sheet and the instant repricing of winners and losers across the PC chip market.",
-          "summary": "The Motley Fool notes Nvidia and Arm stocks popping while Intel and AMD shares fell, reflecting a perceived structural threat to the roughly $200B PC chip market. Enthusiasts debate whether on-device agentic AI and gaming performance can justify a platform shift toward Arm-based Windows machines.",
+          "keyFraming": "Enthusiast-facing live coverage tracks reaction to the new wave of consumer AI hardware.",
+          "summary": "Gizmodo's live blog from Computex tracks the enthusiast and consumer reaction to the Nvidia, Intel and AMD launches, focusing on what the new AI-PC chips mean for buyers as the three chipmakers race to define the next generation of Windows and handheld hardware.",
           "sources": [
             {
-              "outlet": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/06/01/why-nvidia-arm-and-other-tech-stocks-popped-today/",
-              "title": "Why Nvidia, Arm, and Other Tech Stocks Popped Today",
-              "publishedAt": "2026-06-01T20:00:00Z",
-              "allSidesRating": "center"
+              "outlet": "Gizmodo",
+              "url": "https://gizmodo.com/live-updates-from-computex-2026-2000761697",
+              "title": "Live Updates From Computex 2026",
+              "publishedAt": "2026-06-02T16:00:00Z",
+              "allSidesRating": "lean-left"
             }
           ]
         }
       ],
       "firstSeenAt": "2026-06-01T23:01:53Z",
-      "updatedAt": "2026-06-02T11:09:58Z"
+      "updatedAt": "2026-06-02T23:02:04Z"
     },
     {
       "id": "marvell-surges-huang-trillion-2026-06-02",
