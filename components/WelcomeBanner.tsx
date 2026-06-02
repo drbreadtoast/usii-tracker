@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { openContact } from "@/lib/contact";
+import { openSurvey } from "@/lib/survey";
+import VoteBar from "./VoteBar";
 
 // Bump this key whenever the welcome message materially changes —
 // returning visitors will see the expanded banner once and can collapse again.
@@ -99,34 +101,24 @@ export default function WelcomeBanner() {
             A note from the developer
           </p>
           <p className="mt-1 text-sm leading-relaxed text-foreground">
-            Welcome to the new TheOSSreport. The site formerly known as the{" "}
-            <span className="font-semibold">US · Israel · Iran War Tracker</span>{" "}
-            has expanded into{" "}
-            <span className="font-semibold">US Local &amp; Foreign Affairs</span>{" "}
-            — multi-perspective coverage across politics, foreign affairs,
-            markets, AI &amp; tech, war, and underreported stories. This is
-            version 1 of the new site, so you may run into some bugs. I&apos;ll
-            be actively fixing, improving, and adding more. Feel free to report
-            a bug or send feedback.
+            Welcome to the new TheOSSreport — formerly the{" "}
+            <span className="font-semibold">US · Israel · Iran War Tracker</span>
+            , now expanded into{" "}
+            <span className="font-semibold">US Local &amp; Foreign Affairs</span>
+            . This site is for you, so take a second to{" "}
+            <span className="font-semibold">vote below</span>{" "}
+            and tell me what&apos;s working, what isn&apos;t, and what to bring
+            back. It&apos;s
+            version 1 — expect some bugs while I keep fixing, improving, and
+            adding more, including bringing back things from the previous
+            version.
           </p>
-          <div className="mt-3 rounded-md border-l-4 border-[color:var(--accent)] bg-[color:var(--accent)]/15 px-3 py-2">
-            <p className="text-xs font-bold uppercase tracking-wider text-[color:var(--accent)]">
-              Heads up — coming soon
-            </p>
-            <p className="mt-1 text-sm leading-relaxed text-foreground">
-              I heard your suggestions and am working on bringing back data from
-              the{" "}
-              <span className="font-semibold">
-                US · Israel · Iran War Tracker
-              </span>{" "}
-              — it will live in a dedicated page/section of the new site.
-            </p>
-          </div>
+          <VoteBar />
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <button
               type="button"
-              onClick={() => openContact("suggestion")}
-              className="inline-flex items-center gap-1.5 rounded-md bg-[color:var(--accent)] px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-background transition hover:opacity-90"
+              onClick={() => openSurvey()}
+              className="inline-flex items-center gap-1.5 rounded-md bg-amber-500 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-gray-900 transition hover:bg-amber-400"
             >
               <svg
                 aria-hidden
@@ -138,9 +130,9 @@ export default function WelcomeBanner() {
                 strokeLinejoin="round"
                 className="h-3.5 w-3.5"
               >
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
               </svg>
-              Send feedback
+              Submit feedback
             </button>
             <button
               type="button"

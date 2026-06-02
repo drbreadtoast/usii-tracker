@@ -10,6 +10,7 @@ import RefreshStrip from "@/components/RefreshStrip";
 import MarketTicker from "@/components/MarketTicker";
 import FreshBuildBanner from "@/components/FreshBuildBanner";
 import ContactModal from "@/components/ContactModal";
+import FeedbackSurveyModal from "@/components/FeedbackSurveyModal";
 import { getManifest } from "@/lib/content";
 
 const geistSans = Geist({
@@ -122,6 +123,7 @@ export default async function RootLayout({
         <Footer />
         <FreshBuildBanner />
         <ContactModal />
+        <FeedbackSurveyModal />
       </body>
     </html>
   );
