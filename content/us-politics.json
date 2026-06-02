@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-02T11:09:58Z",
+  "lastUpdated": "2026-06-02T17:10:19Z",
   "stories": [
     {
       "id": "iran-deal-trump-delay-2026-05-31",
@@ -131,7 +131,7 @@
         {
           "lean": "left",
           "keyFraming": "Ties FEMA's hollowing-out directly to Noem and Lewandowski as record-warm seas threaten an 'extremely active' season.",
-          "summary": "Left-leaning coverage links the workforce exodus and stalled grants to Noem and Lewandowski's management, citing a DHS Inspector General probe into contract handling. MSNBC and E&E News frame Cameron Hamilton's reinstatement as arriving too late to rescue the season.",
+          "summary": "Left-leaning coverage links the workforce exodus and stalled grants to Noem and Lewandowski's management, citing a DHS Inspector General probe into contract handling. MSNBC frames Cameron Hamilton's reinstatement as arriving too late to rescue the season.",
           "sources": [
             {
               "outlet": "MSNBC",
@@ -139,13 +139,6 @@
               "title": "As hurricane season begins, Trump's FEMA chief once again fails to inspire confidence",
               "publishedAt": "2026-05-31T13:00:00Z",
               "allSidesRating": "left"
-            },
-            {
-              "outlet": "E&E News",
-              "url": "https://www.eenews.net/articles/holding-our-breath-hurricane-season-is-here-and-fema-is-shorthanded/",
-              "title": "'Holding our breath': Hurricane season is here, and FEMA is shorthanded",
-              "publishedAt": "2026-05-30T15:00:00Z",
-              "allSidesRating": "center"
             }
           ]
         },
@@ -203,15 +196,8 @@
         {
           "lean": "center",
           "keyFraming": "Catalogs the withdrawals and Trump's pivot to a rally-style opening as half the lineup withdraws over politics.",
-          "summary": "Center reporting documents the cancellations and Trump's own headline plan. NBC News and CNN note he suggested 'Cancel it' before settling on his own appearance, with a separate White House ceremony being planned outside the Freedom 250 framework.",
+          "summary": "Center reporting documents the cancellations and Trump's own headline plan. NPR notes he suggested 'Cancel it' before settling on his own appearance, with a separate White House ceremony being planned outside the Freedom 250 framework.",
           "sources": [
-            {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/politics/donald-trump/trump-hold-rally-great-america-state-fair-several-artists-back-rcna347689",
-              "title": "Trump suggests canceling music performances at the 'Great American State Fair' after several artists back out",
-              "publishedAt": "2026-05-30T17:00:00Z",
-              "allSidesRating": "lean-left"
-            },
             {
               "outlet": "NPR",
               "url": "https://www.npr.org/2026/05/31/nx-s1-5841889/trump-america-250-state-fair-artists-rally",
@@ -244,13 +230,6 @@
           "summary": "Left-leaning outlets highlight Talarico's 57-point lead among moderates and 38-point lead among Black voters, plus 30% of Cornyn primary voters open to crossing over. Kentucky Gov. Andy Beshear used a Sunday Meet the Press appearance to argue Texas is genuinely competitive, citing Paxton's 2023 state-House impeachment as uniquely disqualifying.",
           "sources": [
             {
-              "outlet": "KXAN",
-              "url": "https://www.kxan.com/news/texas-politics/talarico-leads-paxton-by-3-points-in-texas-senate-race-post-runoff-poll/",
-              "title": "James Talarico leads Ken Paxton in Texas Senate race poll after GOP runoff",
-              "publishedAt": "2026-05-30T14:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
               "outlet": "NBC News",
               "url": "https://www.nbcnews.com/politics/2026-election/andy-beshear-texas-in-play-ken-paxton-senate-gop-primary-rcna347751",
               "title": "Andy Beshear says 'Texas is in play' for Democrats after Ken Paxton's Senate GOP primary win",
@@ -264,13 +243,6 @@
           "keyFraming": "Cook Political Report shift to Lean R signals real competitiveness, but Texas Republicans have swept every statewide race since 1996.",
           "summary": "Cook moved the race from Likely R to Lean R after Paxton's 63.8% runoff drubbing of Cornyn. Center analysts describe a populist-vs-populist contest where Paxton must consolidate Republican voters and Talarico must convert moderate Republicans tired of corruption.",
           "sources": [
-            {
-              "outlet": "FOX 7 Austin",
-              "url": "https://www.fox7austin.com/election/talarico-leads-paxton-first-post-runoff-poll-senate-race",
-              "title": "Talarico leads Paxton in first post-runoff poll of Senate race",
-              "publishedAt": "2026-05-30T16:00:00Z",
-              "allSidesRating": "right"
-            },
             {
               "outlet": "CNN",
               "url": "https://www.cnn.com/2026/05/31/politics/paxton-talarico-texas-senate-race-analysis",
@@ -837,7 +809,141 @@
         }
       ],
       "firstSeenAt": "2026-06-02T05:10:26Z",
-      "updatedAt": "2026-06-02T11:09:58Z"
+      "updatedAt": "2026-06-02T17:10:19Z"
+    },
+    {
+      "id": "trump-ai-executive-order-2026-06-02",
+      "headline": "Trump signs scaled-back AI order seeking voluntary pre-release review of frontier models",
+      "summary": "President Trump signed an executive order June 2 creating a voluntary framework for AI companies to submit their most powerful new models for federal review up to 30 days before public release, and directing the Pentagon, Treasury and CISA to harden critical-infrastructure cybersecurity. The order explicitly bars mandatory licensing or pre-clearance and is narrower than a stricter draft he shelved in late May over China-competitiveness concerns.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": [
+        "trump",
+        "executive-order",
+        "artificial-intelligence",
+        "tech-policy",
+        "cybersecurity"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A voluntary 30-day review mechanism and a climbdown from a stricter earlier draft.",
+          "summary": "CNBC and CBS News report the order asks leading AI firms to voluntarily share frontier models with the government before launch and tasks federal agencies with shoring up cyber defenses. It was narrowed from a 90-day-review draft Trump shelved after warning tougher rules could hurt US competitiveness against China, and it bars any mandatory pre-clearance.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html",
+              "title": "Trump signs AI executive order asking companies to give government early access to models",
+              "publishedAt": "2026-06-02T15:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/trump-ai-executive-order/",
+              "title": "Trump signs AI executive order to give government early look at new models",
+              "publishedAt": "2026-06-02T16:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "A no-teeth, voluntary order signed quietly after industry and competitiveness pushback.",
+          "summary": "NBC News and the Washington Post stress the order was signed without the usual ceremony and relies entirely on voluntary cooperation from Anthropic, OpenAI and Google, with no mandatory review — a retreat from the stricter version Trump canceled. Critics see a light-touch approach that favors industry over enforceable safety guardrails.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/tech/tech-news/trump-ai-executive-order-rcna348072",
+              "title": "Trump signs order seeking early access to powerful AI models before their release",
+              "publishedAt": "2026-06-02T15:30:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "Washington Post",
+              "url": "https://www.washingtonpost.com/technology/2026/06/02/trump-signs-order-designed-give-government-early-look-powerful-ai-models/",
+              "title": "Trump signs order designed to give government early look at powerful AI models",
+              "publishedAt": "2026-06-02T16:30:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Pro-innovation framing: the order avoids heavy mandates to keep US AI ahead of China.",
+          "summary": "Axios frames the order as Trump dodging binding AI rules for now, deliberately avoiding a mandatory licensing or pre-clearance regime and casting the voluntary 30-day review and cybersecurity directives as protecting American AI leadership against Chinese rivals while still vetting frontier models for safety.",
+          "sources": [
+            {
+              "outlet": "Axios",
+              "url": "https://www.axios.com/2026/06/02/trump-signs-new-ai-executive-order",
+              "title": "Trump dodges AI rules for now with latest executive order",
+              "publishedAt": "2026-06-02T14:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "The White House frames the action as promoting advanced AI innovation and security.",
+          "summary": "The presidential action, titled 'Promoting Advanced Artificial Intelligence Innovation and Security,' establishes a voluntary federal review pathway for the most capable new models and directs agencies including the Defense Department, Treasury and CISA to strengthen protection of critical infrastructure against AI-enabled threats.",
+          "sources": [
+            {
+              "outlet": "The White House",
+              "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+              "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
+              "publishedAt": "2026-06-02T17:00:00Z",
+              "allSidesRating": null
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-02T17:10:19Z",
+      "updatedAt": "2026-06-02T17:10:19Z"
+    },
+    {
+      "id": "kathleen-lane-montana-judge-2026-06-02",
+      "headline": "Senate advances Trump's Montana judicial pick Kathleen Lane despite an ABA 'not qualified' rating",
+      "summary": "The Senate moved toward confirming Kathleen 'Katie' Lane as a US District Judge for Montana after advancing her on a near-party-line 50-44 vote June 1. Lane, an RNC lawyer and former Montana deputy solicitor general, is the first Trump second-term judicial nominee the American Bar Association rated 'not qualified,' citing insufficient trial experience. Democrats led by Sen. Dick Durbin opposed the lifetime appointment.",
+      "category": "us-politics",
+      "importance": 3,
+      "tags": [
+        "senate",
+        "judiciary",
+        "judicial-nominations",
+        "trump",
+        "montana"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A contested lifetime appointment advances on party lines over an ABA 'unqualified' rating.",
+          "summary": "Bloomberg Law reports Lane advanced 50-44 toward a final confirmation vote on the Senate's early-June calendar. The ABA found she lacked the customary years of experience and had never served as lead counsel at trial; she cleared the Judiciary Committee on a party-line vote, drawing sharp Democratic objections.",
+          "sources": [
+            {
+              "outlet": "Bloomberg Law",
+              "url": "https://news.bloomberglaw.com/us-law-week/trump-judicial-pick-aba-rated-unqualified-advances-in-senate",
+              "title": "Trump Judicial Pick ABA Rated Unqualified Advances in Senate",
+              "publishedAt": "2026-06-01T22:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "The Senate floor calendar formalizes the contested confirmation vote.",
+          "summary": "The US Senate's daily floor schedule lists action on the Lane nomination, reflecting Republican leadership's push to keep confirming district-court picks at pace. Procedurally the cloture vote cleared 50-44, setting up final confirmation despite the unanimous Democratic opposition led by Judiciary ranking member Dick Durbin.",
+          "sources": [
+            {
+              "outlet": "U.S. Senate Periodical Press Gallery",
+              "url": "https://www.dailypress.senate.gov/tuesday-june-2-2026/",
+              "title": "Tuesday, June 2, 2026 — Senate Floor Schedule",
+              "publishedAt": "2026-06-02T12:00:00Z",
+              "allSidesRating": null
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-02T17:10:19Z",
+      "updatedAt": "2026-06-02T17:10:19Z"
     }
   ]
 }
