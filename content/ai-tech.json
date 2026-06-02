@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-02T05:10:26Z",
+  "lastUpdated": "2026-06-02T11:09:58Z",
   "stories": [
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
@@ -16,7 +16,7 @@
         "china"
       ],
       "firstSeenAt": "2026-05-31T01:00:00Z",
-      "updatedAt": "2026-06-01T23:01:53Z",
+      "updatedAt": "2026-06-02T11:09:58Z",
       "perspectives": [
         {
           "lean": "center",
@@ -45,11 +45,11 @@
           "summary": "CFR analysis argues the January BIS rule that lets some direct exports to mainland Chinese entities proceed under conditions undermines the May 31 closure of the indirect route. Without aligning Netherlands, Japan and Korea on the same enforcement posture, transshipment risk simply migrates.",
           "sources": [
             {
-              "outlet": "Council on Foreign Relations",
-              "url": "https://www.cfr.org/articles/new-ai-chip-export-policy-china-strategically-incoherent-and-unenforceable",
-              "title": "The New AI Chip Export Policy to China: Strategically Incoherent and Unenforceable",
-              "publishedAt": "2026-05-30T12:00:00Z",
-              "allSidesRating": "center"
+              "outlet": "[your]NEWS",
+              "url": "https://yournews.com/2026/06/01/7019616/u-s-moves-to-tighten-ai-chip-export-controls-closing-potential/",
+              "title": "U.S. Moves to Tighten AI Chip Export Controls, Closing Potential Pathway to Chinese Firms",
+              "publishedAt": "2026-06-01T12:00:00Z",
+              "allSidesRating": "lean-right"
             }
           ]
         }
@@ -155,35 +155,42 @@
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Nvidia's first consumer CPU in over a decade challenges Intel, AMD, Qualcomm and Apple across the emerging AI-PC category.",
-          "summary": "CNBC frames RTX Spark as Nvidia's push into client computing, pairing Arm CPUs with Blackwell graphics to run on-device agentic AI and high-end gaming. Broad OEM backing from Dell, HP and Lenovo plus a Microsoft Surface design signals a serious assault on the Windows-on-Arm market; the launch helped lift Nvidia shares and the broader tech tape to records on June 1.",
+          "keyFraming": "Nvidia's first consumer CPU in over a decade is the biggest PC shake-up since Apple Silicon, challenging Intel, AMD, Qualcomm and Apple.",
+          "summary": "Tom's Hardware and TechRadar frame the RTX Spark superchip — an Arm CPU paired with a Blackwell GPU and up to 128GB unified memory — as Nvidia opening a new front against x86 and Apple's M-series, shipping this fall across laptops from Microsoft, Dell, HP, Asus, Lenovo and MSI. Nvidia shares rose about 6% while incumbent CPU makers sold off.",
           "sources": [
             {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
-              "title": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP",
-              "publishedAt": "2026-05-31T16:00:00Z",
+              "outlet": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-superchip-assault-on-laptop-and-desktop-markets-intel-readies-xeon-6",
+              "title": "Computex 2026 Day Zero Wrap-Up: Nvidia launches RTX Spark Superchip assault on laptop and desktop markets",
+              "publishedAt": "2026-06-01T05:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "TechRadar",
+              "url": "https://www.techradar.com/computing/computing-components/watch-out-apple-nvidia-just-unveiled-its-rtx-spark-arm-superchip-to-take-on-the-m5-at-computex-2026",
+              "title": "Nvidia just unveiled its RTX Spark Arm 'superchip' to take on the M5 at Computex 2026",
+              "publishedAt": "2026-06-01T06:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "social",
-          "keyFraming": "Enthusiast coverage parses the spec sheet — Blackwell CUDA cores, 128GB unified memory and DLSS 4.5 — and debates real-world performance versus Apple silicon and AMD.",
-          "summary": "Tom's Hardware details the RTX Spark's Arm CPU, Blackwell GPU with 6,144 CUDA cores and 128GB unified memory, framing it as a bid to turn Windows into an 'agentic AI OS.' The enthusiast community focuses on whether on-device AI and gaming performance can justify a platform shift, and how Nvidia's design stacks up against Apple's M-series and AMD's mobile lineup.",
+          "keyFraming": "Investor and enthusiast commentary parses the spec sheet and the instant repricing of winners and losers across the PC chip market.",
+          "summary": "The Motley Fool notes Nvidia and Arm stocks popping while Intel and AMD shares fell, reflecting a perceived structural threat to the roughly $200B PC chip market. Enthusiasts debate whether on-device agentic AI and gaming performance can justify a platform shift toward Arm-based Windows machines.",
           "sources": [
             {
-              "outlet": "Tom's Hardware",
-              "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
-              "title": "Nvidia unveils RTX Spark Superchip for laptops and desktop PCs at Computex 2026",
-              "publishedAt": "2026-06-01T05:00:00Z",
+              "outlet": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/06/01/why-nvidia-arm-and-other-tech-stocks-popped-today/",
+              "title": "Why Nvidia, Arm, and Other Tech Stocks Popped Today",
+              "publishedAt": "2026-06-01T20:00:00Z",
               "allSidesRating": "center"
             }
           ]
         }
       ],
       "firstSeenAt": "2026-06-01T23:01:53Z",
-      "updatedAt": "2026-06-01T23:01:53Z"
+      "updatedAt": "2026-06-02T11:09:58Z"
     }
   ]
 }

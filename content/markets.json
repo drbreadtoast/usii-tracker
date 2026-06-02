@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-02T05:10:26Z",
+  "lastUpdated": "2026-06-02T11:09:58Z",
   "stories": [
     {
       "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
@@ -160,7 +160,7 @@
     {
       "id": "oil-spikes-iran-halts-talks-hormuz-2026-06-01",
       "headline": "Oil jumps and US stocks slip after Iran halts US talks and threatens to fully close the Strait of Hormuz",
-      "summary": "Crude surged on June 1 after Iranian state media said Tehran halted mediated messaging with Washington and threatened to fully block the Strait of Hormuz: Brent jumped more than 6% toward $97 and WTI over 7% above $94 intraday. Prices pared gains after Trump told CNBC he 'doesn't care' if talks end but later said Israel and Hezbollah agreed to halt attacks; Brent settled near $96 and WTI near $90-92. Equities shrugged off the shock to close at records on tech strength.",
+      "summary": "Crude held near multi-month highs on June 2 — Brent around $94-95 and WTI near $90-92 — after a roughly 7% Monday surge driven by Iranian reports that Tehran suspended US communications and could fully close the Strait of Hormuz. Prices remain well above pre-conflict levels but below the late-April peak, whipsawing on each diplomatic headline.",
       "category": "markets",
       "importance": 4,
       "tags": [
@@ -174,41 +174,34 @@
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Supply-shock mechanics: a renewed Hormuz threat puts roughly a fifth of seaborne crude at risk, reviving inflation and rate worries.",
-          "summary": "CNBC and Yahoo Finance report US crude jumped more than 6% intraday on the report that Iran would halt talks and move to close Hormuz, with Brent up around 5%. Coverage frames geopolitics as overriding May's record equity rally; traders re-priced Fed expectations as the conflict's energy-price channel reasserted itself, with safe-haven gold and the dollar firming.",
+          "keyFraming": "Supply-disruption risk dominates: Hormuz carries roughly a fifth of seaborne oil, so closure threats alone move prices.",
+          "summary": "CNBC and market-data desks emphasize the physical-supply stakes of a Hormuz shutdown after Iran suspended US talks, framing the spike as a genuine disruption premium. Trading data showed Brent near $94-95 on June 2 after Monday's surge, with prices reversing on every ceasefire or escalation headline.",
           "sources": [
             {
               "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html",
-              "title": "U.S. oil jumps more than 6% on report Iran will halt talks with U.S. and completely block Hormuz",
-              "publishedAt": "2026-06-01T12:00:00Z",
+              "url": "https://www.cnbc.com/2026/06/01/iran-us-negotiations-strait-of-hormuz.html",
+              "title": "Iran stops negotiations with U.S., vows to 'completely' block Strait of Hormuz: State media",
+              "publishedAt": "2026-06-01T14:00:00Z",
               "allSidesRating": "center"
             },
             {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-flat-225422503.html",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges",
-              "publishedAt": "2026-06-01T13:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html",
-              "title": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike",
-              "publishedAt": "2026-06-01T20:30:00Z",
+              "outlet": "Trading Economics",
+              "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+              "title": "Brent crude oil - Price - Chart - Historical Data - News",
+              "publishedAt": "2026-06-02T10:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "Markets stay resilient — tech strength from Computex cushions the energy hit, and the administration signals the Iran deal may still hold.",
-          "summary": "TheStreet's market blog notes that after May's record-setting run, US futures wavered rather than tumbled, with Computex-driven tech optimism offsetting energy and small-cap weakness. The lean-right read emphasizes Trump's confidence that the situation 'will all work out' and treats the oil spike as a geopolitical premium rather than a fundamental shift in the disinflation trajectory.",
+          "keyFraming": "Markets stay resilient — tech strength cushions the energy hit and the administration signals the Iran deal may still hold.",
+          "summary": "TheStreet's market blog notes that after May's record-setting run, US equities wavered rather than tumbled even as crude jumped, with tech optimism offsetting the energy shock. The lean-right read treats the oil spike as a geopolitical premium rather than a fundamental break in the disinflation trajectory.",
           "sources": [
             {
               "outlet": "TheStreet",
               "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
-              "title": "Stock Market Today (June 1, 2026): Nasdaq Futures Rise After May's Record-Setting Run",
+              "title": "Stock Market Today (June 1, 2026): Nasdaq, S&P 500 as tech, energy bolster indexes",
               "publishedAt": "2026-06-01T11:30:00Z",
               "allSidesRating": "center"
             }
@@ -216,12 +209,12 @@
         }
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-02T05:10:26Z"
+      "updatedAt": "2026-06-02T11:09:58Z"
     },
     {
       "id": "crypto-slides-btc-below-74k-eth-2k-2026-06-01",
       "headline": "Bitcoin slips below ~$74,000 and Ether tests $2,000 as crypto extends a multi-week decline into June",
-      "summary": "Bitcoin traded below about $74,000, Ether near the $2,000 psychological level and Solana around $81 on June 1 as the oil-and-inflation risk-off and rising rate-hike odds pressured risk assets. The slide extends a roughly three-week decline and follows record US spot-Bitcoin ETF outflows, even as the CFTC's recent green light for perpetual futures expands the regulated US crypto rail.",
+      "summary": "Bitcoin opened June below about $72,000 — its weakest level of 2026 — and Ether broke under the $2,000 support to roughly $1,970, with Solana near $80, as record spot-ETF outflows and an oil-driven risk-off deepened a multi-week crypto decline. The slide followed May's third straight red monthly candle even as the CFTC's recent green light for perpetual futures expanded the regulated US crypto rail.",
       "category": "markets",
       "importance": 3,
       "tags": [
@@ -235,34 +228,87 @@
         {
           "lean": "center",
           "keyFraming": "Crypto is trading as a high-beta risk asset, falling alongside equities as the inflation and rate-hike scare deepens.",
-          "summary": "FXStreet's Asian-session wrap reports the three-week decline continued, with Ether's drop toward $2,000 triggering loss realization and Bitcoin and Solana also lower. Analysts frame the move as macro-driven — the oil shock and revived Fed-hike odds sapping appetite for risk — rather than a crypto-specific catalyst.",
+          "summary": "Crypto Times reports Bitcoin opening June below $72,000 after sealing its third red monthly candle of 2026, with Ether under $2,000 and Solana near $80. Analysts cite roughly $2.3B of May spot-ETF outflows and the oil-driven macro risk-off, framing the move as macro-driven rather than a crypto-specific catalyst.",
           "sources": [
             {
-              "outlet": "FXStreet",
-              "url": "https://www.fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-solana-bitcoin-ethereum-asian-wrap-01-june-202606010526",
-              "title": "Cryptocurrencies Price Prediction: Solana, Bitcoin & Ethereum – Asian Wrap 01 June",
-              "publishedAt": "2026-06-01T05:26:00Z",
+              "outlet": "Crypto Times",
+              "url": "https://www.cryptotimes.io/2026/06/01/crypto-market-today-bitcoin-opens-june-below-72k-after-sealing-its-third-red-monthly-candle-of-2026/",
+              "title": "Crypto Market Today: Bitcoin Opens June Below $72K After Sealing Its Third Red Monthly Candle of 2026",
+              "publishedAt": "2026-06-01T08:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "social",
-          "keyFraming": "Crypto-native commentary fixates on whether $2,000 ETH and sub-$74K BTC mark capitulation or the start of a deeper leg down.",
-          "summary": "Crypto-native outlets debate whether key support levels will hold, parsing on-chain flows and ETF outflows for signs of a bottom. The community framing centers on positioning and sentiment — liquidations, leverage and the psychological weight of round numbers — against the backdrop of the broader macro risk-off.",
+          "keyFraming": "Crypto-native commentary fixates on whether sub-$72K BTC and $2,000 ETH mark capitulation or the start of a deeper leg down.",
+          "summary": "Market-data trackers show Solana near $80 (down on the week) as crypto-native traders parse ETF outflows, long liquidations and a Fear & Greed reading near 23 for signs of a bottom. The community framing centers on positioning and the psychological weight of round-number support against the broader macro risk-off.",
           "sources": [
             {
-              "outlet": "Cryptonews",
-              "url": "https://cryptonews.net/news/analytics/32945345/",
-              "title": "Solana Price Prediction June 2026",
-              "publishedAt": "2026-06-01T08:00:00Z",
+              "outlet": "CoinGecko",
+              "url": "https://www.coingecko.com/en/coins/solana",
+              "title": "Solana Price: SOL/USD Live Price Chart, Market Cap & News Today",
+              "publishedAt": "2026-06-02T10:00:00Z",
               "allSidesRating": "center"
             }
           ]
         }
       ],
       "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-01T14:05:35Z"
+      "updatedAt": "2026-06-02T11:09:58Z"
+    },
+    {
+      "id": "us-stocks-record-june-open-nvidia-vs-oil-2026-06-01",
+      "headline": "S&P 500, Nasdaq and Dow all close at records to open June as a Nvidia rally overpowers the oil spike",
+      "summary": "US equities opened June at record highs on June 1 — the S&P 500, Nasdaq and Dow all closing at fresh peaks — as a 6%-plus Nvidia surge on its RTX Spark chip launch outweighed a Hormuz-driven jump in crude. Megacap tech leadership extended May's record run even as renewed rate-hike chatter and the energy shock weighed on small caps.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "equities",
+        "sp500",
+        "nasdaq",
+        "nvidia",
+        "records"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Megacap tech strength is insulating the indexes from the energy and inflation shock.",
+          "summary": "CNBC and TheStreet frame the June 1 session as tech — led by a Nvidia surge on its RTX Spark launch — overpowering an oil spike, with all three major indexes notching fresh record closes to start the month despite rising rate-hike chatter.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html",
+              "title": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike",
+              "publishedAt": "2026-06-01T20:30:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
+              "title": "Stock Market Today (June 1, 2026): Nasdaq, S&P 500 as tech, energy bolster indexes",
+              "publishedAt": "2026-06-01T11:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "The records came partly on renewed US-Iran de-escalation optimism, not chips alone.",
+          "summary": "Yahoo Finance attributes the record close to both Nvidia's surge and a return of US-Iran ceasefire optimism, a more diplomacy-driven read on the same tape that cautions the rally rests on fragile geopolitical assumptions.",
+          "sources": [
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-dow-sp-nasdaq-waver-225422932.html",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns",
+              "publishedAt": "2026-06-01T21:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-02T11:09:58Z",
+      "updatedAt": "2026-06-02T11:09:58Z"
     }
   ]
 }

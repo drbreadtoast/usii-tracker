@@ -1,6 +1,6 @@
 {
   "sectionId": "foreign",
-  "lastUpdated": "2026-06-02T05:10:26Z",
+  "lastUpdated": "2026-06-02T11:09:58Z",
   "stories": [
     {
       "id": "iran-us-mou-hormuz-stalled-2026-05-31",
@@ -114,12 +114,12 @@
         "latin-america"
       ],
       "firstSeenAt": "2026-05-31T22:00:00Z",
-      "updatedAt": "2026-06-02T05:10:26Z",
+      "updatedAt": "2026-06-02T11:09:58Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Vote tally and turnout details set up a June 21 runoff with starkly different US-relations implications.",
-          "summary": "CNN, CBS and TIME document the vote count and stakes and note that President Petro publicly cast doubt on results showing his favored successor, Cepeda, in second. A de la Espriella win would align Bogotá with Washington's right-populist axis, while a Cepeda win would extend Petro-era leftism heading into the June 21 runoff.",
+          "keyFraming": "A polarized June 21 runoff between starkly different candidates in a country weary of violence could reset US-Colombia ties.",
+          "summary": "CNN reports the May 31 first round sent far-right lawyer Abelardo de la Espriella (~43.7%) and leftist senator Iván Cepeda (~40.9%) to a June 21 runoff, neither clearing 50%. Coverage frames the security-vs-negotiation divide and the stakes for relations with Washington after Petro-era friction.",
           "sources": [
             {
               "outlet": "CNN",
@@ -127,52 +127,93 @@
               "title": "Colombian presidency goes to runoff election that could redefine relations with the US",
               "publishedAt": "2026-05-31T23:00:00Z",
               "allSidesRating": "lean-left"
-            },
-            {
-              "outlet": "TIME",
-              "url": "https://time.com/article/2026/06/01/colombia-elections-explainer-abelardo-de-la-espriella-ivan-cepeda-runoff/",
-              "title": "Colombia Presidential Election Heads to Run-Off: What to Know",
-              "publishedAt": "2026-06-01T14:00:00Z",
-              "allSidesRating": "lean-left"
-            },
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/colombia-presidential-election-ivan-cepeda-abelardo-de-la-espriella-paloma-valencia/",
-              "title": "Colombians, weary of violence, send strikingly different candidates to runoff in high-stakes election",
-              "publishedAt": "2026-05-31T22:30:00Z",
-              "allSidesRating": "center"
             }
           ]
         },
         {
-          "lean": "foreign-western",
-          "keyFraming": "European framing labels de la Espriella explicitly 'hard-right populist' and focuses on the security mood that lifted him.",
-          "summary": "France 24 characterizes de la Espriella's first-round win as a hard-right populist victory powered by the security crisis under Petro. Coverage emphasizes the runoff as a continental inflection point given Colombia's role as a US ally in Latin America.",
+          "lean": "right",
+          "keyFraming": "De la Espriella is the runoff favorite, strong among the South Florida diaspora, on a hardline security mandate.",
+          "summary": "WLRN frames de la Espriella's first-round lead as a backlash against the left, highlighting his support among Colombian voters in South Florida and his 'peace imposed by force of arms' security stance heading into the runoff against Cepeda.",
           "sources": [
             {
-              "outlet": "France 24",
-              "url": "https://www.france24.com/en/americas/20260531-hard-right-populist-tops-colombia-vote-faces-leftist-in-runoff",
-              "title": "Hard-right populist tops Colombia vote, faces leftist in runoff",
-              "publishedAt": "2026-05-31T23:30:00Z",
+              "outlet": "WLRN",
+              "url": "https://www.wlrn.org/americas/2026-06-01/de-la-espriella-colombia-presidential-runoff-election-florida",
+              "title": "Right-winger De la Espriella is Colombia's presidential runoff favorite — especially in South Florida",
+              "publishedAt": "2026-06-01T12:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "foreign-global-south",
-          "keyFraming": "Latin American coverage emphasizes the 'new communism' framing by Democratic Centre's Valencia and de la Espriella's open call to Washington.",
-          "summary": "Latin Times and regional outlets capture the local right's framing — Valencia's endorsement of de la Espriella with anti-Cepeda 'new communism' messaging — and the candidate's explicit appeal to Washington to back the runoff. The angle is hemispheric realignment under Trump.",
+          "keyFraming": "Regional coverage frames the runoff around two opposed foreign-policy visions: continental integration versus Washington alignment.",
+          "summary": "Al Jazeera reports Cepeda and de la Espriella advancing to the runoff and centers the candidates' contrasting projects — Cepeda's independent foreign policy and Latin American integration against de la Espriella's closer US alignment — as a continuity-or-rupture choice with Petro's project.",
           "sources": [
             {
-              "outlet": "Latin Times",
-              "url": "https://www.latintimes.com/colombias-presidential-election-goes-runoff-de-la-espriella-leads-597676",
-              "title": "Colombia's Presidential Election Goes to a Runoff: De la Espriella Leads",
-              "publishedAt": "2026-05-31T22:00:00Z",
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/31/cepeda-de-la-espriella-advance-in-colombias-presidential-election",
+              "title": "Cepeda, de la Espriella advance in Colombia's presidential election",
+              "publishedAt": "2026-05-31T20:00:00Z",
               "allSidesRating": "center"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "shangri-la-china-us-taiwan-2026-06-02",
+      "headline": "China holds 'red line' on Taiwan as the US softens its tone at the Shangri-La Dialogue",
+      "summary": "At the 2026 Shangri-La Dialogue in Singapore, China reiterated that Taiwan is its 'red line,' while US Defense Secretary Pete Hegseth notably downplayed Taiwan and softened the confrontational rhetoric of a year earlier. Analysts read the shift as a recalibration of US Indo-Pacific posture, while Chinese state media cast it as vindication.",
+      "category": "foreign",
+      "importance": 3,
+      "tags": [
+        "china",
+        "taiwan",
+        "shangri-la",
+        "indo-pacific",
+        "hegseth"
+      ],
+      "perspectives": [
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Western and regional analysts read Hegseth's softer Taiwan tone as a notable shift from 2025's deterrence messaging.",
+          "summary": "The South China Morning Post reports China dialing down its rhetoric even as regional risks persist, and frames Hegseth's comments as a step back from the harder line Washington struck at the 2025 dialogue. Coverage parses the implications for US Asia policy and allied expectations.",
+          "sources": [
+            {
+              "outlet": "South China Morning Post",
+              "url": "https://www.scmp.com/news/china/military/article/3355425/china-dials-down-rhetoric-regional-risks-persist-shangri-la-dialogue",
+              "title": "China dials down rhetoric but regional risks persist at Shangri-La Dialogue",
+              "publishedAt": "2026-05-31T10:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Chinese state media frames the dialogue as the US 'lowering its voice' on Taiwan and restates that the Taiwan question is an internal red line.",
+          "summary": "Global Times and CGTN cast the dialogue as vindication — Washington softening on Taiwan Strait affairs — while restating that 'Taiwan separatist forces and Taiwan Strait peace cannot accommodate each other.' The framing presents Beijing as the steady party setting the terms of regional security.",
+          "sources": [
+            {
+              "outlet": "Global Times",
+              "url": "https://www.globaltimes.cn/page/202605/1362329.shtml",
+              "title": "A shift at Shangri-La Dialogue: US lowers its voice on Taiwan Straits affairs",
+              "publishedAt": "2026-05-31T12:00:00Z",
+              "allSidesRating": "right",
+              "isStateMedia": true
+            },
+            {
+              "outlet": "CGTN",
+              "url": "https://news.cgtn.com/news/2026-05-31/Shangri-La-Dialogue-2026-What-key-messages-has-China-sent--1NACM80opeU/p.html",
+              "title": "Shangri-La Dialogue 2026: What key messages has China sent?",
+              "publishedAt": "2026-05-31T13:00:00Z",
+              "allSidesRating": "right",
+              "isStateMedia": true
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-02T11:09:58Z",
+      "updatedAt": "2026-06-02T11:09:58Z"
     }
   ]
 }
