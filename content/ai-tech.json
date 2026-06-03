@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-03T17:10:32Z",
+  "lastUpdated": "2026-06-03T23:01:39Z",
   "stories": [
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
@@ -279,6 +279,59 @@
       ],
       "firstSeenAt": "2026-06-03T17:10:32Z",
       "updatedAt": "2026-06-03T17:10:32Z"
+    },
+    {
+      "id": "anthropic-confidential-ipo-filing-2026-06-01",
+      "headline": "Anthropic confidentially files draft IPO paperwork, setting up a potential trillion-dollar AI debut",
+      "summary": "Anthropic confidentially submitted a draft S-1 to the SEC on June 1, days after a $65 billion Series H closed at a roughly $965 billion post-money valuation. Reports point to a targeted October 2026 listing that could exceed $1 trillion, which would make it the highest-valued AI IPO in history, opening a public-market race with OpenAI. Anthropic cautioned that the offering depends on SEC review and market conditions.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "anthropic",
+        "ipo",
+        "sec",
+        "valuation",
+        "openai"
+      ],
+      "firstSeenAt": "2026-06-03T23:01:39Z",
+      "updatedAt": "2026-06-03T23:01:39Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "The AI-valuation debate meets Wall Street: a confidential S-1 forces public scrutiny of whether near-trillion-dollar AI valuations rest on durable revenue.",
+          "summary": "CNBC reported the confidential filing mechanics and the gap between a roughly $965 billion private valuation and a reported revenue run-rate that has climbed steeply over the past year. Anthropic confirmed the submission on its own site, framing it as a first step toward a potential landmark listing rather than a committed offering.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+              "title": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
+              "publishedAt": "2026-06-01T16:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Anthropic",
+              "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+              "title": "Anthropic confidentially submits draft S-1 to the SEC",
+              "publishedAt": "2026-06-01T14:00:00Z",
+              "allSidesRating": null
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "A landmark test of public appetite for AI: coverage centers the concentration of AI power and whether retail investors should chase a near-trillion-dollar giant.",
+          "summary": "NPR emphasized the societal stakes and bubble risk of the largest-ever AI listing, situating Anthropic's move within a broader question about how much of the economy is being reorganized around a handful of richly valued AI labs racing one another to the public markets.",
+          "sources": [
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large",
+              "title": "AI giant Anthropic prepares to sell stock to the public, files preliminary IPO paperwork",
+              "publishedAt": "2026-06-01T18:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
