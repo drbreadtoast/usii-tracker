@@ -1,318 +1,245 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-03T11:09:56Z",
+  "lastUpdated": "2026-06-03T17:10:32Z",
   "stories": [
     {
-      "id": "iowa-gop-governor-primary-upset-2026-06-03",
-      "headline": "Trump-backed Feenstra loses Iowa GOP governor primary to MAHA-aligned outsider Zach Lahn",
-      "summary": "Businessman and farmer Zach Lahn narrowly defeated Rep. Randy Feenstra in Iowa's June 2 Republican gubernatorial primary, roughly 37.8% to 37% with nearly all ballots counted, despite Trump's last-minute endorsement of Feenstra. Lahn, backed by the 'Make America Healthy Again' movement and former Rep. Steve King, is the first Trump-endorsed gubernatorial candidate to lose a primary this cycle. He faces Democrat Rob Sand in November.",
-      "category": "us-politics",
+      "id": "iran-us-mou-hormuz-stalled-2026-05-31",
+      "headline": "Iran suspends US-mediated talks over Israeli strikes in Lebanon and vows to fully close Strait of Hormuz",
+      "summary": "Iranian state media said on June 1 that Tehran suspended its mediated exchanges with Washington over Israel's operations in Lebanon, with Foreign Minister Araghchi vowing to pursue full closure of the Strait of Hormuz. President Trump and Secretary of State Rubio countered that talks continue 'at a rapid pace,' with the fate of Iran's stock of 60%-enriched uranium and a proposed 60-day ceasefire framework on the agenda.",
+      "category": "foreign",
       "importance": 5,
       "tags": [
-        "iowa",
-        "gop-primary",
-        "feenstra",
-        "lahn",
-        "maha",
-        "2026-elections"
+        "iran",
+        "hormuz",
+        "nuclear",
+        "diplomacy",
+        "rubio"
       ],
       "perspectives": [
         {
-          "lean": "left",
-          "keyFraming": "A red-state GOP electorate rejected Trump's pick, a rare crack in his grip on Republican primaries.",
-          "summary": "Left-leaning coverage frames the result as a shock defeat exposing the limits of Trump's endorsement power even in a deep-red state, noting Feenstra got the nod only days before the vote as the race tightened. The emphasis is on the symbolic blow to Trump's primary dominance and the rise of an RFK Jr.-aligned MAHA outsider.",
+          "lean": "center",
+          "keyFraming": "Trump and Rubio insist negotiations continue despite Iran's state-media claim that talks are off.",
+          "summary": "CNBC reports Iran said it halted negotiations and threatened to 'completely' block the Strait of Hormuz, while Trump and Rubio told senators the US remains in contact with Tehran and sees a path to negotiating its nuclear program under a proposed ceasefire requiring Hormuz to stay open.",
           "sources": [
             {
-              "outlet": "The Daily Beast",
-              "url": "https://www.thedailybeast.com/trump-suffers-major-blow-in-iowa-election-loss-as-randy-feenstra-loses-to-zach-lahn/",
-              "title": "Trump Suffers Major Blow in Iowa Election Loss as Randy Feenstra Loses to Zach Lahn",
-              "publishedAt": "2026-06-03T02:00:00Z",
-              "allSidesRating": "left"
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/02/rubio-iran-nuclear-talks-trump-war-strategy-hormuz.html",
+              "title": "Trump, Rubio say Iran talks ongoing despite state media claims",
+              "publishedAt": "2026-06-02T18:00:00Z",
+              "allSidesRating": "center"
             },
             {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/politics/2026-election/iowa-governor-primary-election-winners-sand-lahn-rcna347471",
-              "title": "MAHA-backed Zach Lahn defeats Trump-backed Randy Feenstra in Iowa GOP primary for governor",
-              "publishedAt": "2026-06-03T03:00:00Z",
-              "allSidesRating": "lean-left"
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/01/iran-us-negotiations-strait-of-hormuz.html",
+              "title": "Iran stops negotiations with U.S., vows to 'completely' block Strait of Hormuz",
+              "publishedAt": "2026-06-01T16:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         },
         {
-          "lean": "center",
-          "keyFraming": "Lahn's narrow win over a Trump-endorsed congressman is the first 2026 gubernatorial primary defeat for a Trump pick.",
-          "summary": "Straight-news accounts report the roughly 0.8-point margin with nearly all precincts in, Feenstra's concession and Lahn's 'Iowa First' MAHA platform with backing from former Rep. Steve King. They note the November matchup against Democrat Rob Sand, framing the outcome as a narrow but notable upset in the race to succeed the outgoing Republican governor.",
+          "lean": "foreign-global-south",
+          "keyFraming": "Centers Iran's account that Israeli attacks in Lebanon and Gaza, not nuclear brinkmanship, broke the talks.",
+          "summary": "Al Jazeera reports Iran warned that Israel's continued attacks threaten the US-mediated ceasefire process, quoting Foreign Minister Araghchi that a violation 'on one front' is a violation 'on all fronts,' framing the suspension as a response to the wider regional escalation.",
           "sources": [
             {
-              "outlet": "Iowa Capital Dispatch",
-              "url": "https://iowacapitaldispatch.com/2026/06/02/rep-randy-feenstra-concedes-to-zach-lahn-in-2026-iowa-gop-gubernatorial-primary/",
-              "title": "Rep. Randy Feenstra concedes to Zach Lahn in 2026 Iowa GOP gubernatorial primary",
-              "publishedAt": "2026-06-03T02:30:00Z",
-              "allSidesRating": "center"
-            },
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/1/iran-warns-israeli-attacks-in-lebanon-and-gaza-threaten-us-ceasefire-talks",
+              "title": "Iran warns Israeli attacks in Lebanon and Gaza threaten US ceasefire talks",
+              "publishedAt": "2026-06-01T16:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-05-31T18:00:00Z",
+      "updatedAt": "2026-06-03T17:10:32Z"
+    },
+    {
+      "id": "scotus-alabama-congressional-map-2026-06-02",
+      "headline": "Supreme Court lets Alabama use Republican-favored congressional map for 2026 midterms in 6-3 order",
+      "summary": "In an unsigned 6-3 order on June 2, the Supreme Court lifted a lower-court injunction and allowed Alabama to use a congressional map that had twice been blocked as a likely racial gerrymander. The map is expected to shift the delegation from 5-2 to 6-1 Republican, imperiling the seat held by Rep. Shomari Figures. The three liberal justices dissented.",
+      "category": "us-politics",
+      "importance": 5,
+      "tags": [
+        "supreme-court",
+        "alabama",
+        "redistricting",
+        "voting-rights",
+        "midterms"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A consequential election-law order reshaping a US House seat months before the midterms.",
+          "summary": "NPR reports the majority faulted the lower court for not heeding the presumption of legislative good faith and a recent ruling narrowing Section 2 of the Voting Rights Act, while the three dissenters invoked the Purcell principle and warned the order rewards a state that defied earlier court directives.",
+          "sources": [
             {
-              "outlet": "Washington Post",
-              "url": "https://www.washingtonpost.com/politics/2026/06/03/trumps-pick-iowa-governor-concedes-gop-primary-upset/",
-              "title": "Trump's pick for Iowa governor concedes GOP primary in upset",
-              "publishedAt": "2026-06-03T04:00:00Z",
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/02/nx-s1-5844744/supreme-court-alabama-congressional-districts",
+              "title": "The Supreme Court reinstates Republican-favored Alabama congressional districts",
+              "publishedAt": "2026-06-02T20:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Casts the order as a win against race-based redistricting that restores the legislature's lawful map.",
+          "summary": "The Washington Examiner frames the decision as ending a court-imposed gerrymander and validating legislative authority, citing Alabama Attorney General Steve Marshall's argument that the state's enacted map should be allowed to stand for the midterms.",
+          "sources": [
+            {
+              "outlet": "Washington Examiner",
+              "url": "https://www.washingtonexaminer.com/news/supreme-court/4590100/supreme-court-alabama-gop-congressional-map/",
+              "title": "Supreme Court allows Alabama to use GOP-friendly congressional map",
+              "publishedAt": "2026-06-02T19:30:00Z",
+              "allSidesRating": "lean-right"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-03T17:10:32Z",
+      "updatedAt": "2026-06-03T17:10:32Z"
+    },
+    {
+      "id": "israel-lebanon-washington-talks-2026-06-02",
+      "headline": "Israel and Lebanon hold fourth round of Washington talks as strikes on south Lebanon kill five",
+      "summary": "Israeli and Lebanese delegations held a fourth round of US-brokered talks at the State Department on June 2-3, focused on ceasefire enforcement and a phased de-escalation mechanism. US officials said 'progress continues on the political and security tracks' even as Israeli strikes on southern Lebanon killed five, including a child, and damaged a government hospital.",
+      "category": "foreign",
+      "importance": 4,
+      "tags": [
+        "israel",
+        "lebanon",
+        "hezbollah",
+        "ceasefire",
+        "diplomacy"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "US claims political and security progress despite continued deadly strikes on the south.",
+          "summary": "The National reports US spokesman Tommy Pigott said progress continues toward a comprehensive agreement aimed at restoring Lebanon's sovereignty and ensuring Israel's security, even as Israeli strikes the same day killed five and wounded dozens, damaging Tebnine Governmental Hospital.",
+          "sources": [
+            {
+              "outlet": "The National",
+              "url": "https://www.thenationalnews.com/news/mena/2026/06/03/us-claims-lebanon-talks-making-progress-despite-deadly-israeli-strikes/",
+              "title": "US claims Lebanon talks making progress despite deadly Israeli strikes",
+              "publishedAt": "2026-06-03T13:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "Frames Lebanon as negotiating to halt an Israeli invasion even as the bombing continues.",
+          "summary": "Al Jazeera reports Lebanon hoped the Washington talks would halt an Israeli ground push, situating the diplomacy within ongoing strikes and deep skepticism among Lebanese and regional observers about whether commitments to stop fighting will hold.",
+          "sources": [
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/2/lebanon-hopes-crunch-talks-in-washington-will-halt-an-israeli-invasion",
+              "title": "Lebanon hopes crunch talks in Washington will halt an Israeli invasion",
+              "publishedAt": "2026-06-02T15:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-03T05:10:02Z",
+      "updatedAt": "2026-06-03T17:10:32Z"
+    },
+    {
+      "id": "russia-massive-barrage-kyiv-dnipro-2026-06-02",
+      "headline": "Russian overnight barrage of 73 missiles and 656 drones kills at least 22 across Ukraine",
+      "summary": "One of the war's largest bombardments struck Kyiv, Dnipro and Kharkiv overnight into June 2, killing at least 22 people, including children, and wounding more than 100. Ukraine said it intercepted most projectiles but only about 55% of ballistic missiles amid an interceptor shortage, with President Zelensky calling US help 'absolutely necessary' and appealing for more Patriot systems.",
+      "category": "war",
+      "importance": 4,
+      "tags": [
+        "ukraine",
+        "russia",
+        "missiles",
+        "drones",
+        "kyiv",
+        "patriot"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A major attack that toppled an apartment building and killed at least 22 civilians.",
+          "summary": "CBS News reports the missile and drone barrage killed at least 22 and wounded dozens across multiple cities, with rescuers searching rubble in Kyiv and officials citing the largest ballistic component in weeks.",
+          "sources": [
+            {
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/russia-ukraine-war-major-attacks-missile-drone-kill-several-wound-dozens/",
+              "title": "Major Russian missile, drone attack on Ukraine kills at least 22",
+              "publishedAt": "2026-06-02T10:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Kremlin frames the strikes as systematic hits on military infrastructure and blames Kyiv for civilian harm.",
+          "summary": "TASS relays Kremlin statements describing the strikes as systematic operations against military and defense-industry targets, with spokesman Dmitry Peskov asserting the campaign responds to Ukrainian attacks rather than targeting civilians.",
+          "sources": [
+            {
+              "outlet": "TASS",
+              "url": "https://tass.com/politics/2140113",
+              "title": "Kremlin briefing on the nature of the conflict and Russian strikes",
+              "publishedAt": "2026-06-02T12:00:00Z",
+              "allSidesRating": "lean-right",
+              "isStateMedia": true
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-02T05:10:26Z",
+      "updatedAt": "2026-06-03T17:10:32Z"
+    },
+    {
+      "id": "iowa-gop-governor-primary-upset-2026-06-03",
+      "headline": "MAHA-aligned Zach Lahn narrowly defeats Trump-endorsed Rep. Feenstra in Iowa GOP governor primary",
+      "summary": "Businessman Zach Lahn narrowly beat Rep. Randy Feenstra in Iowa's Republican gubernatorial primary, with Feenstra conceding. It is the first 2026-cycle primary defeat for a Trump-endorsed candidate; Lahn ran as a 'Make America Healthy Again' outsider and will face Democrat Rob Sand in November.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": [
+        "iowa",
+        "primary",
+        "maha",
+        "feenstra",
+        "trump"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A narrow upset signaling MAHA-faction strength and the limits of a late Trump endorsement.",
+          "summary": "NBC News reports Lahn edged Feenstra by a razor-thin margin despite Trump's last-minute backing, the first 2026 gubernatorial primary loss for a Trump pick, setting up a November matchup with Democrat Rob Sand.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/2026-election/iowa-governor-primary-election-winners-sand-lahn-rcna347471",
+              "title": "MAHA-backed Zach Lahn defeats Trump-backed Randy Feenstra in Iowa GOP primary for governor",
+              "publishedAt": "2026-06-03T05:00:00Z",
               "allSidesRating": "lean-left"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "A grassroots 'Iowa First' candidate upset the establishment's congressman even with Trump's late backing.",
-          "summary": "Right-leaning coverage notes Trump called Feenstra 'MAGA all the way' and issued a full endorsement, but Lahn — a farmer and businessman with MAHA and Steve King support — prevailed. Fox frames the result as a populist-outsider upset rather than primarily a rebuke of Trump.",
+          "keyFraming": "A grassroots 'Iowa First' candidate upset the establishment congressman even with Trump's late backing.",
+          "summary": "Fox News frames the result as a populist-outsider upset, noting Trump's full endorsement of Feenstra and Lahn's MAHA platform with backing from former Rep. Steve King.",
           "sources": [
             {
               "outlet": "Fox News",
               "url": "https://www.foxnews.com/politics/trump-endorsed-feenstra-concedes-maha-backed-lahn-gop-governor-primary-upset",
               "title": "Trump-endorsed Feenstra concedes to MAHA-backed Lahn in GOP governor primary upset",
-              "publishedAt": "2026-06-03T05:00:00Z",
+              "publishedAt": "2026-06-03T13:00:00Z",
               "allSidesRating": "lean-right"
             }
           ]
         }
       ],
       "firstSeenAt": "2026-06-03T11:09:56Z",
-      "updatedAt": "2026-06-03T11:09:56Z"
-    },
-    {
-      "id": "pulte-acting-dni-replaces-gabbard-2026-06-02",
-      "headline": "Trump names housing-finance chief Bill Pulte acting Director of National Intelligence, replacing Tulsi Gabbard",
-      "summary": "President Trump appointed Federal Housing Finance Agency Director Bill Pulte as acting Director of National Intelligence, replacing Tulsi Gabbard, who is departing June 30 citing her husband's cancer diagnosis. Pulte, a Trump ally with no intelligence background, will keep his FHFA and Fannie Mae/Freddie Mac roles. Democrats blasted the pick; Republicans defended it.",
-      "category": "us-politics",
-      "importance": 5,
-      "tags": [
-        "trump",
-        "pulte",
-        "gabbard",
-        "intelligence",
-        "odni",
-        "appointments"
-      ],
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "Frames an unqualified loyalist handed the intelligence community, fueling fears of politicized spy agencies.",
-          "summary": "The Hill reports Democrats erupted over the choice, with Sen. Chuck Schumer calling Pulte a 'partisan thug with no experience in intelligence' and other members warning that dual-hatting the housing-finance chief atop the ODNI risks bending the CIA and NSA to the president's political ends.",
-          "sources": [
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/administration/5905542-donald-trump-bill-pulte-odni-democratic-reaction/",
-              "title": "'Partisan thug': Democrats erupt over Trump intel pick Bill Pulte",
-              "publishedAt": "2026-06-02T22:30:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Straight reporting on the appointment, Pulte's lack of intelligence experience and his dual role at FHFA.",
-          "summary": "NPR and CNBC report Trump named Pulte acting DNI to succeed Tulsi Gabbard, who is leaving at the end of June, noting Pulte has no intelligence background and will continue running the Federal Housing Finance Agency and overseeing Fannie Mae and Freddie Mac alongside the new role.",
-          "sources": [
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/02/nx-s1-5844221/trump-appoints-housing-official-as-acting-director-of-national-intelligence",
-              "title": "Trump appoints Bill Pulte as acting director of national intelligence",
-              "publishedAt": "2026-06-02T20:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/02/intelligence-trump-bill-pulte-tulsi-gabbard.html",
-              "title": "Trump names housing chief Bill Pulte acting intelligence director, replacing Tulsi Gabbard",
-              "publishedAt": "2026-06-02T19:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Casts the move as a decisive Trump loyalist appointment and mocks the Democratic reaction.",
-          "summary": "Fox News frames Pulte's elevation as a confident pick of a proven Trump ally to steady the intelligence community after Gabbard's exit, highlighting his record running housing finance and treating Democratic objections as predictable political theater.",
-          "sources": [
-            {
-              "outlet": "Fox News",
-              "url": "https://www.foxnews.com/politics/trump-names-bill-pulte-acting-director-national-intelligence",
-              "title": "Pulte tapped as acting intelligence director to replace Tulsi Gabbard",
-              "publishedAt": "2026-06-02T21:00:00Z",
-              "allSidesRating": "right"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-03T05:10:02Z",
-      "updatedAt": "2026-06-03T11:09:56Z"
-    },
-    {
-      "id": "israel-lebanon-tyre-strikes-deadliest-day-2026-06-02",
-      "headline": "Israel strikes Tyre district in Lebanon's deadliest day since the ceasefire as it expands its occupation",
-      "summary": "Israeli strikes across south Lebanon on June 2 killed more than a dozen people in what local officials called the deadliest day since the November ceasefire. The IDF said it hit over 100 targets, killed 20-plus militants north of the Litani River, and ordered evacuations in four areas of Tyre district, warning of Hezbollah fighters it says are embedded there. A hospital in Tyre was damaged; the IDF said it was 'not targeted.'",
-      "category": "war",
-      "importance": 4,
-      "tags": [
-        "israel",
-        "lebanon",
-        "hezbollah",
-        "tyre",
-        "airstrikes",
-        "ceasefire"
-      ],
-      "perspectives": [
-        {
-          "lean": "government",
-          "keyFraming": "IDF frames the strikes as removing a direct Hezbollah threat to Galilee and blames militant embedding in civilian areas.",
-          "summary": "The Jerusalem Post relays the IDF account that its forces struck more than 100 targets and killed over 20 militants north of the Litani, ordered evacuations in Tyre district, and said a damaged Tyre hospital was 'not targeted,' arguing Hezbollah operatives embedded among civilians bear responsibility for the toll.",
-          "sources": [
-            {
-              "outlet": "Jerusalem Post",
-              "url": "https://www.jpost.com/israel-news/defense-news/article-898130",
-              "title": "IDF says hospital damaged after strikes in Tyre, Lebanon, 'was not targeted'",
-              "publishedAt": "2026-06-02T16:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Explains the escalation a day after Trump announced an Israel-Hezbollah understanding to stop fighting.",
-          "summary": "Al Jazeera lays out what is known after Trump said Israel and Hezbollah would halt hostilities, noting the renewed strikes on Tyre and the south came almost immediately, with casualty reports and evacuation orders complicating claims that a durable de-escalation was taking hold.",
-          "sources": [
-            {
-              "outlet": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/2/trump-says-israel-hezbollah-to-stop-fighting-what-we-know",
-              "title": "Trump says Israel, Hezbollah to stop fighting: What we know",
-              "publishedAt": "2026-06-02T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "foreign-global-south",
-          "keyFraming": "Frames the killings and occupation expansion as ceasefire violations driving regional escalation.",
-          "summary": "Democracy Now centers the civilian toll, reporting Israeli forces killed more people in southern Lebanon and expanded their occupation even as Iran suspended talks with Washington, presenting the day's strikes as part of a pattern of escalation rather than enforcement of a truce.",
-          "sources": [
-            {
-              "outlet": "Democracy Now",
-              "url": "https://www.democracynow.org/2026/6/2/lebanon_israel_iran",
-              "title": "Iran Suspends U.S. Talks as Israel Kills More in Lebanon & Expands Occupation",
-              "publishedAt": "2026-06-02T14:00:00Z",
-              "allSidesRating": "left"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-03T05:10:02Z",
-      "updatedAt": "2026-06-03T11:09:56Z"
-    },
-    {
-      "id": "alphabet-80b-equity-raise-berkshire-2026-06-01",
-      "headline": "Alphabet to raise about $80 billion in equity for AI build-out, with Berkshire Hathaway anchoring $10 billion",
-      "summary": "Alphabet said on June 1 it plans to raise roughly $80 billion through equity offerings to fund AI compute infrastructure — its first straight equity raise since going public in 2004. Warren Buffett's Berkshire Hathaway anchored the deal with a $10 billion private placement, split between Class A and Class C shares. The move by a cash-rich mega-cap underscored the scale of capital the AI build-out now demands.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "alphabet",
-        "google",
-        "berkshire-hathaway",
-        "ai-capex",
-        "equity-raise",
-        "buffett"
-      ],
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Mechanics: a cash-rich Google tapping equity markets signals how capital-intensive the AI race has become.",
-          "summary": "Bloomberg and CNBC report Alphabet will raise about $80 billion in equity to fund AI infrastructure, with Berkshire Hathaway taking a $10 billion private placement across Class A and Class C shares — a notable raise for a company that has generated ample cash and rarely issued stock since its 2004 IPO.",
-          "sources": [
-            {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
-              "title": "Alphabet's $80 Billion AI Raise Gets $10 Billion Berkshire Bet",
-              "publishedAt": "2026-06-01T14:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/01/berkshire-hathaway-alphabet-investment.html",
-              "title": "Berkshire Hathaway invests extra $10 billion in Alphabet, deepening bet on AI",
-              "publishedAt": "2026-06-01T15:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "social",
-          "keyFraming": "Retail investors parse Berkshire deepening its biggest AI bet and the optics of a rare Alphabet equity raise.",
-          "summary": "Yahoo Finance highlights retail and investor reaction to Berkshire's added $10 billion stake in Alphabet, framing it as a major AI bet by Warren Buffett's company and debating what an $80 billion equity raise says about the cost of keeping pace in AI compute.",
-          "sources": [
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/sectors/technology/articles/berkshire-invest-10-billion-alphabet-185300492.html",
-              "title": "Berkshire to invest $10 billion in Alphabet in major AI bet",
-              "publishedAt": "2026-06-01T18:53:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-03T05:10:02Z",
-      "updatedAt": "2026-06-03T11:09:56Z"
-    },
-    {
-      "id": "rubio-iran-hormuz-senate-testimony-2026-06-02",
-      "headline": "Rubio tells Senate that US-Iran nuclear and Hormuz talks are at an impasse as Tehran halts messaging",
-      "summary": "Testifying to the Senate on June 2 — his first appearance since the Iran war began — Secretary of State Marco Rubio said the US is still in contact with Iran and there is 'the prospect' Tehran could negotiate aspects of its nuclear program, but set conditions: Iran must declare the Strait of Hormuz open, end tolls, help clear mines and not fire on commercial ships. Iran's Fars agency said the sides stopped exchanging messages days earlier; PBS called the talks an impasse.",
-      "category": "foreign",
-      "importance": 4,
-      "tags": [
-        "rubio",
-        "iran",
-        "hormuz",
-        "nuclear",
-        "diplomacy",
-        "senate"
-      ],
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Reports Rubio holding open the prospect of nuclear talks while attaching hard conditions on the Strait of Hormuz.",
-          "summary": "CNBC and PBS NewsHour report Rubio told senators the administration remains in contact with Iran and sees a prospect of negotiating its nuclear program, but only if Tehran declares Hormuz open, stops charging tolls, helps clear mines and pledges not to fire on commercial vessels — with both outlets characterizing the current state of talks as an impasse.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/amp/2026/06/02/rubio-iran-nuclear-talks-trump-war-strategy-hormuz.html",
-              "title": "Rubio says U.S. is in talks with Iran over nuclear program as senators press for war endgame",
-              "publishedAt": "2026-06-02T18:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "PBS NewsHour",
-              "url": "https://www.pbs.org/newshour/show/u-s-iran-talks-at-impasse-over-nuclear-program-and-strait-of-hormuz",
-              "title": "U.S.-Iran talks at impasse over nuclear program and Strait of Hormuz",
-              "publishedAt": "2026-06-02T22:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "foreign-global-south",
-          "keyFraming": "Centers Iran's account that it suspended messaging because of Israel's Lebanon assault, not nuclear brinkmanship.",
-          "summary": "Democracy Now frames the breakdown from Tehran's vantage point, reporting Iran suspended its exchange of messages with Washington over Israel's expanding operations in Lebanon and Gaza, and tying the standoff to the wider regional escalation rather than to US demands over the Strait of Hormuz alone.",
-          "sources": [
-            {
-              "outlet": "Democracy Now",
-              "url": "https://www.democracynow.org/2026/6/2/lebanon_israel_iran",
-              "title": "Iran Suspends U.S. Talks as Israel Kills More in Lebanon & Expands Occupation",
-              "publishedAt": "2026-06-02T14:00:00Z",
-              "allSidesRating": "left"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-03T05:10:02Z",
-      "updatedAt": "2026-06-03T11:09:56Z"
+      "updatedAt": "2026-06-03T17:10:32Z"
     }
   ]
 }
