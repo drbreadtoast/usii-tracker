@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-02T23:02:04Z",
+  "lastUpdated": "2026-06-03T05:10:02Z",
   "stories": [
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
@@ -251,6 +251,46 @@
       ],
       "firstSeenAt": "2026-06-02T17:10:19Z",
       "updatedAt": "2026-06-02T17:10:19Z"
+    },
+    {
+      "id": "microsoft-mai-models-build-openai-2026-06-02",
+      "headline": "Microsoft unveils first-party AI coding models at Build to cut reliance on OpenAI and lower developer costs",
+      "summary": "At its Build conference on June 2, Microsoft introduced first-party generative models — including a text-to-code model and a reasoning model offered in private preview through Microsoft Foundry — positioning itself against OpenAI, Anthropic and Google in AI coding. The company framed the move as a way to lessen its dependence on OpenAI and reduce costs for developers building on its platform.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "microsoft",
+        "openai",
+        "ai-models",
+        "coding",
+        "build-conference",
+        "foundry"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Strategy: Microsoft builds its own models to reduce OpenAI dependence and reprice developer costs.",
+          "summary": "CNBC reports Microsoft used its Build conference to unveil in-house generative models, including a text-to-code system and a reasoning model in private preview via Microsoft Foundry, and framed the announcements as a push to lower its reliance on OpenAI and cut costs for developers — even as Microsoft and Google increasingly take on Anthropic and OpenAI in AI coding tools.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+              "title": "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
+              "publishedAt": "2026-06-02T16:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/amp/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+              "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
+              "publishedAt": "2026-06-01T13:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-03T05:10:02Z",
+      "updatedAt": "2026-06-03T05:10:02Z"
     }
   ]
 }
