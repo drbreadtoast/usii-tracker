@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-03T05:10:02Z",
+  "lastUpdated": "2026-06-03T11:09:56Z",
   "stories": [
     {
       "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
@@ -478,6 +478,45 @@
       ],
       "firstSeenAt": "2026-06-03T05:10:02Z",
       "updatedAt": "2026-06-03T05:10:02Z"
+    },
+    {
+      "id": "crypto-selloff-btc-below-70k-2026-06-02",
+      "headline": "Bitcoin slides below $70,000 and Ether breaks $2,000 support as crypto sells off against record stocks",
+      "summary": "Bitcoin fell nearly 6% on June 2 to about $67,500, its lowest since April and first drop below $70,000 in weeks, while Ether breached $2,000 support to trade near $1,963. The decline deepened in European hours as stop-losses and derivative liquidations cascaded across major exchanges. Analysts tied the move to capital rotating out of digital assets and into AI-related equities even as US stock indexes set records.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "bitcoin",
+        "ethereum",
+        "crypto",
+        "selloff",
+        "ai-rotation"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Crypto is decoupling from record equities as capital rotates into the AI trade, with Ether's correlation to Bitcoin amplifying the drop.",
+          "summary": "Center coverage reports the sell-off accelerated through European trading as automated liquidations deepened losses, leaving Bitcoin under $70,000 and Ether below $2,000. The rotation favored higher-performing sectors such as AI even as equities hit records, against a backdrop of an SEC tokenization framework that was pulled from a planned rollout after exchange pushback.",
+          "sources": [
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-june-2-2026-bitcoin-slides-below-70000-132451998.html",
+              "title": "Bitcoin and ethereum prices today, June 2, 2026: Bitcoin slides below $70,000",
+              "publishedAt": "2026-06-02T13:24:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Fortune",
+              "url": "https://fortune.com/article/price-of-bitcoin-06-02-2026/",
+              "title": "Current price of Bitcoin for June 2, 2026",
+              "publishedAt": "2026-06-02T13:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-03T11:09:56Z",
+      "updatedAt": "2026-06-03T11:09:56Z"
     }
   ]
 }

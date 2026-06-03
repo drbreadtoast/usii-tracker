@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-03T05:10:02Z",
+  "lastUpdated": "2026-06-03T11:09:56Z",
   "stories": [
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
@@ -56,37 +56,6 @@
       ]
     },
     {
-      "id": "ai-governance-three-fronts-perplexity-colorado-eu-2026-05-31",
-      "headline": "AI governance fragments on three fronts: publisher copyright suits, a DOJ challenge to Colorado's AI law, and EU alignment",
-      "summary": "AI regulation split across three simultaneous battlefronts heading into June: the publisher copyright wars (nine organizations, now including CNN, are suing Perplexity over alleged scraping), a first-ever DOJ federal challenge to Colorado's state AI law, and OpenAI's new Frontier Governance Framework aligning with the EU AI Act ahead of its August 2 transparency deadline.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "ai-regulation",
-        "copyright",
-        "perplexity",
-        "eu-ai-act"
-      ],
-      "firstSeenAt": "2026-06-01T06:25:46Z",
-      "updatedAt": "2026-06-01T14:05:35Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Governance is fragmenting, not converging: courts, the DOJ and Brussels are each reshaping AI rules at once, with no single national framework.",
-          "summary": "A May 31 analysis frames three independent legal fronts: the publisher copyright wars (nine organizations now suing Perplexity, including CNN's first AI suit), a historic first DOJ federal challenge to Colorado's state AI law, and OpenAI's May 28 Frontier Governance Framework aligning its Preparedness Framework with the EU AI Act's Code of Practice and California's frontier-AI transparency law. The EU AI Act's transparency rules become enforceable August 2, 2026.",
-          "sources": [
-            {
-              "outlet": "Tech Times",
-              "url": "https://www.techtimes.com/articles/317461/20260531/ai-regulation-2026-opens-three-fronts-cnn-sues-perplexity-openai-aligns-eu-rules.htm",
-              "title": "AI Regulation 2026 Opens Three Fronts: CNN Sues Perplexity as OpenAI Aligns With EU Rules",
-              "publishedAt": "2026-05-31T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "computex-2026-ai-together-amd-nvidia-2026-06-01",
       "headline": "Computex 2026 opens in Taipei with AMD and NVIDIA AI and chip launches, lifting tech amid market caution",
       "summary": "Computex Taipei (June 2-5, theme 'AI Together') kicked off with AMD launching the Radeon RX 9070 GRE and anniversary Ryzen X3D chips while pledging AM5 platform support through 2029, and NVIDIA showcasing Arm-based N1/N1X SoCs and its Vera Rubin NVL72 platform on TSMC 3nm with HBM4. The roadmaps signal a continued AI-hardware investment cycle and helped cushion US tech stocks against the June 1 oil-and-Iran selloff.",
@@ -105,13 +74,6 @@
           "keyFraming": "Hardware roadmaps signal the AI capex cycle is far from over, with both consumer and data-center lines advancing in parallel.",
           "summary": "igor'sLAB and Neowin report AMD's broad AI pivot — the global RX 9070 GRE, a 10th-anniversary 5800X3D for AM4 and a 7700X3D for AM5, plus AM5 support through 2029 — alongside NVIDIA's Arm-based N1/N1X SoCs and Vera Rubin NVL72 platform. The launches frame an industry still investing heavily to meet AI demand across the stack.",
           "sources": [
-            {
-              "outlet": "igor'sLAB",
-              "url": "https://www.igorslab.de/en/amd-computex-2026-x3d-anniversary-am5-2029-rx-9070-gre-global-ai-pivot/",
-              "title": "AMD at Computex 2026: X3D Anniversary, AM5 Through 2029, RX 9070 GRE Global, and a Very Broad AI Pivot",
-              "publishedAt": "2026-05-31T12:00:00Z",
-              "allSidesRating": "center"
-            },
             {
               "outlet": "Neowin",
               "url": "https://www.neowin.net/news/computex-2026-amd-launches-new-ryzen-5800x3d-for-am4-and-7700x3d-for-am5/",
@@ -291,6 +253,39 @@
       ],
       "firstSeenAt": "2026-06-03T05:10:02Z",
       "updatedAt": "2026-06-03T05:10:02Z"
+    },
+    {
+      "id": "nvidia-vera-chip-early-users-2026-06-01",
+      "headline": "Nvidia names Anthropic, OpenAI and SpaceX among first users of its upcoming Vera microprocessor",
+      "summary": "At Computex, Nvidia CEO Jensen Huang said Anthropic, OpenAI and SpaceX are among the earliest large customers for the company's upcoming Vera microprocessor. The same appearance — where Huang praised Marvell as a potential 'next trillion-dollar company' — helped drive related chip stocks and the broader market to record highs.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "nvidia",
+        "vera",
+        "anthropic",
+        "openai",
+        "spacex",
+        "computex"
+      ],
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Nvidia's roadmap and marquee customer roster reinforce its central role in the AI buildout and its outsized influence on markets.",
+          "summary": "Bloomberg reports Huang named leading AI developers as launch users of the Vera chip, underscoring Nvidia's grip on the AI compute supply chain and its ability to move related stocks such as Marvell and HPE with a single keynote appearance at Computex.",
+          "sources": [
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-says-anthropic-openai-among-big-users-of-new-vera-chip",
+              "title": "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
+              "publishedAt": "2026-06-01T16:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-06-03T11:09:56Z",
+      "updatedAt": "2026-06-03T11:09:56Z"
     }
   ]
 }
