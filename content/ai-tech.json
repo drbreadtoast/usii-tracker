@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-04T05:10:11Z",
+  "lastUpdated": "2026-06-04T11:10:03Z",
   "stories": [
     {
       "id": "commerce-china-chip-loophole-2026-05-31",
@@ -381,6 +381,139 @@
               "url": "https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order",
               "title": "Trump's new AI safety order seeks voluntary review of new models",
               "publishedAt": "2026-06-02T22:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deepseek-7-4-billion-funding-round-2026-06-04",
+      "headline": "China’s DeepSeek nears $7.4B first funding round at up to $59B valuation, backed by Tencent and CATL",
+      "summary": "DeepSeek is close to finalizing roughly 50 billion yuan ($7.4 billion) in its first external funding round, valuing the open-source AI firm between $52 billion and $59 billion. Tencent and battery maker CATL are the largest backers, alongside a state-backed national AI fund. Founder Liang Wenfeng is expected to contribute about 40%. It would rank among China's largest tech fundraisings.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "deepseek",
+        "china",
+        "ai-funding",
+        "open-source",
+        "tencent",
+        "venture-capital"
+      ],
+      "firstSeenAt": "2026-06-04T11:10:03Z",
+      "updatedAt": "2026-06-04T11:10:03Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "DeepSeek’s first capital raise signals state-backed scaling of China’s open-source AI champion.",
+          "summary": "Bloomberg and CNBC reported DeepSeek nearing roughly $7.4 billion at a $52-59 billion valuation, with Tencent, CATL and a state AI fund signing term sheets. The maker of the V3 and R1 models previously scaled without outside venture capital; the round, with heavy founder participation, marks a strategic shift and a notable Beijing endorsement.",
+          "sources": [
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal",
+              "title": "DeepSeek close to sealing $7 billion funding in historic AI deal",
+              "publishedAt": "2026-06-03T14:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html",
+              "title": "DeepSeek slated to draw $7 billion in maiden fundraising, sources say",
+              "publishedAt": "2026-06-03T15:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Asian outlets frame the round as validation of China’s AI self-reliance drive amid tightening US export controls.",
+          "summary": "The South China Morning Post framed the raise as proof of China's push for AI self-sufficiency, with Tencent, CATL and state funds backing DeepSeek as Washington tightens chip-export controls on Chinese firms.",
+          "sources": [
+            {
+              "outlet": "South China Morning Post",
+              "url": "https://www.scmp.com/tech/big-tech/article/3355818/deepseek-nears-us7b-haul-first-ever-funding-round-backing-tencent-catl",
+              "title": "China’s DeepSeek nears US$7 billion haul in first-ever funding round",
+              "publishedAt": "2026-06-03T10:00:00Z",
+              "allSidesRating": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-vera-cpu-anthropic-openai-2026-06-04",
+      "headline": "Nvidia delivers first Vera CPUs to Anthropic, OpenAI, SpaceX and Oracle, debuting its agent-era processor",
+      "summary": "Nvidia said at Computex that Anthropic, OpenAI, SpaceX and Oracle are among the first users of its new Vera CPU, the successor to Grace. Vera is built around 88 of Nvidia's own 'Olympus' cores — a break from off-the-shelf Arm designs — and is positioned for AI 'agents' that plan and execute tasks. Oracle said it plans to deploy hundreds of thousands of Vera CPUs from 2026.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "nvidia",
+        "chips",
+        "vera-cpu",
+        "anthropic",
+        "openai",
+        "ai-infrastructure"
+      ],
+      "firstSeenAt": "2026-06-04T11:10:03Z",
+      "updatedAt": "2026-06-04T11:10:03Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Nvidia extends its data-center dominance into custom CPUs aimed at agentic AI workloads.",
+          "summary": "Bloomberg reported Jensen Huang naming Anthropic, OpenAI and SpaceX as first Vera users at Computex. Vera's custom Olympus cores replace Arm Neoverse and target agentic workloads, and Oracle committed to hundreds of thousands of units from 2026, deepening Nvidia's full-stack position.",
+          "sources": [
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-says-anthropic-openai-among-big-users-of-new-vera-chip",
+              "title": "Nvidia says Anthropic, OpenAI among users of new Vera chip",
+              "publishedAt": "2026-06-01T18:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "NVIDIA Blog",
+              "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+              "title": "Vera arrives: NVIDIA’s first CPU built for agents lands at top AI labs",
+              "publishedAt": "2026-06-02T15:00:00Z",
+              "allSidesRating": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-partner-network-services-track-2026-06-04",
+      "headline": "Anthropic formalizes its enterprise partner ecosystem with a tiered Services Track and public Partner Hub",
+      "summary": "Anthropic launched the Services Track and Partner Hub of its Claude Partner Network on June 3, creating three certification tiers for consulting and systems-integration firms deploying Claude, plus a public directory for enterprise buyers. Since the network's March launch, more than 40,000 firms have applied and over 10,000 consultants have earned certifications, as Anthropic scales enterprise adoption alongside its IPO preparations.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "anthropic",
+        "claude",
+        "enterprise-ai",
+        "partnerships",
+        "channel-strategy"
+      ],
+      "firstSeenAt": "2026-06-04T11:10:03Z",
+      "updatedAt": "2026-06-04T11:10:03Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Anthropic builds enterprise distribution muscle, formalizing a consulting channel to accelerate Claude deployments.",
+          "summary": "Anthropic's Services Track tiers and a public Partner Hub directory formalize its systems-integrator and consulting channel. Following more than 40,000 firm applications since March, the move deepens enterprise reach as the company pursues a confidential IPO.",
+          "sources": [
+            {
+              "outlet": "Anthropic",
+              "url": "https://www.anthropic.com/news/services-track-partner-hub",
+              "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+              "publishedAt": "2026-06-03T14:00:00Z",
+              "allSidesRating": null
+            },
+            {
+              "outlet": "PYMNTS",
+              "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-updates-partner-program-as-enterprise-ai-adoption-grows/",
+              "title": "Anthropic updates partner program as enterprise AI adoption grows",
+              "publishedAt": "2026-06-03T17:00:00Z",
               "allSidesRating": "center"
             }
           ]
