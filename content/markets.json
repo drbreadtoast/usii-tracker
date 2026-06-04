@@ -1,52 +1,7 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-04T17:11:21Z",
+  "lastUpdated": "2026-06-04T23:01:51Z",
   "stories": [
-    {
-      "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
-      "headline": "US stocks open June at fresh records: Dow tops 51,000, Nasdaq clears 27,000 for the first time as Nvidia leads tech",
-      "summary": "All three major US indexes closed at records to open June on Monday: the S&P 500 rose 0.26% to 7,599.96, the Nasdaq added 0.42% to 27,086.81 — its first close above 27,000 — and the Dow gained 0.09% to 51,078.88. A Nvidia-led tech rally, powered by its Computex chip launch, overpowered a sharp intraday oil spike on Iran/Hormuz fears, with late-session US-Iran optimism helping indexes hold gains.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "ai",
-        "nvidia",
-        "records"
-      ],
-      "firstSeenAt": "2026-05-29T20:30:00Z",
-      "updatedAt": "2026-06-01T23:01:53Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Tech strength and AI optimism outweighed an energy shock, extending the record run despite Middle East risk.",
-          "summary": "Indexes notched fresh highs as Nvidia's RTX Spark chip launch powered tech and investors bet a US-Iran deal could still hold. The Nasdaq cleared 27,000 for the first time and the Dow held above 51,000, weeks after first crossing 50,000. The advance came even as crude jumped sharply intraday, underscoring the dominance of AI-linked megacaps in driving index returns.",
-          "sources": [
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-flat-225422503.html",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns",
-              "publishedAt": "2026-06-01T22:54:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html",
-              "title": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike: Live updates",
-              "publishedAt": "2026-06-01T20:30:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026",
-              "title": "Stock Market Today (June 1, 2026): Nasdaq, S&P 500 as tech, energy bolster indexes to start June trading",
-              "publishedAt": "2026-06-01T20:45:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "oil-sunday-tick-iran-deal-uncertainty-2026-06-01",
       "headline": "Oil holds near multi-month highs as Iran-deal uncertainty and OPEC+ supply decision sustain the war premium",
@@ -174,52 +129,6 @@
       "updatedAt": "2026-06-02T23:02:04Z"
     },
     {
-      "id": "us-stocks-record-june-open-nvidia-vs-oil-2026-06-01",
-      "headline": "S&P 500, Nasdaq and Dow all close at records to open June as a Nvidia rally overpowers the oil spike",
-      "summary": "US equities opened June at record highs on June 1 — the S&P 500, Nasdaq and Dow all closing at fresh peaks — as a 6%-plus Nvidia surge on its RTX Spark chip launch outweighed a Hormuz-driven jump in crude. Stocks then eased back from those records on June 2 as oil and Iran-war jitters returned, even as Marvell soared on a Jensen Huang endorsement and tech again led.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "sp500",
-        "nasdaq",
-        "nvidia",
-        "records"
-      ],
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Megacap tech strength is insulating the indexes from the energy and inflation shock.",
-          "summary": "CNBC and TheStreet frame the June 1 session as tech — led by a Nvidia surge on its RTX Spark launch — overpowering an oil spike, with all three major indexes notching fresh record closes to start the month despite rising rate-hike chatter.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html",
-              "title": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike",
-              "publishedAt": "2026-06-01T20:30:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "The records came partly on renewed US-Iran de-escalation optimism, not chips alone.",
-          "summary": "Yahoo Finance attributes the record close to both Nvidia's surge and a return of US-Iran ceasefire optimism, a more diplomacy-driven read on the same tape that cautions the rally rests on fragile geopolitical assumptions.",
-          "sources": [
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-dow-sp-nasdaq-waver-225422932.html",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns",
-              "publishedAt": "2026-06-01T21:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-02T11:09:58Z",
-      "updatedAt": "2026-06-02T17:10:19Z"
-    },
-    {
       "id": "us-stocks-record-close-2026-06-02",
       "headline": "S&P 500, Nasdaq and Dow all close at records as a chip and AI rally overpowers Iran oil risk",
       "summary": "US equities notched fresh record closes Tuesday June 2: the S&P 500 rose to about 7,610 for a ninth straight gain, the Nasdaq edged to roughly 27,094 and the Dow added about 0.45% to 51,308. Chipmakers led — Marvell closed up about a third on Nvidia's CEO comments and HPE jumped about 19% on AI-server earnings — while Alphabet fell on an $80B stock-sale plan and Iran-Hormuz tensions capped gains.",
@@ -306,20 +215,6 @@
               "title": "Alphabet prices $84.75 billion equity raise for AI infrastructure expansion",
               "publishedAt": "2026-06-03T13:00:00Z",
               "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "social",
-          "keyFraming": "Retail investors parse Berkshire deepening its biggest AI bet and the optics of a rare Alphabet equity raise.",
-          "summary": "Yahoo Finance highlights retail and investor reaction to Berkshire's added $10 billion stake in Alphabet, framing it as a major AI bet by Warren Buffett's company and debating what an $80 billion equity raise says about the cost of keeping pace in AI compute.",
-          "sources": [
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/sectors/technology/articles/berkshire-invest-10-billion-alphabet-185300492.html",
-              "title": "Berkshire to invest $10 billion in Alphabet in major AI bet",
-              "publishedAt": "2026-06-01T18:53:00Z",
-              "allSidesRating": "lean-left"
             }
           ]
         }
@@ -695,6 +590,152 @@
               "title": "Private sector adds 122,000 jobs in May, above expectations, ADP says",
               "publishedAt": "2026-06-03T13:00:00Z",
               "allSidesRating": "lean-right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dow-record-broadcom-chip-selloff-2026-06-04",
+      "headline": "Dow closes at a record as a sector rotation lifts financials while a Broadcom plunge drags the Nasdaq lower",
+      "summary": "The Dow Jones Industrial Average closed at a record near 51,562 on June 4, up about 1.7%, as investors rotated out of chipmakers into financials, health care and consumer staples. The Nasdaq slipped about 0.1% after Broadcom fell roughly 15% on light fiscal-second-quarter revenue, while the S&P 500 edged up about 0.4% to around 7,584.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "dow",
+        "nasdaq",
+        "sp500",
+        "broadcom",
+        "rotation"
+      ],
+      "firstSeenAt": "2026-06-04T23:01:51Z",
+      "updatedAt": "2026-06-04T23:01:51Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A record Dow masks a tech-led wobble as the AI-capex trade stumbles on Broadcom's miss.",
+          "summary": "Centrist coverage frames the session as a broadening of market breadth, with financials and health care leading the Dow to a record even as a Broadcom revenue miss dragged the Nasdaq lower and tested the AI trade.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
+              "title": "Stock market today: Live updates",
+              "publishedAt": "2026-06-04T20:30:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/06/04/stock-market-live-june-4-2026-sp-500-spy-fall-as-broadcom-sinks/",
+              "title": "Stock Market Live June 4, 2026: S&P 500 and Broadcom",
+              "publishedAt": "2026-06-04T20:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "A record Dow shows the economy outside megacap chips is healthy and the rotation is rational.",
+          "summary": "Right-leaning framing reads the record Dow as evidence the broader economy is resilient, treating the rotation out of semiconductors as ordinary profit-taking rather than a sign of weakness.",
+          "sources": [
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/markets/stock-market-today-june-4-2026",
+              "title": "Stock Market Today (June 4, 2026): Broadcom earnings stoke semiconductor selloff",
+              "publishedAt": "2026-06-04T20:45:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oil-eases-iran-deescalation-2026-06-04",
+      "headline": "Oil slips from war highs as US-Iran de-escalation signals offset a sixth straight US crude draw",
+      "summary": "Brent crude fell about 1% to near $97 a barrel and WTI eased to about $95 on June 4 after three rising sessions, as President Trump said Iran agreed not to pursue a nuclear weapon even with Strait of Hormuz traffic still subdued. The EIA reported a sixth consecutive weekly draw in US crude inventories. US pump prices remained elevated near $4.24 a gallon.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "hormuz",
+        "iran",
+        "energy"
+      ],
+      "firstSeenAt": "2026-06-04T23:01:51Z",
+      "updatedAt": "2026-06-04T23:01:51Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Prices ease off war highs but stay elevated as any Hormuz incident could reprice instantly.",
+          "summary": "Centrist coverage attributes the pullback to reports of US-Iran de-escalation while noting prices remain war-elevated near triple digits, with the Strait of Hormuz still subdued and inventory draws underpinning the market.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/business/business-news/oil-markets-gas-prices-us-iran-near-deal-hormuz-rcna343819",
+              "title": "Oil slides on US-Iran near-deal report as Strait of Hormuz stays disrupted",
+              "publishedAt": "2026-06-04T18:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Domestic inventory draws and US production are cushioning the shock, arguing for more output.",
+          "summary": "Right-leaning framing stresses energy security, pointing to falling US crude inventories and domestic production as buffers against the war premium and an argument for expanded drilling and export capacity.",
+          "sources": [
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/markets/stock-market-today-june-4-2026",
+              "title": "Stock Market Today (June 4, 2026): oil eases as Iran war concerns ebb",
+              "publishedAt": "2026-06-04T20:45:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bitcoin-below-pre-war-levels-2026-06-04",
+      "headline": "Bitcoin drops below its pre-war level as ETF outflows and liquidations mount",
+      "summary": "Bitcoin fell about 4% to around $64,300 on June 4 — down roughly 14% over seven days and now below where it traded before the Iran war began — while Ethereum slid toward $1,740. Analysts pointed to about $2.4 billion of weekly spot-ETF outflows, a large Strategy (MicroStrategy) sale, and more than $1.2 billion in futures liquidations amid a broad risk-off move.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "crypto",
+        "bitcoin",
+        "ethereum",
+        "etf",
+        "liquidations"
+      ],
+      "firstSeenAt": "2026-06-04T23:01:51Z",
+      "updatedAt": "2026-06-04T23:01:51Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Crypto is trading as a high-beta risk proxy, not a wartime safe haven.",
+          "summary": "Centrist coverage frames the slide as crypto behaving like a leveraged risk asset during the war, with ETF outflows and liquidations amplifying a broad macro risk-off move rather than acting as a hedge.",
+          "sources": [
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-4-2026-bitcoin-prices-plunge-below-pre-war-levels-114549073.html",
+              "title": "Bitcoin and ethereum prices today, Thursday, June 4, 2026: prices plunge below pre-war levels",
+              "publishedAt": "2026-06-04T12:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Institutional selling is a healthy shakeout, not a break in the thesis.",
+          "summary": "Right-leaning framing reads the ETF and Strategy selling as a flush of leverage and weak hands rather than a structural breakdown, expecting the asset to stabilize once liquidations clear.",
+          "sources": [
+            {
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/06/03/price-of-bitcoin-06-03-2026/",
+              "title": "Current price of Bitcoin for June 3, 2026",
+              "publishedAt": "2026-06-03T14:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         }
