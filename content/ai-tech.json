@@ -1,53 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-04T11:10:03Z",
+  "lastUpdated": "2026-06-04T17:11:21Z",
   "stories": [
-    {
-      "id": "commerce-china-chip-loophole-2026-05-31",
-      "headline": "Commerce closes Malaysia/SE-Asia loophole that funneled Nvidia Rubin/Blackwell and AMD MI350x to Chinese AI firms abroad",
-      "summary": "On May 30-31 the US Department of Commerce issued guidance closing a loophole that for nearly a year allowed advanced US chips to reach overseas subsidiaries of Chinese AI firms — particularly via Malaysia. Affected silicon includes Nvidia Rubin and Blackwell-class processors and AMD's MI350x. The move comes as the White House prepares a Trump trip to Beijing.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "commerce",
-        "export-controls",
-        "nvidia",
-        "amd",
-        "china"
-      ],
-      "firstSeenAt": "2026-05-31T01:00:00Z",
-      "updatedAt": "2026-06-02T11:09:58Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Even as headline trade talks warm, Commerce signals the technology cordon around frontier AI is tightening at the enforcement level.",
-          "summary": "CNBC and Benzinga report BIS's new guidance treats Chinese-controlled foreign subsidiaries as covered entities for AI accelerator exports, which would have prevented Nvidia and AMD shipments routed through Malaysia data centers. Analysts expect Monday-open pressure on Nvidia and AMD as the addressable market is re-priced.",
-          "sources": [
-            {
-              "outlet": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
-              "title": "US says ban on AI chip shipments applies to Chinese firms outside China",
-              "publishedAt": "2026-06-01T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Long-overdue enforcement, but the policy is incoherent if direct mainland exports remain on a case-by-case approval list.",
-          "summary": "CFR analysis argues the January BIS rule that lets some direct exports to mainland Chinese entities proceed under conditions undermines the May 31 closure of the indirect route. Without aligning Netherlands, Japan and Korea on the same enforcement posture, transshipment risk simply migrates.",
-          "sources": [
-            {
-              "outlet": "[your]NEWS",
-              "url": "https://yournews.com/2026/06/01/7019616/u-s-moves-to-tighten-ai-chip-export-controls-closing-potential/",
-              "title": "U.S. Moves to Tighten AI Chip Export Controls, Closing Potential Pathway to Chinese Firms",
-              "publishedAt": "2026-06-01T12:00:00Z",
-              "allSidesRating": "lean-right"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "nvidia-rtx-spark-pc-chip-computex-2026-06-01",
       "headline": "Nvidia's RTX Spark headlines Computex as Intel and AMD answer with new AI chips on day two in Taipei",
@@ -187,52 +141,12 @@
               "title": "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
               "publishedAt": "2026-06-02T16:00:00Z",
               "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/amp/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
-              "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
-              "publishedAt": "2026-06-01T13:00:00Z",
-              "allSidesRating": "center"
             }
           ]
         }
       ],
       "firstSeenAt": "2026-06-03T05:10:02Z",
       "updatedAt": "2026-06-03T05:10:02Z"
-    },
-    {
-      "id": "nvidia-vera-chip-early-users-2026-06-01",
-      "headline": "Nvidia names Anthropic, OpenAI and SpaceX among first users of its upcoming Vera microprocessor",
-      "summary": "At Computex, Nvidia CEO Jensen Huang said Anthropic, OpenAI and SpaceX are among the earliest large customers for the company's upcoming Vera microprocessor. The same appearance — where Huang praised Marvell as a potential 'next trillion-dollar company' — helped drive related chip stocks and the broader market to record highs.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "nvidia",
-        "vera",
-        "anthropic",
-        "openai",
-        "spacex",
-        "computex"
-      ],
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Nvidia's roadmap and marquee customer roster reinforce its central role in the AI buildout and its outsized influence on markets.",
-          "summary": "Bloomberg reports Huang named leading AI developers as launch users of the Vera chip, underscoring Nvidia's grip on the AI compute supply chain and its ability to move related stocks such as Marvell and HPE with a single keynote appearance at Computex.",
-          "sources": [
-            {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-says-anthropic-openai-among-big-users-of-new-vera-chip",
-              "title": "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
-              "publishedAt": "2026-06-01T16:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-03T11:09:56Z",
-      "updatedAt": "2026-06-03T11:09:56Z"
     },
     {
       "id": "nvidia-anthropic-clash-china-chip-export-2026-06-02",
@@ -316,20 +230,6 @@
               "allSidesRating": "center"
             }
           ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "A landmark test of public appetite for AI: coverage centers the concentration of AI power and whether retail investors should chase a near-trillion-dollar giant.",
-          "summary": "NPR emphasized the societal stakes and bubble risk of the largest-ever AI listing, situating Anthropic's move within a broader question about how much of the economy is being reorganized around a handful of richly valued AI labs racing one another to the public markets.",
-          "sources": [
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large",
-              "title": "AI giant Anthropic prepares to sell stock to the public, files preliminary IPO paperwork",
-              "publishedAt": "2026-06-01T18:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
         }
       ]
     },
@@ -402,7 +302,7 @@
         "venture-capital"
       ],
       "firstSeenAt": "2026-06-04T11:10:03Z",
-      "updatedAt": "2026-06-04T11:10:03Z",
+      "updatedAt": "2026-06-04T17:11:21Z",
       "perspectives": [
         {
           "lean": "center",
@@ -463,13 +363,6 @@
           "keyFraming": "Nvidia extends its data-center dominance into custom CPUs aimed at agentic AI workloads.",
           "summary": "Bloomberg reported Jensen Huang naming Anthropic, OpenAI and SpaceX as first Vera users at Computex. Vera's custom Olympus cores replace Arm Neoverse and target agentic workloads, and Oracle committed to hundreds of thousands of units from 2026, deepening Nvidia's full-stack position.",
           "sources": [
-            {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-says-anthropic-openai-among-big-users-of-new-vera-chip",
-              "title": "Nvidia says Anthropic, OpenAI among users of new Vera chip",
-              "publishedAt": "2026-06-01T18:00:00Z",
-              "allSidesRating": "center"
-            },
             {
               "outlet": "NVIDIA Blog",
               "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
