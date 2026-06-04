@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-03T23:01:39Z",
+  "lastUpdated": "2026-06-04T05:10:11Z",
   "stories": [
     {
       "id": "dow-50k-sp500-ninth-week-record-2026-05-31",
@@ -125,8 +125,8 @@
     },
     {
       "id": "oil-sunday-tick-iran-deal-uncertainty-2026-06-01",
-      "headline": "Brent ticks to ~$93, WTI to ~$90 in Sunday electronic trade as Iran-deal uncertainty and Lebanon offensive lift war premium",
-      "summary": "OilPrice.com spot showed Brent near $93.37 (+2.47%) and WTI near $89.85 (+2.85%) in Sunday electronic trade, both well above Friday's New York close of $92.56 and $87.20. The bid reflects uncertainty over Trump's withheld Iran-ceasefire sign-off and Israel's deepening Lebanon operation, with seven OPEC+ producers due to meet June 7 to set July output. Wholesale RBOB gasoline rose ~2.5% to $3.11/gal; heating oil and natural gas each up about 2.4–2.9%.",
+      "headline": "Oil holds near multi-month highs as Iran-deal uncertainty and OPEC+ supply decision sustain the war premium",
+      "summary": "Crude held near multi-month highs into June 3, with WTI settling around $96 and Brent near $98 — each up roughly 2% on the day — as Israeli and US officials signaled readiness for renewed strikes on Iran and US crude inventories posted a sixth straight weekly draw. The bid reflects persistent uncertainty over a stalled Iran ceasefire and Israel's Lebanon operation, with OPEC+ producers due to meet June 7 to set July output.",
       "category": "markets",
       "importance": 3,
       "tags": [
@@ -135,22 +135,21 @@
         "wti",
         "iran",
         "lebanon",
-        "opec",
-        "rbob"
+        "opec"
       ],
       "firstSeenAt": "2026-06-01T04:45:00Z",
-      "updatedAt": "2026-06-01T14:05:35Z",
+      "updatedAt": "2026-06-04T05:10:11Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Electronic-trade framing: weekend bid on Brent/WTI says the market is hedging against an Iran-deal collapse and a wider Lebanon war.",
-          "summary": "OilPrice.com Sunday spot quotes show Brent and WTI both rebounding from Friday's close — Brent +$2.06 to $93.26, WTI +$2.27 to $89.72 — with downstream products and natural gas moving in tandem. The bid coincides with Trump's unresolved Iran framework and IDF operations beyond the Litani; both raise the probability that the May war premium does not unwind.",
+          "keyFraming": "A geopolitical risk premium stays embedded as escalation rhetoric and falling US inventories keep crude bid near multi-month highs.",
+          "summary": "CNBC reported WTI settling near $96 and Brent near $98 on June 3 as Netanyahu and Trump signaled willingness for further military action against Iran and EIA data showed a sixth consecutive weekly crude draw, the largest since February. With seven OPEC+ producers due to set July output on June 7, the market continued hedging against an Iran-deal collapse and a wider Lebanon war.",
           "sources": [
             {
-              "outlet": "OilPrice.com",
-              "url": "https://oilprice.com/oil-price-charts",
-              "title": "Oil Price Charts | OilPrice.com",
-              "publishedAt": "2026-06-01T04:45:00Z",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/03/oil-prices-trump-pushes-back-on-reports-us-iran-talks-collapsed.html",
+              "title": "Oil prices rise after Netanyahu tells CNBC Israel and U.S. prepared to attack Iran again if necessary",
+              "publishedAt": "2026-06-03T18:00:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -620,6 +619,92 @@
               "title": "Broadcom Q2 Net Profit Surges 88% YoY, But Shares Slump 8% After Hours",
               "publishedAt": "2026-06-03T21:30:00Z",
               "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-futures-fall-broadcom-crowdstrike-2026-06-04",
+      "headline": "US stock futures slip again as Broadcom sinks and CrowdStrike disappoints, extending the Iran-driven pullback",
+      "summary": "After Wall Street snapped a nine-day record streak on June 3 (S&P 500 -0.74% to 7,553.68; Nasdaq -0.89%; Dow -1.21%), US equity futures pointed lower again early June 4, with S&P 500 futures roughly -0.4% and Nasdaq-100 futures about -0.6%. Broadcom traded around 13% lower after its AI-chip guide undershot elevated hopes, and CrowdStrike fell about 10% after results, as renewed US-Iran tensions kept oil and Treasury yields elevated.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "stocks",
+        "futures",
+        "broadcom",
+        "crowdstrike",
+        "ai-stocks",
+        "iran"
+      ],
+      "firstSeenAt": "2026-06-04T05:10:11Z",
+      "updatedAt": "2026-06-04T05:10:11Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A one-two earnings disappointment compounds the Iran-driven risk-off, dragging futures lower despite strong underlying results.",
+          "summary": "CNBC reported S&P 500 futures down about 0.4% and Nasdaq-100 futures about 0.6% early June 4 after the index snapped its nine-session record run. Broadcom slid roughly 13% on a guide that undershot whisper numbers and CrowdStrike fell about 10% even after raising full-year guidance, illustrating how priced-for-perfection AI and security names react to anything short of a blowout.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/03/stock-market-today-live-updates.html",
+              "title": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates",
+              "publishedAt": "2026-06-04T01:30:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Froth meets fundamentals: blistering year-to-date runs left no margin for error, so even strong quarters drew profit-taking.",
+          "summary": "Market commentary framed the slides as valuation re-ratings after parabolic runs rather than demand problems, noting CrowdStrike entered earnings up roughly 64% year-to-date and still fell on a record net-new-ARR quarter, mirroring Broadcom's after-hours drop the prior evening.",
+          "sources": [
+            {
+              "outlet": "The Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/06/03/crowdstrike-crwd-q1-2027-earnings-transcript/",
+              "title": "CrowdStrike (CRWD) Q1 2027 Earnings Transcript",
+              "publishedAt": "2026-06-03T22:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike-q1-fy27-earnings-selloff-2026-06-03",
+      "headline": "CrowdStrike posts record Q1 net-new ARR and raises guidance, but shares drop about 10% on priced-in expectations",
+      "summary": "CrowdStrike reported fiscal Q1 2027 revenue of $1.39 billion, up 26% — a fourth straight quarter of acceleration — and a record Q1 net-new ARR of $256 million, up 32%. It raised full-year revenue guidance to about $5.92-$5.96 billion. Despite the beat-and-raise, shares fell roughly 9-10% in reaction, with the stock having run up about 64% year-to-date into the print.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "earnings",
+        "crowdstrike",
+        "crwd",
+        "cybersecurity",
+        "guidance"
+      ],
+      "firstSeenAt": "2026-06-04T05:10:11Z",
+      "updatedAt": "2026-06-04T05:10:11Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A beat-and-raise wasn't enough: a richly valued security leader sold off because expectations had already run ahead of even strong results.",
+          "summary": "Total revenue rose 26% to $1.39 billion and net-new ARR hit a Q1 record $256 million (up 32%), with full-year revenue guided to about $5.9 billion. The roughly 10% drop is attributed to a stock that had already priced in acceleration after a 64% year-to-date run, echoing the Broadcom reaction the same evening.",
+          "sources": [
+            {
+              "outlet": "The Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/06/03/crowdstrike-crwd-q1-2027-earnings-transcript/",
+              "title": "CrowdStrike (CRWD) Q1 2027 Earnings Transcript",
+              "publishedAt": "2026-06-03T22:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "SEC (CrowdStrike 8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000022/crwd-20260603xex991.htm",
+              "title": "CrowdStrike Holdings, Inc. — Form 8-K (Q1 FY2027 results)",
+              "publishedAt": "2026-06-03T20:05:00Z",
+              "allSidesRating": null
             }
           ]
         }
