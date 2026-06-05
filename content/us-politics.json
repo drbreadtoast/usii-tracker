@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-05T11:09:49Z",
+  "lastUpdated": "2026-06-05T17:09:43Z",
   "stories": [
     {
       "id": "california-governor-primary-preview-2026-06-01",
@@ -23,13 +23,6 @@
           "sources": [
             {
               "outlet": "CalMatters",
-              "url": "https://calmatters.org/politics/2026/06/primary-election-california-governor/",
-              "title": "California votes in most uncertain governor's primary in years",
-              "publishedAt": "2026-06-02T12:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CalMatters",
               "url": "https://calmatters.org/politics/elections/2026/06/california-primary-election-results-june-2026/",
               "title": "California election results: Governor and key 2026 races",
               "publishedAt": "2026-06-02T20:00:00Z",
@@ -48,20 +41,6 @@
               "title": "Live updates: Republicans seek blue-state primary breakthroughs in key 2026 races",
               "publishedAt": "2026-06-02T18:00:00Z",
               "allSidesRating": "right"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "Official election administration: results posted after the 8pm PT poll close.",
-          "summary": "The California Secretary of State's office page for the June 2, 2026 primary provides the official ballot information and results, which began updating after polls closed at 8pm Pacific, including the marquee top-two gubernatorial race and down-ballot contests.",
-          "sources": [
-            {
-              "outlet": "California Secretary of State",
-              "url": "https://www.sos.ca.gov/elections/upcoming-elections/primary-election-june-2-2026",
-              "title": "Primary Election - June 2, 2026",
-              "publishedAt": "2026-06-02T16:00:00Z",
-              "allSidesRating": null
             }
           ]
         }
@@ -115,159 +94,6 @@
       ],
       "firstSeenAt": "2026-06-02T05:10:26Z",
       "updatedAt": "2026-06-03T05:10:02Z"
-    },
-    {
-      "id": "trump-ai-executive-order-2026-06-02",
-      "headline": "Trump signs scaled-back AI order seeking voluntary pre-release review of frontier models",
-      "summary": "President Trump signed an executive order June 2 creating a voluntary framework for AI companies to submit their most powerful new models for federal review up to 30 days before public release, and directing the Pentagon, Treasury and CISA to harden critical-infrastructure cybersecurity. The order explicitly bars mandatory licensing or pre-clearance and is narrower than a stricter draft he shelved in late May over China-competitiveness concerns.",
-      "category": "us-politics",
-      "importance": 4,
-      "tags": [
-        "trump",
-        "executive-order",
-        "artificial-intelligence",
-        "tech-policy",
-        "cybersecurity"
-      ],
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A voluntary 30-day review mechanism and a climbdown from a stricter earlier draft.",
-          "summary": "CNBC and CBS News report the order asks leading AI firms to voluntarily share frontier models with the government before launch and tasks federal agencies with shoring up cyber defenses. It was narrowed from a 90-day-review draft Trump shelved after warning tougher rules could hurt US competitiveness against China, and it bars any mandatory pre-clearance.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html",
-              "title": "Trump signs AI executive order asking companies to give government early access to models",
-              "publishedAt": "2026-06-02T15:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/trump-ai-executive-order/",
-              "title": "Trump signs AI executive order to give government early look at new models",
-              "publishedAt": "2026-06-02T16:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "A no-teeth, voluntary order signed quietly after industry and competitiveness pushback.",
-          "summary": "NBC News and the Washington Post stress the order was signed without the usual ceremony and relies entirely on voluntary cooperation from Anthropic, OpenAI and Google, with no mandatory review — a retreat from the stricter version Trump canceled. Critics see a light-touch approach that favors industry over enforceable safety guardrails.",
-          "sources": [
-            {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/tech/tech-news/trump-ai-executive-order-rcna348072",
-              "title": "Trump signs order seeking early access to powerful AI models before their release",
-              "publishedAt": "2026-06-02T15:30:00Z",
-              "allSidesRating": "lean-left"
-            },
-            {
-              "outlet": "Washington Post",
-              "url": "https://www.washingtonpost.com/technology/2026/06/02/trump-signs-order-designed-give-government-early-look-powerful-ai-models/",
-              "title": "Trump signs order designed to give government early look at powerful AI models",
-              "publishedAt": "2026-06-02T16:30:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Pro-innovation framing: the order avoids heavy mandates to keep US AI ahead of China.",
-          "summary": "Axios frames the order as Trump dodging binding AI rules for now, deliberately avoiding a mandatory licensing or pre-clearance regime and casting the voluntary 30-day review and cybersecurity directives as protecting American AI leadership against Chinese rivals while still vetting frontier models for safety.",
-          "sources": [
-            {
-              "outlet": "Axios",
-              "url": "https://www.axios.com/2026/06/02/trump-signs-new-ai-executive-order",
-              "title": "Trump dodges AI rules for now with latest executive order",
-              "publishedAt": "2026-06-02T14:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "The White House frames the action as promoting advanced AI innovation and security.",
-          "summary": "The presidential action, titled 'Promoting Advanced Artificial Intelligence Innovation and Security,' establishes a voluntary federal review pathway for the most capable new models and directs agencies including the Defense Department, Treasury and CISA to strengthen protection of critical infrastructure against AI-enabled threats.",
-          "sources": [
-            {
-              "outlet": "The White House",
-              "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-              "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
-              "publishedAt": "2026-06-02T17:00:00Z",
-              "allSidesRating": null
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-02T17:10:19Z",
-      "updatedAt": "2026-06-02T17:10:19Z"
-    },
-    {
-      "id": "kathleen-lane-montana-judge-2026-06-02",
-      "headline": "Senate advances Trump's Montana judicial pick Kathleen Lane despite an ABA 'not qualified' rating",
-      "summary": "The Senate moved toward confirming Kathleen 'Katie' Lane as a US District Judge for Montana after advancing her on a near-party-line 50-44 vote June 1. Lane, an RNC lawyer and former Montana deputy solicitor general, is the first Trump second-term judicial nominee the American Bar Association rated 'not qualified,' citing insufficient trial experience. Democrats led by Sen. Dick Durbin opposed the lifetime appointment.",
-      "category": "us-politics",
-      "importance": 3,
-      "tags": [
-        "senate",
-        "judiciary",
-        "judicial-nominations",
-        "trump",
-        "montana"
-      ],
-      "perspectives": [
-        {
-          "lean": "government",
-          "keyFraming": "The Senate floor calendar formalizes the contested confirmation vote.",
-          "summary": "The US Senate's daily floor schedule lists action on the Lane nomination, reflecting Republican leadership's push to keep confirming district-court picks at pace. Procedurally the cloture vote cleared 50-44, setting up final confirmation despite the unanimous Democratic opposition led by Judiciary ranking member Dick Durbin.",
-          "sources": [
-            {
-              "outlet": "U.S. Senate Periodical Press Gallery",
-              "url": "https://www.dailypress.senate.gov/tuesday-june-2-2026/",
-              "title": "Tuesday, June 2, 2026 — Senate Floor Schedule",
-              "publishedAt": "2026-06-02T12:00:00Z",
-              "allSidesRating": null
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-02T17:10:19Z",
-      "updatedAt": "2026-06-02T17:10:19Z"
-    },
-    {
-      "id": "transgender-military-ban-appeals-court-2026-06-01",
-      "headline": "Divided DC Circuit panel rules Trump's transgender military ban unlawful, blocking removal of serving troops",
-      "summary": "A divided US Court of Appeals for the DC Circuit ruled June 1 that the Trump administration's policy barring transgender people from military service is unconstitutional, calling it 'arbitrary and based upon animus.' The 2-1 decision blocks the Pentagon from expelling currently serving transgender troops named in the suit but leaves restrictions on new recruits in place. Defense Secretary Pete Hegseth said he will appeal to the Supreme Court.",
-      "category": "us-politics",
-      "importance": 4,
-      "tags": [
-        "courts",
-        "dc-circuit",
-        "transgender",
-        "military",
-        "hegseth",
-        "scotus"
-      ],
-      "perspectives": [
-        {
-          "lean": "government",
-          "keyFraming": "Centers the administration's defiant promise to take the fight to the Supreme Court.",
-          "summary": "The Hill reports Defense Secretary Pete Hegseth responded to the ruling by vowing to appeal — 'see you at SCOTUS' — signaling the administration will ask the Supreme Court to reinstate the policy barring transgender people from military service.",
-          "sources": [
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/policy/defense/5905031-defense-secretary-transgender-ban-appeal/",
-              "title": "Hegseth says 'see you at SCOTUS' after appeals court rules against transgender troop ban",
-              "publishedAt": "2026-06-02T13:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-02T23:02:04Z",
-      "updatedAt": "2026-06-02T23:02:04Z"
     },
     {
       "id": "pulte-acting-dni-replaces-gabbard-2026-06-02",
@@ -421,31 +247,10 @@
       ],
       "perspectives": [
         {
-          "lean": "government",
-          "keyFraming": "Official AG and governor framing: an unlawful giveaway of public value to kill a clean-energy project.",
-          "summary": "New York Attorney General Letitia James's office says the seven-state suit challenges the administration's cancellation of the New York Bight lease and the roughly $795 million paid to TotalEnergies, arguing the reversal of years of federal approvals on new 'national security' grounds was arbitrary and unlawful.",
-          "sources": [
-            {
-              "outlet": "NY Attorney General",
-              "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-challenging-unlawful",
-              "title": "Attorney General James and Governor Hochul Announce Lawsuit Challenging Unlawful Trump Administration Wind Deal",
-              "publishedAt": "2026-06-02T15:00:00Z",
-              "allSidesRating": "left"
-            }
-          ]
-        },
-        {
           "lean": "right",
           "keyFraming": "Frames blue states as suing to defend an uneconomic wind project against the administration.",
           "summary": "The Washington Examiner and PJ Media report that Democratic-led states sued over the offshore-wind lease cancellation, casting the litigation as coastal Democrats fighting to revive a costly project the administration moved to wind down in favor of conventional energy investment.",
           "sources": [
-            {
-              "outlet": "Washington Examiner",
-              "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4591272/democratic-states-sue-trump-cancellation-new-york-offshore-wind-lease/",
-              "title": "Democratic states sue Trump administration over cancellation of New York offshore wind lease",
-              "publishedAt": "2026-06-02T17:00:00Z",
-              "allSidesRating": "right"
-            },
             {
               "outlet": "PJ Media",
               "url": "https://pjmedia.com/david-manney/2026/06/02/new-york-sues-to-save-a-costly-wind-dream-n4953506",
@@ -1471,6 +1276,66 @@
               "outlet": "Washington Examiner",
               "url": "https://www.washingtonexaminer.com/news/white-house/4594195/unions-trump-order-federal-workers-at-will/",
               "title": "Unions condemn Trump order making federal workers 'at-will' employees",
+              "publishedAt": "2026-06-04T18:00:00Z",
+              "allSidesRating": "lean-right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "save-act-fails-senate-2026-06-04",
+      "headline": "SAVE America Act voter-citizenship overhaul fails in Senate as four Republicans again join Democrats",
+      "summary": "Trump's top-priority SAVE America Act — requiring documentary proof of citizenship to register and photo ID to vote — failed as a Senate amendment to the immigration-funding bill on June 4. Sens. Collins, McConnell, Murkowski and Tillis joined every Democrat to block it, the second time the same four Republicans sank the measure. Trump had vowed to sign no other legislation until it passed, triggering MAGA backlash.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": [
+        "save-act",
+        "voter-id",
+        "senate",
+        "elections",
+        "trump"
+      ],
+      "firstSeenAt": "2026-06-05T17:09:43Z",
+      "updatedAt": "2026-06-05T17:09:43Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Framed as a bipartisan check on a measure critics call voter suppression that could disenfranchise eligible citizens lacking documents.",
+          "summary": "Left-leaning coverage emphasized that four Republicans joined all Democrats to block a proof-of-citizenship and photo-ID mandate they argue would burden married women, rural and lower-income voters, and noted the MAGA fury the defections unleashed.",
+          "sources": [
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/04/nx-s1-5751145/save-act-senate-vote-trump",
+              "title": "SAVE Act, Republicans' voting overhaul, fails in the Senate",
+              "publishedAt": "2026-06-04T22:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "Newsweek",
+              "url": "https://www.newsweek.com/republicans-revolt-against-trump-save-act-vote-spark-maga-fury-murkowski-mcconnell-tillis-collins-12035123",
+              "title": "Republicans Revolt Against Trump Again With SAVE Act Vote, Spark MAGA Fury",
+              "publishedAt": "2026-06-04T21:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Framed as four Republicans betraying Trump and election-integrity by killing a citizenship-verification bill the base sees as essential before November.",
+          "summary": "Conservative coverage cast the same four senators as obstructing Trump's signature election-integrity priority, warning the failure damages GOP prospects in 2026 and amplifying base anger at Collins, McConnell, Murkowski and Tillis.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/politics/four-senate-republicans-unite-dems-block-trumps-save-america-act",
+              "title": "Four Senate Republicans again vote to kill Trump's SAVE Act voter ID bill",
+              "publishedAt": "2026-06-04T20:00:00Z",
+              "allSidesRating": "lean-right"
+            },
+            {
+              "outlet": "Washington Examiner",
+              "url": "https://www.washingtonexaminer.com/in_focus/4524450/save-america-act-failure-gop-down-bigly-2026-elections/",
+              "title": "If the SAVE America Act fails, GOP will go down bigly in November",
               "publishedAt": "2026-06-04T18:00:00Z",
               "allSidesRating": "lean-right"
             }
