@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-04T23:01:51Z",
+  "lastUpdated": "2026-06-05T05:09:48Z",
   "stories": [
     {
       "id": "california-governor-primary-preview-2026-06-01",
@@ -872,7 +872,7 @@
         "trump"
       ],
       "firstSeenAt": "2026-06-04T05:10:11Z",
-      "updatedAt": "2026-06-04T05:10:11Z",
+      "updatedAt": "2026-06-05T05:09:48Z",
       "perspectives": [
         {
           "lean": "left",
@@ -946,7 +946,7 @@
         "trump-endorsement"
       ],
       "firstSeenAt": "2026-06-04T05:10:11Z",
-      "updatedAt": "2026-06-04T05:10:11Z",
+      "updatedAt": "2026-06-05T05:09:48Z",
       "perspectives": [
         {
           "lean": "center",
@@ -958,13 +958,6 @@
               "url": "https://thehill.com/homenews/campaign/5907672-trump-iowa-primary-loss/",
               "title": "Iowa hands Trump first major statewide primary loss of 2026 in governor's race",
               "publishedAt": "2026-06-03T14:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "Iowa Capital Dispatch",
-              "url": "https://iowacapitaldispatch.com/2026/06/02/rep-randy-feenstra-concedes-to-zach-lahn-in-2026-iowa-gop-gubernatorial-primary/",
-              "title": "Rep. Randy Feenstra concedes to Zach Lahn in 2026 Iowa GOP gubernatorial primary",
-              "publishedAt": "2026-06-02T05:00:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -1351,7 +1344,7 @@
         "immigration"
       ],
       "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-04T23:01:51Z",
+      "updatedAt": "2026-06-05T05:09:48Z",
       "perspectives": [
         {
           "lean": "right",
@@ -1399,6 +1392,80 @@
               "title": "Senate Pushes Ahead with $70 Billion More for ICE and CBP, Excluding Accountability Measures",
               "publishedAt": "2026-06-03T20:00:00Z",
               "allSidesRating": "lean-left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trump-schedule-policy-career-eo-workforce-2026-06-04",
+      "headline": "Trump signs order moving ~8,000 federal jobs into 'Schedule Policy/Career,' stripping firing protections",
+      "summary": "Trump signed an executive order reclassifying roughly 8,000 policy-influencing federal positions into a new 'Schedule Policy/Career' category, exempting them from standard adverse-action and appeal procedures and making removal far easier. The White House said removals will be made without regard to political affiliation. Federal unions condemned the move and have litigation pending.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": [
+        "executive-order",
+        "civil-service",
+        "federal-workforce",
+        "schedule-f",
+        "unions"
+      ],
+      "firstSeenAt": "2026-06-05T05:09:48Z",
+      "updatedAt": "2026-06-05T05:09:48Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Trump revived a Schedule F-style overhaul, converting thousands of career employees to near at-will status.",
+          "summary": "The order places about 8,000 career workers in policy roles into a classification allowing removal for poor performance or misconduct without the usual appeal protections. The administration finalized the underlying rule earlier this year; unions argue it conflicts with civil-service law, and lawsuits are pending.",
+          "sources": [
+            {
+              "outlet": "Government Executive",
+              "url": "https://www.govexec.com/workforce/2026/06/trump-federal-employees-schedule-f/413945/",
+              "title": "Trump signs order moving thousands of federal employees into Schedule F",
+              "publishedAt": "2026-06-04T17:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Federal News Network",
+              "url": "https://federalnewsnetwork.com/workforce/2026/06/trump-moves-about-8000-federal-positions-to-schedule-policy-career/",
+              "title": "Trump moves about 8,000 federal positions to Schedule Policy/Career",
+              "publishedAt": "2026-06-04T16:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "The order restores accountability by letting agencies fire underperforming policy officials shielded by red tape.",
+          "summary": "Conservative coverage framed the order as enhancing accountability for 'policy-influencing' employees, arguing entrenched civil servants obstruct the elected president's agenda. The White House stressed the positions remain 'career' and that removals will not consider political affiliation.",
+          "sources": [
+            {
+              "outlet": "American Greatness",
+              "url": "https://amgreatness.com/2026/06/04/trump-signs-executive-order-to-facilitate-firing-federal-employees/",
+              "title": "Trump Signs Executive Order to Facilitate Firing Federal Employees",
+              "publishedAt": "2026-06-04T15:00:00Z",
+              "allSidesRating": "right"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Unions warn the order guts whistleblower protections and lets political appointees fire civil servants 'at will.'",
+          "summary": "Union leaders said workers can now be fired 'at will' with essentially no appeal safeguards, warning employees who report waste, fraud and abuse will fear retaliation. Critics contend the change weakens merit-based protections and violates federal law.",
+          "sources": [
+            {
+              "outlet": "Time",
+              "url": "https://time.com/article/2026/06/04/trump-executive-order-schedule-policy-career-classification-fire-federal-workers-at-will/",
+              "title": "Trump Makes It Easier to Fire Thousands of Federal Workers",
+              "publishedAt": "2026-06-04T13:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Washington Examiner",
+              "url": "https://www.washingtonexaminer.com/news/white-house/4594195/unions-trump-order-federal-workers-at-will/",
+              "title": "Unions condemn Trump order making federal workers 'at-will' employees",
+              "publishedAt": "2026-06-04T18:00:00Z",
+              "allSidesRating": "lean-right"
             }
           ]
         }
