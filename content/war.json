@@ -1,6 +1,6 @@
 {
   "sectionId": "war",
-  "lastUpdated": "2026-06-05T05:09:48Z",
+  "lastUpdated": "2026-06-05T11:09:49Z",
   "stories": [
     {
       "id": "russia-massive-barrage-kyiv-dnipro-2026-06-02",
@@ -42,21 +42,6 @@
               "title": "In photos: Russia launches a massive drone and missile strike on Ukraine",
               "publishedAt": "2026-06-02T13:00:00Z",
               "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "foreign-eastern",
-          "keyFraming": "Russian state framing casts the barrage as a 'high-precision' retaliatory strike on military targets, omitting civilian casualties.",
-          "summary": "TASS, relaying the Russian Defense Ministry and Kremlin, frames the overnight barrage as a retaliatory high-precision strike on Ukrainian military-industrial, fuel and energy sites in response to Kyiv 'terrorist acts,' making no mention of the residential buildings hit or the civilian dead reported by Ukrainian and Western outlets.",
-          "sources": [
-            {
-              "outlet": "TASS",
-              "url": "https://tass.com/politics/1969765",
-              "title": "Last night's strike on military targets in Ukraine comes in response to Kiev — Kremlin",
-              "publishedAt": "2026-06-02T08:00:00Z",
-              "allSidesRating": "right",
-              "isStateMedia": true
             }
           ]
         }
@@ -671,8 +656,8 @@
     },
     {
       "id": "israel-lebanon-hezbollah-rejects-ceasefire-2026-06-04",
-      "headline": "Hezbollah rejects US-brokered Israel-Lebanon ceasefire as both sides trade fresh strikes",
-      "summary": "Hezbollah rejected the US-brokered ceasefire that Israel and Lebanon had agreed, with leader Naim Kassem calling the demand for fighters to leave southern Lebanon under fire 'surrender' and 'defeat.' Lebanese President Joseph Aoun urged acceptance, calling the deal a 'last chance' for a comprehensive truce. Strikes continued on June 4, with Hezbollah claiming hits on Israeli forces near Qantara and Qana and the IDF vowing to keep targeting the group's infrastructure.",
+      "headline": "Hezbollah rejects US-brokered Israel-Lebanon ceasefire as 'a farce'; Israeli strikes continue",
+      "summary": "Hezbollah leader Naim Qassem rejected the US-brokered ceasefire that Israel and Lebanon had agreed, calling it 'a farce' and 'a roadmap to annihilate part of the Lebanese people' and demanding full Israeli withdrawal first. Lebanese President Joseph Aoun urged acceptance, calling the deal a 'last chance.' Israeli strikes continued through June 5, with fresh deaths reported; Lebanon's health ministry says 3,526 have been killed since March 2.",
       "category": "war",
       "importance": 5,
       "tags": [
@@ -680,36 +665,57 @@
         "lebanon",
         "hezbollah",
         "ceasefire",
-        "kassem",
+        "qassem",
         "aoun"
       ],
       "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-05T05:09:48Z",
+      "updatedAt": "2026-06-05T11:09:49Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "The ceasefire is collapsing over the sequencing of an Israeli withdrawal versus Hezbollah disarmament.",
-          "summary": "Centrist reporting frames Hezbollah's rejection as imperiling the US-brokered deal, with the sticking point being whether Israel withdraws before Hezbollah pulls fighters from the south, as both sides exchange fresh fire.",
+          "keyFraming": "Both governments agreed; the militia that does the fighting did not, leaving the deal dead on arrival.",
+          "summary": "Centrist reporting frames Hezbollah's rejection as imperiling the US-brokered deal, which would create 'pilot zones' south of the Litani under exclusive Lebanese Army control in exchange for an IDF withdrawal. The sticking point is sequencing — whether Israel withdraws before Hezbollah pulls fighters from the south — as both sides exchange fresh fire.",
           "sources": [
             {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/04/g-s1-125942/israel-lebanon-ceasefire",
-              "title": "Hezbollah rejects ceasefire deal agreed on by Israel and Lebanon",
-              "publishedAt": "2026-06-04T15:00:00Z",
+              "outlet": "TIME",
+              "url": "https://time.com/article/2026/06/04/hezbollah-rejects-israel-lebanon-ceasefire-agreement-strikes/",
+              "title": "Israel and Hezbollah Trade Fresh Strikes as Militant Group Rejects Cease-Fire Plan",
+              "publishedAt": "2026-06-04T18:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Axios",
+              "url": "https://www.axios.com/2026/06/03/israel-lebanon-ceasefire-hezbollah-us",
+              "title": "Israel, Lebanon agree to full ceasefire, but Hezbollah rejects it",
+              "publishedAt": "2026-06-03T22:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "foreign-western",
-          "keyFraming": "Israel and Hezbollah trade fresh strikes hours after the announcement, testing a fragile truce.",
-          "summary": "Western outlets report continued strikes on June 4 even as the militant group rejects the plan, with the IDF warning south-Lebanon residents it will keep targeting Hezbollah infrastructure and Hezbollah claiming attacks on Israeli forces.",
+          "keyFraming": "Israel says it will keep operating 'as planned' and has threatened Beirut if rocket fire on its cities continues.",
+          "summary": "Israeli officials framed the deal as conditional on Hezbollah disarming south of the Litani, with continued strikes on June 4-5 and warnings of action against Beirut. Trump claimed progress on the Lebanon track and said Hezbollah had not formally rejected the offer.",
           "sources": [
             {
-              "outlet": "TIME",
-              "url": "https://time.com/7299900/hezbollah-rejects-israel-lebanon-ceasefire-agreement-strikes/",
-              "title": "Israel and Hezbollah Trade Fresh Strikes as Militant Group Rejects Cease-Fire Plan",
-              "publishedAt": "2026-06-04T14:00:00Z",
+              "outlet": "Times of Israel",
+              "url": "https://www.timesofisrael.com/liveblog-june-4-2026/",
+              "title": "June 4: Trump says progress on Lebanon ceasefire, claims Hezbollah did not reject offer",
+              "publishedAt": "2026-06-04T20:00:00Z",
+              "allSidesRating": "lean-right"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "A ceasefire that demands Hezbollah retreat under fire is cast as surrender; Arab coverage centers continued Lebanese deaths.",
+          "summary": "Al Jazeera framed continued Israeli strikes — with deaths and fresh evacuation orders on June 4-5 — as undermining the deal, while Qassem cast a withdrawal-under-attack as capitulation. Coverage emphasizes the civilian toll and Lebanon's demand for a full Israeli pullout before any Hezbollah pullback.",
+          "sources": [
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/5/iran-war-day-98-tehran-raises-doubts-on-deal-as-lebanon-fighting-continues",
+              "title": "Iran war day 98: Tehran raises doubts on deal as Lebanon fighting continues",
+              "publishedAt": "2026-06-05T08:00:00Z",
               "allSidesRating": "lean-left"
             }
           ]
@@ -778,6 +784,82 @@
               "url": "https://tass.com/politics/2140963",
               "title": "Report to Putin on bus strike, SPIEF agenda: Peskov's statements",
               "publishedAt": "2026-06-03T18:00:00Z",
+              "allSidesRating": null,
+              "isStateMedia": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ukraine-zelensky-open-letter-putin-talks-2026-06-05",
+      "headline": "Zelensky publishes open letter to Putin proposing front-line ceasefire and a summit; Putin vows only to bolster air defenses",
+      "summary": "On June 4 Zelensky published an open letter to Putin — his first direct public address to the Russian leader since 2022 — proposing talks from the current front line, a full ceasefire under US monitoring, an 'all-for-all' prisoner exchange, and a neutral-hosted summit. The Kremlin said it would respond later. Speaking June 5, Putin answered recent Ukrainian drone strikes by saying Russia would 'strengthen' its air defenses rather than retaliate directly.",
+      "category": "war",
+      "importance": 5,
+      "tags": [
+        "ukraine",
+        "russia",
+        "zelensky",
+        "putin",
+        "diplomacy",
+        "drones"
+      ],
+      "firstSeenAt": "2026-06-05T11:09:49Z",
+      "updatedAt": "2026-06-05T11:09:49Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Ukraine pivots to a public diplomatic offensive after its deep strikes, reframing Kyiv as the side seeking talks.",
+          "summary": "Zelensky's letter proposes a front-line freeze, US-monitored ceasefire and neutral-host summit, while Moscow stays non-committal. Reporting casts it as a notable shift in posture following Ukraine's damaging long-range drone campaign against Russian airfields.",
+          "sources": [
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-04/ukraine-s-zelenskyy-proposes-peace-talks-in-open-letter-to-putin",
+              "title": "Ukraine's Zelenskyy Calls for Peace Talks With Russia in Letter to Putin",
+              "publishedAt": "2026-06-04T16:00:00Z",
+              "allSidesRating": "lean-left"
+            },
+            {
+              "outlet": "Kyiv Post",
+              "url": "https://www.kyivpost.com/post/77535",
+              "title": "'Enough War': Zelensky Calls Putin to Direct Talks and Monitored Ceasefire",
+              "publishedAt": "2026-06-04T15:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Putin answers Ukrainian drones with defense, not threats — for now — even as he commands the SPIEF stage.",
+          "summary": "Western coverage notes Putin acknowledged Ukrainian drones 'break through' and pledged to improve air defense, a comparatively restrained public posture amid his St. Petersburg forum showcase and Kyiv's June 3 strike on a city oil terminal.",
+          "sources": [
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/05/g-s1-126268/russia-ukraine-war",
+              "title": "Putin says Russia will bolster air defenses in response to Ukrainian drone attacks",
+              "publishedAt": "2026-06-05T09:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/world/putin-says-russia-will-bolster-its-air-defenses-against-ukraines-long-range-drone-strikes",
+              "title": "Putin says Russia will bolster its air defenses against Ukraine's long-range drone strikes",
+              "publishedAt": "2026-06-05T10:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Russian state framing centers Putin's authority and the forum's success, treating Ukrainian strikes as containable.",
+          "summary": "State media foregrounds Putin's plenary appearance and economic agenda, downplaying the drone damage and presenting the Kremlin as negotiating from strength rather than responding to Kyiv's overtures.",
+          "sources": [
+            {
+              "outlet": "TASS",
+              "url": "https://tass.com/economy/2142043",
+              "title": "Putin to speak at SPIEF plenary session",
+              "publishedAt": "2026-06-04T12:00:00Z",
               "allSidesRating": null,
               "isStateMedia": true
             }
