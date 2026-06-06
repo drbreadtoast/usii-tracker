@@ -13,8 +13,8 @@ cat .claude/commands/refresh.md
 Follow every phase exactly as written:
 
 - **PHASE 0** — Preflight (git pull, read tails not full files)
-- **PHASE 1** — Spawn 5 parallel research subagents (Politics, Foreign+War, Markets+Tech, Underreported, Live data)
-- **PHASE 2** — Write content in priority order (CRITICAL → HIGH → MEDIUM → OPTIONAL)
+- **PHASE 1** — Spawn 5 parallel research subagents (Politics, Foreign+War, Markets+Tech, Underreported, Live data). Foreign+War also maintains the war-cost + Foreign Influence trackers; Markets+Tech maintains the oil tracker.
+- **PHASE 2** — Write content in priority order (CRITICAL → HIGH → MEDIUM → OPTIONAL → trackers + Foreign Influence → manifest)
 - **PHASE 3** — Verify (`npm run verify`) → Validate (`npm run validate`) → Build (`npm run build`) → Commit + push
 
 The slash command is more comprehensive than this pointer. Do not skip reading it.

@@ -26,7 +26,13 @@ content/                   # JSON content files updated by the agent
   markets.json
   ai-tech.json
   war.json
+  foreign-influence.json
   underreported.json
+  trackers/                # Structured metric trackers (own schema + loader)
+    schema.json
+    oil.json               # Follow the Oil page
+    war-cost.json          # /war Daily War Cost panel
+    israel-funding.json    # Foreign Influence funding tables
 lib/                       # Types, content loader, bias map
 scripts/
   validate-content.ts      # Validates all content against the schema
@@ -52,9 +58,9 @@ SKIP_URL_CHECK=1 SKIP_FRESHNESS=1 npm run validate   # offline / seed content
 
 Validation runs:
 - JSON parses
-- Schema conformance (per file)
+- Schema conformance (per file, plus the trackers against `content/trackers/schema.json`)
 - Source URL reachability (404/410 fails; 401/403 is a warning)
-- `publishedAt` within 72h
+- `publishedAt` within 72h (documentary sections like Foreign Influence are exempt)
 - `manifest.sections.{name}.storyCount` matches actual story count
 
 ## Build & deploy

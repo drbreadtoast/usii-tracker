@@ -312,13 +312,14 @@ If it fails:
 npm run validate
 ```
 
-Runs 8 sections of checks. Read the output. Fix every ERROR; review every WARNING.
+Runs 9 sections of checks (including the TRACKERS section). Read the output. Fix every ERROR; review every WARNING.
 
 Common error fixes:
 - **Schema error** — usually a missing required field. Read the message, jump to the file, add it.
 - **Duplicate ID** — happens when you mint a new ID that already exists. Inspect, rename the new one.
 - **`headlines.json` story not in section file** — make sure stories you put in `headlines.json` ALSO exist in their `category` section file.
 - **manifest count mismatch** — re-count `stories.length` per section, update manifest accordingly.
+- **Tracker schema error** — `content/trackers/*.json` must match `content/trackers/schema.json`: `keyFacts` are objects (not bare strings), the required blocks are present, and every `sourceUrl` is a real URL.
 - **404 on URL** — drop the source. Replace with another from your research notes.
 - **Stale `publishedAt`** — drop the source. Either find a more recent article or drop the perspective if it had only one source.
 
@@ -372,7 +373,7 @@ echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') FAIL validate=stale_url:<count>" >> logs/
 - [ ] Every story has perspectives from at least 2 different leans (3+ ideal); single-lean stories include a `Limited coverage` UI note
 - [ ] Every `source.url` is the specific article, not a homepage or section page
 - [ ] State-affiliated outlets (RT, TASS, Xinhua, CGTN, Sputnik, Global Times, Mehr News, IRNA, Press TV, KCNA) have `isStateMedia: true`
-- [ ] Every `publishedAt` is within 72h of now
+- [ ] Every news-source `publishedAt` is within 72h of now (the documentary **Foreign Influence** section is exempt — it cites votes, laws and filings that are older by design)
 - [ ] `manifest.lastUpdated`, every `section.lastUpdated`, every touched `story.updatedAt`, and `statements.lastUpdated` are all the EXACT `REFRESH_TS` captured in Phase 0a — character-for-character identical
 - [ ] `manifest.sections.{name}.storyCount` matches actual `stories.length` for every section
 - [ ] `content/foreign-influence.json` stories each include a `government` right-of-reply perspective; headlines stay neutral
