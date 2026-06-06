@@ -17,7 +17,7 @@ const GRID_CATEGORIES = [
   "markets",
   "ai-tech",
   "war",
-  "eyes-on-israel",
+  "foreign-influence",
   "underreported",
 ] as const;
 

@@ -36,7 +36,7 @@
         "markets",
         "ai-tech",
         "war",
-        "eyes-on-israel",
+        "foreign-influence",
         "underreported"
       ]
     },
@@ -163,7 +163,7 @@
             "markets": { "$ref": "#/definitions/sectionMeta" },
             "ai-tech": { "$ref": "#/definitions/sectionMeta" },
             "war": { "$ref": "#/definitions/sectionMeta" },
-            "eyes-on-israel": { "$ref": "#/definitions/sectionMeta" },
+            "foreign-influence": { "$ref": "#/definitions/sectionMeta" },
             "underreported": { "$ref": "#/definitions/sectionMeta" }
           },
           "required": [
@@ -173,7 +173,7 @@
             "markets",
             "ai-tech",
             "war",
-            "eyes-on-israel",
+            "foreign-influence",
             "underreported"
           ]
         }

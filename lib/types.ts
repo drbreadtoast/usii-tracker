@@ -5,7 +5,7 @@ export type Category =
   | "markets"
   | "ai-tech"
   | "war"
-  | "eyes-on-israel"
+  | "foreign-influence"
   | "underreported";
 
 export type Lean =
@@ -109,7 +109,7 @@ export const ALL_CATEGORIES: Category[] = [
   "markets",
   "ai-tech",
   "war",
-  "eyes-on-israel",
+  "foreign-influence",
   "underreported",
 ];
 
@@ -120,7 +120,7 @@ export const SECTION_LABELS: Record<Category, string> = {
   markets: "Markets & Economy",
   "ai-tech": "AI & Tech",
   war: "War & Conflict",
-  "eyes-on-israel": "Eyes on Israel",
+  "foreign-influence": "Foreign Influence",
   underreported: "Underreported",
 };
 
@@ -135,8 +135,8 @@ export const SECTION_DESCRIPTIONS: Record<Category, string> = {
   "ai-tech":
     "AI, semiconductors, regulation, labor impact, and the tech industry.",
   war: "Active armed conflicts and the diplomatic actions around them.",
-  "eyes-on-israel":
-    "Documented instances of Israeli influence on US policy — lobbying, legislation, and officials — every claim sourced, with responses included.",
+  "foreign-influence":
+    "Documented instances of foreign influence on US policy — lobbying, legislation, and officials — every claim sourced, with responses included.",
   underreported:
     "Stories covered abroad or by smaller outlets but missing from major US front pages.",
 };

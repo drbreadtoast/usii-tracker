@@ -2,7 +2,7 @@ import { getSection } from "@/lib/content";
 import { getIsraelFundingTracker } from "@/lib/trackers";
 import SectionBlock from "@/components/SectionBlock";
 import StaleBanner from "@/components/StaleBanner";
-import EoiIntro from "@/components/trackers/EoiIntro";
+import FundingDisclaimer from "@/components/trackers/FundingDisclaimer";
 import FundingOrgsPanel from "@/components/trackers/FundingOrgsPanel";
 import TopRecipientsTable from "@/components/trackers/TopRecipientsTable";
 import VotingCorrelationPanel from "@/components/trackers/VotingCorrelationPanel";
@@ -12,14 +12,14 @@ import TrackerSources from "@/components/trackers/TrackerSources";
 import { SECTION_LABELS } from "@/lib/types";
 
 export const metadata = {
-  title: SECTION_LABELS["eyes-on-israel"],
+  title: SECTION_LABELS["foreign-influence"],
   description:
-    "Documented instances of Israeli influence on US policy — lobbying, legislation, and officials — every claim sourced, with responses included.",
+    "Documented instances of foreign influence on US policy — lobbying, legislation, and officials — every claim sourced, with responses included.",
 };
 
-export default async function EyesOnIsraelPage() {
+export default async function ForeignInfluencePage() {
   const [section, funding] = await Promise.all([
-    getSection("eyes-on-israel"),
+    getSection("foreign-influence"),
     getIsraelFundingTracker(),
   ]);
 
@@ -31,16 +31,16 @@ export default async function EyesOnIsraelPage() {
 
       {/* Sourced influence incidents (each with a right-of-reply perspective). */}
       <SectionBlock
-        category="eyes-on-israel"
+        category="foreign-influence"
         stories={section.stories}
         fullPage
       />
 
-      {/* Pro-Israel funding tracker. */}
+      {/* Lobbying & funding tracker. */}
       <section className="mt-12 flex flex-col gap-6 border-t border-border pt-8">
         <header>
           <h2 className="font-serif text-2xl font-bold tracking-tight sm:text-3xl">
-            Pro-Israel funding in US politics
+            Lobbying &amp; funding in US politics
           </h2>
           <p className="mt-1 max-w-2xl text-sm leading-relaxed text-muted sm:text-base">
             Public campaign-finance and roll-call records, compiled from
@@ -48,7 +48,7 @@ export default async function EyesOnIsraelPage() {
           </p>
         </header>
 
-        <EoiIntro disclaimer={funding.disclaimer} />
+        <FundingDisclaimer disclaimer={funding.disclaimer} />
 
         <TrackerPanel title="Organizations" icon="🏛️">
           <FundingOrgsPanel orgs={funding.organizations} />

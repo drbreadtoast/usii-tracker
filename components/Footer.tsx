@@ -39,7 +39,7 @@ export default function Footer() {
                 <Link href={"/war" as never}>War</Link>
               </li>
               <li>
-                <Link href={"/eyes-on-israel" as never}>Eyes on Israel</Link>
+                <Link href={"/foreign-influence" as never}>Foreign Influence</Link>
               </li>
               <li>
                 <Link href={"/follow-the-oil" as never}>Follow the Oil</Link>

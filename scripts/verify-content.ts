@@ -41,7 +41,7 @@ const HIGH = [
 const MEDIUM = [
   "ai-tech.json",
   "underreported.json",
-  "eyes-on-israel.json",
+  "foreign-influence.json",
 ];
 
 // Tracker metric files (content/trackers/). Updated less often than the news
