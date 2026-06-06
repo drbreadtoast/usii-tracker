@@ -57,18 +57,24 @@ git pull --rebase origin main
 
 You need to know:
 - The current state declared in `manifest.json` (full read — small file)
-- The current schema in `content/schema.json` (full read — small file)
+- The current schemas in `content/schema.json` and `content/trackers/schema.json` (full read — small files)
 - The last few story IDs per section file (so continuing stories get the same id)
+- The current shape of the three tracker files (read in full below — small, and you rewrite values in place)
 
 For each of these, read the TAIL only:
 
 ```bash
-for f in headlines us-politics foreign markets ai-tech war underreported; do
+for f in headlines us-politics foreign markets ai-tech war eyes-on-israel underreported; do
   echo "--- $f.json (last 60 lines) ---"
   tail -60 "content/$f.json"
 done
 echo "--- statements.json (last 80 lines) ---"
 tail -80 content/statements.json 2>/dev/null || echo "(not present)"
+echo "--- trackers (full — small structured files you rewrite in place) ---"
+for t in oil war-cost israel-funding; do
+  echo "=== content/trackers/$t.json ==="
+  cat "content/trackers/$t.json"
+done
 ```
 
 **Never read the full section files.** They grow daily; reading them all blows out your context. The last 60 lines have the last 2-3 stories' IDs, which is all you need.
@@ -110,7 +116,7 @@ Send all five Agent calls in **one message** (one tool block, five Agent tool us
 
 ### Subagent B — Foreign Affairs & War
 
-**Owns:** `foreign.json`, `war.json`, foreign+war parts of `headlines.json`, foreign speakers in `statements.json`.
+**Owns:** `foreign.json`, `war.json`, foreign+war parts of `headlines.json`, foreign speakers in `statements.json`, the Iran–Israel–US war-cost tracker (`content/trackers/war-cost.json`), and the **Eyes on Israel** page — its incident feed (`content/eyes-on-israel.json`) and its funding tracker (`content/trackers/israel-funding.json`).
 
 **Research checklist (last 24h):**
 - Ukraine war: front-line developments, weapons deliveries, diplomatic talks, civilian impact
@@ -130,9 +136,14 @@ Send all five Agent calls in **one message** (one tool block, five Agent tool us
 
 **Return:** 5-8 candidate stories split between foreign affairs (non-conflict) and active conflicts, plus 1-3 candidate foreign-leader statements.
 
+**Also for Subagent B — trackers & Eyes on Israel (return as structured briefs):**
+- **War cost** (`content/trackers/war-cost.json`): refreshed `daysOfConflict`, `dailyBurnRate`, `totalCost`, per-country `directMilitaryTotal`/`dailyBurnRate`/`breakdown`, `weapons`, `economicRipple`, `keyFacts` — sourced from CBO, DoD comptroller, CSIS, SIPRI, Penn Wharton, Brown Costs of War. Every number carries `source`+`sourceUrl`.
+- **Eyes on Israel incidents** (`content/eyes-on-israel.json`): 2-4 sourced stories on documented Israeli influence on US policy (legislation, votes, officials, lobbying). NEUTRAL ≤140-char headlines. Each story MUST include a right-of-reply perspective (`government` lean) citing the org/official's response. Same Story schema as other sections.
+- **Funding tracker** (`content/trackers/israel-funding.json`): refreshed `organizations`, `topRecipients`, `votingCorrelations`, `keyFacts` from OpenSecrets, the FEC, ProPublica, and Senate/House roll calls. KEEP the correlation-≠-causation `disclaimer` verbatim; insights stay descriptive, never causal.
+
 ### Subagent C — Markets, Economy & Tech
 
-**Owns:** `markets.json`, `ai-tech.json`, parts of `headlines.json`, Fed/Treasury statements in `statements.json`.
+**Owns:** `markets.json`, `ai-tech.json`, parts of `headlines.json`, Fed/Treasury statements in `statements.json`, and the oil/energy tracker (`content/trackers/oil.json`).
 
 **Research checklist (last 24h):**
 
@@ -155,6 +166,8 @@ Tech / AI:
 **Source requirements:** Reuters / Bloomberg / WSJ / Financial Times for market mechanics. For analysis, balance with both lean-left (NYT, Bloomberg) and lean-right (WSJ, Washington Examiner) takes.
 
 **Return:** 3-5 markets stories, 2-3 AI/tech stories, plus the latest oil/gas/commodity baseline values for the OilHero & MarketTicker. Include `{brent, wti, usGasAvg, eggsDozen, milkGallon, rentMedianMonthly}` current + baseline (mid-2024) values with source URLs.
+
+**Also for Subagent C — the oil tracker (`content/trackers/oil.json`):** refresh the `hormuz` status + sourced `timeline`, `gas` (current average, `priceHistory`, pump-price `breakdown`), `food` commodities + grocery basket, `keyPlayers`, `consumerImpact` fuels, and `keyFacts`. Every figure carries `source`+`sourceUrl`. Baselines (`preWar*`) NEVER change — only current values move. This is the contextual data behind the live OilHero quotes; keep it consistent with the prices you report.
 
 ### Subagent D — Underreported
 
@@ -253,7 +266,21 @@ Schema per statement:
 
 Sort the array so newest is FIRST (the card already sorts client-side, but matching keeps diffs readable).
 
-### 2e. Finalize manifest
+### 2e. Trackers & Eyes on Israel
+
+**`content/eyes-on-israel.json`** — append/refresh 2-4 sourced influence stories from Subagent B (same Story schema; neutral ≤140-char headlines; every story includes a `government` right-of-reply perspective). Set `lastUpdated` = `REFRESH_TS`. This file feeds a manifest section count like any other section.
+
+**`content/trackers/oil.json`** (Subagent C), **`content/trackers/war-cost.json`** and **`content/trackers/israel-funding.json`** (Subagent B) — rewrite the metric values in place from the briefs:
+- Top-level `lastUpdated` = `REFRESH_TS`.
+- Baselines (`preWar*`, the 2024-06-01 reference points) NEVER change.
+- `keyFacts` entries are OBJECTS (`{fact, source, sourceUrl, date?}`), never bare strings.
+- Every numeric and every claim carries `source`+`sourceUrl`; no bare-domain URLs as primary citations.
+- Append-only on `timeline`/history arrays — don't delete past entries.
+- `israel-funding.json`: keep the correlation-≠-causation `disclaimer` verbatim.
+
+Trackers are validated against `content/trackers/schema.json` by `npm run validate` (TRACKERS section). They are NOT part of `manifest.json`.
+
+### 2f. Finalize manifest
 
 Update `content/manifest.json`:
 - `lastUpdated` = `REFRESH_TS` (same value as every section file)
@@ -303,7 +330,7 @@ After fixing, run `npm run validate` again. Repeat until PASS.
 npm run build
 ```
 
-Confirms the Next.js build produces all 15 pages and no TypeScript errors. The `prebuild` script stamps a new `public/build-id.json` automatically.
+Confirms the Next.js build produces all pages (now ~18 routes, including `/follow-the-oil` and `/eyes-on-israel`) and no TypeScript errors. The `prebuild` script stamps a new `public/build-id.json` automatically.
 
 ### 3d. Commit + push
 
@@ -315,8 +342,8 @@ Otherwise:
 git add content/ logs/ public/build-id.json
 git commit -m "chore(content): refresh $(TZ=UTC date +'%Y-%m-%d %H:%M UTC')
 
-Stories: headlines=<N> us-politics=<N> foreign=<N> markets=<N> ai-tech=<N> war=<N> underreported=<N>
-Statements: <N> new
+Stories: headlines=<N> us-politics=<N> foreign=<N> markets=<N> ai-tech=<N> war=<N> eyes-on-israel=<N> underreported=<N>
+Statements: <N> new · Trackers: oil/war-cost/israel-funding refreshed
 Notable: <one-line summary of biggest story of this refresh>"
 git push origin main
 ```
@@ -327,7 +354,7 @@ Vercel auto-deploys. Open tabs see the new `build-id.json` within 60s and show t
 
 ```bash
 mkdir -p logs
-echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') OK headlines=<N> us-politics=<N> foreign=<N> markets=<N> ai-tech=<N> war=<N> underreported=<N> statements=<N> dry=<true|false>" >> logs/$(date -u +'%Y-%m').log
+echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') OK headlines=<N> us-politics=<N> foreign=<N> markets=<N> ai-tech=<N> war=<N> eyes-on-israel=<N> underreported=<N> statements=<N> trackers=3 dry=<true|false>" >> logs/$(date -u +'%Y-%m').log
 ```
 
 If you failed at validate and DID NOT commit, log `FAIL` with the reason:
@@ -348,6 +375,9 @@ echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') FAIL validate=stale_url:<count>" >> logs/
 - [ ] Every `publishedAt` is within 72h of now
 - [ ] `manifest.lastUpdated`, every `section.lastUpdated`, every touched `story.updatedAt`, and `statements.lastUpdated` are all the EXACT `REFRESH_TS` captured in Phase 0a — character-for-character identical
 - [ ] `manifest.sections.{name}.storyCount` matches actual `stories.length` for every section
+- [ ] `content/eyes-on-israel.json` stories each include a `government` right-of-reply perspective; headlines stay neutral
+- [ ] The three `content/trackers/*.json` files have `lastUpdated` = `REFRESH_TS`, baselines unchanged, every figure sourced, `keyFacts` as objects
+- [ ] `content/trackers/israel-funding.json` retains the correlation-≠-causation disclaimer verbatim
 - [ ] `npm run verify` exits 0
 - [ ] `npm run validate` exits 0 (or 0 with only known-acceptable warnings like bot-protected URLs)
 - [ ] `npm run build` succeeds

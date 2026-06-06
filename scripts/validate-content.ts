@@ -183,6 +183,22 @@ function isBareDomainUrl(url: string): boolean {
   }
 }
 
+/** Recursively collect every `url` / `sourceUrl` string in a JSON value. */
+function collectUrls(node: unknown, out: Set<string>): void {
+  if (!node || typeof node !== "object") return;
+  if (Array.isArray(node)) {
+    for (const item of node) collectUrls(item, out);
+    return;
+  }
+  for (const [k, v] of Object.entries(node as Record<string, unknown>)) {
+    if ((k === "url" || k === "sourceUrl") && typeof v === "string") {
+      out.add(v);
+    } else if (v && typeof v === "object") {
+      collectUrls(v, out);
+    }
+  }
+}
+
 // ─── Main ──────────────────────────────────────────────────────────────
 async function main(): Promise<void> {
   console.log(
@@ -499,6 +515,64 @@ async function main(): Promise<void> {
         }
       }
       if (stale === 0) ok(`${STATEMENTS_FILE}: all dates within 14 days`);
+    }
+  }
+
+  // ─── 9. TRACKERS ─────────────────────────────────────────────────────
+  section(9, "TRACKERS");
+  const TRACKER_DIR = path.join(CONTENT_DIR, "trackers");
+  const TRACKER_FILES = ["oil.json", "war-cost.json", "israel-funding.json"];
+  const trackerSchemaPath = path.join(TRACKER_DIR, "schema.json");
+  if (!existsSync(trackerSchemaPath)) {
+    warn("content/trackers/schema.json missing — skipping tracker checks");
+  } else {
+    const trackerSchema = await loadJson<Record<string, unknown>>(
+      trackerSchemaPath,
+    );
+    const validateTracker = ajv.compile(trackerSchema);
+    const trackerUrls = new Set<string>();
+    for (const f of TRACKER_FILES) {
+      const p = path.join(TRACKER_DIR, f);
+      if (!existsSync(p)) {
+        err(`missing: trackers/${f}`);
+        continue;
+      }
+      let data: unknown;
+      try {
+        data = await loadJson(p);
+      } catch (e) {
+        err(`trackers/${f}: ${e instanceof Error ? e.message : String(e)}`);
+        continue;
+      }
+      if (validateTracker(data)) ok(`trackers/${f} → schema`);
+      else formatAjvErrors(`trackers/${f}`, validateTracker.errors);
+      collectUrls(data, trackerUrls);
+    }
+
+    if (SKIP_URL_CHECK) {
+      console.log(
+        `  ${C.dim}(URL check skipped via SKIP_URL_CHECK=1)${C.reset}`,
+      );
+    } else if (trackerUrls.size > 0) {
+      process.stdout.write(`  checking ${trackerUrls.size} tracker URL(s) `);
+      const results = await Promise.all(
+        Array.from(trackerUrls).map(async (url) => {
+          const res = await checkUrlReachable(url);
+          process.stdout.write(res.err ? "x" : res.warn ? "!" : ".");
+          return { url, res };
+        }),
+      );
+      process.stdout.write("\n");
+      // Trackers hold provisional seed values the refresh agent overwrites, so
+      // an unreachable source is a warning here, not a deploy-blocking error.
+      for (const { url, res } of results) {
+        if (res.err) warn(`tracker URL ${url}: ${res.err}`);
+        else if (res.warn) warn(`tracker URL ${url}: ${res.warn}`);
+      }
+      const reachable = results.filter(
+        (x) => !x.res.err && !x.res.warn,
+      ).length;
+      if (reachable > 0) ok(`${reachable} tracker URLs reachable`);
     }
   }
 

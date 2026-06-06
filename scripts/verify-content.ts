@@ -41,18 +41,28 @@ const HIGH = [
 const MEDIUM = [
   "ai-tech.json",
   "underreported.json",
+  "eyes-on-israel.json",
+];
+
+// Tracker metric files (content/trackers/). Updated less often than the news
+// feeds, so warn-not-block — they never gate a deploy.
+const TRACKERS = [
+  "trackers/oil.json",
+  "trackers/war-cost.json",
+  "trackers/israel-funding.json",
 ];
 
 const OPTIONAL = [
   "statements.json",
 ];
 
-type Tier = "CRITICAL" | "HIGH" | "MEDIUM" | "OPTIONAL";
+type Tier = "CRITICAL" | "HIGH" | "MEDIUM" | "TRACKERS" | "OPTIONAL";
 
 const ALL: { file: string; tier: Tier }[] = [
   ...CRITICAL.map((f) => ({ file: f, tier: "CRITICAL" as const })),
   ...HIGH.map((f) => ({ file: f, tier: "HIGH" as const })),
   ...MEDIUM.map((f) => ({ file: f, tier: "MEDIUM" as const })),
+  ...TRACKERS.map((f) => ({ file: f, tier: "TRACKERS" as const })),
   ...OPTIONAL.map((f) => ({ file: f, tier: "OPTIONAL" as const })),
 ];
 
@@ -77,6 +87,8 @@ function tierColor(t: Tier): string {
     case "HIGH":
       return C.yellow;
     case "MEDIUM":
+      return C.cyan;
+    case "TRACKERS":
       return C.cyan;
     case "OPTIONAL":
       return C.dim;
@@ -188,11 +200,18 @@ async function main(): Promise<void> {
     CRITICAL: [],
     HIGH: [],
     MEDIUM: [],
+    TRACKERS: [],
     OPTIONAL: [],
   };
   for (const r of results) byTier[r.tier].push(r);
 
-  const tierOrder: Tier[] = ["CRITICAL", "HIGH", "MEDIUM", "OPTIONAL"];
+  const tierOrder: Tier[] = [
+    "CRITICAL",
+    "HIGH",
+    "MEDIUM",
+    "TRACKERS",
+    "OPTIONAL",
+  ];
 
   for (const tier of tierOrder) {
     const tierResults = byTier[tier];
