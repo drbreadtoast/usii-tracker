@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useTheme } from "@/lib/useTheme";
 
 interface QuoteProps {
   symbol: string;
@@ -123,6 +124,7 @@ function useSecondsSince(fetchedAt: string | undefined): number {
  */
 function TradingViewQuote({ symbol, symbolName }: QuoteProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const theme = useTheme();
 
   useEffect(() => {
     const node = ref.current;
@@ -133,11 +135,6 @@ function TradingViewQuote({ symbol, symbolName }: QuoteProps) {
     widgetWrap.className = "tradingview-widget-container__widget";
     node.appendChild(widgetWrap);
 
-    const isDark =
-      typeof document === "undefined" ||
-      document.documentElement.classList.contains("dark") ||
-      !document.documentElement.classList.contains("light");
-
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src =
@@ -146,7 +143,7 @@ function TradingViewQuote({ symbol, symbolName }: QuoteProps) {
     script.text = JSON.stringify({
       symbol,
       width: "100%",
-      colorTheme: isDark ? "dark" : "light",
+      colorTheme: theme,
       isTransparent: false,
       locale: "en",
     });
@@ -155,7 +152,7 @@ function TradingViewQuote({ symbol, symbolName }: QuoteProps) {
     return () => {
       node.innerHTML = "";
     };
-  }, [symbol, symbolName]);
+  }, [symbol, symbolName, theme]);
 
   return (
     <div

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useTheme } from "@/lib/useTheme";
 
 interface Props {
   symbol: string;
@@ -14,6 +15,7 @@ export default function TradingViewChart({
   height = 320,
 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
+  const theme = useTheme();
 
   useEffect(() => {
     const node = ref.current;
@@ -30,10 +32,6 @@ export default function TradingViewChart({
     widget.style.width = "100%";
     node.appendChild(widget);
 
-    const isDark =
-      typeof document !== "undefined" &&
-      document.documentElement.classList.contains("dark");
-
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src =
@@ -45,7 +43,7 @@ export default function TradingViewChart({
       height,
       locale: "en",
       dateRange: "1M",
-      colorTheme: isDark ? "dark" : "light",
+      colorTheme: theme,
       isTransparent: true,
       autosize: false,
       largeChartUrl: "",
@@ -55,7 +53,7 @@ export default function TradingViewChart({
     return () => {
       node.innerHTML = "";
     };
-  }, [symbol, height]);
+  }, [symbol, height, theme]);
 
   return (
     <div className="rounded-lg border border-border bg-surface p-2">

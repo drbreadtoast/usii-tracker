@@ -101,7 +101,7 @@ export default function StoryCard({
           role="note"
         >
           <strong className="font-semibold">Limited coverage:</strong> only{" "}
-          {perspectives.length} of 3+ leans covered this story in the last 72h.
+          {perspectives.length} of 3+ perspectives covered this story in the last 72h.
         </p>
       )}
 

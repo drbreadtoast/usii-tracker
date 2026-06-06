@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useTheme } from "@/lib/useTheme";
 
 const SYMBOLS = [
   { proName: "TVC:UKOIL", title: "Brent" },
@@ -14,6 +15,7 @@ const SYMBOLS = [
 
 export default function TickerTape() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const theme = useTheme();
 
   useEffect(() => {
     const node = containerRef.current;
@@ -30,10 +32,6 @@ export default function TickerTape() {
     widgetWrap.className = "tradingview-widget-container__widget";
     node.appendChild(widgetWrap);
 
-    const isDark =
-      typeof document !== "undefined" &&
-      document.documentElement.classList.contains("dark");
-
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src =
@@ -42,7 +40,7 @@ export default function TickerTape() {
     script.text = JSON.stringify({
       symbols: SYMBOLS,
       showSymbolLogo: true,
-      colorTheme: isDark ? "dark" : "light",
+      colorTheme: theme,
       isTransparent: true,
       displayMode: "adaptive",
       locale: "en",
@@ -53,10 +51,11 @@ export default function TickerTape() {
     return () => {
       // Defer cleanup to avoid race with TradingView's async script
       // executing during Strict-Mode double-invoke. In production this
-      // runs once on real unmount.
+      // runs once on real unmount. Also runs when `theme` changes, so the
+      // widget is re-injected with the new colorTheme.
       node.innerHTML = "";
     };
-  }, []);
+  }, [theme]);
 
   return (
     <div

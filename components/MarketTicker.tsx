@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTheme } from "@/lib/useTheme";
 
 type TabId = "energy" | "markets" | "crypto" | "metals" | "costs";
 
@@ -120,6 +121,7 @@ export default function MarketTicker() {
   const [tab, setTab] = useState<TabId>("energy");
   const containerRef = useRef<HTMLDivElement>(null);
   const isCosts = tab === "costs";
+  const theme = useTheme();
 
   useEffect(() => {
     const node = containerRef.current;
@@ -134,10 +136,6 @@ export default function MarketTicker() {
     widgetWrap.className = "tradingview-widget-container__widget";
     node.appendChild(widgetWrap);
 
-    const isDark =
-      typeof document !== "undefined" &&
-      document.documentElement.classList.contains("dark");
-
     const symbols = TABS[tab].symbols;
     if (!symbols) return;
 
@@ -149,7 +147,7 @@ export default function MarketTicker() {
     script.text = JSON.stringify({
       symbols,
       showSymbolLogo: true,
-      colorTheme: isDark ? "dark" : "light",
+      colorTheme: theme,
       isTransparent: true,
       displayMode: "adaptive",
       locale: "en",
@@ -160,7 +158,7 @@ export default function MarketTicker() {
     return () => {
       node.innerHTML = "";
     };
-  }, [tab, isCosts]);
+  }, [tab, isCosts, theme]);
 
   const costs = TABS.costs.costs ?? [];
 
