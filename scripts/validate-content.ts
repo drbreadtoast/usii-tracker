@@ -43,10 +43,15 @@ const SECTION_FILES = [
   "markets.json",
   "ai-tech.json",
   "war.json",
+  "eyes-on-israel.json",
   "underreported.json",
 ] as const;
 const MANIFEST_FILE = "manifest.json";
 const STATEMENTS_FILE = "statements.json"; // optional
+
+// Documentary sections that legitimately cite records older than the 72h
+// breaking-news window (their sources are votes, laws, filings, etc.).
+const FRESHNESS_EXEMPT_FILES = new Set<string>(["eyes-on-israel.json"]);
 
 const SKIP_URL_CHECK = process.env.SKIP_URL_CHECK === "1";
 const SKIP_FRESHNESS = process.env.SKIP_FRESHNESS === "1";
@@ -374,6 +379,9 @@ async function main(): Promise<void> {
     for (const f of SECTION_FILES) {
       const sec = sections[f];
       if (!sec) continue;
+      // Documentary sections (e.g. Eyes on Israel) cite older records by
+      // design, so they're exempt from the 72h breaking-news window.
+      if (FRESHNESS_EXEMPT_FILES.has(f)) continue;
       for (const story of sec.stories) {
         for (const persp of story.perspectives) {
           for (const src of persp.sources) {

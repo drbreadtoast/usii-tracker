@@ -1,0 +1,347 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theossreport.dev/content/trackers/schema.json",
+  "title": "TheOSSreport Tracker Schema",
+  "description": "Schema for structured metric files in /content/trackers/ (oil.json, war-cost.json, israel-funding.json). A file validates against exactly one branch. Validated by scripts/validate-content.ts.",
+  "definitions": {
+    "isoDateTime": { "type": "string", "format": "date-time" },
+    "keyFact": {
+      "type": "object",
+      "required": ["fact", "source", "sourceUrl"],
+      "properties": {
+        "fact": { "type": "string", "minLength": 1 },
+        "source": { "type": "string", "minLength": 1 },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "date": { "type": "string" }
+      }
+    },
+    "sourceRef": {
+      "type": "object",
+      "required": ["name", "url"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "description": { "type": "string" }
+      }
+    },
+    "oilTracker": {
+      "type": "object",
+      "required": ["lastUpdated", "hormuz", "gas", "keyPlayers", "consumerImpact", "keyFacts"],
+      "properties": {
+        "lastUpdated": { "$ref": "#/definitions/isoDateTime" },
+        "disclaimer": { "type": "string" },
+        "sources": { "type": "array", "items": { "$ref": "#/definitions/sourceRef" } },
+        "hormuz": {
+          "type": "object",
+          "required": ["status", "blockadeDay", "dailyTransits", "preWarDailyTransits", "summary", "timeline"],
+          "properties": {
+            "status": { "enum": ["open", "partially_blocked", "blocked", "effectively_closed"] },
+            "blockadeDay": { "type": "integer" },
+            "blockadeStartDate": { "type": "string" },
+            "dailyTransits": { "type": "number" },
+            "preWarDailyTransits": { "type": "number" },
+            "barrelsBlockedDaily": { "type": "number" },
+            "globalOilSharePercent": { "type": "number" },
+            "insuranceStatus": { "type": "string" },
+            "summary": { "type": "string" },
+            "source": { "type": "string" },
+            "sourceUrl": { "type": "string", "format": "uri" },
+            "timeline": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["date", "event", "status"],
+                "properties": {
+                  "date": { "type": "string" },
+                  "event": { "type": "string" },
+                  "status": { "enum": ["open", "partially_blocked", "blocked", "effectively_closed"] },
+                  "source": { "type": "string" },
+                  "sourceUrl": { "type": "string", "format": "uri" }
+                }
+              }
+            }
+          }
+        },
+        "gas": {
+          "type": "object",
+          "required": ["currentAverage", "preWarAverage", "changePercent", "unit", "priceHistory", "breakdown"],
+          "properties": {
+            "currentAverage": { "type": "number" },
+            "preWarAverage": { "type": "number" },
+            "changePercent": { "type": "number" },
+            "unit": { "type": "string" },
+            "source": { "type": "string" },
+            "sourceUrl": { "type": "string", "format": "uri" },
+            "priceHistory": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["date", "price"],
+                "properties": {
+                  "date": { "type": "string" },
+                  "price": { "type": "number" },
+                  "label": { "type": "string" },
+                  "isEvent": { "type": "boolean" }
+                }
+              }
+            },
+            "breakdown": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["component", "current", "preWar"],
+                "properties": {
+                  "component": { "type": "string" },
+                  "current": { "type": "number" },
+                  "preWar": { "type": "number" }
+                }
+              }
+            }
+          }
+        },
+        "food": {
+          "type": "object",
+          "properties": {
+            "commodities": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "preWar", "current", "changePercent"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "unit": { "type": "string" },
+                  "preWar": { "type": "number" },
+                  "current": { "type": "number" },
+                  "changePercent": { "type": "number" },
+                  "detail": { "type": "string" },
+                  "source": { "type": "string" },
+                  "sourceUrl": { "type": "string", "format": "uri" }
+                }
+              }
+            },
+            "groceryImpact": {
+              "type": "object",
+              "properties": {
+                "preWarWeekly": { "type": "number" },
+                "currentWeekly": { "type": "number" },
+                "changePercent": { "type": "number" },
+                "source": { "type": "string" },
+                "sourceUrl": { "type": "string", "format": "uri" }
+              }
+            }
+          }
+        },
+        "keyPlayers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["country", "exportStatus"],
+            "properties": {
+              "country": { "type": "string" },
+              "flag": { "type": "string" },
+              "dailyProductionMbpd": { "type": "number" },
+              "globalSharePercent": { "type": "number" },
+              "provenReservesBillionBarrels": { "type": "number" },
+              "exportStatus": { "enum": ["active", "disrupted", "blocked"] },
+              "warImpact": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "consumerImpact": {
+          "type": "object",
+          "properties": {
+            "note": { "type": "string" },
+            "fuels": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["type", "preWarPrice", "currentPrice"],
+                "properties": {
+                  "type": { "type": "string" },
+                  "icon": { "type": "string" },
+                  "preWarPrice": { "type": "number" },
+                  "currentPrice": { "type": "number" },
+                  "changePercent": { "type": "number" },
+                  "source": { "type": "string" },
+                  "sourceUrl": { "type": "string", "format": "uri" }
+                }
+              }
+            }
+          }
+        },
+        "keyFacts": { "type": "array", "items": { "$ref": "#/definitions/keyFact" } }
+      }
+    },
+    "warCostTracker": {
+      "type": "object",
+      "required": ["lastUpdated", "daysOfConflict", "dailyBurnRate", "countries", "weapons", "keyFacts"],
+      "properties": {
+        "lastUpdated": { "$ref": "#/definitions/isoDateTime" },
+        "conflictStartDate": { "type": "string" },
+        "daysOfConflict": { "type": "integer" },
+        "dailyBurnRate": { "type": "number" },
+        "totalCost": { "type": "number" },
+        "disclaimer": { "type": "string" },
+        "sources": { "type": "array", "items": { "$ref": "#/definitions/sourceRef" } },
+        "countries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "name", "directMilitaryTotal", "breakdown"],
+            "properties": {
+              "key": { "enum": ["us", "israel", "iran"] },
+              "name": { "type": "string" },
+              "flag": { "type": "string" },
+              "directMilitaryTotal": { "type": "number" },
+              "dailyBurnRate": { "type": "number" },
+              "breakdown": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["label", "amount"],
+                  "properties": {
+                    "label": { "type": "string" },
+                    "amount": { "type": "number" },
+                    "description": { "type": "string" },
+                    "source": { "type": "string" },
+                    "sourceUrl": { "type": "string", "format": "uri" }
+                  }
+                }
+              },
+              "source": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "weapons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["weapon", "country", "unitCost", "quantityUsed"],
+            "properties": {
+              "weapon": { "type": "string" },
+              "country": { "enum": ["us", "israel", "iran"] },
+              "unitCost": { "type": "number" },
+              "quantityUsed": { "type": "number" },
+              "totalCost": { "type": "number" },
+              "description": { "type": "string" },
+              "source": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "economicRipple": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "value"],
+            "properties": {
+              "label": { "type": "string" },
+              "value": { "type": "string" },
+              "detail": { "type": "string" },
+              "source": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "keyFacts": { "type": "array", "items": { "$ref": "#/definitions/keyFact" } }
+      }
+    },
+    "israelFundingTracker": {
+      "type": "object",
+      "required": ["lastUpdated", "disclaimer", "organizations", "topRecipients", "votingCorrelations", "keyFacts"],
+      "properties": {
+        "lastUpdated": { "$ref": "#/definitions/isoDateTime" },
+        "disclaimer": { "type": "string", "minLength": 1 },
+        "sources": { "type": "array", "items": { "type": "string" } },
+        "organizations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "type"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "type": { "enum": ["lobby", "superPAC", "pac", "advocacy"] },
+              "founded": { "type": "integer" },
+              "totalSpending2024Cycle": { "type": "number" },
+              "description": { "type": "string" },
+              "source": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "topRecipients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "party", "state", "chamber", "totalProIsraelFunding"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "party": { "enum": ["D", "R", "I"] },
+              "state": { "type": "string" },
+              "chamber": { "enum": ["House", "Senate"] },
+              "role": { "type": "string" },
+              "totalProIsraelFunding": { "type": "number" },
+              "topDonors": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["organization", "amount"],
+                  "properties": {
+                    "organization": { "type": "string" },
+                    "amount": { "type": "number" }
+                  }
+                }
+              },
+              "relevantVotes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["bill", "vote"],
+                  "properties": {
+                    "bill": { "type": "string" },
+                    "date": { "type": "string" },
+                    "vote": { "type": "string" },
+                    "description": { "type": "string" }
+                  }
+                }
+              },
+              "source": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "votingCorrelations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "bill", "chamber", "yea", "nay", "insight"],
+            "properties": {
+              "id": { "type": "string" },
+              "bill": { "type": "string" },
+              "date": { "type": "string" },
+              "chamber": { "enum": ["House", "Senate"] },
+              "description": { "type": "string" },
+              "yea": { "type": "integer" },
+              "nay": { "type": "integer" },
+              "avgProIsraelFundingYea": { "type": "number" },
+              "avgProIsraelFundingNay": { "type": "number" },
+              "insight": { "type": "string" },
+              "source": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "keyFacts": { "type": "array", "items": { "$ref": "#/definitions/keyFact" } }
+      }
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/oilTracker" },
+    { "$ref": "#/definitions/warCostTracker" },
+    { "$ref": "#/definitions/israelFundingTracker" }
+  ]
+}
