@@ -1,39 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-06T17:04:32Z",
+  "lastUpdated": "2026-06-06T23:02:15Z",
   "stories": [
-    {
-      "id": "anthropic-confidential-ipo-filing-2026-06-01",
-      "headline": "Anthropic confidentially files for IPO after a $65B round lifts its valuation to about $965B, topping OpenAI",
-      "summary": "Anthropic confidentially submitted a draft S-1 to the SEC, days after a $65 billion Series H closed at a roughly $965 billion post-money valuation — eclipsing OpenAI as the most valuable AI startup. By June 3 it had selected Morgan Stanley, Goldman Sachs and JPMorgan to lead an IPO that could launch as soon as the fall and potentially raise up to $60 billion. Anthropic cautioned that the offering depends on SEC review and market conditions.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "anthropic",
-        "ipo",
-        "sec",
-        "valuation",
-        "openai"
-      ],
-      "firstSeenAt": "2026-06-03T23:01:39Z",
-      "updatedAt": "2026-06-05T11:09:49Z",
-      "perspectives": [
-        {
-          "lean": "right",
-          "keyFraming": "A market-validated AI champion racing to US public markets shows private capital and American innovation leadership at work.",
-          "summary": "Right-leaning framing celebrates a homegrown leader attracting record private capital and choosing US public markets, casting the valuation as evidence of American AI dominance over rivals including China's DeepSeek as Anthropic lines up top-tier underwriters.",
-          "sources": [
-            {
-              "outlet": "PYMNTS",
-              "url": "https://www.pymnts.com/news/ipo/2026/morgan-stanley-and-goldman-sachs-land-anthropic-ipo/",
-              "title": "Morgan Stanley and Goldman Sachs Land Anthropic IPO",
-              "publishedAt": "2026-06-03T19:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "warren-huang-senate-china-chips-2026-06-04",
       "headline": "Warren invites NVIDIA's Jensen Huang to a Senate hearing over the company's China AI-chip sales",
@@ -219,6 +187,84 @@
               "url": "https://www.cbsnews.com/news/ai-layoffs-hiring-entry-level-workers/",
               "title": "AI job cuts are rising, but experts say layoffs are only part of the story",
               "publishedAt": "2026-06-04T15:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bis-china-ai-chip-loophole-closed-2026-06-06",
+      "headline": "Commerce's BIS closes China AI-chip 'parent company' loophole as Trump officials dispute a gap existed",
+      "summary": "The Commerce Department's Bureau of Industry and Security issued a weekend guidance notice on May 31 confirming export licenses are required for advanced AI chips shipped to any entity whose ultimate parent is headquartered in China, closing what experts called a major compliance gap. June 6 reporting notes some Trump officials publicly dispute whether the loophole ever existed, against the backdrop of a January rule that loosened controls to permit capped sales of high-end chips to China.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "export-controls",
+        "china",
+        "bis",
+        "ai-chips",
+        "nvidia"
+      ],
+      "firstSeenAt": "2026-06-06T23:02:15Z",
+      "updatedAt": "2026-06-06T23:02:15Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A quiet but consequential tightening of chip-export enforcement amid intra-administration disagreement over how big the gap really was.",
+          "summary": "Coverage framed the BIS notice as plugging a real enforcement hole on parent-company routing of advanced AI chips, while administration officials downplayed it. Analysts tie the move to the January loosening that allowed capped high-end sales, leaving US policy toward China's chip access contested and, critics argue, hard to enforce.",
+          "sources": [
+            {
+              "outlet": "TechTimes",
+              "url": "https://www.techtimes.com/articles/317905/20260606/bis-closed-china-ai-chip-loophole-trump-officials-dispute-whether-gap-ever-existed.htm",
+              "title": "BIS Closed China AI Chip Loophole: Trump Officials Dispute Whether Gap Ever Existed",
+              "publishedAt": "2026-06-06T13:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/articles/new-ai-chip-export-policy-china-strategically-incoherent-and-unenforceable",
+              "title": "The New AI Chip Export Policy to China: Strategically Incoherent and Unenforceable",
+              "publishedAt": "2026-06-04T15:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-race-frontier-model-releases-2026-06-05",
+      "headline": "AI-coding arms race heats up as Anthropic ships a new Claude Opus flagship and OpenAI rolls out memory upgrade",
+      "summary": "The frontier-model release cadence accelerated this week. Anthropic released a new Claude Opus flagship, citing gains in software engineering, instruction-following and vision and extending its lead in AI coding via Claude Code. OpenAI began rolling out a new ChatGPT memory architecture to US Plus and Pro users that it says is far more compute-efficient. The releases land as Microsoft and Google push into the same coding and agent territory.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "ai",
+        "anthropic",
+        "openai",
+        "models",
+        "coding"
+      ],
+      "firstSeenAt": "2026-06-06T23:02:15Z",
+      "updatedAt": "2026-06-06T23:02:15Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Rapid model iteration and memory-efficiency gains are the new competitive front, with coding capability and inference cost as the battleground.",
+          "summary": "Coverage framed the latest Claude Opus release and OpenAI's memory upgrade as incremental-but-meaningful escalations: Anthropic doubling down on coding strength while OpenAI cuts the compute cost of long-term memory to widen access, all amid intensifying competition from Microsoft and Google.",
+          "sources": [
+            {
+              "outlet": "llm-stats",
+              "url": "https://llm-stats.com/llm-updates",
+              "title": "AI Updates Today (June 2026) - Latest AI Model Releases",
+              "publishedAt": "2026-06-05T16:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "BuildFastWithAI",
+              "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-5-2026",
+              "title": "AI News Today - June 5, 2026: Biggest Stories",
+              "publishedAt": "2026-06-05T17:00:00Z",
               "allSidesRating": "center"
             }
           ]
