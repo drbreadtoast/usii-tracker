@@ -22,8 +22,10 @@ const PRIMARY_LINKS: NavLink[] = [
   { href: "/us-politics", label: "US Politics" },
   { href: "/foreign", label: "Foreign" },
   { href: "/markets", label: "Markets" },
+  { href: "/follow-the-oil", label: "Oil" },
   { href: "/ai-tech", label: "AI & Tech" },
   { href: "/war", label: "War" },
+  { href: "/eyes-on-israel", label: "Eyes on Israel" },
   { href: "/underreported", label: "Underreported" },
 ];
 

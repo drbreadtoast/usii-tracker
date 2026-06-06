@@ -1,12 +1,13 @@
 import type { MetadataRoute } from "next";
 import { getManifest } from "@/lib/content";
+import { getOilTracker } from "@/lib/trackers";
 import { ALL_CATEGORIES } from "@/lib/types";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://theossreport.dev";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const manifest = await getManifest();
+  const [manifest, oil] = await Promise.all([getManifest(), getOilTracker()]);
   const lastModified = new Date(manifest.lastUpdated);
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -15,6 +16,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified,
       changeFrequency: "hourly",
       priority: 1.0,
+    },
+    {
+      url: `${SITE_URL}/follow-the-oil`,
+      lastModified: new Date(oil.lastUpdated),
+      changeFrequency: "hourly",
+      priority: 0.8,
     },
     {
       url: `${SITE_URL}/about`,

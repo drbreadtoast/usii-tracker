@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getHomepageData, getStatements } from "@/lib/content";
 import { readOilPriceSnapshot } from "@/lib/oilprice-snapshot";
 import SectionBlock from "@/components/SectionBlock";
@@ -16,6 +17,7 @@ const GRID_CATEGORIES = [
   "markets",
   "ai-tech",
   "war",
+  "eyes-on-israel",
   "underreported",
 ] as const;
 
@@ -37,6 +39,16 @@ export default async function HomePage() {
           TradingView columns render their own live widgets;
           OilPrice.com columns read from the build-time snapshot. */}
       <OilHero {...oilSnapshot} />
+      <div className="border-b border-border bg-surface">
+        <div className="mx-auto w-full max-w-6xl px-4 py-2 text-right sm:px-6">
+          <Link
+            href="/follow-the-oil"
+            className="text-xs font-medium text-accent hover:underline"
+          >
+            Full oil tracker — Hormuz, gas &amp; food prices →
+          </Link>
+        </div>
+      </div>
 
       {/* Masthead / refresh strip */}
       <div className="border-b border-border bg-background">
