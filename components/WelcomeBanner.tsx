@@ -100,13 +100,15 @@ export default function WelcomeBanner() {
             A note from the developer
           </p>
           <p className="mt-1 text-sm leading-relaxed text-foreground">
-            Thanks for all the feedback — you asked for the old depth back, so
-            it&apos;s returning. New on the site: a{" "}
+            Thanks for all the feedback — it was split, with many of you liking
+            the new version and many missing the old. I heard you, so
+            here&apos;s what I added: a{" "}
             <span className="font-semibold">Follow the Oil</span> page, a daily{" "}
             <span className="font-semibold">War Cost</span> tracker, and a{" "}
-            <span className="font-semibold">Foreign Influence</span> section,
-            with more on the way. Found a bug or want something added? Let me
-            know below.
+            <span className="font-semibold">Foreign Influence</span>{" "}
+            section. This isn&apos;t the final version — I&apos;ll keep improving
+            it based on your feedback. Found a bug or want something added? Let
+            me know below.
           </p>
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <button
