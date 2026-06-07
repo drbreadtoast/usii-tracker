@@ -1,92 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-07T17:04:38Z",
+  "lastUpdated": "2026-06-07T23:01:46Z",
   "stories": [
-    {
-      "id": "warren-huang-senate-china-chips-2026-06-04",
-      "headline": "Warren invites NVIDIA's Jensen Huang to a Senate hearing over the company's China AI-chip sales",
-      "summary": "Senator Elizabeth Warren invited NVIDIA CEO Jensen Huang to testify before the Senate Banking Committee on June 11 about the company's China business and US export controls, after a closed-door Capitol Hill meeting. Warren is pressing the administration not to greenlight H200 AI-chip sales to China and has challenged Huang's claim that there is 'no evidence' of chip diversion.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "nvidia",
-        "jensen-huang",
-        "export-controls",
-        "china",
-        "warren"
-      ],
-      "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-05T05:09:48Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "NVIDIA is profiting from loosened export rules while the risk of chips reaching China grows.",
-          "summary": "Left-leaning and oversight framing stresses national-security concerns, casting the invitation as an effort to put NVIDIA on the record over export-control policy and to press the administration not to approve H200 sales to China.",
-          "sources": [
-            {
-              "outlet": "U.S. Senate Banking Committee",
-              "url": "https://www.banking.senate.gov/newsroom/minority/warren-criticizes-nvidia-ceos-closed-door-meeting-on-capitol-hill-presses-administration-not-to-greenlight-sale-of-h200-ai-chips-to-china",
-              "title": "Warren Criticizes Nvidia CEO's Closed-Door Meeting, Presses Administration Not to Greenlight H200 Sale to China",
-              "publishedAt": "2026-06-04T18:00:00Z",
-              "allSidesRating": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "house-ai-bill-three-year-state-preemption-2026-06-04",
-      "headline": "House lawmakers unveil bipartisan AI framework that would preempt state AI laws for three years",
-      "summary": "Reps. Jay Obernolte (R-Calif.) and Lori Trahan (D-Mass.) released a 269-page discussion draft, the 'Great American Artificial Intelligence Act,' days after Trump's frontier-AI early-access order. It would preempt state laws on AI model development for three years while leaving states authority over AI use, require large frontier developers to publish safety frameworks and undergo audits, and codify a federal AI standards center. The preemption clause drew sharp criticism.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "ai",
-        "regulation",
-        "congress",
-        "preemption",
-        "obernolte-trahan"
-      ],
-      "firstSeenAt": "2026-06-05T17:09:43Z",
-      "updatedAt": "2026-06-05T23:05:41Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Framed as a substantive bipartisan attempt to set a national AI baseline, balancing federal safety rules against a contested three-year state-law freeze.",
-          "summary": "Policy coverage detailed the draft's core trade: a three-year preemption of state AI-development laws in exchange for mandatory safety frameworks, incident reporting and audits for large frontier developers, plus a codified Commerce AI standards center.",
-          "sources": [
-            {
-              "outlet": "Roll Call",
-              "url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
-              "title": "Bipartisan AI draft proposes three-year preemption of state laws",
-              "publishedAt": "2026-06-04T20:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "Axios",
-              "url": "https://www.axios.com/2026/06/04/house-draft-bill-regulate-ai",
-              "title": "What's inside the House draft bill to regulate AI",
-              "publishedAt": "2026-06-04T18:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Framed around the preemption fight: critics warn freezing state AI laws for three years strips consumer and worker protections.",
-          "summary": "Coverage of the draft highlighted opposition to the state-preemption provision, with critics arguing it would block states from regulating AI development at a moment of rapid deployment and weaken accountability.",
-          "sources": [
-            {
-              "outlet": "Nextgov/FCW",
-              "url": "https://www.nextgov.com/artificial-intelligence/2026/06/lawmakers-propose-ai-framework-would-preempt-state-laws-3-years/413975/",
-              "title": "Lawmakers propose AI framework that would preempt state laws for 3 years",
-              "publishedAt": "2026-06-04T21:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "us-government-equity-stake-openai-2026-06-06",
       "headline": "Trump administration in talks to take a US government equity stake in OpenAI",
@@ -104,6 +19,20 @@
       "updatedAt": "2026-06-07T11:05:05Z",
       "perspectives": [
         {
+          "lean": "left",
+          "keyFraming": "A populist 'sovereign wealth' counter-proposal argues the public should capture AI's windfall.",
+          "summary": "Progressive framing highlights Sen. Sanders's push for a 50% public stake, arguing the public should capture AI gains rather than leave windfalls to private investors, as the administration weighs its own equity arrangement.",
+          "sources": [
+            {
+              "outlet": "TechCrunch",
+              "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+              "title": "The Trump administration might take an equity stake in OpenAI",
+              "publishedAt": "2026-06-06T12:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
           "lean": "center",
           "keyFraming": "Preliminary talks on an unprecedented government AI stake, tied to OpenAI's looming IPO.",
           "summary": "Business coverage reports the discussions as early-stage with no finalized terms, framing it as a novel state-capital arrangement tied to OpenAI's IPO timing, and situates the OpenAI talks within a broader administration interest in equity stakes across multiple AI leaders, including Anthropic.",
@@ -120,20 +49,6 @@
               "url": "https://www.notus.org/technology/trump-ai-stake-openai",
               "title": "Senior U.S. Officials Eye Government Shares in AI Giants",
               "publishedAt": "2026-06-05T17:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "A populist 'sovereign wealth' counter-proposal argues the public should capture AI's windfall.",
-          "summary": "Progressive framing highlights Sen. Sanders's push for a 50% public stake, arguing the public should capture AI gains rather than leave windfalls to private investors, as the administration weighs its own equity arrangement.",
-          "sources": [
-            {
-              "outlet": "TechCrunch",
-              "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-              "title": "The Trump administration might take an equity stake in OpenAI",
-              "publishedAt": "2026-06-06T12:00:00Z",
               "allSidesRating": "center"
             }
           ]

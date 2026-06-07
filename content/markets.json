@@ -1,40 +1,7 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-07T17:04:38Z",
+  "lastUpdated": "2026-06-07T23:01:46Z",
   "stories": [
-    {
-      "id": "oil-spikes-iran-halts-talks-hormuz-2026-06-01",
-      "headline": "Oil jumps and US stocks slip after Iran halts US talks and threatens to fully close the Strait of Hormuz",
-      "summary": "Crude held near multi-month highs on June 2 — Brent around $94-95 and WTI near $90-92 — after a roughly 7% Monday surge driven by Iranian reports that Tehran suspended US communications and could fully close the Strait of Hormuz. Prices remain well above pre-conflict levels but below the late-April peak, whipsawing on each diplomatic headline.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "oil",
-        "iran",
-        "strait-of-hormuz",
-        "geopolitics",
-        "inflation",
-        "equities"
-      ],
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Supply-disruption risk dominates: Hormuz carries roughly a fifth of seaborne oil, so closure threats alone move prices.",
-          "summary": "CNBC and market-data desks emphasize the physical-supply stakes of a Hormuz shutdown after Iran suspended US talks, framing the spike as a genuine disruption premium. Trading data showed Brent near $94-95 on June 2 after Monday's surge, with prices reversing on every ceasefire or escalation headline.",
-          "sources": [
-            {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/business/business-news/oil-markets-gas-prices-us-iran-near-deal-hormuz-rcna343819",
-              "title": "Oil slides on US-Iran near-deal report as Strait of Hormuz stays disrupted",
-              "publishedAt": "2026-06-04T18:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ],
-      "firstSeenAt": "2026-06-01T14:05:35Z",
-      "updatedAt": "2026-06-02T11:09:58Z"
-    },
     {
       "id": "dow-record-broadcom-chip-selloff-2026-06-04",
       "headline": "Dow closes at a record on a rotation into financials; futures soften into the May jobs report as chips drag",
@@ -61,106 +28,6 @@
               "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-05-2026",
               "title": "Stock Market Today (June 5, 2026): Nasdaq futures fall on chip stock weakness",
               "publishedAt": "2026-06-05T10:30:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
-              "title": "Stock market today: Live updates",
-              "publishedAt": "2026-06-04T20:30:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "A record Dow shows the economy outside megacap chips is healthy and the rotation is rational.",
-          "summary": "Right-leaning framing reads the record Dow as evidence the broader economy is resilient, treating the rotation out of semiconductors as ordinary profit-taking rather than a sign of weakness.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/markets/stock-market-today-june-4-2026",
-              "title": "Stock Market Today (June 4, 2026): Broadcom earnings stoke semiconductor selloff",
-              "publishedAt": "2026-06-04T20:45:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "oil-eases-iran-deescalation-2026-06-04",
-      "headline": "Oil holds a war premium near $95 Brent as Iran ceasefire talks drag and OPEC+ prepares to meet June 7",
-      "summary": "Brent crude traded around $95 a barrel into June 5 (WTI near $91), still up more than 4% on the week as US-Iran negotiations showed limited progress and Israel's Lebanon operation complicated diplomacy. The EIA reported a sixth straight weekly draw in US crude inventories. OPEC+ ministers meet June 7 to set output, while US pump prices held elevated.",
-      "category": "markets",
-      "importance": 5,
-      "tags": [
-        "oil",
-        "brent",
-        "wti",
-        "hormuz",
-        "iran",
-        "energy"
-      ],
-      "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-05T11:09:49Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Oil trades on geopolitics, not fundamentals; a durable ceasefire could unwind the premium while OPEC+ adds a wildcard.",
-          "summary": "Centrist coverage attributes the elevated price chiefly to Strait of Hormuz risk and stalled diplomacy, with falling US inventories adding a floor. A signed memorandum could push Brent back toward the $80s, while the June 7 OPEC+ decision is flagged as the next swing factor.",
-          "sources": [
-            {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/business/business-news/oil-markets-gas-prices-us-iran-near-deal-hormuz-rcna343819",
-              "title": "Oil slides on US-Iran near-deal report as Strait of Hormuz stays disrupted",
-              "publishedAt": "2026-06-04T18:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Domestic inventory draws and US production are cushioning the shock, arguing for more output.",
-          "summary": "Right-leaning framing stresses energy security, pointing to falling US crude inventories and domestic production as buffers against the war premium and an argument for expanded drilling and export capacity.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/markets/stock-market-today-june-4-2026",
-              "title": "Stock Market Today (June 4, 2026): oil eases as Iran war concerns ebb",
-              "publishedAt": "2026-06-04T20:45:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "may-jobs-report-fed-warsh-rate-path-2026-06-05",
-      "headline": "Markets price out Fed cuts ahead of the May jobs report as a hawkish rate path takes hold",
-      "summary": "The Bureau of Labor Statistics releases the May employment report on June 5 at 8:30 a.m. ET, with economist consensus clustered around 80,000-105,000 nonfarm payrolls and unemployment seen holding at 4.3%; Wednesday's ADP print showed private payrolls up 122,000. With energy-driven inflation elevated, markets now price less than a 3% chance of any 2026 rate cut and some desks see rising odds of a hike later in the year. The 10-year Treasury yield sat near 4.48% on Thursday.",
-      "category": "markets",
-      "importance": 5,
-      "tags": [
-        "jobs",
-        "nonfarm-payrolls",
-        "federal-reserve",
-        "interest-rates",
-        "treasuries"
-      ],
-      "firstSeenAt": "2026-06-05T11:09:49Z",
-      "updatedAt": "2026-06-05T11:09:49Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A cooling-but-not-collapsing labor market hands the Fed a hard tradeoff between sticky inflation and a softening job market.",
-          "summary": "Payroll growth has decelerated (April +115k) without a spike in unemployment — a 'low-hire, low-fire' market. With inflation lifted by the Iran-war energy premium, the Fed is widely expected to hold through 2026, and a hot print could revive hike chatter ahead of the June 16-17 FOMC meeting.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/04/the-may-jobs-report-will-be-released-friday-heres-what-to-expect.html",
-              "title": "The May jobs report will be released Friday. Here's what to expect",
-              "publishedAt": "2026-06-04T21:30:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -418,37 +285,6 @@
       ]
     },
     {
-      "id": "bessent-debt-deficit-treasury-testimony-2026-06-06",
-      "headline": "Bessent warns on US debt credibility in congressional testimony as an August default deadline looms",
-      "summary": "Treasury Secretary Scott Bessent told lawmakers this week that the Treasury market has performed well but that confidence 'cannot be taken for granted' and the US must show it is serious about reining in debt and deficits. The Treasury has urged Congress to raise the debt ceiling before August to avert a default.",
-      "category": "markets",
-      "importance": 3,
-      "tags": [
-        "treasury",
-        "debt-ceiling",
-        "fiscal-policy",
-        "bessent"
-      ],
-      "firstSeenAt": "2026-06-06T11:04:45Z",
-      "updatedAt": "2026-06-06T11:04:45Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Bessent stresses fiscal credibility to Treasury buyers while pressing Congress to lift the debt ceiling before an August deadline.",
-          "summary": "At a June 4 House Ways and Means hearing, Bessent said borrowers must be assured the US is serious about its debt and deficit numbers, while the Treasury formally asked Congress to raise the debt ceiling before August to avoid default. He also appeared before the Senate Finance Committee to discuss the administration's budget.",
-          "sources": [
-            {
-              "outlet": "U.S. House (Schweikert)",
-              "url": "https://schweikert.house.gov/2026/06/04/schweikert-questions-treasury-secretary-bessent-on-tax-exempt-accountability-debt-management/",
-              "title": "Schweikert Questions Treasury Secretary Bessent on Tax-Exempt Accountability, Debt Management",
-              "publishedAt": "2026-06-04T20:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "oil-opec-jmmc-hormuz-watch-2026-06-06",
       "headline": "Oil eases Friday on Iran-talks watch as OPEC+ monitoring panel prepares to meet amid Hormuz disruption",
       "summary": "Brent fell about 2% to roughly $93-95 a barrel and WTI about 3% to near $90 on June 5 as traders weighed stalled US-Iran diplomacy against the risk premium from the largely blocked Strait of Hormuz, though both benchmarks held gains for the week. OPEC+'s Joint Ministerial Monitoring Committee is due to convene June 7 to assess compliance and output policy.",
@@ -466,20 +302,6 @@
       "updatedAt": "2026-06-06T17:04:32Z",
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "Prices balance a geopolitical risk premium against hopes for a diplomatic thaw and added OPEC+ supply.",
-          "summary": "Coverage reported crude slipped Friday as markets watched US-Iran talks, with rerouting of flows around the Strait of Hormuz and OPEC+ supply additions partly offsetting the war premium. The standoff has reshaped the energy-security debate even as benchmarks stayed elevated on the week.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/amp/2026/06/05/iran-war-strait-of-hormuz-renewables-oil-gas.html",
-              "title": "How the Strait of Hormuz standoff flipped the energy security debate",
-              "publishedAt": "2026-06-05T11:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
           "lean": "left",
           "keyFraming": "Reporting highlights how oil is finding workarounds to the blocked strait, tempering price spikes.",
           "summary": "Analysis described how producers and traders have rerouted crude to bypass the disruption at the Strait of Hormuz, helping explain why prices eased despite continued conflict risk in the Gulf.",
@@ -490,6 +312,20 @@
               "title": "How oil is finding its way around the Strait of Hormuz",
               "publishedAt": "2026-06-05T10:00:00Z",
               "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Prices balance a geopolitical risk premium against hopes for a diplomatic thaw and added OPEC+ supply.",
+          "summary": "Coverage reported crude slipped Friday as markets watched US-Iran talks, with rerouting of flows around the Strait of Hormuz and OPEC+ supply additions partly offsetting the war premium. The standoff has reshaped the energy-security debate even as benchmarks stayed elevated on the week.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/amp/2026/06/05/iran-war-strait-of-hormuz-renewables-oil-gas.html",
+              "title": "How the Strait of Hormuz standoff flipped the energy security debate",
+              "publishedAt": "2026-06-05T11:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         }
@@ -555,7 +391,7 @@
     {
       "id": "oil-hormuz-peace-proposal-china-demand-2026-06-07",
       "headline": "Oil eases into the weekend as Iran sends updated peace proposal; Brent near $97, WTI near $91",
-      "summary": "Crude prices fell into the weekend after Iran sent an updated peace proposal to mediators, reviving hopes of a settlement that could reopen the Strait of Hormuz, effectively closed since late February. WTI fell toward $91 and Brent traded near $97. Weak Chinese demand — crude imports at a decade low — added pressure. Negotiators have floated a 60-day ceasefire extension under which the strait would reopen toll-free; markets remain closed Sunday.",
+      "summary": "Crude eased further as Iran sent an updated peace proposal to mediators, reviving hopes of a settlement that could reopen the Strait of Hormuz, effectively closed since late February. Brent settled near $93 and WTI near $90. On June 7 OPEC+ approved a fourth output-quota hike since the closure (+188,000 bpd from July), though analysts note the increase means little while the strait stays shut. Weak Chinese demand added pressure.",
       "category": "markets",
       "importance": 4,
       "tags": [
@@ -567,7 +403,7 @@
         "opec"
       ],
       "firstSeenAt": "2026-06-07T17:04:38Z",
-      "updatedAt": "2026-06-07T17:04:38Z",
+      "updatedAt": "2026-06-07T23:01:46Z",
       "perspectives": [
         {
           "lean": "left",
@@ -593,6 +429,12 @@
           "keyFraming": "OPEC+ supply discipline and the Hormuz chokepoint mean energy prices stay elevated even as headlines turn hopeful.",
           "summary": "Despite Friday's dip, the structural picture stays tight: the strait has been effectively closed since late February and any ceasefire extension still awaits final approval. Until shipping normalizes, US consumers face elevated pump prices regardless of diplomatic optimism.",
           "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/07/opec-set-for-fourth-oil-quota-hike-since-strait-of-hormuz-closure.html",
+              "title": "OPEC+ approves fourth oil output quota hike since Strait of Hormuz closure",
+              "publishedAt": "2026-06-07T12:00:00Z"
+            },
             {
               "outlet": "CNBC",
               "url": "https://www.cnbc.com/2026/05/28/oil-prices-us-strikes-in-iran-revive-strait-of-hormuz-turmoil-fears.html",

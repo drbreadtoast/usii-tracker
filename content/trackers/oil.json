@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:04:38Z",
+  "lastUpdated": "2026-06-07T23:01:46Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -70,6 +70,13 @@
         "status": "effectively_closed",
         "source": "CNN",
         "sourceUrl": "https://www.cnn.com/2026/04/29/world/iran-war-gulf-hormuz-shipping-maps-intl-vis"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Oil eases toward $93 Brent / $90 WTI as US-Iran talks reportedly progress and OPEC+ approves a fourth output-quota hike (+188,000 bpd) since the closure; no confirmed transit resumption.",
+        "status": "effectively_closed",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/06/07/opec-set-for-fourth-oil-quota-hike-since-strait-of-hormuz-closure.html"
       }
     ]
   },
@@ -179,21 +186,21 @@
         "name": "Corn",
         "unit": "/bushel",
         "preWar": 4.31,
-        "current": 4.4,
-        "changePercent": 2.1,
-        "detail": "Near a seven-week low as favorable Midwest weather lifts harvest expectations.",
-        "source": "Trading Economics (CBOT)",
-        "sourceUrl": "https://tradingeconomics.com/commodity/corn"
+        "current": 4.18,
+        "changePercent": -3.0,
+        "detail": "July CBOT corn closed ~$4.18/bu, a seven-week low on favorable Midwest weather.",
+        "source": "Brownfield Ag (CBOT)",
+        "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-june-5-2026/"
       },
       {
         "name": "Soybeans",
         "unit": "/bushel",
         "preWar": 10.12,
-        "current": 11.7,
-        "changePercent": 15.6,
-        "detail": "Held near a five-week low (~$11.7/bu) on strong US planting progress.",
-        "source": "Trading Economics (CBOT)",
-        "sourceUrl": "https://tradingeconomics.com/commodity/soybeans"
+        "current": 11.22,
+        "changePercent": 10.9,
+        "detail": "July CBOT soybeans closed ~$11.22/bu, down on strong US planting progress.",
+        "source": "Brownfield Ag (CBOT)",
+        "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-june-5-2026/"
       },
       {
         "name": "Rice",
@@ -351,6 +358,12 @@
       "source": "Wikipedia — Economic impact of the 2026 Iran war",
       "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war",
       "date": "2026-04-21"
+    },
+    {
+      "fact": "Brent fell below $94/bbl and WTI toward $91 on June 5, leaving Brent down roughly 20% from its 2026 peak near $118, as markets priced in possible progress in US-Iran talks to reopen the Strait of Hormuz; weaker Chinese crude imports added pressure.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/05/29/oil-price-iran-deal-war-ceasefire-trump.html",
+      "date": "2026-06-05"
     }
   ]
 }
