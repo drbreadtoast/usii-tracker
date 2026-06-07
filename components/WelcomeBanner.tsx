@@ -3,11 +3,10 @@
 import { useEffect, useState } from "react";
 import { openContact } from "@/lib/contact";
 import { openSurvey } from "@/lib/survey";
-import VoteBar from "./VoteBar";
 
 // Bump this key whenever the welcome message materially changes —
 // returning visitors will see the expanded banner once and can collapse again.
-const COLLAPSE_KEY = "welcome-v2-collapsed";
+const COLLAPSE_KEY = "welcome-v3-collapsed";
 
 export default function WelcomeBanner() {
   const [mounted, setMounted] = useState(false);
@@ -101,19 +100,14 @@ export default function WelcomeBanner() {
             A note from the developer
           </p>
           <p className="mt-1 text-sm leading-relaxed text-foreground">
-            Welcome to the new TheOSSreport — formerly the{" "}
-            <span className="font-semibold">US · Israel · Iran War Tracker</span>
-            , now expanded into{" "}
-            <span className="font-semibold">US Local &amp; Foreign Affairs</span>
-            . This site is for you, so take a second to{" "}
-            <span className="font-semibold">vote below</span>{" "}
-            and tell me what&apos;s working, what isn&apos;t, and what to bring
-            back. It&apos;s
-            version 1 — expect some bugs while I keep fixing, improving, and
-            adding more, including bringing back things from the previous
-            version.
+            Thanks for all the feedback — you asked for the old depth back, so
+            it&apos;s returning. New on the site: a{" "}
+            <span className="font-semibold">Follow the Oil</span> page, a daily{" "}
+            <span className="font-semibold">War Cost</span> tracker, and a{" "}
+            <span className="font-semibold">Foreign Influence</span> section,
+            with more on the way. Found a bug or want something added? Let me
+            know below.
           </p>
-          <VoteBar />
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <button
               type="button"

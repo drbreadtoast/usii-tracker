@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { SURVEY_OPEN_EVENT } from "@/lib/survey";
-import { readStoredVote, VOTE_LABELS, type VoteChoice } from "@/lib/vote";
 
 const WEB3FORMS_KEY = "b6a6218f-b812-4dd9-a358-26536d4bb141";
 const SUBMITTED_KEY = "survey-v1-submitted";
@@ -15,11 +14,9 @@ export default function FeedbackSurveyModal() {
   const [feedback, setFeedback] = useState("");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
-  const [vote, setVote] = useState<VoteChoice | null>(null);
 
   useEffect(() => {
     function handler(): void {
-      setVote(readStoredVote());
       setIsOpen(true);
     }
     window.addEventListener(SURVEY_OPEN_EVENT, handler);
@@ -45,13 +42,8 @@ export default function FeedbackSurveyModal() {
 
     const body = [
       `Rating: ${rating}/10`,
-      vote ? `Vote on banner: ${VOTE_LABELS[vote]} (${vote})` : null,
       `\nFeedback:\n${feedback.trim()}`,
-    ]
-      .filter(Boolean)
-      .join("\n");
-
-    const voteTag = vote ? ` · ${vote}` : "";
+    ].join("\n");
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -59,7 +51,7 @@ export default function FeedbackSurveyModal() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
-          subject: `[TheOSSreport] Feedback — ${rating}/10${voteTag}`,
+          subject: `[TheOSSreport] Feedback — ${rating}/10`,
           from_name: "TheOSSreport Feedback",
           email: email.trim() || "anonymous@visitor.com",
           message: body,
@@ -168,17 +160,6 @@ export default function FeedbackSurveyModal() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5">
-              {vote && (
-                <div className="rounded-md border border-gray-700 bg-gray-800/40 px-3 py-2">
-                  <p className="text-[10px] font-semibold uppercase tracking-wider text-gray-500">
-                    Your banner vote
-                  </p>
-                  <p className="mt-0.5 text-xs text-gray-300">
-                    {VOTE_LABELS[vote]}
-                  </p>
-                </div>
-              )}
-
               <div>
                 <label className="mb-2 block text-[10px] font-semibold uppercase tracking-wider text-gray-500">
                   Rate the site (0 = worst, 10 = best)
