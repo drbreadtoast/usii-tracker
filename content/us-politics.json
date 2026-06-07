@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-07T11:05:05Z",
+  "lastUpdated": "2026-06-07T17:04:38Z",
   "stories": [
     {
       "id": "senate-ice-border-funding-vote-a-rama-2026-06-04",
@@ -358,20 +358,6 @@
       "updatedAt": "2026-06-06T23:02:15Z",
       "perspectives": [
         {
-          "lean": "left",
-          "keyFraming": "A historic bipartisan rebuke as Congress reasserts that only it can declare war on an unpopular, costly campaign.",
-          "summary": "Left-of-center coverage stressed the constitutional significance of a chamber voting to restrain the president on an open-ended war past 90 days, foregrounding the four Republican crossovers and Democratic leaders' argument that the 'reckless and costly war of choice' must end.",
-          "sources": [
-            {
-              "outlet": "TIME",
-              "url": "https://time.com/article/2026/06/04/trump-iran-war-powers-resolution-house-republicans/",
-              "title": "House Votes to Restrain Trump's Iran War Powers in Bipartisan Rebuke",
-              "publishedAt": "2026-06-04T17:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
           "lean": "center",
           "keyFraming": "Trump's public counterattack on his own party's defectors dominates the aftermath of a vote that is mostly symbolic.",
           "summary": "Center coverage centered Trump's reaction, quoting him calling the vote 'meaningless' and the four GOP yes-votes 'GRANDSTANDERS,' while explaining the resolution will not bind him, is unlikely to pass the Senate, and would be vetoed.",
@@ -469,53 +455,44 @@
       ]
     },
     {
-      "id": "trump-approval-record-low-iran-inflation-2026-06-05",
-      "headline": "Trump's net approval falls to a record low in Economist/YouGov tracker as Iran war and inflation weigh",
-      "summary": "A May 29-June 1 Economist/YouGov poll of 1,604 adults put Trump's net approval at -25 (35% approve, 60% disapprove), described as a record low in that tracker. His weakest issue was inflation and prices at -43 net; 68% said the Iran war should end as soon as possible and a majority called the campaign the wrong decision.",
+      "id": "senate-iran-war-powers-renewed-push-2026-06-07",
+      "headline": "Senate Democrats move to force a renewed Iran war-powers vote as Gulf strikes resume",
+      "summary": "With US and Iranian forces again trading strikes across the Gulf, Senate Democratic leaders announced they will force another war-powers vote to constrain President Trump's authority over the Iran conflict when the chamber returns. The move follows the House's earlier 215-208 war-powers resolution and earlier blocked Senate attempts, and reflects unease over a fragile, repeatedly violated ceasefire.",
       "category": "us-politics",
       "importance": 3,
       "tags": [
-        "polling",
-        "trump",
-        "approval",
+        "senate",
         "iran",
-        "inflation"
+        "war-powers",
+        "schumer",
+        "congress"
       ],
-      "firstSeenAt": "2026-06-06T23:02:15Z",
-      "updatedAt": "2026-06-06T23:02:15Z",
+      "firstSeenAt": "2026-06-07T17:04:38Z",
+      "updatedAt": "2026-06-07T17:04:38Z",
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "Polling shows broad disapproval driven chiefly by prices and an unpopular war.",
-          "summary": "The Economist/YouGov tracker recorded Trump's lowest net approval to date, with inflation the top issue for roughly a third of Americans and majorities opposing the Iran war and wanting it to end quickly.",
+          "lean": "left",
+          "keyFraming": "Democrats argue Trump's 'war of choice' is unauthorized and failing, and vow to keep forcing votes.",
+          "summary": "Senate Democratic leadership framed the renewed push as building pressure to rein in an open-ended conflict, arguing the war raised gas prices, left Iran's nuclear program unverified and damaged US credibility, while insisting only a durable diplomatic settlement can end it.",
           "sources": [
             {
-              "outlet": "YouGov",
-              "url": "https://yougov.com/en-us/articles/54886-donald-trump-approval-new-lows-inflation-iran-ai-e-jean-carroll-may-29-june-1-2026-economist-yougov-poll",
-              "title": "Donald Trump approval at new lows on inflation, Iran, AI: May 29-June 1 2026 Economist/YouGov Poll",
-              "publishedAt": "2026-06-04T14:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/administration/5909690-trump-approval-rating-iran-inflation/",
-              "title": "Donald Trump approval drops to -25% amid Iran war, inflation",
-              "publishedAt": "2026-06-04T16:00:00Z",
-              "allSidesRating": "center"
+              "outlet": "Senate Democratic Leadership",
+              "url": "https://www.democrats.senate.gov/newsroom/press-releases/transcript-leader-schumer-announces-imminent-vote-on-war-powers-resolution-to-rein-in-donald-trumps-chaotic-war-of-choice-in-iran",
+              "title": "Schumer announces imminent vote on war powers resolution to rein in Trump's war in Iran",
+              "publishedAt": "2026-06-05T18:00:00Z"
             }
           ]
         },
         {
-          "lean": "left",
-          "keyFraming": "Coverage casts the drop as a historic low tied to the war, prices and a string of controversies.",
-          "summary": "Left-leaning coverage emphasized the 'historic' nature of the decline and linked it to the open-ended Iran war, persistent inflation and other flashpoints dragging on the president's standing.",
+          "lean": "right",
+          "keyFraming": "Republicans cast the move as a partisan effort to tie the president's hands during an active conflict.",
+          "summary": "Coverage from the right frames Schumer's push to constrain the president's war powers amid a ceasefire as politically motivated, noting the administration's argument that the strikes are defensive responses to Iranian attacks on shipping and Gulf allies.",
           "sources": [
             {
-              "outlet": "The Daily Beast",
-              "url": "https://www.thedailybeast.com/trumps-approval-rating-tanks-to-a-historic-new-low/",
-              "title": "Trump's Approval Rating Tanks to a Historic New Low",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "lean-left"
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/politics/schumer-blasts-trumps-iran-war-failure-moves-rein-war-powers-amid-ceasefire",
+              "title": "Schumer blasts Trump's Iran war as failure, moves to rein in his war powers amid ceasefire",
+              "publishedAt": "2026-06-04T18:00:00Z"
             }
           ]
         }

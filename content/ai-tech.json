@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-07T11:05:05Z",
+  "lastUpdated": "2026-06-07T17:04:38Z",
   "stories": [
     {
       "id": "warren-huang-senate-china-chips-2026-06-04",
@@ -24,32 +24,11 @@
           "summary": "Left-leaning and oversight framing stresses national-security concerns, casting the invitation as an effort to put NVIDIA on the record over export-control policy and to press the administration not to approve H200 sales to China.",
           "sources": [
             {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/04/nvidia-ceo-jensen-huang-warren-senate-hearing-china-ai-chips.html",
-              "title": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales",
-              "publishedAt": "2026-06-04T17:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
               "outlet": "U.S. Senate Banking Committee",
               "url": "https://www.banking.senate.gov/newsroom/minority/warren-criticizes-nvidia-ceos-closed-door-meeting-on-capitol-hill-presses-administration-not-to-greenlight-sale-of-h200-ai-chips-to-china",
               "title": "Warren Criticizes Nvidia CEO's Closed-Door Meeting, Presses Administration Not to Greenlight H200 Sale to China",
               "publishedAt": "2026-06-04T18:00:00Z",
               "allSidesRating": null
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Over-restricting sales cedes the China market and hands Chinese rivals an opening.",
-          "summary": "Right-leaning framing emphasizes competitiveness, citing Huang's argument that US share of the China AI-chip market has already collapsed and that tighter controls would benefit Chinese firms rather than US security.",
-          "sources": [
-            {
-              "outlet": "Reuters",
-              "url": "https://www.reuters.com/technology/warren-invites-nvidia-ceo-jensen-huang-senate-hearing-china-ai-chip-sales-2026-06-04/",
-              "title": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales",
-              "publishedAt": "2026-06-04T16:30:00Z",
-              "allSidesRating": "center"
             }
           ]
         }
@@ -162,41 +141,9 @@
       ]
     },
     {
-      "id": "ai-layoffs-entry-level-hiring-2026-06-06",
-      "headline": "AI-linked tech layoffs mount in 2026 as entry-level hiring takes the hardest hit",
-      "summary": "Analysts say 2026 tech layoffs have climbed past 130,000 workers, with AI cited as a major driver, but the sharper signal is a pullback in junior hiring: employment for software developers aged 22-25 has fallen nearly 20% since 2024. Economists note automation first hits easily codified entry-level tasks, depressing opportunities for new graduates even where mass layoffs are modest.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "ai-employment",
-        "layoffs",
-        "labor-market",
-        "automation",
-        "big-tech"
-      ],
-      "firstSeenAt": "2026-06-06T17:04:32Z",
-      "updatedAt": "2026-06-06T17:04:32Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "The clearer AI effect is a hiring freeze for entry-level roles, not just headline layoffs.",
-          "summary": "Coverage reported that while AI-attributed job cuts are rising across the tech sector, economists say the more telling impact is reduced hiring of new graduates, as automation absorbs the routine tasks once handled by junior staff. Some surveys also find a share of employers regret AI-driven cuts.",
-          "sources": [
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/ai-layoffs-hiring-entry-level-workers/",
-              "title": "AI job cuts are rising, but experts say layoffs are only part of the story",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "bis-china-ai-chip-loophole-closed-2026-06-06",
-      "headline": "Commerce's BIS closes China AI-chip 'parent company' loophole as Trump officials dispute a gap existed",
-      "summary": "The Commerce Department's Bureau of Industry and Security issued a weekend guidance notice on May 31 confirming export licenses are required for advanced AI chips shipped to any entity whose ultimate parent is headquartered in China, closing what experts called a major compliance gap. June 6 reporting notes some Trump officials publicly dispute whether the loophole ever existed, against the backdrop of a January rule that loosened controls to permit capped sales of high-end chips to China.",
+      "headline": "Officials dispute whether the BIS-closed China AI-chip 'loophole' ever existed",
+      "summary": "A dispute has emerged over Commerce's BIS move to close what some called a major gap on advanced AI-chip exports. May 31 guidance confirmed licenses are required for advanced AI chips shipped to any entity whose ultimate parent is headquartered in China, Russia or another Group D:5 nation, naming Nvidia's Blackwell/Rubin and AMD's MI350x. Some Trump officials now say no genuine loophole existed, recasting the move as clarification of a 2023 rule rather than a new crackdown.",
       "category": "ai-tech",
       "importance": 4,
       "tags": [
@@ -207,26 +154,31 @@
         "nvidia"
       ],
       "firstSeenAt": "2026-06-06T23:02:15Z",
-      "updatedAt": "2026-06-06T23:02:15Z",
+      "updatedAt": "2026-06-07T17:04:38Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "A quiet but consequential tightening of chip-export enforcement amid intra-administration disagreement over how big the gap really was.",
-          "summary": "Coverage framed the BIS notice as plugging a real enforcement hole on parent-company routing of advanced AI chips, while administration officials downplayed it. Analysts tie the move to the January loosening that allowed capped high-end sales, leaving US policy toward China's chip access contested and, critics argue, hard to enforce.",
+          "keyFraming": "A year of lax enforcement may have let advanced chips flow to Chinese-linked firms abroad; closing the gap is overdue.",
+          "summary": "The BIS guidance addresses what critics describe as an enforcement gap that may have allowed Nvidia's most advanced chips to reach overseas subsidiaries of Chinese companies via third countries. By clarifying that license requirements follow a buyer's ultimate Chinese parentage anywhere, the rule aims to plug leakage an industry source estimated in the hundreds of thousands of chips.",
           "sources": [
             {
-              "outlet": "TechTimes",
+              "outlet": "Tech Times",
               "url": "https://www.techtimes.com/articles/317905/20260606/bis-closed-china-ai-chip-loophole-trump-officials-dispute-whether-gap-ever-existed.htm",
               "title": "BIS Closed China AI Chip Loophole: Trump Officials Dispute Whether Gap Ever Existed",
-              "publishedAt": "2026-06-06T13:00:00Z",
-              "allSidesRating": "center"
-            },
+              "publishedAt": "2026-06-06T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "There was no new loophole — the license rule always applied; this is clarification, and overstating the gap misleads.",
+          "summary": "Trump administration officials dispute the framing of a newly discovered loophole, noting the November-2023 license requirement always applied to destinations outside the US when chips are bound for China-headquartered firms or subsidiaries. From this view BIS is reaffirming policy rather than reacting to a failure, and claims of hundreds of thousands of leaked chips are contested.",
+          "sources": [
             {
-              "outlet": "Council on Foreign Relations",
-              "url": "https://www.cfr.org/articles/new-ai-chip-export-policy-china-strategically-incoherent-and-unenforceable",
-              "title": "The New AI Chip Export Policy to China: Strategically Incoherent and Unenforceable",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "center"
+              "outlet": "Tech Times",
+              "url": "https://www.techtimes.com/articles/317905/20260606/bis-closed-china-ai-chip-loophole-trump-officials-dispute-whether-gap-ever-existed.htm",
+              "title": "BIS Closed China AI Chip Loophole: Trump Officials Dispute Whether Gap Ever Existed",
+              "publishedAt": "2026-06-06T12:00:00Z"
             }
           ]
         }

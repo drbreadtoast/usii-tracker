@@ -1,15 +1,31 @@
 {
-  "lastUpdated": "2026-06-07T11:05:05Z",
+  "lastUpdated": "2026-06-07T17:04:38Z",
   "conflictStartDate": "2026-02-28",
   "daysOfConflict": 99,
   "dailyBurnRate": 1478000000,
   "totalCost": 67570000000,
   "disclaimer": "Provisional baseline restored from the prior Follow-the-Cost tracker and being re-verified by the scheduled refresh. Figures are direct military expenditure estimates compiled from CBO, DoD, CSIS, SIPRI and the Brown University Costs of War project; ranges vary widely and are not official totals.",
   "sources": [
-    { "name": "Congressional Budget Office (CBO)", "url": "https://www.cbo.gov/", "description": "Federal cost estimates" },
-    { "name": "CSIS", "url": "https://www.csis.org/", "description": "Munitions and operations cost analysis" },
-    { "name": "Brown University — Costs of War", "url": "https://watson.brown.edu/costsofwar/", "description": "Long-run war cost accounting" },
-    { "name": "SIPRI", "url": "https://www.sipri.org/", "description": "Arms and military expenditure data" }
+    {
+      "name": "Congressional Budget Office (CBO)",
+      "url": "https://www.cbo.gov/",
+      "description": "Federal cost estimates"
+    },
+    {
+      "name": "CSIS",
+      "url": "https://www.csis.org/",
+      "description": "Munitions and operations cost analysis"
+    },
+    {
+      "name": "Brown University — Costs of War",
+      "url": "https://watson.brown.edu/costsofwar/",
+      "description": "Long-run war cost accounting"
+    },
+    {
+      "name": "SIPRI",
+      "url": "https://www.sipri.org/",
+      "description": "Arms and military expenditure data"
+    }
   ],
   "countries": [
     {
@@ -21,11 +37,41 @@
       "source": "CSIS / DoD",
       "sourceUrl": "https://www.csis.org/",
       "breakdown": [
-        { "label": "Munitions expended", "amount": 14200000000, "description": "Interceptors and strike munitions; roughly half of THAAD/Patriot stocks drawn down; 1,000+ Tomahawks.", "source": "CSIS", "sourceUrl": "https://www.csis.org/" },
-        { "label": "Naval operations", "amount": 9500000000, "description": "Three carrier strike groups plus amphibious ready groups on station.", "source": "DoD", "sourceUrl": "https://comptroller.defense.gov/" },
-        { "label": "Air operations", "amount": 8200000000, "description": "B-2/B-1B sorties, F-35A/F-22 patrols, MQ-9 losses.", "source": "DoD", "sourceUrl": "https://comptroller.defense.gov/" },
-        { "label": "Personnel deployment", "amount": 3500000000, "description": "~57,000 personnel deployed to the theater.", "source": "DoD", "sourceUrl": "https://comptroller.defense.gov/" },
-        { "label": "Logistics & sustainment", "amount": 10600000000, "description": "Fuel, airlift, sealift, and basing support.", "source": "CBO", "sourceUrl": "https://www.cbo.gov/" }
+        {
+          "label": "Munitions expended",
+          "amount": 14200000000,
+          "description": "Interceptors and strike munitions; roughly half of THAAD/Patriot stocks drawn down; 1,000+ Tomahawks.",
+          "source": "CSIS",
+          "sourceUrl": "https://www.csis.org/"
+        },
+        {
+          "label": "Naval operations",
+          "amount": 9500000000,
+          "description": "Three carrier strike groups plus amphibious ready groups on station.",
+          "source": "DoD",
+          "sourceUrl": "https://comptroller.defense.gov/"
+        },
+        {
+          "label": "Air operations",
+          "amount": 8200000000,
+          "description": "B-2/B-1B sorties, F-35A/F-22 patrols, MQ-9 losses.",
+          "source": "DoD",
+          "sourceUrl": "https://comptroller.defense.gov/"
+        },
+        {
+          "label": "Personnel deployment",
+          "amount": 3500000000,
+          "description": "~57,000 personnel deployed to the theater.",
+          "source": "DoD",
+          "sourceUrl": "https://comptroller.defense.gov/"
+        },
+        {
+          "label": "Logistics & sustainment",
+          "amount": 10600000000,
+          "description": "Fuel, airlift, sealift, and basing support.",
+          "source": "CBO",
+          "sourceUrl": "https://www.cbo.gov/"
+        }
       ]
     },
     {
@@ -37,11 +83,31 @@
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com/world/middle-east/",
       "breakdown": [
-        { "label": "Munitions expended", "amount": 5500000000, "description": "Arrow-3/Arrow-2 interceptors and thousands of Iron Dome Tamir rounds." },
-        { "label": "Naval operations", "amount": 1500000000, "description": "Sa'ar 6 corvettes and submarines in the eastern Mediterranean." },
-        { "label": "Air operations", "amount": 6500000000, "description": "F-35I/F-15I/F-16 sorties and sustained operations in the north." },
-        { "label": "Personnel mobilization", "amount": 2500000000, "description": "~300,000 reservists mobilized." },
-        { "label": "Logistics & sustainment", "amount": 1500000000, "description": "Resupply, basing, and home-front defense." }
+        {
+          "label": "Munitions expended",
+          "amount": 5500000000,
+          "description": "Arrow-3/Arrow-2 interceptors and thousands of Iron Dome Tamir rounds."
+        },
+        {
+          "label": "Naval operations",
+          "amount": 1500000000,
+          "description": "Sa'ar 6 corvettes and submarines in the eastern Mediterranean."
+        },
+        {
+          "label": "Air operations",
+          "amount": 6500000000,
+          "description": "F-35I/F-15I/F-16 sorties and sustained operations in the north."
+        },
+        {
+          "label": "Personnel mobilization",
+          "amount": 2500000000,
+          "description": "~300,000 reservists mobilized."
+        },
+        {
+          "label": "Logistics & sustainment",
+          "amount": 1500000000,
+          "description": "Resupply, basing, and home-front defense."
+        }
       ]
     },
     {
@@ -53,32 +119,146 @@
       "source": "SIPRI",
       "sourceUrl": "https://www.sipri.org/",
       "breakdown": [
-        { "label": "Munitions expended", "amount": 1450000000, "description": "Ballistic missiles, rockets and drones across multiple salvos." },
-        { "label": "Naval operations", "amount": 310000000, "description": "IRGC fast-attack craft; large share of the navy reported sunk or damaged." },
-        { "label": "Air operations", "amount": 470000000, "description": "Limited sorties under contested airspace." },
-        { "label": "Personnel", "amount": 1060000000, "description": "IRGC and Basij mobilization." },
-        { "label": "Logistics & sustainment", "amount": 780000000, "description": "Dispersal, repair, and resupply under strikes." }
+        {
+          "label": "Munitions expended",
+          "amount": 1450000000,
+          "description": "Ballistic missiles, rockets and drones across multiple salvos."
+        },
+        {
+          "label": "Naval operations",
+          "amount": 310000000,
+          "description": "IRGC fast-attack craft; large share of the navy reported sunk or damaged."
+        },
+        {
+          "label": "Air operations",
+          "amount": 470000000,
+          "description": "Limited sorties under contested airspace."
+        },
+        {
+          "label": "Personnel",
+          "amount": 1060000000,
+          "description": "IRGC and Basij mobilization."
+        },
+        {
+          "label": "Logistics & sustainment",
+          "amount": 780000000,
+          "description": "Dispersal, repair, and resupply under strikes."
+        }
       ]
     }
   ],
   "weapons": [
-    { "weapon": "BGM-109 Tomahawk (Block V)", "country": "us", "unitCost": 2000000, "quantityUsed": 850, "totalCost": 1700000000, "description": "Long-range land-attack cruise missile.", "source": "CSIS", "sourceUrl": "https://www.csis.org/" },
-    { "weapon": "GBU-57 MOP (bunker-buster)", "country": "us", "unitCost": 3500000, "quantityUsed": 50, "totalCost": 175000000, "description": "Massive Ordnance Penetrator for hardened sites." },
-    { "weapon": "RIM-161 SM-3 Block IIA", "country": "us", "unitCost": 12000000, "quantityUsed": 35, "totalCost": 420000000, "description": "Exo-atmospheric ballistic-missile interceptor." },
-    { "weapon": "Iron Dome Tamir interceptor", "country": "israel", "unitCost": 50000, "quantityUsed": 4500, "totalCost": 225000000, "description": "Short-range rocket interceptor." },
-    { "weapon": "Arrow-3 interceptor", "country": "israel", "unitCost": 2500000, "quantityUsed": 40, "totalCost": 100000000, "description": "Exo-atmospheric interceptor." },
-    { "weapon": "Shahed-136 (Geran-2) drone", "country": "iran", "unitCost": 20000, "quantityUsed": 1200, "totalCost": 24000000, "description": "One-way attack UAV." }
+    {
+      "weapon": "BGM-109 Tomahawk (Block V)",
+      "country": "us",
+      "unitCost": 2000000,
+      "quantityUsed": 850,
+      "totalCost": 1700000000,
+      "description": "Long-range land-attack cruise missile.",
+      "source": "CSIS",
+      "sourceUrl": "https://www.csis.org/"
+    },
+    {
+      "weapon": "GBU-57 MOP (bunker-buster)",
+      "country": "us",
+      "unitCost": 3500000,
+      "quantityUsed": 50,
+      "totalCost": 175000000,
+      "description": "Massive Ordnance Penetrator for hardened sites."
+    },
+    {
+      "weapon": "RIM-161 SM-3 Block IIA",
+      "country": "us",
+      "unitCost": 12000000,
+      "quantityUsed": 35,
+      "totalCost": 420000000,
+      "description": "Exo-atmospheric ballistic-missile interceptor."
+    },
+    {
+      "weapon": "Iron Dome Tamir interceptor",
+      "country": "israel",
+      "unitCost": 50000,
+      "quantityUsed": 4500,
+      "totalCost": 225000000,
+      "description": "Short-range rocket interceptor."
+    },
+    {
+      "weapon": "Arrow-3 interceptor",
+      "country": "israel",
+      "unitCost": 2500000,
+      "quantityUsed": 40,
+      "totalCost": 100000000,
+      "description": "Exo-atmospheric interceptor."
+    },
+    {
+      "weapon": "Shahed-136 (Geran-2) drone",
+      "country": "iran",
+      "unitCost": 20000,
+      "quantityUsed": 1200,
+      "totalCost": 24000000,
+      "description": "One-way attack UAV."
+    }
   ],
   "economicRipple": [
-    { "label": "Global GDP impact", "value": "-0.4% (~-$400B)", "detail": "IMF estimate of the drag from the oil shock and trade disruption.", "source": "IMF", "sourceUrl": "https://www.imf.org/" },
-    { "label": "Shipping insurance surge", "value": "+9,900%", "detail": "Gulf war-risk premiums rose from ~0.05% to ~5% of hull value, ~$2.5M extra per transit.", "source": "Lloyd's / Reuters", "sourceUrl": "https://www.reuters.com/business/energy/" },
-    { "label": "Hormuz flow disruption", "value": "~-97%", "detail": "Throughput fell from ~21 MBD to a fraction of normal.", "source": "EIA", "sourceUrl": "https://www.eia.gov/petroleum/" },
-    { "label": "Trade disruption", "value": "-1.2% global trade", "detail": "~$180B of affected volume with multi-week shipping delays.", "source": "WTO", "sourceUrl": "https://www.wto.org/" }
+    {
+      "label": "Global GDP impact",
+      "value": "-0.4% (~-$400B)",
+      "detail": "IMF estimate of the drag from the oil shock and trade disruption.",
+      "source": "IMF",
+      "sourceUrl": "https://www.imf.org/"
+    },
+    {
+      "label": "Shipping insurance surge",
+      "value": "+9,900%",
+      "detail": "Gulf war-risk premiums rose from ~0.05% to ~5% of hull value, ~$2.5M extra per transit.",
+      "source": "Lloyd's / Reuters",
+      "sourceUrl": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "label": "Hormuz flow disruption",
+      "value": "~-97%",
+      "detail": "Throughput fell from ~21 MBD to a fraction of normal.",
+      "source": "EIA",
+      "sourceUrl": "https://www.eia.gov/petroleum/"
+    },
+    {
+      "label": "Trade disruption",
+      "value": "-1.2% global trade",
+      "detail": "~$180B of affected volume with multi-week shipping delays.",
+      "source": "WTO",
+      "sourceUrl": "https://www.wto.org/"
+    }
   ],
   "keyFacts": [
-    { "fact": "Pentagon Comptroller Jules Hurst told a Senate committee the war had cost about $29 billion — up from the $25 billion first reported in late April — attributing the increase to updated equipment repair and replacement and general operational costs.", "source": "Al Jazeera", "sourceUrl": "https://www.aljazeera.com/news/2026/5/12/pentagon-gives-new-29bn-iran-war-price-tag-downplays-munitions-concerns", "date": "2026-05-12" },
-    { "fact": "CSIS estimated the war cost the US about $16.5 billion through Day 12, averaging roughly $1.375 billion per day.", "source": "CSIS", "sourceUrl": "https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12", "date": "2026-03-12" },
-    { "fact": "Harvard Kennedy School's Linda Bilmes estimated the war is likely to cost roughly $1 trillion over the next decade once long-run obligations are counted.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/04/14/iran-war-cost-us-taxpayer-trillion-harvard.html", "date": "2026-04-14" },
-    { "fact": "The Penn Wharton Budget Model put direct costs at $40-95 billion, with up to $210 billion in broader economic impact.", "source": "Penn Wharton Budget Model", "sourceUrl": "https://budgetmodel.wharton.upenn.edu/", "date": "2026-04-10" }
+    {
+      "fact": "Pentagon Comptroller Jules Hurst told a Senate committee the war had cost about $29 billion — up from the $25 billion first reported in late April — attributing the increase to updated equipment repair and replacement and general operational costs.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/5/12/pentagon-gives-new-29bn-iran-war-price-tag-downplays-munitions-concerns",
+      "date": "2026-05-12"
+    },
+    {
+      "fact": "CSIS estimated the war cost the US about $16.5 billion through Day 12, averaging roughly $1.375 billion per day.",
+      "source": "CSIS",
+      "sourceUrl": "https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12",
+      "date": "2026-03-12"
+    },
+    {
+      "fact": "Harvard Kennedy School's Linda Bilmes estimated the war is likely to cost roughly $1 trillion over the next decade once long-run obligations are counted.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/04/14/iran-war-cost-us-taxpayer-trillion-harvard.html",
+      "date": "2026-04-14"
+    },
+    {
+      "fact": "The Penn Wharton Budget Model put direct costs at $40-95 billion, with up to $210 billion in broader economic impact.",
+      "source": "Penn Wharton Budget Model",
+      "sourceUrl": "https://budgetmodel.wharton.upenn.edu/",
+      "date": "2026-04-10"
+    },
+    {
+      "fact": "A Pakistan-brokered ceasefire that took effect April 8, 2026 sharply cut US daily war spending from a roughly $1.9B/day peak in the war's first week to a far lower standby rate; analysts' total direct-cost estimates still range widely from about $29B (Pentagon) to over $40B.",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us",
+      "date": "2026-04-30"
+    }
   ]
 }
