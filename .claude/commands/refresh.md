@@ -91,9 +91,9 @@ If the most recent entry is `FAIL`, skim back to understand why before starting 
 
 ## PHASE 1 — Deep parallel research
 
-Spawn **five research subagents in parallel** via the Agent tool. Each owns a fixed slice of the world; none overlap. Each returns a structured research brief — not finished content.
+Spawn **six research subagents in parallel** via the Agent tool. Each owns a fixed slice of the world; none overlap. Each returns a structured research brief — not finished content.
 
-Send all five Agent calls in **one message** (one tool block, five Agent tool uses inside) so they run concurrently. Wait for all to return before starting Phase 2.
+Send all six Agent calls in **one message** (one tool block, six Agent tool uses inside) so they run concurrently. Wait for all to return before starting Phase 2.
 
 ### Subagent A — US Politics & Statements
 
@@ -116,7 +116,7 @@ Send all five Agent calls in **one message** (one tool block, five Agent tool us
 
 ### Subagent B — Foreign Affairs & War
 
-**Owns:** `foreign.json`, `war.json`, foreign+war parts of `headlines.json`, foreign speakers in `statements.json`, the Iran–Israel–US war-cost tracker (`content/trackers/war-cost.json`), and the **Foreign Influence** page — its incident feed (`content/foreign-influence.json`) and its funding tracker (`content/trackers/israel-funding.json`).
+**Owns:** `foreign.json`, `war.json`, foreign+war parts of `headlines.json`, foreign speakers in `statements.json`. *(War cost, funding, and the Foreign Influence feed moved to Subagent F.)*
 
 **Research checklist (last 24h):**
 - Ukraine war: front-line developments, weapons deliveries, diplomatic talks, civilian impact
@@ -135,11 +135,6 @@ Send all five Agent calls in **one message** (one tool block, five Agent tool us
 **Source diversity rule for war stories:** When covering a contested event (a strike, casualty figure, territorial claim), include perspectives from `foreign-western` (BBC/DW/Le Monde/Haaretz), `foreign-eastern` (TASS/Xinhua/RT — flagged isStateMedia), AND `center` (Reuters/AP/BBC center coverage). State-media sources MUST have `isStateMedia: true`.
 
 **Return:** 5-8 candidate stories split between foreign affairs (non-conflict) and active conflicts, plus 1-3 candidate foreign-leader statements.
-
-**Also for Subagent B — trackers & Foreign Influence (return as structured briefs):**
-- **War cost** (`content/trackers/war-cost.json`): refreshed `daysOfConflict`, `dailyBurnRate`, `totalCost`, per-country `directMilitaryTotal`/`dailyBurnRate`/`breakdown`, `weapons`, `economicRipple`, `keyFacts` — sourced from CBO, DoD comptroller, CSIS, SIPRI, Penn Wharton, Brown Costs of War. Every number carries `source`+`sourceUrl`.
-- **Foreign Influence incidents** (`content/foreign-influence.json`): 2-4 sourced stories on documented Israeli influence on US policy (legislation, votes, officials, lobbying). NEUTRAL ≤140-char headlines. Each story MUST include a right-of-reply perspective (`government` lean) citing the org/official's response. Same Story schema as other sections.
-- **Funding tracker** (`content/trackers/israel-funding.json`): refreshed `organizations`, `topRecipients`, `votingCorrelations`, `keyFacts` from OpenSecrets, the FEC, ProPublica, and Senate/House roll calls. KEEP the correlation-≠-causation `disclaimer` verbatim; insights stay descriptive, never causal.
 
 ### Subagent C — Markets, Economy & Tech
 
@@ -213,6 +208,22 @@ Tech / AI:
 }
 ```
 
+### Subagent F — Money & Influence
+
+**Owns:** the Iran–Israel–US war-cost tracker (`content/trackers/war-cost.json`), the pro-Israel funding tracker (`content/trackers/israel-funding.json`), and the **Foreign Influence** incident feed (`content/foreign-influence.json`). This lane exists so the financial/lobbying research — a different source set than breaking news — gets full attention instead of overloading Foreign+War.
+
+**Research checklist:**
+- **War cost** (last 24-72h): updated direct-military estimates from CBO, the DoD comptroller, CSIS, SIPRI, Penn Wharton, and the Brown Costs of War project. Watch for new official cost testimony or analyst updates.
+- **Funding** (latest cycle + any new filings): OpenSecrets, the FEC, ProPublica, Senate/House roll calls. Refresh org cycle-spending, top recipients, and any new votes with funding correlations.
+- **Influence incidents** (last 24-72h + evergreen): documented instances of foreign (currently Israeli) influence on US policy — legislation, votes, officials' ties, lobbying. Reputable reporting; always include the official/organization's response.
+
+**Source requirements:** primary records where possible (OpenSecrets, FEC, Senate.gov roll calls, CBO/CRS, CSIS). 404/410 = drop. For incidents, balance a critic perspective, a center/context perspective, AND a `government` right-of-reply.
+
+**Return (structured briefs):**
+- **War cost** → `content/trackers/war-cost.json`: `daysOfConflict`, `dailyBurnRate`, `totalCost`, per-country `directMilitaryTotal`/`dailyBurnRate`/`breakdown`, `weapons`, `economicRipple`, `keyFacts` — every number with `source`+`sourceUrl`; baselines never change.
+- **Foreign Influence incidents** → `content/foreign-influence.json`: 2-4 sourced stories, NEUTRAL ≤140-char headlines, each with a `government` right-of-reply. Same Story schema as other sections.
+- **Funding** → `content/trackers/israel-funding.json`: refreshed `organizations`, `topRecipients`, `votingCorrelations`, `keyFacts` from OpenSecrets/FEC/ProPublica/roll calls. KEEP the correlation-≠-causation `disclaimer` verbatim; insights stay descriptive, never causal.
+
 ---
 
 ## PHASE 2 — Write content
@@ -268,14 +279,14 @@ Sort the array so newest is FIRST (the card already sorts client-side, but match
 
 ### 2e. Trackers & Foreign Influence
 
-**`content/foreign-influence.json`** — append/refresh 2-4 sourced influence stories from Subagent B (same Story schema; neutral ≤140-char headlines; every story includes a `government` right-of-reply perspective). Set `lastUpdated` = `REFRESH_TS`. This file feeds a manifest section count like any other section.
+**`content/foreign-influence.json`** — append/refresh 2-4 sourced influence stories from Subagent F (same Story schema; neutral ≤140-char headlines; every story includes a `government` right-of-reply perspective). Set `lastUpdated` = `REFRESH_TS`. This file feeds a manifest section count like any other section.
 
-**`content/trackers/oil.json`** (Subagent C), **`content/trackers/war-cost.json`** and **`content/trackers/israel-funding.json`** (Subagent B) — rewrite the metric values in place from the briefs:
+**`content/trackers/oil.json`** (Subagent C), **`content/trackers/war-cost.json`** and **`content/trackers/israel-funding.json`** (Subagent F) — rewrite the metric values in place from the briefs:
 - Top-level `lastUpdated` = `REFRESH_TS`.
 - Baselines (`preWar*`, the 2024-06-01 reference points) NEVER change.
 - `keyFacts` entries are OBJECTS (`{fact, source, sourceUrl, date?}`), never bare strings.
 - Every numeric and every claim carries `source`+`sourceUrl`; no bare-domain URLs as primary citations.
-- Append-only on `timeline`/history arrays — don't delete past entries.
+- Append-only on `timeline`/history arrays, but CAP them so files stay bounded: oil `gas.priceHistory` ≤ ~90 entries and `hormuz.timeline` ≤ ~40 entries — drop the oldest beyond the cap. war-cost and funding are point-in-time and fully rewritten each run.
 - `israel-funding.json`: keep the correlation-≠-causation `disclaimer` verbatim.
 
 Trackers are validated against `content/trackers/schema.json` by `npm run validate` (TRACKERS section). They are NOT part of `manifest.json`.
@@ -424,7 +435,7 @@ echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') FAIL validate=stale_url:<count>" >> logs/
 ## CONTEXT-SAVING TRICKS
 
 - Use `tail -60` not full file reads.
-- Spawn all 5 subagents in parallel (one message, five Agent tool uses).
+- Spawn all 6 subagents in parallel (one message, six Agent tool uses).
 - Each subagent should also spawn WebFetch calls in parallel within itself.
 - The validator already runs URL checks concurrently — don't pre-flight URLs serially.
 - If you're about to read a 2000-line section file in full, stop. The tail has what you need.

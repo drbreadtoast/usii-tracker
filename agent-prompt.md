@@ -13,7 +13,7 @@ cat .claude/commands/refresh.md
 Follow every phase exactly as written:
 
 - **PHASE 0** — Preflight (git pull, read tails not full files)
-- **PHASE 1** — Spawn 5 parallel research subagents (Politics, Foreign+War, Markets+Tech, Underreported, Live data). Foreign+War also maintains the war-cost + Foreign Influence trackers; Markets+Tech maintains the oil tracker.
+- **PHASE 1** — Spawn 6 parallel research subagents (Politics, Foreign+War, Markets+Tech, Underreported, Live data, Money & Influence). Markets+Tech maintains the oil tracker; Money & Influence maintains the war-cost + funding trackers and the Foreign Influence incident feed.
 - **PHASE 2** — Write content in priority order (CRITICAL → HIGH → MEDIUM → OPTIONAL → trackers + Foreign Influence → manifest)
 - **PHASE 3** — Verify (`npm run verify`) → Validate (`npm run validate`) → Build (`npm run build`) → Commit + push
 
@@ -44,7 +44,7 @@ The slash command is more comprehensive than this pointer. Do not skip reading i
 ### Context-saving tricks
 
 - Use `tail -60 content/<file>.json` not full reads.
-- Spawn all 5 subagents in ONE message (parallel, not serial).
+- Spawn all 6 subagents in ONE message (parallel, not serial).
 - Each subagent spawns WebFetch calls in parallel within itself.
 - The validator already runs URL checks concurrently — don't pre-flight serially.
 
