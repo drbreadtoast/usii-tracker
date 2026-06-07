@@ -1,95 +1,95 @@
 {
-  "lastUpdated": "2026-06-06T17:04:32Z",
-  "disclaimer": "Provisional baseline restored from the prior Follow-the-Oil tracker and being re-verified by the scheduled refresh; contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
+  "lastUpdated": "2026-06-07T04:32:00Z",
+  "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
-    { "name": "U.S. Energy Information Administration (EIA)", "url": "https://www.eia.gov/petroleum/", "description": "Production, reserves, consumption" },
+    { "name": "U.S. Energy Information Administration (EIA)", "url": "https://www.eia.gov/petroleum/", "description": "Production, reserves, consumption, fuel prices" },
     { "name": "AAA Gas Prices", "url": "https://gasprices.aaa.com/", "description": "US national average pump price" },
     { "name": "International Energy Agency (IEA)", "url": "https://www.iea.org/topics/oil-market-report", "description": "Global supply/demand balance" },
     { "name": "Reuters — Energy", "url": "https://www.reuters.com/business/energy/", "description": "Market and shipping reporting" }
   ],
   "hormuz": {
     "status": "effectively_closed",
-    "blockadeDay": 72,
+    "blockadeDay": 96,
     "blockadeStartDate": "2026-03-03",
-    "dailyTransits": 2,
+    "dailyTransits": 6,
     "preWarDailyTransits": 140,
-    "barrelsBlockedDaily": 15000000,
+    "barrelsBlockedDaily": 10000000,
     "globalOilSharePercent": 20,
-    "insuranceStatus": "War-risk premium ~+340% of hull value",
-    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — has been effectively closed since early March, with transits collapsing from ~140/day to a trickle. Lloyd's underwriters pulled standard war-risk cover, and most carriers are rerouting or holding at anchor.",
-    "source": "Reuters — Energy",
-    "sourceUrl": "https://www.reuters.com/business/energy/",
+    "insuranceStatus": "War-risk premium ~0.2-0.4% of hull value (from 0.125% pre-crisis), ~+$250k per large-tanker transit",
+    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — has been effectively closed since early March under a 'dual blockade': Iran controls passage through a toll regime while the US Navy interdicts Iran-linked traffic. Transits have collapsed from ~140/day to a trickle (about 191 vessels crossed in all of April per Kpler), removing roughly 10 million barrels/day of supply from the seaborne market.",
+    "source": "Wikipedia — 2026 Strait of Hormuz crisis",
+    "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
     "timeline": [
-      { "date": "2026-03-01", "event": "Iran begins deploying naval mines in the Strait of Hormuz.", "status": "partially_blocked", "source": "Reuters", "sourceUrl": "https://www.reuters.com/world/middle-east/" },
-      { "date": "2026-03-03", "event": "Full blockade declared; Lloyd's pulls war-risk insurance for Gulf transits.", "status": "blocked", "source": "Reuters", "sourceUrl": "https://www.reuters.com/business/energy/" },
-      { "date": "2026-03-09", "event": "Strait effectively closed — zero transits for 48+ hours; Brent spikes intraday above $119.", "status": "effectively_closed", "source": "Bloomberg", "sourceUrl": "https://www.bloomberg.com/energy" },
-      { "date": "2026-04-08", "event": "Ceasefire announced; conditional, partial reopening as a handful of tankers transit.", "status": "partially_blocked", "source": "Al Jazeera", "sourceUrl": "https://www.aljazeera.com/where/strait-of-hormuz/" },
-      { "date": "2026-04-13", "event": "US Navy begins enforcing a blockade of Iranian-port traffic; flows fall again.", "status": "effectively_closed", "source": "Reuters", "sourceUrl": "https://www.reuters.com/world/middle-east/" }
+      { "date": "2026-02-28", "event": "US launches Operation Epic Fury against Iranian military and naval targets; Iran retaliates and first merchant ships are attacked.", "status": "partially_blocked", "source": "Wikipedia", "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis" },
+      { "date": "2026-03-03", "event": "Iran declares the Strait closed; Lloyd's underwriters pull standard war-risk cover for Gulf transits.", "status": "blocked", "source": "Reuters", "sourceUrl": "https://www.reuters.com/business/energy/" },
+      { "date": "2026-03-27", "event": "IRGC announces the Strait is shut to any vessel travelling to/from the US, Israel and their allies; Brent peaks near $118/bbl on the quarter.", "status": "effectively_closed", "source": "EIA — Today in Energy", "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67424" },
+      { "date": "2026-04-08", "event": "Conditional ceasefire agreed; Iran begins charging $1M+ tolls per transit as a handful of tankers move.", "status": "partially_blocked", "source": "Wikipedia", "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis" },
+      { "date": "2026-04-13", "event": "US Navy begins enforcing a blockade of Iran-linked port traffic; the IMO reports ~20,000 mariners and ~2,000 ships stranded in the Gulf by April 21.", "status": "effectively_closed", "source": "CNN", "sourceUrl": "https://www.cnn.com/2026/04/29/world/iran-war-gulf-hormuz-shipping-maps-intl-vis" }
     ]
   },
   "gas": {
-    "currentAverage": 4.511,
+    "currentAverage": 4.191,
     "preWarAverage": 3.05,
-    "changePercent": 47.9,
+    "changePercent": 37.4,
     "unit": "$/gallon",
-    "source": "AAA Gas Prices",
+    "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
     "priceHistory": [
       { "date": "2026-02-01", "price": 3.12, "label": "Normal market" },
-      { "date": "2026-02-27", "price": 3.18, "label": "Talks collapse" },
       { "date": "2026-02-28", "price": 3.19, "label": "War begins", "isEvent": true },
-      { "date": "2026-03-03", "price": 3.10, "label": "Hormuz blocked", "isEvent": true },
-      { "date": "2026-03-31", "price": 4.02, "label": "Crosses $4.00 — first since Aug 2022", "isEvent": true },
-      { "date": "2026-04-30", "price": 4.30, "label": "New wartime high", "isEvent": true },
+      { "date": "2026-03-03", "price": 3.20, "label": "Hormuz closed", "isEvent": true },
+      { "date": "2026-03-31", "price": 3.99, "label": "Nears $4.00 — highest in real terms in 2+ years", "isEvent": true },
+      { "date": "2026-04-30", "price": 4.50, "label": "Wartime peak", "isEvent": true },
       { "date": "2026-05-07", "price": 4.558, "label": "Four-year high" },
-      { "date": "2026-05-13", "price": 4.511 }
+      { "date": "2026-05-30", "price": 4.356 },
+      { "date": "2026-06-06", "price": 4.191, "label": "Easing as SPR barrels reach market" }
     ],
     "breakdown": [
-      { "component": "Crude oil cost", "current": 2.412, "preWar": 1.62 },
-      { "component": "Refining", "current": 0.82, "preWar": 0.40 },
-      { "component": "Distribution & marketing", "current": 0.45, "preWar": 0.15 },
+      { "component": "Crude oil cost", "current": 2.21, "preWar": 1.62 },
+      { "component": "Refining", "current": 0.78, "preWar": 0.40 },
+      { "component": "Distribution & marketing", "current": 0.42, "preWar": 0.15 },
       { "component": "Federal excise tax", "current": 0.184, "preWar": 0.184 },
       { "component": "Average state tax", "current": 0.35, "preWar": 0.35 },
-      { "component": "Retail margin", "current": 0.304, "preWar": 0.12 }
+      { "component": "Retail margin", "current": 0.247, "preWar": 0.12 }
     ]
   },
   "food": {
     "commodities": [
-      { "name": "Wheat", "unit": "/bushel", "preWar": 5.62, "current": 6.79, "changePercent": 20.8, "detail": "CBOT futures limit-up after USDA cuts.", "source": "USDA", "sourceUrl": "https://www.usda.gov/oce/commodity/wasde" },
-      { "name": "Corn", "unit": "/bushel", "preWar": 4.31, "current": 4.80, "changePercent": 11.4, "detail": "Export demand plus drought in the Plains.", "source": "USDA", "sourceUrl": "https://www.usda.gov/oce/commodity/wasde" },
-      { "name": "Soybeans", "unit": "/bushel", "preWar": 10.12, "current": 12.27, "changePercent": 21.2, "detail": "Biofuel mandate boosting demand; soy oil near record.", "source": "USDA", "sourceUrl": "https://www.usda.gov/oce/commodity/wasde" },
-      { "name": "Rice", "unit": "/cwt", "preWar": 15.20, "current": 19.90, "changePercent": 30.9, "detail": "Asian import routes through the Gulf disrupted.", "source": "FAO", "sourceUrl": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/" },
-      { "name": "Cooking oil", "unit": "/gallon", "preWar": 3.49, "current": 6.14, "changePercent": 75.9, "detail": "Vegetable-oil index highest since mid-2022.", "source": "FAO", "sourceUrl": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/" },
-      { "name": "Coffee", "unit": "/lb", "preWar": 1.82, "current": 2.83, "changePercent": 55.5, "detail": "Arabica elevated; container rates up sharply on key routes.", "source": "ICE", "sourceUrl": "https://www.ice.com/products/15/Coffee-C-Futures" }
+      { "name": "Wheat", "unit": "/bushel", "preWar": 5.62, "current": 5.80, "changePercent": 3.2, "detail": "CBOT July futures ~580c/bu; easing on favorable US growing conditions despite Gulf-route risk.", "source": "Trading Economics (CBOT)", "sourceUrl": "https://tradingeconomics.com/commodity/wheat" },
+      { "name": "Corn", "unit": "/bushel", "preWar": 4.31, "current": 4.40, "changePercent": 2.1, "detail": "Near a seven-week low as favorable Midwest weather lifts harvest expectations.", "source": "Trading Economics (CBOT)", "sourceUrl": "https://tradingeconomics.com/commodity/corn" },
+      { "name": "Soybeans", "unit": "/bushel", "preWar": 10.12, "current": 11.70, "changePercent": 15.6, "detail": "Held near a five-week low (~$11.7/bu) on strong US planting progress.", "source": "Trading Economics (CBOT)", "sourceUrl": "https://tradingeconomics.com/commodity/soybeans" },
+      { "name": "Rice", "unit": "/cwt", "preWar": 15.20, "current": 12.65, "changePercent": -16.8, "detail": "Down from ten-month highs; ample global inventories led by record Indian output offset Gulf-route disruption.", "source": "Trading Economics", "sourceUrl": "https://tradingeconomics.com/commodity/rice" },
+      { "name": "Cooking oil", "unit": "/gallon", "preWar": 3.49, "current": 5.40, "changePercent": 54.7, "detail": "Vegetable-oil index elevated on biofuel demand and higher freight on key routes.", "source": "FAO", "sourceUrl": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/" },
+      { "name": "Coffee", "unit": "/lb", "preWar": 1.82, "current": 2.70, "changePercent": 48.4, "detail": "Arabica near its lowest since Nov 2024 on a record Brazil harvest, but still well above pre-war.", "source": "Trading Economics (ICE)", "sourceUrl": "https://tradingeconomics.com/commodity/coffee" }
     ],
     "groceryImpact": {
       "preWarWeekly": 168,
-      "currentWeekly": 182,
-      "changePercent": 8.3,
-      "source": "USDA / BLS CPI",
-      "sourceUrl": "https://www.bls.gov/cpi/"
+      "currentWeekly": 181,
+      "changePercent": 7.7,
+      "source": "World Bank Commodity Markets Outlook (Apr 2026)",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/04/28/commodity-markets-outlook-april-2026-press-release"
     }
   },
   "keyPlayers": [
-    { "country": "United States", "flag": "🇺🇸", "dailyProductionMbpd": 13.5, "globalSharePercent": 13.7, "provenReservesBillionBarrels": 44.4, "exportStatus": "active", "warImpact": "World's largest producer at a record 13.5 Mbpd; SPR ~58% full. Domestic output unaffected, but refiners face higher input costs.", "sourceUrl": "https://www.eia.gov/petroleum/" },
-    { "country": "Saudi Arabia", "flag": "🇸🇦", "dailyProductionMbpd": 9.47, "globalSharePercent": 9.6, "provenReservesBillionBarrels": 258.6, "exportStatus": "disrupted", "warImpact": "Key OPEC swing producer with ~2.5 Mbpd spare capacity, but Hormuz blocks most Gulf exports; rerouting via the East-West pipeline.", "sourceUrl": "https://www.eia.gov/international/analysis/country/SAU" },
+    { "country": "United States", "flag": "🇺🇸", "dailyProductionMbpd": 13.5, "globalSharePercent": 13.7, "provenReservesBillionBarrels": 44.4, "exportStatus": "active", "warImpact": "World's largest producer at a record ~13.5 Mbpd. DOE has tapped the SPR (down to ~384M bbl from 411M at end-2025) via a ~172M-bbl exchange to cushion summer pump prices; domestic output unaffected but refiners face higher input costs.", "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67625" },
+    { "country": "Saudi Arabia", "flag": "🇸🇦", "dailyProductionMbpd": 9.47, "globalSharePercent": 9.6, "provenReservesBillionBarrels": 258.6, "exportStatus": "disrupted", "warImpact": "Key OPEC swing producer with ~2.5 Mbpd spare capacity, but Hormuz blocks most Gulf exports; rerouting limited volumes via the East-West pipeline to the Red Sea.", "sourceUrl": "https://www.eia.gov/international/analysis/country/SAU" },
     { "country": "Russia", "flag": "🇷🇺", "dailyProductionMbpd": 9.13, "globalSharePercent": 9.3, "provenReservesBillionBarrels": 80, "exportStatus": "active", "warImpact": "Largely unaffected and benefiting from higher prices; expanding flows to China and India.", "sourceUrl": "https://www.eia.gov/international/analysis/country/RUS" },
-    { "country": "Iran", "flag": "🇮🇷", "dailyProductionMbpd": 3.1, "globalSharePercent": 3.1, "provenReservesBillionBarrels": 208.6, "exportStatus": "disrupted", "warImpact": "Under active strikes; exports (mostly to China) curtailed and Kharg Island terminal status uncertain.", "sourceUrl": "https://www.eia.gov/international/analysis/country/IRN" },
-    { "country": "Iraq", "flag": "🇮🇶", "dailyProductionMbpd": 4.01, "globalSharePercent": 4.1, "provenReservesBillionBarrels": 145, "exportStatus": "disrupted", "warImpact": "Roughly 1.5 Mbpd offline; Basra exports severely disrupted, Kirkuk-Ceyhan at reduced capacity.", "sourceUrl": "https://www.eia.gov/international/analysis/country/IRQ" }
+    { "country": "Iran", "flag": "🇮🇷", "dailyProductionMbpd": 3.1, "globalSharePercent": 3.1, "provenReservesBillionBarrels": 208.6, "exportStatus": "disrupted", "warImpact": "Under active strikes; exports (mostly to China) curtailed and Kharg Island terminal status uncertain. Economy forecast to contract ~10%.", "sourceUrl": "https://www.eia.gov/international/analysis/country/IRN" },
+    { "country": "Iraq", "flag": "🇮🇶", "dailyProductionMbpd": 4.01, "globalSharePercent": 4.1, "provenReservesBillionBarrels": 145, "exportStatus": "disrupted", "warImpact": "Southern (Basra) output down more than 70%; Gulf-facing exports severely disrupted, Kirkuk-Ceyhan at reduced capacity.", "sourceUrl": "https://www.eia.gov/international/analysis/country/IRQ" }
   ],
   "consumerImpact": {
-    "note": "How the oil shock is reaching households at the pump and beyond. Baselines are late-February 2026.",
+    "note": "How the oil shock is reaching households at the pump and beyond. Baselines are late-February 2026; current prices have eased from the late-April/early-May peak as SPR barrels reach the market.",
     "fuels": [
-      { "type": "Regular gasoline", "icon": "⛽", "preWarPrice": 3.05, "currentPrice": 4.511, "changePercent": 47.9, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
-      { "type": "Diesel", "icon": "🛢️", "preWarPrice": 3.80, "currentPrice": 5.351, "changePercent": 40.8, "source": "EIA", "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/" },
-      { "type": "Jet fuel (kerosene)", "icon": "✈️", "preWarPrice": 2.45, "currentPrice": 4.10, "changePercent": 67.3, "source": "EIA", "sourceUrl": "https://www.eia.gov/petroleum/" },
-      { "type": "Heating oil", "icon": "🏠", "preWarPrice": 3.20, "currentPrice": 5.15, "changePercent": 60.9, "source": "EIA", "sourceUrl": "https://www.eia.gov/petroleum/heatingoilpropane/" }
+      { "type": "Regular gasoline", "icon": "⛽", "preWarPrice": 3.05, "currentPrice": 4.191, "changePercent": 37.4, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
+      { "type": "Diesel", "icon": "🛢️", "preWarPrice": 3.80, "currentPrice": 5.357, "changePercent": 41.0, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
+      { "type": "Jet fuel (kerosene)", "icon": "✈️", "preWarPrice": 2.45, "currentPrice": 4.95, "changePercent": 102.0, "source": "Wikipedia — Economic impact of the 2026 Iran war", "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war" },
+      { "type": "Heating oil", "icon": "🏠", "preWarPrice": 3.20, "currentPrice": 4.90, "changePercent": 53.1, "source": "EIA", "sourceUrl": "https://www.eia.gov/petroleum/heatingoilpropane/" }
     ]
   },
   "keyFacts": [
-    { "fact": "The U.S. Treasury temporarily lifted sanctions on roughly 140M barrels of Iranian crude already loaded at sea, a move officials framed as 'using Iranian barrels against the Iranians.'", "source": "CBS News", "sourceUrl": "https://www.cbsnews.com/news/trump-administration-temporarily-lifts-sanctions-on-iranian-oil-at-sea/", "date": "2026-03-20" },
-    { "fact": "The IMF described the Iran war as causing the largest disruption to the global oil market in history, estimating every 10% rise in oil adds ~0.4% to global inflation and trims ~0.2% from GDP.", "source": "Bloomberg / IMF", "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-30/imf-says-iran-war-means-higher-prices-slower-growth-worldwide", "date": "2026-03-30" },
-    { "fact": "Citi forecast Brent at $120/bbl within 1-3 months with a $150 bull case; energy was the S&P 500's only positive sector year-to-date.", "source": "CNBC", "sourceUrl": "https://www.cnbc.com/2026/03/24/oil-prices-today-wti-brent-middle-east-iran-war.html", "date": "2026-03-24" },
-    { "fact": "A fire at Valero's Port Arthur refinery — one of the ten largest in the US at ~435,000 bpd — pushed wholesale gasoline and diesel futures sharply higher.", "source": "CNN Business", "sourceUrl": "https://www.cnn.com/2026/03/24/business/oil-prices-rise-trump-iran-intl", "date": "2026-03-24" }
+    { "fact": "Brent crude ended Q1 2026 at $118/bbl after starting the year near $61 — the largest quarterly price increase on an inflation-adjusted basis in EIA data going back to 1988. It has since eased to roughly $93/bbl.", "source": "EIA — Today in Energy", "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67424", "date": "2026-04-10" },
+    { "fact": "The DOE has released about 17.5 million barrels from the Strategic Petroleum Reserve since March under a ~172M-bbl exchange program, with repayment-in-kind plus an 18-24% premium due in 2026-2029.", "source": "EIA — Today in Energy", "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67625", "date": "2026-05-21" },
+    { "fact": "The World Bank projects global energy prices will rise about 24% in 2026 to their highest level since 2022, and warns up to 45 million more people could face acute food insecurity if the conflict is prolonged.", "source": "World Bank — Commodity Markets Outlook", "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/04/28/commodity-markets-outlook-april-2026-press-release", "date": "2026-04-28" },
+    { "fact": "The IEA characterized the Hormuz disruption as the largest supply disruption in the history of the global oil market, with an initial loss of roughly 10 million barrels/day of supply.", "source": "Wikipedia — Economic impact of the 2026 Iran war", "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war", "date": "2026-04-21" }
   ]
 }
