@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-06T23:02:15Z",
+  "lastUpdated": "2026-06-07T11:05:05Z",
   "stories": [
     {
       "id": "oil-spikes-iran-halts-talks-hormuz-2026-06-01",
@@ -136,45 +136,6 @@
       ]
     },
     {
-      "id": "bitcoin-below-pre-war-levels-2026-06-04",
-      "headline": "Bitcoin slides toward $65,000 support as spot-ETF outflows hit a 2026 record",
-      "summary": "Bitcoin traded near multi-week lows around $64,000-$65,000 into June 5, down roughly 21% from its mid-May high, pressured by a record run of US spot-ETF redemptions of about $4.4 billion over 13 straight sessions led by BlackRock's IBIT. A bitcoin sale by corporate holder Strategy (MicroStrategy) further dented sentiment. Traders cite higher bond yields, sticky inflation and reduced odds of Fed cuts as the macro headwinds.",
-      "category": "markets",
-      "importance": 3,
-      "tags": [
-        "crypto",
-        "bitcoin",
-        "ethereum",
-        "etf",
-        "liquidations"
-      ],
-      "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-05T11:09:49Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Crypto is trading as a high-beta risk proxy, not a wartime safe haven.",
-          "summary": "Centrist coverage frames the slide as crypto behaving like a leveraged risk asset during the war, with ETF outflows and liquidations amplifying a broad macro risk-off move rather than acting as a hedge.",
-          "sources": [
-            {
-              "outlet": "Investing.com",
-              "url": "https://www.investing.com/analysis/bitcoin-falls-as-record-etf-outflows-and-strategy-sale-hit-sentiment-200681446",
-              "title": "Bitcoin Falls as Record ETF Outflows and Strategy Sale Hit Sentiment",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-4-2026-bitcoin-prices-plunge-below-pre-war-levels-114549073.html",
-              "title": "Bitcoin and ethereum prices today, Thursday, June 4, 2026: prices plunge below pre-war levels",
-              "publishedAt": "2026-06-04T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "may-jobs-report-fed-warsh-rate-path-2026-06-05",
       "headline": "Markets price out Fed cuts ahead of the May jobs report as a hawkish rate path takes hold",
       "summary": "The Bureau of Labor Statistics releases the May employment report on June 5 at 8:30 a.m. ET, with economist consensus clustered around 80,000-105,000 nonfarm payrolls and unemployment seen holding at 4.3%; Wednesday's ADP print showed private payrolls up 122,000. With energy-driven inflation elevated, markets now price less than a 3% chance of any 2026 rate cut and some desks see rising odds of a hike later in the year. The 10-year Treasury yield sat near 4.48% on Thursday.",
@@ -222,36 +183,44 @@
     },
     {
       "id": "may-jobs-report-172k-fed-hike-bets-2026-06-05",
-      "headline": "US adds 172,000 jobs in May, far above forecasts; unemployment holds at 4.3% as Fed-hike bets firm",
-      "summary": "The Bureau of Labor Statistics reported May nonfarm payrolls rose 172,000, roughly double the ~80K consensus, with unemployment steady at 4.3% and average hourly earnings up 0.3% on the month. Gains concentrated in leisure and hospitality, local government and health care. The hot print pushed traders to price in a possible Fed rate hike by year-end ahead of the June 16-17 FOMC meeting.",
+      "headline": "Strong May jobs report (172k) sinks rate-cut hopes as Warsh's first FOMC nears; hike bets build",
+      "summary": "The US added 172,000 jobs in May, roughly double expectations, with upward revisions to prior months; unemployment held at 4.3%. The print swept away near-term rate-cut hopes and shifted the debate toward possible hikes ahead of new Fed Chair Kevin Warsh's first FOMC meeting (June 16-17). 10-year yields jumped toward 4.54% and the 30-year topped 5%.",
       "category": "markets",
-      "importance": 5,
+      "importance": 4,
       "tags": [
         "jobs",
-        "bls",
-        "labor",
         "fed",
-        "fomc"
+        "warsh",
+        "rates",
+        "yields",
+        "inflation"
       ],
       "firstSeenAt": "2026-06-05T17:09:43Z",
-      "updatedAt": "2026-06-06T11:04:45Z",
+      "updatedAt": "2026-06-07T11:05:05Z",
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "Framed as a 'good news is bad news' print: a resilient labor market that complicates the case for rate cuts and revives hike talk.",
-          "summary": "Business coverage led on the 172,000 payroll gain beating every forecast and unemployment holding at 4.3%, noting wage growth and the shift in rate-path expectations toward a possible 2026 hike ahead of the June FOMC.",
+          "lean": "left",
+          "keyFraming": "A hot labor market plus sticky inflation boxes in the new chair as 'good news is bad news' for rate cuts.",
+          "summary": "Coverage stresses that resilient hiring removes the Fed's rationale for easing and leaves Warsh managing colleagues who increasingly favor hikes to contain persistent inflation, complicating Trump's demand for lower rates at the chair's debut meeting.",
           "sources": [
             {
               "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html",
-              "title": "Jobs report May 2026: Payrolls rose 172,000, topping expectations; unemployment at 4.3%",
-              "publishedAt": "2026-06-05T12:30:00Z",
+              "url": "https://www.cnbc.com/2026/06/05/hot-jobs-report-puts-fed-cuts-further-out-of-reach-as-chair-warsh-faces-policy-tests.html",
+              "title": "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
+              "publishedAt": "2026-06-05T14:00:00Z",
               "allSidesRating": "center"
-            },
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Solid jobs underpin Warsh's debut but inflation squeezes households, leaving the rate path genuinely uncertain.",
+          "summary": "Wire and market coverage frames the report as partly validating a steady-hand approach while noting inflation continues to pressure consumers, leaving the rate path uncertain into the June meeting.",
+          "sources": [
             {
-              "outlet": "UPI",
-              "url": "https://www.upi.com/Top_News/US/2026/06/05/may-2026-bls-jobs-report-nonfarm-payrolls/9821780667498/",
-              "title": "U.S. added 172,000 nonfarm jobs in May, outpacing forecasts",
+              "outlet": "U.S. News (Reuters)",
+              "url": "https://money.usnews.com/investing/news/articles/2026-06-05/us-jobs-report-for-may-will-partly-underpin-warshs-fed-debut",
+              "title": "US Jobs Report for May Will Partly Underpin Warsh's Fed Debut",
               "publishedAt": "2026-06-05T13:00:00Z",
               "allSidesRating": "center"
             }
@@ -259,29 +228,15 @@
         },
         {
           "lean": "right",
-          "keyFraming": "Framed as vindication of the administration's economic agenda, with strong hiring touted as growth without runaway inflation.",
-          "summary": "Right-leaning framing emphasized the blowout headline number as evidence the economy is accelerating under Trump, casting the report as a midterm-year win even as it pressures the Fed.",
+          "keyFraming": "A strong economy gives Warsh room to tighten as rate-hike support grows among Fed officials.",
+          "summary": "Right-leaning framing emphasizes labor-market strength as evidence the economy can absorb tighter policy, highlighting growing internal support for hikes that Warsh must weigh against White House pressure.",
           "sources": [
             {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/business/5911960-donald-trump-inflation-fears-jobs-report/",
-              "title": "Trump: Strong jobs report boosts stocks, not inflation",
-              "publishedAt": "2026-06-05T14:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Framed cautiously: a long-stalled job market finally adding workers, but with a hawkish Fed threatening to choke the recovery.",
-          "summary": "Left-leaning coverage welcomed signs of life after months of weak hiring while warning that a hot print pushing the Fed toward hikes could undercut households still squeezed by elevated prices.",
-          "sources": [
-            {
-              "outlet": "MSNBC",
-              "url": "https://www.ms.now/rachel-maddow-show/maddowblog/may-jobs-report-shows-signs-of-life",
-              "title": "Job market finally shows signs of life, adds 172,000 jobs in May",
+              "outlet": "Detroit News",
+              "url": "https://www.detroitnews.com/story/business/2026/06/05/kevin-warsh-faces-support-for-rate-hikes-amid-strong-jobs-report/90419794007/",
+              "title": "Kevin Warsh faces support for rate hikes amid strong jobs report",
               "publishedAt": "2026-06-05T15:00:00Z",
-              "allSidesRating": "left"
+              "allSidesRating": "lean-right"
             }
           ]
         }

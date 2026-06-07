@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T04:32:00Z",
+  "lastUpdated": "2026-06-07T11:05:05Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     { "name": "U.S. Energy Information Administration (EIA)", "url": "https://www.eia.gov/petroleum/", "description": "Production, reserves, consumption, fuel prices" },
@@ -28,9 +28,9 @@
     ]
   },
   "gas": {
-    "currentAverage": 4.191,
+    "currentAverage": 4.18,
     "preWarAverage": 3.05,
-    "changePercent": 37.4,
+    "changePercent": 37.0,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -42,7 +42,8 @@
       { "date": "2026-04-30", "price": 4.50, "label": "Wartime peak", "isEvent": true },
       { "date": "2026-05-07", "price": 4.558, "label": "Four-year high" },
       { "date": "2026-05-30", "price": 4.356 },
-      { "date": "2026-06-06", "price": 4.191, "label": "Easing as SPR barrels reach market" }
+      { "date": "2026-06-06", "price": 4.191, "label": "Easing as SPR barrels reach market" },
+      { "date": "2026-06-07", "price": 4.18, "label": "AAA avg up ~$1 in a month on Iran war risk" }
     ],
     "breakdown": [
       { "component": "Crude oil cost", "current": 2.21, "preWar": 1.62 },
@@ -80,8 +81,8 @@
   "consumerImpact": {
     "note": "How the oil shock is reaching households at the pump and beyond. Baselines are late-February 2026; current prices have eased from the late-April/early-May peak as SPR barrels reach the market.",
     "fuels": [
-      { "type": "Regular gasoline", "icon": "⛽", "preWarPrice": 3.05, "currentPrice": 4.191, "changePercent": 37.4, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
-      { "type": "Diesel", "icon": "🛢️", "preWarPrice": 3.80, "currentPrice": 5.357, "changePercent": 41.0, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
+      { "type": "Regular gasoline", "icon": "⛽", "preWarPrice": 3.05, "currentPrice": 4.18, "changePercent": 37.0, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
+      { "type": "Diesel", "icon": "🛢️", "preWarPrice": 3.80, "currentPrice": 5.45, "changePercent": 43.4, "source": "AAA", "sourceUrl": "https://gasprices.aaa.com/" },
       { "type": "Jet fuel (kerosene)", "icon": "✈️", "preWarPrice": 2.45, "currentPrice": 4.95, "changePercent": 102.0, "source": "Wikipedia — Economic impact of the 2026 Iran war", "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war" },
       { "type": "Heating oil", "icon": "🏠", "preWarPrice": 3.20, "currentPrice": 4.90, "changePercent": 53.1, "source": "EIA", "sourceUrl": "https://www.eia.gov/petroleum/heatingoilpropane/" }
     ]

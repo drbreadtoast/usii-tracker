@@ -1,216 +1,68 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-06T23:02:15Z",
+  "lastUpdated": "2026-06-07T11:05:05Z",
   "stories": [
     {
-      "id": "trump-700m-coal-defense-production-act-2026-06-04",
-      "headline": "Trump invokes Defense Production Act to direct about $700M to coal plants and a California export terminal",
-      "summary": "President Trump said on June 4 he will use the Defense Production Act to steer about $700 million to the coal industry: roughly $425M to upgrade 13 existing plants, $200M for new plants in Alaska and West Virginia plus a Maryland restart, and about $75M for a coal export terminal in Oakland, California. The administration frames it as shoring up grid reliability amid AI-driven power demand; critics call it a taxpayer-funded bailout of a polluting, declining industry.",
+      "id": "senate-ice-border-funding-vote-a-rama-2026-06-04",
+      "headline": "Senate passes $70B immigration enforcement bill for ICE and Border Patrol",
+      "summary": "In an overnight session ending early June 5, the Senate voted 52-47 to pass roughly $70 billion in immigration-enforcement funding (about $38.6B for ICE, $22.6B for Border Patrol) through reconciliation, with no Democratic support. Efforts to strip a contested ~$1.8B 'anti-weaponization' settlement fund failed; Lisa Murkowski was the lone Republican 'no.' The bill heads to the House.",
       "category": "us-politics",
       "importance": 4,
       "tags": [
-        "trump",
-        "coal",
-        "defense-production-act",
-        "energy",
-        "grid"
-      ],
-      "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-04T23:01:51Z",
-      "perspectives": [
-        {
-          "lean": "right",
-          "keyFraming": "Trump is restoring American energy dominance and grid reliability by reviving coal-fired baseload power.",
-          "summary": "Right-leaning coverage emphasizes the national-security and baseload-power rationale and Trump's claim he is saving plants from closure, presenting the spending as legitimate industrial policy to guard the grid against blackouts amid surging demand.",
-          "sources": [
-            {
-              "outlet": "Washington Examiner",
-              "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4594905/trump-defense-production-act-boost-coal-plants-exports/",
-              "title": "Trump to use wartime powers to spend $700 million to boost coal plants",
-              "publishedAt": "2026-06-04T14:00:00Z",
-              "allSidesRating": "lean-right"
-            },
-            {
-              "outlet": "Fox Business",
-              "url": "https://www.foxbusiness.com/energy/trump-700m-coal-industry-support-plan",
-              "title": "Trump expected to unveil $700M coal industry support plan using Defense Production Act",
-              "publishedAt": "2026-06-04T13:00:00Z",
-              "allSidesRating": "lean-right"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Trump uses emergency wartime powers to prop up coal as demand for electricity rises.",
-          "summary": "Centrist outlets detail the funding breakdown and the Defense Production Act mechanism, noting the DOE has already forced some fossil plants to stay open past retirement to meet AI- and data-center-driven demand, and describe the move as an expansion of executive authority over energy markets.",
-          "sources": [
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/trump-coal-industry-funding-boost/",
-              "title": "Trump announces $700 million investment in coal plants and California export terminal",
-              "publishedAt": "2026-06-04T16:00:00Z",
-              "allSidesRating": "lean-left"
-            },
-            {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-04/trump-approves-700-million-in-bid-to-revive-us-coal-industry",
-              "title": "Trump Approves $700 Million to Boost US Coal Plants, Export Terminal",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Trump is spending taxpayer money to enrich coal interests while utility rates climb.",
-          "summary": "Left-leaning coverage quotes environmental groups framing the plan as a bailout that raises pollution and household costs, tying it to rising utility rates and arguing it props up a declining industry at public expense.",
-          "sources": [
-            {
-              "outlet": "The Press Democrat",
-              "url": "https://www.pressdemocrat.com/article/news/trump-coal-industry/",
-              "title": "Trump expected to announce $700 million in new support for struggling coal industry",
-              "publishedAt": "2026-06-04T12:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "senate-ice-border-funding-vote-a-rama-2026-06-04",
-      "headline": "Senate passes roughly $70B bill to fund ICE and Border Patrol 52-47 after marathon vote-a-rama",
-      "summary": "The Senate passed a roughly $70 billion reconciliation bill funding ICE and Customs and Border Protection through the end of Trump's term by a 52-47 party-line vote early June 5, with Sen. Lisa Murkowski the only Republican opposed. Using reconciliation to bypass the filibuster, Republicans defeated bipartisan attempts to permanently bar a contested roughly $1.8 billion DOJ settlement fund. The bill now heads to the House.",
-      "category": "us-politics",
-      "importance": 5,
-      "tags": [
         "senate",
+        "immigration",
         "ice",
-        "border-patrol",
-        "reconciliation",
-        "immigration"
+        "border",
+        "reconciliation"
       ],
       "firstSeenAt": "2026-06-04T23:01:51Z",
-      "updatedAt": "2026-06-06T11:04:45Z",
+      "updatedAt": "2026-06-07T11:05:05Z",
       "perspectives": [
         {
-          "lean": "right",
-          "keyFraming": "Trump scores a major win funding border enforcement for the rest of his term, despite GOP divisions.",
-          "summary": "Conservative outlets frame final passage as delivering on Trump's border agenda and protecting ICE and CBP from future shutdown fights, noting Graham's failed SAVE Act amendment and the marathon Democratic amendment effort. Some cast it as possibly Trump's last big legislative win before the midterms.",
-          "sources": [
-            {
-              "outlet": "Fox News",
-              "url": "https://www.foxnews.com/politics/trump-scores-victory-despite-growing-gop-divide-senate-passes-70-billion-ice-border-patrol-funding-package",
-              "title": "Trump scores victory despite growing GOP divide after Senate passes $70B ICE, Border Patrol funding package",
-              "publishedAt": "2026-06-05T08:00:00Z",
-              "allSidesRating": "right"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "A procedural win for Trump ends a long shutdown-era blockade; reconciliation bypassed the filibuster on a 52-47 vote.",
-          "summary": "Centrist reporting emphasizes the 52-47 tally, the use of budget reconciliation to avoid the filibuster, and weeks of GOP infighting over the DOJ settlement fund and scrapped White House security and ballroom money. The bill protects ICE and CBP from future shutdown fights and now goes to the House.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/05/senate-passes-70-billion-in-new-funds-for-ice-border-patrol.html",
-              "title": "U.S. Senate passes $70 billion in new funds for ICE, Border Patrol",
-              "publishedAt": "2026-06-05T07:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/senate-vote-a-rama-ice-funding-reconciliation/",
-              "title": "Senate passes reconciliation bill to fund ICE for 3 years, without ban on DOJ fund",
-              "publishedAt": "2026-06-05T06:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
           "lean": "left",
-          "keyFraming": "Republicans shielded a Trump 'settlement slush fund' for political allies while funding aggressive deportation machinery.",
-          "summary": "Left-leaning coverage highlights that Republicans blocked attempts to permanently ban the roughly $1.8 billion fund compensating those who claim federal persecution, and ties the funding to the January fatal shootings of two protesters by federal agents that prompted the Democratic blockade. Critics decry the absence of oversight measures.",
+          "keyFraming": "The GOP rams through ICE megafunding while protecting a settlement 'slush fund' for Trump's allies.",
+          "summary": "NPR and NBC report the Senate passed the $70B package without limits on the $1.776B settlement fund Democrats call a slush fund for Trump's allies. Republicans used a procedural maneuver to bypass the filibuster and pass it with no Democratic votes after weeks of delays.",
           "sources": [
             {
               "outlet": "NPR",
               "url": "https://www.npr.org/2026/06/05/nx-s1-5847589/senate-passes-immigration-enforcement-bill-without-limits-on-trump-settlement-fund",
               "title": "Senate passes $70B immigration enforcement bill without limits on Trump settlement fund",
-              "publishedAt": "2026-06-05T10:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "trump-schedule-policy-career-eo-workforce-2026-06-04",
-      "headline": "Trump signs order moving ~8,000 federal jobs into 'Schedule Policy/Career,' stripping firing protections",
-      "summary": "Trump signed an executive order reclassifying roughly 8,000 policy-influencing federal positions into a new 'Schedule Policy/Career' category, exempting them from standard adverse-action and appeal procedures and making removal far easier. The White House said removals will be made without regard to political affiliation. Federal unions condemned the move and have litigation pending.",
-      "category": "us-politics",
-      "importance": 4,
-      "tags": [
-        "executive-order",
-        "civil-service",
-        "federal-workforce",
-        "schedule-f",
-        "unions"
-      ],
-      "firstSeenAt": "2026-06-05T05:09:48Z",
-      "updatedAt": "2026-06-05T05:09:48Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Trump revived a Schedule F-style overhaul, converting thousands of career employees to near at-will status.",
-          "summary": "The order places about 8,000 career workers in policy roles into a classification allowing removal for poor performance or misconduct without the usual appeal protections. The administration finalized the underlying rule earlier this year; unions argue it conflicts with civil-service law, and lawsuits are pending.",
-          "sources": [
-            {
-              "outlet": "Government Executive",
-              "url": "https://www.govexec.com/workforce/2026/06/trump-federal-employees-schedule-f/413945/",
-              "title": "Trump signs order moving thousands of federal employees into Schedule F",
-              "publishedAt": "2026-06-04T17:00:00Z",
+              "publishedAt": "2026-06-05T05:00:00Z",
               "allSidesRating": "center"
             },
             {
-              "outlet": "Federal News Network",
-              "url": "https://federalnewsnetwork.com/workforce/2026/06/trump-moves-about-8000-federal-positions-to-schedule-policy-career/",
-              "title": "Trump moves about 8,000 federal positions to Schedule Policy/Career",
-              "publishedAt": "2026-06-04T16:00:00Z",
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/congress/senate-votes-immigration-enforcement-trump-anti-weaponization-fund-rcna348611",
+              "title": "Senate passes $70B bill to fund immigration enforcement, without limits on Trump 'anti-weaponization' fund",
+              "publishedAt": "2026-06-05T06:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "After an all-night vote-a-rama and internal GOP rebellion, the Senate sends a $70B enforcement bill to the House.",
+          "summary": "CNBC reports the 52-47 vote funds ICE and Border Patrol for three years. Murkowski was the only Republican to vote no, objecting that it circumvented regular appropriations; the House isn't expected to act before the following week.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/05/senate-passes-70-billion-in-new-funds-for-ice-border-patrol.html",
+              "title": "U.S. Senate passes $70 billion ICE funding, fails to ban Trump's 'anti-weaponization' fund",
+              "publishedAt": "2026-06-05T07:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "The order restores accountability by letting agencies fire underperforming policy officials shielded by red tape.",
-          "summary": "Conservative coverage framed the order as enhancing accountability for 'policy-influencing' employees, arguing entrenched civil servants obstruct the elected president's agenda. The White House stressed the positions remain 'career' and that removals will not consider political affiliation.",
+          "keyFraming": "A win for Trump's border agenda as the Senate delivers major ICE and Border Patrol funding.",
+          "summary": "Fox affiliates report the Senate passed the $70 billion immigration enforcement bill, sending it to the House. Coverage emphasizes the boost to detention capacity, border staffing and deportation operations through the end of Trump's term.",
           "sources": [
             {
-              "outlet": "American Greatness",
-              "url": "https://amgreatness.com/2026/06/04/trump-signs-executive-order-to-facilitate-firing-federal-employees/",
-              "title": "Trump Signs Executive Order to Facilitate Firing Federal Employees",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "right"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Unions warn the order guts whistleblower protections and lets political appointees fire civil servants 'at will.'",
-          "summary": "Union leaders said workers can now be fired 'at will' with essentially no appeal safeguards, warning employees who report waste, fraud and abuse will fear retaliation. Critics contend the change weakens merit-based protections and violates federal law.",
-          "sources": [
-            {
-              "outlet": "Time",
-              "url": "https://time.com/article/2026/06/04/trump-executive-order-schedule-policy-career-classification-fire-federal-workers-at-will/",
-              "title": "Trump Makes It Easier to Fire Thousands of Federal Workers",
-              "publishedAt": "2026-06-04T13:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "Washington Examiner",
-              "url": "https://www.washingtonexaminer.com/news/white-house/4594195/unions-trump-order-federal-workers-at-will/",
-              "title": "Unions condemn Trump order making federal workers 'at-will' employees",
-              "publishedAt": "2026-06-04T18:00:00Z",
+              "outlet": "FOX 4 Dallas-Fort Worth",
+              "url": "https://www.fox4news.com/news/senate-passes-70-billion-immigration-enforcement-bill-sending-measure-house",
+              "title": "Senate passes $70 billion immigration enforcement bill, sending measure to House",
+              "publishedAt": "2026-06-05T08:00:00Z",
               "allSidesRating": "lean-right"
             }
           ]
@@ -345,65 +197,6 @@
       ]
     },
     {
-      "id": "trump-schedule-policy-career-eo-2026-06-04",
-      "headline": "Trump signs order reclassifying ~8,000 senior federal workers into at-will 'Schedule Policy/Career' status",
-      "summary": "President Trump signed an executive order formalizing the 'Schedule Policy/Career' classification, moving roughly 8,000 senior policy-influencing federal positions into at-will status that strips civil-service due-process protections. Federal unions including AFGE and Democracy Forward vowed legal challenges, calling it unlawful politicization of the workforce, while the White House framed it as increased accountability.",
-      "category": "us-politics",
-      "importance": 4,
-      "tags": [
-        "civil-service",
-        "executive-order",
-        "schedule-f",
-        "federal-workforce",
-        "afge"
-      ],
-      "firstSeenAt": "2026-06-05T23:05:41Z",
-      "updatedAt": "2026-06-05T23:05:41Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "Framed as stripping protections from career civil servants to enable political firings and chill whistleblowers.",
-          "summary": "Left-leaning outlets foregrounded warnings from unions and good-government groups that the reclassification removes due-process rights from thousands of senior employees and opens the door to loyalty-based dismissals across the federal workforce.",
-          "sources": [
-            {
-              "outlet": "Time",
-              "url": "https://time.com/article/2026/06/04/trump-executive-order-schedule-policy-career-classification-fire-federal-workers-at-will/",
-              "title": "Trump Makes It Easier to Fire Thousands of Federal Workers",
-              "publishedAt": "2026-06-04T16:00:00Z",
-              "allSidesRating": "lean-left"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Framed as the formalization of a long-signaled reclassification that unions are immediately challenging in court.",
-          "summary": "Center coverage detailed that the order moves about 8,000 mostly GS-15-and-above positions into at-will status and noted the planned legal challenges from AFGE and Democracy Forward.",
-          "sources": [
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/5908761-trump-federal-workers-schedule-pc/",
-              "title": "Trump formalizes move of career federal workers into 'at will' roles",
-              "publishedAt": "2026-06-04T15:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "The administration frames the order as increasing accountability over senior policy-influencing officials who answer to the elected government.",
-          "summary": "The White House fact sheet presented the order as restoring accountability for senior employees who shape policy, arguing they should be removable like other at-will officials when they fail to faithfully implement the administration's agenda.",
-          "sources": [
-            {
-              "outlet": "White House",
-              "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
-              "title": "Fact Sheet: President Donald J. Trump Increases Accountability in the Federal Workforce",
-              "publishedAt": "2026-06-04T12:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "senate-blocks-trump-ballroom-amendment-2026-06-05",
       "headline": "Six GOP senators back failed amendment to require approval for Trump's White House ballroom; measure falls 52-47",
       "summary": "During the reconciliation vote-a-rama, Sen. Jeff Merkley's amendment to require congressional authorization for Trump's planned 90,000-square-foot White House ballroom failed 52-47, short of the 60 votes needed. Six Republicans — Collins, Husted, Moran, Murkowski, Sullivan and Tillis — joined Democrats, days after the GOP stripped roughly $1 billion in ballroom funds from the package.",
@@ -484,7 +277,7 @@
     {
       "id": "judge-strikes-trump-immigration-freeze-39-countries-2026-06-06",
       "headline": "Federal judge strikes down Trump policy that froze asylum and immigration benefits for 39 countries",
-      "summary": "US District Chief Judge John McConnell Jr. on June 5 vacated Trump administration policies that categorically barred immigrants from 39 countries from final decisions on asylum, work permits, green cards and citizenship. He said the freeze left applicants in 'indeterminate legal limbo' and was improperly driven by anti-immigration sentiment, and ordered processing to resume.",
+      "summary": "On June 5, US District Chief Judge John McConnell Jr. issued a 135-page ruling vacating Trump administration policies that categorically barred nationals of 39 countries from final decisions on asylum, work permits, green cards and citizenship. He found the freeze 'arbitrary and capricious' and ordered processing to resume; the administration is expected to appeal to the First Circuit.",
       "category": "us-politics",
       "importance": 4,
       "tags": [
@@ -495,54 +288,54 @@
         "judiciary"
       ],
       "firstSeenAt": "2026-06-06T17:04:32Z",
-      "updatedAt": "2026-06-06T17:04:32Z",
+      "updatedAt": "2026-06-07T11:05:05Z",
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "A federal judge vacated sweeping Trump immigration-benefit freezes and ordered processing to resume for dozens of countries.",
-          "summary": "Coverage reported McConnell found USCIS ignored the law by indefinitely suspending asylum adjudications and freezing applications for travel-ban countries enacted after the shooting of two National Guard members. The order requires the government to restart processing for affected applicants.",
+          "lean": "left",
+          "keyFraming": "A scathing rebuke finding Trump put hundreds of thousands of immigrants' lives 'on hold' based solely on country of birth.",
+          "summary": "CNN reports McConnell struck down restrictions on processing asylum, work-permit, green-card and citizenship applications for 39 African, Asian, Latin American and Middle Eastern nations, calling the policies unlawful and arbitrary. The 135-page opinion said the moves placed the lives of countless individuals on hold.",
           "sources": [
             {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/politics/trump-administration/federal-judge-strikes-trump-administration-policy-freezing-immigration-rcna348559",
-              "title": "Federal judge strikes down Trump administration policy freezing immigration proceedings from 39 countries",
-              "publishedAt": "2026-06-05T20:00:00Z",
-              "allSidesRating": "center"
-            },
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/06/05/politics/federal-judge-strikes-down-trump-limits-on-asylum-and-immigration-applications",
+              "title": "Federal judge strikes down Trump admin limits on asylum and immigration applications",
+              "publishedAt": "2026-06-05T14:00:00Z",
+              "allSidesRating": "lean-left"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "The judge says the post-shooting freeze threw immigrants into 'indeterminate legal limbo,' reopening decisions for hundreds of thousands.",
+          "summary": "PBS NewsHour reports the Rhode Island-based judge ruled USCIS ignored the law in halting decisions for immigrants from 39 countries after a National Guard shooting. The ruling reopens pending asylum, work-permit, green-card and citizenship applications; the government can appeal to the First Circuit.",
+          "sources": [
             {
               "outlet": "PBS NewsHour",
               "url": "https://www.pbs.org/newshour/politics/judge-strikes-down-trump-policy-that-halted-asylum-decisions-for-39-countries",
               "title": "Judge strikes down Trump policy that halted asylum decisions for 39 countries",
-              "publishedAt": "2026-06-05T21:00:00Z",
+              "publishedAt": "2026-06-05T15:00:00Z",
+              "allSidesRating": "center"
+            },
+            {
+              "outlet": "U.S. News & World Report",
+              "url": "https://www.usnews.com/news/us/articles/2026-06-05/us-judge-invalidates-trump-policies-targeting-immigrants-from-39-countries",
+              "title": "US Judge Strikes Down Trump Policies Targeting Immigrants From 39 Countries",
+              "publishedAt": "2026-06-05T16:00:00Z",
               "allSidesRating": "center"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "Conservatives cast the ruling as another district judge overriding national-security-driven immigration controls.",
-          "summary": "Right-leaning coverage framed the decision as judicial overreach against policies the administration adopted following the National Guard shooting, emphasizing that a single district judge forced the resumption of asylum and benefit processing for dozens of countries.",
+          "keyFraming": "A judge blocks a national-security-driven immigration freeze enacted after an immigrant shot National Guard members.",
+          "summary": "Coverage notes the policy affecting 39 countries followed the shooting of National Guard members and that the Trump administration is expected to appeal. The framing emphasizes the security rationale behind pausing benefits for nationals from countries tied to the travel ban.",
           "sources": [
             {
-              "outlet": "RedState",
-              "url": "https://redstate.com/beccalower/2026/06/05/judge-rules-trump-administration-must-end-immigrationasylum-regulations-n2203088",
-              "title": "Federal Judge Strikes Down USCIS Benefit Freeze Policies",
-              "publishedAt": "2026-06-05T22:00:00Z",
-              "allSidesRating": "right"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Progressives celebrated a rebuke of an 'anti-immigrant' freeze that trapped eligible asylum seekers in limbo.",
-          "summary": "Left-leaning coverage highlighted the judge's finding that the measures were contrary to immigration law and fueled by bias, framing the order to restart asylum processing as a check on the administration's hardline approach.",
-          "sources": [
-            {
-              "outlet": "Common Dreams",
-              "url": "https://www.commondreams.org/news/judge-strikes-down-trump-immigration-policies",
-              "title": "Judge Strikes Down Trump 'Anti-Immigrant' Policies, Orders Restart of Asylum Processing",
-              "publishedAt": "2026-06-05T23:00:00Z",
-              "allSidesRating": "left"
+              "outlet": "WSOC-TV (Cox Media)",
+              "url": "https://www.wsoctv.com/news/national/federal-judge/X4NTHYUPBQ2UZP4CSZYEIB6XYU/",
+              "title": "A federal judge strikes down Trump administration immigration policy affecting 39 countries",
+              "publishedAt": "2026-06-05T17:00:00Z",
+              "allSidesRating": "center"
             }
           ]
         }
