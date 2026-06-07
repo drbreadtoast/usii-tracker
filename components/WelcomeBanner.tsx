@@ -103,8 +103,10 @@ export default function WelcomeBanner() {
             Thanks for all the feedback — it was split, with many of you liking
             the new version and many missing the old. I heard you, so
             here&apos;s what I added: a{" "}
-            <span className="font-semibold">Follow the Oil</span> page, a daily{" "}
-            <span className="font-semibold">War Cost</span> tracker, and a{" "}
+            <span className="font-semibold">Follow the Oil</span>{" "}
+            page, a revamped{" "}
+            <span className="font-semibold">War</span>{" "}
+            page that brings back detail from the old site, and a new{" "}
             <span className="font-semibold">Foreign Influence</span>{" "}
             section. This isn&apos;t the final version — I&apos;ll keep improving
             it based on your feedback. Found a bug or want something added? Let
