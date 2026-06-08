@@ -1,39 +1,7 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-08T17:06:08Z",
+  "lastUpdated": "2026-06-08T23:02:23Z",
   "stories": [
-    {
-      "id": "doj-abandons-anti-weaponization-fund-court-2026-06-06",
-      "headline": "DOJ tells federal courts it will not proceed with $1.8B 'anti-weaponization' fund, calling lawsuits moot",
-      "summary": "On June 5 the Justice Department asked two federal judges to dismiss challenges to its roughly $1.8 billion 'anti-weaponization' fund, arguing the cases are moot after Acting Attorney General Todd Blanche said the department is not moving forward. It was the first written confirmation that the fund, which grew out of Trump's IRS settlement, has been scrapped.",
-      "category": "us-politics",
-      "importance": 3,
-      "tags": [
-        "doj",
-        "courts",
-        "weaponization-fund",
-        "blanche",
-        "trump"
-      ],
-      "firstSeenAt": "2026-06-06T11:04:45Z",
-      "updatedAt": "2026-06-06T11:04:45Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "DOJ confirms in court papers the controversial fund is dead and asks judges to end the litigation as moot.",
-          "summary": "Centrist coverage reported the June 5 filings were the first written acknowledgment the fund will not proceed, following Blanche's congressional testimony that the department is 'not moving forward with the fund, period.' The fund stemmed from Trump's settlement of his suit against the IRS.",
-          "sources": [
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/doj-asks-court-reject-anti-weaponization-fund-lawsuits-blanche-trump/",
-              "title": "DOJ confirms in court papers the 'anti-weaponization fund' isn't going forward, asks judges to reject lawsuits",
-              "publishedAt": "2026-06-05T20:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "senate-iran-war-powers-renewed-push-2026-06-07",
       "headline": "Schumer presses Senate floor vote on Iran war powers as ceasefire collapses on war's 100th day",
@@ -221,17 +189,81 @@
               "publishedAt": "2026-06-08T15:00:00Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "trump-halts-israel-retaliation-i-call-the-shots-2026-06-08",
+      "headline": "Trump pressures Netanyahu to halt Iran retaliation, says 'I call the shots' as strikes pause",
+      "summary": "After Iran and Israel traded missile fire over the weekend for the first time since the April truce, President Trump phoned Netanyahu to demand he hold off further strikes, warning Israel could be 'on your own' if war resumed. Trump told the Financial Times that Netanyahu 'won't have any choice' but to accept a US-Iran deal and that 'I call the shots.' Both sides paused attacks as Trump said an immediate ceasefire and final peace talks were proceeding.",
+      "category": "us-politics",
+      "importance": 5,
+      "tags": [
+        "trump",
+        "netanyahu",
+        "iran",
+        "israel",
+        "ceasefire",
+        "hormuz"
+      ],
+      "firstSeenAt": "2026-06-08T23:02:23Z",
+      "updatedAt": "2026-06-08T23:02:23Z",
+      "perspectives": [
+        {
+          "lean": "government",
+          "keyFraming": "The US president casts himself as the decisive actor who brokered the de-escalation and is steering both parties toward a final deal.",
+          "summary": "Trump publicly framed himself as in charge, saying he 'made' Netanyahu stop and that 'I call the shots. I call all the shots.' He posted that both Israel and Iran were 'looking to do an immediate CEASEFIRE' with final peace negotiations proceeding, while warning the Hormuz blockade stays in place until a final deal is reached.",
+          "sources": [
+            {
+              "outlet": "Axios",
+              "url": "https://www.axios.com/2026/06/07/trump-netanyahu-israel-iran-strikes-call",
+              "title": "Trump tells Netanyahu not to strike Iran",
+              "publishedAt": "2026-06-07T22:00:00Z"
+            }
+          ]
         },
         {
           "lean": "center",
-          "keyFraming": "Despite repeated attempts, Democrats lack the votes; final Senate passage remains unlikely and a veto would follow.",
-          "summary": "After advancing a discharge motion 50-47 in May — the first time the chamber moved an Iran war-powers measure — the Senate still has no scheduled final vote, and clearing the 60-vote threshold remains a steep hurdle. Republican leaders have signaled confidence in the administration's Iran posture.",
+          "keyFraming": "A fragile US-brokered ceasefire nearly collapsed on the war's 100th day before both sides pulled back.",
+          "summary": "Iran launched 'Operation Nasr' missile barrages and Israel struck back in the most serious confrontation since the April truce. Iran said it was halting attacks after Trump called for the shooting to stop, but warned of harsher action if Israel kept striking Lebanon. Reporting noted disagreements inside Netanyahu's cabinet over complying with Trump's demand.",
           "sources": [
             {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/senate-iran-war-powers-eighth-vote-trump/",
-              "title": "Senate advances resolution to limit Trump's Iran war powers for first time, after 4 Republicans defect",
-              "publishedAt": "2026-06-05T22:00:00Z"
+              "outlet": "Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/06/07/iran-israel-strikes-missiles-trump-netanyahu-8-june-2026/8dc77cb4-62e7-11f1-bdd4-805ebb99a693_story.html",
+              "title": "The Latest: Israel and Iran trade fire in most serious confrontation since April truce",
+              "publishedAt": "2026-06-07T21:00:00Z"
+            },
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/08/g-s1-126844/iran-war-updates",
+              "title": "Israel and Iran pull back after trading missile fire — for now",
+              "publishedAt": "2026-06-08T14:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Peace talks are at a standstill even as Trump works to keep the ceasefire alive amid renewed fighting.",
+          "summary": "Fox's live coverage framed the exchange as a stall in negotiations, with Israel and Iran trading missiles and the Strait of Hormuz still in play. Trump demanded all sides stop shooting and insisted negotiations continue, while warning Netanyahu personally to stand down.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/live-news/trump-israel-iran-war-strikes-hormuz-june-8",
+              "title": "Iran peace talks at standstill as Israel trades missiles with Tehran",
+              "publishedAt": "2026-06-08T13:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Trump's on-again-off-again ceasefire underscores the volatility of his personalized Iran diplomacy.",
+          "summary": "CNN's live reporting documented Iran and Israel halting strikes against each other while both warned they were ready to resume, casting doubt on the durability of Trump's claimed ceasefire progress.",
+          "sources": [
+            {
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/06/07/world/live-news/iran-war-trump-israel-lebanon",
+              "title": "Live updates: Iran and Israel halt strikes against each other but warn they are ready to resume",
+              "publishedAt": "2026-06-07T23:00:00Z"
             }
           ]
         }

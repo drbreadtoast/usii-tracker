@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T17:06:08Z",
+  "lastUpdated": "2026-06-08T23:02:23Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -88,9 +88,9 @@
     ]
   },
   "gas": {
-    "currentAverage": 4.174,
+    "currentAverage": 4.164,
     "preWarAverage": 3.05,
-    "changePercent": 36.9,
+    "changePercent": 36.5,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -142,6 +142,11 @@
         "date": "2026-06-07",
         "price": 4.174,
         "label": "AAA national avg (June 7); easing on ceasefire hopes"
+      },
+      {
+        "date": "2026-06-08",
+        "price": 4.164,
+        "label": "AAA national avg (June 8); flat as war reignites on day 100"
       }
     ],
     "breakdown": [
@@ -307,8 +312,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.174,
-        "changePercent": 36.9,
+        "currentPrice": 4.164,
+        "changePercent": 36.5,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -394,6 +399,12 @@
       "fact": "Oil pared its June 8 spike after Iran said it had ended its military operation against Israel, with Brent easing back toward $94/bbl from an intraday high above $97-98; the Strait of Hormuz blockade remained in force, keeping a structural war premium in prices.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/08/oil-prices-today-us-iran-missile-middle-east-israel-opec.html",
+      "date": "2026-06-08"
+    },
+    {
+      "fact": "Analysts told CNBC that softer Chinese crude buying and inventory draws have so far kept oil under $100 despite the closed Strait of Hormuz and renewed Iran-Israel strikes — with Brent settling near $94 after an intraday spike to ~$97.7 — but warned the demand-side cushion is unlikely to hold if hostilities escalate.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/08/china-oil-iran-war-us-israel-energy-prices-strait-hormuz.html",
       "date": "2026-06-08"
     }
   ]

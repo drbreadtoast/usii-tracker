@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-08T17:06:08Z",
+  "lastUpdated": "2026-06-08T23:02:23Z",
   "stories": [
     {
       "id": "us-government-equity-stake-openai-2026-06-06",
@@ -220,20 +220,6 @@
       "updatedAt": "2026-06-08T17:06:08Z",
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "The reshuffle is a vivid marker of an increasingly AI-concentrated market, raising concentration-risk concerns if the trade stumbles.",
-          "summary": "Swapping Campbell's and Pool for Marvell and Flex shows AI semiconductors crowding out the old economy in the S&P 500, deepening the benchmark's dependence on a handful of AI winners and on the durability of the capex boom.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html",
-              "title": "Marvell Technology and Flex to join S&P 500, replacing Pool and Campbell's",
-              "publishedAt": "2026-06-05T21:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
           "lean": "right",
           "keyFraming": "Index inclusion rewards real earnings growth — Marvell's surge reflects genuine AI demand and will draw passive inflows to US tech leaders.",
           "summary": "Marvell earning S&P 500 status after tripling in 2026 reflects the strength of US AI-chip champions. Inclusion will channel passive capital into the names powering the AI build-out, supporters argue, validating the sector's run.",
@@ -243,6 +229,51 @@
               "url": "https://fortune.com/2026/06/06/marvell-technology-flex-sp500-index-pool-campbells-company/",
               "title": "Marvell Technology, Flex to join S&P 500 later this month",
               "publishedAt": "2026-06-06T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-sk-hynix-ai-memory-pact-2030-2026-06-08",
+      "headline": "Nvidia and SK Hynix sign multiyear partnership through 2030 to co-develop next-generation AI-factory memory",
+      "summary": "Nvidia and SK Hynix announced a multiyear technology partnership running through 2030 to co-develop memory for AI factories, spanning Vera Rubin supercomputers, Vera CPUs, RTX-powered PCs and Jetson Thor robotics. Terms were undisclosed. The deal helped lift Nvidia shares roughly 2% Monday as chip stocks rebounded from Friday's Broadcom-driven rout, with the SOXX semiconductor ETF posting its best day in over a year.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "nvidia",
+        "sk-hynix",
+        "ai",
+        "memory",
+        "hbm",
+        "semiconductors"
+      ],
+      "firstSeenAt": "2026-06-08T23:02:23Z",
+      "updatedAt": "2026-06-08T23:02:23Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Nvidia is locking up the AI memory supply chain and deepening Korea's role in the hardware stack.",
+          "summary": "The pact secures HBM-class memory capacity for Nvidia's buildout and extends its co-development reach from data-center systems to PCs and robotics, analysts said.",
+          "sources": [
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
+              "title": "Nvidia, SK Hynix Sign Multi-Year Deal to Develop Next-Gen AI Memory Chips",
+              "publishedAt": "2026-06-07T20:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "A blue-chip supply deal reassures markets that the AI capex thesis is intact after Friday's scare.",
+          "summary": "Coverage framed the partnership as evidence that hyperscale AI investment remains durable despite the Broadcom-driven sentiment shock that hammered chip stocks on Friday.",
+          "sources": [
+            {
+              "outlet": "NVIDIA Newsroom",
+              "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+              "title": "NVIDIA and SK hynix Announce Multiyear Technology Partnership to Advance Memory for AI Factories",
+              "publishedAt": "2026-06-08T13:00:00Z"
             }
           ]
         }
