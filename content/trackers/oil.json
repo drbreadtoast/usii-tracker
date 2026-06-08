@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T05:06:25Z",
+  "lastUpdated": "2026-06-08T11:06:06Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -25,7 +25,7 @@
   ],
   "hormuz": {
     "status": "effectively_closed",
-    "blockadeDay": 96,
+    "blockadeDay": 97,
     "blockadeStartDate": "2026-03-03",
     "dailyTransits": 6,
     "preWarDailyTransits": 140,
@@ -80,10 +80,10 @@
       },
       {
         "date": "2026-06-08",
-        "event": "Crude turns higher again as the Iran-Israel war reignites — Iran's first missile barrage on Israel since April, met by Israeli strikes on Iran on the war's 100th day — reviving the war premium; Brent ended the week up more than 4% near $94.",
+        "event": "Crude spikes about 5% as the Iran-Israel war reignites on its 100th day — Iran's ~30-missile 'Operation Nasr' barrage, met by Israeli strikes on four Iranian cities and a reported hit on a Mahshahr petrochemical plant — reviving the war premium; Brent climbs back above $97 and WTI toward $94.",
         "status": "effectively_closed",
-        "source": "The National (UAE)",
-        "sourceUrl": "https://www.thenationalnews.com/business/energy/2026/06/07/opec-agrees-fourth-monthly-output-rise-despite-hormuz-closure-and-price-swings/"
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/06/07/iran-fires-missiles-israel-ceasefire-strains.html"
       }
     ]
   },
@@ -383,6 +383,12 @@
       "source": "Fortune",
       "sourceUrl": "https://fortune.com/article/price-of-oil-06-05-2026/",
       "date": "2026-06-07"
+    },
+    {
+      "fact": "Oil jumped on June 8 — Brent about +4.9% toward $97.7/bbl and WTI about +3.4% toward $93.6 — after Iran and Israel traded direct strikes over the weekend, reversing a slide to ~$93 Brent on weak Chinese demand and threatening the diplomatic push to reopen the Strait of Hormuz.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/07/iran-fires-missiles-israel-ceasefire-strains.html",
+      "date": "2026-06-08"
     }
   ]
 }
