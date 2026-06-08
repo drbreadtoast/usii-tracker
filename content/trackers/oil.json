@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T23:01:46Z",
+  "lastUpdated": "2026-06-08T05:06:25Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -77,6 +77,13 @@
         "status": "effectively_closed",
         "source": "CNBC",
         "sourceUrl": "https://www.cnbc.com/2026/06/07/opec-set-for-fourth-oil-quota-hike-since-strait-of-hormuz-closure.html"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Crude turns higher again as the Iran-Israel war reignites — Iran's first missile barrage on Israel since April, met by Israeli strikes on Iran on the war's 100th day — reviving the war premium; Brent ended the week up more than 4% near $94.",
+        "status": "effectively_closed",
+        "source": "The National (UAE)",
+        "sourceUrl": "https://www.thenationalnews.com/business/energy/2026/06/07/opec-agrees-fourth-monthly-output-rise-despite-hormuz-closure-and-price-swings/"
       }
     ]
   },
@@ -364,6 +371,18 @@
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/05/29/oil-price-iran-deal-war-ceasefire-trump.html",
       "date": "2026-06-05"
+    },
+    {
+      "fact": "OPEC+ approved a fourth consecutive monthly output hike (+188,000 bpd for July) since the Hormuz closure, though delegates concede the blockade makes most of the added barrels physically undeliverable.",
+      "source": "The National (UAE)",
+      "sourceUrl": "https://www.thenationalnews.com/business/energy/2026/06/07/opec-agrees-fourth-monthly-output-rise-despite-hormuz-closure-and-price-swings/",
+      "date": "2026-06-07"
+    },
+    {
+      "fact": "Crude ended the week up more than 4%, with Brent near $94, as renewed Iran-Israel strikes on June 7-8 revived the war premium and dimmed hopes for a deal to reopen the Strait of Hormuz.",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/article/price-of-oil-06-05-2026/",
+      "date": "2026-06-07"
     }
   ]
 }
