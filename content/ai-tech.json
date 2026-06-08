@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-08T11:06:06Z",
+  "lastUpdated": "2026-06-08T17:06:08Z",
   "stories": [
     {
       "id": "us-government-equity-stake-openai-2026-06-06",
@@ -28,27 +28,6 @@
               "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
               "title": "The Trump administration might take an equity stake in OpenAI",
               "publishedAt": "2026-06-06T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Preliminary talks on an unprecedented government AI stake, tied to OpenAI's looming IPO.",
-          "summary": "Business coverage reports the discussions as early-stage with no finalized terms, framing it as a novel state-capital arrangement tied to OpenAI's IPO timing, and situates the OpenAI talks within a broader administration interest in equity stakes across multiple AI leaders, including Anthropic.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html",
-              "title": "Trump administration, OpenAI discussing possible government stake in the AI startup",
-              "publishedAt": "2026-06-05T16:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "NOTUS",
-              "url": "https://www.notus.org/technology/trump-ai-stake-openai",
-              "title": "Senior U.S. Officials Eye Government Shares in AI Giants",
-              "publishedAt": "2026-06-05T17:00:00Z",
               "allSidesRating": "center"
             }
           ]
@@ -100,45 +79,6 @@
       ]
     },
     {
-      "id": "ai-coding-race-frontier-model-releases-2026-06-05",
-      "headline": "AI-coding arms race heats up as Anthropic ships a new Claude Opus flagship and OpenAI rolls out memory upgrade",
-      "summary": "The frontier-model release cadence accelerated this week. Anthropic released a new Claude Opus flagship, citing gains in software engineering, instruction-following and vision and extending its lead in AI coding via Claude Code. OpenAI began rolling out a new ChatGPT memory architecture to US Plus and Pro users that it says is far more compute-efficient. The releases land as Microsoft and Google push into the same coding and agent territory.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "ai",
-        "anthropic",
-        "openai",
-        "models",
-        "coding"
-      ],
-      "firstSeenAt": "2026-06-06T23:02:15Z",
-      "updatedAt": "2026-06-08T11:06:06Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Rapid model iteration and memory-efficiency gains are the new competitive front, with coding capability and inference cost as the battleground.",
-          "summary": "Coverage framed the latest Claude Opus release and OpenAI's memory upgrade as incremental-but-meaningful escalations: Anthropic doubling down on coding strength while OpenAI cuts the compute cost of long-term memory to widen access, all amid intensifying competition from Microsoft and Google.",
-          "sources": [
-            {
-              "outlet": "llm-stats",
-              "url": "https://llm-stats.com/llm-updates",
-              "title": "AI Updates Today (June 2026) - Latest AI Model Releases",
-              "publishedAt": "2026-06-05T16:00:00Z",
-              "allSidesRating": "center"
-            },
-            {
-              "outlet": "BuildFastWithAI",
-              "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-5-2026",
-              "title": "AI News Today - June 5, 2026: Biggest Stories",
-              "publishedAt": "2026-06-05T17:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "bipartisan-ai-state-preemption-draft-2026-06-06",
       "headline": "Bipartisan House draft would freeze new state AI laws for three years in exchange for federal audits",
       "summary": "Reps. Jay Obernolte (R-Calif.) and Lori Trahan (D-Mass.) released a 269-page discussion draft, the 'Great American Artificial Intelligence Act of 2026,' that would bar states from enacting new AI-governance laws for at least three years while requiring the most powerful AI developers to undergo semi-annual third-party audits. The draft drew pushback from labor unions, consumer advocates and House Democrats who say it strips state consumer protections.",
@@ -165,6 +105,144 @@
               "title": "Federal AI Regulation Bill Freezes State Consumer Protections for Three Years, Sparks Revolt",
               "publishedAt": "2026-06-06T12:00:00Z",
               "allSidesRating": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "google-intel-tpu-3-million-order-2028-2026-06-08",
+      "headline": "Google reportedly orders 3 million in-house AI chips from Intel for 2028; Intel jumps about 10%",
+      "summary": "Alphabet's Google has placed an order with Intel to manufacture more than three million of its in-house TPU AI chips in 2028, The Information reported Monday, citing people with direct knowledge. Google reportedly placed the order after months of testing Intel's advanced packaging amid a TSMC capacity crunch. Intel shares surged more than 10%, a boost to its struggling foundry ambitions; Nvidia is said to be evaluating Intel as a backup manufacturer.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "intel",
+        "google",
+        "alphabet",
+        "tpu",
+        "semiconductors",
+        "foundry",
+        "ai-chips"
+      ],
+      "firstSeenAt": "2026-06-08T17:06:08Z",
+      "updatedAt": "2026-06-08T17:06:08Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A landmark validation of US chip-manufacturing reshoring as hyperscalers seek a domestic alternative to TSMC.",
+          "summary": "Google's reported three-million-unit TPU order is the clearest sign yet that hyperscalers want a non-TSMC foundry option, lending credibility to Intel's turnaround and to US industrial-policy goals. Execution risk remains given Intel's recent foundry struggles, and Nvidia's interest is described as exploratory.",
+          "sources": [
+            {
+              "outlet": "U.S. News (Reuters)",
+              "url": "https://money.usnews.com/investing/news/articles/2026-06-08/google-nvidia-consider-intel-as-backup-chip-manufacturer-the-information-reports",
+              "title": "Alphabet Taps Intel to Make Three Million In-House Chips, the Information Reports",
+              "publishedAt": "2026-06-08T13:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Market-driven vindication of Intel's foundry bet and a strategic blow to TSMC's near-monopoly as capacity constraints push orders onshore.",
+          "summary": "With TSMC capacity stretched, Google turning to Intel — and Nvidia evaluating it as a backup — shows demand forcing diversification to American fabs. Intel's roughly 10% jump reflects investors repricing its foundry as a credible AI-era asset after years of doubt.",
+          "sources": [
+            {
+              "outlet": "TradingKey",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261953175-google-tpu-ai-chip-intel-tsm-nvidia-nvda-gpu-stock-tradingkey",
+              "title": "Securing Million-Chip Order From Google, Intel Rises More Than 10%",
+              "publishedAt": "2026-06-08T15:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amazon-corning-fiber-data-center-deal-2026-06-08",
+      "headline": "Amazon signs multibillion-dollar Corning fiber deal for US AI data centers, adding about 1,000 jobs",
+      "summary": "Amazon announced a multiyear, multibillion-dollar agreement with Corning to supply optical fiber and connectivity for AWS's expanding US data-center build-out. Terms were undisclosed. The deal will create about 1,000 manufacturing jobs at Corning's North Carolina facilities and expand a technician training program. It is Corning's third AI 'megadeal' of 2026, after agreements tied to Meta and Nvidia; Corning shares rose about 10%.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "amazon",
+        "aws",
+        "corning",
+        "data-centers",
+        "ai-infrastructure",
+        "fiber-optics",
+        "manufacturing-jobs"
+      ],
+      "firstSeenAt": "2026-06-08T17:06:08Z",
+      "updatedAt": "2026-06-08T17:06:08Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "AI capex is reshaping the physical economy and US manufacturing jobs, even as it raises questions about data centers' energy demands.",
+          "summary": "The Amazon-Corning pact shows the AI build-out creating tangible US factory jobs and workforce training, a concrete upside of the boom. It also underscores how much physical infrastructure and power hyperscaler ambitions require, intensifying scrutiny of relentless data-center expansion.",
+          "sources": [
+            {
+              "outlet": "U.S. News (Reuters)",
+              "url": "https://money.usnews.com/investing/news/articles/2026-06-08/amazon-corning-sign-multi-billion-dollar-deal-to-boost-fiber-optics-manufacturing-in-us",
+              "title": "Amazon, Corning Sign Multi-Billion-Dollar Deal to Boost Fiber Optics Manufacturing in US",
+              "publishedAt": "2026-06-08T13:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Private AI investment is delivering American manufacturing jobs and reshoring with no mandate needed — the market is building the supply chain itself.",
+          "summary": "A multibillion-dollar Amazon commitment bringing about 1,000 manufacturing jobs to North Carolina shows AI demand fueling a domestic industrial revival. Fiber is emerging as a key bottleneck, and US firms such as Corning are positioned to capture the spending.",
+          "sources": [
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/corning-stock-surges-10-multibillion-131133416.html",
+              "title": "Corning stock surges 10% on multibillion-dollar Amazon deal",
+              "publishedAt": "2026-06-08T13:11:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marvell-flex-sp500-inclusion-ai-chip-2026-06-08",
+      "headline": "Marvell and Flex to join the S&P 500 on June 22 as AI-chip names reshape the index",
+      "summary": "S&P Global will add AI-infrastructure chipmaker Marvell Technology and contract manufacturer Flex to the S&P 500 effective June 22, replacing Pool Corp and Campbell's in a broader reshuffle. Marvell jumped about 10% on the news, extending a 2026 gain of roughly 210%. The change underscores how AI-linked semiconductors keep displacing consumer-staples and cyclical names in the benchmark.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "marvell",
+        "flex",
+        "s-and-p-500",
+        "index",
+        "ai-chips",
+        "semiconductors"
+      ],
+      "firstSeenAt": "2026-06-08T17:06:08Z",
+      "updatedAt": "2026-06-08T17:06:08Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "The reshuffle is a vivid marker of an increasingly AI-concentrated market, raising concentration-risk concerns if the trade stumbles.",
+          "summary": "Swapping Campbell's and Pool for Marvell and Flex shows AI semiconductors crowding out the old economy in the S&P 500, deepening the benchmark's dependence on a handful of AI winners and on the durability of the capex boom.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html",
+              "title": "Marvell Technology and Flex to join S&P 500, replacing Pool and Campbell's",
+              "publishedAt": "2026-06-05T21:00:00Z",
+              "allSidesRating": "center"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Index inclusion rewards real earnings growth — Marvell's surge reflects genuine AI demand and will draw passive inflows to US tech leaders.",
+          "summary": "Marvell earning S&P 500 status after tripling in 2026 reflects the strength of US AI-chip champions. Inclusion will channel passive capital into the names powering the AI build-out, supporters argue, validating the sector's run.",
+          "sources": [
+            {
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/06/06/marvell-technology-flex-sp500-index-pool-campbells-company/",
+              "title": "Marvell Technology, Flex to join S&P 500 later this month",
+              "publishedAt": "2026-06-06T12:00:00Z"
             }
           ]
         }
