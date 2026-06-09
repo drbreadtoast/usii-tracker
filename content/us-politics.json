@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-09T05:06:52Z",
+  "lastUpdated": "2026-06-09T11:06:42Z",
   "stories": [
     {
       "id": "senate-iran-war-powers-renewed-push-2026-06-07",
@@ -207,7 +207,7 @@
         "hormuz"
       ],
       "firstSeenAt": "2026-06-08T23:02:23Z",
-      "updatedAt": "2026-06-09T05:06:52Z",
+      "updatedAt": "2026-06-09T11:06:42Z",
       "perspectives": [
         {
           "lean": "government",
@@ -264,6 +264,57 @@
               "url": "https://www.cnn.com/2026/06/07/world/live-news/iran-war-trump-israel-lebanon",
               "title": "Live updates: Iran and Israel halt strikes against each other but warn they are ready to resume",
               "publishedAt": "2026-06-07T23:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judge-blocks-trump-h1b-100k-fee-2026-06-08",
+      "headline": "Federal judge strikes down Trump's $100,000 H-1B visa fee as an unlawful tax",
+      "summary": "US District Judge Leo Sorokin in Boston ruled June 8 that the Trump administration’s $100,000 fee on new H-1B petitions is an unauthorized tax that Congress never delegated, blocking it nationwide. The suit was brought by a coalition of Democratic state attorneys general. The White House said it is confident the order will be reversed on appeal.",
+      "category": "us-politics",
+      "importance": 3,
+      "tags": [
+        "h-1b",
+        "immigration",
+        "courts",
+        "trump",
+        "visa",
+        "ruling"
+      ],
+      "firstSeenAt": "2026-06-09T11:06:42Z",
+      "updatedAt": "2026-06-09T11:06:42Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Courts treat the fee as a tax only Congress can impose, halting it nationwide.",
+          "summary": "Reporting framed the ruling as a separation-of-powers check: the judge found the administration lacked authority to levy a six-figure fee on H-1B petitions, an action the court characterized as an unauthorized tax. The order applies nationwide pending appeal.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/08/trump-h1b-visa-fee-blocks.html",
+              "title": "Judge blocks Trump's $100,000 H-1B visa fee",
+              "publishedAt": "2026-06-08T20:00:00Z"
+            },
+            {
+              "outlet": "Roll Call",
+              "url": "https://rollcall.com/2026/06/08/judge-halts-trumps-100000-h-1b-visa-fee/",
+              "title": "Judge halts Trump's $100,000 H-1B visa fee",
+              "publishedAt": "2026-06-08T19:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Liberal outlets cast the fee as an attempt to monetize immigration that courts rejected.",
+          "summary": "Left-leaning coverage framed the decision as rebuking an effort to 'make money off immigration,' arguing the fee would have priced skilled workers out and exceeded the president's authority.",
+          "sources": [
+            {
+              "outlet": "The New Republic",
+              "url": "https://newrepublic.com/post/211498/donald-trump-blocked-h1b-visa-fee",
+              "title": "Federal Judge Overturns Trump's Effort to Make Money Off Immigration",
+              "publishedAt": "2026-06-08T21:00:00Z"
             }
           ]
         }

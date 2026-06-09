@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T05:06:52Z",
+  "lastUpdated": "2026-06-09T11:06:42Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -25,7 +25,7 @@
   ],
   "hormuz": {
     "status": "effectively_closed",
-    "blockadeDay": 98,
+    "blockadeDay": 99,
     "blockadeStartDate": "2026-03-03",
     "dailyTransits": 6,
     "preWarDailyTransits": 140,
@@ -154,6 +154,11 @@
         "date": "2026-06-08",
         "price": 4.164,
         "label": "AAA national avg (June 8); flat as war reignites on day 100"
+      },
+      {
+        "date": "2026-06-09",
+        "price": 4.164,
+        "label": "AAA national avg (June 9); steady as ceasefire talks continue"
       }
     ],
     "breakdown": [
@@ -206,7 +211,7 @@
         "unit": "/bushel",
         "preWar": 4.31,
         "current": 4.18,
-        "changePercent": -3.0,
+        "changePercent": -3,
         "detail": "July CBOT corn closed ~$4.18/bu, a seven-week low on favorable Midwest weather.",
         "source": "Brownfield Ag (CBOT)",
         "sourceUrl": "https://www.brownfieldagnews.com/market-news/closing-grain-and-livestock-futures-june-5-2026/"
@@ -338,7 +343,7 @@
         "icon": "✈️",
         "preWarPrice": 2.45,
         "currentPrice": 4.95,
-        "changePercent": 102.0,
+        "changePercent": 102,
         "source": "Wikipedia — Economic impact of the 2026 Iran war",
         "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
       },
