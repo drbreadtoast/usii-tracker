@@ -1,115 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-09T11:06:42Z",
+  "lastUpdated": "2026-06-09T17:05:48Z",
   "stories": [
-    {
-      "id": "us-government-equity-stake-openai-2026-06-06",
-      "headline": "Trump administration in talks to take a US government equity stake in OpenAI",
-      "summary": "Trump confirmed June 5 the White House is examining acquiring equity stakes in leading AI firms, with CNBC reporting active discussions with OpenAI (valued around $850B as an IPO nears). One floated structure has OpenAI donating equity to seed a 'Public Wealth Fund.' Discussions have reportedly touched Anthropic too. Separately, Sen. Bernie Sanders introduced a bill proposing a 50% government stake in top AI companies.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "openai",
-        "ai",
-        "government-stake",
-        "sovereign-wealth",
-        "sanders"
-      ],
-      "firstSeenAt": "2026-06-06T05:04:50Z",
-      "updatedAt": "2026-06-07T11:05:05Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "A populist 'sovereign wealth' counter-proposal argues the public should capture AI's windfall.",
-          "summary": "Progressive framing highlights Sen. Sanders's push for a 50% public stake, arguing the public should capture AI gains rather than leave windfalls to private investors, as the administration weighs its own equity arrangement.",
-          "sources": [
-            {
-              "outlet": "TechCrunch",
-              "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-              "title": "The Trump administration might take an equity stake in OpenAI",
-              "publishedAt": "2026-06-06T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bis-china-ai-chip-loophole-closed-2026-06-06",
-      "headline": "Officials dispute whether the BIS-closed China AI-chip 'loophole' ever existed",
-      "summary": "A dispute has emerged over Commerce's BIS move to close what some called a major gap on advanced AI-chip exports. May 31 guidance confirmed licenses are required for advanced AI chips shipped to any entity whose ultimate parent is headquartered in China, Russia or another Group D:5 nation, naming Nvidia's Blackwell/Rubin and AMD's MI350x. Some Trump officials now say no genuine loophole existed, recasting the move as clarification of a 2023 rule rather than a new crackdown.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "export-controls",
-        "china",
-        "bis",
-        "ai-chips",
-        "nvidia"
-      ],
-      "firstSeenAt": "2026-06-06T23:02:15Z",
-      "updatedAt": "2026-06-07T17:04:38Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A year of lax enforcement may have let advanced chips flow to Chinese-linked firms abroad; closing the gap is overdue.",
-          "summary": "The BIS guidance addresses what critics describe as an enforcement gap that may have allowed Nvidia's most advanced chips to reach overseas subsidiaries of Chinese companies via third countries. By clarifying that license requirements follow a buyer's ultimate Chinese parentage anywhere, the rule aims to plug leakage an industry source estimated in the hundreds of thousands of chips.",
-          "sources": [
-            {
-              "outlet": "Tech Times",
-              "url": "https://www.techtimes.com/articles/317905/20260606/bis-closed-china-ai-chip-loophole-trump-officials-dispute-whether-gap-ever-existed.htm",
-              "title": "BIS Closed China AI Chip Loophole: Trump Officials Dispute Whether Gap Ever Existed",
-              "publishedAt": "2026-06-06T12:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "There was no new loophole — the license rule always applied; this is clarification, and overstating the gap misleads.",
-          "summary": "Trump administration officials dispute the framing of a newly discovered loophole, noting the November-2023 license requirement always applied to destinations outside the US when chips are bound for China-headquartered firms or subsidiaries. From this view BIS is reaffirming policy rather than reacting to a failure, and claims of hundreds of thousands of leaked chips are contested.",
-          "sources": [
-            {
-              "outlet": "Tech Times",
-              "url": "https://www.techtimes.com/articles/317905/20260606/bis-closed-china-ai-chip-loophole-trump-officials-dispute-whether-gap-ever-existed.htm",
-              "title": "BIS Closed China AI Chip Loophole: Trump Officials Dispute Whether Gap Ever Existed",
-              "publishedAt": "2026-06-06T12:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bipartisan-ai-state-preemption-draft-2026-06-06",
-      "headline": "Bipartisan House draft would freeze new state AI laws for three years in exchange for federal audits",
-      "summary": "Reps. Jay Obernolte (R-Calif.) and Lori Trahan (D-Mass.) released a 269-page discussion draft, the 'Great American Artificial Intelligence Act of 2026,' that would bar states from enacting new AI-governance laws for at least three years while requiring the most powerful AI developers to undergo semi-annual third-party audits. The draft drew pushback from labor unions, consumer advocates and House Democrats who say it strips state consumer protections.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "ai",
-        "regulation",
-        "congress",
-        "preemption",
-        "states"
-      ],
-      "firstSeenAt": "2026-06-08T05:06:25Z",
-      "updatedAt": "2026-06-08T05:06:25Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A grand bargain — national uniformity and federal audits traded for a temporary state-law moratorium that critics call a giveaway.",
-          "summary": "Coverage frames the draft as an attempt to resolve a fragmenting patchwork of more than 1,500 state AI bills by substituting federal oversight — semi-annual audits of top developers — for state rulemaking. Labor unions, consumer groups and a House Democratic commission revolted against freezing state safeguards for three years, calling the federal audits inadequate compensation.",
-          "sources": [
-            {
-              "outlet": "Tech Times",
-              "url": "https://www.techtimes.com/articles/317903/20260606/federal-ai-regulation-bill-freezes-state-consumer-protections-three-years-sparks-revolt.htm",
-              "title": "Federal AI Regulation Bill Freezes State Consumer Protections for Three Years, Sparks Revolt",
-              "publishedAt": "2026-06-06T12:00:00Z",
-              "allSidesRating": "center"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "google-intel-tpu-3-million-order-2028-2026-06-08",
       "headline": "Google reportedly orders 3 million in-house AI chips from Intel for 2028; Intel jumps about 10%",
@@ -203,38 +95,6 @@
       ]
     },
     {
-      "id": "marvell-flex-sp500-inclusion-ai-chip-2026-06-08",
-      "headline": "Marvell and Flex to join the S&P 500 on June 22 as AI-chip names reshape the index",
-      "summary": "S&P Global will add AI-infrastructure chipmaker Marvell Technology and contract manufacturer Flex to the S&P 500 effective June 22, replacing Pool Corp and Campbell's in a broader reshuffle. Marvell jumped about 10% on the news, extending a 2026 gain of roughly 210%. The change underscores how AI-linked semiconductors keep displacing consumer-staples and cyclical names in the benchmark.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "marvell",
-        "flex",
-        "s-and-p-500",
-        "index",
-        "ai-chips",
-        "semiconductors"
-      ],
-      "firstSeenAt": "2026-06-08T17:06:08Z",
-      "updatedAt": "2026-06-09T05:06:52Z",
-      "perspectives": [
-        {
-          "lean": "right",
-          "keyFraming": "Index inclusion rewards real earnings growth — Marvell's surge reflects genuine AI demand and will draw passive inflows to US tech leaders.",
-          "summary": "Marvell earning S&P 500 status after tripling in 2026 reflects the strength of US AI-chip champions. Inclusion will channel passive capital into the names powering the AI build-out, supporters argue, validating the sector's run.",
-          "sources": [
-            {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/06/06/marvell-technology-flex-sp500-index-pool-campbells-company/",
-              "title": "Marvell Technology, Flex to join S&P 500 later this month",
-              "publishedAt": "2026-06-06T12:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "nvidia-sk-hynix-ai-memory-pact-2030-2026-06-08",
       "headline": "Nvidia and SK Hynix sign multiyear partnership through 2030 to co-develop next-generation AI-factory memory",
       "summary": "Nvidia and SK Hynix announced a multiyear technology partnership running through 2030 to co-develop memory for AI factories, spanning Vera Rubin supercomputers, Vera CPUs, RTX-powered PCs and Jetson Thor robotics. Terms were undisclosed. The deal helped lift Nvidia shares roughly 2% Monday as chip stocks rebounded from Friday's Broadcom-driven rout, with the SOXX semiconductor ETF posting its best day in over a year.",
@@ -311,6 +171,119 @@
               "url": "https://fortune.com/2026/06/07/openai-superapp-pivot-chatbot-agentic-ai-ipo-codex-chatgpt/",
               "title": "OpenAI readies 'superapp' pivot ahead of planned IPO, FT reports",
               "publishedAt": "2026-06-07T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple-wwdc-gemini-siri-claude-2026-06-09",
+      "headline": "Apple rebuilds Siri on Google Gemini in a roughly $1B/year deal and opens iOS to Claude and other AI assistants",
+      "summary": "At WWDC on June 8 Apple unveiled an Apple Intelligence architecture built on a custom Google Gemini model powering a rebuilt, conversational Siri, under a multi-year deal reported at about $1 billion a year. iOS 27 'Extensions' let users set a third-party assistant such as Claude or Gemini as default. Apple shares fell about 3.5%; Alphabet dipped but briefly topped a $4 trillion valuation.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "apple",
+        "google",
+        "gemini",
+        "anthropic",
+        "siri",
+        "big-tech"
+      ],
+      "firstSeenAt": "2026-06-09T17:05:48Z",
+      "updatedAt": "2026-06-09T17:05:48Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "Apple conceding core 'intelligence' to Google is a stark admission it lost the AI race — and concentrates more power in a few model providers.",
+          "summary": "After years of Siri delays, Apple is effectively renting its assistant's brain from Google, raising competition concerns about Big Tech interdependence. Coverage noted that opening iOS to Claude and Gemini is pro-choice for users, but the roughly $1B/year deal cements Alphabet's gatekeeper role as antitrust scrutiny of such arrangements intensifies.",
+          "sources": [
+            {
+              "outlet": "TechCrunch",
+              "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+              "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+              "publishedAt": "2026-06-08T18:00:00Z"
+            },
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/news/apple-gemini-powered-siri-deal-231107182.html",
+              "title": "How Apple's Gemini-Powered Siri Deal Will Impact Alphabet (GOOGL) Investors",
+              "publishedAt": "2026-06-09T01:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Pragmatic capital allocation: Apple buys best-in-class AI instead of burning billions, while opening the platform to Claude and others.",
+          "summary": "Coverage cast the deal as smart business — leveraging Gemini to ship a working Siri this year while letting users pick Claude or Gemini as default. Analysts argued investors who dinged Apple about 3.5% overlooked that the partnership validates Gemini as enterprise-grade and de-risks Apple's AI roadmap.",
+          "sources": [
+            {
+              "outlet": "MacRumors",
+              "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+              "title": "Apple Reveals New AI Architecture Built Around Google Gemini Models",
+              "publishedAt": "2026-06-08T17:00:00Z"
+            },
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html",
+              "title": "WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
+              "publishedAt": "2026-06-08T19:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chip-stocks-ai-trade-wobble-broadcom-2026-06-09",
+      "headline": "AI chip trade wobbles again as fallout from Broadcom's outlook and valuation fears hit semiconductors",
+      "summary": "Semiconductor stocks resumed sliding June 9, extending a rout that began June 4 when a weak Broadcom AI-chip outlook triggered the Nasdaq's worst day since April 2025. Nvidia, Micron and Broadcom reversed early gains as investors questioned stretched AI valuations and rotated into healthcare and financials, in a broader reassessment of whether AI capex enthusiasm has outrun results.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "semiconductors",
+        "nvidia",
+        "broadcom",
+        "micron",
+        "ai-trade"
+      ],
+      "firstSeenAt": "2026-06-09T17:05:48Z",
+      "updatedAt": "2026-06-09T17:05:48Z",
+      "perspectives": [
+        {
+          "lean": "left",
+          "keyFraming": "The AI bubble is starting to leak: one cautious Broadcom forecast wiped out hundreds of billions, exposing how much of the rally rests on hype.",
+          "summary": "The chip selloff suggested the AI-investment narrative is fragile. Broadcom's softer outlook and double-digit drops in Micron and AMD showed investors finally pricing the risk that data-center spending won't deliver promised returns — with consequences for index-heavy retirement accounts.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html",
+              "title": "Broadcom, Micron and ARM sink, leading chip stocks lower",
+              "publishedAt": "2026-06-09T13:00:00Z"
+            },
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-stock-drops-6-in-ugly-day-for-chip-stocks-100000734.html",
+              "title": "Tech stocks today: Nvidia stock drops in ugly day for chip stocks",
+              "publishedAt": "2026-06-09T14:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "A healthy correction in over-loved names, not the end of the AI story — record data-center demand remains intact and rotation into value is rational.",
+          "summary": "Coverage framed the pullback as profit-taking after an extraordinary run, triggered by one company's conservative guidance. With Nvidia still near a multitrillion-dollar valuation and AI demand robust, disciplined investors viewed the dip as a reset rather than a structural break in the secular growth trend.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
+              "title": "Nasdaq falls and suffers worst day since April 2025 as traders flee chip stocks",
+              "publishedAt": "2026-06-09T12:00:00Z"
+            },
+            {
+              "outlet": "Kavout",
+              "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off",
+              "title": "What Triggered the Recent Semiconductor Sell-Off",
+              "publishedAt": "2026-06-08T16:00:00Z"
             }
           ]
         }

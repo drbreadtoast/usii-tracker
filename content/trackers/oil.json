@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T11:06:42Z",
+  "lastUpdated": "2026-06-09T17:05:48Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -87,17 +87,17 @@
       },
       {
         "date": "2026-06-09",
-        "event": "Brent settles near $94.25-94.63/bbl and WTI near $91.30 after Monday's intraday spike above $98 fades; Iran says it has ended its operation against Israel (warning it will resume if Israel keeps striking Lebanon) and Trump cites progress toward a new 60-day ceasefire. The Strait remains effectively closed with no confirmed transit resumption; markets await US May CPI (due June 10).",
+        "event": "US CENTCOM says an AH-64 Apache went down near the coast of Oman over the Strait of Hormuz on June 8; both crew were rescued and are stable. Trump accused Iran of shooting it down and said the US 'must respond,' a day after a renewed Iran-Israel ceasefire. WTI settled up ~0.8% near $91 (intraday high ~$95.4) and Brent fell below $93 as the two sides halted attacks; JPMorgan estimates Strait traffic at ~15% of pre-war levels.",
         "status": "effectively_closed",
         "source": "CNBC",
-        "sourceUrl": "https://www.cnbc.com/2026/06/08/oil-prices-today-us-iran-missile-middle-east-israel-opec.html"
+        "sourceUrl": "https://www.cnbc.com/2026/06/09/trump-iran-helicopter-hormuz-strait.html"
       }
     ]
   },
   "gas": {
-    "currentAverage": 4.164,
+    "currentAverage": 4.161,
     "preWarAverage": 3.05,
-    "changePercent": 36.5,
+    "changePercent": 36.4,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -157,8 +157,8 @@
       },
       {
         "date": "2026-06-09",
-        "price": 4.164,
-        "label": "AAA national avg (June 9); steady as ceasefire talks continue"
+        "price": 4.161,
+        "label": "AAA national avg (June 9); steady as Iran-Israel halt attacks"
       }
     ],
     "breakdown": [
@@ -324,8 +324,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.164,
-        "changePercent": 36.5,
+        "currentPrice": 4.161,
+        "changePercent": 36.4,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -418,6 +418,18 @@
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/08/china-oil-iran-war-us-israel-energy-prices-strait-hormuz.html",
       "date": "2026-06-08"
+    },
+    {
+      "fact": "US CENTCOM confirmed an AH-64 Apache helicopter went down near the coast of Oman over the Strait of Hormuz on June 8; both crew were rescued and are in stable condition. Trump accused Iran of downing it and said the US 'must respond,' reviving escalation fears a day after a renewed Iran-Israel ceasefire.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/09/trump-iran-helicopter-hormuz-strait.html",
+      "date": "2026-06-09"
+    },
+    {
+      "fact": "JPMorgan estimates visible Strait of Hormuz traffic remains at just ~15% of pre-war levels after three months of conflict, yet oil futures have stayed under $100 — attributed to soft Chinese demand, SPR releases and record US output.",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/06/09/us-army-apache-helicopter-strait-of-hormuz-iran",
+      "date": "2026-06-09"
     }
   ]
 }
