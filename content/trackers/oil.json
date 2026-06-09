@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T23:02:23Z",
+  "lastUpdated": "2026-06-09T05:06:52Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -25,7 +25,7 @@
   ],
   "hormuz": {
     "status": "effectively_closed",
-    "blockadeDay": 97,
+    "blockadeDay": 98,
     "blockadeStartDate": "2026-03-03",
     "dailyTransits": 6,
     "preWarDailyTransits": 140,
@@ -81,6 +81,13 @@
       {
         "date": "2026-06-08",
         "event": "Crude whipsaws on the war's 100th day: Brent spikes above $97-98 and WTI past $94 intraday after Iran's 'Operation Nasr' barrage and Israeli strikes on Iranian cities (including a reported hit on a Mahshahr petrochemical plant), then eases toward $94 Brent / $93-94 WTI after Iran says it has ended its operation and Trump cites ceasefire progress. The Strait stays shut and OPEC+ approves a fourth monthly quota hike (+188k bpd).",
+        "status": "effectively_closed",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/06/08/oil-prices-today-us-iran-missile-middle-east-israel-opec.html"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Brent settles near $94.25-94.63/bbl and WTI near $91.30 after Monday's intraday spike above $98 fades; Iran says it has ended its operation against Israel (warning it will resume if Israel keeps striking Lebanon) and Trump cites progress toward a new 60-day ceasefire. The Strait remains effectively closed with no confirmed transit resumption; markets await US May CPI (due June 10).",
         "status": "effectively_closed",
         "source": "CNBC",
         "sourceUrl": "https://www.cnbc.com/2026/06/08/oil-prices-today-us-iran-missile-middle-east-israel-opec.html"
