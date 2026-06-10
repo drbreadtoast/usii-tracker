@@ -1,73 +1,55 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-09T23:03:00Z",
+  "lastUpdated": "2026-06-10T05:06:41Z",
   "stories": [
     {
-      "id": "us-centcom-strikes-iran-apache-downing-2026-06-09",
-      "headline": "US launches retaliatory strikes on southern Iran after Apache helicopter downed near Strait of Hormuz",
-      "summary": "US Central Command said it struck Iranian naval, air-defense and coastal-missile sites in southern Iran late June 9, calling it a 'proportional response' to Iran's downing of a US AH-64 Apache near the Strait of Hormuz a day earlier. Iranian state media reported explosions at Qeshm, Sirik and Minab. Foreign Minister Araghchi vowed every attack would be 'answered,' deepening the collapse of the April ceasefire.",
+      "id": "us-iran-war-iran-retaliates-gulf-bases-2026-06-10",
+      "headline": "Iran says it struck US bases in the Gulf after CENTCOM hit Hormuz-area defenses in three waves",
+      "summary": "Hours after US Central Command struck Iranian naval, air-defense and coastal-missile sites near the Strait of Hormuz late June 9, Iran's Revolutionary Guard said it launched ballistic missiles and drones at US bases in Bahrain, Kuwait and Jordan, claiming 21 targets hit. The US said nearly all projectiles were intercepted. Foreign Minister Araghchi vowed no attack would go 'unanswered' and told American forces to 'leave our region,' as the April ceasefire collapsed.",
       "category": "war",
       "importance": 5,
       "tags": [
-        "us-iran",
+        "iran",
+        "united-states",
         "strait-of-hormuz",
+        "irgc",
         "centcom",
-        "apache",
         "escalation"
       ],
-      "firstSeenAt": "2026-06-09T23:03:00Z",
-      "updatedAt": "2026-06-09T23:03:00Z",
+      "firstSeenAt": "2026-06-10T05:06:41Z",
+      "updatedAt": "2026-06-10T05:06:41Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Wire reporting frames CENTCOM's strikes as a calibrated, defensive reply after Iran downed the Apache, whose crew were rescued unhurt by a Navy sea drone.",
-          "summary": "AP and NPR reported CENTCOM launched 'self-defense' strikes at Trump's order around 5pm ET June 9 in response to the Apache downing the night before; both pilots were rescued by an unmanned surface vessel — the first such maritime-drone rescue — and were not seriously hurt. Trump simultaneously claimed a peace deal could come within days and that the Strait of Hormuz would reopen.",
+          "keyFraming": "Wire reporting frames the exchange as a sharp, mutual escalation: US 'self-defense' strikes followed by Iranian retaliation that the US says was largely intercepted.",
+          "summary": "Axios reported CENTCOM struck Iranian air-defense, radar and coastal-missile sites near Hormuz at Trump's order after the Apache downing, describing the operation as a proportional response; US officials said nearly all of Iran's retaliatory missiles and drones aimed at Gulf bases were intercepted, with no major US casualties confirmed.",
           "sources": [
             {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/ap/ap-international/ap-trump-says-pilots-are-fine-after-us-helicopter-crashes-near-strait-of-hormuz/",
-              "title": "Trump says US 'must' respond after Iran downed US Army helicopter near Strait of Hormuz",
-              "publishedAt": "2026-06-09T20:00:00Z"
-            },
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/09/nx-s1-5851482/trump-pilots-us-helicopter-crash",
-              "title": "Trump vows to respond after Iran downed a U.S. Army helicopter near Strait of Hormuz",
-              "publishedAt": "2026-06-09T18:00:00Z"
+              "outlet": "Axios",
+              "url": "https://www.axios.com/2026/06/09/us-strikes-iran-army-helicopter-response",
+              "title": "US strikes Iran in response to helicopter downing: CENTCOM",
+              "publishedAt": "2026-06-09T21:30:00Z"
             }
           ]
         },
         {
-          "lean": "right",
-          "keyFraming": "Conservative outlets cast the strikes as restoring deterrence after unprovoked Iranian aggression downed a US aircraft.",
-          "summary": "OANN and RFE/RL coverage emphasized Iranian provocation and Trump's resolve, citing CENTCOM's 'very powerful' strikes as a necessary response that reestablishes deterrence after Tehran downed a US Army helicopter over the Strait of Hormuz.",
+          "lean": "foreign-western",
+          "keyFraming": "Al Jazeera's liveblog tracks Iran's retaliation against US Gulf installations and the human cost of the renewed exchange.",
+          "summary": "Al Jazeera reported Iran responded to the US strikes by targeting American bases across the Gulf, including in Bahrain, Kuwait and Jordan, and carried Iranian claims of strikes on the US Fifth Fleet's footprint, framing the night as the most direct US-Iran military confrontation since the April truce broke down.",
           "sources": [
             {
-              "outlet": "OANN",
-              "url": "https://www.oann.com/newsroom/trump-the-u-s-must-of-necessity-respond-to-iranian-attack-on-apache-helicopter/",
-              "title": "Trump: The U.S. 'must, of necessity, respond' to Iranian attack on Apache helicopter",
-              "publishedAt": "2026-06-09T19:00:00Z"
-            },
-            {
-              "outlet": "RFE/RL",
-              "url": "https://www.rferl.org/a/us-strikes-iran-downing-helicopter-trump/33776992.html",
-              "title": "Trump Says US Responds To Downing Of Helicopter With 'Very Powerful' Strikes On Iran",
-              "publishedAt": "2026-06-09T22:00:00Z"
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/6/9/iran-war-live-us-strikes-iran-after-helicopter-downing",
+              "title": "Iran war updates: No progress on negotiations with the US – Araghchi",
+              "publishedAt": "2026-06-09T20:00:00Z"
             }
           ]
         },
         {
           "lean": "foreign-eastern",
-          "keyFraming": "Chinese and Iranian state media foreground blasts across Hormozgan province and the risk of a wider Gulf war.",
-          "summary": "Xinhua reported explosions across Qeshm, Sirik and Minab after Washington announced 'self-defense' strikes, foregrounding regional escalation and instability in the Strait; Iranian outlets carried Tehran's warning that US forces near Iran face 'constant risk.'",
+          "keyFraming": "Iranian-aligned coverage casts the US strikes as a failure and the retaliation as proof of Tehran's resolve, demanding a US withdrawal from the Gulf.",
+          "summary": "Iran International quoted FM Araghchi saying the US 'opted to test our determination' and that foreign forces should 'leave our region if you want to be safe,' while carrying IRGC claims of strikes on 21 US-linked targets — presenting Tehran as defiant and undefeated despite the American bombardment.",
           "sources": [
-            {
-              "outlet": "Xinhua",
-              "url": "https://english.news.cn/20260610/730d9d37e5a04d87b461e8fe1c3735a8/c.html",
-              "title": "Blasts heard in S. Iran as U.S. announces 'self-defense' strikes",
-              "publishedAt": "2026-06-09T22:30:00Z",
-              "isStateMedia": true
-            },
             {
               "outlet": "Iran International",
               "url": "https://www.iranintl.com/en/liveblog/202606062776",
@@ -75,13 +57,26 @@
               "publishedAt": "2026-06-09T21:00:00Z"
             }
           ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "The administration casts the strikes as lawful, proportional self-defense after Iranian aggression and a message that attacks on US forces will be answered.",
+          "summary": "Officials relayed via the AP said the US 'must' respond to Iran's downing of the Apache and characterized the CENTCOM strikes as a measured act of self-defense, while insisting the door to a deal — and to reopening the Strait of Hormuz — remained open if Tehran de-escalated.",
+          "sources": [
+            {
+              "outlet": "The Hill",
+              "url": "https://thehill.com/homenews/ap/ap-international/ap-trump-says-pilots-are-fine-after-us-helicopter-crashes-near-strait-of-hormuz/",
+              "title": "Trump says US 'must' respond after Iran downed US Army helicopter near Strait of Hormuz",
+              "publishedAt": "2026-06-09T20:00:00Z"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "oil-whipsaws-us-iran-strikes-deescalation-2026-06-09",
-      "headline": "Oil whipsaws as US-Iran strikes collide with de-escalation signals over the Strait of Hormuz",
-      "summary": "Crude swung sharply on June 9: WTI fell about 4% toward $87.6 and Brent about 3% toward $91 earlier in the day after the US energy secretary said Strait of Hormuz traffic was 'rising very meaningfully' and the White House cited progress in Iran nuclear talks — before evening US strikes on Iran revived supply-disruption fears. Prices remain roughly 30% above late-February pre-war levels.",
+      "id": "oil-rebounds-us-strikes-iran-2026-06-10",
+      "headline": "Oil rebounds after US strikes Iran near Hormuz, reviving a war premium following a 3-4% slide",
+      "summary": "Crude fell 3-4% during June 9 (Brent toward ~$91, WTI toward ~$88) after US officials said Strait of Hormuz traffic was 'rising very meaningfully' and the White House cited progress in Iran nuclear talks. Late that day, US CENTCOM struck Iranian naval and air-defense sites near the strait, reversing the slide as supply-disruption fears returned. The strait remains effectively closed and prices stay roughly 30% above pre-war levels.",
       "category": "markets",
       "importance": 4,
       "tags": [
@@ -89,15 +84,16 @@
         "energy",
         "iran",
         "hormuz",
-        "markets"
+        "commodities",
+        "brent"
       ],
-      "firstSeenAt": "2026-06-09T23:03:00Z",
-      "updatedAt": "2026-06-09T23:03:00Z",
+      "firstSeenAt": "2026-06-10T05:06:41Z",
+      "updatedAt": "2026-06-10T05:06:41Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Markets are caught between Trump's deal optimism and renewed strikes; physical flows through Hormuz stay drastically reduced.",
-          "summary": "CNBC reported oil falling intraday as officials touted rising Hormuz traffic and possible diplomatic progress, but noted the strait remains effectively constrained and prices stayed well above pre-war levels, leaving them exposed to reversal once the US strikes on Iran landed in the evening.",
+          "keyFraming": "Market reporting frames the day as a whipsaw between de-escalation optimism and renewed supply risk, with soft Chinese demand and SPR releases capping prices under $100.",
+          "summary": "CNBC reported oil sliding intraday on signals the Strait might reopen and on nuclear-talks optimism, before the evening US strikes on Iran revived the war premium; analysts said weak Chinese buying and record US output had so far kept Brent under $100 despite the closed strait.",
           "sources": [
             {
               "outlet": "CNBC",
@@ -109,21 +105,21 @@
         },
         {
           "lean": "right",
-          "keyFraming": "Falling prices validate a maximum-pressure approach that is bringing Iran toward a deal and could reopen Hormuz.",
-          "summary": "Market commentary framed the intraday drop as evidence administration pressure was working, with a near-term agreement seen as a path to reopening the Strait of Hormuz and unwinding the energy-driven inflation spike, even as the war premium kept Brent near $91.",
+          "keyFraming": "Energy-trade coverage frames the rebound as the market repricing supply risk the moment US force was applied near the chokepoint.",
+          "summary": "OilPrice.com reported crude jumping after the US strikes on Iran over the downed Apache, recovering from intraday lows as traders priced in a renewed threat to Gulf shipping and the continued effective closure of the Strait of Hormuz.",
           "sources": [
             {
-              "outlet": "TradingKey",
-              "url": "https://www.tradingkey.com/analysis/commodities/oil/261956017-iran-us-nuclear-wti-brent-trump-oil-price-tradingkey",
-              "title": "Iran Nuclear Talks Reported to Make Positive Progress; Crude Plunges",
-              "publishedAt": "2026-06-09T16:00:00Z"
+              "outlet": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iran-Over-Downed-Apache.html",
+              "title": "Oil Prices Jump After U.S. Strikes Iran Over Downed Apache",
+              "publishedAt": "2026-06-10T01:00:00Z"
             }
           ]
         },
         {
           "lean": "left",
-          "keyFraming": "The day's swings show how a war Washington reignited keeps importing volatility into energy and household costs.",
-          "summary": "CNN Business highlighted that the Strait of Hormuz is still 'leaking' only a fraction of pre-war volumes and that renewed US-Iran strikes undercut hopes the supply shock — and its pass-through to gasoline and inflation — would ease soon for American households.",
+          "keyFraming": "Coverage stresses how a war Washington reignited keeps importing volatility into energy and household costs.",
+          "summary": "CNN Business highlighted that the Strait of Hormuz is still moving only a fraction of pre-war volumes and that renewed US-Iran strikes undercut hopes the supply shock — and its pass-through to gasoline and inflation — would ease soon for American households.",
           "sources": [
             {
               "outlet": "CNN Business",
@@ -136,120 +132,115 @@
       ]
     },
     {
-      "id": "us-strikes-iran-congress-war-powers-2026-06-09",
-      "headline": "US strikes on Iran reignite congressional war-powers clash as Democrats demand a vote",
-      "summary": "After CENTCOM launched retaliatory strikes on Iran on June 9, congressional Democrats renewed demands for a war-powers vote, calling the unauthorized escalation illegal. The House passed a war-powers resolution 215-208 on June 3 and the Senate advanced a companion 50-47, but Majority Leader John Thune has declined to schedule a final Senate floor vote. The White House calls the strikes lawful self-defense.",
+      "id": "gop-split-iran-strikes-unconstitutional-2026-06-10",
+      "headline": "New Iran strikes split Republicans as Massie calls them 'unconstitutional' and White House defends the order",
+      "summary": "President Trump's June 9 order to strike Iran without fresh congressional authorization reopened a Republican rift over war powers. Rep. Thomas Massie (R-KY) called the strikes 'acts of war unauthorized by Congress' and 'not constitutional,' while the White House and GOP leaders defended the action as proportional self-defense. Democrats renewed demands for a binding vote after the House passed a war-powers resolution 215-208 on June 3.",
       "category": "us-politics",
       "importance": 4,
       "tags": [
         "war-powers",
-        "iran-war",
+        "iran",
+        "massie",
         "congress",
-        "thune",
-        "trump"
+        "constitution",
+        "republicans"
       ],
-      "firstSeenAt": "2026-06-09T23:03:00Z",
-      "updatedAt": "2026-06-09T23:03:00Z",
+      "firstSeenAt": "2026-06-10T05:06:41Z",
+      "updatedAt": "2026-06-10T05:06:41Z",
       "perspectives": [
         {
+          "lean": "government",
+          "keyFraming": "The White House and GOP leaders defend the strikes as a lawful, proportional response to Iranian aggression that did not require new authorization.",
+          "summary": "Fox News reported Trump defending the 'very powerful' US strikes on Iran as a necessary reply to the downing of a US Army Apache, with administration allies casting war-powers resolutions as symbolic measures that would weaken the president's hand mid-conflict.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/live-news/israel-iran-06-09-26",
+              "title": "Trump defends 'very powerful' US strikes on Iran over downed Army helicopter",
+              "publishedAt": "2026-06-09T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Libertarian-leaning Republicans say the strikes are unauthorized acts of war that betray an 'America First' promise to avoid foreign wars.",
+          "summary": "The Hill reported Rep. Thomas Massie calling the US bombing of Iran 'not constitutional' and 'acts of war unauthorized by Congress,' writing 'I am opposed to this War. This is not America First' — splitting the GOP as he and Rep. Ro Khanna press their bipartisan war-powers measure.",
+          "sources": [
+            {
+              "outlet": "The Hill",
+              "url": "https://thehill.com/policy/defense/5362332-massie-on-u-s-bombs-against-iran-this-is-not-constitutional/",
+              "title": "Massie on US bombs against Iran: 'This is not constitutional'",
+              "publishedAt": "2026-06-09T23:00:00Z"
+            }
+          ]
+        },
+        {
           "lean": "left",
-          "keyFraming": "Democrats say continued strikes are illegal escalation absent congressional authorization.",
-          "summary": "Sen. Tim Kaine called Trump's order to attack Iran a 'colossal mistake,' arguing Americans 'want lower prices, not more war — especially wars that aren't authorized by Congress.' House Democrats said they remain committed to forcing a war-powers vote after the June 9 strikes.",
+          "keyFraming": "Democrats argue Trump is again waging an unauthorized, unpopular war and that pressure for a binding congressional vote is mounting.",
+          "summary": "NPR reported that the new strikes intensified Democratic demands to constrain the president, noting the House had already passed a war-powers resolution and that Sen. Tim Kaine and others see eroding Republican support for an open-ended Iran campaign.",
           "sources": [
             {
               "outlet": "NPR",
               "url": "https://www.npr.org/2026/06/09/nx-s1-5851482/trump-pilots-us-helicopter-crash",
               "title": "Trump vows to respond after Iran downed a U.S. Army helicopter near Strait of Hormuz",
               "publishedAt": "2026-06-09T18:00:00Z"
-            },
-            {
-              "outlet": "Office of Sen. Tim Kaine",
-              "url": "https://www.kaine.senate.gov/press-releases/senate-democrats-force-war-powers-vote-as-trumps-war-in-iran-spirals-out-of-control",
-              "title": "Senate Democrats Force War Powers Vote as Trump's War in Iran Spirals Out of Control",
-              "publishedAt": "2026-06-09T21:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "GOP leaders argue a war-powers vote would weaken Trump's hand mid-negotiation with Iran.",
-          "summary": "Republican leaders including Majority Leader Thune resisted scheduling a final vote, framing the resolution as a messaging exercise that would undercut the president's leverage as he pursues a deal to reopen the Strait of Hormuz and end the conflict.",
-          "sources": [
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/ap/ap-international/ap-trump-says-pilots-are-fine-after-us-helicopter-crashes-near-strait-of-hormuz/",
-              "title": "Trump says US 'must' respond after Iran downed US Army helicopter near Strait of Hormuz",
-              "publishedAt": "2026-06-09T20:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "The White House says the strikes are lawful self-defense and a proportional response to Iranian aggression.",
-          "summary": "Administration officials, relayed via CENTCOM, argued the June 9 strikes were a proportional act of self-defense after Iran downed a US aircraft over the Strait of Hormuz, and characterized congressional war-powers efforts as non-binding micromanagement of the commander in chief.",
-          "sources": [
-            {
-              "outlet": "Axios",
-              "url": "https://www.axios.com/2026/06/09/us-strikes-iran-army-helicopter-response",
-              "title": "US strikes Iran in response to helicopter downing: CENTCOM",
-              "publishedAt": "2026-06-09T21:30:00Z"
             }
           ]
         }
       ]
     },
     {
-      "id": "iran-araghchi-vows-response-us-strikes-2026-06-09",
-      "headline": "Iran vows to answer US strikes and warns American forces to leave the region",
-      "summary": "Iranian Foreign Minister Abbas Araghchi said Tehran's armed forces 'will leave no attack or threat unanswered' after US strikes on southern Iran, and warned US forces in the Gulf they face 'constant risk' and should exit the region. Tehran cast the US action as a test of Iranian resolve and said no progress had been made in negotiations with Washington.",
-      "category": "war",
+      "id": "taiwan-ai-chip-export-curbs-china-2026-06-09",
+      "headline": "Taiwan weighs tighter AI-chip export controls targeting China to align with US measures",
+      "summary": "Taiwan is considering significantly stricter export controls on AI-chip sales to China to align with US restrictions and curb smuggling of advanced hardware such as Nvidia-equipped AI servers, people familiar with the matter said. The move would deepen US-Taiwan alignment on compute controls but risks a rebuke from Beijing. It follows January 2026 US rules shifting top-tier chips to case-by-case review.",
+      "category": "ai-tech",
       "importance": 4,
       "tags": [
-        "iran",
-        "araghchi",
-        "retaliation",
-        "us-forces",
-        "gulf"
+        "chips",
+        "export-controls",
+        "taiwan",
+        "china",
+        "nvidia"
       ],
       "firstSeenAt": "2026-06-09T23:03:00Z",
-      "updatedAt": "2026-06-09T23:03:00Z",
+      "updatedAt": "2026-06-10T05:06:41Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Al Jazeera frames Araghchi's posture as both deterrent signaling and a closing door on near-term diplomacy.",
-          "summary": "Al Jazeera reported Araghchi saying there had been no progress in talks with the US and that Iran would respond to any attack, framing the warning as a hardening of Tehran's stance after the US strikes on Sirik, Qeshm and Minab.",
+          "keyFraming": "Taiwan tightening would align the key chipmaking hub with US controls, closing diversion routes for advanced AI hardware.",
+          "summary": "Bloomberg reported Taiwan authorities weighing new legal tools to restrict AI-chip exports to China and target smuggling of Nvidia-based servers — a step that deepens alignment with Washington's export-control regime but risks Beijing retaliation against the island's chip industry.",
           "sources": [
             {
-              "outlet": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/6/9/iran-war-live-us-strikes-iran-after-helicopter-downing",
-              "title": "Iran war updates: No progress on negotiations with the US – Araghchi",
-              "publishedAt": "2026-06-09T20:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "foreign-eastern",
-          "keyFraming": "Iranian-aligned outlets carry Araghchi's full warning, casting the US presence as inherently hostile and unsustainable.",
-          "summary": "Iran International quoted Araghchi saying the US 'opted to test our determination' despite battlefield setbacks, and that foreign forces should 'leave our region if you want to be safe,' presenting Tehran as defiant and demanding a US withdrawal from the Gulf.",
-          "sources": [
-            {
-              "outlet": "Iran International",
-              "url": "https://www.iranintl.com/en/liveblog/202606062776",
-              "title": "Live — Trump says crew safe after US helicopter goes down near Hormuz",
-              "publishedAt": "2026-06-09T21:00:00Z"
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+              "title": "Taiwan Weighs Tighter AI Chip Export Controls Targeting China",
+              "publishedAt": "2026-06-09T10:00:00Z"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "The Jerusalem Post reads Iranian threats as bluster from a battlefield-degraded regime while warning of continued risk to US and allied forces.",
-          "summary": "The Jerusalem Post framed Tehran's rhetoric as defiant posturing from a weakened adversary, while cautioning that Iranian threats against US and allied forces in the Gulf remain credible amid the renewed exchange of fire.",
+          "keyFraming": "National-security hawks frame the move as Taipei aligning with Washington to deny Beijing a military AI edge — even at the cost of criminal penalties for smuggling.",
+          "summary": "Tom's Hardware reported Taiwan is weighing a criminal ban on AI-chip exports to all of China, not just blacklisted firms, and would criminalize smuggling for the first time as US trade talks continue — a sharp tightening aimed at choking off diversion of advanced compute to Chinese end users.",
           "sources": [
             {
-              "outlet": "Jerusalem Post",
-              "url": "https://www.jpost.com/middle-east/article-898893",
-              "title": "Donald Trump warns US must respond to Iran's downing of Apache helicopter",
-              "publishedAt": "2026-06-09T19:00:00Z"
+              "outlet": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue",
+              "title": "Taiwan weighs criminal ban on AI chip exports to all of China as US trade talks continue",
+              "publishedAt": "2026-06-09T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Coverage stresses the escalating tech decoupling and the risk to Taiwan's own economy and to US-China relations.",
+          "summary": "The Japan Times reported that the proposed curbs would extend restrictions to all Chinese customers as part of US trade negotiations, deepening the technology split between Washington and Beijing and exposing Taiwan's chip industry to potential Chinese retaliation.",
+          "sources": [
+            {
+              "outlet": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/06/10/asia-pacific/politics/taiwan-ai-chip-sales-china-us/",
+              "title": "Taiwan weighs limits on AI chip sales to China amid US trade talks",
+              "publishedAt": "2026-06-10T02:00:00Z"
             }
           ]
         }
