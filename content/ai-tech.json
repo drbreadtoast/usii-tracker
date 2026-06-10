@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-10T11:06:04Z",
+  "lastUpdated": "2026-06-10T17:05:11Z",
   "stories": [
     {
       "id": "google-intel-tpu-3-million-order-2028-2026-06-08",
@@ -165,12 +165,6 @@
               "url": "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
               "title": "OpenAI files confidential SEC paperwork for IPO",
               "publishedAt": "2026-06-09T13:00:00Z"
-            },
-            {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/06/07/openai-superapp-pivot-chatbot-agentic-ai-ipo-codex-chatgpt/",
-              "title": "OpenAI readies 'superapp' pivot ahead of planned IPO, FT reports",
-              "publishedAt": "2026-06-07T12:00:00Z"
             }
           ]
         }
@@ -341,6 +335,57 @@
               "url": "https://www.japantimes.co.jp/news/2026/06/10/asia-pacific/politics/taiwan-ai-chip-sales-china-us/",
               "title": "Taiwan weighs limits on AI chip sales to China amid US trade talks",
               "publishedAt": "2026-06-10T02:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-fable-mythos-public-release-2026-06-10",
+      "headline": "Anthropic releases Claude Fable, its first public Mythos-class model, days after a confidential IPO filing",
+      "summary": "Anthropic released Claude Fable on June 9, the first publicly accessible model from its Mythos tier, days after it confidentially filed for an IPO at a roughly $965 billion valuation. The company describes Fable as a general-purpose model with strong coding and computer-security capability, wrapped in guardrails that block high-risk uses. The launch positions Anthropic ahead of a potential landmark public offering and intensifies the frontier-model race with OpenAI and Google.",
+      "category": "ai-tech",
+      "importance": 5,
+      "tags": [
+        "anthropic",
+        "claude",
+        "ipo",
+        "frontier-models",
+        "ai-safety",
+        "security"
+      ],
+      "firstSeenAt": "2026-06-10T17:05:11Z",
+      "updatedAt": "2026-06-10T17:05:11Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "The IPO timing and the Fable launch are synergistic — Anthropic is showcasing its most capable public model just as it courts public-market investors.",
+          "summary": "TechCrunch and 9to5Mac covered Fable as a landmark for publicly accessible frontier AI, the first Mythos-class model available to ordinary users, with security capabilities described as a genuine advance but a double-edged one. Coverage stressed the IPO subtext: launching shortly before a likely public offering positions Anthropic to debut in a hype window, with OpenAI a direct comparable.",
+          "sources": [
+            {
+              "outlet": "TechCrunch",
+              "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+              "title": "Anthropic releases Claude Fable, a version of Mythos the public can access today",
+              "publishedAt": "2026-06-09T14:00:00Z"
+            },
+            {
+              "outlet": "9to5Mac",
+              "url": "https://9to5mac.com/2026/06/09/anthropic-just-released-public-mythos-class-ai-model-called-claude-fable-details-here/",
+              "title": "Anthropic just released public Mythos-class AI model called Claude Fable, details here",
+              "publishedAt": "2026-06-09T15:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Critics warn that commercializing a model with strong offensive-security capability — even with guardrails — sets a risky precedent for AI proliferation.",
+          "summary": "BleepingComputer's coverage of the Mythos rollout focused on security-community unease, describing the Fable guardrails as a partial solution that still leaves edge cases. Critics highlighted the tension between Anthropic's public warnings about AI risk and releasing its most powerful public model to date, arguing financial incentives are now shaping release timing.",
+          "sources": [
+            {
+              "outlet": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
+              "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
+              "publishedAt": "2026-06-09T18:00:00Z"
             }
           ]
         }

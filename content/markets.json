@@ -1,11 +1,11 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-10T11:06:04Z",
+  "lastUpdated": "2026-06-10T17:05:11Z",
   "stories": [
     {
       "id": "bitcoin-extends-slide-etf-outflows-2026-06-05",
-      "headline": "Bitcoin steadies near $61-62K over the weekend after week-long slide; RSI flags oversold",
-      "summary": "Bitcoin stabilized over the weekend, trading around $61,500-$62,500 on Sunday after a punishing week that broke below $62,000 Friday. The 14-day RSI fell near 24 — deeply oversold — prompting talk of a relief bounce, with $63,000 the key overhead level. The slide was driven by ETF outflows, profit-taking and a hawkish Fed repricing after the strong May jobs report; ether traded near $1,700.",
+      "headline": "Bitcoin slips below $61K and ether near $1,615 as risk-off pressure and ETF outflows mount",
+      "summary": "Bitcoin fell below $61,000 on June 10 — its lowest since October 2024 — and ether slid toward $1,615, both down roughly 2-3% on the day. The selloff extended a week of pressure tied to heavy ETF outflows and a broad risk-off mood amid the Iran war, the hot May CPI print and equity-market volatility. Crypto's failure to rally on geopolitical stress is undercutting its 'digital gold' narrative as it trades as a high-beta risk asset.",
       "category": "markets",
       "importance": 3,
       "tags": [
@@ -13,66 +13,21 @@
         "crypto",
         "etf",
         "ethereum",
-        "solana"
+        "risk-off"
       ],
       "firstSeenAt": "2026-06-05T17:09:43Z",
-      "updatedAt": "2026-06-07T17:04:38Z",
+      "updatedAt": "2026-06-10T17:05:11Z",
       "perspectives": [
         {
-          "lean": "right",
-          "keyFraming": "After a sharp washout, oversold conditions set up a possible bounce; long-term holders see the dip as opportunity.",
-          "summary": "Technical analysts note bitcoin held above its weekend low with RSI in deeply oversold territory, a classic setup for a short-term rebound, with $63,000 the line that decides the next move. For bulls, the macro-driven flush rather than any structural failure represents a buying opportunity once Fed and Middle East uncertainty clears.",
+          "lean": "center",
+          "keyFraming": "Crypto is repricing as a risk asset rather than a war hedge, with its failure to rally on geopolitical shock undercutting the 'digital gold' story.",
+          "summary": "Yahoo Finance reported bitcoin and ether opening lower and falling further on June 10, with BTC under $61,000 and ETH near $1,615, attributing the slide to unprecedented ETF outflows and a broad risk-off posture in equities and the dollar. Analysts noted the sub-$61K level returns bitcoin to roughly pre-2024-election-rally territory.",
           "sources": [
             {
-              "outlet": "Bitcoin.com",
-              "url": "https://news.bitcoin.com/bitcoin-holds-above-59-1k-low-as-short-term-charts-signal-oversold-bounce-setup/",
-              "title": "Bitcoin Holds Above $59.1K Low as Short-Term Charts Signal Oversold Bounce Setup",
-              "publishedAt": "2026-06-07T12:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "oil-hormuz-peace-proposal-china-demand-2026-06-07",
-      "headline": "Oil turns higher as Iran-Israel war reignites; OPEC+ approves fourth symbolic output hike since Hormuz closure",
-      "summary": "Crude reversed its weekly slide as renewed Iran-Israel strikes on June 7-8 revived the war premium and dimmed hopes for a deal to reopen the Strait of Hormuz, shut since late February. Brent ended the week up more than 4% near $94 and WTI near $91. On June 7 OPEC+ approved a fourth output-quota hike (+188,000 bpd for July), though the blockade makes most of the added barrels undeliverable. Weak Chinese demand had capped earlier gains.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "oil",
-        "brent",
-        "wti",
-        "hormuz",
-        "iran",
-        "opec"
-      ],
-      "firstSeenAt": "2026-06-07T17:04:38Z",
-      "updatedAt": "2026-06-08T05:06:25Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "A brief diplomatic thaw pulled the war premium out of crude, but renewed strikes snapped prices back up and the Hormuz blockade keeps a floor under them.",
-          "summary": "Oil had retreated earlier in the week on diplomatic signals, but the June 7-8 missile exchange between Iran and Israel sent crude back up, with Brent finishing the week more than 4% higher. Analysts say the Hormuz blockade keeps a floor under prices and that sustained relief depends on traffic through the strait actually resuming.",
-          "sources": [
-            {
-              "outlet": "The National",
-              "url": "https://www.thenationalnews.com/business/energy/2026/06/07/opec-agrees-fourth-monthly-output-rise-despite-hormuz-closure-and-price-swings/",
-              "title": "Opec agrees fourth monthly output rise despite Hormuz closure and price swings",
-              "publishedAt": "2026-06-07T14:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "OPEC+ supply discipline and the Hormuz chokepoint mean energy prices stay elevated, and the new quota hike is symbolic while the strait stays shut.",
-          "summary": "The structural picture stays tight: the strait has been effectively closed since late February, so OPEC+'s fourth consecutive quota increase is largely cosmetic — delegates concede most of the added barrels cannot physically reach customers. Until shipping normalizes, US consumers face elevated pump prices regardless of diplomatic headlines.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/07/opec-set-for-fourth-oil-quota-hike-since-strait-of-hormuz-closure.html",
-              "title": "OPEC+ approves fourth oil output quota hike since Strait of Hormuz closure",
-              "publishedAt": "2026-06-07T12:00:00Z"
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-june-10-2026-btc-eth-open-lower-and-falling-further-114713805.html",
+              "title": "Bitcoin and ethereum prices today, June 10, 2026: BTC, ETH open lower and falling further",
+              "publishedAt": "2026-06-10T08:00:00Z"
             }
           ]
         }
@@ -106,25 +61,6 @@
               "url": "https://www.cnbc.com/2026/06/07/iran-fires-missiles-israel-ceasefire-strains.html",
               "title": "Fragile ceasefire in jeopardy as Iran reportedly fires first missiles at Israel",
               "publishedAt": "2026-06-08T08:00:00Z"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/07/opec-set-for-fourth-oil-quota-hike-since-strait-of-hormuz-closure.html",
-              "title": "OPEC+ approves fourth oil output quota hike since Strait of Hormuz closure",
-              "publishedAt": "2026-06-07T12:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Trump leverages ceasefire diplomacy to cap the spike, signaling sanctions relief is possible only if Iran 'behaves.'",
-          "summary": "Right-leaning coverage emphasized Trump's intervention — demanding both sides 'immediately stop shooting' and floating conditional sanctions easing — as the lever capping the oil spike, casting the president as managing both the war and its economic fallout for US consumers facing elevated pump prices.",
-          "sources": [
-            {
-              "outlet": "Washington Post",
-              "url": "https://www.washingtonpost.com/politics/2026/06/07/trump-says-us-open-unfreezing-iranian-funds-easing-sanctions-if-they-behave/",
-              "title": "Trump says US open to unfreezing Iranian funds, easing sanctions if they behave",
-              "publishedAt": "2026-06-07T23:00:00Z"
             }
           ]
         }
@@ -666,6 +602,184 @@
               "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iran-Over-Downed-Apache.html",
               "title": "Oil Prices Jump After US Strikes Iran Over Downed Apache",
               "publishedAt": "2026-06-10T06:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may-cpi-2026-four-two-percent",
+      "headline": "US May CPI hits 4.2%, a three-year high, as the Iran-war energy shock drives inflation higher",
+      "summary": "The Bureau of Labor Statistics said May consumer prices rose 0.5% on the month and 4.2% from a year earlier — the hottest annual reading since April 2023 and a third straight monthly acceleration. Energy did most of the work, with the energy index up 23.5% and gasoline up about 40% year-over-year, reflecting the oil shock from the US-Iran war and the closed Strait of Hormuz. Core CPI was softer at 0.2% on the month and 2.9% annually.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "cpi",
+        "inflation",
+        "energy",
+        "federal-reserve",
+        "iran-war",
+        "gasoline"
+      ],
+      "firstSeenAt": "2026-06-10T17:05:11Z",
+      "updatedAt": "2026-06-10T17:05:11Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "The headline number is war-energy driven, but a softer-than-expected core reading suggests the shock has not yet spread to underlying prices.",
+          "summary": "CNBC and Morningstar framed the 4.2% print as overwhelmingly an energy story — gasoline up ~40% year-over-year — while flagging the below-consensus core (0.2% monthly versus 0.3% expected) as evidence underlying inflation is not spiraling. Bond markets agreed, with the two-year Treasury yield ticking lower; analysts said the Fed is boxed in, with cuts off the table at 4.2% headline but a hike hard to justify on soft core.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html",
+              "title": "CPI inflation report May 2026: Prices rose 4.2% annually",
+              "publishedAt": "2026-06-10T13:00:00Z"
+            },
+            {
+              "outlet": "Morningstar",
+              "url": "https://www.morningstar.com/economy/may-cpi-report-shows-inflation-42-annual-rate-line-with-forecasts",
+              "title": "May CPI Report: Energy-Driven Inflation Is Contained, for Now",
+              "publishedAt": "2026-06-10T14:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Democrats cast the surge as the direct cost of Trump's war and tariffs, a regressive squeeze on working households heading into the midterms.",
+          "summary": "House Budget Committee Democrats said the data 'confirms what people feel every time they go to the grocery store, fill up their gas tank, or pay their bills,' blaming tariffs and the 'reckless war in Iran.' CBS News framed the release around household pain, noting families are absorbing roughly $4.15 gas alongside elevated food costs as the energy shock feeds through.",
+          "sources": [
+            {
+              "outlet": "House Budget Committee Democrats",
+              "url": "https://democrats-budget.house.gov/news/press-releases/boyle-statement-may-2026-cpi-inflation-data",
+              "title": "Boyle Statement on May 2026 CPI Inflation Data",
+              "publishedAt": "2026-06-10T15:00:00Z"
+            },
+            {
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/cpi-report-today-may-2026-inflation-iran-war-trump/",
+              "title": "Inflation topped 4% in May as CPI surged to its highest level in more than 3 years",
+              "publishedAt": "2026-06-10T14:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Conservative outlets stress the political risk of a three-year inflation high and argue the Fed must defend the dollar and household purchasing power.",
+          "summary": "Fox Business led with the 4.2% figure as politically damaging, emphasizing gasoline up about 40% year-over-year hitting lower- and middle-income households. The Washington Examiner warned the 'red-hot inflation raises the risk of disaster for Republicans,' acknowledging the midterm vulnerability even as the White House points to higher prior-era inflation.",
+          "sources": [
+            {
+              "outlet": "Fox Business",
+              "url": "https://www.foxbusiness.com/economy/cpi-inflation-may-2026",
+              "title": "May 2026 CPI inflation: BLS report shows consumer prices rose last month",
+              "publishedAt": "2026-06-10T13:00:00Z"
+            },
+            {
+              "outlet": "Washington Examiner",
+              "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4524998/red-hot-inflation-raises-risk-disaster-republicans/",
+              "title": "Red-hot inflation raises the risk of disaster for Republicans",
+              "publishedAt": "2026-06-10T15:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oil-whipsaw-cpi-china-demand-2026-06-10",
+      "headline": "Oil whipsaws near $92 Brent as US-Iran strikes persist but weak Chinese demand caps prices",
+      "summary": "Brent crude swung in a roughly $90-94 range on June 10 and traded near $91-92, with WTI around $88-90, after an overnight rebound on the latest US-Iran strike exchange near Hormuz faded. Traders refocused on the hot May CPI print, China's May crude imports falling to an eight-year low near 7.8 million bpd, and a seventh straight weekly draw in US crude inventories. Trump said Iran would 'pay the price' while still claiming a deal was days away.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "strait-of-hormuz",
+        "china-demand",
+        "opec"
+      ],
+      "firstSeenAt": "2026-06-10T17:05:11Z",
+      "updatedAt": "2026-06-10T17:05:11Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Oil sits in an uneasy holding pattern between a structural war premium and a Chinese demand slump, with sharp tail risks in either direction.",
+          "summary": "CNBC and Bloomberg described crude as effectively range-bound despite daily headline shocks, with China's import collapse — about 7.8 million bpd versus an 11.6 million 2025 average — the key force keeping Brent under $100 even with most Hormuz traffic offline. A seven-week US inventory draw was bullish but did not sustain gains into the CPI headwind; Trump's contradictory messaging amplified intraday swings.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/09/trump-iran-war-deal-days.html",
+              "title": "Trump repeats claims that Iran deal is only 'days' away, despite recent strikes",
+              "publishedAt": "2026-06-09T19:00:00Z"
+            },
+            {
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-09/china-s-oil-imports-plunge-to-eight-year-low-on-war-disruptions",
+              "title": "China Oil Imports Fall to Eight-Year Low as Run Cuts Ease Demand",
+              "publishedAt": "2026-06-09T06:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "China's lower imports are read as deliberate energy-security management — drawing down reserves and cutting runs rather than chasing costly barrels.",
+          "summary": "The Epoch Times and OilPrice.com noted China's May import figure near 7.8 million bpd reflected refiners running down strategic reserves and trimming runs rather than scrambling for replacement barrels at elevated prices — a policy choice whose side effect of capping global oil prices goes largely unacknowledged in Western coverage.",
+          "sources": [
+            {
+              "outlet": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-Plummet-to-Eight-Year-Low.amp.html",
+              "title": "China's Oil Imports Plummet to Eight-Year Low",
+              "publishedAt": "2026-06-09T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "With the Strait shut, OPEC+'s paper output hikes are largely symbolic and the war premium snaps back on each strike.",
+          "summary": "OilPrice.com noted crude rebounded after the US struck Iran near Hormuz and Iran retaliated against Gulf bases, reviving the war premium, even as OPEC+ has kept approving monthly quota increases. Delegates concede the blockade leaves most of the added barrels physically undeliverable, making the hikes a face-saving gesture more than real supply.",
+          "sources": [
+            {
+              "outlet": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iran-Over-Downed-Apache.html",
+              "title": "Oil Prices Jump After US Strikes Iran Over Downed Apache",
+              "publishedAt": "2026-06-10T06:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-equities-slip-cpi-iran-chips-2026-06-10",
+      "headline": "US stocks slip as hot CPI, US-Iran strikes and a chip hangover weigh on the June 10 session",
+      "summary": "US equities fell on June 10, pressured by the 4.2% CPI print, the renewed US-Iran military exchange near Hormuz, and aftershocks from the early-June semiconductor selloff. The S&P 500 eased about 0.6% and the Nasdaq roughly 0.8%, with chipmakers under continued pressure after Broadcom's disappointing AI guidance wiped more than $1.3 trillion in semiconductor value on June 4. The 10-year Treasury yield held near 4.53% ahead of the June 16-17 Fed meeting.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "equities",
+        "sp500",
+        "nasdaq",
+        "semiconductors",
+        "treasury-yields",
+        "federal-reserve"
+      ],
+      "firstSeenAt": "2026-06-10T17:05:11Z",
+      "updatedAt": "2026-06-10T17:05:11Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Markets are absorbing overlapping shocks — war, inflation and an AI valuation reset — with no clear near-term catalyst for a sustained rally.",
+          "summary": "TheStreet and 24/7 Wall St. described June 10 as a continuation of post-Broadcom caution, with the in-line CPI number adding to the headwinds without dramatically reshaping sentiment. The chip sector's underperformance reflects a genuine reassessment of near-term AI demand, while stable Treasury yields near 4.53% suggest bond markets are not panicking even as the risk-off tone persists.",
+          "sources": [
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-10-2026",
+              "title": "Stock Market Today (June 10, 2026): Dow, Nasdaq, S&P 500 decline as oil jumps; inflation rises",
+              "publishedAt": "2026-06-10T14:00:00Z"
+            },
+            {
+              "outlet": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/06/10/stock-market-live-june-10-2026-sp-500-spy-sinks-on-fear-of-war/",
+              "title": "Stock Market Live June 10, 2026: S&P 500 (SPY) Sinks on Fear of War",
+              "publishedAt": "2026-06-10T13:45:00Z"
             }
           ]
         }
