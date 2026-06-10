@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T05:06:41Z",
+  "lastUpdated": "2026-06-10T11:06:04Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -94,15 +94,15 @@
       },
       {
         "date": "2026-06-10",
-        "event": "Oil rebounds in overnight/Asian trade after the late-June-9 US CENTCOM strikes on southern Iran near Hormuz, recovering from the prior session's 3-4% slide (Brent had fallen toward ~$91, WTI toward ~$88 on Strait-reopening optimism). Iran said it retaliated against US bases in the Gulf; the Strait stays effectively closed as markets also eye the US May CPI release.",
+        "event": "Crude whipsaws: after rebounding overnight on the late-June-9 US CENTCOM strikes on southern Iran near Hormuz and Iran's retaliation against US Gulf bases, oil reversed lower in choppy US-morning trade (Brent back toward ~$92, WTI toward ~$88-91) as traders appeared to shrug off the latest exchange and refocus on the US May CPI release and weak Chinese demand (imports ~7.8 Mbpd, an 8-year low). The Strait stays effectively closed.",
         "status": "effectively_closed",
-        "source": "OilPrice.com",
-        "sourceUrl": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iran-Over-Downed-Apache.html"
+        "source": "Investing.com / CNBC",
+        "sourceUrl": "https://www.investing.com/commodities/brent-oil"
       }
     ]
   },
   "gas": {
-    "currentAverage": 4.164,
+    "currentAverage": 4.161,
     "preWarAverage": 3.05,
     "changePercent": 36.5,
     "unit": "$/gallon",
@@ -169,8 +169,8 @@
       },
       {
         "date": "2026-06-10",
-        "price": 4.164,
-        "label": "AAA national avg (June 10); flat as US-Iran strikes resume near Hormuz"
+        "price": 4.161,
+        "label": "AAA national avg (June 10); steady-to-easing as oil whipsaws on US-Iran strikes near Hormuz"
       }
     ],
     "breakdown": [
@@ -336,8 +336,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.164,
-        "changePercent": 36.5,
+        "currentPrice": 4.161,
+        "changePercent": 36.4,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -453,6 +453,12 @@
       "fact": "Crude rebounded in overnight trade after US CENTCOM struck Iranian air-defense and coastal-missile sites near Hormuz late June 9 and Iran said it retaliated against US Gulf bases, recovering from a Brent low near $91/WTI near $88 as the war premium returned; the Strait of Hormuz remains effectively closed.",
       "source": "OilPrice.com",
       "sourceUrl": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iran-Over-Downed-Apache.html",
+      "date": "2026-06-10"
+    },
+    {
+      "fact": "Oil's overnight rebound faded on June 10 as Brent slid back toward ~$92/bbl (prior close ~$94.25) and WTI toward ~$88-91 in choppy trade, with investors appearing to shrug off the latest US-Iran exchange of strikes and refocusing on the US May CPI release and soft Chinese demand; China's May crude imports fell to ~7.8 Mbpd, the lowest in more than eight years.",
+      "source": "Investing.com",
+      "sourceUrl": "https://www.investing.com/commodities/brent-oil",
       "date": "2026-06-10"
     }
   ]

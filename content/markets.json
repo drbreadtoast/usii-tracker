@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-10T05:06:41Z",
+  "lastUpdated": "2026-06-10T11:06:04Z",
   "stories": [
     {
       "id": "bitcoin-extends-slide-etf-outflows-2026-06-05",
@@ -607,6 +607,65 @@
               "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
               "title": "Consumer Price Index Summary",
               "publishedAt": "2026-06-08T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oil-whipsaws-us-iran-strikes-2026-06-10",
+      "headline": "Oil whipsaws as overnight jump on US-Iran strikes fades on weak Chinese demand before May CPI",
+      "summary": "Crude swung both ways June 10: prices first rebounded after late-June-9 US strikes on Iranian sites near Hormuz and Iran's claimed retaliation on US Gulf bases, then reversed lower as traders shrugged off the exchange and refocused on the May CPI release. Brent slid back toward ~$92 and WTI toward ~$88-91, with soft Chinese demand, SPR releases and record US output keeping prices under $100 even as the Strait stays effectively closed.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "strait-of-hormuz",
+        "iran-war",
+        "china-demand",
+        "cpi"
+      ],
+      "firstSeenAt": "2026-06-10T11:06:04Z",
+      "updatedAt": "2026-06-10T11:06:04Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A demand cushion keeps crude rangebound even as strikes resume.",
+          "summary": "Analysts said weaker Chinese crude buying — May imports near an eight-year low — plus inventory draws and record US output have so far capped oil under $100 despite renewed US-Iran strikes; they warned the cushion may not hold if hostilities escalate.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/09/oil-prices-iran-war-strait-hormuz-trump-israel-lebanon.html",
+              "title": "Oil falls as Hormuz traffic reported rising, then strikes revive fears",
+              "publishedAt": "2026-06-09T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "The White House argues prices will ease as Strait traffic resumes and talks progress.",
+          "summary": "US officials, including the energy secretary, said Strait of Hormuz traffic was 'rising very meaningfully' and cited progress in talks with Tehran, arguing oil would fall once the conflict winds down — comments that drove the prior session's slide before the strikes revived risk.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/09/oil-prices-iran-war-strait-hormuz-trump-israel-lebanon.html",
+              "title": "Energy secretary says Hormuz traffic rising 'very meaningfully'",
+              "publishedAt": "2026-06-09T15:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "With the Strait shut, OPEC+ output additions are largely symbolic and the war premium snaps back on each strike.",
+          "summary": "OilPrice.com noted crude jumped after the US struck Iran near Hormuz and Iran retaliated against Gulf bases, reviving the war premium; OPEC+ approved a fourth monthly output hike, but the blockade leaves most added barrels physically undeliverable.",
+          "sources": [
+            {
+              "outlet": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iran-Over-Downed-Apache.html",
+              "title": "Oil Prices Jump After US Strikes Iran Over Downed Apache",
+              "publishedAt": "2026-06-10T06:00:00Z"
             }
           ]
         }
