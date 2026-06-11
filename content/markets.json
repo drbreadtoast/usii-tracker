@@ -1,6 +1,6 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-10T17:05:11Z",
+  "lastUpdated": "2026-06-11T02:42:39Z",
   "stories": [
     {
       "id": "bitcoin-extends-slide-etf-outflows-2026-06-05",
@@ -750,7 +750,7 @@
     {
       "id": "us-equities-slip-cpi-iran-chips-2026-06-10",
       "headline": "US stocks slip as hot CPI, US-Iran strikes and a chip hangover weigh on the June 10 session",
-      "summary": "US equities fell on June 10, pressured by the 4.2% CPI print, the renewed US-Iran military exchange near Hormuz, and aftershocks from the early-June semiconductor selloff. The S&P 500 eased about 0.6% and the Nasdaq roughly 0.8%, with chipmakers under continued pressure after Broadcom's disappointing AI guidance wiped more than $1.3 trillion in semiconductor value on June 4. The 10-year Treasury yield held near 4.53% ahead of the June 16-17 Fed meeting.",
+      "summary": "US equities closed sharply lower on June 10 as the 4.2% CPI print and overnight US-Iran strikes hit risk appetite. The Dow fell 1.87% (-953 points) to 49,918.78, the S&P 500 dropped 1.62% to 7,266.99 and the Nasdaq lost 1.98% to 25,169.50. Chipmakers stayed pressured after Broadcom's June 4 AI-guidance miss wiped more than $1.3 trillion in semiconductor value. The 10-year Treasury yield eased to about 4.52% as core CPI's soft 0.2% monthly print offered some relief.",
       "category": "markets",
       "importance": 4,
       "tags": [
@@ -762,24 +762,55 @@
         "federal-reserve"
       ],
       "firstSeenAt": "2026-06-10T17:05:11Z",
-      "updatedAt": "2026-06-10T17:05:11Z",
+      "updatedAt": "2026-06-11T02:42:39Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Markets are absorbing overlapping shocks — war, inflation and an AI valuation reset — with no clear near-term catalyst for a sustained rally.",
-          "summary": "TheStreet and 24/7 Wall St. described June 10 as a continuation of post-Broadcom caution, with the in-line CPI number adding to the headwinds without dramatically reshaping sentiment. The chip sector's underperformance reflects a genuine reassessment of near-term AI demand, while stable Treasury yields near 4.53% suggest bond markets are not panicking even as the risk-off tone persists.",
+          "keyFraming": "Markets are absorbing overlapping shocks — war, inflation and an AI valuation reset — with the hot CPI cementing a hawkish Fed rather than a near-term rally.",
+          "summary": "TheStreet reported the Dow shedding roughly 900 points as the US signaled more strikes on Iran, while Wolf Street detailed CPI internals showing inflation broadening into supercore services even as the soft 0.2% monthly core print eased the 10-year yield toward 4.52%. With the funds rate at 3.50-3.75%, traders now price a hold at the June 16-17 meeting and a possible hike by December.",
           "sources": [
             {
               "outlet": "TheStreet",
               "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-10-2026",
-              "title": "Stock Market Today (June 10, 2026): Dow, Nasdaq, S&P 500 decline as oil jumps; inflation rises",
-              "publishedAt": "2026-06-10T14:00:00Z"
+              "title": "Stock Market Today (June 10, 2026): Dow dips 900 points as U.S. signals more strikes in Iran",
+              "publishedAt": "2026-06-10T21:00:00Z"
             },
             {
-              "outlet": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/06/10/stock-market-live-june-10-2026-sp-500-spy-sinks-on-fear-of-war/",
-              "title": "Stock Market Live June 10, 2026: S&P 500 (SPY) Sinks on Fear of War",
-              "publishedAt": "2026-06-10T13:45:00Z"
+              "outlet": "Wolf Street",
+              "url": "https://wolfstreet.com/2026/06/10/cpi-inflation-4-25-blows-by-2-year-treasury-yield-closes-in-on-10-year-treasury-driven-by-supercore-services-gasoline-electricity/",
+              "title": "CPI Inflation 4.25% Blows By, Driven by 'Supercore' Services, Gasoline, Electricity",
+              "publishedAt": "2026-06-10T18:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto-btc-eth-october-2024-low-2026-06-10",
+      "headline": "Bitcoin slides to lowest since October 2024 as record ETF outflows and risk-off mood weigh",
+      "summary": "Bitcoin opened June 10 near $61,900 — its lowest since October 2024 — and Ether near $1,660, both falling further as capital rotated toward AI plays and Middle East escalation sapped risk appetite. US spot Bitcoin ETFs had just ended a record 13-day outflow streak (May 15-June 3) that shed about $4.4 billion and roughly 59,000 BTC, while Ether ETFs logged a record 17 straight days of outflows.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "bitcoin",
+        "ethereum",
+        "crypto",
+        "etf",
+        "outflows"
+      ],
+      "firstSeenAt": "2026-06-11T02:42:39Z",
+      "updatedAt": "2026-06-11T02:42:39Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "The slide is framed as ETF-flow-driven and tied to AI rotation and geopolitical risk rather than a crypto-specific shock.",
+          "summary": "Yahoo Finance reported BTC and ETH opening lower on June 10 and falling further, with Bitcoin at its weakest since October 2024 as risk appetite drained amid the Iran war and an AI-led rotation. CoinDesk noted that US spot Bitcoin and Ether ETFs had just ended a record multibillion-dollar outflow streak, which some analysts read as a possible near-term bottom.",
+          "sources": [
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-june-10-2026-btc-eth-open-lower-and-falling-further-114713805.html",
+              "title": "Bitcoin and ethereum prices today, June 10, 2026: BTC, ETH open lower and falling further",
+              "publishedAt": "2026-06-10T12:00:00Z"
             }
           ]
         }

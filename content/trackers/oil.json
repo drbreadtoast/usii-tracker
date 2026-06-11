@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T17:05:11Z",
+  "lastUpdated": "2026-06-11T02:42:39Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -98,13 +98,20 @@
         "status": "effectively_closed",
         "source": "Investing.com / CNBC",
         "sourceUrl": "https://www.investing.com/commodities/brent-oil"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Oil rises about 2% (WTI settles $90.03, Brent $93.10) after the US completes a second day of retaliatory strikes on Iran and Trump vows to attack 'very hard' again, reviving the war premium. Rystad calls the shutdown of roughly 11.8 Mbpd across six Gulf producers the most severe oil supply disruption in modern history, with cumulative losses near 1 billion barrels; the Strait stays effectively closed.",
+        "status": "effectively_closed",
+        "source": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html"
       }
     ]
   },
   "gas": {
-    "currentAverage": 4.161,
+    "currentAverage": 4.151,
     "preWarAverage": 3.05,
-    "changePercent": 36.5,
+    "changePercent": 36.1,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -171,6 +178,11 @@
         "date": "2026-06-10",
         "price": 4.161,
         "label": "AAA national avg (June 10); steady-to-easing as oil whipsaws on US-Iran strikes near Hormuz"
+      },
+      {
+        "date": "2026-06-11",
+        "price": 4.151,
+        "label": "AAA national avg (June 11); easing nearly 20 cents on the week even as oil rebounds on renewed US-Iran strikes"
       }
     ],
     "breakdown": [
@@ -336,8 +348,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.161,
-        "changePercent": 36.4,
+        "currentPrice": 4.151,
+        "changePercent": 36.1,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -477,6 +489,18 @@
       "fact": "US commercial crude inventories fell about 7.2 million barrels in the latest week per the EIA — a seventh consecutive weekly draw — as domestic refiners lean on stored crude to offset reduced seaborne imports, lending price support despite weak Chinese demand.",
       "source": "EIA Weekly Petroleum Status Report",
       "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/",
+      "date": "2026-06-10"
+    },
+    {
+      "fact": "US crude rose 2.07% to settle at $90.03/bbl and Brent gained 1.8% to $93.10 on June 10 after the US completed a second day of retaliatory strikes on Iran and Trump vowed to attack 'very hard' again, reviving the war premium with the Strait of Hormuz still effectively closed.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html",
+      "date": "2026-06-10"
+    },
+    {
+      "fact": "Rystad Energy estimated the shutdown of about 11.8 million barrels per day of output across six Gulf producers is the most severe oil supply disruption in modern history, with cumulative production losses reaching roughly 1 billion barrels.",
+      "source": "CNBC / Rystad Energy",
+      "sourceUrl": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html",
       "date": "2026-06-10"
     }
   ]
