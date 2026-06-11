@@ -1,6 +1,6 @@
 {
   "sectionId": "war",
-  "lastUpdated": "2026-06-11T02:42:39Z",
+  "lastUpdated": "2026-06-11T05:02:32Z",
   "stories": [
     {
       "id": "us-iran-strikes-hormuz-radar-2026-06-06",
@@ -79,19 +79,6 @@
       "firstSeenAt": "2026-06-07T23:01:46Z",
       "updatedAt": "2026-06-08T11:06:06Z",
       "perspectives": [
-        {
-          "lean": "foreign-western",
-          "keyFraming": "On the war's 100th day the exchange is the most significant since April, with Israel striking back and Iran threatening to widen the conflict.",
-          "summary": "Coverage stressed the exchange was the most significant since the April pause, on the war's 100th day, with Iranian threats to block Bab al-Mandab and warnings from an aide to Iran's supreme leader. Israeli strikes reportedly hit a petrochemical facility in Khuzestan and targets near Isfahan, while the IDF said it intercepted Iran's missiles and ordered northern hospitals to protected wards.",
-          "sources": [
-            {
-              "outlet": "The Times of Israel",
-              "url": "https://www.timesofisrael.com/liveblog-june-8-2026/",
-              "title": "Iran, Houthis fire missiles at Israel as IDF strikes military targets in Iran",
-              "publishedAt": "2026-06-08T04:00:00Z"
-            }
-          ]
-        },
         {
           "lean": "foreign-eastern",
           "keyFraming": "IRGC's 'Operation Nasr' struck Israeli airbases in response to Israeli 'aggression'; Iran warns of far more devastating blows if Israel retaliates.",
@@ -1018,6 +1005,71 @@
               "url": "https://www.nbcnews.com/world/iran/live-blog/us-attacks-iran-rcna349305",
               "title": "U.S. has finished attacking targets in Iran, CENTCOM says",
               "publishedAt": "2026-06-10T20:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iran-declares-hormuz-closed-shipping-2026-06-11",
+      "headline": "Iran's IRGC declares Strait of Hormuz closed to all vessels after second night of US strikes; CENTCOM disputes it",
+      "summary": "Early on June 11, Iran's IRGC declared the Strait of Hormuz closed to all vessels including oil tankers, warning any ship attempting passage would be fired on, and said it had struck two ships. US CENTCOM disputed the closure, saying the strait remains open and commercial traffic continues. Brent crude pushed above $96 a barrel after a second night of US strikes on Iranian coastal sites.",
+      "category": "war",
+      "importance": 5,
+      "tags": [
+        "iran",
+        "hormuz",
+        "oil",
+        "centcom",
+        "shipping",
+        "blockade"
+      ],
+      "firstSeenAt": "2026-06-11T05:02:32Z",
+      "updatedAt": "2026-06-11T05:02:32Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Iran's closure declaration collides with US insistence the waterway is open, leaving the actual status of a chokepoint for a fifth of global oil contested.",
+          "summary": "Al Jazeera and Seatrade Maritime reported the IRGC declared the strait closed and claimed it hit two ships, while US officials said the waterway remained open and vessels were still transiting. Roughly 20% of the world's seaborne oil normally moves through Hormuz, so even an unverified closure claim carried an immediate war premium into crude prices.",
+          "sources": [
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/10/us-bombs-iran-after-trump-threat-tehran-closes-hormuz-strait-to-all-ships",
+              "title": "Iran attacks Bahrain, Kuwait, Jordan and Hormuz ships after new US strikes",
+              "publishedAt": "2026-06-10T08:00:00Z"
+            },
+            {
+              "outlet": "Seatrade Maritime",
+              "url": "https://www.seatrade-maritime.com/security/iran-claims-it-hit-two-ships-declares-strait-of-hormuz-closed",
+              "title": "Iran claims it hit two ships, declares Strait of Hormuz closed",
+              "publishedAt": "2026-06-11T06:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Iranian and Russian state media present the closure as a sovereign security measure forced on Tehran by repeated US attacks.",
+          "summary": "TASS relayed Iran's top military command declaring the strait shut to all traffic, framing it as a legitimate defensive response to US strikes on Iranian territory rather than an offensive blockade. State coverage emphasized Iranian resolve and warned foreign vessels away.",
+          "sources": [
+            {
+              "outlet": "TASS",
+              "url": "https://tass.com/world/2145271",
+              "title": "Iran closes Strait of Hormuz for all vessels — top brass",
+              "publishedAt": "2026-06-11T09:00:00Z",
+              "isStateMedia": true
+            }
+          ]
+        },
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "Gulf-region coverage foregrounds the maritime and energy-trade fallout of a contested closure on the region's economies.",
+          "summary": "Gulf News reported Iran's declaration that the strait was closed to all ships and oil tankers, stressing the consequences for the roughly fifth of global oil and much of the world's LNG that transits the waterway. Regional outlets highlighted shipping disruption and insurance costs over great-power messaging.",
+          "sources": [
+            {
+              "outlet": "Gulf News",
+              "url": "https://gulfnews.com/world/mena/iran-declares-hormuz-strait-closed-to-all-ships-oil-tankers-1.500570341",
+              "title": "Iran declares Hormuz Strait 'closed' to all ships, oil tankers",
+              "publishedAt": "2026-06-11T07:00:00Z"
             }
           ]
         }

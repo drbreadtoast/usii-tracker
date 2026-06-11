@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T02:42:39Z",
+  "lastUpdated": "2026-06-11T05:02:32Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -101,10 +101,10 @@
       },
       {
         "date": "2026-06-11",
-        "event": "Oil rises about 2% (WTI settles $90.03, Brent $93.10) after the US completes a second day of retaliatory strikes on Iran and Trump vows to attack 'very hard' again, reviving the war premium. Rystad calls the shutdown of roughly 11.8 Mbpd across six Gulf producers the most severe oil supply disruption in modern history, with cumulative losses near 1 billion barrels; the Strait stays effectively closed.",
+        "event": "Iran's IRGC declared the Strait of Hormuz closed to all vessels including oil tankers after a second night of US strikes on Iranian coastal sites, warning any ship attempting passage would be fired on and claiming it hit two ships; US CENTCOM disputed the closure, saying the strait remained open. Brent pushed above $96/bbl and WTI toward $92 as the war premium returned. Rystad calls the shutdown of roughly 11.8 Mbpd across six Gulf producers the most severe oil supply disruption in modern history.",
         "status": "effectively_closed",
-        "source": "CNBC",
-        "sourceUrl": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html"
+        "source": "Al Jazeera / OilPrice.com",
+        "sourceUrl": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iranian-Missile-Sites.html"
       }
     ]
   },
@@ -502,6 +502,18 @@
       "source": "CNBC / Rystad Energy",
       "sourceUrl": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html",
       "date": "2026-06-10"
+    },
+    {
+      "fact": "On June 11, Iran's IRGC declared the Strait of Hormuz closed to all vessels including oil tankers and claimed it struck two ships, while US CENTCOM said the strait remained open and traffic continued; Brent crude rose above $96/bbl and WTI toward $92 as the disputed closure revived the war premium.",
+      "source": "OilPrice.com",
+      "sourceUrl": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iranian-Missile-Sites.html",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "S&P Global Ratings raised its WTI and Brent price assumptions, citing the ongoing effective closure of the Strait of Hormuz, and the EIA's Short-Term Energy Outlook projects Brent could average near $105/bbl in June and July if the chokepoint stays shut to most traffic.",
+      "source": "S&P Global Ratings / EIA STEO",
+      "sourceUrl": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "date": "2026-06-11"
     }
   ]
 }
