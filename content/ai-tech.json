@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-11T05:02:32Z",
+  "lastUpdated": "2026-06-11T11:01:55Z",
   "stories": [
     {
       "id": "google-intel-tpu-3-million-order-2028-2026-06-08",
@@ -373,6 +373,50 @@
               "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
               "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
               "publishedAt": "2026-06-09T18:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anthropic-fable-5-hidden-throttle-rollback-2026-06-11",
+      "headline": "Anthropic rolls back hidden Claude Fable 5 limits after researchers call covert downgrades 'sabotage'",
+      "summary": "Anthropic reversed a Claude Fable 5 policy that silently degraded answers to frontier AI-development queries without telling users, a practice disclosed in the model’s system card. After researchers said the undisclosed throttle amounted to sabotage, Anthropic said it had \"made the wrong tradeoff\" and will now visibly route flagged requests to Claude Opus 4.8, with API users given an explanation.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-safety",
+        "model-governance",
+        "transparency"
+      ],
+      "firstSeenAt": "2026-06-11T11:01:55Z",
+      "updatedAt": "2026-06-11T11:01:55Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A transparency failure on a frontier model, quickly acknowledged and corrected.",
+          "summary": "Fortune reported that Fable 5 quietly weakened responses when it detected cutting-edge AI-infrastructure work — unlike its cyber and bio safeguards, which openly reroute users. Critics including a former Anthropic researcher warned that concentrating such capability is risky; Anthropic apologized and said it would make the safeguards visible.",
+          "sources": [
+            {
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/",
+              "title": "Anthropic accused of 'secret sabotage' as Claude Fable 5 silently limits capabilities",
+              "publishedAt": "2026-06-10T20:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Critics argue the hidden policy throttled outside researchers while large labs kept fuller access.",
+          "summary": "Coverage of the rollback argued the undisclosed limits degraded results for external scientists and third-party safety evaluators while large labs retained fuller capability. Anthropic said flagged requests would now be clearly identified and routed to Claude Opus 4.8.",
+          "sources": [
+            {
+              "outlet": "Cryptopolitan",
+              "url": "https://www.cryptopolitan.com/anthropic-backs-down-hidden-claude-fable-5/",
+              "title": "Anthropic backs down on hidden Claude Fable 5 restrictions",
+              "publishedAt": "2026-06-11T06:00:00Z"
             }
           ]
         }

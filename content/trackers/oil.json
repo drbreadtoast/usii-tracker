@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T05:02:32Z",
+  "lastUpdated": "2026-06-11T11:01:55Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -105,13 +105,27 @@
         "status": "effectively_closed",
         "source": "Al Jazeera / OilPrice.com",
         "sourceUrl": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-Strikes-Iranian-Missile-Sites.html"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Crude extended gains for a second day before paring back: WTI traded around $91.5/bbl (up ~1.7%) and Brent near $94-95 as the US completed a second day of strikes on Iran and Iran reportedly targeted US vessels in the Strait of Hormuz with missiles and drones. Reports cited signs that limited oil volumes were still moving out of the Gulf despite the IRGC's near-total closure. The Strait stays effectively closed.",
+        "status": "effectively_closed",
+        "source": "Trading Economics / Reuters",
+        "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Oil reversed its early-session spike: after Brent topped ~$96 and WTI neared $92 on Iran’s IRGC total-closure claim, crude turned lower in US-morning trade (WTI toward ~$89, Brent toward ~$92) after the US military said it had \"completed\" its latest strikes on Iran, reviving hopes negotiations could resume. The strait remains effectively closed (Iran claims total closure; US CENTCOM disputes it).",
+        "status": "effectively_closed",
+        "source": "CNBC / EIA STEO",
+        "sourceUrl": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html"
       }
     ]
   },
   "gas": {
-    "currentAverage": 4.151,
+    "currentAverage": 4.129,
     "preWarAverage": 3.05,
-    "changePercent": 36.1,
+    "changePercent": 35.4,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -181,7 +195,7 @@
       },
       {
         "date": "2026-06-11",
-        "price": 4.151,
+        "price": 4.129,
         "label": "AAA national avg (June 11); easing nearly 20 cents on the week even as oil rebounds on renewed US-Iran strikes"
       }
     ],
@@ -348,8 +362,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.151,
-        "changePercent": 36.1,
+        "currentPrice": 4.129,
+        "changePercent": 35.4,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -513,6 +527,12 @@
       "fact": "S&P Global Ratings raised its WTI and Brent price assumptions, citing the ongoing effective closure of the Strait of Hormuz, and the EIA's Short-Term Energy Outlook projects Brent could average near $105/bbl in June and July if the chokepoint stays shut to most traffic.",
       "source": "S&P Global Ratings / EIA STEO",
       "sourceUrl": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "Oil reversed an early June 11 spike (Brent above $96, WTI near $92 on Iran’s IRGC total-closure claim) to trade lower (WTI toward ~$89, Brent toward ~$92) after the US military said it had completed its latest strikes on Iran and negotiation hopes revived; the EIA’s STEO still projects Brent could average ~$105/bbl in June-July if Hormuz stays shut to most traffic.",
+      "source": "CNBC / EIA STEO",
+      "sourceUrl": "https://www.eia.gov/outlooks/steo/",
       "date": "2026-06-11"
     }
   ]
