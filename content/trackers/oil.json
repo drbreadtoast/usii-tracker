@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T11:01:55Z",
+  "lastUpdated": "2026-06-12T00:42:39Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -119,6 +119,13 @@
         "status": "effectively_closed",
         "source": "CNBC / EIA STEO",
         "sourceUrl": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Oil reversed sharply lower in late US trade after President Trump abruptly canceled planned Thursday-night strikes on Iran and said the US had 'made a great settlement of the war,' subject to finalization, with a signing expected within days. Brent settled down about 3% near $90.38 and WTI down about 2% near $87.71, both extending losses after-hours (Brent ~$89.15, WTI ~$86.51). Tanker traffic through Hormuz had reportedly increased — about half of transiting ships using the Iran-designated route — easing acute supply fears, though Iran's IRGC claim of a total closure remained disputed by US CENTCOM and Iran did not confirm any deal.",
+        "status": "effectively_closed",
+        "source": "CNBC / Bloomberg",
+        "sourceUrl": "https://www.cnbc.com/2026/06/11/trump-iran-strikes-deal.html"
       }
     ]
   },
@@ -533,6 +540,18 @@
       "fact": "Oil reversed an early June 11 spike (Brent above $96, WTI near $92 on Iran’s IRGC total-closure claim) to trade lower (WTI toward ~$89, Brent toward ~$92) after the US military said it had completed its latest strikes on Iran and negotiation hopes revived; the EIA’s STEO still projects Brent could average ~$105/bbl in June-July if Hormuz stays shut to most traffic.",
       "source": "CNBC / EIA STEO",
       "sourceUrl": "https://www.eia.gov/outlooks/steo/",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "Oil reversed its June 11 war spike after Trump canceled planned strikes and claimed a war settlement 'subject to finalization'; US crude fell about 2% to settle near $87.71 and Brent about 3% to $90.38, with after-hours trade extending losses to roughly $86.51 WTI and $89.15 Brent as markets priced in possible de-escalation.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/11/brent-wti-oil-prices-us-launches-fresh-strikes-on-iran-.html",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "Hormuz tanker traffic was reported rising on June 11, with roughly half of transiting ships using the Iran-designated route and the rest the southern Oman route; Frontline's CEO said traffic could rebound quickly from the current trickle of 5-10 ships per day if a credible deal is reached, with about 10% of the world's VLCCs stuck loaded in the Gulf.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/11/iran-strait-hormuz-oil-tanker-traffic-frontline.html",
       "date": "2026-06-11"
     }
   ]

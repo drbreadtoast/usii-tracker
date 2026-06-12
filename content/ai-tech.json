@@ -1,131 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-11T11:01:55Z",
+  "lastUpdated": "2026-06-12T00:42:39Z",
   "stories": [
-    {
-      "id": "google-intel-tpu-3-million-order-2028-2026-06-08",
-      "headline": "Google reportedly orders 3 million in-house AI chips from Intel for 2028; Intel jumps about 10%",
-      "summary": "Alphabet's Google has placed an order with Intel to manufacture more than three million of its in-house TPU AI chips in 2028, The Information reported Monday, citing people with direct knowledge. Google reportedly placed the order after months of testing Intel's advanced packaging amid a TSMC capacity crunch. Intel shares surged more than 10%, a boost to its struggling foundry ambitions; Nvidia is said to be evaluating Intel as a backup manufacturer.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "intel",
-        "google",
-        "alphabet",
-        "tpu",
-        "semiconductors",
-        "foundry",
-        "ai-chips"
-      ],
-      "firstSeenAt": "2026-06-08T17:06:08Z",
-      "updatedAt": "2026-06-08T17:06:08Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A landmark validation of US chip-manufacturing reshoring as hyperscalers seek a domestic alternative to TSMC.",
-          "summary": "Google's reported three-million-unit TPU order is the clearest sign yet that hyperscalers want a non-TSMC foundry option, lending credibility to Intel's turnaround and to US industrial-policy goals. Execution risk remains given Intel's recent foundry struggles, and Nvidia's interest is described as exploratory.",
-          "sources": [
-            {
-              "outlet": "U.S. News (Reuters)",
-              "url": "https://money.usnews.com/investing/news/articles/2026-06-08/google-nvidia-consider-intel-as-backup-chip-manufacturer-the-information-reports",
-              "title": "Alphabet Taps Intel to Make Three Million In-House Chips, the Information Reports",
-              "publishedAt": "2026-06-08T13:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Market-driven vindication of Intel's foundry bet and a strategic blow to TSMC's near-monopoly as capacity constraints push orders onshore.",
-          "summary": "With TSMC capacity stretched, Google turning to Intel — and Nvidia evaluating it as a backup — shows demand forcing diversification to American fabs. Intel's roughly 10% jump reflects investors repricing its foundry as a credible AI-era asset after years of doubt.",
-          "sources": [
-            {
-              "outlet": "TradingKey",
-              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261953175-google-tpu-ai-chip-intel-tsm-nvidia-nvda-gpu-stock-tradingkey",
-              "title": "Securing Million-Chip Order From Google, Intel Rises More Than 10%",
-              "publishedAt": "2026-06-08T15:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "amazon-corning-fiber-data-center-deal-2026-06-08",
-      "headline": "Amazon signs multibillion-dollar Corning fiber deal for US AI data centers, adding about 1,000 jobs",
-      "summary": "Amazon announced a multiyear, multibillion-dollar agreement with Corning to supply optical fiber and connectivity for AWS's expanding US data-center build-out. Terms were undisclosed. The deal will create about 1,000 manufacturing jobs at Corning's North Carolina facilities and expand a technician training program. It is Corning's third AI 'megadeal' of 2026, after agreements tied to Meta and Nvidia; Corning shares rose about 10%.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "amazon",
-        "aws",
-        "corning",
-        "data-centers",
-        "ai-infrastructure",
-        "fiber-optics",
-        "manufacturing-jobs"
-      ],
-      "firstSeenAt": "2026-06-08T17:06:08Z",
-      "updatedAt": "2026-06-08T17:06:08Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "AI capex is reshaping the physical economy and US manufacturing jobs, even as it raises questions about data centers' energy demands.",
-          "summary": "The Amazon-Corning pact shows the AI build-out creating tangible US factory jobs and workforce training, a concrete upside of the boom. It also underscores how much physical infrastructure and power hyperscaler ambitions require, intensifying scrutiny of relentless data-center expansion.",
-          "sources": [
-            {
-              "outlet": "U.S. News (Reuters)",
-              "url": "https://money.usnews.com/investing/news/articles/2026-06-08/amazon-corning-sign-multi-billion-dollar-deal-to-boost-fiber-optics-manufacturing-in-us",
-              "title": "Amazon, Corning Sign Multi-Billion-Dollar Deal to Boost Fiber Optics Manufacturing in US",
-              "publishedAt": "2026-06-08T13:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Private AI investment is delivering American manufacturing jobs and reshoring with no mandate needed — the market is building the supply chain itself.",
-          "summary": "A multibillion-dollar Amazon commitment bringing about 1,000 manufacturing jobs to North Carolina shows AI demand fueling a domestic industrial revival. Fiber is emerging as a key bottleneck, and US firms such as Corning are positioned to capture the spending.",
-          "sources": [
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/corning-stock-surges-10-multibillion-131133416.html",
-              "title": "Corning stock surges 10% on multibillion-dollar Amazon deal",
-              "publishedAt": "2026-06-08T13:11:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "nvidia-sk-hynix-ai-memory-pact-2030-2026-06-08",
-      "headline": "Nvidia and SK Hynix sign multiyear partnership through 2030 to co-develop next-generation AI-factory memory",
-      "summary": "Nvidia and SK Hynix announced a multiyear technology partnership running through 2030 to co-develop memory for AI factories, spanning Vera Rubin supercomputers, Vera CPUs, RTX-powered PCs and Jetson Thor robotics. Terms were undisclosed. The deal helped lift Nvidia shares roughly 2% Monday as chip stocks rebounded from Friday's Broadcom-driven rout, with the SOXX semiconductor ETF posting its best day in over a year.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "nvidia",
-        "sk-hynix",
-        "ai",
-        "memory",
-        "hbm",
-        "semiconductors"
-      ],
-      "firstSeenAt": "2026-06-08T23:02:23Z",
-      "updatedAt": "2026-06-08T23:02:23Z",
-      "perspectives": [
-        {
-          "lean": "right",
-          "keyFraming": "A blue-chip supply deal reassures markets that the AI capex thesis is intact after Friday's scare.",
-          "summary": "Coverage framed the partnership as evidence that hyperscale AI investment remains durable despite the Broadcom-driven sentiment shock that hammered chip stocks on Friday.",
-          "sources": [
-            {
-              "outlet": "NVIDIA Newsroom",
-              "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
-              "title": "NVIDIA and SK hynix Announce Multiyear Technology Partnership to Advance Memory for AI Factories",
-              "publishedAt": "2026-06-08T13:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "openai-confidential-sec-ipo-filing-2026-06-09",
       "headline": "OpenAI files confidential SEC paperwork, opening the door to an eventual IPO",
@@ -152,63 +28,6 @@
               "url": "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
               "title": "OpenAI files confidential SEC paperwork for IPO",
               "publishedAt": "2026-06-09T13:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "apple-wwdc-gemini-siri-claude-2026-06-09",
-      "headline": "Apple rebuilds Siri on Google Gemini in a roughly $1B/year deal and opens iOS to Claude and other AI assistants",
-      "summary": "At WWDC on June 8 Apple unveiled an Apple Intelligence architecture built on a custom Google Gemini model powering a rebuilt, conversational Siri, under a multi-year deal reported at about $1 billion a year. iOS 27 'Extensions' let users set a third-party assistant such as Claude or Gemini as default. Apple shares fell about 3.5%; Alphabet dipped but briefly topped a $4 trillion valuation.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "apple",
-        "google",
-        "gemini",
-        "anthropic",
-        "siri",
-        "big-tech"
-      ],
-      "firstSeenAt": "2026-06-09T17:05:48Z",
-      "updatedAt": "2026-06-10T11:06:04Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "Apple conceding core 'intelligence' to Google is a stark admission it lost the AI race — and concentrates more power in a few model providers.",
-          "summary": "After years of Siri delays, Apple is effectively renting its assistant's brain from Google, raising competition concerns about Big Tech interdependence. Coverage noted that opening iOS to Claude and Gemini is pro-choice for users, but the roughly $1B/year deal cements Alphabet's gatekeeper role as antitrust scrutiny of such arrangements intensifies.",
-          "sources": [
-            {
-              "outlet": "TechCrunch",
-              "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
-              "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
-              "publishedAt": "2026-06-08T18:00:00Z"
-            },
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/news/apple-gemini-powered-siri-deal-231107182.html",
-              "title": "How Apple's Gemini-Powered Siri Deal Will Impact Alphabet (GOOGL) Investors",
-              "publishedAt": "2026-06-09T01:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Pragmatic capital allocation: Apple buys best-in-class AI instead of burning billions, while opening the platform to Claude and others.",
-          "summary": "Coverage cast the deal as smart business — leveraging Gemini to ship a working Siri this year while letting users pick Claude or Gemini as default. Analysts argued investors who dinged Apple about 3.5% overlooked that the partnership validates Gemini as enterprise-grade and de-risks Apple's AI roadmap.",
-          "sources": [
-            {
-              "outlet": "MacRumors",
-              "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-              "title": "Apple Reveals New AI Architecture Built Around Google Gemini Models",
-              "publishedAt": "2026-06-08T17:00:00Z"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html",
-              "title": "WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
-              "publishedAt": "2026-06-08T19:00:00Z"
             }
           ]
         }
@@ -259,12 +78,6 @@
               "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
               "title": "Nasdaq falls and suffers worst day since April 2025 as traders flee chip stocks",
               "publishedAt": "2026-06-09T12:00:00Z"
-            },
-            {
-              "outlet": "Kavout",
-              "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off",
-              "title": "What Triggered the Recent Semiconductor Sell-Off",
-              "publishedAt": "2026-06-08T16:00:00Z"
             }
           ]
         }
@@ -417,6 +230,38 @@
               "url": "https://www.cryptopolitan.com/anthropic-backs-down-hidden-claude-fable-5/",
               "title": "Anthropic backs down on hidden Claude Fable 5 restrictions",
               "publishedAt": "2026-06-11T06:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-anthropic-export-controls-clash-2026-06-12",
+      "headline": "Nvidia publicly criticizes Anthropic over its support for tighter US AI-chip export controls",
+      "summary": "Nvidia criticized Anthropic for backing the US AI Diffusion Framework, which imposes tiered AI-chip export restrictions worldwide. Anthropic argued for stronger controls and enforcement to curb smuggling, citing tactics used to move GPUs into China, while Nvidia warned the rules harm US competitiveness. The dispute surfaced amid escalating chip-export geopolitics even as the two firms remain commercial partners.",
+      "category": "ai-tech",
+      "importance": 2,
+      "tags": [
+        "nvidia",
+        "anthropic",
+        "export-controls",
+        "ai-chips",
+        "china",
+        "policy"
+      ],
+      "firstSeenAt": "2026-06-12T00:42:39Z",
+      "updatedAt": "2026-06-12T00:42:39Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A public split between Nvidia and a major customer over export policy: Nvidia wants open markets, Anthropic wants tighter controls.",
+          "summary": "Nvidia objected to Anthropic's endorsement of worldwide GPU export restrictions under the Diffusion Framework, warning of harm to US competitiveness, while Anthropic stressed smuggling risks and the need for enforcement. The two remain commercial partners, highlighting the tension between business ties and policy stances in the chip-export debate.",
+          "sources": [
+            {
+              "outlet": "AI Tool Report",
+              "url": "https://www.theaireport.ai/newsletter/nvidia-slams-anthropic-s-us-export-stance",
+              "title": "NVIDIA slams Anthropic's US export stance",
+              "publishedAt": "2026-06-11T10:00:00Z"
             }
           ]
         }
