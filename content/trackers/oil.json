@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T05:02:01Z",
+  "lastUpdated": "2026-06-12T11:01:40Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -133,6 +133,13 @@
         "status": "effectively_closed",
         "source": "NPR / CNBC",
         "sourceUrl": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Crude slid to a roughly two-month low (WTI near $84-86/bbl, Brent near $88-89) after President Trump said a 'great settlement' with Iran could be signed over the weekend in Europe and reopen the Strait of Hormuz. Early that day US forces downed two Iranian drones near the strait after Iran fired on a transiting vessel. Iran did not confirm a final deal and the strait stayed effectively closed.",
+        "status": "effectively_closed",
+        "source": "RFE/RL / CNBC",
+        "sourceUrl": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html"
       }
     ]
   },
@@ -577,6 +584,24 @@
       "source": "BLS — Producer Price Index, May 2026",
       "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
       "date": "2026-06-11"
+    },
+    {
+      "fact": "On June 12, 2026 crude extended losses to a roughly two-month low — WTI near $84-86/bbl and Brent near $88-89 — after President Trump said a 'great settlement' with Iran could be signed over the weekend in Europe and reopen the Strait of Hormuz; Iran did not confirm any final deal.",
+      "source": "Investing.com (Reuters)",
+      "sourceUrl": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "OPEC cut its 2026 world oil demand-growth forecast to about 970,000 bpd, down from roughly 1.17 million bpd — a second consecutive downward revision — citing slower Chinese demand and war-driven price pressure even as the Strait of Hormuz stayed effectively closed.",
+      "source": "Investing.com (Reuters)",
+      "sourceUrl": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "Early June 12, 2026 US forces downed two Iranian drones near the Strait of Hormuz after Iranian forces fired on a transiting vessel, underscoring that the chokepoint remained contested even as Washington touted an imminent settlement to reopen it.",
+      "source": "RFE/RL",
+      "sourceUrl": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html",
+      "date": "2026-06-12"
     }
   ]
 }

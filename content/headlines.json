@@ -1,28 +1,47 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-12T05:02:01Z",
+  "lastUpdated": "2026-06-12T11:01:40Z",
   "stories": [
     {
-      "id": "trump-cancels-iran-strikes-claims-deal-2026-06-11",
-      "headline": "Trump cancels planned Iran strikes, claims war 'settled'; says a memorandum could be signed within days",
-      "summary": "President Trump abruptly canceled airstrikes he had threatened hours earlier and said the US had reached 'a great settlement of the war with Iran,' with a 'conceptual' memorandum possibly signed in Europe within days. Iran's Foreign Ministry spokesman Esmail Baghaei called the reports 'mere speculation,' saying no final decision had been reached, while Israel said it is not a party. The reversal followed a second day of mutual strikes and Iranian attacks on US Gulf bases.",
+      "id": "trump-great-settlement-iran-signing-europe-2026-06-12",
+      "headline": "Trump touts 'great settlement' with Iran and a weekend signing in Europe to reopen Hormuz; Tehran disputes any final deal",
+      "summary": "President Trump said the US had 'made a great settlement of the war' with Iran and that a signing could come over the weekend in Europe, with the Strait of Hormuz reopening once a memorandum is finalized. Iran's Foreign Ministry said no final agreement had been concluded and that the strait remained under regional management, directly disputing Trump's framing. The US naval blockade stays in force pending any signing.",
       "category": "war",
       "importance": 5,
       "tags": [
-        "us-iran-war",
+        "iran",
+        "us",
+        "hormuz",
         "ceasefire",
         "diplomacy",
-        "hormuz",
-        "mou",
-        "trump"
+        "israel"
       ],
-      "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
+      "firstSeenAt": "2026-06-12T11:01:40Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Whiplash diplomacy: Trump went from threatening to seize Iran's oil hub to declaring the war settled within hours, with no Iranian confirmation.",
-          "summary": "Trump said he canceled the scheduled strikes because discussions had been 'brought to the highest level of Iranian leadership and approved,' and that a 'very strong memorandum of understanding that is a little conceptual' could be signed 'maybe in Europe' within days. He claimed the Strait of Hormuz would reopen and the naval blockade lift on signing, while Iran had not confirmed any terms.",
+          "keyFraming": "Washington frames an imminent deal that reopens Hormuz, while the terms remain unsigned and contested.",
+          "summary": "Reuters and CNN reported Trump said the war was settled 'subject to finalization,' expecting a signing within days in Europe that would reopen the Strait of Hormuz. Officials cautioned the text was not final, and Trump said the naval blockade would remain until any agreement is signed.",
+          "sources": [
+            {
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/06/11/world/live-news/iran-war-trump-israel-hnk",
+              "title": "Trump says US and Iran reached a settlement; signing expected soon",
+              "publishedAt": "2026-06-11T22:00:00Z"
+            },
+            {
+              "outlet": "Investing.com (Reuters)",
+              "url": "https://www.investing.com/news/commodities-news/trump-says-great-settlement-on-iran-to-be-signed-soon-and-strait-will-open-4738238",
+              "title": "Trump says 'great settlement' on Iran to be signed soon and strait will open",
+              "publishedAt": "2026-06-11T20:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Coverage stresses Tehran's denial that any settlement is final and skepticism about the announcement's substance.",
+          "summary": "NPR reported Trump canceled planned strikes and promised a deal 'soon,' while NBC News quoted Iranian officials saying no final decision had been reached, underscoring the gap between the US announcement and Tehran's position after weeks of strikes.",
           "sources": [
             {
               "outlet": "NPR",
@@ -31,61 +50,36 @@
               "publishedAt": "2026-06-11T21:30:00Z"
             },
             {
-              "outlet": "ABC News",
-              "url": "https://abcnews.com/International/live-updates/iran-live-updates-israel-iran-trade-strikes-trump/?id=133674243",
-              "title": "Iran live updates: Trump says agreement with Iran could be signed as early as this weekend",
-              "publishedAt": "2026-06-11T20:00:00Z"
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-iran-drones-trump-deal-war-hormuz-tehran-rcna349750",
+              "title": "Live updates: US, Iran, Trump deal, war, Hormuz",
+              "publishedAt": "2026-06-12T06:00:00Z"
             }
           ]
         },
         {
           "lean": "foreign-western",
-          "keyFraming": "European and Gulf outlets cast the reversal as pressure-driven, coming after fresh Iranian attacks on US bases rather than a clear US victory.",
-          "summary": "The Washington Post reported Trump withdrew his threat to seize Iran's Kharg Island oil terminal after Iran struck up to five US bases, with verified Iranian imagery showing damage to 228 or more structures. Coverage framed the about-face as a de-escalation forced by the costs of escalation, while cautioning that earlier 2026 ceasefires had collapsed.",
+          "keyFraming": "European-facing outlets note the proposed signing venue in Europe and the unresolved status of Iran's commitments.",
+          "summary": "RFE/RL reported Trump announced a 'great settlement' to be signed 'quickly,' possibly in Europe, while details on enrichment levels, Hormuz access and sanctions relief remained unspecified and Iranian officials declined to confirm any agreement.",
           "sources": [
             {
-              "outlet": "Washington Post",
-              "url": "https://www.washingtonpost.com/world/2026/06/11/iran-targets-five-us-bases-raising-fears-return-all-out-war/",
-              "title": "Trump says he has canceled plans to strike Iran, claiming deal is near",
-              "publishedAt": "2026-06-11T20:00:00Z"
-            },
-            {
-              "outlet": "CNN",
-              "url": "https://www.cnn.com/2026/06/11/world/live-news/iran-war-trump-israel-hnk",
-              "title": "Live updates: Trump says US 'ended the war with Iran,' though Tehran has yet to confirm a deal",
-              "publishedAt": "2026-06-11T22:00:00Z"
+              "outlet": "RFE/RL",
+              "url": "https://www.rferl.org/a/us-iran-strikes-trump-hormuz-escalation/33778143.html",
+              "title": "Trump announces 'great settlement' reached with Iran, says to be signed 'quickly'",
+              "publishedAt": "2026-06-11T23:00:00Z"
             }
           ]
         },
         {
-          "lean": "right",
-          "keyFraming": "Trump and allies cast the settlement as Iran capitulating after a sustained US 'pounding,' though GOP hawks demand congressional review and removal of Iran's enriched uranium.",
-          "summary": "Fox News reported Trump canceled the Thursday-evening strikes after talks reached Iran's top leadership, saying Iran agreed never to obtain a nuclear weapon — the campaign's central aim. Asked why now, he said 'because they've taken a pounding.' Sen. Lindsey Graham urged that any deal be 'presented to Congress for review and approval' and that Iran's highly enriched uranium be removed.",
+          "lean": "government",
+          "keyFraming": "Israel says it is not a party to the emerging deal even as it credits US assurances on Iran's nuclear program.",
+          "summary": "Israeli officials said Israel is not party to the emerging US-Iran agreement, with Prime Minister Netanyahu praising Trump's stated commitment to preventing an Iranian nuclear weapon while stressing Israel did not sign any memorandum.",
           "sources": [
             {
-              "outlet": "Fox News",
-              "url": "https://www.foxnews.com/politics/trump-says-hes-canceled-iran-strikes-adds-potential-deal-signing-to-announced-shortly",
-              "title": "Trump says he's canceled Iran strikes, adds potential deal-signing 'to be announced shortly'",
-              "publishedAt": "2026-06-11T19:00:00Z"
-            },
-            {
-              "outlet": "The Hill",
-              "url": "https://thehill.com/homenews/administration/5920985-trump-iran-memorandum/",
-              "title": "The Memo: Trump announces 'great settlement' on Iran, but the world awaits details",
-              "publishedAt": "2026-06-11T22:30:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "foreign-global-south",
-          "keyFraming": "Tehran publicly rejects Trump's characterization, casting Washington as the unreliable party introducing last-minute demands.",
-          "summary": "Iran's Foreign Ministry spokesman Esmail Baghaei said reports of a finalized agreement were 'mere speculation' and that no final decision had been reached, accusing the US of 'excessive demands' and 'new requests' during talks. Iranian outlets said much of a draft had been agreed but that Tehran would not 'give way under pressure,' leaving Trump's settlement claim unconfirmed by the other principal party.",
-          "sources": [
-            {
-              "outlet": "India TV News",
-              "url": "https://www.indiatvnews.com/news/world/trump-says-us-iran-to-sign-peace-deal-in-europe-this-weekend-tehran-rejects-his-claims-2026-06-12-1044541",
-              "title": "Trump says US, Iran to sign peace deal in Europe this weekend; Tehran rejects his claims",
-              "publishedAt": "2026-06-12T03:00:00Z"
+              "outlet": "Times of Israel",
+              "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-says-israel-not-party-to-iran-deal-but-praises-trump-for-commitment-to-thwarting-nukes/",
+              "title": "Netanyahu says Israel not party to Iran deal but praises Trump for commitment to thwarting nukes",
+              "publishedAt": "2026-06-11T21:00:00Z"
             }
           ]
         }
@@ -106,7 +100,7 @@
         "geopolitics"
       ],
       "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
       "perspectives": [
         {
           "lean": "center",
@@ -124,6 +118,12 @@
               "url": "https://www.cnbc.com/2026/06/11/trump-iran-strikes-deal.html",
               "title": "Trump claims Iran war settled 'subject to finalization,' expects signing in 'next few days'",
               "publishedAt": "2026-06-11T20:30:00Z"
+            },
+            {
+              "outlet": "Investing.com (Reuters)",
+              "url": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
+              "title": "Oil extends losses as Trump calls off planned strikes on Iran",
+              "publishedAt": "2026-06-12T07:00:00Z"
             }
           ]
         },
@@ -162,52 +162,44 @@
       ]
     },
     {
-      "id": "stocks-fall-broadcom-nvidia-chip-selloff-dow-below-50k-2026-06-12",
-      "headline": "Stocks rebound and Dow reclaims 50,000 as Iran de-escalation hopes lift chips off a three-day selloff",
-      "summary": "US stocks rallied June 11 after President Trump signaled an Iran settlement and oil fell, reversing a three-day AI-chip rout that had driven the Dow below 50,000. The Dow jumped about 930 points (1.9%) to roughly 50,849, the Nasdaq gained about 2.5% and the S&P 500 about 1.8%, with beaten-down chips leading — Intel +10.3%, Applied Materials +7.8%, Arm +7.8%. Sticky inflation (a 4.2% May CPI and a hot 6.5% PPI) and a hawkish FOMC setup into June 16-17 tempered the bounce.",
+      "id": "spacex-record-75b-ipo-nasdaq-debut-2026-06-12",
+      "headline": "SpaceX completes the largest IPO on record, raising about $75 billion in its Nasdaq debut",
+      "summary": "SpaceX raised roughly $75 billion by selling about 555.6 million shares at $135 apiece under the ticker SPCX, the biggest initial public offering on record, valuing the company near $1.77 trillion — among the most valuable US firms. The Nasdaq debut June 12 capped a closely watched listing amid otherwise choppy markets.",
       "category": "markets",
       "importance": 4,
       "tags": [
-        "equities",
+        "spacex",
+        "ipo",
         "nasdaq",
-        "sp500",
-        "dow",
-        "semiconductors",
-        "ai-trade",
-        "fed"
+        "equities",
+        "tech"
       ],
-      "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
+      "firstSeenAt": "2026-06-12T11:01:40Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "A relief rally as the war premium and chip-selloff fears eased at once, with battered semiconductors leading the bounce.",
-          "summary": "After three sessions of an AI-chip rout, equities rallied June 11 on signs of a US-Iran settlement and falling oil. The Dow jumped about 930 points to roughly 50,849, the Nasdaq gained about 2.5% and the S&P 500 about 1.8%, while Intel (+10.3%), Applied Materials and Arm (both about +7.8%) led a chip rebound that had repeatedly failed earlier in the week.",
+          "keyFraming": "Reported as a record-shattering listing and a milestone for private-space valuations.",
+          "summary": "CNBC reported SpaceX raised about $75 billion in a record-setting IPO ahead of its Nasdaq debut, pricing 555.6 million shares at $135 for a valuation near $1.77 trillion, surpassing prior IPO records and ranking the company among the most valuable in the US.",
           "sources": [
             {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026",
-              "title": "Stock Market Today (June 11, 2026): Nasdaq, S&P 500 rise after Trump, Iran signal deal is close",
-              "publishedAt": "2026-06-11T21:30:00Z"
-            },
-            {
               "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/10/stock-market-today-live-updates.html",
-              "title": "Dow surges 900 points after Trump says U.S. will soon sign deal with Iran, oil falls",
-              "publishedAt": "2026-06-11T21:00:00Z"
+              "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html",
+              "title": "SpaceX raises $75 billion in record-setting IPO ahead of Nasdaq debut",
+              "publishedAt": "2026-06-11T22:00:00Z"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "The bounce is geopolitics-driven; sticky inflation and a hawkish Fed setup cap the upside even after the rally.",
-          "summary": "Analysts cautioned the rebound rested on an unconfirmed Iran de-escalation rather than improving fundamentals, with a 4.2% May CPI and a hot 6.5% May PPI keeping rate-hike risk on the table into the June 16-17 FOMC. A concentrated, AI-driven market remains vulnerable to renewed swings if the deal slips.",
+          "keyFraming": "Business press frames the debut as a barometer of risk appetite after a volatile week.",
+          "summary": "TheStreet's market coverage framed the SpaceX listing as a test of investor appetite, noting early trade hugged the $135 offer price as the broader market steadied following the week's semiconductor-led volatility and an easing oil price.",
           "sources": [
             {
-              "outlet": "BLS",
-              "url": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
-              "title": "Producer Price Index News Release — 2026 M05 Results",
-              "publishedAt": "2026-06-11T12:30:00Z"
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq updates — June 12, 2026",
+              "publishedAt": "2026-06-12T09:00:00Z"
             }
           ]
         }
@@ -227,7 +219,7 @@
         "oversight"
       ],
       "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
       "perspectives": [
         {
           "lean": "center",
@@ -284,7 +276,7 @@
         "macro"
       ],
       "firstSeenAt": "2026-06-12T05:02:01Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
       "perspectives": [
         {
           "lean": "center",

@@ -1,6 +1,6 @@
 {
   "sectionId": "us-politics",
-  "lastUpdated": "2026-06-12T05:02:01Z",
+  "lastUpdated": "2026-06-12T11:01:40Z",
   "stories": [
     {
       "id": "senate-iran-war-powers-renewed-push-2026-06-07",
@@ -54,12 +54,6 @@
           "keyFraming": "Conspiracy theories about routine 'blue shift' mail-ballot counting are being weaponized by the DOJ to intimidate a Democratic state.",
           "summary": "NPR's interview with AG Bonta framed the probe as baseless intimidation; Bonta said the claims are 'only a figment of the imagination of Trump and others who follow that conspiracy theory' and that Trump has 'zero authority' over California elections. MSNBC tied the move to a broader GOP voter-fraud narrative.",
           "sources": [
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/09/nx-s1-5850269/californias-attorney-general-on-trumps-baseless-claim-of-election-fraud",
-              "title": "California's attorney general on Trump's baseless claim of election fraud",
-              "publishedAt": "2026-06-09T09:00:00Z"
-            },
             {
               "outlet": "MSNBC",
               "url": "https://www.ms.now/news/california-ag-trump-voter-id-primary-election-ballots",
@@ -278,19 +272,6 @@
               "publishedAt": "2026-06-09T16:00:00Z"
             }
           ]
-        },
-        {
-          "lean": "center",
-          "keyFraming": "Trump claims leverage over both Tehran and Netanyahu, but the path to a deal stays murky.",
-          "summary": "Al Jazeera reported Trump's warning to Netanyahu coincided with Israel and Iran pausing direct attacks after the worst escalation since the April ceasefire, with Israel reportedly calling off a planned strike.",
-          "sources": [
-            {
-              "outlet": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/9/trump-warns-netanyahu-youll-be-on-your-own-if-attacks-on-iran-continue",
-              "title": "Trump warns Netanyahu: 'You'll be on your own' if attacks on Iran continue",
-              "publishedAt": "2026-06-09T08:00:00Z"
-            }
-          ]
         }
       ]
     },
@@ -468,12 +449,6 @@
               "url": "https://thehill.com/homenews/campaign/5915025-platner-collins-maine-senate/",
               "title": "Graham Platner-Susan Collins matchup set in toss-up Maine Senate race",
               "publishedAt": "2026-06-09T23:00:00Z"
-            },
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/09/nx-s1-5850231/maine-nevada-south-carolina-primary-trump",
-              "title": "Maine's Senate race and much more. Here are the primary contests to watch today",
-              "publishedAt": "2026-06-09T11:00:00Z"
             }
           ]
         },
@@ -646,7 +621,7 @@
         "oversight"
       ],
       "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
       "perspectives": [
         {
           "lean": "center",
@@ -684,6 +659,50 @@
               "url": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes",
               "title": "Trump now says a peace deal will be announced 'soon,' cancels further strikes",
               "publishedAt": "2026-06-11T21:30:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trump-approval-economy-record-low-2026-06-12",
+      "headline": "Trump's economic approval hits a new low as fresh polls show majorities opposing the Iran war",
+      "summary": "New June surveys put President Trump's approval on the economy at record lows, with a Reuters/Ipsos poll showing overall approval near 35-36% and majorities disapproving of his handling of the economy, while Fox News polling found about 60% oppose the Iran war. Pollsters tied the slide to the worst inflation in three years and expectations of a prolonged conflict.",
+      "category": "us-politics",
+      "importance": 3,
+      "tags": [
+        "polling",
+        "approval",
+        "economy",
+        "iran-war",
+        "midterms"
+      ],
+      "firstSeenAt": "2026-06-12T11:01:40Z",
+      "updatedAt": "2026-06-12T11:01:40Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Polling aggregators frame a broad erosion of confidence driven by inflation and the war.",
+          "summary": "An Economist/YouGov survey recorded a new low for Trump's economic approval amid expectations of a drawn-out Iran war, while a Reuters/Ipsos poll put overall approval near 35-36% with a majority disapproving of his economic management. Analysts linked the numbers to a three-year-high inflation rate and the energy shock from the conflict.",
+          "sources": [
+            {
+              "outlet": "YouGov",
+              "url": "https://yougov.com/en-us/articles/54934-new-low-trump-approval-economy-expectations-drawn-out-iran-war-june-5-8-2026-economist-yougov-poll",
+              "title": "A new low for Trump approval on the economy — June 5-8, 2026 Economist/YouGov Poll",
+              "publishedAt": "2026-06-10T16:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Even right-leaning polling shows deepening economic pain and record disapproval.",
+          "summary": "A Fox News poll found economic pessimism deepening and disapproval of Trump reaching a new high, with roughly 60% of respondents opposing the war with Iran. Coverage framed the results as a warning sign for Republicans heading into the 2026 midterms as gas and grocery prices stay elevated.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/politics/fox-news-poll-economic-pain-deepens-disapproval-trump-hits-new-high",
+              "title": "Fox News Poll: economic pain deepens, disapproval of Trump hits new high",
+              "publishedAt": "2026-06-11T18:00:00Z"
             }
           ]
         }
