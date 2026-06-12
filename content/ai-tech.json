@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-12T00:42:39Z",
+  "lastUpdated": "2026-06-12T05:02:01Z",
   "stories": [
     {
       "id": "openai-confidential-sec-ipo-filing-2026-06-09",
@@ -250,18 +250,68 @@
         "policy"
       ],
       "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T00:42:39Z",
+      "updatedAt": "2026-06-12T05:02:01Z",
       "perspectives": [
         {
           "lean": "center",
           "keyFraming": "A public split between Nvidia and a major customer over export policy: Nvidia wants open markets, Anthropic wants tighter controls.",
-          "summary": "Nvidia objected to Anthropic's endorsement of worldwide GPU export restrictions under the Diffusion Framework, warning of harm to US competitiveness, while Anthropic stressed smuggling risks and the need for enforcement. The two remain commercial partners, highlighting the tension between business ties and policy stances in the chip-export debate.",
+          "summary": "Nvidia objected to Anthropic's endorsement of worldwide GPU export restrictions under the Diffusion Framework, warning of harm to US competitiveness, while Anthropic stressed smuggling risks and the need for enforcement. Nvidia accused Anthropic of telling 'tall tales,' and the dispute sharpened amid tightening worldwide license requirements on Chinese-linked entities even as the two remain commercial partners.",
           "sources": [
             {
               "outlet": "AI Tool Report",
               "url": "https://www.theaireport.ai/newsletter/nvidia-slams-anthropic-s-us-export-stance",
               "title": "NVIDIA slams Anthropic's US export stance",
               "publishedAt": "2026-06-11T10:00:00Z"
+            },
+            {
+              "outlet": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/video/nvidia-anthropic-reportedly-clash-over-162159367.html",
+              "title": "Nvidia, Anthropic reportedly clash over US chip export controls",
+              "publishedAt": "2026-06-11T16:30:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Industry voices warn the controls hurt US competitiveness and cost Nvidia billions in lost China sales.",
+          "summary": "Coverage sympathetic to Nvidia framed Anthropic's backing of stricter diffusion-style curbs as self-serving and damaging, arguing the rules stifle competition and forfeit the China market to domestic Chinese chipmakers while doing little to stop determined smuggling.",
+          "sources": [
+            {
+              "outlet": "GuruFocus",
+              "url": "https://www.gurufocus.com/news/2821490/nvidia-nvda-and-anthropic-clash-over-ai-chip-export-restrictions",
+              "title": "NVIDIA (NVDA) and Anthropic Clash Over AI Chip Export Restrictions",
+              "publishedAt": "2026-06-11T15:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-chip-selloff-broadcom-miss-trillion-2026-06-12",
+      "headline": "AI-chip rout erased over $1 trillion in market value after a Broadcom AI-networking revenue miss",
+      "summary": "The three-day semiconductor selloff that briefly drove the Dow below 50,000 was triggered by Broadcom's fiscal Q2 AI-networking revenue (about $4.1 billion) missing the roughly $4.8 billion consensus, reviving AI-bubble fears. Well over $1 trillion in market value was wiped across chip and AI names at the trough, with Nvidia briefly losing its $5 trillion valuation, before a June 11 rebound on Iran de-escalation hopes. Worldwide export-license worries compounded the pressure.",
+      "category": "ai-tech",
+      "importance": 3,
+      "tags": [
+        "semiconductors",
+        "broadcom",
+        "nvidia",
+        "ai-trade",
+        "markets"
+      ],
+      "firstSeenAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-12T05:02:01Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "An earnings miss plus stretched valuations and export risk drove a sentiment-led correction, partly retraced on Iran de-escalation.",
+          "summary": "Broadcom's softer-than-expected AI-networking revenue undercut the AI-infrastructure narrative, sending chip stocks down sharply for three sessions and erasing more than $1 trillion in value at the lows. Analysts tied the depth of the drop to concentrated AI positioning and export-control uncertainty, with much of the loss retraced June 11 as oil fell and an Iran settlement looked closer.",
+          "sources": [
+            {
+              "outlet": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/06/10/broadcom-and-amd-sink-4-nvidia-slides-3-as-the-chip-selloff-deepens/",
+              "title": "Broadcom and AMD Sink 4%, NVIDIA Slides 3% as the Chip Selloff Deepens",
+              "publishedAt": "2026-06-10T20:00:00Z"
             }
           ]
         }

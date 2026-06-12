@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T00:42:39Z",
+  "lastUpdated": "2026-06-12T05:02:01Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -126,6 +126,13 @@
         "status": "effectively_closed",
         "source": "CNBC / Bloomberg",
         "sourceUrl": "https://www.cnbc.com/2026/06/11/trump-iran-strikes-deal.html"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Oil extended its slide in after-hours and early June 12 trade — WTI toward ~$86 (its lowest since April) and Brent toward ~$89 — after Trump said the US had 'made a great settlement of the war, subject to finalization,' with a signing that would reopen the Strait of Hormuz possibly this weekend in Europe. Hormuz tanker traffic was reported rising, with roughly half of transiting ships using the Iran-designated route, but Iran did not confirm any deal and the IRGC's total-closure claim — disputed by US CENTCOM — remained in place.",
+        "status": "effectively_closed",
+        "source": "NPR / CNBC",
+        "sourceUrl": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes"
       }
     ]
   },
@@ -204,6 +211,11 @@
         "date": "2026-06-11",
         "price": 4.129,
         "label": "AAA national avg (June 11); easing nearly 20 cents on the week even as oil rebounds on renewed US-Iran strikes"
+      },
+      {
+        "date": "2026-06-12",
+        "price": 4.129,
+        "label": "AAA national avg (June 12); holding near $4.13 as crude tumbles on Trump's claimed Iran war settlement"
       }
     ],
     "breakdown": [
@@ -552,6 +564,18 @@
       "fact": "Hormuz tanker traffic was reported rising on June 11, with roughly half of transiting ships using the Iran-designated route and the rest the southern Oman route; Frontline's CEO said traffic could rebound quickly from the current trickle of 5-10 ships per day if a credible deal is reached, with about 10% of the world's VLCCs stuck loaded in the Gulf.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/11/iran-strait-hormuz-oil-tanker-traffic-frontline.html",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "Oil sold off sharply after President Trump canceled planned strikes on Iran on June 11 and claimed a war settlement 'subject to finalization,' with a Hormuz-reopening deal possibly signed this weekend in Europe; US crude fell about 2.8% to roughly $87.56 and Brent about 3.5% to roughly $89.84, extending losses after-hours toward $86 WTI — the lowest since April.",
+      "source": "CNBC / NPR",
+      "sourceUrl": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "US May Producer Price Index rose 1.1% month-over-month and 6.5% year-over-year — the highest annual wholesale inflation since November 2022 — with about 80% of the gain from a 10.7% jump in final-demand energy and wholesale gasoline up 23.4%, confirming the Hormuz oil shock is flowing through to producer prices days before the June 16-17 FOMC meeting.",
+      "source": "BLS — Producer Price Index, May 2026",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
       "date": "2026-06-11"
     }
   ]

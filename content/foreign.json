@@ -1,6 +1,6 @@
 {
   "sectionId": "foreign",
-  "lastUpdated": "2026-06-12T00:42:39Z",
+  "lastUpdated": "2026-06-12T05:02:01Z",
   "stories": [
     {
       "id": "cairo-gaza-ceasefire-phase-two-talks-2026-06-08",
@@ -376,18 +376,18 @@
         "ceasefire"
       ],
       "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T00:42:39Z",
+      "updatedAt": "2026-06-12T05:02:01Z",
       "perspectives": [
         {
           "lean": "foreign-western",
           "keyFraming": "Europe seeks Trump's backing to revive talks and rebuild G7 consensus on Ukraine.",
-          "summary": "Euronews and the Kyiv Post reported Macron calling Zelensky's G7 presence 'very important' to 'rebuild consensus,' with the E3's ceasefire-from-current-line terms anchoring the European position as Russian attacks intensify in the run-up to the summit.",
+          "summary": "Coverage reported Macron calling Zelensky's G7 presence key to 'rebuild consensus,' with the E3's ceasefire-from-current-line terms anchoring the European position. Kyiv is pressing for more Patriot interceptors and tougher Russia sanctions as Russian attacks intensify in the run-up to the June 15-17 summit.",
           "sources": [
             {
-              "outlet": "Euronews",
-              "url": "https://www.euronews.com/my-europe/2026/06/09/zelenskyy-wants-to-build-up-pressure-on-russia-to-force-moscow-to-peace-talks",
-              "title": "Zelenskyy wants to build up pressure on Russia to force Moscow to peace talks",
-              "publishedAt": "2026-06-09T18:00:00Z"
+              "outlet": "Kyiv Independent",
+              "url": "https://kyivindependent.com/zelensky-to-attend-g7-summit-in-france-politico-reports/",
+              "title": "Zelensky plans to attend G7 summit in France, Politico reports",
+              "publishedAt": "2026-06-11T10:00:00Z"
             },
             {
               "outlet": "Kyiv Post",
@@ -398,15 +398,46 @@
           ]
         },
         {
-          "lean": "center",
-          "keyFraming": "Moscow rebuffs the overtures, with Putin seeing 'no point' in a summit for now and Russia rejecting EU mediation.",
-          "summary": "Coverage noted Putin declined Zelensky's open-letter offer of a face-to-face meeting and a full ceasefire, while spokesman Dmitry Peskov said the US mediation track was paused and called European participation unacceptable, leaving the diplomatic push stalled even as the G7 convenes.",
+          "lean": "foreign-western",
+          "keyFraming": "Moscow's rejection of mediation reframes the summit as battlefield-driven rather than a diplomatic opening.",
+          "summary": "Euronews reported Foreign Minister Sergei Lavrov declaring that soldiers, not talks, will decide the war, while spokesman Dmitry Peskov dismissed European peace initiatives and called EU participation unacceptable — signaling no near-term diplomacy even as the G7 convenes.",
           "sources": [
             {
-              "outlet": "Kyiv Post",
-              "url": "https://www.kyivpost.com/post/77387",
-              "title": "Zelensky Expected to Attend G7 Summit in France as Russian Attacks Intensify",
-              "publishedAt": "2026-06-11T08:30:00Z"
+              "outlet": "Euronews",
+              "url": "https://www.euronews.com/my-europe/2026/06/08/soldiers-not-talks-will-decide-russias-war-in-ukraine-lavrov-says",
+              "title": "Soldiers, not talks will decide Russia's war in Ukraine, Lavrov says",
+              "publishedAt": "2026-06-09T14:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iaea-board-resolution-iran-uranium-accounting-2026-06-12",
+      "headline": "IAEA Board orders Iran to account for enriched-uranium stocks; finds program little changed after months of war",
+      "summary": "The IAEA's 35-nation Board adopted a resolution ordering Iran to account for its remaining enriched uranium — including stocks enriched up to 60% — and grant inspectors access. A new agency report found 'no major changes' to Iran's nuclear program despite months of US-Israeli strikes, with inspectors unable to verify uranium stocks for nearly a year — a proliferation concern. It sharpens the nuclear file as Trump claims Iran has agreed never to build a weapon.",
+      "category": "foreign",
+      "importance": 3,
+      "tags": [
+        "iran",
+        "iaea",
+        "nuclear",
+        "nonproliferation",
+        "uranium"
+      ],
+      "firstSeenAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-12T05:02:01Z",
+      "perspectives": [
+        {
+          "lean": "right",
+          "keyFraming": "Iran's year-long withholding of access is framed as a continuing NPT-compliance and proliferation threat the war did not resolve.",
+          "summary": "JNS reported the Board passed a resolution demanding Iran report on its nuclear material and grant inspectors access, framing Tehran's refusal to account for its enriched-uranium stockpile as a safeguards violation that undercuts claims the conflict ended Iran's weapons potential.",
+          "sources": [
+            {
+              "outlet": "JNS",
+              "url": "https://www.jns.org/news/world/iaea-board-passes-resolution-demanding-iran-nuclear-reporting",
+              "title": "IAEA board passes resolution demanding Iran nuclear reporting",
+              "publishedAt": "2026-06-10T16:00:00Z"
             }
           ]
         }
