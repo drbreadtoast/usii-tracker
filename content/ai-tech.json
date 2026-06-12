@@ -1,88 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-12T11:01:40Z",
+  "lastUpdated": "2026-06-12T17:04:34Z",
   "stories": [
-    {
-      "id": "openai-confidential-sec-ipo-filing-2026-06-09",
-      "headline": "OpenAI files confidential SEC paperwork, opening the door to an eventual IPO",
-      "summary": "OpenAI said it has filed confidential draft paperwork with the SEC, a preliminary step toward a potential public offering, while stressing the timing is undecided and 'may be a while.' The disclosure follows reports of a planned consumer 'superapp' and agentic-product push, and lands amid scrutiny of the company's government-equity arrangement and AI regulation debates.",
-      "category": "ai-tech",
-      "importance": 4,
-      "tags": [
-        "openai",
-        "ipo",
-        "sec",
-        "ai",
-        "superapp"
-      ],
-      "firstSeenAt": "2026-06-09T11:06:42Z",
-      "updatedAt": "2026-06-09T11:06:42Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A confidential filing signals long-term public-market intent without committing to an imminent listing.",
-          "summary": "Business coverage framed the confidential S-1 as procedural groundwork rather than a firm IPO date, noting OpenAI pre-empted leaks by disclosing it and tied the move to a broader consumer 'superapp' and agentic strategy.",
-          "sources": [
-            {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
-              "title": "OpenAI files confidential SEC paperwork for IPO",
-              "publishedAt": "2026-06-09T13:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chip-stocks-ai-trade-wobble-broadcom-2026-06-09",
-      "headline": "AI chip trade wobbles again as fallout from Broadcom's outlook and valuation fears hit semiconductors",
-      "summary": "Semiconductor stocks resumed sliding June 9, extending a rout that began June 4 when a weak Broadcom AI-chip outlook triggered the Nasdaq's worst day since April 2025. Nvidia, Micron and Broadcom reversed early gains as investors questioned stretched AI valuations and rotated into healthcare and financials, in a broader reassessment of whether AI capex enthusiasm has outrun results.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "semiconductors",
-        "nvidia",
-        "broadcom",
-        "micron",
-        "ai-trade"
-      ],
-      "firstSeenAt": "2026-06-09T17:05:48Z",
-      "updatedAt": "2026-06-09T17:05:48Z",
-      "perspectives": [
-        {
-          "lean": "left",
-          "keyFraming": "The AI bubble is starting to leak: one cautious Broadcom forecast wiped out hundreds of billions, exposing how much of the rally rests on hype.",
-          "summary": "The chip selloff suggested the AI-investment narrative is fragile. Broadcom's softer outlook and double-digit drops in Micron and AMD showed investors finally pricing the risk that data-center spending won't deliver promised returns — with consequences for index-heavy retirement accounts.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html",
-              "title": "Broadcom, Micron and ARM sink, leading chip stocks lower",
-              "publishedAt": "2026-06-09T13:00:00Z"
-            },
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-stock-drops-6-in-ugly-day-for-chip-stocks-100000734.html",
-              "title": "Tech stocks today: Nvidia stock drops in ugly day for chip stocks",
-              "publishedAt": "2026-06-09T14:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "A healthy correction in over-loved names, not the end of the AI story — record data-center demand remains intact and rotation into value is rational.",
-          "summary": "Coverage framed the pullback as profit-taking after an extraordinary run, triggered by one company's conservative guidance. With Nvidia still near a multitrillion-dollar valuation and AI demand robust, disciplined investors viewed the dip as a reset rather than a structural break in the secular growth trend.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
-              "title": "Nasdaq falls and suffers worst day since April 2025 as traders flee chip stocks",
-              "publishedAt": "2026-06-09T12:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "taiwan-ai-chip-export-curbs-china-2026-06-09",
       "headline": "Taiwan weighs tighter AI-chip export controls targeting China to align with US measures",
@@ -99,19 +18,6 @@
       "firstSeenAt": "2026-06-09T23:03:00Z",
       "updatedAt": "2026-06-10T05:06:41Z",
       "perspectives": [
-        {
-          "lean": "right",
-          "keyFraming": "National-security hawks frame the move as Taipei aligning with Washington to deny Beijing a military AI edge — even at the cost of criminal penalties for smuggling.",
-          "summary": "Tom's Hardware reported Taiwan is weighing a criminal ban on AI-chip exports to all of China, not just blacklisted firms, and would criminalize smuggling for the first time as US trade talks continue — a sharp tightening aimed at choking off diversion of advanced compute to Chinese end users.",
-          "sources": [
-            {
-              "outlet": "Tom's Hardware",
-              "url": "https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue",
-              "title": "Taiwan weighs criminal ban on AI chip exports to all of China as US trade talks continue",
-              "publishedAt": "2026-06-09T18:00:00Z"
-            }
-          ]
-        },
         {
           "lean": "left",
           "keyFraming": "Coverage stresses the escalating tech decoupling and the risk to Taiwan's own economy and to US-China relations.",
@@ -150,29 +56,10 @@
           "summary": "TechCrunch and Dataconomy covered Claude Fable 5 as the first Mythos-class model the public can access, replacing Opus 4.8 as Anthropic's most capable public model at roughly double the price ($10 per million input and $50 per million output tokens). Coverage stressed the IPO subtext: the launch landed days after Anthropic's confidential filing at a $965 billion valuation, with run-rate revenue reported near $47 billion, positioning it to debut in a hype window.",
           "sources": [
             {
-              "outlet": "TechCrunch",
-              "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
-              "title": "Anthropic releases Claude Fable, a version of Mythos the public can access today",
-              "publishedAt": "2026-06-09T14:00:00Z"
-            },
-            {
               "outlet": "Dataconomy",
               "url": "https://dataconomy.com/2026/06/10/anthropic-claude-fable-5-ipo-965-billion/",
               "title": "Anthropic Launches Claude Fable 5 Ahead Of $965 Billion IPO",
               "publishedAt": "2026-06-10T12:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "social",
-          "keyFraming": "Critics warn that commercializing a model with strong offensive-security capability — even with guardrails — sets a risky precedent for AI proliferation.",
-          "summary": "BleepingComputer's coverage of the Mythos rollout focused on security-community unease, describing the Fable guardrails as a partial solution that still leaves edge cases. Critics highlighted the tension between Anthropic's public warnings about AI risk and releasing its most powerful public model to date, arguing financial incentives are now shaping release timing.",
-          "sources": [
-            {
-              "outlet": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-              "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
-              "publishedAt": "2026-06-09T18:00:00Z"
             }
           ]
         }
@@ -299,6 +186,62 @@
               "url": "https://247wallst.com/investing/2026/06/10/broadcom-and-amd-sink-4-nvidia-slides-3-as-the-chip-selloff-deepens/",
               "title": "Broadcom and AMD Sink 4%, NVIDIA Slides 3% as the Chip Selloff Deepens",
               "publishedAt": "2026-06-10T20:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spacex-spcx-nasdaq-debut-pops-2026-06-12",
+      "headline": "SpaceX surges in Nasdaq debut after record $75B IPO, briefly topping a $2.2 trillion valuation",
+      "summary": "SpaceX began trading on the Nasdaq under SPCX on June 12 after pricing its IPO at $135 a share and raising about $75 billion — the largest IPO on record, valuing the firm near $1.75 trillion. The stock opened around $150 and ran as high as $168.75, up roughly 25%, lifting its market cap toward $2.2 trillion. About $15 billion of the raise came from retail investors, anchoring a wave of mega-AI and tech listings that some analysts warn could mark a market top.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "spacex",
+        "ipo",
+        "markets",
+        "ai",
+        "retail-investors"
+      ],
+      "firstSeenAt": "2026-06-12T17:04:34Z",
+      "updatedAt": "2026-06-12T17:04:34Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A historic raise lands amid a frothy AI-IPO rush that may signal late-cycle euphoria.",
+          "summary": "CNBC and CBS reported SPCX popping nearly 30% intraday on its first session after the biggest IPO ever, with NPR noting the debut sits alongside OpenAI's confidential filing and Anthropic's reported preparations in a roughly $3.6 trillion combined listing pipeline.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+              "title": "SpaceX IPO live updates: SPCX pops almost 30% after biggest IPO ever",
+              "publishedAt": "2026-06-12T15:30:00Z"
+            },
+            {
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/spacex-stock-price-ipo-spcx-initial-public-offering/",
+              "title": "SpaceX shares soar following record-breaking $75 billion IPO",
+              "publishedAt": "2026-06-12T16:00:00Z"
+            },
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+              "title": "It's SpaceX's first day on the stock market",
+              "publishedAt": "2026-06-12T14:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Trillion-dollar floats concentrate market risk, and a flurry of mega-IPOs is a classic market-top tell.",
+          "summary": "Analysts cited by CNN and CNBC warned that simultaneous record listings from SpaceX, OpenAI and Anthropic concentrate risk and historically cluster near tops, landing during post-Broadcom chip volatility and a fragile geopolitical backdrop.",
+          "sources": [
+            {
+              "outlet": "CNN Business",
+              "url": "https://www.cnn.com/2026/06/09/tech/openai-ipo-anthropic-wall-street",
+              "title": "OpenAI IPO: Major AI companies will soon be put to the test",
+              "publishedAt": "2026-06-09T20:00:00Z"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T11:01:40Z",
+  "lastUpdated": "2026-06-12T17:04:34Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -140,13 +140,20 @@
         "status": "effectively_closed",
         "source": "RFE/RL / CNBC",
         "sourceUrl": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Oil fell to a two-month low (WTI ~$84.6, Brent ~$87.4, both down ~3-4%) as reports said the US and Iran could sign a peace deal as soon as Sunday in Europe. Iranian state media described a 14-point draft committing the US to lift oil sanctions and release about $24bn in frozen funds in exchange for Iran reopening the Strait of Hormuz within 30 days and ending the naval blockade. Trump disputed that the leaked Iranian text reflected the agreed terms and Tehran did not confirm a final deal. Earlier that day US forces downed two Iranian drones near the strait after Iran fired on a transiting vessel; the IRGC's disputed total-closure claim remained in place.",
+        "status": "effectively_closed",
+        "source": "CNBC / RFE-RL",
+        "sourceUrl": "https://www.cnbc.com/amp/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html"
       }
     ]
   },
   "gas": {
-    "currentAverage": 4.129,
+    "currentAverage": 4.108,
     "preWarAverage": 3.05,
-    "changePercent": 35.4,
+    "changePercent": 34.7,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -221,8 +228,8 @@
       },
       {
         "date": "2026-06-12",
-        "price": 4.129,
-        "label": "AAA national avg (June 12); holding near $4.13 as crude tumbles on Trump's claimed Iran war settlement"
+        "price": 4.108,
+        "label": "AAA national avg (June 12); easing toward $4.11 as crude slides to a two-month low on Trump's claimed Iran war settlement"
       }
     ],
     "breakdown": [
@@ -388,8 +395,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.129,
-        "changePercent": 35.4,
+        "currentPrice": 4.108,
+        "changePercent": 34.7,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -601,6 +608,18 @@
       "fact": "Early June 12, 2026 US forces downed two Iranian drones near the Strait of Hormuz after Iranian forces fired on a transiting vessel, underscoring that the chokepoint remained contested even as Washington touted an imminent settlement to reopen it.",
       "source": "RFE/RL",
       "sourceUrl": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "OPEC's June Monthly Oil Market Report cut its 2026 world oil demand-growth forecast to about 970,000 bpd, down from roughly 1.17 million bpd in May — a second consecutive downgrade — citing the Iran war, the Strait of Hormuz closure and softer Chinese, Indian and Middle East demand. OPEC still sees a smaller hit than the EIA and IEA and projects a 1.73 million bpd rebound in 2027.",
+      "source": "Reuters / Investing.com",
+      "sourceUrl": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
+      "date": "2026-06-11"
+    },
+    {
+      "fact": "Oil slid to a roughly two-month low on June 12 — WTI near $84.6/bbl and Brent near $87.4, both down about 3-4% — after President Trump said the US and Iran could sign a 'great settlement' as soon as the weekend in Europe that would lift oil sanctions and reopen the Strait of Hormuz within 30 days. Iranian state media circulated a 14-point draft, but Trump disputed its terms and Tehran did not confirm a final deal, leaving the chokepoint effectively closed.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/amp/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-12"
     }
   ]
