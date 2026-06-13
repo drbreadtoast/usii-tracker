@@ -1,6 +1,6 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-13T11:01:46Z",
+  "lastUpdated": "2026-06-13T17:03:49Z",
   "stories": [
     {
       "id": "us-iran-uranium-standoff-geneva-2026-06-12",
@@ -17,7 +17,7 @@
         "ceasefire"
       ],
       "firstSeenAt": "2026-06-12T23:05:58Z",
-      "updatedAt": "2026-06-13T11:01:46Z",
+      "updatedAt": "2026-06-13T17:03:49Z",
       "perspectives": [
         {
           "lean": "center",
@@ -73,6 +73,62 @@
       ]
     },
     {
+      "id": "anthropic-fable-mythos-government-suspension-2026-06-12",
+      "headline": "US government orders Anthropic to suspend worldwide access to Fable 5 and Mythos 5 models over national-security directive",
+      "summary": "Anthropic shut off global access to its newly launched Fable 5 and Mythos 5 models on June 12 after a US export-control directive — reportedly a letter from Commerce Secretary Howard Lutnick to CEO Dario Amodei — citing a reported jailbreak. The models had launched only three days earlier on June 9, and all other Claude models are unaffected. It appears to be the first government-forced takedown of a publicly deployed frontier AI model.",
+      "category": "ai-tech",
+      "importance": 4,
+      "tags": [
+        "anthropic",
+        "ai-regulation",
+        "export-controls",
+        "national-security",
+        "frontier-models"
+      ],
+      "firstSeenAt": "2026-06-13T17:03:49Z",
+      "updatedAt": "2026-06-13T17:03:49Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Reporting frames the directive as an unprecedented state intervention in a deployed frontier model.",
+          "summary": "TechRadar and The New Stack reported that a June 12 US directive forced Anthropic to shut off worldwide access to Fable 5 and Mythos 5 just three days after launch, citing a potential jailbreak. The order reportedly bars foreign nationals — including foreign Anthropic staff in the US — from access, and outlets describe it as a watershed for AI national-security policy.",
+          "sources": [
+            {
+              "outlet": "TechRadar",
+              "url": "https://www.techradar.com/ai-platforms-assistants/claude/after-a-potential-jailbreak-anthropic-is-shutting-off-access-to-its-mythos-5-and-fable-5-models-under-national-security-orders-from-the-us-government",
+              "title": "After a 'potential jailbreak', Anthropic is shutting off access to its Mythos 5 and Fable 5 models under national security orders from the US government",
+              "publishedAt": "2026-06-12T18:00:00Z"
+            },
+            {
+              "outlet": "heise online",
+              "url": "https://www.heise.de/en/news/US-government-forces-shutdown-of-Anthropic-s-AI-Fable-5-and-Mythos-5-11331146.html",
+              "title": "US government forces shutdown of Anthropic's AI Fable 5 and Mythos 5",
+              "publishedAt": "2026-06-13T08:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "social",
+          "keyFraming": "Anthropic says the underlying jailbreak was narrow and the surfaced vulnerabilities minor, but is complying with the order.",
+          "summary": "In its own statement, Anthropic said it received only verbal evidence of a narrow, non-universal jailbreak — asking the model to read a codebase and fix flaws — and that the surfaced vulnerabilities were minor and already publicly known. The company said it is complying with the government directive while disputing the severity of the reported issue.",
+          "sources": [
+            {
+              "outlet": "Anthropic",
+              "url": "https://www.anthropic.com/news/fable-mythos-access",
+              "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+              "publishedAt": "2026-06-12T22:00:00Z"
+            },
+            {
+              "outlet": "The New Stack",
+              "url": "https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/",
+              "title": "Federal government orders Anthropic to pull Fable 5 and Mythos 5, three days after launch",
+              "publishedAt": "2026-06-12T20:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "anti-weaponization-fund-injunction-brinkema-2026-06-12",
       "headline": "Federal judge indefinitely blocks Trump's $1.8B 'anti-weaponization' fund, demands sworn declaration it is dead",
       "summary": "US District Judge Leonie Brinkema issued a preliminary injunction on June 12 indefinitely barring the Trump administration from creating the roughly $1.8 billion 'anti-weaponization' fund that grew out of a settlement of Trump's lawsuit against the IRS and DOJ. She said she did not believe the fund was truly dead because DOJ's assurances were not made under penalty of perjury, and gave the administration a week to swear it will not revive it under a new name.",
@@ -86,7 +142,7 @@
         "spending"
       ],
       "firstSeenAt": "2026-06-13T11:01:46Z",
-      "updatedAt": "2026-06-13T11:01:46Z",
+      "updatedAt": "2026-06-13T17:03:49Z",
       "perspectives": [
         {
           "lean": "center",
@@ -149,7 +205,7 @@
         "fed"
       ],
       "firstSeenAt": "2026-06-12T23:05:58Z",
-      "updatedAt": "2026-06-13T11:01:46Z",
+      "updatedAt": "2026-06-13T17:03:49Z",
       "perspectives": [
         {
           "lean": "center",
@@ -199,7 +255,7 @@
         "cairo"
       ],
       "firstSeenAt": "2026-06-12T23:05:58Z",
-      "updatedAt": "2026-06-13T11:01:46Z",
+      "updatedAt": "2026-06-13T17:03:49Z",
       "perspectives": [
         {
           "lean": "foreign-western",

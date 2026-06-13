@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:01:46Z",
+  "lastUpdated": "2026-06-13T17:03:49Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -32,7 +32,7 @@
     "barrelsBlockedDaily": 10000000,
     "globalOilSharePercent": 20,
     "insuranceStatus": "War-risk premium ~0.2-0.4% of hull value (from 0.125% pre-crisis), ~+$250k per large-tanker transit",
-    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — has been effectively closed since early March under a 'dual blockade': Iran controls passage through a toll regime while the US Navy interdicts Iran-linked traffic. Transits have collapsed from ~140/day to a trickle (about 191 vessels crossed in all of April per Kpler), removing roughly 10 million barrels/day of supply from the seaborne market.",
+    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — remains effectively closed but is on the brink of reopening. The IRGC's June 11 'total closure' claim is disputed by US CENTCOM, and tanker traffic has been reported rising (roughly half of transits using the Iran-designated route). A US-Iran memorandum — reported as the 'Islamabad Declaration' — could be signed as soon as Sunday June 14 near the G7 in Europe, committing Tehran to reopen the strait within 30 days; a senior Trump official puts the odds of a deal at ~80%. Iran has not confirmed a final deal, so no formal transit resumption is yet in force.",
     "source": "Wikipedia — 2026 Strait of Hormuz crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
     "timeline": [
@@ -154,6 +154,13 @@
         "status": "effectively_closed",
         "source": "Reuters / Al Jazeera",
         "sourceUrl": "https://www.tbsnews.net/world/us-iran-peace-memorandum-could-be-signed-sunday-geneva-1461326"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Crude held near a two-month low into the weekend (WTI ~$84.9, Brent ~$87.3 after Friday's settles of $84.88 and $87.33) as a senior Trump administration official put the odds of a US-Iran agreement to reopen the Strait of Hormuz at about 80% in the coming days. Iran's Mehr News circulated a 14-point draft committing Tehran to reopen the strait within 30 days and end the naval blockade in exchange for lifting oil sanctions and releasing frozen funds; Trump disputed that the leaked text reflected the agreed terms and Tehran did not confirm a final deal. The strait stayed effectively closed with no confirmed transit resumption.",
+        "status": "effectively_closed",
+        "source": "CNBC / Business Standard",
+        "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html"
       }
     ]
   },
@@ -639,6 +646,24 @@
       "fact": "Oil closed the week at a roughly two-month low, with WTI settling near $84.33/bbl (-3.9%) and Brent near $86.98 (-3.8%) on June 12, 2026, as reports said a US-Iran memorandum to reopen the Strait of Hormuz could be signed over the weekend near the G7 in Europe; Tehran said the text was not final and US forces downed two Iranian drones near the strait earlier that day.",
       "source": "TradingKey (Reuters) / oilprice.com",
       "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/261964642-iran-deal-oil-price-wti-brent-g7-trump-market-tradingkey",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "WTI crude settled at $84.88/bbl (down 3.2%) and Brent at $87.33 (down 3.4%) on June 12, 2026 — WTI's lowest close since January 25 and a roughly two-month low — as the US and Iran neared a deal to reopen the Strait of Hormuz. A senior Trump administration official put the odds of an agreement in the coming days at about 80%.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "The AAA national average for regular gasoline eased to $4.108/gallon by June 12, 2026 — down nearly 20 cents over the week — as crude slid to a two-month low on hopes for a US-Iran settlement, though pump prices remain about 35% above the late-February pre-war level near $3.05.",
+      "source": "AAA Gas Prices",
+      "sourceUrl": "https://gasprices.aaa.com/",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "Iran's Mehr News Agency reported a 14-point draft US-Iran agreement that would lift US oil sanctions and release frozen Iranian funds in exchange for Tehran reopening the Strait of Hormuz within 30 days and ending the naval blockade; President Trump disputed that the leaked text reflected the agreed terms, and a memorandum (the 'Islamabad Declaration') was reported as possibly being signed near the G7 in Europe as soon as Sunday June 14.",
+      "source": "Business Standard (Reuters)",
+      "sourceUrl": "https://www.business-standard.com/markets/commodities/oil-prices-slump-to-2-month-low-as-trump-calls-off-planned-strikes-on-iran-126061200096_1.html",
       "date": "2026-06-12"
     }
   ]
