@@ -1,39 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-13T05:01:56Z",
+  "lastUpdated": "2026-06-13T11:01:46Z",
   "stories": [
-    {
-      "id": "anthropic-claude-fable-mythos-public-release-2026-06-10",
-      "headline": "Anthropic releases Claude Fable, its first public Mythos-class model, days after a confidential IPO filing",
-      "summary": "Anthropic released Claude Fable on June 9, the first publicly accessible model from its Mythos tier, days after it confidentially filed for an IPO at a roughly $965 billion valuation. The company describes Fable as a general-purpose model with strong coding and computer-security capability, wrapped in guardrails that block high-risk uses. The launch positions Anthropic ahead of a potential landmark public offering and intensifies the frontier-model race with OpenAI and Google.",
-      "category": "ai-tech",
-      "importance": 5,
-      "tags": [
-        "anthropic",
-        "claude",
-        "ipo",
-        "frontier-models",
-        "ai-safety",
-        "security"
-      ],
-      "firstSeenAt": "2026-06-10T17:05:11Z",
-      "updatedAt": "2026-06-11T02:42:39Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "The IPO timing and the Fable launch are synergistic — Anthropic is showcasing its most capable public model just as it courts public-market investors.",
-          "summary": "TechCrunch and Dataconomy covered Claude Fable 5 as the first Mythos-class model the public can access, replacing Opus 4.8 as Anthropic's most capable public model at roughly double the price ($10 per million input and $50 per million output tokens). Coverage stressed the IPO subtext: the launch landed days after Anthropic's confidential filing at a $965 billion valuation, with run-rate revenue reported near $47 billion, positioning it to debut in a hype window.",
-          "sources": [
-            {
-              "outlet": "Dataconomy",
-              "url": "https://dataconomy.com/2026/06/10/anthropic-claude-fable-5-ipo-965-billion/",
-              "title": "Anthropic Launches Claude Fable 5 Ahead Of $965 Billion IPO",
-              "publishedAt": "2026-06-10T12:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "anthropic-fable-5-hidden-throttle-rollback-2026-06-11",
       "headline": "Anthropic rolls back hidden Claude Fable 5 limits after researchers call covert downgrades 'sabotage'",
