@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T17:03:49Z",
+  "lastUpdated": "2026-06-13T23:05:23Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -32,7 +32,7 @@
     "barrelsBlockedDaily": 10000000,
     "globalOilSharePercent": 20,
     "insuranceStatus": "War-risk premium ~0.2-0.4% of hull value (from 0.125% pre-crisis), ~+$250k per large-tanker transit",
-    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — remains effectively closed but is on the brink of reopening. The IRGC's June 11 'total closure' claim is disputed by US CENTCOM, and tanker traffic has been reported rising (roughly half of transits using the Iran-designated route). A US-Iran memorandum — reported as the 'Islamabad Declaration' — could be signed as soon as Sunday June 14 near the G7 in Europe, committing Tehran to reopen the strait within 30 days; a senior Trump official puts the odds of a deal at ~80%. Iran has not confirmed a final deal, so no formal transit resumption is yet in force.",
+    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — remains effectively closed but is on the brink of reopening. The IRGC's June 11 'total closure' claim is disputed by US CENTCOM. President Trump said a US-Iran memorandum (the 'Islamabad Declaration') would be signed Sunday June 14 in Geneva by VP Vance and Iran's parliament speaker Qalibaf, reopening the strait within 30 days, but Iran's foreign ministry said on June 13 the deal would NOT be signed Sunday — possibly remotely 'in the coming days' — citing US 'instability.' No formal transit resumption is yet in force, and shipping trackers report near-zero verified outbound commercial transits for several consecutive days.",
     "source": "Wikipedia — 2026 Strait of Hormuz crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
     "timeline": [
@@ -161,13 +161,20 @@
         "status": "effectively_closed",
         "source": "CNBC / Business Standard",
         "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Iran's foreign ministry spokesman Esmaeil Baghaei said the Pakistan-mediated memorandum with the US would NOT be signed Sunday June 14 as Pakistan's PM had suggested, though it could be finalized 'in the coming days,' possibly via electronic signing, citing reservations about US 'instability.' Crude held its two-month low into the weekend (WTI ~$84.9, Brent ~$87.3) and the strait stayed effectively closed with shipping trackers reporting near-zero verified outbound commercial transits.",
+        "status": "effectively_closed",
+        "source": "Middle East Monitor / France 24",
+        "sourceUrl": "https://www.middleeastmonitor.com/20260613-iran-says-signing-of-memorandum-of-understanding-with-us-will-not-be-tomorrow/"
       }
     ]
   },
   "gas": {
-    "currentAverage": 4.108,
+    "currentAverage": 4.086,
     "preWarAverage": 3.05,
-    "changePercent": 34.7,
+    "changePercent": 34,
     "unit": "$/gallon",
     "source": "AAA",
     "sourceUrl": "https://gasprices.aaa.com/",
@@ -244,6 +251,11 @@
         "date": "2026-06-12",
         "price": 4.108,
         "label": "AAA national avg (June 12); easing toward $4.11 as crude slides to a two-month low on Trump's claimed Iran war settlement"
+      },
+      {
+        "date": "2026-06-13",
+        "price": 4.086,
+        "label": "AAA national avg (June 13); easing toward $4.09 as crude holds a two-month low on US-Iran deal hopes"
       }
     ],
     "breakdown": [
@@ -409,8 +421,8 @@
         "type": "Regular gasoline",
         "icon": "⛽",
         "preWarPrice": 3.05,
-        "currentPrice": 4.108,
-        "changePercent": 34.7,
+        "currentPrice": 4.086,
+        "changePercent": 34,
         "source": "AAA",
         "sourceUrl": "https://gasprices.aaa.com/"
       },
@@ -664,6 +676,18 @@
       "fact": "Iran's Mehr News Agency reported a 14-point draft US-Iran agreement that would lift US oil sanctions and release frozen Iranian funds in exchange for Tehran reopening the Strait of Hormuz within 30 days and ending the naval blockade; President Trump disputed that the leaked text reflected the agreed terms, and a memorandum (the 'Islamabad Declaration') was reported as possibly being signed near the G7 in Europe as soon as Sunday June 14.",
       "source": "Business Standard (Reuters)",
       "sourceUrl": "https://www.business-standard.com/markets/commodities/oil-prices-slump-to-2-month-low-as-trump-calls-off-planned-strikes-on-iran-126061200096_1.html",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "On June 13, 2026 Iran's foreign ministry said the US-Iran memorandum would not be signed Sunday June 14 as Pakistan's PM had suggested — possibly remotely 'in the coming days' — keeping crude near a two-month low (WTI ~$84.9, Brent ~$87.3) but extending uncertainty over when the Strait of Hormuz would actually reopen.",
+      "source": "Middle East Monitor / France 24",
+      "sourceUrl": "https://www.middleeastmonitor.com/20260613-iran-says-signing-of-memorandum-of-understanding-with-us-will-not-be-tomorrow/",
+      "date": "2026-06-13"
+    },
+    {
+      "fact": "Even if a US-Iran deal is signed, analysts cautioned oil flows would not normalize immediately: obstacles include clearing mines from the Strait of Hormuz, restarting idled Gulf production fields, and repairing energy facilities damaged by drone and missile attacks.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-12"
     }
   ]

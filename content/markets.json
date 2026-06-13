@@ -1,45 +1,7 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-13T17:03:49Z",
+  "lastUpdated": "2026-06-13T23:05:23Z",
   "stories": [
-    {
-      "id": "us-equities-slip-cpi-iran-chips-2026-06-10",
-      "headline": "US stocks slip as hot CPI, US-Iran strikes and a chip hangover weigh on the June 10 session",
-      "summary": "US equities closed sharply lower on June 10 as the 4.2% CPI print and overnight US-Iran strikes hit risk appetite. The Dow fell 1.87% (-953 points) to 49,918.78, the S&P 500 dropped 1.62% to 7,266.99 and the Nasdaq lost 1.98% to 25,169.50. Chipmakers stayed pressured after Broadcom's June 4 AI-guidance miss wiped more than $1.3 trillion in semiconductor value. The 10-year Treasury yield eased to about 4.52% as core CPI's soft 0.2% monthly print offered some relief.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "sp500",
-        "nasdaq",
-        "semiconductors",
-        "treasury-yields",
-        "federal-reserve"
-      ],
-      "firstSeenAt": "2026-06-10T17:05:11Z",
-      "updatedAt": "2026-06-11T02:42:39Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Markets are absorbing overlapping shocks — war, inflation and an AI valuation reset — with the hot CPI cementing a hawkish Fed rather than a near-term rally.",
-          "summary": "TheStreet reported the Dow shedding roughly 900 points as the US signaled more strikes on Iran, while Wolf Street detailed CPI internals showing inflation broadening into supercore services even as the soft 0.2% monthly core print eased the 10-year yield toward 4.52%. With the funds rate at 3.50-3.75%, traders now price a hold at the June 16-17 meeting and a possible hike by December.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-10-2026",
-              "title": "Stock Market Today (June 10, 2026): Dow dips 900 points as U.S. signals more strikes in Iran",
-              "publishedAt": "2026-06-10T21:00:00Z"
-            },
-            {
-              "outlet": "Wolf Street",
-              "url": "https://wolfstreet.com/2026/06/10/cpi-inflation-4-25-blows-by-2-year-treasury-yield-closes-in-on-10-year-treasury-driven-by-supercore-services-gasoline-electricity/",
-              "title": "CPI Inflation 4.25% Blows By, Driven by 'Supercore' Services, Gasoline, Electricity",
-              "publishedAt": "2026-06-10T18:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "oil-extends-gains-second-day-us-iran-strikes-2026-06-11",
       "headline": "Oil extends gains as second day of US strikes on Iran and Hormuz closure claim tighten supply; Brent tops $96",
@@ -79,19 +41,6 @@
               "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
               "title": "Stock market today: live updates",
               "publishedAt": "2026-06-11T10:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "government",
-          "keyFraming": "US officials stress that exports and Gulf traffic are recovering, casting the strikes as self-defense rather than a deliberate energy shock.",
-          "summary": "OilPrice.com relayed US Energy Secretary Chris Wright's message that vessel traffic and Strait exports were rising despite the disruption, presenting the strikes as proportional responses to the downing of a US helicopter. The administration line sought to reassure markets that physical flows were not being fully severed even as Iran declared the strait closed.",
-          "sources": [
-            {
-              "outlet": "OilPrice.com",
-              "url": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
-              "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
-              "publishedAt": "2026-06-10T18:00:00Z"
             }
           ]
         }
@@ -628,6 +577,51 @@
               "url": "https://www.indexbox.io/blog/fed-meeting-preview-june-1617-fomc-decision-and-potential-bias-shift/",
               "title": "Fed Meeting Preview: June 16-17 FOMC Decision and Potential Bias Shift",
               "publishedAt": "2026-06-11T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-equities-friday-close-spacex-iran-relief-2026-06-13",
+      "headline": "Wall Street rises Friday on record SpaceX debut and US-Iran deal hopes; S&P 500 ends near a record",
+      "summary": "US stocks closed higher Friday June 12 as a historic SpaceX IPO and optimism over an imminent US-Iran settlement lifted sentiment. The S&P 500 rose 0.5% to 7,431.46, the Nasdaq added 0.3% to 25,888.84 and the Dow gained 354 points to 51,202.26 — recovering from the prior week's chip-driven selloff that briefly knocked the Dow below 50,000. SpaceX (SPCX) closed at $161 (+19% over its $135 IPO price), having raised a record $75B in the largest IPO in Wall Street history.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "equities",
+        "sp500",
+        "nasdaq",
+        "dow",
+        "ipo",
+        "spacex"
+      ],
+      "firstSeenAt": "2026-06-13T23:05:23Z",
+      "updatedAt": "2026-06-13T23:05:23Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A relief rally on de-escalation plus a record IPO lifts indices back toward records after the chip rout.",
+          "summary": "CNBC reported indices rose Friday on Iran-deal optimism and the SpaceX debut, with the S&P 500 ending near records after rebounding from the prior week's semiconductor selloff and falling oil easing inflation fears ahead of Warsh's first FOMC.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
+              "title": "Stock market news for June 12, 2026",
+              "publishedAt": "2026-06-12T21:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "A private-sector triumph: Musk's SpaceX prints the biggest IPO in Wall Street history.",
+          "summary": "CNBC's IPO coverage noted SPCX jumped 19% to close at $161 in a record $75B debut at a roughly $1.77 trillion implied valuation — a marquee win for American capital markets and a counterpoint to the week's chip-driven volatility.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+              "title": "SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut",
+              "publishedAt": "2026-06-12T20:30:00Z"
             }
           ]
         }

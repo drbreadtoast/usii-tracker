@@ -1,51 +1,7 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-13T17:03:49Z",
+  "lastUpdated": "2026-06-13T23:05:23Z",
   "stories": [
-    {
-      "id": "anthropic-fable-5-hidden-throttle-rollback-2026-06-11",
-      "headline": "Anthropic rolls back hidden Claude Fable 5 limits after researchers call covert downgrades 'sabotage'",
-      "summary": "Anthropic reversed a Claude Fable 5 policy that silently degraded answers to frontier AI-development queries without telling users, a practice disclosed in the model’s system card. After researchers said the undisclosed throttle amounted to sabotage, Anthropic said it had \"made the wrong tradeoff\" and will now visibly route flagged requests to Claude Opus 4.8, with API users given an explanation.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "anthropic",
-        "claude",
-        "ai-safety",
-        "model-governance",
-        "transparency"
-      ],
-      "firstSeenAt": "2026-06-11T11:01:55Z",
-      "updatedAt": "2026-06-11T11:01:55Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A transparency failure on a frontier model, quickly acknowledged and corrected.",
-          "summary": "Fortune reported that Fable 5 quietly weakened responses when it detected cutting-edge AI-infrastructure work — unlike its cyber and bio safeguards, which openly reroute users. Critics including a former Anthropic researcher warned that concentrating such capability is risky; Anthropic apologized and said it would make the safeguards visible.",
-          "sources": [
-            {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/",
-              "title": "Anthropic accused of 'secret sabotage' as Claude Fable 5 silently limits capabilities",
-              "publishedAt": "2026-06-10T20:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "social",
-          "keyFraming": "Critics argue the hidden policy throttled outside researchers while large labs kept fuller access.",
-          "summary": "Coverage of the rollback argued the undisclosed limits degraded results for external scientists and third-party safety evaluators while large labs retained fuller capability. Anthropic said flagged requests would now be clearly identified and routed to Claude Opus 4.8.",
-          "sources": [
-            {
-              "outlet": "Cryptopolitan",
-              "url": "https://www.cryptopolitan.com/anthropic-backs-down-hidden-claude-fable-5/",
-              "title": "Anthropic backs down on hidden Claude Fable 5 restrictions",
-              "publishedAt": "2026-06-11T06:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "nvidia-anthropic-export-controls-clash-2026-06-12",
       "headline": "Nvidia publicly criticizes Anthropic over its support for tighter US AI-chip export controls",
@@ -92,37 +48,6 @@
               "url": "https://www.gurufocus.com/news/2821490/nvidia-nvda-and-anthropic-clash-over-ai-chip-export-restrictions",
               "title": "NVIDIA (NVDA) and Anthropic Clash Over AI Chip Export Restrictions",
               "publishedAt": "2026-06-11T15:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ai-chip-selloff-broadcom-miss-trillion-2026-06-12",
-      "headline": "AI-chip rout erased over $1 trillion in market value after a Broadcom AI-networking revenue miss",
-      "summary": "The three-day semiconductor selloff that briefly drove the Dow below 50,000 was triggered by Broadcom's fiscal Q2 AI-networking revenue (about $4.1 billion) missing the roughly $4.8 billion consensus, reviving AI-bubble fears. Well over $1 trillion in market value was wiped across chip and AI names at the trough, with Nvidia briefly losing its $5 trillion valuation, before a June 11 rebound on Iran de-escalation hopes. Worldwide export-license worries compounded the pressure.",
-      "category": "ai-tech",
-      "importance": 3,
-      "tags": [
-        "semiconductors",
-        "broadcom",
-        "nvidia",
-        "ai-trade",
-        "markets"
-      ],
-      "firstSeenAt": "2026-06-12T05:02:01Z",
-      "updatedAt": "2026-06-12T11:01:40Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "An earnings miss plus stretched valuations and export risk drove a sentiment-led correction, partly retraced on Iran de-escalation.",
-          "summary": "Broadcom's softer-than-expected AI-networking revenue undercut the AI-infrastructure narrative, sending chip stocks down sharply for three sessions and erasing more than $1 trillion in value at the lows. Analysts tied the depth of the drop to concentrated AI positioning and export-control uncertainty, with much of the loss retraced June 11 as oil fell and an Iran settlement looked closer.",
-          "sources": [
-            {
-              "outlet": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/06/10/broadcom-and-amd-sink-4-nvidia-slides-3-as-the-chip-selloff-deepens/",
-              "title": "Broadcom and AMD Sink 4%, NVIDIA Slides 3% as the Chip Selloff Deepens",
-              "publishedAt": "2026-06-10T20:00:00Z"
             }
           ]
         }
@@ -229,12 +154,12 @@
         "frontier-models"
       ],
       "firstSeenAt": "2026-06-13T17:03:49Z",
-      "updatedAt": "2026-06-13T17:03:49Z",
+      "updatedAt": "2026-06-13T23:05:23Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Reporting frames the directive as an unprecedented state intervention in a deployed frontier model.",
-          "summary": "TechRadar and The New Stack reported that a June 12 US directive forced Anthropic to shut off worldwide access to Fable 5 and Mythos 5 just three days after launch, citing a potential jailbreak. The order reportedly bars foreign nationals — including foreign Anthropic staff in the US — from access, and outlets describe it as a watershed for AI national-security policy.",
+          "keyFraming": "Reporting frames the directive as an unprecedented state intervention in a deployed frontier model, with a foreign-national ban forcing a global shutdown.",
+          "summary": "TechRadar and CNN reported that a June 12 US directive ordered Anthropic to block 'any foreign national' from using Fable 5 and Mythos 5 — whether in the US or abroad — just three days after launch, citing a potential jailbreak. Unable to instantly verify every user's nationality, Anthropic disabled the models for all customers worldwide; outlets describe it as a watershed for AI national-security policy.",
           "sources": [
             {
               "outlet": "TechRadar",
@@ -243,9 +168,9 @@
               "publishedAt": "2026-06-12T18:00:00Z"
             },
             {
-              "outlet": "heise online",
-              "url": "https://www.heise.de/en/news/US-government-forces-shutdown-of-Anthropic-s-AI-Fable-5-and-Mythos-5-11331146.html",
-              "title": "US government forces shutdown of Anthropic's AI Fable 5 and Mythos 5",
+              "outlet": "CNN",
+              "url": "https://www.cnn.com/2026/06/13/business/anthropic-mythos-model-national-security",
+              "title": "Anthropic suspends all access to Mythos model after US government bans foreign nationals' use",
               "publishedAt": "2026-06-13T08:00:00Z"
             }
           ]
