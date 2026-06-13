@@ -1,6 +1,6 @@
 {
   "sectionId": "underreported",
-  "lastUpdated": "2026-06-12T23:05:58Z",
+  "lastUpdated": "2026-06-13T05:01:56Z",
   "stories": [
     {
       "id": "ethiopia-ruling-party-sweep-tigray-locked-out-2026-06-10",
@@ -259,30 +259,43 @@
     },
     {
       "id": "drc-uganda-bundibugyo-ebola-2026-06-12",
-      "headline": "DRC-Uganda Bundibugyo Ebola outbreak passes 635 cases and 127 deaths, spreading to new health zones",
-      "summary": "WHO and ECDC updates around June 9-11 report the Bundibugyo-virus Ebola outbreak in the DRC has reached 635 confirmed cases and 127 deaths, with 37 new cases since the prior update. Ituri remains the epicentre (about 600 cases across 18 health zones), with a newly affected zone reported and additional cases in North and South Kivu. Uganda has 19 confirmed cases and 2 deaths linked to DRC transmission, including among healthcare workers.",
+      "headline": "Ebola reaches a crowded DR Congo displacement camp as Bundibugyo outbreak hits 689 cases and 139 deaths",
+      "summary": "UNHCR confirmed the first Ebola deaths inside an internally-displaced-persons site — a woman and her daughter in a camp near Bunia, Ituri housing tens of thousands. The Bundibugyo-strain outbreak, declared a public-health emergency on May 17, has now reached about 689 confirmed cases and 139 deaths across Ituri, North and South Kivu. Aid groups warn of rapid spread in camps with dry taps, overcrowding and poor sanitation, against a backdrop of active conflict.",
       "category": "underreported",
-      "importance": 3,
+      "importance": 5,
       "tags": [
         "ebola",
         "dr-congo",
         "uganda",
         "public-health",
-        "who",
+        "displacement",
         "epidemic"
       ],
       "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T17:04:34Z",
+      "updatedAt": "2026-06-13T05:01:56Z",
       "perspectives": [
         {
-          "lean": "center",
-          "keyFraming": "Official epidemiology shows rapid case growth, geographic spread into Kivu and healthcare-worker transmission — detail absent from US front pages.",
-          "summary": "WHO Disease Outbreak News documented 635 cases and 127 deaths, a newly affected health zone, and the cross-border DRC-to-Uganda chain, urging stepped-up surveillance and vaccination as the rainy season complicates response.",
+          "lean": "foreign-global-south",
+          "keyFraming": "African and humanitarian coverage centers the collision of the outbreak with active conflict and millions of displaced people whose camps lack water and sanitation — the structural reason it could explode.",
+          "summary": "Al Jazeera reported alarm as Ebola spread into new areas of DR Congo, including the first deaths recorded inside a displacement camp, with the toll rising to roughly 689 cases and 139 deaths and signs of local transmission in newly affected communities.",
           "sources": [
             {
-              "outlet": "WHO",
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606",
-              "title": "Ebola disease caused by Bundibugyo virus — Democratic Republic of the Congo & Uganda",
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/12/alarm-as-ebola-spreads-into-new-areas-of-dr-congo",
+              "title": "Alarm as Ebola spreads into new areas of DR Congo",
+              "publishedAt": "2026-06-12T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "European tracking emphasises the outbreak's trajectory and the risk of further cross-border spread.",
+          "summary": "The ECDC's situational updates tracked the climbing case and death toll, the spread to new health zones in Ituri and the Kivus, and the epidemiologically linked Ugandan cases including infected health workers.",
+          "sources": [
+            {
+              "outlet": "ECDC",
+              "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+              "title": "Ebola disease outbreak in the Democratic Republic of the Congo and Uganda",
               "publishedAt": "2026-06-11T00:00:00Z"
             }
           ]
@@ -540,6 +553,83 @@
               "url": "https://www.arabnews.com/node/2646788/amp",
               "title": "Drone strikes on key Sudan city kill 23: rights group",
               "publishedAt": "2026-06-11T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unhcr-global-displacement-first-decline-decade-2026-06-13",
+      "headline": "Global forced displacement falls for the first time in a decade but 117.8 million remain uprooted: UNHCR",
+      "summary": "UNHCR's flagship Global Trends Report found forced displacement dropped to 117.8 million at the end of 2025, down 5.4 million from 2024 — the first decline in 10 years. Refugee numbers fell about 3% to 41.6 million, and some 14.7 million people returned home, driven by Afghanistan, Syria and Sudan. UNHCR cautioned that many returns were under duress to fragile conditions and warned the gain is already being overshadowed by new displacement from Middle East conflict.",
+      "category": "underreported",
+      "importance": 4,
+      "tags": [
+        "unhcr",
+        "refugees",
+        "displacement",
+        "syria",
+        "afghanistan",
+        "sudan"
+      ],
+      "firstSeenAt": "2026-06-13T05:01:56Z",
+      "updatedAt": "2026-06-13T05:01:56Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "US front pages largely skipped this annual benchmark; UN coverage stresses that the 'decline' is partly forced or precarious returns, not durable solutions.",
+          "summary": "UN News reported refugee numbers dropping for the first time in a decade while millions remain trapped, noting that returns to Afghanistan, Syria and Sudan often sent people back to fragile or unsafe conditions and that fresh Middle East displacement is already reversing the trend.",
+          "sources": [
+            {
+              "outlet": "UN News",
+              "url": "https://news.un.org/en/story/2026/06/1167693",
+              "title": "Refugee numbers drop for first time in a decade, but millions remain trapped",
+              "publishedAt": "2026-06-12T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "African coverage foregrounds returns to the continent's own crises and the precariousness behind the headline drop.",
+          "summary": "Africanews reported the global figure falling for the first time in a decade, framing it through large-scale returns to Afghanistan, Syria and Sudan and warning that durable reintegration support is lagging.",
+          "sources": [
+            {
+              "outlet": "Africanews",
+              "url": "https://www.africanews.com/2026/06/12/unhcr-number-of-displaced-people-worldwide-falls-for-first-time-in-a-decade/",
+              "title": "UNHCR: number of displaced people worldwide falls for first time in a decade",
+              "publishedAt": "2026-06-12T11:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mali-jnim-bounty-junta-leader-goita-2026-06-13",
+      "headline": "Mali's al-Qaeda affiliate JNIM offers a €2 million bounty for the capture of junta leader Goïta",
+      "summary": "JNIM, al-Qaeda's Sahel branch, offered more than €2 million ($2.3M) for information on the whereabouts of Mali's transitional president Gen. Assimi Goïta, plus about €1 million each for two senior officers, branding the junta 'illegitimate.' The move answers Bamako's own bounties — roughly $3.5M for JNIM chief Iyad Ag Ghaly and $2.5M for his deputy — marking an unusual public psychological-warfare exchange as the insurgency tightens pressure around the capital.",
+      "category": "underreported",
+      "importance": 3,
+      "tags": [
+        "mali",
+        "sahel",
+        "jnim",
+        "al-qaeda",
+        "goita",
+        "insurgency"
+      ],
+      "firstSeenAt": "2026-06-13T05:01:56Z",
+      "updatedAt": "2026-06-13T05:01:56Z",
+      "perspectives": [
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "African coverage reads the bounty as a signal of how far the insurgency has reversed the power balance — a non-state group can now publicly hunt a sitting head of state.",
+          "summary": "Vanguard reported the dueling rewards, noting Bamako had offered $3.5 million for the Sahel al-Qaeda chief, while JNIM's counter-bounty on Goïta underscores the junta's deteriorating security position despite its break with France and pivot to Russian support.",
+          "sources": [
+            {
+              "outlet": "Vanguard (Nigeria)",
+              "url": "https://www.vanguardngr.com/2026/06/mali-junta-offers-3-5-million-reward-for-sahel-al-qaeda-chief/",
+              "title": "Mali junta offers $3.5 million reward for Sahel Al-Qaeda chief",
+              "publishedAt": "2026-06-12T10:00:00Z"
             }
           ]
         }
