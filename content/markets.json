@@ -1,289 +1,11 @@
 {
   "sectionId": "markets",
-  "lastUpdated": "2026-06-14T11:01:28Z",
+  "lastUpdated": "2026-06-14T17:04:06Z",
   "stories": [
     {
-      "id": "trump-cancels-iran-strikes-oil-tumbles-2026-06-12",
-      "headline": "Oil tumbles about 3% as Trump cancels Iran strikes and claims the war is 'settled' pending a signing",
-      "summary": "Crude reversed an earlier war-premium spike on June 11 after President Trump abruptly canceled strikes he had threatened hours earlier and said the US had 'made a great settlement of the war with Iran,' subject to finalization. Brent settled near $90.4 (down about 3%) and WTI near $87.7, both extending losses after-hours. Iran did not confirm a deal, and its claimed total closure of the Strait of Hormuz remained disputed by US CENTCOM, leaving a residual war premium.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "oil",
-        "brent",
-        "wti",
-        "iran",
-        "hormuz",
-        "geopolitics"
-      ],
-      "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T11:01:40Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Traders faded the morning spike on the strike cancellation while keeping a war premium given no confirmed Iranian sign-off.",
-          "summary": "Brent swung below $93 intraday before settling down about 3% near $90.38; WTI fell about 2% to $87.71. Trump's cancellation of planned strikes and claim of a settlement 'subject to finalization' drove the reversal. Reports said tanker traffic through Hormuz had increased, easing acute supply fears even as Iran's IRGC claimed a total closure that CENTCOM disputed.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/11/brent-wti-oil-prices-us-launches-fresh-strikes-on-iran-.html",
-              "title": "Brent, WTI oil prices: Trump calls off Iran strikes",
-              "publishedAt": "2026-06-11T21:00:00Z"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/11/trump-iran-strikes-deal.html",
-              "title": "Trump claims Iran war settled 'subject to finalization,' expects signing in 'next few days'",
-              "publishedAt": "2026-06-11T20:30:00Z"
-            },
-            {
-              "outlet": "Investing.com (Reuters)",
-              "url": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
-              "title": "Oil extends losses as Trump calls off planned strikes on Iran",
-              "publishedAt": "2026-06-12T07:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "A durable deal reopening Hormuz could unwind the oil shock behind the worst inflation in three years — a potential economic win.",
-          "summary": "Bloomberg reported Trump said discussions had been 'brought to the highest level of Iranian leadership and approved.' Analysts noted a credible deal would restore disrupted Gulf flows and relieve pump prices into the FOMC, while skeptics flagged Iran's silence and Trump's repeated same-day reversals as reasons for caution.",
-          "sources": [
-            {
-              "outlet": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-11/trump-cancels-planned-strikes-against-iran-in-latest-reversal",
-              "title": "Trump Cancels Planned Strikes Against Iran in Latest Reversal",
-              "publishedAt": "2026-06-11T22:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Another same-day reversal underscores erratic policymaking; Iran has not confirmed any deal and the strait remains contested.",
-          "summary": "NPR and the Washington Post noted Trump went from vowing to 'hit 'em hard tonight' to canceling strikes and announcing a settlement within hours, with no Iranian confirmation and US bases freshly targeted, keeping the risk of a return to all-out war elevated even as markets chose to price in de-escalation.",
-          "sources": [
-            {
-              "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes",
-              "title": "Trump now says a peace deal will be announced 'soon,' cancels further strikes",
-              "publishedAt": "2026-06-11T21:30:00Z"
-            },
-            {
-              "outlet": "Washington Post",
-              "url": "https://www.washingtonpost.com/world/2026/06/11/iran-targets-five-us-bases-raising-fears-return-all-out-war/",
-              "title": "Trump says he has canceled plans to strike Iran, claiming deal is near",
-              "publishedAt": "2026-06-11T20:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "stocks-fall-broadcom-nvidia-chip-selloff-dow-below-50k-2026-06-12",
-      "headline": "Stocks rebound and Dow reclaims 50,000 as Iran de-escalation hopes lift chips off a three-day selloff",
-      "summary": "US stocks rallied June 11 after President Trump signaled an Iran settlement and oil fell, reversing a three-day AI-chip rout that had driven the Dow below 50,000. The Dow jumped about 930 points (1.9%) to roughly 50,849, the Nasdaq gained about 2.5% and the S&P 500 about 1.8%, with beaten-down chips leading — Intel +10.3%, Applied Materials +7.8%, Arm +7.8%. Sticky inflation (a 4.2% May CPI and a hot 6.5% PPI) and a hawkish FOMC setup into June 16-17 tempered the bounce.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "nasdaq",
-        "sp500",
-        "dow",
-        "semiconductors",
-        "ai-trade",
-        "fed"
-      ],
-      "firstSeenAt": "2026-06-12T00:42:39Z",
-      "updatedAt": "2026-06-12T05:02:01Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A relief rally as the war premium and chip-selloff fears eased at once, with battered semiconductors leading the bounce.",
-          "summary": "After three sessions of an AI-chip rout, equities rallied June 11 on signs of a US-Iran settlement and falling oil. The Dow jumped about 930 points to roughly 50,849, the Nasdaq gained about 2.5% and the S&P 500 about 1.8%, while Intel (+10.3%), Applied Materials and Arm (both about +7.8%) led a chip rebound that had repeatedly failed earlier in the week.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026",
-              "title": "Stock Market Today (June 11, 2026): Nasdaq, S&P 500 rise after Trump, Iran signal deal is close",
-              "publishedAt": "2026-06-11T21:30:00Z"
-            },
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/10/stock-market-today-live-updates.html",
-              "title": "Dow surges 900 points after Trump says U.S. will soon sign deal with Iran, oil falls",
-              "publishedAt": "2026-06-11T21:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "The bounce is geopolitics-driven; sticky inflation and a hawkish Fed setup cap the upside even after the rally.",
-          "summary": "Analysts cautioned the rebound rested on an unconfirmed Iran de-escalation rather than improving fundamentals, with a 4.2% May CPI and a hot 6.5% May PPI keeping rate-hike risk on the table into the June 16-17 FOMC. A concentrated, AI-driven market remains vulnerable to renewed swings if the deal slips.",
-          "sources": [
-            {
-              "outlet": "BLS",
-              "url": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
-              "title": "Producer Price Index News Release — 2026 M05 Results",
-              "publishedAt": "2026-06-11T12:30:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ppi-may-2026-hot-wholesale-inflation-2026-06-12",
-      "headline": "May wholesale prices jump 1.1%, lifting annual PPI to 6.5% — highest since 2022 — on the energy shock",
-      "summary": "The May Producer Price Index rose 1.1% month-over-month, well above expectations, pushing 12-month final-demand inflation to 6.5%, the hottest since November 2022. Roughly 80% of the increase traced to a 10.7% jump in final-demand energy, with wholesale gasoline up 23.4%, confirming the Strait of Hormuz oil shock is flowing through to producer prices. Core measures came in softer than forecast, days before the June 16-17 FOMC meeting.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "ppi",
-        "inflation",
-        "energy",
-        "fed",
-        "macro"
-      ],
-      "firstSeenAt": "2026-06-12T05:02:01Z",
-      "updatedAt": "2026-06-12T11:01:40Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "The oil shock is now visible in wholesale prices, though soft core suggests limited broadening so far.",
-          "summary": "BLS data showed final-demand PPI up 1.1% in May and 6.5% over the year, the highest annual wholesale inflation since November 2022, driven overwhelmingly by a 10.7% energy surge. Economists noted the pass-through from the Hormuz-driven crude spike, while a tamer core reading offered the Fed a partial cushion ahead of its June 16-17 decision.",
-          "sources": [
-            {
-              "outlet": "BLS",
-              "url": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
-              "title": "Producer Price Index News Release — 2026 M05 Results",
-              "publishedAt": "2026-06-11T12:30:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fed-fomc-june-2026-hold-hike-odds-2026-06-12",
-      "headline": "Fed seen holding at June 16-17 meeting as hot CPI and PPI revive bets on a 2026 rate hike",
-      "summary": "With May CPI at a three-year-high 4.2% and PPI now at 6.5%, markets have largely abandoned 2026 rate-cut hopes ahead of the June 16-17 FOMC. Prediction markets and CME FedWatch price a 90%+ chance the Fed holds the funds target at 3.50-3.75%, while assigning roughly even odds to at least one 25bp hike later in 2026. The 10-year Treasury yield eased toward 4.5% as a softer core inflation reading offered partial relief.",
-      "category": "markets",
-      "importance": 3,
-      "tags": [
-        "federal-reserve",
-        "fomc",
-        "rates",
-        "inflation",
-        "treasuries"
-      ],
-      "firstSeenAt": "2026-06-12T05:02:01Z",
-      "updatedAt": "2026-06-12T11:01:40Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A hawkish hold looks likely; the inflation spike is energy-driven and could fade if Hormuz reopens, complicating the hike debate.",
-          "summary": "Prediction-market and futures pricing point to the Fed holding next week while keeping a hike in play later in 2026 after back-to-back hot inflation prints. Analysts note the surge is concentrated in energy tied to the Iran war, so a credible Hormuz-reopening deal could relieve the pressure that is driving rate-hike speculation.",
-          "sources": [
-            {
-              "outlet": "Kalshi",
-              "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26jun",
-              "title": "Fed decision in June? Odds & Predictions 2026",
-              "publishedAt": "2026-06-11T18:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "spacex-record-75b-ipo-nasdaq-debut-2026-06-12",
-      "headline": "SpaceX completes the largest IPO on record, raising about $75 billion in its Nasdaq debut",
-      "summary": "SpaceX raised roughly $75 billion by selling about 555.6 million shares at $135 apiece under the ticker SPCX, the biggest initial public offering on record, valuing the company near $1.77 trillion — among the most valuable US firms. The Nasdaq debut June 12 capped a closely watched listing amid otherwise choppy markets.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "spacex",
-        "ipo",
-        "nasdaq",
-        "equities",
-        "tech"
-      ],
-      "firstSeenAt": "2026-06-12T11:01:40Z",
-      "updatedAt": "2026-06-12T11:01:40Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Reported as a record-shattering listing and a milestone for private-space valuations.",
-          "summary": "CNBC reported SpaceX raised about $75 billion in a record-setting IPO ahead of its Nasdaq debut, pricing 555.6 million shares at $135 for a valuation near $1.77 trillion, surpassing prior IPO records and ranking the company among the most valuable in the US.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html",
-              "title": "SpaceX raises $75 billion in record-setting IPO ahead of Nasdaq debut",
-              "publishedAt": "2026-06-11T22:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Business press frames the debut as a barometer of risk appetite after a volatile week.",
-          "summary": "TheStreet's market coverage framed the SpaceX listing as a test of investor appetite, noting early trade hugged the $135 offer price as the broader market steadied following the week's semiconductor-led volatility and an easing oil price.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq updates — June 12, 2026",
-              "publishedAt": "2026-06-12T09:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "us-stocks-rebound-iran-deal-chip-bounce-2026-06-11",
-      "headline": "Wall Street rebounds as Iran-deal optimism and a chip bounce lift the Dow back above 50,000",
-      "summary": "US stocks rallied June 11, with the Dow up about 930 points (1.9%) to roughly 50,849, the S&P 500 up 1.75% and the Nasdaq up 2.5%, recovering from the week's semiconductor rout as Trump signaled an imminent Iran settlement and oil fell. The bounce retraced much of the chip-driven slide that had briefly pushed the Dow below 50,000.",
-      "category": "markets",
-      "importance": 3,
-      "tags": [
-        "equities",
-        "dow",
-        "nasdaq",
-        "iran",
-        "semiconductors"
-      ],
-      "firstSeenAt": "2026-06-12T11:01:40Z",
-      "updatedAt": "2026-06-12T11:01:40Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Markets reprice on de-escalation hopes and a lower oil price.",
-          "summary": "CNBC reported a broad rally as the Dow jumped about 930 points and the Nasdaq rose 2.5%, with investors citing Trump's claim of an imminent Iran settlement and falling crude as catalysts that reversed the week's AI-chip selloff.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
-              "title": "Stock market today: live updates",
-              "publishedAt": "2026-06-11T21:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "Business press ties the rebound to easing war risk and a retreat in oil.",
-          "summary": "TheStreet's market wrap attributed the rebound to easing Middle East tensions and lower energy prices, noting chipmakers led the bounce after the prior sessions' steep losses tied to Broadcom's results and export-control worries.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026",
-              "title": "Stock market today: Dow, S&P 500, Nasdaq updates — June 11, 2026",
-              "publishedAt": "2026-06-11T20:30:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "oil-two-month-low-iran-settlement-2026-06-12",
-      "headline": "Oil holds a two-month low as Trump touts a Sunday Iran signing to reopen Hormuz and Tehran disputes the timing",
-      "summary": "Crude held its roughly two-month low through the weekend after Friday's settles of WTI $84.88 and Brent $87.33, with the Sunday signing Trump had touted to reopen the Strait of Hormuz 'to all' arriving unconfirmed as Iran maintained no Sunday signature. A senior US official put the odds of an agreement in the coming days near 80%; analysts cautioned that even after a signing, mine-clearing, restarting idled Gulf fields and repairs would delay a full flow recovery into the third quarter.",
+      "id": "us-iran-deal-signing-slips-oil-two-month-low-2026-06-14",
+      "headline": "US-Iran signing slips past Sunday deadline; oil holds a two-month low as a G7 deal is eyed",
+      "summary": "The US-Iran memorandum that President Trump said was 'scheduled to get signed' Sunday June 14 to reopen the Strait of Hormuz did not materialize; Iran's foreign ministry said it 'will not be tomorrow' but could come 'in the coming days,' possibly at the G7 summit in France (June 15-17). A senior US official kept the odds near 80%. With markets closed, crude held Friday's roughly two-month-low settles of WTI $84.88 and Brent $87.33.",
       "category": "markets",
       "importance": 5,
       "tags": [
@@ -291,190 +13,54 @@
         "brent",
         "wti",
         "hormuz",
-        "opec"
+        "iran",
+        "g7"
       ],
-      "firstSeenAt": "2026-06-12T17:04:34Z",
-      "updatedAt": "2026-06-14T11:01:28Z",
+      "firstSeenAt": "2026-06-14T17:04:06Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Conflicting signals — a president touting an imminent deal against an Iran that will not confirm — keep a residual war premium in crude.",
-          "summary": "Markets priced roughly 80% odds of an agreement, but the gap between Trump's Sunday-signing claim and Tehran's denial kept a war premium in oil, and even a signed memorandum implies a multi-month physical recovery before Hormuz throughput normalizes, per the EIA.",
+          "keyFraming": "A missed Sunday signing keeps a residual war premium in oil; the action now shifts to the G7 in France.",
+          "summary": "NPR and Bloomberg reported the deal Trump touted for Sunday did not get signed, with Tehran pushing the timeline into 'the coming days' and officials pointing to the G7 summit as a venue. Crude held Friday's two-month-low settles (WTI $84.88, Brent $87.33) over the weekend, and analysts stressed a physical flow recovery would lag any signature by weeks to months.",
           "sources": [
             {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
-              "title": "Oil prices hold two-month low on hopes of a US-Iran deal despite Tehran pushback",
-              "publishedAt": "2026-06-12T20:00:00Z"
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/13/nx-s1-5857149/trump-iran-war-peace-deal",
+              "title": "Trump says deal to end Iran war will be signed Sunday, as Iran disagrees on timing",
+              "publishedAt": "2026-06-13T20:00:00Z"
             },
             {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/world/iran/us-iran-deal-expected-reopen-strait-hormuz-signed-days-both-sides-say-rcna349916",
-              "title": "US-Iran deal to reopen Strait of Hormuz could be signed within days, both sides say",
-              "publishedAt": "2026-06-13T22:00:00Z"
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-12/us-and-iran-nearing-a-peace-deal-around-g7-meeting-next-week",
+              "title": "US, Iran Edge Toward Interim Deal Signing Close to G7 Next Week",
+              "publishedAt": "2026-06-12T18:00:00Z"
             }
           ]
         },
         {
           "lean": "right",
-          "keyFraming": "Trump's pressure-plus-dealmaking is delivering: a war settlement and a reopened chokepoint are within reach.",
-          "summary": "Right-leaning coverage framed the prospective accord as vindication of maximum pressure, with the strait set to reopen and sanctions and frozen-funds relief as the trade, and falling pump prices easing the inflation pressure on households.",
+          "keyFraming": "Maximum pressure is closing in on a settlement: a reopened Hormuz would unwind the oil-driven inflation shock.",
+          "summary": "Right-leaning coverage framed the prospective accord as vindication of Trump's pressure campaign, with the strait set to reopen, sanctions and frozen-funds relief as the trade, and falling pump prices easing the worst inflation in three years just as the Fed meets.",
           "sources": [
             {
-              "outlet": "Times of Israel",
-              "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-deal-with-iran-scheduled-to-get-signed-tomorrow-hormuz-strait-to-be-open-to-all/",
-              "title": "Trump says deal with Iran 'scheduled to get signed tomorrow'",
-              "publishedAt": "2026-06-13T22:30:00Z"
+              "outlet": "FXStreet",
+              "url": "https://www.fxstreet.com/news/us-iran-deal-will-likely-be-signed-by-the-weekend-in-geneva-bloomberg-202606120951",
+              "title": "US-Iran deal will likely be signed by the weekend in Geneva – Bloomberg",
+              "publishedAt": "2026-06-12T09:51:00Z"
             }
           ]
         },
         {
           "lean": "left",
-          "keyFraming": "Premature victory laps risk a market head-fake; Tehran holds the real leverage over Hormuz.",
-          "summary": "Left-leaning analysis warned that Iran's repeated denials and added conditions mean a Sunday signing is far from assured, and that a stalled deal could snap oil back higher just as the worst inflation in three years bites.",
+          "keyFraming": "Repeated victory laps risk a market head-fake; Tehran holds the leverage and keeps adding conditions.",
+          "summary": "Left-leaning analysis warned Iran's denials and reservations about US 'instability' mean a signing is far from assured, and that a stalled deal could snap oil back higher just as energy-driven inflation bites households and complicates the Fed's path.",
           "sources": [
             {
-              "outlet": "Middle East Monitor",
-              "url": "https://www.middleeastmonitor.com/20260613-iran-says-signing-of-memorandum-of-understanding-with-us-will-not-be-tomorrow/",
-              "title": "Iran says signing of memorandum of understanding with US will not be tomorrow",
-              "publishedAt": "2026-06-13T16:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "stocks-rise-iran-peace-hopes-week-2026-06-12",
-      "headline": "US stocks edge higher and head for a winning week as Iran peace hopes and falling oil lift sentiment",
-      "summary": "US equities extended the prior session's rally on June 12, putting major indexes on track for a positive week, after reports the US and Iran could sign a peace deal as soon as Sunday. In a choppy session the Dow rose about 0.6% while the S&P 500 was roughly flat and the Nasdaq slipped about 0.3% as the AI-chip complex consolidated. The move followed June 11's surge that pushed the Dow back above 50,000, with lower crude and Treasury yields supporting risk appetite ahead of the June 16-17 FOMC.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "dow",
-        "nasdaq",
-        "iran",
-        "fed"
-      ],
-      "firstSeenAt": "2026-06-12T17:04:34Z",
-      "updatedAt": "2026-06-12T17:04:34Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A relief rally on de-escalation and cooling oil, tempered by an unconfirmed deal and a looming Fed decision.",
-          "summary": "24/7 Wall St. and TheStreet reported indexes green on end-of-war hopes, with SpaceX's blockbuster debut adding to risk appetite, even as investors stayed cautious before the June 16-17 FOMC after hot CPI and PPI prints.",
-          "sources": [
-            {
-              "outlet": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/06/12/stock-market-live-june-12-2026-sp-500-spy-green-on-end-of-war-hopes/",
-              "title": "Stock Market Live June 12, 2026: S&P 500 Green on End of War Hopes",
-              "publishedAt": "2026-06-12T15:00:00Z"
-            },
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-              "title": "Stock Market Today (June 12, 2026): SpaceX jumps in market debut; Nasdaq, S&P 500 gyrate",
-              "publishedAt": "2026-06-12T14:30:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Gains are fragile, resting on an unsigned deal while hot inflation keeps a Fed hike on the table.",
-          "summary": "Yahoo Finance noted the Dow's prior 900-point surge came on Trump's suggestion a deal was close, but cautioned the back-to-back 4.2% CPI and 6.5% PPI readings and a possible later rate hike still cloud the outlook.",
-          "sources": [
-            {
-              "outlet": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-june-11-dow-sp-500-nasdaq-222511784.html",
-              "title": "Stock market today: Dow surges 900 points as Trump suggests deal with Iran is close",
-              "publishedAt": "2026-06-11T22:25:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "markets-close-iran-peace-winning-week-2026-06-12",
-      "headline": "US stocks close higher and notch a winning week as Iran peace hopes pull oil to a two-month low",
-      "summary": "US indexes finished June 12 higher — the Dow up about 0.7% near 51,200, the S&P 500 up roughly 0.5% and the Nasdaq up about 0.3% — as Wall Street bet on a near-term US-Iran deal that would lift oil sanctions and reopen the Strait of Hormuz. Crude fell more than 4% to a two-month low below $85 WTI. Breadth was strong even as mega-cap growth names slipped, and the S&P booked a gain for the week ahead of the June 16-17 FOMC.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "dow",
-        "nasdaq",
-        "oil",
-        "fed"
-      ],
-      "firstSeenAt": "2026-06-12T23:05:58Z",
-      "updatedAt": "2026-06-13T05:01:56Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "Risk-on into the close on de-escalation and cooling oil carried a broad-based advance.",
-          "summary": "TheStreet and Schwab framed the session as a relief rally, with peace optimism and a 2-4% drop in crude powering gains across cyclicals and the equal-weight index, leaving the S&P on track for a positive week even as the largest growth names eased.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-              "title": "Stock Market Today (June 12, 2026): SpaceX debuts as indexes rise on a possible Iran deal",
-              "publishedAt": "2026-06-12T20:30:00Z"
-            },
-            {
-              "outlet": "Charles Schwab",
-              "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-              "title": "Stocks on track for a positive week amid peace hopes",
-              "publishedAt": "2026-06-12T14:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "warsh-first-fomc-preview-june-2026",
-      "headline": "Warsh's first FOMC (June 16-17) seen holding at 3.50-3.75% and dropping its easing bias after May CPI 4.2%, PPI 6.5%",
-      "summary": "CME FedWatch shows roughly 98% odds the Fed holds at new chair Kevin Warsh's debut meeting. The focus is the updated dot plot, Warsh's first press conference and whether projections push the next cut into 2027, after May CPI hit a three-year-high 4.2% and PPI 6.5%. Trump has publicly warned that a rate increase 'would be wrong,' setting up an early test of Fed independence.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "fed",
-        "fomc",
-        "warsh",
-        "rates",
-        "inflation"
-      ],
-      "firstSeenAt": "2026-06-13T11:01:46Z",
-      "updatedAt": "2026-06-14T05:01:52Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A hold is locked in; the story is the new chair's tone and whether the easing bias is dead.",
-          "summary": "With CPI at 4.2% and PPI 6.5%, the base case is a hawkish hold and a neutral-to-tighter shift, with markets watching whether Warsh keeps a later-2026 cut window open or signals the next move is now into 2027.",
-          "sources": [
-            {
-              "outlet": "TheStreet",
-              "url": "https://www.thestreet.com/fed/rising-inflation-drives-rate-cut-debate-at-warshs-first-fed-meeting-as-chair",
-              "title": "Rising inflation drives rate-cut debate at Warsh's first Fed meeting as chair",
-              "publishedAt": "2026-06-12T13:00:00Z"
-            },
-            {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/news/kevin-warsh-federal-reserve-chair-interest-rates/",
-              "title": "How much sway will newly sworn-in Fed Chair Kevin Warsh really have over interest rates?",
-              "publishedAt": "2026-06-12T12:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "left",
-          "keyFraming": "Will Trump's handpicked chair defy him? War-driven inflation may force Warsh to hold or even hike.",
-          "summary": "Left-leaning analysis emphasized that surging, oil-shock-driven inflation may compel Warsh to resist the president who installed him, making the meeting an early credibility test for Fed independence.",
-          "sources": [
-            {
-              "outlet": "The Washington Post",
-              "url": "https://www.washingtonpost.com/business/2026/06/11/kevin-warsh-early-test-will-new-fed-chief-defy-trump-raise-rates/",
-              "title": "Will Fed chief Kevin Warsh defy Trump and raise rates?",
-              "publishedAt": "2026-06-11T12:00:00Z"
+              "outlet": "RFE/RL",
+              "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html",
+              "title": "Qatari Negotiators Travel To Tehran In Bid To Finalize US-Iran Deal",
+              "publishedAt": "2026-06-13T12:00:00Z"
             }
           ]
         }
@@ -483,7 +69,7 @@
     {
       "id": "us-equities-friday-close-spacex-iran-relief-2026-06-13",
       "headline": "Wall Street ends Friday near records on Iran-peace hopes and SpaceX debut; week ahead pivots to Warsh's first FOMC",
-      "summary": "The S&P 500 rose 0.5% to 7,431.46, the Nasdaq added 0.3% to 25,888.84 and the Dow gained 354 points to 51,202.26 on Friday June 12, near records as falling oil and SpaceX's debut lifted sentiment; the S&P Equal-Weight and Russell 2000 hit fresh highs. Weekend previews flag the June 16-17 FOMC and Warsh's first press conference, May retail sales and a possible US-Iran signing as the week's catalysts, with a rate hold near-certain.",
+      "summary": "The S&P 500 rose 0.5% to 7,431.46, the Nasdaq added 0.31% to 25,888.84 and the Dow gained 354 points to 51,202.26 on Friday June 12, near records as falling oil and SpaceX's 19% debut pop lifted sentiment; the S&P Equal-Weight and Russell 2000 hit fresh highs. Weekend previews flag the June 16-17 FOMC and Warsh's first press conference, May retail sales and a possible US-Iran signing as the week's catalysts, with a rate hold near-certain.",
       "category": "markets",
       "importance": 4,
       "tags": [
@@ -495,7 +81,7 @@
         "spacex"
       ],
       "firstSeenAt": "2026-06-13T23:05:23Z",
-      "updatedAt": "2026-06-14T05:01:52Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
       "perspectives": [
         {
           "lean": "center",
@@ -532,38 +118,242 @@
       ]
     },
     {
+      "id": "warsh-first-fomc-preview-june-2026",
+      "headline": "Warsh's first FOMC (June 16-17) seen holding at 3.50-3.75% and dropping its easing bias after May CPI 4.2%, PPI 6.5%",
+      "summary": "CME FedWatch shows a near-100% chance the Fed holds at new chair Kevin Warsh's debut meeting. The focus is the updated dot plot, Warsh's first press conference and whether projections push the next cut into 2027, after May CPI hit a three-year-high 4.2% (energy +23.5%, gasoline ~+40%) and PPI 6.5%. Trump has publicly warned that a rate increase 'would be wrong,' setting up an early test of Fed independence.",
+      "category": "markets",
+      "importance": 4,
+      "tags": [
+        "fed",
+        "fomc",
+        "warsh",
+        "rates",
+        "inflation"
+      ],
+      "firstSeenAt": "2026-06-13T11:01:46Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A hold is locked in; the story is the new chair's tone and whether the easing bias is dead.",
+          "summary": "With CPI at 4.2% and PPI 6.5%, the base case is a hawkish hold and an explicit move from an easing bias to neutral, with markets watching whether Warsh keeps a later-2026 cut window open or signals the next move is into 2027, and how he handles his first press conference.",
+          "sources": [
+            {
+              "outlet": "Chase",
+              "url": "https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-first-federal-reserve-meeting-as-chair-june-2026",
+              "title": "What To Expect at Kevin Warsh's First Federal Reserve Meeting as Chair",
+              "publishedAt": "2026-06-12T13:00:00Z"
+            },
+            {
+              "outlet": "TheStreet",
+              "url": "https://www.thestreet.com/fed/rising-inflation-drives-rate-cut-debate-at-warshs-first-fed-meeting-as-chair",
+              "title": "Rising inflation drives rate-cut debate at Warsh's first Fed meeting as chair",
+              "publishedAt": "2026-06-12T13:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fed-fomc-june-2026-hold-hike-odds-2026-06-12",
+      "headline": "Markets abandon 2026 rate-cut bets as hot CPI and PPI keep a Fed hike in play",
+      "summary": "With May CPI at a three-year-high 4.2% and PPI now at 6.5%, markets have largely abandoned 2026 rate-cut hopes ahead of the June 16-17 FOMC. CME FedWatch prices a near-100% chance the Fed holds the funds target at 3.50-3.75% next week, while leaving open whether at least one 25bp hike comes later in 2026 versus a 2027 cut. The 10-year Treasury yield eased toward 4.47% after Friday's oil drop offered partial relief.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "federal-reserve",
+        "fomc",
+        "rates",
+        "inflation",
+        "treasuries"
+      ],
+      "firstSeenAt": "2026-06-12T05:02:01Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A hawkish hold looks likely; the inflation spike is energy-driven and could fade if Hormuz reopens, complicating the hike debate.",
+          "summary": "Futures pricing points to the Fed holding next week while keeping a hike in play later in 2026 after back-to-back hot inflation prints. Analysts note the surge is concentrated in energy tied to the Iran war, so a credible Hormuz-reopening deal could relieve the pressure that is driving rate-hike speculation.",
+          "sources": [
+            {
+              "outlet": "Cryptobriefing",
+              "url": "https://cryptobriefing.com/warsh-first-fed-meeting-inflation/",
+              "title": "Kevin Warsh chairs first Federal Reserve meeting as inflation hits 4%",
+              "publishedAt": "2026-06-12T15:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasury-yields-ease-oil-drop-fed-week-2026-06-14",
+      "headline": "Treasury yields ease into Fed week as Friday's oil drop cools inflation and hike fears",
+      "summary": "The 10-year Treasury yield finished Friday June 12 around 4.47-4.49% and the 2-year near 4.09%, with the 10-year down about 10 basis points on the session after Trump signaled a possible weekend US-Iran deal and oil tumbled to a two-month low. The retreat in yields pared earlier bets on a 2026 rate hike that had built after May's 4.2% CPI and 6.5% PPI, leaving the bond market focused on Warsh's June 16-17 FOMC and the new dot plot.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "treasuries",
+        "yields",
+        "rates",
+        "fed",
+        "macro"
+      ],
+      "firstSeenAt": "2026-06-14T17:04:06Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Bonds rallied as a possible Iran deal cooled the energy-driven inflation that had revived hike bets.",
+          "summary": "Trading Economics and Advisor Perspectives reported the 10-year hovering near 4.47-4.49% after a roughly 10bp drop, with the move tied to falling oil on US-Iran de-escalation hopes easing inflation and rate-hike concerns ahead of the FOMC.",
+          "sources": [
+            {
+              "outlet": "Trading Economics",
+              "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/524048",
+              "title": "US 10-Year Yield Steadies Ahead of Key Data",
+              "publishedAt": "2026-06-12T18:00:00Z"
+            },
+            {
+              "outlet": "Advisor Perspectives",
+              "url": "https://www.advisorperspectives.com/dshort/updates/2026/06/12/treasury-yields-snapshot-june-12-2026",
+              "title": "Treasury Yields Snapshot: June 12, 2026",
+              "publishedAt": "2026-06-12T21:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oil-two-month-low-iran-settlement-2026-06-12",
+      "headline": "Oil sits at a two-month low on US-Iran deal hopes as analysts warn a flow recovery would lag any signing",
+      "summary": "Crude held its roughly two-month low through the weekend after Friday's settles of WTI $84.88 (down 3.2%) and Brent $87.33 (down 3.4%), WTI's lowest close since late January, as a senior US official put the odds of a US-Iran agreement to reopen the Strait of Hormuz near 80%. Iran circulated a 14-point draft committing it to reopen the strait within 30 days in exchange for sanctions relief, but Tehran disputed the timing and did not confirm a final deal.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "hormuz",
+        "opec"
+      ],
+      "firstSeenAt": "2026-06-12T17:04:34Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "Conflicting signals — a president touting an imminent deal against an Iran that will not confirm — keep a war premium in crude.",
+          "summary": "Markets priced roughly 80% odds of an agreement, but the gap between Trump's claims and Tehran's denials kept a war premium in oil, and even a signed memorandum implies a multi-week-to-month physical recovery — mine-clearing, restarting idled fields, repairing facilities — before Hormuz throughput normalizes.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
+              "title": "Oil prices hold two-month low on hopes of a US-Iran deal despite Tehran pushback",
+              "publishedAt": "2026-06-12T20:00:00Z"
+            },
+            {
+              "outlet": "Trading Economics",
+              "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+              "title": "Brent crude oil — Price",
+              "publishedAt": "2026-06-12T20:30:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "Trump's pressure-plus-dealmaking is delivering: a war settlement and a reopened chokepoint are within reach.",
+          "summary": "Right-leaning coverage framed the prospective accord as vindication of maximum pressure, with the strait set to reopen and sanctions and frozen-funds relief as the trade, and falling pump prices easing inflation pressure on households.",
+          "sources": [
+            {
+              "outlet": "FXStreet",
+              "url": "https://www.fxstreet.com/news/us-iran-deal-will-likely-be-signed-by-the-weekend-in-geneva-bloomberg-202606120951",
+              "title": "US-Iran deal will likely be signed by the weekend in Geneva – Bloomberg",
+              "publishedAt": "2026-06-12T09:51:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Premature victory laps risk a market head-fake; Tehran holds the real leverage over Hormuz.",
+          "summary": "Left-leaning analysis warned that Iran's repeated denials and added conditions mean a signing is far from assured, and that a stalled deal could snap oil back higher just as the worst inflation in three years bites.",
+          "sources": [
+            {
+              "outlet": "RFE/RL",
+              "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html",
+              "title": "Qatari Negotiators Travel To Tehran In Bid To Finalize US-Iran Deal",
+              "publishedAt": "2026-06-13T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crypto-btc-below-64k-fed-week-2026-06-13",
-      "headline": "Bitcoin holds below $64K into the weekend as Fed-week caution and ETF outflows weigh on crypto",
-      "summary": "Bitcoin traded around $64,000 (Ether near $1,680, Solana near $68) into the weekend, pressured by sticky-inflation and rate-cut uncertainty, a firmer dollar and billions in spot-ETF outflows ahead of the June 16-17 FOMC. Crypto remained the main large risk asset trading live over the weekend, moving in step with hawkish-Fed fears rather than any crypto-specific catalyst.",
+      "headline": "Bitcoin holds around $63K into the weekend as Fed-week caution and record ETF outflows weigh on crypto",
+      "summary": "Bitcoin traded around $63,000 into the weekend, pressured by sticky-inflation and rate uncertainty, a firmer dollar and a historic spot-ETF exodus ahead of the June 16-17 FOMC. US spot bitcoin ETFs bled about $3.4 billion in one week — the biggest weekly outflow since the products launched in 2024 — with three straight weeks of redemptions totaling roughly $4.2 billion. Crypto moved on hawkish-Fed fears rather than a crypto-specific catalyst.",
       "category": "markets",
       "importance": 3,
       "tags": [
         "crypto",
         "bitcoin",
         "ethereum",
-        "solana",
         "etf",
         "macro"
       ],
       "firstSeenAt": "2026-06-14T05:01:52Z",
-      "updatedAt": "2026-06-14T05:01:52Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
       "perspectives": [
         {
           "lean": "center",
           "keyFraming": "Crypto trades like a macro asset, selling off on the same hot-inflation, hawkish-Fed fear hitting bonds.",
-          "summary": "Coverage attributed Bitcoin's slide and heavy liquidations to tightening expectations and ETF redemptions rather than a crypto-specific shock, with traders positioning cautiously before Warsh's first FOMC decision and press conference.",
+          "summary": "The Block and CoinDesk attributed Bitcoin's slide and heavy liquidations to tightening expectations, a record $3.4 billion weekly ETF outflow and a large Strategy sale rather than a crypto-specific shock, with traders positioning cautiously before Warsh's first FOMC decision.",
           "sources": [
             {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/03/bitcoin-to-slump-to-new-lows-after-recent-sell-off-traders-predict.html",
-              "title": "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders predict",
+              "outlet": "The Block",
+              "url": "https://www.theblock.co/amp/post/403659/the-rally-that-wasnt-bitcoin-slides-14-in-one-week-as-etf-outflows-strategy-sale-and-oil-prices-hit-sentiment",
+              "title": "'The rally that wasn't': Bitcoin slides 14% in one week as ETF outflows, Strategy sale and oil prices hit sentiment",
               "publishedAt": "2026-06-12T13:00:00Z"
             },
             {
-              "outlet": "CoinDesk",
-              "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-plunges-below-usd66-000-even-as-global-stocks-hit-fresh-records",
-              "title": "Bitcoin plunges below $66,000 even as global stocks hit fresh records",
+              "outlet": "Coinfomania",
+              "url": "https://coinfomania.com/bitcoin-etf-outflows-june-2026-record-selloff/",
+              "title": "Bitcoin ETFs Record Largest-Ever $3.4B Sell-Off",
               "publishedAt": "2026-06-12T11:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "week-ahead-fed-iran-g7-retail-sales-2026-06-14",
+      "headline": "Week ahead: Warsh's first FOMC, May retail sales and a possible US-Iran signing at the G7 set the tone",
+      "summary": "Markets enter the week near records with three catalysts: the June 16-17 FOMC under new chair Kevin Warsh, where a hold at 3.50-3.75% is near-certain and the dot plot and press conference are the focus; May retail sales, a read on consumer resilience amid 4.2% inflation; and the G7 summit in France (June 15-17), where a US-Iran memorandum to reopen the Strait of Hormuz could be signed. Oil sits at a two-month low and the 10-year yield near 4.47%.",
+      "category": "markets",
+      "importance": 3,
+      "tags": [
+        "week-ahead",
+        "fed",
+        "g7",
+        "retail-sales",
+        "macro"
+      ],
+      "firstSeenAt": "2026-06-14T17:04:06Z",
+      "updatedAt": "2026-06-14T17:04:06Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A high-stakes, three-headline week: the Fed, the consumer and Middle East diplomacy all land at once.",
+          "summary": "Charles Schwab and CNBC previews framed the week around Warsh's debut FOMC, May retail sales and a potential Iran signing at the G7, with a rate hold near-certain and the market's tone hinging on the dot plot and whether the Hormuz deal actually gets inked.",
+          "sources": [
+            {
+              "outlet": "Charles Schwab",
+              "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+              "title": "Stocks on track for a positive week amid peace hopes",
+              "publishedAt": "2026-06-13T14:00:00Z"
+            },
+            {
+              "outlet": "Chase",
+              "url": "https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-first-federal-reserve-meeting-as-chair-june-2026",
+              "title": "What To Expect at Kevin Warsh's First Federal Reserve Meeting as Chair",
+              "publishedAt": "2026-06-12T13:00:00Z"
             }
           ]
         }
