@@ -1,6 +1,6 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-13T23:05:23Z",
+  "lastUpdated": "2026-06-14T05:01:52Z",
   "stories": [
     {
       "id": "nvidia-anthropic-export-controls-clash-2026-06-12",
@@ -142,8 +142,8 @@
     },
     {
       "id": "anthropic-fable-mythos-government-suspension-2026-06-12",
-      "headline": "US government orders Anthropic to suspend worldwide access to Fable 5 and Mythos 5 models over national-security directive",
-      "summary": "Anthropic shut off global access to its newly launched Fable 5 and Mythos 5 models on June 12 after a US export-control directive — reportedly a letter from Commerce Secretary Howard Lutnick to CEO Dario Amodei — citing a reported jailbreak. The models had launched only three days earlier on June 9, and all other Claude models are unaffected. It appears to be the first government-forced takedown of a publicly deployed frontier AI model.",
+      "headline": "Anthropic disables Fable 5 and Mythos 5 worldwide to comply with an unprecedented US government recall",
+      "summary": "Following a June 12 federal directive, Anthropic shut off access to its two most advanced models for all customers worldwide, citing a national-security and jailbreak concern raised three days after Fable 5's launch. Anthropic disputed the finding, arguing the vulnerability is minor and already replicable using public models, and warned the order sets a precedent that could halt future frontier-model deployments industry-wide.",
       "category": "ai-tech",
       "importance": 5,
       "tags": [
@@ -154,31 +154,44 @@
         "frontier-models"
       ],
       "firstSeenAt": "2026-06-13T17:03:49Z",
-      "updatedAt": "2026-06-13T23:05:23Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Reporting frames the directive as an unprecedented state intervention in a deployed frontier model, with a foreign-national ban forcing a global shutdown.",
-          "summary": "TechRadar and CNN reported that a June 12 US directive ordered Anthropic to block 'any foreign national' from using Fable 5 and Mythos 5 — whether in the US or abroad — just three days after launch, citing a potential jailbreak. Unable to instantly verify every user's nationality, Anthropic disabled the models for all customers worldwide; outlets describe it as a watershed for AI national-security policy.",
+          "keyFraming": "The landmark issue is the state's power to switch off a live frontier model worldwide, not whether this one jailbreak is serious.",
+          "summary": "Bloomberg and Fortune reported that whether the cited flaw is grave or trivial, the government's demonstrated authority to disable a deployed frontier model for all users is the precedent that matters most for the AI industry.",
           "sources": [
             {
-              "outlet": "TechRadar",
-              "url": "https://www.techradar.com/ai-platforms-assistants/claude/after-a-potential-jailbreak-anthropic-is-shutting-off-access-to-its-mythos-5-and-fable-5-models-under-national-security-orders-from-the-us-government",
-              "title": "After a 'potential jailbreak', Anthropic is shutting off access to its Mythos 5 and Fable 5 models under national security orders from the US government",
-              "publishedAt": "2026-06-12T18:00:00Z"
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5",
+              "title": "Anthropic Says US Orders Halt to Foreign Access for Fable 5, Mythos 5",
+              "publishedAt": "2026-06-13T12:00:00Z"
             },
             {
-              "outlet": "CNN",
-              "url": "https://www.cnn.com/2026/06/13/business/anthropic-mythos-model-national-security",
-              "title": "Anthropic suspends all access to Mythos model after US government bans foreign nationals' use",
-              "publishedAt": "2026-06-13T08:00:00Z"
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
+              "title": "Anthropic disables Fable and Mythos AI models after US bars foreign access",
+              "publishedAt": "2026-06-13T13:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "National security first: the government acted to close a vulnerability in a dual-use frontier model.",
+          "summary": "Right-leaning coverage emphasized legitimate state authority to restrict foreign access to the most capable AI when a security flaw is demonstrated, casting the recall as a precautionary national-security step.",
+          "sources": [
+            {
+              "outlet": "Decrypt",
+              "url": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
+              "title": "US Government Orders Anthropic to Pull Fable, Mythos AI Models",
+              "publishedAt": "2026-06-13T14:00:00Z"
             }
           ]
         },
         {
           "lean": "social",
-          "keyFraming": "Anthropic says the underlying jailbreak was narrow and the surfaced vulnerabilities minor, but is complying with the order.",
-          "summary": "In its own statement, Anthropic said it received only verbal evidence of a narrow, non-universal jailbreak — asking the model to read a codebase and fix flaws — and that the surfaced vulnerabilities were minor and already publicly known. The company said it is complying with the government directive while disputing the severity of the reported issue.",
+          "keyFraming": "Anthropic says the jailbreak was narrow and the surfaced flaws minor and public, but it is complying.",
+          "summary": "In its own statement, Anthropic said it received only verbal evidence of a narrow, non-universal jailbreak and that the surfaced vulnerabilities were minor and already publicly known, adding that it is complying with the directive while disputing the severity and warning of the precedent.",
           "sources": [
             {
               "outlet": "Anthropic",
@@ -187,10 +200,10 @@
               "publishedAt": "2026-06-12T22:00:00Z"
             },
             {
-              "outlet": "The New Stack",
-              "url": "https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/",
-              "title": "Federal government orders Anthropic to pull Fable 5 and Mythos 5, three days after launch",
-              "publishedAt": "2026-06-12T20:00:00Z"
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals",
+              "title": "US orders Anthropic to disable AI models for all foreign nationals",
+              "publishedAt": "2026-06-13T10:00:00Z"
             }
           ]
         }
@@ -198,8 +211,8 @@
     },
     {
       "id": "ai-executives-g7-summit-france-2026-06-12",
-      "headline": "Top AI executives to attend G7 summit in France as governance and security move up the agenda",
-      "summary": "Executives from Anthropic, OpenAI and Google — reportedly including Dario Amodei, Sam Altman and Demis Hassabis — are slated to attend the G7 summit opening next week in France, signaling AI governance and national-security questions are now central to high-level diplomacy. The timing is notable given the same-week US directive forcing Anthropic to suspend two newly launched models.",
+      "headline": "AI chiefs Amodei, Altman and Hassabis to attend the G7 summit in France as governance moves up the agenda",
+      "summary": "Anthropic's Dario Amodei, OpenAI's Sam Altman and Google DeepMind's Demis Hassabis are on the French presidency's invite list for the G7 leaders' summit (June 15-17 in France). The timing is striking: the gathering overlaps Warsh's first FOMC and a possible US-Iran signing, and comes days after the US directive forcing Anthropic to suspend two newly launched models, putting AI governance squarely on the leaders' table.",
       "category": "ai-tech",
       "importance": 3,
       "tags": [
@@ -210,12 +223,12 @@
         "google"
       ],
       "firstSeenAt": "2026-06-13T17:03:49Z",
-      "updatedAt": "2026-06-13T17:03:49Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Coverage frames the labs' presence as AI's elevation to a geopolitical priority at the leaders' table.",
-          "summary": "Bloomberg reported that the chief executives of Anthropic, OpenAI and Google plan to attend the G7 leaders' gathering in France, underscoring how AI governance, export controls and national-security questions have moved to the center of high-level diplomacy.",
+          "keyFraming": "AI governance moves onto the top diplomatic table, right after a model recall and an export-controls fight.",
+          "summary": "Bloomberg reported the chief executives of Anthropic, OpenAI and Google plan to attend the G7, underscoring how AI governance, export controls and national-security questions have moved to the center of high-level diplomacy, made more concrete by the simultaneous Fable and Mythos suspension.",
           "sources": [
             {
               "outlet": "Bloomberg",

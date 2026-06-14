@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T23:05:23Z",
+  "lastUpdated": "2026-06-14T05:01:52Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -168,6 +168,13 @@
         "status": "effectively_closed",
         "source": "Middle East Monitor / France 24",
         "sourceUrl": "https://www.middleeastmonitor.com/20260613-iran-says-signing-of-memorandum-of-understanding-with-us-will-not-be-tomorrow/"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Into the weekend (early Saturday UTC), crude held its roughly two-month low after Friday's settles (WTI $84.88, Brent $87.33) as markets awaited whether a US-Iran memorandum would be signed near the G7 in France (June 15-17). A senior Trump official kept the odds of an agreement in the coming days near 80%, but Tehran said the text was not final and would not be signed Sunday as Pakistan's PM had suggested. The Strait of Hormuz stayed effectively closed with shipping trackers reporting near-zero verified outbound commercial transits; analysts cautioned that even after a deal, mine-clearing, restarting idled Gulf fields and repairing damaged facilities would delay a full flow recovery.",
+        "status": "effectively_closed",
+        "source": "Schwab / CNBC / Reuters",
+        "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open"
       }
     ]
   },
@@ -689,6 +696,24 @@
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-12"
+    },
+    {
+      "fact": "WTI crude finished the week at $84.88/bbl and Brent at $87.33 — both roughly two-month lows and down about 3-4% on Friday June 12 — leaving crude well below its 2026 peak near $118 Brent as traders priced in an ~80% chance of a US-Iran deal to reopen the Strait of Hormuz, even with the chokepoint still effectively closed into the weekend.",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
+      "date": "2026-06-13"
+    },
+    {
+      "fact": "The AAA national average for regular gasoline eased to $4.086/gallon by June 13, 2026, extending a roughly 20-cent weekly decline as crude held a two-month low on US-Iran deal hopes, though pump prices remain about 34% above the late-February pre-war level near $3.05.",
+      "source": "AAA Gas Prices",
+      "sourceUrl": "https://gasprices.aaa.com/",
+      "date": "2026-06-13"
+    },
+    {
+      "fact": "Heading into the weekend, equities sat near records and oil at its lowest since mid-April as markets bet on a US-Iran agreement to be signed near the G7 summit in France (June 15-17); the Fed's first FOMC under new chair Kevin Warsh (June 16-17) is widely expected to hold rates at 3.50-3.75% while dropping its easing bias after May CPI hit 4.2% and PPI 6.5%.",
+      "source": "Charles Schwab",
+      "sourceUrl": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "date": "2026-06-13"
     }
   ]
 }

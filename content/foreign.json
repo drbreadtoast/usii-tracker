@@ -1,13 +1,13 @@
 {
   "sectionId": "foreign",
-  "lastUpdated": "2026-06-13T23:05:23Z",
+  "lastUpdated": "2026-06-14T05:01:52Z",
   "stories": [
     {
       "id": "us-iran-interim-deal-frozen-funds-track-2026-06-11",
-      "headline": "US and Iran still pursuing interim deal over frozen funds despite exchange of strikes, sources tell Reuters",
-      "summary": "Three Iranian sources and a European official told Reuters that, even amid the renewed strikes, Washington and Tehran are still exchanging messages over a memorandum of understanding, including a mechanism to release tens of billions of dollars in frozen Iranian funds. They said a political understanding had been reached but that some details remained unresolved.",
+      "headline": "Trump says US-Iran 'Islamabad Declaration' to be signed in Geneva to reopen Hormuz; Tehran disputes the date",
+      "summary": "Trump said the US and Iran will sign an interim accord — the Pakistan-mediated 'Islamabad Declaration' — reopening the Strait of Hormuz within 30 days while leaving Iran's roughly 440kg enriched-uranium stockpile to 60-day follow-on nuclear talks. VP Vance and Iranian Speaker Qalibaf were to sign in Geneva. Iran's foreign ministry said no memorandum would be signed Sunday and negotiators were not traveling, though a remote signing 'in the coming days' was possible.",
       "category": "foreign",
-      "importance": 4,
+      "importance": 5,
       "tags": [
         "us-iran-war",
         "diplomacy",
@@ -16,31 +16,50 @@
         "ceasefire"
       ],
       "firstSeenAt": "2026-06-11T11:01:55Z",
-      "updatedAt": "2026-06-11T11:01:55Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Military escalation and back-channel diplomacy are running in parallel; an interim deal may still be within reach.",
-          "summary": "Per Reuters reporting carried by Rappler, Iran and the US kept exchanging messages over a memorandum of understanding even as they struck each other; the sources said a political understanding had been reached, with a mechanism for releasing frozen Iranian funds among the remaining sticking points.",
+          "keyFraming": "Wire desks stress the contradiction: Trump says imminent signing, Iran says the text is not finalized.",
+          "summary": "Al Jazeera and NBC noted Trump's claim directly contradicted Iran's foreign ministry, which said no MoU would be signed Sunday and that demining and a transit system for Hormuz still had to be arranged; Pakistan said mediators had reached a final agreed text.",
           "sources": [
             {
-              "outlet": "Rappler",
-              "url": "https://www.rappler.com/world/middle-east/usa-iran-peace-talks-updates-june-11-2026/",
-              "title": "US and Iran wrangle over frozen funds as they edge toward interim deal, Iranian sources say",
-              "publishedAt": "2026-06-11T08:00:00Z"
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/world/iran/us-iran-deal-expected-reopen-strait-hormuz-signed-days-both-sides-say-rcna349916",
+              "title": "US-Iran deal expected to reopen Strait of Hormuz could be signed within days, both sides say",
+              "publishedAt": "2026-06-13T22:00:00Z"
+            },
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/13/trump-says-iran-deal-to-be-signed-tomorrow-contradicting-iranian-official",
+              "title": "Trump says Iran deal to be signed tomorrow, contradicting Iranian official",
+              "publishedAt": "2026-06-13T14:00:00Z"
             }
           ]
         },
         {
           "lean": "government",
-          "keyFraming": "Trump frames Iran as having stalled and warns it will 'pay the price,' while signaling a deal is still possible on US terms.",
-          "summary": "CBS News reported Trump saying Iran had \"taken too long to negotiate a deal\" and would \"pay the price,\" pledging to hit Iran hard even as US officials indicated negotiations remained alive.",
+          "keyFraming": "Trump frames the accord as a personal diplomatic triumph ending the war and reopening Hormuz.",
+          "summary": "Bloomberg carried Trump's claim that signing was set for Sunday and that demining of Hormuz would be discussed with the UK and France at the G7, with the strait to reopen to all shipping immediately after signature.",
           "sources": [
             {
-              "outlet": "CBS News",
-              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strikes-apache/",
-              "title": "Live updates: U.S. and Iran trade attacks after Trump pledges Tehran will 'pay the price'",
-              "publishedAt": "2026-06-11T05:00:00Z"
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-13/trump-says-deal-with-iran-to-reopen-hormuz-to-be-signed-sunday",
+              "title": "Trump Says He'll Sign Deal With Iran to Reopen Hormuz Sunday",
+              "publishedAt": "2026-06-13T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-global-south",
+          "keyFraming": "Pakistani coverage centers Islamabad's mediation and names the accord for Pakistan.",
+          "summary": "Pakistan Observer reported both sides had agreed the final text of the 'Islamabad Declaration,' crediting Pakistani mediation and saying a signing was likely in Geneva near the G7, while Tehran cautioned the date was not fixed.",
+          "sources": [
+            {
+              "outlet": "Pakistan Observer",
+              "url": "https://pakobserver.net/islamabad-declaration-us-iran-deal-likely-to-be-signed-in-geneva/",
+              "title": "'Islamabad Declaration': US-Iran deal likely to be signed in Geneva",
+              "publishedAt": "2026-06-13T12:00:00Z"
             }
           ]
         }
@@ -219,8 +238,8 @@
     },
     {
       "id": "g7-france-summit-ukraine-iran-2026-06-13",
-      "headline": "Zelensky to press Trump on new Russia sanctions at G7 in France as Iran and Ukraine dominate the agenda",
-      "summary": "Ahead of the G7 leaders' summit in France (June 15-17), Zelensky said militarization of Ukraine, long-range strikes and new Russia sanctions will top his agenda, and that he hopes to clarify with Trump how close Washington is to acting — noting the final decision rests with Trump. European diplomats view the summit as a chance to convince Trump that US deal proposals favour Moscow too heavily, while a possible US-Iran signing near the summit also looms large.",
+      "headline": "G7 opens in France with Iran war and Ukraine front and center; Trump-Macron Versailles dinner set, Zelensky to attend",
+      "summary": "France said Trump and Macron will dine at Versailles around the G7 summit (June 15-17, with some outlets citing June 14-16), where Trump plans bilaterals with Egypt, Qatar and the UAE on winding down the Iran war and demining the Strait of Hormuz. Zelensky will join a working session to press for new Russia sanctions and use of frozen Russian assets; no formal Trump-Zelensky meeting is scheduled, though sideline contact is possible.",
       "category": "foreign",
       "importance": 4,
       "tags": [
@@ -232,31 +251,87 @@
         "ukraine"
       ],
       "firstSeenAt": "2026-06-13T23:05:23Z",
-      "updatedAt": "2026-06-13T23:05:23Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "With Russia-Ukraine talks stalled, Zelensky seeks coordinated sanctions and clarity from Trump.",
-          "summary": "Ukrainska Pravda (via Yahoo) reported Zelensky will ask Trump about introducing new sanctions against Russia at the G7, saying he wants to understand how close the US is to acting while acknowledging the decision is Trump's alone, with long-range strikes and Ukraine's defence industry also on his agenda.",
+          "keyFraming": "Agenda-setting coverage: Iran and Ukraine dominate, with Trump's bilateral blitz and a Versailles dinner.",
+          "summary": "AP via the Washington Post and PBS detailed the Versailles dinner and Trump's one-on-ones with Egypt, Qatar and the UAE on the Iran war and Hormuz demining, alongside a Ukraine session where allies press for tougher Russia measures.",
           "sources": [
             {
-              "outlet": "Yahoo News (Ukrainska Pravda)",
-              "url": "https://www.yahoo.com/news/zelenskyy-ask-trump-introducing-sanctions-143826383.html",
-              "title": "Zelenskyy to ask Trump about introducing new sanctions against Russia at G7 summit",
-              "publishedAt": "2026-06-12T14:00:00Z"
+              "outlet": "Washington Post (AP)",
+              "url": "https://www.washingtonpost.com/politics/2026/06/13/trump-g7-summit-macron-versailles-france-meeting/2a910f6c-6746-11f1-bdd4-805ebb99a693_story.html",
+              "title": "Trump and Macron will meet over dinner at Versailles palace after G7 summit",
+              "publishedAt": "2026-06-13T13:00:00Z"
+            },
+            {
+              "outlet": "PBS NewsHour (AP)",
+              "url": "https://www.pbs.org/newshour/world/macron-to-host-trump-for-dinner-at-versailles-after-g7-summit",
+              "title": "Macron to host Trump for dinner at Versailles after G7 summit",
+              "publishedAt": "2026-06-13T14:00:00Z"
             }
           ]
         },
         {
           "lean": "foreign-western",
-          "keyFraming": "Europe aims to pull Trump back from a deal it sees as too friendly to Moscow, with Iran also overshadowing the summit.",
-          "summary": "The Times of Israel reported that Iran and Ukraine loom over the G7, with France hoping Trump will at least stay for the summit's duration and European leaders seeking to harden the line on Russia while a possible US-Iran signing nearby competes for attention.",
+          "keyFraming": "Ukraine-focused: Zelensky expects 'important decisions' on sanctions and frozen assets at the summit.",
+          "summary": "The BBC reported Zelensky expects important Ukraine decisions at the G7 and will press Trump on new Russia sanctions, with European leaders hoping to harden the line on Moscow as the war grinds on.",
+          "sources": [
+            {
+              "outlet": "BBC",
+              "url": "https://feeds.bbci.co.uk/news/articles/cv2203d44rlo",
+              "title": "Zelensky expects 'important decisions' on Ukraine at G7 summit",
+              "publishedAt": "2026-06-13T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "israel-hezbollah-lebanon-ceasefire-strikes-2026-06-13",
+      "headline": "Israel and Hezbollah trade fresh strikes in southern Lebanon despite a renewed US-brokered ceasefire",
+      "summary": "Israeli airstrikes hit Nabatieh, Kafr Tebnit and the Tyre district on June 13, with injuries reported, after Hezbollah said it struck an Israeli vehicle near Qantara with a drone. The exchanges follow a conditional June 4 ceasefire that Hezbollah rejected and a June 7 Israeli strike on Beirut's southern suburbs, underscoring how fragile the truce remains and how it intersects with the US-Iran negotiating track.",
+      "category": "foreign",
+      "importance": 3,
+      "tags": [
+        "israel",
+        "lebanon",
+        "hezbollah",
+        "ceasefire",
+        "iran-proxy"
+      ],
+      "firstSeenAt": "2026-06-14T05:01:52Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "The ceasefire exists on paper but is breached almost daily along the Lebanon front.",
+          "summary": "NPR and Al Jazeera reported Israel-Hezbollah strikes continuing after Hezbollah rejected the conditional ceasefire, with Israel casting its strikes as retaliation for Hezbollah drone and rocket attacks and Lebanese officials reporting casualties in the south.",
+          "sources": [
+            {
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/07/nx-s1-5849220/israel-lebanon-beirut-airstrike-ceasefire",
+              "title": "Israeli strike hits southern Beirut in retaliation against Hezbollah",
+              "publishedAt": "2026-06-13T09:00:00Z"
+            },
+            {
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire",
+              "title": "Israel, Lebanon agree to conditional ceasefire",
+              "publishedAt": "2026-06-13T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-western",
+          "keyFraming": "Israeli officials frame the strikes as retaliation for Hezbollah attacks that violate the truce.",
+          "summary": "Times of Israel coverage relayed the Israeli military's account that it struck Hezbollah operatives and infrastructure in response to drone and rocket fire, arguing the group's refusal to accept the ceasefire terms left it exposed.",
           "sources": [
             {
               "outlet": "The Times of Israel",
-              "url": "https://www.timesofisrael.com/iran-and-ukraine-loom-over-g7-as-france-hopes-trump-will-at-least-stay-for-duration/",
-              "title": "Iran and Ukraine loom over G7, as France hopes Trump will at least stay for duration",
-              "publishedAt": "2026-06-12T16:00:00Z"
+              "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-struck-hezbollah-operatives-in-southern-lebanon/",
+              "title": "IDF says it struck Hezbollah targets in southern Lebanon",
+              "publishedAt": "2026-06-13T11:00:00Z"
             }
           ]
         }

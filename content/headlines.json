@@ -1,72 +1,146 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-13T23:05:23Z",
+  "lastUpdated": "2026-06-14T05:01:52Z",
   "stories": [
     {
-      "id": "us-iran-uranium-standoff-geneva-2026-06-12",
-      "headline": "Trump says US-Iran deal will be signed Sunday in Geneva; Iran says no signing Sunday as uranium standoff clouds terms",
-      "summary": "Trump said the US-Iran 'Islamabad Declaration' would be signed Sunday June 14 in Geneva by VP Vance and Iran's speaker Qalibaf, reopening the Strait of Hormuz within 30 days. But Iran's foreign ministry said on June 13 it would NOT be signed Sunday — possibly remotely 'in the coming days' — citing US 'instability.' Iran's near-weapons-grade uranium remains unresolved: Trump wants it removed while Tehran says it will keep the stockpile. Israel says it is not a party.",
-      "category": "war",
+      "id": "us-strike-kills-tren-de-aragua-leader-venezuela-2026-06-13",
+      "headline": "US says military strike killed Tren de Aragua leader 'Niño Guerrero' in Venezuela, in operation coordinated with Caracas",
+      "summary": "Trump announced June 13 that US Southern Command carried out a 'swift and lethal kinetic strike' killing Héctor Guerrero Flores ('Niño Guerrero'), longtime leader of the Tren de Aragua gang, at a compound in Venezuela. Trump and Venezuela's government described it as a joint operation. The gang was designated a foreign terrorist organization in 2025; some Senate Democrats and legal scholars question the legal basis for the US strike campaign.",
+      "category": "us-politics",
       "importance": 5,
       "tags": [
-        "iran",
-        "us",
-        "nuclear",
-        "hormuz",
-        "geneva",
-        "ceasefire"
+        "venezuela",
+        "tren-de-aragua",
+        "southcom",
+        "trump",
+        "counter-narcotics"
       ],
-      "firstSeenAt": "2026-06-12T23:05:58Z",
-      "updatedAt": "2026-06-13T23:05:23Z",
+      "firstSeenAt": "2026-06-14T05:01:52Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
+      "perspectives": [
+        {
+          "lean": "right",
+          "keyFraming": "A Trump win against transnational gangs: SOUTHCOM eliminates a bounty-carrying kingpin with Venezuelan cooperation.",
+          "summary": "Right-leaning coverage emphasized Trump's 'swift and lethal kinetic strike' announcement, the $5M bounty on Guerrero, his prior US terror and racketeering charges, and the cooperative posture of Venezuela's government as evidence of a hardline strategy delivering results. Defense Secretary Hegseth confirmed the compound was struck.",
+          "sources": [
+            {
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/politics/trump-says-us-military-eliminated-infamous-tren-de-aragua-leader-lethal-strike",
+              "title": "Trump announces US strike kills Tren de Aragua kingpin Niño Guerrero",
+              "publishedAt": "2026-06-13T20:00:00Z"
+            },
+            {
+              "outlet": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/jun/13/us-military-strike-killed-leader-tren-de-aragua-gang-help-venezuela/",
+              "title": "US military strike killed leader of Tren de Aragua gang with help from Venezuela",
+              "publishedAt": "2026-06-13T21:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "center",
+          "keyFraming": "Both Washington and Caracas confirm a joint operation in Venezuela killed the Tren de Aragua founder.",
+          "summary": "Center wires reported the killing factually: Trump's announcement, Venezuela's communications ministry confirming a 'combined operation,' Hegseth's account of striking a compound, and Guerrero's record building Tren de Aragua from a prison gang into a transnational network designated a foreign terrorist organization in February 2025.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/amp/2026/06/13/trump-venezuela-tren-de-aragua.html",
+              "title": "Trump says US military strike killed leader of Venezuela's Tren de Aragua gang",
+              "publishedAt": "2026-06-13T19:30:00Z"
+            },
+            {
+              "outlet": "ABC News",
+              "url": "https://abcnews.com/International/wireStory/us-strike-tren-de-aragua-leader-venezuela-exemplifies-133851021",
+              "title": "US strike against Tren de Aragua leader in Venezuela exemplifies Trump's approach to war on drugs",
+              "publishedAt": "2026-06-13T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "left",
+          "keyFraming": "Another lethal US strike tied to Venezuela revives extrajudicial-killing and legal-authority questions Democrats have pressed.",
+          "summary": "Left-leaning coverage placed the strike within a broader pattern of US lethal operations linked to Venezuela that legal experts and Senate Democrats have called possible extrajudicial killings lacking clear legal basis, and noted the unusual cooperation with the government now in power in Caracas.",
+          "sources": [
+            {
+              "outlet": "NBC News",
+              "url": "https://www.nbcnews.com/politics/trump-administration/trump-says-alleged-leader-tren-de-aragua-gang-killed-us-strike-rcna349903",
+              "title": "Trump says alleged leader of Tren de Aragua gang killed in US strike",
+              "publishedAt": "2026-06-13T18:45:00Z"
+            },
+            {
+              "outlet": "The Washington Post",
+              "url": "https://www.washingtonpost.com/world/2026/06/13/us-forces-kill-venezuelan-tren-de-aragua-gang-leader-trump-says/",
+              "title": "US forces kill Venezuelan Tren de Aragua gang leader, Trump says",
+              "publishedAt": "2026-06-13T19:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iran-settlement-war-powers-congress-review-2026-06-12",
+      "headline": "Trump says US-Iran deal will be signed Sunday and reopen Hormuz 'to all'; Iran calls a Sunday signing false",
+      "summary": "Trump posted June 13 that the US-Iran 'Islamabad Declaration' is 'scheduled to get signed' Sunday and that the Strait of Hormuz would be 'OPEN TO ALL' immediately after, with VP Vance and Iran's Speaker Qalibaf as signatories in Geneva. Iran's foreign ministry and Fars news disputed the date, saying no memorandum would be signed Sunday and negotiators were not traveling to Geneva, though a remote signing 'in the coming days' remained possible. Congress is still pressing for a war-powers review.",
+      "category": "us-politics",
+      "importance": 4,
+      "tags": [
+        "congress",
+        "war-powers",
+        "iran-war",
+        "senate",
+        "oversight"
+      ],
+      "firstSeenAt": "2026-06-12T00:42:39Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "A memorandum is close, but Iran has tempered Trump's confident Sunday-signing timeline and the hardest nuclear questions remain unresolved.",
-          "summary": "Trump said the deal was 'scheduled to be signed' Sunday in Geneva (VP Vance and Iran's speaker Qalibaf), waiving oil sanctions, releasing ~$24bn in frozen funds and reopening Hormuz within 30 days. Hours later Iran's foreign ministry spokesman Esmaeil Baghaei said it would not be signed Sunday but could be finalized 'in the coming days,' possibly electronically, citing reservations about US 'instability'; reported terms appeared to favour Tehran.",
+          "keyFraming": "Both sides say a deal is close, but timing and venue are contested and a signing may be virtual.",
+          "summary": "Center reporting balanced Trump's Sunday-signing claim against Iranian caution, noting Pakistan's PM said the final text was agreed while spokesman Baghaei said 'even if it's not tomorrow, it could happen in the coming days,' with a 60-day ceasefire, oil-sanctions relief and unfreezing of funds in the draft and nuclear issues deferred.",
           "sources": [
             {
-              "outlet": "Middle East Monitor",
-              "url": "https://www.middleeastmonitor.com/20260613-iran-says-signing-of-memorandum-of-understanding-with-us-will-not-be-tomorrow/",
-              "title": "Iran says signing of memorandum of understanding with US 'will not be tomorrow'",
-              "publishedAt": "2026-06-13T12:00:00Z"
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/amp/2026/06/13/trump-iran-deal-strait-of-hormuz.html",
+              "title": "Trump says peace deal will be signed Sunday after Iran said it remains cautious on timing",
+              "publishedAt": "2026-06-13T16:30:00Z"
             },
             {
-              "outlet": "CBC News",
-              "url": "https://www.cbc.ca/news/world/trump-iran-memorandum-united-states-9.7233089",
-              "title": "U.S. and Iran signal peace deal close as reports suggest terms appear to favour Tehran",
-              "publishedAt": "2026-06-12T13:00:00Z"
+              "outlet": "The Hill",
+              "url": "https://thehill.com/policy/international/5922946-donald-trump-us-iran-peace-deal/amp/",
+              "title": "Donald Trump confirms plans to sign peace deal with Iran 'tomorrow'",
+              "publishedAt": "2026-06-13T18:00:00Z"
             }
           ]
         },
         {
-          "lean": "foreign-western",
-          "keyFraming": "Israel publicly distances itself while the central dispute — removing Iran's highly enriched uranium — stays unresolved.",
-          "summary": "The Times of Israel reported a senior US official saying the pending deal 'leads to' the US obtaining Iran's enriched material, while Trump conceded the MoU only 'conceptually' addresses the nuclear file. Netanyahu's office said Israel is not a party to the deal, and Iranian sources said Tehran had decided to keep its near-weapons-grade uranium inside the country, defying a core US demand.",
+          "lean": "right",
+          "keyFraming": "Trump on the cusp of a historic peace: deal signs Sunday, Hormuz reopens, oil eases.",
+          "summary": "Right framing amplified Trump's confident Sunday-signing claim and the Hormuz reopening as a foreign-policy win, with Vance set to sign opposite Qalibaf and the strait to go 'OPEN TO ALL' immediately after signature.",
           "sources": [
             {
-              "outlet": "The Times of Israel",
-              "url": "https://www.timesofisrael.com/iranian-sources-say-regime-has-decided-to-keep-highly-enriched-uranium-in-iran-defying-trump/",
-              "title": "Iranian sources say regime has decided to keep highly enriched uranium in Iran, defying Trump",
-              "publishedAt": "2026-06-12T10:00:00Z"
+              "outlet": "Fox News",
+              "url": "https://www.foxnews.com/live-news/iran-war-news-us-trump-strait-hormuz-oil-price-peace-deal-june-13",
+              "title": "Trump says US-Iran deal will be signed on Sunday, with Strait of Hormuz to reopen",
+              "publishedAt": "2026-06-13T17:00:00Z"
             }
           ]
         },
         {
-          "lean": "foreign-eastern",
-          "keyFraming": "Tehran insists no deal is final and that any agreement must also end the fighting in Lebanon.",
-          "summary": "Foreign Minister Araghchi, speaking via Iranian state media, said the 'Islamabad Memorandum has never been closer' but is unsigned and could still change, describing a two-stage MoU and urging media to stop treating it as finalized. Iran's foreign ministry earlier called reports of a finalized agreement 'merely speculation' and said any deal must halt hostilities in Lebanon as well; officials reiterated they would not ship near-weapons-grade uranium abroad.",
+          "lean": "left",
+          "keyFraming": "Trump's shifting deal-imminent claims meet repeated Iranian denials; he has said 'peace is near' before.",
+          "summary": "Left framing stressed the gap between Trump's announcements and Tehran's contradictions — Fars calling Sunday 'completely false' and the foreign ministry saying negotiators have no travel plans — and recalled prior episodes where Trump declared a deal near before it slipped.",
           "sources": [
             {
-              "outlet": "The Business Standard",
-              "url": "https://www.tbsnews.net/world/iran-says-no-final-decision-made-deal-trump-hopes-could-be-signed-soon-1460986",
-              "title": "Iran says no final decision made on deal Trump hopes could be signed soon",
-              "publishedAt": "2026-06-12T09:00:00Z"
+              "outlet": "NPR",
+              "url": "https://www.npr.org/2026/06/13/nx-s1-5857149/trump-iran-war-peace-deal",
+              "title": "Trump says Iran peace deal to be signed Sunday. Iran doubts timing",
+              "publishedAt": "2026-06-13T15:00:00Z"
             },
             {
               "outlet": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/12/pakistan-says-final-agreed-upon-text-of-iran-war-ceasefire-deal-reached",
-              "title": "Iran's FM says ceasefire deal with US has 'never been closer'",
-              "publishedAt": "2026-06-12T18:00:00Z"
+              "url": "https://www.aljazeera.com/news/2026/6/13/trump-says-iran-deal-to-be-signed-tomorrow-contradicting-iranian-official",
+              "title": "Trump says Iran deal to be signed tomorrow, contradicting Iranian official",
+              "publishedAt": "2026-06-13T14:00:00Z"
             }
           ]
         }
@@ -74,8 +148,8 @@
     },
     {
       "id": "russia-massive-strike-kyiv-dnipro-2026-06-13",
-      "headline": "Massive Russian missile-and-drone barrage on Kyiv and Dnipro kills at least 22 as Ukraine's refinery strikes deepen",
-      "summary": "A large overnight Russian barrage struck Ukraine, with Kyiv the main target; officials reported at least 22 killed (6 in Kyiv, 16 in Dnipro) and 130+ wounded. Ukraine's air force said Russia launched 73 missiles and 656 drones, intercepting most. The strikes follow Ukraine's deep-strike campaign on Russian refineries, which has caused gasoline shortages across nearly 60 regions. Putin admitted the strikes cause damage while vowing to escalate retaliation.",
+      "headline": "Russian overnight barrage kills at least 22 across Kyiv and Dnipro; Zelensky says strikes will continue without air defense",
+      "summary": "A large overnight Russian missile-and-drone attack killed at least 22 people — including children in Dnipro — and wounded more than 130, toppling an apartment building, with Ukraine reporting roughly 73 missiles and over 600 drones launched and most intercepted. Zelensky called it 'an explicit statement by Russia' that strikes will continue absent better missile defense, ahead of his push at the G7 for sanctions and air defenses. Trump suggested the strike set back peace efforts.",
       "category": "war",
       "importance": 4,
       "tags": [
@@ -87,43 +161,49 @@
         "energy"
       ],
       "firstSeenAt": "2026-06-13T23:05:23Z",
-      "updatedAt": "2026-06-13T23:05:23Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "A massive Russian barrage kills 22 as Moscow escalates ahead of the G7, with Ukraine's energy strikes biting.",
-          "summary": "PBS NewsHour reported a massive Russian attack on Kyiv and other Ukrainian cities killed at least 22 people, with officials citing 73 missiles and 656 drones launched overnight and most intercepted, framing the assault as escalation amid stalled diplomacy ahead of the G7 summit in France.",
+          "keyFraming": "Wire focus on the scale and civilian toll of one of the deadliest barrages in weeks, ahead of the G7.",
+          "summary": "PBS and CBS detailed at least 22 dead and a downed apartment block, with Ukraine citing dozens of missiles and hundreds of drones launched overnight and most intercepted, framing the assault as escalation amid stalled diplomacy.",
           "sources": [
             {
-              "outlet": "PBS NewsHour",
+              "outlet": "PBS NewsHour (AP)",
               "url": "https://www.pbs.org/newshour/world/massive-russian-attack-on-kyiv-and-other-ukrainian-cities-kills-22-people-officials-say-as-moscow-escalates-fighting",
               "title": "Massive Russian attack on Kyiv and other Ukrainian cities kills 22 people, officials say",
-              "publishedAt": "2026-06-12T20:00:00Z"
+              "publishedAt": "2026-06-13T07:00:00Z"
+            },
+            {
+              "outlet": "CBS News",
+              "url": "https://www.cbsnews.com/news/russia-ukraine-war-major-attacks-missile-drone-kill-several-wound-dozens/",
+              "title": "Major Russian missile, drone attack kills at least 22, topples apartment building",
+              "publishedAt": "2026-06-13T08:00:00Z"
             }
           ]
         },
         {
           "lean": "foreign-western",
-          "keyFraming": "Ukraine's repeated refinery hits are exhausting Russia's capacity to adapt, sparking a nationwide fuel crunch.",
-          "summary": "RFE/RL reported that drone hits on refinery hydrocrackers sparked a fuel crunch across nearly 60 Russian regions as Ukraine pounded Russia's refineries, with Kyiv restriking the same plants to delay repairs and Crimea capping fuel purchases at 20 litres per person.",
+          "keyFraming": "Zelensky ties the barrage to his G7 appeal for air defense and tougher Russia sanctions.",
+          "summary": "ABC News carried Zelensky's 'explicit statement' framing and his demand for protection from ballistic and cruise missiles, linking the strike to his case at the summit for new sanctions and use of frozen Russian assets.",
           "sources": [
             {
-              "outlet": "RFE/RL",
-              "url": "https://www.rferl.org/a/russia-fuel-crunch-ukraine-refineries-strikes/33778225.html",
-              "title": "Drone Hits On Hydrocrackers Spark Fuel Crunch, As Ukraine Pounds Russia's Refineries",
-              "publishedAt": "2026-06-12T09:00:00Z"
+              "outlet": "ABC News",
+              "url": "https://abcnews.com/International/russia-launches-horrific-drone-missile-strikes-ukraine-killing/story?id=133506283",
+              "title": "Russia launches 'horrific' drone, missile strikes on Ukraine, killing 22",
+              "publishedAt": "2026-06-13T09:00:00Z"
             }
           ]
         },
         {
           "lean": "foreign-eastern",
-          "keyFraming": "Russia frames intensified strikes as retaliation to deter Ukrainian attacks on its civilian infrastructure.",
-          "summary": "Via TASS, Putin said Russia would increase retaliatory strikes on Ukrainian infrastructure to 'deprive it of any desire' to hit Russian civilian facilities, acknowledging Ukraine's attacks were causing damage while insisting the country recovers quickly.",
+          "keyFraming": "Russia frames intensified strikes as retaliation to deter Ukrainian attacks on its infrastructure.",
+          "summary": "Via TASS, Russian officials cast the wave of strikes as a response to Ukrainian attacks on Russian energy and civilian facilities, insisting Moscow would keep raising the cost of Kyiv's long-range campaign.",
           "sources": [
             {
               "outlet": "TASS",
               "url": "https://tass.com/politics/2145865",
-              "title": "Russia to increase retaliatory strikes on Ukrainian infrastructure facilities — Putin",
+              "title": "Russia to increase retaliatory strikes on Ukrainian infrastructure facilities",
               "publishedAt": "2026-06-12T10:00:00Z",
               "isStateMedia": true
             }
@@ -133,8 +213,8 @@
     },
     {
       "id": "anthropic-fable-mythos-government-suspension-2026-06-12",
-      "headline": "US government orders Anthropic to suspend worldwide access to Fable 5 and Mythos 5 models over national-security directive",
-      "summary": "Anthropic shut off global access to its newly launched Fable 5 and Mythos 5 models on June 12 after a US export-control directive ordered it to block 'any foreign national' from using them, citing a reported jailbreak. The models had launched only three days earlier on June 9, and all other Claude models are unaffected. It appears to be the first government-forced takedown of a publicly deployed frontier AI model.",
+      "headline": "Anthropic disables Fable 5 and Mythos 5 worldwide to comply with an unprecedented US government recall",
+      "summary": "Following a June 12 federal directive, Anthropic shut off access to its two most advanced models for all customers worldwide, citing a national-security and jailbreak concern raised three days after Fable 5's launch. Anthropic disputed the finding, arguing the vulnerability is minor and already replicable using public models, and warned the order sets a precedent that could halt future frontier-model deployments industry-wide.",
       "category": "ai-tech",
       "importance": 4,
       "tags": [
@@ -145,31 +225,44 @@
         "frontier-models"
       ],
       "firstSeenAt": "2026-06-13T17:03:49Z",
-      "updatedAt": "2026-06-13T23:05:23Z",
+      "updatedAt": "2026-06-14T05:01:52Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Reporting frames the directive as an unprecedented state intervention in a deployed frontier model, with a foreign-national ban forcing a global shutdown.",
-          "summary": "TechRadar and CNN reported that a June 12 US directive ordered Anthropic to block 'any foreign national' from using Fable 5 and Mythos 5 — whether in the US or abroad — just three days after launch, citing a potential jailbreak. Unable to instantly verify every user's nationality, Anthropic disabled the models for all customers worldwide; outlets describe it as a watershed for AI national-security policy.",
+          "keyFraming": "The landmark issue is the state's power to switch off a live frontier model worldwide, not whether this one jailbreak is serious.",
+          "summary": "Bloomberg and Fortune reported that whether the cited flaw is grave or trivial, the government's demonstrated authority to disable a deployed frontier model for all users is the precedent that matters most for the AI industry.",
           "sources": [
             {
-              "outlet": "TechRadar",
-              "url": "https://www.techradar.com/ai-platforms-assistants/claude/after-a-potential-jailbreak-anthropic-is-shutting-off-access-to-its-mythos-5-and-fable-5-models-under-national-security-orders-from-the-us-government",
-              "title": "After a 'potential jailbreak', Anthropic is shutting off access to its Mythos 5 and Fable 5 models under national security orders from the US government",
-              "publishedAt": "2026-06-12T18:00:00Z"
+              "outlet": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5",
+              "title": "Anthropic Says US Orders Halt to Foreign Access for Fable 5, Mythos 5",
+              "publishedAt": "2026-06-13T12:00:00Z"
             },
             {
-              "outlet": "CNN",
-              "url": "https://www.cnn.com/2026/06/13/business/anthropic-mythos-model-national-security",
-              "title": "Anthropic suspends all access to Mythos model after US government bans foreign nationals' use",
-              "publishedAt": "2026-06-13T08:00:00Z"
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
+              "title": "Anthropic disables Fable and Mythos AI models after US bars foreign access",
+              "publishedAt": "2026-06-13T13:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "National security first: the government acted to close a vulnerability in a dual-use frontier model.",
+          "summary": "Right-leaning coverage emphasized legitimate state authority to restrict foreign access to the most capable AI when a security flaw is demonstrated, casting the recall as a precautionary national-security step.",
+          "sources": [
+            {
+              "outlet": "Decrypt",
+              "url": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
+              "title": "US Government Orders Anthropic to Pull Fable, Mythos AI Models",
+              "publishedAt": "2026-06-13T14:00:00Z"
             }
           ]
         },
         {
           "lean": "social",
-          "keyFraming": "Anthropic says the underlying jailbreak was narrow and the surfaced vulnerabilities minor, but is complying with the order.",
-          "summary": "In its own statement, Anthropic said it received only verbal evidence of a narrow, non-universal jailbreak — asking the model to read a codebase and fix flaws — and that the surfaced vulnerabilities were minor and already publicly known. The company said it is complying with the government directive while disputing the severity of the reported issue.",
+          "keyFraming": "Anthropic says the jailbreak was narrow and the surfaced flaws minor and public, but it is complying.",
+          "summary": "In its own statement, Anthropic said it received only verbal evidence of a narrow, non-universal jailbreak and that the surfaced vulnerabilities were minor and already publicly known, adding that it is complying with the directive while disputing the severity and warning of the precedent.",
           "sources": [
             {
               "outlet": "Anthropic",
@@ -178,55 +271,10 @@
               "publishedAt": "2026-06-12T22:00:00Z"
             },
             {
-              "outlet": "The New Stack",
-              "url": "https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/",
-              "title": "Federal government orders Anthropic to pull Fable 5 and Mythos 5, three days after launch",
-              "publishedAt": "2026-06-12T20:00:00Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "us-equities-friday-close-spacex-iran-relief-2026-06-13",
-      "headline": "Wall Street rises Friday on record SpaceX debut and US-Iran deal hopes; S&P 500 ends near a record",
-      "summary": "US stocks closed higher Friday June 12 as a historic SpaceX IPO and optimism over an imminent US-Iran settlement lifted sentiment. The S&P 500 rose 0.5% to 7,431.46, the Nasdaq added 0.3% to 25,888.84 and the Dow gained 354 points to 51,202.26 — recovering from the prior week's chip-driven selloff that briefly knocked the Dow below 50,000. SpaceX (SPCX) closed at $161 (+19% over its $135 IPO price), having raised a record $75B in the largest IPO in Wall Street history.",
-      "category": "markets",
-      "importance": 4,
-      "tags": [
-        "equities",
-        "sp500",
-        "nasdaq",
-        "dow",
-        "ipo",
-        "spacex"
-      ],
-      "firstSeenAt": "2026-06-13T23:05:23Z",
-      "updatedAt": "2026-06-13T23:05:23Z",
-      "perspectives": [
-        {
-          "lean": "center",
-          "keyFraming": "A relief rally on de-escalation plus a record IPO lifts indices back toward records after the chip rout.",
-          "summary": "CNBC reported indices rose Friday on Iran-deal optimism and the SpaceX debut, with the S&P 500 ending near records after rebounding from the prior week's semiconductor selloff and falling oil easing inflation fears ahead of Warsh's first FOMC.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
-              "title": "Stock market news for June 12, 2026",
-              "publishedAt": "2026-06-12T21:00:00Z"
-            }
-          ]
-        },
-        {
-          "lean": "right",
-          "keyFraming": "A private-sector triumph: Musk's SpaceX prints the biggest IPO in Wall Street history.",
-          "summary": "CNBC's IPO coverage noted SPCX jumped 19% to close at $161 in a record $75B debut at a roughly $1.77 trillion implied valuation — a marquee win for American capital markets and a counterpoint to the week's chip-driven volatility.",
-          "sources": [
-            {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
-              "title": "SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut",
-              "publishedAt": "2026-06-12T20:30:00Z"
+              "outlet": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals",
+              "title": "US orders Anthropic to disable AI models for all foreign nationals",
+              "publishedAt": "2026-06-13T10:00:00Z"
             }
           ]
         }
