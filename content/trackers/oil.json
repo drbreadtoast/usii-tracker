@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T17:04:06Z",
+  "lastUpdated": "2026-06-14T23:06:05Z",
   "disclaimer": "Refreshed by the scheduled research agent against live sources (AAA, EIA, Trading Economics, World Bank/IMF, Reuters/CNBC). Contextual figures here may lag the live TradingView and OilPrice.com quotes shown above. Baselines labelled 'pre-war' are fixed reference points (late Feb 2026) and do not change.",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "description": "Global supply/demand balance"
     },
     {
-      "name": "Reuters — Energy",
+      "name": "Reuters \u2014 Energy",
       "url": "https://www.reuters.com/business/energy/",
       "description": "Market and shipping reporting"
     }
@@ -32,8 +32,8 @@
     "barrelsBlockedDaily": 10000000,
     "globalOilSharePercent": 20,
     "insuranceStatus": "War-risk premium ~0.2-0.4% of hull value (from 0.125% pre-crisis), ~+$250k per large-tanker transit",
-    "summary": "The Strait of Hormuz — the chokepoint for roughly a fifth of seaborne crude — remains effectively closed but is on the brink of reopening. The IRGC's June 11 'total closure' claim is disputed by US CENTCOM. On Saturday June 13 President Trump and mediator Pakistan said a US-Iran memorandum to extend the ceasefire, lift the Hormuz blockade and open ~60 days of nuclear talks was 'scheduled to get signed' Sunday June 14, with the strait to reopen soon after; Iran's foreign ministry spokesman Esmail Baghaei countered 'it will not be tomorrow' while saying a signing 'in the coming days cannot be ruled out.' Officials say a deal may instead be inked on the sidelines of the G7 leaders' summit in Évian-les-Bains, France (June 15-17). As of Sunday June 14 no signing had occurred and no formal transit resumption is in force; shipping trackers report near-zero verified outbound commercial transits for several consecutive days.",
-    "source": "Wikipedia — 2026 Strait of Hormuz crisis",
+    "summary": "The Strait of Hormuz \u2014 the chokepoint for roughly a fifth of seaborne crude \u2014 remains effectively closed but appears on the brink of reopening after a diplomatic breakthrough. Pakistan's PM Shehbaz Sharif and President Trump said on June 14 that the US and Iran had REACHED a peace deal on a final, agreed-upon text declaring the 'immediate and permanent termination of military operations on all fronts' (including Lebanon); each side is expected to sign electronically, with an official signing ceremony reported for Friday June 19 in Switzerland and the matter to be discussed at the G7 leaders' summit in \u00c9vian-les-Bains, France (June 15-17). Iran's foreign minister Abbas Araghchi used softer language, calling the memorandum 'closer to completion than ever,' and earlier (June 13) Iran's FM spokesman Esmail Baghaei said it would 'not be tomorrow.' The draft commits Tehran to reopen the strait within 30 days, lift the naval blockade, release ~$24bn in frozen Iranian funds and open ~60 days of nuclear talks; a US official put the odds at 80-85%. As of Sunday June 14 no signing had occurred and no formal transit resumption is in force; shipping trackers report near-zero verified outbound commercial transits. Analysts caution that even after signing, demining the strait (Britain and France have signaled help), restarting idled Gulf fields and repairing damaged facilities will delay a full flow recovery; markets stayed closed with crude at Friday's two-month-low settles (WTI $84.88, Brent $87.33).",
+    "source": "Wikipedia \u2014 2026 Strait of Hormuz crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
     "timeline": [
       {
@@ -54,7 +54,7 @@
         "date": "2026-03-27",
         "event": "IRGC announces the Strait is shut to any vessel travelling to/from the US, Israel and their allies; Brent peaks near $118/bbl on the quarter.",
         "status": "effectively_closed",
-        "source": "EIA — Today in Energy",
+        "source": "EIA \u2014 Today in Energy",
         "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67424"
       },
       {
@@ -115,21 +115,21 @@
       },
       {
         "date": "2026-06-11",
-        "event": "Oil reversed its early-session spike: after Brent topped ~$96 and WTI neared $92 on Iran’s IRGC total-closure claim, crude turned lower in US-morning trade (WTI toward ~$89, Brent toward ~$92) after the US military said it had \"completed\" its latest strikes on Iran, reviving hopes negotiations could resume. The strait remains effectively closed (Iran claims total closure; US CENTCOM disputes it).",
+        "event": "Oil reversed its early-session spike: after Brent topped ~$96 and WTI neared $92 on Iran\u2019s IRGC total-closure claim, crude turned lower in US-morning trade (WTI toward ~$89, Brent toward ~$92) after the US military said it had \"completed\" its latest strikes on Iran, reviving hopes negotiations could resume. The strait remains effectively closed (Iran claims total closure; US CENTCOM disputes it).",
         "status": "effectively_closed",
         "source": "CNBC / EIA STEO",
         "sourceUrl": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html"
       },
       {
         "date": "2026-06-11",
-        "event": "Oil reversed sharply lower in late US trade after President Trump abruptly canceled planned Thursday-night strikes on Iran and said the US had 'made a great settlement of the war,' subject to finalization, with a signing expected within days. Brent settled down about 3% near $90.38 and WTI down about 2% near $87.71, both extending losses after-hours (Brent ~$89.15, WTI ~$86.51). Tanker traffic through Hormuz had reportedly increased — about half of transiting ships using the Iran-designated route — easing acute supply fears, though Iran's IRGC claim of a total closure remained disputed by US CENTCOM and Iran did not confirm any deal.",
+        "event": "Oil reversed sharply lower in late US trade after President Trump abruptly canceled planned Thursday-night strikes on Iran and said the US had 'made a great settlement of the war,' subject to finalization, with a signing expected within days. Brent settled down about 3% near $90.38 and WTI down about 2% near $87.71, both extending losses after-hours (Brent ~$89.15, WTI ~$86.51). Tanker traffic through Hormuz had reportedly increased \u2014 about half of transiting ships using the Iran-designated route \u2014 easing acute supply fears, though Iran's IRGC claim of a total closure remained disputed by US CENTCOM and Iran did not confirm any deal.",
         "status": "effectively_closed",
         "source": "CNBC / Bloomberg",
         "sourceUrl": "https://www.cnbc.com/2026/06/11/trump-iran-strikes-deal.html"
       },
       {
         "date": "2026-06-12",
-        "event": "Oil extended its slide in after-hours and early June 12 trade — WTI toward ~$86 (its lowest since April) and Brent toward ~$89 — after Trump said the US had 'made a great settlement of the war, subject to finalization,' with a signing that would reopen the Strait of Hormuz possibly this weekend in Europe. Hormuz tanker traffic was reported rising, with roughly half of transiting ships using the Iran-designated route, but Iran did not confirm any deal and the IRGC's total-closure claim — disputed by US CENTCOM — remained in place.",
+        "event": "Oil extended its slide in after-hours and early June 12 trade \u2014 WTI toward ~$86 (its lowest since April) and Brent toward ~$89 \u2014 after Trump said the US had 'made a great settlement of the war, subject to finalization,' with a signing that would reopen the Strait of Hormuz possibly this weekend in Europe. Hormuz tanker traffic was reported rising, with roughly half of transiting ships using the Iran-designated route, but Iran did not confirm any deal and the IRGC's total-closure claim \u2014 disputed by US CENTCOM \u2014 remained in place.",
         "status": "effectively_closed",
         "source": "NPR / CNBC",
         "sourceUrl": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes"
@@ -150,7 +150,7 @@
       },
       {
         "date": "2026-06-13",
-        "event": "Crude held near a two-month low into the weekend (WTI ~$84-85, Brent ~$87-88) as reports said a US-Iran memorandum — the 'Islamabad Declaration' — could be signed Sunday in Geneva by VP Vance and Iran's parliament speaker Qalibaf, with the deal committing Tehran to reopen the Strait of Hormuz within 30 days. Iran's foreign minister stressed the text was still under review and not finalized; the strait stayed effectively closed with no confirmed transit resumption.",
+        "event": "Crude held near a two-month low into the weekend (WTI ~$84-85, Brent ~$87-88) as reports said a US-Iran memorandum \u2014 the 'Islamabad Declaration' \u2014 could be signed Sunday in Geneva by VP Vance and Iran's parliament speaker Qalibaf, with the deal committing Tehran to reopen the Strait of Hormuz within 30 days. Iran's foreign minister stressed the text was still under review and not finalized; the strait stayed effectively closed with no confirmed transit resumption.",
         "status": "effectively_closed",
         "source": "Reuters / Al Jazeera",
         "sourceUrl": "https://www.tbsnews.net/world/us-iran-peace-memorandum-could-be-signed-sunday-geneva-1461326"
@@ -171,10 +171,17 @@
       },
       {
         "date": "2026-06-14",
-        "event": "Sunday arrived with no US-Iran signing despite Trump's Saturday claim the deal was 'scheduled to get signed' June 14. Iran's foreign ministry held that the memorandum 'will not be tomorrow' but could come 'in the coming days,' and officials signaled a possible signing on the sidelines of the G7 leaders' summit in Évian-les-Bains, France (June 15-17). With markets closed for the weekend, crude held Friday's roughly two-month-low settles (WTI $84.88, Brent $87.33); a senior Trump official kept the odds of an agreement near 80%. The Strait of Hormuz stayed effectively closed with shipping trackers reporting near-zero verified outbound commercial transits, and analysts cautioned that even after a deal, mine-clearing, restarting idled Gulf fields and repairing damaged facilities would delay a full flow recovery.",
+        "event": "Sunday arrived with no US-Iran signing despite Trump's Saturday claim the deal was 'scheduled to get signed' June 14. Iran's foreign ministry held that the memorandum 'will not be tomorrow' but could come 'in the coming days,' and officials signaled a possible signing on the sidelines of the G7 leaders' summit in \u00c9vian-les-Bains, France (June 15-17). With markets closed for the weekend, crude held Friday's roughly two-month-low settles (WTI $84.88, Brent $87.33); a senior Trump official kept the odds of an agreement near 80%. The Strait of Hormuz stayed effectively closed with shipping trackers reporting near-zero verified outbound commercial transits, and analysts cautioned that even after a deal, mine-clearing, restarting idled Gulf fields and repairing damaged facilities would delay a full flow recovery.",
         "status": "effectively_closed",
         "source": "NPR / Bloomberg / CNBC",
         "sourceUrl": "https://www.npr.org/2026/06/13/nx-s1-5857149/trump-iran-war-peace-deal"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Diplomatic breakthrough: Pakistan's PM Shehbaz Sharif and President Trump said the US and Iran had REACHED a peace deal on a final, agreed-upon text declaring the 'immediate and permanent termination of military operations on all fronts,' including Lebanon. Each side is expected to sign electronically, with an official signing ceremony reported for Friday June 19 in Switzerland; the deal will be discussed at the G7 summit in \u00c9vian-les-Bains, France (June 15-17). The accord commits Iran to reopen the Strait of Hormuz within 30 days, lift the naval blockade and release ~$24bn in frozen funds in exchange for sanctions relief and ~60 days of nuclear talks. Iran's FM Abbas Araghchi was more measured, calling it 'closer to completion than ever.' With weekend markets closed, crude held Friday's two-month-low settles (WTI $84.88, Brent $87.33); the strait stayed effectively closed pending implementation, with mine-clearing (Britain and France offered help), field restarts and facility repairs seen delaying a full flow recovery.",
+        "status": "effectively_closed",
+        "source": "CNBC / Bloomberg / CBS News",
+        "sourceUrl": "https://www.cnbc.com/2026/06/14/trump-g7-iran-deal-france-ukraine.html"
       }
     ]
   },
@@ -206,7 +213,7 @@
       {
         "date": "2026-03-31",
         "price": 3.99,
-        "label": "Nears $4.00 — highest in real terms in 2+ years",
+        "label": "Nears $4.00 \u2014 highest in real terms in 2+ years",
         "isEvent": true
       },
       {
@@ -377,7 +384,7 @@
   "keyPlayers": [
     {
       "country": "United States",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "dailyProductionMbpd": 13.5,
       "globalSharePercent": 13.7,
       "provenReservesBillionBarrels": 44.4,
@@ -387,7 +394,7 @@
     },
     {
       "country": "Saudi Arabia",
-      "flag": "🇸🇦",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
       "dailyProductionMbpd": 9.47,
       "globalSharePercent": 9.6,
       "provenReservesBillionBarrels": 258.6,
@@ -397,7 +404,7 @@
     },
     {
       "country": "Russia",
-      "flag": "🇷🇺",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
       "dailyProductionMbpd": 9.13,
       "globalSharePercent": 9.3,
       "provenReservesBillionBarrels": 80,
@@ -407,7 +414,7 @@
     },
     {
       "country": "Iran",
-      "flag": "🇮🇷",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
       "dailyProductionMbpd": 3.1,
       "globalSharePercent": 3.1,
       "provenReservesBillionBarrels": 208.6,
@@ -417,7 +424,7 @@
     },
     {
       "country": "Iraq",
-      "flag": "🇮🇶",
+      "flag": "\ud83c\uddee\ud83c\uddf6",
       "dailyProductionMbpd": 4.01,
       "globalSharePercent": 4.1,
       "provenReservesBillionBarrels": 145,
@@ -431,7 +438,7 @@
     "fuels": [
       {
         "type": "Regular gasoline",
-        "icon": "⛽",
+        "icon": "\u26fd",
         "preWarPrice": 3.05,
         "currentPrice": 4.074,
         "changePercent": 34,
@@ -440,7 +447,7 @@
       },
       {
         "type": "Diesel",
-        "icon": "🛢️",
+        "icon": "\ud83d\udee2\ufe0f",
         "preWarPrice": 3.8,
         "currentPrice": 5.45,
         "changePercent": 43.4,
@@ -449,16 +456,16 @@
       },
       {
         "type": "Jet fuel (kerosene)",
-        "icon": "✈️",
+        "icon": "\u2708\ufe0f",
         "preWarPrice": 2.45,
         "currentPrice": 4.95,
         "changePercent": 102,
-        "source": "Wikipedia — Economic impact of the 2026 Iran war",
+        "source": "Wikipedia \u2014 Economic impact of the 2026 Iran war",
         "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
       },
       {
         "type": "Heating oil",
-        "icon": "🏠",
+        "icon": "\ud83c\udfe0",
         "preWarPrice": 3.2,
         "currentPrice": 4.9,
         "changePercent": 53.1,
@@ -469,26 +476,26 @@
   },
   "keyFacts": [
     {
-      "fact": "Brent crude ended Q1 2026 at $118/bbl after starting the year near $61 — the largest quarterly price increase on an inflation-adjusted basis in EIA data going back to 1988. It has since eased to roughly $93/bbl.",
-      "source": "EIA — Today in Energy",
+      "fact": "Brent crude ended Q1 2026 at $118/bbl after starting the year near $61 \u2014 the largest quarterly price increase on an inflation-adjusted basis in EIA data going back to 1988. It has since eased to roughly $93/bbl.",
+      "source": "EIA \u2014 Today in Energy",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67424",
       "date": "2026-04-10"
     },
     {
       "fact": "The DOE has released about 17.5 million barrels from the Strategic Petroleum Reserve since March under a ~172M-bbl exchange program, with repayment-in-kind plus an 18-24% premium due in 2026-2029.",
-      "source": "EIA — Today in Energy",
+      "source": "EIA \u2014 Today in Energy",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67625",
       "date": "2026-05-21"
     },
     {
       "fact": "The World Bank projects global energy prices will rise about 24% in 2026 to their highest level since 2022, and warns up to 45 million more people could face acute food insecurity if the conflict is prolonged.",
-      "source": "World Bank — Commodity Markets Outlook",
+      "source": "World Bank \u2014 Commodity Markets Outlook",
       "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/04/28/commodity-markets-outlook-april-2026-press-release",
       "date": "2026-04-28"
     },
     {
       "fact": "The IEA characterized the Hormuz disruption as the largest supply disruption in the history of the global oil market, with an initial loss of roughly 10 million barrels/day of supply.",
-      "source": "Wikipedia — Economic impact of the 2026 Iran war",
+      "source": "Wikipedia \u2014 Economic impact of the 2026 Iran war",
       "sourceUrl": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war",
       "date": "2026-04-21"
     },
@@ -511,7 +518,7 @@
       "date": "2026-06-07"
     },
     {
-      "fact": "Oil jumped on June 8 — Brent about +4.9% toward $97.7/bbl and WTI about +3.4% toward $93.6 — after Iran and Israel traded direct strikes over the weekend, reversing a slide to ~$93 Brent on weak Chinese demand and threatening the diplomatic push to reopen the Strait of Hormuz.",
+      "fact": "Oil jumped on June 8 \u2014 Brent about +4.9% toward $97.7/bbl and WTI about +3.4% toward $93.6 \u2014 after Iran and Israel traded direct strikes over the weekend, reversing a slide to ~$93 Brent on weak Chinese demand and threatening the diplomatic push to reopen the Strait of Hormuz.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/07/iran-fires-missiles-israel-ceasefire-strains.html",
       "date": "2026-06-08"
@@ -523,7 +530,7 @@
       "date": "2026-06-08"
     },
     {
-      "fact": "Analysts told CNBC that softer Chinese crude buying and inventory draws have so far kept oil under $100 despite the closed Strait of Hormuz and renewed Iran-Israel strikes — with Brent settling near $94 after an intraday spike to ~$97.7 — but warned the demand-side cushion is unlikely to hold if hostilities escalate.",
+      "fact": "Analysts told CNBC that softer Chinese crude buying and inventory draws have so far kept oil under $100 despite the closed Strait of Hormuz and renewed Iran-Israel strikes \u2014 with Brent settling near $94 after an intraday spike to ~$97.7 \u2014 but warned the demand-side cushion is unlikely to hold if hostilities escalate.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/08/china-oil-iran-war-us-israel-energy-prices-strait-hormuz.html",
       "date": "2026-06-08"
@@ -535,7 +542,7 @@
       "date": "2026-06-09"
     },
     {
-      "fact": "JPMorgan estimates visible Strait of Hormuz traffic remains at just ~15% of pre-war levels after three months of conflict, yet oil futures have stayed under $100 — attributed to soft Chinese demand, SPR releases and record US output.",
+      "fact": "JPMorgan estimates visible Strait of Hormuz traffic remains at just ~15% of pre-war levels after three months of conflict, yet oil futures have stayed under $100 \u2014 attributed to soft Chinese demand, SPR releases and record US output.",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/06/09/us-army-apache-helicopter-strait-of-hormuz-iran",
       "date": "2026-06-09"
@@ -559,19 +566,19 @@
       "date": "2026-06-10"
     },
     {
-      "fact": "US May CPI rose 4.2% year-over-year — the highest since April 2023 — with the energy index up 23.5% and gasoline up about 40%, making the Hormuz-driven oil shock the primary driver of the worst inflation reading in three years.",
+      "fact": "US May CPI rose 4.2% year-over-year \u2014 the highest since April 2023 \u2014 with the energy index up 23.5% and gasoline up about 40%, making the Hormuz-driven oil shock the primary driver of the worst inflation reading in three years.",
       "source": "BLS / CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html",
       "date": "2026-06-10"
     },
     {
-      "fact": "China's May 2026 crude imports fell to roughly 7.8 million barrels per day — the lowest in more than eight years — as Hormuz-choked Gulf supply pushed Beijing to cut refinery runs and draw down strategic reserves rather than chase replacement barrels at elevated prices, a demand slump that has helped keep Brent under $100.",
+      "fact": "China's May 2026 crude imports fell to roughly 7.8 million barrels per day \u2014 the lowest in more than eight years \u2014 as Hormuz-choked Gulf supply pushed Beijing to cut refinery runs and draw down strategic reserves rather than chase replacement barrels at elevated prices, a demand slump that has helped keep Brent under $100.",
       "source": "Bloomberg",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-09/china-s-oil-imports-plunge-to-eight-year-low-on-war-disruptions",
       "date": "2026-06-09"
     },
     {
-      "fact": "US commercial crude inventories fell about 7.2 million barrels in the latest week per the EIA — a seventh consecutive weekly draw — as domestic refiners lean on stored crude to offset reduced seaborne imports, lending price support despite weak Chinese demand.",
+      "fact": "US commercial crude inventories fell about 7.2 million barrels in the latest week per the EIA \u2014 a seventh consecutive weekly draw \u2014 as domestic refiners lean on stored crude to offset reduced seaborne imports, lending price support despite weak Chinese demand.",
       "source": "EIA Weekly Petroleum Status Report",
       "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/",
       "date": "2026-06-10"
@@ -601,7 +608,7 @@
       "date": "2026-06-11"
     },
     {
-      "fact": "Oil reversed an early June 11 spike (Brent above $96, WTI near $92 on Iran’s IRGC total-closure claim) to trade lower (WTI toward ~$89, Brent toward ~$92) after the US military said it had completed its latest strikes on Iran and negotiation hopes revived; the EIA’s STEO still projects Brent could average ~$105/bbl in June-July if Hormuz stays shut to most traffic.",
+      "fact": "Oil reversed an early June 11 spike (Brent above $96, WTI near $92 on Iran\u2019s IRGC total-closure claim) to trade lower (WTI toward ~$89, Brent toward ~$92) after the US military said it had completed its latest strikes on Iran and negotiation hopes revived; the EIA\u2019s STEO still projects Brent could average ~$105/bbl in June-July if Hormuz stays shut to most traffic.",
       "source": "CNBC / EIA STEO",
       "sourceUrl": "https://www.eia.gov/outlooks/steo/",
       "date": "2026-06-11"
@@ -619,25 +626,25 @@
       "date": "2026-06-11"
     },
     {
-      "fact": "Oil sold off sharply after President Trump canceled planned strikes on Iran on June 11 and claimed a war settlement 'subject to finalization,' with a Hormuz-reopening deal possibly signed this weekend in Europe; US crude fell about 2.8% to roughly $87.56 and Brent about 3.5% to roughly $89.84, extending losses after-hours toward $86 WTI — the lowest since April.",
+      "fact": "Oil sold off sharply after President Trump canceled planned strikes on Iran on June 11 and claimed a war settlement 'subject to finalization,' with a Hormuz-reopening deal possibly signed this weekend in Europe; US crude fell about 2.8% to roughly $87.56 and Brent about 3.5% to roughly $89.84, extending losses after-hours toward $86 WTI \u2014 the lowest since April.",
       "source": "CNBC / NPR",
       "sourceUrl": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes",
       "date": "2026-06-11"
     },
     {
-      "fact": "US May Producer Price Index rose 1.1% month-over-month and 6.5% year-over-year — the highest annual wholesale inflation since November 2022 — with about 80% of the gain from a 10.7% jump in final-demand energy and wholesale gasoline up 23.4%, confirming the Hormuz oil shock is flowing through to producer prices days before the June 16-17 FOMC meeting.",
-      "source": "BLS — Producer Price Index, May 2026",
+      "fact": "US May Producer Price Index rose 1.1% month-over-month and 6.5% year-over-year \u2014 the highest annual wholesale inflation since November 2022 \u2014 with about 80% of the gain from a 10.7% jump in final-demand energy and wholesale gasoline up 23.4%, confirming the Hormuz oil shock is flowing through to producer prices days before the June 16-17 FOMC meeting.",
+      "source": "BLS \u2014 Producer Price Index, May 2026",
       "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
       "date": "2026-06-11"
     },
     {
-      "fact": "On June 12, 2026 crude extended losses to a roughly two-month low — WTI near $84-86/bbl and Brent near $88-89 — after President Trump said a 'great settlement' with Iran could be signed over the weekend in Europe and reopen the Strait of Hormuz; Iran did not confirm any final deal.",
+      "fact": "On June 12, 2026 crude extended losses to a roughly two-month low \u2014 WTI near $84-86/bbl and Brent near $88-89 \u2014 after President Trump said a 'great settlement' with Iran could be signed over the weekend in Europe and reopen the Strait of Hormuz; Iran did not confirm any final deal.",
       "source": "Investing.com (Reuters)",
       "sourceUrl": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
       "date": "2026-06-12"
     },
     {
-      "fact": "OPEC cut its 2026 world oil demand-growth forecast to about 970,000 bpd, down from roughly 1.17 million bpd — a second consecutive downward revision — citing slower Chinese demand and war-driven price pressure even as the Strait of Hormuz stayed effectively closed.",
+      "fact": "OPEC cut its 2026 world oil demand-growth forecast to about 970,000 bpd, down from roughly 1.17 million bpd \u2014 a second consecutive downward revision \u2014 citing slower Chinese demand and war-driven price pressure even as the Strait of Hormuz stayed effectively closed.",
       "source": "Investing.com (Reuters)",
       "sourceUrl": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
       "date": "2026-06-12"
@@ -649,19 +656,19 @@
       "date": "2026-06-12"
     },
     {
-      "fact": "OPEC's June Monthly Oil Market Report cut its 2026 world oil demand-growth forecast to about 970,000 bpd, down from roughly 1.17 million bpd in May — a second consecutive downgrade — citing the Iran war, the Strait of Hormuz closure and softer Chinese, Indian and Middle East demand. OPEC still sees a smaller hit than the EIA and IEA and projects a 1.73 million bpd rebound in 2027.",
+      "fact": "OPEC's June Monthly Oil Market Report cut its 2026 world oil demand-growth forecast to about 970,000 bpd, down from roughly 1.17 million bpd in May \u2014 a second consecutive downgrade \u2014 citing the Iran war, the Strait of Hormuz closure and softer Chinese, Indian and Middle East demand. OPEC still sees a smaller hit than the EIA and IEA and projects a 1.73 million bpd rebound in 2027.",
       "source": "Reuters / Investing.com",
       "sourceUrl": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-trump-calls-off-planned-strikes-on-iran-4738771",
       "date": "2026-06-11"
     },
     {
-      "fact": "Oil slid to a roughly two-month low on June 12 — WTI near $84.6/bbl and Brent near $87.4, both down about 3-4% — after President Trump said the US and Iran could sign a 'great settlement' as soon as the weekend in Europe that would lift oil sanctions and reopen the Strait of Hormuz within 30 days. Iranian state media circulated a 14-point draft, but Trump disputed its terms and Tehran did not confirm a final deal, leaving the chokepoint effectively closed.",
+      "fact": "Oil slid to a roughly two-month low on June 12 \u2014 WTI near $84.6/bbl and Brent near $87.4, both down about 3-4% \u2014 after President Trump said the US and Iran could sign a 'great settlement' as soon as the weekend in Europe that would lift oil sanctions and reopen the Strait of Hormuz within 30 days. Iranian state media circulated a 14-point draft, but Trump disputed its terms and Tehran did not confirm a final deal, leaving the chokepoint effectively closed.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/amp/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-12"
     },
     {
-      "fact": "US crude settled near $85.25/bbl and Brent near $88 on June 12, 2026 — both at roughly two-month lows, down about 4% on the day — after President Trump said a US-Iran settlement to reopen the Strait of Hormuz could be signed within days; Iran did not confirm a final deal.",
+      "fact": "US crude settled near $85.25/bbl and Brent near $88 on June 12, 2026 \u2014 both at roughly two-month lows, down about 4% on the day \u2014 after President Trump said a US-Iran settlement to reopen the Strait of Hormuz could be signed within days; Iran did not confirm a final deal.",
       "source": "CNBC / Investing.com",
       "sourceUrl": "https://www.cnbc.com/amp/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-12"
@@ -673,13 +680,13 @@
       "date": "2026-06-12"
     },
     {
-      "fact": "WTI crude settled at $84.88/bbl (down 3.2%) and Brent at $87.33 (down 3.4%) on June 12, 2026 — WTI's lowest close since January 25 and a roughly two-month low — as the US and Iran neared a deal to reopen the Strait of Hormuz. A senior Trump administration official put the odds of an agreement in the coming days at about 80%.",
+      "fact": "WTI crude settled at $84.88/bbl (down 3.2%) and Brent at $87.33 (down 3.4%) on June 12, 2026 \u2014 WTI's lowest close since January 25 and a roughly two-month low \u2014 as the US and Iran neared a deal to reopen the Strait of Hormuz. A senior Trump administration official put the odds of an agreement in the coming days at about 80%.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-12"
     },
     {
-      "fact": "The AAA national average for regular gasoline eased to $4.108/gallon by June 12, 2026 — down nearly 20 cents over the week — as crude slid to a two-month low on hopes for a US-Iran settlement, though pump prices remain about 35% above the late-February pre-war level near $3.05.",
+      "fact": "The AAA national average for regular gasoline eased to $4.108/gallon by June 12, 2026 \u2014 down nearly 20 cents over the week \u2014 as crude slid to a two-month low on hopes for a US-Iran settlement, though pump prices remain about 35% above the late-February pre-war level near $3.05.",
       "source": "AAA Gas Prices",
       "sourceUrl": "https://gasprices.aaa.com/",
       "date": "2026-06-12"
@@ -691,7 +698,7 @@
       "date": "2026-06-12"
     },
     {
-      "fact": "On June 13, 2026 Iran's foreign ministry said the US-Iran memorandum would not be signed Sunday June 14 as Pakistan's PM had suggested — possibly remotely 'in the coming days' — keeping crude near a two-month low (WTI ~$84.9, Brent ~$87.3) but extending uncertainty over when the Strait of Hormuz would actually reopen.",
+      "fact": "On June 13, 2026 Iran's foreign ministry said the US-Iran memorandum would not be signed Sunday June 14 as Pakistan's PM had suggested \u2014 possibly remotely 'in the coming days' \u2014 keeping crude near a two-month low (WTI ~$84.9, Brent ~$87.3) but extending uncertainty over when the Strait of Hormuz would actually reopen.",
       "source": "Middle East Monitor / France 24",
       "sourceUrl": "https://www.middleeastmonitor.com/20260613-iran-says-signing-of-memorandum-of-understanding-with-us-will-not-be-tomorrow/",
       "date": "2026-06-13"
@@ -703,7 +710,7 @@
       "date": "2026-06-12"
     },
     {
-      "fact": "WTI crude finished the week at $84.88/bbl and Brent at $87.33 — both roughly two-month lows and down about 3-4% on Friday June 12 — leaving crude well below its 2026 peak near $118 Brent as traders priced in an ~80% chance of a US-Iran deal to reopen the Strait of Hormuz, even with the chokepoint still effectively closed into the weekend.",
+      "fact": "WTI crude finished the week at $84.88/bbl and Brent at $87.33 \u2014 both roughly two-month lows and down about 3-4% on Friday June 12 \u2014 leaving crude well below its 2026 peak near $118 Brent as traders priced in an ~80% chance of a US-Iran deal to reopen the Strait of Hormuz, even with the chokepoint still effectively closed into the weekend.",
       "source": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
       "date": "2026-06-13"
@@ -721,7 +728,7 @@
       "date": "2026-06-13"
     },
     {
-      "fact": "Trump and mediator Pakistan said Saturday a deal to end the Iran war would be signed Sunday June 14 and reopen the Strait of Hormuz soon after, but Iran's foreign ministry said 'it will not be tomorrow,' and no signing occurred Sunday; officials pointed to a possible signing around the G7 summit in Évian-les-Bains, France (June 15-17). The planned memorandum would extend the ceasefire, lift the Hormuz blockade and open ~60 days of nuclear talks.",
+      "fact": "Trump and mediator Pakistan said Saturday a deal to end the Iran war would be signed Sunday June 14 and reopen the Strait of Hormuz soon after, but Iran's foreign ministry said 'it will not be tomorrow,' and no signing occurred Sunday; officials pointed to a possible signing around the G7 summit in \u00c9vian-les-Bains, France (June 15-17). The planned memorandum would extend the ceasefire, lift the Hormuz blockade and open ~60 days of nuclear talks.",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org/2026/06/13/nx-s1-5857149/trump-iran-war-peace-deal",
       "date": "2026-06-14"
@@ -730,6 +737,30 @@
       "fact": "The AAA national average for regular gasoline eased to about $4.074/gallon by June 14, 2026, extending its weekly decline as crude held a two-month low (WTI $84.88, Brent $87.33 Friday settles) on hopes for a US-Iran deal to reopen the Strait of Hormuz; pump prices remain about 34% above the late-February pre-war level near $3.05.",
       "source": "AAA Gas Prices",
       "sourceUrl": "https://gasprices.aaa.com/",
+      "date": "2026-06-14"
+    },
+    {
+      "fact": "US stocks closed Friday June 12 near records as a SpaceX IPO pop and US-Iran deal hopes lifted sentiment: the S&P 500 rose 0.5% to 7,431.46, the Nasdaq added 0.31% to 25,888.84 and the Dow gained 353 points (0.7%) to 51,202.26, with the relief rally helped by oil at eight-week lows and easing Treasury yields (10-year near 4.47%).",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
+      "date": "2026-06-12"
+    },
+    {
+      "fact": "Markets head into a heavy week with the Fed's first FOMC under new chair Kevin Warsh (June 16-17) near-certain to hold rates at 3.50-3.75% \u2014 futures price ~99.5% odds of no change \u2014 while likely dropping its easing bias to neutral after May CPI hit 4.2% and PPI 6.5%; May retail sales land Wednesday and a US-Iran signing is eyed around the G7 in France.",
+      "source": "Chase / J.P. Morgan",
+      "sourceUrl": "https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-first-federal-reserve-meeting-as-chair-june-2026",
+      "date": "2026-06-13"
+    },
+    {
+      "fact": "Pakistan's PM Shehbaz Sharif and President Trump said on June 14 the US and Iran had reached a peace deal on a final, agreed-upon text \u2014 declaring the 'immediate and permanent termination of military operations on all fronts,' including Lebanon \u2014 with each side expected to sign electronically and an official signing ceremony reported for Friday June 19 in Switzerland. The accord commits Iran to reopen the Strait of Hormuz within 30 days, lift the naval blockade and release about $24bn in frozen funds in exchange for sanctions relief and ~60 days of nuclear talks; Iran's FM Araghchi was more guarded, calling it 'closer to completion than ever.'",
+      "source": "CNBC / NewsNation / CBS News",
+      "sourceUrl": "https://www.cnbc.com/2026/06/14/trump-g7-iran-deal-france-ukraine.html",
+      "date": "2026-06-14"
+    },
+    {
+      "fact": "Ahead of Kevin Warsh's first FOMC as Fed chair (June 16-17), CME FedWatch shows ~98% odds of a hold at 3.50-3.75%; the focus is the new dot plot, with some analysts expecting projections to show no further 2026 cuts \u2014 and a few officials possibly penciling in a hike \u2014 after May CPI hit 4.2% (core 2.9%) and PPI 6.5%. May retail sales land June 17 and a US-Iran signing is eyed around the G7 in France.",
+      "source": "Bitcoin.com / Chase / CME FedWatch",
+      "sourceUrl": "https://news.bitcoin.com/warsh-faces-his-first-test-june-17-as-traders-hunt-for-hidden-signals-in-the-feds-dot-plot/",
       "date": "2026-06-14"
     }
   ]
