@@ -1,11 +1,11 @@
 {
   "sectionId": "ai-tech",
-  "lastUpdated": "2026-06-14T23:06:05Z",
+  "lastUpdated": "2026-06-15T05:02:09Z",
   "stories": [
     {
       "id": "anthropic-fable-mythos-government-suspension-2026-06-12",
       "headline": "Anthropic disables Fable 5 and Mythos 5 worldwide under an unprecedented US export-control directive",
-      "summary": "After a June 12 letter from Commerce Secretary Howard Lutnick citing national-security authorities, Anthropic shut off access to its two most advanced models for any foreign national, including its own employees. The order \u2014 the first use of the export-control tool against a commercially deployed language model \u2014 followed a reported vulnerability concern days after Fable 5's launch. Anthropic disputed the severity and warned the standard could 'halt all new model deployments' if applied broadly.",
+      "summary": "After a June 12 letter from Commerce Secretary Howard Lutnick citing national-security authorities, Anthropic shut off access to its two most advanced models for any foreign national, including its own employees. The order — the first use of the export-control tool against a commercially deployed language model — followed a reported vulnerability concern days after Fable 5's launch. Anthropic disputed the severity and warned the standard could 'halt all new model deployments' if applied broadly.",
       "category": "ai-tech",
       "importance": 5,
       "tags": [
@@ -21,7 +21,7 @@
         {
           "lean": "center",
           "keyFraming": "The landmark issue is the state's power to switch off a live frontier model worldwide, not whether this one jailbreak is serious.",
-          "summary": "Bloomberg and TheNextWeb reported that whether the cited flaw is grave or trivial, the government's demonstrated authority to disable a deployed frontier model for all foreign users \u2014 the first time export-control tools built for chips and military tech have been turned on a commercial LLM \u2014 is the precedent that matters most for the AI industry.",
+          "summary": "Bloomberg and TheNextWeb reported that whether the cited flaw is grave or trivial, the government's demonstrated authority to disable a deployed frontier model for all foreign users — the first time export-control tools built for chips and military tech have been turned on a commercial LLM — is the precedent that matters most for the AI industry.",
           "sources": [
             {
               "outlet": "Bloomberg",
@@ -80,7 +80,7 @@
     {
       "id": "ai-executives-g7-summit-france-2026-06-12",
       "headline": "AI chiefs Amodei, Altman and Hassabis head to the G7 summit in France as governance tops the agenda",
-      "summary": "Anthropic's Dario Amodei, OpenAI's Sam Altman and Google DeepMind's Demis Hassabis will attend the G7 leaders' summit in \u00c9vian-les-Bains, France (June 15-17) \u2014 the first such gathering with all three frontier-AI chiefs present. The CEOs are expected to discuss AI infrastructure and regulation, with OpenAI signaling it expects a package of voluntary commitments including youth safety. The summit comes days after the US forced Anthropic to suspend two newly launched models.",
+      "summary": "Anthropic's Dario Amodei, OpenAI's Sam Altman and Google DeepMind's Demis Hassabis will attend the G7 leaders' summit in Évian-les-Bains, France (June 15-17) — the first such gathering with all three frontier-AI chiefs present. The CEOs are expected to discuss AI infrastructure and regulation, with OpenAI signaling it expects a package of voluntary commitments including youth safety. The summit comes days after the US forced Anthropic to suspend two newly launched models.",
       "category": "ai-tech",
       "importance": 3,
       "tags": [
@@ -96,7 +96,7 @@
         {
           "lean": "center",
           "keyFraming": "AI governance moves onto the top diplomatic table, right after a model recall and an export-controls fight.",
-          "summary": "The Next Web and Bloomberg reported the CEOs of Anthropic, OpenAI and Google DeepMind plan to attend the G7 in \u00c9vian-les-Bains, underscoring how AI governance, export controls and national-security questions have moved to the center of high-level diplomacy, made more concrete by the simultaneous Fable and Mythos suspension.",
+          "summary": "The Next Web and Bloomberg reported the CEOs of Anthropic, OpenAI and Google DeepMind plan to attend the G7 in Évian-les-Bains, underscoring how AI governance, export controls and national-security questions have moved to the center of high-level diplomacy, made more concrete by the simultaneous Fable and Mythos suspension.",
           "sources": [
             {
               "outlet": "The Next Web",
@@ -115,7 +115,7 @@
         {
           "lean": "foreign-western",
           "keyFraming": "Macron's personal invitation puts tech CEOs in the room with G7 leaders, raising questions about industry influence over the rules.",
-          "summary": "European coverage noted Altman's first G7 appearance came via a personal invitation from Macron, with the tech leaders aiming to leave with voluntary commitments \u2014 a setup critics see as the AI industry helping shape the governance regime meant to constrain it.",
+          "summary": "European coverage noted Altman's first G7 appearance came via a personal invitation from Macron, with the tech leaders aiming to leave with voluntary commitments — a setup critics see as the AI industry helping shape the governance regime meant to constrain it.",
           "sources": [
             {
               "outlet": "Quartz",
@@ -130,7 +130,7 @@
     {
       "id": "spacex-spcx-nasdaq-debut-pops-2026-06-12",
       "headline": "SpaceX surges 19% in Nasdaq debut after record $75B IPO, briefly nearing a $2 trillion valuation",
-      "summary": "SpaceX began trading on the Nasdaq under SPCX on June 12 after pricing its IPO at $135 a share and raising about $75 billion \u2014 the largest IPO on record, valuing the firm near $1.75 trillion. The stock opened around $150, ran as high as the high-$160s and closed up about 19% near $161. About $15 billion of the raise came from retail investors, anchoring a wave of mega-AI and tech listings that some analysts warn could mark a market top.",
+      "summary": "SpaceX began trading on the Nasdaq under SPCX on June 12 after pricing its IPO at $135 a share and raising about $75 billion — the largest IPO on record, valuing the firm near $1.75 trillion. The stock opened around $150, ran as high as the high-$160s and closed up about 19% near $161. About $15 billion of the raise came from retail investors, anchoring a wave of mega-AI and tech listings that some analysts warn could mark a market top.",
       "category": "ai-tech",
       "importance": 4,
       "tags": [
@@ -172,60 +172,59 @@
     },
     {
       "id": "anthropic-fable-mythos-suspension-compliance-2026-06-14",
-      "headline": "Anthropic confirms Fable 5 and Mythos 5 stay globally suspended to comply with US directive, disputes the rationale",
-      "summary": "Anthropic publicly confirmed it disabled Fable 5 and Mythos 5 for all customers worldwide to comply with a June 1 Commerce Department directive barring access by any foreign national, inside or outside the US, on national-security grounds. Anthropic disputes the order, saying the cited jailbreak is narrow and that similar prompts work on other public models like GPT-5.5; it is working to restore access.",
+      "headline": "Anthropic still locked out of Fable 5 and Mythos 5 for foreign users as it disputes the export order",
+      "summary": "Days after a Commerce Department export-control directive ordered Anthropic to suspend access to Fable 5 and Mythos 5 for any foreign national — including its own foreign-born staff — the company kept the models broadly disabled while disputing the basis. Officials cited a technique to bypass Fable 5 safeguards; Anthropic argues the jailbreak was narrow and says it is working to restore access. It remains the first export-control action against a deployed LLM.",
       "category": "ai-tech",
       "importance": 4,
-      "tags": [
-        "anthropic",
-        "ai",
-        "export-controls",
-        "national-security",
-        "commerce",
-        "regulation"
-      ],
-      "firstSeenAt": "2026-06-14T23:06:05Z",
-      "updatedAt": "2026-06-14T23:06:05Z",
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "An unprecedented government reach into a US AI deployment raises chilling-effect concerns for frontier releases.",
-          "summary": "Al Jazeera and Time reported Anthropic disabling the models worldwide to comply with a Commerce directive from Secretary Lutnick, framing it as an extraordinary government intervention into how a US lab deploys frontier models.",
+          "keyFraming": "The precedent — the state switching off a live frontier model worldwide — outweighs the specifics of this one jailbreak.",
+          "summary": "Time, Fortune and Bloomberg reported that whatever the flaw's severity, the demonstrated authority to disable a deployed frontier model for all foreign users is the landmark issue; Anthropic chose a full shutdown because selective compliance would have blocked its own foreign-born engineers.",
+          "sources": [
+            {
+              "outlet": "Time",
+              "url": "https://time.com/article/2026/06/13/anthropic-fable-mythos-ban-US-security/",
+              "title": "Anthropic Pulls Its Most Powerful AI Models After U.S. Bars Foreign Access",
+              "publishedAt": "2026-06-13T00:00:00Z"
+            },
+            {
+              "outlet": "Fortune",
+              "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
+              "title": "Anthropic disables Fable and Mythos AI models following U.S. export ban",
+              "publishedAt": "2026-06-13T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "right",
+          "keyFraming": "National security first: the government acted on a dual-use model adept at finding software vulnerabilities.",
+          "summary": "Sympathetic coverage emphasizes legitimate state authority to restrict foreign access to a Mythos-class model unusually capable at identifying software flaws that could be weaponized as a cyber tool.",
           "sources": [
             {
               "outlet": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals",
               "title": "US orders Anthropic to disable AI models for all foreign nationals",
               "publishedAt": "2026-06-13T10:00:00Z"
-            },
-            {
-              "outlet": "Time",
-              "url": "https://time.com/article/2026/06/13/anthropic-fable-mythos-ban-US-security/",
-              "title": "Inside the US order forcing Anthropic to disable Fable and Mythos",
-              "publishedAt": "2026-06-13T14:00:00Z"
             }
           ]
         },
         {
-          "lean": "right",
-          "keyFraming": "A national-security export control with real competitive and business fallout.",
-          "summary": "CNBC and Fortune framed the suspension as an export-control action with business consequences, noting Anthropic's compliance even as it argues the cited security concern is narrow and matched on rival public models.",
+          "lean": "social",
+          "keyFraming": "Anthropic says the jailbreak was narrow and is complying under protest while seeking restoration.",
+          "summary": "Anthropic's statement said it had only verbal evidence of a narrow, non-universal jailbreak, believes the issue a misunderstanding, and is working to restore access, while warning the standard could halt frontier deployments if applied broadly.",
           "sources": [
             {
-              "outlet": "CNBC",
-              "url": "https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html",
-              "title": "Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive",
-              "publishedAt": "2026-06-12T19:00:00Z"
-            },
-            {
-              "outlet": "Fortune",
-              "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
-              "title": "Anthropic disables Fable, Mythos over export-control national-security order",
-              "publishedAt": "2026-06-13T13:00:00Z"
+              "outlet": "Anthropic (X)",
+              "url": "https://x.com/AnthropicAI/status/2065597531644743999",
+              "title": "Statement on US export-control directive for Fable 5 and Mythos 5",
+              "publishedAt": "2026-06-13T00:00:00Z"
             }
           ]
         }
-      ]
+      ],
+      "firstSeenAt": "2026-06-14T23:06:05Z",
+      "updatedAt": "2026-06-15T05:02:09Z"
     }
   ]
 }
