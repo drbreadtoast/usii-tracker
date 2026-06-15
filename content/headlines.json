@@ -1,29 +1,29 @@
 {
   "sectionId": "headlines",
-  "lastUpdated": "2026-06-15T05:02:09Z",
+  "lastUpdated": "2026-06-15T11:02:00Z",
   "stories": [
     {
       "id": "us-iran-deal-complete-hormuz-blockade-lifted-2026-06-14",
       "headline": "Trump declares US-Iran deal 'complete'; Hormuz to reopen, naval blockade to lift, frozen funds to be released",
-      "summary": "President Trump announced on June 14 that the agreement with Iran is 'now complete,' ending hostilities and reopening the Strait of Hormuz. Per the reported terms, Iran reopens Hormuz while the US lifts its naval blockade and releases roughly $25bn in frozen assets, imposing no new sanctions pending a final deal; Iran reaffirms it will not build nuclear weapons. A formal signing is slated for Switzerland later in the week.",
+      "summary": "Trump declared the US-Iran agreement 'now complete' on June 14, ending hostilities 'on all fronts, including Lebanon' and reopening the Strait of Hormuz. Iran reopens Hormuz and lifts its naval blockade; the US releases ~$24bn in frozen assets and waives oil sanctions pending ~60 days of nuclear talks. An electronic signing and ceremony in Switzerland are set for June 19. As Monday markets opened, oil plunged about 5% to a three-month low and global equities surged.",
       "category": "war",
       "importance": 5,
       "perspectives": [
         {
           "lean": "center",
-          "keyFraming": "Preliminary deal ends active war and reopens a critical global oil chokepoint, but full nuclear terms remain unsettled.",
-          "summary": "Reuters/AP-line reporting frames the announcement as a war-ending preliminary agreement: Hormuz reopening alongside a lifted US blockade, about $25bn released, oil-sanction waivers and an Iranian non-nuclear pledge, with a final accord still to be negotiated.",
+          "keyFraming": "A war-ending framework reopens a critical oil chokepoint and roils markets, though full nuclear terms remain unsettled until the June 19 signing.",
+          "summary": "Reuters/AP-line reporting frames the announcement as a war-ending framework: Hormuz reopening alongside a lifted US blockade, about $24bn released, oil-sanction waivers and an Iranian non-nuclear pledge, with the MoU to be signed June 19 in Switzerland and implementation — mine-clearing, field restarts — still ahead.",
           "sources": [
             {
               "outlet": "NPR",
-              "url": "https://www.npr.org/2026/06/14/nx-s1-5858099/us-iran-trump-deal-end-war-hormuz",
-              "title": "Trump says there is a deal to end the war with Iran",
-              "publishedAt": "2026-06-14T00:00:00Z"
+              "url": "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates",
+              "title": "U.S. and Iran announce a deal to end the war, reopen Strait of Hormuz",
+              "publishedAt": "2026-06-15T00:00:00Z"
             },
             {
-              "outlet": "Arab News",
-              "url": "https://www.arabnews.com/node/2647203/world",
-              "title": "G7 leaders meet in France after US and Iran declare agreement to end war",
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/2026/06/14/us-iran-war-peace-deal.html",
+              "title": "U.S. and Iran reach deal to end the Mideast war, with agreement set to be signed Friday",
               "publishedAt": "2026-06-14T00:00:00Z"
             }
           ]
@@ -54,10 +54,82 @@
               "publishedAt": "2026-06-14T00:00:00Z"
             }
           ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "Tehran casts the memorandum as consolidating a wartime victory, not a concession.",
+          "summary": "Iranian state media quoted Foreign Minister Abbas Araghchi describing the memorandum with the US as the fruit of two months of negotiations aimed at 'consolidating the victory the Iranian people had already achieved,' a framing aimed at domestic audiences ahead of the signing.",
+          "sources": [
+            {
+              "outlet": "IRNA",
+              "url": "https://en.irna.ir/news/86181100/Araghchi-says-MoU-with-US-will-consolidate-victory-of-Iranian",
+              "title": "Araghchi says MoU with US will consolidate victory of Iranian people",
+              "publishedAt": "2026-06-13T00:00:00Z",
+              "isStateMedia": true
+            }
+          ]
         }
       ],
       "firstSeenAt": "2026-06-14T23:06:05Z",
-      "updatedAt": "2026-06-15T05:02:09Z"
+      "updatedAt": "2026-06-15T11:02:00Z"
+    },
+    {
+      "id": "oil-plunges-us-iran-hormuz-deal-2026-06-15",
+      "headline": "Oil falls over 4% to lowest since March as US-Iran deal sets Strait of Hormuz reopening; global equities surge",
+      "summary": "Crude tumbled as Monday trading opened after the US and Iran confirmed a war-ending deal to reopen the Strait of Hormuz, with an MoU signing set for June 19 in Switzerland. Brent fell about 4.7% toward $83 and WTI about 5% toward $80-81, both at roughly three-month lows on expectations of a supply surge. Global equities rallied — the Nikkei and Kospi jumped over 5% and S&P 500 futures rose — as the war premium unwound days before Kevin Warsh's first FOMC.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "oil",
+        "brent",
+        "wti",
+        "hormuz",
+        "equities",
+        "iran-deal"
+      ],
+      "firstSeenAt": "2026-06-15T11:02:00Z",
+      "updatedAt": "2026-06-15T11:02:00Z",
+      "perspectives": [
+        {
+          "lean": "center",
+          "keyFraming": "A fifth of the world's seaborne oil flows through Hormuz; its reopening removes the single largest bullish factor of 2026.",
+          "summary": "Reuters-line reporting framed the sell-off as markets pricing a rapid return of barred Gulf barrels: Brent dropped about $4 to roughly $83 and WTI about 5% to the low $80s, the lowest since March, with the IEA's Oil Market Report due June 17 set to extend forecasts to 2027.",
+          "sources": [
+            {
+              "outlet": "Investing.com / Reuters",
+              "url": "https://www.investing.com/news/commodities-news/oil-slips-over-4-after-us-iran-reach-peace-deal-reopen-strait-of-hormuz-4741118",
+              "title": "Oil slips over 4% after US, Iran reach peace deal to reopen Strait of Hormuz",
+              "publishedAt": "2026-06-15T04:30:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "foreign-eastern",
+          "keyFraming": "Import-dependent Asian markets cheered the deal as relief for energy security, even amid supply-glut fears.",
+          "summary": "Asian-market coverage reported the Nikkei and Kospi surging more than 5% and crude hitting its lowest since March, framing the reopening as relief for import-dependent economies while traders warned of a glut as barred barrels return.",
+          "sources": [
+            {
+              "outlet": "Sunday Guardian Live",
+              "url": "https://sundayguardianlive.com/world/brent-crude-oil-price-today-june-15-brent-crude-hits-lowest-level-since-march-as-usiran-deal-triggers-supply-surge-fears-check-latest-global-rates-across-countries-markets-207392/",
+              "title": "Brent Crude Hits Lowest Since March as US-Iran Deal Triggers Supply Surge Fears",
+              "publishedAt": "2026-06-15T06:00:00Z"
+            }
+          ]
+        },
+        {
+          "lean": "government",
+          "keyFraming": "European leaders welcomed the deal and urged rapid Hormuz reopening, signaling sanctions relief as the G7 opened.",
+          "summary": "World leaders welcomed the agreement as the G7 opened in Évian; the UK, France, Germany and Italy called it a moment of opportunity and urged 'unrestricted freedom of navigation' through Hormuz, with Europe signaling sanctions calibration as oil flows resume.",
+          "sources": [
+            {
+              "outlet": "CNBC",
+              "url": "https://www.cnbc.com/amp/2026/06/15/europe-japan-countries-welcome-us-iran-deal-strait-of-hormuz-reopening.html",
+              "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
+              "publishedAt": "2026-06-15T08:00:00Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "warsh-first-fomc-june16-17-dot-plot-2026-06-14",
@@ -100,7 +172,7 @@
         }
       ],
       "firstSeenAt": "2026-06-14T23:06:05Z",
-      "updatedAt": "2026-06-15T05:02:09Z"
+      "updatedAt": "2026-06-15T11:02:00Z"
     },
     {
       "id": "anthropic-fable-mythos-suspension-compliance-2026-06-14",
@@ -156,24 +228,24 @@
         }
       ],
       "firstSeenAt": "2026-06-14T23:06:05Z",
-      "updatedAt": "2026-06-15T05:02:09Z"
+      "updatedAt": "2026-06-15T11:02:00Z"
     },
     {
       "id": "israel-strikes-beirut-dahiyeh-hezbollah-2026-06-14",
       "headline": "Israel strikes Beirut's Dahiyeh, killing at least three, after Hezbollah projectile fire; south Lebanon displacement orders issued",
-      "summary": "Israel struck Hezbollah targets in Beirut's southern suburb of Dahiyeh on June 14, killing at least three, in what Netanyahu and Defense Minister Katz said was a response to Hezbollah projectile fire toward northern Israel. Israel also issued forced-displacement orders for some 29 towns in southern Lebanon, and thousands fled. Analysts warn the escalation could complicate the parallel US-Iran de-escalation track.",
+      "summary": "Israel struck Hezbollah targets in Beirut's Dahiyeh suburb on June 14, killing at least three, in what Netanyahu and Defense Minister Katz called a response to drone and projectile fire on northern Israel. Israel also ordered the forced displacement of some 29 south Lebanon towns; the IDF said it notified US CENTCOM first. Iran warned the strike 'will not go unanswered,' raising fears for the just-announced US-Iran truce, which Tehran says covers Lebanon.",
       "category": "war",
       "importance": 4,
       "perspectives": [
         {
           "lean": "government",
           "keyFraming": "Israel casts strikes as a defensive response to a Hezbollah ceasefire violation — war with Hezbollah, not Lebanon.",
-          "summary": "Netanyahu and Katz said the IDF struck Hezbollah targets in Dahiyeh in response to projectile fire into Israeli territory, framing the campaign as targeting Hezbollah rather than the Lebanese state.",
+          "summary": "Netanyahu and Katz said the IDF struck Hezbollah targets in Dahiyeh in response to drone and projectile fire into Israeli territory, framing the campaign as targeting Hezbollah rather than the Lebanese state, and said CENTCOM was notified before the strike.",
           "sources": [
             {
-              "outlet": "NBC News",
-              "url": "https://www.nbcnews.com/world/lebanon/israel-continues-strikes-beiruts-southern-suburbs-rcna349995",
-              "title": "Israel continues strikes in Beirut's southern suburbs, killing 3",
+              "outlet": "Times of Israel",
+              "url": "https://www.timesofisrael.com/idf-strikes-hezbollah-target-in-beirut-after-3-drones-hit-northern-israel/",
+              "title": "Israel braces for Iranian missile fire after strike on Hezbollah target in Beirut",
               "publishedAt": "2026-06-14T00:00:00Z"
             }
           ]
@@ -193,7 +265,7 @@
         }
       ],
       "firstSeenAt": "2026-06-14T23:06:05Z",
-      "updatedAt": "2026-06-15T05:02:09Z"
+      "updatedAt": "2026-06-15T11:02:00Z"
     }
   ]
 }
